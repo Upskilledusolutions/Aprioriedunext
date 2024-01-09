@@ -7,7 +7,8 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 :root {
-  --blue: #003b93;
+  --blue:rgb(255, 84, 21) ;
   --darkblue: rgb(0, 0, 37);
-  --orange: rgb(255, 84, 21);
+  --orange: #003b93;
+  --darkorange:rgb(190, 51, 0);
 }
