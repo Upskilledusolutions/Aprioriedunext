@@ -1,7 +1,7 @@
 .topnav{
   display: flex;
-  padding: 10px 2vw;
-  width: 96vw;
+  padding: 10px 3vw;
+  width: 94vw;
   justify-content: space-between;
   align-items: center;
   background-color: white;
@@ -19,7 +19,7 @@
 }
 .hovereffect{
   background: linear-gradient(to left, white 50%, var(--blue) 50%) right;
-  background-size: 210% 100%;
+  background-size: 250% 120%;
   transition: 0.3s;
 }
 .hovereffect:hover{
@@ -42,17 +42,15 @@
   transition: 0.3s;
 }
 .logo{
-  width: 8vw;
+  width: 3vw;
   height: auto;
-  border: 1px solid rgb(228, 228, 228);
-  border-radius: 5px;
-  background-color: white;
 }
 .navlinks1{
   display: flex;
   align-items: center;
   justify-content: end;
-  gap: 1vw;
+  gap: 0.5vw;
+  font-size: 13px;
 }
 .active{
   background-color: var(--blue);
@@ -90,16 +88,14 @@
 .dropdowncontent{
   position: absolute;
   top: -50px;
-  padding: 20px;
   background-color: rgba(255, 84, 21, 0.95);
   border-radius: 5px;
   opacity: 0;
   transition: 0.3s;
   transition-delay: 0.2s;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   left: 0;
+  width: max-content;
+  padding: 20px;
 }
 .drpbtn{
   transition-delay:0.5s;
@@ -107,17 +103,15 @@
 }
 .drpbtn:hover .dropdowncontent{
   opacity: 1;
-  top: 40px;
+  top: 45px;
 }
 .drplink{
-  transition: 300ms ease;
-  background: linear-gradient(to left, var(--orange), rgb(255, 255, 255) 50%, rgb(255, 255, 255) 50%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  background: linear-gradient(to left, var(--blue) 50%, var(--darkorange) 50%) right;
   background-size: 200% 100%;
-  background-position: 100%;
+  transition: 0.3s;
 }
-.drpbtn:hover .drplink{
-  background-position: 0 100%;
+.drplink:hover{
+  background-position: left;
 }
