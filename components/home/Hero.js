@@ -1,30 +1,44 @@
-import styles from '../../src/styles/Home/Hero.module.css'
-import { motion } from "framer-motion"
 import Image from 'next/image'
+import { useEffect, useState } from 'react'
+import styles from '../../src/styles/Home/Hero.module.css'
 
-export default function Hero() {
+const [image1, image2, image3] = [ "/carousel/6.png","/carousel/4.png","/carousel/5.webp"]
+const [top1, top2, top3] = ["OUR PHILOSOPHY","OUR IDEOLOGY","LOREM IPSUM"]
+const [middle1, middle2, middle3] = ["Planning, Consistency, and focus","To educate curious minds","lorem ipsum lorem ipsum"]
+const [end1, end2, end3] = ["outshine talent... Everytime","about limitless possibilities","ipsum lorem ipsum lorem"]
+const [img1, img2, img3] = ["img1", "img2", "img3"]
+
+const Hero = () => {
+
+  const [selectedImage, setSelectedImage] = useState(0)
+  const [allImages, setAllImages] = useState([image1, image2, image3])
+  const [imagean, setImagean] = useState([img1, img2, img3])
+  const [atop, setAtop] = useState([top1, top2, top3])
+  const [amiddle, setAmiddle] = useState([middle1, middle2, middle3])
+  const [aend, setAend] = useState([end1, end2, end3])
+
+  useEffect(() => {
+    setInterval(() => {
+      setSelectedImage(selectedImage => selectedImage < 2 ? selectedImage + 1 : 0)
+    }, 8000)
+  }, [])
+
+
   return (
     <div className={styles.bcontainer}>
-      <motion.div 
-        initial={{ opacity: 0, y: 232,}}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className={styles.container}>
-          <motion.div 
-          initial={{ opacity: 0, x: -100,}}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.7 }}>
-            <div className={styles.top}>OUR PHILOSOPHY</div>
-            <div className={styles.middle}>Planning, Consistency, and focus </div>
-            <div className={styles.bottom}>outshine talent... Everytime</div>
-          </motion.div>
-          <motion.div
-          initial={{ opacity: 0, x: 100,}}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.7 }} className={styles.imgcont}>
-            <Image className={styles.img} src={'/carousel/carasoul1.png'} width={500} height={500}/>
-          </motion.div>
-      </motion.div>
+    <div className={styles.container}>
+    <div className={styles.text}>
+      <div className={`${styles.top} ${styles.text1}`}>{atop[selectedImage]}</div>
+      <div className={`${styles.middle} ${styles.text2}`}>{amiddle[selectedImage]}</div>
+      <div className={`${styles.bottom} ${styles.text3}`}>{aend[selectedImage]}</div>
+      <button className={styles.btn}>Apply Now</button>
+    </div>
+    <div className={styles.imgcont}>
+      <Image className={styles.img} width={2400} height={1600} src={allImages[selectedImage]} alt="image"/>
+    </div>
+    </div>
     </div>
   )
 }
+
+export default Hero;

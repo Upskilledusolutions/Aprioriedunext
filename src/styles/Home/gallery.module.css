@@ -1,0 +1,146 @@
+.container{
+  padding: 60px 10vw;
+  background-color: rgb(224, 224, 224);
+}
+.title5{
+  font-size: 36px;
+  font-weight: 700;
+}
+.scontainer{
+  display: flex;
+  margin-top: 60px;
+  gap: 5vw;
+}
+.gallery{
+  position: relative;
+  width: 45vw;
+}
+.img1{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.over1{
+  top: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,0.25);
+  width: 100%;
+  height: 350px;
+  transition: 0.3s;
+}
+.over1:hover{
+  background-color: rgba(0,0,0,0.4);
+}
+.belowimg{
+  display: flex;
+  gap: 1%;
+}
+.img2, .img3{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.hover1, .hover2{
+  position: relative;
+}
+.over2, .over3{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 300px;
+  background-color: rgba(0,0,0,0.25);
+  transition: 0.3s;
+}
+.over2:hover, .over3:hover{
+  background-color: rgba(0,0,0,0.4);
+}
+.right{
+  width: 30vw;
+}
+.textcontainer{
+  width: 20vw;
+  background-color: white;
+  border: 1px solid rgb(180, 180, 180);
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 4px 0px;
+}
+.text1:hover{
+  color: var(--blue);
+}
+.title{
+  margin: 30px 0 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.point{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.iconcontainer{
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: #3FCD6F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconcontainer1{
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: #FA9046;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconcontainer2{
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  background-color: #465DD1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+  font-size: 36px;
+  color: white;
+}
+.top{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.btm{
+  line-height: 26px;
+  color: rgb(96, 96, 96);
+}
+.textcontainer1{
+  width: 20vw;
+}
+@media screen and (max-width: 720px){
+  .scontainer{
+    flex-direction: column;
+  }
+  .title5,.title{
+    font-size: 28px;
+  }
+  .title{
+    margin-top: 100px;
+  }
+  .gallery,.right,.textcontainer,.textcontainer1{
+    width: 100%;
+  }
+  .textcontainer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .over1,  .img1,  .over2,  .img2,  .over3,  .img3{
+    height: 200px;
+  }
+}

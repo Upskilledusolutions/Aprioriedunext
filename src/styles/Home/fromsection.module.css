@@ -1,0 +1,240 @@
+.container{
+  display: flex;
+  padding: 0 10vw 80px;
+  gap: 7vw;
+  position: relative;
+}
+.courses{
+  width: 35vw;
+}
+.topsection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.title{
+  font-size: 30px;
+  font-weight: 700;
+}
+.btn1{
+  border-radius: 4px;
+  padding: 15px;
+  color: var(--blue);
+  border: none;
+  background: linear-gradient(to left, white 50%, var(--blue) 50%) right;
+  background-size: 200% 100%;
+  transition: 0.3s;
+}
+.btn1:hover{
+  color: white;
+  background-position: left;
+  box-shadow: rgba(0, 0, 0, 0.25) 4px 4px 5px;
+}
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5vw;
+}
+.card{
+  width: 17vw;
+  height: 250px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.img{
+  width: 17vw;
+  height: 250px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.text{
+  padding: 50px 1vw;
+  position: absolute;
+  top: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 15vw;
+  height: 150px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  transition: 0.3s;
+}
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.2) 8px 8px 10px;
+  cursor: pointer;
+}
+.card:hover .text{
+  font-size: 16px;
+}
+.heading{
+  font-size: 26px;
+  transition: 0.3s;
+}
+.card:hover .heading{
+  font-size: 20px;
+}
+.extratext{
+  position: absolute;
+  bottom: -160px;
+  transition: 0.3s;
+  background-color: white;
+  padding: 20px;
+}
+.card:hover .extratext{
+bottom: 0;
+}
+.card:hover .img{
+  height: 170px;
+}
+.card:hover .text{
+  padding: 20px 1vw;
+}
+.formcont{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 2vw;
+  border-radius: 1vw;
+}
+.formsection{
+  width: 35vw;
+  position: absolute;
+  top: -150px;
+  right: 12vw;
+}
+.formtitle{
+  font-size: 30px;
+  font-weight: 700;
+}
+.input{
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.inputcont{
+  width: 30vw;
+  font-size: 24px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid var(--blue);
+  padding: 20px;
+  border-radius: 10px;
+}
+.btn{
+  margin-top: 30px;
+  color: white;
+  background: linear-gradient(to left, var(--blue) 50%, var(--lightorange) 50%) right;
+  background-size: 200% 100%;
+  transition: 0.3s;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.btn:hover{
+  background-position: left;
+  cursor: pointer;
+}
+.title1{
+  font-size: 26px;
+  font-weight: 700;
+  padding: 0px 2vw;
+}
+.text1{
+  padding: 0px 2vw;
+}
+.lastcont{
+  width: 30vw;
+  position: relative;
+  overflow: hidden;
+  padding: 0 2vw;
+}
+.lasttext{
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 30vw;
+  height: 200px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0px 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.3s;
+  gap: 20px;
+}
+.lastimg{
+  width: 30vw;
+  height: 200px;
+  object-fit: cover;
+  transition: 0.3s;
+}
+.lastcont:hover .lasttext{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.lastcont:hover .lastimg{
+  transform: scale(0.95);
+}
+@media screen and (max-width: 720px){
+  .container{
+    flex-direction: column;
+  }
+  .formsection{
+    position: initial;
+  }
+  .courses{
+    width: 100%;
+  }
+  .topsection{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .title{
+    font-size: 26px;
+  }
+  .formtitle{
+    font-size: 26px;
+  }
+  .btn1{
+    background: var(--blue);
+    color: white;
+  }
+  .cards{
+    grid-template-columns: 1fr;
+  }
+  .card{
+    width: 100%;
+  }
+  .img{
+    width: 100%;
+  }
+  .text{
+    width: 100%;
+  }
+  .formsection{
+    width: 100%;
+  }
+  .formcont{
+    margin-bottom: 30px;
+  }
+  .inputcont{
+    width: 80%;
+  }
+  .lastcont{
+    width: 100%;
+  }
+  .lastimg{
+    width: 100%;
+  }
+  .lasttext{
+    width: 92%;
+  }
+}

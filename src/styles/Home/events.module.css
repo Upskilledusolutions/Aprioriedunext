@@ -1,0 +1,57 @@
+.container{
+  padding: 0 12vw 100px;
+}
+.title{
+  margin: 100px auto 50px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+.card{
+  width: 22vw;
+  text-align: center;
+}
+.imgcontainer{
+  height: 250px;
+  width: 25vw;
+  overflow: hidden;
+}
+.img{
+  height: 250px;
+  width: 25vw;
+  transition: 0.5s;
+}
+.imgcontainer:hover .img{
+  transform: scale(1.05);
+}
+.topic{
+  margin: 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--blue);
+  font-weight: 700;
+  color: var(--blue);
+}
+.text{
+  color: rgb(97, 97, 97);
+  font-size: 18px;
+  transition: 0.3s;
+}
+.text:hover{
+  color: black;
+}
+@media screen and (max-width: 720px){
+  .title{
+    font-size: 28px;
+  }
+  .cards{
+    flex-direction: column;
+  }
+  .card,.imgcontainer,.img{
+    width: 100%;
+  }
+}

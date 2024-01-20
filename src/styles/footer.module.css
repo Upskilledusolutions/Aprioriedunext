@@ -1,0 +1,114 @@
+.bcontainer{
+  border-top: 1px solid rgb(192, 192, 192);
+}
+.container{
+  margin: 100px 12vw 0px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+.logocontainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 170px;
+  border: 1px solid rgb(210, 210, 210);
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 4px 0px;
+  border-radius: 10px;
+}
+.logo{
+  width: 4vw;
+  height: auto;
+}
+.logotext{
+  font-weight: 700;
+}
+.lefttopic{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.textcontainer{
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text1:hover{
+  color: var(--blue);
+}
+.margintop{
+  margin-top: 40px;
+}
+.getflex{
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.getflex:hover{
+  color: var(--blue);
+}
+.copyright{
+  padding: 50px 0;
+  text-align: center;
+}
+.testimonialstext{
+  width: 30vw;
+}
+.profilecontainer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+.proimg{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.proimg1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 20px;
+  font-weight: 600;
+}
+.border{
+  border: 1px solid rgb(210, 210, 210);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 4px 0px;
+}
+@media screen and (max-width: 720px){
+  .container{
+    flex-direction: column;
+    padding: 30px 5vw;
+    margin: 0px;
+  }
+  .logocontainer{
+    width: 50%;
+  }
+  .testimonialstext{
+    width: 100%;
+  }
+  .logo{
+    width: 10vw;
+  }
+  .border{
+    margin-bottom: 50px;
+  }
+  .lefttopic{
+    margin: 0px;
+  }
+  .copyright{
+    padding: 30px 5vw;
+  }
+}
