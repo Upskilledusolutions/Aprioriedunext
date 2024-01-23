@@ -8,9 +8,9 @@ export default function LanguageClub() {
     <div>
       <div className={styles.topcontainer}>
         <div className={styles.tint}/>
-        <Image className={styles.img} src={'/background/2.jpg'} width={2400} height={1400} alt="img"/>
+        <Image className={styles.img} src={'/content/6.jpg'} width={2400} height={1400} alt="img"/>
         <div className={styles.textcontainer}>
-          <div className={styles.heading1}>Language Club</div>
+          <div className={styles.heading1}>Olympiad</div>
           <div className={styles.text1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         </div>
       </div>
@@ -21,7 +21,7 @@ export default function LanguageClub() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         </div>
         <div className={styles.right1}>
-          <Image className={styles.img2} src={'/content/3.jpg'} width={500} height={500} alt="img"/>
+          <Image className={styles.img2} src={'/content/4.jpg'} width={500} height={500} alt="img"/>
         </div>
       </div>
       <div className={styles.middle2}>
@@ -31,7 +31,7 @@ export default function LanguageClub() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         </div>
         <div className={styles.right1}>
-          <Image className={styles.img2} src={'/content/2.jpg'} width={500} height={500} alt="img"/>
+          <Image className={styles.img2} src={'/content/5.jpg'} width={500} height={500} alt="img"/>
         </div>
       </div>
     </div>

@@ -60,10 +60,10 @@ export default function Navbar() {
         </div> */}
         {/* <div className={styles.visible}><button className={styles.menu} onClick={clicked}><FaBars /></button></div> */}
         <ul className={click ? `${styles.navlinks1}` : `${styles.navlinks}`}>
-          <Link onClick={() => setClick(!click)} href='/' className={isActive('/') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Home</Link>
-          <Link onClick={() => setClick(!click)} href='/LanguageClub' className={isActive('/LanguageClub') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Language Club</Link>
+          <Link href='/' className={isActive('/') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Home</Link>
+          <Link href='/LanguageClub' className={isActive('/LanguageClub') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Language Club</Link>
           <div className={styles.full} onClick={()=> setShow1(!show1)}>
-          <Link onClick={() => setClick(!click)} href='/TestPrep' className={isActive('/TestPrep') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active} ${styles.drpbtn}`:`${styles.link} ${styles.li} ${styles.ul} ${styles.drpbtn}  ${styles.hovereffect}`}>
+          <Link href='/TestPrep' className={isActive('/TestPrep') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active} ${styles.drpbtn}`:`${styles.link} ${styles.li} ${styles.ul} ${styles.drpbtn}  ${styles.hovereffect}`}>
           Bookclub activities
             <span><IoIosArrowUp className={styles.span}/></span>
               <div className={show1 ?`${styles.dropdowncontent}` : `${styles.dropdowncontent1}`}>
@@ -74,11 +74,11 @@ export default function Navbar() {
               </div>
           </Link>
           </div>
-          <Link onClick={() => setClick(!click)} href='/Courses' className={isActive('/Courses') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Olympiad</Link>
-          <Link onClick={() => setClick(!click)} href='/Courses' className={isActive('/Courses') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Courses</Link>
-          <Link onClick={() => setClick(!click)} href='/Testimonials' className={isActive('/Testimonials') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Testimonials</Link>
-          <Link onClick={() => setClick(!click)} href='/About' className={isActive('/About') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>About</Link>
-          <Link onClick={() => setClick(!click)} href='/ContactUs' className={isActive('/ContactUs') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Contact Us</Link>
+          <Link href='/Olympiad' className={isActive('/Olympiad') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Olympiad</Link>
+          <Link href='/Courses' className={isActive('/Courses') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Courses</Link>
+          <Link href='/Testimonials' className={isActive('/Testimonials') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Testimonials</Link>
+          <Link href='/About' className={isActive('/About') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>About</Link>
+          <Link href='/ContactUs' className={isActive('/ContactUs') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Contact Us</Link>
           <div>
           <button className={styles.btn}>Apply Now</button>
         </div>

@@ -3,9 +3,9 @@ import { useEffect, useState } from 'react'
 import styles from '../../src/styles/Home/Hero.module.css'
 
 const [image1, image2, image3] = [ "/carousel/6.png","/carousel/4.png","/carousel/5.webp"]
-const [top1, top2, top3] = ["OUR PHILOSOPHY","OUR IDEOLOGY","LOREM IPSUM"]
-const [middle1, middle2, middle3] = ["Planning, Consistency, and focus","To educate curious minds","lorem ipsum lorem ipsum"]
-const [end1, end2, end3] = ["outshine talent... Everytime","about limitless possibilities","ipsum lorem ipsum lorem"]
+const [top1, top2, top3] = ["OUR PHILOSOPHY","OUR IDEOLOGY","OUR GOAL"]
+const [middle1, middle2, middle3] = ["Planning, Consistency, and focus","To educate curious minds","Provide high-quality learning"]
+const [end1, end2, end3] = ["outshine talent... Everytime","about limitless possibilities","opportunities for students"]
 const [img1, img2, img3] = ["img1", "img2", "img3"]
 
 const Hero = () => {
