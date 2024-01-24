@@ -224,3 +224,100 @@ font-weight: 500;
   box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 4px 0px;
   margin-bottom: 100px;
 }
+.consubcontainer{
+  margin: 30px 5vw;
+  padding: 30px 5vw 60px;
+  background-color: white;
+  border-radius: 20px;
+}
+.contopic{
+  font-size: 32px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+}
+.coninfos{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 50px;
+  padding: 50px 5vw;
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 4px 0px;
+}
+.coninfo{
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 17vw;
+}
+.coninfotitle{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.conmapcontainer{
+  width: 35vw;
+}
+.conmaptitle{
+  font-size: 28px;
+  font-weight: 600;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+}
+.conframe{
+  width: 30vw;
+  border-radius: 20px;
+}
+.conflex{
+  display: flex;
+  justify-content: space-between;
+  gap: 5vw;
+  border: 1px solid rgb(174, 174, 174);
+  border-radius: 50px;
+  padding: 50px 5vw;
+  box-shadow: rgba(99, 99, 99, 0.7) 0px 2px 4px 0px;
+}
+.conform{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.conform input{
+  height: 30px;
+  padding: 10px 5%;
+  border: none;
+  outline: none;
+  width: 30vw;
+  font-size: 20px;
+  border-bottom: 1px solid var(--blue);
+  padding: 20px;
+  border-radius: 10px;
+}
+.conform textarea{
+  height: 160px;
+  padding: 10px 5%;
+  border: none;
+  outline: none;
+  width: 30vw;
+  font-size: 20px;
+  border-bottom: 1px solid var(--blue);
+  padding: 20px;
+  border-radius: 10px;
+}
+.conbutton{
+  width: 95%;
+  border-radius: 5px;
+  background-color: var(--blue);
+  border: none;
+  color: white;
+  padding: 10px;
+  background: linear-gradient(to left, var(--blue) 50%, rgb(190, 51, 0) 50%) right;
+  background-size: 200% 100%;
+  transition: 0.3s;
+  font-size: 16px;
+}
+.conbutton:hover{
+  background-position: left;
+  box-shadow: rgba(0, 0, 0, 0.25) 4px 4px 5px;
+}

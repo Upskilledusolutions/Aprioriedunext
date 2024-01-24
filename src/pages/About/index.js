@@ -11,7 +11,7 @@ export default function LanguageClub() {
     <div>
       <div className={styles.topcontainer}>
         <div className={styles.tint}/>
-        <Image className={styles.img} src={'/content/21.jpg'} width={2400} height={1400} alt="img"/>
+        <Image className={styles.img} src={'/content/16.jpg'} width={2400} height={1400} alt="img"/>
         <div className={styles.textcontainer}>
           <div className={styles.heading1}>About Us</div>
           <div className={styles.text1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
