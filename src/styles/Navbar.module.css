@@ -47,8 +47,38 @@
   margin-left: 5px;
   transform: rotate(180deg);
 }
-.link:hover .span{
-  transform: rotate(0deg);
+.options{
+  position: relative;
+}
+.link:hover{
+  cursor: pointer;
+}
+.show{
+  position: absolute;
+  top: 50px;
+  left: 1vw;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 84, 21);
+  padding: 15px 20px;
+  color: white;
+  width: max-content;
+  border-radius: 5px;
+}
+.hide{
+  display: none;
+}
+.linked{
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(to left, rgba(255, 84, 21, 0) 50%, rgb(190, 51, 0) 50%) right;
+  background-size: 200% 100%;
+  transition: 0.3s;
+  padding: 10px 5px;
+}
+.linked:hover{
+  background-position: left;
+  box-shadow: rgba(0, 0, 0, 0.25) 4px 4px 5px;
 }
 .li{
   color: black;
@@ -155,13 +185,66 @@
 .menubutton{
   display: none;
 }
-.navlinks{
-  position: absolute;
-  top: -1000px;
-  left: 0;
-  transition: 0.5s;
+.btnscontainer{
+  display: none;
+}
+.menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 0;
+  outline: none;
+  width: 5vw;
+}
+.line {
+  fill: none;
+  stroke: #0f117a;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
 }
 @media screen and (max-width: 1280px){
+  .btnscontainer{
+    display: block;
+  }
+}
+@media screen and (max-width: 720px){
+  .menu {
+    width: 10vw;
+  }
+}
+@media screen and (max-width: 1280px){
+  .show{
+    position: static;
+  }
   .logo{
     width: 7vw;
     height: auto;
@@ -207,6 +290,12 @@
   .width{
     width: 80vw;
   }
+  .navlinks{
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    transition: 0.5s;
+  }
 }
 @media screen and (max-width: 720px){
   .logo{
@@ -215,7 +304,7 @@
   }
   .navlinks{
     top: 100px;
-    gap: 5vw;
+    gap: 10px;
     width: 90vw;
   }
 }

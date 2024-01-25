@@ -4,8 +4,9 @@ import Hero from '../../components/home/Hero'
 import Newsletter from '../../components/home/Newsletter'
 import Ourgallery from '../../components/home/Ourgallery'
 import Events from "../../components/home/Events"
+import dynamic from "next/dynamic";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -26,3 +27,5 @@ export default function Home() {
     </>
   )
 }
+
+export default dynamic(() => Promise.resolve(Home), { ssr: false });
