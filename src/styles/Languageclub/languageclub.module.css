@@ -361,12 +361,12 @@ font-weight: 500;
 }
 .eventcardimgcontainer{
   height: 250px;
-  width: 25vw;
+  width: 22vw;
   overflow: hidden;
 }
 .eventcardimg{
   height: 250px;
-  width: 25vw;
+  width: 22vw;
   transition: 0.5s;
   object-fit: contain;
 }

@@ -18,12 +18,14 @@
 }
 .imgcontainer{
   height: 250px;
-  width: 25vw;
+  width: 22vw;
   overflow: hidden;
+  display: flex;
+
 }
 .img{
   height: 250px;
-  width: 25vw;
+  width: 22vw;
   transition: 0.5s;
   object-fit: contain;
 }
