@@ -11,7 +11,7 @@ export default function LanguageClub() {
         <Image className={styles.img} src={'/content/speaking/1.jpg'} width={2400} height={1400} alt="img"/>
         <div className={styles.textcontainer}>
           <div className={styles.heading1}>Speaking Skills</div>
-          <div className={styles.text1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          <div className={styles.text1}>Enable to communicate effectively and confidently with others using verbal and non-verbal cues.</div>
         </div>
       </div>
       <div className={styles.middle}>

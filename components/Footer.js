@@ -5,14 +5,16 @@ import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export default function Footer() {
   const[index,setIndex] = useState(0)
-  const alltext = ["What is truly remarkable about the Apriori team is their commitment to being not only test prep professionals, but also teachers and mentors. My success on the GMAT was a direct result of their attention to detail and their focus on helping me understand test concepts.",
-  "If you want a new approach to learning things and escape the ordinary methods you are used to, join Apriori as fast as possible. Not only are you going to get a great score but also be able to think and learn way more than you did at school.",
-  "I had the opportunity to attend classes for SAT and ACT at Apriori. I would like to extend a personal thanks to Dominic Sir who has been very patient and supportive and has at all times stressed the need to be a voracious reader in order to achieve the scores in the standardized tests and to achieve overall academic excellence."]
-  const img = ["/profileimg/1 (1).png", "/profileimg/1 (2).png", "/profileimg/1 (3).png"]
-  const names = ["Rohit Bhatnagar","Dhruv Sharma","Sukriti Gupta"]
+  const alltext = ["The beginner level Spanish lessons took up a very holistic approach towards understanding the language and to gain the ability to start speaking it a little by the end of the modules. Dominic sir's way of teaching helped me in initiating and engaging in basic conversation in Spanish. Overall, it was a wonderful learning experience.",
+  "The overall content delivery was phenomenal. The level of interaction even in an online session made the whole experience fruitful. The content itself was extremely informative and the most important part of the classes that made it different and effective was the practice of correct pronunciation. That itself is something that is hard to grasp and teach.",
+  "The 10-day Spanish foundation course with Apriori Education completely changed the way I look at learning a new language. I am thankful to be aware of how enriching, fun and lasting the knowledge of an interesting language like Spanish can be. From the first class till the last; my interest only kept mounting. In this lesson, you don’t learn simply the ABCs of a language, you learn every aspect of its practicality when you come around to speaking it. In completing every assignment filled with realistic questions and conversations, I gained a sense of achievement thanks to the incredible and novel teaching of Dominic Sir. I truly miss this class, and grateful to have the experience!"]
+  const img = ["/profileimg/6 (2).png", "/profileimg/6 (4).png", "/profileimg/6 (3).png"]
+  const names = ["Dyumna","Nipun Banerjee","Prisha Chhabra"]
+  const courses = ["SPANISH FOUNDATION (A1 & A2)","SPANISH FOUNDATION (A1 & A2)","GERMAN FOUNDATION & INTERMEDIATE (A1, A2, B1 & B2)"]
 
   useEffect(() => {
     setInterval(() => {
@@ -30,7 +32,12 @@ export default function Footer() {
         </div>
         <div className={styles.lefttopic}>Our testimonials</div>
         <div className={styles.border}>
-          <div className={styles.profilecontainer}><div className={styles.proimg}><Image className={styles.proimg1} src={img[index]} width={300} height={300} alt="image"/></div> <div className={styles.name}>{names[index]}</div></div>
+          <div className={styles.profilecontainer}>
+            <div className={styles.proimg}>
+              <Image className={styles.proimg1} src={img[index]} width={300} height={300} alt="image"/>
+            </div> 
+            <div className={styles.name}><div>{names[index]}</div><div className={styles.coursename}>{courses[index]}</div></div>
+          </div>
           <div className={styles.testimonialstext}>{alltext[index]}</div>
         </div>
       </div>
@@ -38,10 +45,18 @@ export default function Footer() {
       <div>
         <div className={styles.lefttopic}>Join the activities</div>
         <div className={styles.textcontainer}>
-            <div className={styles.text1}>Reading Skills</div>
-            <div className={styles.text1}>Writing Skills</div>
-            <div className={styles.text1}>Speaking Skills</div>
-            <div className={styles.text1}>Vocab and Spellings</div>
+            <div className={styles.text1}>
+              <Link className={styles.text5} href='/ReadingSkills'>Reading Club</Link>
+            </div>
+            <div className={styles.text1}>
+              <Link className={styles.text5} href='/LanguageClub'>Language Club</Link>
+            </div>
+            <div className={styles.text1}>
+              <Link className={styles.text5} href='/WritingSkills'>Writing Club</Link>
+            </div>
+            <div className={styles.text1}>
+              <Link className={styles.text5} href='/Olympiad'>Olympiad</Link>
+            </div>
           </div>
       </div>
       <div>

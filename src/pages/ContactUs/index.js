@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../../styles/Languageclub/languageclub.module.css"
 import Image from 'next/image'
-
+import Reveal from '../../../components/Reveal'
 
 export default function LanguageClub() {
   return (
@@ -10,42 +10,54 @@ export default function LanguageClub() {
         <div className={styles.tint}/>
         <Image className={styles.img} src={'/content/17.jpg'} width={2400} height={1400} alt="img"/>
         <div className={styles.textcontainer}>
+        <Reveal>
           <div className={styles.heading1}>Contact Us</div>
-          <div className={styles.text1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        </Reveal>
+        <Reveal>
+          <div className={styles.text1}>“Get in touch with us! We're here to assist and answer your queries.”</div>
+        </Reveal>
         </div>
       </div>
       <div className={styles.consubcontainer}>
           <div className={styles.contopic}>Get in touch</div>
           <div className={styles.coninfos}>
-            <div className={styles.coninfo}>
-              <div className={styles.coninfotitle}>Address Info:</div>
-              303 A, <br />
-              Hemkunt Chambers, <br />
-              Nehru Place 110019
-            </div>
-            <div className={styles.coninfo}>
-              <div className={styles.coninfotitle}>Email Info:</div>
-              <b>Operations:</b> <br /> operations@hyperglotreview.com
-              <br /><br/>
-              <b>Sales & Marketing:</b> <br /> info@hyperglotreview.com
-              <br />
-            </div>
-            <div className={styles.coninfo}>
-              <div className={styles.coninfotitle}>Phone Info:</div>
-              <b>Landline</b> <br /> 011 3569 1637
-              <br /><br/>
-              <b>Operations</b> <br /> +91 97171 89650/ 659
-              <br /><br/>
-              <b>Sales</b> <br /> +91 97170 41338
-              <br />
-            </div>
+            <Reveal>
+              <div className={styles.coninfo}>
+                <div className={styles.coninfotitle}>Address Info:</div>
+                303 A, <br />
+                Hemkunt Chambers, <br />
+                Nehru Place 110019
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className={styles.coninfo}>
+                <div className={styles.coninfotitle}>Email Info:</div>
+                <b>Operations:</b> <br /> operations@hyperglotreview.com
+                <br /><br/>
+                <b>Sales & Marketing:</b> <br /> info@hyperglotreview.com
+                <br />
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className={styles.coninfo}>
+                <div className={styles.coninfotitle}>Phone Info:</div>
+                <b>Landline</b> <br /> 011 3569 1637
+                <br /><br/>
+                <b>Operations</b> <br /> +91 97171 89650/ 659
+                <br /><br/>
+                <b>Sales</b> <br /> +91 97170 41338
+                <br />
+              </div>
+            </Reveal>
           </div>
         </div>
 
         <div className={styles.consubcontainer}>
           <div className={styles.conflex}>
             <div className={styles.conmapcontainer}>
+            <Reveal>
               <div className={styles.conmaptitle}>Location Map</div>
+            </Reveal>
               <div className={styles.conmapp}>
                 <iframe
                   className={styles.conframe}
@@ -59,7 +71,9 @@ export default function LanguageClub() {
               </div>
             </div>
             <div className={styles.conmapcontainer}>
+            <Reveal>
               <div className={styles.conmaptitle}>Message Us</div>
+            </Reveal>
               <form className={styles.conform}>
                 <input type='text' placeholder="Full Name" name='name' required />
                 <input type='text' placeholder="Email Address" name='mail' required />

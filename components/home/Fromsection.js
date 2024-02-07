@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { motion } from "framer-motion";
 import Reveal from "../Reveal";
+import Link from "next/link";
 
 export default function Fromsection() {
   return (
@@ -13,53 +14,77 @@ export default function Fromsection() {
       <div className={styles.courses}>
         <div className={styles.topsection}>
           <div className={styles.title}>ACTIVITIES WE OFFER</div>
-          <button className={styles.btn1}>SEE ALL</button>
+          {/* <button className={styles.btn1}>SEE ALL</button> */}
         </div>
         <div className={styles.cards}>
+        <Link href='/ReadingSkills'>
           <div className={styles.card}>
             <Image className={styles.img} src={"/assests/1.jpg"} width={300} height={300} alt="image"/>
             <div className={styles.text}>
-              <div className={styles.heading}>Reading Skills</div>
-              <div>Lorem</div>
-              <div>Lorem ipsum lorem</div>
+              <div className={styles.heading}>Reading Club</div>
+              <div>Use - skimming, scanning, and summarizing</div>
             </div>
             <div className={styles.extratext}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                Read a variety of texts that match your level and interest
             </div>
-          </div>
+          </div>    
+        </Link>
+        <Link href='/LanguageClub'>
+          <div className={styles.card}>
+              <Image className={styles.img} src={"/content/2.jpg"} width={300} height={300} alt="image"/>
+              <div className={styles.text}>
+                <div className={styles.heading}>Language Club</div>
+                <div>learn, practice, and enjoy different languages</div>
+              </div>
+              <div className={styles.extratext}>
+                Practice speaking and writing different languages with others.
+              </div>
+            </div>
+        </Link>
+        <Link href='/WritingSkills'>
           <div className={styles.card}>
             <Image className={styles.img} src={"/assests/2.jpg"} width={300} height={300} alt="image"/>
             <div className={styles.text}>
-              <div className={styles.heading}>Writing Skills</div>
-              <div>Lorem</div>
-              <div>Lorem ipsum lorem</div>
+              <div className={styles.heading}>Writing Club</div>
+              <div>Use - grammar checkers, dictionaries, and feedback</div>
             </div>
             <div className={styles.extratext}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Practice writing different types of texts for different purposes and audiences.
             </div>
           </div>
+        </Link>
+        <Link href='/Olympiad'>
           <div className={styles.card}>
+              <Image className={styles.img} src={"/content/5.jpg"} width={300} height={300} alt="image"/>
+              <div className={styles.text}>
+                <div className={styles.heading}>Olympiad</div>
+                <div>Train for mathematics, science, english</div>
+              </div>
+              <div className={styles.extratext}>
+                follow the syllabus and pattern of the leading olympiad organizers
+              </div>
+            </div>
+        </Link>
+          {/* <div className={styles.card}>
             <Image className={styles.img} src={"/assests/3.jpg"} width={300} height={300} alt="image"/>
             <div className={styles.text}>
               <div className={styles.heading}>Speakimg Skills</div>
-              <div>Lorem</div>
-              <div>Lorem ipsum lorem</div>
+              <div>Improve your pronunciation and fluency.</div>
             </div>
             <div className={styles.extratext}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Speak English as much as possible with native or fluent speakers
             </div>
           </div>
           <div className={styles.card}>
             <Image className={styles.img} src={"/assests/4.jpg"} width={300} height={300} alt="image"/>
             <div className={styles.text}>
               <div className={styles.heading}>Vocab and Spelling</div>
-              <div>Lorem</div>
-              <div>Lorem ipsum lorem</div>
+              <div>Review and memorize to improve</div>
             </div>
             <div className={styles.extratext}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+              Learn new words in context and use them in sentences.
             </div>
-          </div>
+          </div> */}
         </div>
 
       </div>

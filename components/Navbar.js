@@ -73,17 +73,17 @@ export default function Navbar() {
         {/* <div className={styles.visible}><button className={styles.menu} onClick={clicked}><FaBars /></button></div> */}
         <ul className={click ? `${styles.navlinks1}` : `${styles.navlinks}`}>
           <Link onClick={clickfn2} href='/' className={isActive('/') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Home</Link>
-          <Link onClick={clickfn2} href='/LanguageClub' className={isActive('/LanguageClub') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Language Club</Link>
+          {/* <Link onClick={clickfn2} href='/LanguageClub' className={isActive('/LanguageClub') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Language Club</Link> */}
           <div className={styles.options}>
           <div onClick={()=>setDrop(!drop)} className={`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>          
-            Bookclub activities
+            Activities
             <span><IoIosArrowUp className={styles.span}/></span>
           </div>
           <div className={drop ? `${styles.show}` : `${styles.hide}`}>
-            <Link className={styles.linked} onClick={clickfn} href='/ReadingSkills'>Reading Skills</Link>
-            <Link className={styles.linked} onClick={clickfn} href='/SpeakingSkills'>Speaking Skills</Link>
-            <Link className={styles.linked} onClick={clickfn} href='/VocabandSpelling'>Vocab and Spelling</Link>
-            <Link className={styles.linked} onClick={clickfn} href='/WritingSkills'>Writing Skills</Link>
+            <Link className={styles.linked} onClick={clickfn} href='/ReadingSkills'>Reading Club</Link>
+            <Link className={styles.linked} onClick={clickfn} href='/LanguageClub'>Language Club</Link>
+            <Link className={styles.linked} onClick={clickfn} href='/WritingSkills'>Writing Club</Link>
+            <Link className={styles.linked} onClick={clickfn} href='/Olympiad'>Olympiad</Link>
           </div>
           </div>
           {/* <div className={styles.full} onClick={()=> setShow1(!show1)}>
@@ -106,8 +106,9 @@ export default function Navbar() {
               </option>
               </select>
           </div> */}
-          <Link onClick={clickfn2} href='/Olympiad' className={isActive('/Olympiad') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Olympiad</Link>
-          <Link onClick={clickfn2} href='/Courses' className={isActive('/Courses') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Courses</Link>
+          {/* <Link onClick={clickfn2} href='/Olympiad' className={isActive('/Olympiad') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Olympiad</Link> */}
+          {/* <Link onClick={clickfn2} href='/Courses' className={isActive('/Courses') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Courses</Link> */}
+          <Link onClick={clickfn2} href='/Eventspage' className={isActive('/Eventspage') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Events</Link>
           <Link onClick={clickfn2} href='/Testimonials' className={isActive('/Testimonials') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Testimonials</Link>
           <Link onClick={clickfn2} href='/About' className={isActive('/About') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>About</Link>
           <Link onClick={clickfn2} href='/ContactUs' className={isActive('/ContactUs') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Contact Us</Link>

@@ -11,28 +11,28 @@ export default function Events() {
       <Reveal>
         <div className={styles.card}>
           <div className={styles.imgcontainer}>
-            <Image className={styles.img} src={"/assests/1.jpg"} width={400} height={400} alt="image"/>
+            <Image className={styles.img} src={"/events/Podcast Insta.jpg"} width={400} height={400} alt="image"/>
           </div>
-          <div className={styles.topic}>May 12, 2022</div>
-          <div className={styles.text}>7 Reasons to study in class rather then study alone</div>
+          <div className={styles.topic}>Sat, 26th Nov 2023</div>
+          <div className={styles.text}>Readers' Salon</div>
         </div>
       </Reveal>
       <Reveal>
         <div className={styles.card}>
           <div className={styles.imgcontainer}>
-            <Image className={styles.img} src={"/assests/1.jpg"} width={400} height={400} alt="image"/>
+            <Image className={styles.img} src={"/events/October 31,2023.jpg"} width={400} height={400} alt="image"/>
           </div>
-          <div className={styles.topic}>May 12, 2022</div>
-          <div className={styles.text}>7 Reasons to study in class rather then study alone</div>
+          <div className={styles.topic}>31st oct 2023</div>
+          <div className={styles.text}>Halloween Party</div>
         </div>
       </Reveal>
       <Reveal>
         <div className={styles.card}>
           <div className={styles.imgcontainer}>
-            <Image className={styles.img} src={"/assests/1.jpg"} width={400} height={400} alt="image"/>
+            <Image className={styles.img} src={"/events/YoungPoetAward.png"} width={400} height={400} alt="image"/>
           </div>
-          <div className={styles.topic}>May 12, 2022</div>
-          <div className={styles.text}>7 Reasons to study in class rather then study alone</div>
+          <div className={styles.topic}>TBD</div>
+          <div className={styles.text}>Young Poet Award</div>
         </div>
       </Reveal>
       </div>

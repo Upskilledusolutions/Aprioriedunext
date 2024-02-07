@@ -11,7 +11,7 @@ export default function LanguageClub() {
         <Image className={styles.img} src={'/content/spelling/1.jpg'} width={2400} height={1400} alt="img"/>
         <div className={styles.textcontainer}>
           <div className={styles.heading1}>Vocab and Spelling</div>
-          <div className={styles.text1}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          <div className={styles.text1}>Enhanced your Vocab and Spelling skills by using various resources and tools, such as dictionaries, word lists, flashcards, games, and quizzes.</div>
         </div>
       </div>
       <div className={styles.middle}>

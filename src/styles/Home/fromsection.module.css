@@ -5,7 +5,8 @@
   position: relative;
 }
 .courses{
-  width: 35vw;
+  width: 38vw;
+  padding-bottom: 30px;
 }
 .topsection{
   display: flex;
@@ -55,10 +56,10 @@
   position: absolute;
   top: 0px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 15vw;
   height: 150px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 40px;
   transition: 0.3s;
@@ -68,7 +69,8 @@
   cursor: pointer;
 }
 .card:hover .text{
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 30px;
 }
 .heading{
   font-size: 26px;
@@ -182,6 +184,9 @@ bottom: 0;
 .lastcont:hover .lastimg{
   transform: scale(0.95);
 }
+.smalltext{
+  font-size: 14px;
+}
 @media screen and (max-width: 720px){
   .container{
     flex-direction: column;
@@ -217,7 +222,9 @@ bottom: 0;
     width: 100%;
   }
   .text{
-    width: 100%;
+    width: 90%;
+    padding:50px 5vw;
+    height: 100%;
   }
   .formsection{
     width: 100%;

@@ -4,6 +4,8 @@ import Reveal from "../Reveal"
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { MdAttachMoney } from "react-icons/md";
 import { TiMessages } from "react-icons/ti";
+import { LiaAwardSolid } from "react-icons/lia";
+import { FaChalkboardTeacher } from "react-icons/fa";
 
 export default function Ourgallery() {
   return (
@@ -29,14 +31,23 @@ export default function Ourgallery() {
           </div>
         </div>
         <div className={styles.right}>
-          <div className={styles.textcontainer}>
+          {/* <div className={styles.textcontainer}>
             <div className={styles.text1}>Reading Skills</div>
             <div className={styles.text1}>Writing Skills</div>
             <div className={styles.text1}>Speaking Skills</div>
             <div className={styles.text1}>Vocab and Spellings</div>
-          </div>
+          </div> */}
           <Reveal>
           <div className={styles.title}>WHY CHOOSE US</div>
+          </Reveal>
+          <Reveal>
+          <div className={styles.point}>
+            <div className={styles.iconcontainer4}><LiaAwardSolid className={styles.icon}/></div>
+            <div className={styles.textcontainer1}>
+              <div className={styles.top}>Our Reputation</div>
+              <div className={styles.btm}>We have a strong reputation and recognition.</div>
+            </div>
+          </div>
           </Reveal>
           <Reveal>
           <div className={styles.point}>
@@ -44,6 +55,15 @@ export default function Ourgallery() {
             <div className={styles.textcontainer1}>
               <div className={styles.top}>Quick Results</div>
               <div className={styles.btm}>Get quick and guaranteed results with the best teachers.</div>
+            </div>
+          </div>
+          </Reveal>
+          <Reveal>
+          <div className={styles.point}>
+            <div className={styles.iconcontainer5}><FaChalkboardTeacher  className={styles.icon}/></div>
+            <div className={styles.textcontainer1}>
+              <div className={styles.top}>Interactive teaching</div>
+              <div className={styles.btm}>We use online platforms, videos and quizzes.</div>
             </div>
           </div>
           </Reveal>
