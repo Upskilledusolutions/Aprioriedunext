@@ -19,10 +19,10 @@ export default function Fromsection() {
         <div className={styles.cards}>
         <Link href='/ReadingSkills'>
           <div className={styles.card}>
-            <Image className={styles.img} src={"/assests/1.jpg"} width={300} height={300} alt="image"/>
+            <Image className={styles.img} src={"/content/reading.jpg"} width={300} height={300} alt="image"/>
             <div className={styles.text}>
               <div className={styles.heading}>Reading Club</div>
-              <div>Use - skimming, scanning, and summarizing</div>
+              <div className={styles.headingtext}>Read, understand, interpret, and evaluate written texts.</div>
             </div>
             <div className={styles.extratext}>
                 Read a variety of texts that match your level and interest
@@ -31,10 +31,10 @@ export default function Fromsection() {
         </Link>
         <Link href='/LanguageClub'>
           <div className={styles.card}>
-              <Image className={styles.img} src={"/content/2.jpg"} width={300} height={300} alt="image"/>
+              <Image className={styles.img} src={"/content/language.jpg"} width={300} height={300} alt="image"/>
               <div className={styles.text}>
                 <div className={styles.heading}>Language Club</div>
-                <div>learn, practice, and enjoy different languages</div>
+                <div className={styles.headingtext}>learn, practice, and enjoy different languages with other enthusiasts.</div>
               </div>
               <div className={styles.extratext}>
                 Practice speaking and writing different languages with others.
@@ -43,10 +43,10 @@ export default function Fromsection() {
         </Link>
         <Link href='/WritingSkills'>
           <div className={styles.card}>
-            <Image className={styles.img} src={"/assests/2.jpg"} width={300} height={300} alt="image"/>
+            <Image className={styles.img} src={"/content/writing.jpeg"} width={300} height={300} alt="image"/>
             <div className={styles.text}>
               <div className={styles.heading}>Writing Club</div>
-              <div>Use - grammar checkers, dictionaries, and feedback</div>
+              <div className={styles.headingtext}>Enable your Writing skills to create clear and effective written communication.</div>
             </div>
             <div className={styles.extratext}>
               Practice writing different types of texts for different purposes and audiences.
@@ -58,7 +58,7 @@ export default function Fromsection() {
               <Image className={styles.img} src={"/content/5.jpg"} width={300} height={300} alt="image"/>
               <div className={styles.text}>
                 <div className={styles.heading}>Olympiad</div>
-                <div>Train for mathematics, science, english</div>
+                <div className={styles.headingtext}>Train for mathematics, science, english.</div>
               </div>
               <div className={styles.extratext}>
                 follow the syllabus and pattern of the leading olympiad organizers

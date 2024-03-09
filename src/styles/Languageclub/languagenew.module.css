@@ -1,0 +1,21 @@
+.mainimg{
+  width: 30vw;
+  height: auto;
+}
+.flex{
+  display: flex;
+  gap: 10%;
+}
+.container{
+  padding: 20px 10%;
+}
+.title{
+  font-size: 42px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  width: 40vw;
+  font-weight: 500;
+}
+.desc{
+  margin-top: 30px;
+}

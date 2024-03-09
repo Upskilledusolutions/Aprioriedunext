@@ -22,9 +22,8 @@ export default function LanguageClub() {
       <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
-          <div className={styles.heading2}>LOREM IPSUM IPSUM</div>
-          <div className={styles.text2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          {/* <div className={styles.heading2}>LOREM IPSUM IPSUM</div> */}
+          <div className={styles.text2}>An Olympiad Club is an exceptional platform for nurturing intellectual curiosity, critical thinking, and problem-solving skills among students. Our club is dedicated to preparing students for various academic Olympiad competitions, ranging from mathematics and science to literature and history.<br/><br/>Through a combination of rigorous training sessions, practice exams, and specialized workshops, we provide students with the tools and resources they need to excel in these prestigious competitions. Our experienced coaches and mentors are committed to guiding students through challenging concepts and helping them develop the analytical and creative thinking skills required to succeed in Olympiad competitions.</div>
         </Reveal>
 
         </div>
@@ -38,9 +37,8 @@ export default function LanguageClub() {
       <div className={styles.middle2}>
         <div className={styles.left1}>
         <Reveal>
-          <div className={styles.heading2}>LOREM IPSUM IPSUM</div>
-          <div className={styles.text2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          {/* <div className={styles.heading2}>LOREM IPSUM IPSUM</div> */}
+          <div className={styles.text2}>Beyond academic preparation, our club also fosters a supportive and collaborative community where students can connect with like-minded peers, share knowledge and strategies, and motivate each other to reach their full potential.<br/><br/>Whether you're a seasoned Olympiad competitor or a newcomer looking to test your skills, our club offers a welcoming and stimulating environment where you can embark on an exciting journey of intellectual exploration and academic achievement. Join us and unlock your full potential as a scholar and problem solver!</div>
         </Reveal>
         </div>
         <Reveal>
