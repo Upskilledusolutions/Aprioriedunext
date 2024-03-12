@@ -19,3 +19,20 @@
 .desc{
   margin-top: 30px;
 }
+@media screen and (max-width: 720px){
+  .container{
+    padding: 20px 5%;
+  }
+  .flex{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mainimg{
+    width: 100%;
+  }
+  .title{
+    font-size: 32px;
+    padding-bottom: 5px;
+    width: 100%;
+  }
+}

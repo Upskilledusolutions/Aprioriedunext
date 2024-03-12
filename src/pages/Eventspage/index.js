@@ -12,31 +12,18 @@ const index = () => {
       title: "Readers' Salon",
       date: "Sat, 26th Nov 2023 ",
       url: "/events/Podcast Insta.jpg",
-      images: [
-        "/eventspage/posters/Podcast Insta.jpg",
-        "/eventspage/posters/Podcast Insta.jpg",
-        "/eventspage/posters/Podcast Insta.jpg",
-        "/eventspage/posters/Podcast Insta.jpg",
-      ],
     },
     {
       id: 2,
       title: "Halloween Party",
       date: "31st Oct 2023",
       url: "/events/October 31,2023.jpg",
-      images: [
-        "/eventspage/images/halloween/img (1).jpeg",
-        "/eventspage/images/halloween/img (2).jpeg",
-        "/eventspage/images/halloween/img (3).jpeg",
-        "/eventspage/images/halloween/img (4).jpeg",
-      ],
     },
     {
       id: 3,
       title: "Young Poet Award 2023",
       date: "TBD",
       url: "/events/YoungPoetAward.png",
-      images: ["/eventspage/posters/YoungPoetAward.png"],
     },
   ];
 

@@ -473,4 +473,13 @@ font-weight: 500;
   .text11{
     font-size: 14px;
   }
+  .middle,.middle2{
+    margin-top: 0px;
+  }
+  .img2{
+    height: auto;
+  }
+  .middle{
+    padding-bottom: 0px;
+  }
 }
