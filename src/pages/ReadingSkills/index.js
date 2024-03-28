@@ -7,7 +7,22 @@ import dynamic from 'next/dynamic'
 const LanguageClub = () => {
   return (
     <div>
-      <div className={styles.topcontainer}>
+    <Reveal>
+      <div className={styles.bigicontainer}>
+      <div className={styles.bigcontainer}>
+      <div className={styles.text10}>
+        <div className={`${styles.top55}`}>Reading Club</div>
+        <div className={`${styles.middle55} ${styles.text12}`}>Read, understand, figure out, and evaluate written texts.</div>
+        <div className={`${styles.bottom55} ${styles.text13}`}></div>
+        {/* <button className={styles.btn}>Apply Now</button> */}
+      </div>
+      <div className={styles.imgcont10}>
+        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/2 (11).png"} alt="image"/>
+      </div>
+      </div>
+      </div>
+    </Reveal>
+      {/* <div className={styles.topcontainer}>
         <div className={styles.tint}/>
         <Image className={styles.img} src={'/content/reading/1.jpg'} width={2400} height={1400} alt="img"/>
         <div className={styles.textcontainer}>
@@ -18,6 +33,22 @@ const LanguageClub = () => {
           <div className={styles.text1}>Read, understand, interpret, and evaluate written texts.</div>
         </Reveal>
         </div>
+      </div> */}
+
+      <div className={styles.middle2}>
+        <div className={styles.left1}>
+        {/* <Reveal>
+          <div className={styles.heading2}>LOREM IPSUM IPSUM</div>
+        </Reveal> */}
+        <Reveal>
+          <div className={styles.text2}>One of the most rewarding aspects of our reading club is the sense of community it fosters. Each member brings their unique perspectives, experiences, and insights to the table, enriching our discussions and broadening our understanding of the books we read.<br/><br/> Whether it's a heated debate over the moral ambiguity of a character's actions or a shared moment of joy over a beautifully crafted sentence, our club provides a supportive space where everyone's voice is heard and valued. Through our shared love of reading, we form connections that transcend the pages of the books we read, forging friendships and fostering a sense of belonging that extends far beyond our meetings.</div>
+        </Reveal>
+        </div>
+        <Reveal>
+          <div className={styles.right1}>
+            <Image className={styles.img2} src={'/illustrations/2 (3).png'} width={500} height={500} alt="img"/>
+          </div>
+        </Reveal>
       </div>
       <div className={styles.middle}>
         <div className={styles.left1}>
@@ -31,22 +62,7 @@ const LanguageClub = () => {
           </div>
         <Reveal>
           <div className={styles.right1}>
-            <Image className={styles.img2} src={'/content/reading/2.jpg'} width={500} height={500} alt="img"/>
-          </div>
-        </Reveal>
-      </div>
-      <div className={styles.middle2}>
-        <div className={styles.left1}>
-        {/* <Reveal>
-          <div className={styles.heading2}>LOREM IPSUM IPSUM</div>
-        </Reveal> */}
-        <Reveal>
-          <div className={styles.text2}>One of the most rewarding aspects of our reading club is the sense of community it fosters. Each member brings their unique perspectives, experiences, and insights to the table, enriching our discussions and broadening our understanding of the books we read.<br/><br/> Whether it's a heated debate over the moral ambiguity of a character's actions or a shared moment of joy over a beautifully crafted sentence, our club provides a supportive space where everyone's voice is heard and valued. Through our shared love of reading, we form connections that transcend the pages of the books we read, forging friendships and fostering a sense of belonging that extends far beyond our meetings.</div>
-        </Reveal>
-        </div>
-        <Reveal>
-          <div className={styles.right1}>
-            <Image className={styles.img2} src={'/content/reading/3.jpg'} width={500} height={500} alt="img"/>
+            <Image className={styles.img2} src={'/illustrations/2 (2).png'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
       </div>

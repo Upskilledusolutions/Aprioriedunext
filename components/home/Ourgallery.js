@@ -18,15 +18,15 @@ export default function Ourgallery() {
       <div className={styles.scontainer}>
         <div className={styles.gallery}>
           <div className={styles.over1}/>
-          <Image className={styles.img1} src={"/assests/1.jpg"} width={700} height={700} alt="image"/>
+          <Image className={styles.img1} src={"/assests/10.png"} width={1400} height={700} alt="image"/>
           <div className={styles.belowimg}>
           <div className={styles.hover1}>
             <div className={styles.over2}/>
-            <Image className={styles.img2} src={"/assests/2.jpg"} width={700} height={700} alt="image"/>
+            <Image className={styles.img2} src={"/assests/12.jpg"} width={700} height={700} alt="image"/>
           </div>
           <div className={styles.hover2}>
             <div className={styles.over3}/>
-            <Image className={styles.img3} src={"/assests/3.jpg"} width={700} height={700} alt="image"/>
+            <Image className={styles.img3} src={"/assests/15.jpg"} width={700} height={700} alt="image"/>
           </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function Ourgallery() {
           <div className={styles.point}>
             <div className={styles.iconcontainer5}><FaChalkboardTeacher  className={styles.icon}/></div>
             <div className={styles.textcontainer1}>
-              <div className={styles.top}>Interactive teaching</div>
+              <div className={styles.top}>Interactive Teaching</div>
               <div className={styles.btm}>We use online platforms, videos and quizzes.</div>
             </div>
           </div>
@@ -71,7 +71,7 @@ export default function Ourgallery() {
           <div className={styles.point}>
             <div className={styles.iconcontainer1}><MdAttachMoney className={styles.icon}/></div>
             <div className={styles.textcontainer1}>
-              <div className={styles.top}>Save Money</div>
+              <div className={styles.top}>Better Plans</div>
               <div className={styles.btm}>You can save a lot of money on our lessons & resources.</div>
             </div>
           </div>

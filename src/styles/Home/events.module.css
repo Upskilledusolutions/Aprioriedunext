@@ -15,6 +15,7 @@
 .card{
   width: 22vw;
   text-align: center;
+  text-decoration: none;
 }
 .imgcontainer{
   height: 250px;

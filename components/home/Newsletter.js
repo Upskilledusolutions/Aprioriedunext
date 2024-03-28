@@ -17,7 +17,7 @@ export default function Newsletter() {
       </div>
       </Reveal>
     </div>
-      <Image className={styles.img} src={"/assests/7.jpg"} width={2000} height={1200} alt="image"/>
+      <Image className={styles.img} src={"/assests/13.jpg"} width={2000} height={1200} alt="image"/>
     </div>
 
   )

@@ -7,7 +7,22 @@ import Reveal from '../../../components/Reveal'
 export default function LanguageClub() {
   return (
     <div>
-      <div className={styles.topcontainer}>
+    <Reveal>
+      <div className={styles.bigicontainer}>
+      <div className={styles.bigcontainer}>
+      <div className={styles.text10}>
+        <div className={`${styles.top55}`}>Writing Club</div>
+        <div className={`${styles.middle55} ${styles.text12}`}>Create effective written skills in various forms.</div>
+        <div className={`${styles.bottom55} ${styles.text13}`}></div>
+        {/* <button className={styles.btn}>Apply Now</button> */}
+      </div>
+      <div className={styles.imgcont10}>
+        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/2.png"} alt="image"/>
+      </div>
+      </div>
+      </div>
+    </Reveal>
+      {/* <div className={styles.topcontainer}>
         <div className={styles.tint}/>
         <Image className={styles.img} src={'/content/writing/1.jpg'} width={2400} height={1400} alt="img"/>
         <div className={styles.textcontainer}>
@@ -18,6 +33,22 @@ export default function LanguageClub() {
           <div className={styles.text1}>Enable your Writing skills to create clear and effective written communication in various forms and contexts.</div>
         </Reveal>
         </div>
+      </div> */}
+
+      <div className={styles.middle2}>
+        <div className={styles.left1}>
+        <Reveal>
+          {/* <div className={styles.heading2}>LOREM IPSUM IPSUM</div> */}
+          <div className={styles.text2}>At our writing club, we believe that everyone has a story to tell and that writing is a powerful tool for self-expression, empowerment, and connection. Whether you're a seasoned professional or a novice writer just starting out, our club welcomes writers of all backgrounds, genres, and levels of experience.<br/><br/>So why not join us on our writing journey? Together, we'll explore the boundless possibilities of language and imagination, support each other through the highs and lows of the creative process, and celebrate the transformative power of storytelling in all its forms.</div>
+        </Reveal>
+
+        </div>
+        <Reveal>
+          <div className={styles.right1}>
+            <Image className={styles.img2} src={'/illustrations/2 (11).png'} width={500} height={500} alt="img"/>
+          </div>
+        </Reveal>
+
       </div>
       <div className={styles.middle}>
         <div className={styles.left1}>
@@ -29,24 +60,9 @@ export default function LanguageClub() {
         </div>
         <Reveal>
           <div className={styles.right1}>
-            <Image className={styles.img2} src={'/content/writing/2.jpg'} width={500} height={500} alt="img"/>
+            <Image className={styles.img2} src={'/illustrations/2 (10).png'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
-      </div>
-      <div className={styles.middle2}>
-        <div className={styles.left1}>
-        <Reveal>
-          {/* <div className={styles.heading2}>LOREM IPSUM IPSUM</div> */}
-          <div className={styles.text2}>At our writing club, we believe that everyone has a story to tell and that writing is a powerful tool for self-expression, empowerment, and connection. Whether you're a seasoned professional or a novice writer just starting out, our club welcomes writers of all backgrounds, genres, and levels of experience.<br/><br/>So why not join us on our writing journey? Together, we'll explore the boundless possibilities of language and imagination, support each other through the highs and lows of the creative process, and celebrate the transformative power of storytelling in all its forms.</div>
-        </Reveal>
-
-        </div>
-        <Reveal>
-          <div className={styles.right1}>
-            <Image className={styles.img2} src={'/content/writing/3.jpg'} width={500} height={500} alt="img"/>
-          </div>
-        </Reveal>
-
       </div>
     </div>
   )

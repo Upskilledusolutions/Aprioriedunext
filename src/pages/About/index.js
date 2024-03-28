@@ -20,7 +20,22 @@ export default function LanguageClub() {
       </Head>
       <main>
       <div>
-      <div className={styles.topcontainer}>
+    <Reveal>
+      <div className={styles.bigicontainer}>
+      <div className={styles.bigcontainer}>
+      <div className={styles.text10}>
+        <div className={`${styles.top55}`}>About Us</div>
+        <div className={`${styles.middle56} ${styles.text12}`}> Upskilledu Solutions was created with a goal in mind to change the current trend where people are losing interest in liberal arts education. Liberal arts education is just as practical and valuable as technical studies. </div>
+        <div className={`${styles.bottom55} ${styles.text13}`}></div>
+        {/* <button className={styles.btn}>Apply Now</button> */}
+      </div>
+      <div className={styles.imgcont10}>
+        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/6.png"} alt="image"/>
+      </div>
+      </div>
+      </div>
+    </Reveal>
+      {/* <div className={styles.topcontainer}>
         <div className={styles.tint}/>
         <Image className={styles.img} src={'/content/16.jpg'} width={2400} height={1400} alt="img"/>
         <div className={styles.textcontainer}>
@@ -28,10 +43,10 @@ export default function LanguageClub() {
           <div className={styles.heading1}>About Us</div>
         </Reveal>
         <Reveal>
-          <div className={styles.text11}>Upskilledu Solutions was formed with a vision to reverse the prevalent trend of diminishing interest in liberal arts education and to refute the view that it is any less practical or vocational compared to the technical fields of study. Hence, the organization comprises mostly of academicians or individuals whose primary engagements are academic rather than entrepreneurial.</div>
+          <div className={styles.text11}>Upskilledu Solutions was formed with a vision to reverse the prevalent trend of diminishing interest in liberal arts education and to refute the view that it is any less practical or vocational compared to the technical fields of study.</div>
         </Reveal>
         </div>
-      </div>
+      </div> */}
       <Reveal>
         <div className={styles.middle5}>
           <div className={styles.left5}>

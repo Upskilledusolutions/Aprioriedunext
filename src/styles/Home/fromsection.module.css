@@ -194,6 +194,7 @@ bottom: 0;
 @media screen and (max-width: 720px){
   .container{
     flex-direction: column;
+    padding: 0 5vw 80px;
   }
   .formsection{
     position: initial;
@@ -237,7 +238,7 @@ bottom: 0;
     margin-bottom: 30px;
   }
   .inputcont{
-    width: 80%;
+    width: 90%;
   }
   .lastcont{
     width: 100%;
@@ -248,4 +249,7 @@ bottom: 0;
   .lasttext{
     width: 92%;
   }
+.inputcont{
+  padding-left: 2vw;
+}
 }

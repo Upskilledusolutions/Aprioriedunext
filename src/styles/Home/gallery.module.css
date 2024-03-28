@@ -161,4 +161,7 @@
   .over1,  .img1,  .over2,  .img2,  .over3,  .img3{
     height: 200px;
   }
+  .container{
+    padding: 60px 5vw;
+  }
 }

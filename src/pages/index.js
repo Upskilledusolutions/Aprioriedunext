@@ -21,7 +21,7 @@ const Home = () => {
           <Fromsection />
           <Ourgallery />
           <Newsletter />
-          <Events />
+          {/* <Events /> */}
         </>
       </main>
     </>

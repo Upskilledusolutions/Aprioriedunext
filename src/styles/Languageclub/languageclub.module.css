@@ -1,3 +1,47 @@
+.bigicontainer{
+  width: 92vw;
+  padding: 0px 2vw 70px;
+  height: auto;
+}
+.bigcontainer{
+  /* rgba(0,0,223,0.71) rgba(8,0,139,0.71)*/
+  margin-top: 20px;
+  background: linear-gradient(177deg, rgba(8,0,139,0.1) 0%, rgb(0, 146, 168) 0%, rgb(0, 200, 231) 100%);
+  width: 84vw;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+  justify-content: space-between;
+  padding: 20px 3vw 20px 7vw;
+}
+
+.middle55{
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+.middle56{
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+.bottom55{
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+.imgcont10{
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  height: 400px;
+}
+.img10{
+  width: auto;
+  height: 400px;
+}
 .topcontainer{
   width: 100vw;
   height: 500px;
@@ -65,14 +109,14 @@ font-weight: 500;
 font-weight: 500;
 }
 .middle{
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 50px 10vw;
   display: flex;
   align-items: center;
   gap: 10vw;
 }
 .middle2{
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 50px 10vw;
   display: flex;
   flex-direction: row-reverse;
@@ -94,8 +138,7 @@ font-weight: 500;
 }
 .img2{
   width: 30vw;
-  height: 400px;
-  object-fit: cover;
+  height: auto;
 }
 .right5{
   width: 300px;
@@ -369,9 +412,9 @@ font-weight: 500;
 }
 .eventcardimg{
   height: 250px;
-  width: 22vw;
+  width: 16vw;
   transition: 0.5s;
-  object-fit: contain;
+  object-fit: cover;
 }
 .eventcardimgcontainer:hover .eventcardimg{
   transform: scale(1.05);
@@ -387,15 +430,65 @@ font-weight: 500;
   color: black;
   font-weight: 500;
 }
+.top55{
+  color: white;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
 @media screen and (max-width: 1280px){
   .middle,.middle2,.middle5,.middle6{
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+  }
+  .middle6{
+    width: 100%;
   }
   .left1,.img2{
     width: 100%;
+    text-align: center;
   }
 }
 @media screen and (max-width: 720px){
+  .bigicontainer{
+    width: 95vw;
+    padding: 0px 2vw 70px;
+    padding-bottom: 10px;
+    height: auto;
+  }
+  .bigcontainer{
+    /* rgba(0,0,223,0.71) rgba(8,0,139,0.71)*/
+    margin-top: 0px;
+    background: linear-gradient(177deg, rgba(8,0,139,0.1) 0%, rgb(0, 146, 168) 0%, rgb(0, 200, 231) 100%);
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5vw 20px 5vw;
+  }
+  .top55{
+    font-size: 48px;
+  }
+  .middle55{
+    font-size: 25px;
+  }
+  .middle56{
+    font-size: 25px;
+  }
+  .img10{
+    width: 90vw;
+    height: auto;
+  }
+  .imgcont10{
+    width: 90vw;
+    height: auto;
+  }
 .heading1{
   font-size: 36px;
 }
@@ -412,6 +505,7 @@ font-weight: 500;
 .cards{
   grid-template-columns: 1fr;
   gap: 40px;
+  padding: 50px 5%;
 }
 .middle5,.middle6{
   padding: 50px 5vw;
@@ -419,6 +513,9 @@ font-weight: 500;
 .card,.left5,.left6{
   width: 100%;
   padding: 20px 5% 40px;
+}
+.card{
+  width: 89%;
 }
 .left5,.left6{
   border: none;
@@ -450,24 +547,32 @@ font-weight: 500;
   flex-direction: column;
   gap: 60px;
 }
+.consubcontainer{
+  margin: 0;
+}
 .conmapcontainer,.conframe{
   width: 100%;
 }
 .conform input,.conform textarea{
-  width: 80%;
+  width: 90%;
+  padding-left: 0.5vw;
 }
   .eventscards{
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 60px;
+    padding: 100px 5vw;
   }
   .eventcard{
-    width: 100%;
+    display: block;
+    width: 80vw;
   }
   .eventcardimgcontainer{
+    height: auto;
     width: 100%;
   }
   .eventcardimg{
+    height: auto;
     width: 100%;
   }
   .text11{
@@ -481,5 +586,17 @@ font-weight: 500;
   }
   .middle{
     padding-bottom: 0px;
+  }
+  .middle2, .middle{
+    padding: 50px 5vw;
+    width: 90%;
+  }
+  .conmapp{
+    height: 300px;
+    object-fit: cover;
+  }
+  .conframe{
+    height: 300px;
+    object-fit: cover;
   }
 }

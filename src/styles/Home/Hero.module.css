@@ -64,8 +64,8 @@
     opacity: 1;}
 }
 .img,.img2,.img3{
-  width: 35vw;
-  height: auto;
+  width: auto;
+  height: 400px;
   animation: laptop 8s infinite;
 }
 @keyframes laptop {
@@ -90,6 +90,12 @@
   color: white;
   background-position: left;
 }
+.imgcont{
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  height: 400px;
+}
 @media screen and (max-width: 720px){
   .container{
     flex-direction: column;
@@ -99,7 +105,7 @@
     gap: 50px;
   }
   .top{
-    font-size: 40px;
+    font-size: 34px;
   }
   .middle{
     font-size: 20px;
@@ -109,5 +115,15 @@
   }
   .img,.img2,.img3{
     width: 60vw;
+    height: auto;
   }
+  .imgcont{
+    height: auto;
+  }
+  .bcontainer{
+    padding: 0px 2% 0px;
+    margin-bottom: 50px;
+    height: auto;
+  }
+  .btn{font-size: 18px;}
 }
