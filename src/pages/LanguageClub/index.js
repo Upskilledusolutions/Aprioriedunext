@@ -17,7 +17,7 @@ export default function LanguageClub() {
         {/* <button className={styles.btn}>Apply Now</button> */}
       </div>
       <div className={styles.imgcont10}>
-        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/1.png"} alt="image"/>
+        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/19 (3).png"} alt="image"/>
       </div>
       </div>
       </div>
