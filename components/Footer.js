@@ -64,10 +64,10 @@ export default function Footer() {
       <div>
         <div className={styles.lefttopic}>Get in touch</div>
         <div className={styles.margintop}>
-          <div className={styles.getflex}><FaInstagram /><div>Instagram</div></div>
-          <div className={styles.getflex}><FaFacebook /><div>Facebook</div></div>
-          <div className={styles.getflex}><FaYoutube /><div>Youtube</div></div>
-          <div className={styles.getflex}><FaTwitter /><div>Twitter</div></div>
+          <Link className={styles.text6} href='https://www.instagram.com/upskilledu/'><div className={styles.getflex}> <FaInstagram /><div>Instagram</div></div></Link>
+          <Link className={styles.text6} href='https://www.instagram.com/upskilledu/'><div className={styles.getflex}> <FaFacebook /><div>Facebook</div></div></Link>
+          <Link className={styles.text6} href='https://www.instagram.com/upskilledu/'><div className={styles.getflex}> <FaYoutube /><div>Youtube</div></div></Link>
+          <Link className={styles.text6} href='https://www.instagram.com/upskilledu/'><div className={styles.getflex}> <FaTwitter /><div>Twitter</div></div></Link>
         </div>
       </div>
     </div>
