@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from "../../styles/Languageclub/languageclub.module.css"
 import Image from 'next/image'
+import Slider from "../../../components/home/LanguagesSlider" 
 import Reveal from '../../../components/Reveal'
-
 
 export default function LanguageClub() {
   return (
@@ -17,23 +17,14 @@ export default function LanguageClub() {
         {/* <button className={styles.btn}>Apply Now</button> */}
       </div>
       <div className={styles.imgcont10}>
-        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/19 (3).png"} alt="image"/>
+        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/22.png"} alt="image"/>
       </div>
       </div>
       </div>
     </Reveal>
-      {/* <div className={styles.topcontainer}>
-        <div className={styles.tint}/>
-        <Image className={styles.img} src={'/background/2.jpg'} width={2400} height={1400} alt="img"/>
-        <div className={styles.textcontainer}>
-        <Reveal>
-          <div className={styles.heading1}>Language Club</div>
-        </Reveal>
-        <Reveal>
-          <div className={styles.text1}>learn, practice, and enjoy different languages with other enthusiasts.</div>
-        </Reveal>
-        </div>
-      </div> */}
+      <Reveal>
+        <Slider />
+      </Reveal>
 
       <div className={styles.middle2}>
         <div className={styles.left1}>
@@ -62,6 +53,7 @@ export default function LanguageClub() {
           </div>
         </Reveal>
       </div>
+
     </div>
   )
 }

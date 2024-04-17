@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.container {
+  font-family: 'Anek Malayalam', sans-serif;
+  background: linear-gradient(90.04deg, #ff8e3c 0.03%, #ff6e6e 99.96%);
+  color: #11052c;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 30px 50px;
+}
+
+.quizcontainer {
+  max-width: 500px;
+  min-width: 250px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: 60px;
+  padding: 30px 60px;
+  border-radius: 50px;
+}
+
+.quizcontainer .activequestionno {
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(255, 84, 21);
+}
+
+.quizcontainer .totalquestion {
+  font-size: 16px;
+  font-weight: 500;
+  color: #e0dee3;
+}
+
+.quizcontainer h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.quizcontainer ul {
+  margin-top: 20px;
+  margin-left: -40px;
+}
+
+.quizcontainer ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #2d264b;
+  font-size: 16px;
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 16px;
+  padding: 11px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.quizcontainer ul .selectedanswer {
+  background: rgba(255, 143, 102, 0.7);
+  border: 1px solid rgb(255, 84, 21);
+}
+
+.quizcontainer button, .btns{
+  background: linear-gradient(90.04deg, rgb(255, 84, 21) 0.03%, #ff627c 99.96%);
+  border-radius: 9px;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 2vw;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.btns{
+  text-decoration: none;
+  width: 5vw;
+}
+
+.flex{
+  display: flex;
+  gap: 2vw;
+}
+
+.quizcontainer button:disabled {
+  background: #e7e8e9;
+  color: #9fa3a9;
+  cursor: not-allowed;
+}
+
+.flexright {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.result h3 {
+  font-size: 24px;
+  letter-spacing: 1.4px;
+  text-align: center;
+}
+
+.result p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.result p span {
+  color: #800080;
+  font-size: 22px;
+}
+@media screen and (max-width: 720px){
+  .quizcontainer button, .btns{
+    width: 100%;
+  }
+}

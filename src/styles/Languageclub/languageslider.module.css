@@ -1,0 +1,64 @@
+.card{
+  border: 1px solid rgb(211, 211, 211);
+  padding: 1vw;
+  border-radius: 20px;
+  width: 24vw;
+  transition: 0.3s;
+  margin-bottom: 15px;
+  box-shadow: rgba(70, 70, 70, 0.08) 7px 7px 10px;
+  height: 430px;
+}
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.15) 7px 7px 10px;
+}
+.slidercontainer{
+  display: flex;
+  justify-content: center;
+}
+.slider{
+  margin: 70px 0;
+  width: 98vw;
+  padding:0 4vw 0 7.5vw;
+}
+.img{
+  width: 24vw;
+  height: 250px;
+  border-radius: 10px;
+}
+.heading{
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+  margin-top: 10px;
+}
+.text{
+  color: black;
+  font-weight: 500;
+  margin: 10px 0 20px;
+  font-size: 14px;
+}
+.btn{
+  color:white;
+  background: rgb(0, 184, 212);
+  border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 720px){
+  .card{
+    width: 90%;
+    padding: 4vw;
+  }
+  .slider{
+    padding: 0 5vw;
+    margin: 40px 0 0;
+  }
+  .img{
+    width: 100%;
+  }
+}

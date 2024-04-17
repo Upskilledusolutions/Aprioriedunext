@@ -1,0 +1,55 @@
+.container{
+  text-align: center;
+  padding:0 8vw;
+  margin-bottom: 50px;
+}
+.mainheading{
+  font-size: 42px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.maintext{
+  margin: 30px 0 50px;
+}
+.card{
+  width: 35vw;
+  text-align: start;
+  border: 1px solid rgb(225, 225, 225);
+  padding: 2vw;
+  padding-bottom: 3vw;
+  border-radius: 20px;
+  box-shadow: rgba(70, 70, 70, 0.08) 3px 3px 5px;
+  margin-bottom: 30px;
+}
+.cardheading{
+  font-size: 24px;
+  font-weight: 500;
+}
+.cardtext{
+  margin: 20px 0 30px;
+}
+.btn{
+  background-color: rgb(255, 84, 21);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.cards{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+@media screen and (max-width: 720px){
+  .container{
+    padding: 0 5vw;
+  }
+  .cards{
+    display: block;
+  }
+  .card{
+    width: 88%;
+    padding:5vw 5vw 40px;
+  }
+}
