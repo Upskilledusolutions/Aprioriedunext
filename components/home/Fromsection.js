@@ -31,7 +31,7 @@ export default function Fromsection() {
         </Link>
         <Link href='/LanguageClub'>
           <div className={styles.card}>
-              <Image className={styles.img} src={"/content/language.jpg"} width={300} height={300} alt="image"/>
+              <Image className={styles.img} src={"/content/25 (1).jpg"} width={300} height={300} alt="image"/>
               <div className={styles.text}>
                 <div className={styles.heading}>Language Club</div>
                 <div className={styles.headingtext}>learn, practice, and enjoy different languages with other enthusiasts.</div>
@@ -55,7 +55,7 @@ export default function Fromsection() {
         </Link>
         <Link href='/Olympiad'>
           <div className={styles.card}>
-              <Image className={styles.img} src={"/content/5.jpg"} width={300} height={300} alt="image"/>
+              <Image className={styles.img} src={"/content/25 (2).jpg"} width={300} height={300} alt="image"/>
               <div className={styles.text}>
                 <div className={styles.heading}>Olympiad</div>
                 <div className={styles.headingtext}>Train for mathematics, science, english.</div>

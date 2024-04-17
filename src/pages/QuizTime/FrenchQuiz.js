@@ -3,6 +3,7 @@ import { quiz } from "../../Data/frenchquestions";
 import styles from "../../styles/quiz/quiz.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -56,6 +57,7 @@ const Quiz = () => {
   return (
     <div className={styles.container}>
       <div className={styles.quizcontainer}>
+      <Image className={styles.background} src={'/languageclub/background (1).jpg'} width={2000} height={2000} alt=''></Image>
         {!showResult ? (
           <div>
             <div>

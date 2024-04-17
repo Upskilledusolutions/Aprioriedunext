@@ -20,7 +20,7 @@ export default function Footer() {
 
   useEffect(() => {
     setInterval(() => {
-      setIndex(index => index < 2 ? index + 1 : 0)
+      setIndex(index => index < 4 ? index + 1 : 0)
     }, 8000)
   }, [])
 
@@ -32,7 +32,7 @@ export default function Footer() {
           <Image className={styles.logo} src={'/logo/newlogo1.png'} width={300} height={300} alt="image"/>
           <div className={styles.logotext}>UpskillEdu<br/>Solutions</div>
         </div>
-        <div className={styles.lefttopic10}>Our testimonials</div>
+        {/* <div className={styles.lefttopic10}>Our testimonials</div>
         <div className={styles.border}>
           <div className={styles.profilecontainer}>
             <div className={styles.proimg}>
@@ -41,7 +41,7 @@ export default function Footer() {
             <div className={styles.name}><div>{names[index]}</div><div className={styles.coursename}>{courses[index]}</div></div>
           </div>
           <div className={styles.testimonialstext}>{alltext[index]}</div>
-        </div>
+        </div> */}
       </div>
 
       <div>

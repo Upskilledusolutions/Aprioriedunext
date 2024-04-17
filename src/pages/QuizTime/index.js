@@ -35,11 +35,11 @@ export default function index() {
         <Link href='/QuizTime/ItalianQuiz' className={styles.btn}>Start Quiz</Link>
       </div>
 
-      <div className={styles.card}>
+      {/* <div className={styles.card}>
         <div className={styles.cardheading}>Sanskrit Quiz</div>
         <div className={styles.cardtext}>Get ready to put your Sanskrit skills to the test with our exciting range of quizzes.</div>
         <Link href='/QuizTime/SanskritQuiz' className={styles.btn}>Start Quiz</Link>
-      </div>
+      </div> */}
 
       </div>
     </div>
