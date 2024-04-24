@@ -14,10 +14,13 @@
   justify-content: space-between;
   padding: 0 5vw;
 }
+.textcontainer{
+  height: 300px;
+}
 .top{
   color: white;
   font-size: 60px;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 .middle{
@@ -103,6 +106,9 @@
     padding-bottom:30px;
     height: auto;
     gap: 50px;
+  }
+  .textcontainer{
+    height: 150px;
   }
   .top{
     font-size: 34px;

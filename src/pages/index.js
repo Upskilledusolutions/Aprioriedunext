@@ -20,9 +20,9 @@ const Home = () => {
         <>
           <Hero />
           <Fromsection />
+          <Testimonials />
           <Ourgallery />
           <Newsletter />
-          <Testimonials />
           {/* <Events /> */}
         </>
       </main>

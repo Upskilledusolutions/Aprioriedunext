@@ -70,8 +70,9 @@ const Quiz = () => {
   return (
     <div className={styles.container}>
     {time >= 0 && <div className={styles.timer}><BsAlarm /> <span>{time}</span></div>}
+    <Image className={styles.background} src={'/languageclub/background (2).jpg'} width={2000} height={2000} alt=''></Image>
       <div className={styles.quizcontainer}>
-      <Image className={styles.background} src={'/languageclub/background (2).jpg'} width={2000} height={2000} alt=''></Image>
+      
       {!showResult ? (
           <div>
             <div>

@@ -1,6 +1,7 @@
 .container{
   padding: 60px 10vw;
-  background-color: #d4fdff;
+  background-color: #0a4d89;
+  color: white;
 }
 .title5{
   font-size: 36px;
@@ -136,7 +137,6 @@
 }
 .btm{
   line-height: 26px;
-  color: rgb(96, 96, 96);
 }
 .textcontainer1{
   width: 20vw;

@@ -28,9 +28,12 @@ const Hero = () => {
     <div className={styles.bcontainer}>
     <div className={styles.container}>
     <div className={styles.text}>
+    <div className={styles.textcontainer}>
       <div className={`${styles.top} ${styles.text1}`}>{atop[selectedImage]}</div>
       <div className={`${styles.middle} ${styles.text2}`}>{amiddle[selectedImage]}</div>
       <div className={`${styles.bottom} ${styles.text3}`}>{aend[selectedImage]}</div>
+    </div>
+
       <button className={styles.btn}>Apply Now</button>
     </div>
     <div className={styles.imgcont}>

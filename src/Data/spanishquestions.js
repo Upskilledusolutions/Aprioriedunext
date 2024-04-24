@@ -56,7 +56,7 @@ export const quiz = {
       question: 'The Plaza De España in Seville mixes elements of which of the following styles of Spanish architecture?',
       choices: ['Baroque revival', 'Renaissance revival', 'Moorish revival', 'All of the above'],
       type: 'MCQs',
-      correctAnswer: 'Baroque revival',
+      correctAnswer: 'All of the above',
     },
     {
       question: '____ means "Good morning" in Spanish.',

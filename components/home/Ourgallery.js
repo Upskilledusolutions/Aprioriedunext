@@ -71,7 +71,7 @@ export default function Ourgallery() {
           <div className={styles.point}>
             <div className={styles.iconcontainer1}><MdAttachMoney className={styles.icon}/></div>
             <div className={styles.textcontainer1}>
-              <div className={styles.top}>Schlorships</div>
+              <div className={styles.top}>Scholarships</div>
               <div className={styles.btm}>You can save a lot of money on our lessons & resources.</div>
             </div>
           </div>
