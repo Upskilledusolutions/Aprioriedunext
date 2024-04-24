@@ -23,16 +23,16 @@ export const quiz = {
       correctAnswer: 'Il',
     },
     {
-      question: 'What is the traditional French breakfast pastry often enjoyed with coffee?',
-      choices: ['Baguette', 'Croissant', 'Pain au chocolat', 'Crêpe'],
+      question: 'The Louvre Museum is located along the bank of which river?',
+      choices: ['River Somme', 'Loire', 'Seine', 'Dordogne'],
       type: 'MCQs',
-      correctAnswer: 'Croissant',
+      correctAnswer: 'Seine',
     },
     {
       question: 'What is the French word for "summer"?',
-      choices: ['Printemps', 'Hiver', 'Automne', 'Été'],
+      choices: ['Printemps', 'Hiver', 'Automne', 'été'],
       type: 'MCQs',
-      correctAnswer: 'Été',
+      correctAnswer: 'été',
     },
     {
       question: 'What does the expression "avoir le cafard" mean in English?',

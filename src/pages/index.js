@@ -4,7 +4,7 @@ import Hero from '../../components/home/Hero'
 import Newsletter from '../../components/home/Newsletter'
 import Ourgallery from '../../components/home/Ourgallery'
 import Testimonials from '../../components/home/testimonials'
-import Events from "../../components/home/Events"
+// import Events from "../../components/home/Events"
 import dynamic from "next/dynamic";
 
 const Home = () => {

@@ -51,7 +51,7 @@ export default function GermanLC() {
         </Reveal>
 
       </div>
-      <div className={styles.middle}>
+      {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
         <div className={styles.heading2}>Why we are better?</div>
@@ -63,9 +63,9 @@ export default function GermanLC() {
             <Image className={styles.img2} src={'/languageclub/german (5).jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
-      </div>
+      </div> */}
 
-      <div className={styles.middle2}>
+      <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
           <div className={styles.heading2}>Culture</div>
@@ -79,7 +79,7 @@ export default function GermanLC() {
         </Reveal>
 
       </div>
-      <div className={styles.middle}>
+      <div className={styles.middle2}>
         <div className={styles.left1}>
         <Reveal>
         <div className={styles.heading2}>Career</div>
@@ -93,7 +93,7 @@ export default function GermanLC() {
         </Reveal>
       </div>
 
-      <div className={styles.middle2}>
+      <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
           <div className={styles.heading2}>Why Choose Us?</div>
@@ -107,7 +107,7 @@ export default function GermanLC() {
         </Reveal>
 
       </div>
-      <div className={styles.middle}>
+      <div className={styles.middle2}>
         <div className={styles.left1}>
         <Reveal>
         <div className={styles.heading2}>Join Us</div>

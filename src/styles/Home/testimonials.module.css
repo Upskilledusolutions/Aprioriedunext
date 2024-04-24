@@ -1,0 +1,96 @@
+.slidercontainer{
+  padding: 50px 10vw;
+  margin-bottom: 30px;
+  position: relative;
+  margin-top: 60px;
+}
+.background{
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  width: 100vw;
+  height: 750px;
+  z-index: -10;
+  object-fit: cover;
+}
+.cover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 750px;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: -5;
+}
+.heading{
+  padding-top: 70px;
+  width: 80vw;
+  margin: 0px 0 50px;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+}
+.card{
+  padding: 30px 12vw 50px 12vw;
+  /* padding: 30px 2vw 50px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 55vw;
+  background: white;
+  font-weight: 500;
+}
+.img{
+  width: 150px;
+  height: 150px;
+object-fit: cover;
+border-radius: 50%;
+}
+.name{
+  font-size: 28px;
+  font-weight: 600;
+  margin: 20px 0 0px;
+}
+.boldtext{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 720px){
+  .background, .cover{
+    height: 600px;
+  }
+  .slidercontainer{
+    padding: 20px 5vw;
+  }
+  .slider{
+    width: 90vw;
+  }
+  .card{
+    padding: 30px 4vw 50px 4vw;
+    width: 82vw;
+    height: 370px;
+  }
+  .heading{
+    font-size: 40px;
+    padding-top: 10px;
+    padding-left: 5vw;
+    margin-bottom: 20px;
+  }
+  .img{
+    width: 100px;
+    height: 100px;
+  }
+  .name{
+    font-size: 22px;
+  }
+  .boldtext{
+    font-size: 16px;
+  }
+  .description{
+    font-size: 15px;
+  }
+}

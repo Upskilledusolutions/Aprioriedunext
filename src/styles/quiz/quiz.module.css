@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   margin: 0;
-  padding: 0 30px 50px;
+  padding: 0 2vw 50px;
 }
 
 .background{
@@ -21,13 +21,31 @@ object-fit: cover;
 overflow: hidden;
 }
 
+.timer{
+  position: absolute;
+  top: 110px;
+  right: 20px;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  align-items: baseline;
+  gap: 1vw;
+  padding: 5px 1vw;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+
+.timer span{
+  font-size: 50px;
+}
+
 .quizcontainer {
   max-width: 500px;
   min-width: 250px;
-  background: rgb(255, 255, 255, 0.95);
+  background: rgb(255, 255, 255, 0.85);
   border-radius: 4px;
   margin-top: 60px;
-  padding: 30px 60px;
+  padding: 30px 3vw;
   border-radius: 50px;
 }
 
@@ -44,7 +62,7 @@ overflow: hidden;
 }
 
 .quizcontainer h2 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
   margin: 0;
 }
@@ -58,7 +76,8 @@ overflow: hidden;
   text-decoration: none;
   list-style: none;
   color: #2d264b;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
   background: #ffffff;
   border: 1px solid #eaeaea;
   border-radius: 16px;
@@ -112,16 +131,57 @@ overflow: hidden;
 }
 
 .result p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
+  border: 1px solid rgb(205, 205, 205) ;
+  padding: 5px 1vw;
+  border-radius: 10px;
 }
 
 .result p span {
   color: #800080;
-  font-size: 22px;
+  font-size: 20px;
+}
+
+.quizcontainer ul  .correct{
+  background-color: rgb(209, 255, 209);
+  border: 1px solid rgb(57, 255, 57);
+}
+
+.quizcontainer ul  .wrong{
+  background-color: rgb(255, 186, 186);
+  border: 1px solid rgb(255, 133, 133);
+}
+.result h1{
+  font-weight: 500;
+  font-size: 36px;
+  margin: 0;
 }
 @media screen and (max-width: 720px){
   .quizcontainer button, .btns{
     width: 100%;
+  }
+  .quizcontainer {
+    padding: 40px 5vw;
+    width: 100%;
+    height: auto;
+  }
+  .timer{
+    /* position: absolute;
+    top: 110px;
+    right: 20px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    gap: 1vw;
+    padding: 5px 1vw;
+    border: 3px solid white;
+    border-radius: 20px; */
+    font-size: 24px;
+    border: none;
+  }
+  .timer span{
+    font-size: 30px;
   }
 }

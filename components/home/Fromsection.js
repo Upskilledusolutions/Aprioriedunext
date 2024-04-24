@@ -17,52 +17,52 @@ export default function Fromsection() {
           {/* <button className={styles.btn1}>SEE ALL</button> */}
         </div>
         <div className={styles.cards}>
-        <Link href='/ReadingSkills'>
-          <div className={styles.card}>
-            <Image className={styles.img} src={"/content/reading.jpg"} width={300} height={300} alt="image"/>
-            <div className={styles.text}>
-              <div className={styles.heading}>Reading Club</div>
-              <div className={styles.headingtext}>Read, understand, interpret, and evaluate written texts.</div>
+        <Link className={styles.text2} href='/ReadingSkills'>
+          <div className={styles.card1}>
+            <Image className={styles.img1} src={"/content/reading.jpg"} width={300} height={300} alt="image"/>
+            <div className={styles.text3}>
+              <div className={styles.heading1}>Reading Club</div>
+              <div className={styles.headingtext1}>Read, understand, interpret, and evaluate written texts.</div>
             </div>
-            <div className={styles.extratext}>
+            {/* <div className={styles.extratext}>
                 Read a variety of texts that match your level and interest
-            </div>
+            </div> */}
           </div>    
         </Link>
-        <Link href='/LanguageClub'>
-          <div className={styles.card}>
-              <Image className={styles.img} src={"/content/25 (1).jpg"} width={300} height={300} alt="image"/>
-              <div className={styles.text}>
-                <div className={styles.heading}>Language Club</div>
-                <div className={styles.headingtext}>learn, practice, and enjoy different languages with other enthusiasts.</div>
+        <Link className={styles.text2} href='/LanguageClub'>
+          <div className={styles.card1}>
+              <Image className={styles.img1} src={"/content/25 (1).jpg"} width={300} height={300} alt="image"/>
+              <div className={styles.text3}>
+                <div className={styles.heading1}>Language Club</div>
+                <div className={styles.headingtext1}>learn, practice, and enjoy different languages with other enthusiasts.</div>
               </div>
-              <div className={styles.extratext}>
+              {/* <div className={styles.extratext}>
                 Practice speaking and writing different languages with others.
-              </div>
+              </div> */}
             </div>
         </Link>
-        <Link href='/WritingSkills'>
-          <div className={styles.card}>
-            <Image className={styles.img} src={"/content/writing.jpeg"} width={300} height={300} alt="image"/>
-            <div className={styles.text}>
-              <div className={styles.heading}>Writing Club</div>
-              <div className={styles.headingtext}>Enable your Writing skills to create clear and effective written communication.</div>
+        <Link className={styles.text2} href='/WritingSkills'>
+          <div className={styles.card1}>
+            <Image className={styles.img1} src={"/content/writing.jpeg"} width={300} height={300} alt="image"/>
+            <div className={styles.text3}>
+              <div className={styles.heading1}>Writing Club</div>
+              <div className={styles.headingtext1}>Enable your Writing skills to create clear and effective written communication.</div>
             </div>
-            <div className={styles.extratext}>
+            {/* <div className={styles.extratext}>
               Practice writing different types of texts for different purposes and audiences.
-            </div>
+            </div> */}
           </div>
         </Link>
-        <Link href='/Olympiad'>
-          <div className={styles.card}>
-              <Image className={styles.img} src={"/content/25 (2).jpg"} width={300} height={300} alt="image"/>
-              <div className={styles.text}>
-                <div className={styles.heading}>Olympiad</div>
-                <div className={styles.headingtext}>Train for mathematics, science, english.</div>
+        <Link className={styles.text2} href='/Olympiad'>
+          <div className={styles.card1}>
+              <Image className={styles.img1} src={"/content/25 (2).jpg"} width={300} height={300} alt="image"/>
+              <div className={styles.text3}>
+                <div className={styles.heading1}>Olympiad</div>
+                <div className={styles.headingtext1}>Train for mathematics, science, english.</div>
               </div>
-              <div className={styles.extratext}>
+              {/* <div className={styles.extratext}>
                 follow the syllabus and pattern of the leading olympiad organizers
-              </div>
+              </div> */}
             </div>
         </Link>
           {/* <div className={styles.card}>

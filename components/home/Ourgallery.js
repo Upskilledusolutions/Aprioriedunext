@@ -40,7 +40,7 @@ export default function Ourgallery() {
           <Reveal>
           <div className={styles.title}>WHY CHOOSE US</div>
           </Reveal>
-          <Reveal>
+          {/* <Reveal>
           <div className={styles.point}>
             <div className={styles.iconcontainer4}><LiaAwardSolid className={styles.icon}/></div>
             <div className={styles.textcontainer1}>
@@ -48,16 +48,7 @@ export default function Ourgallery() {
               <div className={styles.btm}>We have a strong reputation and recognition.</div>
             </div>
           </div>
-          </Reveal>
-          <Reveal>
-          <div className={styles.point}>
-            <div className={styles.iconcontainer}><IoMdCheckmarkCircleOutline className={styles.icon}/></div>
-            <div className={styles.textcontainer1}>
-              <div className={styles.top}>Quick Results</div>
-              <div className={styles.btm}>Get quick and guaranteed results with the best teachers.</div>
-            </div>
-          </div>
-          </Reveal>
+          </Reveal> */}
           <Reveal>
           <div className={styles.point}>
             <div className={styles.iconcontainer5}><FaChalkboardTeacher  className={styles.icon}/></div>
@@ -69,9 +60,18 @@ export default function Ourgallery() {
           </Reveal>
           <Reveal>
           <div className={styles.point}>
+            <div className={styles.iconcontainer}><IoMdCheckmarkCircleOutline className={styles.icon}/></div>
+            <div className={styles.textcontainer1}>
+              <div className={styles.top}>Impressive Results</div>
+              <div className={styles.btm}>Get best and guaranteed results with the best teachers.</div>
+            </div>
+          </div>
+          </Reveal>
+          <Reveal>
+          <div className={styles.point}>
             <div className={styles.iconcontainer1}><MdAttachMoney className={styles.icon}/></div>
             <div className={styles.textcontainer1}>
-              <div className={styles.top}>Better Plans</div>
+              <div className={styles.top}>Schlorships</div>
               <div className={styles.btm}>You can save a lot of money on our lessons & resources.</div>
             </div>
           </div>

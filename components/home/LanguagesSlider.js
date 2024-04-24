@@ -54,7 +54,7 @@ function LanguagesSlider() {
             <Image className={styles.img} src={"/languageclub/1 (6).jpg"} width={400} height={400} alt="image"/>
           </div>
           <div>
-            <div className={styles.heading}>French language Club</div>
+            <div className={styles.heading}>French Language Club</div>
             <div className={styles.text}>{texts[1].slice(0,100)}...</div>
             <button className={styles.btn}>Read More</button>
           </div>
@@ -69,7 +69,7 @@ function LanguagesSlider() {
             <Image className={styles.img} src={"/languageclub/1 (2).jpg"} width={400} height={400} alt="image"/>
           </div>
           <div>
-            <div className={styles.heading}>Spanish language Club</div>
+            <div className={styles.heading}>Spanish Language Club</div>
             <div className={styles.text}>{texts[2].slice(0,100)}...</div>
             <button className={styles.btn}>Read More</button>
           </div>
@@ -84,7 +84,7 @@ function LanguagesSlider() {
             <Image className={styles.img} src={"/languageclub/1 (4).jpg"} width={400} height={400} alt="image"/>
           </div>
           <div>
-            <div className={styles.heading}>German language Club</div>
+            <div className={styles.heading}>German Language Club</div>
             <div className={styles.text}>{texts[4].slice(0,100)}...</div>
             <button className={styles.btn}>Read More</button>
           </div>
@@ -99,7 +99,7 @@ function LanguagesSlider() {
             <Image className={styles.img} src={"/languageclub/1 (3).jpg"} width={400} height={400} alt="image"/>
           </div>
           <div>
-            <div className={styles.heading}>Italian language Club</div>
+            <div className={styles.heading}>Italian Language Club</div>
             <div className={styles.text}>{texts[3].slice(0,100)}...</div>
             <button className={styles.btn}>Read More</button>
           </div>
@@ -111,10 +111,10 @@ function LanguagesSlider() {
         <div className={styles.cardcontainer}>
         <div className={styles.card}>
         <div className={styles.imgcontainer}>
-            <Image className={styles.img} src={"/languageclub/2 (10).png"} width={400} height={400} alt="image"/>
+            <Image className={styles.img} src={"/languageclub/2 (12).jpeg"} width={400} height={400} alt="image"/>
           </div>
           <div>
-            <div className={styles.heading}>Sanskrit language Club</div>
+            <div className={styles.heading}>Sanskrit Language Club</div>
             <div className={styles.text}>{texts[5].slice(0,100)}...</div>
             <button className={styles.btn}>Read More</button>
           </div>
