@@ -101,18 +101,22 @@ const Quiz = () => {
             <ul>
                 <li onClick = {() => [onAnswerSelected(1, 1), setSelectedoption(1), setStart(false)]} disabled={selectedAnswer ? false : true} key={choices[0]} 
                 className={start ? `${styles.start}` : 
+                correctAnswer === 1 ? `${styles.correct}` :
                   selectedoption !== 1 ? `${styles.notselected}` 
                 : selectedAnswer ? `${styles.correct}` : `${styles.wrong}`} >{choices[0]}</li>
                 <li onClick = {() => [onAnswerSelected(2, 2), setSelectedoption(2), setStart(false)]} disabled={selectedAnswer ? false : true} key={choices[1]} 
                 className={start ? `${styles.start}` : 
+                correctAnswer === 2 ? `${styles.correct}` :
                   selectedoption !== 2 ? `${styles.notselected}` : 
                 selectedAnswer ? `${styles.correct}` : `${styles.wrong}`}>{choices[1]}</li>
                 <li onClick = {() => [onAnswerSelected(3, 3), setSelectedoption(3), setStart(false)]} disabled={selectedAnswer ? false : true} key={choices[2]} 
                 className={start ? `${styles.start}` : 
+                correctAnswer === 3 ? `${styles.correct}` :
                   selectedoption !== 3 ? `${styles.notselected}` : 
                 selectedAnswer ? `${styles.correct}` : `${styles.wrong}`} >{choices[2]}</li>
                 <li onClick = {() => [onAnswerSelected(4, 4), setSelectedoption(4), setStart(false)]} disabled={selectedAnswer ? false : true} key={choices[3]} 
                 className={start ? `${styles.start}` : 
+                correctAnswer === 4 ? `${styles.correct}` :
                 selectedoption !== 4 ? `${styles.notselected}` : 
                 selectedAnswer ? `${styles.correct}` : `${styles.wrong}`} >{choices[3]}</li>
             </ul>

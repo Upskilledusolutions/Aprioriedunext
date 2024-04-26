@@ -31,6 +31,17 @@
   padding: 10px;
   transition: 0.3s;
 }
+.activities{
+  position: relative;
+}
+.dropdown{
+  position: absolute;
+  top: -1000px;
+  left: 0;
+}
+.activities:hover .dropdown{
+  top: 100px;
+}
 .hovereffect{
   background: linear-gradient(to left, white 50%, var(--blue) 50%) right;
   background-size: 250% 120%;
