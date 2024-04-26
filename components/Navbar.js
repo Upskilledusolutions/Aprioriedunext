@@ -74,9 +74,9 @@ export default function Navbar() {
             <span><IoIosArrowUp className={styles.span}/></span>
           </div>
           <div className={drop ? `${styles.show}` : `${styles.hide}`}>
-            <Link className={styles.linked} onClick={clickfn} href='/ReadingSkills'>Reading Club</Link>
+            <Link className={styles.linked} onClick={clickfn} href='/ReadingClub'>Reading Club</Link>
             <Link className={styles.linked} onClick={clickfn} href='/LanguageClub'>Language Club</Link>
-            <Link className={styles.linked} onClick={clickfn} href='/WritingSkills'>Writing Club</Link>
+            <Link className={styles.linked} onClick={clickfn} href='/WritingClub'>Writing Club</Link>
             <Link className={styles.linked} onClick={clickfn} href='/Olympiad'>Olympiad</Link>
           </div>
           </div>

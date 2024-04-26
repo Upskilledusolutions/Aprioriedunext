@@ -30,7 +30,7 @@ export default function Footer() {
       <div>
         <div className={styles.logocontainer}>
           <Image className={styles.logo} src={'/logo/newlogo1.png'} width={300} height={300} alt="image"/>
-          <div className={styles.logotext}>UpskillEdu<br/>Solutions</div>
+          <div className={styles.logotext}>Upskilledu<br/>Solutions</div>
         </div>
         {/* <div className={styles.lefttopic10}>Our testimonials</div>
         <div className={styles.border}>
@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
       </div>
     </div>
-    <div className={styles.copyright}>@ 2024 UpskillEdu Solutions. All rights reserved. Privacy Policy.</div>
+    <div className={styles.copyright}>@ 2024 Upskilledu Solutions. All rights reserved. Privacy Policy.</div>
     </div>
   )
 }

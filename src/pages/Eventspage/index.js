@@ -23,7 +23,7 @@ const index = () => {
       id: 3,
       title: "Young Poet Award 2023",
       date: "TBD",
-      url: "/events/YoungPoetAward.png",
+      url: "/events/YoungPoetAward1.jpg",
     },
   ];
 
