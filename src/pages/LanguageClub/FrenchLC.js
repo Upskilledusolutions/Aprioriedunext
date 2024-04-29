@@ -127,7 +127,7 @@ For more information about our activities and upcoming events, feel free to expl
         </div>
         <Reveal>
           <div className={styles.right1}>
-            <Image className={styles.img2} src={'/languageclub/french (2).jpg'} width={500} height={500} alt="img"/>
+            <Image className={styles.img2} src={'/languageclub/france (2).jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
       </div>
