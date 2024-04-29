@@ -69,11 +69,11 @@ export default function Navbar() {
           <Link onClick={clickfn2} href='/' className={isActive('/') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Home</Link>
           <Link onClick={clickfn2} href='/QuizTime' className={isActive('/QuizTime') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}`:`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Quiz Time</Link>
           <div className={styles.options}>
-          <div onClick={()=>setDrop(!drop)} className={`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>          
+          <div onClick={()=>setDrop(!drop)} onMouseEnter={()=>setDrop(true)} onMouseLeave={()=>setDrop(false)} className={`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect} ${styles.activity}`}>          
             Activities
             <span><IoIosArrowUp className={styles.span}/></span>
           </div>
-          <div className={drop ? `${styles.show}` : `${styles.hide}`}>
+          <div onMouseEnter={()=>setDrop(true)} onMouseLeave={()=>setDrop(false)} className={drop ? `${styles.show}` : `${styles.hide}`}>
             <Link className={styles.linked} onClick={clickfn} href='/ReadingClub'>Reading Club</Link>
             <Link className={styles.linked} onClick={clickfn} href='/LanguageClub'>Language Club</Link>
             <Link className={styles.linked} onClick={clickfn} href='/WritingClub'>Writing Club</Link>
