@@ -70,9 +70,9 @@ border-radius: 50%;
     width: 90vw;
   }
   .card{
-    padding: 30px 4vw 50px 4vw;
+    padding: 10px 4vw 20px 4vw;
     width: 82vw;
-    height: 370px;
+    height: 420px;
   }
   .heading{
     font-size: 40px;
@@ -91,6 +91,7 @@ border-radius: 50%;
     font-size: 16px;
   }
   .description{
-    font-size: 15px;
+    font-size: 14px;
+    padding: 0 5vw;
   }
 }

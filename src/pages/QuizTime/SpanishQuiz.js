@@ -82,21 +82,23 @@ const Quiz = () => {
       <link rel="icon" href="/logo/newlogo1.png" />
     </Head>
     <main>
-          <div className={styles.container}>
+    <div className={styles.container}>
     {time >= 0 && <div className={styles.timer}><BsAlarm /> <span>{time}</span></div>}
     <div className={styles.background2}></div>
-    <Image className={styles.background} src={'/languageclub/background (2).jpg'} width={2000} height={2000} alt=''></Image>
+    <Image className={styles.background} src={'/languageclub/background (1).jpg'} width={2000} height={2000} alt=''></Image>
       <div className={styles.quizcontainer}>
-      {!showResult ? (<div className={styles.scores}>
-                        <div className={styles.checkcont}><FaCheck className={styles.check}/>:<div> {result.correctAnswers}</div></div>
-                        <div className={styles.checkcont}><RxCross1 className={styles.cross}/>:<div> {result.wrong}</div></div>
-                      </div>):''}
         {!showResult ? (
           <div>
+          <div className={styles.flex5}>
             <div>
               <span className={styles.activequestionno}>{addLeadingZero(activeQuestion + 1)}</span>
               <span className={styles.totalquestion}>/{addLeadingZero(questions.length)}</span>
             </div>
+            {!showResult ? (<div className={styles.scores}>
+                        <div className={styles.checkcont}><FaCheck className={styles.check}/>:<div> {result.correctAnswers}</div></div>
+                        <div className={styles.checkcont}><RxCross1 className={styles.cross}/>:<div> {result.wrong}</div></div>
+                      </div>):''}
+          </div>
             <h2 className={styles.ques}>{question}</h2>
             <ul>
                 <li onClick = {() => [onAnswerSelected(1, 1), setSelectedoption(1), setStart(false)]} disabled={selectedAnswer ? false : true} key={choices[0]} 

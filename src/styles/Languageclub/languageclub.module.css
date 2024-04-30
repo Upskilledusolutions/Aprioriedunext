@@ -138,6 +138,12 @@ font-weight: 500;
   flex-direction: row-reverse;
   gap: 2vw;
 }
+.middle7{
+  padding: 50px 15vw;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
 .img2{
   width: 30vw;
   height: auto;
@@ -450,7 +456,7 @@ font-weight: 500;
   font-weight: 500;
 }
 @media screen and (max-width: 1100px){
-  .middle,.middle2,.middle5,.middle6{
+  .middle,.middle2,.middle5,.middle6,.middle13{
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -623,5 +629,11 @@ font-weight: 500;
   }
 .space{
   margin-top: 70px;
+}
+.middle6{
+  padding: 50px 6vw;
+}
+.middle13{
+  width: 80%;
 }
 }

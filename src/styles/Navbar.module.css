@@ -25,11 +25,10 @@
   text-decoration: none;
   position: relative;
   font-weight: 500;
-  transition: 0.3s;
   display: flex;
   align-items: center;
   padding: 10px;
-  transition: 0.3s;
+  transition: 0.5s;
   z-index: 700;
 }
 .activities{
@@ -76,7 +75,7 @@
   color: white;
   width: max-content;
   border-radius: 5px;
-  transition: 0.3s;
+  transition: 0.5s;
   z-index: 600;
 }
 .hide{
@@ -90,7 +89,7 @@
   color: white;
   width: max-content;
   border-radius: 5px;
-  transition: 0.3s;
+  transition: 0.5s;
   z-index: 600;
 }
 .linked{

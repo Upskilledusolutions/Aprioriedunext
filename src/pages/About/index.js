@@ -72,7 +72,7 @@ export default function LanguageClub() {
         </div>
       </Reveal>
       <Reveal>
-        <div className={styles.middle5}>
+        <div className={styles.middle13}>
           <div className={styles.left5}>
             <div className={styles.heading5}>OUR GOAL</div>
             <div className={styles.text6}>Provide high-quality learning <br/>
