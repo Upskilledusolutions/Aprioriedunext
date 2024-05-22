@@ -131,10 +131,10 @@ const Quiz = () => {
         ) : (
           <div className={styles.result}>
             <h1 className={styles.headingresult}>Result</h1>
-            <p className={styles.flexi}><div>Total Question:</div><div className={styles.color}>{questions.length}</div></p>
-            <p className={styles.flexi}><div>Total Score:</div><div className={styles.color}>{result.correctAnswers * 5}</div></p>
-            <p className={styles.flexi}><div>Correct Answers:</div><div className={styles.color}>{result.correctAnswers}</div></p>
-            <p className={styles.flexi}><div>Wrong Answers:</div><div className={styles.color}>{10 - result.correctAnswers}</div></p>
+            <div className={styles.flexi}><div>Total Question:</div><div className={styles.color}>{questions.length}</div></div>
+            <div className={styles.flexi}><div>Total Score:</div><div className={styles.color}>{result.correctAnswers * 5}</div></div>
+            <div className={styles.flexi}><div>Correct Answers:</div><div className={styles.color}>{result.correctAnswers}</div></div>
+            <div className={styles.flexi}><div>Wrong Answers:</div><div className={styles.color}>{10 - result.correctAnswers}</div></div>
             <div className={styles.flex}> 
               <Link className={styles.btns} href="/QuizTime">Go Back</Link>
                 <div className={styles.btns} onClick={reloadPage}>Retry</div>

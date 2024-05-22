@@ -75,7 +75,7 @@ export default function LanguageClub() {
         <div className={styles.card}>
           <div className={styles.topflex}>
           <div className={styles.imgcontainer1}>
-            <Image className={styles.img1} src={'/profileimg/6 (2).png'} width={600} height={600} alt="image"/>
+            <Image className={styles.img1} src={'/profileimg/6 (10).png'} width={600} height={600} alt="image"/>
           </div>
             <div className={styles.testname}>
               <div>Dyumna</div>
@@ -89,7 +89,7 @@ export default function LanguageClub() {
         <div className={styles.card}>
           <div className={styles.topflex}>
           <div className={styles.imgcontainer1}>
-            <Image className={styles.img1} src={'/profileimg/6 (4).png'} width={600} height={600} alt="image"/>
+            <Image className={styles.img1} src={'/profileimg/6 (9).png'} width={600} height={600} alt="image"/>
           </div>
             <div className={styles.testname}>
               <div>Nipun Banerjee</div>
@@ -103,7 +103,7 @@ export default function LanguageClub() {
         <div className={styles.card}>
           <div className={styles.topflex}>
           <div className={styles.imgcontainer1}>
-            <Image className={styles.img1} src={'/profileimg/6 (3).png'} width={600} height={600} alt="image"/>
+            <Image className={styles.img1} src={'/profileimg/6 (8).png'} width={600} height={600} alt="image"/>
           </div>
           <div className={styles.testname}>
               <div>Prisha Chhabra</div>

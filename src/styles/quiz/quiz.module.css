@@ -81,7 +81,7 @@ overflow: hidden;
 }
 
 .quizcontainer ul {
-  margin-top: 0px;
+  margin-top: 15px;
   margin-left: -40px;
 }
 
@@ -107,9 +107,9 @@ overflow: hidden;
 .quizcontainer button, .btns{
   background: linear-gradient(90.04deg, rgb(255, 84, 21) 0.03%, #ff627c 99.96%);
   border-radius: 9px;
-  font-size: 16px;
+  font-size: 14px;
   color: #ffffff;
-  padding: 10px 2vw;
+  padding: 10px 1vw;
   outline: none;
   border: none;
   cursor: pointer;
@@ -144,7 +144,7 @@ overflow: hidden;
 }
 
 .result p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   border: 1px solid rgb(205, 205, 205) ;
   padding: 5px 1vw;
@@ -153,7 +153,7 @@ overflow: hidden;
 
 .color{
   color: #007cef;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .flexi{
@@ -173,7 +173,7 @@ overflow: hidden;
 }
 .result h1{
   font-weight: 500;
-  font-size: 36px;
+  font-size: 28px;
   margin: 0;
 }
 .check{
@@ -226,6 +226,12 @@ overflow: hidden;
   background-color: rgba(0, 0, 0, 0.528);
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 16px;
+}
+.headingresult{
+  font-size: 22px;
+}
+.flexi{
+  font-size: 14px;
 }
 @media screen and (max-width: 720px){
   .quizcontainer .activequestionno{
