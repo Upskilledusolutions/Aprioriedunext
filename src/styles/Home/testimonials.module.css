@@ -1,7 +1,8 @@
 .slidercontainer{
-  padding: 50px 10vw;
+  padding: 50px 0vw;
+  margin-left: 1vw;
   position: relative;
-  margin-top: 60px;
+  background-color: var(--blue);
 }
 .background{
   position: absolute;
@@ -12,50 +13,48 @@
   z-index: -10;
   object-fit: cover;
 }
-.cover{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 750px;
-  background: rgba(0, 0, 0, 0.55);
-  z-index: -5;
-}
 .heading{
-  padding-top: 70px;
-  width: 80vw;
-  margin: 0px 0 50px;
-  font-size: 50px;
-  font-weight: 600;
+  width: 98vw;
+  margin: 0px 0 40px;
+  font-size: 30px;
+  font-weight: 700;
   text-align: center;
   color: white;
 }
+.imgcontainer{
+  display: flex;
+  gap: 1vw;
+  text-align: left;
+  margin-bottom: 20px;
+}
 .card{
-  padding: 30px 12vw 50px 12vw;
-  /* padding: 30px 2vw 50px; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 55vw;
+  justify-content: flex-start;
+  align-items: left;
+  text-align: left;
+  width: 20vw;
   background: white;
   font-weight: 500;
+  margin-left: 4vw;
+  padding: 20px 2vw;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 10px;
+  height: 350px;
 }
 .img{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 object-fit: cover;
 border-radius: 50%;
 }
 .name{
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 600;
-  margin: 20px 0 0px;
 }
 .boldtext{
   font-weight: 600;
-  font-size: 18px;
+  font-size: 12px;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 720px){
@@ -63,21 +62,23 @@ border-radius: 50%;
     height: 600px;
   }
   .slidercontainer{
-    padding: 20px 5vw;
+    padding: 20px 2vw;
   }
   .slider{
-    width: 90vw;
+    width: 96vw;
   }
   .card{
-    padding: 10px 4vw 20px 4vw;
-    width: 82vw;
-    height: 420px;
+    padding: 20px 3vw 20px 3vw;
+    width: 86vw;
+    height: 300px;
+    margin: 0;
   }
   .heading{
-    font-size: 40px;
+    font-size: 30px;
     padding-top: 10px;
-    padding-left: 5vw;
-    margin-bottom: 20px;
+    text-align: center;
+    width: 95vw;
+    margin-bottom: 40px;
   }
   .img{
     width: 100px;
@@ -89,7 +90,7 @@ border-radius: 50%;
   .boldtext{
     font-size: 16px;
   }
-  .description{
+  .description,.imgcontainer{
     font-size: 14px;
     padding: 0 5vw;
   }

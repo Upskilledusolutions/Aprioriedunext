@@ -89,7 +89,7 @@ export default function Fromsection() {
 
       </div>
       </Reveal>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0, y: 100,}}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -101,15 +101,7 @@ export default function Fromsection() {
           <div className={styles.inputcont}><IoIosMail /><input className={styles.input} type="text" placeholder="E-mail"/></div>
           <button className={styles.btn}>BOOK NOW</button>
         </form>
-        {/* <div className={styles.lastcont}>
-          <Image className={styles.lastimg} src={"/assests/8.jpg"} width={600} height={600} alt="image"/>
-          <div className={styles.lasttext}>
-            <div className={styles.title1}>LOTS OF HAPPY MEMBERS</div>
-            <div className={styles.text1}>Many people has joined us and many will, be a part of them...</div>
-          </div>
-        </div> */}
-
-      </motion.div>
+      </motion.div> */}
     </div>
   )
 }

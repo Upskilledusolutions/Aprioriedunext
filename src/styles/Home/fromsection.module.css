@@ -1,18 +1,19 @@
 .container{
   display: flex;
-  padding: 0 10vw 80px;
+  padding: 20px 10vw 0px;
   gap: 7vw;
   position: relative;
 }
 .courses{
-  width: 38vw;
+  width: 78vw;
   padding-bottom: 30px;
 }
 .topsection{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+  text-align: center;
 }
 .title{
   font-size: 30px;
@@ -37,15 +38,13 @@
   box-shadow: rgba(0, 0, 0, 0.25) 4px 4px 5px;
 }
 .cards{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.5vw;
+display: flex;
+justify-content: space-between;
 }
 .card{
   width: 17vw;
   height: 250px;
   position: relative;
-  border-radius: 10px;
   overflow: hidden;
   transition: 0.3s;
 }
@@ -197,8 +196,7 @@ bottom: 0;
   object-fit: cover;
 }
 .card1{
-  border: 1px solid rgb(216, 216, 216);
-  border-radius: 20px;
+  border: 1px solid rgb(206, 206, 206);
   overflow: hidden;
   width: 17vw;
   height: 320px;
@@ -241,7 +239,7 @@ bottom: 0;
   }
   .topsection{
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
   }
   .title{
@@ -255,7 +253,7 @@ bottom: 0;
     color: white;
   }
   .cards{
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
   .card{
     width: 100%;
@@ -288,5 +286,8 @@ bottom: 0;
   }
 .inputcont{
   padding-left: 2vw;
+}
+.card1{
+  width: 89vw;
 }
 }

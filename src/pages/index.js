@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Fromsection from '../../components/home/Fromsection'
 import Hero from '../../components/home/Hero'
+import HeroSlider from '../../components/home/Heroslider'
 import Newsletter from '../../components/home/Newsletter'
 import Ourgallery from '../../components/home/Ourgallery'
 import Testimonials from '../../components/home/testimonials'
-// import Events from "../../components/home/Events"
+import Events from "../../components/home/Events"
 import dynamic from "next/dynamic";
 
 const Home = () => {
@@ -18,12 +19,12 @@ const Home = () => {
       </Head>
       <main>
         <>
-          <Hero />
+          <HeroSlider />
           <Fromsection />
-          {/* <Testimonials /> */}
-          <Ourgallery />
+          <Testimonials />
+          {/* <Ourgallery /> */}
+          <Events />
           <Newsletter />
-          {/* <Events /> */}
         </>
       </main>
     </>

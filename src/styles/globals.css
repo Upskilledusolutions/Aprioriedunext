@@ -13,3 +13,47 @@ body{
   --darkorange:rgb(190, 51, 0);
   --lightorange:rgb(255, 106, 0);
 }
+
+.button-swiper{
+  width: 97vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.swiper-button-next,.swiper-button-prev{
+  top: unset !important;
+  left: unset !important;
+  bottom: unset !important;
+  right: unset !important;
+  height: 10px !important;
+  width: 10px !important;
+  position: unset !important;
+  color: black !important;
+  background-color: white;
+  padding: 10px 0.75vw;
+  border-radius: 50%;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+.swiper-controller{
+  position: relative;
+}
+.button-Arrangement{
+  position: absolute;
+  left: 1vw;
+  top: 50%;
+}
+.vertical-timeline-element-date{
+  color: black;
+} 
+@media screen and (max-width: 768px){
+  .swiper-button-next,.swiper-button-prev{
+    padding: 15px;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after{
+    font-size: 30px !important;
+  }
+}
