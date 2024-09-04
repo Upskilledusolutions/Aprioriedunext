@@ -30,6 +30,7 @@ color: white;
 }
 .text{
   font-size: 26px;
+  text-align: center;
 }
 .flex{
   display: flex;
