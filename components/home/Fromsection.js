@@ -1,15 +1,11 @@
 import styles from "../../src/styles/Home/fromsection.module.css"
 import Image from "next/image"
-import { FaUser } from "react-icons/fa";
-import { FaPhoneAlt } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-import { motion } from "framer-motion";
 import Reveal from "../Reveal";
 import Link from "next/link";
 
 export default function Fromsection() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="activities">
     <Reveal>
       <div className={styles.courses}>
         <div className={styles.topsection}>

@@ -16,7 +16,7 @@ export default function SpanishLC() {
     </Head>
     <main>
     <div>
-    <div className={styles.bigheading}>Spanish Language Club</div>
+    <div className={styles.headcont}><div className={styles.mainheading}>Spanish Language Club</div></div>
     {/* <Reveal>
       <div className={styles.bigicontainer}>
       <div className={styles.bigcontainer}>

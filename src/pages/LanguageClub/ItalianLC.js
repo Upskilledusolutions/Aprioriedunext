@@ -16,7 +16,7 @@ export default function ItalianLC() {
     </Head>
     <main>
     <div>
-    <div className={styles.bigheading}>Italian Language Club</div>
+    <div className={styles.headcont}><div className={styles.mainheading}>Italian Language Club</div></div>
 
       <div className={styles.middle2}>
         <div className={styles.left1}>

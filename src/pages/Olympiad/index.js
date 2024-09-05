@@ -18,17 +18,18 @@ export default function LanguageClub() {
     <div>
     <Reveal>
       <div className={styles.bigicontainer}>
-      <div className={styles.bigcontainer}>
+      {/* <div className={styles.bigcontainer}>
       <div className={styles.text10}>
         <div className={`${styles.top55}`}>Olympiad</div>
         <div className={`${styles.middle55} ${styles.text12}`}>Train for mathematics, science, english and more.</div>
         <div className={`${styles.bottom55} ${styles.text13}`}></div>
-        {/* <button className={styles.btn}>Apply Now</button> */}
       </div>
       <div className={styles.imgcont10}>
         <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/19 (1).png"} alt="image"/>
       </div>
-      </div>
+      </div> */}
+
+<div className={styles.headcont}><div className={styles.mainheading}>Olympiad</div></div>
       </div>
     </Reveal>
       {/* <div className={styles.topcontainer}>
@@ -53,7 +54,7 @@ export default function LanguageClub() {
         </div>
         <Reveal>
           <div className={styles.right1}>
-            <Image className={styles.img2} src={'/illustrations/2 (7).png'} width={500} height={500} alt="img"/>
+            <Image className={styles.img2} src={'/content/8.jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
       </div>
@@ -68,7 +69,7 @@ export default function LanguageClub() {
         </div>
         <Reveal>
           <div className={styles.right1}>
-            <Image className={styles.img2} src={'/illustrations/2 (12).png'} width={500} height={500} alt="img"/>
+            <Image className={styles.img2} src={'/content/10.jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
 

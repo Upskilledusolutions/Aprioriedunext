@@ -3,10 +3,17 @@
   padding:0 8vw;
   margin-bottom: 50px;
 }
+.headcont{
+  display: flex;
+  justify-content: center;
+}
 .mainheading{
   font-size: 42px;
-  font-weight: 500;
+  font-weight: 600;
   margin-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+  display: inline;
 }
 .maintext{
   margin: 30px 0 50px;
@@ -20,6 +27,18 @@
   border-radius: 20px;
   box-shadow: rgba(70, 70, 70, 0.08) 3px 3px 5px;
   margin-bottom: 30px;
+}
+.card1{
+  text-align: start;
+  border: 1px solid rgb(225, 225, 225);
+  padding: 2vw;
+  padding-bottom: 3vw;
+  border-radius: 20px;
+  box-shadow: rgba(70, 70, 70, 0.08) 3px 3px 5px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 2vw;
 }
 .cardheading{
   font-size: 24px;
@@ -41,7 +60,37 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 }
+.cards1{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.img5{
+  width: 5vw;
+  height: auto;
+}
+.name{
+  font-size: 22px;
+  font-weight: 700;
+}
+.level{
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.topic{
+  font-size: 16px;
+}
+.link{
+  color: black;
+  text-decoration: none;
+}
 @media screen and (max-width: 720px){
+  .cards1{
+    grid-template-columns: 1fr;
+    gap:0;
+  }
   .container{
     padding: 0 5vw;
   }
@@ -51,5 +100,12 @@ justify-content: space-between;
   .card{
     width: 88%;
     padding:5vw 5vw 40px;
+  }
+  .card1{
+    padding:20px 8vw;
+    gap: 5vw;
+  }
+  .img5{
+    width: 10vw;
   }
 }

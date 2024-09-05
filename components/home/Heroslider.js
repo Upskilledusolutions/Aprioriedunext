@@ -9,6 +9,13 @@ import Image from "next/image";
 
 export default function EventsSlider() {
 
+  const scrollToSection = () => {
+    const section = document.getElementById("activities");
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
     const data = [{url:'/hero/1.jpg',one:"Empowering Minds",two:"Ensuring equitable access to education for all."},{url:'/hero/2.jpg',one:"Unlock Your Potential",two:"Believe in yourself."},{url:'/hero/3.jpg',one:"Where Curiosity Meets Excellence",two:"Experience learning as a journey of fascinating discoveries"}]
 
   return (
@@ -48,7 +55,7 @@ export default function EventsSlider() {
                 <div className={styles.pos}>
                   <div className={styles.one}>{data.one}</div>
                   <div className={styles.two}>{data.two}</div>
-                  <div className={styles.three}>View all courses</div>
+                  <div className={styles.three} onClick={() => scrollToSection()}>View all courses</div>
                 </div>
                 <Image src={data.url} className={styles.img} width={2000} height={2000} alt='image' />
             </SwiperSlide>)}

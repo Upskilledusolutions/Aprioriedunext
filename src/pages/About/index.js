@@ -22,17 +22,18 @@ export default function LanguageClub() {
       <div>
     <Reveal>
       <div className={styles.bigicontainer}>
-      <div className={styles.bigcontainer}>
+      {/* <div className={styles.bigcontainer}>
       <div className={styles.text10}>
         <div className={`${styles.top55}`}>About Us</div>
         <div className={`${styles.middle56} ${styles.text12}`}> Upskilledu Solutions was created with a goal in mind to change the current trend where people are losing interest in liberal arts education. Liberal arts education is just as practical and valuable as technical studies. </div>
         <div className={`${styles.bottom55} ${styles.text13}`}></div>
-        {/* <button className={styles.btn}>Apply Now</button> */}
       </div>
       <div className={styles.imgcont10}>
         <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/6.png"} alt="image"/>
       </div>
-      </div>
+      </div> */}
+
+<div className={styles.headcont}><div className={styles.mainheading}>About Us</div></div>
       </div>
     </Reveal>
       {/* <div className={styles.topcontainer}>
@@ -47,7 +48,7 @@ export default function LanguageClub() {
         </Reveal>
         </div>
       </div> */}
-      <Reveal>
+      {/* <Reveal>
         <div className={styles.middle5}>
           <div className={styles.left5}>
             <div className={styles.heading5}>OUR PHILOSOPHY</div>
@@ -82,11 +83,47 @@ export default function LanguageClub() {
             <Image className={styles.img5} src={'/content/15.jpg'} width={500} height={500} alt="img"/>
           </div>
         </div>
-      </Reveal>
-      <div className={styles.new}>
+      </Reveal> */}
+
+      <div className={styles.eventscards1}>
       <Reveal>
-        <div className={styles.title}>WHY CHOOSE US</div>
+        <div className={styles.eventcard}>
+          <div className={styles.eventcardimgcontainer}>
+            <Image className={styles.eventcardimg} src={'/content/14.jpg'} width={400} height={400} alt="image"/>
+          </div>
+          <div className={styles.eventtopic}>OUR PHILOSOPHY</div>
+          <div className={styles.eventtext}>Planning, Consistency, and focus
+          outshine talent... Everytime</div>
+        </div>
       </Reveal>
+
+      <Reveal>
+        <div className={styles.eventcard}>
+          <div className={styles.eventcardimgcontainer}>
+            <Image className={styles.eventcardimg} src={'/content/23.jpg'} width={400} height={400} alt="image"/>
+          </div>
+          <div className={styles.eventtopic}>OUR IDEOLOGY</div>
+          <div className={styles.eventtext}>To educate curious minds
+          about limitless possibilities</div>
+        </div>
+      </Reveal>
+
+      <Reveal>
+        <div className={styles.eventcard}>
+          <div className={styles.eventcardimgcontainer}>
+            <Image className={styles.eventcardimg} src={'/content/15.jpg'} width={400} height={400} alt="image"/>
+          </div>
+          <div className={styles.eventtopic}>OUR GOAL</div>
+          <div className={styles.eventtext}>Provide high-quality learning
+          opportunities for students</div>
+        </div>
+      </Reveal>
+      </div>
+
+      <div className={styles.new}>
+
+      <div className={styles.headcont1}><div className={styles.mainheading}>Why Choose Us?</div></div>
+
       <div className={styles.flex10}>
       <Reveal>
         <div className={styles.point}>

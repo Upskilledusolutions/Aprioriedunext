@@ -17,7 +17,7 @@ export default function GermanLC() {
     </Head>
     <main>
           <div>
-    <div className={styles.bigheading}>German Language Club</div>
+          <div className={styles.headcont}><div className={styles.mainheading}>German Language Club</div></div>
 
       <div className={styles.middle2}>
         <div className={styles.left1}>

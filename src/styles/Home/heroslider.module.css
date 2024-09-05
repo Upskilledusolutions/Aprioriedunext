@@ -117,6 +117,9 @@
     border-radius: 10px;
     border: 1px solid white;
   }
+  .three:hover{
+    cursor: pointer;
+  }
   @media screen and (max-width: 768px){
     .flex{
       flex-wrap: wrap;

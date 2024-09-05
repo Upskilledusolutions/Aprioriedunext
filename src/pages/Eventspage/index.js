@@ -39,17 +39,18 @@ const index = () => {
       <div>      
       <Reveal>
       <div className={styles.bigicontainer}>
-      <div className={styles.bigcontainer}>
+      {/* <div className={styles.bigcontainer}>
       <div className={styles.text10}>
         <div className={`${styles.top55}`}>Events</div>
         <div className={`${styles.middle56} ${styles.text12}`}>Our events are designed to enhance the learning experience and outcomes of our learners and educators, as well as to provide them with opportunities to network, collaborate, and grow.</div>
         <div className={`${styles.bottom55} ${styles.text13}`}></div>
-        {/* <button className={styles.btn}>Apply Now</button> */}
       </div>
       <div className={styles.imgcont10}>
         <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/4.png"} alt="image"/>
       </div>
-      </div>
+      </div> */}
+
+<div className={styles.headcont}><div className={styles.mainheading}>Events</div></div>
       </div>
     </Reveal>
       {/* <div className={styles.topcontainer}>
@@ -64,7 +65,7 @@ const index = () => {
           </Reveal>
           </div>
       </div> */}
-      <div className={styles.eventscards}>
+      <div className={styles.eventscards1}>
       {data.map((data) => (
         <Reveal>
         <Link href={`/Event/${data.id}`} className={styles.eventcard}>

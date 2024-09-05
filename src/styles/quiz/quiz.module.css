@@ -251,7 +251,7 @@ margin-bottom: 10px;
     font-size: 15px;
   }
   .quizcontainer {
-    padding: 30px 5vw;
+    padding: 60px 5vw 30px;
     width: 100%;
     height: auto;
   }
@@ -259,7 +259,7 @@ margin-bottom: 10px;
     font-size: 24px;
     border: none;
     color: black;
-    top: 150px;
+    top: 140px;
     right: 30px;
   }
   .timer span{

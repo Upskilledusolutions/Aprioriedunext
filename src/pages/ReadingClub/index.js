@@ -18,17 +18,18 @@ const LanguageClub = () => {
   <div>
     <Reveal>
       <div className={styles.bigicontainer}>
-      <div className={styles.bigcontainer}>
+      {/* <div className={styles.bigcontainer}>
       <div className={styles.text10}>
         <div className={`${styles.top55}`}>Reading Club</div>
         <div className={`${styles.middle55} ${styles.text12}`}>Read, understand, figure out, and evaluate written texts.</div>
         <div className={`${styles.bottom55} ${styles.text13}`}></div>
-        {/* <button className={styles.btn}>Apply Now</button> */}
       </div>
       <div className={styles.imgcont10}>
         <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/2 (11).png"} alt="image"/>
       </div>
-      </div>
+      </div> */}
+
+      <div className={styles.headcont}><div className={styles.mainheading}>Reading Club</div></div>
       </div>
     </Reveal>
       {/* <div className={styles.topcontainer}>
@@ -55,7 +56,7 @@ const LanguageClub = () => {
         </div>
         <Reveal>
           <div className={styles.right1}>
-            <Image className={styles.img2} src={'/illustrations/2 (3).png'} width={500} height={500} alt="img"/>
+            <Image className={styles.img2} src={'/content/reading/1.jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
       </div>
@@ -71,7 +72,7 @@ const LanguageClub = () => {
           </div>
         <Reveal>
           <div className={styles.right1}>
-            <Image className={styles.img2} src={'/illustrations/2 (2).png'} width={500} height={500} alt="img"/>
+            <Image className={styles.img2} src={'/content/reading/3.jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
       </div>
