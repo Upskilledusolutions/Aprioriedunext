@@ -29,7 +29,7 @@ export default function Events() {
   return (
     <div className={styles.container}>
       <Reveal>
-      <div className={styles.title}>EVENTS</div>
+      <div className={styles.titlecont}><div className={styles.title}>EVENTS</div></div>
       <div className={styles.cards}>
       {data.map((data) => (
         <Reveal>

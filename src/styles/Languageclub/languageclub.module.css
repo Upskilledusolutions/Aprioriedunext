@@ -609,6 +609,10 @@ font-weight: 500;
     gap: 60px;
     padding: 100px 5vw;
   }
+  .eventscards1{
+flex-wrap: wrap;
+gap: 30px;
+  }
   .eventcard{
     display: block;
     width: 80vw;
@@ -654,4 +658,9 @@ font-weight: 500;
 .middle13{
   width: 80%;
 }
+.mainheading{
+  font-size: 32px;
+  text-align: center;
+}
+
 }

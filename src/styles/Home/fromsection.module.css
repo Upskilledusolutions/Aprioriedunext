@@ -18,6 +18,8 @@
 .title{
   font-size: 30px;
   font-weight: 700;
+  padding-bottom: 10px;
+  border-bottom:3px solid black ;
 }
 .headingtext{
   margin-top: 20px;

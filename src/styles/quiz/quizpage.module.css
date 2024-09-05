@@ -108,4 +108,7 @@ justify-content: space-between;
   .img5{
     width: 10vw;
   }
+  .mainheading{
+    font-size: 32px;
+  }
 }

@@ -9,7 +9,7 @@ export default function Fromsection() {
     <Reveal>
       <div className={styles.courses}>
         <div className={styles.topsection}>
-          <div className={styles.title}>ACTIVITIES WE OFFER</div>
+          <div className={styles.titlecont}><div className={styles.title}>ACTIVITIES WE OFFER</div></div>
           {/* <button className={styles.btn1}>SEE ALL</button> */}
         </div>
         <div className={styles.cards}>
