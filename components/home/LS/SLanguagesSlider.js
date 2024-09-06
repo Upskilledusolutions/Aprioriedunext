@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
-import styles from "../../src/styles/Languageclub/languageslider.module.css"
+import styles from "../../../src/styles/Languageclub/languageslider.module.css"
 
 function LanguagesSlider() {
   const settings = {
@@ -62,7 +62,7 @@ function LanguagesSlider() {
         </Link>
         </div>
 
-        <Link href="/LanguageClub/SpanishLC" className={styles.link}>
+        {/* <Link href="/LanguageClub/SpanishLC" className={styles.link}>
         <div className={styles.cardcontainer}>
         <div className={styles.card}>
         <div className={styles.imgcontainer}>
@@ -75,7 +75,7 @@ function LanguagesSlider() {
           </div>
         </div>
         </div>
-        </Link>
+        </Link> */}
 
         <Link href="/LanguageClub/GermanLC" className={styles.link}>
         <div className={styles.cardcontainer}>

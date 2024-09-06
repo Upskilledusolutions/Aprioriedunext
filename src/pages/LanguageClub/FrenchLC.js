@@ -2,8 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import styles from "../../styles/Languageclub/languageclub.module.css"
 import Image from 'next/image'
-import Slider from "../../../components/home/LanguagesSlider" 
+import Slider from "../../../components/home/LS/FLanguagesSlider" 
 import Reveal from '../../../components/Reveal'
+import Piano from '../../../components/home/Piano/FPiano'
 
 export default function FrenchLC() {
   return (
@@ -16,7 +17,9 @@ export default function FrenchLC() {
       </Head>
       <main>
             <div>
+            <div className={styles.bigicontainer}>
             <div className={styles.headcont}><div className={styles.mainheading}>French Language Club</div></div>
+            </div>
 
       <div className={styles.middle2}>
         <div className={styles.left1}>
@@ -32,7 +35,10 @@ export default function FrenchLC() {
         </Reveal>
 
       </div>
-      <div className={styles.middle}>
+
+      <Piano />
+
+      {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
         <div className={styles.heading2}>About Us</div>
@@ -60,19 +66,6 @@ export default function FrenchLC() {
         </Reveal>
 
       </div>
-      {/* <div className={styles.middle}>
-        <div className={styles.left1}>
-        <Reveal>
-        <div className={styles.heading2}>Why we are better?</div>
-          <div className={styles.text2}>What sets us apart? It's our unwavering commitment to providing unparalleled quality in language education. Our team of dedicated instructors brings years of expertise and passion to every lesson, ensuring that students receive the highest caliber of instruction. From innovative teaching methods to personalized attention, we tailor our approach to meet the unique needs of each learner, fostering rapid progress and lasting fluency. Our immersive environment goes beyond the classroom, offering cultural experiences and interactive activities that enrich the learning journey.</div>
-        </Reveal>
-        </div>
-        <Reveal>
-          <div className={styles.right1}>
-            <Image className={styles.img2} src={'/languageclub/france.webp'} width={500} height={500} alt="img"/>
-          </div>
-        </Reveal>
-      </div> */}
 
       <div className={styles.middle}>
         <div className={styles.left1}>
@@ -130,7 +123,7 @@ For more information about our activities and upcoming events, feel free to expl
             <Image className={styles.img2} src={'/languageclub/france (2).jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
-      </div>
+      </div> */}
 
       <Reveal>
         <Slider className={styles.btm}/>

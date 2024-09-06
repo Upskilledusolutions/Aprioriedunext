@@ -48,7 +48,7 @@
   margin: 20px 0 30px;
 }
 .btn{
-  background-color: rgb(255, 84, 21);
+  background-color: var(--blue);
   color: white;
   border: none;
   padding: 10px;

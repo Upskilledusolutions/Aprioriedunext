@@ -2,8 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import styles from "../../styles/Languageclub/languageclub.module.css"
 import Image from 'next/image'
-import Slider from "../../../components/home/LanguagesSlider" 
+import Slider from "../../../components/home/LS/ILanguagesSlider" 
 import Reveal from '../../../components/Reveal'
+import Piano from '../../../components/home/Piano/IPiano'
 
 export default function ItalianLC() {
   return (
@@ -16,7 +17,9 @@ export default function ItalianLC() {
     </Head>
     <main>
     <div>
+    <div className={styles.bigicontainer}>
     <div className={styles.headcont}><div className={styles.mainheading}>Italian Language Club</div></div>
+    </div>
 
       <div className={styles.middle2}>
         <div className={styles.left1}>
@@ -32,7 +35,10 @@ export default function ItalianLC() {
         </Reveal>
 
       </div>
-      <div className={styles.middle}>
+
+      <Piano/>
+
+      {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
         <div className={styles.heading2}>About Us</div>
@@ -59,7 +65,7 @@ export default function ItalianLC() {
           </div>
         </Reveal>
 
-      </div>
+      </div> */}
       {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
@@ -74,7 +80,7 @@ export default function ItalianLC() {
         </Reveal>
       </div> */}
 
-      <div className={styles.middle}>
+      {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
           <div className={styles.heading2}>Culture</div>
@@ -130,7 +136,7 @@ export default function ItalianLC() {
             <Image className={styles.img2} src={'/languageclub/italian.png'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
-      </div>
+      </div> */}
 
       <Reveal>
         <Slider />

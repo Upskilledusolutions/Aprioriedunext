@@ -2,8 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import styles from "../../styles/Languageclub/languageclub.module.css"
 import Image from 'next/image'
-import Slider from "../../../components/home/LanguagesSlider" 
+import Slider from "../../../components/home/LS/GLanguagesSlider" 
 import Reveal from '../../../components/Reveal'
+import Piano from '../../../components/home/Piano/GPiano'
 
 export default function GermanLC() {
 
@@ -17,7 +18,9 @@ export default function GermanLC() {
     </Head>
     <main>
           <div>
+          <div className={styles.bigicontainer}>
           <div className={styles.headcont}><div className={styles.mainheading}>German Language Club</div></div>
+          </div>
 
       <div className={styles.middle2}>
         <div className={styles.left1}>
@@ -31,9 +34,12 @@ export default function GermanLC() {
             <Image className={styles.img2} src={'/languageclub/2 (7).jpg'} width={800} height={800} alt="img"/>
           </div>
         </Reveal>
-
       </div>
-      <div className={styles.middle}>
+
+      <Piano />
+
+
+      {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
         <div className={styles.heading2}>About Us</div>
@@ -60,7 +66,7 @@ export default function GermanLC() {
           </div>
         </Reveal>
 
-      </div>
+      </div> */}
       {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
@@ -75,7 +81,7 @@ export default function GermanLC() {
         </Reveal>
       </div> */}
 
-      <div className={styles.middle}>
+      {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
           <div className={styles.heading2}>Culture</div>
@@ -129,7 +135,7 @@ export default function GermanLC() {
             <Image className={styles.img2} src={'/languageclub/german (3).jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
-      </div>
+      </div> */}
 
       <Reveal>
         <Slider />

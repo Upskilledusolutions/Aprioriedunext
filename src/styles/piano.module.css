@@ -1,0 +1,207 @@
+.cont{
+    margin: 50px 5%;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+.smsont{
+    color: white;
+}
+.newflex{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.ques{
+    padding: 40px 3%;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ques1{
+    color: black;
+    border: 1px solid #4d4d4d;
+    padding: 40px 3%;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ans{
+    padding: 20px 0%;
+    font-size: 22px;
+    transition: 0.5s;
+    height: auto;
+}
+.answ{
+    padding: 0px 0%;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+.ans1{
+    font-size: 22px;
+}
+.answ1{
+    font-size: 0;
+}
+.nicon{
+   font-size: 18px;
+   transition: 0.3s;
+}
+.icon{
+    font-size: 18px;
+    transform: rotate(45deg);
+    transition: 0.3s;
+ }
+.bg1{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/2 (2).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.bg2{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/france.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.bg3{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/cc (7).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.bg4{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/cc (2).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.bg5{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/france (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.bg6{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/france (2).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.ibg1{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/2 (6).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.ibg2{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/italian (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.ibg3{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/cc (8).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.ibg4{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/cc (5).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.ibg5{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/italian1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.ibg6{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/italian.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.gbg1{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/2 (8).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.gbg2{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/german (4).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.gbg3{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/german (2).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.gbg4{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/cc (3).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.gbg5{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/german (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.gbg6{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/german (3).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.sbg1{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.sbg2{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/spanish (4).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.sbg3{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/cc (6).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.sbg4{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/cc (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.sbg5{
+    background-image: linear-gradient(to right,  rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/spanish (1).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+.sbg6{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 30%, transparent), url('/languageclub/spanish (2).jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: normal; /* No need for blend mode in this case */
+}
+@media screen and (max-width: 768px){
+    .ans,.ans1{
+        padding-right: 0%;
+        font-size: 14px;
+        height: auto;
+    }
+}

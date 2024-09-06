@@ -2,8 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import styles from "../../styles/Languageclub/languageclub.module.css"
 import Image from 'next/image'
-import Slider from "../../../components/home/LanguagesSlider" 
+import Slider from "../../../components/home/LS/SLanguagesSlider" 
 import Reveal from '../../../components/Reveal'
+import Piano from '../../../components/home/Piano/SPiano'
 
 export default function SpanishLC() {
   return (
@@ -16,33 +17,9 @@ export default function SpanishLC() {
     </Head>
     <main>
     <div>
+    <div className={styles.bigicontainer}>
     <div className={styles.headcont}><div className={styles.mainheading}>Spanish Language Club</div></div>
-    {/* <Reveal>
-      <div className={styles.bigicontainer}>
-      <div className={styles.bigcontainer}>
-      <div className={styles.text10}>
-        <div className={`${styles.top55}`}>Language Club</div>
-        <div className={`${styles.middle55} ${styles.text12}`}>Learn, practice, and enjoy different languages with other enthusiasts.</div>
-        <div className={`${styles.bottom55} ${styles.text13}`}></div>
-      </div>
-      <div className={styles.imgcont10}>
-        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/19 (3).png"} alt="image"/>
-      </div>
-      </div>
-      </div>
-    </Reveal> */}
-      {/* <div className={styles.topcontainer}>
-        <div className={styles.tint}/>
-        <Image className={styles.img} src={'/background/2.jpg'} width={2400} height={1400} alt="img"/>
-        <div className={styles.textcontainer}>
-        <Reveal>
-          <div className={styles.heading1}>Language Club</div>
-        </Reveal>
-        <Reveal>
-          <div className={styles.text1}>learn, practice, and enjoy different languages with other enthusiasts.</div>
-        </Reveal>
-        </div>
-      </div> */}
+    </div>
 
       <div className={styles.middle2}>
         <div className={styles.left1}>
@@ -58,7 +35,9 @@ export default function SpanishLC() {
         </Reveal>
 
       </div>
-      <div className={styles.middle}>
+      <Piano />
+
+      {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
         <div className={styles.heading2}>About Us</div>
@@ -85,7 +64,7 @@ export default function SpanishLC() {
           </div>
         </Reveal>
 
-      </div>
+      </div> */}
       {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
@@ -100,7 +79,7 @@ export default function SpanishLC() {
         </Reveal>
       </div> */}
 
-      <div className={styles.middle}>
+      {/* <div className={styles.middle}>
         <div className={styles.left1}>
         <Reveal>
           <div className={styles.heading2}>Culture</div>
@@ -111,9 +90,9 @@ export default function SpanishLC() {
           <div className={styles.right1}>
             <Image className={styles.img2} src={'/languageclub/cc (6).jpg'} width={500} height={500} alt="img"/>
           </div>
-        </Reveal>
+        </Reveal> */}
 
-      </div>
+      {/* </div>
       <div className={styles.middle2}>
         <div className={styles.left1}>
         <Reveal>
@@ -156,7 +135,7 @@ For more information about our activities and upcoming events, feel free to expl
             <Image className={styles.img2} src={'/languageclub/spanish (2).jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
-      </div>
+      </div> */}
 
       <Reveal>
         <Slider />

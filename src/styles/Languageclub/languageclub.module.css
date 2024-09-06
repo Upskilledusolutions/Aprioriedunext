@@ -127,13 +127,13 @@ font-weight: 500;
 }
 .middle{
   margin-top: 0px;
-  padding: 50px 10vw;
+  padding: 20px 10vw;
   display: flex;
   gap: 10vw;
 }
 .middle2{
   margin-top: 0px;
-  padding: 50px 10vw;
+  padding: 20px 10vw;
   display: flex;
   flex-direction: row-reverse;
   gap: 10vw;
@@ -332,7 +332,7 @@ font-weight: 500;
   margin-bottom: 100px;
 }
 .consubcontainer{
-  margin: 30px 5vw;
+  margin: 0px 5vw;
   padding: 30px 5vw 60px;
   background-color: white;
   border-radius: 20px;
@@ -483,7 +483,7 @@ font-weight: 500;
 .cards23{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 50px 3vw;
+  padding: 20px 3vw;
   gap: 30px 0 ;
 }
 .imgcontainer23{
