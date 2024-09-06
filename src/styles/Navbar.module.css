@@ -14,8 +14,8 @@
 }
 .topnav{
   display: flex;
-  padding: 10px 3vw;
-  width: 94vw;
+  padding: 10px 5vw;
+  width: 90vw;
   justify-content: space-between;
   align-items: center;
   background-color: white;
@@ -110,7 +110,7 @@
   transition: 0.5s;
 }
 .logo{
-  width: 3vw;
+  width: 3.5vw;
   height: auto;
 }
 .navlinks1{

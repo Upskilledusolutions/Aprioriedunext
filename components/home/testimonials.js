@@ -48,7 +48,7 @@ function Testimonials() {
     </Reveal>
       <Slider className={styles.slider} {...settings}>
 
-        <div className={styles.cardcontainer}>
+        {/* <div className={styles.cardcontainer}>
         <div className={styles.card}>
           <div className={styles.imgcontainer}>
             <Image className={styles.img} src={"/profileimg/8.webp"} width={400} height={400} alt="image"/>
@@ -61,12 +61,14 @@ function Testimonials() {
             <div className={styles.description}>As a student here, I can confidently say that all the teachers are not only excellent but also incredibly helpful. Their dedication to our growth and learning is commendable. Since joining, my confidence has soared. The personalized attention, engaging lessons, and supportive environment have truly transformed my educational experience.</div>
           </div>
         </div>
-        </div>
+        </div> */}
 
         <div className={styles.cardcontainer}>
         <div className={styles.card}>
           <div className={styles.imgcontainer}>
-            <Image className={styles.img} src={"/profileimg/6 (10).png"} width={400} height={400} alt="image"/>
+            <div className={styles.img}>
+              <Image className={styles.img} src={"/profileimg/6 (10).png"} width={400} height={400} alt="image"/>
+            </div>
             <div>
             <div className={styles.name}>Dyumna</div>
             <div className={styles.boldtext}>SPANISH FOUNDATION (A1 & A2)</div>
@@ -81,7 +83,9 @@ function Testimonials() {
         <div className={styles.cardcontainer}>
         <div className={styles.card}>
           <div className={styles.imgcontainer}>
+          <div className={styles.img}>
             <Image className={styles.img} src={"/profileimg/6 (9).png"} width={400} height={400} alt="image"/>
+            </div>
             <div>
             <div className={styles.name}>Nipun Banerjee</div>
             <div className={styles.boldtext}>SPANISH FOUNDATION (A1 & A2)</div>
@@ -96,10 +100,97 @@ function Testimonials() {
         <div className={styles.cardcontainer}>
         <div className={styles.card}>
           <div className={styles.imgcontainer}>
+          <div className={styles.img}>
             <Image className={styles.img} src={"/profileimg/6 (8).png"} width={400} height={400} alt="image"/>
+            </div>
             <div>
             <div className={styles.name}>Prisha Chhabra</div>
-            <div className={styles.boldtext}>GERMAN FOUNDATION & INTERMEDIATE (A1, A2, B1 & B2)</div>
+            <div className={styles.boldtext}>GERMAN FOUNDATION & INTERMEDIATE (A1 - B2)</div>
+            </div>
+          </div>
+          <div>
+            <div className={styles.description}>The 10-day Spanish foundation course with Apriori Education completely changed the way I look at learning a new language. I am thankful to be aware of how enriching, fun and lasting the knowledge of an interesting language like Spanish can be. From the first class till the last, you learn every aspect of its practicality when you come around to speaking it.</div>
+          </div>
+        </div>
+        </div>
+
+        <div className={styles.cardcontainer}>
+        <div className={styles.card}>
+          <div className={styles.imgcontainer}>
+          <div className={styles.img}>
+            <Image className={styles.img} src={"/profileimg/10 (5).jpg"} width={400} height={400} alt="image"/>
+            </div>
+            <div>
+            <div className={styles.name}>Priyanka</div>
+            <div className={styles.boldtext}>GERMAN FOUNDATION & INTERMEDIATE (A1 - B2)</div>
+            </div>
+          </div>
+          <div>
+            <div className={styles.description}>The 10-day Spanish foundation course with Apriori Education completely changed the way I look at learning a new language. I am thankful to be aware of how enriching, fun and lasting the knowledge of an interesting language like Spanish can be. From the first class till the last, you learn every aspect of its practicality when you come around to speaking it.</div>
+          </div>
+        </div>
+        </div>
+
+        <div className={styles.cardcontainer}>
+        <div className={styles.card}>
+          <div className={styles.imgcontainer}>
+          <div className={styles.img}>
+            <Image className={styles.img} src={"/profileimg/10 (4).jpg"} width={400} height={400} alt="image"/>
+            </div>
+            <div>
+            <div className={styles.name}>Vishaka</div>
+            <div className={styles.boldtext}>GERMAN FOUNDATION & INTERMEDIATE (A1 - B2)</div>
+            </div>
+          </div>
+          <div>
+            <div className={styles.description}>The 10-day Spanish foundation course with Apriori Education completely changed the way I look at learning a new language. I am thankful to be aware of how enriching, fun and lasting the knowledge of an interesting language like Spanish can be. From the first class till the last, you learn every aspect of its practicality when you come around to speaking it.</div>
+          </div>
+        </div>
+        </div>
+
+        <div className={styles.cardcontainer}>
+        <div className={styles.card}>
+          <div className={styles.imgcontainer}>
+          <div className={styles.img}>
+            <Image className={styles.img} src={"/profileimg/10 (3).jpg"} width={400} height={400} alt="image"/>
+            </div>
+            <div>
+            <div className={styles.name}>Nandini</div>
+            <div className={styles.boldtext}>GERMAN FOUNDATION & INTERMEDIATE (A1 - B2)</div>
+            </div>
+          </div>
+          <div>
+            <div className={styles.description}>The 10-day Spanish foundation course with Apriori Education completely changed the way I look at learning a new language. I am thankful to be aware of how enriching, fun and lasting the knowledge of an interesting language like Spanish can be. From the first class till the last, you learn every aspect of its practicality when you come around to speaking it.</div>
+          </div>
+        </div>
+        </div>
+
+        <div className={styles.cardcontainer}>
+        <div className={styles.card}>
+          <div className={styles.imgcontainer}>
+          <div className={styles.img}>
+            <Image className={styles.img} src={"/profileimg/10 (2).jpg"} width={400} height={400} alt="image"/>
+            </div>
+            <div>
+            <div className={styles.name}>Aparna</div>
+            <div className={styles.boldtext}>GERMAN FOUNDATION & INTERMEDIATE (A1 - B2)</div>
+            </div>
+          </div>
+          <div>
+            <div className={styles.description}>The 10-day Spanish foundation course with Apriori Education completely changed the way I look at learning a new language. I am thankful to be aware of how enriching, fun and lasting the knowledge of an interesting language like Spanish can be. From the first class till the last, you learn every aspect of its practicality when you come around to speaking it.</div>
+          </div>
+        </div>
+        </div>
+
+        <div className={styles.cardcontainer}>
+        <div className={styles.card}>
+          <div className={styles.imgcontainer}>
+          <div className={styles.img}>
+            <Image className={styles.img} src={"/profileimg/10 (6).jpg"} width={400} height={400} alt="image"/>
+            </div>
+            <div>
+            <div className={styles.name}>Mandika</div>
+            <div className={styles.boldtext}>GERMAN FOUNDATION & INTERMEDIATE (A1 - B2)</div>
             </div>
           </div>
           <div>

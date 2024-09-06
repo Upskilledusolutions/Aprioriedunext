@@ -11,7 +11,7 @@ export const quiz = [{
       correctAnswer: 3,
     },
     {
-      question: 'Which of the following words means "car" in French?',
+      question: 'Which of the following word means "car" in French?',
       choices: ['voiture', 'maison', 'chien', 'chat'],
       type: 'MCQs',
       correctAnswer: 1,
@@ -30,7 +30,7 @@ export const quiz = [{
     },
     {
       question: 'What is the French word for "Summer"?',
-      choices: ['Printemps', 'Hiver', 'Automne', 'été'],
+      choices: ['Printemps', 'Hiver', 'Automne', 'Été'],
       type: 'MCQs',
       correctAnswer: 4,
     },

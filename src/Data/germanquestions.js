@@ -11,14 +11,14 @@ export const quiz = [{
       correctAnswer: 4,
     },
     {
-      question: "What's Apfelschorle?",
+      question: "What's apfelschorle?",
       choices: ['apple juice with soda', 'grape juice', 'orange juice with ice', 'mixed fruit juice with soda'],
       type: 'MCQs',
       correctAnswer: 1,
     },
     {
       question: 'What are "french fries" called in Germany?',
-      choices: ['Fritzies', 'Fritzen', 'Fritten', 'Fritters'],
+      choices: ['fritzies', 'fritzen', 'fritten', 'fritters'],
       type: 'MCQs',
       correctAnswer: 3,
     },

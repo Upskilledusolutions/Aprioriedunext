@@ -1,6 +1,6 @@
 .slidercontainer{
   padding: 50px 0vw;
-  margin-left: 1vw;
+  margin-left: 0vw;
   position: relative;
   background-color: var(--blue);
 }
@@ -50,8 +50,8 @@
 .img{
   width: 100px;
   height: 100px;
-object-fit: cover;
-border-radius: 50%;
+  object-fit: cover;
+border-radius: 100%;
 }
 .name{
   font-size: 20px;
@@ -61,6 +61,9 @@ border-radius: 50%;
   font-weight: 600;
   font-size: 12px;
   margin-bottom: 20px;
+}
+.slider{
+  padding-left: 1vw;
 }
 @media screen and (max-width: 720px){
   .background, .cover{
