@@ -95,7 +95,7 @@ const Quiz = () => {
         <div className={`${styles.sidebar} ${styles.desktopSidebar}`}>
           <ul>
             {quiz.map((qz, index) => (
-              <li key={index} className={!isAuthenticated && index > 0 ? styles.disabledLink : ""}>
+              <li key={index} className={!isAuthenticated && index > 1 ? styles.disabledLink : ""}>
                 <Link href={isAuthenticated || index === 0 ? `/QuizTime/FrenchQuiz/${index + 1}` : "#"}>
                   {qz.name}
                 </Link>
@@ -114,7 +114,7 @@ const Quiz = () => {
             <ul className={styles.menuList}>
               {quiz.map((qz, index) => (
                 <li key={index} onClick={toggleMenu}>
-                  <Link href={isAuthenticated || index === 0 ? `/QuizTime/FrenchQuiz/${index + 1}` : "#"}>
+                  <Link href={`/QuizTime/FrenchQuiz/${index + 1}`}>
                     {qz.name}
                   </Link>
                 </li>

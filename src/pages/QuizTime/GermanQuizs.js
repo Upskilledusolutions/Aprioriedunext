@@ -26,7 +26,7 @@ export default function FrenchQuizes() {
           <div className={styles.cards1}>
             {quiz.map((data, index) => {
               // Determine if the quiz should be locked
-              const isLocked = !isAuthenticated && index > 0;
+              const isLocked = !isAuthenticated && index > 1;
               return (
                 <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''}`}>
                   <Link href={`GermanQuiz/${data.quiz}`} className={styles.link}>
