@@ -96,7 +96,7 @@ const Quiz = () => {
           <ul>
             {quiz.map((qz, index) => (
               <li key={index} className={!isAuthenticated && index > 1 ? styles.disabledLink : ""}>
-                <Link href={isAuthenticated || index === 0 ? `/QuizTime/FrenchQuiz/${index + 1}` : "#"}>
+                <Link href={`/QuizTime/FrenchQuiz/${index + 1}`}>
                   {qz.name}
                 </Link>
               </li>
