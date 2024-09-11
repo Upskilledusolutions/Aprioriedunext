@@ -10,41 +10,31 @@ export default function index() {
 
   const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status
 
-  const data = [{
-    url:'/Testprep/1.jpg',
-    name:'Free Trial',
-    text:'Try all formats of the test',
-    link:'/TrialTest',
-  },
+  const data = [
   {
     url:'/Testprep/2.jpg',
     name:'Fill in the blanks',
     text:'Fill in the blanks with the correct answers',
-    link:'/TrialTest',
   },
   {
     url:'/Testprep/3.jpg',
     name:'Jumbled Words',
     text:'Reorder words to get the correct answers',
-    link:'/TrialTest',
   },
   {
     url:'/Testprep/4.jpg',
     name:'MCQs',
     text:'Select the correct answers from given options',
-    link:'/TrialTest',
   },
   {
     url:'/Testprep/5.jpg',
     name:'Click on the correct answer',
     text:'Highlight the incorrect words to get the correct answer',
-    link:'/TrialTest',
   },
   {
     url:'/Testprep/6.jpg',
     name:'Drag and drop to the correct box',
     text:'Select missing words to get the correct answer',
-    link:'/TrialTest',
   }]
 
   return (
@@ -61,10 +51,8 @@ export default function index() {
 
     <div className={styles.cards}>
 
-       {data.map((data,index)=>{ 
-         const isLocked = !isAuthenticated && index > 0;
-              return (<div key={data.name} className={`${styles.card} ${isLocked ? styles.locked : ''}`}>
-            <Link href={'/TrialTest'} className={styles.link}>
+       {data.map((data)=>{ 
+              return (<div key={data.name} className={`${styles.card}`}>
             <div className={styles.imgcont}>
               <Image className={styles.img} width={400} height={300} src={data.url} alt="image"/>
             </div>
@@ -72,16 +60,38 @@ export default function index() {
               <div className={styles.name}>{data.name}</div>
               <div className={styles.text}>{data.text}</div>
             </div>
-            </Link>
-            {isLocked && (
-                    <div className={styles.lockOverlay}>
-                      <FaLock className={styles.lockIcon} />
-                    </div>
-                  )}
                 </div>
         )})}
 
     </div>
+
+<div className={styles.cards1}>
+
+<div className={styles.card1}>
+  <div className={styles.cardheading1}>French Language</div>
+  <div className={styles.cardtext1}>Get ready to put your French skills to the test with our exciting range of quizzes.</div>
+  <Link href='/QuizTime/FrenchQuizs' className={styles.btn1}>Start Test</Link>
+</div>
+
+<div className={styles.card1}>
+  <div className={styles.cardheading1}>Spanish Language</div>
+  <div className={styles.cardtext1}>Get ready to put your Spanish skills to the test with our exciting range of quizzes.</div>
+  <Link href='/QuizTime/SpanishQuizs' className={styles.btn1}>Start Test</Link>
+</div>
+
+<div className={styles.card1}>
+  <div className={styles.cardheading1}>German Language</div>
+  <div className={styles.cardtext1}>Get ready to put your German skills to the test with our exciting range of quizzes.</div>
+  <Link href='/QuizTime/GermanQuizs' className={styles.btn1}>Start Test</Link>
+</div>
+
+<div className={styles.card1}>
+  <div className={styles.cardheading1}>Italian Language</div>
+  <div className={styles.cardtext1}>Get ready to put your Italian skills to the test with our exciting range of quizzes.</div>
+  <Link href='/QuizTime/ItalianQuizs' className={styles.btn1}>Start Test</Link>
+</div>
+
+</div>
  </div>
  </main>
 </>

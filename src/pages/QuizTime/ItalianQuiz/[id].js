@@ -66,6 +66,19 @@ const Quiz = () => {
   };
 
   useEffect(() => {
+    // Reset the quiz state when the quiz changes (when `id` changes)
+    setActiveQuestion(0);
+    setShowResult(false);
+    setSelectedAnswer("");
+    setSelectedAnswerIndex(null);
+    setSelectedOption(null);
+    setTime(30);
+    setStart(true);
+    setResult({ correctAnswers: 0, wrong: 0 });
+  }, [id]); // Only run when `id` changes
+  
+
+  useEffect(() => {
     if (time === 0) {
       onClickNext();
     }

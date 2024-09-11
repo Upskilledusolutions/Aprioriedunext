@@ -19,14 +19,14 @@
     margin-top: 50px;
 }
 .card{
-    width: 12vw;
+    width: 15vw;
     padding:15px 1%;
     border: 1px solid rgb(151, 149, 149);
     border-radius: 10px;
     position: relative;
 }
 .img{
-    width: 12vw;
+    width: 15vw;
     height: 120px;
     object-fit: contain;
 }
