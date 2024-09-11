@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
-import { setUserFromCookies } from '../src/pages/Store';
+import { setUserFromCookies } from '../src/Store';
 import Cookies from 'js-cookie';
 
 const AuthInitializer = () => {

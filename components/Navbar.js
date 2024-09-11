@@ -9,7 +9,7 @@ import MenuButton from './menubutton/MenuButton';
 import { useDispatch, useSelector } from 'react-redux'; // To access the Redux state
 import { FaUserCircle } from "react-icons/fa"; // User icon
 import Authmodal from './Authmodal'; // Import the Authmodal component
-import { logout } from '../src/pages/Store'
+import { logout } from '../src/Store'
 
 export default function Navbar() {
   const [click, setClick] = useState(true);

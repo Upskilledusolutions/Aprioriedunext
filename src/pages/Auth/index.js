@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useRouter } from 'next/router'; // To access the router for navigation
 import { motion } from 'framer-motion';
-import { login } from '../Store';
+import { login } from '../../Store';
 import styles from '../../styles/Login.module.css';
 
 export default function Login() {
