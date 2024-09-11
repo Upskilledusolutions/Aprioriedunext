@@ -238,11 +238,12 @@ overflow: hidden;
 /* Sidebar styles */
 .sidebar {
   width: 20vw;
-  background-color: #f9f9f9;
+  background-color: var(--blue);
   border-right: 2px solid #ddd;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+  padding: 0 1vw;
   height: 100%;
 }
 
