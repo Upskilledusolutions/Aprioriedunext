@@ -3,11 +3,12 @@ import { quiz } from "../../../Data/germanquestions"; // Importing the quiz data
 import styles from "../../../styles/quiz/quiz.module.css";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Image from "next/image";
 import { BsAlarm } from "react-icons/bs";
 import { FaCheck } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
 import Head from "next/head";
+import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // For toggling icons
+import { useSelector } from 'react-redux'; // To access authentication status from Redux
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -18,13 +19,16 @@ const Quiz = () => {
   const [time, setTime] = useState(30);
   const [start, setStart] = useState(true);
   const [result, setResult] = useState({ correctAnswers: 0, wrong: 0 });
+  const [isMember, setIsMember] = useState(false); // Variable for membership
+  const [showMenu, setShowMenu] = useState(false); // Toggle state for sidebar on mobile
+  const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status
+  
 
   const router = useRouter();
   const { id } = router.query; // Get the dynamic route parameter
 
-  // Ensure the id is valid and within bounds
   const quizId = id ? parseInt(id) : 0;
-  const selectedQuiz = quiz[quizId-1] ? quiz[quizId-1] : quiz[0]; // Default to the first quiz if id is invalid
+  const selectedQuiz = quiz[quizId - 1] ? quiz[quizId - 1] : quiz[0]; // Default to first quiz if id is invalid
 
   const questions = selectedQuiz.questions;
   const { question, choices, correctAnswer } = questions[activeQuestion];
@@ -74,6 +78,10 @@ const Quiz = () => {
 
   const addLeadingZero = (number) => (number > 9 ? number : `0${number}`);
 
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <>
       <Head>
@@ -82,21 +90,45 @@ const Quiz = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo/newlogo1.png" />
       </Head>
-      <main>
-        <div className={styles.container}>
-          {time >= 0 && (
-            <div className={styles.timer}>
-              <BsAlarm /> <span>{time}</span>
-            </div>
+      <main className={styles.mainLayout}>
+        {/* Sidebar/Menu for larger screens */}
+        <div className={`${styles.sidebar} ${styles.desktopSidebar}`}>
+          <ul>
+            {quiz.map((qz, index) => (
+              <li key={index} className={!isAuthenticated && index > 0 ? styles.disabledLink : ""}>
+                <Link href={isAuthenticated || index === 0 ? `/QuizTime/GermanQuiz/${index + 1}` : "#"}>
+                  {qz.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Toggleable menu for smaller screens */}
+        <div className={`${styles.mobileMenu} ${styles.sidebar}`}>
+          <div className={styles.menuHeader} onClick={toggleMenu}>
+            <span>{selectedQuiz.name}</span>
+            {showMenu ? <FiChevronUp /> : <FiChevronDown />}
+          </div>
+          {showMenu && (
+            <ul className={styles.menuList}>
+              {quiz.map((qz, index) => (
+                <li key={index} onClick={toggleMenu}>
+                  <Link href={isAuthenticated || index === 0 ? `/QuizTime/GermanQuiz/${index + 1}` : "#"}>
+                    {qz.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           )}
-          <div className={styles.background2}></div>
-          <Image
-            className={styles.background}
-            src={"/languageclub/background (3).jpg"}
-            width={2000}
-            height={2000}
-            alt=""
-          />
+        </div>
+
+        {/* Quiz Container */}
+        <div className={styles.container}>
+          <div className={styles.timer}>
+            <BsAlarm /> <span>{addLeadingZero(time)}</span>
+          </div>
+
           <div className={styles.quizcontainer}>
             {!showResult ? (
               <div>

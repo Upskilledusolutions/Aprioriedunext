@@ -1,0 +1,163 @@
+/* Existing styles */
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 22vw;
+    background-color: #f0f0f0;
+    padding: 50px 1vw;
+}
+
+.sidebar button {
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px 5%;
+    margin-bottom: 10px;
+    border: 1px solid rgb(188, 184, 184);
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+    color: #333;
+}
+
+.content {
+    flex: 1;
+    padding: 30px 5vw;
+}
+
+/* New styles for button states */
+.sidebar button.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+    background: #f9f9f9;
+}
+
+.sidebar button.completed {
+    color: #4CAF50; /* Green */
+    border-color: #4CAF50;
+}
+
+.fillInTheBlanks p{
+    line-height: 50px;
+}
+.fillInTheBlanks input {
+    margin: 0 5px;
+    padding: 5px;
+    width: auto;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.fillInTheBlanks input:focus {
+    outline: none;
+}
+
+.fillInTheBlanks .submitButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notCompleted {
+    border:1px solid #ccc;
+}
+
+.correct {
+    border:1px solid green;
+}
+
+.incorrect {
+    border:1px solid red;
+}
+
+.currentQuestion {
+    border:1px solid blue; /* Highlight the current question */
+}
+.jumbledWords {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.shuffledLetters {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.letterBlock {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: move;
+    font-size: 24px;
+    user-select: none; /* Prevent text selection while dragging */
+}
+
+.submitButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mcqGame {
+    margin-top: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px 0;
+}
+
+.optionLabel {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.optionLabel input[type="radio"] {
+    margin-right: 10px;
+}
+
+.submitButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.feedback {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+

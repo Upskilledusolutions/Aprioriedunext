@@ -17,32 +17,10 @@ export default function LanguageClub() {
       <div>
       <Reveal>
       <div className={styles.bigicontainer}>
-      {/* <div className={styles.bigcontainer}>
-      <div className={styles.text10}>
-        <div className={`${styles.top55}`}>Contact Us</div>
-        <div className={`${styles.middle56} ${styles.text12}`}>“Get in touch with us! We're here to assist and answer your queries.”</div>
-        <div className={`${styles.bottom55} ${styles.text13}`}></div>
-      </div>
-      <div className={styles.imgcont10}>
-        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/20.png"} alt="image"/>
-      </div>
-      </div> */}
 
 <div className={styles.headcont}><div className={styles.mainheading}>Contact Us</div></div>
       </div>
     </Reveal>
-      {/* <div className={styles.topcontainer}>
-        <div className={styles.tint}/>
-        <Image className={styles.img} src={'/illustrations/20.png'} width={2400} height={1400} alt="img"/>
-        <div className={styles.textcontainer}>
-        <Reveal>
-          <div className={styles.heading1}>Contact Us</div>
-        </Reveal>
-        <Reveal>
-          <div className={styles.text1}>“Get in touch with us! We're here to assist and answer your queries.”</div>
-        </Reveal>
-        </div>
-      </div> */}
       <div className={styles.consubcontainer}>
           <div className={styles.contopic}>Get in touch</div>
           <div className={styles.coninfos}>

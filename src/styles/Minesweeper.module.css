@@ -1,0 +1,41 @@
+.minesweeperGame {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #e0e0e0;
+}
+
+.correctOption {
+    background-color: #b0e57c;
+    border-color: #4CAF50;
+    cursor: not-allowed;
+}
+
+.feedback {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,93 @@
+/* Container for the entire login page */
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background: linear-gradient(to right, #d97903, var(--blue));
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Styling for the login box */
+  .loginBox {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px 3vw 50px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Title and subtitle styling */
+  .title {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+    color: var(--blue);
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Form styling */
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Input group styling */
+  .inputGroup {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .inputField {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .inputField:focus {
+    border-color: var(--blue);
+  }
+  
+  /* Button styling */
+  .loginButton {
+    background-color: var(--blue);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+  
+  .loginButton:hover {
+    background-color: var(--blue);
+  }
+
+  @media screen and (max-width: 720px){
+    .loginContainer{
+        padding: 50px 5vw;
+        height: 70vh;
+    }
+    .loginBox{
+        padding: 10px 7vw 50px;
+    }
+  }
+  

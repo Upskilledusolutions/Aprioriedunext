@@ -1,0 +1,68 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Tinted background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .loginButton, .closeButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .memButton{
+    padding: 10px 1vw;
+    color: var(--blue);
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--blue);
+  }
+
+  .memcont{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .btnflex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .loginButton{
+    text-decoration: none;
+  }
+  @media screen and (max-width: 720px){
+    .modalOverlay{
+        justify-content: left;
+        padding-left:7%;
+    }
+.modalContent{
+    width:80%;
+}
+  }
