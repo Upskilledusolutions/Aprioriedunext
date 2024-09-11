@@ -114,7 +114,7 @@ function Testimonials() {
         </div>
         </div>
 
-        <div className={styles.cardcontainer}>
+        {/* <div className={styles.cardcontainer}>
         <div className={styles.card}>
           <div className={styles.imgcontainer}>
           <div className={styles.img}>
@@ -197,7 +197,7 @@ function Testimonials() {
             <div className={styles.description}>The 10-day Spanish foundation course with Apriori Education completely changed the way I look at learning a new language. I am thankful to be aware of how enriching, fun and lasting the knowledge of an interesting language like Spanish can be. From the first class till the last, you learn every aspect of its practicality when you come around to speaking it.</div>
           </div>
         </div>
-        </div>
+        </div> */}
 
       </Slider>
     </div>

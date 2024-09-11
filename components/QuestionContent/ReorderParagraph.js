@@ -9,27 +9,23 @@ const shuffleArray = (array) => {
     return array;
 };
 
-const JumbledWords = ({ onNext, onResult }) => {
-    const words = ["education", "technology", "language", "development"];
-    const [currentWordIndex, setCurrentWordIndex] = useState(0);
+const JumbledWordsComponent = ({ question, onNext, onResult }) => {
+    const { question: word, choices } = question;  // Destructure question to get word and choices
     const [shuffledLetters, setShuffledLetters] = useState([]);
     const [userAnswer, setUserAnswer] = useState([]);
     const [isSubmitted, setIsSubmitted] = useState(false);
     
-    const word = words[currentWordIndex];
-
     useEffect(() => {
         const shuffled = shuffleArray([...word.split('')]);
         setShuffledLetters(shuffled);
         setUserAnswer(shuffled);
         setIsSubmitted(false);
-    }, [currentWordIndex, word]);
+    }, [word]);
 
-    // Keep track of the dragged element index
     const [draggedIndex, setDraggedIndex] = useState(null);
 
     const handleDragStart = (index) => {
-        setDraggedIndex(index);  // Store the index of the dragged letter
+        setDraggedIndex(index);
     };
 
     const handleDrop = (toIndex) => {
@@ -38,16 +34,15 @@ const JumbledWords = ({ onNext, onResult }) => {
         const updatedAnswer = [...userAnswer];
         const draggedLetter = updatedAnswer[draggedIndex];
 
-        // Remove dragged letter and place it at the new position
         updatedAnswer.splice(draggedIndex, 1);
         updatedAnswer.splice(toIndex, 0, draggedLetter);
 
         setUserAnswer(updatedAnswer);
-        setDraggedIndex(null); // Reset dragged index
+        setDraggedIndex(null);
     };
 
     const handleDragOver = (e) => {
-        e.preventDefault(); // Allow dropping
+        e.preventDefault();
     };
 
     const handleSubmit = () => {
@@ -55,7 +50,7 @@ const JumbledWords = ({ onNext, onResult }) => {
         setIsSubmitted(true);
         onResult(correct);
         if (correct) {
-            setTimeout(() => onNext(), 1000);  // Move to the next word after feedback
+            setTimeout(() => onNext(), 1000);
         }
     };
 
@@ -90,4 +85,4 @@ const JumbledWords = ({ onNext, onResult }) => {
     );
 };
 
-export default JumbledWords;
+export default JumbledWordsComponent;

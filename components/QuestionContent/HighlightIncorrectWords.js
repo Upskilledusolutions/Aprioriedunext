@@ -1,53 +1,36 @@
 import React, { useState, useEffect } from 'react';
-import styles from '../../src/styles/Minesweeper.module.css';
+import styles from '../../src/styles/Minesweeper.module.css'; // Ensure this path is correct
 
-const MinesweeperGame = ({ onNext, onResult }) => {
-    const questions = [
-        {
-            correctAnswers: ["Option 1", "Option 5", "Option 9"],
-            grid: ["Option 1", "Option 2", "Option 3", "Option 4", "Option 5", "Option 6", "Option 7", "Option 8", "Option 9"]
-        },
-        {
-            correctAnswers: ["Option 2", "Option 4", "Option 8"],
-            grid: ["Option 1", "Option 2", "Option 3", "Option 4", "Option 5", "Option 6", "Option 7", "Option 8", "Option 9"]
-        },
-        {
-            correctAnswers: ["Option 3", "Option 6", "Option 7"],
-            grid: ["Option 1", "Option 2", "Option 3", "Option 4", "Option 5", "Option 6", "Option 7", "Option 8", "Option 9"]
-        }
-    ];
+const ClickCorrectWordsComponent = ({ question, onNext, onResult }) => {
+    const { correctAnswers, options } = question;
 
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [selectedOptions, setSelectedOptions] = useState([]);
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [feedback, setFeedback] = useState(null);
     const [isCorrect, setIsCorrect] = useState(false);
-
-    const currentQuestion = questions[currentQuestionIndex];
 
     useEffect(() => {
         setSelectedOptions([]);
         setIsSubmitted(false);
         setFeedback(null);
         setIsCorrect(false);
-    }, [currentQuestionIndex]);
+    }, [question]);
 
     const handleOptionClick = (option) => {
         if (isSubmitted) return; // Disable after submission
 
-        // If the option is already selected, don't allow toggling or deselecting
-        if (selectedOptions.includes(option)) return;
+        if (selectedOptions.includes(option)) return; // Prevent selecting the same option again
 
-        // Check if the selected option is incorrect
-        if (!currentQuestion.correctAnswers.includes(option)) {
+        const updatedSelectedOptions = [...selectedOptions, option];
+        setSelectedOptions(updatedSelectedOptions);
+
+        // Check if the selected option is correct
+        if (!correctAnswers.includes(option)) {
             setFeedback("Incorrect! Moving to the next question...");
-            submitGame(false); // Submit immediately if wrong answer is clicked
+            submitGame(false); // Submit immediately if an incorrect answer is clicked
         } else {
-            const updatedSelectedOptions = [...selectedOptions, option];
-            setSelectedOptions(updatedSelectedOptions);
-
             // If all correct answers are selected, submit the game
-            if (updatedSelectedOptions.length === currentQuestion.correctAnswers.length) {
+            if (updatedSelectedOptions.length === correctAnswers.length && correctAnswers.every(answer => updatedSelectedOptions.includes(answer))) {
                 submitGame(true); // All correct answers selected
             }
         }
@@ -59,21 +42,17 @@ const MinesweeperGame = ({ onNext, onResult }) => {
         setIsCorrect(isCorrect);
 
         setTimeout(() => {
-            if (currentQuestionIndex < questions.length - 1) {
-                setCurrentQuestionIndex(currentQuestionIndex + 1);
-            } else {
-                onResult(isCorrect); // Move to the next question type after all Minesweeper questions are completed
-                onNext();
-            }
-        }, 1000); // Proceed to the next question after 1 second
+            onResult(isCorrect); // Notify parent of the result
+            onNext(); // Move to the next question or component
+        }, 1000); // Proceed after 1 second
     };
 
     return (
         <div className={styles.minesweeperGame}>
-            <h2>Select the correct options</h2>
-
+            <h2>{question.question}</h2> {/* Display the question */}
+            
             <div className={styles.grid}>
-                {currentQuestion.grid.map((option, index) => (
+                {options.map((option, index) => (
                     <div
                         key={index}
                         className={`${styles.option} ${selectedOptions.includes(option) ? styles.correctOption : ''}`}
@@ -93,4 +72,4 @@ const MinesweeperGame = ({ onNext, onResult }) => {
     );
 };
 
-export default MinesweeperGame;
+export default ClickCorrectWordsComponent;

@@ -123,7 +123,7 @@ export default function Navbar() {
             </div>
           </div>
           <Link onClick={clickfn2} href='/Eventspage' className={isActive('/Eventspage') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Events</Link>
-          <Link onClick={clickfn2} href='/Testimonials' className={isActive('/Testimonials') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Testimonials</Link>
+          {/* <Link onClick={clickfn2} href='/Testimonials' className={isActive('/Testimonials') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Testimonials</Link> */}
           <Link onClick={clickfn2} href='/About' className={isActive('/About') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>About</Link>
           <Link onClick={clickfn2} href='/ContactUs' className={isActive('/ContactUs') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Contact Us</Link>
         </ul>
