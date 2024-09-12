@@ -1,6 +1,6 @@
 import { SitemapStream, streamToPromise } from 'sitemap';
 import { Readable } from 'stream';
-import { data } from '../../Data/frenchquestions'; // Adjust the path if necessary
+import { quiz } from '../../Data/frenchquestions'; // Adjust the path if necessary
 
 export default async (req, res) => {
   try {
@@ -26,7 +26,7 @@ export default async (req, res) => {
 
     // Map dynamic routes from JSON data
     const dynamicLinks = [
-      ...data.map(art => ({
+      ...quiz.map(art => ({
         url: `/QuizTime/FrenchQuiz/${art.quiz}`, // Adjust URL structure as needed
         changefreq: 'weekly',
         priority: 0.6,
