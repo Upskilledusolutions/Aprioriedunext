@@ -26,8 +26,8 @@ export default async (req, res) => {
 
     // Map dynamic routes from JSON data
     const dynamicLinks = [
-      ...artworks.map(art => ({
-        url: `/QuizTime/FrenchQuiz/${data.quiz}`, // Adjust URL structure as needed
+      ...data.map(art => ({
+        url: `/QuizTime/FrenchQuiz/${art.quiz}`, // Adjust URL structure as needed
         changefreq: 'weekly',
         priority: 0.6,
       })),
