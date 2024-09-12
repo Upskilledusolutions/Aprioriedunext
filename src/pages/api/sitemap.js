@@ -1,6 +1,6 @@
 import { SitemapStream, streamToPromise } from 'sitemap';
 import { Readable } from 'stream';
-import data from '../../Data/frenchquestions'; // Adjust the path if necessary
+import { data } from '../../Data/frenchquestions'; // Adjust the path if necessary
 
 export default async (req, res) => {
   try {
