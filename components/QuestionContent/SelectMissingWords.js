@@ -1,52 +1,64 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import styles from '../../src/styles/classificationGame.module.css';
 
-const ClassificationGame = ({ onNext, onResult }) => {
-    const initialWords = [
-        { word: "Apple", type: "Fruit" },
-        { word: "Carrot", type: "Vegetable" },
-        { word: "Banana", type: "Fruit" },
-        { word: "Potato", type: "Vegetable" },
-        { word: "Grapes", type: "Fruit" },
-        { word: "Tomato", type: "Vegetable" },
-    ];
-
-    const [availableWords, setAvailableWords] = useState(initialWords);
-    const [fruitsContainer, setFruitsContainer] = useState([]);
-    const [vegetablesContainer, setVegetablesContainer] = useState([]);
+const ClassificationGame = ({ questionData, onNext, onResult }) => {
+    const [availableWords, setAvailableWords] = useState([]);
+    const [containers, setContainers] = useState({});
     const [draggedWord, setDraggedWord] = useState(null);
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [feedback, setFeedback] = useState(null);
 
-    // Handle dragging the word
+    useEffect(() => {
+        if (questionData) {
+            const { initialWords, types } = questionData;
+            const initialContainers = types.reduce((acc, type) => {
+                acc[type] = [];
+                return acc;
+            }, {});
+
+            setAvailableWords(initialWords);
+            setContainers(initialContainers);
+            setIsSubmitted(false); // Reset the submission state
+            setFeedback(null); // Reset feedback
+        }
+    }, [questionData]);
+
     const handleDragStart = (word) => {
         setDraggedWord(word);
     };
 
-    // Handle dropping into a container
-    const handleDrop = (type) => {
+    const handleDrop = (category) => {
         if (!draggedWord) return;
 
         // Update the respective container and remove the word from the available words list
-        if (type === "Fruit") {
-            if (!fruitsContainer.includes(draggedWord)) {
-                setFruitsContainer([...fruitsContainer, draggedWord]);
-            }
-        } else if (type === "Vegetable") {
-            if (!vegetablesContainer.includes(draggedWord)) {
-                setVegetablesContainer([...vegetablesContainer, draggedWord]);
-            }
-        }
+        setContainers(prevContainers => ({
+            ...prevContainers,
+            [category]: [...prevContainers[category], draggedWord]
+        }));
 
         // Remove the word from the available words
-        setAvailableWords(availableWords.filter(item => item.word !== draggedWord.word));
+        setAvailableWords(prevWords => prevWords.filter(item => item.word !== draggedWord.word));
         setDraggedWord(null);
     };
 
-    // Handle submission and check if all words are correctly classified
+    const handleTouchStart = (e, word) => {
+        e.preventDefault();
+        setDraggedWord(word);
+    };
+
+    const handleTouchEnd = (e, category) => {
+        e.preventDefault();
+        if (draggedWord) {
+            handleDrop(category);
+            setDraggedWord(null);
+        }
+    };
+
     const handleSubmit = () => {
-        const allCorrect = fruitsContainer.every(item => item.type === "Fruit") &&
-                           vegetablesContainer.every(item => item.type === "Vegetable");
+        // Validation: Check if each word in containers is correctly categorized
+        const allCorrect = Object.keys(containers).every(category =>
+            containers[category].every(item => item.type === category)
+        );
 
         setIsSubmitted(true);
         setFeedback(allCorrect ? "Correct! You sorted all words correctly." : "Incorrect! Some words are in the wrong container.");
@@ -57,54 +69,81 @@ const ClassificationGame = ({ onNext, onResult }) => {
         }, 1000); // Move to the next question after 1 second
     };
 
+    const handleReset = () => {
+        // Reset the game state
+        setAvailableWords(questionData.initialWords);
+        setContainers(Object.keys(containers).reduce((acc, type) => {
+            acc[type] = [];
+            return acc;
+        }, {}));
+        setDraggedWord(null);
+        setIsSubmitted(false);
+        setFeedback(null);
+    };
+
     return (
         <div className={styles.classificationGame}>
-
             <div className={styles.containers}>
-                <div
-                    className={styles.container}
-                    onDragOver={(e) => e.preventDefault()}
-                    onDrop={() => handleDrop("Fruit")}
-                >
-                    <h3>Fruits</h3>
-                    {fruitsContainer.map((item, index) => (
-                        <div key={index} className={styles.droppedWord}>
-                            {item.word}
+                {Object.keys(containers).length === 0 ? (
+                    <p>No containers available.</p>
+                ) : (
+                    Object.keys(containers).map((category, index) => (
+                        <div
+                            key={index}
+                            className={styles.container}
+                            onDragOver={(e) => e.preventDefault()}
+                            onDrop={() => handleDrop(category)}
+                            onTouchStart={(e) => handleTouchEnd(e, category)}
+                        >
+                            <h3>{category}</h3>
+                            {containers[category].length === 0 ? (
+                                <p>No words in this category.</p>
+                            ) : (
+                                containers[category].map((item, index) => (
+                                    <div key={index} className={styles.droppedWord}>
+                                        {item.word}
+                                    </div>
+                                ))
+                            )}
                         </div>
-                    ))}
-                </div>
-
-                <div
-                    className={styles.container}
-                    onDragOver={(e) => e.preventDefault()}
-                    onDrop={() => handleDrop("Vegetable")}
-                >
-                    <h3>Vegetables</h3>
-                    {vegetablesContainer.map((item, index) => (
-                        <div key={index} className={styles.droppedWord}>
-                            {item.word}
-                        </div>
-                    ))}
-                </div>
+                    ))
+                )}
             </div>
 
-            {/* Draggable words */}
             <div className={styles.words}>
-                {availableWords.map((item, index) => (
-                    <div
-                        key={index}
-                        className={styles.word}
-                        draggable
-                        onDragStart={() => handleDragStart(item)}
-                    >
-                        {item.word}
-                    </div>
-                ))}
+                {availableWords.length === 0 ? (
+                    <p>No words available.</p>
+                ) : (
+                    availableWords.map((item, index) => (
+                        <div
+                            key={index}
+                            className={styles.word}
+                            draggable
+                            onDragStart={() => handleDragStart(item)}
+                            onTouchStart={(e) => handleTouchStart(e, item)}
+                        >
+                            {item.word}
+                        </div>
+                    ))
+                )}
             </div>
 
-            <button onClick={handleSubmit} className={styles.submitButton} disabled={availableWords.length !== 0 || isSubmitted}>
+            <button 
+                onClick={handleSubmit} 
+                className={styles.submitButton} 
+                disabled={isSubmitted}
+            >
                 Submit
             </button>
+
+            {isSubmitted && (
+                <button 
+                    onClick={handleReset} 
+                    className={styles.resetButton}
+                >
+                    Reset
+                </button>
+            )}
 
             {feedback && (
                 <p className={styles.feedback}>
@@ -116,4 +155,3 @@ const ClassificationGame = ({ onNext, onResult }) => {
 };
 
 export default ClassificationGame;
-

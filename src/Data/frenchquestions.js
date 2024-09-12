@@ -29,8 +29,8 @@ export const quiz = [{
       correctAnswer: 3,
     },
     {
-      question: 'What is the French word for "Summer"?',
-      choices: ['Printemps', 'Hiver', 'Automne', 'Été'],
+      question: 'What is the French word for summer"?',
+      choices: ['printemps', 'hiver', 'automne', 'été'],
       type: 'MCQs',
       correctAnswer: 4,
     },

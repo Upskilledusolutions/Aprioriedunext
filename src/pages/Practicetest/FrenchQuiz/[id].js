@@ -20,12 +20,10 @@ const Quiz = () => {
   const [showResult, setShowResult] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(null);
-  const [time, setTime] = useState(1200);
+  const [time, setTime] = useState(15);
   const [start, setStart] = useState(true);
   const [result, setResult] = useState({ correctAnswers: 0, wrong: 0 });
-  const [isMember, setIsMember] = useState(false); // Variable for membership
   const [showMenu, setShowMenu] = useState(false); // Toggle state for sidebar on mobile
-  const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status  
   const [selectedOption, setSelectedOption] = useState(null);
  const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -43,7 +41,7 @@ const Quiz = () => {
   };
 
   const onClickNext = () => {
-    setTime(1200);
+    setTime(15);
     setSelectedAnswerIndex(null);
     setIsSubmitted(false); // Reset isSubmitted
     setResult((prev) =>
@@ -94,7 +92,7 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
     setSelectedAnswer("");
     setSelectedAnswerIndex(null);
     setSelectedOption(null);
-    setTime(1200);
+    setTime(15);
     setStart(true);
     setResult({ correctAnswers: 0, wrong: 0 });
   }, [id]); // Only run when `id` changes
@@ -116,6 +114,17 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
+  const onResultHandler = (isCorrect) => {
+    if (!isSubmitted) {
+        // Update the result only once per question
+        setResult((prev) => ({
+            correctAnswers: isCorrect ? prev.correctAnswers + 1 : prev.correctAnswers,
+            wrong: !isCorrect ? prev.wrong + 1 - 1 : prev.wrong - 1
+        }));
+        setIsSubmitted(true); // Prevent multiple result updates for the same question
+    }
+};
 
   return (
     <>
@@ -231,17 +240,21 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
          <ClickCorrectWordsComponent
          question={allQuestions[activeQuestion]}
          onNext={onClickNext}
-         onResult={(isCorrect) => {
-           setResult(prev => ({
-             ...prev,
-             correctAnswers: isCorrect ? prev.correctAnswers + 1 : prev.correctAnswers,
-             wrong: !isCorrect ? prev.wrong + 1 : prev.wrong
-           }));
-         }}
+         onResult={onResultHandler}
        />
       )}
       {allQuestions[activeQuestion].type === 'DragAndDrop' && (
-        <DragAndDropComponent question={allQuestions[activeQuestion]} />
+        <DragAndDropComponent 
+        questionData={allQuestions[activeQuestion]}
+        onNext={onClickNext}
+        onResult={(result) => {
+          setResult((prev) => ({
+            ...prev,
+            correctAnswers: prev.correctAnswers + (result ? 1 : 0),
+            wrong: prev.wrong + (result ? 0 - 1 : 1 - 1)
+          }));
+        }}
+        />
       )}
 
       <div className={styles.flexright}>

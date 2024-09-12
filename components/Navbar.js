@@ -98,8 +98,12 @@ export default function Navbar() {
         </div>
         <ul className={click ? `${styles.navlinks1}` : `${styles.navlinks}`}>
           <Link onClick={clickfn2} href='/' className={isActive('/') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Home</Link>
-          <Link onClick={clickfn2} href='/QuizTime' className={isActive('/QuizTime') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Demo Test</Link>
-          {/* <Link onClick={clickfn2} href='/TestPrep' className={isActive('/TestPrep') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Practice Tests</Link> */}
+          <Link onClick={clickfn2} href='/QuizTime' className={isActive('/QuizTime') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Free Quizzes</Link>
+          {isAuthenticated ? <Link onClick={clickfn2} href='/TestPrep' className={isActive('/TestPrep') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Practice Tests</Link> :
+          <div onClick={showAuthmodal} className={`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Practice Tests</div>
+          }
+          {isAuthenticated ? <Link onClick={clickfn2} href='/Readnow' className={isActive('/Readnow') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Pdf Lessons</Link> : 
+          <div onClick={showAuthmodal} className={`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Pdf Lessons</div>}
           {/* <div className={styles.options}>
             <div onClick={() => setDrop1(!drop1)} onMouseEnter={() => setDrop1(true)} onMouseLeave={() => setDrop1(false)} className={`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect} ${styles.activity}`}>
               Lessons
@@ -123,7 +127,7 @@ export default function Navbar() {
             </div>
           </div>
           <Link onClick={clickfn2} href='/Eventspage' className={isActive('/Eventspage') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Events</Link>
-          {/* <Link onClick={clickfn2} href='/Testimonials' className={isActive('/Testimonials') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Testimonials</Link> */}
+          <Link onClick={clickfn2} href='/Testimonials' className={isActive('/Testimonials') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Testimonials</Link>
           <Link onClick={clickfn2} href='/About' className={isActive('/About') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>About</Link>
           <Link onClick={clickfn2} href='/ContactUs' className={isActive('/ContactUs') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Contact Us</Link>
         </ul>
@@ -142,7 +146,7 @@ export default function Navbar() {
             )}
           </div>
         ) : (
-          <div className={styles.members} onClick={showAuthmodal}>Members</div>
+          <div className={styles.members} onClick={showAuthmodal}>Login</div>
         )}
 
         <div className={styles.menubutton} onClick={clickfn2}>

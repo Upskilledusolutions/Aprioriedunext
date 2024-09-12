@@ -28,22 +28,23 @@ export default function index() {
       </div>
 
       <div className={styles.card}>
-        <div className={styles.cardheading}>Spanish Lessons</div>
-        <div className={styles.cardtext}>Dive into the vibrant world of Spanish-speaking countries with this course.</div>
-        <Link href='/Readnow/Spanishlessons' className={styles.btn}>Start Learning</Link>
-      </div>
-
-      <div className={styles.card}>
         <div className={styles.cardheading}>German Lessons</div>
         <div className={styles.cardtext}>Navigate both casual and formal language settings of Germany with this course.</div>
         <Link href='/Readnow/Germanlessons' className={styles.btn}>Start Learning</Link>
       </div>
 
       <div className={styles.card}>
+        <div className={styles.cardheading}>Spanish Lessons</div>
+        <div className={styles.cardtext}>Dive into the vibrant world of Spanish-speaking countries with this course.</div>
+        <Link href='/Readnow/Spanishlessons' className={styles.btn}>Start Learning</Link>
+      </div>
+
+
+      {/* <div className={styles.card}>
         <div className={styles.cardheading}>Italian Lessons</div>
         <div className={styles.cardtext}>Learn Italian and embrace the heart of Italy's rich history, cuisine, and fashion.</div>
         <Link href='/Readnow/Italianlessons' className={styles.btn}>Start Learning</Link>
-      </div>
+      </div> */}
 
       </div>
     </div>

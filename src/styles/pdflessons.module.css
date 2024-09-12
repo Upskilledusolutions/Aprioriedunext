@@ -14,8 +14,8 @@
     display: inline;
   }
 .sectioncontainer{
-    width: 200vw;
-    height: 300px;
+    width: 90vw;
+    height: 500px;
 }
 .sectioncontainer1{
     position: absolute;
@@ -26,8 +26,8 @@
     height: 100vh;
 }
 .section{
-    width: 20vw;
-    height: 300px;
+    width: 90vw;
+    height: 500px;
 }
 .section1{
     width: 100vw;
@@ -43,7 +43,7 @@
 .close{
     position: absolute;
     top: 20px;
-    left: 20%;
+    left: 2%;
     color: white;
     font-size: 14px;
     display: flex;

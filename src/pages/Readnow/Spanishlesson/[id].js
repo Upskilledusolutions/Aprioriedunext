@@ -1,9 +1,8 @@
-// pages/[id].js
-
-import styles from '../../../styles/pdflessons.module.css'
+import styles from '../../../styles/pdflessons.module.css';
 import { useState } from 'react';
 import { data } from '../../../Data/Languagelessons/french'; // Import your JSON data
 import { FaArrowLeftLong } from "react-icons/fa6";
+import Head from 'next/head';
 
 const LessonPage = ({ lesson }) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -17,34 +16,39 @@ const LessonPage = ({ lesson }) => {
     setIsFullScreen(!isFullScreen);
   };
 
-  const embedStyle = {
-    width: '100%',
-    height: '100%',
-  };
-
   return (
+    <>
+    <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </Head>
+    <main>
     <div className={styles.container}>
-       <div className={styles.headcont}><div className={styles.mainheading}>{lesson.name}</div></div>
+      <div className={styles.headcont}>
+        <div className={styles.mainheading}>{lesson.name}</div>
+      </div>
       <p>Level: {lesson.level}</p>
       <p className={styles.full} onClick={handleToggleFullScreen}>View in full screen</p>
-      <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+      <p>{lesson.desc}</p>
 
       {/* PDF Rendering Section */}
       <section className={isFullScreen ? `${styles.sectioncontainer1}` : `${styles.sectioncontainer}`}>
-        <embed
-          src={lesson.pdf}
-          type="application/pdf"
+        <iframe
+          src={`${lesson.pdf}#toolbar=0&navpanes=0&scrollbar=0`}
           className={isFullScreen ? `${styles.section1}` : `${styles.section}`}
+          frameBorder="0"
+          width="100%"
+          height="500px"
         />
-        {isFullScreen && <div className={styles.close} onClick={handleToggleFullScreen}><FaArrowLeftLong />Go Back</div>}
+        {isFullScreen && (
+          <div className={styles.close} onClick={handleToggleFullScreen}>
+            <FaArrowLeftLong />Go Back
+          </div>
+        )}
       </section>
     </div>
+    </main>
+    </>
+
   );
 };
 
@@ -56,7 +60,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: false, // Return 404 if path not found
+    fallback: false,
   };
 }
 
@@ -72,5 +76,3 @@ export async function getStaticProps({ params }) {
 }
 
 export default LessonPage;
-
-

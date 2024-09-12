@@ -96,7 +96,8 @@ border-radius: 100%;
     font-size: 22px;
   }
   .boldtext{
-    font-size: 16px;
+    margin-top: 5px;
+    font-size: 14px;
   }
   .description,.imgcontainer{
     font-size: 14px;
