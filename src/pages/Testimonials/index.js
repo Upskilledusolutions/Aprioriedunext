@@ -86,8 +86,8 @@ export default function LanguageClub() {
 {
   id:'8',
   url:"/profileimg/10 (10).jpeg",
-  name:'GERMAN',
-  course:'FRENCH (A1)',
+  name:'Deepshikha',
+  course:'GERMAN (A1)',
   desc:"I enrolled in the French course to help my kids. To my surprise, I enjoyed it just as much! The curriculum is well-structured, and the playful approach makes learning fun. Now, we practice together at home, and it's a great bonding experience. Highly recommend it for families!"
 },
 
