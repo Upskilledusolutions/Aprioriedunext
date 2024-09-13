@@ -14,10 +14,10 @@ export default function index() {
       </Head>
       <main>
       <div className={styles.container}>
-        <div className={styles.headcont}><div className={styles.mainheading}>Read Now</div></div>
+        <div className={styles.headcont}><div className={styles.mainheading}>Pdf Lessons</div></div>
       
 
-      <div className={styles.maintext}>Explore the beauty of new cultures by mastering Spanish, French, German, or Italian through our engaging lessons. Whether you're a beginner or looking to perfect your fluency, our language courses are designed to guide you at every step.</div>
+      <div className={styles.maintext}>Explore the beauty of new cultures by mastering Spanish, French, or German through our engaging lessons. Whether you're a beginner or looking to perfect your fluency, our language courses are designed to guide you at every step.</div>
 
     <div className={styles.cards}>
 
