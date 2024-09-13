@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 import styles from '../../styles/quiz/quizpage.module.css';
 import Image from 'next/image';
-import { data } from "../../Data/Languagelessons/french"; // Importing the quiz data
+import { data } from "../../Data/Languagelessons/spanish"; // Importing the quiz data
 import Link from 'next/link';
 import { FaLock } from 'react-icons/fa'; // Import a lock icon
 import { useSelector } from 'react-redux'; // To access authentication status from Redux

@@ -1,6 +1,6 @@
 import styles from '../../../styles/pdflessons.module.css';
 import { useState } from 'react';
-import { data } from '../../../Data/Languagelessons/german'; // Import your JSON data
+import { data } from '../../../Data/Languagelessons/german.js'; // Import your JSON data
 import { FaArrowLeftLong } from "react-icons/fa6";
 import Head from 'next/head';
 

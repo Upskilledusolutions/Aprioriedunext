@@ -95,8 +95,38 @@
   justify-content: space-between;
   margin-top: 50px;
   }
+  /* Locked card style */
+.locked {
+    opacity: 0.5;
+    pointer-events: none; /* Disable clicks on locked cards */
+  }
+  
+  /* Locked text style */
+  .lockedText {
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px 2vw;
+    border: 1px solid rgb(217, 212, 212);
+    width: min-content;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .lockedText svg {
+    margin-right: 5px;
+  }
+  .lock{
+    margin-right: 5px;
+    font-size: 12px;
+  }
 
   @media screen and (max-width: 720px){
+    .mainheading{
+        font-size: 32px;
+    }
     .cards{
         flex-wrap: wrap;
         gap: 15px;

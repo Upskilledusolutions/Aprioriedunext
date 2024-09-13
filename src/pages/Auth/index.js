@@ -16,19 +16,26 @@ export default function Login() {
 
   // Simulated user database
   const usersDB = [
-    { userId: 'mastertrainer1', password: 'upskilleduLC1', name: 'John Doe' },
-    { userId: 'mastertrainer2', password: 'upskilleduLC2', name: 'Jane Smith' }
+    { userId: 'mastertrainer1', password: 'upskilleduLC1', name: '', type: 'all' },
+    { userId: 'mastertrainer2', password: 'upskilleduLC2', name: '', type: 'all' },
+    { userId: 'mastertrainer3', password: 'upskilleduLC3', name: '', type: 'all' },
+    { userId: 'mastertrainer4', password: 'upskilleduLC4', name: '', type: 'all' },
+    { userId: 'mastertrainer5', password: 'upskilleduLC5', name: '', type: 'all' },
+    { userId: 'mastertrainer6', password: 'upskilleduLC6', name: '', type: 'french' },
+    { userId: 'mastertrainer7', password: 'upskilleduLC7', name: '', type: 'german' },
+    { userId: 'mastertrainer8', password: 'upskilleduLC8', name: '', type: 'spanish' },
   ];
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     // Check if the user exists in the database
     const user = usersDB.find((u) => u.userId === userId && u.password === password);
 
     if (user) {
       // If valid, dispatch login and store in Redux & cookies
-      dispatch(login({ userId, name })); // Pass both userId and name
-      
+      dispatch(login({ userId: user.userId, name: name, type: user.type })); // Include the 'type'
+
       // Redirect to the previous page
       router.back(); // Go back to the previous page
     } else {
@@ -38,9 +45,7 @@ export default function Login() {
   };
 
   return (
-    <motion.div
-      className={styles.loginContainer}
-    >
+    <motion.div className={styles.loginContainer}>
       <motion.div
         className={styles.loginBox}
         initial={{ y: -100 }}

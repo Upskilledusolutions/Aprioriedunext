@@ -146,6 +146,37 @@ justify-content: space-between;
   font-size: 0.6rem;
 }
 
+/* Add this to your quizpage.module.css */
+
+/* Locked card style */
+.locked {
+  opacity: 0.8;
+  pointer-events: none; /* Disable clicks on locked cards */
+}
+
+/* Locked text style */
+.lockedText {
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 10px 2vw;
+  border: 1px solid rgb(217, 212, 212);
+  width: min-content;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lock{
+  margin-right: 5px;
+  font-size: 12px;
+}
+.lockedText svg {
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+
 @media screen and (max-width: 720px){
   .cards1{
     grid-template-columns: 1fr;

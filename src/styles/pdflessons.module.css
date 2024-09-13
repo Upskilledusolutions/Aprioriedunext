@@ -1,6 +1,18 @@
 .container{
     padding: 0 5% 50px;
 }
+/* Semi-transparent overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    z-index: 99; /* Ensure it's on top of everything else */
+  }
+/* Watermark styles */
+    
 .headcont{
     display: flex;
     justify-content: center;
@@ -16,6 +28,7 @@
 .sectioncontainer{
     width: 90vw;
     height: 500px;
+    position: relative;
 }
 .sectioncontainer1{
     position: absolute;
@@ -33,6 +46,31 @@
     width: 100vw;
     height: 100vh;
 }
+/* Semi-transparent overlay */
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    z-index: 99; /* Ensure it's on top of everything else */
+  }
+.watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    font-size: 4rem;
+    color: rgba(255, 0, 0, 0.5);
+    z-index: 9999;
+    pointer-events: none;
+    user-select: none;
+    font-weight: bold;
+    text-align: center;
+  }
+  
 .full{
     color: var(--blue);
     font-weight: 700;
@@ -42,6 +80,7 @@
 }
 .close{
     position: absolute;
+    z-index: 100;
     top: 20px;
     left: 2%;
     color: white;

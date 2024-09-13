@@ -12,8 +12,8 @@ const authSlice = createSlice({
   reducers: {
     login: (state, action) => {
       state.isAuthenticated = true;
-      state.user = action.payload; // Store both userId and name
-      Cookies.set('user', JSON.stringify(action.payload)); // Store user data in cookies
+      state.user = action.payload; // Store userId, name, and type
+      Cookies.set('user', JSON.stringify(action.payload)); // Store the whole user data in cookies
     },
     logout: (state) => {
       state.isAuthenticated = false;
@@ -22,7 +22,7 @@ const authSlice = createSlice({
     },
     setUserFromCookies: (state, action) => {
       state.isAuthenticated = true;
-      state.user = action.payload;
+      state.user = action.payload; // Restore user from cookies
     }
   }
 });
