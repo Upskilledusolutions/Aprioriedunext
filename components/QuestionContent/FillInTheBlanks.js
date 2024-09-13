@@ -1,42 +1,67 @@
-import styles from '../../src/styles/quiz/quiz.module.css'; // Assuming styles are in the same folder
+import React, { useState, useRef, useEffect } from 'react';
+import styles from '../../src/styles/quiz/quiz.module.css'; // Adjust the path as needed
 
-const MCQComponent = ({ question, onAnswerSelected, selectedOption, isSubmitted }) => {
-  const { choices, correctAnswer } = question;
+const FillInTheBlanksComponent = ({ question, onAnswerSelected, isSubmitted, onNext, onResult }) => {
+  const { question: sentence, choices, correctAnswer } = question;
+  const [userInput, setUserInput] = useState('');
+  
+  // Ref for the input field
+  const inputRef = useRef(null);
+
+  // Function to handle input changes
+  const handleChange = (e) => {
+    setUserInput(e.target.value);
+  };
+
+  // Function to handle form submission
+  const handleSubmit = () => {
+    const isCorrect = userInput.trim() === choices[correctAnswer - 1];
+    setUserInput('')
+    onAnswerSelected(userInput.trim(), correctAnswer);
+    setTimeout(() => {
+      onResult(isCorrect);
+      onNext(); // Move to the next question after a short delay
+    }, 1000);
+  };
+
+  // Focus the input field when the component is rendered
+  useEffect(() => {
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  }, []);
+
+  // Render sentence with an input field
+  const renderSentence = sentence.split('______').map((part, index) => (
+    <React.Fragment key={index}>
+      {part}
+      {index < sentence.split('______').length - 1 && (
+        <input
+          type="text"
+          value={userInput}
+          onChange={handleChange}
+          className={styles.inputField}
+          disabled={isSubmitted}
+          ref={inputRef} // Attach ref to the input field
+        />
+      )}
+    </React.Fragment>
+  ));
 
   return (
     <div>
-      <h2>{question.question}</h2>
-      <ul className={styles.quizcontainer}>
-        {choices.map((choice, index) => {
-          // Determine the className based on whether the user has submitted and if the answer is correct
-          const isCorrect = correctAnswer === index + 1;
-          const isSelected = selectedOption === index + 1;
-
-          let answerClass = styles.start; // Default style
-          if (isSubmitted) {
-            answerClass = isCorrect
-              ? styles.correct // Green for correct answers
-              : isSelected
-              ? styles.wrong // Red for incorrect selected answer
-              : styles.notselected; // Style for unselected answers
-          }
-
-          return (
-            <li
-              key={index}
-              onClick={() => !isSubmitted && onAnswerSelected(index + 1, index)}
-              className={answerClass}
-            >
-              {choice}
-            </li>
-          );
-        })}
-      </ul>
+      <h2>{renderSentence}</h2>
+      <button onClick={handleSubmit} className={styles.submitButton1} disabled={isSubmitted}>
+        Submit
+      </button>
     </div>
   );
 };
 
-export default MCQComponent;
+export default FillInTheBlanksComponent;
+
+
+
 
 
 // import React, { useState } from 'react';

@@ -98,25 +98,9 @@ export default function Navbar() {
         </div>
         <ul className={click ? `${styles.navlinks1}` : `${styles.navlinks}`}>
           <Link onClick={clickfn2} href='/' className={isActive('/') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Home</Link>
-          <Link onClick={clickfn2} href='/QuizTime' className={isActive('/QuizTime') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Free Quizzes</Link>
-          {isAuthenticated ? <Link onClick={clickfn2} href='/TestPrep' className={isActive('/TestPrep') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Practice Tests</Link> :
-          <div onClick={showAuthmodal} className={`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Practice Tests</div>
-          }
-          {isAuthenticated ? <Link onClick={clickfn2} href='/Readnow' className={isActive('/Readnow') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Pdf Lessons</Link> : 
-          <div onClick={showAuthmodal} className={`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Pdf Lessons</div>}
-          {/* <div className={styles.options}>
-            <div onClick={() => setDrop1(!drop1)} onMouseEnter={() => setDrop1(true)} onMouseLeave={() => setDrop1(false)} className={`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect} ${styles.activity}`}>
-              Lessons
-              <span><IoIosArrowUp className={styles.span}/></span>
-            </div>
-            <div onMouseEnter={() => setDrop1(true)} onMouseLeave={() => setDrop1(false)} className={drop1 ? `${styles.show}` : `${styles.hide}`}>
-              <Link className={styles.linked} onClick={clickfn3} href='/Readnow'>Read Now</Link>
-              <Link className={styles.linked} onClick={clickfn3} href='/Watchnow'>Watch Now</Link>
-            </div>
-          </div> */}
           <div className={styles.options}>
             <div onClick={() => setDrop(!drop)} onMouseEnter={() => setDrop(true)} onMouseLeave={() => setDrop(false)} className={`${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect} ${styles.activity}`}>
-              Activities
+              Courses
               <span><IoIosArrowUp className={styles.span}/></span>
             </div>
             <div onMouseEnter={() => setDrop(true)} onMouseLeave={() => setDrop(false)} className={drop ? `${styles.show}` : `${styles.hide}`}>
@@ -126,6 +110,7 @@ export default function Navbar() {
               <Link className={styles.linked} onClick={clickfn} href='/Olympiad'>Olympiad</Link>
             </div>
           </div>
+          <Link onClick={clickfn2} href='/QuizTime' className={isActive('/QuizTime') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect}`}>Free Quizzes</Link>
           <Link onClick={clickfn2} href='/Eventspage' className={isActive('/Eventspage') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Events</Link>
           <Link onClick={clickfn2} href='/Testimonials' className={isActive('/Testimonials') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>Testimonials</Link>
           <Link onClick={clickfn2} href='/About' className={isActive('/About') ? `${styles.link} ${styles.li} ${styles.ul} ${styles.active}` : `${styles.link} ${styles.li} ${styles.ul}  ${styles.hovereffect}`}>About</Link>
@@ -141,6 +126,11 @@ export default function Navbar() {
             {/* Dropdown menu */}
             {isDropdownVisible && (
               <div className={styles.dropdownMenu}>
+                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Readnow'>Lessons</Link>
+                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/'>Exercise</Link>
+                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/'>Conversations</Link>
+                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/'>Reading Assignments</Link>
+                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/TestPrep'>Practice Test</Link>
                 <button className={styles.logoutButton} onClick={handleLogout}>Logout</button>
               </div>
             )}

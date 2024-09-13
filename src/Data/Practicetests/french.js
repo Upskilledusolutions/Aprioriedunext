@@ -50,40 +50,40 @@ export const quiz = [
           correctAnswer: 3,
         },
   
-        // 7 Fill in the Blanks
+        // // 7 Fill in the Blanks
 
             {
-              question: "Fill in the blank: Je ______ un livre. (I am reading a book)",
+              question: "Je ______ un livre. (I am reading a book)",
               choices: ["lis", "mange", "a", "fait"],
               type: "FillInTheBlanks",
               correctAnswer: 4
             },
             {
-              question: "Fill in the blank: Elle ______ très heureuse. (She is very happy)",
+              question: "Elle ______ très heureuse. (She is very happy)",
               choices: ["est", "a", "mange", "vont"],
               type: "FillInTheBlanks",
               correctAnswer: 1
             },
             {
-              question: "Fill in the blank: Nous ______ du pain. (We are eating bread)",
+              question: "Nous ______ du pain. (We are eating bread)",
               choices: ["mangeons", "faisons", "allons", "avons"],
               type: "FillInTheBlanks",
               correctAnswer: 1
             },
             {
-              question: "Fill in the blank: Ils ______ au parc. (They are going to the park)",
+              question: "Ils ______ au parc. (They are going to the park)",
               choices: ["vont", "mangent", "lisent", "sont"],
               type: "FillInTheBlanks",
               correctAnswer: 1
             },
             {
-              question: "Fill in the blank: Elle ______ un livre. (She has a book)",
+              question: "Elle ______ un livre. (She has a book)",
               choices: ["a", "fait", "mange", "vont"],
               type: "FillInTheBlanks",
               correctAnswer: 1
             },
             {
-              question: "Fill in the blank: Il ______ froid. (It is cold)",
+              question: "Il ______ froid. (It is cold)",
               choices: ["fait", "est", "mange", "a"],
               type:"FillInTheBlanks",
               correctAnswer: 1
@@ -98,56 +98,62 @@ export const quiz = [
         // 2 Jumbled Words
         
         {
-            question: "language",
-            choices: ["education", "technology", "language", "development"],
-            type: "JumbledWords"
-          },
-          {
-            question: "develope",
-            choices: ["education", "technology", "language", "develope"],
-            type: "JumbledWords"
-          },
+          question: "Il a un chat",
+          choices: ["Il", "a", "un", "chat"],
+          type: "JumbledWords"
+      },
+      {
+          question: "Je suis étudiant",
+          choices: ["Je", "suis", "étudiant"],
+          type: "JumbledWords"
+      },
   
         // 2 Click on Correct Words
-            {
-              question: "Select the correct words related to education.",
-              options: ["school", "book", "car", "pen", "tree", "bird", "pan","teacher", "sea"],
-              correctAnswers: ["school", "teacher", "pen"],
-              type: "ClickCorrectWords"
-            },
+        {
+          question: "Sélectionnez les mots corrects liés à l'éducation.",
+          options: ["école", "ordinateur", "voiture", "stylo", "arbre", "oiseau", "poêle", "enseignant", "mer"],
+          correctAnswers: ["école", "enseignant", "stylo"],
+          type: "ClickCorrectWords"
+        },
+        {
+          question: "Sélectionnez les mots associés à la nourriture.",
+          options: ["pain", "puzzle", "chat", "ordinateur", "fromage", "voiture", "poulet", "télévision", "football"],
+          correctAnswers: ["pain", "fromage", "poulet"],
+          type: "ClickCorrectWords"
+        },
 
-            {
-                question: "Select the correct words related to education.",
-                options: ["school", "book", "car", "pen", "tree", "bird", "pan","teacher", "sea"],
-                correctAnswers: ["school", "teacher", "pen"],
-                type: "ClickCorrectWords"
-              },
+            // {
+            //     question: "Select the correct words related to education.",
+            //     options: ["school", "book", "car", "pen", "tree", "bird", "pan","teacher", "sea"],
+            //     correctAnswers: ["school", "teacher", "pen"],
+            //     type: "ClickCorrectWords"
+            //   },
   
         // 2 Drag and Drop
         {
-          question: "Classify the following words into categories: Fruit and Vegetable.",
-          types: ["Fruit","Vegetable"],
-          initialWords : [
-            { word: "Apple", type: "Fruit" },
-            { word: "Carrot", type: "Vegetable" },
-            { word: "Banana", type: "Fruit" },
-            { word: "Potato", type: "Vegetable" },
-            { word: "Grapes", type: "Fruit" },
-            { word: "Tomato", type: "Vegetable" },
-        ],
+          question: "Classifiez les mots suivants en catégories : Fruit et Légume.",
+          types: ["Fruit", "Légume"],
+          initialWords: [
+            { word: "Pomme", type: "Fruit" },
+            { word: "Carotte", type: "Légume" },
+            { word: "Banane", type: "Fruit" },
+            { word: "Pomme de terre", type: "Légume" },
+            { word: "Raisin", type: "Fruit" },
+            { word: "Tomate", type: "Légume" }
+          ],
           type: "DragAndDrop"
         },
         {
-          question: "Classify the following words into categories: Singular and Plural.",
-          types: ["Singular","Plural"],
-          initialWords : [
-            { word: "Apple", type: "Singular" },
-            { word: "Carrots", type: "Plural" },
-            { word: "Banana", type: "Singular" },
-            { word: "Potatoes", type: "Plural" },
-            { word: "Grape", type: "Singular" },
-            { word: "Tomatoes", type: "Plural" },
-        ],
+          question: "Classifiez les mots suivants en catégories : Singulier et Pluriel.",
+          types: ["Singulier", "Pluriel"],
+          initialWords: [
+            { word: "Pomme", type: "Singulier" },
+            { word: "Carottes", type: "Pluriel" },
+            { word: "Banane", type: "Singulier" },
+            { word: "Pommes de terre", type: "Pluriel" },
+            { word: "Raisin", type: "Singulier" },
+            { word: "Tomates", type: "Pluriel" }
+          ],
           type: "DragAndDrop"
         },
       ],
@@ -155,7 +161,7 @@ export const quiz = [
     {
       quiz: '2',
       name: 'French Practice Test - 2',
-      level: 'Intermediate',
+      level: 'Easy',
       topic: 'Mixed',
       questions: [
         // 7 MCQs
@@ -203,40 +209,40 @@ export const quiz = [
           correctAnswer: 3,
         },
   
-        // 7 Fill in the Blanks
+        // // 7 Fill in the Blanks
 
             {
-              question: "Fill in the blank: Je ______ un livre. (I am reading a book)",
+              question: "Je ______ un livre. (I am reading a book)",
               choices: ["lis", "mange", "a", "fait"],
               type: "FillInTheBlanks",
               correctAnswer: 4
             },
             {
-              question: "Fill in the blank: Elle ______ très heureuse. (She is very happy)",
+              question: "Elle ______ très heureuse. (She is very happy)",
               choices: ["est", "a", "mange", "vont"],
               type: "FillInTheBlanks",
               correctAnswer: 1
             },
             {
-              question: "Fill in the blank: Nous ______ du pain. (We are eating bread)",
+              question: "Nous ______ du pain. (We are eating bread)",
               choices: ["mangeons", "faisons", "allons", "avons"],
               type: "FillInTheBlanks",
               correctAnswer: 1
             },
             {
-              question: "Fill in the blank: Ils ______ au parc. (They are going to the park)",
+              question: "Ils ______ au parc. (They are going to the park)",
               choices: ["vont", "mangent", "lisent", "sont"],
               type: "FillInTheBlanks",
               correctAnswer: 1
             },
             {
-              question: "Fill in the blank: Elle ______ un livre. (She has a book)",
+              question: "Elle ______ un livre. (She has a book)",
               choices: ["a", "fait", "mange", "vont"],
               type: "FillInTheBlanks",
               correctAnswer: 1
             },
             {
-              question: "Fill in the blank: Il ______ froid. (It is cold)",
+              question: "Il ______ froid. (It is cold)",
               choices: ["fait", "est", "mange", "a"],
               type:"FillInTheBlanks",
               correctAnswer: 1
@@ -251,56 +257,62 @@ export const quiz = [
         // 2 Jumbled Words
         
         {
-            question: "language",
-            choices: ["education", "technology", "language", "development"],
-            type: "JumbledWords"
-          },
-          {
-            question: "develope",
-            choices: ["education", "technology", "language", "develope"],
-            type: "JumbledWords"
-          },
+          question: "Il a un chat",
+          choices: ["Il", "a", "un", "chat"],
+          type: "JumbledWords"
+      },
+      {
+          question: "Je suis étudiant",
+          choices: ["Je", "suis", "étudiant"],
+          type: "JumbledWords"
+      },
   
         // 2 Click on Correct Words
-            {
-              question: "Select the correct words related to education.",
-              options: ["school", "book", "car", "pen", "tree", "bird", "pan","teacher", "sea"],
-              correctAnswers: ["school", "teacher", "pen"],
-              type: "ClickCorrectWords"
-            },
+        {
+          question: "Sélectionnez les mots corrects liés à l'éducation.",
+          options: ["école", "ordinateur", "voiture", "stylo", "arbre", "oiseau", "poêle", "enseignant", "mer"],
+          correctAnswers: ["école", "enseignant", "stylo"],
+          type: "ClickCorrectWords"
+        },
+        {
+          question: "Sélectionnez les mots associés à la nourriture.",
+          options: ["pain", "puzzle", "chat", "ordinateur", "fromage", "voiture", "poulet", "télévision", "football"],
+          correctAnswers: ["pain", "fromage", "poulet"],
+          type: "ClickCorrectWords"
+        },
 
-            {
-                question: "Select the correct words related to education.",
-                options: ["school", "book", "car", "pen", "tree", "bird", "pan","teacher", "sea"],
-                correctAnswers: ["school", "teacher", "pen"],
-                type: "ClickCorrectWords"
-              },
+            // {
+            //     question: "Select the correct words related to education.",
+            //     options: ["school", "book", "car", "pen", "tree", "bird", "pan","teacher", "sea"],
+            //     correctAnswers: ["school", "teacher", "pen"],
+            //     type: "ClickCorrectWords"
+            //   },
   
         // 2 Drag and Drop
         {
-          question: "Classify the following words into categories: Fruit and Vegetable.",
-          types: ["Fruit","Vegetable"],
-          initialWords : [
-            { word: "Apple", type: "Fruit" },
-            { word: "Carrot", type: "Vegetable" },
-            { word: "Banana", type: "Fruit" },
-            { word: "Potato", type: "Vegetable" },
-            { word: "Grapes", type: "Fruit" },
-            { word: "Tomato", type: "Vegetable" },
-        ],
+          question: "Classifiez les mots suivants en catégories : Fruit et Légume.",
+          types: ["Fruit", "Légume"],
+          initialWords: [
+            { word: "Pomme", type: "Fruit" },
+            { word: "Carotte", type: "Légume" },
+            { word: "Banane", type: "Fruit" },
+            { word: "Pomme de terre", type: "Légume" },
+            { word: "Raisin", type: "Fruit" },
+            { word: "Tomate", type: "Légume" }
+          ],
           type: "DragAndDrop"
         },
         {
-          question: "Classify the following words into categories: Singular and Plural.",
-          types: ["Singular","Plural"],
-          initialWords : [
-            { word: "Apple", type: "Singular" },
-            { word: "Carrots", type: "Plural" },
-            { word: "Banana", type: "Singular" },
-            { word: "Potatoes", type: "Plural" },
-            { word: "Grape", type: "Singular" },
-            { word: "Tomatoes", type: "Plural" },
-        ],
+          question: "Classifiez les mots suivants en catégories : Singulier et Pluriel.",
+          types: ["Singulier", "Pluriel"],
+          initialWords: [
+            { word: "Pomme", type: "Singulier" },
+            { word: "Carottes", type: "Pluriel" },
+            { word: "Banane", type: "Singulier" },
+            { word: "Pommes de terre", type: "Pluriel" },
+            { word: "Raisin", type: "Singulier" },
+            { word: "Tomates", type: "Pluriel" }
+          ],
           type: "DragAndDrop"
         },
       ],

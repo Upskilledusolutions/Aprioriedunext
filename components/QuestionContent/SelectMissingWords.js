@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from '../../src/styles/classificationGame.module.css';
 
 const ClassificationGame = ({ questionData, onNext, onResult }) => {
     const [availableWords, setAvailableWords] = useState([]);
     const [containers, setContainers] = useState({});
-    const [draggedWord, setDraggedWord] = useState(null);
+    const [selectedWord, setSelectedWord] = useState(null);
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [feedback, setFeedback] = useState(null);
 
@@ -18,50 +18,39 @@ const ClassificationGame = ({ questionData, onNext, onResult }) => {
 
             setAvailableWords(initialWords);
             setContainers(initialContainers);
-            setIsSubmitted(false); // Reset the submission state
+            setIsSubmitted(false); // Reset submission state
             setFeedback(null); // Reset feedback
+            setSelectedWord(null); // Reset selected word
         }
     }, [questionData]);
 
-    const handleDragStart = (word) => {
-        setDraggedWord(word);
+    // Handle word tap/select
+    const handleWordClick = (word) => {
+        setSelectedWord(word); // Highlight selected word
     };
 
-    const handleDrop = (category) => {
-        if (!draggedWord) return;
+    // Handle category tap/drop
+    const handleCategoryClick = (category) => {
+        if (!selectedWord) return;
 
         // Update the respective container and remove the word from the available words list
-        setContainers(prevContainers => ({
+        setContainers((prevContainers) => ({
             ...prevContainers,
-            [category]: [...prevContainers[category], draggedWord]
+            [category]: [...prevContainers[category], selectedWord],
         }));
 
-        // Remove the word from the available words
-        setAvailableWords(prevWords => prevWords.filter(item => item.word !== draggedWord.word));
-        setDraggedWord(null);
-    };
-
-    const handleTouchStart = (e, word) => {
-        e.preventDefault();
-        setDraggedWord(word);
-    };
-
-    const handleTouchEnd = (e, category) => {
-        e.preventDefault();
-        if (draggedWord) {
-            handleDrop(category);
-            setDraggedWord(null);
-        }
+        setAvailableWords((prevWords) => prevWords.filter((item) => item.word !== selectedWord.word));
+        setSelectedWord(null); // Reset selected word after dropping
     };
 
     const handleSubmit = () => {
         // Validation: Check if each word in containers is correctly categorized
-        const allCorrect = Object.keys(containers).every(category =>
-            containers[category].every(item => item.type === category)
+        const allCorrect = Object.keys(containers).every((category) =>
+            containers[category].every((item) => item.type === category)
         );
 
         setIsSubmitted(true);
-        setFeedback(allCorrect ? "Correct! You sorted all words correctly." : "Incorrect! Some words are in the wrong container.");
+        setFeedback(allCorrect ? 'Correct! You sorted all words correctly.' : 'Incorrect! Some words are in the wrong container.');
 
         setTimeout(() => {
             onResult(allCorrect);
@@ -72,17 +61,20 @@ const ClassificationGame = ({ questionData, onNext, onResult }) => {
     const handleReset = () => {
         // Reset the game state
         setAvailableWords(questionData.initialWords);
-        setContainers(Object.keys(containers).reduce((acc, type) => {
-            acc[type] = [];
-            return acc;
-        }, {}));
-        setDraggedWord(null);
+        setContainers(
+            Object.keys(containers).reduce((acc, type) => {
+                acc[type] = [];
+                return acc;
+            }, {})
+        );
+        setSelectedWord(null);
         setIsSubmitted(false);
         setFeedback(null);
     };
 
     return (
         <div className={styles.classificationGame}>
+            <h2>Classify the given words</h2>
             <div className={styles.containers}>
                 {Object.keys(containers).length === 0 ? (
                     <p>No containers available.</p>
@@ -91,9 +83,7 @@ const ClassificationGame = ({ questionData, onNext, onResult }) => {
                         <div
                             key={index}
                             className={styles.container}
-                            onDragOver={(e) => e.preventDefault()}
-                            onDrop={() => handleDrop(category)}
-                            onTouchStart={(e) => handleTouchEnd(e, category)}
+                            onClick={() => handleCategoryClick(category)} // Handle drop with tap
                         >
                             <h3>{category}</h3>
                             {containers[category].length === 0 ? (
@@ -117,10 +107,8 @@ const ClassificationGame = ({ questionData, onNext, onResult }) => {
                     availableWords.map((item, index) => (
                         <div
                             key={index}
-                            className={styles.word}
-                            draggable
-                            onDragStart={() => handleDragStart(item)}
-                            onTouchStart={(e) => handleTouchStart(e, item)}
+                            className={`${styles.word} ${selectedWord === item ? styles.selected : ''}`} // Highlight selected word
+                            onClick={() => handleWordClick(item)} // Handle word select with tap
                         >
                             {item.word}
                         </div>
@@ -128,28 +116,17 @@ const ClassificationGame = ({ questionData, onNext, onResult }) => {
                 )}
             </div>
 
-            <button 
-                onClick={handleSubmit} 
-                className={styles.submitButton} 
-                disabled={isSubmitted}
-            >
+            <button onClick={handleSubmit} className={styles.submitButton} disabled={isSubmitted}>
                 Submit
             </button>
 
-            {isSubmitted && (
-                <button 
-                    onClick={handleReset} 
-                    className={styles.resetButton}
-                >
+            {/* {isSubmitted && (
+                <button onClick={handleReset} className={styles.resetButton}>
                     Reset
                 </button>
-            )}
+            )} */}
 
-            {feedback && (
-                <p className={styles.feedback}>
-                    {feedback}
-                </p>
-            )}
+            {/* {feedback && <p className={styles.feedback}>{feedback}</p>} */}
         </div>
     );
 };

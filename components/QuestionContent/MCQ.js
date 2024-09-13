@@ -6,7 +6,7 @@ const MCQComponent = ({ question, onAnswerSelected, selectedOption, isSubmitted 
   return (
     <div>
       <h2>{question.question}</h2>
-      <ul className={styles.quizcontainer}>
+      <ul className={styles.quizcontainer1}>
         {choices.map((choice, index) => {
           // Determine the className based on whether the user has submitted and if the answer is correct
           const isCorrect = correctAnswer === index + 1;

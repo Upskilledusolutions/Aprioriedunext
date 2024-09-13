@@ -218,9 +218,16 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
       {allQuestions[activeQuestion].type === 'FillInTheBlanks' && (
         <FillInTheBlanksComponent 
         question={allQuestions[activeQuestion]}
+        onNext={onClickNext}
         onAnswerSelected={onAnswerSelected}
         selectedOption={selectedOption}
         isSubmitted={isSubmitted}
+        onResult={(isCorrect) => {
+          setResult(prev => ({
+              correctAnswers: isCorrect ? prev.correctAnswers + 1 : prev.correctAnswers,
+              wrong: !isCorrect ? prev.wrong + 1 - 1 : prev.wrong - 1
+          }));
+          }}
     />
       )}
     {allQuestions[activeQuestion].type === 'JumbledWords' && (
@@ -231,7 +238,7 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
         setResult(prev => ({
             ...prev,
             correctAnswers: isCorrect ? prev.correctAnswers + 1 : prev.correctAnswers,
-            wrong: !isCorrect ? prev.wrong + 1 : prev.wrong
+            wrong: !isCorrect ? prev.wrong + 1 - 1 : prev.wrong - 1
         }));
         }}
         />
@@ -257,11 +264,12 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
         />
       )}
 
-      <div className={styles.flexright}>
+{ allQuestions[activeQuestion].type !== 'JumbledWords' && allQuestions[activeQuestion].type !== 'FillInTheBlanks'  && allQuestions[activeQuestion].type !== 'ClickCorrectWords' && allQuestions[activeQuestion].type !== 'DragAndDrop' && <div className={styles.flexright}>
         <button onClick={onClickNext} disabled={selectedAnswerIndex === null}>
           {activeQuestion === allQuestions.length - 1 ? "Finish" : "Next"}
         </button>
-      </div>
+      </div>}
+
     </div>
   ) : (
               <div className={styles.result}>

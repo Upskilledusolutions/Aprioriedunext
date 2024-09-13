@@ -9,90 +9,68 @@ const shuffleArray = (array) => {
     return array;
 };
 
-const JumbledWordsComponent = ({ question, onNext, onResult }) => {
-    const { question: word } = question;  // Destructure question to get the word
-    const [shuffledLetters, setShuffledLetters] = useState([]);
+const JumbledSentenceComponent = ({ question, onNext, onResult }) => {
+    const { question: sentence } = question;
+    const [shuffledWords, setShuffledWords] = useState([]);
     const [userAnswer, setUserAnswer] = useState([]);
     const [isSubmitted, setIsSubmitted] = useState(false);
-    
+    const [selectedWordIndex, setSelectedWordIndex] = useState(null);
+
     useEffect(() => {
-        const shuffled = shuffleArray([...word.split('')]);
-        setShuffledLetters(shuffled);
+        const words = sentence.split(' ');
+        const shuffled = shuffleArray([...words]);
+        setShuffledWords(shuffled);
         setUserAnswer(shuffled);
         setIsSubmitted(false);
-    }, [word]);
+        setSelectedWordIndex(null);
+    }, [sentence]);
 
-    const [draggedIndex, setDraggedIndex] = useState(null);
-    const [touchedIndex, setTouchedIndex] = useState(null);
-
-    // Handle drag start for desktop
-    const handleDragStart = (index) => {
-        setDraggedIndex(index);
-    };
-
-    // Handle drop for desktop
-    const handleDrop = (toIndex) => {
-        if (draggedIndex === null) return;
-        swapLetters(draggedIndex, toIndex);
-        setDraggedIndex(null);
-    };
-
-    // Handle touch start for mobile
-    const handleTouchStart = (index) => {
-        setTouchedIndex(index);
-    };
-
-    // Handle touch end for mobile
-    const handleTouchEnd = (toIndex) => {
-        if (touchedIndex === null) return;
-        swapLetters(touchedIndex, toIndex);
-        setTouchedIndex(null);
-    };
-
-    // Swap letters based on drag/touch interactions
-    const swapLetters = (fromIndex, toIndex) => {
+    // Swap two words at selected index and current index
+    const swapWords = (index1, index2) => {
         const updatedAnswer = [...userAnswer];
-        const [movedLetter] = updatedAnswer.splice(fromIndex, 1);
-        updatedAnswer.splice(toIndex, 0, movedLetter);
+        [updatedAnswer[index1], updatedAnswer[index2]] = [updatedAnswer[index2], updatedAnswer[index1]];
         setUserAnswer(updatedAnswer);
     };
 
-    const handleDragOver = (e) => {
-        e.preventDefault(); // Prevent default dragover behavior
+    // Handle word click or touch
+    const handleWordClick = (index) => {
+        if (selectedWordIndex === null) {
+            // First selection
+            setSelectedWordIndex(index);
+        } else {
+            // Swap words if second word is selected
+            swapWords(selectedWordIndex, index);
+            setSelectedWordIndex(null); // Reset selection after swap
+        }
     };
 
     const handleSubmit = () => {
-        const correct = userAnswer.join('') === word;
+        const correct = userAnswer.join(' ') === sentence;
         setIsSubmitted(true);
         onResult(correct);
-        if (correct) {
+        if (correct || !correct) {
             setTimeout(() => onNext(), 1000);
         }
     };
 
     return (
         <div className={styles.jumbledWords}>
-            <h2>Arrange the letters to form the correct word</h2>
+            <h2>Arrange the words to form the correct sentence</h2>
             <div className={styles.shuffledLetters}>
-                {userAnswer.map((letter, index) => (
+                {userAnswer.map((word, index) => (
                     <span
                         key={index}
-                        draggable
-                        onDragStart={() => handleDragStart(index)}
-                        onDragOver={handleDragOver}
-                        onDrop={() => handleDrop(index)}
-                        onTouchStart={() => handleTouchStart(index)} // For mobile touch
-                        onTouchEnd={() => handleTouchEnd(index)} // For mobile touch
-                        className={styles.letterBlock}
+                        onClick={() => handleWordClick(index)} // Handle word click or touch
+                        className={`${styles.wordBlock} ${selectedWordIndex === index ? styles.selected : ''}`}
                     >
-                        {letter}
+                        {word}
                     </span>
                 ))}
             </div>
 
-            {isSubmitted && userAnswer.join('') === word && (
+            {/* {isSubmitted && userAnswer.join(' ') === sentence && (
                 <p className={styles.feedback}>Correct!</p>
-            )}
+            )} */}
 
             <button onClick={handleSubmit} className={styles.submitButton}>
                 Submit
@@ -101,4 +79,4 @@ const JumbledWordsComponent = ({ question, onNext, onResult }) => {
     );
 };
 
-export default JumbledWordsComponent;
+export default JumbledSentenceComponent;

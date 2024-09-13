@@ -2,7 +2,6 @@
 
 .container {
   font-family: 'Anek Malayalam', sans-serif;
-
   color: #11052c;
   display: flex;
   justify-content: center;
@@ -137,7 +136,7 @@ overflow: hidden;
 
 .flexright {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .result h3 {
@@ -282,7 +281,7 @@ overflow: hidden;
 .mainLayout {
   display: flex;
   align-items: stretch;
-  height: 70vh;
+  height: auto;
 }
 
 .container {
@@ -311,6 +310,60 @@ overflow: hidden;
 .timer svg {
   margin-right: 5px;
 }
+
+.fillBlanksForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.fillBlanksInput {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputField{
+  border: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.inputField:focus{
+outline: none;
+}
+
+.submitButton1{
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
 
 /* Improved button styles */
 /* button {
@@ -388,6 +441,10 @@ button:disabled {
 }
 
 @media (max-width: 768px) {
+  .inputField{
+    width: 30vw;
+    font-size: 20px;
+  }
   .result{
     width: 90%;
     margin: 0;
@@ -501,10 +558,10 @@ margin-bottom: 10px;
     font-size: 15px;
   }
   .quizcontainer ul li {
-    padding: 5px 5vw;
+    padding: 10px 5vw;
   }
   .quizcontainer button, .btns{
-    padding: 5px 2vw;
+    padding: 10px 2vw;
     font-size: 15px;
   }
   .quizcontainer ul {

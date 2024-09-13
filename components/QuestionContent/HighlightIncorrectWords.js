@@ -62,11 +62,11 @@ const ClickCorrectWordsComponent = ({ question, onNext, onResult }) => {
                 ))}
             </div>
 
-            {feedback && (
+            {/* {feedback && (
                 <p className={styles.feedback}>
                     {feedback}
                 </p>
-            )}
+            )} */}
         </div>
     );
 };
