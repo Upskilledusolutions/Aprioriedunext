@@ -127,8 +127,8 @@ export default function Navbar() {
             {isDropdownVisible && (
               <div className={styles.dropdownMenu}>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Readnow'>Lessons</Link>
-                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/'>Exercise</Link>
-                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/'>Conversations</Link>
+                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Exercise'>Exercise</Link>
+                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Conversations'>Conversations</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/'>Reading Assignments</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/TestPrep'>Practice Test</Link>
                 <button className={styles.logoutButton} onClick={handleLogout}>Logout</button>
