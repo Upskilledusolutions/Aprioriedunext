@@ -50,7 +50,7 @@ const FillInTheBlanksComponent = ({ question, onAnswerSelected, isSubmitted, onN
 
   return (
     <div>
-      <h2>{renderSentence}</h2>
+      <h2 className={styles.fillblanksentence}>{renderSentence}</h2>
       <button onClick={handleSubmit} className={styles.submitButton1} disabled={isSubmitted}>
         Submit
       </button>

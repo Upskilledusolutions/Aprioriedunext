@@ -10,9 +10,7 @@ import Head from "next/head";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // For toggling icons
 import MCQComponent from '../../../../components/QuestionContent/MCQ'
 import FillInTheBlanksComponent from '../../../../components/QuestionContent/FillInTheBlanks'
-import JumbledWordsComponent from '../../../../components/QuestionContent/ReorderParagraph'
-import ClickCorrectWordsComponent from '../../../../components/QuestionContent/HighlightIncorrectWords'
-import DragAndDropComponent from '../../../../components/QuestionContent/SelectMissingWords'
+import MatchTheFollowingGame from "../../../../components/QuestionContent/MatchtheFollowing";
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -80,9 +78,10 @@ const fillInTheBlanks = questions.filter((q) => q.type === 'FillInTheBlanks');
 const jumbledWords = questions.filter((q) => q.type === 'JumbledWords').slice(0, 2);
 const clickCorrectWords = questions.filter((q) => q.type === 'ClickCorrectWords').slice(0, 2);
 const dragAndDrop = questions.filter((q) => q.type === 'DragAndDrop').slice(0, 2);
+const matchTheFollowing = questions.filter((q) => q.type === 'MatchTheFollowing'); 
 
 // Combine all question types into one array to iterate through in the quiz
-const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorrectWords, ...dragAndDrop];
+const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorrectWords, ...dragAndDrop, ...matchTheFollowing ];
 
   useEffect(() => {
     // Reset the quiz state when the quiz changes (when `id` changes)
@@ -95,18 +94,26 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
     setStart(true);
     setResult({ correctAnswers: 0, wrong: 0 });
   }, [id]); // Only run when `id` changes
-  
 
   useEffect(() => {
+    // Timer logic for different question types
+    if (allQuestions[activeQuestion]?.type === 'MatchTheFollowing') {
+      setTime(90); // Set timer to 90 seconds for MatchTheFollowing
+    }
+  }, [activeQuestion]);
+
+  useEffect(() => {
+    // Timer countdown logic
     if (time === 0) {
-      onClickNext();
+      onClickNext(); // Proceed to next question when timer reaches 0
+    } else if (time > 0) {
+      const interval = setInterval(() => {
+        setTime((prev) => prev - 1); // Decrement timer every second
+      }, 1000);
+      return () => clearInterval(interval); // Clear interval on component unmount or timer change
     }
-    if (showResult) {
-      setTime(-1);
-    }
-    const interval = time > 0 && setInterval(() => setTime(time - 1), 1000);
-    return () => clearInterval(interval);
   }, [time]);
+
 
   const addLeadingZero = (number) => (number > 9 ? number : `0${number}`);
 
@@ -144,13 +151,7 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
       <a>Fill in the Blanks</a>
     </li>
     <li>
-      <a>Jumbled Words</a>
-    </li>
-    <li>
-      <a>Click on Correct Words</a>
-    </li>
-    <li>
-      <a>Drag and Drop</a>
+      <a>Match the Following</a>
     </li>
   </ul>
 </div>
@@ -205,6 +206,19 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
         </div>
       </div>
 
+      {allQuestions[activeQuestion].type === "MatchTheFollowing" && (
+       <MatchTheFollowingGame
+       questionData={allQuestions[activeQuestion]}
+       onNext={onClickNext}
+       onResult={({isCorrect,correctMatches}) => {
+        setResult(prev => ({
+            correctAnswers: prev.correctAnswers + correctMatches,
+            wrong: prev.wrong
+        }));
+        }}
+     />
+      )}
+
       {/* Render based on the question type */}
       {allQuestions[activeQuestion].type === 'MCQs' && (
        <MCQComponent
@@ -214,6 +228,7 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
        isSubmitted={isSubmitted}
      />
       )}
+
       {allQuestions[activeQuestion].type === 'FillInTheBlanks' && (
         <FillInTheBlanksComponent 
         question={allQuestions[activeQuestion]}
@@ -229,41 +244,8 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
           }}
     />
       )}
-    {allQuestions[activeQuestion].type === 'JumbledWords' && (
-    <JumbledWordsComponent
-        question={allQuestions[activeQuestion]}
-        onNext={onClickNext}
-        onResult={(isCorrect) => {
-        setResult(prev => ({
-            ...prev,
-            correctAnswers: isCorrect ? prev.correctAnswers + 1 : prev.correctAnswers,
-            wrong: !isCorrect ? prev.wrong + 1 - 1 : prev.wrong - 1
-        }));
-        }}
-        />
-    )}
-      {allQuestions[activeQuestion].type === 'ClickCorrectWords' && (
-         <ClickCorrectWordsComponent
-         question={allQuestions[activeQuestion]}
-         onNext={onClickNext}
-         onResult={onResultHandler}
-       />
-      )}
-      {allQuestions[activeQuestion].type === 'DragAndDrop' && (
-        <DragAndDropComponent 
-        questionData={allQuestions[activeQuestion]}
-        onNext={onClickNext}
-        onResult={(result) => {
-          setResult((prev) => ({
-            ...prev,
-            correctAnswers: prev.correctAnswers + (result ? 1 : 0),
-            wrong: prev.wrong + (result ? 0 - 1 : 1 - 1)
-          }));
-        }}
-        />
-      )}
 
-{ allQuestions[activeQuestion].type !== 'JumbledWords' && allQuestions[activeQuestion].type !== 'FillInTheBlanks'  && allQuestions[activeQuestion].type !== 'ClickCorrectWords' && allQuestions[activeQuestion].type !== 'DragAndDrop' && <div className={styles.flexright}>
+{ allQuestions[activeQuestion].type !== 'MatchTheFollowing' && allQuestions[activeQuestion].type !== 'JumbledWords' && allQuestions[activeQuestion].type !== 'FillInTheBlanks'  && allQuestions[activeQuestion].type !== 'ClickCorrectWords' && allQuestions[activeQuestion].type !== 'DragAndDrop' && <div className={styles.flexright}>
         <button onClick={onClickNext} disabled={selectedAnswerIndex === null}>
           {activeQuestion === allQuestions.length - 1 ? "Finish" : "Next"}
         </button>
@@ -285,12 +267,12 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
                   <div>Correct Answers:</div>
                   <div className={styles.color}>{result.correctAnswers}</div>
                 </div>
-                <div className={styles.flexi}>
+                {/* <div className={styles.flexi}>
                   <div>Wrong Answers:</div>
                   <div className={styles.color}>
-                    {questions.length - result.correctAnswers}
+                    {result.wrong}
                   </div>
-                </div>
+                </div> */}
                 <div className={styles.flex}>
                   <Link className={styles.btns} href="/QuizTime">
                     Go Back

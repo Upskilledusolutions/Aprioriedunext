@@ -120,13 +120,6 @@ const ClassificationGame = ({ questionData, onNext, onResult }) => {
                 Submit
             </button>
 
-            {/* {isSubmitted && (
-                <button onClick={handleReset} className={styles.resetButton}>
-                    Reset
-                </button>
-            )} */}
-
-            {/* {feedback && <p className={styles.feedback}>{feedback}</p>} */}
         </div>
     );
 };
