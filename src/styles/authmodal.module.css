@@ -35,12 +35,11 @@
     padding: 10px 1vw;
     color: var(--blue);
     font-weight: 700;
-    border: none;
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
     padding-bottom: 10px;
-    border-bottom: 2px solid var(--blue);
+    border: 2px solid var(--blue);
   }
 
   .memcont{

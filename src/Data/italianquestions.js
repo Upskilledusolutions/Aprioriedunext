@@ -134,71 +134,208 @@ export const quiz = [{
     },
   ]
   },
-  // {
-  //   quiz:'3',
-  //   name:'French Quiz - 3',
-  //   level:'Hard',
-  //   topic:'Mixed',
-  //   questions: [
-  //     {
-  //       question: 'What does "merci" mean in English?',
-  //       choices: ['yes', 'no', 'thank you', 'goodbye'],
-  //       type: 'MCQs',
-  //       correctAnswer: 3,
-  //     },
-  //     {
-  //       question: 'Which of the following words means "car" in French?',
-  //       choices: ['voiture', 'maison', 'chien', 'chat'],
-  //       type: 'MCQs',
-  //       correctAnswer: 1,
-  //     },
-  //     {
-  //       question: 'Which pronoun replaces "le livre" (the book) in French?',
-  //       choices: ['llle', 'lui', 'la', 'il'],
-  //       type: 'MCQs',
-  //       correctAnswer: 4,
-  //     },
-  //     {
-  //       question: 'The Louvre Museum is located along the bank of which river?',
-  //       choices: ['River Somme', 'Loire', 'Seine', 'Dordogne'],
-  //       type: 'MCQs',
-  //       correctAnswer: 3,
-  //     },
-  //     {
-  //       question: 'What is the French word for "Summer"?',
-  //       choices: ['Printemps', 'Hiver', 'Automne', 'été'],
-  //       type: 'MCQs',
-  //       correctAnswer: 4,
-  //     },
-  //     {
-  //       question: 'What does the expression "avoir le cafard" mean in English?',
-  //       choices: ["to have butterflies in one's stomach", 'to have the blues', "to have a frog in one's throat", "to have ants in one's pants"],
-  //       type: 'MCQs',
-  //       correctAnswer: 2,
-  //     },
-  //     {
-  //       question: 'Who wrote the French classic "Le Petit Prince"?',
-  //       choices: ['Victor Hugo', 'Albert Camus', 'Antoine de Saint-Exupéry', 'Marcel Proust'],
-  //       type: 'MCQs',
-  //       correctAnswer: 3,
-  //     },
-  //     {
-  //       question: 'Which verb tense is used to express actions that were ongoing in the past in French?',
-  //       choices: ['Passé composé', 'Imparfait', 'Futur simple', 'Plus-que-parfait'],
-  //       type: 'MCQs',
-  //       correctAnswer: 2,
-  //     },
-  //     {
-  //       question: 'Which historical event inspired the French national anthem, "La Marseillaise"?',
-  //       choices: ['The French Revolution', "The Hundred Years' War", 'The Norman Conquest', 'The Renaissance'],
-  //       type: 'MCQs',
-  //       correctAnswer: 1,
-  //     },
-  //     {
-  //       question: 'What is the English title of the French film "Amélie"?',
-  //       choices: ['Love Actually', 'The Intouchables', 'Amélie', 'A Very Long Engagement'],
-  //       type: 'MCQs',
-  //       correctAnswer: 3,
-  //     },]
-  //   }
+  {
+    "quiz": "3",
+    "name": "Italian Quiz - 3",
+    "level": "Easy",
+    "topic": "Mixed",
+    "questions": [
+      {
+        "question": "What does 'Buongiorno' mean in English?",
+        "choices": ["Good morning", "Good evening", "Hello", "Thank you"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'Thank you' in Italian?",
+        "choices": ["Prego", "Grazie", "Scusa", "Arrivederci"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the Italian word for 'water'?",
+        "choices": ["Acqua", "Vino", "Birra", "Caffè"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these means 'goodbye' in Italian?",
+        "choices": ["Ciao", "Grazie", "Arrivederci", "Buongiorno"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Who was the first king of unified Italy?",
+        "choices": ["Vittorio Emanuele II", "Giuseppe Garibaldi", "Mussolini", "Francesco I"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the traditional Italian dish made of thinly sliced raw meat or fish?",
+        "choices": ["Carpaccio", "Lasagna", "Risotto", "Bruschetta"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the capital of Italy?",
+        "choices": ["Florence", "Venice", "Rome", "Milan"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which famous landmark is located in Pisa?",
+        "choices": ["Colosseum", "Leaning Tower", "Vatican", "Duomo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which region in Italy is known for producing Parmigiano Reggiano cheese?",
+        "choices": ["Tuscany", "Emilia-Romagna", "Lazio", "Campania"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What mountain range separates Italy from France?",
+        "choices": ["Apennines", "Alps", "Dolomites", "Carpathians"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      }
+    ]
+  },
+  {
+    "quiz": "4",
+    "name": "Italian Quiz - 4",
+    "level": "Easy",
+    "topic": "Mixed",
+    "questions": [
+      {
+        "question": "How do you say 'See you later' in Italian?",
+        "choices": ["A presto", "Buona giornata", "Addio", "Ciao"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the Italian word for 'book'?",
+        "choices": ["Libro", "Quaderno", "Foglio", "Scrittura"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'What is your name?' in Italian?",
+        "choices": ["Come va?", "Come ti chiami?", "Dove sei?", "Che fai?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the Italian word for 'house'?",
+        "choices": ["Casa", "Appartamento", "Stanza", "Tetto"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which Italian explorer is known for discovering America?",
+        "choices": ["Marco Polo", "Cristoforo Colombo", "Giovanni Caboto", "Ferdinando Magellano"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which Italian dish is made of layers of pasta, meat, and cheese?",
+        "choices": ["Risotto", "Pizza", "Lasagna", "Pasta al Pomodoro"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the currency used in Italy?",
+        "choices": ["Dollar", "Euro", "Pound", "Franc"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which Italian city is known as the 'City of Canals'?",
+        "choices": ["Florence", "Rome", "Venice", "Milan"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the name of the famous volcano located near Naples?",
+        "choices": ["Etna", "Vesuvio", "Stromboli", "Campi Flegrei"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which region in Italy is famous for its wine production?",
+        "choices": ["Tuscany", "Lazio", "Sicily", "Calabria"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      }
+    ]
+  },
+  {
+    "quiz": "5",
+    "name": "Italian Quiz - 5",
+    "level": "Intermediate",
+    "topic": "Mixed",
+    "questions": [
+      {
+        "question": "Which verb means 'to eat' in Italian?",
+        "choices": ["Mangiare", "Bere", "Dormire", "Parlare"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'I am learning Italian' in Italian?",
+        "choices": ["Sto imparando italiano", "Imparo italiano", "Io imparo italiano", "Sono imparando italiano"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the Italian word for 'sun'?",
+        "choices": ["Luna", "Sole", "Stella", "Cielo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'Good evening' in Italian?",
+        "choices": ["Buona notte", "Buongiorno", "Buonasera", "Ciao"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which Italian artist is known for painting the Sistine Chapel?",
+        "choices": ["Leonardo da Vinci", "Michelangelo", "Raphael", "Caravaggio"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which Italian dessert is made of coffee-soaked ladyfingers and mascarpone cheese?",
+        "choices": ["Tiramisu", "Panna Cotta", "Zabaglione", "Cannoli"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the capital of the Italian region of Tuscany?",
+        "choices": ["Florence", "Siena", "Pisa", "Livorno"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which famous archaeological site is located near Naples?",
+        "choices": ["Pompeii", "Herculaneum", "Ostia Antica", "Paestum"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which Italian island is famous for its lemons?",
+        "choices": ["Sicily", "Sardinia", "Elba", "Capri"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which Italian city is known for its historic amphitheater?",
+        "choices": ["Rome", "Milan", "Naples", "Verona"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      }
+    ]
+  }  
 ]

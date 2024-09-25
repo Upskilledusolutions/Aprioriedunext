@@ -134,71 +134,208 @@ export const quiz = [{
     },
   ]
   },
-  // {
-  //   quiz:'3',
-  //   name:'French Quiz - 3',
-  //   level:'Hard',
-  //   topic:'Mixed',
-  //   questions: [
-  //     {
-  //       question: 'What does "merci" mean in English?',
-  //       choices: ['yes', 'no', 'thank you', 'goodbye'],
-  //       type: 'MCQs',
-  //       correctAnswer: 3,
-  //     },
-  //     {
-  //       question: 'Which of the following words means "car" in French?',
-  //       choices: ['voiture', 'maison', 'chien', 'chat'],
-  //       type: 'MCQs',
-  //       correctAnswer: 1,
-  //     },
-  //     {
-  //       question: 'Which pronoun replaces "le livre" (the book) in French?',
-  //       choices: ['llle', 'lui', 'la', 'il'],
-  //       type: 'MCQs',
-  //       correctAnswer: 4,
-  //     },
-  //     {
-  //       question: 'The Louvre Museum is located along the bank of which river?',
-  //       choices: ['River Somme', 'Loire', 'Seine', 'Dordogne'],
-  //       type: 'MCQs',
-  //       correctAnswer: 3,
-  //     },
-  //     {
-  //       question: 'What is the French word for "Summer"?',
-  //       choices: ['Printemps', 'Hiver', 'Automne', 'été'],
-  //       type: 'MCQs',
-  //       correctAnswer: 4,
-  //     },
-  //     {
-  //       question: 'What does the expression "avoir le cafard" mean in English?',
-  //       choices: ["to have butterflies in one's stomach", 'to have the blues', "to have a frog in one's throat", "to have ants in one's pants"],
-  //       type: 'MCQs',
-  //       correctAnswer: 2,
-  //     },
-  //     {
-  //       question: 'Who wrote the French classic "Le Petit Prince"?',
-  //       choices: ['Victor Hugo', 'Albert Camus', 'Antoine de Saint-Exupéry', 'Marcel Proust'],
-  //       type: 'MCQs',
-  //       correctAnswer: 3,
-  //     },
-  //     {
-  //       question: 'Which verb tense is used to express actions that were ongoing in the past in French?',
-  //       choices: ['Passé composé', 'Imparfait', 'Futur simple', 'Plus-que-parfait'],
-  //       type: 'MCQs',
-  //       correctAnswer: 2,
-  //     },
-  //     {
-  //       question: 'Which historical event inspired the French national anthem, "La Marseillaise"?',
-  //       choices: ['The French Revolution', "The Hundred Years' War", 'The Norman Conquest', 'The Renaissance'],
-  //       type: 'MCQs',
-  //       correctAnswer: 1,
-  //     },
-  //     {
-  //       question: 'What is the English title of the French film "Amélie"?',
-  //       choices: ['Love Actually', 'The Intouchables', 'Amélie', 'A Very Long Engagement'],
-  //       type: 'MCQs',
-  //       correctAnswer: 3,
-  //     },]
-  //   }
+  {
+    "quiz": "3",
+    "name": "German Quiz - 3",
+    "level": "Easy",
+    "topic": "Mixed",
+    "questions": [
+      {
+        "question": "What does 'Guten Morgen' mean in English?",
+        "choices": ["Good morning", "Good night", "Hello", "Thank you"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'Thank you' in German?",
+        "choices": ["Bitte", "Danke", "Tschüss", "Entschuldigung"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the German word for 'bread'?",
+        "choices": ["Wasser", "Brot", "Milch", "Kaffee"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these means 'goodbye' in German?",
+        "choices": ["Hallo", "Danke", "Auf Wiedersehen", "Guten Tag"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Who was the first Chancellor of Germany?",
+        "choices": ["Otto von Bismarck", "Angela Merkel", "Adolf Hitler", "Willy Brandt"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which traditional German dish consists of sausages and fermented cabbage?",
+        "choices": ["Schnitzel", "Bratwurst", "Sauerkraut", "Pretzel"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the capital of Germany?",
+        "choices": ["Munich", "Berlin", "Hamburg", "Frankfurt"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is Germany's national beverage?",
+        "choices": ["Beer", "Wine", "Coffee", "Tea"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which mountain range runs along Germany's southern border?",
+        "choices": ["Pyrenees", "Alps", "Andes", "Himalayas"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which German river flows through Cologne?",
+        "choices": ["Danube", "Elbe", "Rhine", "Main"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      }
+    ]
+  },  
+  {
+    "quiz": "4",
+    "name": "German Quiz - 4",
+    "level": "Easy",
+    "topic": "Mixed",
+    "questions": [
+      {
+        "question": "How do you say 'See you later' in German?",
+        "choices": ["Auf Wiedersehen", "Bis später", "Tschüss", "Guten Tag"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the German word for 'school'?",
+        "choices": ["Haus", "Schule", "Auto", "Stadt"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'What is your name?' in German?",
+        "choices": ["Wie geht's?", "Woher kommst du?", "Was machst du?", "Wie heißt du?"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What is the German word for 'water'?",
+        "choices": ["Wasser", "Milch", "Saft", "Tee"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Who was the leader of Germany during World War II?",
+        "choices": ["Otto von Bismarck", "Willy Brandt", "Adolf Hitler", "Helmut Kohl"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which German dish is made of breaded and fried meat?",
+        "choices": ["Bratwurst", "Sauerbraten", "Schnitzel", "Knödel"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the currency used in Germany?",
+        "choices": ["Dollar", "Pound", "Euro", "Franc"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which German city is famous for Oktoberfest?",
+        "choices": ["Berlin", "Munich", "Hamburg", "Frankfurt"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which body of water lies to the north of Germany?",
+        "choices": ["Baltic Sea", "Mediterranean Sea", "North Sea", "Black Sea"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is Germany's highest mountain?",
+        "choices": ["Zugspitze", "Matterhorn", "Mont Blanc", "Feldberg"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      }
+    ]
+  },  
+  {
+    "quiz": "5",
+    "name": "German Quiz - 5",
+    "level": "Intermediate",
+    "topic": "Mixed",
+    "questions": [
+      {
+        "question": "Which verb means 'to eat' in German?",
+        "choices": ["Trinken", "Essen", "Schlafen", "Lernen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I am learning German' in German?",
+        "choices": ["Ich bin lernen Deutsch", "Ich lerne Deutsch", "Ich spreche Deutsch", "Ich verstehe Deutsch"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the German word for 'house'?",
+        "choices": ["Auto", "Haus", "Garten", "Straße"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'Good evening' in German?",
+        "choices": ["Guten Morgen", "Guten Abend", "Guten Tag", "Gute Nacht"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which German chancellor is credited with reunifying Germany after the fall of the Berlin Wall?",
+        "choices": ["Angela Merkel", "Helmut Kohl", "Willy Brandt", "Gerhard Schröder"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a popular German dessert made with layers of chocolate cake, cherries, and whipped cream?",
+        "choices": ["Apfelstrudel", "Schwarzwälder Kirschtorte", "Bratwurst", "Sauerbraten"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which German city is home to the Brandenburg Gate?",
+        "choices": ["Munich", "Berlin", "Frankfurt", "Hamburg"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the longest river in Germany?",
+        "choices": ["Rhine", "Danube", "Elbe", "Main"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which German state is known for its Black Forest?",
+        "choices": ["Bavaria", "Saxony", "Hesse", "Baden-Württemberg"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which car company is headquartered in Stuttgart, Germany?",
+        "choices": ["BMW", "Audi", "Volkswagen", "Mercedes-Benz"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      }
+    ]
+  }  
 ]
