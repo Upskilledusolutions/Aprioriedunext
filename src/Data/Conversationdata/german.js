@@ -20,6 +20,14 @@ export const youdata = [
       title: "German Conversation 3",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
+    {
+      id: '4',
+      url: "/youtube/GC4.png",
+      youtube: "https://www.youtube.com/embed/MDJSO89QaTQ?si=paE95YCqI9EVnvRx",
+      title: "German Conversation 4",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
   ];
+  
   
   
