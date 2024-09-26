@@ -594,5 +594,314 @@ export const quiz = [
 }
 
     ]
-  }
+  },
+  {
+    quiz: '3',
+    name: 'German Exercise - 3',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "What is the German word for \"school\"?",
+        "choices": ["Haus", "Schule", "Bibliothek", "Büro"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"fünf\" mean in English?",
+        "choices": ["Five", "Six", "Seven", "Eight"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which color is “gelb” in English?",
+        "choices": ["Green", "Yellow", "Blue", "Black"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the German word for \"friend\"?",
+        "choices": ["Feind", "Freund", "Begleiter", "Lehrer"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"dreißig\" mean in English?",
+        "choices": ["Twenty", "Thirty", "Forty", "Fifty"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following means \"to write\" in German?",
+        "choices": ["Lesen", "Schreiben", "Sprechen", "Spielen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the meaning of \"traurig\"?",
+        "choices": ["Happy", "Sad", "Angry", "Excited"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is \"sechzig\" in English?",
+        "choices": ["Sixty", "Seventy", "Eighty", "Ninety"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which word means \"food\" in German?",
+        "choices": ["Wasser", "Essen", "Suppe", "Obst"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"willkommen\" mean?",
+        "choices": ["Goodbye", "Welcome", "Thank you", "Please"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the German word for \"family\"?",
+        "choices": ["Haus", "Familie", "Gruppe", "Gemeinschaft"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"acht\" mean in English?",
+        "choices": ["Six", "Eight", "Ten", "Twelve"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following means \"to listen\" in German?",
+        "choices": ["Sehen", "Hören", "Sprechen", "Spielen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the meaning of \"glücklich\"?",
+        "choices": ["Happy", "Busy", "Tired", "Sad"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"schnee\" mean in English?",
+        "choices": ["Snow", "Rain", "Wind", "Sun"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which word means \"city\" in German?",
+        "choices": ["Dorf", "Stadt", "Land", "Gemeinde"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is \"fünfzehn\" in English?",
+        "choices": ["Twelve", "Thirteen", "Fourteen", "Fifteen"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What does \"waschen\" mean?",
+        "choices": ["To cook", "To clean", "To dance", "To run"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the German word for \"teacher\"?",
+        "choices": ["Schüler", "Lehrer", "Freund", "Autor"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"gesundheit\" mean?",
+        "choices": ["Health", "Love", "Happiness", "Money"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Der Himmel ist ______ (gray) heute.",
+        "choices": ["grau", "blau", "schwarz", "weiß"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe ______ (three) Katzen.",
+        "choices": ["drei", "zwei", "e", "vier"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich gehe zum Laden, um ______ (to buy) Brot.",
+        "choices": ["kaufen", "essen", "trinken", "sehen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Lieblingsfarbe ist ______ (yellow).",
+        "choices": ["blau", "e", "gelb", "grün"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Kinder ______ (to play) im Park.",
+        "choices": ["spielen", "singen", "tanzen", "essen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du hast ______ (four) Bücher in deiner Tasche.",
+        "choices": ["vier", "e", "fünf", "sechs"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich liebe es, ______ (to dance).",
+        "choices": ["zu tanzen", "zu singen", "zu spielen", "zu lernen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die ______ (color) ihres Kleides ist rosa.",
+        "choices": ["Farbe", "Schuhe", "Tasche", "Hut"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wo ist mein ______ (phone)?",
+        "choices": ["Telefon", "Buch", "Tisch", "Stuhl"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich werde einen Film ______ (to watch) heute Abend.",
+        "choices": ["ansehen", "lesen", "essen", "spielen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Zug fährt um ______ (five) Uhr nachmittags ab.",
+        "choices": ["fünf", "e", "sechs", "drei"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Freunde sind sehr ______ (funny).",
+        "choices": ["lustig", "traurig", "langweilig", "ernst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Obst, das ich am meisten mag, ist die ______ (banana).",
+        "choices": ["Banane", "Apfel", "Orange", "Traube"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich muss für die Prüfung ______ (to study).",
+        "choices": ["lernen", "spielen", "essen", "trinken"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Haus hat ______ (ten) Fenster.",
+        "choices": ["zehn", "neun", "e", "elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich fühle mich ______ (tired) nach der Arbeit.",
+        "choices": ["müde", "wach", "aktiv", "fit"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das ______ (weather) ist im Frühling sehr angenehm.",
+        "choices": ["Wetter", "Jahr", "Tag", "Monat"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Buch liegt auf dem ______ (table).",
+        "choices": ["Tisch", "Stuhl", "Boden", "Regal"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Schwester ist ______ (eight) Jahre alt.",
+        "choices": ["acht", "sieben", "e", "neun"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es ist wichtig, ______ (to rest) nach dem Sport.",
+        "choices": ["sich auszuruhen", "zu lernen", "zu spielen", "zu essen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "GUTEN MORGEN", "rightId": 1 },
+      "right": { "word": "HEALTH", "rightId": 10 }
+
+    },
+    {
+      "left": { "word": "BITTE", "rightId": 2 },
+      "right": { "word": "THANK YOU", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "BLAU", "rightId": 3 },
+      "right": { "word": "CAT", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "FÜNFZIG", "rightId": 4 },
+      "right": { "word": "GOOD MORNING", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "KATZE", "rightId": 5 },
+      "right": { "word": "BLUE", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "WIE GEHT'S?", "rightId": 6 },
+      "right": { "word": "FIFTY", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "BIS MORGEN", "rightId": 7 },
+      "right": { "word": "NO", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "JA", "rightId": 8 },
+      "right": { "word": "HOW'S IT GOING?", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "NEIN", "rightId": 9 },
+      "right": { "word": "SEE YOU TOMORROW", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "GESUNDHEIT", "rightId": 10 },
+      "right": { "word": "YES", "rightId": 8 }
+      
+    }
+  ]
+
+}
+
+    ]
+  },
 ];

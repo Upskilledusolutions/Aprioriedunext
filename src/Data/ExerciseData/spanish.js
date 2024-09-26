@@ -600,5 +600,306 @@ export const quiz = [
       }
       
     ]
+  },
+  {
+    quiz: '3',
+    name: 'Spanish Exercise - 3',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+
+      {
+        "question": "What is the Spanish word for \"school\"?",
+        "choices": ["Casa", "Escuela", "Biblioteca", "Oficina"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"cinco\" mean in English?",
+        "choices": ["Five", "Six", "Seven", "Eight"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which color is “amarillo” in English?",
+        "choices": ["Green", "Yellow", "Blue", "Black"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the Spanish word for \"friend\"?",
+        "choices": ["Amigo", "Enemigo", "Compañero", "Maestro"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"treinta\" mean in English?",
+        "choices": ["Twenty", "Thirty", "Forty", "Fifty"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following means \"to write\" in Spanish?",
+        "choices": ["Leer", "Escribir", "Hablar", "Jugar"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the meaning of \"triste\"?",
+        "choices": ["Happy", "Sad", "Angry", "Excited"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is \"sesenta\" in English?",
+        "choices": ["Sixty", "Seventy", "Eighty", "Ninety"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which word means \"food\" in Spanish?",
+        "choices": ["Agua", "Comida", "Sopa", "Fruta"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"bienvenido\" mean?",
+        "choices": ["Goodbye", "Welcome", "Thank you", "Please"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the Spanish word for \"family\"?",
+        "choices": ["Casa", "Familia", "Grupo", "Comunidad"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"ocho\" mean in English?",
+        "choices": ["Six", "Eight", "Ten", "Twelve"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following means \"to listen\" in Spanish?",
+        "choices": ["Mirar", "Oír", "Hablar", "Jugar"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the meaning of \"feliz\"?",
+        "choices": ["Happy", "Busy", "Tired", "Sad"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"nieve\" mean in English?",
+        "choices": ["Snow", "Rain", "Wind", "Sun"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which word means \"city\" in Spanish?",
+        "choices": ["Pueblo", "Ciudad", "Campo", "Aldea"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is \"quince\" in English?",
+        "choices": ["Twelve", "Thirteen", "Fourteen", "Fifteen"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What does \"lavar\" mean?",
+        "choices": ["To cook", "To clean", "To dance", "To run"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the Spanish word for \"teacher\"?",
+        "choices": ["Estudiante", "Maestro", "Amigo", "Escritor"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"salud\" mean?",
+        "choices": ["Health", "Love", "Happiness", "Money"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "El cielo es ______ (gray) hoy.",
+        "choices": ["gris", "azul", "blanco", "negro"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella tiene ______ (three) gatos.",
+        "choices": ["tres", "dos", "e", "cuatro"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Voy a la tienda a ______ (buy) pan.",
+        "choices": ["comprar", "vender", "pagar", "buscar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi color favorito es ______ (yellow).",
+        "choices": ["amarillo", "e", "verde", "azul"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los niños ______ (to play) en el parque.",
+        "choices": ["juegan", "corren", "comen", "saltan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tienes ______ (four) libros en tu mochila.",
+        "choices": ["cuatro", "tres", "e", "cinco"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me gusta ______ (to dance) salsa.",
+        "choices": ["bailar", "cantar", "escuchar", "ver"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (color) de su vestido es rosa.",
+        "choices": ["color", "talla", "forma", "textura"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Dónde está mi ______ (phone)?",
+        "choices": ["teléfono", "coche", "llave", "bolso"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Voy a ______ (watch) una película esta noche.",
+        "choices": ["ver", "escuchar", "leer", "comprar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El tren sale a las ______ (five) de la tarde.",
+        "choices": ["cinco", "e", "seis", "siete"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis amigos son muy ______ (funny).",
+        "choices": ["divertidos", "serios", "tristes", "aburridos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La fruta que más me gusta es la ______ (banana).",
+        "choices": ["banana", "naranja", "e", "pera"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Necesito ______ (to study) para el examen.",
+        "choices": ["estudiar", "trabajar", "leer", "escribir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La casa tiene ______ (ten) ventanas.",
+        "choices": ["diez", "siete", "ocho", "e"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me siento ______ (tired) después de trabajar.",
+        "choices": ["cansado", "e", "emocionado", "tranquilo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (weather) es muy agradable en primavera.",
+        "choices": ["clima", "temperatura", "temporada", "estación"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El libro está sobre la ______ (table).",
+        "choices": ["mesa", "silla", "cama", "puerta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermana tiene ______ (eight) años.",
+        "choices": ["ocho", "e", "nueve", "diez"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es importante ______ (to rest) después de hacer ejercicio.",
+        "choices": ["descansar", "comer", "beber", "jugar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Buenos días", "rightId": 1 },
+            "right": { "word": "Thank you", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Por favor", "rightId": 2 },
+            "right": { "word": "Fifty", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Verde", "rightId": 3 },
+            "right": { "word": "Goodbye", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Cincuenta", "rightId": 4 },
+            "right": { "word": "Green", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Gato", "rightId": 5 },
+            "right": { "word": "Yes", "rightId": 8 }
+          },
+          {
+            "left": { "word": "¿Qué tal?", "rightId": 6 },
+            "right": { "word": "No", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Hasta mañana", "rightId": 7 },
+            "right": { "word": "Health", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Sí", "rightId": 8 },
+            "right": { "word": "How's it going?", "rightId": 6 }
+          },
+          {
+            "left": { "word": "No", "rightId": 9 },
+            "right": { "word": "See you tomorrow", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Salud", "rightId": 10 },
+            "right": { "word": "Cat", "rightId": 5 }
+          }
+        ]
+      }
+      
+    ]
   }
 ];
