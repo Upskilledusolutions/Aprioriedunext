@@ -27,6 +27,13 @@ export const youdata = [
     title: "Spanish Conversation 4",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },
+  {
+    id: '5',
+    url: "/youtube/SC5.png",
+    youtube: "https://www.youtube.com/embed/TrF7N0X4zDE?si=M2ZsAbPDaAXFf2dk",
+    title: "Spanish Conversation 5",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
 ];
   
   
