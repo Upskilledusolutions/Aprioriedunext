@@ -904,4 +904,604 @@ export const quiz = [
 
     ]
   },
+  {
+    quiz: '4',
+    name: 'German Exercise - 4',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "How do you say 'uncle' in German?",
+        "choices": ["Vater", "Onkel", "Bruder", "Opa"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the German word for 'daughter'?",
+        "choices": ["Tochter", "Schwester", "Cousine", "Tante"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What do you call your mother's brother?",
+        "choices": ["Cousin", "Großvater", "Onkel", "Neffe"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the word for 'grandson' in German?",
+        "choices": ["Sohn", "Enkel", "Neffe", "Bruder"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the correct conjugation of the verb 'essen' (to eat) for 'we'?",
+        "choices": ["Esse", "Esst", "Essen", "Isst"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the correct conjugation of the verb 'sprechen' (to speak) for 'they'?",
+        "choices": ["Spreche", "Spricht", "Sprechen", "Sprecht"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the correct form of the verb 'gehen' (to go) for 'you all'?",
+        "choices": ["Geht", "Gehst", "Gehen", "Gehts"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the correct form of the verb 'lesen' (to read) for 'he'?",
+        "choices": ["Lese", "Liest", "Lesen", "Lest"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the conjugation of the verb 'schreiben' (to write) for 'you' (informal)?",
+        "choices": ["Schreibe", "Schreibt", "Schreibst", "Schreiben"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the correct conjugation of the verb 'fahren' (to drive) for 'she'?",
+        "choices": ["Fährt", "Fahre", "Fahren", "Fahrt"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which pronoun is used for 'they' (masculine) in German?",
+        "choices": ["Sie", "Ihr", "Er", "Du"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which pronoun is used for 'we' in German?",
+        "choices": ["Ihr", "Sie", "Wir", "Du"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which pronoun is used for 'he' in German?",
+        "choices": ["Er", "Sie", "Wir", "Ihr"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which pronoun is used for 'you' (informal) in German?",
+        "choices": ["Sie", "Du", "Er", "Wir"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which pronoun is used for 'they' (feminine) in German?",
+        "choices": ["Sie", "Ihr", "Du", "Er"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which pronoun is used for 'you all' (informal) in German?",
+        "choices": ["Wir", "Ihr", "Sie", "Du"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which pronoun is used for 'I' in German?",
+        "choices": ["Du", "Er", "Ich", "Sie"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which pronoun is used for 'you' (formal) in German?",
+        "choices": ["Sie", "Er", "Du", "Ihr"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which pronoun is used for 'we' (feminine) in German?",
+        "choices": ["Sie", "Wir", "Ihr", "Du"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which pronoun is used for 'she' in German?",
+        "choices": ["Sie", "Er", "Ihr", "Du"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Mein ______ (father) arbeitet in Berlin.",
+        "choices": ["Vater", "Bruder", "Sohn", "Onkel"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine ______ (grandmother) besucht uns oft.",
+        "choices": ["Großmutter", "Tante", "Mutter", "Schwester"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er hat einen ______ (son) und zwei Töchter.",
+        "choices": ["Sohn", "Bruder", "Cousin", "Neffe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich gehe am Wochenende zu meiner ______ (aunt).",
+        "choices": ["Tante", "Cousine", "Mutter", "Schwester"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ (to eat) immer Brot zum Frühstück.",
+        "choices": ["isst", "trinkst", "liest", "schreibst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (to go) oft ins Kino.",
+        "choices": ["gehen", "essen", "lesen", "trinken"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ (to read) jeden Abend ein Buch.",
+        "choices": ["liest", "schreibt", "redet", "trinkt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ______ (to speak) Deutsch sehr gut.",
+        "choices": ["sprecht", "reden", "lesen", "essen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ______ (to finish) ihre Arbeit bald.",
+        "choices": ["beendet", "isst", "liest", "redet"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (to drink) jeden Tag Wasser.",
+        "choices": ["trinke", "esse", "gehe", "schreibe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (I) bin Schüler.",
+        "choices": ["Ich", "Du", "Er", "Wir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (We) sind froh, hier zu sein.",
+        "choices": ["Wir", "Sie", "Ihr", "Er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (She) kommt aus Deutschland.",
+        "choices": ["Sie", "Er", "Ich", "Wir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (They - masculine) spielen Fußball.",
+        "choices": ["Sie", "Wir", "Ihr", "Euch"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (You - informal) bist sehr nett.",
+        "choices": ["Du", "Sie", "Er", "Wir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (You - formal) sind Lehrer.",
+        "choices": ["Sie", "Du", "Er", "Wir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (They - feminine) gehen einkaufen.",
+        "choices": ["Sie", "Ihr", "Wir", "Er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (You all - informal) habt Zeit, oder?",
+        "choices": ["Ihr", "Du", "Sie", "Er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (He) wohnt in München.",
+        "choices": ["Er", "Sie", "Du", "Wir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (We) lernen Deutsch.",
+        "choices": ["Wir", "Ihr", "Sie", "Er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },      
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Mutter", "rightId": 1 },
+      "right": { "word": "He", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Wir (feminine)", "rightId": 2 },
+      "right": { "word": "You (formal, singular)", "rightId": 10 }
+
+    },
+    {
+      "left": { "word": "Sie (plural)", "rightId": 3 },
+      "right": { "word": "Father", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Du", "rightId": 4 },
+      "right": { "word": "She", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "Schwester", "rightId": 5 },
+      "right": { "word": "We (feminine)", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Vater", "rightId": 6 },
+      "right": { "word": "You (informal)", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Er", "rightId": 7 },
+      "right": { "word": "They (plural)", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Ihr", "rightId": 8 },
+      "right": { "word": "You all (informal)", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Sie (singular, feminine)", "rightId": 9 },
+      "right": { "word": "Mother", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Sie (formal, singular)", "rightId": 10 },
+      "right": { "word": "Sister", "rightId": 5 }
+      
+    }
+  ]
+
+}
+
+    ]
+  },
+  {
+    quiz: '5',
+    name: 'German Exercise - 5',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "How do you say \"sister\" in German?",
+        "choices": ["Bruder", "Schwester", "Onkel", "Tante"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does \"Cousin\" mean in English?",
+        "choices": ["Onkel", "Cousin", "Bruder", "Neffe"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the German term for \"grandmother\"?",
+        "choices": ["Großvater", "Tante", "Großmutter", "Schwester"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the English word for \"Nichte\"?",
+        "choices": ["Neffe", "Nichte", "Cousin", "Tante"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you conjugate \"gehen\" (to go) for \"wir\"?",
+        "choices": ["Gehst", "Gehe", "Gehen", "Geht"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the form of \"sehen\" (to see) for \"du\"?",
+        "choices": ["Siehst", "Seht", "Sehen", "Sehe"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you conjugate \"essen\" (to eat) for \"sie\" (feminine)?",
+        "choices": ["Isst", "Essen", "Essst", "Isst"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the correct form of \"lernen\" (to learn) for \"ihr\"?",
+        "choices": ["Lerne", "Lernt", "Lernen", "Lerns"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say \"to speak\" in the first person singular?",
+        "choices": ["Sprichst", "Spreche", "Sprechen", "Spricht"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you conjugate \"trinken\" (to drink) for \"sie\" (plural)?",
+        "choices": ["Trinkt", "Trinke", "Trinken", "Trinkst"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the pronoun for \"we\" in German?",
+        "choices": ["Wir", "Sie", "Du", "Ich"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which pronoun is used for \"you\" (formal)?",
+        "choices": ["Du", "Sie", "Ihr", "Er"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the pronoun for \"he\"?",
+        "choices": ["Sie", "Er", "Wir", "Ich"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which pronoun do we use for \"they\" (feminine)?",
+        "choices": ["Er", "Sie", "Du", "Ich"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the pronoun for \"I\"?",
+        "choices": ["Ich", "Du", "Er", "Sie"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say \"thirty-five\" in German?",
+        "choices": ["fünfunddreißig", "dreißig", "vierzig", "zwanzig"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say \"forty-two\" in German?",
+        "choices": ["zweiundvierzig", "dreißig", "vierzig", "fünfzig"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Mein ______ (brother) spielt Fußball.",
+        "choices": ["Bruder", "Schwester", "Onkel", "Großeltern"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Die ______ (sister) von Anna ist sehr nett.",
+        "choices": ["Bruder", "Schwester", "Onkel", "Großeltern"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Mein ______ (uncle) wohnt in Berlin.",
+        "choices": ["Bruder", "Schwester", "Onkel", "Großeltern"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Die ______ (grandparents) kommen zu Besuch.",
+        "choices": ["Bruder", "Schwester", "Onkel", "Großeltern"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich ______ (to read) ein interessantes Buch.",
+        "choices": ["lese", "les", "liest", "lesen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Er ______ (to eat) gern Pizza.",
+        "choices": ["isst", "esse", "isst", "essen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Wir ______ (to go) morgen ins Kino.",
+        "choices": ["gehe", "geht", "gehen", "gehst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Du ______ (to speak) sehr gut Deutsch.",
+        "choices": ["spricht", "spreche", "sprichst", "sprechen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Sie ______ (to take) den Bus zur Schule.",
+        "choices": ["nehmt", "nehmt", "nimmt", "nehmen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ihr ______ (to learn) schnell.",
+        "choices": ["lerne", "lernst", "lernt", "lernen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (I) habe keine Zeit.",
+        "choices": ["Ich", "Du", "Er", "Wir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (You - informal) bist mein Freund.",
+        "choices": ["Du", "Ich", "Er", "Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (They - masculine) spielen im Park.",
+        "choices": ["Sie", "Wir", "Du", "Er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (We) gehen heute Abend essen.",
+        "choices": ["Wir", "Du", "Er", "Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (She) ist sehr fleißig.",
+        "choices": ["Sie", "Er", "Wir", "Du"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (You - formal) sind herzlich willkommen.",
+        "choices": ["Sie", "Du", "Er", "Wir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (He) mag Musik.",
+        "choices": ["Er", "Sie", "Wir", "Du"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (They - feminine) fahren nach Hamburg.",
+        "choices": ["Sie", "Wir", "Du", "Er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich habe ______ (thirty-five) Äpfel gekauft.",
+        "choices": ["fünfunddreißig", "zwanzig", "dreißig", "vierzig"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Mein Bruder ist ______ (forty-two) Jahre alt.",
+        "choices": ["zweiundvierzig", "vierzig", "fünfzig", "dreißig"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },   
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Ich", "rightId": 1 },
+      "right": { "word": "Thirty", "rightId": 10 }
+
+    },
+    {
+      "left": { "word": "Sie (formal)", "rightId": 2 },
+      "right": { "word": "They (feminine)", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Er", "rightId": 3 },
+      "right": { "word": "You (informal)", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Wir", "rightId": 4 },
+      "right": { "word": "Thirty-five", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Sie (plural)", "rightId": 5 },
+      "right": { "word": " Forty-two", "rightId": 6 }
+
+    },
+    {
+      "left": { "word": "Zweiunddreißig", "rightId": 6 },
+      "right": { "word": "They (masculine)", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Fünfundvierzig", "rightId": 7 },
+      "right": { "word": "We", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Du", "rightId": 8 },
+      "right": { "word": "He", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Sie", "rightId": 9 },
+      "right": { "word": "You (formal)", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Dreißig", "rightId": 10 },
+      "right": { "word": "I", "rightId": 1 }
+      
+    }
+  ]
+
+}
+
+    ]
+  },
 ];

@@ -891,4 +891,596 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '4',
+      name: 'French Exercise - 4',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "How do you say 'uncle' in French?",
+          "choices": ["Father", "Uncle", "Cousin", "Brother"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the French word for 'daughter'?",
+          "choices": ["Mother", "Daughter", "Sister", "Aunt"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What do you call your father's brother?",
+          "choices": ["Uncle", "Father", "Cousin", "Grandfather"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the French word for 'grandson'?",
+          "choices": ["Son", "Grandson", "Nephew", "Brother"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the correct conjugation of the verb 'manger' (to eat) for 'nous'?",
+          "choices": ["Mange", "Mangeons", "Mangent", "Manges"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the correct conjugation of the verb 'parler' (to speak) for 'ils'?",
+          "choices": ["Parlons", "Parlez", "Parlent", "Parles"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the present tense of the verb 'aller' (to go) for 'vous'?",
+          "choices": ["Allez", "Allons", "Vont", "Vas"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the form of the verb 'finir' (to finish) for 'je'?",
+          "choices": ["Finis", "Finit", "Finissons", "Finissez"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct conjugation of the verb 'prendre' (to take) for 'elle'?",
+          "choices": ["Prend", "Prenons", "Prenez", "Prennent"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the present tense of the verb 'voir' (to see) for 'nous'?",
+          "choices": ["Voyons", "Voit", "Vois", "Voient"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What pronoun is used for 'they' (masculine) in French?",
+          "choices": ["They (feminine)", "They (masculine)", "You", "We"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What pronoun is used for 'we' (feminine)?",
+          "choices": ["They (masculine)", "We (feminine)", "They (feminine)", "You"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What pronoun is used for 'he'?",
+          "choices": ["She", "You", "He", "We"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What pronoun is used for 'you' (informal)?",
+          "choices": ["You (formal)", "You (informal)", "He", "She"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What pronoun is used for 'they' (feminine)?",
+          "choices": ["They (feminine)", "They (masculine)", "You (formal)", "We"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What pronoun is used for 'you all' (formal)?",
+          "choices": ["You (informal)", "You all (formal)", "They (feminine)", "We"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What pronoun is used for 'we' (masculine)?",
+          "choices": ["They (masculine)", "We (masculine)", "They (feminine)", "You all (formal)"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What pronoun is used for 'I'?",
+          "choices": ["You", "He", "I", "We"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What pronoun is used for 'you' (formal, singular)?",
+          "choices": ["You (informal)", "You (formal)", "He", "We"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What pronoun is used for 'she'?",
+          "choices": ["She", "He", "You (informal)", "We"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+       
+        {
+          "question": "Mon ______ (father) travaille à Paris.",
+          "choices": ["père", "frère", "oncle", "ami"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ma ______ (grandmother) habite avec nous.",
+          "choices": ["grand-mère", "tante", "mère", "sœur"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ont un ______ (son) et une fille.",
+          "choices": ["fils", "père", "frère", "neveu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vais rendre visite à ma ______ (aunt) ce week-end.",
+          "choices": ["tante", "cousine", "mère", "sœur"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (to eat) toujours des fruits le matin.",
+          "choices": ["manges", "bois", "lis", "écris"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (to go) à l'école ensemble.",
+          "choices": ["allons", "partons", "courons", "venons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (to read) un bon livre en ce moment.",
+          "choices": ["lit", "parle", "écrit", "dessine"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (to speak) français très bien.",
+          "choices": ["parlez", "comprenez", "lisez", "écoutez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (to finish) leurs devoirs maintenant.",
+          "choices": ["finissent", "commencent", "lisent", "mangent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (to drink) du café tous les matins.",
+          "choices": ["bois", "mange", "parle", "cours"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (I) suis étudiant en français.",
+          "choices": ["Je", "Il", "Elle", "Nous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (We - feminine) sommes heureuses d’être ici.",
+          "choices": ["Nous", "Elles", "Vous", "Ils"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (She) est toujours en avance.",
+          "choices": ["Elle", "Il", "Je", "Nous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (They - masculine) jouent au football.",
+          "choices": ["Ils", "Nous", "Elles", "Vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (You - informal) es très intelligent.",
+          "choices": ["Tu", "Vous", "Elle", "Il"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (You - formal, singular) êtes professeur de français.",
+          "choices": ["Vous", "Tu", "Elle", "Nous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (They - feminine) aiment voyager.",
+          "choices": ["Elles", "Ils", "Nous", "Vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (You all - informal) regardez la télévision ensemble.",
+          "choices": ["Vous", "Nous", "Elles", "Ils"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (He) habite en France depuis trois ans.",
+          "choices": ["Il", "Elle", "Nous", "Vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (We) parlons anglais et français.",
+          "choices": ["Nous", "Ils", "Vous", "Elles"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Mère", "rightId": 1 },
+              "right": { "word": "He", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Nous (féminin)", "rightId": 2 },
+              "right": { "word": "You (formal, singular)", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Ils", "rightId": 3 },
+              "right": { "word": "Father", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Tu", "rightId": 4 },
+              "right": { "word": "She", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Sœur", "rightId": 5 },
+              "right": { "word": "We (feminine)", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Père", "rightId": 6 },
+              "right": { "word": "You (informal)", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Il", "rightId": 7 },
+              "right": { "word": "They (masculine)", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Vous (pluriel)", "rightId": 8 },
+              "right": { "word": "You all (formal)", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Elle", "rightId": 9 },
+              "right": { "word": "Mother", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Vous (singulier)", "rightId": 10 },
+              "right": { "word": "Sister", "rightId": 5 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '5',
+      name: 'French Exercise - 5',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "How do you say 'cousin' in French (masculine)?",
+          "choices": ["Brother", "Nephew", "Cousin", "Uncle"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'belle-mère' mean in English?",
+          "choices": ["Mother-in-law", "Sister-in-law", "Stepmother", "Aunt"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the French word for 'brother-in-law'?",
+          "choices": ["Son-in-law", "Brother-in-law", "Cousin", "Nephew"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What word describes 'the daughter of your brother'?",
+          "choices": ["Niece", "Daughter", "Cousin", "Aunt"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct conjugation of the verb 'manger' (to eat) for 'nous'?",
+          "choices": ["Mangeons", "Mangez", "Mangent", "Mange"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct form of the verb 'écrire' (to write) for 'je'?",
+          "choices": ["Écris", "Écrit", "Écrivons", "Écrivez"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What form of the verb 'finir' (to finish) corresponds to 'tu'?",
+          "choices": ["Finis", "Finit", "Finissons", "Finissez"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct form of 'prendre' (to take) for 'il'?",
+          "choices": ["Prend", "Prends", "Prenons", "Prenez"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you conjugate 'parler' (to speak) with 'elles'?",
+          "choices": ["Parlent", "Parlons", "Parlez", "Parle"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you conjugate 'faire' (to do) for 'vous'?",
+          "choices": ["Faites", "Faisons", "Fais", "Font"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the subject pronoun for 'we' in French?",
+          "choices": ["Nous", "Vous", "Ils", "Elles"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the subject pronoun for 'she' in French?",
+          "choices": ["He", "She", "They (masculine)", "You"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What subject pronoun is used for 'you' (informal)?",
+          "choices": ["You (informal)", "You (formal)", "They (masculine)", "We"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What subject pronoun corresponds to 'they' (feminine)?",
+          "choices": ["They (masculine)", "They (feminine)", "We", "You"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What subject pronoun is used for 'he' in French?",
+          "choices": ["She", "We", "He", "You"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What subject pronoun is used for 'they' (masculine)?",
+          "choices": ["They (feminine)", "You", "They (masculine)", "We"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What subject pronoun corresponds to 'I' in French?",
+          "choices": ["He", "I", "You", "We"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What subject pronoun corresponds to 'you' (formal)?",
+          "choices": ["You (formal)", "You (informal)", "They (masculine)", "We"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say 'thirty-five' in French?",
+          "choices": ["Thirty-eight", "Thirty-five", "Forty-five", "Twenty-five"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What number is 'quarante-neuf'?",
+          "choices": ["49", "29", "39", "59"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+       
+        {
+          "question": "Le ______ (uncle) de Marie vit à Paris.",
+          "choices": ["oncle", "cousin", "frère", "père"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La ______ (aunt) de Paul travaille à l'hôpital.",
+          "choices": ["tante", "mère", "sœur", "cousine"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon ______ (nephew) est très intelligent.",
+          "choices": ["neveu", "cousin", "fils", "frère"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mes ______ (grandparents) habitent à la campagne.",
+          "choices": ["grands-parents", "oncles", "parents", "cousins"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (to read) un livre intéressant.",
+          "choices": ["lis", "parle", "apprends", "finis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (to speak) trois langues.",
+          "choices": ["parlent", "lisent", "finissent", "prennent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (to go) à la plage cet été.",
+          "choices": ["allons", "partons", "prenons", "finissons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (to finish) tes devoirs rapidement.",
+          "choices": ["finis", "prends", "lis", "apprends"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (to take) toujours le bus pour aller au travail.",
+          "choices": ["prend", "finit", "lit", "parle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (to learn) le français depuis deux ans.",
+          "choices": ["apprenez", "finissez", "lisez", "parlez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (I) suis très fatigué aujourd'hui.",
+          "choices": ["Je", "Tu", "Il", "Nous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (They - masculine) aiment jouer au football.",
+          "choices": ["Ils", "Nous", "Elles", "Vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (She) est toujours la première à répondre.",
+          "choices": ["Elle", "Il", "Tu", "Nous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (You - formal) êtes mon professeur préféré.",
+          "choices": ["Vous", "Tu", "Elle", "Il"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (We) devons partir tôt demain matin.",
+          "choices": ["Nous", "Ils", "Vous", "Elles"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (They - feminine) habitent à Lyon.",
+          "choices": ["Elles", "Ils", "Nous", "Vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (He) ne mange pas de viande.",
+          "choices": ["Il", "Elle", "Tu", "Nous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (You - informal) vas à la fête ce soir?",
+          "choices": ["Tu", "Vous", "Il", "Elle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon père a ______ (forty-five) ans aujourd'hui.",
+          "choices": ["quarante-cinq", "trente-cinq", "vingt-cinq", "cinquante"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'ai acheté ______ (thirty-one) livres cette année.",
+          "choices": ["trente et un", "quarante et un", "vingt et un", "trente-deux"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il", "rightId": 1 },
+              "right": { "word": "You all (formal)", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Nous", "rightId": 2 },
+              "right": { "word": "We (feminine)", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Elles", "rightId": 3 },
+              "right": { "word": "They (feminine)", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Vous", "rightId": 4 },
+              "right": { "word": "Forty-two", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Elles", "rightId": 5 },
+              "right": { "word": "Thirty-five", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Quarante-deux", "rightId": 6 },
+              "right": { "word": "He", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Trente-cinq", "rightId": 7 },
+              "right": { "word": "You (formal)", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Vous", "rightId": 8 },
+              "right": { "word": "You (informal)", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Elle", "rightId": 9 },
+              "right": { "word": "She", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Quarante-sept", "rightId": 10 },
+              "right": { "word": "Forty-seven", "rightId": 10 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]

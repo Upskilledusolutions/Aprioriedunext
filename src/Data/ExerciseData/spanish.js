@@ -901,5 +901,607 @@ export const quiz = [
       }
       
     ]
+  },
+  {
+    quiz: '4',
+    name: 'Spanish Exercise - 4',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+
+      {
+        "question": "¿Cuál es la palabra para 'sister' en español?",
+        "choices": ["Hermana", "Madre", "Tía", "Abuela"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "¿Cómo se dice 'father' en español?",
+        "choices": ["Padre", "Hermano", "Tío", "Abuelo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "¿Qué significa 'sobrino' en inglés?",
+        "choices": ["Nephew", "Uncle", "Cousin", "Grandson"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "¿Cómo se llama la esposa de tu padre?",
+        "choices": ["Madre", "Hermana", "Abuela", "Tía"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the correct present tense form of 'comer' (to eat) for 'yo'?",
+        "choices": ["Como", "Comes", "Comemos", "Coméis"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the present tense of 'escribir' (to write) for 'nosotros'?",
+        "choices": ["Escriben", "Escribe", "Escribimos", "Escribes"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "Which form of 'hablar' (to speak) is used for 'tú'?",
+        "choices": ["Habla", "Hablas", "Hablan", "Hablamos"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the present tense of 'vivir' (to live) for 'ellos'?",
+        "choices": ["Vive", "Vivimos", "Viven", "Vivís"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the correct form of 'leer' (to read) for 'yo'?",
+        "choices": ["Leemos", "Leo", "Lees", "Leen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the present tense of 'tener' (to have) for 'vosotros'?",
+        "choices": ["Tenéis", "Tienen", "Tienes", "Tengo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the pronoun for 'they' (feminine) in Spanish?",
+        "choices": ["Ellos", "Ellas", "Ustedes", "Vosotros"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the pronoun for 'we' (masculine)?",
+        "choices": ["Nosotros", "Nosotras", "Vosotros", "Ellos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which pronoun is used for 'you' (informal, singular)?",
+        "choices": ["Tú", "Usted", "Vosotros", "Ellos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the pronoun for 'he'?",
+        "choices": ["Ella", "Él", "Tú", "Usted"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the pronoun for 'you' (formal, singular)?",
+        "choices": ["Tú", "Usted", "Ellos", "Nosotros"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which pronoun is used for 'she'?",
+        "choices": ["Él", "Ella", "Usted", "Ellos"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+      "question": "Which pronoun is used for 'we' (feminine)?",
+      "choices": ["Nosotros", "Ellas", "Nosotras", "Tú"],
+      "type": "MCQs",
+      "correctAnswer": 3
+  },
+  {
+    "question": "What is the pronoun for 'I' in Spanish?",
+    "choices": ["Tú", "Usted", "Yo", "Nosotros"],
+    "type": "MCQs",
+    "correctAnswer": 3
+},
+{
+  "question": "What is the correct pronoun for 'they' (masculine)?",
+  "choices": ["Ellas", "Ellos", "Vosotros", "Nosotros"],
+  "type": "MCQs",
+  "correctAnswer": 2
+},
+{
+  "question": "What is the pronoun for 'you' (informal, plural)?",
+  "choices": ["Tú", "Usted", "Vosotros", "Ellas"],
+  "type": "MCQs",
+  "correctAnswer": 3
+},
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Mi ______ (brother) es muy alto.",
+        "choices": ["hermano", "madre", "padres", "hermana"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "La ______ (mother) de Juan es muy simpática.",
+        "choices": ["madre", "hermano", "padres", "hermana"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Mis ______ (parents) viven en Madrid.",
+        "choices": ["padres", "hermano", "madre", "hermana"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ella tiene una ______ (sister) mayor.",
+        "choices": ["hermana", "madre", "padres", "hermano"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Yo ______ (to eat) en casa todos los días.",
+        "choices": ["como", "comes", "comemos", "coméis"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Nosotros ______ (to go) al parque los domingos.",
+        "choices": ["vamos", "vas", "van", "voy"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Tú ______ (to speak) español muy bien.",
+        "choices": ["hablas", "hablo", "habla", "hablan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ellos siempre ______ (to study) en la biblioteca.",
+        "choices": ["estudian", "estudio", "estudia", "estudias"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Vosotros ______ (to run) por la mañana.",
+        "choices": ["corréis", "corren", "corremos", "corro"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "María ______ (to write) cartas a su abuela.",
+        "choices": ["escribe", "escribo", "escribes", "escriben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (He) es muy trabajador.",
+        "choices": ["Él", "Yo", "Nosotros", "Ellos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (I) siempre ayudo a mi familia.",
+        "choices": ["Yo", "Él", "Nosotros", "Ellos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (We) vivimos en una casa grande.",
+        "choices": ["Nosotros/Nosotras", "Yo", "Ellos", "Tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (They - masculine) están jugando al fútbol.",
+        "choices": ["Ellos", "Ellas", "Nosotros", "Tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (You - informal, singular) tienes un perro bonito.",
+        "choices": ["Tú", "Él", "Nosotros", "Ellos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (She) es mi amiga.",
+        "choices": ["Ella", "Él", "Tú", "Usted"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (They - feminine) son mis compañeras de clase.",
+        "choices": ["Ellas", "Ellos", "Nosotros", "Tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (You - formal, singular) es muy amable.",
+        "choices": ["Usted", "Tú", "Él", "Nosotros"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (We - feminine) vamos a la playa mañana.",
+        "choices": ["Nosotras", "Nosotros", "Ellos", "Tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (You all - formal, plural) trabajan mucho.",
+        "choices": ["Ustedes", "Ellos", "Nosotros", "Tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Madre", "rightId": 1 },
+            "right": { "word": "Sister", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Nosotros", "rightId": 2 },
+            "right": { "word": "You all (formal)", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Ellos", "rightId": 3 },
+            "right": { "word": "Father", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Tú", "rightId": 4 },
+            "right": { "word": "She", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Hermana", "rightId": 5 },
+            "right": { "word": "We (masculine)", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Padre", "rightId": 6 },
+            "right": { "word": "You (informal)", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Él", "rightId": 7 },
+            "right": { "word": "They (masculine)", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Ustedes", "rightId": 8 },
+            "right": { "word": "He", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Ella", "rightId": 9 },
+            "right": { "word": "Mother", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Vosotros", "rightId": 10 },
+            "right": { "word": "You all (informal)", "rightId": 10 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '5',
+    name: 'Spanish Exercise - 5',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+
+      {
+        "question": "¿Cómo se dice 'cousin' en español (feminine)?",
+        "choices": ["Hermana", "Prima", "Tía", "Amiga"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué significa 'abuelo' en inglés?",
+        "choices": ["Grandfather", "Uncle", "Brother", "Father"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es el término en español para 'daughter-in-law'?",
+        "choices": ["Hija", "Suegra", "Cuñada", "Nuera"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "¿Qué palabra describe el 'padre de tu esposa'?",
+        "choices": ["Sobrino", "Yerno", "Suegro", "Padrino"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál es la conjugación correcta del verbo 'beber' (to drink) para 'nosotros'?",
+        "choices": ["Bebemos", "Bebéis", "Bebes", "Beben"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué conjugación corresponde a 'él' para el verbo 'comer' (to eat)?",
+        "choices": ["Coma", "Comemos", "Come", "Coméis"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué verbo en presente usa 'yo' para 'trabajar' (to work)?",
+        "choices": ["Trabajo", "Trabajamos", "Trabajas", "Trabaja"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué forma de 'vivir' corresponde a 'tú'?",
+        "choices": ["Vivo", "Vives", "Vive", "Vivimos"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la forma correcta del verbo 'escribir' para 'vosotros'?",
+        "choices": ["Escribes", "Escribimos", "Escribís", "Escriben"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cómo se conjuga 'entender' (to understand) para 'ella'?",
+        "choices": ["Entiende", "Entendemos", "Entiendes", "Entienden"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué pronombre corresponde a 'we' (feminine) en español?",
+        "choices": ["Nosotros", "Nosotras", "Vosotros", "Ellas"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué pronombre se usa para 'they' (masculine)?",
+        "choices": ["Ellos", "Vosotros", "Ellas", "Nosotros"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué pronombre se usa para 'you all' (informal, masculine)?",
+        "choices": ["Ellas", "Vosotros", "Ellos", "Nosotras"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué pronombre se usa para 'he' en español?",
+        "choices": ["Ella", "Ello", "Él", "Yo"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué pronombre corresponde a 'I' en español?",
+        "choices": ["Yo", "Tú", "Nosotros", "Él"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué pronombre corresponde a 'you' (formal)?",
+        "choices": ["Usted", "Tú", "Ellos", "Nosotros"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué pronombre se usa para 'she' en español?",
+        "choices": ["Él", "Nosotros", "Ella", "Ellos"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué pronombre corresponde a 'they' (feminine)?",
+        "choices": ["Ellos", "Vosotros", "Ellas", "Nosotros"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cómo se dice 'twenty-three' en español?",
+        "choices": ["Treinta y tres", "Veintitrés", "Veintiocho", "Veintiuno"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué número es 'cuarenta y siete'?",
+        "choices": ["47", "27", "37", "17"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Mi ______ (uncle) vive en Barcelona.",
+        "choices": ["tío", "hermano", "padre", "primo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El hijo de mi hermana es mi ______ (nephew).",
+        "choices": ["sobrino", "hijo", "tío", "primo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Su ______ (mother) trabaja en un hospital.",
+        "choices": ["madre", "abuela", "hermana", "tía"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (granddaughter) de mi abuela se llama Carla.",
+        "choices": ["nieta", "hija", "prima", "sobrina"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______ (to write) correos electrónicos todos los días.",
+        "choices": ["escribo", "leo", "hablo", "corro"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (to speak) inglés y español.",
+        "choices": ["hablan", "escriben", "comen", "cantan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (to live) en una casa grande.",
+        "choices": ["vivimos", "escribimos", "hablamos", "jugamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (to understand) la lección muy bien.",
+        "choices": ["entiendes", "escribes", "comes", "vives"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿______ (to run) todos los días, Juan?",
+        "choices": ["Corres", "Lees", "Hablas", "Comes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella ______ (to read) muchos libros en su tiempo libre.",
+        "choices": ["lee", "corre", "vive", "come"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (They - feminine) van a la escuela.",
+        "choices": ["Ellas", "Nosotras", "Vosotras", "Ellos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (You - formal) es profesor.",
+        "choices": ["Usted", "Tú", "Nosotros", "Ellos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (We - masculine) jugamos al fútbol todos los fines de semana.",
+        "choices": ["Nosotros", "Ellos", "Vosotros", "Ellas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (I) estudio en la universidad.",
+        "choices": ["Yo", "Él", "Ella", "Nosotros"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (She) no tiene hermanos.",
+        "choices": ["Ella", "Él", "Nosotros", "Usted"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (You all - informal) siempre llegáis tarde.",
+        "choices": ["Vosotros", "Ellos", "Nosotros", "Ellas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (He) es mi amigo.",
+        "choices": ["Él", "Ella", "Tú", "Yo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (We - feminine) cantamos en el coro.",
+        "choices": ["Nosotras", "Ellas", "Vosotras", "Ellos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hoy cumplo ______ (twenty-eight) años.",
+        "choices": ["veintiocho", "veintinueve", "veintisiete", "treinta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermana tiene ______ (forty-five) años.",
+        "choices": ["cuarenta y cinco", "cuarenta y cuatro", "cuarenta y seis", "cincuenta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Él", "rightId": 1 },
+            "right": { "word": "You all (formal)", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Nosotros", "rightId": 2 },
+            "right": { "word": "She", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Ellas", "rightId": 3 },
+            "right": { "word": "Forty", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Tú", "rightId": 4 },
+            "right": { "word": "They (feminine)", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Ustedes", "rightId": 5 },
+            "right": { "word": "Twenty-five", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Cuarenta", "rightId": 6 },
+            "right": { "word": "He", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Veinticinco", "rightId": 7 },
+            "right": { "word": "You (informal)", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Nosotros", "rightId": 8 },
+            "right": { "word": "We (masculine)", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Ella", "rightId": 9 },
+            "right": { "word": "They (feminine)", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Cuarenta y dos", "rightId": 10 },
+            "right": { "word": "Forty-two", "rightId": 10 }
+          }
+        ]
+      }
+      
+    ]
   }
 ];
