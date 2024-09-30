@@ -71,6 +71,7 @@ border-radius: 100%;
   }
   .slidercontainer{
     padding: 20px 2vw;
+    overflow: hidden;
   }
   .slider{
     width: 96vw;

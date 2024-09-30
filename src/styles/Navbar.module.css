@@ -402,7 +402,7 @@ text-decoration: none;
 }
 @media screen and (max-width: 720px){
   .topnav{
-    padding: 0 6vw;
+    padding: 0 5vw;
     justify-content: center;
   }
  .members{
