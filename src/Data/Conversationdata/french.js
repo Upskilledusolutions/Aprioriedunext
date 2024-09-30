@@ -9,7 +9,7 @@ export const youdata = [
     {
       id: '2',
       url: "/youtube/FC2.png",
-      youtube: "https://www.youtube.com/embed/LpryVzPm_dg?si=J-LF44IysulGX3QF",
+      youtube: "https://www.youtube.com/embed/R7p9FVvNXds?si=tSAlfoN2FJ2zJtUe",
       title: "French Conversation 2",
       desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
