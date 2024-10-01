@@ -17,7 +17,7 @@ const Quiz = () => {
   const [showResult, setShowResult] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(null);
-  const [time, setTime] = useState(15);
+  const [time, setTime] = useState(25);
   const [start, setStart] = useState(true);
   const [result, setResult] = useState({ correctAnswers: 0, wrong: 0 });
   const [showMenu, setShowMenu] = useState(false); // Toggle state for sidebar on mobile
@@ -38,7 +38,7 @@ const Quiz = () => {
   };
 
   const onClickNext = () => {
-    setTime(15);
+    setTime(25);
     setSelectedAnswerIndex(null);
     setIsSubmitted(false); // Reset isSubmitted
     setResult((prev) =>
@@ -90,7 +90,7 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
     setSelectedAnswer("");
     setSelectedAnswerIndex(null);
     setSelectedOption(null);
-    setTime(15);
+    setTime(25);
     setStart(true);
     setResult({ correctAnswers: 0, wrong: 0 });
   }, [id]); // Only run when `id` changes

@@ -12,23 +12,23 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Upskilledu Solutions</title>
+        <title>Upskilleduonline</title>
         <link rel="icon" href="/fav.ico" />
         <meta property="og:image" content="/fav.ico" />
         <link rel="apple-touch-icon" href="/fav.ico"/>
-  <meta name="description" content="Upskilledu Solutions is an innovative language learning platform designed to help users master new languages through interactive and engaging lessons." />
+  <meta name="description" content="Upskilleduonline is an innovative language learning platform designed to help users master new languages through interactive and engaging lessons." />
   <meta name="keywords" content="Upskilledu Solutions, Upskilledu, Uspkilledu online, upskilleduonline, upskilledusolutions, upskilleduonline.com" />
-  <meta name="author" content="Upskilledu Solutions" />
+  <meta name="author" content="Upskilleduonline" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charSet="UTF-8" />
-  <meta property="og:title" content="Upskilledu Solutions" />
-  <meta property="og:description" content="Upskilledu Solutions is an innovative language learning platform designed to help users master new languages through interactive and engaging lessons." />
+  <meta property="og:title" content="Upskilleduonline" />
+  <meta property="og:description" content="Upskilleduonline is an innovative language learning platform designed to help users master new languages through interactive and engaging lessons." />
   <meta property="og:image" content="https://www.upskilleduonline.com/newlogo1.png" />
   <meta property="og:url" content="https://www.upskilleduonline.com" />
   <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="Upskilledu Solutions" />
-  <meta name="twitter:title" content="Upskilledu Solutions" />
-  <meta name="twitter:description" content="Upskilledu Solutions is an innovative language learning platform designed to help users master new languages through interactive and engaging lessons." />
+  <meta name="twitter:card" content="Upskilleduonline" />
+  <meta name="twitter:title" content="Upskilleduonline" />
+  <meta name="twitter:description" content="Upskilleduonline is an innovative language learning platform designed to help users master new languages through interactive and engaging lessons." />
   <meta name="twitter:image" content="https://www.upskilleduonline.com/newlogo1.png" />
   <link rel="canonical" href="https://www.upskilleduonline.com" />
   <meta name="robots" content="index, follow" />
