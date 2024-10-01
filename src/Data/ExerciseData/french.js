@@ -16,7 +16,7 @@ export const quiz = [
           question: "How do the French say 'goodbye'?",
           choices: ['adieu', 'à bientôt', 'au revoir', 'à demoin!'],
           type: 'MCQs',
-          correctAnswer: 2,
+          correctAnswer: 3,
         },
         {
           question: "What does 'salut' mean?",
@@ -25,7 +25,7 @@ export const quiz = [
           correctAnswer: 2,
         },
         {
-          question: "TWhat's the French for 'good evening, sir'?",
+          question: "What's the French for 'good evening, sir'?",
           choices: ['bonjour, monsieur', 'bonsoir, monsieur', 'bonne nuit, monsieur', 'salut, monsieur'],
           type: 'MCQs',
           correctAnswer: 2,
@@ -37,10 +37,10 @@ export const quiz = [
           correctAnswer: 2,
         },
         {
-          question: "What does 'est-ce que vous allez bien?' mean?",
-          choices: ["what is it that you are?", 'where are you going?', "what is it that you are?", "how are you doing?"],
+          question: "What does 'comment vas-tu?' mean?",
+          choices: ["what is it that you are?", 'where are you going?', "what is it that you are?", "how are you?"],
           type: 'MCQs',
-          correctAnswer: 1,
+          correctAnswer: 4,
         },
         {
           question: "If someone replies 'pas grand chose' when asked how they are doing, it means",
@@ -92,7 +92,7 @@ export const quiz = [
           },
           {
             question: "How do you say 'sorry' in French?",
-            choices: ['de rien', 'excusez-moi', "s'il vous plait", 'bienvenu'],
+            choices: ['de rien', 'excusez-moi', "désolé", 'bienvenu'],
             type: 'MCQs',
             correctAnswer: 3,
           },
@@ -290,7 +290,7 @@ export const quiz = [
             },
             {
               "left": { "word": "Good evening", "rightId": 10 },
-              "right": { "word": "À demoin!", "rightId": 9 }
+              "right": { "word": "À demain!", "rightId": 9 }
             }
           ],
         },
