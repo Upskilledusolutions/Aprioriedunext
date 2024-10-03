@@ -8,7 +8,7 @@ import { FaLock } from 'react-icons/fa'; // Import a lock icon
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
 
 export default function FrenchQuizes() {
-  const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status
+  const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
   const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesFrench);
   const [isClient, setIsClient] = useState(false);
 
@@ -43,7 +43,7 @@ export default function FrenchQuizes() {
               const isLocked = !isAuthenticated && index > 1;
               return (
                 <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''}`}>
-                  {isUnlocked ? <Link href={`FrenchExercise/${data.quiz}`} className={styles.link}>
+                  {isUnlocked || user.type === 'all' ? <Link href={`FrenchExercise/${data.quiz}`} className={styles.link}>
                     <div className={styles.imgcont}>
                       <Image className={styles.img5} src={'/assests/1.png'} width={500} height={500} alt="img" />
                     </div>
@@ -52,7 +52,7 @@ export default function FrenchQuizes() {
                       <div className={styles.level}>Level: {data.level}</div>
                       <div className={styles.topic}>Topic: {data.topic}</div>
                     </div>
-                  </Link>:                                <div className={styles.locked2}>
+                  </Link>: <div className={styles.locked2}>
                 <div className={styles.lockOverlay3}>
                   <FaLock />
                   <p>Locked</p>

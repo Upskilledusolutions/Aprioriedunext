@@ -8,7 +8,7 @@ import { FaLock } from 'react-icons/fa'; // Import a lock icon
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
 
 export default function FrenchQuizes() {
-  const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status
+  const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
   const unlockedPages = useSelector((state) => state.unlockedPages.unlockedPagesGerman);
   const [isClient, setIsClient] = useState(false);
 
@@ -53,7 +53,7 @@ export default function FrenchQuizes() {
         </div>
         </Link> */}
 
-{isUnlocked ? (
+{isUnlocked || user.type === 'all' ? (
               <Link className={styles.link} href={`/Conversations/GermanConversation/${data.id}`}>
                 <div className={styles.imgcont}>
                   <div className={styles.logocont}>

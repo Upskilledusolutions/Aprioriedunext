@@ -8,9 +8,11 @@ import { useSelector } from 'react-redux'; // To access authentication status fr
 import { FaLock } from 'react-icons/fa';
 
 export default function FrenchQuizes() {
-  const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status
+  const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
   const unlockedPages = useSelector((state) => state.unlockedLessons.unlockedLessonsFrench);
   const [isClient, setIsClient] = useState(false);
+
+  console.log(user)
 
   useEffect(() => {
     setIsClient(true); // Set to true when client-side is ready
@@ -42,7 +44,7 @@ export default function FrenchQuizes() {
               const isLocked = !isAuthenticated && index > 0;
               return (
                 <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''}`}>
-                  {isUnlocked ?                   <Link href={`Frenchlesson/${data.id}`} className={styles.link}>
+                  {isUnlocked || user.type === 'all' ? <Link href={`Frenchlesson/${data.id}`} className={styles.link}>
                   {isLocked && (
                     <div className={styles.lockOverlay1}>
                       <FaLock className={styles.lockIcon1} />
