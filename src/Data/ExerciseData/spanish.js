@@ -912,25 +912,25 @@ export const quiz = [
       // 20 MCQs
 
       {
-        "question": "¿Cuál es la palabra para 'sister' en español?",
+        "question": "What is the word for 'sister' in Spanish?",
         "choices": ["Hermana", "Madre", "Tía", "Abuela"],
         "type": "MCQs",
         "correctAnswer": 1
     },
     {
-        "question": "¿Cómo se dice 'father' en español?",
+        "question": "How do you say 'father' in Spanish?",
         "choices": ["Padre", "Hermano", "Tío", "Abuelo"],
         "type": "MCQs",
         "correctAnswer": 1
     },
     {
-        "question": "¿Qué significa 'sobrino' en inglés?",
+        "question": "What does 'sobrino' mean in English?",
         "choices": ["Nephew", "Uncle", "Cousin", "Grandson"],
         "type": "MCQs",
         "correctAnswer": 1
     },
     {
-        "question": "¿Cómo se llama la esposa de tu padre?",
+        "question": "What do you call your father's wife?",
         "choices": ["Madre", "Hermana", "Abuela", "Tía"],
         "type": "MCQs",
         "correctAnswer": 1
@@ -1213,121 +1213,121 @@ export const quiz = [
       // 20 MCQs
 
       {
-        "question": "¿Cómo se dice 'cousin' en español (feminine)?",
+        "question": "How do you say 'cousin' in Spanish (feminine)?",
         "choices": ["Hermana", "Prima", "Tía", "Amiga"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "¿Qué significa 'abuelo' en inglés?",
+        "question": "What does 'abuelo' mean in English?",
         "choices": ["Grandfather", "Uncle", "Brother", "Father"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "¿Cuál es el término en español para 'daughter-in-law'?",
+        "question": "What is the term in Spanish for 'daughter-in-law'?",
         "choices": ["Hija", "Suegra", "Cuñada", "Nuera"],
         "type": "MCQs",
         "correctAnswer": 4
       },
       {
-        "question": "¿Qué palabra describe el 'padre de tu esposa'?",
+        "question": "What word describes 'your wife's father'?",
         "choices": ["Sobrino", "Yerno", "Suegro", "Padrino"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "¿Cuál es la conjugación correcta del verbo 'beber' (to drink) para 'nosotros'?",
+        "question": "What is the correct conjugation of the verb 'beber' (to drink) for 'we'?",
         "choices": ["Bebemos", "Bebéis", "Bebes", "Beben"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "¿Qué conjugación corresponde a 'él' para el verbo 'comer' (to eat)?",
+        "question": "What conjugation corresponds to 'he' for the verb 'comer' (to eat)?",
         "choices": ["Coma", "Comemos", "Come", "Coméis"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "¿Qué verbo en presente usa 'yo' para 'trabajar' (to work)?",
+        "question": "What verb form does 'yo' use for 'trabajar' (to work)?",
         "choices": ["Trabajo", "Trabajamos", "Trabajas", "Trabaja"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "¿Qué forma de 'vivir' corresponde a 'tú'?",
+        "question": "What form of 'vivir' corresponds to 'tú'?",
         "choices": ["Vivo", "Vives", "Vive", "Vivimos"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "¿Cuál es la forma correcta del verbo 'escribir' para 'vosotros'?",
+        "question": "What is the correct form of the verb 'escribir' for 'vosotros'?",
         "choices": ["Escribes", "Escribimos", "Escribís", "Escriben"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "¿Cómo se conjuga 'entender' (to understand) para 'ella'?",
+        "question": "How do you conjugate 'entender' (to understand) for 'ella'?",
         "choices": ["Entiende", "Entendemos", "Entiendes", "Entienden"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "¿Qué pronombre corresponde a 'we' (feminine) en español?",
+        "question": "What pronoun corresponds to 'we' (feminine) in Spanish?",
         "choices": ["Nosotros", "Nosotras", "Vosotros", "Ellas"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "¿Qué pronombre se usa para 'they' (masculine)?",
+        "question": "What pronoun is used for 'they' (masculine)?",
         "choices": ["Ellos", "Vosotros", "Ellas", "Nosotros"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "¿Qué pronombre se usa para 'you all' (informal, masculine)?",
+        "question": "What pronoun is used for 'you all' (informal, masculine)?",
         "choices": ["Ellas", "Vosotros", "Ellos", "Nosotras"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "¿Qué pronombre se usa para 'he' en español?",
+        "question": "What pronoun is used for 'he' in Spanish?",
         "choices": ["Ella", "Ello", "Él", "Yo"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "¿Qué pronombre corresponde a 'I' en español?",
+        "question": "What pronoun corresponds to 'I' in Spanish?",
         "choices": ["Yo", "Tú", "Nosotros", "Él"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "¿Qué pronombre corresponde a 'you' (formal)?",
+        "question": "What pronoun corresponds to 'you' (formal)?",
         "choices": ["Usted", "Tú", "Ellos", "Nosotros"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "¿Qué pronombre se usa para 'she' en español?",
+        "question": "What pronoun is used for 'she' in Spanish?",
         "choices": ["Él", "Nosotros", "Ella", "Ellos"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "¿Qué pronombre corresponde a 'they' (feminine)?",
+        "question": "What pronoun corresponds to 'they' (feminine)?",
         "choices": ["Ellos", "Vosotros", "Ellas", "Nosotros"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "¿Cómo se dice 'twenty-three' en español?",
+        "question": "How do you say 'twenty-three' in Spanish?",
         "choices": ["Treinta y tres", "Veintitrés", "Veintiocho", "Veintiuno"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "¿Qué número es 'cuarenta y siete'?",
+        "question": "What number is 'cuarenta y siete'?",
         "choices": ["47", "27", "37", "17"],
         "type": "MCQs",
         "correctAnswer": 1

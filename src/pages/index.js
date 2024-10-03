@@ -9,6 +9,7 @@ import Events from "../../components/home/Events"
 import dynamic from "next/dynamic";
 
 const Home = () => {
+
   return (
     <>
       <Head>

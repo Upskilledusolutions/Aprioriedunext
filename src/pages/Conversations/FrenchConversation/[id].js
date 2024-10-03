@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { youdata } from "../../../Data/Conversationdata/french.js"; // Importing the quiz data
 import Head from 'next/head.js';
 import styles from '../../../styles/quiz/conversation.module.css';
 import Image from 'next/image.js';
 import Link from 'next/link.js';
+import { useDispatch, useSelector } from 'react-redux';
+import { unlockPage } from '@/Store.js';
+import { FaLock } from 'react-icons/fa';
 
 export function getServerSideProps(context) {
   return {
@@ -13,9 +16,32 @@ export function getServerSideProps(context) {
 
 export default function Conversation({ params }) {
   const { id } = params;
+  const dispatch = useDispatch();
+  const unlockedPages = useSelector((state) => state.unlockedPages.unlockedPagesFrench);
+  const subject = 'French';
+  const [isClient, setIsClient] = useState(false);
 
   const videodata = youdata.filter((data) => data.id === id);
-  console.log(videodata)
+
+  // Ensure the component only renders after the client-side hydration
+  useEffect(() => {
+    setIsClient(true); // This ensures that client-specific logic runs only after hydration
+
+    if (id) {
+      const currentIndex = youdata.findIndex((page) => page.id === id);
+      if (currentIndex !== -1 && currentIndex < youdata.length - 1) {
+        const nextPageId = youdata[currentIndex + 1].id;
+        if (!unlockedPages.includes(nextPageId)) {
+          dispatch(unlockPage({ subject, pageId: nextPageId }));
+        }
+      }
+    }
+  }, [id, youdata, dispatch, unlockedPages]);
+
+  if (!isClient) {
+    // Avoid rendering any dynamic content on the server that depends on the client-side state
+    return null;
+  }
 
   return (
     <>
@@ -41,10 +67,11 @@ export default function Conversation({ params }) {
             </div>
           </div>
             <div className={styles.Adcontainer}>
-            {youdata.slice(0,8).reverse().map(data => {
+            {youdata.slice(0,8).map(data => {
+              const isUnlocked = unlockedPages.includes(data.id);
       return (
         <div key={data.id} className={styles.videocontainer1}>
-        <Link className={styles.link1} href={`/Conversations/FrenchConversation/${data.id}`}>
+          {isUnlocked ?  <Link className={styles.link1} href={`/Conversations/FrenchConversation/${data.id}`}>
         <div className={styles.imgcont4}>
         <div className={styles.logocont}>
           <Image className={styles.imagelogo} src={'/youtube/youtube.png'} width={400} height={180} alt='image'/>
@@ -55,7 +82,21 @@ export default function Conversation({ params }) {
           <h3 className={styles.title4}>{data.title}</h3>
           <p className={styles.desc4}>{data.desc.slice(0,30)}...</p>
         </div>
-        </Link>
+        </Link> : <div className={styles.locked1}>
+          <div className={styles.lockOverlay}><FaLock /><p>Locked</p></div>
+         <div className={styles.imgcont4}>
+         <div className={styles.logocont}>
+           <Image className={styles.imagelogo} src={'/youtube/youtube.png'} width={400} height={180} alt='image'/>
+           </div>
+           <Image className={styles.image4} src={data.url} width={400} height={180}/>
+         </div>
+         <div>
+           <h3 className={styles.title4}>{data.title}</h3>
+           <p className={styles.desc4}>{data.desc.slice(0,30)}...</p>
+         </div>
+         </div>
+         }
+       
 
       </div>
       )

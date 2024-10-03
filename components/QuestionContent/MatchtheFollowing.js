@@ -8,6 +8,7 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
     const [matchedPairs, setMatchedPairs] = useState([]);
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [feedback, setFeedback] = useState(null);
+    const [showResults, setShowResults] = useState(false); // New state to track when to show the results
 
     const leftRefs = useRef({});
     const rightRefs = useRef({});
@@ -21,6 +22,7 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
             setFeedback(null);
             setSelectedLeftItem(null);
             setSelectedRightItem(null);
+            setShowResults(false); // Reset results view when new question data comes
         }
     }, [questionData]);
 
@@ -47,16 +49,14 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
     }, [selectedRightItem, selectedLeftItem]);
 
     const handleSubmit = () => {
-        const correctMatches = matchedPairs.filter((pair) => pair.isMatch).length;
-        const allCorrect = correctMatches === questionData.pairs.length;
         setIsSubmitted(true);
-        setFeedback(allCorrect ? 'Correct! All matches are correct.' : `Incorrect! ${correctMatches} out of ${questionData.pairs.length} matches are correct.`);
-        console.log(correctMatches)
-        // Send result and number of correct matches to the parent component
-        setTimeout(() => {
-            onResult({ allCorrect, correctMatches });
-            onNext();
-        }, 1000);
+        setShowResults(true); // Show the results when the button is clicked
+        const correctMatches = matchedPairs.filter((pair) => pair.isMatch).length;
+        onResult({ correctMatches });
+    };
+
+    const handleShowResults = () => {
+        onNext();
     };
 
     const getLineCoordinates = (leftWord, rightWord) => {
@@ -86,7 +86,7 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
                     {availablePairs.map((pair) => (
                         <div
                             key={pair.left.word}
-                            className={`${styles.word} ${selectedLeftItem === pair.left ? styles.selected : ''}`}
+                            className={`${styles.word} ${selectedLeftItem === pair.left ? styles.selected : ''}`} // Apply correct/incorrect styles after results
                             onClick={() => handleLeftClick(pair.left)}
                             ref={(el) => (leftRefs.current[pair.left.word] = el)}
                         >
@@ -99,7 +99,7 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
                     {availablePairs.map((pair) => (
                         <div
                             key={pair.right.word}
-                            className={`${styles.word} ${selectedRightItem === pair.right ? styles.selected : ''}`}
+                            className={`${styles.word} ${selectedRightItem === pair.right ? styles.selected : ''}`} // Apply correct/incorrect styles after results
                             onClick={() => handleRightClick(pair.right)}
                             ref={(el) => (rightRefs.current[pair.right.word] = el)}
                         >
@@ -119,7 +119,7 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
                                 y1={y1}
                                 x2={x2}
                                 y2={y2}
-                                stroke="black"
+                                stroke={showResults ? (pair.isMatch ? 'green' : 'red') : 'black'} // Black before results, color after
                                 strokeWidth="2"
                             />
                         );
@@ -127,12 +127,19 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
                 </svg>
             </div>
 
-            <button onClick={handleSubmit} className={styles.submitButton} disabled={isSubmitted}>
-                Submit
-            </button>
+            {!isSubmitted ? (
+                <button onClick={handleSubmit} className={styles.submitButton}>
+                    Submit
+                </button>
+            ) : (
+                <button onClick={handleShowResults} className={styles.resultButton}>
+                    Results
+                </button>
+            )}
+
+            {feedback && <p>{feedback}</p>}
         </div>
     );
 };
 
 export default MatchTheFollowingGame;
-

@@ -30,7 +30,7 @@ export const data = [{
     id:'5',
     name:'Lesson 5',
     level:'Beginners',
-    pdf:'https://drive.google.com/file/d/1LoqradvP4IlxmDY1hYuyRw89xfkEBpa4/preview',
+    pdf:'https://drive.google.com/file/d/1nJm81BjbIO6qMvF8V6SK0ajVjJsCC7cc/preview',
     desc:'French Foundation Lesson 5 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {

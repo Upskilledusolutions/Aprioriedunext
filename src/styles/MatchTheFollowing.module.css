@@ -42,6 +42,49 @@
 .submitButton {
     margin-top: 20px;
 }
+.word {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 5px;
+    display: inline-block;
+}
+
+.selected {
+    background-color: #e0e0e0;
+}
+
+.correct {
+    background-color: #d4edda; /* Green background for correct answers */
+    border-color: green;
+}
+
+.incorrect {
+    background-color: #f8d7da; /* Red background for incorrect answers */
+    border-color: red;
+}
+
+.submitButton, .resultButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.submitButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.svgLines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
 
 @media (max-width: 768px) {
     .pairContainer {

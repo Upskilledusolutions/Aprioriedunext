@@ -119,9 +119,12 @@ export default function Navbar() {
 
         {isAuthenticated && user ? (
           <div className={styles.userInfoContainer}>
+            <div className={styles.userinfocont}>
             <div className={styles.userInfo} onClick={toggleDropdown}>
               <FaUserCircle className={styles.userIcon} />
               <span className={styles.userId}>{user.name}</span>
+              <span className={styles.userIdm}>{user.name.slice(0,14)}...</span>
+            </div>
             </div>
             {/* Dropdown menu */}
             {isDropdownVisible && (

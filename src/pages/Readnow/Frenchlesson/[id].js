@@ -3,10 +3,32 @@ import styles from '../../../styles/pdflessons.module.css';
 import { data } from '../../../Data/Languagelessons/french'; // Import your JSON data
 import { FaArrowLeftLong } from "react-icons/fa6";
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { useDispatch, useSelector } from 'react-redux';
+import { unlockLesson } from '@/Store';
 
 const LessonPage = ({ lesson }) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [watermarkText, setWatermarkText] = useState('');
+
+  const router = useRouter();
+  const { id } = router.query;
+
+  const dispatch = useDispatch();
+  const unlockedPages = useSelector((state) => state.unlockedLessons.unlockedLessonsFrench);
+  const subject = 'French';
+
+  useEffect(() => {
+    if (id) {
+      const currentIndex = data.findIndex((page) => page.id === id);
+      if (currentIndex !== -1 && currentIndex < data.length - 1) {
+        const nextPageId = data[currentIndex + 1].id;
+        if (!unlockedPages.includes(nextPageId)) {
+          dispatch(unlockLesson({ subject, lessonId: nextPageId }));
+        }
+      }
+    }
+  }, [id, dispatch, unlockedPages]);
 
   useEffect(() => {
     const updateWatermarkText = () => {
@@ -22,7 +44,6 @@ const LessonPage = ({ lesson }) => {
     };
 
     document.addEventListener('keydown', handleKeyDown);
-
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };

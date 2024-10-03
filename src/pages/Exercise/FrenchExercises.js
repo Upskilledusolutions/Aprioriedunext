@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from '../../styles/quiz/quizpage.module.css';
 import Image from 'next/image';
 import { quiz } from "../../Data/ExerciseData/french"; // Importing the quiz data
@@ -9,6 +9,17 @@ import { useSelector } from 'react-redux'; // To access authentication status fr
 
 export default function FrenchQuizes() {
   const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status
+  const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesFrench);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true); // Set to true when client-side is ready
+  }, []);
+
+  if (!isClient) {
+    // Optionally return a loader or nothing until the client is ready
+    return null;
+  }
 
   return (
     <>
@@ -26,11 +37,13 @@ export default function FrenchQuizes() {
 
           <div className={styles.cards1}>
             {quiz.map((data, index) => {
+              const isUnlocked = unlockedPages.includes(data.quiz);
+              console.log(isUnlocked)
               // Determine if the quiz should be locked
               const isLocked = !isAuthenticated && index > 1;
               return (
                 <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''}`}>
-                  <Link href={`FrenchExercise/${data.quiz}`} className={styles.link}>
+                  {isUnlocked ? <Link href={`FrenchExercise/${data.quiz}`} className={styles.link}>
                     <div className={styles.imgcont}>
                       <Image className={styles.img5} src={'/assests/1.png'} width={500} height={500} alt="img" />
                     </div>
@@ -39,7 +52,20 @@ export default function FrenchQuizes() {
                       <div className={styles.level}>Level: {data.level}</div>
                       <div className={styles.topic}>Topic: {data.topic}</div>
                     </div>
-                  </Link>
+                  </Link>:                                <div className={styles.locked2}>
+                <div className={styles.lockOverlay3}>
+                  <FaLock />
+                  <p>Locked</p>
+                </div>
+                    <div className={styles.imgcont}>
+                      <Image className={styles.img5} src={'/assests/1.png'} width={500} height={500} alt="img" />
+                    </div>
+                    <div className={styles.info}>
+                      <div className={styles.name}>{data.name}</div>
+                      <div className={styles.level}>Level: {data.level}</div>
+                      <div className={styles.topic}>Topic: {data.topic}</div>
+                    </div>
+                  </div>}
                   {isLocked && (
                     <div className={styles.lockOverlay}>
                       <FaLock className={styles.lockIcon} />

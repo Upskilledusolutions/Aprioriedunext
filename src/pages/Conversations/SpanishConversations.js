@@ -1,14 +1,25 @@
 import Head from 'next/head';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from '../../styles/quiz/conversation.module.css';
 import Image from 'next/image';
-import { youdata } from "../../Data/Conversationdata/spanish"; // Importing the quiz data
+import { youdata } from "../../Data/Conversationdata/spanish.js"; // Importing the quiz data
 import Link from 'next/link';
 import { FaLock } from 'react-icons/fa'; // Import a lock icon
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
 
 export default function FrenchQuizes() {
   const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status
+  const unlockedPages = useSelector((state) => state.unlockedPages.unlockedPagesSpanish);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true); // Set to true when client-side is ready
+  }, []);
+
+  if (!isClient) {
+    // Optionally return a loader or nothing until the client is ready
+    return null;
+  }
 
   return (
     <>
@@ -25,10 +36,11 @@ export default function FrenchQuizes() {
           </div>
 
           <div className={styles.container}>
-          {youdata.map(data => {
+          {youdata.map((data, index) => {
+          const isUnlocked = unlockedPages.includes(data.id);
       return (
         <div key={data.id} className={styles.videocontainer}>
-        <Link className={styles.link} href={`/Conversations/SpanishConversation/${data.id}`}>
+        {/* <Link className={styles.link} href={`/Conversations/FrenchConversation/${data.id}`}>
         <div className={styles.imgcont}>
         <div className={styles.logocont}>
           <Image className={styles.imagelogo} src={'/youtube/youtube.png'} width={400} height={180} alt='image'/>
@@ -39,7 +51,51 @@ export default function FrenchQuizes() {
           <h3 className={styles.title}>{data.title}</h3>
           <p className={styles.desc}>{data.desc.slice(0,100)}...</p>
         </div>
-        </Link>
+        </Link> */}
+
+{isUnlocked ? (
+              <Link className={styles.link} href={`/Conversations/SpanishConversation/${data.id}`}>
+                <div className={styles.imgcont}>
+                  <div className={styles.logocont}>
+                    <Image
+                      className={styles.imagelogo}
+                      src={'/youtube/youtube.png'}
+                      width={400}
+                      height={180}
+                      alt='image'
+                    />
+                  </div>
+                  <Image className={styles.image} src={data.url} width={400} height={180} alt={data.title} />
+                </div>
+                <div>
+                  <h3 className={styles.title}>{data.title}</h3>
+                  <p className={styles.desc}>{data.desc.slice(0, 100)}...</p>
+                </div>
+              </Link>
+            ) : (
+              <div className={styles.locked}>
+                <div className={styles.lockOverlay}>
+                  <FaLock />
+                  <p>Locked</p>
+                </div>
+                <div className={styles.imgcont}>
+                  <div className={styles.logocont}>
+                    <Image
+                      className={styles.imagelogo}
+                      src={'/youtube/youtube.png'}
+                      width={400}
+                      height={180}
+                      alt='image'
+                    />
+                  </div>
+                  <Image className={styles.image} src={data.url} width={400} height={180} alt={data.title} />
+                </div>
+                <div>
+                  <h3 className={styles.title}>{data.title}</h3>
+                  <p className={styles.desc}>{data.desc.slice(0, 100)}...</p>
+                </div>
+              </div>
+            )}
 
       </div>
       )

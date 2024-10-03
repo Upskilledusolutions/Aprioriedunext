@@ -175,7 +175,24 @@ justify-content: space-between;
   margin-right: 5px;
   font-size: 12px;
 }
-
+.locked2{
+  width: 100%;
+}
+.lockOverlay3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 100;
+  border-radius: 30px;
+}
 
 @media screen and (max-width: 720px){
   .cards1{

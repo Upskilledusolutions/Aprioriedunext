@@ -11,6 +11,8 @@ import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // For toggling ico
 import MCQComponent from '../../../../components/QuestionContent/MCQ'
 import FillInTheBlanksComponent from '../../../../components/QuestionContent/FillInTheBlanks'
 import MatchTheFollowingGame from "../../../../components/QuestionContent/MatchtheFollowing";
+import { useDispatch, useSelector } from "react-redux";
+import { unlockExercise } from "@/Store";
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -23,6 +25,10 @@ const Quiz = () => {
   const [showMenu, setShowMenu] = useState(false); // Toggle state for sidebar on mobile
   const [selectedOption, setSelectedOption] = useState(null);
  const [isSubmitted, setIsSubmitted] = useState(false);
+
+ const dispatch = useDispatch();
+ const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesFrench);
+ const subject = 'French';
 
   const router = useRouter();
   const { id } = router.query; // Get the dynamic route parameter
@@ -100,6 +106,9 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
     if (allQuestions[activeQuestion]?.type === 'MatchTheFollowing') {
       setTime(90); // Set timer to 90 seconds for MatchTheFollowing
     }
+    else if (allQuestions[activeQuestion]?.type === 'FillInTheBlanks') {
+      setTime(35); // Set timer to 90 seconds for MatchTheFollowing
+    }
   }, [activeQuestion]);
 
   useEffect(() => {
@@ -113,6 +122,20 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
       return () => clearInterval(interval); // Clear interval on component unmount or timer change
     }
   }, [time]);
+
+  useEffect(() => {
+
+    if (id) {
+      const currentIndex = quiz.findIndex((page) => page.quiz === id);
+      if (currentIndex !== -1 && currentIndex < quiz.length - 1) {
+        const nextPageId = quiz[currentIndex + 1].quiz;
+        console.log(nextPageId)
+        if (!unlockedPages.includes(nextPageId)) {
+          dispatch(unlockExercise({ subject, exerciseId: nextPageId }));
+        }
+      }
+    }
+  }, [id, quiz, dispatch, unlockedPages]);
 
 
   const addLeadingZero = (number) => (number > 9 ? number : `0${number}`);
