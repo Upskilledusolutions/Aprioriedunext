@@ -1503,5 +1503,306 @@ export const quiz = [
       }
       
     ]
+  },
+  {
+    quiz: '6',
+    name: 'Spanish Exercise - 6',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+
+        {
+          "question": "How do you say \"Good morning\" in Spanish?",
+          "choices": ["Buenas tardes", "Buenos días", "Buenas noches", "Hola"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does \"Gracias\" mean?",
+          "choices": ["Please", "Goodbye", "Thank you", "Sorry"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"See you later\" in Spanish?",
+          "choices": ["Hasta luego", "Adiós", "Nos vemos", "Buenas noches"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does \"Perdón\" mean?",
+          "choices": ["Excuse me", "Good morning", "Please", "Goodbye"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"Please\" in Spanish?",
+          "choices": ["Gracias", "Por favor", "Lo siento", "Hola"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does \"Lo siento\" mean?",
+          "choices": ["Sorry", "Hello", "Good evening", "Excuse me"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"Goodbye\" in Spanish?",
+          "choices": ["Hola", "Adiós", "Hasta luego", "Buenas noches"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does \"Buenas tardes\" mean?",
+          "choices": ["Good morning", "Good night", "Good afternoon", "See you later"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does \"Amigo\" mean?",
+          "choices": ["Friend", "Family", "Neighbor", "Classmate"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"House\" in Spanish?",
+          "choices": ["Carro", "Casa", "Puerta", "Ventana"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does \"Escuela\" mean?",
+          "choices": ["Library", "Store", "School", "Park"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"Book\" in Spanish?",
+          "choices": ["Libro", "Mesa", "Lapiz", "Silla"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does \"Hermana\" mean?",
+          "choices": ["Mother", "Sister", "Cousin", "Friend"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say \"Dog\" in Spanish?",
+          "choices": ["Gato", "Pájaro", "Perro", "Conejo"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does \"Familia\" mean?",
+          "choices": ["Friends", "Family", "Neighbors", "Classmates"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say \"Window\" in Spanish?",
+          "choices": ["Ventana", "Puerta", "Silla", "Cama"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What would Juan say to Pedro if he wants to invite him to his house?",
+          "choices": ["¿Te gustaría venir a mi casa?", "¿Te gusta la película?", "¿Quieres ir al parque?", "¿Dónde está el cine?"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "If Pedro wants to say yes, how does he respond?",
+          "choices": ["No, gracias", "Sí, me encantaría", "Lo siento, no puedo", "No estoy seguro"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What might Juan say if he wants to ask about the time?",
+          "choices": ["¿A qué hora llegamos?", "¿Dónde está el reloj?", "¿Te gustaría ver una película?", "¿Qué piensas hacer mañana?"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "If Pedro wants to know the plan for tomorrow, how does he ask?",
+          "choices": ["¿Qué hacemos mañana?", "¿Te gusta la comida?", "¿Cuánto cuesta?", "¿Qué día es hoy?"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },      
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Amigo 1: ¡Hola! ¿Cómo ______ (to be) hoy?",
+        "choices": ["estás", "eres", "es", "soy"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: Hola, ______ (I) estoy bien, gracias. ¿Y tú?",
+        "choices": ["Yo", "Tú", "Él", "Ella"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 1: Yo ______ (to feel) un poco cansado.",
+        "choices": ["me siento", "te sientes", "se siente", "nos sentimos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: ¿Qué ______ (to do) hoy?",
+        "choices": ["haces", "hago", "hace", "hacemos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 1: Hoy voy al cine. ¿Quieres ______ (to come) conmigo?",
+        "choices": ["venir", "ir", "llegar", "salir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: Me encantaría, pero ______ (to have) que estudiar.",
+        "choices": ["tengo", "tienes", "tenemos", "tienen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 1: No te preocupes, podemos ir ______ (tomorrow) si quieres.",
+        "choices": ["mañana", "hoy", "ayer", "tarde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: ¡Perfecto! ¿A qué hora ______ (to meet)?",
+        "choices": ["nos encontramos", "te encuentras", "me encuentro", "se encuentran"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 1: Nos encontramos a las ______ (seven) de la tarde.",
+        "choices": ["siete", "ocho", "seis", "nueve"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: Está bien. ¿Qué película ______ (to see)?",
+        "choices": ["vemos", "ven", "veo", "ven"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 1: Quiero ver una comedia, pero ______ (you) puedes elegir.",
+        "choices": ["tú", "yo", "ella", "nosotros"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: ¡Genial! Me ______ (to like) las películas divertidas.",
+        "choices": ["gustan", "gusta", "gustamos", "gustáis"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 1: ¿Qué tal si ______ (we) compramos las entradas online?",
+        "choices": ["compramos", "compran", "compras", "comprar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: Sí, ______ (it) es una buena idea.",
+        "choices": ["es", "son", "está", "están"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 1: Entonces, te veo ______ (later).",
+        "choices": ["luego", "ahora", "tarde", "pronto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: ¡Hasta ______ (later)!",
+        "choices": ["luego", "pronto", "mañana", "tarde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 1: No olvides ______ (to bring) tus gafas.",
+        "choices": ["traer", "llevar", "ver", "usar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: No te preocupes, ______ (already) las tengo.",
+        "choices": ["ya", "ahora", "pronto", "tarde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 1: Muy bien, ______ (we) nos vemos pronto.",
+        "choices": ["nos", "te", "se", "me"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Amigo 2: ¡Hasta ______ (tomorrow)!",
+        "choices": ["mañana", "pronto", "tarde", "luego"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Perro", "rightId": 1 },
+            "right": { "word": "Chair", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Hermana", "rightId": 2 },
+            "right": { "word": "Dog", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Casa", "rightId": 3 },
+            "right": { "word": "Sister", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Libro", "rightId": 4 },
+            "right": { "word": "Friend", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Ventana", "rightId": 5 },
+            "right": { "word": "Book", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Familia", "rightId": 6 },
+            "right": { "word": "Table", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Amigo", "rightId": 7 },
+            "right": { "word": "School", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Mesa", "rightId": 8 },
+            "right": { "word": "House", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Escuela", "rightId": 9 },
+            "right": { "word": "Window", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Silla", "rightId": 10 },
+            "right": { "word": "Family", "rightId": 6 }
+          }
+        ]
+      }
+      
+    ]
   }
 ];

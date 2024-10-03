@@ -12,236 +12,236 @@ export const quiz = [
         type: 'MCQs',
         correctAnswer: 1
       },
-      // {
-      //   question: "How do you say 'I am hungry' in German?",
-      //   choices: ['Ich bin müde', 'Ich habe Hunger', 'Ich habe Durst', 'Ich bin voll'],
-      //   type: 'MCQs',
-      //   correctAnswer: 2
-      // },
-      // {
-      //   question: "What does 'Sprechen Sie Englisch?' mean?",
-      //   choices: ['Do you speak English?', 'Where are you?', 'How are you?', 'What time is it?'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "How would you say 'Excuse me' in German?",
-      //   choices: ['Entschuldigung', 'Danke', 'Bitte', 'Guten Tag'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "What does 'Ich verstehe nicht' mean?",
-      //   choices: ['I don’t understand', 'I am tired', 'I am fine', 'I am lost'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "How do you say 'goodbye' in German?",
-      //   choices: ['Guten Abend', 'Gute Nacht', 'Tschüss', 'Guten Morgen'],
-      //   type: 'MCQs',
-      //   correctAnswer: 3
-      // },
-      // {
-      //   question: "What does 'Wie viel kostet das?' mean?",
-      //   choices: ['How much does it cost?', 'Where is it?', 'How are you?', 'What time is it?'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "How do you say 'I would like' in German?",
-      //   choices: ['Ich möchte', 'Ich liebe', 'Ich brauche', 'Ich kann'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "What is the German word for 'house'?",
-      //   choices: ['Haus', 'Auto', 'Stuhl', 'Buch'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Which of the following means 'good afternoon' in German?",
-      //   choices: ['Guten Abend', 'Guten Morgen', 'Guten Tag', 'Gute Nacht'],
-      //   type: 'MCQs',
-      //   correctAnswer: 3
-      // },
-      // {
-      //   question: "How do you say 'I am lost' in German?",
-      //   choices: ['Ich bin müde', 'Ich bin verloren', 'Ich bin hungrig', 'Ich bin krank'],
-      //   type: 'MCQs',
-      //   correctAnswer: 2
-      // },
-      // {
-      //   question: "What does 'Wie geht es Ihnen?' mean?",
-      //   choices: ['How are you?', 'Where are you?', 'What is it?', 'What time is it?'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "How do you say 'please' in German?",
-      //   choices: ['Bitte', 'Entschuldigung', 'Danke', 'Hallo'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "What is the German word for 'book'?",
-      //   choices: ['Buch', 'Haus', 'Stuhl', 'Auto'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "How do you say 'see you soon' in German?",
-      //   choices: ['Bis bald', 'Gute Nacht', 'Guten Morgen', 'Guten Abend'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "What does 'Ich hätte gerne' mean?",
-      //   choices: ['I would like', 'I need', 'I am happy', 'I am sad'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "How do you say 'I don’t know' in German?",
-      //   choices: ['Ich weiß nicht', 'Ich verstehe', 'Ich habe', 'Ich will'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "What does 'Könnten Sie das bitte wiederholen?' mean?",
-      //   choices: ['Could you please repeat that?', 'Where are you?', 'How much is this?', 'Can I help you?'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "How would you say 'goodbye' formally in German?",
-      //   choices: ['Tschüss', 'Auf Wiedersehen', 'Guten Tag', 'Bis bald'],
-      //   type: 'MCQs',
-      //   correctAnswer: 2
-      // },
-      // {
-      //   question: "What is the German word for 'apple'?",
-      //   choices: ['Apfel', 'Banane', 'Orange', 'Traube'],
-      //   type: 'MCQs',
-      //   correctAnswer: 1
-      // },
+      {
+        question: "How do you say 'I am hungry' in German?",
+        choices: ['Ich bin müde', 'Ich habe Hunger', 'Ich habe Durst', 'Ich bin voll'],
+        type: 'MCQs',
+        correctAnswer: 2
+      },
+      {
+        question: "What does 'Sprechen Sie Englisch?' mean?",
+        choices: ['Do you speak English?', 'Where are you?', 'How are you?', 'What time is it?'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "How would you say 'Excuse me' in German?",
+        choices: ['Entschuldigung', 'Danke', 'Bitte', 'Guten Tag'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "What does 'Ich verstehe nicht' mean?",
+        choices: ['I don’t understand', 'I am tired', 'I am fine', 'I am lost'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "How do you say 'goodbye' in German?",
+        choices: ['Guten Abend', 'Gute Nacht', 'Tschüss', 'Guten Morgen'],
+        type: 'MCQs',
+        correctAnswer: 3
+      },
+      {
+        question: "What does 'Wie viel kostet das?' mean?",
+        choices: ['How much does it cost?', 'Where is it?', 'How are you?', 'What time is it?'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "How do you say 'I would like' in German?",
+        choices: ['Ich möchte', 'Ich liebe', 'Ich brauche', 'Ich kann'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "What is the German word for 'house'?",
+        choices: ['Haus', 'Auto', 'Stuhl', 'Buch'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "Which of the following means 'good afternoon' in German?",
+        choices: ['Guten Abend', 'Guten Morgen', 'Guten Tag', 'Gute Nacht'],
+        type: 'MCQs',
+        correctAnswer: 3
+      },
+      {
+        question: "How do you say 'I am lost' in German?",
+        choices: ['Ich bin müde', 'Ich bin verloren', 'Ich bin hungrig', 'Ich bin krank'],
+        type: 'MCQs',
+        correctAnswer: 2
+      },
+      {
+        question: "What does 'Wie geht es Ihnen?' mean?",
+        choices: ['How are you?', 'Where are you?', 'What is it?', 'What time is it?'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "How do you say 'please' in German?",
+        choices: ['Bitte', 'Entschuldigung', 'Danke', 'Hallo'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "What is the German word for 'book'?",
+        choices: ['Buch', 'Haus', 'Stuhl', 'Auto'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "How do you say 'see you soon' in German?",
+        choices: ['Bis bald', 'Gute Nacht', 'Guten Morgen', 'Guten Abend'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "What does 'Ich hätte gerne' mean?",
+        choices: ['I would like', 'I need', 'I am happy', 'I am sad'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "How do you say 'I don’t know' in German?",
+        choices: ['Ich weiß nicht', 'Ich verstehe', 'Ich habe', 'Ich will'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "What does 'Könnten Sie das bitte wiederholen?' mean?",
+        choices: ['Could you please repeat that?', 'Where are you?', 'How much is this?', 'Can I help you?'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
+      {
+        question: "How would you say 'goodbye' formally in German?",
+        choices: ['Tschüss', 'Auf Wiedersehen', 'Guten Tag', 'Bis bald'],
+        type: 'MCQs',
+        correctAnswer: 2
+      },
+      {
+        question: "What is the German word for 'apple'?",
+        choices: ['Apfel', 'Banane', 'Orange', 'Traube'],
+        type: 'MCQs',
+        correctAnswer: 1
+      },
 
-      // // 20 Fill in the Blanks
-      // {
-      //   question: "Wir ______ Kaffee. (We drink coffee.)",
-      //   choices: ['trinken', 'essen', 'lesen', 'schlafen'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Er ______ ein Auto. (He has a car.)",
-      //   choices: ['hat', 'geht', 'trinkt', 'liest'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Du ______ Englisch. (You speak English.)",
-      //   choices: ['sprichst', 'isst', 'gehst', 'liest'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Wir ______ in Berlin. (We live in Berlin.)",
-      //   choices: ['wohnen', 'gehen', 'sehen', 'essen'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Ich ______ eine E-Mail. (I write an email.)",
-      //   choices: ['schreibe', 'lese', 'höre', 'trinke'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Sie ______ eine Tasse Tee. (She drinks a cup of tea.)",
-      //   choices: ['trinkt', 'schreibt', 'geht', 'schläft'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Er ______ im Park. (He walks in the park.)",
-      //   choices: ['geht', 'trinkt', 'isst', 'schläft'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Wir ______ Musik. (We listen to music.)",
-      //   choices: ['hören', 'lesen', 'essen', 'sehen'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Ich ______ gerne Filme. (I like watching movies.)",
-      //   choices: ['sehe', 'höre', 'lese', 'esse'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Sie ______ einen Apfel. (She eats an apple.)",
-      //   choices: ['isst', 'geht', 'trinkt', 'liest'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Er ______ in der Bibliothek. (He studies in the library.)",
-      //   choices: ['lernt', 'geht', 'trinkt', 'isst'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Ich ______ eine Tasse Kaffee. (I drink a cup of coffee.)",
-      //   choices: ['trinke', 'schreibe', 'lese', 'höre'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Sie ______ in einem Restaurant. (They eat in a restaurant.)",
-      //   choices: ['essen', 'gehen', 'sehen', 'schreiben'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Er ______ ein Geschenk. (He buys a gift.)",
-      //   choices: ['kauft', 'schreibt', 'liest', 'trinkt'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Wir ______ einen Film. (We watch a movie.)",
-      //   choices: ['sehen', 'lesen', 'essen', 'trinken'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Ich ______ auf der Couch. (I sit on the couch.)",
-      //   choices: ['sitze', 'liege', 'gehe', 'schreibe'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Er ______ einen Hund. (He has a dog.)",
-      //   choices: ['hat', 'geht', 'trinkt', 'liest'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Wir ______ am Wochenende. (We relax on the weekend.)",
-      //   choices: ['entspannen', 'lesen', 'sehen', 'essen'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
-      // {
-      //   question: "Sie ______ einen Film im Kino. (They watch a movie in the cinema.)",
-      //   choices: ['sehen', 'essen', 'trinken', 'schreiben'],
-      //   type: 'FillInTheBlanks',
-      //   correctAnswer: 1
-      // },
+      // 20 Fill in the Blanks
+      {
+        question: "Wir ______ Kaffee. (We drink coffee.)",
+        choices: ['trinken', 'essen', 'lesen', 'schlafen'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Er ______ ein Auto. (He has a car.)",
+        choices: ['hat', 'geht', 'trinkt', 'liest'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Du ______ Englisch. (You speak English.)",
+        choices: ['sprichst', 'isst', 'gehst', 'liest'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Wir ______ in Berlin. (We live in Berlin.)",
+        choices: ['wohnen', 'gehen', 'sehen', 'essen'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Ich ______ eine E-Mail. (I write an email.)",
+        choices: ['schreibe', 'lese', 'höre', 'trinke'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Sie ______ eine Tasse Tee. (She drinks a cup of tea.)",
+        choices: ['trinkt', 'schreibt', 'geht', 'schläft'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Er ______ im Park. (He walks in the park.)",
+        choices: ['geht', 'trinkt', 'isst', 'schläft'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Wir ______ Musik. (We listen to music.)",
+        choices: ['hören', 'lesen', 'essen', 'sehen'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Ich ______ gerne Filme. (I like watching movies.)",
+        choices: ['sehe', 'höre', 'lese', 'esse'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Sie ______ einen Apfel. (She eats an apple.)",
+        choices: ['isst', 'geht', 'trinkt', 'liest'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Er ______ in der Bibliothek. (He studies in the library.)",
+        choices: ['lernt', 'geht', 'trinkt', 'isst'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Ich ______ eine Tasse Kaffee. (I drink a cup of coffee.)",
+        choices: ['trinke', 'schreibe', 'lese', 'höre'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Sie ______ in einem Restaurant. (They eat in a restaurant.)",
+        choices: ['essen', 'gehen', 'sehen', 'schreiben'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Er ______ ein Geschenk. (He buys a gift.)",
+        choices: ['kauft', 'schreibt', 'liest', 'trinkt'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Wir ______ einen Film. (We watch a movie.)",
+        choices: ['sehen', 'lesen', 'essen', 'trinken'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Ich ______ auf der Couch. (I sit on the couch.)",
+        choices: ['sitze', 'liege', 'gehe', 'schreibe'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Er ______ einen Hund. (He has a dog.)",
+        choices: ['hat', 'geht', 'trinkt', 'liest'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Wir ______ am Wochenende. (We relax on the weekend.)",
+        choices: ['entspannen', 'lesen', 'sehen', 'essen'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
+      {
+        question: "Sie ______ einen Film im Kino. (They watch a movie in the cinema.)",
+        choices: ['sehen', 'essen', 'trinken', 'schreiben'],
+        type: 'FillInTheBlanks',
+        correctAnswer: 1
+      },
       {
         question: "Ich ______ einen Brief. (I write a letter.)",
         choices: ['schreibe', 'sehe', 'höre', 'lese'],
@@ -1496,6 +1496,315 @@ export const quiz = [
     {
       "left": { "word": "Dreißig", "rightId": 10 },
       "right": { "word": "I", "rightId": 1 }
+      
+    }
+  ]
+
+}
+
+    ]
+  },
+  {
+    quiz: '6',
+    name: 'German Exercise - 6',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "How do you say \"Good morning\" in German?",
+        "choices": ["Guten Tag", "Guten Morgen", "Gute Nacht", "Hallo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"Danke\" mean in English?",
+        "choices": ["Please", "Goodbye", "Thank you", "Sorry"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say \"See you later\" in German?",
+        "choices": ["Bis später", "Tschüss", "Gute Nacht", "Guten Abend"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Entschuldigung\" mean in English?",
+        "choices": ["Sorry", "Hello", "Please", "Goodbye"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"Please\" in German?",
+        "choices": ["Danke", "Bitte", "Entschuldigung", "Tschüss"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"Es tut mir leid\" mean in English?",
+        "choices": ["Excuse me", "I'm sorry", "Hello", "Goodbye"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"Goodbye\" in German?",
+        "choices": ["Hallo", "Auf Wiedersehen", "Tschüss", "Gute Nacht"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"Guten Abend\" mean in English?",
+        "choices": ["Good afternoon", "Good evening", "Good morning", "See you tomorrow"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"Freund\" mean in English?",
+        "choices": ["Friend", "Family", "Teacher", "Neighbor"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"House\" in German?",
+        "choices": ["Auto", "Haus", "Tür", "Fenster"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"Schule\" mean in English?",
+        "choices": ["Library", "School", "Store", "Park"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"Book\" in German?",
+        "choices": ["Buch", "Stift", "Tisch", "Stuhl"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Schwester\" mean in English?",
+        "choices": ["Brother", "Sister", "Mother", "Cousin"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"Dog\" in German?",
+        "choices": ["Katze", "Pferd", "Hund", "Kaninchen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does \"Familie\" mean in English?",
+        "choices": ["Friends", "Family", "Neighbors", "Colleagues"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"Window\" in German?",
+        "choices": ["Tür", "Fenster", "Stuhl", "Tisch"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does Peter say to Stefan to invite him?",
+        "choices": ["Möchtest du zu mir kommen?", "Wo ist die Bibliothek?", "Magst du Filme?", "Willst du in den Park gehen?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How would Stefan respond if he wants to accept the invitation?",
+        "choices": ["Nein, danke", "Ja, ich würde gerne", "Es tut mir leid, ich kann nicht", "Vielleicht ein anderes Mal"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What could Peter say to know the time?",
+        "choices": ["Wann kommen wir an?", "Willst du einen Film sehen?", "Wo ist die Uhr?", "Was machst du morgen?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If Stefan wants to know the plan for tomorrow, how would he ask?",
+        "choices": ["Was machen wir morgen?", "Hast du Zeit?", "Wie viel kostet das?", "Welcher Tag ist heute?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Freund 1: Hallo! Wie ______ (to be) du heute?",
+        "choices": ["geht es","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: Guten Morgen, ______ (I) geht’s gut, danke. Und dir?",
+        "choices": ["mir","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 1: Ich ______ (am) ein bisschen müde.",
+        "choices": ["bin","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: Was ______ (to do) du heute?",
+        "choices": ["machst","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 1: Ich gehe ins Kino. Möchtest du mit ______ (to come)?",
+        "choices": ["kommen","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: Ich würde gerne, aber ich muss ______ (to study).",
+        "choices": ["lernen","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 1: Kein Problem, wir können ______ (tomorrow) gehen.",
+        "choices": ["morgen","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: Super! Wann ______ (to meet) wir uns?",
+        "choices": ["treffen","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 1: Wir treffen uns um ______ (seven) Uhr abends.",
+        "choices": ["sieben","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: Toll! Welchen Film ______ (to watch) wir uns an?",
+        "choices": ["schauen","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 1: Ich möchte eine Komödie sehen, aber du ______ (can) entscheiden.",
+        "choices": ["kannst","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: Klasse! Ich ______ (love) lustige Filme.",
+        "choices": ["liebe","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 1: Sollen wir die Karten online ______ (to buy)?",
+        "choices": ["kaufen","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: Ja, ______ (that) ist eine gute Idee.",
+        "choices": ["das","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 1: Also, ich sehe dich ______ (later).",
+        "choices": ["später","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: ______ (until) später!",
+        "choices": ["Bis","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 1: Vergiss nicht, deine ______ (glasses) mitzubringen.",
+        "choices": ["Brille","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: Keine Sorge, ich habe sie ______ (already).",
+        "choices": ["schon","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 1: Sehr gut, wir ______ (to see) uns bald.",
+        "choices": ["sehen","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Freund 2: ______ (until) morgen!",
+        "choices": ["Bis","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Hund", "rightId": 1 },
+      "right": { "word": "Table", "rightId": 10 }
+
+    },
+    {
+      "left": { "word": "Schwester", "rightId": 2 },
+      "right": { "word": "School", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Haus", "rightId": 3 },
+      "right": { "word": "Chair", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Buch", "rightId": 4 },
+      "right": { "word": "Friend", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Fenster", "rightId": 5 },
+      "right": { "word": "Family", "rightId": 6 }
+
+    },
+    {
+      "left": { "word": "Familie", "rightId": 6 },
+      "right": { "word": "Window", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Freund", "rightId": 7 },
+      "right": { "word": "Book", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Stuhl", "rightId": 8 },
+      "right": { "word": "House", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Schule", "rightId": 9 },
+      "right": { "word": "Sister", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Tisch", "rightId": 10 },
+      "right": { "word": "Dog", "rightId": 1 }
       
     }
   ]

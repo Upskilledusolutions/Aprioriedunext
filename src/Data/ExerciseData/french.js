@@ -1440,7 +1440,7 @@ export const quiz = [
           "pairs": [
             {
               "left": { "word": "Il", "rightId": 1 },
-              "right": { "word": "You all (formal)", "rightId": 7 }
+              "right": { "word": "You all (formal)", "rightId": 3 }
             },
             {
               "left": { "word": "Nous", "rightId": 2 },
@@ -1477,6 +1477,302 @@ export const quiz = [
             {
               "left": { "word": "Quarante-sept", "rightId": 10 },
               "right": { "word": "Forty-seven", "rightId": 10 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '6',
+      name: 'French Exercise - 6',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "How do you say 'Good morning' in French?",
+          "choices": ["Bonsoir", "Bonjour", "Bonne nuit", "Salut"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What does 'Merci' mean?",
+          "choices": ["Please", "Goodbye", "Thank you", "Sorry"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "How do you say 'See you later' in French?",
+          "choices": ["À tout à l'heure", "Salut", "Bonsoir", "Bonne nuit"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What does 'Pardon' mean?",
+          "choices": ["Sorry", "Hello", "Please", "Goodbye"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "How do you say 'Please' in French?",
+          "choices": ["Merci", "S'il vous plaît", "Je suis désolé", "Salut"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What does 'Je suis désolé' mean?",
+          "choices": ["Excuse me", "I'm sorry", "Hello", "Goodbye"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "How do you say 'Goodbye' in French?",
+          "choices": ["Bonjour", "Au revoir", "Salut", "Bonne nuit"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What does 'Bonsoir' mean?",
+          "choices": ["Good afternoon", "Good evening", "Good morning", "See you tomorrow"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What does 'Ami' mean?",
+          "choices": ["Friend", "Family", "Teacher", "Neighbor"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "How do you say 'House' in French?",
+          "choices": ["Voiture", "Maison", "Porte", "Fenêtre"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What does 'École' mean?",
+          "choices": ["Library", "School", "Store", "Park"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "How do you say 'Book' in French?",
+          "choices": ["Livre", "Stylo", "Table", "Chaise"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What does 'Sœur' mean?",
+          "choices": ["Brother", "Sister", "Mother", "Cousin"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "How do you say 'Car' in French?",
+          "choices": ["Bicycle", "Bus", "Voiture", "Train"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "What does 'Frère' mean?",
+          "choices": ["Father", "Brother", "Son", "Uncle"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'Water' in French?",
+        "choices": ["Lait", "Jus", "Eau", "Vin"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What does 'Chien' mean?",
+        "choices": ["Cat", "Dog", "Horse", "Rabbit"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say 'Thank you very much' in French?",
+        "choices": ["Merci", "S'il vous plaît", "Merci beaucoup", "Je t'en prie"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What does 'Rouge' mean?",
+        "choices": ["Red", "Blue", "Green", "Yellow"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say 'I'm sorry' in French?",
+        "choices": ["Je t'aime", "Je te déteste", "Tu me manques", "Je suis désolé"],
+        "type": "MCQs",
+        "correctAnswer": 4
+    },
+       
+        {
+          "question": "Ami 1: Salut ! Comment ______ (to be) aujourd'hui ?",
+          "choices": ["vas-tu", "est", "va", "êtes-vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: Bonjour, ______ (I) vais bien, merci. Et toi ?",
+          "choices": ["je", "tu", "il", "elle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 1: Moi, je ______ (to feel) un peu fatigué.",
+          "choices": ["me sens", "ressens", "ressent", "sent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: Qu'est-ce que tu ______ (to do) aujourd'hui ?",
+          "choices": ["fais", "faites", "faire", "ferai"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 1: Je vais au cinéma. Veux-tu ______ (to come) avec moi ?",
+          "choices": ["venir", "partir", "aller", "revenir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: J'adorerais, mais je dois ______ (to study).",
+          "choices": ["étudier", "travailler", "lire", "apprendre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 1: Pas de souci, on peut y aller ______ (tomorrow) si tu veux.",
+          "choices": ["demain", "hier", "aujourd'hui", "après-demain"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: Parfait ! À quelle heure nous ______ (to meet) ?",
+          "choices": ["retrouvons", "voyons", "parlons", "arrivons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 1: On se retrouve à ______ (seven) heures du soir.",
+          "choices": ["sept", "huit", "six", "neuf"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: Très bien. Quel film ______ (to watch) ?",
+          "choices": ["regardons", "écoutons", "lisons", "parlons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 1: J'aimerais voir une comédie, mais tu ______ (can) choisir.",
+          "choices": ["peux", "veux", "dois", "sais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: Génial ! J'______ (to love) les films amusants.",
+          "choices": ["adore", "aime", "regarde", "écoute"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 1: Et si nous ______ (to buy) les billets en ligne ?",
+          "choices": ["achetions", "vendions", "prêtions", "regardions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: Oui, ______ (it is) une bonne idée.",
+          "choices": ["c'est", "il est", "tu es", "je suis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 1: Alors, je te vois ______ (later).",
+          "choices": ["plus tard", "ce soir", "demain", "maintenant"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: ______ (See you later)!",
+          "choices": ["À plus tard", "Salut", "Bonjour", "Bonne nuit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 1: N'oublie pas d'______ (to bring) tes lunettes.",
+          "choices": ["apporter", "acheter", "chercher", "porter"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: Ne t'inquiète pas, je les ai ______ (already).",
+          "choices": ["déjà", "encore", "toujours", "jamais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 1: Très bien, on ______ (we) se voit bientôt.",
+          "choices": ["se", "tu", "je", "vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Ami 2: ______ (See you tomorrow)!",
+          "choices": ["À demain", "À plus tard", "Bonjour", "Bonne nuit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Chien", "rightId": 1 },
+              "right": { "word": "House", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Sœur", "rightId": 2 },
+              "right": { "word": "Sister", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Maison", "rightId": 3 },
+              "right": { "word": "Window", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Livre", "rightId": 4 },
+              "right": { "word": "Family", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Fenêtre", "rightId": 5 },
+              "right": { "word": "Friend", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Famille", "rightId": 6 },
+              "right": { "word": "Dog", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ami", "rightId": 7 },
+              "right": { "word": "Chair", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Chaise", "rightId": 8 },
+              "right": { "word": "Book", "rightId": 4 }
+            },
+            {
+              "left": { "word": "École", "rightId": 9 },
+              "right": { "word": "Table", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Table", "rightId": 10 },
+              "right": { "word": "School", "rightId": 9 }
             }
           ],
         },
