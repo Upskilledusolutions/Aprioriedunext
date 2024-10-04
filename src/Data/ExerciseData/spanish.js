@@ -1804,5 +1804,906 @@ export const quiz = [
       }
       
     ]
+  },
+  {
+    quiz: '7',
+    name: 'Spanish Exercise - 7',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+
+      {
+        "question": "How do you say \"I am happy\" in Spanish?",
+        "choices": ["Yo soy feliz", "Yo estoy feliz", "Yo eres feliz", "Yo son feliz"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say \"We are friends\" in Spanish?",
+        "choices": ["Nosotros somos amigos", "Ustedes son amigos", "Ellos son amigos", "Yo soy amigo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say \"You (formal) are my teacher\" in Spanish?",
+        "choices": [ "Usted es mi maestro", "Vos eres mi maestro", "Ellos son mis maestros", "Tú eres mi maestro",],
+        "type": "MCQs",
+        "correctAnswer": 4
+    },
+    {
+        "question": "How do you say \"They are students\" in Spanish?",
+        "choices": [ "Ellos son estudiante", "Nosotros somos estudiantes", "Ellas son estudiantes", "Tú eres estudiante"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say \"She is my sister\" in Spanish?",
+        "choices": ["Ella soy mi hermana", "Ella es mi hermana", "Ella son mi hermana", "Tú eres mi hermana"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say \"He is a doctor\" in Spanish?",
+        "choices": [ "Él es médico", "Él son médico", "Yo soy médico", "Él es doctora"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say \"They are happy\" in Spanish?",
+        "choices": ["Ellos son felices", "Ellas son feliz", "Tú eres feliz", "Usted es feliz"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say \"We are from Spain\" in Spanish?",
+        "choices": ["Somos de España", "Son de España", "Eres de España", "Estoy de España"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the feminine form of \"engineer\"?",
+        "choices": [ "Ingenieros", "Ingenieras", "Ingeniera", "Ingenierosas"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say \"Brazilian\" in Spanish for a woman?",
+        "choices": [ "Brasileño", "Brasileña", "Brasilianos", "Brasilianas"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the masculine form of \"teacher\"?",
+        "choices": ["Profesor", "Profesoras", "Profesores", "Profe"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say \"Cuban\" in Spanish for a man?",
+        "choices": [ "Cubana", "Cubanos", "Cubanas", "Cubano"],
+        "type": "MCQs",
+        "correctAnswer": 4
+    },
+    {
+        "question": "How do you say \"teacher\" in Spanish?",
+        "choices": ["Maestro", "Maestra", "Profesora", "Profesor"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say \"French\" in Spanish for a woman?",
+        "choices": ["Francesa", "Francés", "Franceses", "Francesas"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the masculine form of \"artist\"?",
+        "choices": [ "Artistas", "Artisto", "Artista", "Artistaso"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say \"Colombian\" in Spanish for a man?",
+        "choices": [ "Colombiana", "Colombianos", "Colombiano", "Colombianas"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say \"Peruvian\" in Spanish for a woman?",
+        "choices": [ "Peruano", "Peruanos", "Peruanas","Peruana"],
+        "type": "MCQs",
+        "correctAnswer": 4
+    },
+    {
+      "question": "What is the feminine form of \"doctor\"?",
+      "choices": ["Doctor", "Doctora", "Doctores", "Doctoras"],
+      "type": "MCQs",
+      "correctAnswer": 2
+  },
+  {
+      "question": "How do you say \"Spanish\" in Spanish for a woman?",
+      "choices": ["Español", "Españoles", "Españolas", "Española"],
+      "type": "MCQs",
+      "correctAnswer": 4
+  },
+  {
+      "question": "How do you say \"teacher\" in Spanish for a woman?",
+      "choices": ["Maestro", "Maestra", "Profesora", "Docente"],
+      "type": "MCQs",
+      "correctAnswer": 2
+  },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Yo ______ (to be) médico.",
+        "choices": ["soy", "estoy", "eres", "son"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Tú ______ (to be) mi hermana.",
+        "choices": ["eres", "soy", "estoy", "son"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ella ______ (to be) estudiante de arte.",
+        "choices": ["es", "soy", "eres", "son"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Nosotros ______ (to be) felices.",
+        "choices": ["somos", "son", "eres", "estamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ellos ______ (to be) de Colombia.",
+        "choices": ["son", "son", "están", "eres"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Me ______ (to call myself) Ana.",
+        "choices": ["llamo", "soy", "estoy", "eres"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Yo ______ (to have) una casa grande.",
+        "choices": ["tengo", "hay", "es", "eres"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Él ______ (to have) dos gatos.",
+        "choices": ["tiene", "tenemos", "hay", "es"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Nosotros ______ (to have) un coche nuevo.",
+        "choices": ["tenemos", "tienes", "tiene", "soy"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Tú ______ (to have) un buen amigo.",
+        "choices": ["tienes", "tenemos", "tiene", "es"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Mi nombre ______ (is) Pedro.",
+        "choices": ["es", "soy", "estoy", "eres"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Yo soy ______ (a nationality).",
+        "choices": ["chileno", "chilenos", "chilenes", "chilenos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ella es ______ (a profession).",
+        "choices": ["arquitecta", "arquitecto", "ingeniera", "ingeniero"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Yo soy ______ (a nationality).",
+        "choices": ["colombiano", "colombiana", "colombianos", "colombianas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Él es ______ (a profession).",
+        "choices": ["mecánico", "mecánica", "ingeniero", "ingeniera"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ella es ______ (a nationality).",
+        "choices": ["peruana", "peruano", "peruanos", "peruanas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Tú eres ______ (a profession).",
+        "choices": ["periodista", "periodistas", "periodistos", "periodistas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Yo soy ______ (masculine nationality).",
+        "choices": ["panameño, panameña", "panameña, panameño"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Él es ______ (masculine profession).",
+        "choices": ["dentista, dentista", "dentistas, dentistas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ellos son ______ (masculine nationality).",
+        "choices": ["venezolanos, venezolanas", "venezolana, venezolanos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Nacionalidad", "rightId": 1 },
+            "right": { "word": "Italian", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Profesia", "rightId": 2 },
+            "right": { "word": "Lawyer", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Mexicano", "rightId": 3 },
+            "right": { "word": "Happy", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Abogado", "rightId": 4 },
+            "right": { "word": "Mexican", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Española", "rightId": 5 },
+            "right": { "word": "Doctor", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Inglés", "rightId": 6 },
+            "right": { "word": "Teacher", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Médico", "rightId": 7 },
+            "right": { "word": "French", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Feliz", "rightId": 8 },
+            "right": { "word": "Mexican", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Italiano", "rightId": 9 },
+            "right": { "word": "English", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Francés", "rightId": 10 },
+            "right": { "word": "Spanish", "rightId": 5 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '8',
+    name: 'Spanish Exercise - 8',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+        {
+            "question": "What does \"pizarra\" mean?",
+            "choices": ["Desk", "Board", "Chair", "Pencil"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+        {
+          "question": "What is \"escritorio\" in English?",
+            "choices": ["Chair", "Desk", "Book", "Table"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+        {
+          "question": "Which word means \"book\"?",
+            "choices": ["Libro", "Lápiz", "Silla", "Pizarra"],
+            "type": "MCQs",
+            "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"chair\" in Spanish?",
+            "choices": ["Lápiz", "Silla", "Mesa", "Carpeta"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+        {
+          "question": "What does \"lápiz\" mean?",
+            "choices": ["Pen", "Pencil", "Eraser", "Marker"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+        {
+           "question": "Which word translates to \"desk\"?",
+            "choices": ["Silla", "Pizarra", "Mesa", "Escritorio"],
+            "type": "MCQs",
+            "correctAnswer": 4
+        },
+        {
+           "question": "How do you say \"paper\" in Spanish?",
+            "choices": ["Papel", "Libro", "Carpeta", "Tarea"],
+            "type": "MCQs",
+            "correctAnswer": 1
+        },
+        {
+          "question": "What does \"carpeta\" mean?",
+            "choices": ["Notebook", "Folder", "Book", "Desk"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+        {
+           "question": "How do you say \"Excuse me\" in Spanish?",
+            "choices": ["Disculpa", "Por favor", "Gracias", "Lo siento"],
+            "type": "MCQs",
+            "correctAnswer": 1
+        },
+        {
+          "question": "What does \"Lo siento\" mean?",
+            "choices": ["Thank you", "Please", "I’m sorry", "Excuse me"],
+            "type": "MCQs",
+            "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"Thank you\" in Spanish?",
+            "choices": ["Por favor", "Gracias", "Lo siento", "Disculpa"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+        {
+          "question": "What does \"No entiendo\" mean?",
+            "choices": ["I understand", "I don't understand", "I’m sorry", "Please"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+        {
+           "question": "How do you say \"Please\" in Spanish?",
+            "choices": ["Gracias", "Por favor", "Disculpa", "Lo siento"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+        {
+          "question": "What does \"Buenos días\" mean?",
+            "choices": ["Good night", "Good morning", "Good afternoon", "Goodbye"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+        {
+          "question": "How do you say \"How are you?\" in Spanish?",
+            "choices": ["¿Qué tal?", "¿Qué hora es?", "¿Dónde está?", "¿Qué día es?"],
+            "type": "MCQs",
+            "correctAnswer": 1
+        },
+        {
+          "question": "What does \"Puedo ir al baño\" mean?",
+            "choices": ["Can I go to the bathroom?", "Where is the bathroom?", "I need help.", "I don’t understand."],
+            "type": "MCQs",
+            "correctAnswer": 1
+        },
+        {
+          "question": "What day is today? (If today is Wednesday)",
+            "choices": ["Lunes", "Martes", "Miércoles", "Jueves"],
+            "type": "MCQs",
+            "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"January\" in Spanish?",
+            "choices": ["Febrero", "Marzo", "Enero", "Abril"],
+            "type": "MCQs",
+            "correctAnswer": 3
+        },
+        {
+          "question": "What is the season of the year after winter?",
+            "choices": ["Primavera", "Verano", "Otoño", "Invierno"],
+            "type": "MCQs",
+            "correctAnswer": 1
+        },
+        {
+          "question": "What does \"Hace frío\" mean?",
+            "choices": ["It's hot", "It's cold", "It's sunny", "It's rainy"],
+            "type": "MCQs",
+            "correctAnswer": 2
+        },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "La ______ (pencil) se llama \"lápiz\".",
+        "choices": ["lápiz", "escritorio", "libro", "pizarra"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "El ______ (desk) es de madera.",
+        "choices": ["escritorio", "libro", "pizarra", "silla"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "La ______ (book) está en la mesa.",
+        "choices": ["libro", "escritorio", "pizarra", "silla"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "El ______ (board) está en la pared.",
+        "choices": ["pizarra", "escritorio", "silla", "libro"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "La ______ (chair) es cómoda.",
+        "choices": ["silla", "libro", "pizarra", "escritorio"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (Please) pasa el lápiz.",
+        "choices": ["Por favor", "Gracias", "Disculpa", "Lo siento"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (Thank you) por tu ayuda.",
+        "choices": ["Gracias", "Por favor", "Disculpa", "Lo siento"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (Excuse me) tengo una pregunta.",
+        "choices": ["Disculpa", "Por favor", "Gracias", "Lo siento"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (I don’t understand) la tarea.",
+        "choices": ["No entiendo", "Lo siento", "Disculpa", "Gracias"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (I’m sorry) por llegar tarde.",
+        "choices": ["Lo siento", "Por favor", "Gracias", "Disculpa"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Estudiante: Hola, ¿cómo ______ (you)?",
+        "choices": ["estás", "eres", "tienes", "hay"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Profesor: ______ (Good morning) a todos.",
+        "choices": ["Buenos días", "Buenas tardes", "Buenas noches", "Hola"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Estudiante: ¿Puedo ______ (go) al baño?",
+        "choices": ["ir", "venir", "salir", "entrar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Profesor: Sí, ______ (go) rápido.",
+        "choices": ["ve", "vas", "voy", "vamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Estudiante: ¿Cuál es la ______ (homework) para mañana?",
+        "choices": ["tarea", "clase", "lección", "prueba"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (The) libro está en la mesa.",
+        "choices": ["El", "La", "Los", "Una"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (A) perro está afuera.",
+        "choices": ["Un", "Una", "El", "La"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (The) chicas son inteligentes.",
+        "choices": ["Las", "Los", "El", "Una"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (An) amigo es muy divertido.",
+        "choices": ["Un", "Una", "El", "Los"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (The) ventana está abierta.",
+        "choices": ["La", "El", "Los", "Una"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "La pizarra", "rightId": 1 },
+            "right": { "word": "Good morning", "rightId": 9 }
+          },
+          {
+            "left": { "word": "El lápiz", "rightId": 2 },
+            "right": { "word": "Homework", "rightId": 4 }
+          },
+          {
+            "left": { "word": "La silla", "rightId": 3 },
+            "right": { "word": "Please", "rightId": 8 }
+          },
+          {
+            "left": { "word": "La tarea", "rightId": 4 },
+            "right": { "word": "Chair", "rightId": 3 }
+          },
+          {
+            "left": { "word": "La mesa", "rightId": 5 },
+            "right": { "word": "Thank you", "rightId": 7 }
+          },
+          {
+            "left": { "word": "El escritorio", "rightId": 6 },
+            "right": { "word": "Book", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Gracias", "rightId": 7 },
+            "right": { "word": "Excuse me", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Por favor", "rightId": 8 },
+            "right": { "word": "Folder", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Buenos días", "rightId": 9 },
+            "right": { "word": "Desk", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Disculpa", "rightId": 10 },
+            "right": { "word": "Table", "rightId": 5 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '9',
+    name: 'Spanish Exercise - 9',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What does 'cumpleaños' mean in English?",
+        "choices": ["Birthday", "Anniversary", "Party", "Year"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If you were born on May 15, what is your zodiac sign?",
+        "choices": ["Capricornio", "Tauro", "Leo", "Piscis"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'party' in Spanish?",
+        "choices": ["Fiesta", "Evento", "Celebración", "Cumpleaños"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these zodiac signs is 'Virgo'?",
+        "choices": ["Aries", "Escorpio", "Virgo", "Acuario"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "If your sign is 'Leo', you were born in...",
+        "choices": ["Enero", "Julio o agosto", "Marzo", "Octubre"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What verb means 'cumplir' in English?",
+        "choices": ["To celebrate", "To fulfill", "To complete", "To turn (age)"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What zodiac sign corresponds to someone born on December 22?",
+        "choices": ["Sagitario", "Capricornio", "Leo", "Tauro"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "If you were born on April 1, your sign is...",
+        "choices": ["Aries", "Virgo", "Libra", "Acuario"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the verb 'tener' mean?",
+        "choices": ["To be", "To have", "To do", "To go"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How is the verb 'ser' conjugated in the first person singular?",
+        "choices": ["Soy", "Eres", "Es", "Somos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct verb in this sentence: 'Tú ______ (comer) en la escuela'?",
+        "choices": ["Comemos", "Comes", "Comen", "Como"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the appropriate pronoun for 'they' in Spanish?",
+        "choices": ["Tú", "Ellos", "Yo", "Nosotros"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'We are' in Spanish?",
+        "choices": ["Nosotros son", "Ellos son", "Nosotros somos", "Somos ellos"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What verb completes the sentence: 'Ellas ______ (hablar) español'?",
+        "choices": ["Hablas", "Hablamos", "Habla", "Hablan"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "How is the verb 'escribir' conjugated for 'yo'?",
+        "choices": ["Escribo", "Escribes", "Escribimos", "Escriben"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which verb means 'to write' in Spanish?",
+        "choices": ["Correr", "Leer", "Escribir", "Hablar"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say 'fifty' in Spanish?",
+        "choices": ["Cincuenta", "Veinte", "Setenta", "Treinta"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What number comes after forty-nine?",
+        "choices": ["Treinta", "Cincuenta", "Sesenta", "Cuarenta"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'twenty-five' in Spanish?",
+        "choices": ["Quince", "Veinticinco", "Treinta", "Cuarenta"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'one hundred' in Spanish?",
+        "choices": ["Veinte", "Ciento", "Cien", "Cincuenta"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Mi cumpleaños es el ______ (10) de marzo.",
+        "choices": ["diez", "veinte", "treinta", "cuarenta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella cumple ______ (25) años mañana.",
+        "choices": ["veinticinco", "quince", "treinta", "cincuenta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuándo es tu ______ (birthday)?",
+        "choices": ["cumpleaños", "aniversario", "fiesta", "día"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tengo una fiesta de cumpleaños el ______ (Saturday).",
+        "choices": ["sábado", "domingo", "lunes", "martes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi signo zodiacal es ______ (Leo) porque nací en agosto.",
+        "choices": ["Leo", "Piscis", "Aries", "Géminis"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vamos a celebrar el ______ (birthday) de mi hermano.",
+        "choices": ["cumpleaños", "fiesta", "celebración", "evento"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella es ______ (Pisces) porque nació en marzo.",
+        "choices": ["Piscis", "Leo", "Capricornio", "Escorpio"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si naciste en noviembre, tu signo es ______ (Scorpio).",
+        "choices": ["Escorpio", "Piscis", "Capricornio", "Leo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi padre es ______ (Capricorn) y su cumpleaños es en enero.",
+        "choices": ["Capricornio", "Leo", "Géminis", "Aries"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Gemini) es el signo de mi mejor amiga.",
+        "choices": ["Géminis", "Aries", "Piscis", "Capricornio"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______ (am) estudiante de español.",
+        "choices": ["soy", "estoy", "eres", "somos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (have) una clase de español.",
+        "choices": ["tenemos", "tengo", "tienes", "tienen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (are) muy simpáticos.",
+        "choices": ["son", "es", "somos", "eres"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (speak) francés muy bien.",
+        "choices": ["hablas", "hablo", "habla", "hablamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella ______ (writes) una carta a su amigo.",
+        "choices": ["escribe", "escribo", "escribes", "escribimos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi ______ (father) es ingeniero.",
+        "choices": ["padre", "hermano", "abuelo", "tío"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tengo dos ______ (brothers).",
+        "choices": ["hermanos", "primos", "hijos", "amigos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi ______ (sister) vive en España.",
+        "choices": ["hermana", "tía", "prima", "madre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Su ______ (mother) es profesora.",
+        "choices": ["madre", "padre", "hermana", "abuela"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis ______ (parents) son muy amables.",
+        "choices": ["padres", "hermanos", "amigos", "primos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Mi cumpleaños", "rightId": 1 },
+            "right": { "word": "Sister", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Cumplir años", "rightId": 2 },
+            "right": { "word": "My birthday", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Nací en abril", "rightId": 3 },
+            "right": { "word": "I am from Spain", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Escuela", "rightId": 4 },
+            "right": { "word": "Birthday", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Mi hermana", "rightId": 5 },
+            "right": { "word": "Forty", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Escorpio", "rightId": 6 },
+            "right": { "word": "To study", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Soy de España", "rightId": 7 },
+            "right": { "word": "To turn (age)", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Estudiar", "rightId": 8 },
+            "right": { "word": "Scorpio", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Cuarenta", "rightId": 9 },
+            "right": { "word": "I was born in April", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Cien", "rightId": 10 },
+            "right": { "word": "Zodiac sign", "rightId": 1 }
+          }
+        ]
+      }
+      
+    ]
   }
 ];

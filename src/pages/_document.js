@@ -8,7 +8,7 @@ export default function Document() {
         <link rel="icon" href="/fav.ico" />
         <meta property="og:image" content="/fav.ico" />
         <link rel="apple-touch-icon" href="/fav.ico"/>
-  <meta name="description" content="Upskilledu Solutions is an innovative language learning platform designed to help users master new languages through interactive and engaging lessons." />
+  <meta name="description" content="Upskilleduonline is an innovative language learning platform designed to help users master new languages through interactive and engaging lessons." />
   <meta name="keywords" content="upskilleduonline, Upskilledu Solutions, Upskilledu, Uspkilledu online, upskilledusolutions, upskilleduonline.com" />
   <meta name="author" content="Upskilleduonline" />
   <meta charSet="UTF-8" />

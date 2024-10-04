@@ -1779,4 +1779,886 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '7',
+      name: 'French Exercise - 7',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "How do you say \"I am happy\" in French?",
+          "choices": [ "Je suis heureux", "Je es heureux", "Tu es heureux", "Je suis triste",],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "How do you say \"We are friends\" in French?",
+          "choices": [ "Vous êtes amis", "Ils sont amis", "Nous sommes amis", "Je suis amis"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"You (formal) are my teacher\" in French?",
+          "choices": ["Tu es mon enseignant", "Vous êtes mon enseignant", "Ils sont mon enseignant", "Elle est mon enseignant"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say \"They are students\" in French?",
+          "choices": ["Elles sont étudiante", "Ils sont étudiants", "Nous sommes étudiants", "Je suis étudiants"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"She is my sister\" in French?",
+          "choices": ["Elle est ma sœur", "Elle est mon frère", "Je suis ma sœur", "Tu es ma sœur"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"He is a doctor\" in French?",
+          "choices": [ "Elle est docteur", "Ils sont docteurs", "Je suis docteur", "Il est docteur"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "How do you say \"They are happy\" in French?",
+          "choices": [ "Elles est heureuse", "Je suis heureuse", "Ils sont heureux", "Nous sont heureux"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"We are from Spain\" in French?",
+          "choices": [ "Vous êtes d'Espagne", "Ils sont d'Espagne", "Nous sommes d'Espagne", "Je suis d'Espagne"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the feminine form of \"engineer\"?",
+          "choices": [ "Ingénieur", "Ingénieurs", "Ingénieuses", "Ingénieure"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "How do you say \"Brazilian\" in French for a woman?",
+          "choices": [ "Brésilien","Brésilienne", "Brésiliens", "Brésiliennes"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the masculine form of \"teacher\"?",
+          "choices": ["Professeure", "Professeurs", "Professeur", "Professeur"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"Cuban\" in French for a man?",
+          "choices": ["Cubain", "Cubaine", "Cubains", "Cubaines"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the feminine form of \"singer\"?",
+          "choices": [ "Chanteurs", "Chanteuse", "Chanteuses", "Chanteur"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say \"Argentinian\" in French for a man?",
+          "choices": ["Argentin", "Argentine", "Argentins", "Argentines"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"American\" in French?",
+          "choices": [ "Américains", "Américaine", "Américain", "Américaines"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"nurse\" in French for a man?",
+          "choices": [ "Infirmières", "Infirmiers", "Infirmier", "Infirmier"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "How do you form the phrase \"They have a cat\" in French?",
+          "choices": ["Ils ont un chat", "Elles est un chat", "Nous avons un chat", "Je ai un chat"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"She is my friend\" in French?",
+          "choices": [ "Je suis mon amie", "Elle sont mon amie", "Elle est mon amie", "Tu es mon amie"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you form the phrase \"You have a book\" in French?",
+          "choices": [ "Tu est un livre", "Vous avez un livre", "Tu as un livre", "Ils ont un livre"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"We are students\" in French?",
+          "choices": [ "Vous êtes étudiants", "Ils sont étudiants", "Je suis étudiant", "Nous sommes étudiants"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+       
+    {
+      "question": "Je ______ (to be) heureux.",
+      "choices": ["suis", "es", "est", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Nous ______ (to be) amis.",
+      "choices": ["sommes", "êtes", "sont", "est"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Vous ______ (to be) mon enseignant.",
+      "choices": ["êtes", "sommes", "suis", "es"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Ils ______ (to be) étudiants.",
+      "choices": ["sont", "suis", "es", "est"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Elle ______ (to be) ma sœur.",
+      "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Il ______ (to be) docteur.",
+      "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Ils ______ (to be) heureux.",
+      "choices": ["sont", "est", "es", "suis"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Nous ______ (to be) d'Espagne.",
+      "choices": ["sommes", "êtes", "sont", "est"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Je ______ (to be) un ingénieur.",
+      "choices": ["suis", "est", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Elle ______ (to be) brésilienne.",
+      "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Il ______ (to be) cubain.",
+      "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Elle ______ (to be) chanteuse.",
+      "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Il ______ (to be) argentin.",
+      "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Je ______ (to be) américain.",
+      "choices": ["suis", "est", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Elle ______ (to be) infirmière.",
+      "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Ils ______ (to have) un chat.",
+      "choices": ["ont", "ai", "as", "a"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Elle ______ (to have) un livre.",
+      "choices": ["a", "ont", "ai", "as"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Vous ______ (to have) un chat.",
+      "choices": ["avez", "ont", "ai", "as"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Nous ______ (to have) un bon ami.",
+      "choices": ["avons", "avez", "a", "ont"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Tu ______ (to have) une maison.",
+      "choices": ["as", "a", "ai", "ont"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Nationalité", "rightId": 1 },
+              "right": { "word": "Canadian", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Profession", "rightId": 2 },
+              "right": { "word": "Doctor", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Français", "rightId": 3 },
+              "right": { "word": "English", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Avocat", "rightId": 4 },
+              "right": { "word": "French", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Espagnol", "rightId": 5 },
+              "right": { "word": "Canadian", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Anglais", "rightId": 6 },
+              "right": { "word": "Teacher", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Médecin", "rightId": 7 },
+              "right": { "word": "Lawyer", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Heureux", "rightId": 8 },
+              "right": { "word": "Spanish", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Italien", "rightId": 9 },
+              "right": { "word": "Happy", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Canadien", "rightId": 10 },
+              "right": { "word": "Italian", "rightId": 9 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '8',
+      name: 'French Exercise - 8',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "What does \"bureau\" mean?",
+          "choices": ["Chair", "Desk", "Notebook", "Pencil"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What does \"cahier\" mean in English?",
+          "choices": ["Pen", "Notebook", "Book", "Desk"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What does \"professeur\" mean?",
+          "choices": ["Student", "Teacher", "Classmate", "Principal"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "How do you say \"window\" in French?",
+          "choices": ["Porte", "Bureau", "Fenêtre", "Mur"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "What does \"stylo\" mean?",
+          "choices": ["Pencil", "Paper", "Pen", "Book"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "What does \"devoir\" mean?",
+          "choices": ["Homework", "Exam", "Lesson", "Notebook"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What does \"salle de classe\" mean?",
+          "choices": ["Classroom", "Library", "Cafeteria", "Playground"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What does \"école\" mean?",
+          "choices": ["School", "College", "University", "Institute"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What does \"S'il te plaît\" mean?",
+          "choices": ["Excuse me", "Please", "Thank you", "I'm sorry"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What does \"Merci\" mean?",
+          "choices": ["Sorry", "Please", "Thank you", "Excuse me"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "How do you say \"I don’t understand\" in French?",
+          "choices": ["Je suis désolé", "Je comprends", "Je ne comprends pas", "Excuse-moi"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "What does \"Je suis désolé\" mean?",
+          "choices": ["I'm sorry", "I don't know", "I'm happy", "I'm sad"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "How do you say \"Excuse me\" in French?",
+          "choices": ["Merci", "S'il te plaît", "Excuse-moi", "Je suis désolé"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "What does \"Bonjour\" mean?",
+          "choices": ["Goodbye", "Good night", "Hello", "Good morning"],
+          "type": "MCQs",
+          "correctAnswer": 4
+      },
+      {
+          "question": "What does \"Où est la salle de classe?\" mean?",
+          "choices": ["Where is the classroom?", "What is the homework?", "How are you?", "When is the exam?"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What does \"Puis-je aller aux toilettes?\" mean?",
+          "choices": ["Can I go to the library?", "Can I go to the bathroom?", "Can I go home?", "Can I go to class?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What day is today? (If today is Thursday)",
+          "choices": ["Lundi", "Mardi", "Jeudi", "Vendredi"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "How do you say \"February\" in French?",
+          "choices": ["Janvier", "Mars", "Février", "Avril"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "Which season follows summer?",
+          "choices": ["Printemps", "Automne", "Hiver", "Été"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What does \"Il fait chaud\" mean?",
+          "choices": ["It's cold", "It's warm", "It's hot", "It's rainy"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+       
+        {
+          "question": "Le ______ (desk) est en bois.",
+          "choices": ["bureau", "chaise", "cahier", "stylo"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "La ______ (notebook) est sur la table.",
+          "choices": ["cahier", "livre", "stylo", "fenêtre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Le ______ (teacher) explique la leçon.",
+          "choices": ["professeur", "élève", "livre", "devoir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "La ______ (window) est ouverte.",
+          "choices": ["fenêtre", "porte", "mur", "bureau"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Le ______ (pen) est sur le bureau.",
+          "choices": ["stylo", "crayon", "cahier", "livre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (Please) passe-moi le livre.",
+          "choices": ["S'il te plaît", "Merci", "Bonjour", "Excuse-moi"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (Thank you) pour ton aide.",
+          "choices": ["Merci", "S'il te plaît", "Bonjour", "Excuse-moi"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (Excuse me) j'ai une question.",
+          "choices": ["Excuse-moi", "S'il te plaît", "Merci", "Bonjour"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (I don't understand) la phrase.",
+          "choices": ["Je ne comprends pas", "Merci", "S'il te plaît", "Bonjour"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (I'm sorry) d'être en retard.",
+          "choices": ["Je suis désolé", "Excuse-moi", "Merci", "Bonjour"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Élève: Bonjour, comment ______ (are you)?",
+          "choices": ["ça va", "es-tu", "t'es", "suis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Professeur: ______ (Good morning) tout le monde.",
+          "choices": ["Bonjour", "Merci", "Salut", "Bonsoir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Élève: Puis-je ______ (go) à la bibliothèque?",
+          "choices": ["aller", "venir", "partir", "rester"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Professeur: Oui, ______ (go) vite.",
+          "choices": ["vas", "allez", "venez", "pars"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Élève: Quelle est la ______ (homework) pour demain?",
+          "choices": ["devoir", "leçon", "examen", "cours"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (The) livre est sur la table.",
+          "choices": ["Le", "La", "Un", "Les"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (A) chat est mignon.",
+          "choices": ["Un", "Le", "La", "Les"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (The) fleurs sont belles.",
+          "choices": ["Les", "Le", "Un", "Une"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (An) élève a oublié son livre.",
+          "choices": ["Un", "Une", "Le", "La"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+      {
+          "question": "______ (The) porte est fermée.",
+          "choices": ["La", "Le", "Les", "Un"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+      },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Un livre", "rightId": 1 },
+              "right": { "word": "To write", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Une craie", "rightId": 2 },
+              "right": { "word": "To read", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Un tableau", "rightId": 3 },
+              "right": { "word": "A teacher", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Un étudiant", "rightId": 4 },
+              "right": { "word": "Notebook", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Une règle", "rightId": 5 },
+              "right": { "word": "A book", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Un professeur", "rightId": 6 },
+              "right": { "word": "Chalk", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Une feuille de papier", "rightId": 7 },
+              "right": { "word": "Student", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Écrire", "rightId": 8 },
+              "right": { "word": "To draw", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Lire", "rightId": 9 },
+              "right": { "word": "To write", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Dessiner", "rightId": 10 },
+              "right": { "word": "A sheet of paper", "rightId": 5 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '9',
+      name: 'French Exercise - 9',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "What does 'anniversaire' mean in English?",
+          "choices": ["Anniversary", "Party", "Birthday", "Celebration"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "If you were born on May 10, your zodiac sign is...",
+          "choices": ["Gemini", "Taurus", "Aries", "Virgo"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "How do you say 'party' in French?",
+          "choices": ["Anniversaire", "Fête", "Soirée", "Célébration"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What is the zodiac sign of someone born in July?",
+          "choices": ["Aries", "Leo", "Cancer", "Libra"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "If your sign is 'Sagittarius', you were born in...",
+          "choices": ["December", "March", "June", "April"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "Which verb means 'to celebrate' in English?",
+          "choices": ["To celebrate", "To turn", "To complete", "To have"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What zodiac sign corresponds to a person born on January 22?",
+          "choices": ["Capricorn", "Aquarius", "Scorpio", "Pisces"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "If you were born on April 18, you are...",
+          "choices": ["Aries", "Taurus", "Sagittarius", "Libra"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What does the verb 'avoir' mean?",
+          "choices": ["To be", "To have", "To make", "To go"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What is the correct conjugation of the verb 'être' for 'je'?",
+          "choices": ["Suis", "Es", "Sommes", "Sont"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What pronoun is correct for 'we' in French?",
+          "choices": ["Ils", "Tu", "Nous", "Vous"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "How do you say 'I am' in French?",
+          "choices": ["Je suis", "Tu es", "Nous sommes", "Ils sont"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What verb completes this sentence: 'We ______ (have) a dog.'?",
+          "choices": ["As", "Avez", "Avons", "Ont"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "How do you conjugate the verb 'écrire' for 'tu'?",
+          "choices": ["Écris", "Écrit", "Écrivez", "Écrivons"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "What does the verb 'écrire' mean?",
+          "choices": ["To read", "To write", "To listen", "To watch"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "How do you say 'fifty' in French?",
+          "choices": ["Quarante", "Cinquante", "Soixante", "Vingt"],
+          "type": "MCQs",
+          "correctAnswer": 2
+      },
+      {
+          "question": "What number follows 'soixante-dix-neuf'?",
+          "choices": ["Quatre-vingts", "Soixante", "Cinquante", "Quatre-vingt-dix"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+      {
+          "question": "How do you say 'thirty-five' in French?",
+          "choices": ["Vingt-cinq", "Quarante-cinq", "Trente-cinq", "Cinquante-cinq"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+          "question": "How do you say 'one hundred' in French?",
+          "choices": ["Cent", "Mille", "Dix", "Cinq"],
+          "type": "MCQs",
+          "correctAnswer": 1
+      },
+       
+      {
+        "question": "Mon anniversaire est le ______ (5) juin.",
+        "choices": ["cinq","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Elle a ______ (30) ans aujourd'hui.",
+        "choices": ["trente","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Quand est ton ______ (birthday)?",
+        "choices": ["anniversaire","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Nous préparons une fête d'______ (birthday) pour mon ami.",
+        "choices": ["anniversaire","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "J'ai une fête d'anniversaire le ______ (Sunday).",
+        "choices": ["dimanche","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Mon signe astrologique est ______ (Cancer) parce que je suis né en juillet.",
+        "choices": ["Cancer","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Il est ______ (Sagittarius) car son anniversaire est en décembre.",
+        "choices": ["Sagittaire","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Si tu es né en octobre, tu es ______ (Libra).",
+        "choices": ["Balance","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ma mère est ______ (Aquarius), née en février.",
+        "choices": ["Verseau","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (Taurus) est le signe de mon frère.",
+        "choices": ["Taureau","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Je ______ (am) étudiant en français.",
+        "choices": ["suis","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Nous ______ (have) un cours de français aujourd'hui.",
+        "choices": ["avons","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ils ______ (are) très gentils.",
+        "choices": ["sont","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Tu ______ (speak) français très bien.",
+        "choices": ["parles","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Elle ______ (writes) une lettre à sa sœur.",
+        "choices": ["écrit","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Mon ______ (father) est médecin.",
+        "choices": ["père","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "J'ai deux ______ (sisters).",
+        "choices": ["sœurs","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ma ______ (mother) est avocate.",
+        "choices": ["mère","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ton ______ (brother) travaille en France.",
+        "choices": ["frère","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Leurs ______ (parents) sont très gentils.",
+        "choices": ["parents","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Anniversaire", "rightId": 1 },
+              "right": { "word": "To write", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Cancer", "rightId": 2 },
+              "right": { "word": "To have", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Écrire", "rightId": 3 },
+              "right": { "word": "Mother", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Frère", "rightId": 4 },
+              "right": { "word": "Father", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Nous avons", "rightId": 5 },
+              "right": { "word": "Birthday", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Mère", "rightId": 6 },
+              "right": { "word": "Cancer", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Parler", "rightId": 7 },
+              "right": { "word": "Brother", "rightId": 4 }
+            },
+            {
+              "left": { "word": "École", "rightId": 8 },
+              "right": { "word": "Student", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Élève", "rightId": 9 },
+              "right": { "word": "School", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Père", "rightId": 10 },
+              "right": { "word": "We have", "rightId": 5 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]

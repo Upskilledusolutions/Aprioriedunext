@@ -1813,4 +1813,925 @@ export const quiz = [
 
     ]
   },
+  {
+    quiz: '7',
+    name: 'German Exercise - 7',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "How do you say 'I am happy' in German?",
+        "choices": ["Ich bin traurig", "Ich bin glücklich", "Du bist glücklich", "Er ist glücklich"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say 'We are friends' in German?",
+        "choices": [ "Sie sind Freunde", "Du bist Freunde","Wir sind Freunde", "Ich bin Freunde"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say 'You (formal) are my teacher' in German?",
+        "choices": [ "Sie sind mein Lehrer", "Er ist mein Lehrer","Du bist mein Lehrer", "Wir sind mein Lehrer"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say 'They are students' in German?",
+        "choices": [ "Sie sind Studenten", "Wir sind Studenten", "Ich bin Studenten", "Sie sind Student",],
+        "type": "MCQs",
+        "correctAnswer": 4
+    },
+    {
+        "question": "How do you say 'She is my sister' in German?",
+        "choices": [ "Sie ist mein Bruder", "Ich bin meine Schwester", "Du bist meine Schwester", "Sie ist meine Schwester"],
+        "type": "MCQs",
+        "correctAnswer": 4
+    },
+    {
+        "question": "How do you say 'He is a doctor' in German?",
+        "choices": ["Er ist Arzt", "Sie ist Arzt", "Wir sind Arzt", "Ich bin Arzt"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say 'They are happy' in German?",
+        "choices": [ "Sie ist glücklich","Sie sind glücklich", "Ich bin glücklich", "Wir sind glücklich"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say 'We are from Spain' in German?",
+        "choices": ["Wir sind aus Spanien", "Sie sind aus Spanien", "Ich bin aus Spanien", "Du bist aus Spanien"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the feminine form of 'engineer'?",
+        "choices": [ "Ingenieure", "Ingenieuren","Ingenieurin", "Ingenieurein"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say 'Cuban' in German for a woman?",
+        "choices": [ "Kuban", "Kubanerin", "Kubanisches", "Kubanerin"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the masculine form of 'teacher'?",
+        "choices": [ "Lehrerinnen", "Lehrerinnen", "Lehrer", "Lehrerin"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say 'Brazilian' in German for a man?",
+        "choices": ["Brasilianer", "Brasilianerin", "Brasilianische", "Brasilianern"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is the feminine form of 'singer'?",
+        "choices": [ "Sänger", "Sängerinnen", "Sängerin", "Sängeren"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say 'Argentinian' in German for a man?",
+        "choices": [ "Argentinierin", "Argentinier", "Argentinische", "Argentiniern"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say 'American' in German?",
+        "choices": [ "Amerikanerin", "Amerikaner", "Amerikanische", "Amerikanern"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say 'nurse' in German for a man?",
+        "choices": [ "Krankenschwestern", "Krankenpflegerin", "Krankenpflegerin", "Krankenpfleger"],
+        "type": "MCQs",
+        "correctAnswer": 4
+    },
+    {
+        "question": "How do you form the sentence 'They have a cat' in German?",
+        "choices": [ "Sie haben eine Katze","Sie haben eine Katze", "Wir haben eine Katze", "Ich habe eine Katze"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say 'She is my friend' in German?",
+        "choices": [ "Ich bin meine Freundin","Sie ist meine Freundin", "Sie sind meine Freundin", "Du bist meine Freundin"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you form the sentence 'You have a book' in German?",
+        "choices": ["Du hast ein Buch", "Du bist ein Buch", "Sie haben ein Buch", "Wir haben ein Buch"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say 'We are students' in German?",
+        "choices": ["Wir sind Studenten", "Du bist Studenten", "Sie sind Studenten", "Ich bin Studenten"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich ______ (to be) ein Lehrer.",
+        "choices": ["bin", "bist", "ist", "sind"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Du ______ (to be) meine Freundin.",
+        "choices": ["bist", "bin", "ist", "sind"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Er ______ (to be) ein Student.",
+        "choices": ["ist", "bin", "bist", "sind"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Wir ______ (to be) glücklich.",
+        "choices": ["sind", "bist", "ist", "bin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Sie ______ (to be) aus Deutschland.",
+        "choices": ["sind", "bist", "ist", "bin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich ______ (to call myself) Anna.",
+        "choices": ["heiße", "bin", "habe", "ist"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich ______ (to have) einen Hund.",
+        "choices": ["habe", "hat", "bist", "sind"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Er ______ (to have) ein Buch.",
+        "choices": ["hat", "habe", "bist", "sind"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Wir ______ (to have) viele Freunde.",
+        "choices": ["haben", "hat", "habe", "bist"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Du ______ (to have) eine schöne Wohnung.",
+        "choices": ["hast", "hat", "bist", "sind"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Mein Name ______ (is) Peter.",
+        "choices": ["ist", "bin", "habe", "sind"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich bin ______ (a nationality).",
+        "choices": ["Deutscher", "deutscher", "deutsche", "deutsch"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Sie ist ______ (a profession).",
+        "choices": ["Ärztin", "arzt", "ärztin", "ärzte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich bin ______ (a nationality).",
+        "choices": ["Französin", "französisch", "franzosen", "franzose"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Er ist ______ (a profession).",
+        "choices": ["Tänzer", "tänzer", "tanzende", "tanz"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Er ist ______ (a nationality).",
+        "choices": ["Kanadier", "kanadisch", "kanadieren", "kanada"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Sie ist ______ (a profession).",
+        "choices": ["Lehrerin", "lehrer", "lehrerin", "lehren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich bin ______ (masculine nationality).",
+        "choices": ["Italiener", "italienisch", "italiener", "italienerin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Er ist ______ (masculine profession).",
+        "choices": ["Ingenieur", "ingenieur", "ingenieurin", "ingenieure"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Sie sind ______ (masculine nationality).",
+        "choices": ["Amerikaner", "amerikanisch", "amerikaner", "amerikanerin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Nationalität", "rightId": 1 },
+      "right": { "word": "Doctor", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Beruf", "rightId": 2 },
+      "right": { "word": "Italian", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Deutscher", "rightId": 3 },
+      "right": { "word": "Happy", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Ärztin", "rightId": 4 },
+      "right": { "word": "Canadian", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Spanier", "rightId": 5 },
+      "right": { "word": "English", "rightId": 6 }
+
+    },
+    {
+      "left": { "word": "Engländer", "rightId": 6 },
+      "right": { "word": "Spanish", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Arzt", "rightId": 7 },
+      "right": { "word": "German", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Glücklich", "rightId": 8 },
+      "right": { "word": "German", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Italiener", "rightId": 9 },
+      "right": { "word": "Teacher", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Kanadier", "rightId": 10 },
+      "right": { "word": "Doctor", "rightId": 4 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '8',
+    name: 'German Exercise - 8',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "What does \"Bleistift\" mean?",
+        "choices": ["Eraser", "Pencil", "Paper", "Pen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does \"Heft\" mean in English?",
+        "choices": ["Book", "Notebook", "Desk", "Chair"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does \"Lehrerin\" mean?",
+        "choices": ["Student", "Teacher", "Classmate", "Principal"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say \"window\" in German?",
+        "choices": ["Tür", "Tafel", "Fenster", "Wand"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What does \"Hausaufgabe\" mean?",
+        "choices": ["Homework", "Test", "Lesson", "Project"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does \"Schüler\" mean?",
+        "choices": ["Teacher", "Student", "Classroom", "Principal"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does \"Klasse\" mean?",
+        "choices": ["School", "Class", "Teacher", "Lesson"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does \"Tafel\" mean?",
+        "choices": ["Whiteboard", "Desk", "Blackboard", "Book"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What does \"Bitte\" mean?",
+        "choices": ["Thank you", "Excuse me", "Please", "I'm sorry"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What does \"Danke\" mean?",
+        "choices": ["Sorry", "Please", "Thank you", "Excuse me"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say \"I don't understand\" in German?",
+        "choices": ["Ich verstehe", "Ich verstehe nicht", "Ich bin müde", "Entschuldigung"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does \"Entschuldigung\" mean?",
+        "choices": ["I'm happy", "Excuse me", "Thank you", "Please"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say \"Good morning\" in German?",
+        "choices": ["Guten Tag", "Guten Abend", "Guten Morgen", "Gute Nacht"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What does \"Es tut mir leid\" mean?",
+        "choices": ["I am happy", "I am sorry", "I don't know", "I understand"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does \"Könnte ich zur Toilette gehen?\" mean?",
+        "choices": ["Can I go to the library?", "Can I go to the bathroom?", "Can I go home?", "Can I go to class?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What does \"Wie geht's dir?\" mean?",
+        "choices": ["Where are you?", "How are you?", "What do you want?", "Who are you?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What day is today?",
+        "choices": ["Montag", "Dienstag", "Mittwoch", "Donnerstag"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say \"April\" in German?",
+        "choices": ["März", "April", "Mai", "Juni"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "Which season comes after summer?",
+        "choices": ["Herbst", "Winter", "Frühling", "Sommer"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does \"Es ist kalt\" mean?",
+        "choices": ["It's hot", "It's warm", "It's cold", "It's raining"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Der ______ (pencil) liegt auf dem Tisch.",
+        "choices": ["Bleistift", "Papier", "Tafel", "Heft"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Das ______ (notebook) ist neu.",
+        "choices": ["Heft", "Bleistift", "Tafel", "Schüler"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Die ______ (teacher) ist freundlich.",
+        "choices": ["Lehrerin", "Schüler", "Bleistift", "Heft"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Das ______ (board) ist grün.",
+        "choices": ["Tafel", "Bleistift", "Heft", "Schüler"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Der ______ (student) lernt für die Prüfung.",
+        "choices": ["Schüler", "Lehrerin", "Tafel", "Heft"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (Please) helfen Sie mir.",
+        "choices": ["Bitte", "Danke", "Entschuldigung", "Tut mir leid"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (Thank you) für Ihre Unterstützung.",
+        "choices": ["Danke", "Bitte", "Entschuldigung", "Tut mir leid"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (Excuse me) ich habe eine Frage.",
+        "choices": ["Entschuldigung", "Danke", "Bitte", "Tut mir leid"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (I don’t understand) die Aufgabe.",
+        "choices": ["Ich verstehe nicht", "Ich bin müde", "Entschuldigung", "Danke"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (I'm sorry) für die Verspätung.",
+        "choices": ["Es tut mir leid", "Danke", "Bitte", "Entschuldigung"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Schüler: Hallo, wie ______ (are you)?",
+        "choices": ["geht's dir", "ist dir", "sind dir", "heißt dir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Lehrerin: ______ (Good morning) alle zusammen.",
+        "choices": ["Guten Morgen", "Guten Abend", "Guten Tag", "Gute Nacht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Schüler: Darf ich ______ (go) zur Toilette?",
+        "choices": ["gehen", "bleiben", "sitzen", "kommen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Lehrerin: Ja, ______ (go) schnell.",
+        "choices": ["geh", "komme", "bleib", "sitze"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Schüler: Was ist die ______ (homework) für morgen?",
+        "choices": ["Hausaufgabe", "Klasse", "Prüfung", "Lehrerin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (The) Buch liegt auf dem Tisch.",
+        "choices": ["Das", "Ein", "Die", "Der"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (A) Lehrer erklärt die Lektion.",
+        "choices": ["Ein", "Die", "Das", "Der"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (The) Stühle sind bequem.",
+        "choices": ["Die", "Das", "Ein", "Der"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (An) Apfel ist rot.",
+        "choices": ["Ein", "Das", "Die", "Der"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (The) Tür ist offen.",
+        "choices": ["Die", "Das", "Ein", "Der"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Der Bleistift", "rightId": 1 },
+      "right": { "word": "Thank you", "rightId": 8 }
+
+    },
+    {
+      "left": { "word": "Das Heft", "rightId": 2 },
+      "right": { "word": "Good morning", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Die Lehrerin", "rightId": 3 },
+      "right": { "word": "Please", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Die Tafel", "rightId": 4 },
+      "right": { "word": "Teacher", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Der Schüler", "rightId": 5 },
+      "right": { "word": "Pencil", "rightId": 1 }
+
+    },
+    {
+      "left": { "word": "Die Klasse", "rightId": 6 },
+      "right": { "word": "Student", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Bitte", "rightId": 7 },
+      "right": { "word": "Window", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Danke", "rightId": 8 },
+      "right": { "word": "Excuse me", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Guten Morgen", "rightId": 9 },
+      "right": { "word": "Notebook", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Entschuldigung", "rightId": 10 },
+      "right": { "word": "Classroom", "rightId": 6 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '9',
+    name: 'German Exercise - 9',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "What does \"Geburtstag\" mean in English?",
+        "choices": ["Anniversary", "Party", "Birthday", "Celebration"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "If you were born on February 12th, what is your zodiac sign?",
+        "choices": ["Aquarius", "Pisces", "Capricorn", "Libra"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say \"party\" in German?",
+        "choices": ["Feier", "Geburtstag", "Veranstaltung", "Fest"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What zodiac sign corresponds to someone born in August?",
+        "choices": ["Capricorn", "Libra", "Leo", "Gemini"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the German word for \"celebrate\"?",
+        "choices": ["Feiern", "Singen", "Tanzen", "Spielen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What is your zodiac sign if you were born in December?",
+        "choices": ["Scorpio", "Sagittarius", "Capricorn", "Libra"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What word means \"gift\" in German?",
+        "choices": ["Geschenk", "Überraschung", "Feier", "Einladung"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What zodiac sign corresponds to someone born in April?",
+        "choices": ["Aries", "Taurus", "Pisces", "Libra"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does the verb \"haben\" mean?",
+        "choices": ["To be", "To have", "To make", "To go"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you conjugate \"sein\" for \"ich\"?",
+        "choices": ["Bin", "Bist", "Sind", "Seid"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Which form of \"sprechen\" belongs to \"wir\"?",
+        "choices": ["Sprichst", "Sprechen", "Spricht", "Spreche"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "What is the correct pronoun for \"we\" in German?",
+        "choices": ["Ihr", "Du", "Wir", "Sie"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "How do you say \"I am\" in German?",
+        "choices": ["Du bist", "Wir sind", "Ich bin", "Sie sind"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+    {
+        "question": "What is the conjugated form of \"haben\" for \"wir\"?",
+        "choices": ["Habt", "Haben", "Hat", "Hatte"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you conjugate the verb \"schreiben\" for \"du\"?",
+        "choices": ["Schreibst", "Schreibe", "Schreiben", "Schreibt"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What does the verb \"schreiben\" mean?",
+        "choices": ["To read", "To write", "To listen", "To watch"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+        "question": "How do you say \"fifty\" in German?",
+        "choices": ["Fünfzig", "Sechzig", "Vierzig", "Dreißig"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "What number follows \"neunundneunzig\"?",
+        "choices": ["Hundert", "Achtzig", "Siebzig", "Sechsundneunzig"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say \"thirty-five\" in German?",
+        "choices": ["Fünfunddreißig", "Vierunddreißig", "Dreiunddreißig", "Zweiunddreißig"],
+        "type": "MCQs",
+        "correctAnswer": 1
+    },
+    {
+        "question": "How do you say \"one hundred\" in German?",
+        "choices": ["Eins", "Zwei", "Hundert", "Tausend"],
+        "type": "MCQs",
+        "correctAnswer": 3
+    },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Mein ______ (birthday) ist am 10. Mai.",
+        "choices": ["Geburtstag", "Jahr", "Monat", "Woche"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich habe am ______ (30) Geburtstag gefeiert.",
+        "choices": ["dreißig", "vierzig", "fünfzig", "sechzig"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Wann ist dein ______ (birthday)?",
+        "choices": ["Geburtstag", "Tag", "Jahr", "Monat"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Wir machen eine ______ (party) für meinen Freund.",
+        "choices": ["Party", "Feier", "Veranstaltung", "Zeremonie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich bekomme ein Geschenk zu meinem ______ (birthday).",
+        "choices": ["Geburtstag", "Geschenk", "Tag", "Jahr"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Mein Sternzeichen ist ______ (Leo), weil ich im August geboren bin.",
+        "choices": ["Löwe", "Stier", "Widder", "Zwilling"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Er ist ______ (Gemini), da sein Geburtstag im Juni ist.",
+        "choices": ["Zwilling", "Löwe", "Widder", "Krebs"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Wenn du im Oktober geboren bist, bist du ______ (Libra).",
+        "choices": ["Waage", "Skorpion", "Jungfrau", "Löwe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Meine Mutter ist ______ (Aquarius), sie wurde im Februar geboren.",
+        "choices": ["Wassermann", "Fische", "Stier", "Widder"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "______ (Taurus) ist das Zeichen meines Bruders.",
+        "choices": ["Stier", "Waage", "Zwilling", "Löwe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich ______ (am) Student in Deutsch.",
+        "choices": ["bin", "habe", "gehe", "schreibe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Wir ______ (have) einen Deutschkurs heute.",
+        "choices": ["haben", "sind", "gehen", "spricht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Sie ______ (are) sehr freundlich.",
+        "choices": ["sind", "haben", "gehen", "schreiben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Du ______ (speak) gut Deutsch.",
+        "choices": ["sprichst", "sprich", "sprichst", "sprich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Sie ______ (write) einen Brief an ihre Schwester.",
+        "choices": ["schreibt", "schreibe", "schreiben", "schreib"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Mein ______ (father) ist Lehrer.",
+        "choices": ["Vater", "Mutter", "Bruder", "Schwester"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ich habe zwei ______ (sisters).",
+        "choices": ["Schwestern", "Brüder", "Väter", "Mütter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Meine ______ (mother) ist Ärztin.",
+        "choices": ["Mutter", "Vater", "Schwester", "Bruder"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Dein ______ (brother) arbeitet in Deutschland.",
+        "choices": ["Bruder", "Schwester", "Vater", "Mutter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ihre ______ (parents) sind sehr nett.",
+        "choices": ["Eltern", "Brüder", "Schwestern", "Tanten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Geburtstag", "rightId": 1 },
+      "right": { "word": "School", "rightId": 8 }
+
+    },
+    {
+      "left": { "word": "Löwe", "rightId": 2 },
+      "right": { "word": "Student", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Schreiben", "rightId": 3 },
+      "right": { "word": "To have", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Bruder", "rightId": 4 },
+      "right": { "word": "To write", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Wir haben", "rightId": 5 },
+      "right": { "word": "Birthday", "rightId": 1 }
+
+    },
+    {
+      "left": { "word": "Mutter", "rightId": 6 },
+      "right": { "word": "We have", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Sprechen", "rightId": 7 },
+      "right": { "word": "Brother", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Schule", "rightId": 8 },
+      "right": { "word": "Father", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Schüler", "rightId": 9 },
+      "right": { "word": "Leo", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Vater", "rightId": 10 },
+      "right": { "word": "Mother", "rightId": 6 }
+      
+    }
+  ]
+}
+    ]
+  },
 ];
