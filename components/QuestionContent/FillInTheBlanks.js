@@ -15,7 +15,7 @@ const FillInTheBlanksComponent = ({ question, onAnswerSelected, isSubmitted, onN
 
   // Function to handle form submission
   const handleSubmit = () => {
-    const isCorrect = userInput.trim() === choices[correctAnswer - 1];
+    const isCorrect = userInput.trim().toLowerCase() === choices[correctAnswer - 1].toLowerCase();
     setUserInput('')
     onAnswerSelected(userInput.trim(), correctAnswer);
     setTimeout(() => {

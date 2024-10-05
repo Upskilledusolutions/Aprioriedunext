@@ -317,8 +317,8 @@ export const quiz = [
           correctAnswer: 2,
         },
         {
-          question: "What is the French word for the letter 'F'?",
-          choices: ['É', 'Effe', 'Té', 'Pé'],
+          question: "What is the French letter for the pronunciation 'Effe'?",
+          choices: ['M', 'F', 'T', 'P'],
           type: 'MCQs',
           correctAnswer: 2,
         },
@@ -329,8 +329,8 @@ export const quiz = [
           correctAnswer: 1,
         },
         {
-          question: "What is the French word for the letter 'M'?",
-          choices: ['Émme', 'Em', 'Am', 'Emme'],
+          question: "What is the letter for the French pronunciation 'Emme'?",
+          choices: ['N', 'R', 'D', 'M'],
           type: 'MCQs',
           correctAnswer: 4,
         },
@@ -341,8 +341,8 @@ export const quiz = [
           correctAnswer: 2,
         },
         {
-          question: "What is the French word for the letter L?",
-          choices: ['El', 'Élle', 'Elle', 'Éle'],
+          question: "What is the letter for the French pronunciation 'El'?",
+          choices: ['L', 'K', 'F', 'U'],
           type: 'MCQs',
           correctAnswer: 1,
         },
@@ -359,10 +359,10 @@ export const quiz = [
           correctAnswer: 2,
         },
         {
-          question: "How do you say the letter 'Y' in French?",
-          choices: ['I', 'Y', 'I grec', 'I lat'],
+          question: "How do you say the letter 'H' in French?",
+          choices: ['Hache', 'Ach', 'H', 'Hechy'],
           type: 'MCQs',
-          correctAnswer: 3,
+          correctAnswer: 2,
         },
         {
           question: "What is the French word for the number 'nine'?",
@@ -372,7 +372,7 @@ export const quiz = [
         },
         {
           question: "How do you say the letter 'Q' in French?",
-          choices: ['Ku', 'Ké', 'Qu', 'Ké'],
+          choices: ['Ku', 'Ké', 'Qu', 'Ki'],
           type: 'MCQs',
           correctAnswer: 2,
         },
@@ -384,7 +384,7 @@ export const quiz = [
         },
         {
           question: "How do you say the letter 'H' in French?",
-          choices: ['Hache', 'Ach', 'H', 'Hech'],
+          choices: ['Hache', 'Ach', 'H', 'Hechy'],
           type: 'MCQs',
           correctAnswer: 2,
         },
@@ -413,21 +413,21 @@ export const quiz = [
           correctAnswer: 3,
         },
         {
-          question: "What is the French word for the letter 'T'?",
-          choices: ['Té', 'Te', 'T', 'Tee'],
+          question: "What is the French letter for the pronunciation 'Té'?",
+          choices: ['H', 'T', 'P', 'O'],
           type: 'MCQs',
-          correctAnswer: 1,
+          correctAnswer: 2,
         },
         {
           question: "How do you say the number 'seventeen' in French?",
           choices: ['Quinze', 'Seize', 'Dix-sept', 'Dix-huit'],
           type: 'MCQs',
-          correctAnswer: 2,
+          correctAnswer: 3,
         },
        
         {
-          "question": "The letter 'B' in French is called ______.",
-          "choices": ["Bé", "Dé", "Cinq", "El"],
+          "question": "'Bé' is the French letter for ______.",
+          "choices": ["B", "Dé", "Cinq", "El"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -438,8 +438,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'D' in French is called ______.",
-          "choices": ["Dé", "Bé", "El", "Gé"],
+          "question": "'Dé' is the French letter for ______.",
+          "choices": ["D", "Bé", "El", "Gé"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -450,8 +450,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'R' in French is pronounced as ______.",
-          "choices": ["Ér", "Gé", "Bé", "Dé"],
+          "question": "'Ér' is the French pronunciation for English letter ______.",
+          "choices": ["R", "Gé", "Bé", "Dé"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -462,8 +462,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'V' in French is pronounced as ______.",
-          "choices": ["Vé", "Dé", "Ér", "Gé"],
+          "question": "The pronunciation 'Vé' in French is the letter ______ in English.",
+          "choices": ["V", "Dé", "Ér", "Gé"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -474,8 +474,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'G' in French is pronounced as ______.",
-          "choices": ["Gé", "Vé", "Bé", "Dé"],
+          "question": "The pronunciation 'Gé' in French is the letter ______ in English.",
+          "choices": ["G", "Vé", "Bé", "Dé"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -486,8 +486,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'Y' in French is called ______.",
-          "choices": ["Y grec", "El", "Ér", "Dé"],
+          "question": "The number 9 in French is ______.",
+          "choices": ["neuf", "Dix", "Quatre", "Quatorze"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -504,7 +504,7 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'L' in French is ______.",
+          "question": "The letter 'L' in French is pronounced as ______.",
           "choices": ["El", "Bé", "Dé", "Ér"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -528,8 +528,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'W' in French is pronounced as ______.",
-          "choices": ["Double vé", "Gé", "Dé", "Bé"],
+          "question": "The pronunciation 'Double vé' in French is for the letter ______.",
+          "choices": ["W", "Gé", "Dé", "Bé"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -899,55 +899,55 @@ export const quiz = [
       questions: [
         {
           "question": "How do you say 'uncle' in French?",
-          "choices": ["Father", "Uncle", "Cousin", "Brother"],
+         "choices": ["père", "oncle", "cousin", "frère"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What is the French word for 'daughter'?",
-          "choices": ["Mother", "Daughter", "Sister", "Aunt"],
+         "choices": ["mère", "fille", "sœur", "tante"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What do you call your father's brother?",
-          "choices": ["Uncle", "Father", "Cousin", "Grandfather"],
+          "choices": ["oncle", "père", "cousin", "grand-père"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "What is the French word for 'grandson'?",
-          "choices": ["Son", "Grandson", "Nephew", "Brother"],
+          "choices": ["fils", "petit-fils", "neveu", "frère"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What is the correct conjugation of the verb 'manger' (to eat) for 'nous'?",
-          "choices": ["Mange", "Mangeons", "Mangent", "Manges"],
+          "choices": ["mange", "mangeons", "mangent", "manges"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What is the correct conjugation of the verb 'parler' (to speak) for 'ils'?",
-          "choices": ["Parlons", "Parlez", "Parlent", "Parles"],
+          "choices": ["parlons", "Parlez", "Parlent", "Parles"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
           "question": "What is the present tense of the verb 'aller' (to go) for 'vous'?",
-          "choices": ["Allez", "Allons", "Vont", "Vas"],
+          "choices": ["allez", "allons", "vont", "vas"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "What is the form of the verb 'finir' (to finish) for 'je'?",
-          "choices": ["Finis", "Finit", "Finissons", "Finissez"],
+          "choices": ["finis", "finit", "finissons", "finissez"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "What is the correct conjugation of the verb 'prendre' (to take) for 'elle'?",
-          "choices": ["Prend", "Prenons", "Prenez", "Prennent"],
+          "choices": ["prend", "prenons", "prenez", "prennent"],
           "type": "MCQs",
           "correctAnswer": 1
         },
@@ -959,61 +959,61 @@ export const quiz = [
         },
         {
           "question": "What pronoun is used for 'they' (masculine) in French?",
-          "choices": ["They (feminine)", "They (masculine)", "You", "We"],
+          "choices": ["Ils (féminin)", "Ils (masculin)", "Vous", "Nous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'we' (feminine)?",
-          "choices": ["They (masculine)", "We (feminine)", "They (feminine)", "You"],
+          "choices": ["Ils (masculin)", "Nous (féminin)", "Elles (féminin)", "Vous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'he'?",
-          "choices": ["She", "You", "He", "We"],
+          "choices": ["Elle", "Vous", "Il", "Nous"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
           "question": "What pronoun is used for 'you' (informal)?",
-          "choices": ["You (formal)", "You (informal)", "He", "She"],
+          "choices": ["Vous (formel)", "Tu (informel)", "Il", "Elle"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'they' (feminine)?",
-          "choices": ["They (feminine)", "They (masculine)", "You (formal)", "We"],
+          "choices": ["Elles (féminin)", "Ils (masculin)", "Vous (formel)", "Nous"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "What pronoun is used for 'you all' (formal)?",
-          "choices": ["You (informal)", "You all (formal)", "They (feminine)", "We"],
+          "choices": ["Tu (informel)", "Vous tous (formel)", "Elles (féminin)", "Nous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'we' (masculine)?",
-          "choices": ["They (masculine)", "We (masculine)", "They (feminine)", "You all (formal)"],
+          "choices": ["Ils (masculin)", "Nous (masculin)", "Elles (féminin)", "Vous tous (formel)"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'I'?",
-          "choices": ["You", "He", "I", "We"],
+          "choices": ["Vous", "Il", "Je", "Nous"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
           "question": "What pronoun is used for 'you' (formal, singular)?",
-          "choices": ["You (informal)", "You (formal)", "He", "We"],
+          "choices": ["Tu (informel)", "Vous (formel)", "Il", "Nous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'she'?",
-          "choices": ["She", "He", "You (informal)", "We"],
+          "choices": ["Elle", "Il", "Vous (informel)", "Nous"],
           "type": "MCQs",
           "correctAnswer": 1
         },
