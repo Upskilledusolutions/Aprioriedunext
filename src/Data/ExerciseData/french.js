@@ -1195,7 +1195,7 @@ export const quiz = [
       questions: [
         {
           "question": "How do you say 'cousin' in French (masculine)?",
-          "choices": ["Brother", "Nephew", "Cousin", "Uncle"],
+          "choices": ["Frère", "Neveu", "Cousin", "Oncle"],
           "type": "MCQs",
           "correctAnswer": 3
         },
@@ -1207,13 +1207,13 @@ export const quiz = [
         },
         {
           "question": "What is the French word for 'brother-in-law'?",
-          "choices": ["Son-in-law", "Brother-in-law", "Cousin", "Nephew"],
+          "choices": ["Gendre", "Beau-frère", "Cousin", "Neveu"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What word describes 'the daughter of your brother'?",
-          "choices": ["Niece", "Daughter", "Cousin", "Aunt"],
+          "choices": ["Nièce", "Fille", "Cousine", "Tante"],
           "type": "MCQs",
           "correctAnswer": 1
         },
@@ -1261,49 +1261,49 @@ export const quiz = [
         },
         {
           "question": "What is the subject pronoun for 'she' in French?",
-          "choices": ["He", "She", "They (masculine)", "You"],
+         "choices": ["Il", "Elle", "Ils", "Vous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What subject pronoun is used for 'you' (informal)?",
-          "choices": ["You (informal)", "You (formal)", "They (masculine)", "We"],
+          "choices": ["Tu (informel)", "Vous (formel)", "Ils", "Nous"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "What subject pronoun corresponds to 'they' (feminine)?",
-          "choices": ["They (masculine)", "They (feminine)", "We", "You"],
+          "choices": ["Ils", "Elles", "Nous", "Vous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What subject pronoun is used for 'he' in French?",
-          "choices": ["She", "We", "He", "You"],
+          "choices": ["Elle", "Nous", "Il", "Vous"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
           "question": "What subject pronoun is used for 'they' (masculine)?",
-          "choices": ["They (feminine)", "You", "They (masculine)", "We"],
+          "choices": ["Elles", "Vous", "Ils", "Nous"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
           "question": "What subject pronoun corresponds to 'I' in French?",
-          "choices": ["He", "I", "You", "We"],
+          "choices": ["Il", "Je", "Tu", "Nous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What subject pronoun corresponds to 'you' (formal)?",
-          "choices": ["You (formal)", "You (informal)", "They (masculine)", "We"],
+          "choices": ["Vous (formel)", "Tu (informel)", "Ils", "Nous"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "How do you say 'thirty-five' in French?",
-          "choices": ["Thirty-eight", "Thirty-five", "Forty-five", "Twenty-five"],
+          "choices": ["Trente-huit", "Trente-cinq", "Quarante-cinq", "Vingt-cinq"],
           "type": "MCQs",
           "correctAnswer": 2
         },
