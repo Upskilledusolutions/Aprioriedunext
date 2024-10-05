@@ -427,8 +427,8 @@ export const quiz = [
 
       // 20 Fill in the Blanks
       {
-        "question": "The letter 'J' in German is called ______.",
-        "choices": ["Jott", "Ka", "El", "En"],
+        "question": "The Pronunciation 'Jott' in German is for letter ______.",
+        "choices": ["J", "Ka", "El", "En"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -439,7 +439,7 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'K' in German is called ______.",
+        "question": "The letter 'K' in German is pronounced as ______.",
         "choices": ["Ka", "Jott", "Te", "O"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -463,7 +463,7 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'N' in German is called ______.",
+        "question": "The letter 'N' in German is pronounced as ______.",
         "choices": ["En", "Ef", "Er", "Te"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -475,7 +475,7 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'O' in German is called ______.",
+        "question": "The letter 'O' in German is pronounced as ______.",
         "choices": ["O", "Jott", "Te", "El"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -499,7 +499,7 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'S' in German is called ______.",
+        "question": "The letter 'S' in German is pronounced as ______.",
         "choices": ["Es", "Er", "Ef", "O"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -517,8 +517,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'Q' in German is called ______.",
-        "choices": ["Ku", "Te", "Jott", "Er"],
+        "question": "The pronunciation 'Ku' in German is for letter ______.",
+        "choices": ["K", "Te", "Jott", "Er"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -541,8 +541,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'F' in German is called ______.",
-        "choices": ["Ef", "Er", "Te", "Es"],
+        "question": "The pronunciation 'Ef' in German is for letter ______.",
+        "choices": ["f", "Er", "Te", "Es"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

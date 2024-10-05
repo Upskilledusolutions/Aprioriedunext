@@ -433,7 +433,7 @@ export const quiz = [
       // 20 Fill in the Blanks
 
       {
-        "question": "The letter 'B' in Spanish is called ______.",
+        "question": "The letter 'B' in Spanish is pronounced as ______.",
         "choices": ["be", "ce", "de", "e"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -457,8 +457,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'Ñ' in Spanish is called ______.",
-        "choices": ["eñe", "ene", "ele", "eme"],
+        "question": "The pronunciation 'eñe' in Spanish is for ______.",
+        "choices": ["N", "ene", "ele", "eme"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -493,8 +493,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'R' in Spanish has a ______ sound.",
-        "choices": ["rolled", "soft", "hard", "silent"],
+        "question": "The number 2 in Spanish is ______.",
+        "choices": ["dos", "does", "tres", "cuatro"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -505,7 +505,7 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'G' before 'e' or 'i' is pronounced as ______.",
+        "question": "The letter 'G' before 'e' or 'i' is pronounced as ______ (heh or geh).",
         "choices": ["heh", "geh", "hah", "jeh"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
