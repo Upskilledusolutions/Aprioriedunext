@@ -2385,7 +2385,7 @@ export const quiz = [
       },
       {
           "question": "If you were born on May 10, your zodiac sign is...",
-          "choices": ["Gemini", "Taurus", "Aries", "Virgo"],
+          "choices": ["Gémeaux", "Taureau", "Bélier", "Vierge"],
           "type": "MCQs",
           "correctAnswer": 2
       },
@@ -2397,31 +2397,31 @@ export const quiz = [
       },
       {
           "question": "What is the zodiac sign of someone born in July?",
-          "choices": ["Aries", "Leo", "Cancer", "Libra"],
+          "choices": ["Bélier", "Lion", "Cancer", "Balance"],
           "type": "MCQs",
           "correctAnswer": 3
       },
       {
           "question": "If your sign is 'Sagittarius', you were born in...",
-          "choices": ["December", "March", "June", "April"],
+          "choices": ["Décembre", "Mars", "Juin", "Avril"],
           "type": "MCQs",
           "correctAnswer": 1
       },
       {
-          "question": "Which verb means 'to celebrate' in English?",
+          "question": "Which verb means 'célébrer' in English?",
           "choices": ["To celebrate", "To turn", "To complete", "To have"],
           "type": "MCQs",
           "correctAnswer": 1
       },
       {
           "question": "What zodiac sign corresponds to a person born on January 22?",
-          "choices": ["Capricorn", "Aquarius", "Scorpio", "Pisces"],
+          "choices": ["Capricorne", "Verseau", "Scorpion", "Poissons"],
           "type": "MCQs",
           "correctAnswer": 2
       },
       {
           "question": "If you were born on April 18, you are...",
-          "choices": ["Aries", "Taurus", "Sagittarius", "Libra"],
+          "choices": ["Bélier", "Taureau", "Sagittaire", "Balance"],
           "type": "MCQs",
           "correctAnswer": 1
       },
@@ -2450,7 +2450,7 @@ export const quiz = [
           "correctAnswer": 1
       },
       {
-          "question": "What verb completes this sentence: 'We ______ (have) a dog.'?",
+          "question": "What verb completes this sentence: 'Nous ______ (have) un chien.'?",
           "choices": ["As", "Avez", "Avons", "Ont"],
           "type": "MCQs",
           "correctAnswer": 3

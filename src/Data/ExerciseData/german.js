@@ -2442,7 +2442,7 @@ export const quiz = [
     },
     {
         "question": "If you were born on February 12th, what is your zodiac sign?",
-        "choices": ["Aquarius", "Pisces", "Capricorn", "Libra"],
+        "choices": ["Wassermann", "Fische", "Steinbock", "Waage"],
         "type": "MCQs",
         "correctAnswer": 1
     },
@@ -2454,7 +2454,7 @@ export const quiz = [
     },
     {
         "question": "What zodiac sign corresponds to someone born in August?",
-        "choices": ["Capricorn", "Libra", "Leo", "Gemini"],
+        "choices": ["Steinbock", "Waage", "Löwe", "Zwillinge"],
         "type": "MCQs",
         "correctAnswer": 3
     },
@@ -2466,7 +2466,7 @@ export const quiz = [
     },
     {
         "question": "What is your zodiac sign if you were born in December?",
-        "choices": ["Scorpio", "Sagittarius", "Capricorn", "Libra"],
+        "choices": ["Skorpion", "Schütze", "Steinbock", "Waage"],
         "type": "MCQs",
         "correctAnswer": 3
     },
@@ -2478,7 +2478,7 @@ export const quiz = [
     },
     {
         "question": "What zodiac sign corresponds to someone born in April?",
-        "choices": ["Aries", "Taurus", "Pisces", "Libra"],
+        "choices": ["Widder", "Stier", "Fische", "Waage"],
         "type": "MCQs",
         "correctAnswer": 1
     },
