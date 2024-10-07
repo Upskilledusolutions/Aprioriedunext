@@ -32,7 +32,8 @@ export default function Conversation({ params }) {
       if (currentIndex !== -1 && currentIndex < youdata.length - 1) {
         const nextPageId = youdata[currentIndex + 1].id;
         if (!unlockedPages.includes(nextPageId)) {
-          dispatch(unlockPage({ subject, pageId: nextPageId }));
+          const multiple = [nextPageId, youdata[currentIndex + 2]?.id, youdata[currentIndex + 3]?.id, youdata[currentIndex + 4]?.id, youdata[currentIndex + 5]?.id]
+          dispatch(unlockPage({ subject, pageId: multiple }));
         }
       }
     }

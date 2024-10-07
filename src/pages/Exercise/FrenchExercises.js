@@ -38,7 +38,6 @@ export default function FrenchQuizes() {
           <div className={styles.cards1}>
             {quiz.map((data, index) => {
               const isUnlocked = unlockedPages.includes(data.quiz);
-              console.log(isUnlocked)
               // Determine if the quiz should be locked
               const isLocked = !isAuthenticated && index > 1;
               return (

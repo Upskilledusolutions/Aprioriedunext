@@ -129,9 +129,9 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
       const currentIndex = quiz.findIndex((page) => page.quiz === id);
       if (currentIndex !== -1 && currentIndex < quiz.length - 1) {
         const nextPageId = quiz[currentIndex + 1].quiz;
-        console.log(nextPageId)
         if (!unlockedPages.includes(nextPageId)) {
-          dispatch(unlockExercise({ subject, exerciseId: nextPageId }));
+          const multiple = [nextPageId, quiz[currentIndex + 2]?.quiz, quiz[currentIndex + 3]?.quiz, quiz[currentIndex + 4]?.quiz, quiz[currentIndex + 5]?.quiz]
+          dispatch(unlockExercise({ subject, exerciseId: multiple }));
         }
       }
     }

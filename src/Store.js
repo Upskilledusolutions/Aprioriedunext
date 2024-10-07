@@ -33,13 +33,13 @@ const unlockedPagesSlice = createSlice({
   initialState: {
     unlockedPagesFrench: typeof window !== "undefined" && localStorage.getItem('unlockedPagesFrench')
       ? JSON.parse(localStorage.getItem('unlockedPagesFrench'))
-      : ["1"],
+      : ["1","2","3","4","5"],
     unlockedPagesSpanish: typeof window !== "undefined" && localStorage.getItem('unlockedPagesSpanish')
       ? JSON.parse(localStorage.getItem('unlockedPagesSpanish'))
-      : ["1"],
+      : ["1","2","3","4","5"],
     unlockedPagesGerman: typeof window !== "undefined" && localStorage.getItem('unlockedPagesGerman')
       ? JSON.parse(localStorage.getItem('unlockedPagesGerman'))
-      : ["1"],
+      : ["1","2","3","4","5"],
   },
   reducers: {
     unlockPage: (state, action) => {
@@ -49,20 +49,20 @@ const unlockedPagesSlice = createSlice({
       switch (subject) {
         case 'French':
           unlockedPages = state.unlockedPagesFrench;
-          if (!unlockedPages.includes(pageId)) {
-            state.unlockedPagesFrench.push(pageId);
+          if (!unlockedPages.includes(...pageId)) {
+            state.unlockedPagesFrench.push(...pageId);
           }
           break;
         case 'Spanish':
           unlockedPages = state.unlockedPagesSpanish;
-          if (!unlockedPages.includes(pageId)) {
-            state.unlockedPagesSpanish.push(pageId);
+          if (!unlockedPages.includes(...pageId)) {
+            state.unlockedPagesSpanish.push(...pageId);
           }
           break;
         case 'German':
           unlockedPages = state.unlockedPagesGerman;
-          if (!unlockedPages.includes(pageId)) {
-            state.unlockedPagesGerman.push(pageId);
+          if (!unlockedPages.includes(...pageId)) {
+            state.unlockedPagesGerman.push(...pageId);
           }
           break;
       }
@@ -76,13 +76,13 @@ const lessonsSlice = createSlice({
   initialState: {
     unlockedLessonsFrench: typeof window !== "undefined" && localStorage.getItem('unlockedLessonsFrench')
       ? JSON.parse(localStorage.getItem('unlockedLessonsFrench'))
-      : ["1"],
+      : ["1","2","3","4","5"],
     unlockedLessonsSpanish: typeof window !== "undefined" && localStorage.getItem('unlockedLessonsSpanish')
       ? JSON.parse(localStorage.getItem('unlockedLessonsSpanish'))
-      : ["1"],
+      : ["1","2","3","4","5"],
     unlockedLessonsGerman: typeof window !== "undefined" && localStorage.getItem('unlockedLessonsGerman')
       ? JSON.parse(localStorage.getItem('unlockedLessonsGerman'))
-      : ["1"],
+      : ["1","2","3","4","5"],
   },
   reducers: {
     unlockLesson: (state, action) => {
@@ -92,20 +92,20 @@ const lessonsSlice = createSlice({
       switch (subject) {
         case 'French':
           unlockedLessons = state.unlockedLessonsFrench;
-          if (!unlockedLessons.includes(lessonId)) {
-            state.unlockedLessonsFrench.push(lessonId);
+          if (!unlockedLessons.includes(...lessonId)) {
+            state.unlockedLessonsFrench.push(...lessonId);
           }
           break;
         case 'Spanish':
           unlockedLessons = state.unlockedLessonsSpanish;
-          if (!unlockedLessons.includes(lessonId)) {
-            state.unlockedLessonsSpanish.push(lessonId);
+          if (!unlockedLessons.includes(...lessonId)) {
+            state.unlockedLessonsSpanish.push(...lessonId);
           }
           break;
         case 'German':
           unlockedLessons = state.unlockedLessonsGerman;
-          if (!unlockedLessons.includes(lessonId)) {
-            state.unlockedLessonsGerman.push(lessonId);
+          if (!unlockedLessons.includes(...lessonId)) {
+            state.unlockedLessonsGerman.push(...lessonId);
           }
           break;
       }
@@ -119,13 +119,13 @@ const exercisesSlice = createSlice({
   initialState: {
     unlockedExercisesFrench: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesFrench')
       ? JSON.parse(localStorage.getItem('unlockedExercisesFrench'))
-      : ["1"],
+      : ["1","2","3","4","5"],
     unlockedExercisesSpanish: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesSpanish')
       ? JSON.parse(localStorage.getItem('unlockedExercisesSpanish'))
-      : ["1"],
+      : ["1","2","3","4","5"],
     unlockedExercisesGerman: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesGerman')
       ? JSON.parse(localStorage.getItem('unlockedExercisesGerman'))
-      : ["1"],
+      : ["1","2","3","4","5"],
   },
   reducers: {
     unlockExercise: (state, action) => {
@@ -135,20 +135,20 @@ const exercisesSlice = createSlice({
       switch (subject) {
         case 'French':
           unlockedExercises = state.unlockedExercisesFrench;
-          if (!unlockedExercises.includes(exerciseId)) {
-            state.unlockedExercisesFrench.push(exerciseId);
+          if (!unlockedExercises.includes(...exerciseId)) {
+            state.unlockedExercisesFrench.push(...exerciseId);
           }
           break;
         case 'Spanish':
           unlockedExercises = state.unlockedExercisesSpanish;
-          if (!unlockedExercises.includes(exerciseId)) {
-            state.unlockedExercisesSpanish.push(exerciseId);
+          if (!unlockedExercises.includes(...exerciseId)) {
+            state.unlockedExercisesSpanish.push(...exerciseId);
           }
           break;
         case 'German':
           unlockedExercises = state.unlockedExercisesGerman;
-          if (!unlockedExercises.includes(exerciseId)) {
-            state.unlockedExercisesGerman.push(exerciseId);
+          if (!unlockedExercises.includes(...exerciseId)) {
+            state.unlockedExercisesGerman.push(...exerciseId);
           }
           break;
       }
@@ -187,69 +187,3 @@ store.subscribe(() => {
   localStorage.setItem('unlockedExercisesSpanish', JSON.stringify(state.unlockedExercises.unlockedExercisesSpanish));
   localStorage.setItem('unlockedExercisesGerman', JSON.stringify(state.unlockedExercises.unlockedExercisesGerman));
 });
-
-// import { configureStore, createSlice } from '@reduxjs/toolkit';
-// import Cookies from 'js-cookie';
-// import { subscribe } from 'redux';
-
-// const initialState = {
-//   isAuthenticated: false,
-//   user: null,
-//   unlockedPages: ["1"],
-// };
-
-// const authSlice = createSlice({
-//   name: 'auth',
-//   initialState,
-//   reducers: {
-//     login: (state, action) => {
-//       state.isAuthenticated = true;
-//       state.user = action.payload; // Store userId, name, and type
-//       Cookies.set('user', JSON.stringify(action.payload)); // Store the whole user data in cookies
-//     },
-//     logout: (state) => {
-//       state.isAuthenticated = false;
-//       state.user = null;
-//       Cookies.remove('user'); // Remove user data from cookies
-//     },
-//     setUserFromCookies: (state, action) => {
-//       state.isAuthenticated = true;
-//       state.user = action.payload; // Restore user from cookies
-//     }
-//   }
-// });
-
-// const unlockedPagesSlice = createSlice({
-//   name: 'unlockedPages',
-//   initialState: {
-//     unlockedPages: typeof window !== "undefined" && localStorage.getItem('unlockedPages')
-//       ? JSON.parse(localStorage.getItem('unlockedPages'))
-//       : ["1"],  // Default first page unlocked
-//   },
-//   reducers: {
-//     initializeUnlockedPages: (state, action) => {
-//       state.unlockedPages = action.payload;
-//     },
-//     unlockPage: (state, action) => {
-//       if (!state.unlockedPages.includes(action.payload)) {
-//         state.unlockedPages.push(action.payload);
-//       }
-//     },
-//   },
-// });
-
-// export const { login, logout, setUserFromCookies } = authSlice.actions;
-// export const { initializeUnlockedPages, unlockPage } = unlockedPagesSlice.actions;
-
-// export const store = configureStore({
-//   reducer: {
-//     auth: authSlice.reducer,
-//     unlockedPages: unlockedPagesSlice.reducer,
-//   }
-// });
-
-// store.subscribe(() => {
-//   const state = store.getState();
-//   localStorage.setItem('unlockedPages', JSON.stringify(state.unlockedPages.unlockedPages));
-// });
-

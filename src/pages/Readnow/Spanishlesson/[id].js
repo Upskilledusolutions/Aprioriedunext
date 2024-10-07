@@ -24,7 +24,8 @@ const LessonPage = ({ lesson }) => {
       if (currentIndex !== -1 && currentIndex < data.length - 1) {
         const nextPageId = data[currentIndex + 1].id;
         if (!unlockedPages.includes(nextPageId)) {
-          dispatch(unlockLesson({ subject, lessonId: nextPageId }));
+          const multiple = [nextPageId, data[currentIndex + 2]?.id, data[currentIndex + 3]?.id, data[currentIndex + 4]?.id, data[currentIndex + 5]?.id]
+          dispatch(unlockLesson({ subject, lessonId: multiple }));
         }
       }
     }
