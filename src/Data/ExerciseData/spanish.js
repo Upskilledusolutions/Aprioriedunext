@@ -322,7 +322,7 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What is the Spanish word for the letter 'A'?",
+        "question": "What is the Spanish pronunciation for the letter 'A'?",
         "choices": ["Efe", "A", "Be", "Ce"],
         "type": "MCQs",
         "correctAnswer": 2
@@ -340,7 +340,7 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "What is the Spanish word for the letter 'B'?",
+        "question": "What is the Spanish pronunciation for the letter 'B'?",
         "choices": ["A", "Be", "Ce", "De"],
         "type": "MCQs",
         "correctAnswer": 2
@@ -352,7 +352,7 @@ export const quiz = [
         "correctAnswer": 3
       },
       {
-        "question": "What is the Spanish word for the letter 'C'?",
+        "question": "What is the Spanish alphabet for the letter 'C'?",
         "choices": ["Efe", "Ce", "Be", "De"],
         "type": "MCQs",
         "correctAnswer": 2
@@ -376,7 +376,7 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What is the Spanish word for the letter 'D'?",
+        "question": "What is the Spanish pronunciation for the letter 'D'?",
         "choices": ["Ce", "De", "A", "Efe"],
         "type": "MCQs",
         "correctAnswer": 2
@@ -388,7 +388,7 @@ export const quiz = [
         "correctAnswer": 3
       },
       {
-        "question": "What is the Spanish word for the letter 'E'?",
+        "question": "What is the Spanish pronunciation for the letter 'E'?",
         "choices": ["E", "Be", "Ce", "Efe"],
         "type": "MCQs",
         "correctAnswer": 1
@@ -400,13 +400,13 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What is the Spanish word for the number 'five'?",
+        "question": "What is the Spanish pronunciation for the number 'five'?",
         "choices": ["Seis", "Cinco", "Siete", "Cuatro"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "What is the Spanish word for the letter 'F'?",
+        "question": "What is the Spanish pronunciation for the letter 'F'?",
         "choices": ["A", "E", "Efe", "Ce"],
         "type": "MCQs",
         "correctAnswer": 3
@@ -418,7 +418,7 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "What is the Spanish word for the letter 'G'?",
+        "question": "What is the Spanish pronunciation for the letter 'G'?",
         "choices": ["Ge", "Be", "De", "Ce"],
         "type": "MCQs",
         "correctAnswer": 1

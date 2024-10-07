@@ -8,6 +8,52 @@
   margin: 0;
   padding: 0 2vw 50px;
 }
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.modalContent {
+  background: white;
+  padding: 20px 5% 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.modalContent h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.modalContent button {
+  background-color: var(--blue); /* Green background */
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.modalContent button:hover {
+  background-color: var(--blue); /* Darker green on hover */
+}
+
+.modalContent button:focus {
+  outline: none;
+}
+
 .background2{
   background: linear-gradient(90.04deg, rgba(255, 142, 60, 0.3) 0.03%, rgba(255, 110, 110, 0.3) 99.96%);
 position: absolute;
@@ -284,7 +330,7 @@ overflow: hidden;
 .mainLayout {
   display: flex;
   align-items: stretch;
-  height: auto;
+  min-height: 70vh;
 }
 
 .container {
@@ -442,8 +488,27 @@ button:disabled {
   text-align: center;
   padding-bottom: 30px;
 }
+.margindena{
+  margin-bottom: 10px;
+}
+.margindena1{
+  margin-bottom: 20px;
+}
 
 @media (max-width: 768px) {
+  .modal {
+    padding: 0 5%;
+    width: 90%;
+  }
+  .modalContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .modalContent button{
+    padding: 20px 0;
+  }
   .inputField{
     width: 30vw;
     font-size: 20px;

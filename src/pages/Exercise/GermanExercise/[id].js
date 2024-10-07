@@ -1,15 +1,13 @@
 import { useEffect, useState } from "react";
 import { quiz } from "../../../Data/ExerciseData/german"; // Importing the quiz data
 import styles from "../../../styles/quiz/quiz.module.css";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { BsAlarm } from "react-icons/bs";
 import { FaCheck } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
 import Head from "next/head";
-import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // For toggling icons
-import MCQComponent from '../../../../components/QuestionContent/MCQ'
-import FillInTheBlanksComponent from '../../../../components/QuestionContent/FillInTheBlanks'
+import MCQComponent from '../../../../components/QuestionContent/MCQ';
+import FillInTheBlanksComponent from '../../../../components/QuestionContent/FillInTheBlanks';
 import MatchTheFollowingGame from "../../../../components/QuestionContent/MatchtheFollowing";
 import { useDispatch, useSelector } from "react-redux";
 import { unlockExercise } from "@/Store";
@@ -24,11 +22,13 @@ const Quiz = () => {
   const [result, setResult] = useState({ correctAnswers: 0, wrong: 0 });
   const [showMenu, setShowMenu] = useState(false); // Toggle state for sidebar on mobile
   const [selectedOption, setSelectedOption] = useState(null);
- const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [questionType, setQuestionType] = useState(''); // State to store selected question type
+  const [isModalOpen, setIsModalOpen] = useState(true); // State to control modal visibility
 
- const dispatch = useDispatch();
- const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesGerman);
- const subject = 'German';
+  const dispatch = useDispatch();
+  const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesGerman);
+  const subject = 'German';
 
   const router = useRouter();
   const { id } = router.query; // Get the dynamic route parameter
@@ -37,7 +37,13 @@ const Quiz = () => {
   const selectedQuiz = quiz[quizId - 1] ? quiz[quizId - 1] : quiz[0]; // Default to first quiz if id is invalid
 
   const questions = selectedQuiz.questions;
-  const { question, choices, correctAnswer } = questions[activeQuestion];
+
+  // Filter questions based on selected question type
+  const filteredQuestions = questionType
+    ? questions.filter((q) => q.type === questionType)
+    : questions;
+
+  const { question, choices, correctAnswer } = filteredQuestions[activeQuestion];
 
   const reloadPage = () => {
     router.reload();
@@ -52,8 +58,8 @@ const Quiz = () => {
         ? { ...prev, correctAnswers: prev.correctAnswers + 1 }
         : { ...prev, correctAnswers: prev.correctAnswers, wrong: prev.wrong + 1 }
     );
-  
-    if (activeQuestion !== questions.length - 1) {
+
+    if (activeQuestion !== filteredQuestions.length - 1) {
       setActiveQuestion((prev) => prev + 1);
       setSelectedOption(null); // Reset selected option
       setSelectedAnswer(""); // Reset selected answer
@@ -66,31 +72,16 @@ const Quiz = () => {
       setSelectedAnswer("");
     }
   };
-  
 
-const onAnswerSelected = (answer, index) => {
-  setSelectedOption(answer); // Store selected option
-  setIsSubmitted(true); // Set as submitted
-  setTime(-1); // Stop the timer
-  setSelectedAnswerIndex(index); // Track selected answer index
-  setSelectedAnswer(answer === correctAnswer); // Check if the answer is correct
-};
-
-
-    // Assuming your quiz data has a "type" field like { type: 'mcq', question: '...', choices: [...] }
-
-const mcqs = questions.filter((q) => q.type === 'MCQs');
-const fillInTheBlanks = questions.filter((q) => q.type === 'FillInTheBlanks');
-const jumbledWords = questions.filter((q) => q.type === 'JumbledWords').slice(0, 2);
-const clickCorrectWords = questions.filter((q) => q.type === 'ClickCorrectWords').slice(0, 2);
-const dragAndDrop = questions.filter((q) => q.type === 'DragAndDrop').slice(0, 2);
-const matchTheFollowing = questions.filter((q) => q.type === 'MatchTheFollowing'); 
-
-// Combine all question types into one array to iterate through in the quiz
-const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorrectWords, ...dragAndDrop, ...matchTheFollowing ];
+  const onAnswerSelected = (answer, index) => {
+    setSelectedOption(answer); // Store selected option
+    setIsSubmitted(true); // Set as submitted
+    setTime(-1); // Stop the timer
+    setSelectedAnswerIndex(index); // Track selected answer index
+    setSelectedAnswer(answer === correctAnswer); // Check if the answer is correct
+  };
 
   useEffect(() => {
-    // Reset the quiz state when the quiz changes (when `id` changes)
     setActiveQuestion(0);
     setShowResult(false);
     setSelectedAnswer("");
@@ -99,29 +90,18 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
     setTime(25);
     setStart(true);
     setResult({ correctAnswers: 0, wrong: 0 });
-  }, [id]); // Only run when `id` changes
+  }, [id, questionType]);
 
   useEffect(() => {
-    // Timer logic for different question types
-    if (allQuestions[activeQuestion]?.type === 'MatchTheFollowing') {
-      setTime(90); // Set timer to 90 seconds for MatchTheFollowing
+    if (filteredQuestions[activeQuestion]?.type === 'MatchTheFollowing') {
+      setTime(90); 
     }
-    else if (allQuestions[activeQuestion]?.type === 'FillInTheBlanks') {
-      setTime(35); // Set timer to 90 seconds for MatchTheFollowing
+    else if (filteredQuestions[activeQuestion]?.type === 'FillInTheBlanks') {
+      setTime(35); 
     }
-  }, [activeQuestion]);
+  }, [activeQuestion, questionType]);
 
-  useEffect(() => {
-    // Timer countdown logic
-    if (time === 0) {
-      onClickNext(); // Proceed to next question when timer reaches 0
-    } else if (time > 0) {
-      const interval = setInterval(() => {
-        setTime((prev) => prev - 1); // Decrement timer every second
-      }, 1000);
-      return () => clearInterval(interval); // Clear interval on component unmount or timer change
-    }
-  }, [time]);
+  const addLeadingZero = (number) => (number > 9 ? number : `0${number}`);
 
   useEffect(() => {
 
@@ -137,23 +117,33 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
     }
   }, [id, quiz, dispatch, unlockedPages]);
 
-
-  const addLeadingZero = (number) => (number > 9 ? number : `0${number}`);
-
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
-
-  const onResultHandler = (isCorrect) => {
-    if (!isSubmitted) {
-        // Update the result only once per question
-        setResult((prev) => ({
-            correctAnswers: isCorrect ? prev.correctAnswers + 1 : prev.correctAnswers,
-            wrong: !isCorrect ? prev.wrong + 1 - 1 : prev.wrong - 1
-        }));
-        setIsSubmitted(true); // Prevent multiple result updates for the same question
+  useEffect(() => {
+    if (time === 0) {
+      onClickNext(); 
+    } else if (time > 0) {
+      const interval = setInterval(() => {
+        setTime((prev) => prev - 1); 
+      }, 1000);
+      return () => clearInterval(interval); 
     }
-};
+  }, [time]);
+
+  // Modal for selecting question type
+  const Modal = () => (
+    <div className={styles.modal}>
+      <div className={styles.modalContent}>
+        <h3>Select Question Type</h3>
+        <button onClick={() => selectQuestionType('MCQs')}>MCQs</button>
+        <button onClick={() => selectQuestionType('FillInTheBlanks')}>Fill in the Blanks</button>
+        <button onClick={() => selectQuestionType('MatchTheFollowing')}>Match the Following</button>
+      </div>
+    </div>
+  );
+
+  const selectQuestionType = (type) => {
+    setQuestionType(type);
+    setIsModalOpen(false);
+  };
 
   return (
     <>
@@ -164,39 +154,15 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
         <link rel="icon" href="/logo/newlogo1.png" />
       </Head>
       <main className={styles.mainLayout}>
+        {isModalOpen && <Modal />} {/* Show modal if no question type selected */}
+
         {/* Sidebar/Menu for larger screens */}
         <div className={`${styles.sidebar} ${styles.desktopSidebar}`}>
-  <ul>
-    <li>
-      <a>MCQ</a>
-    </li>
-    <li>
-      <a>Fill in the Blanks</a>
-    </li>
-    <li>
-      <a>Match the Following</a>
-    </li>
-  </ul>
-</div>
-
-
-        {/* Toggleable menu for smaller screens */}
-        <div className={`${styles.mobileMenu} ${styles.sidebar}`}>
-          <div className={styles.menuHeader} onClick={toggleMenu}>
-            <span>{selectedQuiz.name}</span>
-            {showMenu ? <FiChevronUp /> : <FiChevronDown />}
-          </div>
-          {showMenu && (
-            <ul className={styles.menuList}>
-              {quiz.map((qz, index) => (
-                <li key={index} onClick={toggleMenu}>
-                  <Link href={`/QuizTime/GermanQuiz/${index + 1}`}>
-                    {qz.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
+          <ul>
+            <li onClick={reloadPage}><a>MCQ</a></li>
+            <li onClick={reloadPage}><a>Fill in the Blanks</a></li>
+            <li onClick={reloadPage}><a>Match the Following</a></li>
+          </ul>
         </div>
 
         {/* Quiz Container */}
@@ -206,104 +172,79 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
           </div>
 
           <div className={styles.quizcontainer}>
-            {!showResult ?(
-    <div>
-      <div className={styles.flex5}>
-        <div>
-          <span className={styles.activequestionno}>
-            {addLeadingZero(activeQuestion + 1)}
-          </span>
-          <span className={styles.totalquestion}>
-            /{addLeadingZero(allQuestions.length)}
-          </span>
-        </div>
-        <div className={styles.scores}>
-          <div className={styles.checkcont}>
-            <FaCheck className={styles.check} />:
-            <div>{result.correctAnswers}</div>
-          </div>
-          <div className={styles.checkcont}>
-            <RxCross1 className={styles.cross} />:
-            <div>{result.wrong}</div>
-          </div>
-        </div>
-      </div>
+            {!showResult ? (
+              <div>
+                <div className={styles.flex5}>
+                  <div>
+                    <span className={styles.activequestionno}>{addLeadingZero(activeQuestion + 1)}</span>
+                    <span className={styles.totalquestion}>/{addLeadingZero(filteredQuestions.length)}</span>
+                  </div>
+                  <div className={styles.scores}>
+                    <div className={styles.checkcont}>
+                      <FaCheck className={styles.check} />:<div>{result.correctAnswers}</div>
+                    </div>
+                    <div className={styles.checkcont}>
+                      <RxCross1 className={styles.cross} />:<div>{result.wrong}</div>
+                    </div>
+                  </div>
+                </div>
 
-      {allQuestions[activeQuestion].type === "MatchTheFollowing" && (
-       <MatchTheFollowingGame
-       questionData={allQuestions[activeQuestion]}
-       onNext={onClickNext}
-       onResult={({isCorrect,correctMatches}) => {
-        setResult(prev => ({
-            correctAnswers: prev.correctAnswers + correctMatches,
-            wrong: prev.wrong
-        }));
-        }}
-     />
-      )}
+                {filteredQuestions[activeQuestion].type === 'MatchTheFollowing' && (
+                  <MatchTheFollowingGame
+                    questionData={filteredQuestions[activeQuestion]}
+                    onNext={onClickNext}
+                    onResult={({ isCorrect, correctMatches }) => {
+                      setResult(prev => ({
+                        correctAnswers: correctMatches,
+                        wrong: 10 - correctMatches
+                      }));
+                    }}
+                  />
+                )}
 
-      {/* Render based on the question type */}
-      {allQuestions[activeQuestion].type === 'MCQs' && (
-       <MCQComponent
-       question={allQuestions[activeQuestion]}
-       onAnswerSelected={onAnswerSelected}
-       selectedOption={selectedOption}
-       isSubmitted={isSubmitted}
-     />
-      )}
+                {filteredQuestions[activeQuestion].type === 'MCQs' && (
+                  <MCQComponent
+                    question={filteredQuestions[activeQuestion]}
+                    onAnswerSelected={onAnswerSelected}
+                    selectedOption={selectedOption}
+                    isSubmitted={isSubmitted}
+                  />
+                )}
 
-      {allQuestions[activeQuestion].type === 'FillInTheBlanks' && (
-        <FillInTheBlanksComponent 
-        question={allQuestions[activeQuestion]}
-        onNext={onClickNext}
-        onAnswerSelected={onAnswerSelected}
-        selectedOption={selectedOption}
-        isSubmitted={isSubmitted}
-        onResult={(isCorrect) => {
-          setResult(prev => ({
-              correctAnswers: isCorrect ? prev.correctAnswers + 1 : prev.correctAnswers,
-              wrong: !isCorrect ? prev.wrong + 1 - 1 : prev.wrong - 1
-          }));
-          }}
-    />
-      )}
+                {filteredQuestions[activeQuestion].type === 'FillInTheBlanks' && (
+                  <FillInTheBlanksComponent
+                    question={filteredQuestions[activeQuestion]}
+                    onNext={onClickNext}
+                    onAnswerSelected={onAnswerSelected}
+                    selectedOption={selectedOption}
+                    isSubmitted={isSubmitted}
+                    onResult={(isCorrect) => {
+                      setResult(prev => ({
+                          correctAnswers: isCorrect ? prev.correctAnswers + 1 : prev.correctAnswers,
+                          wrong: !isCorrect ? prev.wrong + 1 - 1 : prev.wrong - 1
+                      }));
+                      }}
+                  />
+                )}
 
-{ allQuestions[activeQuestion].type !== 'MatchTheFollowing' && allQuestions[activeQuestion].type !== 'JumbledWords' && allQuestions[activeQuestion].type !== 'FillInTheBlanks'  && allQuestions[activeQuestion].type !== 'ClickCorrectWords' && allQuestions[activeQuestion].type !== 'DragAndDrop' && <div className={styles.flexright}>
-        <button onClick={onClickNext} disabled={selectedAnswerIndex === null}>
-          {activeQuestion === allQuestions.length - 1 ? "Finish" : "Next"}
-        </button>
-      </div>}
-
-    </div>
-  ) : (
+                {filteredQuestions[activeQuestion].type !== 'MatchTheFollowing' && filteredQuestions[activeQuestion].type !== 'FillInTheBlanks' && (
+                  <div className={styles.flexright}>
+                    <button onClick={onClickNext} disabled={selectedAnswerIndex === null}>
+                      {activeQuestion === filteredQuestions.length - 1 ? "Finish" : "Next"}
+                    </button>
+                  </div>
+                )}
+              </div>
+            ) : (
               <div className={styles.result}>
-                <h1 className={styles.headingresult}>Result</h1>
-                <div className={styles.flexi}>
-                  <div>Total Questions:</div>
-                  <div className={styles.color}>{questions.length}</div>
+                <h3>Final Result</h3>
+                <div className={styles.margindena}>
+                  <FaCheck className={styles.check} /> Correct Answers: {result.correctAnswers}
                 </div>
-                <div className={styles.flexi}>
-                  <div>Total Score:</div>
-                  <div className={styles.color}>{result.correctAnswers * 5}</div>
+                <div className={styles.margindena1}>
+                  <RxCross1 className={styles.cross} /> Wrong Answers: {filteredQuestions[activeQuestion].type === 'MatchTheFollowing' ? 10 - result.correctAnswers : result.wrong - 1}
                 </div>
-                <div className={styles.flexi}>
-                  <div>Correct Answers:</div>
-                  <div className={styles.color}>{result.correctAnswers}</div>
-                </div>
-                {/* <div className={styles.flexi}>
-                  <div>Wrong Answers:</div>
-                  <div className={styles.color}>
-                    {result.wrong}
-                  </div>
-                </div> */}
-                <div className={styles.flex}>
-                  <Link className={styles.btns} href="/QuizTime">
-                    Go Back
-                  </Link>
-                  <div className={styles.btns} onClick={reloadPage}>
-                    Retry
-                  </div>
-                </div>
+                <button onClick={reloadPage}>Retry Quiz</button>
               </div>
             )}
           </div>
@@ -312,6 +253,5 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
     </>
   );
 };
-
 
 export default Quiz;
