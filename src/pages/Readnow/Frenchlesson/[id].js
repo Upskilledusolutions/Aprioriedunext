@@ -10,6 +10,7 @@ import { unlockLesson } from '@/Store';
 const LessonPage = ({ lesson }) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [watermarkText, setWatermarkText] = useState('');
+  const [active, setActive] = useState(true)
 
   const router = useRouter();
   const { id } = router.query;
@@ -72,7 +73,12 @@ const LessonPage = ({ lesson }) => {
           <p className={styles.full} onClick={handleToggleFullScreen}>View in full screen</p>
           <p>{lesson.desc}</p>
 
-          <section className={isFullScreen ? `${styles.sectioncontainer1}` : `${styles.sectioncontainer}`}>
+          <div className={styles.bigcontainer}>
+            <div className={styles.btncontainer}>
+              <div onClick={() => setActive(true)} className={active ? `${styles.btnc}` : `${styles.btnd}`}>PDF</div>
+              <div onClick={() => setActive(false)} className={active ? `${styles.btnd}` : `${styles.btnc}`}>Video</div>
+            </div>
+         {active ?          <section className={isFullScreen ? `${styles.sectioncontainer1}` : `${styles.sectioncontainer}`}>
             <iframe
               src={`${lesson.pdf}#toolbar=0&navpanes=0&scrollbar=0`}
               className={isFullScreen ? `${styles.section1}` : `${styles.section}`}
@@ -88,7 +94,9 @@ const LessonPage = ({ lesson }) => {
             {isFullScreen && watermarkText && (
               <div className={styles.watermark}>{watermarkText}</div>
             )}
-          </section>
+          </section> : <div> <iframe className={styles.video} width="560" height="315" src={lesson.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>} 
+          </div>
+
         </div>
       </main>
     </>

@@ -26,7 +26,7 @@
     display: inline;
   }
 .sectioncontainer{
-    width: 90vw;
+    width: 80vw;
     height: 500px;
     position: relative;
 }
@@ -38,7 +38,7 @@
     width: 100vw;
     height: 100vh;
 }
-.section{
+.section,.video{
     width: 90vw;
     height: 500px;
 }
@@ -92,10 +92,35 @@
 .close:hover{
     cursor: pointer;
 }
+.bigcontainer{
+    padding: 20px 0%;
+}
+.btncontainer{
+    display: flex;
+}
+.btnc{
+    padding: 15px 2%;
+    color: white;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+.btnd{
+    padding: 15px 2%;
+    color: var(--blue);
+    background-color: white;
+    border: 1px solid var(--blue);
+}
+.btnc:hover, .btnd:hover{
+    cursor: pointer;
+}
 @media screen and (max-width: 720px){
     .close{
         top: 20px;
         left: 20px;
         font-size: 20px;
+    }
+    .btnc,.btnd{
+width: 100%;
+text-align: center;
     }
 }

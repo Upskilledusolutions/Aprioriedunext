@@ -30,14 +30,14 @@ export const youdata = [
     {
       id: '5',
       url: "/youtube/GmC5.png",
-      youtube: "https://www.youtube.com/embed/soz64rs6q1Q?si=8sC_DcoiAr2AKtI6",
+      youtube: "https://www.youtube.com/embed/a6PnS2Bzcz8?si=w086O2jdTVNJ-fmU",
       title: "German Conversation 5",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
     {
       id: '6',
       url: "/youtube/GmC6.png",
-      youtube: "https://www.youtube.com/embed/iVTiBtvsOTI?si=6Idfq2aekC2GUrv0",
+      youtube: "https://www.youtube.com/embed/i1hslf5QW_8?si=c0_zLF6mBWsUEjF2",
       title: "German Conversation 6",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
