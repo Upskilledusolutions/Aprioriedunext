@@ -113,6 +113,11 @@
 .btnc:hover, .btnd:hover{
     cursor: pointer;
 }
+.error{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 24px;
+}
 @media screen and (max-width: 720px){
     .close{
         top: 20px;

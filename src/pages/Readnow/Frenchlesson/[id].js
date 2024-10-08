@@ -94,7 +94,7 @@ const LessonPage = ({ lesson }) => {
             {isFullScreen && watermarkText && (
               <div className={styles.watermark}>{watermarkText}</div>
             )}
-          </section> : <div> <iframe className={styles.video} width="560" height="315" src={lesson.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>} 
+          </section> : <div> {lesson.video ? <iframe className={styles.video} width="560" height="315" src={lesson.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> : <div className={styles.error}>Video not available!</div>}</div>} 
           </div>
 
         </div>
