@@ -37,7 +37,7 @@ export const youdata = [
   {
     id: '6',
     url: "/youtube/SpC6.png",
-    youtube: "https://www.youtube.com/embed/TfKpbExdGvw?si=KhSd0GZVkEdPLyoP",
+    youtube: "https://www.youtube.com/embed/pGLgwQyoYuM?si=9YWzB1NHp43OtOMw",
     title: "Spanish Conversation 6",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },

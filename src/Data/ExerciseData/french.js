@@ -145,108 +145,108 @@ export const quiz = [
               type: 'FillInTheBlanks',
               correctAnswer: 1
             },
-            // {
-            //   question: "Laurent: ______ Pierre. (My name is Pierre.)",
-            //   choices: ["Je m'appelle", "mangent", "lisent", "sont"],
-            //   type: 'FillInTheBlanks',
-            //   correctAnswer: 1
-            // },
-            // {
-            //   question: "Bella: ______ . (Nice to meet you.)",
-            //   choices: ["Enchantée", "fait", "mange", "vont"],
-            //   type: 'FillInTheBlanks',
-            //   correctAnswer: 1
-            // },
-            // {
-            //   question: "Laurent: Je suis ______ d'anglais, et vous (I am an English teacher, and you?)",
-            //   choices: ["professeur", "est", "mange", "a"],
-            //   type:'FillInTheBlanks',
-            //   correctAnswer: 1
-            // },
-            // {
-            //   question: "Bella: Je suis ______ . (I am a French teacher.)",
-            //   choices: ["professeure de français", "faites", "lisez", "mangez"],
-            //   type: 'FillInTheBlanks',
-            //   correctAnswer: 1
-            // },
-            // {
-            //     question: "Bella: Vous ______ le café. (Do you like coffee?)",
-            //     choices: ["aimez", "faites", "lisez", "mangez"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Laurent: J'adore ______. (I love coffee.)",
-            //     choices: ["le café", "faites", "lisez", "mangez"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Bella regarde sa ______. (Bella looks at her watch.)",
-            //     choices: ["montre", "faites", "lisez", "mangez"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Bella: Oh, ______ -moi. J'ai une classe dans 5 minutes !. (Oh, excuse me. I have a class in 5 minutes!)",
-            //     choices: ["excusez", "faites", "lisez", "mangez"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Laurent: Je comprends. ______ , Madame. (I understand. Goodbye, Madam.)",
-            //     choices: ["Au revoir", "faites", "lisez", "mangez"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Bella: Au revoir, ______ Monsieur. (Goodbye, Sir.)",
-            //     choices: ["Au revoir", "faites", "lisez", "mangez"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Bella: Où habitez-______? (Where do you live?)",
-            //     choices: ["vous", "tu", "elle", "moi"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Laurent: J'habite ______ Paris. (I live in Paris.)",
-            //     choices: ["à", "dans", "sur", "chez"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Bella: Est-ce que vous ______ le français? (Do you speak French?)",
-            //     choices: ["parlez", "mangez", "regardez", "étudiez"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Laurent: Oui, je ______ français et anglais. (Yes, I speak French and English.)",
-            //     choices: ["parle", "mange", "regarde", "étudie"],
-            //     type: 'FillInTheBlanks',
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Bella: Vous aimez ______ ? (Do you like France?)",
-            //     choices: ["la France", "le café", "la ville", "la nourriture"],
-            //     type: "FillInTheBlanks",
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Laurent: La France est un pays ______ . (France is a beautiful country.)",
-            //     choices: ["beau", "grande", "riche", "pauvre"],
-            //     type: "FillInTheBlanks",
-            //     correctAnswer: 1
-            //   },
-            //   {
-            //     question: "Bella: J'aimerais visiter ______ . (I would like to visit Paris.)",
-            //     choices: ["Paris", "Rome", "Londres", "New York"],
-            //     type: "FillInTheBlanks",
-            //     correctAnswer: 1
-            //   },
+            {
+              question: "Laurent: ______ Pierre. (My name is Pierre.)",
+              choices: ["Je m'appelle", "mangent", "lisent", "sont"],
+              type: 'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+              question: "Bella: ______ . (Nice to meet you.)",
+              choices: ["Enchantée", "fait", "mange", "vont"],
+              type: 'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+              question: "Laurent: Je suis ______ d'anglais, et vous (I am an English teacher, and you?)",
+              choices: ["professeur", "est", "mange", "a"],
+              type:'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+              question: "Bella: Je suis ______ . (I am a French teacher.)",
+              choices: ["professeure de français", "faites", "lisez", "mangez"],
+              type: 'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+                question: "Bella: Vous ______ le café. (Do you like coffee?)",
+                choices: ["aimez", "faites", "lisez", "mangez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Laurent: J'adore ______. (I love coffee.)",
+                choices: ["le café", "faites", "lisez", "mangez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Bella regarde sa ______. (Bella looks at her watch.)",
+                choices: ["montre", "faites", "lisez", "mangez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Bella: Oh, ______ -moi. J'ai une classe dans 5 minutes !. (Oh, excuse me. I have a class in 5 minutes!)",
+                choices: ["excusez", "faites", "lisez", "mangez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Laurent: Je comprends. ______ , Madame. (I understand. Goodbye, Madam.)",
+                choices: ["Au revoir", "faites", "lisez", "mangez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Bella: Au revoir, ______ Monsieur. (Goodbye, Sir.)",
+                choices: ["Au revoir", "faites", "lisez", "mangez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Bella: Où habitez-______? (Where do you live?)",
+                choices: ["vous", "tu", "elle", "moi"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Laurent: J'habite ______ Paris. (I live in Paris.)",
+                choices: ["à", "dans", "sur", "chez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Bella: Est-ce que vous ______ le français? (Do you speak French?)",
+                choices: ["parlez", "mangez", "regardez", "étudiez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Laurent: Oui, je ______ français et anglais. (Yes, I speak French and English.)",
+                choices: ["parle", "mange", "regarde", "étudie"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Bella: Vous aimez ______ ? (Do you like France?)",
+                choices: ["la France", "le café", "la ville", "la nourriture"],
+                type: "FillInTheBlanks",
+                correctAnswer: 1
+              },
+              {
+                question: "Laurent: La France est un pays ______ . (France is a beautiful country.)",
+                choices: ["beau", "grande", "riche", "pauvre"],
+                type: "FillInTheBlanks",
+                correctAnswer: 1
+              },
+              {
+                question: "Bella: J'aimerais visiter ______ . (I would like to visit Paris.)",
+                choices: ["Paris", "Rome", "Londres", "New York"],
+                type: "FillInTheBlanks",
+                correctAnswer: 1
+              },
 
         {
           "question": "Match the Words.",
