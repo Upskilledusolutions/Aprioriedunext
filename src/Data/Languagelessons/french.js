@@ -17,7 +17,7 @@ export const data = [{
     id:'3',
     name:'Lesson 3',
     level:'Beginners',
-    pdf:'https://drive.google.com/file/d/17XUm4aWksg-SN4ilSxMsXdTCTDkx-0YP/preview',
+    pdf:'https://drive.google.com/file/d/1DBY4u3jKX-KXGpbni0Ugi_5xVSZE5jCm/preview',
     desc:'French Foundation Lesson 3 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
@@ -38,14 +38,14 @@ export const data = [{
     id:'6',
     name:'Lesson 6',
     level:'Beginners',
-    pdf:'https://drive.google.com/file/d/1QfjHAxSNLKOE80rj501KJl0nObrrnAFz/preview',
+    pdf:'https://drive.google.com/file/d/1mVMN3Z64w5ltzqaOaf79OjC81hGQBXdy/preview',
     desc:'French Foundation Lesson 6 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
     id:'7',
     name:'Lesson 7',
     level:'Beginners',
-    pdf:'https://drive.google.com/file/d/1eRQJvI00IzWNFQKeNXPenxv--9D3uCMm/preview',
+    pdf:'https://drive.google.com/file/d/1hHYQQ1DFgQWj78FoYGJvm1j3Kk03BiYD/preview',
     desc:'French Foundation Lesson 7 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
