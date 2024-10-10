@@ -44,7 +44,7 @@ export const youdata = [
     {
       id: '7',
       url: "/youtube/FrC7.png",
-      youtube: "https://www.youtube.com/embed/ojWW5_5M2s8?si=mPdfTi55ubn08-kv",
+      youtube: "https://www.youtube.com/embed/XHPCMi6T8uQ?si=Q9jtB2ygZcuxIzvI",
       title: "French Conversation 7",
       desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
