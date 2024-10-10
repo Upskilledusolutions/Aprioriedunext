@@ -63,6 +63,13 @@ export const youdata = [
       desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
     {
+      id: '10',
+      url: "/youtube/FrC10.png",
+      youtube: "https://www.youtube.com/embed/iwToZVouwWI?si=LQrXVsuAvzVmqTyo",
+      title: "French Conversation 10",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
+    {
       id: '11',
       url: "/youtube/FrC11.png",
       youtube: "https://www.youtube.com/embed/jUMqrs0daOM?si=5pmA2Df2ciAxH5oL",
