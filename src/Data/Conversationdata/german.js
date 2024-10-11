@@ -9,7 +9,7 @@ export const youdata = [
     {
       id: '2',
       url: "/youtube/GmC2.png",
-      youtube: "https://www.youtube.com/embed/TlsepiI5E4k?si=V0sFZgatK7IXcGpN",
+      youtube: "https://www.youtube.com/embed/cmCYZ1b4_E4?si=EiKs2JEu4d8840o6",
       title: "German Conversation 2",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },

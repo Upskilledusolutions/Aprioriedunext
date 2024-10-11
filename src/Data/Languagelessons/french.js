@@ -62,4 +62,32 @@ export const data = [{
     pdf:'https://drive.google.com/file/d/1Tx4i8Ma-pep8o_RAq3bR_WOGLffZdNLG/preview',
     desc:'French Foundation Lesson 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
+{
+    id:'10',
+    name:'Lesson 10',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1ljvF7dkD4ZcbYdnhfJ62lhhWKjT_Vkmy/preview',
+    desc:'French Foundation Lesson 10 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'11',
+    name:'Lesson 11',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1AbvFw60wkN1qj0FbBaUnyFhae7-QOKA9/preview',
+    desc:'French Foundation Lesson 11 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'12',
+    name:'Lesson 12',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1M4-YscLqi_jX0vGX7u2lGtZzwFsqSUcD/preview',
+    desc:'French Foundation Lesson 12 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'13',
+    name:'Lesson 13',
+    level:'Beginners',
+    pdf:'hhttps://drive.google.com/file/d/1AU9Fa13eLeVvKEe8sSzo6J1ig6Hv2iCc/preview',
+    desc:'French Foundation Lesson 13 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
 ]
