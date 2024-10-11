@@ -16,6 +16,12 @@ export default function Index() {
   // Array of card information with type, heading, and text
   const cards = [
     {
+      type: 'Multilingual',
+      heading: 'Multilingual Lessons',
+      text: 'Dive into the vibrant world of Multiple language-speaking countries with this course.',
+      link: '/Readnow/Multilinguallessons',
+    },
+    {
       type: 'french',
       heading: 'French Lessons',
       text: 'Master the language of art, culture, and diplomacy with our French lessons.',

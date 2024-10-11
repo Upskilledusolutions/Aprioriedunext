@@ -83,6 +83,9 @@ const lessonsSlice = createSlice({
     unlockedLessonsGerman: typeof window !== "undefined" && localStorage.getItem('unlockedLessonsGerman')
       ? JSON.parse(localStorage.getItem('unlockedLessonsGerman'))
       : ["1","2","3","4","5"],
+      unlockedLessonsMultilingual: typeof window !== "undefined" && localStorage.getItem('unlockedLessonsMultilingual')
+      ? JSON.parse(localStorage.getItem('unlockedLessonsMultilingual'))
+      : ["1","2","3","4","5"],
   },
   reducers: {
     unlockLesson: (state, action) => {
@@ -108,6 +111,12 @@ const lessonsSlice = createSlice({
             state.unlockedLessonsGerman.push(...lessonId);
           }
           break;
+          case 'Multilingual':
+            unlockedLessons = state.unlockedLessonsMultilingual;
+            if (!unlockedLessons.includes(...lessonId)) {
+              state.unlockedLessonsMultilingual.push(...lessonId);
+            }
+            break;
       }
     },
   },
@@ -182,6 +191,7 @@ store.subscribe(() => {
   localStorage.setItem('unlockedLessonsFrench', JSON.stringify(state.unlockedLessons.unlockedLessonsFrench));
   localStorage.setItem('unlockedLessonsSpanish', JSON.stringify(state.unlockedLessons.unlockedLessonsSpanish));
   localStorage.setItem('unlockedLessonsGerman', JSON.stringify(state.unlockedLessons.unlockedLessonsGerman));
+  localStorage.setItem('unlockedLessonsMultilingual', JSON.stringify(state.unlockedLessons.unlockedLessonsMultilingual));
 
   localStorage.setItem('unlockedExercisesFrench', JSON.stringify(state.unlockedExercises.unlockedExercisesFrench));
   localStorage.setItem('unlockedExercisesSpanish', JSON.stringify(state.unlockedExercises.unlockedExercisesSpanish));
