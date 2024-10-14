@@ -86,7 +86,9 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
                     {availablePairs.map((pair) => (
                         <div
                             key={pair.left.word}
-                            className={`${styles.word} ${selectedLeftItem === pair.left ? styles.selected : ''}`} // Apply correct/incorrect styles after results
+                            className={`${styles.word} ${selectedLeftItem === pair.left ? styles.selected : ''} ${
+                                matchedPairs.find((matched) => matched.left.word === pair.left.word) ? styles.disabled : ''
+                            }`} // Apply correct/incorrect styles after results
                             onClick={() => handleLeftClick(pair.left)}
                             ref={(el) => (leftRefs.current[pair.left.word] = el)}
                         >
@@ -99,7 +101,9 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
                     {availablePairs.map((pair) => (
                         <div
                             key={pair.right.word}
-                            className={`${styles.word} ${selectedRightItem === pair.right ? styles.selected : ''}`} // Apply correct/incorrect styles after results
+                            className={`${styles.word} ${selectedRightItem === pair.right ? styles.selected : ''} ${
+                                matchedPairs.find((matched) => matched.right.word === pair.right.word) ? styles.disabled : ''
+                            }`} // Apply correct/incorrect styles after results
                             onClick={() => handleRightClick(pair.right)}
                             ref={(el) => (rightRefs.current[pair.right.word] = el)}
                         >
@@ -119,7 +123,7 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
                                 y1={y1}
                                 x2={x2}
                                 y2={y2}
-                                stroke={showResults ? (pair.isMatch ? 'green' : 'red') : 'black'} // Black before results, color after
+                                stroke={showResults ? (pair.isMatch ? 'green' : 'red') : 'white'} // Black before results, color after
                                 strokeWidth="2"
                             />
                         );

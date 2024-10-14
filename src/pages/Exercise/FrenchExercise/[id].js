@@ -11,6 +11,7 @@ import FillInTheBlanksComponent from '../../../../components/QuestionContent/Fil
 import MatchTheFollowingGame from "../../../../components/QuestionContent/MatchtheFollowing";
 import { useDispatch, useSelector } from "react-redux";
 import { unlockExercise } from "@/Store";
+import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -23,7 +24,7 @@ const Quiz = () => {
   const [showMenu, setShowMenu] = useState(false); // Toggle state for sidebar on mobile
   const [selectedOption, setSelectedOption] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [questionType, setQuestionType] = useState(''); // State to store selected question type
+  const [questionType, setQuestionType] = useState('MCQs'); // State to store selected question type
   const [isModalOpen, setIsModalOpen] = useState(true); // State to control modal visibility
 
   const dispatch = useDispatch();
@@ -133,16 +134,16 @@ const Quiz = () => {
   }, [time]);
 
   // Modal for selecting question type
-  const Modal = () => (
-    <div className={styles.modal}>
-      <div className={styles.modalContent}>
-        <h3>Select Question Type</h3>
-        <button onClick={() => selectQuestionType('MCQs')}>MCQs</button>
-        <button onClick={() => selectQuestionType('FillInTheBlanks')}>Fill in the Blanks</button>
-        <button onClick={() => selectQuestionType('MatchTheFollowing')}>Match the Following</button>
-      </div>
-    </div>
-  );
+  // const Modal = () => (
+  //   <div className={styles.modal}>
+  //     <div className={styles.modalContent}>
+  //       <h3>Select Question Type</h3>
+  //       <button onClick={() => selectQuestionType('MCQs')}>MCQs</button>
+  //       <button onClick={() => selectQuestionType('FillInTheBlanks')}>Fill in the Blanks</button>
+  //       <button onClick={() => selectQuestionType('MatchTheFollowing')}>Match the Following</button>
+  //     </div>
+  //   </div>
+  // );
 
   const selectQuestionType = (type) => {
     setQuestionType(type);
@@ -158,15 +159,41 @@ const Quiz = () => {
         <link rel="icon" href="/logo/newlogo1.png" />
       </Head>
       <main className={styles.mainLayout}>
-        {isModalOpen && <Modal />} {/* Show modal if no question type selected */}
+        {/* {isModalOpen && <Modal />} */}
 
         {/* Sidebar/Menu for larger screens */}
         <div className={`${styles.sidebar} ${styles.desktopSidebar}`}>
           <ul>
-            <li onClick={reloadPage}><a>MCQ</a></li>
-            <li onClick={reloadPage}><a>Fill in the Blanks</a></li>
-            <li onClick={reloadPage}><a>Match the Following</a></li>
+            <li onClick={()=>selectQuestionType('MCQs')}><a>MCQ</a></li>
+            <li onClick={()=>selectQuestionType('FillInTheBlanks')}><a>Fill in the Blanks</a></li>
+            <li onClick={()=>selectQuestionType('MatchTheFollowing')}><a>Match the Following</a></li>
           </ul>
+        </div>
+
+        <div className={`${styles.mobileMenu} ${styles.sidebar}`}>
+          <div className={styles.menuHeader} onClick={toggleMenu}>
+            <span>{questionType}</span>
+            {showMenu ? <FiChevronUp /> : <FiChevronDown />}
+          </div>
+          {showMenu && (
+            <ul className={styles.menuList}>
+                <li onClick={toggleMenu}>
+                  <div onClick={()=>selectQuestionType('MCQs')}>
+                    MCQs
+                  </div>
+                </li>
+                <li onClick={toggleMenu}>
+                  <div onClick={()=>selectQuestionType('FillInTheBlanks')}>
+                  Fill In The Blanks
+                  </div>
+                </li>
+                <li onClick={toggleMenu}>
+                  <div onClick={()=>selectQuestionType('MatchTheFollowing')}>
+                  Match The Following
+                  </div>
+                </li>
+            </ul>
+          )}
         </div>
 
         {/* Quiz Container */}
