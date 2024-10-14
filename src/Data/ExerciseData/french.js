@@ -129,7 +129,7 @@ export const quiz = [
 
             {
               question: "Bella: Bonjour, ______. (Hello, Sir)",
-              choices: ["lis", "mange", "a", "Monsieur"],
+              choices: ["Monsieur", "mange", "a", "Mon"],
               type: 'FillInTheBlanks',
               correctAnswer: 1
             },
@@ -140,14 +140,14 @@ export const quiz = [
               correctAnswer: 1
             },
             {
-              question: "Bella: Je m'appelle Anne, ______ ? (My name is Anne, and you?)",
-              choices: ["et vous", "faisons", "allons", "avons"],
+              question: "Bella: Je m'appelle Anne, et ______ ? (My name is Anne, and you?)",
+              choices: ["vous", "faisons", "allons", "avons"],
               type: 'FillInTheBlanks',
               correctAnswer: 1
             },
             {
-              question: "Laurent: ______ Pierre. (My name is Pierre.)",
-              choices: ["Je m'appelle", "mangent", "lisent", "sont"],
+              question: "Laurent: ______ m'appelle Pierre. (My name is Pierre.)",
+              choices: ["Je", "mangent", "lisent", "sont"],
               type: 'FillInTheBlanks',
               correctAnswer: 1
             },
@@ -164,8 +164,8 @@ export const quiz = [
               correctAnswer: 1
             },
             {
-              question: "Bella: Je suis ______ . (I am a French teacher.)",
-              choices: ["professeure de français", "faites", "lisez", "mangez"],
+              question: "Bella: Je suis ______ de français . (I am a French teacher.)",
+              choices: ["professeure", "faites", "lisez", "mangez"],
               type: 'FillInTheBlanks',
               correctAnswer: 1
             },
@@ -176,8 +176,8 @@ export const quiz = [
                 correctAnswer: 1
               },
               {
-                question: "Laurent: J'adore ______. (I love coffee.)",
-                choices: ["le café", "faites", "lisez", "mangez"],
+                question: "Laurent: J'adore le ______. (I love coffee.)",
+                choices: ["café", "faites", "lisez", "mangez"],
                 type: 'FillInTheBlanks',
                 correctAnswer: 1
               },
@@ -212,8 +212,8 @@ export const quiz = [
                 correctAnswer: 1
               },
               {
-                question: "Laurent: J'habite ______ Paris. (I live in Paris.)",
-                choices: ["à", "dans", "sur", "chez"],
+                question: "Laurent: ______ à Paris. (I live in Paris.)",
+                choices: ["J'habite", "dans", "sur", "chez"],
                 type: 'FillInTheBlanks',
                 correctAnswer: 1
               },
@@ -230,8 +230,8 @@ export const quiz = [
                 correctAnswer: 1
               },
               {
-                question: "Bella: Vous aimez ______ ? (Do you like France?)",
-                choices: ["la France", "le café", "la ville", "la nourriture"],
+                question: "Bella: Vous aimez la ______ ? (Do you like France?)",
+                choices: ["France", "le café", "la ville", "la nourriture"],
                 type: "FillInTheBlanks",
                 correctAnswer: 1
               },
@@ -1025,8 +1025,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Ma ______ (grandmother) habite avec nous.",
-          "choices": ["grand-mère", "tante", "mère", "sœur"],
+          "question": "Ma ______-mère (grandmother) habite avec nous.",
+          "choices": ["grand", "tante", "mère", "sœur"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1333,8 +1333,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Mes ______ (grandparents) habitent à la campagne.",
-          "choices": ["grands-parents", "oncles", "parents", "cousins"],
+          "question": "Mes ______-parents (grandparents) habitent à la campagne.",
+          "choices": ["grands", "oncles", "parents", "cousins"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1695,14 +1695,14 @@ export const quiz = [
           "correctAnswer": 1
       },
       {
-          "question": "Ami 1: Alors, je te vois ______ (later).",
-          "choices": ["plus tard", "ce soir", "demain", "maintenant"],
+          "question": "Ami 1: Alors, je te vois plus ______ (later).",
+          "choices": ["tard", "ce soir", "demain", "maintenant"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
       },
       {
-          "question": "Ami 2: ______ (See you later)!",
-          "choices": ["À plus tard", "Salut", "Bonjour", "Bonne nuit"],
+          "question": "Ami 2: À plus ______ (See you later)!",
+          "choices": ["tard", "Salut", "Bonjour", "Bonne nuit"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
       },
@@ -1725,8 +1725,8 @@ export const quiz = [
           "correctAnswer": 1
       },
       {
-          "question": "Ami 2: ______ (See you tomorrow)!",
-          "choices": ["À demain", "À plus tard", "Bonjour", "Bonne nuit"],
+          "question": "Ami 2:À ______ (See you tomorrow)!",
+          "choices": ["demain", "À plus tard", "Bonjour", "Bonne nuit"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
       },
@@ -1789,7 +1789,7 @@ export const quiz = [
           "question": "How do you say \"I am happy\" in French?",
           "choices": [ "Je suis heureux", "Je es heureux", "Tu es triste", "Je suis triste",],
           "type": "MCQs",
-          "correctAnswer": 4
+          "correctAnswer": 1
         },
         {
           "question": "How do you say \"We are friends\" in French?",
@@ -1805,9 +1805,9 @@ export const quiz = [
         },
         {
           "question": "How do you say \"They are students\" in French?",
-          "choices": ["Elles sont étudiante", "Ils sont étudiants", "Nous sommes étudiants", "Je suis étudiants"],
+          "choices": ["Elles sont étudiante", "Ce sont des étudiants", "Nous sommes étudiants", "Je suis étudiants"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "How do you say \"She is my sister\" in French?",
@@ -2031,44 +2031,44 @@ export const quiz = [
           type: "MatchTheFollowing",
           "pairs": [
             {
-              "left": { "word": "Nationalité", "rightId": 1 },
-              "right": { "word": "Canadian", "rightId": 10 }
+              "left": { "word": "Français", "rightId": 1 },
+              "right": { "word": "Italian", "rightId": 2 }
             },
             {
-              "left": { "word": "Profession", "rightId": 2 },
-              "right": { "word": "Doctor", "rightId": 7 }
+              "left": { "word": "Italien", "rightId": 2 },
+              "right": { "word": "German", "rightId": 4 }
             },
             {
-              "left": { "word": "Français", "rightId": 3 },
-              "right": { "word": "English", "rightId": 6 }
+              "left": { "word": "Espagnol", "rightId": 3 },
+              "right": { "word": "French", "rightId": 1 }
             },
             {
-              "left": { "word": "Avocat", "rightId": 4 },
-              "right": { "word": "French", "rightId": 3 }
+              "left": { "word": "Allemand", "rightId": 4 },
+              "right": { "word": "To speak", "rightId": 5 }
             },
             {
-              "left": { "word": "Espagnol", "rightId": 5 },
-              "right": { "word": "Canadian", "rightId": 1 }
+              "left": { "word": "Parler", "rightId": 5 },
+              "right": { "word": "Spanish", "rightId": 3 }
             },
             {
-              "left": { "word": "Anglais", "rightId": 6 },
-              "right": { "word": "Teacher", "rightId": 2 }
+              "left": { "word": "Manger", "rightId": 6 },
+              "right": { "word": "To be", "rightId": 7 }
             },
             {
-              "left": { "word": "Médecin", "rightId": 7 },
-              "right": { "word": "Lawyer", "rightId": 4 }
+              "left": { "word": "Être", "rightId": 7 },
+              "right": { "word": "English", "rightId": 8 }
             },
             {
-              "left": { "word": "Heureux", "rightId": 8 },
-              "right": { "word": "Spanish", "rightId": 5 }
+              "left": { "word": "Anglais", "rightId": 8 },
+              "right": { "word": "To eat", "rightId": 6 }
             },
             {
-              "left": { "word": "Italien", "rightId": 9 },
-              "right": { "word": "Happy", "rightId": 8 }
+              "left": { "word": "Chinois", "rightId": 9 },
+              "right": { "word": "Japanese", "rightId": 10 }
             },
             {
-              "left": { "word": "Canadien", "rightId": 10 },
-              "right": { "word": "Italian", "rightId": 9 }
+              "left": { "word": "Japonais", "rightId": 10 },
+              "right": { "word": "Chinese", "rightId": 9 }
             }
           ],
         },
@@ -2233,8 +2233,8 @@ export const quiz = [
           "correctAnswer": 1
       },
       {
-          "question": "______ (Please) passe-moi le livre.",
-          "choices": ["S'il te plaît", "Merci", "Bonjour", "Excuse-moi"],
+          "question": "______ te plaît (Please) passe-moi le livre.",
+          "choices": ["S'il", "Merci", "Bonjour", "Excuse-moi"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
       },
@@ -2251,14 +2251,14 @@ export const quiz = [
           "correctAnswer": 1
       },
       {
-          "question": "______ (I don't understand) la phrase.",
-          "choices": ["Je ne comprends pas", "Merci", "S'il te plaît", "Bonjour"],
+          "question": "Je ne ______ pas (I don't understand) la phrase.",
+          "choices": ["comprends", "Merci", "S'il te plaît", "Bonjour"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
       },
       {
-          "question": "______ (I'm sorry) d'être en retard.",
-          "choices": ["Je suis désolé", "Excuse-moi", "Merci", "Bonjour"],
+          "question": "______ désolé (I'm sorry) d'être en retard.",
+          "choices": ["Je suis", "Excuse-moi", "Merci", "Bonjour"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
       },
@@ -2328,11 +2328,11 @@ export const quiz = [
           "pairs": [
             {
               "left": { "word": "Un livre", "rightId": 1 },
-              "right": { "word": "To write", "rightId": 3 }
+              "right": { "word": "A board", "rightId": 3 }
             },
             {
               "left": { "word": "Une craie", "rightId": 2 },
-              "right": { "word": "To read", "rightId": 7 }
+              "right": { "word": "A sheet of paper", "rightId": 7 }
             },
             {
               "left": { "word": "Un tableau", "rightId": 3 },
@@ -2340,7 +2340,7 @@ export const quiz = [
             },
             {
               "left": { "word": "Un étudiant", "rightId": 4 },
-              "right": { "word": "Notebook", "rightId": 10 }
+              "right": { "word": "To draw", "rightId": 10 }
             },
             {
               "left": { "word": "Une règle", "rightId": 5 },
@@ -2352,11 +2352,11 @@ export const quiz = [
             },
             {
               "left": { "word": "Une feuille de papier", "rightId": 7 },
-              "right": { "word": "Student", "rightId": 4 }
+              "right": { "word": "A student", "rightId": 4 }
             },
             {
               "left": { "word": "Écrire", "rightId": 8 },
-              "right": { "word": "To draw", "rightId": 9 }
+              "right": { "word": "To read", "rightId": 9 }
             },
             {
               "left": { "word": "Lire", "rightId": 9 },
@@ -2364,7 +2364,7 @@ export const quiz = [
             },
             {
               "left": { "word": "Dessiner", "rightId": 10 },
-              "right": { "word": "A sheet of paper", "rightId": 5 }
+              "right": { "word": "A ruler", "rightId": 5 }
             }
           ],
         },
@@ -2622,7 +2622,7 @@ export const quiz = [
             },
             {
               "left": { "word": "Cancer", "rightId": 2 },
-              "right": { "word": "To have", "rightId": 7 }
+              "right": { "word": "To speak", "rightId": 7 }
             },
             {
               "left": { "word": "Écrire", "rightId": 3 },
@@ -2649,7 +2649,7 @@ export const quiz = [
               "right": { "word": "Student", "rightId": 9 }
             },
             {
-              "left": { "word": "Élève", "rightId": 9 },
+              "left": { "word": "Étudiant", "rightId": 9 },
               "right": { "word": "School", "rightId": 8 }
             },
             {
