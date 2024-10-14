@@ -1918,7 +1918,7 @@ export const quiz = [
     },
     {
         "question": "How do you form the sentence 'They have a cat' in German?",
-        "choices": [ "Sie haben eine Katze","Sie haben eine Katze", "Wir haben eine Katze", "Ich habe eine Katze"],
+        "choices": [ "Sie haben eine Katzen","Sie haben eine Katze", "Wir haben eine Katze", "Ich habe eine Katze"],
         "type": "MCQs",
         "correctAnswer": 2
     },
