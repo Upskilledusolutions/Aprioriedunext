@@ -1787,7 +1787,7 @@ export const quiz = [
       questions: [
         {
           "question": "How do you say \"I am happy\" in French?",
-          "choices": [ "Je suis heureux", "Je es heureux", "Tu es heureux", "Je suis triste",],
+          "choices": [ "Je suis heureux", "Je es heureux", "Tu es triste", "Je suis triste",],
           "type": "MCQs",
           "correctAnswer": 4
         },
@@ -1847,7 +1847,7 @@ export const quiz = [
         },
         {
           "question": "What is the masculine form of \"teacher\"?",
-          "choices": ["Professeure", "Professeurs", "Professeur", "Professeur"],
+          "choices": ["Professeure", "Professeurse", "Professeur", "Professeur"],
           "type": "MCQs",
           "correctAnswer": 3
         },
@@ -1877,7 +1877,7 @@ export const quiz = [
         },
         {
           "question": "How do you say \"nurse\" in French for a man?",
-          "choices": [ "Infirmières", "Infirmiers", "Infirmier", "Infirmier"],
+          "choices": [ "Infirmières", "Infirmiers", "Infirmer", "Infirmier"],
           "type": "MCQs",
           "correctAnswer": 4
         },
