@@ -3647,4 +3647,180 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '15',
+      name: 'French Exercise - 15',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "What is the correct future form of *avoir* (to have) for 'ils'?",
+          "choices": ["ils aurons", "ils auront", "ils auraient", "ils avoiront"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the correct future form of *aller* (to go) for 'je'?",
+          "choices": ["j’allons", "j’irais", "j’irai", "j’allai"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of the following is the correct future form of *faire* (to do) for 'elle'?",
+          "choices": ["elle fera", "elle faire", "elle ferai", "elle fait"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the future tense form of *être* (to be) for 'nous'?",
+          "choices": ["nous sommes", "nous serons", "nous seront", "nous être"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which verb stem is used for *venir* in *Futur Simple*?",
+          "choices": ["viendr-", "vendr-", "ven-", "venir-"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the future form of *parler* (to speak) for 'tu'?",
+          "choices": ["tu parlais", "tu parlera", "tu parleras", "tu parlai"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "The verb *vouloir* (to want) in *Futur Simple* for 'je' is:",
+          "choices": ["je veux", "je voudrai", "je voudrais", "je voulerai"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the future form of *finir* (to finish) for 'nous'?",
+          "choices": ["nous finirons", "nous finissons", "nous finirez", "nous finiront"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following verbs has an irregular stem in *Futur Simple*?",
+          "choices": ["parler", "finir", "aller", "manger"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is correctly written in *Futur Simple*?",
+          "choices": ["Je vais partir demain.", "Nous partirons en vacances en juillet.", "Ils partaient en voyage l’année prochaine.", "Elle est partirai demain matin."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+       
+        {
+          "question": "La semaine prochaine, nous ______ (partir) en vacances.",
+          "choices": ["partirons","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Demain, elle ______ (faire) ses devoirs tôt.",
+          "choices": ["fera","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (acheter) une nouvelle voiture l’année prochaine.",
+          "choices": ["achèterai","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (être) en retard pour la réunion demain.",
+          "choices": ["seront","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (déménager) à Paris dans deux ans.",
+          "choices": ["déménagerons","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (aller) à l'université après tes études?",
+          "choices": ["iras","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (venir) avec nous au cinéma ce soir.",
+          "choices": ["viendra","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (avoir) une réunion avec le directeur demain.",
+          "choices": ["aurez","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elles ______ (finir) le projet avant la fin de la semaine.",
+          "choices": ["finiront","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (recevoir) une réponse bientôt.",
+          "choices": ["recevrons","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je voyagerai demain.", "rightId": 1 },
+              "right": { "word": "They will go to the beach.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Elle ira à Paris.", "rightId": 2 },
+              "right": { "word": "We will eat together.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Ils travailleront ce week-end.", "rightId": 3 },
+              "right": { "word": "She will go to Paris.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Nous mangerons ensemble.", "rightId": 4 },
+              "right": { "word": "They will work this weekend.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Il achètera une nouvelle voiture.", "rightId": 5 },
+              "right": { "word": "He will buy a new car.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Tu parleras à Marie.", "rightId": 6 },
+              "right": { "word": "You will talk to Marie.", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Je verrai mes amis.", "rightId": 7 },
+              "right": { "word": "I will travel tomorrow.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Nous visiterons nos grands-parents.", "rightId": 8 },
+              "right": { "word": "I will see my friends.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Ils iront à la plage.", "rightId": 9 },
+              "right": { "word": "We will visit our grandparents.", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Vous ferez vos devoirs plus tard.", "rightId": 10 },
+              "right": { "word": " You will do your homework later.", "rightId": 10 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]
