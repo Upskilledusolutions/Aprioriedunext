@@ -597,7 +597,7 @@ margin-bottom: 10px;
     font-size: 15px;
   }
   .quizcontainer {
-    padding: 60px 5vw 30px;
+    padding: 60px 0 30px;
     width: 100%;
     height: auto;
   }
@@ -640,5 +640,10 @@ margin-bottom: 10px;
   }
   .flexi{
     width: 100%;
+  }
+  .container{
+width: 90vw;
+padding-left: 5vw;
+padding-right: 5vw;
   }
 }

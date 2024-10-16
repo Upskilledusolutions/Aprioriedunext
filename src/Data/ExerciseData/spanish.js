@@ -246,8 +246,8 @@ export const quiz = [
         correctAnswer: 1
       },
       {
-        question: "_______ usted? (How are you?)",
-        choices: ["cómo está", "cómo eres", "cómo soy", "cómo estamos"],
+        question: "_______ está usted? (How are you?)",
+        choices: ["cómo", "cómo", "cómo", "cómo"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
@@ -256,44 +256,44 @@ export const quiz = [
         "type": "MatchTheFollowing",
         "pairs": [
           {
-            "left": { "word": "Hola", "rightId": 1 },
-            "right": { "word": "Buenos días", "rightId": 3 }
+            "left": { "word": "¿Cómo estás?", "rightId": 1 },
+            "right": { "word": "See you later", "rightId": 3 }
           },
           {
-            "left": { "word": "Señorita", "rightId": 2 },
-            "right": { "word": "Hola", "rightId": 1 }
+            "left": { "word": "Buenas tardes", "rightId": 2 },
+            "right": { "word": "How are you?", "rightId": 1 }
           },
           {
-            "left": { "word": "Señor", "rightId": 3 },
-            "right": { "word": "Señorita", "rightId": 2 }
+            "left": { "word": "Hasta luego", "rightId": 3 },
+            "right": { "word": "Good afternoon", "rightId": 2 }
           },
           {
-            "left": { "word": "Adiós", "rightId": 4 },
-            "right": { "word": "Mucho gusto", "rightId": 5 }
+            "left": { "word": "Muchas gracias", "rightId": 4 },
+            "right": { "word": "What time is it?", "rightId": 5 }
           },
           {
-            "left": { "word": "Mucho gusto", "rightId": 5 },
-            "right": { "word": "Adiós", "rightId": 4 }
+            "left": { "word": "¿Qué hora es?", "rightId": 5 },
+            "right": { "word": "Thank you very much", "rightId": 4 }
           },
           {
-            "left": { "word": "Hola", "rightId": 6 },
-            "right": { "word": "Buenas noches", "rightId": 8 }
+            "left": { "word": "Buenas noches", "rightId": 6 },
+            "right": { "word": "I'm sorry", "rightId": 8 }
           },
           {
-            "left": { "word": "Hasta luego", "rightId": 7 },
-            "right": { "word": "Hola", "rightId": 6 }
+            "left": { "word": "Por favor", "rightId": 7 },
+            "right": { "word": "Good evening", "rightId": 6 }
           },
           {
-            "left": { "word": "Buenas noches", "rightId": 8 },
-            "right": { "word": "Hasta luego", "rightId": 7 }
+            "left": { "word": "Lo siento", "rightId": 8 },
+            "right": { "word": "Please", "rightId": 7 }
           },
           {
-            "left": { "word": "Hasta mañana", "rightId": 9 },
-            "right": { "word": "Buenas tardes", "rightId": 10 }
+            "left": { "word": "¿Dónde está el baño?", "rightId": 9 },
+            "right": { "word": "Good morning", "rightId": 10 }
           },
           {
-            "left": { "word": "Buenas tardes", "rightId": 10 },
-            "right": { "word": "Hasta mañana", "rightId": 9 }
+            "left": { "word": "Buenos días", "rightId": 10 },
+            "right": { "word": "Where is the bathroom?", "rightId": 9 }
           }
         ]
       }
@@ -1108,7 +1108,7 @@ export const quiz = [
     },
     {
         "question": "______ (We) vivimos en una casa grande.",
-        "choices": ["Nosotros/Nosotras", "Yo", "Ellos", "Tú"],
+        "choices": ["Nosotros", "Yo", "Ellos", "Tú"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
@@ -1450,8 +1450,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Mi hermana tiene ______ (forty-five) años.",
-        "choices": ["cuarenta y cinco", "cuarenta y cuatro", "cuarenta y seis", "cincuenta"],
+        "question": "Mi hermana tiene ______ y cinco (forty-five) años.",
+        "choices": ["cuarenta", "cuarenta y cuatro", "cuarenta y seis", "cincuenta"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1488,12 +1488,12 @@ export const quiz = [
             "right": { "word": "You (informal)", "rightId": 4 }
           },
           {
-            "left": { "word": "Nosotros", "rightId": 8 },
-            "right": { "word": "We (masculine)", "rightId": 8 }
+            "left": { "word": "Them", "rightId": 8 },
+            "right": { "word": "Us", "rightId": 2 }
           },
           {
             "left": { "word": "Ella", "rightId": 9 },
-            "right": { "word": "They (feminine)", "rightId": 1 }
+            "right": { "word": "Ellos (masculine)", "rightId": 8 }
           },
           {
             "left": { "word": "Cuarenta y dos", "rightId": 10 },
@@ -2041,19 +2041,19 @@ export const quiz = [
     },
     {
         "question": "Yo soy ______ (masculine nationality).",
-        "choices": ["panameño, panameña", "panameña, panameño"],
+        "choices": ["panameño", "panameña, panameño"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
         "question": "Él es ______ (masculine profession).",
-        "choices": ["dentista, dentista", "dentistas, dentistas"],
+        "choices": ["dentista", "dentistas, dentistas"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
         "question": "Ellos son ______ (masculine nationality).",
-        "choices": ["venezolanos, venezolanas", "venezolana, venezolanos"],
+        "choices": ["venezolanos", "venezolana, venezolanos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
@@ -2062,7 +2062,7 @@ export const quiz = [
         "type": "MatchTheFollowing",
         "pairs": [
           {
-            "left": { "word": "Nacionalidad", "rightId": 1 },
+            "left": { "word": "Italiano", "rightId": 1 },
             "right": { "word": "Italian", "rightId": 9 }
           },
           {
@@ -2663,43 +2663,43 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Mi cumpleaños", "rightId": 1 },
-            "right": { "word": "Sister", "rightId": 9 }
+            "right": { "word": "Sister", "rightId": 5 }
           },
           {
             "left": { "word": "Cumplir años", "rightId": 2 },
-            "right": { "word": "My birthday", "rightId": 8 }
+            "right": { "word": "My birthday", "rightId": 1 }
           },
           {
             "left": { "word": "Nací en abril", "rightId": 3 },
-            "right": { "word": "I am from Spain", "rightId": 4 }
+            "right": { "word": "I am from Spain", "rightId": 7 }
           },
           {
             "left": { "word": "Escuela", "rightId": 4 },
-            "right": { "word": "Birthday", "rightId": 3 }
+            "right": { "word": "Birthday", "rightId": 4 }
           },
           {
             "left": { "word": "Mi hermana", "rightId": 5 },
-            "right": { "word": "Forty", "rightId": 10 }
+            "right": { "word": "Forty", "rightId": 9 }
           },
           {
             "left": { "word": "Escorpio", "rightId": 6 },
-            "right": { "word": "To study", "rightId": 2 }
+            "right": { "word": "To study", "rightId": 8 }
           },
           {
             "left": { "word": "Soy de España", "rightId": 7 },
-            "right": { "word": "To turn (age)", "rightId": 5 }
+            "right": { "word": "To turn (age)", "rightId": 2 }
           },
           {
             "left": { "word": "Estudiar", "rightId": 8 },
-            "right": { "word": "Scorpio", "rightId": 7 }
+            "right": { "word": "Scorpio", "rightId": 6 }
           },
           {
             "left": { "word": "Cuarenta", "rightId": 9 },
-            "right": { "word": "I was born in April", "rightId": 6 }
+            "right": { "word": "I was born in April", "rightId": 3 }
           },
           {
             "left": { "word": "Cien", "rightId": 10 },
-            "right": { "word": "Zodiac sign", "rightId": 1 }
+            "right": { "word": "Hundred", "rightId": 10 }
           }
         ]
       }

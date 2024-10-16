@@ -1447,7 +1447,7 @@ export const quiz = [
               "right": { "word": "We (feminine)", "rightId": 2 }
             },
             {
-              "left": { "word": "Elles", "rightId": 3 },
+              "left": { "word": "Vous tous", "rightId": 3 },
               "right": { "word": "They (feminine)", "rightId": 5 }
             },
             {
@@ -2655,6 +2655,184 @@ export const quiz = [
             {
               "left": { "word": "Père", "rightId": 10 },
               "right": { "word": "We have", "rightId": 5 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '10',
+      name: 'French Exercise - 10',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Where should the adverb be placed in this sentence: 'Je (mange) (souvent) du pain'?",
+          "choices": ["Before 'je'", "After 'je'", "After 'mange'", "Before 'mange'"],
+          "type": "MCQs",
+          "correctAnswer": 3
+      },
+      {
+        "question": "How do you say 'He runs fast' in French?",
+        "choices": ["Il court bien", "Il court vite", "Il court souvent", "Il court mal"],
+        "type": "MCQs",
+        "correctAnswer": 2
+    },
+    {
+      "question": "Which sentence correctly places the adverb 'toujours' in a sentence with a simple tense?",
+      "choices": ["Il toujours parle français", "Il parle toujours français", "Toujours il parle français", "Il parle français toujours"],
+      "type": "MCQs",
+      "correctAnswer": 2
+  },
+  {
+    "question": "In compound tenses, where should the adverb be placed in this sentence: 'Elle a (mangé) du chocolat'?",
+    "choices": ["After 'a'", "After 'mangé'", "Before 'mangé'", "Before 'a'"],
+    "type": "MCQs",
+    "correctAnswer": 3
+},
+{
+  "question": "What is the translation of 'I rarely go to the park'?",
+  "choices": ["Je vais souvent au parc", "Je vais rarement au parc", "Je vais toujours au parc", "Je vais bien au parc"],
+  "type": "MCQs",
+  "correctAnswer": 2
+},
+{
+  "question": "Which sentence is correct for 'She has already left'?",
+  "choices": ["Elle est parti déjà", "Elle est déjà parti", "Elle déjà est partie", "Elle est déjà partie"],
+  "type": "MCQs",
+  "correctAnswer": 4
+},
+{
+  "question": "Where should the adverb 'bien' be placed in this sentence: 'Ils (parlent) (bien) anglais'?",
+  "choices": ["After 'ils'", "Before 'parlent'", "After 'parlent'", "Before 'anglais'"],
+  "type": "MCQs",
+  "correctAnswer": 3
+},
+{
+  "question": "How do you say 'They never eat vegetables' in French?",
+  "choices": ["Ils mangent jamais des légumes", "Ils ne mangent jamais des légumes", "Ils ne mangent des légumes jamais", "Ils mangent des légumes jamais"],
+  "type": "MCQs",
+  "correctAnswer": 2
+},
+{
+  "question": "What is the meaning of 'Je fais parfois du sport'?",
+  "choices": ["I always exercise", "I often exercise", "I never exercise", "I sometimes exercise"],
+  "type": "MCQs",
+  "correctAnswer": 4
+},
+{
+  "question": "Which of the following adverbs means 'too much'?",
+  "choices": ["Très", "Trop", "Toujours", "Rarement"],
+  "type": "MCQs",
+  "correctAnswer": 2
+},
+     
+       
+      {
+        "question": "Il parle ______ (bien/mal) espagnol.",
+        "choices": ["bien","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Nous allons ______ (souvent/rarement) au cinéma.",
+        "choices": ["souvent","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Elle a ______ (déjà/trop) fini ses devoirs.",
+        "choices": ["déjà","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Vous travaillez ______ (lentement/trop) aujourd'hui.",
+        "choices": ["trop","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Il a ______ (toujours/souvent) mangé ici.",
+        "choices": ["toujours","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Je fais ______ (parfois/souvent) de la randonnée le week-end.",
+        "choices": ["parfois","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Elles lisent ______ (vite/lentement) les livres.",
+        "choices": ["lentement","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Je suis ______ (très/trop) fatigué ce matin.",
+        "choices": ["très","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Nous sommes ______ (déjà/souvent) arrivés à l'aéroport.",
+        "choices": ["déjà","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ils ne viennent ______ (jamais/toujours) à nos fêtes.",
+        "choices": ["jamais","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Souvent", "rightId": 1 },
+              "right": { "word": "Early (placed after the verb or at the end of the sentence)", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Jamais", "rightId": 2 },
+              "right": { "word": "Slowly (placed after the verb)", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Toujours", "rightId": 3 },
+              "right": { "word": "Quickly (placed after the verb)", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Parfois", "rightId": 4 },
+              "right": { "word": "Always (placed before the verb)", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Déjà", "rightId": 5 },
+              "right": { "word": "Sometimes (placed at the end of a sentence)", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Rapidement", "rightId": 6 },
+              "right": { "word": "Never (used with 'ne' for negation)", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Maintenant", "rightId": 7 },
+              "right": { "word": "Often (usually placed after the verb)", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Doucement", "rightId": 8 },
+              "right": { "word": "Here (placed after the verb or at the end of the sentence)", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Ici", "rightId": 9 },
+              "right": { "word": "Now (at the start or end of a sentence)", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Tôt", "rightId": 10 },
+              "right": { "word": "Already (before the past participle)", "rightId": 5 }
             }
           ],
         },

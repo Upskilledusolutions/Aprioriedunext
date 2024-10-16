@@ -305,124 +305,124 @@ export const quiz = [
     questions: [
       // 20 MCQs
       {
-        question: "What is the German word for 'friend'?",
-        choices: ['Freund', 'Familie', 'Arbeiter', 'Kollege'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "What is the German word for the number 'three'?",
+        "choices": ["Eins", "Zwei", "Drei", "Vier"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "How do you say 'I am hungry' in German?",
-        choices: ['Ich bin müde', 'Ich habe Hunger', 'Ich habe Durst', 'Ich bin voll'],
-        type: 'MCQs',
-        correctAnswer: 2
+        "question": "How do you say the number 'seven' in German?",
+        "choices": ["Sechs", "Sieben", "Acht", "Neun"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What does 'Sprechen Sie Englisch?' mean?",
-        choices: ['Do you speak English?', 'Where are you?', 'How are you?', 'What time is it?'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "What is the German letter for the pronunciation 'Eff'?",
+        "choices": ["F", "D", "T", "P"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "How would you say 'Excuse me' in German?",
-        choices: ['Entschuldigung', 'Danke', 'Bitte', 'Guten Tag'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "How do you say the number 'twelve' in German?",
+        "choices": ["Zehn", "Elf", "Zwölf", "Dreizehn"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "What does 'Ich verstehe nicht' mean?",
-        choices: ['I don’t understand', 'I am tired', 'I am fine', 'I am lost'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "What is the letter for the German pronunciation 'Em'?",
+        "choices": ["N", "R", "M", "D"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "How do you say 'goodbye' in German?",
-        choices: ['Guten Abend', 'Gute Nacht', 'Tschüss', 'Guten Morgen'],
-        type: 'MCQs',
-        correctAnswer: 3
+        "question": "How do you say the number 'eighteen' in German?",
+        "choices": ["Seventeen", "Siebzehn", "Achtzehn", "Neunzehn"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "What does 'Wie viel kostet das?' mean?",
-        choices: ['How much does it cost?', 'Where is it?', 'How are you?', 'What time is it?'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "What is the letter for the German pronunciation 'El'?",
+        "choices": ["L", "K", "F", "U"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "How do you say 'I would like' in German?",
-        choices: ['Ich möchte', 'Ich liebe', 'Ich brauche', 'Ich kann'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "How do you say the number 'fourteen' in German?",
+        "choices": ["Vierzehn", "Fünfzehn", "Sechzehn", "Siebenzehn"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "What is the German word for 'house'?",
-        choices: ['Haus', 'Auto', 'Stuhl', 'Buch'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "What is the German word for the number 'six'?",
+        "choices": ["Fünf", "Sechs", "Sieben", "Acht"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "Which of the following means 'good afternoon' in German?",
-        choices: ['Guten Abend', 'Guten Morgen', 'Guten Tag', 'Gute Nacht'],
-        type: 'MCQs',
-        correctAnswer: 3
+        "question": "How do you say the letter 'H' in German?",
+        "choices": ["H", "Ha", "Hä", "He"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "How do you say 'I am lost' in German?",
-        choices: ['Ich bin müde', 'Ich bin verloren', 'Ich bin hungrig', 'Ich bin krank'],
-        type: 'MCQs',
-        correctAnswer: 2
+        "question": "What is the German word for the number 'nine'?",
+        "choices": ["Acht", "Sieben", "Neun", "Sechs"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "What does 'Wie geht es Ihnen?' mean?",
-        choices: ['How are you?', 'Where are you?', 'What is it?', 'What time is it?'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "How do you say the letter 'Q' in German?",
+        "choices": ["Ku", "Kü", "Que", "Ki"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "How do you say 'please' in German?",
-        choices: ['Bitte', 'Entschuldigung', 'Danke', 'Hallo'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "What is the German word for the number 'fifteen'?",
+        "choices": ["Vierzehn", "Fünfzehn", "Sechzehn", "Achtzehn"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What is the German word for 'book'?",
-        choices: ['Buch', 'Haus', 'Stuhl', 'Auto'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "How do you say the letter 'H' in German?",
+        "choices": ["H", "Ha", "Hä", "He"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "How do you say 'see you soon' in German?",
-        choices: ['Bis bald', 'Gute Nacht', 'Guten Morgen', 'Guten Abend'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "What is the German word for the letter 'Z'?",
+        "choices": ["Z", "Zett", "Zed", "Zee"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What does 'Ich hätte gerne' mean?",
-        choices: ['I would like', 'I need', 'I am happy', 'I am sad'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "How do you say the number 'twenty' in German?",
+        "choices": ["Zehn", "Zwanzig", "Dreißig", "Viertzig"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "How do you say 'I don’t know' in German?",
-        choices: ['Ich weiß nicht', 'Ich verstehe', 'Ich habe', 'Ich will'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "What is the German word for the number 'nine'?",
+        "choices": ["Acht", "Sieben", "Neun", "Zehn"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "What does 'Könnten Sie das bitte wiederholen?' mean?",
-        choices: ['Could you please repeat that?', 'Where are you?', 'How much is this?', 'Can I help you?'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "How do you say the number 'six' in German?",
+        "choices": ["Fünf", "Sechs", "Sieben", "Acht"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "How would you say 'goodbye' formally in German?",
-        choices: ['Tschüss', 'Auf Wiedersehen', 'Guten Tag', 'Bis bald'],
-        type: 'MCQs',
-        correctAnswer: 2
+        "question": "What is the German letter for the pronunciation 'Tee'?",
+        "choices": ["H", "T", "P", "O"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What is the German word for 'apple'?",
-        choices: ['Apfel', 'Banane', 'Orange', 'Traube'],
-        type: 'MCQs',
-        correctAnswer: 1
+        "question": "How do you say the number 'seventeen' in German?",
+        "choices": ["Fünfzehn", "Sechzehn", "Siebzehn", "Achtzehn"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
 
       // 20 Fill in the Blanks
@@ -839,8 +839,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Es ist wichtig, ______ (to rest) nach dem Sport.",
-        "choices": ["sich auszuruhen", "zu lernen", "zu spielen", "zu essen"],
+        "question": "Es ist wichtig, sich ______ (to rest) nach dem Sport.",
+        "choices": ["auszuruhen", "zu lernen", "zu spielen", "zu essen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -849,53 +849,53 @@ export const quiz = [
   "type": "MatchTheFollowing",
 "pairs": [
     {
-      "left": { "word": "GUTEN MORGEN", "rightId": 1 },
-      "right": { "word": "HEALTH", "rightId": 10 }
+      "left": { "word": "guten morgen", "rightId": 1 },
+      "right": { "word": "health", "rightId": 10 }
 
     },
     {
-      "left": { "word": "BITTE", "rightId": 2 },
-      "right": { "word": "THANK YOU", "rightId": 2 }
+      "left": { "word": "bitte", "rightId": 2 },
+      "right": { "word": "thank you", "rightId": 2 }
 
     },
     {
-      "left": { "word": "BLAU", "rightId": 3 },
-      "right": { "word": "CAT", "rightId": 5 }
+      "left": { "word": "blau", "rightId": 3 },
+      "right": { "word": "cat", "rightId": 5 }
       
     },
     {
-      "left": { "word": "FÜNFZIG", "rightId": 4 },
-      "right": { "word": "GOOD MORNING", "rightId": 1 }
+      "left": { "word": "fünfzig", "rightId": 4 },
+      "right": { "word": "good morning", "rightId": 1 }
       
     },
     {
-      "left": { "word": "KATZE", "rightId": 5 },
-      "right": { "word": "BLUE", "rightId": 3 }
+      "left": { "word": "katze", "rightId": 5 },
+      "right": { "word": "blue", "rightId": 3 }
 
     },
     {
-      "left": { "word": "WIE GEHT'S?", "rightId": 6 },
-      "right": { "word": "FIFTY", "rightId": 4 }
+      "left": { "word": "wie geht's?", "rightId": 6 },
+      "right": { "word": "fifty", "rightId": 4 }
       
     },
     {
-      "left": { "word": "BIS MORGEN", "rightId": 7 },
-      "right": { "word": "NO", "rightId": 9 }
+      "left": { "word": "bis morgen", "rightId": 7 },
+      "right": { "word": "no", "rightId": 9 }
       
     },
     {
-      "left": { "word": "JA", "rightId": 8 },
-      "right": { "word": "HOW'S IT GOING?", "rightId": 6 }
+      "left": { "word": "ja", "rightId": 8 },
+      "right": { "word": "how's it going?", "rightId": 6 }
       
     },
     {
-      "left": { "word": "NEIN", "rightId": 9 },
-      "right": { "word": "SEE YOU TOMORROW", "rightId": 7 }
+      "left": { "word": "nein", "rightId": 9 },
+      "right": { "word": "see you tomorrow", "rightId": 7 }
       
     },
     {
-      "left": { "word": "GESUNDHEIT", "rightId": 10 },
-      "right": { "word": "YES", "rightId": 8 }
+      "left": { "word": "gesundheit", "rightId": 10 },
+      "right": { "word": "yes", "rightId": 8 }
       
     }
   ]
@@ -1322,6 +1322,24 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
     },
+    {
+      "question": 'How do you say "aunt" in German?',
+      "choices": ["Tante", "Mutter", "Schwester", "Cousine"],
+      "type": "MCQs",
+      "correctAnswer": 1
+  },
+  {
+    "question": 'What is the German word for "uncle"?',
+    "choices": ["Bruder", "Onkel", "Vater", "Großvater"],
+    "type": "MCQs",
+    "correctAnswer": 2
+},
+{
+  "question": 'How do you conjugate "sprechen" (to speak) for "wir"?',
+  "choices": ["Sprichst", "Sprechen", "Spricht", "Spreche"],
+  "type": "MCQs",
+  "correctAnswer": 2
+},
 
       // 20 Fill in the Blanks
       {
@@ -1332,19 +1350,19 @@ export const quiz = [
     },
     {
         "question": "Die ______ (sister) von Anna ist sehr nett.",
-        "choices": ["Bruder", "Schwester", "Onkel", "Großeltern"],
+        "choices": ["Schwester", "Schwester1", "Onkel", "Großeltern"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
         "question": "Mein ______ (uncle) wohnt in Berlin.",
-        "choices": ["Bruder", "Schwester", "Onkel", "Großeltern"],
+        "choices": ["Onkel", "Schwester", "Onkel1", "Großeltern"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
         "question": "Die ______ (grandparents) kommen zu Besuch.",
-        "choices": ["Bruder", "Schwester", "Onkel", "Großeltern"],
+        "choices": ["Großeltern", "Schwester", "Onkel", "Großelternew"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
@@ -1362,25 +1380,25 @@ export const quiz = [
     },
     {
         "question": "Wir ______ (to go) morgen ins Kino.",
-        "choices": ["gehe", "geht", "gehen", "gehst"],
+        "choices": ["gehen", "geht", "gehe", "gehst"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
         "question": "Du ______ (to speak) sehr gut Deutsch.",
-        "choices": ["spricht", "spreche", "sprichst", "sprechen"],
+        "choices": ["sprichst", "spreche", "spricht", "sprechen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
         "question": "Sie ______ (to take) den Bus zur Schule.",
-        "choices": ["nehmt", "nehmt", "nimmt", "nehmen"],
+        "choices": ["nimmt", "nehmt", "nimmte", "nehmen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
         "question": "Ihr ______ (to learn) schnell.",
-        "choices": ["lerne", "lernst", "lernt", "lernen"],
+        "choices": ["lernt", "lernst", "lernte", "lernen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
@@ -1433,14 +1451,14 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
-        "question": "Ich habe ______ (thirty-five) Äpfel gekauft.",
-        "choices": ["fünfunddreißig", "zwanzig", "dreißig", "vierzig"],
+        "question": "Ich habe ______ (twenty) Äpfel gekauft.",
+        "choices": ["zwanzig", "zwanzige", "dreißig", "vierzig"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
-        "question": "Mein Bruder ist ______ (forty-two) Jahre alt.",
-        "choices": ["zweiundvierzig", "vierzig", "fünfzig", "dreißig"],
+        "question": "Mein Bruder ist ______ (forty) Jahre alt.",
+        "choices": ["vierzig", "vierzige", "fünfzig", "dreißig"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },   
@@ -1842,7 +1860,7 @@ export const quiz = [
         "question": "How do you say 'They are students' in German?",
         "choices": [ "Sie sind Studenten", "Wir sind Studenten", "Ich bin Studenten", "Sie sind Student",],
         "type": "MCQs",
-        "correctAnswer": 4
+        "correctAnswer": 1
     },
     {
         "question": "How do you say 'She is my sister' in German?",
@@ -2010,13 +2028,13 @@ export const quiz = [
     },
     {
         "question": "Ich bin ______ (a nationality).",
-        "choices": ["Deutscher", "deutscher", "deutsche", "deutsch"],
+        "choices": ["Deutscher", "deutschere", "deutsche", "deutsch"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
         "question": "Sie ist ______ (a profession).",
-        "choices": ["Ärztin", "arzt", "ärztin", "ärzte"],
+        "choices": ["Ärztin", "arzt", "ärztine", "ärzte"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
@@ -2028,7 +2046,7 @@ export const quiz = [
     },
     {
         "question": "Er ist ______ (a profession).",
-        "choices": ["Tänzer", "tänzer", "tanzende", "tanz"],
+        "choices": ["Tänzer", "tänzere", "tanzende", "tanz"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
@@ -2072,12 +2090,12 @@ export const quiz = [
 
     },
     {
-      "left": { "word": "Beruf", "rightId": 2 },
+      "left": { "word": "Lehrer", "rightId": 2 },
       "right": { "word": "Italian", "rightId": 9 }
 
     },
     {
-      "left": { "word": "Deutscher", "rightId": 3 },
+      "left": { "word": "traurig", "rightId": 3 },
       "right": { "word": "Happy", "rightId": 8 }
       
     },
@@ -2103,7 +2121,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Glücklich", "rightId": 8 },
-      "right": { "word": "German", "rightId": 3 }
+      "right": { "word": "Sad", "rightId": 3 }
       
     },
     {
@@ -2224,7 +2242,7 @@ export const quiz = [
         "correctAnswer": 2
     },
     {
-        "question": "What day is today?",
+        "question": "What day is Wednesday?",
         "choices": ["Montag", "Dienstag", "Mittwoch", "Donnerstag"],
         "type": "MCQs",
         "correctAnswer": 3
@@ -2298,14 +2316,14 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
-        "question": "______ (I don’t understand) die Aufgabe.",
-        "choices": ["Ich verstehe nicht", "Ich bin müde", "Entschuldigung", "Danke"],
+        "question": "Ich verstehe ______ (I don’t understand) die Aufgabe.",
+        "choices": ["nicht", "Ich bin müde", "Entschuldigung", "Danke"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
     {
-        "question": "______ (I'm sorry) für die Verspätung.",
-        "choices": ["Es tut mir leid", "Danke", "Bitte", "Entschuldigung"],
+        "question": "Es tut mir ______ (I'm sorry) für die Verspätung.",
+        "choices": ["leid", "Danke", "Bitte", "Entschuldigung"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
