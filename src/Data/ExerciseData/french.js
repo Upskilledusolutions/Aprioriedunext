@@ -2839,4 +2839,231 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '11',
+      name: 'French Exercise - 11',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "How do you say \"I love ice cream\" in French?",
+          "choices": [
+            "J'adore les glaces",
+            "J'aime les glaces",
+            "Je préfère les glaces",
+            "Je déteste les glaces"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct sentence to express \"She doesn’t like coffee\"?",
+          "choices": [
+            "Elle adore le café",
+            "Elle n'aime pas le café",
+            "Elle aime beaucoup le café",
+            "Elle déteste le café"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence correctly expresses \"They prefer tea over coffee\"?",
+          "choices": [
+            "Ils détestent le thé",
+            "Ils aiment beaucoup le café",
+            "Ils préfèrent le thé au café",
+            "Ils préfèrent le café au thé"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"We hate homework\" in French?",
+          "choices": [
+            "Nous adorons les devoirs",
+            "Nous aimons les devoirs",
+            "Nous détestons les devoirs",
+            "Nous préférons les devoirs"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is correct for \"He likes reading but prefers watching TV\"?",
+          "choices": [
+            "Il aime lire, mais il préfère regarder la télévision",
+            "Il déteste lire, mais il aime regarder la télévision",
+            "Il préfère lire, mais il n'aime pas regarder la télévision",
+            "Il adore lire et il aime regarder la télévision"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the French translation of \"Do you like playing football?\"",
+          "choices": [
+            "Tu préfères jouer au football ?",
+            "Tu détestes jouer au football ?",
+            "Tu aimes jouer au football ?",
+            "Tu adores jouer au football ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of the following sentences means \"I don’t like chocolate at all\"?",
+          "choices": [
+            "Je n'aime pas du tout le chocolat",
+            "J'adore le chocolat",
+            "Je déteste le chocolat",
+            "Je préfère le chocolat"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the translation of \"They prefer dogs to cats\"?",
+          "choices": [
+            "Ils aiment beaucoup les chiens",
+            "Ils préfèrent les chiens aux chats",
+            "Ils détestent les chiens",
+            "Ils adorent les chiens et les chats"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following sentences is correct to express \"She loves to travel\"?",
+          "choices": [
+            "Elle préfère voyager",
+            "Elle aime voyager",
+            "Elle adore voyager",
+            "Elle déteste voyager"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say \"We prefer going to the movies\" in French?",
+          "choices": [
+            "Nous préférons aller au cinéma",
+            "Nous aimons aller au cinéma",
+            "Nous adorons aller au cinéma",
+            "Nous détestons aller au cinéma"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+       
+      {
+        "question": "Nous ______ (adorer) les vacances à la plage.",
+        "choices": ["adorons","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+      "question": "Il ne ______ (aimer) pas le football, mais il préfère le basket.",
+      "choices": ["aime","1","2","3"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
+    {
+        "question": "Elles ______ (préférer) le thé au café.",
+        "choices": ["préfèrent","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Tu ______ (détester) les légumes verts, n'est-ce pas ?",
+        "choices": ["détestes","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Je ______ (aimer) beaucoup les films d'horreur.",
+        "choices": ["aime","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Ils ______ (préférer) voyager en voiture plutôt qu'en train.",
+        "choices": ["préfèrent","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Vous ______ (aimer) écouter de la musique classique ?",
+        "choices": ["aimez","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Elle ______ (détester) faire du shopping, mais elle adore lire.",
+        "choices": ["déteste","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Nous ______ (préférer) les chiens aux chats.",
+        "choices": ["préférons","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+    {
+        "question": "Je ______ (aimer) beaucoup le chocolat, mais je n'aime pas les bonbons.",
+        "choices": ["aime","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+    },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Me gusta el fútbol", "rightId": 1 },
+              "right": { "word": "I don’t like spicy food", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Prefiero leer libros", "rightId": 2 },
+              "right": { "word": "I like football", "rightId": 1 }
+            },
+            {
+              "left": { "word": "No me gusta la comida picante", "rightId": 3 },
+              "right": { "word": "I prefer to read books", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Me encanta escuchar música", "rightId": 4 },
+              "right": { "word": "I hate waking up early", "rightId": 5}
+            },
+            {
+              "left": { "word": "Odio levantarme temprano", "rightId": 5 },
+              "right": { "word": "I am fascinated by art", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Me fascina el arte", "rightId": 6 },
+              "right": { "word": "I love listening to music", "rightId": 4 }
+            },
+            {
+              "left": { "word": "No me gusta viajar", "rightId": 7 },
+              "right": { "word": "I prefer summer to winter", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Prefiero el verano al invierno", "rightId": 8 },
+              "right": { "word": "I hate doing homework", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Me encanta ver películas", "rightId": 9 },
+              "right": { "word": "I don't like to travel", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Odio hacer la tarea", "rightId": 10 },
+              "right": { "word": "I love watching movies", "rightId": 9 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]
