@@ -3066,4 +3066,585 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '12',
+      name: 'French Exercise - 12',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "How do you say \"Turn left\" in French?",
+          "choices": ["Tournez à droite", "Continuez tout droit", "Tournez à gauche", "Traversez la rue"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the correct phrase for \"Where is the bank?\" in French?",
+          "choices": ["Où est la gare ?", "Où est la banque ?", "Comment puis-je aller à la banque ?", "Quel est le chemin pour la banque ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence means \"How can I go to the restaurant?\"",
+          "choices": ["Où se trouve le restaurant ?", "Comment puis-je aller au restaurant ?", "Quel est le chemin pour le restaurant ?", "Est-ce loin du restaurant ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following means \"Take the first left\"?",
+          "choices": ["Prenez la première à droite", "Prenez la deuxième à gauche", "Prenez la première à gauche", "Continuez tout droit"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the translation of \"The hotel is near the station\"?",
+          "choices": ["L’hôtel est à côté de la gare", "L’hôtel est loin de la gare", "L’hôtel est en face de la gare", "L’hôtel est près de la gare"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "If someone asks you \"Comment puis-je aller au musée ?\", which of the following is a correct response?",
+          "choices": ["Tournez à droite et prenez la première à gauche", "Tournez à gauche après l’hôtel", "Traversez la rue et prenez la deuxième à droite", "Continuez tout droit, puis tournez à droite"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does \"Est-ce loin d’ici ?\" mean?",
+          "choices": ["Is it near here?", "Is it far from here?", "What is the distance from here?", "Where is it?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following sentences means \"The park is next to the school\"?",
+          "choices": ["Le parc est près de l’école", "Le parc est à côté de l’école", "Le parc est en face de l’école", "Le parc est loin de l’école"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you ask \"How can I go to the supermarket?\" in French?",
+          "choices": ["Où se trouve le supermarché ?", "Comment puis-je aller au supermarché ?", "Est-ce loin du supermarché ?", "Quel est le chemin pour le supermarché ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is the correct response to \"Où est la gare ?\" (Where is the station)?",
+          "choices": ["Prenez la première rue à gauche", "Allez tout droit, puis tournez à gauche", "Continuez tout droit et traversez le pont", "Prenez la deuxième rue à droite"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+       
+        {
+          "question": "______ (Turn right) après le feu rouge.",
+          "choices": ["Tournez à droite", "Aller à", "Tourner à gauche", "À côté de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Excusez-moi, comment puis-je ______ (go to) la gare ?",
+          "choices": ["aller à", "tourner à droite", "prendre la première", "traverser"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour aller au musée, continuez tout droit et puis ______ (turn left).",
+          "choices": ["tournez à gauche", "tourner à droite", "continuer tout droit", "aller à"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le cinéma est ______ (next to) la bibliothèque.",
+          "choices": ["à côté de", "loin de", "en face de", "près de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (Cross) le pont, et vous verrez l’église à droite.",
+          "choices": ["Traversez", "Prenez", "Continuez", "Allez à"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pardon, où se trouve ______ (the nearest) pharmacie ?",
+          "choices": ["la pharmacie la plus proche", "la banque", "la gare", "l'hôtel"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’hôtel est en face de la gare, ______ (far from) l’aéroport.",
+          "choices": ["loin de", "près de", "à côté de", "en face de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour aller à la poste, ______ (take the second) rue à droite.",
+          "choices": ["prenez la deuxième", "prenez la première", "tournez à gauche", "allez tout droit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (Is it far) d’ici ?",
+          "choices": ["Est-ce loin", "Est-ce proche", "Où est", "Comment aller à"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Où est l’arrêt de bus le plus ______ (near)?",
+          "choices": ["proche", "loin", "près", "à côté"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Tournez à droite.", "rightId": 1 },
+              "right": { "word": "I’m looking for the train station.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Tourner à gauche", "rightId": 2 },
+              "right": { "word": "It's near here.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Allez tout droit.", "rightId": 3 },
+              "right": { "word": "Go straight.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "C'est près d'ici.", "rightId": 4 },
+              "right": { "word": "Turn left.", "rightId": 2}
+            },
+            {
+              "left": { "word": "Je cherche la gare.", "rightId": 5 },
+              "right": { "word": "Turn right.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Est-ce que c'est loin ?", "rightId": 6 },
+              "right": { "word": "You have arrived.", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Continuez jusqu'au feu.", "rightId": 7 },
+              "right": { "word": "Cross the street.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Pouvez-vous m'aider, s'il vous plaît ?", "rightId": 8 },
+              "right": { "word": "Can you help me, please?", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Traversez la rue.", "rightId": 9 },
+              "right": { "word": "Continue until the traffic light.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Vous êtes arrivé.", "rightId": 10 },
+              "right": { "word": "Is it far?", "rightId": 6 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '13',
+      name: 'French Exercise - 13',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "What is the correct translation for \"I would like to make an appointment\"?",
+          "choices": [
+            "Je voudrais prendre un rendez-vous.",
+            "Je voudrais confirmer un rendez-vous.",
+            "Je voudrais reporter un rendez-vous.",
+            "Je voudrais proposer un rendez-vous."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which phrase means \"Are you available on Tuesday?\"",
+          "choices": [
+            "Est-ce que vous êtes disponible mardi ?",
+            "Est-ce que vous pouvez confirmer mardi ?",
+            "Pouvons-nous annuler mardi ?",
+            "Est-ce que vous proposez mardi ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"Please confirm the meeting time\"?",
+          "choices": [
+            "Veuillez reporter l’heure de la réunion.",
+            "Merci de confirmer l’heure de la réunion.",
+            "Est-ce que vous proposez une nouvelle heure ?",
+            "Je voudrais annuler l’heure de la réunion."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the correct response to \"Je voudrais annuler notre rendez-vous\" (I would like to cancel our appointment)?",
+          "choices": [
+            "Je vais reporter la réunion.",
+            "Merci de confirmer la nouvelle date.",
+            "Je comprends, merci de me prévenir.",
+            "Je suis disponible à cette heure."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence means \"I propose we meet on Friday at 2 p.m.\"?",
+          "choices": [
+            "Je vous propose de nous rencontrer vendredi à 14h.",
+            "Je vous confirme notre rendez-vous vendredi à 14h.",
+            "Je voudrais reporter notre rendez-vous à 14h.",
+            "Je vais annuler la réunion de vendredi à 14h."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct way to ask \"Can we reschedule the meeting?\"",
+          "choices": [
+            "Est-ce que nous pouvons confirmer la réunion ?",
+            "Est-ce que nous pouvons annuler la réunion ?",
+            "Est-ce que nous pouvons reporter la réunion ?",
+            "Est-ce que nous pouvons discuter la réunion ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you write \"I’m sorry, but I have to cancel our meeting\"?",
+          "choices": [
+            "Je suis désolé(e), mais je dois confirmer notre rendez-vous.",
+            "Je suis désolé(e), mais je dois annuler notre rendez-vous.",
+            "Je suis désolé(e), mais je dois reporter notre réunion.",
+            "Je suis désolé(e), mais je vais confirmer notre réunion."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is appropriate for ending a formal email?",
+          "choices": [
+            "À plus tard",
+            "Amicalement",
+            "Bien à vous",
+            "Cordialement"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "What is the best phrase to use in an informal email when suggesting a meeting time?",
+          "choices": [
+            "Je vous propose de nous rencontrer lundi à 10h.",
+            "Est-ce que tu serais libre lundi à 10h ?",
+            "Veuillez confirmer la date et l’heure.",
+            "Merci de me faire savoir vos disponibilités."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is appropriate for a formal email when requesting a meeting?",
+          "choices": [
+            "Ça te dit qu’on se voie jeudi après-midi ?",
+            "Est-ce que nous pouvons prendre un rendez-vous jeudi ?",
+            "Je voudrais prendre rendez-vous pour une réunion jeudi après-midi.",
+            "Peux-tu confirmer notre réunion jeudi ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+       
+        {
+          "question": "Je voudrais ______ (make an appointment) pour discuter du projet.",
+          "choices": ["prendre rendez-vous", "faire un rendez-vous", "organiser un rendez-vous", "fixer un rendez-vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Est-ce que vous êtes ______ (available) lundi à 10h ?",
+          "choices": ["disponible", "occupé", "libre", "prêt"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Merci de ______ (confirm) la date et l’heure de notre réunion.",
+          "choices": ["confirmer", "vérifier", "notifier", "envoyer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je suis désolé(e), mais je dois ______ (cancel) notre rendez-vous.",
+          "choices": ["annuler", "modifier", "reprogrammer", "suspendre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vous ______ (propose) de nous rencontrer vendredi après-midi.",
+          "choices": ["propose", "demande", "inviter", "suggérer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pouvons-nous ______ (meet) jeudi matin pour la réunion ?",
+          "choices": ["nous rencontrer", "nous réunir", "nous rassembler", "nous discuter"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Veuillez ______ (suggest) une nouvelle date pour le rendez-vous.",
+          "choices": ["proposer", "confirmer", "indiquer", "choisir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (I would like to) vous rencontrer la semaine prochaine.",
+          "choices": ["Je voudrais", "Je veux", "J'aimerais", "Je suis désolé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pourriez-vous ______ (send) une confirmation par mail ?",
+          "choices": ["envoyer", "faire", "écrire", "demander"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vous écris pour ______ (discuss) notre collaboration future.",
+          "choices": ["discuter", "parler", "expliquer", "négocier"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je veux un rendez-vous.", "rightId": 1 },
+              "right": { "word": "When can we meet?", "rightId": 5 }
+            },
+            {
+              "left": { "word": "À quelle heure?", "rightId": 2 },
+              "right": { "word": "Does that work?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Je suis libre.", "rightId": 3 },
+              "right": { "word": "I am free.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Est-ce que ça marche?", "rightId": 4 },
+              "right": { "word": "I want a date", "rightId": 1}
+            },
+            {
+              "left": { "word": "Quand pouvons-nous nous voir?", "rightId": 5 },
+              "right": { "word": "What time?", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Vous êtes disponible?", "rightId": 6 },
+              "right": { "word": "Does Friday work?", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Je peux demain.", "rightId": 7 },
+              "right": { "word": "I prefer the afternoon.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "C'est bon pour vous?", "rightId": 8 },
+              "right": { "word": "Is that good for you?", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Je préfère l'après-midi.", "rightId": 9 },
+              "right": { "word": "I can tomorrow.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Est-ce que vendredi marche?", "rightId": 10 },
+              "right": { "word": "Are you available?", "rightId": 6 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '14',
+      name: 'French Exercise - 14',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which auxiliary verb is used with the verb *manger* in Passé Composé?",
+          "choices": ["être", "aller", "avoir", "faire"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the past participle of *prendre*?",
+          "choices": ["pris", "prendu", "prendé", "prent"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of these verbs requires *être* as an auxiliary in Passé Composé?",
+          "choices": ["dormir", "arriver", "comprendre", "écrire"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the past participle of *venir*?",
+          "choices": ["venu", "vené", "vennis", "venais"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly uses *Passé Composé*?",
+          "choices": ["Je suis mangé un sandwich.", "Il a vu un film intéressant.", "Nous avons être au restaurant hier.", "Elles sont avoir allé à l'école."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of these is the correct auxiliary verb for *naître* in Passé Composé?",
+          "choices": ["être", "avoir", "faire", "venir"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "The past participle of *voir* is:",
+          "choices": ["vu", "voiré", "vus", "vuir"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the past participle of *faire*?",
+          "choices": ["fait", "fairé", "fais", "faitu"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of these verbs uses *avoir* in Passé Composé?",
+          "choices": ["partir", "aller", "marcher", "tomber"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is grammatically correct in *Passé Composé*?",
+          "choices": ["Nous sommes arrivé à temps.", "J’ai pris un taxi pour aller à la gare.", "Elle est avoir parlé avec son professeur.", "Ils avons mange une pizza."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+       
+        {
+          "question": "La semaine dernière, il ______ (visiter) un musée.",
+          "choices": ["a visité","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (être) très fatigués après la randonnée.",
+          "choices": ["avons été","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (prendre) le train pour Paris.",
+          "choices": ["a pris","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (aller) au cinéma hier soir.",
+          "choices": ["sont allés","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (faire) un gâteau pour l’anniversaire.",
+          "choices": ["avez fait","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (lire) un livre intéressant ce week-end.",
+          "choices": ["ai lu","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elles ______ (sortir) avec leurs amis samedi dernier.",
+          "choices": ["sont sorties","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (boire) du café ce matin?",
+          "choices": ["as bu","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Hier, nous ______ (voir) un film au cinéma.",
+          "choices": ["avons vu","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (naître) en 1990.",
+          "choices": ["est né","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "J'ai mangé une pomme.", "rightId": 1 },
+              "right": { "word": "I went to the cinema.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Nous avons visité Paris.", "rightId": 2 },
+              "right": { "word": "She took the bus.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Il a vu un film.", "rightId": 3 },
+              "right": { "word": "We visited Paris.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Elle a pris le bus.", "rightId": 4 },
+              "right": { "word": "He saw a movie.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Ils ont fini leurs devoirs.", "rightId": 5 },
+              "right": { "word": "They finished their homework.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Tu as acheté un livre.", "rightId": 6 },
+              "right": { "word": "You bought a book.", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Elle a fait du vélo.", "rightId": 7 },
+              "right": { "word": "I ate an apple.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Vous avez parlé à Jean.", "rightId": 8 },
+              "right": { "word": "She rode a bike.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "J'ai été au cinéma.", "rightId": 9 },
+              "right": { "word": "You spoke to Jean.", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Ils ont joué au football.", "rightId": 10 },
+              "right": { "word": "They played football.", "rightId": 10 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]
