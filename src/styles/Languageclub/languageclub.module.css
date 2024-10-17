@@ -22,7 +22,7 @@
 .bigcontainer{
   /* rgba(0,0,223,0.71) rgba(8,0,139,0.71)*/
   margin-top: 20px;
-  background: linear-gradient(177deg, rgba(8,0,139,0.1) 0%, rgb(0, 146, 168) 0%, rgb(0, 200, 231) 100%);
+  background: linear-gradient(177deg, rgba(12, 0, 233, 0.1) 0%, rgb(134, 239, 255) 0%, rgb(0, 200, 231) 100%);
   width: 84vw;
   height: auto;
   border-radius: 20px;
@@ -522,6 +522,103 @@ border-radius: 100%;
   font-size: 12px;
   margin-bottom: 20px;
 }
+.readingClubContainer {
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+.headerSection {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.headerSection h1 {
+  font-size: 3rem;
+  color: var(--blue);
+}
+
+.headerSection p {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.contentSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.textContent {
+  width: 50%;
+}
+
+.textContent h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.textContent p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.imageContent img {
+  width: 40vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.testimonialSection {
+  text-align: center;
+  padding: 80px 0;
+  background: linear-gradient(135deg, #ffffff, #e3ebf5);
+}
+
+.testimonialSection h2 {
+  font-size: 2.5rem;
+  color: #2a9d8f;
+}
+
+.testimonial {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #555;
+  margin: 20px 0;
+}
+
+.ctaSection {
+  text-align: center;
+  padding: 50px 0 70px;
+  background-color: var(--blue);
+  border-radius: 20px;
+}
+
+.ctaSection h2 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.ctaSection p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.ctaButton {
+  display: inline-block;
+  background-color: rgb(168, 31, 0);
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #e76f51;
+}
 @media screen and (max-width: 1100px){
   .middle,.middle2,.middle5,.middle6,.middle13{
     flex-direction: column;
@@ -717,4 +814,95 @@ gap: 30px;
 .card23{
   width: 86%;
 }
+}
+
+@media (max-width: 768px) {
+  .contentSection {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .textContent, .imageContent {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .textContent h2 {
+    font-size: 2rem;
+  }
+
+  .textContent p {
+    font-size: 1rem;
+  }
+
+  .imageContent img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .headerSection h1 {
+    font-size: 2.5rem;
+  }
+
+  .headerSection p {
+    font-size: 1.3rem;
+  }
+
+  .testimonialSection h2 {
+    font-size: 2rem;
+  }
+
+  .ctaSection h2 {
+    font-size: 2rem;
+  }
+
+  .ctaButton {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+}
+
+/* Mobile devices (width 480px and below) */
+@media (max-width: 480px) {
+  .contentSection {
+    padding: 5px;
+  }
+
+  .textContent h2 {
+    font-size: 1.8rem;
+  }
+
+  .textContent p {
+    font-size: 0.9rem;
+  }
+
+  .headerSection h1 {
+    font-size: 2rem;
+  }
+
+  .headerSection p {
+    font-size: 1.1rem;
+  }
+
+  .testimonialSection h2 {
+    font-size: 1.8rem;
+  }
+
+  .testimonial {
+    font-size: 1rem;
+  }
+
+  .ctaSection h2 {
+    font-size: 1.8rem;
+  }
+
+  .ctaButton {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .imageContent img {
+    width: 85%;
+  }
 }
