@@ -10,10 +10,10 @@ export default function Piano() {
     const[ans5, setAnsw5] = useState(false)
     const[ans6, setAnsw6] = useState(false)
   return (
-    <div className={styles.cont}>
+    <div className={styles.contF}>
 
         <div className={styles.smsont}>
-            <div onClick={()=>{setAnsw1(!ans1)}} className={`${styles.ques} ${styles.bg1}`}>
+            <div onClick={()=>{setAnsw1(!ans1)}} className={styles.ques}>
                 <div className={styles.newflex}>
                     <div>About Us</div>
                     <div><FaPlus className={ans1 ? styles.icon : styles.nicon}/></div>
@@ -24,6 +24,8 @@ export default function Piano() {
             </div>
             </div>
         </div>
+
+        <div className={styles.gap}/>
 
         <div className={styles.smsont}>
             <div onClick={()=>{setAnsw2(!ans2)}} className={`${styles.ques} ${styles.bg2}`}>

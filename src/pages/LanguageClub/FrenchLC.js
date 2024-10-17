@@ -30,7 +30,7 @@ export default function FrenchLC() {
         </div>
         <Reveal>
           <div className={styles.right1}>
-            <Image className={styles.img2} src={'/languageclub/2 (11).jpg'} width={500} height={500} alt="img"/>
+            <Image className={styles.img2} src={'/languageclub/france (2).jpg'} width={500} height={500} alt="img"/>
           </div>
         </Reveal>
 

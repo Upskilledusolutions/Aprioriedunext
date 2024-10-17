@@ -10,7 +10,7 @@ export default function Piano() {
     const[ans5, setAnsw5] = useState(false)
     const[ans6, setAnsw6] = useState(false)
   return (
-    <div className={styles.cont}>
+    <div className={styles.contI}>
 
         <div className={styles.smsont}>
             <div onClick={()=>{setAnsw1(!ans1)}} className={`${styles.ques} ${styles.ibg1}`}>

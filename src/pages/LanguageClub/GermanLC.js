@@ -31,7 +31,7 @@ export default function GermanLC() {
         </div>
         <Reveal>
           <div className={styles.right1}>
-            <Image className={styles.img2} src={'/languageclub/2 (7).jpg'} width={800} height={800} alt="img"/>
+            <Image className={styles.img2} src={'/languageclub/german (4).jpg'} width={800} height={800} alt="img"/>
           </div>
         </Reveal>
       </div>
