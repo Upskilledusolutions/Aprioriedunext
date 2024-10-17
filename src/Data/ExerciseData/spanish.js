@@ -2705,5 +2705,775 @@ export const quiz = [
       }
       
     ]
+  },
+  {
+    quiz: '10',
+    name: 'Spanish Exercise - 10',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What is the correct adverb to complete this sentence: Ella trabaja _______?",
+        "choices": ["Aquí", "Bien", "Siempre", "Lentamente"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct placement for the adverb 'siempre' in this sentence: Nosotros _______ vamos a la playa los domingos.",
+        "choices": ["Siempre", "Vamos", "A veces", "Lentamente"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which adverb is used to indicate place?",
+        "choices": ["Cerca", "Rápidamente", "Nunca", "Siempre"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Choose the correct adverb to express the meaning 'slowly':",
+        "choices": ["Rápidamente", "Lentamente", "Bien", "Aquí"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Complete the sentence: Tú corres _______ (quickly) por el parque todos los días.",
+        "choices": ["Siempre", "Lentamente", "Bien", "Rápidamente"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which adverb indicates frequency?",
+        "choices": ["Cerca", "Rápidamente", "A veces", "Lentamente"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the best placement for the adverb bien in the sentence: Él canta _______?",
+        "choices": ["Siempre", "Ahora", "Bien", "A veces"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct translation for 'I never eat pizza.'",
+        "choices": ["Yo siempre como pizza.", "Yo nunca como pizza.", "Yo como pizza ahora.", "Yo bien como pizza."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct adverb to complete this sentence: Los niños están jugando _______?",
+        "choices": ["Allí", "Lentamente", "Cerca", "Rápidamente"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Select the correct adverb for the following sentence: El avión despega _______ (now).",
+        "choices": ["Siempre", "Lentamente", "Ahora", "Bien"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Marta llega _______ (always) tarde a la oficina.",
+        "choices": ["siempre","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El perro duerme _______ (here) en la cama.",
+        "choices": ["aquí","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos hablan _______ (quickly) cuando están nerviosos.",
+        "choices": ["rápidamente","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo _______ (never) olvido mis llaves en casa.",
+        "choices": ["nunca","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros vamos al gimnasio _______ (sometimes), no todos los días.",
+        "choices": ["a veces","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Manuel canta _______ (good) en la fiesta de cumpleaños.",
+        "choices": ["bien","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El tren sale _______ (now) de la estación.",
+        "choices": ["ahora","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú debes estudiar _______ (further) si quieres aprobar el examen.",
+        "choices": ["más","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros vivimos _______ (near) del parque.",
+        "choices": ["cerca","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella come _______ (slowly) para disfrutar la comida.",
+        "choices": ["lentamente","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Ella habla lentamente.", "rightId": 1 },
+            "right": { "word": "We go together.", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Ellos viven cerca.", "rightId": 2 },
+            "right": { "word": "I rarely read books.", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Yo estudio frecuentemente.", "rightId": 3 },
+            "right": { "word": "She sings well.", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Ellos vienen hoy.", "rightId": 4 },
+            "right": { "word": "He reads quietly.", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Tú nunca comes aquí.", "rightId": 5 },
+            "right": { "word": "She speaks slowly.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Él llega siempre temprano.", "rightId": 6 },
+            "right": { "word": "They live nearby.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Nosotros vamos juntos.", "rightId": 7 },
+            "right": { "word": "I study frequently.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Él lee raramente libros.", "rightId": 8 },
+            "right": { "word": "They are coming today.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Ella canta bien.", "rightId": 9 },
+            "right": { "word": "You never eat here.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Él lee en silencio.", "rightId": 10 },
+            "right": { "word": "He always arrives early.", "rightId": 6 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '11',
+    name: 'Spanish Exercise - 11',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What is the correct way to say 'I like sports' in Spanish?",
+        "choices": ["Me gustan los deportes", "Me gusta los deportes", "Me encanta los deportes", "Me gustamos los deportes"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'She likes to sing' in Spanish?",
+        "choices": ["Le gustan cantar", "Le gusta cantar", "Le encantas cantar", "Le gustas cantar"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is the correct indirect object pronoun for 'ellos' (they)?",
+        "choices": ["le", "nos", "les", "te"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How would you express 'We are interested in science'?",
+        "choices": ["Nos interesan la ciencia", "Nos interesa la ciencia", "Nos interesan las ciencias", "Nos interesa las ciencias"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct form of *gustar* for 'ellos' and 'las películas'?",
+        "choices": ["Les gusta las películas", "Les gustan la película", "Les gusta la película", "Les gustan las películas"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Choose the correct sentence to say 'I don’t like coffee':",
+        "choices": ["No me gusta el café", "No me gustan el café", "No le gusta el café", "No nos gustan el café"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the translation for 'They love pizza'?",
+        "choices": ["Les encanta la pizza", "Les encantan las pizzas", "Les gustan la pizza", "Les gustas la pizza"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'You all like dancing' in Spanish (informal)?",
+        "choices": ["Os gusta bailar", "Te gusta bailar", "Os gustan bailar", "Nos gusta bailar"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct form for 'We prefer to read books'?",
+        "choices": ["Nos encanta leer libros", "Nos gusta leer libros", "Nos interesan leer libros", "Preferimos leer libros"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "How do you express 'She doesn’t like to study'?",
+        "choices": ["No le gusta estudiar", "No le gustar estudiar", "No les gusta estudiar", "No le gustan estudiar"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "A mí ________ (gustar) el chocolate caliente.",
+        "choices": ["gusta","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A ti no ________ (gustar) las verduras.",
+        "choices": ["gustan","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A nosotros nos ________ (encantar) los deportes de aventura.",
+        "choices": ["encantan","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A ellos les ________ (interesar) la historia.",
+        "choices": ["interesa","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A ella ________ (gustar) leer libros románticos.",
+        "choices": ["gusta","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A vosotros os ________ (gustar) las fiestas grandes?",
+        "choices": ["gustan","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A mí me ________ (gustar) el cine más que la televisión.",
+        "choices": ["gusta","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A ti te ________ (interesar) la moda?",
+        "choices": ["interesa","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A nosotros no nos ________ (gustar) los insectos.",
+        "choices": ["gustan","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A ella le ________ (encantar) las flores.",
+        "choices": ["encantan","1","3","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Me gusta la música.", "rightId": 1 },
+            "right": { "word": "You (informal) don’t like to study.", "rightId": 7 }
+          },
+          {
+            "left": { "word": "No me gustan las verduras.", "rightId": 2 },
+            "right": { "word": "I don’t like vegetables.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "A Juan le gusta leer libros.", "rightId": 3 },
+            "right": { "word": "I like music.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Nos gusta nadar.", "rightId": 4 },
+            "right": { "word": "We love traveling.", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Te gustan las películas.", "rightId": 5 },
+            "right": { "word": "She speaks slowly.", "rightId": 9 }
+          },
+          {
+            "left": { "word": "A ellos les gusta bailar.", "rightId": 6 },
+            "right": { "word": "She doesn’t like chocolate.", "rightId": 8 }
+          },
+          {
+            "left": { "word": "No te gusta estudiar.", "rightId": 7 },
+            "right": { "word": "They like to dance.", "rightId": 6 }
+          },
+          {
+            "left": { "word": "A María no le gusta el chocolate.", "rightId": 8 },
+            "right": { "word": "We like swimming.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Me encanta el café.", "rightId": 9 },
+            "right": { "word": "I love coffee.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Él lee en silencio.", "rightId": 10 },
+            "right": { "word": "Juan likes to read books.", "rightId": 3 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '12',
+    name: 'Spanish Exercise - 12',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What is the correct way to say “Turn left at the corner”?",
+        "choices": [
+          "Gira a la derecha en la esquina.",
+          "Sigue recto en la esquina.",
+          "Gira a la izquierda en la esquina.",
+          "Cruza la esquina."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say “Where is the park?” in Spanish?",
+        "choices": [
+          "¿Dónde está el parque?",
+          "¿Dónde está la plaza?",
+          "¿Cómo llego al parque?",
+          "¿Puedo ir al parque?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If someone says “Sigue recto”, what should you do?",
+        "choices": [
+          "Turn right",
+          "Go straight",
+          "Turn left",
+          "Cross the street"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What would you say if you want to ask for directions to the nearest supermarket?",
+        "choices": [
+          "¿Dónde está la estación de tren?",
+          "¿Cómo llego al supermercado más cercano?",
+          "¿Dónde está el museo?",
+          "¿Puedo llegar al supermercado?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct translation for “Cross the street”?",
+        "choices": [
+          "Cruza la plaza",
+          "Cruza la calle",
+          "Sigue la calle",
+          "Cruza la esquina"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you give directions to go to the library?",
+        "choices": [
+          "Sigue recto y cruza la calle.",
+          "Gira a la derecha y sigue.",
+          "Cruza la plaza y sigue recto.",
+          "Todas son correctas."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "How do you say 'The café is between the bank and the bookstore'?",
+        "choices": [
+          "El café está cerca del banco y la librería.",
+          "El café está enfrente del banco y la librería.",
+          "El café está entre el banco y la librería.",
+          "El café está al lado del banco y la librería."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "If someone says “Está enfrente del museo”, where should you go?",
+        "choices": [
+          "Next to the museum",
+          "Behind the museum",
+          "In front of the museum",
+          "Far from the museum"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What phrase would you use to direct someone to turn right at the first street?",
+        "choices": [
+          "Gira a la izquierda en la primera calle.",
+          "Sigue recto en la primera calle.",
+          "Gira a la derecha en la primera calle.",
+          "Cruza la calle en la primera."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the best way to say “The restaurant is far from the park” in Spanish?",
+        "choices": [
+          "El restaurante está cerca del parque.",
+          "El restaurante está lejos del parque.",
+          "El restaurante está al lado del parque.",
+          "El restaurante está enfrente del parque."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Gira a la ________ (right) en la segunda calle.",
+        "choices": ["derecha", "recto", "enfrente de", "calle"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sigue ________ (straight) hasta llegar al parque.",
+        "choices": ["recto", "derecha", "enfrente de", "calle"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La estación está ________ (in front of) la plaza.",
+        "choices": ["enfrente de", "cerca", "lejos", "calle"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Cruza la ________ (street) y verás la farmacia a la derecha.",
+        "choices": ["calle", "plaza", "esquina", "biblioteca"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El hospital está ________ (near) de la escuela.",
+        "choices": ["cerca", "lejos", "entre", "al lado de"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La biblioteca está ________ (far) del cine.",
+        "choices": ["lejos", "cerca", "entre", "enfrente de"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para llegar al museo, tienes que ________ (cross) dos calles.",
+        "choices": ["cruzar", "girar", "seguir", "ir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La cafetería está ________ (between) la librería y el banco.",
+        "choices": ["entre", "cerca", "lejos", "enfrente de"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Gira a la ________ (left) en la esquina para llegar a la estación de tren.",
+        "choices": ["izquierda", "derecha", "calle", "plaza"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sigue recto y la tienda está ________ (next to) la farmacia.",
+        "choices": ["al lado de", "enfrente de", "lejos", "cerca"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "¿Dónde está la estación de tren?", "rightId": 1 },
+            "right": { "word": "Take the first street on the left.", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Gira a la derecha.", "rightId": 2 },
+            "right": { "word": "Turn right.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "¿Cómo llego al banco?", "rightId": 3 },
+            "right": { "word": "Where is the train station?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Siga todo recto.", "rightId": 4 },
+            "right": { "word": "The bank is in front of the church.", "rightId": 10 }
+          },
+          {
+            "left": { "word": "La biblioteca está al lado del parque.", "rightId": 5 },
+            "right": { "word": "Can you help me, please?", "rightId": 9 }
+          },
+          {
+            "left": { "word": "El supermercado está a la izquierda.", "rightId": 6 },
+            "right": { "word": "It is next to the park.", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Toma la primera calle a la izquierda.", "rightId": 7 },
+            "right": { "word": "The supermarket is on the left.", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Está al lado del café.", "rightId": 8 },
+            "right": { "word": "Go straight ahead.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "¿Puede ayudarme, por favor?", "rightId": 9 },
+            "right": { "word": "The library is next to the park.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "El banco está enfrente de la iglesia.", "rightId": 10 },
+            "right": { "word": "How do I get to the bank?", "rightId": 3 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '13',
+    name: 'Spanish Exercise - 13',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What is the correct way to start a formal email?",
+        "choices": ["Querido amigo", "Hola", "Estimado Sr.", "Buenas tardes"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say \"I would like to reschedule the meeting\"?",
+        "choices": ["Me gustaría cancelar la reunión.", "Me gustaría reprogramar la reunión.", "Me gustaría confirmar la reunión.", "Me gustaría cambiar la cita."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the appropriate ending for a formal email?",
+        "choices": ["Nos vemos", "Hasta luego", "Saludos", "Atentamente"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which phrase is informal?",
+        "choices": ["Estimado Señor", "Le escribo para...", "Nos vemos mañana", "Quedo a su disposición"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the best way to politely ask someone to confirm their availability?",
+        "choices": ["¿Podrías decirme si estás libre?", "¿Está disponible el viernes?", "¿Te apetece quedar el viernes?", "¿Tienes tiempo libre?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What phrase is commonly used to request a meeting in a formal email?",
+        "choices": ["¿Quedamos para tomar un café?", "Me gustaría concertar una reunión.", "¿Nos vemos el viernes?", "¿Cuándo te viene bien?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following would you use to confirm a time in an informal email?",
+        "choices": ["Quedo a la espera de su confirmación.", "Nos vemos el viernes a las 5:00 p.m.", "Por favor, confirme su disponibilidad.", "Agradezco su respuesta pronta."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you formally cancel an appointment?",
+        "choices": ["Voy a cancelar nuestra reunión.", "Debo cancelar nuestra reunión.", "Quería avisar que la reunión ha sido cancelada.", "Por favor, no puedo asistir a la reunión."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the appropriate phrase to suggest an appointment in an informal context?",
+        "choices": ["¿Le parece bien el jueves?", "¿Te va bien el jueves a las 5?", "¿Podría confirmar su disponibilidad?", "Me gustaría agendar una reunión."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you request a meeting time in a formal email?",
+        "choices": ["¿Nos vemos el viernes?", "¿Te va bien el viernes?", "Me gustaría coordinar una reunión para el viernes.", "¿Cuándo quedamos?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "________ (Dear) Sr. García, le escribo para confirmar nuestra reunión del jueves.",
+        "choices": ["Estimado","Querido", "1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nos gustaría ________ (confirm) la cita para el próximo martes.",
+        "choices": ["confirmar", "cancelar","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hola Ana, ¿te parece bien si ________ (see you) a las 4:00 p.m. para tomar un café?",
+        "choices": ["nos vemos", "confirmamos","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le escribo para ________ (program) una reunión la semana próxima.",
+        "choices": ["programar","solicitar", "1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "________ (Sincerely), Juan Pérez.",
+        "choices": ["Atentamente", "Saludos","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Voy a ________ (reschedule) nuestra cita para el lunes.",
+        "choices": ["reprogramar", "confirmar","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "________ (This) libre este viernes para una reunión?",
+        "choices": ["¿Está?","¿Estás?", "1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le informo que debo ________ (Cancel) la reunión del miércoles.",
+        "choices": ["cancelar", "confirmar","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hola Pedro, ¿qué te parece si ________ (we program) la reunión el viernes?",
+        "choices": ["programamos","confirmamos", "1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Por favor, ________ (confirm) su disponibilidad para la reunión.",
+        "choices": ["confirma","confirme", "1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Estimado/a Sr./Sra.", "rightId": 1 },
+            "right": { "word": "Thank you for your time.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "¿Podemos reunirnos la próxima semana?", "rightId": 2 },
+            "right": { "word": "Could we meet next week?", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Agradezco su tiempo y atención.", "rightId": 3 },
+            "right": { "word": "Dear Mr./Mrs.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Me gustaría agendar una reunión.", "rightId": 4 },
+            "right": { "word": "Thanks for your message.", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Atentamente,", "rightId": 5 },
+            "right": { "word": "Would you like to grab a coffee this afternoon?", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Espero que este correo le encuentre bien.", "rightId": 6 },
+            "right": { "word": "I would like to schedule a meeting.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Estoy escribiendo para confirmar nuestra cita.", "rightId": 7 },
+            "right": { "word": "I hope this email finds you well.", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Quería confirmar si estás disponible mañana.", "rightId": 8 },
+            "right": { "word": "I wanted to confirm if you are available tomorrow.", "rightId": 8 }
+          },
+          {
+            "left": { "word": "¿Te gustaría tomar un café esta tarde?", "rightId": 9 },
+            "right": { "word": "Sincerely,", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Gracias por tu mensaje.", "rightId": 10 },
+            "right": { "word": "I am writing to confirm our appointment.", "rightId": 7 }
+          }
+        ]
+      }
+      
+    ]
   }
 ];

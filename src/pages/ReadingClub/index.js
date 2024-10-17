@@ -89,7 +89,7 @@ const LanguageClub = () => {
       </motion.div>
 
       {/* Testimonial Section */}
-      <motion.div
+      {/* <motion.div
         className={styles.testimonialSection}
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -107,7 +107,7 @@ const LanguageClub = () => {
           </blockquote>
           <p>- A Happy Member</p>
         </motion.div>
-      </motion.div>
+      </motion.div> */}
 
       {/* Call to Action */}
       <motion.div

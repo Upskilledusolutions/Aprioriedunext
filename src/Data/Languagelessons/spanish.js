@@ -69,4 +69,25 @@ export const data = [{
     pdf:'https://drive.google.com/file/d/1JWr-5NijwpBmXJJ7-OvFYQSuebdQXOw5/preview',
     desc:'Spanish Foundation Lesson 10 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
+{
+    id:'11',
+    name:'Lesson 11',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/11xcGkXGKX_YoF4whDDZXHGuDSCsbZ_P_/preview',
+    desc:'Spanish Foundation Lesson 11 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'12',
+    name:'Lesson 12',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1wvHH2FffpA4bWRnN-u2OIUxEg0SacfDk/preview',
+    desc:'Spanish Foundation Lesson 12 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'13',
+    name:'Lesson 13',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1cJhUpEk4bwx_NXkBMbff7Ld5HMIKicPs/preview',
+    desc:'Spanish Foundation Lesson 13 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
 ]
