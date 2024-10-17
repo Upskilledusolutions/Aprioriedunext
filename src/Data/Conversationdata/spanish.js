@@ -62,5 +62,47 @@ export const youdata = [
     title: "Spanish Conversation 9",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },
+  {
+    id: '10',
+    url: "/youtube/SpC10.png",
+    youtube: "https://www.youtube.com/embed/qPGjGR-BXuA?si=9xUvru0oCAqnKHI-",
+    title: "Spanish Conversation 10",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '11',
+    url: "/youtube/SpC11.png",
+    youtube: "https://www.youtube.com/embed/15wN5vfkcFc?si=Of4Enkj_BlOUYOyz",
+    title: "Spanish Conversation 11",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '12',
+    url: "/youtube/SpC12.png",
+    youtube: "https://www.youtube.com/embed/rn-nIvN39jg?si=wfQOUT3cD1H3yb1s",
+    title: "Spanish Conversation 12",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '13',
+    url: "/youtube/SpC13.png",
+    youtube: "https://www.youtube.com/embed/jOM_nq3S00I?si=7Bnnb9Mg47skJAAX",
+    title: "Spanish Conversation 13",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '14',
+    url: "/youtube/SpC14.png",
+    youtube: "https://www.youtube.com/embed/aMCDs4s2wTw?si=-MK3vOIRkbLdHjZg",
+    title: "Spanish Conversation 14",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '15',
+    url: "/youtube/SpC15.png",
+    youtube: "https://www.youtube.com/embed/NYIOkuZ1Zhk?si=q57DTU9Px7XY81i9",
+    title: "Spanish Conversation 15",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
 ];
 
