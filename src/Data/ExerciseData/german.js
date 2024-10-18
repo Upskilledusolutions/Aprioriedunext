@@ -305,244 +305,244 @@ export const quiz = [
     questions: [
       // 20 MCQs
       {
-        "question": "What is the German word for the number 'three'?",
+        "question": "What is the German word for 'three'?",
         "choices": ["Eins", "Zwei", "Drei", "Vier"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "How do you say the number 'seven' in German?",
+        "question": "How do you say 'seven' in German?",
         "choices": ["Sechs", "Sieben", "Acht", "Neun"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "What is the German letter for the pronunciation 'Eff'?",
-        "choices": ["F", "D", "T", "P"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "How do you say the number 'twelve' in German?",
+        "question": "How do you say 'twelve' in German?",
         "choices": ["Zehn", "Elf", "Zwölf", "Dreizehn"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "What is the letter for the German pronunciation 'Em'?",
-        "choices": ["N", "R", "M", "D"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "How do you say the number 'eighteen' in German?",
+        "question": "How do you say 'eighteen' in German?",
         "choices": ["Seventeen", "Siebzehn", "Achtzehn", "Neunzehn"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "What is the letter for the German pronunciation 'El'?",
-        "choices": ["L", "K", "F", "U"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "How do you say the number 'fourteen' in German?",
+        "question": "How do you say 'fourteen' in German?",
         "choices": ["Vierzehn", "Fünfzehn", "Sechzehn", "Siebenzehn"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "What is the German word for the number 'six'?",
+        "question": "What is the German word for 'six'?",
         "choices": ["Fünf", "Sechs", "Sieben", "Acht"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "How do you say the letter 'H' in German?",
-        "choices": ["H", "Ha", "Hä", "He"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What is the German word for the number 'nine'?",
+        "question": "What is the German word for 'nine'?",
         "choices": ["Acht", "Sieben", "Neun", "Sechs"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "How do you say the letter 'Q' in German?",
-        "choices": ["Ku", "Kü", "Que", "Ki"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What is the German word for the number 'fifteen'?",
+        "question": "What is the German word for 'fifteen'?",
         "choices": ["Vierzehn", "Fünfzehn", "Sechzehn", "Achtzehn"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "How do you say the letter 'H' in German?",
-        "choices": ["H", "Ha", "Hä", "He"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What is the German word for the letter 'Z'?",
-        "choices": ["Z", "Zett", "Zed", "Zee"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "How do you say the number 'twenty' in German?",
+        "question": "How do you say 'twenty' in German?",
         "choices": ["Zehn", "Zwanzig", "Dreißig", "Viertzig"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "What is the German word for the number 'nine'?",
+        "question": "What is the German word for 'nine'?",
         "choices": ["Acht", "Sieben", "Neun", "Zehn"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "How do you say the number 'six' in German?",
+        "question": "How do you say 'six' in German?",
         "choices": ["Fünf", "Sechs", "Sieben", "Acht"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "What is the German letter for the pronunciation 'Tee'?",
-        "choices": ["H", "T", "P", "O"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "How do you say the number 'seventeen' in German?",
+        "question": "How do you say 'seventeen' in German?",
         "choices": ["Fünfzehn", "Sechzehn", "Siebzehn", "Achtzehn"],
         "type": "MCQs",
         "correctAnswer": 3
       },
-
-      // 20 Fill in the Blanks
       {
-        "question": "The Pronunciation 'Jott' in German is for letter ______.",
-        "choices": ["J", "Ka", "El", "En"],
-        "type": "FillInTheBlanks",
+        "question": "What is the first letter of the German alphabet?",
+        "choices": ["B", "Z", "A", "C"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which letter comes after 'C' in the German alphabet?",
+        "choices": ["D", "F", "E", "G"],
+        "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "The number 7 in German is ______.",
+        "question": "Which special character is unique to the German alphabet and represents a double 's'?",
+        "choices": ["Ö", "ß", "Ü", "Ä"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these letters does not traditionally belong to the German alphabet but is used in borrowed words?",
+        "choices": ["X", "Q", "Y", "W"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the 10th letter of the German alphabet?",
+        "choices": ["H", "I", "J", "K"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is the last letter of the German alphabet?",
+        "choices": ["W", "Z", "T", "Y"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following letters includes an umlaut in the German alphabet?",
+        "choices": ["Ä", "ß", "Z", "R"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which letter comes right before 'P' in the German alphabet?",
+        "choices": ["O", "M", "N", "L"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "'Seven' in German is ______.",
         "choices": ["Sieben", "Sieeben", "Neun", "Drei"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'K' in German is pronounced as ______.",
-        "choices": ["Ka", "Jott", "Te", "O"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 9 in German is ______.",
+        "question": "'Nine' in German is ______.",
         "choices": ["Neun", "Sechzehn", "Neeun", "Zwanzig"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'L' in German is pronounced as ______.",
-        "choices": ["El", "En", "Ef", "Te"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 1 in German is ______.",
+        "question": "'One' in German is ______.",
         "choices": ["Eins", "Sieben", "Drei", "Elf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'N' in German is pronounced as ______.",
-        "choices": ["En", "Ef", "Er", "Te"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 3 in German is ______.",
+        "question": "'Three' in German is ______.",
         "choices": ["Drei", "Sechzehn", "e", "Vier"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'O' in German is pronounced as ______.",
-        "choices": ["O", "Jott", "Te", "El"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 20 in German is ______.",
+        "question": "'Twenty' in German is ______.",
         "choices": ["Zwanzig", "e", "Dreizehn", "Elf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'R' in German is pronounced as ______.",
-        "choices": ["Er", "Ef", "Te", "O"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 4 in German is ______.",
+        "question": "'Four' in German is ______.",
         "choices": ["Vier", "Neun", "Dreizehn", "Sechzehn"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'S' in German is pronounced as ______.",
-        "choices": ["Es", "Er", "Ef", "O"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 11 in German is ______.",
+        "question": "'Eleven' in German is ______.",
         "choices": ["Elf", "Sechzehn", "Neun", "Vier"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'T' in German is pronounced as ______.",
-        "choices": ["Te", "Ef", "En", "Er"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The pronunciation 'Ku' in German is for letter ______.",
-        "choices": ["K", "Te", "Jott", "Er"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 13 in German is ______.",
+        "question": "'Thirteen' in German is ______.",
         "choices": ["Dreizehn", "Vier", "Eins", "Zwanzig"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'E' in German is pronounced as ______.",
-        "choices": ["E", "Ef", "Te", "Es"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 16 in German is ______.",
+        "question": "'Sixteen' in German is ______.",
         "choices": ["Sechzehn", "Drei", "Neun", "Elf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The pronunciation 'Ef' in German is for letter ______.",
-        "choices": ["f", "Er", "Te", "Es"],
+        "question": "'Twelve' in German is ______.",
+        "choices": ["zwölf", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "'Fifteen' in German is ______.",
+        "choices": ["Fünfzehn", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "'Nineteen' in German is ______.",
+        "choices": ["Neunzehn", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "'Eighteen' in German is ______.",
+        "choices": ["Achtzehn", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "'Eight' in German is ______.",
+        "choices": ["Acht", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The 5th letter of the German alphabet is ______.",
+        "choices": ["E", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The letter that comes before 'N' in the German alphabet is ______.",
+        "choices": ["M", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The 20th letter of the German alphabet is ______.",
+        "choices": ["T", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In the German alphabet, the letter ______ comes after 'S'.",
+        "choices": ["T", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The 23rd letter of the German alphabet is ______.",
+        "choices": ["X", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The letter ______ comes after 'P' in the German alphabet.",
+        "choices": ["Q", "Drei", "Neun", "Elf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

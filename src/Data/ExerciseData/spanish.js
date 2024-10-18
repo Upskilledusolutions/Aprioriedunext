@@ -310,245 +310,245 @@ export const quiz = [
       // 20 MCQs
 
       {
-        "question": "What is the Spanish word for the number 'one'?",
-        "choices": ["Uno", "Dos", "Tres", "Cuatro"],
+        "question": "What is the Spanish word for 'one'?",
+        "choices": ["Un", "Dos", "Tres", "Cuatro"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "How do you say the number 'four' in Spanish?",
+        "question": "How do you say 'four' in Spanish?",
         "choices": ["Cinco", "Cuatro", "Tres", "Seis"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "What is the Spanish pronunciation for the letter 'A'?",
-        "choices": ["Efe", "A", "Be", "Ce"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the Spanish word for the number 'ten'?",
+        "question": "What is the Spanish word for 'ten'?",
         "choices": ["Nueve", "Diez", "Ocho", "Doce"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "How do you say the number 'fifteen' in Spanish?",
+        "question": "How do you say 'fifteen' in Spanish?",
         "choices": ["Quince", "Catorce", "Dieciséis", "Veinte"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "What is the Spanish pronunciation for the letter 'B'?",
-        "choices": ["A", "Be", "Ce", "De"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "How do you say the number 'seven' in Spanish?",
+        "question": "How do you say 'seven' in Spanish?",
         "choices": ["Cinco", "Seis", "Siete", "Ocho"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "What is the Spanish alphabet for the letter 'C'?",
-        "choices": ["Efe", "Ce", "Be", "De"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "How do you say the number 'eleven' in Spanish?",
+        "question": "How do you say 'eleven' in Spanish?",
         "choices": ["Doce", "Trece", "Once", "Catorce"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "What is the Spanish word for the number 'twenty'?",
+        "question": "What is the Spanish word for 'twenty'?",
         "choices": ["Diecinueve", "Dieciocho", "Veinte", "Veintidós"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "How do you say the number 'three' in Spanish?",
+        "question": "How do you say 'three' in Spanish?",
         "choices": ["Uno", "Tres", "Cuatro", "Dos"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "What is the Spanish pronunciation for the letter 'D'?",
-        "choices": ["Ce", "De", "A", "Efe"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "How do you say the number 'sixteen' in Spanish?",
+        "question": "How do you say 'sixteen' in Spanish?",
         "choices": ["Dieciseis", "Quince", "Dieciséis", "Catorce"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "What is the Spanish pronunciation for the letter 'E'?",
-        "choices": ["E", "Be", "Ce", "Efe"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "How do you say the number 'eighteen' in Spanish?",
+        "question": "How do you say 'eighteen' in Spanish?",
         "choices": ["Diecisiete", "Dieciocho", "Quince", "Veinte"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "What is the Spanish pronunciation for the number 'five'?",
+        "question": "What is the Spanish pronunciation for 'five'?",
         "choices": ["Seis", "Cinco", "Siete", "Cuatro"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "What is the Spanish pronunciation for the letter 'F'?",
-        "choices": ["A", "E", "Efe", "Ce"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "How do you say the number 'nine' in Spanish?",
+        "question": "How do you say 'nine' in Spanish?",
         "choices": ["Nueve", "Diez", "Ocho", "Siete"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "What is the Spanish pronunciation for the letter 'G'?",
-        "choices": ["Ge", "Be", "De", "Ce"],
+        "question": "How do you say the number 'two' in Spanish?",
+        "choices": ["Un", "Tres", "Cuatro", "Dos"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What is the first letter of the Spanish alphabet?",
+        "choices": ["B", "A", "E", "C"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
-        "question": "How do you say the number 'two' in Spanish?",
-        "choices": ["Uno", "Tres", "Cuatro", "Dos"],
+        "question": "Which letter comes after 'C' in the Spanish alphabet?",
+        "choices": ["E", "D", "F", "G"],
         "type": "MCQs",
-        "correctAnswer": 4
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following letters is considered part of the traditional Spanish alphabet?",
+        "choices": ["Ñ", "K", "W", "V"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the 10th letter of the Spanish alphabet?",
+        "choices": ["I", "J", "K", "L"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is the last letter of the Spanish alphabet?",
+        "choices": ["X", "Y", "Z", "V"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the 15th letter of the Spanish alphabet?",
+        "choices": ["O", "P", "M", "N"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which letter comes right after 'N' in the Spanish alphabet?",
+        "choices": ["O", "Ñ", "P", "L"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       
       // 20 Fill in the Blanks
 
       {
-        "question": "The letter 'B' in Spanish is pronounced as ______.",
-        "choices": ["be", "ce", "de", "e"],
+        "question": "'Twelve' in Spanish is ______.",
+        "choices": ["doce", "dos", "tres", "cuatro3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The number 1 in Spanish is ______.",
-        "choices": ["uno", "dos", "tres", "cuatro"],
+        "question": "'One' in Spanish is ______.",
+        "choices": ["un", "dos", "tres", "cuatro"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'J' in Spanish is pronounced as ______.",
-        "choices": ["jota", "ge", "ka", "ve"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 2 in Spanish is ______.",
+        "question": "'Two' in Spanish is ______.",
         "choices": ["dos", "does", "tres", "cuatro"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The pronunciation 'eñe' in Spanish is for ______.",
-        "choices": ["N", "ene", "ele", "eme"],
+        "question": "'Fourteen' in Spanish is ______.",
+        "choices": ["catorce", "dos", "trees", "cuatro"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The number 3 in Spanish is ______.",
-        "choices": ["tres", "dos", "trees", "cuatro"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The letter 'C' before 'e' or 'i' is pronounced like ______.",
-        "choices": ["th", "k", "ch", "s"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 4 in Spanish is ______.",
+        "question": "'Four' in Spanish is ______.",
         "choices": ["cuatro", "dos", "tres", "cueatro"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'H' in Spanish is ______ (silent or pronounced).",
-        "choices": ["silent", "pronounced", "soft", "hard"],
+        "question": "'Nineteen' in Spanish is ______.",
+        "choices": ["Diecinueve", "dos", "cincoe", "seis"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The number 5 in Spanish is ______.",
-        "choices": ["cinco", "dos", "cincoe", "seis"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 2 in Spanish is ______.",
+        "question": "'Two' in Spanish is ______.",
         "choices": ["dos", "does", "tres", "cuatro"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The number 6 in Spanish is ______.",
+        "question": "'Six' in Spanish is ______.",
         "choices": ["seis", "seeis", "siete", "ocho"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'G' before 'e' or 'i' is pronounced as ______ (heh or geh).",
-        "choices": ["heh", "geh", "hah", "jeh"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 7 in Spanish is ______.",
+        "question": "'Seven' in Spanish is ______.",
         "choices": ["siete", "seis", "ocho", "nueve"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'V' in Spanish is pronounced as ______.",
-        "choices": ["uve", "ve", "be", "ge"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 8 in Spanish is ______.",
+        "question": "'Eight' in Spanish is ______.",
         "choices": ["ocho", "nueve", "diez", "once"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'LL' in Spanish is pronounced as ______.",
-        "choices": ["ye", "elle", "ele", "elleh"],
+        "question": "'Twenty' in Spanish is ______.",
+        "choices": ["Veinte", "nuevee", "diez", "once"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "The number 9 in Spanish is ______.",
-        "choices": ["nueve", "nuevee", "diez", "once"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The letter 'Z' in Spanish is pronounced like ______.",
-        "choices": ["th", "s", "z", "ch"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The number 10 in Spanish is ______.",
+        "question": "'Ten' in Spanish is ______.",
         "choices": ["diez", "once", "doce", "trece"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "'Eleven' in Spanish is ______.",
+        "choices": ["Once", "once", "doce", "trece"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "'Sixteen' in Spanish is ______.",
+        "choices": ["Dieciséis", "once", "doce", "trece"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The 5th letter of the Spanish alphabet is ______.",
+        "choices": ["E", "once", "doce", "trece"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The letter that comes before 'M' in the Spanish alphabet is ______.",
+        "choices": ["L", "once", "doce", "trece"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The 20th letter of the Spanish alphabet is ______.",
+        "choices": ["T", "once", "doce", "trece"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In the Spanish alphabet, the letter ______ comes after 'R'.",
+        "choices": ["S", "once", "doce", "trece"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The 24th letter of the Spanish alphabet is ______.",
+        "choices": ["X", "once", "doce", "trece"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The letter ______ comes after 'Ñ' in the Spanish alphabet.",
+        "choices": ["O", "once", "doce", "trece"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -562,10 +562,10 @@ export const quiz = [
           },
           {
             "left": { "word": "OCHO", "rightId": 2 },
-            "right": { "word": "D", "rightId": 9 }
+            "right": { "word": "SIXTEEN", "rightId": 9 }
           },
           {
-            "left": { "word": "JOTA", "rightId": 3 },
+            "left": { "word": "DIEZ", "rightId": 3 },
             "right": { "word": "FOURTEEN", "rightId": 8 }
           },
           {
@@ -574,10 +574,10 @@ export const quiz = [
           },
           {
             "left": { "word": "DIECIOCHO", "rightId": 5 },
-            "right": { "word": "H", "rightId": 6 }
+            "right": { "word": "ONE", "rightId": 6 }
           },
           {
-            "left": { "word": "HACHE", "rightId": 6 },
+            "left": { "word": "UN", "rightId": 6 },
             "right": { "word": "EIGHTEEN", "rightId": 5 }
           },
           {
@@ -586,10 +586,10 @@ export const quiz = [
           },
           {
             "left": { "word": "CATORCE", "rightId": 8 },
-            "right": { "word": "J", "rightId": 3 }
+            "right": { "word": "TEN", "rightId": 3 }
           },
           {
-            "left": { "word": "DE", "rightId": 9 },
+            "left": { "word": "DIECISÉIS", "rightId": 9 },
             "right": { "word": "EIGHT", "rightId": 2 }
           },
           {
