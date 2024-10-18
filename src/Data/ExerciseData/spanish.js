@@ -3475,5 +3475,365 @@ export const quiz = [
       }
       
     ]
+  },
+  {
+    quiz: '14',
+    name: 'Spanish Exercise - 14',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What is the correct auxiliary verb for 'yo' in the passato prossimo?",
+        "choices": ["Has", "He", "Hemos", "Han"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these is the correct past participle for 'comer'?",
+        "choices": ["Comado", "Comido", "Comido", "Comiendo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'We have lived in Spain' in Spanish?",
+        "choices": ["Nosotros hemos vivado en España", "Nosotros hemos vivir en España", "Nosotros hemos vivido en España", "Nosotros vivemos en España"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct past participle of 'hacer' (to do)?",
+        "choices": ["Hacido", "Hecho", "Hizo", "Haciado"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct past participle of 'romper' (to break)?",
+        "choices": ["Rompido", "Roto", "Romper", "Rompado"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'She has written a letter' in Spanish?",
+        "choices": ["Ella ha escribir una carta", "Ella ha escrita una carta", "Ella ha escribido una carta", "Ella ha escrito una carta"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which of the following is an irregular past participle?",
+        "choices": ["Vivido", "Comido", "Dicho", "Hablado"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you form the passato prossimo for 'They have eaten'?",
+        "choices": ["Ellos han comido", "Ellos han comer", "Ellos han comiendo", "Ellos han comido"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'You have done the homework' in Spanish (formal)?",
+        "choices": ["Usted ha hecho la tarea", "Tú has hacer la tarea", "Tú has hecho la tarea", "Usted ha hacer la tarea"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the past participle of 'decir' (to say)?",
+        "choices": ["Dicho", "Decido", "Decido", "Deciendo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Yo ______ (i have) comido en el restaurante ayer.",
+        "choices": ["he","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (we have) terminado el trabajo a tiempo.",
+        "choices": ["hemos","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (you have) visto esa película el mes pasado.",
+        "choices": ["has","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (they have) hecho la tarea esta mañana.",
+        "choices": ["han","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "María ______ (have) escrito un libro el año pasado.",
+        "choices": ["ha","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Tú ______ (you have) estado en Madrid alguna vez?",
+        "choices": ["has","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pedro y Ana ______ (they have) viajado a Francia el verano pasado.",
+        "choices": ["han","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo no ______ (I have) leído ese libro aún.",
+        "choices": ["he","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (we have) vivido en México por dos años.",
+        "choices": ["hemos","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (they have) roto la ventana accidentalmente.",
+        "choices": ["han","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Ayer fui al parque.", "rightId": 1 },
+            "right": { "word": "I studied Spanish on Monday.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Comí pizza anoche.", "rightId": 2 },
+            "right": { "word": "I ate pizza last night.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "El lunes estudié español.", "rightId": 3 },
+            "right": { "word": "Yesterday, I went to the park.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Vi una película la semana pasada.", "rightId": 4 },
+            "right": { "word": "Last Friday, I met a new friend.", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Terminé mi tarea ayer.", "rightId": 5 },
+            "right": { "word": "I slept very well last night.", "rightId": 9 }
+          },
+          {
+            "left": { "word": "El fin de semana, visité a mis abuelos.", "rightId": 6 },
+            "right": { "word": "Last week, I saw a movie.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Hoy en la mañana, escribí una carta.", "rightId": 7 },
+            "right": { "word": "I visited my grandparents last weekend.", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Ayer compré una camisa nueva.", "rightId": 8 },
+            "right": { "word": "I bought a new shirt yesterday.", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Anoche dormí muy bien.", "rightId": 9 },
+            "right": { "word": "I did my homework yesterday.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "El viernes pasado, conocí a un amigo nuevo.", "rightId": 10 },
+            "right": { "word": "Today in the morning, I wrote a letter.", "rightId": 7 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '15',
+    name: 'Spanish Exercise - 15',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Qué **(I will do)** el próximo fin de semana?",
+        "choices": ["Harás", "Haremos", "Haré", "Haría"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Yo **(I will go)** al cine con mis amigos mañana.",
+        "choices": ["Voy", "Iremos", "Iré", "Irá"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Mañana por la tarde, ellos **(They will play)** al baloncesto.",
+        "choices": ["Jugarás", "Jugaremos", "Jugarán", "Jugaría"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué **(you are going to do)** el próximo sábado?",
+        "choices": ["Fuiste", "Voy a hacer", "Vas a hacer", "Va a hacer"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "El próximo año, nosotros **(we will travel)** a Japón.",
+        "choices": ["Viajaremos", "Viajaremos", "Viajará", "Viajaré"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermana **(will have)** una reunión importante mañana.",
+        "choices": ["Tendrás", "Tendré", "Tendremos", "Tendrá"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "El próximo viernes, ellos **(They will come out)** de vacaciones.",
+        "choices": ["Saldrán", "Salimos", "Saldrás", "Saldré"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo **(I will read)** un libro este fin de semana.",
+        "choices": ["Leeré", "Lees", "Leerá", "Leerás"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vosotros **(you will go)** al concierto mañana.",
+        "choices": ["Irás", "Iremos", "Iréis", "Irán"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "El profesor **(will explain)** la lección mañana.",
+        "choices": ["Explicaremos", "Explicará", "Explicarán", "Explicarás"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Mañana, yo ______(I will study) para el examen de español.",
+        "choices": ["estudiaré","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El próximo verano, nosotros ______(we will travel) a las montañas.",
+        "choices": ["viajaremos","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______(they will play) al fútbol el próximo domingo.",
+        "choices": ["jugarán","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______(you will learn) a nadar el año que viene.",
+        "choices": ["aprenderás","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vosotros ______(you will visit) a vuestros abuelos la próxima semana.",
+        "choices": ["visitaréis","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermano ______(will buy) un coche nuevo el mes que viene.",
+        "choices": ["comprará","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______(i will) una fiesta de cumpleaños la próxima semana.",
+        "choices": ["haré","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El próximo lunes, mis padres ______(will come out) de vacaciones.",
+        "choices": ["saldrán","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ustedes ______(will eat) en un restaurante italiano mañana.",
+        "choices": ["comerán","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______(we will see) una película esta noche.",
+        "choices": ["veremos","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Mañana iré al cine.", "rightId": 1 },
+            "right": { "word": "I will buy a car soon.", "rightId": 7 }
+          },
+          {
+            "left": { "word": "El próximo sábado, visitaré a mis amigos.", "rightId": 2 },
+            "right": { "word": "I will play soccer this weekend.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Este verano, viajaré a España.", "rightId": 3 },
+            "right": { "word": "I will work on my project on Monday.", "rightId": 6 }
+          },
+          {
+            "left": { "word": "La semana que viene, estudiaré para mis exámenes.", "rightId": 4 },
+            "right": { "word": "I will do my homework next week.", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Este fin de semana, jugaré fútbol.", "rightId": 5 },
+            "right": { "word": "I will celebrate my birthday in December.", "rightId": 9 }
+          },
+          {
+            "left": { "word": "El lunes, trabajaré en mi proyecto.", "rightId": 6 },
+            "right": { "word": "I will learn to cook next year.", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Pronto compraré un coche.", "rightId": 7 },
+            "right": { "word": "I will eat pizza next week.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "El año que viene, aprenderé a cocinar.", "rightId": 8 },
+            "right": { "word": "I will go to the movies tomorrow.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "En diciembre, celebraré mi cumpleaños.", "rightId": 9 },
+            "right": { "word": "I will study for my exams next month.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "La próxima semana, haré mis tareas.", "rightId": 10 },
+            "right": { "word": "I will travel to Spain this summer.", "rightId": 3 }
+          }
+        ]
+      }
+      
+    ]
   }
 ];
