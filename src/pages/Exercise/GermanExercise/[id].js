@@ -44,7 +44,7 @@ const Quiz = () => {
     ? questions.filter((q) => q.type === questionType)
     : questions;
 
-  const { question, choices, correctAnswer } = filteredQuestions[activeQuestion];
+  const { question, choices, correctAnswer } = filteredQuestions[activeQuestion] || {};
 
   const reloadPage = () => {
     router.reload();
@@ -205,6 +205,8 @@ const Quiz = () => {
           <div className={styles.quizcontainer}>
             {!showResult ? (
               <div>
+                {filteredQuestions[activeQuestion] ? (
+                  <>
                 <div className={styles.flex5}>
                   <div>
                     <span className={styles.activequestionno}>{addLeadingZero(activeQuestion + 1)}</span>
@@ -264,6 +266,11 @@ const Quiz = () => {
                       {activeQuestion === filteredQuestions.length - 1 ? "Finish" : "Next"}
                     </button>
                   </div>
+                )}
+
+                </>
+                ):(
+                  <h1>The question was not loaded properly. Please reload the page!</h1>
                 )}
               </div>
             ) : (

@@ -62,6 +62,48 @@ export const youdata = [
       title: "German Conversation 9",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
+    {
+      id: '10',
+      url: "/youtube/GmC10.png",
+      youtube: "https://www.youtube.com/embed/ywLRrERZ3ec?si=zp_eR3_YPUA7Yuye",
+      title: "German Conversation 10",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '11',
+      url: "/youtube/GmC11.png",
+      youtube: "https://www.youtube.com/embed/NATIRlTucEM?si=QPNtu5Q4WqGwjHWz",
+      title: "German Conversation 11",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '12',
+      url: "/youtube/GmC12.png",
+      youtube: "https://www.youtube.com/embed/5tFpMyMBfvA?si=JTj9PJfv8RPa2WiC",
+      title: "German Conversation 12",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '13',
+      url: "/youtube/GmC13.png",
+      youtube: "https://www.youtube.com/embed/P83WoEYa3ZU?si=EJbE3_SgMG-VyWe2",
+      title: "German Conversation 13",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '14',
+      url: "/youtube/GmC14.png",
+      youtube: "https://www.youtube.com/embed/GQsOJe6DWnY?si=wwTX0-ZtR-MXVvrf",
+      title: "German Conversation 14",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '15',
+      url: "/youtube/GmC15.png",
+      youtube: "https://www.youtube.com/embed/9l984y40l34?si=NbV6va-Oou0bqlyd",
+      title: "German Conversation 15",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
   ];
   
   
