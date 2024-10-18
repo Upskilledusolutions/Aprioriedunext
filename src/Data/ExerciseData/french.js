@@ -305,194 +305,163 @@ export const quiz = [
       questions: [
 
         {
-          question: 'What is the French word for the number "three"?',
+          question: 'What is the French word for "three"?',
           choices: ['Un', 'Trois', 'Deux', 'Quatre'],
           type: 'MCQs',
           correctAnswer: 2,
         },
         {
-          question: "How do you say the number 'seven' in French?",
+          question: "How do you say 'seven' in French?",
           choices: ['Huit', 'Sept', 'Neuf', 'Dix'],
           type: 'MCQs',
           correctAnswer: 2,
         },
         {
-          question: "What is the French letter for the pronunciation 'Effe'?",
-          choices: ['M', 'F', 'T', 'P'],
-          type: 'MCQs',
-          correctAnswer: 2,
-        },
-        {
-          question: "How do you say the number 'twelve' in French?",
+          question: "How do you say 'twelve' in French?",
           choices: ['Douze', 'Onze', 'Dix', 'Vingt'],
           type: 'MCQs',
           correctAnswer: 1,
         },
         {
-          question: "What is the letter for the French pronunciation 'Emme'?",
-          choices: ['N', 'R', 'D', 'M'],
-          type: 'MCQs',
-          correctAnswer: 4,
-        },
-        {
-          question: "How do you say the number 'eighteen' in French?",
+          question: "How do you say 'eighteen' in French?",
           choices: ['Dix-sept', 'Dix-huit', 'Vingt', 'Quinze'],
           type: 'MCQs',
           correctAnswer: 2,
         },
         {
-          question: "What is the letter for the French pronunciation 'El'?",
-          choices: ['L', 'K', 'F', 'U'],
-          type: 'MCQs',
-          correctAnswer: 1,
-        },
-        {
-          question: "How do you say the number 'fourteen' in French?",
+          question: "How do you say 'fourteen' in French?",
           choices: ['Quatorze', 'Quinze', 'Seize', 'Vingt'],
           type: 'MCQs',
           correctAnswer: 1,
         },
         {
-          question: "What is the French word for the number 'six'?",
+          question: "What is the French word for 'six'?",
           choices: ['Cinq', 'Six', 'Sept', 'Huit'],
           type: 'MCQs',
           correctAnswer: 2,
         },
         {
-          question: "How do you say the letter 'H' in French?",
-          choices: ['Hache', 'Ach', 'H', 'Hechy'],
-          type: 'MCQs',
-          correctAnswer: 2,
-        },
-        {
-          question: "What is the French word for the number 'nine'?",
+          question: "What is the French word for 'nine'?",
           choices: ['Neuf', 'Huit', 'Sept', 'Cinq'],
           type: 'MCQs',
           correctAnswer: 1,
         },
         {
-          question: "How do you say the letter 'Q' in French?",
-          choices: ['Ku', 'Ké', 'Qu', 'Ki'],
-          type: 'MCQs',
-          correctAnswer: 2,
-        },
-        {
-          question: "What is the French word for the number 'fifteen'?",
+          question: "What is the French word for 'fifteen'?",
           choices: ['Quatorze', 'Quinze', 'Seize', 'Dix-huit'],
           type: 'MCQs',
           correctAnswer: 2,
         },
         {
-          question: "How do you say the letter 'H' in French?",
-          choices: ['Hache', 'Ach', 'H', 'Hechy'],
-          type: 'MCQs',
-          correctAnswer: 2,
-        },
-        {
-          question: "What is the French word for the letter 'Z'?",
-          choices: ['Zé', 'Z', 'Éd', 'Cé'],
-          type: 'MCQs',
-          correctAnswer: 2,
-        },
-        {
-          question: "How do you say the number 'twenty' in French?",
+          question: "How do you say 'twenty' in French?",
           choices: ['Dix-neuf', 'Vingt', 'Vingt-et-un', 'Vingt-deux'],
           type: 'MCQs',
           correctAnswer: 2,
         },
         {
-          question: "What is the French word for the number 'nine'?",
+          question: "What is the French word for 'nine'?",
           choices: ['Huit', 'Sept', 'Neuf', 'Dix'],
           type: 'MCQs',
           correctAnswer: 3,
         },
         {
-          question: "How do you say the number 'six' in French?",
+          question: "How do you say 'six' in French?",
           choices: ['Sept', 'Cinq', 'Six', 'Quatre'],
           type: 'MCQs',
           correctAnswer: 3,
         },
         {
-          question: "What is the French letter for the pronunciation 'Té'?",
-          choices: ['H', 'T', 'P', 'O'],
-          type: 'MCQs',
-          correctAnswer: 2,
-        },
-        {
-          question: "How do you say the number 'seventeen' in French?",
+          question: "How do you say 'seventeen' in French?",
           choices: ['Quinze', 'Seize', 'Dix-sept', 'Dix-huit'],
           type: 'MCQs',
           correctAnswer: 3,
         },
-       
         {
-          "question": "'Bé' is the French letter for ______.",
-          "choices": ["B", "Dé", "Cinq", "El"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
+          question: "Which of the following is the first letter of the French alphabet?",
+          choices: ['C', 'Z', 'A', 'B'],
+          type: 'MCQs',
+          correctAnswer: 1,
         },
         {
-          "question": "The number 4 in French is ______.",
+          question: "Which letter comes after 'B' in the French alphabet?",
+          choices: ['E', 'C', 'D', 'F'],
+          type: 'MCQs',
+          correctAnswer: 3,
+        },
+        {
+          question: "Which of these letters does not exist in the traditional French alphabet?",
+          choices: ['K', 'Q', 'W', 'T'],
+          type: 'MCQs',
+          correctAnswer: 3,
+        },
+        {
+          question: "Which of the following letters is the last letter of the French alphabet?",
+          choices: ['V', 'Y', 'Z', 'X'],
+          type: 'MCQs',
+          correctAnswer: 3,
+        },
+        {
+          question: "What is the 10th letter of the French alphabet?",
+          choices: ['I', 'H', 'J', 'K'],
+          type: 'MCQs',
+          correctAnswer: 3,
+        },
+        {
+          question: "Which letter comes before 'Z' in the French alphabet?",
+          choices: ['Y', 'D', 'F', 'G'],
+          type: 'MCQs',
+          correctAnswer: 1,
+        },
+        {
+          question: "Which letter comes after 'G' in the French alphabet?",
+          choices: ['H', 'K', 'A', 'D'],
+          type: 'MCQs',
+          correctAnswer: 1,
+        },
+        {
+          question: "What is the 3rd letter of the French alphabet?",
+          choices: ['C', 'Z', 'Q', 'P'],
+          type: 'MCQs',
+          correctAnswer: 1,
+        },
+        {
+          "question": "'Four' in French is ______.",
           "choices": ["Quatre", "Cinq", "Six", "Trois"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "'Dé' is the French letter for ______.",
-          "choices": ["D", "Bé", "El", "Gé"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "The number 6 in French is ______.",
+          "question": "'Six' in French is ______.",
           "choices": ["Six", "Quatre", "Huit", "Dix"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "'Ér' is the French pronunciation for English letter ______.",
-          "choices": ["R", "Gé", "Bé", "Dé"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "The number 8 in French is ______.",
+          "question": "'Eight' in French is ______.",
           "choices": ["Huit", "Six", "Dix", "Quatorze"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "The pronunciation 'Vé' in French is the letter ______ in English.",
-          "choices": ["V", "Dé", "Ér", "Gé"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "The number 10 in French is ______.",
+          "question": "'Ten' in French is ______.",
           "choices": ["Dix", "Onze", "Huit", "Vingt"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "The pronunciation 'Gé' in French is the letter ______ in English.",
-          "choices": ["G", "Vé", "Bé", "Dé"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "The number 5 in French is ______.",
+          "question": "'Five' in French is ______.",
           "choices": ["Cinq", "Six", "Huit", "Quatre"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "The number 9 in French is ______.",
+          "question": "'Nine' in French is ______.",
           "choices": ["neuf", "Dix", "Quatre", "Quatorze"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "The number 3 in French is ______.",
+          "question": "'Three' in French is ______.",
           "choices": ["Trois", "Deux", "Un", "Quatre"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -504,44 +473,74 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'L' in French is pronounced as ______.",
-          "choices": ["El", "Bé", "Dé", "Ér"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "The number 11 in French is ______.",
+          "question": "'Eleven' in French is ______.",
           "choices": ["Onze", "Dix", "Quatre", "Quatorze"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'K' in French is called ______.",
-          "choices": ["Ka", "Bé", "Gé", "Dé"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "The number 14 in French is ______.",
+          "question": "'Fourteen' in French is ______.",
           "choices": ["Quatorze", "Onze", "Vingt", "Six"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "The pronunciation 'Double vé' in French is for the letter ______.",
-          "choices": ["W", "Gé", "Dé", "Bé"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "The number 20 in French is ______.",
+          "question": "'Twenty' in French is ______.",
           "choices": ["Vingt", "Dix", "Quinze", "Trois"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "The letter 'N' in French is pronounced as ______.",
-          "choices": ["En", "Ér", "El", "Dé"],
+          "question": "The 5th letter of the French alphabet is ______.",
+          "choices": ["E", "Dix", "Quinze", "Trois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "The letter that comes before 'N' in the French alphabet is ______.",
+          "choices": ["M", "Dix", "Quinze", "Trois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "The 20th letter of the French alphabet is ______.",
+          "choices": ["T", "Dix", "Quinze", "Trois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "In the French alphabet, the letter ______ comes after 'R'.",
+          "choices": ["S", "Dix", "Quinze", "Trois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "The letter ______ is the last consonant of the French alphabet.",
+          "choices": ["Z", "Dix", "Quinze", "Trois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "The letter that comes after 'G' in the French alphabet is ______.",
+          "choices": ["H", "Dix", "Quinze", "Trois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "The 15th letter of the French alphabet is ______.",
+          "choices": ["O", "Dix", "Quinze", "Trois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "In the French alphabet, the letter ______ comes before 'F'.",
+          "choices": ["E", "Dix", "Quinze", "Trois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "The 23rd letter of the French alphabet is ______.",
+          "choices": ["Vingt", "Dix", "Quinze", "Trois"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -555,10 +554,10 @@ export const quiz = [
             },
             {
               "left": { "word": "HUIT", "rightId": 2 },
-              "right": { "word": "F", "rightId": 3 }
+              "right": { "word": "DIX-NEUF", "rightId": 3 }
             },
             {
-              "left": { "word": "EFFE", "rightId": 3 },
+              "left": { "word": "NINETEEN", "rightId": 3 },
               "right": { "word": "TWELVE", "rightId": 1 }
             },
             {
@@ -570,7 +569,7 @@ export const quiz = [
               "right": { "word": "FIFTEEN", "rightId": 8 }
             },
             {
-              "left": { "word": "HACHE", "rightId": 6 },
+              "left": { "word": "TWENTY", "rightId": 6 },
               "right": { "word": "SEVEN", "rightId": 7 }
             },
             {
@@ -579,15 +578,15 @@ export const quiz = [
             },
             {
               "left": { "word": "QUINZE", "rightId": 8 },
-              "right": { "word": "H", "rightId": 6 }
+              "right": { "word": "VINGT", "rightId": 6 }
             },
             {
-              "left": { "word": "ÉLÉ", "rightId": 9 },
+              "left": { "word": "SIX", "rightId": 9 },
               "right": { "word": "NINE", "rightId": 10 }
             },
             {
               "left": { "word": "NEUF", "rightId": 10 },
-              "right": { "word": "L", "rightId": 9 }
+              "right": { "word": "SIX", "rightId": 9 }
             }
           ],
         },
