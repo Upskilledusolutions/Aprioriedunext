@@ -679,8 +679,8 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "What is \"eighty-five\" in French?",
-          "choices": ["Quatre-vingt-quinze", "Quatre-vingt-cinq", "Soixante-cinq", "Quatre-vingt-trois"],
+          "question": "What is \"eighty\" in French?",
+          "choices": ["quinze", "cinq", "Soixante", "trois"],
           "type": "MCQs",
           "correctAnswer": 2
         },
@@ -703,8 +703,8 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "What does \"quatre-vingt-dix-neuf\" translate to?",
-          "choices": ["79", "89", "99", "109"],
+          "question": "What does \"dix-neuf\" translate to?",
+          "choices": ["11", "9", "19", "90"],
           "type": "MCQs",
           "correctAnswer": 3
         },
@@ -715,15 +715,15 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "Which of these words means \"to swim\" in French?",
-          "choices": ["Nager", "Courir", "Voler", "Chanter"],
+          "question": "Which of these words means \"eight\" in French?",
+          "choices": ["huit", "Courir", "Voler", "Chanter"],
           "type": "MCQs",
           "correctAnswer": 1
         },
        
         {
-          "question": "Je ______ (to be) heureux aujourd'hui.",
-          "choices": ["suis", "es", "est", "sommes"],
+          "question": "Le mur ______ (white) est taché.",
+          "choices": ["blanc", "es", "est", "sommes"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -740,7 +740,7 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Nous ______ (to eat) des crêpes pour le petit déjeuner.",
+          "question": "the number ______ (five) comes after number four.",
           "choices": ["mangeons", "manges", "mange", "mangent"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -764,8 +764,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Ils vont ______ (to go) au cinéma ce soir.",
-          "choices": ["aller", "venir", "partir", "rester"],
+          "question": "the number eleven comes before number ______ (twelve).",
+          "choices": ["douze", "venir", "partir", "rester"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -782,7 +782,7 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Je ______ (to have) un examen demain.",
+          "question": "J'______ (to have) un examen demain.",
           "choices": ["ai", "as", "a", "avons"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -794,8 +794,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Nous ______ (to read) un livre intéressant.",
-          "choices": ["lisons", "lisez", "lit", "lire"],
+          "question": "La terre paraît ______ (blue) depuis l'espace.",
+          "choices": ["bleue", "lisez", "lit", "lire"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -806,16 +806,16 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Vous ______ (to speak) français très bien.",
-          "choices": ["parlez", "parle", "parlons", "parles"],
+          "question": "Où lis-tu un ______ (book) ?",
+          "choices": ["livre", "parle", "parlons", "parles"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
           "question": "La ______ (dog) de Marie est très amicale.",
-          "choices": ["chienne", "chien", "animal", "bête"],
+          "choices": ["chicken", "chien", "animal", "bête"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "Je préfère le ______ (green) aux autres couleurs.",
