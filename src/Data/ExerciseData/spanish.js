@@ -3130,15 +3130,15 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "How would you give directions to go to the library?",
+        "question": "What is the correct translation for “Cross the square",
         "choices": [
-          "Sigue recto y cruza la calle.",
-          "Gira a la derecha y sigue.",
-          "Cruza la plaza y sigue recto.",
-          "Todas son correctas."
+         "Cruza la plaza",
+          "Cruza la calle",
+          "Sigue la calle",
+          "Cruza la esquina"
         ],
         "type": "MCQs",
-        "correctAnswer": 4
+        "correctAnswer": 1
       },
       {
         "question": "How do you say 'The café is between the bank and the bookstore'?",

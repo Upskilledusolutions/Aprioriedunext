@@ -3102,19 +3102,19 @@ export const quiz = [
           "correctAnswer": 4
         },
         {
-          "question": "If someone asks you \"Comment puis-je aller au musée ?\", which of the following is a correct response?",
+          "question": "If someone asks you \"Comment puis-je aller au musée ?\", how would you response with \"Turn right and take the first left\"?",
           "choices": ["Tournez à droite et prenez la première à gauche", "Tournez à gauche après l’hôtel", "Traversez la rue et prenez la deuxième à droite", "Continuez tout droit, puis tournez à droite"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "What does \"Est-ce loin d’ici ?\" mean?",
+          "question": "What does \"Est-ce loin d’ici ?\" mean in French?",
           "choices": ["Is it near here?", "Is it far from here?", "What is the distance from here?", "Where is it?"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Which of the following sentences means \"The park is next to the school\"?",
+          "question": "Which of the following sentences means \"The park is next to the school\" in French?",
           "choices": ["Le parc est près de l’école", "Le parc est à côté de l’école", "Le parc est en face de l’école", "Le parc est loin de l’école"],
           "type": "MCQs",
           "correctAnswer": 2
@@ -3126,7 +3126,7 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "Which sentence is the correct response to \"Où est la gare ?\" (Where is the station)?",
+          "question": "How do you say \"Go straight, then turn left\" in French?",
           "choices": ["Prenez la première rue à gauche", "Allez tout droit, puis tournez à gauche", "Continuez tout droit et traversez le pont", "Prenez la deuxième rue à droite"],
           "type": "MCQs",
           "correctAnswer": 2

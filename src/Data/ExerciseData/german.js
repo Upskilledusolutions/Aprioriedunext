@@ -2752,4 +2752,1196 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '10',
+    name: 'German Exercise - 10',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which adverb would you use to say \"always\" in German?",
+        "choices": ["Gut", "Nie", "Immer", "Oft"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct placement for the adverb *jetzt* in this sentence: *Der Bus fährt*?",
+        "choices": ["Der Bus jetzt fährt.", "Der Bus fährt jetzt.", "Jetzt der Bus fährt.", "Der fährt jetzt Bus."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which adverb is used to express the meaning \"quickly\"?",
+        "choices": ["Schnell", "Langsam", "Oft", "Gut"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Where is the correct placement for the adverb *nie* in this sentence: *Sie ist zu spät*?",
+        "choices": ["Nie ist sie zu spät.", "Sie ist nie zu spät.", "Sie nie ist zu spät.", "Ist sie nie zu spät."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which adverb expresses location in the sentence: *Wir treffen uns*?",
+        "choices": ["Gut", "Jetzt", "Hier", "Immer"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which adverb means \"rarely\" in German?",
+        "choices": ["Oft", "Langsam", "Schnell", "Selten"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What is the best placement for the adverb *gut* in the sentence: *Er spielt Fußball*?",
+        "choices": ["Er spielt gut Fußball.", "Er gut spielt Fußball.", "Gut er spielt Fußball.", "Er spielt Fußball gut."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct adverb to complete this sentence: *Sie spricht Deutsch*?",
+        "choices": ["Schnell", "Gut", "Immer", "Hier"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the best placement for *oft* in this sentence: *Ich gehe schwimmen*?",
+        "choices": ["Ich gehe oft schwimmen.", "Oft gehe ich schwimmen.", "Ich oft gehe schwimmen.", "Gehe ich oft schwimmen."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which adverb is correctly placed in the sentence: *Die Kinder spielen draußen*?",
+        "choices": ["Draußen", "Gut", "Immer", "Jetzt"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich komme _______ (always) pünktlich zur Arbeit.",
+        "choices": ["immer","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir treffen uns _______ (here) am Bahnhof.",
+        "choices": ["hier","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie singt _______ (good) in der Schule.",
+        "choices": ["gut","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Zug fährt _______ (now) ab.",
+        "choices": ["jetzt","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich gehe _______ (often) ins Kino mit meinen Freunden.",
+        "choices": ["oft","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Hund läuft _______ (fast) durch den Garten.",
+        "choices": ["schnell","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ist _______ (never) unpünktlich.",
+        "choices": ["nie","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er arbeitet _______ (slow), aber sehr genau.",
+        "choices": ["langsam","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Kinder spielen _______ (outside) im Garten.",
+        "choices": ["draußen","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er kommt _______ (rarely) zu spät.",
+        "choices": ["selten","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Er kommt heute.", "rightId": 1 },
+      "right": { "word": "We are going to the cinema tomorrow.", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Ich gehe oft spazieren.", "rightId": 2 },
+      "right": { "word": "He is coming today.", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Sie ist immer freundlich.", "rightId": 3 },
+      "right": { "word": "I rarely go to the gym.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Wir gehen morgen ins Kino.", "rightId": 4 },
+      "right": { "word": "I am coming now.", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Ich bin jetzt unterwegs.", "rightId": 5 },
+      "right": { "word": "She is always friendly.", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Ich lese manchmal Bücher.", "rightId": 6 },
+      "right": { "word": "We are going to Berlin soon.", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Er ist schon zu Hause.", "rightId": 7 },
+      "right": { "word": "You never go to the party.", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "Ich gehe selten ins Fitnessstudio.", "rightId": 8 },
+      "right": { "word": "I often go for a walk.", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Du gehst nie zur Party.", "rightId": 9 },
+      "right": { "word": "I sometimes read books.", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Wir fahren bald nach Berlin.", "rightId": 10 },
+      "right": { "word": "He is already at home.", "rightId": 8 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '11',
+    name: 'German Exercise - 11',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Ich (like) keinen Spinat.",
+        "choices": ["magst", "mag", "mögen", "magst du"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was (prefer) du lieber?",
+        "choices": ["Ich lieber spiele Fußball.", "Ich spiele lieber Fußball.", "Lieber spiele ich Fußball.", "Ich spiele lieber Fußball als Basketball."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "(like) ihr Schokolade oder Eis?",
+        "choices": ["Mögen", "Mag", "Mögt", "Magst"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Er (prefers to drink) Wasser als Cola.",
+        "choices": ["trinkt", "trinken", "trinkst", "trinkt er"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich (play) gern Gitarre.",
+        "choices": ["spielt", "spiele", "spielen", "spielst"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Sie (prefer to eat) lieber im Restaurant als zu Hause.",
+        "choices": ["isst", "esst", "essen", "iss"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was (prefer to listen) du lieber, Rock oder Pop?",
+        "choices": ["höre", "hörst", "hört", "hören"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wir (prefer) lieber ins Kino als ins Theater.",
+        "choices": ["gehst", "gehen", "geht", "gehe"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Ich (like) laute Musik.",
+        "choices": ["mögen", "mag", "magst", "mögen wir"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Sie (prefer to read) lieber Bücher als Zeitungen.",
+        "choices": ["liest", "lesen", "lese", "lest"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich _____ (likes) keinen Fisch, aber ich esse gern Fleisch.",
+        "choices": ["mag", "mögen", "möchtest", "mögt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie _____ (drives) lieber mit dem Fahrrad als mit dem Auto.",
+        "choices": ["fährt", "fahre", "fahren", "fahrt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir _____ (drink) gern Kaffee am Morgen.",
+        "choices": ["trinken", "trinkst", "trinkt", "trinke"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr _____ (eat) lieber Pizza als Pasta.",
+        "choices": ["esst", "isst", "essen", "esst du"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er _____ (plays) gern Fußball mit seinen Freunden.",
+        "choices": ["spielt", "spiele", "spielst", "spielen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich _____ (see) lieber Filme als Serien.",
+        "choices": ["sehe", "siehst", "sieht", "sehen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du _____ (like) Schokolade, oder?",
+        "choices": ["magst", "mag", "mögt", "mögen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie _____ (cook) gern traditionelle deutsche Gerichte.",
+        "choices": ["kochen", "koch", "kochst", "kocht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er _____ (hears) lieber klassische Musik als Popmusik.",
+        "choices": ["hört", "hörst", "höre", "hören"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir _____ (read) gern Bücher am Wochenende.",
+        "choices": ["lesen", "liest", "lest", "lese"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Ich mag Pizza.", "rightId": 1 },
+      "right": { "word": "He prefers tea.", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Wir mögen Fußball spielen.", "rightId": 2 },
+      "right": { "word": "I hate rain.", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Sie mag Schokolade nicht.", "rightId": 3 },
+      "right": { "word": "You love traveling.", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Er liebt Musik.", "rightId": 4 },
+      "right": { "word": "We like playing football.", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Ich hasse Regen.", "rightId": 5 },
+      "right": { "word": "She doesn’t like chocolate.", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Sie mögen den Winter nicht.", "rightId": 6 },
+      "right": { "word": "We prefer eating pasta.", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Er trinkt lieber Tee.", "rightId": 7 },
+      "right": { "word": "You never go to the party.", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "Du liebst Reisen.", "rightId": 8 },
+      "right": { "word": "They don't like winter.", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Ich mag nicht schwimmen.", "rightId": 9 },
+      "right": { "word": "He loves music.", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Wir essen lieber Pasta.", "rightId": 10 },
+      "right": { "word": "I like pizza.", "rightId": 1 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '12',
+    name: 'German Exercise - 12',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "How do you say \"Turn left\" in German?",
+        "choices": ["Biegen Sie rechts ab", "Gehen Sie geradeaus", "Biegen Sie links ab", "Überqueren Sie die Straße"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct expression for \"Where is the bank?\" in German?",
+        "choices": ["Wo ist der Bahnhof?", "Wo ist die Bank?", "Wie komme ich zur Bank?", "Welcher Weg führt zur Bank?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence means \"How can I go to the restaurant?\"?",
+        "choices": ["Wo ist das Restaurant?", "Wie komme ich zum Restaurant?", "Welcher Weg führt zum Restaurant?", "Ist es weit vom Restaurant?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following means \"Take the first left\"?",
+        "choices": ["Nehmen Sie die erste rechts", "Nehmen Sie die zweite links", "Nehmen Sie die erste links", "Gehen Sie geradeaus"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the translation of \"The hotel is near the station\"?",
+        "choices": ["Das Hotel ist neben dem Bahnhof", "Das Hotel ist weit vom Bahnhof entfernt", "Das Hotel ist gegenüber dem Bahnhof", "Das Hotel ist in der Nähe des Bahnhofs"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "If someone asks \"How do I get to the museum?\", how would you say \"Turn right and take the first left\" in German? ()",
+        "choices": ["Biegen Sie rechts ab und nehmen Sie die erste links", "Biegen Sie links nach dem Hotel ab", "Überqueren Sie die Straße und nehmen Sie die zweite rechts", "Gehen Sie geradeaus, dann biegen Sie rechts ab"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Is it far from here?\" mean in German?",
+        "choices": ["Ist es hier in der Nähe?", "Ist es weit weg von hier?", "Was ist die Entfernung von hier?", "Wo ist es?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following sentences means \"The park is next to the school\"?",
+        "choices": ["Der Park ist nah der Schule", "Der Park ist neben der Schule", "Der Park ist gegenüber der Schule", "Der Park ist weit von der Schule entfernt"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you ask \"How do I get to the supermarket?\" in German?",
+        "choices": ["Wo ist der Supermarkt?", "Wie komme ich zum Supermarkt?", "Ist es weit vom Supermarkt?", "Welcher Weg führt zum Supermarkt?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you give a response to \"Where is the train station?\" as \"Go straight, then turn left\" in German?",
+        "choices": ["Nehmen Sie die erste Straße links", "Gehen Sie geradeaus, dann biegen Sie links ab", "Gehen Sie geradeaus und überqueren Sie die Brücke", "Nehmen Sie die zweite Straße rechts"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Gehen Sie __________ (straight ahead), dann biegen Sie rechts ab.",
+        "choices": ["geradeaus","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Café ist __________ (next to) der Post.",
+        "choices": ["neben","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie komme ich __________ (to the) Bahnhof?",
+        "choices": ["zum","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Park ist __________ (across) der Straße.",
+        "choices": ["über","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Biegen Sie an der __________ (corner) links ab.",
+        "choices": ["Ecke","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Schule ist __________ (between) dem Kino und dem Supermarkt.",
+        "choices": ["zwischen","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Entschuldigung, wo __________ (where is) das Hotel?",
+        "choices": ["ist","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Gehen Sie bis zur __________ (traffic light), dann links.",
+        "choices": ["Ampel","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Apotheke ist in der __________ von (near) dem Marktplatz.",
+        "choices": ["Nähe","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Überqueren Sie die __________ (the street) und gehen Sie geradeaus.",
+        "choices": ["Straße","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Wo ist die Post?", "rightId": 1 },
+      "right": { "word": "Go straight ahead.", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Gehen Sie geradeaus.", "rightId": 2 },
+      "right": { "word": "Go to the next intersection.", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Ich suche das Restaurant.", "rightId": 3 },
+      "right": { "word": "It is across from the supermarket.", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Biegen Sie an der Ampel links ab.", "rightId": 4 },
+      "right": { "word": "We like playing football.", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Gehen Sie bis zur nächsten Kreuzung.", "rightId": 5 },
+      "right": { "word": "I am looking for the restaurant.", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Es ist neben der Bank.", "rightId": 6 },
+      "right": { "word": "How do I get to the train station?", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Wie komme ich zum Bahnhof?", "rightId": 7 },
+      "right": { "word": "Where is the post office?", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Biegen Sie an der nächsten Ecke rechts ab.", "rightId": 8 },
+      "right": { "word": "Turn left at the traffic light.", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Gehen Sie zum Park.", "rightId": 9 },
+      "right": { "word": "It is near the bank.", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Es ist gegenüber dem Supermarkt.", "rightId": 10 },
+      "right": { "word": "Go to the park.", "rightId": 9 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '13',
+    name: 'German Exercise - 13',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "How do you formally arrange an appointment?",
+        "choices": [
+          "Ich sage den Termin ab.",
+          "Ich verschiebe den Termin.",
+          "Ich möchte einen Termin vereinbaren.",
+          "Ich komme zu spät."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you informally ask for a meeting?",
+        "choices": [
+          "Ich möchte einen Termin bestätigen.",
+          "Können wir uns am Samstag treffen?",
+          "Können wir den Termin verschieben?",
+          "Der Termin muss abgesagt werden."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What do you write in a formal email?",
+        "choices": [
+          "Hallo, wie geht’s?",
+          "Sehr geehrter Herr Müller,",
+          "Ich verschiebe den Termin.",
+          "Liebe Grüße, Herr Müller."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you request a confirmation?",
+        "choices": [
+          "Können Sie den Termin absagen?",
+          "Bitte bestätigen Sie den Termin.",
+          "Verschieben wir den Termin auf nächste Woche.",
+          "Lassen Sie uns den Termin absagen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you cancel an appointment?",
+        "choices": [
+          "Der Termin wurde verschoben.",
+          "Leider muss ich den Termin absagen.",
+          "Ich möchte den Termin vereinbaren.",
+          "Der Termin passt mir gut."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is a formal closing in an email?",
+        "choices": [
+          "Liebe Grüße,",
+          "Bis dann!",
+          "Mit freundlichen Grüßen,",
+          "Tschüss!"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What do you write in an informal email?",
+        "choices": [
+          "Sehr geehrter Herr Schmidt,",
+          "Hallo Maria,",
+          "Mit freundlichen Grüßen,",
+          "Liebe Herr Müller."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you confirm an appointment?",
+        "choices": [
+          "Ich muss den Termin absagen.",
+          "Ich werde den Termin bestätigen.",
+          "Verschieben wir den Termin.",
+          "Ich komme am Montag."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you postpone an appointment?",
+        "choices": [
+          "Der Termin passt mir gut.",
+          "Können wir den Termin auf Dienstag verschieben?",
+          "Ich bestätige den Termin.",
+          "Ich sage den Termin ab."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What subject do you write in a formal email regarding an appointment?",
+        "choices": [
+          "Betreff: Treffen am Wochenende",
+          "Betreff: Bestätigung des Termins",
+          "Betreff: Meeting nächste Woche",
+          "Betreff: Hallo, wie geht’s?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich möchte einen Termin __________ (arrange).",
+        "choices": ["vereinbaren", "absagen", "verschieben", "bestätigen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Können wir den Termin auf Donnerstag __________ (reschedule)?",
+        "choices": ["verschieben", "vereinbaren", "bestätigen", "absagen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Leider muss ich den Termin __________ (cancel).",
+        "choices": ["absagen", "bestätigen", "verschieben", "vereinbaren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Bitte __________ (confirm) Sie den Termin für nächste Woche.",
+        "choices": ["bestätigen", "verschieben", "absagen", "vereinbaren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Termin ist am Freitag __________ (at) 10 Uhr.",
+        "choices": ["um", "in", "an", "auf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "__________ (Dear) Herr Meier, ich möchte einen Termin vereinbaren.",
+        "choices": ["Sehr geehrter", "Lieber", "Hallo", "Guten Tag"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich hoffe, dass Ihnen der Termin am Mittwoch __________ (suits).",
+        "choices": ["passt", "gefällt", "schmeckt", "steht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "__________ (Best regards), Anna.",
+        "choices": ["Liebe Grüße", "Mit freundlichen Grüßen", "Hallo", "Tschüss"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir können den Termin __________ (postpone) auf Montag.",
+        "choices": ["verschieben", "absagen", "bestätigen", "vereinbaren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich werde den Termin mit Herrn Müller __________ (confirm).",
+        "choices": ["bestätigen", "verschieben", "absagen", "vereinbaren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Kann ich einen Termin machen?", "rightId": 1 },
+      "right": { "word": "When is convenient for you?", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Wann passt es Ihnen?", "rightId": 2 },
+      "right": { "word": "Do you have time tomorrow?", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Ich möchte den Termin ändern.", "rightId": 3 },
+      "right": { "word": "The appointment works well.", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Ich habe einen Termin um 14 Uhr.", "rightId": 4 },
+      "right": { "word": "Should we meet at 10 o'clock?", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Haben Sie morgen Zeit?", "rightId": 5 },
+      "right": { "word": "I would like to change the appointment.", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Können wir das Meeting verschieben?", "rightId": 6 },
+      "right": { "word": "Does Friday work for you?", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Sollen wir uns um 10 Uhr treffen?", "rightId": 7 },
+      "right": { "word": "Can I make an appointment?", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Passt Ihnen der Freitag?", "rightId": 8 },
+      "right": { "word": "I have an appointment at 2 PM.", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Ich schicke Ihnen eine E-Mail.", "rightId": 9 },
+      "right": { "word": "Can we postpone the meeting?", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Der Termin passt gut.", "rightId": 10 },
+      "right": { "word": "I will send you an email.", "rightId": 9 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '14',
+    name: 'German Exercise - 14',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which auxiliary verb is used with the verb 'essen' in the perfect tense?",
+        "choices": ["sein", "haben", "werden", "bleiben"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the past participle of \"sehen\"?",
+        "choices": ["gesiehen", "sehen", "gesehen", "sah"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which verb uses 'sein' as an auxiliary in the perfect tense?",
+        "choices": ["bleiben", "lernen", "schreiben", "kaufen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the past participle of 'gehen'?",
+        "choices": ["gegangen", "gehangen", "gang", "gegangenes"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which auxiliary verb is used with 'fahren' in the perfect tense?",
+        "choices": ["haben", "sein", "bleiben", "werden"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which verb uses 'haben' in the perfect tense?",
+        "choices": ["sein", "bleiben", "arbeiten", "gehen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct word order in the perfect tense?",
+        "choices": ["Ich habe Fußball gespielt.", "Ich Fußball habe gespielt.", "Fußball habe gespielt ich.", "Gespielt habe ich Fußball."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the past participle of \"arbeiten\"?",
+        "choices": ["arbeit", "gearbeitet", "arbeitet", "gearbeitetes"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which auxiliary verb is used with 'kommen' in the perfect tense?",
+        "choices": ["haben", "sein", "bleiben", "werden"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which auxiliary verb is used with 'bleiben' in the perfect tense?",
+        "choices": ["haben", "sein", "bleiben", "werden"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich __________ (haben) gestern Fußball gespielt.",
+        "choices": ["habe", "hast", "hat", "habt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir __________ (sein) nach Hamburg gefahren.",
+        "choices": ["sind", "seid", "ist", "bin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie __________ (haben) das Buch gelesen.",
+        "choices": ["hat", "habe", "hast", "habt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er __________ (sein) ins Kino gegangen.",
+        "choices": ["ist", "sind", "seid", "war"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du __________ (haben) den Film gesehen.",
+        "choices": ["hast", "hat", "habe", "habt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir __________ (sein) in Berlin gewesen.",
+        "choices": ["sind", "seid", "ist", "bin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr __________ (haben) gut gekocht.",
+        "choices": ["habt", "habe", "hat", "hast"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Schwester __________ (haben) einen Kuchen gebacken.",
+        "choices": ["hat", "habe", "hast", "habt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie __________ (sein) nach Hause gelaufen.",
+        "choices": ["ist", "sind", "seid", "war"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich __________ (haben) die Hausaufgaben gemacht.",
+        "choices": ["habe", "hast", "hat", "habt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Ich habe ein Buch gelesen.", "rightId": 1 },
+      "right": { "word": "He has done his homework.", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Er hat Fußball gespielt.", "rightId": 2 },
+      "right": { "word": "She has visited her friend.", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Wir sind in den Park gegangen.", "rightId": 3 },
+      "right": { "word": "We have watched a movie.", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Sie hat ihre Freundin besucht.", "rightId": 4 },
+      "right": { "word": "I have cooked dinner.", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Wir haben einen Film geschaut.", "rightId": 5 },
+      "right": { "word": "I have come home late.", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Ich habe das Abendessen gekocht.", "rightId": 6 },
+      "right": { "word": "Does Friday work for you?", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Er hat seine Hausaufgaben gemacht.", "rightId": 7 },
+      "right": { "word": "She has flown to Berlin.", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Sie haben das Haus geputzt.", "rightId": 8 },
+      "right": { "word": "I have read a book.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Ich bin spät nach Hause gekommen.", "rightId": 9 },
+      "right": { "word": "He has played football.", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Sie ist nach Berlin geflogen.", "rightId": 10 },
+      "right": { "word": "We have gone to the park.", "rightId": 3 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '15',
+    name: 'German Exercise - 15',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "How is the future tense formed in German?",
+        "choices": [
+         "With the verb 'haben' and the infinitive",
+      "With the verb 'sein' and the participle",
+      "With the verb 'werden' and the infinitive",
+      "With the present tense and time indicators"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which form of 'werden' matches 'wir' (we)?",
+        "choices": ["werde", "wirst", "werden", "wird"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+      "question": "What does 'Ich werde ins Kino gehen' mean?",
+    "choices": [
+      "I am going to the cinema.",
+      "I will go to the cinema.",
+      "I went to the cinema.",
+      "I have gone to the cinema."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which time expression indicates a future event?",
+        "choices": ["gestern", "heute", "morgen", "letzte Woche"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which auxiliary verb is used to form the future tense?",
+        "choices": ["haben", "werden", "sein", "bleiben"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which modal verb fits in the sentence: 'Ich __________ morgen das Auto reparieren lassen.'?",
+        "choices": ["werde", "darf", "kann", "muss"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Du wirst bald fliegen' mean?",
+        "choices": [
+          "You will fly soon.",
+          "You are flying soon.",
+          "You flew soon.",
+          "You had flown soon."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct word order in the future tense?",
+        "choices": [
+          "Ich werde morgen einen Film sehe.",
+          "Ich werde einen Film morgen sehen.",
+          "Ich einen Film werde morgen sehen.",
+          "Ich werde morgen einen Film sehen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which form of 'werden' matches 'er/sie/es' (he/she/it)?",
+        "choices": ["wirst", "werde", "werden", "wird"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which modal verb fits in the sentence: 'Wir __________ morgen nach Indien reisen.'?",
+        "choices": ["können", "wollen", "müssen", "werden"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich __________ (werden) nächstes Jahr Deutsch lernen.",
+        "choices": ["werde","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er __________ (werden) in zwei Wochen nach München fahren.",
+        "choices": ["wird","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir __________ (werden) am Wochenende Tennis spielen.",
+        "choices": ["werden","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie __________ (werden) morgen einen neuen Job suchen.",
+        "choices": ["wird","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du __________ (werden) im Dezember nach Indien reisen.",
+        "choices": ["wirst","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich __________ (werden) nächstes Semester in der Universität studieren.",
+        "choices": ["werde","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr __________ (werden) bald ein Haus kaufen.",
+        "choices": ["werdet","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Schwester __________ (werden) bald ihren Abschluss machen.",
+        "choices": ["wird","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir __________ (werden) nächsten Monat eine Party organisieren.",
+        "choices": ["werden","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie __________ (werden) morgen früh zum Arzt gehen.",
+        "choices": ["wird","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Ich werde morgen arbeiten.", "rightId": 1 },
+      "right": { "word": "They will buy a house.", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Er wird Lehrer werden.", "rightId": 2 },
+      "right": { "word": "She will travel to Berlin.", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Wir werden unsere Freunde besuchen.", "rightId": 3 },
+      "right": { "word": "I will drink a coffee.", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Sie wird nach Berlin fahren.", "rightId": 4 },
+      "right": { "word": "We will go to the park.", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Ich werde einen Kaffee trinken.", "rightId": 5 },
+      "right": { "word": "He will buy a car.", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Wir werden in den Park gehen.", "rightId": 6 },
+      "right": { "word": "Will you go to the cinema?", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Sie werden ein Haus kaufen.", "rightId": 7 },
+      "right": { "word": "I will cook.", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Wirst du ins Kino gehen?", "rightId": 8 },
+      "right": { "word": "I will work tomorrow.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Er wird ein Auto kaufen.", "rightId": 9 },
+      "right": { "word": "He will become a teacher.", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Ich werde kochen.", "rightId": 10 },
+      "right": { "word": "We will visit our friends.", "rightId": 3 }
+      
+    }
+  ]
+}
+    ]
+  },
 ];
