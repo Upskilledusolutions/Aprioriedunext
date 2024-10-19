@@ -75,5 +75,34 @@ export const data = [{
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1VzZP_CFQtmngtZYpKEd1xRlE7-Oos2RB/preview',
     desc:'German Foundation Lesson 11 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'12',
+    name:'Lesson 12',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1S2skZQS_e73oQMQ538fc37hae-ZMSW5u/preview',
+    desc:'German Foundation Lesson 12 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'13',
+    name:'Lesson 13',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/10GSNOplJpd4WEARtZa_ikbuUBeDo_F7-/preview',
+    desc:'German Foundation Lesson 13 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'14',
+    name:'Lesson 14',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1SSr_Pio_7mq9P0WRsp3lqbXnn9iVbLCF/preview',
+    desc:'German Foundation Lesson 14 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'15',
+    name:'Lesson 15',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1jw0QPwKqJppb7fkoXS1MylQKflXwdNhv/preview',
+    desc:'German Foundation Lesson 15 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 }
 ]
+

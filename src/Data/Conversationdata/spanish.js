@@ -9,7 +9,7 @@ export const youdata = [
   {
     id: '2',
     url: "/youtube/SpC2.png",
-    youtube: "https://www.youtube.com/embed/sao5NyEa6QA?si=RRlEVH-laXkQrWNd",
+    youtube: "https://www.youtube.com/embed/q0Nz7sMLCTY?si=JrpnTjf_eNW4K0B6",
     title: "Spanish Conversation 2",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },
