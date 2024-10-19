@@ -625,10 +625,10 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "What does \"vingt-cinq\" translate to in English?",
-          "choices": ["15", "50", "25", "75"],
+          "question": "What does \"cinq\" translate to in English?",
+          "choices": ["5", "50", "2", "7"],
           "type": "MCQs",
-          "correctAnswer": 3
+          "correctAnswer": 1
         },
         {
           "question": "Which color is “gris” in English?",
@@ -813,9 +813,9 @@ export const quiz = [
         },
         {
           "question": "La ______ (dog) de Marie est très amicale.",
-          "choices": ["chicken", "chien", "animal", "bête"],
+          "choices": ["chien", "1", "animal", "bête"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
           "question": "Je préfère le ______ (green) aux autres couleurs.",
