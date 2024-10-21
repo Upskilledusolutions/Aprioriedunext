@@ -24,7 +24,7 @@ export const data = [{
     id:'4',
     name:'Lesson 4',
     level:'Beginners',
-    pdf:'https://drive.google.com/file/d/1n2dkWeDhzZdfIgNOLkoHIT8lh8Xc3yKI/preview',
+    pdf:'https://drive.google.com/file/d/1r_JgGcLUvrGajM2Ct6T-dzta3tH3g3qI/preview',
     desc:'Spanish Foundation Lesson 4 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
