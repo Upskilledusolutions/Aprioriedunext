@@ -17,19 +17,19 @@ export default function Index() {
   const cards = [
     {
       type: 'french',
-      heading: 'French Conversations',
+      heading: 'French Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our French exercise.',
       link: '/Conversations/FrenchConversations',
     },
     {
       type: 'german',
-      heading: 'German Conversations',
+      heading: 'German Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Germany with this exercise.',
       link: '/Conversations/GermanConversations',
     },
     {
       type: 'spanish',
-      heading: 'Spanish Conversations',
+      heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
       link: '/Conversations/SpanishConversations',
     }

@@ -17,25 +17,25 @@ export default function Index() {
   const cards = [
     {
       type: 'Multilingual',
-      heading: 'Multilingual Lessons',
+      heading: 'Multilingual Beginner (A1)',
       text: 'Dive into the vibrant world of Multiple language-speaking countries with this course.',
       link: '/Readnow/Multilinguallessons',
     },
     {
       type: 'french',
-      heading: 'French Lessons',
+      heading: 'French Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our French lessons.',
       link: '/Readnow/Frenchlessons',
     },
     {
       type: 'german',
-      heading: 'German Lessons',
+      heading: 'German Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Germany with this course.',
       link: '/Readnow/Germanlessons',
     },
     {
       type: 'spanish',
-      heading: 'Spanish Lessons',
+      heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
       link: '/Readnow/Spanishlessons',
     }

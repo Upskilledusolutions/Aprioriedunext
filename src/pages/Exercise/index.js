@@ -17,19 +17,19 @@ export default function Index() {
   const cards = [
     {
       type: 'french',
-      heading: 'French Exercise',
+      heading: 'French Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our French exercise.',
       link: '/Exercise/FrenchExercises',
     },
     {
       type: 'german',
-      heading: 'German Exercise',
+      heading: 'German Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Germany with this exercise.',
       link: '/Exercise/GermanExercises',
     },
     {
       type: 'spanish',
-      heading: 'Spanish Exercise',
+      heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
       link: '/Exercise/SpanishExercises',
     }
@@ -77,7 +77,7 @@ export default function Index() {
                 <div className={styles.cardtext}>{card.text}</div>
                 {!isCardLocked(card.type) ? (
                   <Link href={card.link} className={styles.btn}>
-                    Start Learning
+                    Take a test
                   </Link>
                 ) : (
                   <div className={styles.lockedText}><FaLock className={styles.lock} />Locked</div>
