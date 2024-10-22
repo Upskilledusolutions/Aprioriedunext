@@ -2667,8 +2667,8 @@ export const quiz = [
       topic: 'Mixed',
       questions: [
         {
-          "question": "Where should the adverb be placed in this sentence: 'Je (mange) (souvent) du pain'?",
-          "choices": ["Before 'je'", "After 'je'", "After 'mange'", "Before 'mange'"],
+          "question": "Which adverb means 'always' in French?",
+          "choices": ["Jamais", "Parfois", "Toujours", "Rarement"],
           "type": "MCQs",
           "correctAnswer": 3
       },
@@ -2685,8 +2685,8 @@ export const quiz = [
       "correctAnswer": 2
   },
   {
-    "question": "In compound tenses, where should the adverb be placed in this sentence: 'Elle a (mangé) du chocolat'?",
-    "choices": ["After 'a'", "After 'mangé'", "Before 'mangé'", "Before 'a'"],
+    "question": "What is the French adverb for 'quickly'?",
+    "choices": ["Lentement", "Doucement", "Rapidement", "Fréquemment"],
     "type": "MCQs",
     "correctAnswer": 3
 },
@@ -2703,8 +2703,8 @@ export const quiz = [
   "correctAnswer": 4
 },
 {
-  "question": "Where should the adverb 'bien' be placed in this sentence: 'Ils (parlent) (bien) anglais'?",
-  "choices": ["After 'ils'", "Before 'parlent'", "After 'parlent'", "Before 'anglais'"],
+  "question": "Which of the following means 'sometimes' in French?",
+  "choices": ["Toujours", "Jamais", "Parfois", "Ici"],
   "type": "MCQs",
   "correctAnswer": 3
 },
