@@ -104,7 +104,35 @@ export const youdata = [
       title: "French Conversation 15",
       desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
+    {
+      id: '16',
+      url: "/youtube/FrC16.png",
+      youtube: "https://www.youtube.com/embed/0iZswGQAneo?si=h4_8NHuQC2EpouV7",
+      title: "French Conversation 16",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
+    {
+      id: '17',
+      url: "/youtube/FrC17.png",
+      youtube: "https://www.youtube.com/embed/Iz4o4jg1gNg?si=QX5qCKlYxGbph2mY",
+      title: "French Conversation 17",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
+    {
+      id: '18',
+      url: "/youtube/FrC18.png",
+      youtube: "https://www.youtube.com/embed/72UrHYAgldY?si=dBxoCkFZDeLX40YW",
+      title: "French Conversation 18",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
+    {
+      id: '19',
+      url: "/youtube/FrC19.png",
+      youtube: "https://www.youtube.com/embed/zmD_OId9v_g?si=LZ9ubUvtjthzMSci",
+      title: "French Conversation 19",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
   ];
   
-
+  
   
