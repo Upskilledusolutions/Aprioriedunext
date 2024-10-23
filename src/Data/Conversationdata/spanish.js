@@ -104,5 +104,33 @@ export const youdata = [
     title: "Spanish Conversation 15",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },
+  {
+    id: '16',
+    url: "/youtube/SpC16.png",
+    youtube: "https://www.youtube.com/embed/LY1zoYXMI0E?si=2o9msYTuX7ysTrPL",
+    title: "Spanish Conversation 16",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '17',
+    url: "/youtube/SpC17.png",
+    youtube: "https://www.youtube.com/embed/5pNy1dsv1RA?si=ZlfORY2LBnNkV8sq",
+    title: "Spanish Conversation 17",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '18',
+    url: "/youtube/SpC18.png",
+    youtube: "https://www.youtube.com/embed/zRPMqDUs0JI?si=-v7ZpV2LLA1LC-U0",
+    title: "Spanish Conversation 18",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '19',
+    url: "/youtube/SpC19.png",
+    youtube: "https://www.youtube.com/embed/ju4x36WduZc?si=MMOjIazmxFgmUPbA",
+    title: "Spanish Conversation 19",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
 ];
 

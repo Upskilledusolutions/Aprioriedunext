@@ -3835,5 +3835,775 @@ export const quiz = [
       }
       
     ]
-  }
+  },
+  {
+    quiz: '16',
+    name: 'Spanish Exercise - 16',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "Which festival is known for the “Running of the Bulls”?",
+        "choices": ["La Tomatina", "Las Fallas", "San Fermín", "Feria de Abril"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "In which city is La Tomatina held?",
+        "choices": ["Pamplona", "Buñol", "Valencia", "Madrid"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which Spanish festival involves the burning of large sculptures?",
+        "choices": ["Semana Santa", "Feria de Abril", "Las Fallas", "San Fermín"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What do people throw during La Tomatina?",
+        "choices": ["Water", "Flowers", "Tomatoes", "Sand"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "During Semana Santa, what type of events are common in Spain?",
+        "choices": ["Religious processions", "Fireworks", "Street parades with animals", "Music concerts"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In which month is the Feria de Abril celebrated?",
+        "choices": ["August", "December", "April", "March"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which festival takes place in the city of Seville and features flamenco dancing?",
+        "choices": ["San Fermín", "Feria de Abril", "Las Fallas", "La Tomatina"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Las Fallas marks the arrival of which season?",
+        "choices": ["Winter", "Spring", "Summer", "Autumn"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the central activity of the San Fermín festival in Pamplona?",
+        "choices": ["Religious ceremonies", "Music and dancing", "Running with the bulls", "Flamenco shows"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "During Semana Santa, people often carry elaborate ______ in the processions.",
+        "choices": ["Flags", "Flowers", "Sculptures", "Floats"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "El festival de La Tomatina se ______ (celebrate) en la ciudad de Buñol.",
+        "choices": ["celebra", "Sevilla", "Madrid", "Pamplona"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La Semana Santa es una celebración importante durante la semana antes de ______ (Passover).",
+        "choices": ["Pascua", "Navidad", "Año Nuevo", "Carnaval"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En el festival de San Fermín, los participantes corren con los ______ (bullfighting).",
+        "choices": ["toros", "caballos", "perros", "leones"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Durante la Feria de Abril, la gente lleva ______ (suits) tradicionales y baila flamenco.",
+        "choices": ["trajes", "disfraces", "esculturas", "sombreros"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Las Fallas es un festival famoso por quemar grandes ______ (sculptures).",
+        "choices": ["esculturas", "coches", "trajes", "árboles"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La Feria de Abril se celebra en la ciudad de ______ (Seville).",
+        "choices": ["Sevilla", "Madrid", "Barcelona", "Valencia"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La Semana Santa en Sevilla es famosa por sus impresionantes ______ (processions) religiosas.",
+        "choices": ["procesiones", "fiestas", "conciertos", "carreras"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La Tomatina es una pelea de ______ (tomatoes), en la que la gente se lanza entre sí.",
+        "choices": ["tomates", "uvas", "agua", "manzanas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El encierro de los toros es una actividad peligrosa que tiene lugar en ______ (Pamplona) durante el festival de San Fermín.",
+        "choices": ["Pamplona", "Valencia", "Granada", "Málaga"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Las Fallas se ______ (celebrate) en la ciudad de Valencia.",
+        "choices": ["celebra", "Sevilla", "Toledo", "Córdoba"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "La Tomatina", "rightId": 1 },
+            "right": { "word": "Rice Dish", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Día de los Muertos", "rightId": 2 },
+            "right": { "word": "Traditional Dance", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Flamenco", "rightId": 3 },
+            "right": { "word": "Afternoon Nap", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Paella", "rightId": 4 },
+            "right": { "word": "Festival of Tomatoes", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Siesta", "rightId": 5 },
+            "right": { "word": "Day of the Dead", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Fiestas Patrias", "rightId": 6 },
+            "right": { "word": "Small Plates", "rightId": 10 }
+          },
+          {
+            "left": { "word": "El Día de San Juan", "rightId": 7 },
+            "right": { "word": "April Fair", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Carnaval", "rightId": 8 },
+            "right": { "word": "Festive Celebration", "rightId": 8 }
+          },
+          {
+            "left": { "word": "La Feria de Abril", "rightId": 9 },
+            "right": { "word": "Festival in June", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Tapas", "rightId": 10 },
+            "right": { "word": "National Holidays", "rightId": 6 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '17',
+    name: 'Spanish Exercise - 17',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "Which pronoun is used for informal speech in Spanish?",
+        "choices": [ "Usted", "Tú", "Ellos", "Él"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the formal equivalent of '¿Cómo estás?'?",
+        "choices": [ "¿Cómo están?","¿Cómo está?", "¿Cómo estuviste?", "¿Cómo estuve?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct verb form for *hablar* in informal speech?",
+        "choices": [ "Hable", "Hablo","Hablas", "Hablan"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is an informal way to ask for help?",
+        "choices": [ "¿Puede ayudarme?","¿Podrías ayudarme?", "¿Podrían ayudarme?", "¿Podrá ayudarme?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which pronoun is used for formal speech?",
+        "choices": [ "Tú", "Él","Usted", "Nosotros"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the informal version of '¿De dónde es usted?'?",
+        "choices": ["¿De dónde eres?", "¿De dónde somos?", "¿De dónde estoy?", "¿De dónde soy?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the formal version of '¿Qué haces?'?",
+        "choices": ["¿Qué hace usted?", "¿Qué haces tú?", "¿Qué estamos haciendo?", "¿Qué hicieron?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which sentence is used in a formal context?",
+        "choices": [ "¿Cómo te llamas?","¿Cómo se llama?", "¿Cómo me llamo?", "¿Cómo nos llamamos?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the informal version of '¿Qué tal su día?'?",
+        "choices": [ "¿Qué tal mis días?", "¿Qué tal sus días?","¿Qué tal tu día?", "¿Qué tal está tu día?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "In which situation would you use 'Usted'?",
+        "choices": ["Speaking to a stranger or in a professional setting", "Talking to a child", "Speaking with a friend", "Talking to a family member"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Formal: ¿Usted ______ (can) ayudarme con esta tarea?",
+        "choices": ["puede", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ¿Dónde tú ______ (you live)?",
+        "choices": ["vives", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: Buenos días, ¿cómo ______ (this)?",
+        "choices": ["está", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ¿Qué tú ______ (are) haciendo ahora?",
+        "choices": ["estás", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: Señor González, ¿Usted ______ (has) un momento?",
+        "choices": ["tiene", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ¿tú ______ (you come) a la fiesta esta noche?",
+        "choices": ["vienes", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: Disculpe, ¿Usted ______ (know) dónde está la estación?",
+        "choices": ["sabe", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ¿tú ______ (have) tienes hermanos?",
+        "choices": ["tienes", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: ¿Usted ______ (could) decirme la dirección?",
+        "choices": ["podría", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: Hola, ¿tú ______ (you come) a comer?",
+        "choices": ["vienes", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Buenos días", "rightId": 1 },
+            "right": { "word": "Quiero saber", "rightId": 7 }
+          },
+          {
+            "left": { "word": "¿Cómo está usted?", "rightId": 2 },
+            "right": { "word": "¿Me ayudas?", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Mucho gusto", "rightId": 3 },
+            "right": { "word": "Perdona", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Por favor", "rightId": 4 },
+            "right": { "word": "¡Hola!", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Disculpe", "rightId": 5 },
+            "right": { "word": "¿Qué tal?", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Le agradezco", "rightId": 6 },
+            "right": { "word": "¿Cómo te llamas?", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Me gustaría saber", "rightId": 7 },
+            "right": { "word": "¡Qué gusto!", "rightId": 9 }
+          },
+          {
+            "left": { "word": "¿Podría ayudarme?", "rightId": 8 },
+            "right": { "word": "Encantado/a", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Es un placer", "rightId": 9 },
+            "right": { "word": "Porfa", "rightId": 4 }
+          },
+          {
+            "left": { "word": "¿Cómo se llama usted?", "rightId": 10 },
+            "right": { "word": "Gracias", "rightId": 6 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '18',
+    name: 'Spanish Exercise - 18',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "How do you ask 'Can I speak with [name]?' formally in Spanish?",
+        "choices": [
+          "¿Puedo hablar con [nombre]?",
+          "¿Puedo ver a [nombre]?",
+          "¿Está [nombre]?",
+          "¿Puedes llamarme a [nombre]?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a formal way to answer the phone in Spanish?",
+        "choices": [
+          "¿Hola?",
+          "¿Dígame?",
+          "¿Qué tal?",
+          "¿Cómo estás?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Te llamo más tarde' mean in English?",
+        "choices": [
+          "I will call you later",
+          "You call me later",
+          "I will wait for you",
+          "You are late"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is an informal way to start a phone conversation?",
+        "choices": [
+          "Buenos días",
+          "Buenas noches",
+          "Hola",
+          "¿Dígame?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How would you say 'One moment, please' politely in Spanish?",
+        "choices": [
+          "Un momento, por favor",
+          "Ahora mismo",
+          "Un segundo",
+          "Dame un momento"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct response when you want to say 'Thank you for your call' in a formal conversation?",
+        "choices": [
+          "Gracias por tu llamada",
+          "Gracias por llamar",
+          "Gracias por su llamada",
+          "Muchas gracias"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How would you politely tell someone you are calling for information?",
+        "choices": [
+          "Llamo por información",
+          "Estoy llamando a preguntar",
+          "Quiero preguntar algo",
+          "Llamo para pedir información"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which phrase means 'I’m sorry, they are not available'?",
+        "choices": [
+          "Lo siento, no está disponible",
+          "No, gracias",
+          "Lo siento, está ocupado",
+          "Estoy disponible"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the formal way to say 'Please hold on'?",
+        "choices": [
+          "Espérame",
+          "Espera un segundo",
+          "Un momento, por favor",
+          "Te llamo luego"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of these is the most polite way to end a phone conversation?",
+        "choices": [
+          "Chao",
+          "Nos vemos",
+          "Hasta luego",
+          "Gracias por su llamada, hasta luego"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Formal: ¿Usted ______ (could) pasarme con el señor García?",
+        "choices": ["podría", "Hola", "me llamo", "tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ______ (Hello), ¿cómo estás?",
+        "choices": ["Hola", "podría", "me llamo", "tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: Buenas tardes, ______ (my name is) Ana. ¿Puedo hablar con el señor Fernández?",
+        "choices": ["me llamo", "podría", "Hola", "tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ¿______ (you) tienes un minuto para hablar?",
+        "choices": ["tú", "podría", "me llamo", "Hola"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: ______ (thank you) por su llamada, estaré en contacto.",
+        "choices": ["Gracias", "podría", "me llamo", "tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ¿tú ______ (you come) a la fiesta esta noche?",
+        "choices": ["vienes", "podría", "me llamo", "Hola"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: Disculpe, ¿podría ______ (wait) un momento?",
+        "choices": ["esperar", "podría", "me llamo", "Hola", "Gracias", "tú", "tú", "Dónde", "está", "llamo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ______ (Where) estás ahora?",
+        "choices": ["¿Dónde", "podría", "me llamo", "tú", "Gracias", "tú", "esperar", "está", "llamo", "tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: Lo siento, el señor Martínez no ______ (this) disponible en este momento.",
+        "choices": ["está", "podría", "me llamo", "Hola"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: Te ______ (called) más tarde, ¿vale?",
+        "choices": ["llamo", "podría", "me llamo", "Hola"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "¿Hola, puedo hablar con... ?", "rightId": 1 },
+            "right": { "word": "Goodbye, have a good day.", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Soy [Tu Nombre].", "rightId": 2 },
+            "right": { "word": "I'm calling about a matter.", "rightId": 8 }
+          },
+          {
+            "left": { "word": "¿Está [Nombre] en casa?", "rightId": 3 },
+            "right": { "word": "Can you tell him to call?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Quiero dejar un mensaje.", "rightId": 4 },
+            "right": { "word": "Hello, can I talk to... ?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "¿Puedes decirle que llame?", "rightId": 5 },
+            "right": { "word": "I am [Your Name].", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Muchas gracias.", "rightId": 6 },
+            "right": { "word": "Can you help me?", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Adiós, que tenga un buen día.", "rightId": 7 },
+            "right": { "word": "No problem.", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Estoy llamando por un asunto.", "rightId": 8 },
+            "right": { "word": "Is [Name] home?", "rightId": 3 }
+          },
+          {
+            "left": { "word": "No hay problema.", "rightId": 9 },
+            "right": { "word": "I want to leave a message.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "¿Me puedes ayudar?", "rightId": 10 },
+            "right": { "word": "Thank you so much.", "rightId": 6 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '19',
+    name: 'Spanish Exercise - 19',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What is the correct way to begin a formal letter in Spanish?",
+        "choices": ["Hola", "Estimado/a", "Querido/a", "Buenas tardes"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'Sincerely' in Spanish in a formal letter?",
+        "choices": ["Hasta luego", "Gracias", "Atentamente", "Le escribo"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the translation of 'Subject' in a formal email?",
+        "choices": ["Asunto", "Estimado", "Firma", "Cuerpo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following phrases means 'I am writing to you about' in a formal letter?",
+        "choices": ["Le llamo para...", "Le escribo en relación a...", "Te mando un mensaje para...", "Estoy escribiendo porque..."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct word for 'attached' in Spanish when referring to an email?",
+        "choices": ["Adjunto", "Firma", "Corrección", "Cita"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How would you say 'I look forward to your reply' in a formal email?",
+        "choices": ["Espero tu llamada", "Quedo a la espera de su respuesta", "Nos vemos pronto", "Gracias por tu respuesta"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a formal closing for a letter?",
+        "choices": ["Nos vemos", "Saludos", "Le saluda cordialmente", "Hasta luego"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which part of a letter refers to the name of the person writing it?",
+        "choices": ["Saludo", "Firma", "Cuerpo", "Asunto"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the translation of 'To whom it may concern' in a formal letter?",
+        "choices": ["Estimado/a Señor", "A quien corresponda", "Querido/a", "Señor/a"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you formally ask for a reply in Spanish?",
+        "choices": ["Por favor, respóndeme rápido", "Quedo a la espera de su respuesta", "Mándame tu respuesta pronto", "Por favor, mándame un correo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "(Salutation) Estimado/a ______ (Mister) Pérez,",
+        "choices": ["Señor", "Señor Pérez", "Hola", "Buenos días"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Introduction) Le ______ (I write) para solicitar más información sobre su empresa.",
+        "choices": ["escribo", "escriba", "llamo", "digo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Body) Adjunto encontrará el ______ (document) solicitado.",
+        "choices": ["documento", "correo", "informe", "archivo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Closing) Quedo a la ______ (wait) de su pronta respuesta.",
+        "choices": ["espera", "disposición", "orden", "atención"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Subject) El ______ (affair) de este correo es muy importante.",
+        "choices": ["asunto", "tema", "mensaje", "contenido"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Salutation) A quien ______ (correspond),",
+        "choices": ["corresponda", "le interese", "pueda", "correspondan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Body) Le agradezco mucho por su ______ (time) y su atención.",
+        "choices": ["tiempo", "respuesta", "ayuda", "atención"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Closing) Le saluda ______ (cordially),",
+        "choices": ["cordialmente", "atentamente", "sinceramente", "afectuosamente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Signature) Mi nombre es Ana García y ______ (my) número de teléfono es el +34 987 654 321.",
+        "choices": ["mi", "su", "tu", "el"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Closing) Muchas gracias por su ______ (attention) y quedo a su disposición.",
+        "choices": ["atención", "tiempo", "respuesta", "interés"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Estimado/a [Nombre],", "rightId": 1 },
+            "right": { "word": "Until soon.", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Querido/a [Nombre],", "rightId": 2 },
+            "right": { "word": "hank you for your attention.", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Hola [Nombre],", "rightId": 3 },
+            "right": { "word": "I'm glad to write to you.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "A quien corresponda,", "rightId": 4 },
+            "right": { "word": "Dear [Name],", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Me alegra escribirte.", "rightId": 5 },
+            "right": { "word": "Best regards.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Espero que estés bien.", "rightId": 6 },
+            "right": { "word": "To whom it may concern,", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Te escribo para...", "rightId": 7 },
+            "right": { "word": "I am very happy to...", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Estoy muy contento/a de...", "rightId": 8 },
+            "right": { "word": "Hello [Name],", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Gracias por tu mensaje.", "rightId": 9 },
+            "right": { "word": "To whom it may concern,", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Adiós y cuídate.", "rightId": 10 },
+            "right": { "word": "I hope you are well.", "rightId": 6 }
+          }
+        ]
+      }
+      
+    ]
+  },
 ];

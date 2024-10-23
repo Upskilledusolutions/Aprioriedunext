@@ -3822,4 +3822,532 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '17',
+      name: 'French Exercise - 17',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which form is used to talk to a friend?",
+          "choices": ["Vous", "Tu", "Monsieur", "Madame"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "In which situation would you use 'vous'?",
+          "choices": ["En parlant à un inconnu", "En parlant à un frère", "En parlant à un enfant", "En parlant à un ami proche"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which phrase is informal?",
+          "choices": ["Comment allez-vous ?", "Bonjour, Monsieur.", "Comment vas-tu ?", "Je vous remercie."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which is an example of formal speech?",
+          "choices": ["Salut !", "Merci, mon ami !", "Je vous en prie.", "Ça va ?"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which word is used for formal language?",
+          "choices": ["Salut", "Merci", "Pardon", "S’il vous plaît"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "In what context would you use 'tu'?",
+          "choices": ["Avec un professeur", "Avec un ami", "Avec un client", "Avec un collègue plus âgé"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the formal version of 'Thanks a lot'?",
+          "choices": ["Merci à toi", "Merci, Madame", "Je vous remercie", "Merci bien"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say 'Excuse me' formally?",
+          "choices": ["Excuse-moi", "Excusez-vous", "Pardon", "Excusez-moi"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "When would you use 'vous'?",
+          "choices": ["En parlant à un enfant", "En parlant à un parent", "En parlant à un supérieur hiérarchique", "En parlant à un camarade de classe"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the correct formal phrase to conclude a letter?",
+          "choices": ["Salut à toi", "Amicalement", "Cordialement", "Je vous prie d’agréer, Monsieur, l’expression de mes salutations distinguées."],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+       
+        {
+          "question": "Quand je parle à un ami, je dis : “Comment ______-tu (are you going) ?”",
+          "choices": ["vas","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quand je parle à mon professeur, je dis : “Comment allez-______ (you) ?”",
+          "choices": ["vous","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avec mes parents, je dis : “Merci ______ (a lot) !”",
+          "choices": ["beaucoup","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quand je demande de l’aide à un inconnu, je dis : “Excusez-______ (me).”",
+          "choices": ["moi","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je dis “Salut” à mes amis, mais je dis ______ (Good morning) ” à mon patron.",
+          "choices": ["Bonjour","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "En parlant à un collègue âgé, je dis : “S’il ______ (you) plaît, pourriez-vous m’aider ?”",
+          "choices": ["vous","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avec un enfant, je dis : “S’il ______ (you) plaît, aide-moi.”",
+          "choices": ["vous","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lors d’une réunion formelle, je dis : “Je vous remercie pour ______ temps.”",
+          "choices": ["votre","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quand je parle à mes grands-parents, j’utilise ______ (you)” pour rester poli.",
+          "choices": ["vous","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À la fin d’un email formel, je termine par “Je vous prie d’agréer, Monsieur, l’expression de mes salutations ______.”",
+          "choices": ["distinguées","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Comment allez-vous ?", "rightId": 1 },
+              "right": { "word": "Je veux te poser une question.", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Pouvez-vous m’aider, s’il vous plaît ?", "rightId": 2 },
+              "right": { "word": "Tu peux me passer le sel ?", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Je vous remercie.", "rightId": 3 },
+              "right": { "word": "Désolé de te déranger.", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Voulez-vous venir avec moi ?", "rightId": 4 },
+              "right": { "word": "Comment ça va ?", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Que faites-vous ce soir ?", "rightId": 5 },
+              "right": { "word": "Tu peux m’aider, s’il te plaît ?", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Vous avez fini ?", "rightId": 6 },
+              "right": { "word": "Merci.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Je vous présente mon collègue.", "rightId": 7 },
+              "right": { "word": "Tu veux venir avec moi ?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Excusez-moi de vous déranger.", "rightId": 8 },
+              "right": { "word": "Tu fais quoi ce soir ?", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Vous pourriez me passer le sel ?", "rightId": 9 },
+              "right": { "word": "T’as fini ?", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Je voudrais vous poser une question.", "rightId": 10 },
+              "right": { "word": "Je te présente mon ami.", "rightId": 7 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '18',
+      name: 'French Exercise - 18',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "How do you start a phone conversation?",
+          "choices": ["Oui ?", "Allô ?", "Salut ?", "Bonsoir ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which phrase do you use to ask to speak to someone?",
+          "choices": ["Puis-je parler à [nom], s’il vous plaît ?", "Comment ça va ?", "Je suis ici.", "Qu’est-ce que tu fais ?"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say that you are the one calling?",
+          "choices": ["Salut, comment vas-tu ?", "Je suis là.", "C’est [votre nom] à l’appareil.", "Vous avez appelé ?"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What do you say when asked to wait?",
+          "choices": ["Je vous passe.", "Un moment, s'il vous plaît.", "Qui est à l'appareil ?", "Comment vous appelez-vous ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is a formal way to answer a call?",
+          "choices": ["Allô, c'est moi !", "Salut !", "Oui, qui parle ?", "Bonjour, ici [nom]."],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "What do you say when you need to call back later?",
+          "choices": ["Je vous rappellerai plus tard.", "Je vous passe.", "Au revoir.", "Oui, qui est-ce ?"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct phrase to transfer the call to someone else?",
+          "choices": ["Je vous le passe.", "Je suis là.", "Je vous appelle.", "Je vous écoute."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you end a formal phone conversation?",
+          "choices": ["Salut !", "À plus !", "Bonne journée !", "Qu'est-ce que tu fais ?"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What do you say when you are unavailable to talk?",
+          "choices": ["Je suis ici.", "Je ne suis pas disponible en ce moment.", "Qui est à l'appareil ?", "J'ai déjà parlé."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is a polite way to ask to speak to someone on the phone?",
+          "choices": ["Donne-moi [nom], s'il te plaît.", "Puis-je parler à [nom], s'il vous plaît ?", "Où est [nom] ?", "Passe-moi [nom]."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+       
+        {
+          "question": "Pour dire que je vais passer l’appel, je dis : “Je vous ______ (the pass).”",
+          "choices": ["le passe", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quand je décroche le téléphone, je dis : ______ (Hello) ?”",
+          "choices": ["Allô", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si je dois attendre, on me dit : “Un ______ (moment), s’il vous plaît.”",
+          "choices": ["moment", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quand je termine un appel, je dis : “Merci, ______ (has) bientôt !”",
+          "choices": ["à", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si je veux rappeler plus tard, je dis : “Je vous ______ (will remind) plus tard.”",
+          "choices": ["rappellerai", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour dire que je vais transmettre l’appel, je dis : “Je vous ______ (the pass).”",
+          "choices": ["le passe", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour dire au revoir de manière formelle, je dis : “Merci beaucoup et ______ (has) bientôt !”",
+          "choices": ["à", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lors d’un appel formel, je commence par : “Bonjour, ______ (It is) Martin à l’appareil.”",
+          "choices": ["c'est", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si je ne peux pas parler maintenant, je dis : “Je ne suis pas ______ (available) en ce moment.”",
+          "choices": ["disponible", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour conclure un appel formel, je dis : “Je vous souhaite une bonne ______ (daytime).”",
+          "choices": ["journée", "1", "2", "3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Allô, qui est à l'appareil ?", "rightId": 1 },
+              "right": { "word": "I would like to speak to [Name].", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Je voudrais parler à [Name].", "rightId": 2 },
+              "right": { "word": "Sorry, he/she is not available.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Un moment, je vous le/la passe.", "rightId": 3 },
+              "right": { "word": "I will call you back later.", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Est-ce que [Name] est là ?", "rightId": 4 },
+              "right": { "word": "Hello, who is calling?", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Désolé(e), il/elle n'est pas disponible.", "rightId": 5 },
+              "right": { "word": "Thank you for your call.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Vous pouvez laisser un message.", "rightId": 6 },
+              "right": { "word": "One moment, I’ll pass you to him/her.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Pouvez-vous rappeler plus tard ?", "rightId": 7 },
+              "right": { "word": "Is [Name] there?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Je vous rappellerai plus tard.", "rightId": 8 },
+              "right": { "word": "Have a nice day, goodbye!", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Merci de votre appel.", "rightId": 9 },
+              "right": { "word": "You can leave a message.", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Bonne journée, au revoir !", "rightId": 10 },
+              "right": { "word": "Can you call back later?", "rightId": 7 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '19',
+      name: 'French Exercise - 19',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "What is the correct way to start a formal letter in French?",
+          "choices": ["Salut,", "Chère amie,", "Madame, Monsieur,", "Bonjour,"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you formally request information in an email?",
+          "choices": ["Fais-moi savoir", "Je veux des informations", "Je vous saurais gré de bien vouloir me fournir...", "Dis-moi ce que je dois faire"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which phrase is commonly used at the end of a formal letter?",
+          "choices": ["À plus tard", "Veuillez agréer l’expression de mes salutations distinguées", "Je t’embrasse", "Merci pour tout"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the French word for 'subject' in a formal email?",
+          "choices": ["Objet", "Thème", "Sujet", "Mot"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following is used to close a formal email?",
+          "choices": ["Cordialement", "Bisous", "Salut", "À la prochaine"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which verb is most appropriate to use in a formal letter when making a polite request?",
+          "choices": ["Veuillez", "Vouloir", "Avoir", "Être"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you formally ask for someone’s understanding in a letter?",
+          "choices": ["Je vous remercie pour votre aide", "Merci d’avance pour votre réponse", "Je vous saurais gré de votre compréhension", "À bientôt"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which phrase would you use to express gratitude in a formal email?",
+          "choices": ["Je suis content", "Merci beaucoup", "Je vous remercie d’avance", "C’est gentil"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the appropriate phrase to use when sending an attachment in a formal email?",
+          "choices": ["Veuillez trouver ci-joint", "Je mets ça ici", "Regarde ça", "Voici le document"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which closing statement is the most formal for a letter in French?",
+          "choices": ["À plus", "Salut", "Bien à vous", "Veuillez agréer, Madame/Monsieur, mes salutations distinguées"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+       
+        {
+          "question": "Je vous ______ (pray) de bien vouloir examiner ma demande.",
+          "choices": ["prie", "demande", "conseille", "permets"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Veuillez agréer, Madame, l'expression de mes salutations ______ (distinguished).",
+          "choices": ["distinguées", "sincères", "respectueuses", "amicales"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vous écris ______ (in order to) de solliciter un entretien.",
+          "choices": ["afin", "pour", "après", "avant"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous vous remercions par avance pour votre ______ (answer) rapide.",
+          "choices": ["réponse", "demande", "acceptation", "question"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'aimerais obtenir des renseignements au ______ (subject) de votre offre d'emploi.",
+          "choices": ["sujet", "sous", "au-dessus de", "vers"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans ______ (Looking forward to) de votre réponse, je vous prie d'agréer, Monsieur, mes salutations distinguées.",
+          "choices": ["Dans l'attente de", "Après", "Avec", "Suivant"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le sujet de l'email doit être ______ (accurate) et clair.",
+          "choices": ["précis", "long", "large", "vague"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vous ______ (thanks) d'avance pour l'attention que vous porterez à cette demande.",
+          "choices": ["remercie", "écris", "excuse", "répare"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je me permets de vous ______ (to write) pour obtenir des informations.",
+          "choices": ["écrire", "parler", "consulter", "entendre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vous serais reconnaissant(e) de bien vouloir me ______ (provide) des renseignements supplémentaires.",
+          "choices": ["fournir", "donner", "envoyer", "offrir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Cher Monsieur,", "rightId": 1 },
+              "right": { "word": "Dear Madam,", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Cher Madame,", "rightId": 2 },
+              "right": { "word": "Thank you for...", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je vous écris pour...", "rightId": 3 },
+              "right": { "word": "Looking forward to your reply,", "rightId": 8 }
+            },
+            {
+              "left": { "word": "En réponse à votre lettre,", "rightId": 4 },
+              "right": { "word": "Hello, who is calling?", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Je vous remercie de...", "rightId": 5 },
+              "right": { "word": "Best regards,", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Je suis heureux(se) de...", "rightId": 6 },
+              "right": { "word": "I am writing to you for...", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Veuillez trouver ci-joint...", "rightId": 7 },
+              "right": { "word": "In response to your letter,", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Dans l'attente de votre réponse,", "rightId": 8 },
+              "right": { "word": "Sincere greetings,", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Cordialement,", "rightId": 9 },
+              "right": { "word": "I am pleased to...", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Sincères salutations,", "rightId": 10 },
+              "right": { "word": "Please find attached...", "rightId": 7 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]
