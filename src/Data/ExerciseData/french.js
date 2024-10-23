@@ -3823,6 +3823,182 @@ export const quiz = [
       ],
     },
     {
+      quiz: '16',
+      name: 'French Exercise - 16',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "What is the traditional French dessert often enjoyed during Christmas?",
+          "choices": ["Tarte Tatin", "Bûche de Noël", "Crêpes Suzette", "Macarons"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which French festival celebrates music and is held every June 21?",
+          "choices": ["La Chandeleur", "La Fête de la Musique", "Bastille Day", "La Toussaint"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the significance of Bastille Day in France?",
+          "choices": ["End of World War II", "Beginning of the French Revolution", "French Independence", "French National Day"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the famous French cheese often associated with fondue?",
+          "choices": ["Brie", "Camembert", "Emmental", "Roquefort"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which French city is known as the 'City of Lights'?",
+          "choices": ["Marseille", "Lyon", "Paris", "Nice"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the traditional drink often served during French aperitif?",
+          "choices": ["Café", "Vermouth", "Eau", "Thé"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which French holiday commemorates the dead?",
+          "choices": ["Noël", "Pâques", "La Toussaint", "Mardi Gras"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the name of the French national anthem?",
+          "choices": ["La Marseillaise", "Ode à la joie", "Fraternité", "L’hymne des enfants"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following is a famous French art museum?",
+          "choices": ["Musée d'Orsay", "Louvre Museum", "Centre Pompidou", "All of the above"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "What traditional pastry is associated with French weddings?",
+          "choices": ["Croissant", "Macaron", "Gâteau de mariage", "Éclair"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+       
+        {
+          "question": "La ______ (gastronomy) française est reconnue dans le monde entier.",
+          "choices": ["gastronomie", "culture", "histoire", "langue"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La ______ (National holiday) est célébrée le 14 juillet en France.",
+          "choices": ["Fête nationale", "Noël", "Pâques", "Halloween"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Claude Monet est un célèbre ______ (painter) impressionniste.",
+          "choices": ["peintre", "sculpteur", "musicien", "écrivain"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Paris est connue comme la capitale de la ______ (fashion).",
+          "choices": ["mode", "gastronomie", "musique", "littérature"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La ______ (Candlemas) est une fête où l'on mange des crêpes.",
+          "choices": ["Chandeleur", "Bastille", "Toussaint", "Fête de la musique"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La Révolution ______ (French) a eu lieu en 1789.",
+          "choices": ["française", "italienne", "espagnole", "russe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est traditionnel de faire la bise pour ______ (greet) en France.",
+          "choices": ["saluer", "manger", "danser", "chanter"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La ______ (Eiffel Tower) est un symbole emblématique de Paris.",
+          "choices": ["Tour Eiffel", "Cathédrale Notre-Dame", "Palais de Versailles", "Arc de Triomphe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le français est la ______ (language) officielle de la France.",
+          "choices": ["langue", "culture", "monnaie", "tradition"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le ______ (Fat Tuesday) est une fête célébrée avant le Carême.",
+          "choices": ["Mardi Gras", "Noël", "Fête de la musique", "Fête nationale"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "La gastronomie française", "rightId": 1 },
+              "right": { "word": "Outdoor markets", "rightId": 5 }
+            },
+            {
+              "left": { "word": "La fête nationale", "rightId": 2 },
+              "right": { "word": "Nice Carnival", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Le vin et le fromage", "rightId": 3 },
+              "right": { "word": "French national holiday", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Le Carnaval de Nice", "rightId": 4 },
+              "right": { "word": "French art and literature", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Les marchés en plein air", "rightId": 5 },
+              "right": { "word": "Coffee with milk", "rightId": 9 }
+            },
+            {
+              "left": { "word": "La Tour Eiffel", "rightId": 6 },
+              "right": { "word": "Summer festivals", "rightId": 10 }
+            },
+            {
+              "left": { "word": "La mode française", "rightId": 7 },
+              "right": { "word": "French wine and cheese", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Les traditions de Noël", "rightId": 8 },
+              "right": { "word": "French fashion", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Le café au lait", "rightId": 9 },
+              "right": { "word": "Christmas traditions", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Les festivals d'été", "rightId": 10 },
+              "right": { "word": "The Eiffel Tower", "rightId": 6 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
       quiz: '17',
       name: 'French Exercise - 17',
       level: 'Intermediate',
