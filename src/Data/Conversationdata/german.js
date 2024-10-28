@@ -104,6 +104,20 @@ export const youdata = [
       title: "German Conversation 15",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
+    {
+      id: '16',
+      url: "/youtube/GmC16.png",
+      youtube: "https://www.youtube.com/embed/I67Hrmhc8E8?si=eXJBTYaaED0u0aUf",
+      title: "German Conversation 16",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '17',
+      url: "/youtube/GmC17.png",
+      youtube: "https://www.youtube.com/embed/8vG84PDcHho?si=t0evYcR1fmnGzhrU",
+      title: "German Conversation 17",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
   ];
   
   
