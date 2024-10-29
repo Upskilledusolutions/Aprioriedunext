@@ -19,6 +19,7 @@ export const data = [{
     name:'Lesson 3',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1EeiOsTEwa0LJdDxTLLn-tAEHEJ86N3rp/preview',
+    video:'https://www.youtube.com/embed/oYYWZSPXEfI?si=hnOs06JKW4zyNX22',
     desc:'German Foundation Lesson 3 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {

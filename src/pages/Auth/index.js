@@ -50,7 +50,8 @@ export default function Login() {
     { "userId": "sprachmeister181", "password": "GuteReise4819", "name": "", "type": "german" },
     { "userId": "sprachmeister191", "password": "AllesKlar4287", "name": "", "type": "german" },
     { "userId": "sprachmeister193", "password": "Entschuldigung6724", "name": "", "type": "german" },
-    { "userId": "sprachmeister197", "password": "GutenAbend8351", "name": "", "type": "german" }
+    { "userId": "sprachmeister197", "password": "GutenAbend8351", "name": "", "type": "german" },
+    { "userId": "sprachmeister201", "password": "GutenAbend8351", "name": "", "type": "germana2" }
   ];
 
   const handleSubmit = (e) => {
