@@ -10,7 +10,7 @@ import MCQComponent from '../../../../components/QuestionContent/MCQ';
 import FillInTheBlanksComponent from '../../../../components/QuestionContent/FillInTheBlanks';
 import MatchTheFollowingGame from "../../../../components/QuestionContent/MatchtheFollowing";
 import { useDispatch, useSelector } from "react-redux";
-import { unlockExercise } from "@/Store";
+import { unlockExercise, addFinishedQuiz } from "@/Store";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 
 const Quiz = () => {
@@ -26,9 +26,16 @@ const Quiz = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [questionType, setQuestionType] = useState('MCQs'); // State to store selected question type
   const [isModalOpen, setIsModalOpen] = useState(true); // State to control modal visibility
+  const [report, setReport] = useState([])
+  const [showreport, setShowreport] = useState(false)
+  const [femcq, setFemcq] = useState(false)
+  const [fefill, setFefill] = useState(false)
+  const [fematch, setFematch] = useState(false)
+  const [finished, setFinished] = useState([]);
 
   const dispatch = useDispatch();
   const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesFrench);
+  const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
   const subject = 'French';
 
   const router = useRouter();
@@ -71,6 +78,17 @@ const Quiz = () => {
       setTime(0);
       setSelectedOption(null);
       setSelectedAnswer("");
+      if (questionType === 'MCQs') {setFemcq(true)
+        dispatch(addFinishedQuiz({questionType:questionType,exercise:quizId,language:subject}));
+      }
+      if (questionType === 'FillInTheBlanks') {setFefill(true)
+        dispatch(addFinishedQuiz({questionType:questionType,exercise:quizId,language:subject}));
+      }
+    }
+
+    if (femcq && fefill && fematch) {
+      setFinished(true); // Set finished status to true
+      console.log("Exercise finished!");
     }
   };
 
@@ -78,12 +96,37 @@ const Quiz = () => {
     setShowMenu(!showMenu);
   };
 
-  const onAnswerSelected = (answer, index) => {
+  const handleAnswerSelected = (answer, index) => {
     setSelectedOption(answer); // Store selected option
     setIsSubmitted(true); // Set as submitted
     setTime(-1); // Stop the timer
     setSelectedAnswerIndex(index); // Track selected answer index
     setSelectedAnswer(answer === correctAnswer); // Check if the answer is correct
+
+    const newReportEntry = {
+      id: question.id,
+      chosenanswer: choices[answer-1],
+      rightanswer: choices[correctAnswer-1], 
+    };
+
+    setReport((prevReport) => [...prevReport, newReportEntry]);
+  };
+
+  const handleAnswerSelectedfill = (answer, index) => {
+    setSelectedOption(answer); // Store selected option
+    setIsSubmitted(true); // Set as submitted
+    setTime(-1); // Stop the timer
+    setSelectedAnswerIndex(index); // Track selected answer index
+    setSelectedAnswer(answer === correctAnswer); // Check if the answer is correct
+
+    const newReportEntry = {
+      id: question.id,
+      chosenanswer: answer,
+      rightanswer: choices[correctAnswer-1], 
+    };
+
+    setReport((prevReport) => [...prevReport, newReportEntry]);
+
   };
 
   useEffect(() => {
@@ -109,20 +152,6 @@ const Quiz = () => {
   const addLeadingZero = (number) => (number > 9 ? number : `0${number}`);
 
   useEffect(() => {
-
-    if (id) {
-      const currentIndex = quiz.findIndex((page) => page.quiz === id);
-      if (currentIndex !== -1 && currentIndex < quiz.length - 1) {
-        const nextPageId = quiz[currentIndex + 1].quiz;
-        if (!unlockedPages.includes(nextPageId)) {
-          const multiple = [nextPageId, quiz[currentIndex + 2]?.quiz, quiz[currentIndex + 3]?.quiz, quiz[currentIndex + 4]?.quiz, quiz[currentIndex + 5]?.quiz]
-          dispatch(unlockExercise({ subject, exerciseId: multiple }));
-        }
-      }
-    }
-  }, [id, quiz, dispatch, unlockedPages]);
-
-  useEffect(() => {
     if (time === 0) {
       onClickNext(); 
     } else if (time > 0) {
@@ -133,22 +162,13 @@ const Quiz = () => {
     }
   }, [time]);
 
-  // Modal for selecting question type
-  // const Modal = () => (
-  //   <div className={styles.modal}>
-  //     <div className={styles.modalContent}>
-  //       <h3>Select Question Type</h3>
-  //       <button onClick={() => selectQuestionType('MCQs')}>MCQs</button>
-  //       <button onClick={() => selectQuestionType('FillInTheBlanks')}>Fill in the Blanks</button>
-  //       <button onClick={() => selectQuestionType('MatchTheFollowing')}>Match the Following</button>
-  //     </div>
-  //   </div>
-  // );
-
   const selectQuestionType = (type) => {
     setQuestionType(type);
     setIsModalOpen(false);
+    setReport([]);
   };
+
+  const currentQuiz = completedQuizzes.find(quiz => quiz.exercise === quizId);
 
   return (
     <>
@@ -164,11 +184,15 @@ const Quiz = () => {
         {/* Sidebar/Menu for larger screens */}
         <div className={`${styles.sidebar} ${styles.desktopSidebar}`}>
           <ul>
-            <li onClick={()=>selectQuestionType('MCQs')}><a>MCQ</a></li>
-            <li onClick={()=>selectQuestionType('FillInTheBlanks')}><a>Fill in the Blanks</a></li>
-            <li onClick={()=>selectQuestionType('MatchTheFollowing')}><a>Match the Following</a></li>
+            <li className={`${currentQuiz?.questionTypes.includes('MCQs') ? styles.back : styles.white}`} 
+            onClick={()=>selectQuestionType('MCQs')}><a>MCQ</a></li>
+            <li className={`${currentQuiz?.questionTypes.includes('FillInTheBlanks') ? styles.back : styles.white}`} 
+            onClick={()=>selectQuestionType('FillInTheBlanks')}><a>Fill in the Blanks</a></li>
+            <li className={`${currentQuiz?.questionTypes.includes('MatchTheFollowing') ? styles.back : styles.white}`} 
+            onClick={()=>selectQuestionType('MatchTheFollowing')}><a>Match the Following</a></li>
           </ul>
         </div>
+
 
         <div className={`${styles.mobileMenu} ${styles.sidebar}`}>
           <div className={styles.menuHeader} onClick={toggleMenu}>
@@ -227,6 +251,8 @@ const Quiz = () => {
                     questionData={filteredQuestions[activeQuestion]}
                     onNext={onClickNext}
                     onResult={({ isCorrect, correctMatches }) => {
+                      setFematch(true)
+                      dispatch(addFinishedQuiz({questionType:questionType,exercise:quizId,language:subject}));
                       setResult(prev => ({
                         correctAnswers: correctMatches,
                         wrong: 10 - correctMatches
@@ -238,9 +264,9 @@ const Quiz = () => {
                 {filteredQuestions[activeQuestion].type === 'MCQs' && (
                   <MCQComponent
                     question={filteredQuestions[activeQuestion]}
-                    onAnswerSelected={onAnswerSelected}
                     selectedOption={selectedOption}
                     isSubmitted={isSubmitted}
+                    onAnswerSelected={handleAnswerSelected}
                   />
                 )}
 
@@ -248,7 +274,7 @@ const Quiz = () => {
                   <FillInTheBlanksComponent
                     question={filteredQuestions[activeQuestion]}
                     onNext={onClickNext}
-                    onAnswerSelected={onAnswerSelected}
+                    onAnswerSelected={handleAnswerSelectedfill}
                     selectedOption={selectedOption}
                     isSubmitted={isSubmitted}
                     onResult={(isCorrect) => {
@@ -260,7 +286,7 @@ const Quiz = () => {
                   />
                 )}
 
-{filteredQuestions[activeQuestion].type !== 'MatchTheFollowing' && filteredQuestions[activeQuestion].type !== 'FillInTheBlanks' && (
+              {filteredQuestions[activeQuestion].type !== 'MatchTheFollowing' && filteredQuestions[activeQuestion].type !== 'FillInTheBlanks' && (
                   <div className={styles.flexright}>
                     <button onClick={onClickNext} disabled={selectedAnswerIndex === null}>
                       {activeQuestion === filteredQuestions.length - 1 ? "Finish" : "Next"}
@@ -282,9 +308,34 @@ const Quiz = () => {
                 <div className={styles.margindena1}>
                   <RxCross1 className={styles.cross} /> Wrong Answers: {filteredQuestions[activeQuestion].type === 'MatchTheFollowing' ? 10 - result.correctAnswers : result.wrong - 1}
                 </div>
-                <button onClick={reloadPage}>Retry Quiz</button>
-              </div>
-            )}
+                <button className={styles.mgright} onClick={reloadPage}>Retry Quiz</button>
+                {filteredQuestions[activeQuestion].type !== 'MatchTheFollowing' && <button onClick={()=>setShowreport(!showreport)}>Show Report</button>}
+
+              {showreport && <table className={styles.table}>
+              <tr>    
+                <th>S. No</th>
+                <th>Selected Answer</th>
+                <th>Correct Answer</th>
+              </tr>
+                 {filteredQuestions[activeQuestion].type === 'MCQs' && report.map((data,i)=><tr>
+                    <td>{i + 1}</td>
+                    <td>{data.chosenanswer}</td>
+                    <td>{data.rightanswer}</td>
+                  </tr>)}
+                {filteredQuestions[activeQuestion].type === 'FillInTheBlanks' && report
+        .filter((data, i) => i % 2 !== 0) // Filter for odd indices
+        .map((data, i) => (
+          <tr key={i}>
+            <td>{i + 1}</td>
+            <td>{data.chosenanswer}</td>
+            <td>{data.rightanswer}</td>
+          </tr>
+        ))}
+                  </table>}
+
+              
+                </div>
+                )}
           </div>
         </div>
       </main>
