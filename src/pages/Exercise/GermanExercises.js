@@ -5,22 +5,48 @@ import Image from 'next/image';
 import { quiz } from "../../Data/ExerciseData/german"; // Importing the quiz data
 import Link from 'next/link';
 import { FaLock } from 'react-icons/fa'; // Import a lock icon
-import { useSelector } from 'react-redux'; // To access authentication status from Redux
+import { useDispatch, useSelector } from 'react-redux'; // To access authentication status from Redux
+import { unlockExercise } from "@/Store";
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
   const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesGerman);
+  const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
   const [isClient, setIsClient] = useState(false);
+  const [allCompleted, setAllCompleted] = useState(false); // State to track completion status
+  const subject = 'German'
+  const dispatch = useDispatch();
 
   useEffect(() => {
     setIsClient(true); // Set to true when client-side is ready
   }, []);
+
+  useEffect(() => {
+    // Check if all unlocked exercises are completed
+    const areAllCompleted = unlockedPages.every((quizId) => {
+      const completedData = completedQuizzes.find(quiz => quiz.exercise.toString() === quizId);
+      return completedData && completedData.questionTypes.length > 2; // Modify this condition based on your requirement
+    });
+    setAllCompleted(areAllCompleted); // Update the state with completion status
+
+    if(areAllCompleted){
+      const multiple = 
+        [(unlockedPages.length+1).toString(),
+          (unlockedPages.length+2).toString(),
+          (unlockedPages.length+3).toString(),
+          (unlockedPages.length+4).toString(),
+          (unlockedPages.length+5).toString(),
+        ]
+        dispatch(unlockExercise({ subject, exerciseId: multiple }));
+    }
+  }, [unlockedPages, completedQuizzes]); // Run this effect when unlocked pages or completed quizzes change
 
   if (!isClient) {
     // Optionally return a loader or nothing until the client is ready
     return null;
   }
 
+  console.log(unlockedPages)
   return (
     <>
       <Head>
@@ -38,11 +64,15 @@ export default function FrenchQuizes() {
           <div className={styles.cards1}>
             {quiz.map((data, index) => {
               const isUnlocked = unlockedPages.includes(data.quiz);
-              console.log(isUnlocked)
               // Determine if the quiz should be locked
               const isLocked = !isAuthenticated && index > 1;
+             const completedData = completedQuizzes.find(quiz => quiz.exercise.toString() === data.quiz);
+             // Determine if all required question types are completed
+             const isCompleted = completedData && completedData.questionTypes.length > 2
+             console.log(completedData, isCompleted)
+             const completedStyles = isCompleted ? styles.completed : ''; // Add completed styles
               return (
-                <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''}`}>
+                <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''} ${completedStyles}`}>
                   {isUnlocked || user.type === 'all' ? <Link href={`GermanExercise/${data.quiz}`} className={styles.link}>
                     <div className={styles.imgcont}>
                       <Image className={styles.img5} src={'/assests/1.png'} width={500} height={500} alt="img" />

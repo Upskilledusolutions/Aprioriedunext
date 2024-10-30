@@ -4640,7 +4640,7 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Sehr geehrte Damen und Herren", "rightId": 1 },
-      "right": { "word": "Please let me know if...", "rightId": 9 }
+      "right": { "word": "Sorry, wrong number.", "rightId": 9 }
 
     },
     {
@@ -4655,12 +4655,12 @@ export const quiz = [
     },
     {
       "left": { "word": "Vielen Dank für Ihre Nachricht", "rightId": 4 },
-      "right": { "word": "Thank you in advance", "rightId": 8 }
+      "right": { "word": "Please hold on.", "rightId": 8 }
       
     },
     {
       "left": { "word": "Könnten Sie mir bitte sagen, ob...", "rightId": 5 },
-      "right": { "word": "I am writing to you to...", "rightId": 7 }
+      "right": { "word": "Would you ", "rightId": 7 }
 
     },
     {
@@ -4670,7 +4670,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Ich schreibe Ihnen, um...", "rightId": 7 },
-      "right": { "word": "I look forward to your reply", "rightId": 10 }
+      "right": { "word": "Can I speak to Mr. Müller, please?", "rightId": 10 }
       
     },
     {

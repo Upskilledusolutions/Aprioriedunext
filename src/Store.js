@@ -27,6 +27,46 @@ const authSlice = createSlice({
   },
 });
 
+const finishedQuizzesSlice = createSlice({
+  name: 'finishedQuizzes',
+  initialState: {
+    completedQuizzes: typeof window !== "undefined" && localStorage.getItem('completedQuizzes')
+      ? JSON.parse(localStorage.getItem('completedQuizzes'))
+      : [], // Initialize from localStorage if available
+  },
+  reducers: {
+    addFinishedQuiz: (state, action) => {
+      const { questionType, exercise, language } = action.payload;
+
+      // Find the existing entry for the same exercise and language
+      const existingEntry = state.completedQuizzes.find(
+        quiz => quiz.exercise === exercise && quiz.language === language
+      );
+
+      if (existingEntry) {
+        // Check if the questionType already exists in questionTypes array
+        if (!existingEntry.questionTypes.includes(questionType)) {
+          // Add the new question type if it doesn't already exist
+          existingEntry.questionTypes.push(questionType);
+        }
+      } else {
+        // If the entry does not exist, create a new one with the questionType array
+        state.completedQuizzes.push({ 
+          exercise, 
+          language, 
+          questionTypes: [questionType] 
+        });
+      }
+
+      // Update localStorage
+      localStorage.setItem('completedQuizzes', JSON.stringify(state.completedQuizzes));
+    },
+    setFinishedQuizzesFromLocalStorage: (state, action) => {
+      state.completedQuizzes = action.payload;
+    },
+  },
+});
+
 // Unlocked Pages slice
 const unlockedPagesSlice = createSlice({
   name: 'unlockedPages',
@@ -170,6 +210,7 @@ export const { login, logout, setUserFromCookies } = authSlice.actions;
 export const { unlockPage } = unlockedPagesSlice.actions;
 export const { unlockLesson } = lessonsSlice.actions;
 export const { unlockExercise } = exercisesSlice.actions;
+export const { addFinishedQuiz, setFinishedQuizzesFromLocalStorage } = finishedQuizzesSlice.actions;
 
 // Configure the store with the slices
 export const store = configureStore({
@@ -178,12 +219,16 @@ export const store = configureStore({
     unlockedPages: unlockedPagesSlice.reducer,
     unlockedLessons: lessonsSlice.reducer,
     unlockedExercises: exercisesSlice.reducer,
+    finishedQuizzes: finishedQuizzesSlice.reducer,
   },
 });
 
 // Sync unlocked pages, lessons, and exercises with localStorage
 store.subscribe(() => {
   const state = store.getState();
+
+  localStorage.setItem('completedQuizzes', JSON.stringify(state.finishedQuizzes.completedQuizzes));
+
   localStorage.setItem('unlockedPagesFrench', JSON.stringify(state.unlockedPages.unlockedPagesFrench));
   localStorage.setItem('unlockedPagesSpanish', JSON.stringify(state.unlockedPages.unlockedPagesSpanish));
   localStorage.setItem('unlockedPagesGerman', JSON.stringify(state.unlockedPages.unlockedPagesGerman));

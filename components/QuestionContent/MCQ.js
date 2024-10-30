@@ -24,7 +24,7 @@ const MCQComponent = ({ question, onAnswerSelected, selectedOption, isSubmitted 
           return (
             <li
               key={index}
-              onClick={() => !isSubmitted && onAnswerSelected(index + 1, index)}
+              onClick={() => !isSubmitted && onAnswerSelected(index + 1)}
               className={answerClass}
             >
               {choice}
