@@ -3944,4 +3944,752 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '16',
+    name: 'German Exercise - 16',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which city is most famous for hosting Oktoberfest?",
+        "choices": ["Berlin", "Frankfurt", "Munich", "Hamburg"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the name of the traditional German mulled wine served at Christmas markets?",
+        "choices": ["Bier", "Apfelschorle", "Glühwein", "Sekt"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What type of event is Karneval?",
+        "choices": ["A beer festival", "A winter holiday", "A pre-Lenten carnival", "A spring food fair"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the traditional German bread served during Christmas called?",
+        "choices": ["Pretzel", "Stollen", "Strudel", "Sauerbraten"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a common German Easter tradition?",
+        "choices": ["Egg decorating", "Dancing around a Maypole", "Fireworks", "Fire lighting"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which dessert is a famous specialty of the Black Forest region in Germany?",
+        "choices": ["Apfelstrudel", "Schwarzwälder Kirschtorte", "Lebkuchen", "Tiramisu"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these festivals celebrates the coming of the new year in Germany?",
+        "choices": ["Silvester", "Pfingsten", "Karneval", "Nikolaustag"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is used during Oktoberfest when toasting with a drink?",
+        "choices": ["Gesundheit", "Danke", "Prost", "Willkommen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What kind of cookies are often sold at German Christmas markets?",
+        "choices": ["Stollen", "Lebkuchen", "Schwarzwälder Kirschtorte", "Zimtsterne"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these items is part of traditional women’s clothing in Bavaria?",
+        "choices": ["Lederhosen", "Dirndl", "Kilt", "Poncho"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "The largest beer festival in the world, ______, is held annually in Munich.",
+        "choices": ["Oktoberfest", "Weihnachtsmärkte", "Karneval", "Silvester"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Germans celebrate the season of Advent by visiting ______ markets in December.",
+        "choices": ["Weihnachtsmärkte", "Oktoberfest", "Silvester", "Prost"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The famous German carnival before Lent is known as ______.",
+        "choices": ["Karneval", "Oktoberfest", "Weihnachtsmärkte", "Silvester"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "During the festival of Easter, Germans traditionally paint and decorate ______.",
+        "choices": ["eggs", "Lederhosen", "Lebkuchen", "cake"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Traditional men's attire in Bavaria for festivals is known as ______.",
+        "choices": ["Lederhosen", "Dirndl", "Glühwein", "Weihnachtsmärkte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "At Christmas markets, people often drink hot mulled wine called ______.",
+        "choices": ["Glühwein", "Bier", "Sekt", "Apfelschorle"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The Black Forest region is known for its famous dessert called ______ cake.",
+        "choices": ["Black Forest", "Stollen", "Lebkuchen", "Schwarzwälder"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "On New Year's Eve, Germans celebrate a festival known as ______.",
+        "choices": ["Silvester", "Karneval", "Oktoberfest", "Weihnachtsmärkte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "During Oktoberfest, people raise their glasses and say ______, meaning \"cheers\" in German.",
+        "choices": ["Prost", "Danke", "Willkommen", "Gesundheit"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "At Christmas markets, you can often find sweet gingerbread cookies called ______.",
+        "choices": ["Lebkuchen", "Stollen", "Apfelstrudel", "Schwarzwälder"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Das Oktoberfest", "rightId": 1 },
+      "right": { "word": "Outdoor Christmas markets", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Lederhosen und Dirndl", "rightId": 2 },
+      "right": { "word": "The pretzel", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Der Tag der Deutschen Einheit", "rightId": 3 },
+      "right": { "word": "Black Forest cake", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Die Brezel", "rightId": 4 },
+      "right": { "word": "German language", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Der Weihnachtsmarkt", "rightId": 5 },
+      "right": { "word": "German bread", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Die deutsche Sprache", "rightId": 6 },
+      "right": { "word": "Carnival", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Die Schwarzwälder Kirschtorte", "rightId": 7 },
+      "right": { "word": "Classical music", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Der Karneval", "rightId": 8 },
+      "right": { "word": "German Unity Day", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Das Brot", "rightId": 9 },
+      "right": { "word": "Traditional clothing", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Die klassische Musik", "rightId": 10 },
+      "right": { "word": "Oktoberfest", "rightId": 1 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '17',
+    name: 'German Exercise - 17',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which pronoun is used for informal speech?",
+        "choices": ["Sie", "ihr", "du", "er"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "In which situation would you use formal speech?",
+        "choices": ["Talking to a professor", "Talking to your sibling", "Talking to a classmate", "Talking to a child"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is the correct formal version of “Do you have a pen?”?",
+        "choices": ["Hast du einen Stift?", "Hast ihr einen Stift?", "Haben Sie einen Stift?", "Haben du einen Stift?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which verb form corresponds with the informal “you” (du)?",
+        "choices": ["sind", "bist", "seid", "haben"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the appropriate formal greeting in a business setting?",
+        "choices": ["Hallo", "Hi", "Guten Tag", "Tschüss"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase is commonly used to offer switching to informal speech?",
+        "choices": ["Können wir uns treffen?", "Wollen wir uns duzen?", "Wie geht es Ihnen?", "Haben Sie einen Moment?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What would be an informal way to say goodbye to a friend?",
+        "choices": ["Auf Wiedersehen", "Guten Morgen", "Tschüss", "Mit freundlichen Grüßen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you address someone formally in writing?",
+        "choices": ["Liebe Freunde", "Sehr geehrte(r)", "Hallo", "Lieber Hans"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which verb is used in the formal question “Are you coming?”?",
+        "choices": ["Kommen Sie?", "Kommen du?", "Kommt ihr?", "Kommst du?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In which situation would you most likely use informal speech?",
+        "choices": ["Talking to a waiter", "Talking to a stranger on the bus", "Talking to your best friend", "Talking to your teacher"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "When speaking to your boss, you would use the formal pronoun ______.",
+        "choices": ["Sie", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The informal pronoun for addressing a friend is ______.",
+        "choices": ["du", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The formal version of “How are you?” is “Wie geht es ______ ?”",
+        "choices": ["Ihnen", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In informal speech, you would ask “Wie geht es ______ ?” when talking to a peer.",
+        "choices": ["dir", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To say “Do you have time?” formally, you say “Haben ______ Zeit?”",
+        "choices": ["Sie", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The informal verb conjugation for “you are” is ______.",
+        "choices": ["bist", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When addressing a stranger in German, you should use the ______ form.",
+        "choices": ["formal", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The phrase “Shall we use ‘du’?” is “Wollen wir ______ ?”",
+        "choices": ["duzen", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In a formal letter, you would close with “Mit freundlichen ______.”",
+        "choices": ["Grüßen", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When speaking to a close relative, it is appropriate to use ______ (formal/informal) speech.",
+        "choices": ["informal", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Guten Tag", "rightId": 1 },
+      "right": { "word": "Bye", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Wie geht es Ihnen?", "rightId": 2 },
+      "right": { "word": "Good day", "rightId": 1 }
+
+    },
+    {
+      "left": { "word": "Wie geht’s?", "rightId": 3 },
+      "right": { "word": "May I help you? (formal)", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "Ich heiße Frau Müller.", "rightId": 4 },
+      "right": { "word": "Goodbye (formal)", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Tschüss", "rightId": 5 },
+      "right": { "word": "Excuse me (formal)", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Auf Wiedersehen", "rightId": 6 },
+      "right": { "word": "Sorry", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Entschuldigen Sie", "rightId": 7 },
+      "right": { "word": "How are you? (formal)", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Entschuldigung", "rightId": 8 },
+      "right": { "word": "How’s it going?", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Darf ich Ihnen helfen?", "rightId": 9 },
+      "right": { "word": "Can I help you? (informal)", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Kann ich dir helfen?", "rightId": 10 },
+      "right": { "word": "My name is Mrs. Müller.", "rightId": 4 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '18',
+    name: 'German Exercise - 18',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "What is the formal greeting used when answering the phone?",
+        "choices": ["Hallo", "Tschüss", "Guten Tag", "Auf Wiedersehen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you politely ask to speak to someone on the phone?",
+        "choices": ["Kann ich bitte mit Anna sprechen?", "Wer bist du?", "Ist Anna da?", "Hallo, ist jemand da?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What phrase is used to politely ask for a brief wait on the phone?",
+        "choices": ["Einen Moment bitte", "Sofort", "Warten Sie!", "Ist jemand da?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is used to say “I’m calling about…”?",
+        "choices": ["Ich rufe an wegen…", "Ich möchte sprechen über…", "Ich telefoniere für…", "Ich werde sprechen mit…"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What phrase is used to ask for a phone number?",
+        "choices": ["Können Sie mir Ihre Telefonnummer geben?", "Was ist Ihre Handynummer?", "Geben Sie mir Ihre Adresse!", "Wie viele Telefonnummern haben Sie?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which option is a formal way to end a phone call?",
+        "choices": ["Bis bald!", "Tschüss!", "Auf Wiedersehen!", "Auf Wiederhören!"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What is the correct phrase for asking for availability?",
+        "choices": ["Hast du morgen Zeit?", "Haben Sie heute Zeit?", "Kannst du morgen?", "Was machst du?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say “Please call me back” in German?",
+        "choices": ["Bitte rufen Sie mich zurück.", "Sie müssen mich zurückrufen.", "Ruf mich bitte an!", "Kommen Sie bitte zurück!"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is used to ask if someone can take a message?",
+        "choices": ["Können Sie eine Nachricht nehmen?", "Soll ich eine Nachricht hinterlassen?", "Möchten Sie eine Nachricht haben?", "Darf ich eine Nachricht schreiben?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which option would you use to informally greet a friend on the phone?",
+        "choices": ["Hallo", "Guten Tag", "Tschüss", "Auf Wiedersehen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "To greet someone formally on the phone, you say ______.",
+        "choices": ["Guten Tag","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If you need to ask for a moment to check something, you say ______.",
+        "choices": ["Einen Moment bitte","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When you want to ask who is calling, you ask: *Wer ______ da?*",
+        "choices": ["ist","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To introduce yourself on the phone, you would say *Hallo, hier spricht ______.*",
+        "choices": ["dein Name","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The formal phrase for saying goodbye on the phone is ______.",
+        "choices": ["Auf Wiederhören","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When you call to make an appointment, you say *Ich möchte einen ______ vereinbaren.*",
+        "choices": ["Termin","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When asking someone if they are available, you say *Haben Sie heute ______?*",
+        "choices": ["Zeit","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To ask for someone on the phone, you say *Kann ich bitte mit ______ sprechen?*",
+        "choices": ["Name","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In an informal conversation, you end the call by saying ______.",
+        "choices": ["Tschüss","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If you are asking someone to call you back, you say *Können Sie mich bitte ______?*",
+        "choices": ["zurückrufen","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Hallo, wer ist dran?", "rightId": 1 },
+      "right": { "word": "Sorry, wrong number.", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Kann ich bitte Herrn Müller sprechen?", "rightId": 2 },
+      "right": { "word": "Who is speaking?", "rightId": 1 }
+
+    },
+    {
+      "left": { "word": "Einen Moment, bitte.", "rightId": 3 },
+      "right": { "word": "I can’t hear you well.", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "Ich rufe später zurück.", "rightId": 4 },
+      "right": { "word": "Please hold on.", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Entschuldigung, falsche Nummer.", "rightId": 5 },
+      "right": { "word": "Would you like to leave a message?", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Bleiben Sie dran, bitte.", "rightId": 6 },
+      "right": { "word": "Could you please repeat that?", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Möchten Sie eine Nachricht hinterlassen?", "rightId": 7 },
+      "right": { "word": "Can I speak to Mr. Müller, please?", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Können Sie das bitte wiederholen?", "rightId": 8 },
+      "right": { "word": "One moment, please.", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Ich höre Sie schlecht.", "rightId": 9 },
+      "right": { "word": "Thank you for calling.", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Vielen Dank für den Anruf.", "rightId": 10 },
+      "right": { "word": "I’ll call back later.", "rightId": 4 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '19',
+    name: 'German Exercise - 19',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which is a formal way to start a German letter?",
+        "choices": ["Hallo", "Hi", "Sehr geehrte Damen und Herren", "Liebe Grüße"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of these is an appropriate closing for a formal letter?",
+        "choices": ["Tschüss", "Mit freundlichen Grüßen", "Viele Grüße", "Bis bald"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct way to address a male recipient formally?",
+        "choices": ["Lieber", "Sehr geehrter Herr", "Hallo Herr", "Guten Tag Herr"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you say “I thank you in advance” in a formal email?",
+        "choices": ["Danke", "Ich danke dir im Voraus", "Ich danke Ihnen im Voraus", "Vielen Dank"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase is suitable for requesting further information formally?",
+        "choices": ["Sag mir mehr", "Geben Sie mir bitte mehr Informationen", "Könnten Sie mir bitte mehr Informationen geben?", "Lass mich wissen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you confirm an appointment formally?",
+        "choices": ["Treffen wir uns morgen?", "Der Termin steht fest.", "Ich bestätige hiermit den Termin am...", "Ich hoffe, du kommst."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is a common mistake in formal German writing?",
+        "choices": ["Using polite requests", "Using informal language", "Ending with 'Mit freundlichen Grüßen'", "Addressing with 'Sehr geehrte...'"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is an appropriate opening sentence for requesting something formally?",
+        "choices": ["Könntest du mir das geben?", "Ich möchte das haben.", "Ich schreibe Ihnen, um...", "Geben Sie mir das bitte."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase is used to politely close a formal letter?",
+        "choices": ["Auf Wiedersehen", "Ich hoffe, wir sehen uns bald", "Ich freue mich auf Ihre Antwort", "Mit freundlichen Grüßen"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "How should you NOT address someone in a formal email?",
+        "choices": ["Sehr geehrter Herr", "Hallo", "Sehr geehrte Frau", "Guten Tag"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "In a formal letter, you start with the phrase ________ (Ladies and Gentlemen).",
+        "choices": ["Sehr geehrte Damen und Herren","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To request information, you can write ________ (Could you please let me know...?).",
+        "choices": ["Könnten Sie mir bitte mitteilen...?","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The closing phrase in a formal email is usually ________ (Best regards).",
+        "choices": ["Mit freundlichen Grüßen","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If you want to thank someone in advance, you write ________ (I thank you in advance).",
+        "choices": ["Ich danke Ihnen im Voraus","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To confirm an appointment, you say ________ (I hereby confirm the appointment on...).",
+        "choices": ["Ich bestätige hiermit den Termin am...","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When addressing a female recipient in a formal letter, you use ________ (Dear Mrs...).",
+        "choices": ["Sehr geehrte Frau...","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When addressing a male recipient in a formal letter, you write ________ (Dear Sir...).",
+        "choices": ["Sehr geehrter Herr...","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "For a formal inquiry, you might begin with ________ (I am writing to you to...).",
+        "choices": ["Ich schreibe Ihnen, um...","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In German formal writing, you should avoid using ________ (informal) phrases.",
+        "choices": ["informal","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To politely ask for further information, you can write ________ (Could you please give me more information...?).",
+        "choices": ["Könnten Sie mir bitte weitere Informationen geben...?","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Sehr geehrte Damen und Herren", "rightId": 1 },
+      "right": { "word": "Please let me know if...", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Mit freundlichen Grüßen", "rightId": 2 },
+      "right": { "word": "Dear Sir or Madam", "rightId": 1 }
+
+    },
+    {
+      "left": { "word": "Ich hoffe, es geht Ihnen gut", "rightId": 3 },
+      "right": { "word": "Could you please tell me if...", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Vielen Dank für Ihre Nachricht", "rightId": 4 },
+      "right": { "word": "Thank you in advance", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Könnten Sie mir bitte sagen, ob...", "rightId": 5 },
+      "right": { "word": "I am writing to you to...", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Liebe Grüße", "rightId": 6 },
+      "right": { "word": "Best regards", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Ich schreibe Ihnen, um...", "rightId": 7 },
+      "right": { "word": "I look forward to your reply", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Vielen Dank im Voraus", "rightId": 8 },
+      "right": { "word": "I hope you are well", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Bitte lassen Sie mich wissen, wenn...", "rightId": 9 },
+      "right": { "word": "Sincerely", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Ich freue mich auf Ihre Antwort", "rightId": 10 },
+      "right": { "word": "Thank you for your message", "rightId": 4 }
+      
+    }
+  ]
+}
+    ]
+  },
 ];
