@@ -52,6 +52,24 @@ export default function Index() {
       link: '/Conversations/DutchConversationsA1',
     },
     {
+      type: 'japanese',
+      heading: 'Japanese Beginner (A1)',
+      text: 'Master the language of art, culture, and diplomacy with our Japanese exercise.',
+      link: '/Conversations/JapaneseConversationsA1',
+    },
+    {
+      type: 'korean',
+      heading: 'Korean Beginner (A1)',
+      text: 'Navigate both casual and formal language settings of Korean with this exercise.',
+      link: '/Conversations/KoreanConversationsA1',
+    },
+    {
+      type: 'danish',
+      heading: 'Danish Beginner (A1)',
+      text: 'Dive into the vibrant world of Danish-speaking countries with this exercise.',
+      link: '/Conversations/DanishConversationsA1',
+    },
+    {
       type: 'frencha2',
       heading: 'French Beginner (A2)',
       text: 'Master the language of art, culture, and diplomacy with our French exercise.',
