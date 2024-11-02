@@ -554,10 +554,10 @@ export const quiz = [
             },
             {
               "left": { "word": "HUIT", "rightId": 2 },
-              "right": { "word": "DIX-NEUF", "rightId": 3 }
+              "right": { "word": "NINETEEN", "rightId": 3 }
             },
             {
-              "left": { "word": "NINETEEN", "rightId": 3 },
+              "left": { "word": "DIX-NEUF", "rightId": 3 },
               "right": { "word": "TWELVE", "rightId": 1 }
             },
             {
@@ -569,7 +569,7 @@ export const quiz = [
               "right": { "word": "FIFTEEN", "rightId": 8 }
             },
             {
-              "left": { "word": "TWENTY", "rightId": 6 },
+              "left": { "word": "VINGT", "rightId": 6 },
               "right": { "word": "SEVEN", "rightId": 7 }
             },
             {
@@ -578,7 +578,7 @@ export const quiz = [
             },
             {
               "left": { "word": "QUINZE", "rightId": 8 },
-              "right": { "word": "VINGT", "rightId": 6 }
+              "right": { "word": "TWENTY", "rightId": 6 }
             },
             {
               "left": { "word": "SIX", "rightId": 9 },
@@ -921,50 +921,50 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "What is the correct conjugation of the verb 'manger' (to eat) for 'nous'?",
+          "question": "What is the correct conjugation of the verb 'manger' for 'nous'?",
           "choices": ["mange", "mangeons", "mangent", "manges"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "What is the correct conjugation of the verb 'parler' (to speak) for 'ils'?",
+          "question": "What is the correct conjugation of the verb 'parler' for 'ils'?",
           "choices": ["parlons", "Parlez", "Parlent", "Parles"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "What is the present tense of the verb 'aller' (to go) for 'vous'?",
+          "question": "What is the present tense of the verb 'aller' for 'vous'?",
           "choices": ["allez", "allons", "vont", "vas"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "What is the form of the verb 'finir' (to finish) for 'je'?",
+          "question": "What is the form of the verb 'finir' for 'je'?",
           "choices": ["finis", "finit", "finissons", "finissez"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "What is the correct conjugation of the verb 'prendre' (to take) for 'elle'?",
+          "question": "What is the correct conjugation of the verb 'prendre' for 'elle'?",
           "choices": ["prend", "prenons", "prenez", "prennent"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "What is the present tense of the verb 'voir' (to see) for 'nous'?",
+          "question": "What is the present tense of the verb 'voir' for 'nous'?",
           "choices": ["Voyons", "Voit", "Vois", "Voient"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "What pronoun is used for 'they' (masculine) in French?",
-          "choices": ["Ils (féminin)", "Ils (masculin)", "Vous", "Nous"],
+          "choices": ["Ils", "Ils", "Vous", "Nous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'we' (feminine)?",
-          "choices": ["Ils (masculin)", "Nous (féminin)", "Elles (féminin)", "Vous"],
+          "choices": ["Ils", "Nous", "Elles", "Vous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
@@ -976,25 +976,25 @@ export const quiz = [
         },
         {
           "question": "What pronoun is used for 'you' (informal)?",
-          "choices": ["Vous (formel)", "Tu (informel)", "Il", "Elle"],
+          "choices": ["Vous", "Tu", "Il", "Elle"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'they' (feminine)?",
-          "choices": ["Elles (féminin)", "Ils (masculin)", "Vous (formel)", "Nous"],
+          "choices": ["Elles", "Ils", "Vous", "Nous"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "What pronoun is used for 'you all' (formal)?",
-          "choices": ["Tu (informel)", "Vous tous (formel)", "Elles (féminin)", "Nous"],
+          "choices": ["Tu", "Vous tous", "Elles", "Nous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'we' (masculine)?",
-          "choices": ["Ils (masculin)", "Nous (masculin)", "Elles (féminin)", "Vous tous (formel)"],
+          "choices": ["Ils", "Nous", "Elles", "Vous tous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
@@ -1006,13 +1006,13 @@ export const quiz = [
         },
         {
           "question": "What pronoun is used for 'you' (formal, singular)?",
-          "choices": ["Tu (informel)", "Vous (formel)", "Il", "Nous"],
+          "choices": ["Tu", "Vous", "Il", "Nous"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "What pronoun is used for 'she'?",
-          "choices": ["Elle", "Il", "Vous (informel)", "Nous"],
+          "choices": ["Elle", "Il", "Vous", "Nous"],
           "type": "MCQs",
           "correctAnswer": 1
         },
@@ -1146,7 +1146,7 @@ export const quiz = [
               "right": { "word": "He", "rightId": 7 }
             },
             {
-              "left": { "word": "Nous (féminin)", "rightId": 2 },
+              "left": { "word": "Nous", "rightId": 2 },
               "right": { "word": "You (formal, singular)", "rightId": 10 }
             },
             {
@@ -1170,7 +1170,7 @@ export const quiz = [
               "right": { "word": "They (masculine)", "rightId": 3 }
             },
             {
-              "left": { "word": "Vous (pluriel)", "rightId": 8 },
+              "left": { "word": "Vous", "rightId": 8 },
               "right": { "word": "You all (formal)", "rightId": 8 }
             },
             {
@@ -1178,7 +1178,7 @@ export const quiz = [
               "right": { "word": "Mother", "rightId": 1 }
             },
             {
-              "left": { "word": "Vous (singulier)", "rightId": 10 },
+              "left": { "word": "Vous", "rightId": 10 },
               "right": { "word": "Sister", "rightId": 5 }
             }
           ],
