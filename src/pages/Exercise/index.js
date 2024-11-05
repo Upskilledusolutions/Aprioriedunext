@@ -32,7 +32,25 @@ export default function Index() {
       heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
       link: '/Exercise/SpanishExercises',
-    }
+    },
+    // {
+    //   type: 'frencha2',
+    //   heading: 'French Beginner (A2)',
+    //   text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+    //   link: '/Exercise/FrenchExercisesA2',
+    // },
+    // {
+    //   type: 'germana2',
+    //   heading: 'German Beginner (A2)',
+    //   text: 'Navigate both casual and formal language settings of Germany with this exercise.',
+    //   link: '/Exercise/GermanExercisesA2',
+    // },
+    // {
+    //   type: 'spanisha2',
+    //   heading: 'Spanish Beginner (A2)',
+    //   text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
+    //   link: '/Exercise/SpanishExercisesA2',
+    // }
   ];
 
   // Sort the cards so that unlocked cards come first
