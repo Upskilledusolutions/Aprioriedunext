@@ -20,6 +20,20 @@ export const youdata = [
       title: "French Conversation 3",
       desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
+    {
+      id: '4',
+      url: "/youtube/FrCA4.png",
+      youtube: "https://www.youtube.com/embed/HekzeYHFc50?si=o1fCx_gctgaVaFVG",
+      title: "French Conversation 4",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
+    {
+      id: '5',
+      url: "/youtube/FrCA5.png",
+      youtube: "https://www.youtube.com/embed/1VEsa_SUnZE?si=l35TrcatX2GXxSyT",
+      title: "French Conversation 5",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
   ];
   
   
