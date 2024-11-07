@@ -34,5 +34,19 @@ export const youdata = [
     title: "Spanish Conversation 5",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },
+  {
+    id: '6',
+    url: "/youtube/SpCA6.png",
+    youtube: "https://www.youtube.com/embed/yVF-BirPoiM?si=NSF5waQp4KZYoe5v",
+    title: "Spanish Conversation 6",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '7',
+    url: "/youtube/SpCA7.png",
+    youtube: "https://www.youtube.com/embed/ZVVgPKKweGw?si=vATJS7YBCiQby8aJ",
+    title: "Spanish Conversation 7",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
 ];
 

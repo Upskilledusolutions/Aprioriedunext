@@ -34,6 +34,20 @@ export const youdata = [
       title: "French Conversation 5",
       desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
+    {
+      id: '6',
+      url: "/youtube/FrCA6.png",
+      youtube: "https://www.youtube.com/embed/qgeBKGPoNJ0?si=TwcpALa-Y-Dt63wx",
+      title: "French Conversation 6",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
+    {
+      id: '7',
+      url: "/youtube/FrCA7.png",
+      youtube: "https://www.youtube.com/embed/O8CIaDfjQTE?si=0W5aaWGF3mFQTAID",
+      title: "French Conversation 7",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
   ];
   
   
