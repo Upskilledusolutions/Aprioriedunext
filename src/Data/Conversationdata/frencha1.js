@@ -48,6 +48,13 @@ export const youdata = [
       title: "French Conversation 7",
       desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
+    {
+      id: '8',
+      url: "/youtube/FrCA8.png",
+      youtube: "https://www.youtube.com/embed/jxbswH-0Clc?si=Z8EufpVRCISq_oS3",
+      title: "French Conversation 8",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
   ];
   
   
