@@ -55,5 +55,12 @@ export const youdata = [
     title: "Spanish Conversation 8",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },
+  {
+    id: '9',
+    url: "/youtube/SpCA9.png",
+    youtube: "https://www.youtube.com/embed/tOGts_43s_8?si=6nt4W9j-E2PnKWDU",
+    title: "Spanish Conversation 9",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
 ];
 

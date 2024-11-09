@@ -55,6 +55,13 @@ export const youdata = [
       title: "German Conversation 8",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
+    {
+      id: '9',
+      url: "/youtube/GmCA9.png",
+      youtube: "https://www.youtube.com/embed/eOESGoYoHXU?si=sqtlBJ769MH2381m",
+      title: "German Conversation 9",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
   ];
   
   
