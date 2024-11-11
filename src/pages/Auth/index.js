@@ -21,7 +21,7 @@ export default function Login() {
     { userId: 'mastertrainer3', password: 'upskilleduLC3', name: '', type: 'all' },
     { userId: 'mastertrainer4', password: 'upskilleduLC4', name: '', type: 'all' },
     { userId: 'mastertrainer5', password: 'upskilleduLC5', name: '', type: 'all' },
-    // { "userId": "linguafranca53", "password": "BonSoir5825", "name": "", "type": "french" },
+    { "userId": "linguafranca53", "password": "BonSoir5829", "name": "", "type": "french" },
     // { "userId": "linguafranca59", "password": "MerciBien7339", "name": "", "type": "french" },
     { "userId": "linguafranca61", "password": "SalutTous6274", "name": "", "type": "french" },
     { "userId": "linguafranca67", "password": "CavaBien1948", "name": "", "type": "french" },
