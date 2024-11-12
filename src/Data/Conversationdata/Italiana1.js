@@ -6,6 +6,13 @@ export const youdata = [
       title: "Italian Conversation 1",
       desc: "Welcome to our first Italian conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
+    {
+      id: '2',
+      url: "/youtube/ItCA2.png",
+      youtube: "https://www.youtube.com/embed/NltO8_xZ4KU?si=kpxGygm8TtPfI_DF",
+      title: "Italian Conversation 2",
+      desc: "Welcome to our first Italian conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
   ];
   
   
