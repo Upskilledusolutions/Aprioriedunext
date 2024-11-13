@@ -17,7 +17,7 @@ export default function Index() {
   const cards = [
     {
       type: 'french',
-      heading: 'French Beginner (A1)',
+      heading: 'French Beginner (A1-A2)',
       text: 'Master the language of art, culture, and diplomacy with our French exercise.',
       link: '/Exercise/FrenchExercises',
     },

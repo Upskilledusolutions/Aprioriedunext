@@ -1,7 +1,7 @@
 export const quiz = [
     {
       quiz: '1',
-      name: 'French Exercise - 1',
+      name: 'French Exercise - 1 (A1)',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -299,7 +299,7 @@ export const quiz = [
     },
     {
       quiz: '2',
-      name: 'French Exercise - 2',
+      name: 'French Exercise - 2 (A1)',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -595,7 +595,7 @@ export const quiz = [
     },
     {
       quiz: '3',
-      name: 'French Exercise - 3',
+      name: 'French Exercise - 3 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -892,7 +892,7 @@ export const quiz = [
     },
     {
       quiz: '4',
-      name: 'French Exercise - 4',
+      name: 'French Exercise - 4 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -1188,7 +1188,7 @@ export const quiz = [
     },
     {
       quiz: '5',
-      name: 'French Exercise - 5',
+      name: 'French Exercise - 5 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -1484,7 +1484,7 @@ export const quiz = [
     },
     {
       quiz: '6',
-      name: 'French Exercise - 6',
+      name: 'French Exercise - 6 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -1780,7 +1780,7 @@ export const quiz = [
     },
     {
       quiz: '7',
-      name: 'French Exercise - 7',
+      name: 'French Exercise - 7 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -2076,7 +2076,7 @@ export const quiz = [
     },
     {
       quiz: '8',
-      name: 'French Exercise - 8',
+      name: 'French Exercise - 8 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -2372,7 +2372,7 @@ export const quiz = [
     },
     {
       quiz: '9',
-      name: 'French Exercise - 9',
+      name: 'French Exercise - 9 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -2662,7 +2662,7 @@ export const quiz = [
     },
     {
       quiz: '10',
-      name: 'French Exercise - 10',
+      name: 'French Exercise - 10 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -2840,7 +2840,7 @@ export const quiz = [
     },
     {
       quiz: '11',
-      name: 'French Exercise - 11',
+      name: 'French Exercise - 11 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -3067,7 +3067,7 @@ export const quiz = [
     },
     {
       quiz: '12',
-      name: 'French Exercise - 12',
+      name: 'French Exercise - 12 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -3244,7 +3244,7 @@ export const quiz = [
     },
     {
       quiz: '13',
-      name: 'French Exercise - 13',
+      name: 'French Exercise - 13 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -3471,7 +3471,7 @@ export const quiz = [
     },
     {
       quiz: '14',
-      name: 'French Exercise - 14',
+      name: 'French Exercise - 14 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -3648,7 +3648,7 @@ export const quiz = [
     },
     {
       quiz: '15',
-      name: 'French Exercise - 15',
+      name: 'French Exercise - 15 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -3824,7 +3824,7 @@ export const quiz = [
     },
     {
       quiz: '16',
-      name: 'French Exercise - 16',
+      name: 'French Exercise - 16 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -4000,7 +4000,7 @@ export const quiz = [
     },
     {
       quiz: '17',
-      name: 'French Exercise - 17',
+      name: 'French Exercise - 17 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -4176,7 +4176,7 @@ export const quiz = [
     },
     {
       quiz: '18',
-      name: 'French Exercise - 18',
+      name: 'French Exercise - 18 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -4352,7 +4352,7 @@ export const quiz = [
     },
     {
       quiz: '19',
-      name: 'French Exercise - 19',
+      name: 'French Exercise - 19 (A1)',
       level: 'Intermediate',
       topic: 'Mixed',
       questions: [
@@ -4520,6 +4520,590 @@ export const quiz = [
             {
               "left": { "word": "Sincères salutations,", "rightId": 10 },
               "right": { "word": "Please find attached...", "rightId": 7 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '20',
+      name: 'French Exercise - 1 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "Which reflexive pronoun is appropriate for 'I'?",
+          "choices": ["me", "te", "nous", "se"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 's’habiller' mean?",
+          "choices": ["To brush", "To go to bed", "To get dressed", "To hurry"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say 'They wash themselves' in French?",
+          "choices": ["Ils lavent.", "Ils se lavent.", "Ils lavent eux-mêmes.", "Ils se laver."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complete: \"Nous __________ à huit heures.\"",
+          "choices": ["se réveillent", "me réveille", "se réveille", "nous réveillons"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which verb means 'to go to bed'?",
+          "choices": ["se lever", "se coucher", "se brosser", "se dépêcher"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you translate 'I rest' into French?",
+          "choices": ["Je me repose", "Je se repose", "Nous nous reposons", "Je me lève"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which reflexive pronoun is appropriate for 'they'?",
+          "choices": ["se", "te", "nous", "vous"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say 'You (informal) brush your teeth' in French?",
+          "choices": ["Tu te brosses les dents.", "Vous vous brossez les dents.", "Il se brosse les dents.", "Nous nous brossons les dents."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complete: \"Elle __________ avant de sortir.\" (se maquiller)",
+          "choices": ["se maquille", "se maquilles", "me maquille", "nous maquille"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the translation of 'They hurry'?",
+          "choices": ["Ils se reposent.", "Ils se dépêchent.", "Ils se lèvent.", "Ils se couchent."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+            {
+              question: "Je ______ (se réveiller) à six heures chaque matin.",
+              choices: ["me réveille", "mange", "a", "Mon"],
+              type: 'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+              question: "Elle ______ (se laver) le visage avant de manger.",
+              choices: ["se lave", "a", "mange", "vont"],
+              type: 'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+              question: "Nous ______ (s'habiller) pour aller à l'école.",
+              choices: ["habillons", "faisons", "allons", "avons"],
+              type: 'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+              question: "Vous ______ (se reposer) après le travail.",
+              choices: ["reposez", "mangent", "lisent", "sont"],
+              type: 'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+              question: "Ils ______ (se coucher) tard le soir.",
+              choices: ["se couchent", "fait", "mange", "vont"],
+              type: 'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+              question: "Tu ______ (se brosser) les dents après le repas.",
+              choices: ["te brosses", "est", "mange", "a"],
+              type:'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+              question: "Elles ______ (se maquiller) pour la fête.",
+              choices: ["se maquillent", "faites", "lisez", "mangez"],
+              type: 'FillInTheBlanks',
+              correctAnswer: 1
+            },
+            {
+                question: "Nous ______ (se préparer) pour le dîner de famille.",
+                choices: ["préparons", "faites", "lisez", "mangez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Je ______ (se dépêcher) pour arriver à l’heure.",
+                choices: ["me dépêche", "faites", "lisez", "mangez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+              {
+                question: "Il ______ (se lever) à sept heures le week-end.",
+                choices: ["se lève", "faites", "lisez", "mangez"],
+                type: 'FillInTheBlanks',
+                correctAnswer: 1
+              },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je me lève tôt.", "rightId": 1 },
+              "right": { "word": "He wakes up at six o'clock.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Elle se brosse les dents.", "rightId": 2 },
+              "right": { "word": "You take a shower in the morning.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Nous nous habillons.", "rightId": 3 },
+              "right": { "word": "We rest after school.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Il se réveille à six heures.", "rightId": 4 },
+              "right": { "word": "She puts on makeup before going out.", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Tu te douches le matin.", "rightId": 5 },
+              "right": { "word": "They brush their hair.", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Ils s'endorment rapidement.", "rightId": 6 },
+              "right": { "word": "I wake up early.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Je me regarde dans le miroir.", "rightId": 7 },
+              "right": { "word": "I wash my hands.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Elle se maquille avant de sortir.", "rightId": 8 },
+              "right": { "word": "We get dressed.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Nous nous reposons après l'école.", "rightId": 9 },
+              "right": { "word": "They comb their hair.", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Ils se peignent les cheveux.", "rightId": 10 },
+              "right": { "word": "I look at myself in the mirror.", "rightId": 7 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '21',
+      name: 'French Exercise - 2 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "What is the comparative adjective of \"bon\"?",
+          "choices": ["Meilleur", "Plus bon", "Plus mauvais", "Bon plus"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the superlative adjective of \"beau\"?",
+          "choices": ["Le plus beau", "Le plus belle", "Le mieux beau", "Le beau"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "\"Paris is __________ than Mumbai.\"",
+          "choices": ["plus beau", "plus belle", "plus grands", "plus grand"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which sentence is correct?",
+          "choices": ["Il est moins intelligent que moi.", "Il est plus intelligent que moi.", "Il est le plus intelligent que moi.", "Il est le moins intelligent que moi."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which adjective corresponds to the comparative of \"petit\"?",
+          "choices": ["Moins petit", "Le plus petit", "Le moins petit", "Petit plus"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the superlative of \"mauvais\"?",
+          "choices": ["Le moins mauvais", "Le plus mauvais", "Le pire", "Plus mauvais"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "\"This dress is __________ than the other.\"",
+          "choices": ["plus beau", "plus belle", "plus grand", "plus vieille"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the comparative form of \"facile\"?",
+          "choices": ["Moins facile", "Plus facile", "Le plus facile", "Facile plus"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "\"He is __________ of all my friends.\"",
+          "choices": ["le plus intelligent", "plus intelligent", "moins intelligent", "intelligent plus"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following adjectives can be used as a superlative?",
+          "choices": ["Moins bon", "Le meilleur", "Bon plus", "Plus meilleur"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+        {
+          "question": "Mon frère est __________ (plus/moins) grand que moi.",
+          "choices": ["plus", "moins","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce film est __________ (meilleur/pire) que le dernier.",
+          "choices": ["meilleur", "pire","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est __________ (plus/moins) gentille que sa sœur.",
+          "choices": ["plus", "moins","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce gâteau est __________ (le meilleur/le pire) que j'ai mangé.",
+          "choices": ["le meilleur", "le pire","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce livre est __________ (plus/moins) intéressant que le film.",
+          "choices": ["plus", "moins","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le Taj Mahal est __________ (plus/moins) beau que la Tour Eiffel.",
+          "choices": ["plus", "moins","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’hiver à Delhi est __________ (plus/moins) froid que l'hiver à Paris.",
+          "choices": ["moins", "plus",,"1","2" ],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est __________ (le plus/moins) rapide de tous les coureurs.",
+          "choices": ["le plus", "moins","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cette robe est __________ (plus/moins) chère que celle-là.",
+          "choices": ["plus", "moins","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La France est __________ (plus/moins) grande que l’Inde en termes de population.",
+          "choices": ["moins", "plus","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Elle est plus grande.", "rightId": 1 },
+              "right": { "word": "He is the least noisy.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Il est moins grand.", "rightId": 2 },
+              "right": { "word": "She is as kind.", "rightId": 8 }
+            },
+            {
+              "left": { "word": "C’est le plus rapide.", "rightId": 3 },
+              "right": { "word": "It’s the most beautiful.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Elle est moins rapide.", "rightId": 4 },
+              "right": { "word": "She is less kind.", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Il est aussi fort.", "rightId": 5 },
+              "right": { "word": "She is bigger.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Elle est la meilleure.", "rightId": 6 },
+              "right": { "word": "It’s the fastest.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Il est le moins bruyant.", "rightId": 7 },
+              "right": { "word": "He is smaller.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Elle est aussi gentille.", "rightId": 8 },
+              "right": { "word": "She is slower.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "C’est le plus beau.", "rightId": 9 },
+              "right": { "word": "She is the best.", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Elle est moins gentille.", "rightId": 10 },
+              "right": { "word": "He is as strong.", "rightId": 5 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '22',
+      name: 'French Exercise - 3 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "How do you express a hypothetical situation with the conditional?",
+          "choices": [
+            "With 'si + present'",
+            "With 'si + imperfect'",
+            "With 'si + conditional'",
+            "With 'si + future'"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which phrase is correct for making a polite request?",
+          "choices": [
+            "I want help.",
+            "You must help me.",
+            "Could you help me?",
+            "Help me, please."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "If I __________ earlier, I would have caught the train.",
+          "choices": [
+            "had left",
+            "will leave",
+            "would have left",
+            "had been leaving"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the correct verb form for the sentence: 'If you __________ a bit more, you would succeed.'",
+          "choices": [
+            "studied",
+            "will study",
+            "study",
+            "would study"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "When is the conditional used?",
+          "choices": [
+            "To talk about real facts",
+            "For wishes and hypotheses",
+            "To express past actions",
+            "To describe ongoing actions"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which phrase is correct?",
+          "choices": [
+            "If I would have the money, I would help you.",
+            "If I had the money, I would help you.",
+            "If I have the money, I would help you.",
+            "If I have the money, I will help you."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "I __________ like to meet you.",
+          "choices": [
+            "like",
+            "would like",
+            "likes",
+            "would likes"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "If you __________ more time, you would travel more.",
+          "choices": [
+            "had",
+            "have",
+            "would have",
+            "would had"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you express a polite suggestion in French?",
+          "choices": [
+            "I can do that.",
+            "I should do that.",
+            "I would like to do that.",
+            "I will do that."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "If you were more patient, you would understand the situation better.",
+          "choices": [
+            "are",
+            "would be",
+            "are",
+            "were"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+        {
+          "question": "Si j'avais de l'argent, je __________ (would buy) une voiture neuve.",
+          "choices": ["achèterais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si tu étais plus gentil, il __________ (would love you).",
+          "choices": ["t'aimerait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous avions plus de temps, nous __________ (would visit) plus de musées.",
+          "choices": ["visiterions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous __________ (could) m’aider, s’il vous plaît ?",
+          "choices": ["pourriez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si je savais parler français, je __________ (would work) en France.",
+          "choices": ["travaillerais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si elle __________ (was) ici, elle t’aurait aidé.",
+          "choices": ["était"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous __________ (would like) aller au cinéma ce soir.",
+          "choices": ["aimerions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si tu __________ (had) le temps, tu pourrais m’accompagner.",
+          "choices": ["avais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'__________ (would be) heureux si tu acceptais mon invitation.",
+          "choices": ["serais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si je __________ (could), je t'emmènerais en vacances.",
+          "choices": ["pouvais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je voudrais un café.", "rightId": 1 },
+              "right": { "word": "We could go to the cinema.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Il aimerait venir.", "rightId": 2 },
+              "right": { "word": "She would like to visit France.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Nous pourrions aller au cinéma.", "rightId": 3 },
+              "right": { "word": "Would you like an ice cream?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Tu voudrais une glace ?", "rightId": 4 },
+              "right": { "word": "We could try again.", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Elle aimerait visiter la France.", "rightId": 5 },
+              "right": { "word": "Could you help me?", "rightId": 9 }
+            },
+            {
+              "left": { "word": "J’achèterais une voiture.", "rightId": 6 },
+              "right": { "word": "He would eat less sugar.", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Ils voudraient partir tôt.", "rightId": 7 },
+              "right": { "word": "He would like to come.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "On pourrait essayer encore.", "rightId": 8 },
+              "right": { "word": "I would like a coffee.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Pourriez-vous m'aider ?", "rightId": 9 },
+              "right": { "word": "They would like to leave early.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Il mangerait moins de sucre.", "rightId": 10 },
+              "right": { "word": "I would buy a car.", "rightId": 6 }
             }
           ],
         },
