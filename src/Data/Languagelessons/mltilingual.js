@@ -46,13 +46,21 @@ export const data = [
     name:'Lesson 7',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1yvXByHfOiNqoJix1I5KX2jswcCYL9ZQR/preview',
-    desc:'Multilingual Foundation Lesson 6 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Multiple languages. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    desc:'Multilingual Foundation Lesson 7 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Multiple languages. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
     id:'8',
     name:'Lesson 8',
     level:'Beginners',
-    pdf:'https://drive.google.com/file/d/1MlSAD_azf0H9_nZv92neq6rSgsxCVV6t/preview',
-    desc:'Multilingual Foundation Lesson 6 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Multiple languages. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    pdf:'https://drive.google.com/file/d/10PiJUS733LKelxYHE6kc7yrrpKzxgI-6/preview',
+    desc:'Multilingual Foundation Lesson 8 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Multiple languages. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'9',
+    name:'Lesson 9',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1DyygAgww_cphIOM6s9eDhDp1tidNtyaV/preview',
+    desc:'Multilingual Foundation Lesson 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Multiple languages. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 ]
+
