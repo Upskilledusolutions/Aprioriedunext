@@ -29,13 +29,13 @@ export default function Index() {
     },
     {
       type: 'german',
-      heading: 'German Beginner (A1)',
+      heading: 'German Beginner (A1-A2)',
       text: 'Navigate both casual and formal language settings of Germany with this course.',
       link: '/Readnow/Germanlessons',
     },
     {
       type: 'spanish',
-      heading: 'Spanish Beginner (A1)',
+      heading: 'Spanish Beginner (A1-A2)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
       link: '/Readnow/Spanishlessons',
     },

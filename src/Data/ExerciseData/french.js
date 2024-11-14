@@ -4773,61 +4773,61 @@ export const quiz = [
         },
 
         {
-          "question": "Mon frère est __________ (plus/moins) grand que moi.",
+          "question": "Mon frère est ______ (plus/moins) grand que moi.",
           "choices": ["plus", "moins","1","2"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ce film est __________ (meilleur/pire) que le dernier.",
+          "question": "Ce film est ______ (meilleur/pire) que le dernier.",
           "choices": ["meilleur", "pire","1","2"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Elle est __________ (plus/moins) gentille que sa sœur.",
+          "question": "Elle est ______ (plus/moins) gentille que sa sœur.",
           "choices": ["plus", "moins","1","2"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ce gâteau est __________ (le meilleur/le pire) que j'ai mangé.",
+          "question": "Ce gâteau est ______ (le meilleur/le pire) que j'ai mangé.",
           "choices": ["le meilleur", "le pire","1","2"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ce livre est __________ (plus/moins) intéressant que le film.",
+          "question": "Ce livre est ______ (plus/moins) intéressant que le film.",
           "choices": ["plus", "moins","1","2"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Le Taj Mahal est __________ (plus/moins) beau que la Tour Eiffel.",
+          "question": "Le Taj Mahal est ______ (plus/moins) beau que la Tour Eiffel.",
           "choices": ["plus", "moins","1","2"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "L’hiver à Delhi est __________ (plus/moins) froid que l'hiver à Paris.",
+          "question": "L’hiver à Delhi est ______ (plus/moins) froid que l'hiver à Paris.",
           "choices": ["moins", "plus",,"1","2" ],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Il est __________ (le plus/moins) rapide de tous les coureurs.",
+          "question": "Il est ______ (le plus/moins) rapide de tous les coureurs.",
           "choices": ["le plus", "moins","1","2"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Cette robe est __________ (plus/moins) chère que celle-là.",
+          "question": "Cette robe est ______ (plus/moins) chère que celle-là.",
           "choices": ["plus", "moins","1","2"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "La France est __________ (plus/moins) grande que l’Inde en termes de population.",
+          "question": "La France est ______ (plus/moins) grande que l’Inde en termes de population.",
           "choices": ["moins", "plus","1","2"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -4912,7 +4912,7 @@ export const quiz = [
           "correctAnswer": 3
         },
         {
-          "question": "If I __________ earlier, I would have caught the train.",
+          "question": "If I ______ earlier, I would have caught the train.",
           "choices": [
             "had left",
             "will leave",
@@ -4923,7 +4923,7 @@ export const quiz = [
           "correctAnswer": 3
         },
         {
-          "question": "What is the correct verb form for the sentence: 'If you __________ a bit more, you would succeed.'",
+          "question": "What is the correct verb form for the sentence: 'If you ______ a bit more, you would succeed.'",
           "choices": [
             "studied",
             "will study",
@@ -4956,7 +4956,7 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "I __________ like to meet you.",
+          "question": "I ______ like to meet you.",
           "choices": [
             "like",
             "would like",
@@ -4967,7 +4967,7 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "If you __________ more time, you would travel more.",
+          "question": "If you ______ more time, you would travel more.",
           "choices": [
             "had",
             "have",
@@ -5001,61 +5001,61 @@ export const quiz = [
         },
 
         {
-          "question": "Si j'avais de l'argent, je __________ (would buy) une voiture neuve.",
+          "question": "Si j'avais de l'argent, je ______ (would buy) une voiture neuve.",
           "choices": ["achèterais"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si tu étais plus gentil, il __________ (would love you).",
+          "question": "Si tu étais plus gentil, il ______ (would love you).",
           "choices": ["t'aimerait"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si nous avions plus de temps, nous __________ (would visit) plus de musées.",
+          "question": "Si nous avions plus de temps, nous ______ (would visit) plus de musées.",
           "choices": ["visiterions"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Vous __________ (could) m’aider, s’il vous plaît ?",
+          "question": "Vous ______ (could) m’aider, s’il vous plaît ?",
           "choices": ["pourriez"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si je savais parler français, je __________ (would work) en France.",
+          "question": "Si je savais parler français, je ______ (would work) en France.",
           "choices": ["travaillerais"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si elle __________ (was) ici, elle t’aurait aidé.",
+          "question": "Si elle ______ (was) ici, elle t’aurait aidé.",
           "choices": ["était"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Nous __________ (would like) aller au cinéma ce soir.",
+          "question": "Nous ______ (would like) aller au cinéma ce soir.",
           "choices": ["aimerions"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si tu __________ (had) le temps, tu pourrais m’accompagner.",
+          "question": "Si tu ______ (had) le temps, tu pourrais m’accompagner.",
           "choices": ["avais"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "J'__________ (would be) heureux si tu acceptais mon invitation.",
+          "question": "J'______ (would be) heureux si tu acceptais mon invitation.",
           "choices": ["serais"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si je __________ (could), je t'emmènerais en vacances.",
+          "question": "Si je ______ (could), je t'emmènerais en vacances.",
           "choices": ["pouvais"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1

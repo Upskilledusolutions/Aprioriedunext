@@ -1,7 +1,7 @@
 export const quiz = [
   {
     quiz: '1',
-    name: 'Spanish Exercise - 1',
+    name: 'Spanish Exercise - 1 (A1)',
     level: 'Easy',
     topic: 'Mixed',
     questions: [
@@ -302,7 +302,7 @@ export const quiz = [
   },
   {
     quiz: '2',
-    name: 'Spanish Exercise - 2',
+    name: 'Spanish Exercise - 2 (A1)',
     level: 'Easy',
     topic: 'Mixed',
     questions: [
@@ -603,7 +603,7 @@ export const quiz = [
   },
   {
     quiz: '3',
-    name: 'Spanish Exercise - 3',
+    name: 'Spanish Exercise - 3 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -904,7 +904,7 @@ export const quiz = [
   },
   {
     quiz: '4',
-    name: 'Spanish Exercise - 4',
+    name: 'Spanish Exercise - 4 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -1205,7 +1205,7 @@ export const quiz = [
   },
   {
     quiz: '5',
-    name: 'Spanish Exercise - 5',
+    name: 'Spanish Exercise - 5 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -1506,7 +1506,7 @@ export const quiz = [
   },
   {
     quiz: '6',
-    name: 'Spanish Exercise - 6',
+    name: 'Spanish Exercise - 6 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -1807,7 +1807,7 @@ export const quiz = [
   },
   {
     quiz: '7',
-    name: 'Spanish Exercise - 7',
+    name: 'Spanish Exercise - 7 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -2108,7 +2108,7 @@ export const quiz = [
   },
   {
     quiz: '8',
-    name: 'Spanish Exercise - 8',
+    name: 'Spanish Exercise - 8 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -2408,7 +2408,7 @@ export const quiz = [
   },
   {
     quiz: '9',
-    name: 'Spanish Exercise - 9',
+    name: 'Spanish Exercise - 9 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -2708,7 +2708,7 @@ export const quiz = [
   },
   {
     quiz: '10',
-    name: 'Spanish Exercise - 10',
+    name: 'Spanish Exercise - 10 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -2888,7 +2888,7 @@ export const quiz = [
   },
   {
     quiz: '11',
-    name: 'Spanish Exercise - 11',
+    name: 'Spanish Exercise - 11 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3068,7 +3068,7 @@ export const quiz = [
   },
   {
     quiz: '12',
-    name: 'Spanish Exercise - 12',
+    name: 'Spanish Exercise - 12 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3298,7 +3298,7 @@ export const quiz = [
   },
   {
     quiz: '13',
-    name: 'Spanish Exercise - 13',
+    name: 'Spanish Exercise - 13 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3478,7 +3478,7 @@ export const quiz = [
   },
   {
     quiz: '14',
-    name: 'Spanish Exercise - 14',
+    name: 'Spanish Exercise - 14 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3658,7 +3658,7 @@ export const quiz = [
   },
   {
     quiz: '15',
-    name: 'Spanish Exercise - 15',
+    name: 'Spanish Exercise - 15 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3838,7 +3838,7 @@ export const quiz = [
   },
   {
     quiz: '16',
-    name: 'Spanish Exercise - 16',
+    name: 'Spanish Exercise - 16 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -4018,7 +4018,7 @@ export const quiz = [
   },
   {
     quiz: '17',
-    name: 'Spanish Exercise - 17',
+    name: 'Spanish Exercise - 17 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -4198,7 +4198,7 @@ export const quiz = [
   },
   {
     quiz: '18',
-    name: 'Spanish Exercise - 18',
+    name: 'Spanish Exercise - 18 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -4428,7 +4428,7 @@ export const quiz = [
   },
   {
     quiz: '19',
-    name: 'Spanish Exercise - 19',
+    name: 'Spanish Exercise - 19 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -4567,7 +4567,7 @@ export const quiz = [
           },
           {
             "left": { "word": "Querido/a [Nombre],", "rightId": 2 },
-            "right": { "word": "hank you for your attention.", "rightId": 9 }
+            "right": { "word": "Thank you for your attention.", "rightId": 9 }
           },
           {
             "left": { "word": "Hola [Nombre],", "rightId": 3 },
@@ -4600,6 +4600,186 @@ export const quiz = [
           {
             "left": { "word": "Adiós y cuídate.", "rightId": 10 },
             "right": { "word": "I hope you are well.", "rightId": 6 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '20',
+    name: 'Spanish Exercise - 1 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What is the reflexive pronoun for 'you' (informal)?",
+        "choices": ["me", "se", "te", "nos"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'despertarse' mean?",
+        "choices": ["To get up", "To wake up", "To wash oneself", "To dress oneself"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'We wash ourselves' in Spanish?",
+        "choices": ["Nos lavamos", "Se lavan", "Me lavo", "Te lavas"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the reflexive pronoun for 'she'?",
+        "choices": ["me", "se", "te", "nos"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'They get dressed' in Spanish?",
+        "choices": ["Ellos se visten", "Ellos se levantan", "Ellos se bañan", "Ellos se cepillan"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which verb means 'to go to bed'?",
+        "choices": ["levantarse", "acostarse", "ducharse", "despertarse"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'You (formal) relax' in Spanish?",
+        "choices": ["Te relajas", "Se relaja", "Nos relajamos", "Me relajo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the reflexive pronoun for 'we'?",
+        "choices": ["os", "se", "me", "nos"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "How do you say 'I brush my teeth' in Spanish?",
+        "choices": ["Me cepillo los dientes", "Te cepillas los dientes", "Se cepilla los dientes", "Nos cepillamos los dientes"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'vestirse' mean?",
+        "choices": ["To wash", "To dress", "To relax", "To eat"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Yo ______ (I wake up) a las seis cada mañana.",
+        "choices": ["me despierto", "me despiertas", "me despierta", "me despiertan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (you wash) las manos antes de comer.",
+        "choices": ["te lavas", "te lavo", "te lavan", "te lavamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella ______ (dresses) rápidamente para la fiesta.",
+        "choices": ["se viste", "se visten", "se vistes", "se visto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (we went to bed) temprano durante la semana.",
+        "choices": ["nos acostamos", "nos acuesto", "nos acuestan", "nos acuestas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (they brush) los dientes después de desayunar.",
+        "choices": ["se cepillan", "se cepillo", "se cepillas", "se cepillamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Juan ______ (he combs his hair) antes de salir.",
+        "choices": ["se peina", "se peinan", "se peino", "se peinas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (we make up) para la celebración.",
+        "choices": ["nos maquillamos", "nos maquillo", "nos maquillas", "nos maquillan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (you shower) después de hacer ejercicio.",
+        "choices": ["te duchas", "te ducha", "te duchan", "te duchamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellas ______ (they relax) en el sofá por la tarde.",
+        "choices": ["se relajan", "se relajo", "se relaja", "se relajas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______ (leave) a la cama a las diez.",
+        "choices": ["me voy", "me va", "me vas", "me van"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Me despierto a las siete.", "rightId": 1 },
+            "right": { "word": "I shower in the morning.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Me levanto rápidamente.", "rightId": 2 },
+            "right": { "word": "I brush my teeth.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Me ducho en la mañana.", "rightId": 3 },
+            "right": { "word": "I get dressed.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Me visto después de ducharme.", "rightId": 4 },
+            "right": { "word": "I wake up at seven.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Me cepillo los dientes.", "rightId": 5 },
+            "right": { "word": "I get up quickly.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Me peino frente al espejo.", "rightId": 6 },
+            "right": { "word": "I put on makeup before going out.", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Me maquillo antes de salir.", "rightId": 7 },
+            "right": { "word": "I wash my face.", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Me lavo la cara.", "rightId": 8 },
+            "right": { "word": "I go to bed at ten.", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Me acuesto a las diez.", "rightId": 9 },
+            "right": { "word": "I fall asleep right away.", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Me duermo enseguida.", "rightId": 10 },
+            "right": { "word": "I comb my hair.", "rightId": 6 }
           }
         ]
       }

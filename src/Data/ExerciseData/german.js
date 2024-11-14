@@ -1,7 +1,7 @@
 export const quiz = [
   {
     quiz: '1',
-    name: 'German Exercise - 1',
+    name: 'German Exercise - 1 (A1)',
     level: 'Easy',
     topic: 'Mixed',
     questions: [
@@ -299,7 +299,7 @@ export const quiz = [
   },
   {
     quiz: '2',
-    name: 'German Exercise - 2',
+    name: 'German Exercise - 2 (A1)',
     level: 'Easy',
     topic: 'Mixed',
     questions: [
@@ -597,7 +597,7 @@ export const quiz = [
   },
   {
     quiz: '3',
-    name: 'German Exercise - 3',
+    name: 'German Exercise - 3 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -906,7 +906,7 @@ export const quiz = [
   },
   {
     quiz: '4',
-    name: 'German Exercise - 4',
+    name: 'German Exercise - 4 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -1215,7 +1215,7 @@ export const quiz = [
   },
   {
     quiz: '5',
-    name: 'German Exercise - 5',
+    name: 'German Exercise - 5 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -1524,7 +1524,7 @@ export const quiz = [
   },
   {
     quiz: '6',
-    name: 'German Exercise - 6',
+    name: 'German Exercise - 6 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -1833,7 +1833,7 @@ export const quiz = [
   },
   {
     quiz: '7',
-    name: 'German Exercise - 7',
+    name: 'German Exercise - 7 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -2140,7 +2140,7 @@ export const quiz = [
   },
   {
     quiz: '8',
-    name: 'German Exercise - 8',
+    name: 'German Exercise - 8 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -2447,7 +2447,7 @@ export const quiz = [
   },
   {
     quiz: '9',
-    name: 'German Exercise - 9',
+    name: 'German Exercise - 9 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -2754,7 +2754,7 @@ export const quiz = [
   },
   {
     quiz: '10',
-    name: 'German Exercise - 10',
+    name: 'German Exercise - 10 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -2941,7 +2941,7 @@ export const quiz = [
   },
   {
     quiz: '11',
-    name: 'German Exercise - 11',
+    name: 'German Exercise - 11 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3128,7 +3128,7 @@ export const quiz = [
   },
   {
     quiz: '12',
-    name: 'German Exercise - 12',
+    name: 'German Exercise - 12 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3315,7 +3315,7 @@ export const quiz = [
   },
   {
     quiz: '13',
-    name: 'German Exercise - 13',
+    name: 'German Exercise - 13 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3552,7 +3552,7 @@ export const quiz = [
   },
   {
     quiz: '14',
-    name: 'German Exercise - 14',
+    name: 'German Exercise - 14 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3739,7 +3739,7 @@ export const quiz = [
   },
   {
     quiz: '15',
-    name: 'German Exercise - 15',
+    name: 'German Exercise - 15 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -3946,7 +3946,7 @@ export const quiz = [
   },
   {
     quiz: '16',
-    name: 'German Exercise - 16',
+    name: 'German Exercise - 16 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -4133,7 +4133,7 @@ export const quiz = [
   },
   {
     quiz: '17',
-    name: 'German Exercise - 17',
+    name: 'German Exercise - 17 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -4320,7 +4320,7 @@ export const quiz = [
   },
   {
     quiz: '18',
-    name: 'German Exercise - 18',
+    name: 'German Exercise - 18 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -4507,7 +4507,7 @@ export const quiz = [
   },
   {
     quiz: '19',
-    name: 'German Exercise - 19',
+    name: 'German Exercise - 19 (A1)',
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
@@ -4686,6 +4686,193 @@ export const quiz = [
     {
       "left": { "word": "Ich freue mich auf Ihre Antwort", "rightId": 10 },
       "right": { "word": "Thank you for your message", "rightId": 4 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '20',
+    name: 'German Exercise - 1 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which reflexive pronoun is used with 'we'?",
+        "choices": ["mich", "uns", "dich", "sich"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'sich beeilen' mean?",
+        "choices": ["To relax", "To get dressed", "To hurry", "To wake up"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say 'He shaves himself' in German?",
+        "choices": ["Er rasiert sich.", "Er rasiert ihn.", "Er rasiert dich.", "Er rasiert uns."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Choose the correct form: 'Ich __________ mich jeden Morgen.'",
+        "choices": ["wasche", "wäschst", "waschen", "wäscht"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which verb is used for 'to get dressed'?",
+        "choices": ["sich waschen", "sich ausruhen", "sich anziehen", "sich beeilen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which translation is correct for 'We relax in the evening'?",
+        "choices": ["Wir beeilen uns am Abend.", "Wir waschen uns am Abend.", "Wir ziehen uns am Abend an.", "Wir ruhen uns am Abend aus."],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which reflexive pronoun is used with 'she' (singular)?",
+        "choices": ["sich", "uns", "euch", "mich"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'You (informal) hurry' in German?",
+        "choices": ["Du beeilst dich.", "Sie beeilen sich.", "Du beeilst uns.", "Ihr beeilt euch."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which word fits? 'Ich __________ mich abends auf dem Sofa aus.'",
+        "choices": ["kämme", "wasche", "ruhe", "rasieren"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct translation for 'She washes herself every morning':",
+        "choices": ["Sie waschen sich jeden Morgen.", "Sie wäscht sich jeden Morgen.", "Sie wascht sie jeden Morgen.", "Sie wäscht sie jeden Morgen."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Jeden Morgen ________ (wash me) ich das Gesicht.",
+        "choices": ["wasche mich", "putze mir die Zähne", "bereiten uns vor", "legt sich hin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ________ (let's hurry up), um pünktlich zur Arbeit zu kommen.",
+        "choices": ["beeilen uns", "konzentrierst dich", "zieht euch an", "ruhst dich aus"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ________ (get dressed) warm, wenn es kalt ist.",
+        "choices": ["zieht euch an", "duscht sich", "rasiert sich", "bereiten uns vor"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nach dem Training ________ (takes a shower) sie.",
+        "choices": ["duscht sich", "konzentrierst dich", "beeilen uns", "wasche mich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Am Abend ________ (rest) du auf dem Sofa.",
+        "choices": ["ruhst dich aus", "zieht euch an", "putze mir die Zähne", "beeilen uns"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ________ (shaves) jeden zweiten Tag.",
+        "choices": ["rasiert sich", "legt sich hin", "konzentrierst dich", "duscht sich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ________ (prepare ourselves) auf den großen Test.",
+        "choices": ["bereiten uns vor", "ruhst dich aus", "zieht euch an", "konzentrierst dich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ________ (concentrate) während des Unterrichts.",
+        "choices": ["konzentrierst dich", "rasiert sich", "putze mir die Zähne", "legt sich hin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ________ (lies down) früh, weil sie morgen früh aufstehen muss.",
+        "choices": ["legt sich hin", "duscht sich", "konzentrierst dich", "ruhst dich aus"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nach dem Frühstück ________ (brush my teeth) ich.",
+        "choices": ["putze mir die Zähne", "beeilen uns", "wasche mich", "konzentrierst dich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Ich wasche mich.", "rightId": 1 },
+      "right": { "word": "I wake up.", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Du ziehst dich an.", "rightId": 2 },
+      "right": { "word": "They brush their teeth.", "rightId": 10 }
+
+    },
+    {
+      "left": { "word": "Er rasiert sich.", "rightId": 3 },
+      "right": { "word": "She rests.", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Wir bereiten uns vor.", "rightId": 4 },
+      "right": { "word": "You comb your hair.", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "Ihr freut euch auf den Tag.", "rightId": 5 },
+      "right": { "word": "You look forward to the day.", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Sie legt sich schlafen.", "rightId": 6 },
+      "right": { "word": "She goes to sleep.", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Ich wache auf.", "rightId": 7 },
+      "right": { "word": "We prepare ourselves.", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Sie ruht sich aus.", "rightId": 8 },
+      "right": { "word": "He shaves.", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Du kämmst dich.", "rightId": 9 },
+      "right": { "word": "You get dressed.", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Sie putzen sich die Zähne.", "rightId": 10 },
+      "right": { "word": "I wash myself.", "rightId": 1 }
       
     }
   ]
