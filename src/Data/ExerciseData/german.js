@@ -4762,61 +4762,61 @@ export const quiz = [
 
       // 20 Fill in the Blanks
       {
-        "question": "Jeden Morgen ________ (wash me) ich das Gesicht.",
+        "question": "Jeden Morgen ______ (wash me) ich das Gesicht.",
         "choices": ["wasche mich", "putze mir die Zähne", "bereiten uns vor", "legt sich hin"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Wir ________ (let's hurry up), um pünktlich zur Arbeit zu kommen.",
+        "question": "Wir ______ (let's hurry up), um pünktlich zur Arbeit zu kommen.",
         "choices": ["beeilen uns", "konzentrierst dich", "zieht euch an", "ruhst dich aus"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ihr ________ (get dressed) warm, wenn es kalt ist.",
+        "question": "Ihr ______ (get dressed) warm, wenn es kalt ist.",
         "choices": ["zieht euch an", "duscht sich", "rasiert sich", "bereiten uns vor"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Nach dem Training ________ (takes a shower) sie.",
+        "question": "Nach dem Training ______ (takes a shower) sie.",
         "choices": ["duscht sich", "konzentrierst dich", "beeilen uns", "wasche mich"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Am Abend ________ (rest) du auf dem Sofa.",
+        "question": "Am Abend ______ (rest) du auf dem Sofa.",
         "choices": ["ruhst dich aus", "zieht euch an", "putze mir die Zähne", "beeilen uns"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Er ________ (shaves) jeden zweiten Tag.",
+        "question": "Er ______ (shaves) jeden zweiten Tag.",
         "choices": ["rasiert sich", "legt sich hin", "konzentrierst dich", "duscht sich"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Wir ________ (prepare ourselves) auf den großen Test.",
+        "question": "Wir ______ (prepare ourselves) auf den großen Test.",
         "choices": ["bereiten uns vor", "ruhst dich aus", "zieht euch an", "konzentrierst dich"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Du ________ (concentrate) während des Unterrichts.",
+        "question": "Du ______ (concentrate) während des Unterrichts.",
         "choices": ["konzentrierst dich", "rasiert sich", "putze mir die Zähne", "legt sich hin"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Sie ________ (lies down) früh, weil sie morgen früh aufstehen muss.",
+        "question": "Sie ______ (lies down) früh, weil sie morgen früh aufstehen muss.",
         "choices": ["legt sich hin", "duscht sich", "konzentrierst dich", "ruhst dich aus"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Nach dem Frühstück ________ (brush my teeth) ich.",
+        "question": "Nach dem Frühstück ______ (brush my teeth) ich.",
         "choices": ["putze mir die Zähne", "beeilen uns", "wasche mich", "konzentrierst dich"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -4873,6 +4873,193 @@ export const quiz = [
     {
       "left": { "word": "Sie putzen sich die Zähne.", "rightId": 10 },
       "right": { "word": "I wash myself.", "rightId": 1 }
+      
+    }
+  ]
+}
+    ]
+  },
+  {
+    quiz: '21',
+    name: 'German Exercise - 2 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which word correctly completes the sentence? \"Der Berg ist __________ als der Hügel.\"",
+        "choices": ["hoher", "höher", "höchst", "hochster"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the superlative form of \"schnell\"?",
+        "choices": ["schneller", "schnelles", "am schnellsten", "schnellere"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which is the correct form? \"Die Möbel sind __________ als vorher.\"",
+        "choices": ["bequemer", "bequemsten", "bequem", "bequemes"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The correct sentence is:",
+        "choices": ["Ich bin am klugste.", "Ich bin klüger.", "Ich bin klügster.", "Ich bin klügest."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which is the correct superlative form? \"Er ist der __________ von allen.\"",
+        "choices": ["besser", "besten", "gute", "bester"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "The sentence \"Das Auto ist schneller\" means:",
+        "choices": ["The car is the fastest.", "The car is fast.", "The car is faster.", "The car runs the fastest."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "\"Das Wasser hier ist __________ als dort.\"",
+        "choices": ["kalt", "kälter", "am kältsten", "kälte"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the comparative form of \"gut\"?",
+        "choices": ["guter", "besser", "besten", "gutest"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "The correct sentence is:",
+        "choices": ["Das Essen ist leckerster.", "Das Essen ist am leckersten.", "Das Essen ist leckerste.", "Das Essen ist leckere."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "\"Er liest __________ als sie.\"",
+        "choices": ["am meisten", "schnell", "schneller", "schnelle"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Mein Bruder ist ______ (younger) als ich.",
+        "choices": ["jünger","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Diese Prüfung ist ______ (more difficult) als die letzte.",
+        "choices": ["schwieriger","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich finde Sommer ______ (more beautiful) als Winter.",
+        "choices": ["schöner","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das ist der ______ (best) Film, den ich je gesehen habe.",
+        "choices": ["beste","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Rhein ist ______ (longer) als die Elbe.",
+        "choices": ["länger","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er spricht ______ (faster) als seine Schwester.",
+        "choices": ["schneller","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Dieses Buch ist ______ (more interesting) als das andere.",
+        "choices": ["interessanter","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Wetter heute ist ______ (warmer) als gestern.",
+        "choices": ["wärmer","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ist die ______ (smartest) in der Klasse.",
+        "choices": ["klügste","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe das ______ (most expensive) Auto in der Stadt gesehen.",
+        "choices": ["teuerste","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Er ist größer als ich.", "rightId": 1 },
+      "right": { "word": "The food tastes the best.", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Die Aufgabe ist schwieriger.", "rightId": 2 },
+      "right": { "word": "The weather is warmer.", "rightId": 6 }
+
+    },
+    {
+      "left": { "word": "Diese Stadt ist größer als Berlin.", "rightId": 3 },
+      "right": { "word": "The dog runs faster.", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Sie ist die klügste Schülerin.", "rightId": 4 },
+      "right": { "word": "He speaks louder than me.", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Der Film ist am besten.", "rightId": 5 },
+      "right": { "word": "The book is more interesting.", "rightId": 10 }
+
+    },
+    {
+      "left": { "word": "Das Wetter ist wärmer.", "rightId": 6 },
+      "right": { "word": "He is taller than me.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Der Hund läuft schneller.", "rightId": 7 },
+      "right": { "word": "The task is more difficult.", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Er spricht lauter als ich.", "rightId": 8 },
+      "right": { "word": "This city is bigger than Berlin.", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Das Essen schmeckt am besten.", "rightId": 9 },
+      "right": { "word": "She is the smartest student.", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Das Buch ist interessanter.", "rightId": 10 },
+      "right": { "word": "The movie is the best.", "rightId": 5 }
       
     }
   ]

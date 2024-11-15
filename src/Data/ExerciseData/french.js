@@ -5110,4 +5110,182 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '23',
+      name: 'French Exercise - 4 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "How do you express the opinion: “I am sure”?",
+          "choices": ["Je suis d'accord", "Je suis sûr(e)", "Je pense", "Je doute"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which word introduces a hypothesis?",
+          "choices": ["Parce que", "Quand", "Si", "Donc"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Complete: \"It is likely that we __________ a movie together.\"",
+          "choices": ["voyons", "verrons", "avons vu", "voyions"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the best response to express partial agreement?",
+          "choices": ["Je suis totalement d'accord", "Je ne suis pas d'accord", "Je suis d'accord mais...", "Peut-être que non"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does “À mon avis” mean?",
+          "choices": ["In my opinion", "I doubt", "I am not sure", "I am convinced"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "If I had known, __________.",
+          "choices": ["je viens", "je viendrai", "je serais venu", "je venais"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Complete the sentence: \"I think this proposal is __________.\"",
+          "choices": ["inutile", "probablement", "incertain", "d'accord"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you express doubt in French?",
+          "choices": ["Je suis convaincu", "Peut-être que oui", "Sans aucun doute", "Je suis sûr"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which response expresses a hypothetical condition?",
+          "choices": ["Quand il pleut", "Si je pouvais", "Depuis que", "Car je pense"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does \"Je ne suis pas d'accord\" mean?",
+          "choices": ["I don't know", "I agree", "I don't agree", "I am not sure"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+        {
+          "question": "Je pense que ______ (c'est / il est / il y a) très important d'apprendre une langue étrangère.",
+          "choices": ["c'est", "il est", "il y a","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j'avais plus de temps, ______ (je visiterais / je visitais / je visiterai) Paris.",
+          "choices": ["je visiterais", "je visitais", "je visiterai","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour moi, ______ (la musique / le sport / la lecture) est le meilleur moyen de se détendre.",
+          "choices": ["la musique", "le sport", "la lecture","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ne suis pas d'accord parce que ______ (cela / celui / ces) n'a aucun sens.",
+          "choices": ["cela", "celui", "ces","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si tu pouvais choisir, ______ (quelle / quel / qui) destination choisirais-tu ?",
+          "choices": ["quelle", "quel", "qui","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je trouve que cette idée ______ (est / sont / êtes) très intéressante.",
+          "choices": ["est", "sont", "êtes","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "On dirait que ______ (le film / les films / la film) est très populaire en France.",
+          "choices": ["le film", "les films", "la film","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Selon moi, ______ (il faudrait / il faut / il fera) plus d'espaces verts dans les villes.",
+          "choices": ["il faudrait", "il faut", "il fera","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (Peut-être / Surtout / Toujours) que je changerai d'avis après notre débat.",
+          "choices": ["Peut-être", "Surtout", "Toujours","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j'avais été toi, ______ (je n'aurais pas / je n'avais pas / je n'aie pas) dit ça.",
+          "choices": ["je n'aurais pas", "je n'avais pas", "je n'aie pas","1"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "À mon avis", "rightId": 1 },
+              "right": { "word": "It is possible that", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je suis convaincu que", "rightId": 2 },
+              "right": { "word": "I disagree", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Peut-être que", "rightId": 3 },
+              "right": { "word": "In my opinion", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Je ne suis pas d'accord", "rightId": 4 },
+              "right": { "word": "I am convinced that", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Il est possible que", "rightId": 5 },
+              "right": { "word": "Maybe", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Selon moi", "rightId": 6 },
+              "right": { "word": "I believe that", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Je pense que", "rightId": 7 },
+              "right": { "word": "I think", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Sans aucun doute", "rightId": 8 },
+              "right": { "word": "In my opinion", "rightId": 6 }
+            },
+            {
+              "left": { "word": "J'imagine que", "rightId": 9 },
+              "right": { "word": "Without a doubt", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Je crois que", "rightId": 10 },
+              "right": { "word": "I imagine that", "rightId": 9 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]

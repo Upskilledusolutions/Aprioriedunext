@@ -4786,4 +4786,184 @@ export const quiz = [
       
     ]
   },
+  {
+    quiz: '21',
+    name: 'Spanish Exercise - 2 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "La montaña más __________ de todas es el Everest.",
+        "choices": ["alto", "alta", "más alto", "alta de"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Este examen es __________ que el anterior.",
+        "choices": ["más difícil", "difícil", "tan difícil", "más fácil"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella es __________ estudiante de la clase.",
+        "choices": ["el mejor", "la mejor", "lo mejor", "mejor"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Mi carro es __________ caro que el tuyo.",
+        "choices": ["tanto", "menos", "más", "igual"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "El perro de Ana es __________ de todos.",
+        "choices": ["el más grande", "la más grande", "grande", "grande más"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pedro es __________ trabajador que Luis.",
+        "choices": ["tan", "más", "el más", "poco"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Esta es la __________ pizza que he probado.",
+        "choices": ["peor", "peores", "más peor", "más buena"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Marta es __________ rápida que su hermana.",
+        "choices": ["más", "menos", "tan", "el más"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Este libro es __________ interesante que el otro.",
+        "choices": ["más", "menos", "tan", "mejor"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi coche es __________ que el tuyo.",
+        "choices": ["mejor", "más bueno", "el mejor", "tan mejor"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Mi hermana es ______ (more intelligent) que yo.",
+        "choices": ["más inteligente", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Este restaurante es el ______ (best) de la ciudad.",
+        "choices": ["mejor", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Juan corre ______ (faster) que Pedro.",
+        "choices": ["más rápido", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Esta película es ______ (less interesting) que la anterior.",
+        "choices": ["menos interesante", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El perro de Marta es ______ (bigger) que el gato de Luis.",
+        "choices": ["más grande", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Este verano ha sido el ______ (hottest) en los últimos diez años.",
+        "choices": ["más caluroso", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi casa es ______ (smaller) que la tuya.",
+        "choices": ["más pequeña", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ana es la ______ (tallest) de la clase.",
+        "choices": ["más alta", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Esta tarea es ______ (easier) que la de ayer.",
+        "choices": ["más fácil", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Luis es el ______ (most generous) de todos.",
+        "choices": ["más generoso", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "más rápido que", "rightId": 1 },
+            "right": { "word": "the best", "rightId": 4 }
+          },
+          {
+            "left": { "word": "menos caro que", "rightId": 2 },
+            "right": { "word": "bigger than", "rightId": 5 }
+          },
+          {
+            "left": { "word": "tan inteligente como", "rightId": 3 },
+            "right": { "word": "faster than", "rightId": 1 }
+          },
+          {
+            "left": { "word": "el mejor", "rightId": 4 },
+            "right": { "word": "as smart as", "rightId": 3 }
+          },
+          {
+            "left": { "word": "más grande que", "rightId": 5 },
+            "right": { "word": "less expensive than", "rightId": 2 }
+          },
+          {
+            "left": { "word": "la más alta", "rightId": 6 },
+            "right": { "word": "worst", "rightId": 7 }
+          },
+          {
+            "left": { "word": "el peor", "rightId": 7 },
+            "right": { "word": "the kindest", "rightId": 10 }
+          },
+          {
+            "left": { "word": "menos interesante que", "rightId": 8 },
+            "right": { "word": "the highest", "rightId": 6 }
+          },
+          {
+            "left": { "word": "el más difícil", "rightId": 9 },
+            "right": { "word": "less interesting than", "rightId": 8 }
+          },
+          {
+            "left": { "word": "la más amable", "rightId": 10 },
+            "right": { "word": "the most difficult", "rightId": 9 }
+          }
+        ]
+      }
+      
+    ]
+  },
 ];
