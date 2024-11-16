@@ -59,6 +59,7 @@ export const data = [{
     name:'Lesson 8 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1kingFIi4SnMw-fgw5Gi922CwuayR0vlt/preview',
+    video:'https://www.youtube.com/embed/-wWu0KNOAlg?si=pSs4MORf4ov1ilhs',
     desc:'German Foundation Lesson 8 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {

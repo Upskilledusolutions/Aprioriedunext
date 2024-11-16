@@ -17,7 +17,7 @@ export default function Index() {
   const cards = [
     {
       type: 'Multilingual',
-      heading: 'Multilingual Beginner (A1)',
+      heading: 'Multilingual Beginner',
       text: 'Dive into the vibrant world of Multiple language-speaking countries with this course.',
       link: '/Readnow/Multilinguallessons',
     },
@@ -38,6 +38,24 @@ export default function Index() {
       heading: 'Spanish Beginner (A1-A2)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
       link: '/Readnow/Spanishlessons',
+    },
+    {
+      type: 'Italian',
+      heading: 'Italian Beginner (A1-A2)',
+      text: 'Master the language of art, culture, and diplomacy with our Italian lessons.',
+      link: '/Readnow/Italianlessons',
+    },
+    {
+      type: 'Dutch',
+      heading: 'Dutch Beginner (A1-A2)',
+      text: 'Navigate both casual and formal language settings of Dutch with this course.',
+      link: '/Readnow/Dutchlessons',
+    },
+    {
+      type: 'Russian',
+      heading: 'Russian Beginner (A1-A2)',
+      text: 'Dive into the vibrant world of Russian-speaking countries with this course.',
+      link: '/Readnow/Russianlessons',
     },
     // {
     //   type: 'frencha2',

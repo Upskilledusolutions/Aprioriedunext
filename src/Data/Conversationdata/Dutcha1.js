@@ -13,6 +13,13 @@ export const youdata = [
       title: "Dutch Conversation 2",
       desc: "Welcome to our first Dutch conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
+    {
+      id: '3',
+      url: "/youtube/DuCA3.png",
+      youtube: "https://www.youtube.com/embed/IS4HdDyZlus?si=9yc3Cw7Gl3BAg8ca",
+      title: "Dutch Conversation 3",
+      desc: "Welcome to our first Dutch conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
   ];
   
   

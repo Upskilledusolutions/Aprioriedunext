@@ -62,5 +62,12 @@ export const data = [
     pdf:'https://drive.google.com/file/d/1DyygAgww_cphIOM6s9eDhDp1tidNtyaV/preview',
     desc:'Multilingual Foundation Lesson 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Multiple languages. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
+{
+    id:'10',
+    name:'Lesson 10',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1QFAhVXTurU6QnzXLuKtCVLkYB3UyPVkh/preview',
+    desc:'Multilingual Foundation Lesson 10 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Multiple languages. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
 ]
 
