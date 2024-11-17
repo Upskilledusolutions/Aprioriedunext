@@ -10,7 +10,7 @@ import { unlockExercise } from "@/Store";
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
-  const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesGerman);
+  const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesFrench);
   const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
   const [isClient, setIsClient] = useState(false);
   const [allCompleted, setAllCompleted] = useState(false); // State to track completion status
@@ -28,7 +28,7 @@ export default function FrenchQuizes() {
       return completedData && completedData.questionTypes.length > 2; // Modify this condition based on your requirement
     });
     setAllCompleted(areAllCompleted); // Update the state with completion status
-
+    console.log(areAllCompleted)
     if(areAllCompleted){
       const multiple = 
         [(unlockedPages.length+1).toString(),
@@ -39,14 +39,13 @@ export default function FrenchQuizes() {
         ]
         dispatch(unlockExercise({ subject, exerciseId: multiple }));
     }
-  }, [unlockedPages, completedQuizzes]); // Run this effect when unlocked pages or completed quizzes change
-
+  }, [completedQuizzes]); // Run this effect when unlocked pages or completed quizzes change
+console.log(unlockedPages)
   if (!isClient) {
     // Optionally return a loader or nothing until the client is ready
     return null;
   }
 
-  console.log(unlockedPages)
   return (
     <>
       <Head>
