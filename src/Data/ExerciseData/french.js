@@ -4685,7 +4685,7 @@ export const quiz = [
             },
             {
               "left": { "word": "Je me regarde dans le miroir.", "rightId": 7 },
-              "right": { "word": "I wash my hands.", "rightId": 2 }
+              "right": { "word": "She brushes her teeth.", "rightId": 2 }
             },
             {
               "left": { "word": "Elle se maquille avant de sortir.", "rightId": 8 },
@@ -4693,7 +4693,7 @@ export const quiz = [
             },
             {
               "left": { "word": "Nous nous reposons après l'école.", "rightId": 9 },
-              "right": { "word": "They comb their hair.", "rightId": 6 }
+              "right": { "word": "They fall asleep quickly.", "rightId": 6 }
             },
             {
               "left": { "word": "Ils se peignent les cheveux.", "rightId": 10 },
