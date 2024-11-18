@@ -5288,4 +5288,362 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '24',
+      name: 'French Exercise - 5 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "What is the correct conjugation for ils in the verb avoir?",
+          "choices": ["as", "avons", "ont", "avez"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say I am happy (masculine speaker) in French?",
+          "choices": ["Je suis heureux", "Je suis heureuse", "Je suis contentes", "Je suis heureusement"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which preposition means 'in'?",
+          "choices": ["à", "chez", "en", "de"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the plural form of un enfant?",
+          "choices": ["Des enfants", "Les enfant", "Des enfant", "Les enfants"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Translate: We are going to the cinema.",
+          "choices": ["Nous allons à la cinéma.", "Nous allons au cinéma.", "Nous allez à la cinéma.", "Nous allons dans le cinéma."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the French word for a book?",
+          "choices": ["Une livre", "Un livre", "Un librairie", "Une bibliothèque"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which is the correct translation for She is old?",
+          "choices": ["Elle est vieux", "Elle est vieille", "Elle est vieilles", "Elle est viel"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Translate: Turn right at the corner of the street.",
+          "choices": ["Tournez à gauche au coin de la rue.", "Continuez tout droit au coin de la rue.", "Tournez à droite au coin de la rue.", "Tournez à droite à la station."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the correct possessive adjective for your (formal, singular)?",
+          "choices": ["Ton", "Votre", "Vos", "Sa"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which phrase means I go to school by bus?",
+          "choices": ["Je vais à l'école en voiture.", "Je vais à l'école en métro.", "Je vais à l'école en bus.", "Je vais à l'école en avion."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+
+        {
+          "question": "Il ______ (to have) deux frères et une sœur.",
+          "choices": ["a", "ont", "avons", "avez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (are) très heureux aujourd’hui.",
+          "choices": ["sommes", "êtes", "sont", "est"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vais ______ (at) marché demain.",
+          "choices": ["au", "à", "le", "un"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marie parle avec ______ (her) amie.",
+          "choices": ["son", "sa", "leur", "ses"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les enfants ______ (are going) à l'école en bus.",
+          "choices": ["vont", "va", "allons", "allez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C'est une ______ (old) maison.",
+          "choices": ["vieille", "vieux", "vieil", "ancien"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous prenez ______ (the) train ou le bus ?",
+          "choices": ["le", "un", "du", "au"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (do) du sport le week-end.",
+          "choices": ["fais", "fait", "faisons", "font"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils habitent ______ (in) France.",
+          "choices": ["en", "dans", "à", "chez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Où est ______ (the) livre que tu as acheté ?",
+          "choices": ["le", "un", "du", "mon"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Où est", "rightId": 1 },
+              "right": { "word": " A train station", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Nous sommes", "rightId": 2 },
+              "right": { "word": "You go", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Je prends", "rightId": 3 },
+              "right": { "word": "Where is", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Une voiture", "rightId": 4 },
+              "right": { "word": "We are", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Continuez tout droit", "rightId": 5 },
+              "right": { "word": "Turn left", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Un avion", "rightId": 6 },
+              "right": { "word": "A car", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Tournez à gauche", "rightId": 7 },
+              "right": { "word": "To take", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Une gare", "rightId": 8 },
+              "right": { "word": "An airplane", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Elle a", "rightId": 9 },
+              "right": { "word": "Straight ahead", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Vous allez", "rightId": 10 },
+              "right": { "word": "She has", "rightId": 9 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '25',
+      name: 'French Exercise - 6 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "What is the French word for *train station*?",
+          "choices": ["Un avion", "Une gare", "Un train", "Une voiture"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say *I am going to travel by car*?",
+          "choices": ["Je vais voyager en voiture.", "Je voyage en voiture.", "Je vais prendre une voiture.", "Je vais aller à voiture."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the conjugation of *aller* for \"they\" (Ils/Elles)?",
+          "choices": ["Allons", "Va", "Vont", "Allez"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does *un billet* mean?",
+          "choices": ["A reservation", "A ticket", "A trip", "A boat"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Translate: *We are going to take the subway tomorrow.*",
+          "choices": ["Nous allons prendre le métro demain.", "Nous allons prendre le train demain.", "Nous allons prendre un avion demain.", "Nous allons visiter le métro demain."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of these means *a boat*?",
+          "choices": ["Une voiture", "Un bateau", "Une bicyclette", "Un train"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Translate: *She is going to buy a train ticket.*",
+          "choices": ["Elle va acheter une voiture.", "Elle va acheter un billet de train.", "Elle va réserver un billet de train.", "Elle va voyager en train."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say *departure* in French?",
+          "choices": ["L'arrivée", "Le voyage", "Le départ", "La destination"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of these sentences is in the future proche?",
+          "choices": ["Je prends un avion.", "Je vais prendre un avion.", "J'ai pris un avion.", "Je prenais un avion."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the correct French sentence for *They are going to visit a museum*?",
+          "choices": ["Ils vont visiter un musée.", "Ils visitent un musée.", "Ils vont visiter une gare.", "Ils visitent un avion."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+
+
+        {
+          "question": "Nous allons ______ (to take) un avion pour aller à Paris.",
+          "choices": ["prendre","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle va ______ (to buy) un billet à la gare.",
+          "choices": ["acheter","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vais ______ (to travel) en train la semaine prochaine.",
+          "choices": ["voyager","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils vont ______ (to explore) les plages pendant leurs vacances.",
+          "choices": ["explorer","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu vas ______ (to take) une bicyclette pour aller au parc.",
+          "choices": ["prendre","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous allez ______ (to do) une réservation d'hôtel pour le voyage.",
+          "choices": ["faire","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il va ______ (to visit) le musée après le déjeuner.",
+          "choices": ["visiter","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous allons ______ (to leave) tôt pour éviter la circulation.",
+          "choices": ["partir","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marie et Rohan vont ______ (to book) des places dans le TGV.",
+          "choices": ["réserver","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vais ______ (to go) à l'aéroport en taxi.",
+          "choices": ["aller","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Un train", "rightId": 1 },
+              "right": { "word": "A reservation", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Une gare", "rightId": 2 },
+              "right": { "word": "A train", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Un avion", "rightId": 3 },
+              "right": { "word": "A destination", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Une voiture", "rightId": 4 },
+              "right": { "word": "A subway", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Un bateau", "rightId": 5 },
+              "right": { "word": "A train station", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Un voyage", "rightId": 6 },
+              "right": { "word": "A car", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Une réservation", "rightId": 7 },
+              "right": { "word": "An airplane", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Un métro", "rightId": 8 },
+              "right": { "word": "A trip", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Un billet", "rightId": 9 },
+              "right": { "word": "A boat", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Une destination", "rightId": 10 },
+              "right": { "word": "A ticket", "rightId": 9 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]

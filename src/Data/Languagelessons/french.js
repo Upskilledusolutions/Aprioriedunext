@@ -165,6 +165,20 @@ name:'French Lesson 4 (A2)',
 level:'Beginners',
 pdf:'https://drive.google.com/file/d/1N6JUUqLOMtpbje47Wf_X0w1XAT9fdTOx/preview',
 desc:'French Foundation Lesson 4 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+id:'24',
+name:'French Lesson 5 (A2)',
+level:'Beginners',
+pdf:'https://drive.google.com/file/d/1nfexN_L-VJ4Nbh5P0BYNSFkVUu7wNJhX/preview',
+desc:'French Foundation Lesson 5 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+id:'25',
+name:'French Lesson 6 (A2)',
+level:'Beginners',
+pdf:'https://drive.google.com/file/d/1lIqF0uKAc5k0yMjtRFxL_z8kojiMHvEq/preview',
+desc:'French Foundation Lesson 6 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 }
 ]
 
