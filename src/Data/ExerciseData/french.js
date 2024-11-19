@@ -5646,4 +5646,372 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '26',
+      name: 'French Exercise - 7 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "What is the French word for 'dress'?",
+          "choices": ["Une chemise", "Une jupe", "Une robe", "Un manteau"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say 'Where is the fitting room?' in French?",
+          "choices": [
+            "Combien ça coûte ?",
+            "C’est trop cher.",
+            "Où est la cabine ?",
+            "Avez-vous des chaussures ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'en solde' mean?",
+          "choices": ["Expensive", "Stylish", "On sale", "Out of stock"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which adjective correctly matches 'un chapeau'?",
+          "choices": ["Noir", "Noire", "Noires", "Noirs"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Choose the correct feminine singular form of 'petit' (small):",
+          "choices": ["Petite", "Petits", "Petit", "Petites"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which is the plural form of 'une robe verte'?",
+          "choices": ["Unes robes vertes", "Des robes verts", "Des robes vertes", "Des robe verte"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Sophie porte une ______ jupe (beautiful).",
+          "choices": ["Beau", "Bel", "Belle", "Belles"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'combien ça coûte ?' mean?",
+          "choices": ["Where is it?", "Is it on sale?", "How much does it cost?", "Do you have it in stock?"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Paris Fashion Week focuses on ______.",
+          "choices": [
+            "Only street style",
+            "Haute couture and prêt-à-porter",
+            "Ready-to-eat food festivals",
+            "Traditional clothing"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of these adjectives has an irregular agreement?",
+          "choices": ["Noir", "Beau", "Rouge", "Grand"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+
+        {
+          "question": "Je voudrais acheter ______ (une/un) chemise verte.",
+          "choices": ["une", "un","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Combien ______ (coûte/coûtent) ces chaussures en solde ?",
+          "choices": ["coûtent", "coûte","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce manteau est ______ (neuf/neuve) et très confortable.",
+          "choices": ["neuf", "neuve","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sophie a essayé une jupe ______ (joli/jolie) pour la fête.",
+          "choices": ["jolie", "joli","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avez-vous ______ (des/les) pantalons noirs dans cette boutique ?",
+          "choices": ["des", "les","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ces robes sont très ______ (élégant/élégantes).",
+          "choices": ["élégantes", "élégant","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Où est ______ (la/le) cabine d’essayage, s’il vous plaît ?",
+          "choices": ["la", "le","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce vieux costume est trop ______ (petit/petite) pour moi.",
+          "choices": ["petit", "petite","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elles portent des chaussures ______ (rouge/rouges) en soirée.",
+          "choices": ["rouges", "rouge","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il a acheté un pull ______ (chaud/chauds) pour l’hiver.",
+          "choices": ["chaud", "chauds","1","2"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Une robe", "rightId": 1 },
+              "right": { "word": "Where is the cabin?", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Un pantalon", "rightId": 2 },
+              "right": { "word": "Shoes", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Des chaussures", "rightId": 3 },
+              "right": { "word": "It's too expensive.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Un chapeau", "rightId": 4 },
+              "right": { "word": "On sale", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Un manteau", "rightId": 5 },
+              "right": { "word": "A hat", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Où est la cabine ?", "rightId": 6 },
+              "right": { "word": "A Coat", "rightId": 5 }
+            },
+            {
+              "left": { "word": "C’est trop cher.", "rightId": 7 },
+              "right": { "word": "This sweater is beautiful.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "En solde", "rightId": 8 },
+              "right": { "word": "Do you have shoes?", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Ce pull est beau.", "rightId": 9 },
+              "right": { "word": "A dress", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Avez-vous des chaussures ?", "rightId": 10 },
+              "right": { "word": "Pants", "rightId":2 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '27',
+      name: 'French Exercise - 8 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "What is the French phrase for 'to travel'?",
+          "choices": ["Lire des livres", "Voyager", "Faire du sport", "Regarder des films"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'I like to read books' in French?",
+          "choices": ["J’aime voyager.", "J’aime faire du sport.", "J’aime lire des livres.", "J’aime regarder des films."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'faire du sport' mean?",
+          "choices": ["To play sports", "To listen to music", "To read books", "To watch movies"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Choose the correct translation: 'He listens to music.'",
+          "choices": ["Il écoute de la musique.", "Il écoute des films.", "Il joue de la musique.", "Il vend de la musique."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the French for 'to watch movies'?",
+          "choices": ["Regarder des films", "Jouer des films", "Écouter des films", "Finir des films"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Choose the correct conjugation of 'vendre' for 'nous':",
+          "choices": ["Vend", "Vendons", "Vendent", "Vendez"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Select the correct -ir verb conjugation: 'Ils ______ (choisir) un film intéressant.'",
+          "choices": ["Choisissent", "Choisir", "Choisit", "Choisissez"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of these is a correct sentence?",
+          "choices": ["Tu finis tes devoirs tôt le matin.", "Tu finit tes devoirs tôt le matin.", "Tu finis tes devoir tôt le matin.", "Tu finissez tes devoirs tôt le matin."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the plural form of 'Elle répond à l’e-mail'?",
+          "choices": ["Elles répondent à l’e-mail.", "Elles répondons à l’e-mail.", "Elles répond à l’e-mail.", "Elles répondes à l’e-mail."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct conjugation of 'perdre' for 'vous'?",
+          "choices": ["Perds", "Perd", "Perdons", "Perdez"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+
+
+        {
+          "question": "Je ______ (chosen) un nouveau passe-temps pendant mes vacances.",
+          "choices": ["choisis", "choisit", "choisissent", "choisissons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (sell) des objets faits à la main au marché.",
+          "choices": ["vendent", "vendons", "vendez", "vend"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (let's finish) nos devoirs avant de jouer au football.",
+          "choices": ["finissons", "finissez", "finissent", "finir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (wait) ses amis pour aller au cinéma.",
+          "choices": ["attend", "attendent", "attendez", "attendons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (succeed) souvent à vos examens grâce à votre travail acharné.",
+          "choices": ["réussissez", "réussis", "réussit", "réussissons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (hear) une chanson qui lui rappelle son enfance.",
+          "choices": ["entend", "entends", "entendent", "entendez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (lose) toujours ton sac à dos à l'école !",
+          "choices": ["perds", "perdent", "perdons", "perdez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elles ______ (blush) quand elles parlent devant un grand public.",
+          "choices": ["rougissent", "rougis", "rougit", "rougissons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (answer) toujours à mes e-mails tôt le matin.",
+          "choices": ["réponds", "répond", "répondent", "répondez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (let's think) à nos prochaines vacances d'été.",
+          "choices": ["réfléchissons", "réfléchis", "réfléchissent", "réfléchissez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Un train", "rightId": 1 },
+              "right": { "word": "She sells cakes", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Faire du sport", "rightId": 2 },
+              "right": { "word": "To travel", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Regarder des films", "rightId": 3 },
+              "right": { "word": "We finish our homework.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Voyager", "rightId": 4 },
+              "right": { "word": "I like listening to music.", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Écouter de la musique", "rightId": 5 },
+              "right": { "word": "Watch movies", "rightId": 3 }
+            },
+            {
+              "left": { "word": "J’aime écouter de la musique.", "rightId": 6 },
+              "right": { "word": "Listen to music", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Nous finissons nos devoirs.", "rightId": 7 },
+              "right": { "word": "He is waiting for his brother", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Elle vend des gâteaux", "rightId": 8 },
+              "right": { "word": "You often lose your keys.", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Il attend son frère", "rightId": 9 },
+              "right": { "word": "A train", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Tu perds souvent tes clés.", "rightId": 10 },
+              "right": { "word": "Do sports", "rightId":2 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]
