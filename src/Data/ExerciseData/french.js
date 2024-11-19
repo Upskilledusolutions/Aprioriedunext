@@ -774,6 +774,12 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Which of the following is the correct possessive adjective for 'my' (feminine singular) in French?",
+          "choices": ["Mon", "Ma", "Mes", "Leur"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           "question": "What is the number \"ninety-three\" in French?",
           "choices": ["Soixante-treize", "Quatre-vingt-treize", "Quatre-vingt-trois", "Quatre-vingt-dix"],
           "type": "MCQs",
@@ -784,6 +790,12 @@ export const quiz = [
           "choices": ["Bleu", "Jaune", "Violet", "Rouge"],
           "type": "MCQs",
           "correctAnswer": 3
+        },
+        {
+          "question": "What is the correct translation for 'your (informal) house' in French?",
+          "choices": ["Ton maison", "Ta maison", "Tes maison", "Votre maison"],
+          "type": "MCQs",
+          "correctAnswer": 2
         },
         {
           "question": "Which of the following means \"to grow\" in French?",
@@ -804,6 +816,12 @@ export const quiz = [
           "correctAnswer": 3
         },
         {
+          "question": "Which possessive adjective means 'our' (plural) in French?",
+          "choices": ["Notre", "Nos", "Leur", "Votre"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           "question": "What does \"lumière\" mean in French?",
           "choices": ["Moon", "Light", "Shadow", "Air"],
           "type": "MCQs",
@@ -814,6 +832,18 @@ export const quiz = [
           "choices": ["J'ai chaud", "J'ai faim", "J'ai soif", "J'ai sommeil"],
           "type": "MCQs",
           "correctAnswer": 3
+        },
+        {
+          "question": "What is the French possessive adjective for 'their' (masculine plural)?",
+          "choices": ["Leur", "Ses", "Leur", "Vos"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct possessive adjective for 'his' (feminine singular)?",
+          "choices": ["Sa", "Son", "Leur", "Ses"],
+          "type": "MCQs",
+          "correctAnswer": 1
         },
         {
           "question": "What is the plural of \"cheval\" in French?",
@@ -840,6 +870,12 @@ export const quiz = [
           "correctAnswer": 4
         },
         {
+          "question": "Which of the following is the correct possessive adjective for 'her' (plural)?",
+          "choices": ["Ses", "Sa", "Son", "Votre"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
           "question": "What does \"château\" mean in French?",
           "choices": ["Forest", "Castle", "Field", "Church"],
           "type": "MCQs",
@@ -862,6 +898,18 @@ export const quiz = [
           "choices": ["Cold", "Heat", "Warm", "Humidity"],
           "type": "MCQs",
           "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'my friends' in French (plural)?",
+          "choices": ["Mon amis", "Ma amis", "Mes amis", "Leur amis"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which possessive adjective means 'your' (formal/plural)?",
+          "choices": ["Ton", "Ta", "Votre", "Vos"],
+          "type": "MCQs",
+          "correctAnswer": 3
         },
         {
           "question": "How do you say \"library\" in French?",
@@ -887,7 +935,24 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 1
         },
-       
+        {
+          "question": "What is the correct translation for 'his dog' in French?",
+          "choices": ["Son chien", "Sa chien", "Ses chien", "Leur chien"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say 'our house' in French?",
+          "choices": ["Notre maison", "Ma maison", "Nos maison", "Votre maison"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (My) frère est médecin.",
+          "choices": ["Mon","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
         {
           "question": "Le mur ______ (white) est taché.",
           "choices": ["blanc", "es", "est", "sommes"],
@@ -901,8 +966,20 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "______ (Your - informal) soeur est gentille.",
+          "choices": ["Ta","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
           "question": "La couleur du ciel est ______ (blue).",
           "choices": ["bleu", "vert", "rouge", "jaune"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (His) livre est sur la table.",
+          "choices": ["Son","2","1","3"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -917,6 +994,12 @@ export const quiz = [
           "choices": ["deux", "e", "trois", "quatre"],
           "type": "FillInTheBlanks",
           "correctAnswer": 2
+        }, 
+        {
+          "question": "______ (Our) maison est grande.",
+          "choices": ["Notre","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
         },
         {
           "question": "Je voudrais un café ______ (hot), s'il vous plaît.",
@@ -933,6 +1016,12 @@ export const quiz = [
         {
           "question": "the number eleven comes before number ______ (twelve).",
           "choices": ["douze", "venir", "partir", "rester"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (Their) enfants sont à l'école.",
+          "choices": ["Leurs","1","2","4"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -955,6 +1044,18 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "______ (Your - formal/plural) voiture est très rapide.",
+          "choices": ["Votre","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (My) amis viennent ce soir.",
+          "choices": ["Mes","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
           "question": "Le ______ (weather) aujourd'hui est ensoleillé.",
           "choices": ["temps", "climat", "météo", "saison"],
           "type": "FillInTheBlanks",
@@ -963,6 +1064,12 @@ export const quiz = [
         {
           "question": "La terre paraît ______ (blue) depuis l'espace.",
           "choices": ["bleue", "lisez", "lit", "lire"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (Her) chien est très mignon.",
+          "choices": ["Son","1","2","3"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -981,6 +1088,18 @@ export const quiz = [
         {
           "question": "La ______ (dog) de Marie est très amicale.",
           "choices": ["chien", "1", "animal", "bête"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (Your - informal) parents sont très gentils.",
+          "choices": ["Tes","1","2","3"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ (Their) appartement est joli.",
+          "choices": ["Leur","1","2","3"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1051,6 +1170,52 @@ export const quiz = [
             {
               "left": { "word": "Au revoir", "rightId": 10 },
               "right": { "word": "No", "rightId": 9 }
+            }
+          ],
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Mon livre", "rightId": 1 },
+              "right": { "word": "Your parents", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Ma maison", "rightId": 2 },
+              "right": { "word": "His/Her pencils", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Tes parents", "rightId": 3 },
+              "right": { "word": "My house", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Ses crayons", "rightId": 4 },
+              "right": { "word": "His sister", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Son frère", "rightId": 5 },
+              "right": { "word": "Our car", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Sa sœur", "rightId": 6 },
+              "right": { "word": "Her friend", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Notre voiture", "rightId": 7 },
+              "right": { "word": "My book", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Son amie", "rightId": 8 },
+              "right": { "word": "His brother", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Votre professeur", "rightId": 9 },
+              "right": { "word": "Their dog", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Leur chien", "rightId": 10 },
+              "right": { "word": "Your teacher", "rightId": 9 }
             }
           ],
         },
@@ -1372,6 +1537,12 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Which partitive article is used with a masculine singular noun (such as 'pain')?",
+          "choices": ["du", "de la", "des", "de"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
           "question": "What is the French word for 'brother-in-law'?",
           "choices": ["Gendre", "Beau-frère", "Cousin", "Neveu"],
           "type": "MCQs",
@@ -1382,6 +1553,12 @@ export const quiz = [
           "choices": ["Nièce", "Fille", "Cousine", "Tante"],
           "type": "MCQs",
           "correctAnswer": 1
+        },
+        {
+          "question": "What does 'de la' mean in English?",
+          "choices": ["Some (masculine singular)", "Some (feminine singular)", "Some (plural)", "None"],
+          "type": "MCQs",
+          "correctAnswer": 2
         },
         {
           "question": "What is the correct conjugation of the verb 'manger' (to eat) for 'nous'?",
@@ -1402,6 +1579,24 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Which partitive article is used with plural nouns (like 'pommes')?",
+          "choices": ["du", "de la", "des", "de"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the partitive article for a feminine singular noun like 'salade'?",
+          "choices": ["du", "de la", "des", "de"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following sentences is correct?",
+          "choices": ["Il boit du eau.", "Elle mange de la soupe.", "Vous avez des fromage?", "Je veux de la chocolat."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           "question": "What is the correct form of 'prendre' (to take) for 'il'?",
           "choices": ["Prend", "Prends", "Prenons", "Prenez"],
           "type": "MCQs",
@@ -1412,6 +1607,12 @@ export const quiz = [
           "choices": ["Parlent", "Parlons", "Parlez", "Parle"],
           "type": "MCQs",
           "correctAnswer": 1
+        },
+        {
+          "question": "What is the partitive article for a masculine singular noun like 'chocolat'?",
+          "choices": ["de", "de la", "du", "des"],
+          "type": "MCQs",
+          "correctAnswer": 3
         },
         {
           "question": "How do you conjugate 'faire' (to do) for 'vous'?",
@@ -1430,6 +1631,18 @@ export const quiz = [
          "choices": ["Il", "Elle", "Ils", "Vous"],
           "type": "MCQs",
           "correctAnswer": 2
+        },
+        {
+          "question": "Which partitive article is used with uncountable nouns (like 'lait')?",
+          "choices": ["du", "de la", "des", "de"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following sentences is correct?",
+          "choices": ["Nous avons de la pommes.", "Il y a des soupe.", "Ils ont du pain.", "Tu veux de la chocolat?"],
+          "type": "MCQs",
+          "correctAnswer": 3
         },
         {
           "question": "What subject pronoun is used for 'you' (informal)?",
@@ -1462,6 +1675,18 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
+          "question": "What is the French translation for 'some wine'?",
+          "choices": ["des vin", "du vin", "de la vin", "des vins"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following sentences is correct in French?",
+          "choices": ["Elle a des lait.", "Nous avons du eau.", "Ils veulent des pommes.", "Je bois de la eau."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
           "question": "What subject pronoun corresponds to 'you' (formal)?",
           "choices": ["Vous (formel)", "Tu (informel)", "Ils", "Nous"],
           "type": "MCQs",
@@ -1483,6 +1708,12 @@ export const quiz = [
         {
           "question": "Le ______ (uncle) de Marie vit à Paris.",
           "choices": ["oncle", "cousin", "frère", "père"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complete the sentence: Je voudrais ______ pain, s'il vous plaît. (I would like some bread, please.)",
+          "choices": ["du", "de la", "des"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1517,6 +1748,18 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Complete the sentence: Elle mange ______ soupe tous les soirs. (She eats some soup every evening.)",
+          "choices": ["de la", "du", "des"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complete the sentence: Nous avons acheté ______ pommes au marché. (We bought some apples at the market.)",
+          "choices": ["des", "du", "de la"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
           "question": "Nous ______ (to go) à la plage cet été.",
           "choices": ["allons", "partons", "prenons", "finissons"],
           "type": "FillInTheBlanks",
@@ -1537,6 +1780,18 @@ export const quiz = [
         {
           "question": "Vous ______ (to learn) le français depuis deux ans.",
           "choices": ["apprenez", "finissez", "lisez", "parlez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complete the sentence: Il boit ______ eau tous les jours. (He drinks some water every day.)",
+          "choices": ["de l'", "du", "des"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complete the sentence: Tu veux ______ chocolat? (Do you want some chocolate?)",
+          "choices": ["du", "de la", "des"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1565,6 +1820,18 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Complete the sentence: J'aime ______ fromage. (I like some cheese.)",
+          "choices": ["du", "des", "de la"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complete the sentence: ______ lait est nécessaire pour cette recette. (Some milk is needed for this recipe.)",
+          "choices": ["du", "de la", "des"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
           "question": "______ (We) devons partir tôt demain matin.",
           "choices": ["Nous", "Ils", "Vous", "Elles"],
           "type": "FillInTheBlanks",
@@ -1583,6 +1850,18 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Complete the sentence: ______ salade est délicieuse. (The salad is delicious.)",
+          "choices": ["de la", "du", "des"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complete the sentence: Vous avez ______ beurre pour les croissants? (Do you have some butter for the croissants?)",
+          "choices": ["du", "de la", "des"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
           "question": "______ (You - informal) vas à la fête ce soir?",
           "choices": ["Tu", "Vous", "Il", "Elle"],
           "type": "FillInTheBlanks",
@@ -1591,6 +1870,12 @@ export const quiz = [
         {
           "question": "Mon père a ______ (forty-five) ans aujourd'hui.",
           "choices": ["quarante-cinq", "trente-cinq", "vingt-cinq", "cinquante"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complete the sentence: Ils ont mangé ______ riz pour le déjeuner. (They ate some rice for lunch.)",
+          "choices": ["du", "des", "de la"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1643,6 +1928,52 @@ export const quiz = [
             {
               "left": { "word": "Quarante-sept", "rightId": 10 },
               "right": { "word": "Forty-seven", "rightId": 10 }
+            }
+          ],
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Du pain", "rightId": 1 },
+              "right": { "word": "Some milk", "rightId": 5 }
+            },
+            {
+              "left": { "word": "De la confiture", "rightId": 2 },
+              "right": { "word": "Some vegetables", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Des fruits", "rightId": 3 },
+              "right": { "word": "Some meat", "rightId": 6 }
+            },
+            {
+              "left": { "word": "De l’eau", "rightId": 4 },
+              "right": { "word": "Some fruit", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Du lait", "rightId": 5 },
+              "right": { "word": "Some honey", "rightId": 2 }
+            },
+            {
+              "left": { "word": "De la viande", "rightId": 6 },
+              "right": { "word": "Some bread", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Des légumes", "rightId": 7 },
+              "right": { "word": "Some cheese", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Du fromage", "rightId": 8 },
+              "right": { "word": "Some water", "rightId": 4 }
+            },
+            {
+              "left": { "word": "De la soupe", "rightId": 9 },
+              "right": { "word": "Some chocolate", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Du chocolat", "rightId": 10 },
+              "right": { "word": "Some soup", "rightId": 9 }
             }
           ],
         },
@@ -1952,6 +2283,12 @@ export const quiz = [
       topic: 'Mixed',
       questions: [
         {
+          "question": "What does \"Il fait chaud\" mean in English?",
+          "choices": ["It's cold", "It’s hot", "It’s raining", "It’s cloudy"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           "question": "How do you say \"I am happy\" in French?",
           "choices": [ "Je suis heureux", "Je es heureux", "Tu es triste", "Je suis triste",],
           "type": "MCQs",
@@ -1968,6 +2305,12 @@ export const quiz = [
           "choices": ["Tu es mon enseignant", "Vous êtes mon enseignant", "Ils sont mon enseignant", "Elle est mon enseignant"],
           "type": "MCQs",
           "correctAnswer": 2
+        },
+        {
+          "question": "Which adjective is used to describe weather that is cloudy in French?",
+          "choices": ["Nuageux", "Dégagé", "Frais", "Fort"],
+          "type": "MCQs",
+          "correctAnswer": 1
         },
         {
           "question": "How do you say \"They are students\" in French?",
@@ -1988,6 +2331,12 @@ export const quiz = [
           "correctAnswer": 4
         },
         {
+          "question": "What is the French translation for \"It's snowing\"?",
+          "choices": ["Il pleut", "Il fait froid", "Il neige", "Le ciel est nuageux"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
           "question": "How do you say \"They are happy\" in French?",
           "choices": [ "Elles est heureuse", "Je suis heureuse", "Ils sont heureux", "Nous sont heureux"],
           "type": "MCQs",
@@ -2004,6 +2353,18 @@ export const quiz = [
           "choices": [ "Ingénieur", "Ingénieurs", "Ingénieuses", "Ingénieure"],
           "type": "MCQs",
           "correctAnswer": 4
+        },
+        {
+          "question": "How would you say \"It’s raining a lot\" in French?",
+          "choices": ["Il pleut beaucoup", "Il fait chaud", "Il neige", "Le ciel est dégagé"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following terms is used to describe cold weather in French?",
+          "choices": ["Chaud", "Froid", "Frais", "Humide"],
+          "type": "MCQs",
+          "correctAnswer": 2
         },
         {
           "question": "How do you say \"Brazilian\" in French for a woman?",
@@ -2026,6 +2387,12 @@ export const quiz = [
         {
           "question": "What is the feminine form of \"singer\"?",
           "choices": [ "Chanteurs", "Chanteuse", "Chanteuses", "Chanteur"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say \"It’s sunny\" in French?",
+          "choices": ["Il fait du vent", "Il fait soleil", "Il fait froid", "Il pleut"],
           "type": "MCQs",
           "correctAnswer": 2
         },
@@ -2054,6 +2421,18 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Which season is associated with rainy weather in France?",
+          "choices": ["Ét� (Summer)", "Printemps (Spring)", "Automne (Autumn)", "Hiver (Winter)"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the French translation for \"The weather is nice\"?",
+          "choices": ["Le temps est froid", "Le temps est agréable", "Le temps est nuageux", "Il pleut"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           "question": "How do you say \"She is my friend\" in French?",
           "choices": [ "Je suis mon amie", "Elle sont mon amie", "Elle est mon amie", "Tu es mon amie"],
           "type": "MCQs",
@@ -2066,12 +2445,30 @@ export const quiz = [
           "correctAnswer": 3
         },
         {
+          "question": "In which season do you experience storms in France?",
+          "choices": ["Summer", "Winter", "Spring", "Autumn"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
           "question": "How do you say \"We are students\" in French?",
           "choices": [ "Vous êtes étudiants", "Ils sont étudiants", "Je suis étudiant", "Nous sommes étudiants"],
           "type": "MCQs",
           "correctAnswer": 4
         },
+        {
+          "question": "Which weather condition is described as \"The sky is clear\" in French?",
+          "choices": ["Le ciel est nuageux", "Le ciel est dégagé", "Il fait froid", "Il pleut"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
        
+        {
+          "question": "Il fait ______ aujourd'hui. (It's sunny today.)",
+          "choices": ["chaud", "froid", "humide", "nuageux"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
     {
       "question": "Je ______ (to be) heureux.",
       "choices": ["suis", "es", "est", "sommes"],
@@ -2091,6 +2488,12 @@ export const quiz = [
       "correctAnswer": 1
     },
     {
+      "question": "En hiver, il neige ______. (In winter, it snows.)",
+      "choices": ["beaucoup", "très peu", "modérément", "rarement"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
       "question": "Ils ______ (to be) étudiants.",
       "choices": ["sont", "suis", "es", "est"],
       "type": "FillInTheBlanks",
@@ -2099,6 +2502,12 @@ export const quiz = [
     {
       "question": "Elle ______ (to be) ma sœur.",
       "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Au printemps, le temps est ______. (In spring, the weather is mild.)",
+      "choices": ["agréable", "froid", "chaud", "pluvieux"],
       "type": "FillInTheBlanks",
       "correctAnswer": 1
     },
@@ -2121,6 +2530,12 @@ export const quiz = [
       "correctAnswer": 1
     },
     {
+      "question": "En été, il fait ______. (In summer, it’s hot.)",
+      "choices": ["chaud", "froid", "modéré", "pluvieux"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
       "question": "Je ______ (to be) un ingénieur.",
       "choices": ["suis", "est", "es", "sommes"],
       "type": "FillInTheBlanks",
@@ -2129,6 +2544,18 @@ export const quiz = [
     {
       "question": "Elle ______ (to be) brésilienne.",
       "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Il pleut ______. (It’s raining a lot.)",
+      "choices": ["beaucoup", "un peu", "modérément", "rarement"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "L’automne est ______ (autumn is cool).",
+      "choices": ["frais", "chaud", "modéré", "humide"],
       "type": "FillInTheBlanks",
       "correctAnswer": 1
     },
@@ -2151,6 +2578,12 @@ export const quiz = [
       "correctAnswer": 1
     },
     {
+      "question": "Aujourd'hui, il fait ______ (It’s cold today).",
+      "choices": ["froid", "chaud", "agréable", "humide"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
       "question": "Je ______ (to be) américain.",
       "choices": ["suis", "est", "es", "sommes"],
       "type": "FillInTheBlanks",
@@ -2159,6 +2592,18 @@ export const quiz = [
     {
       "question": "Elle ______ (to be) infirmière.",
       "choices": ["est", "suis", "es", "sommes"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "En hiver, le vent est ______ (In winter, the wind is strong).",
+      "choices": ["fort", "modéré", "léger", "faible"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Le ciel est ______ (The sky is clear).",
+      "choices": ["dégagé", "nuageux", "pluvieux", "vague"],
       "type": "FillInTheBlanks",
       "correctAnswer": 1
     },
@@ -2183,6 +2628,12 @@ export const quiz = [
     {
       "question": "Nous ______ (to have) un bon ami.",
       "choices": ["avons", "avez", "a", "ont"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "En été, il fait ______ (In summer, it is very hot).",
+      "choices": ["très chaud", "modéré", "froid", "agréable"],
       "type": "FillInTheBlanks",
       "correctAnswer": 1
     },
@@ -2235,6 +2686,52 @@ export const quiz = [
             {
               "left": { "word": "Japonais", "rightId": 10 },
               "right": { "word": "Chinese", "rightId": 9 }
+            }
+          ],
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il pleut", "rightId": 1 },
+              "right": { "word": "It's windy", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il fait chaud", "rightId": 2 },
+              "right": { "word": "It’s cold", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Il fait froid", "rightId": 3 },
+              "right": { "word": "It’s raining", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Le vent souffle", "rightId": 4 },
+              "right": { "word": "It’s hot", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Il y a du vent", "rightId": 5 },
+              "right": { "word": "The wind is blowing.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Il neige", "rightId": 6 },
+              "right": { "word": "There is sunshine", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Il fait beau", "rightId": 7 },
+              "right": { "word": "There are clouds", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Il fait nuageux", "rightId": 8 },
+              "right": { "word": "It's snowing", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Il y a des nuages", "rightId": 9 },
+              "right": { "word": "The weather is nice", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Il y a du soleil", "rightId": 10 },
+              "right": { "word": "It's cloudy", "rightId": 8 }
             }
           ],
         },
@@ -2550,6 +3047,12 @@ export const quiz = [
           "correctAnswer": 3
       },
       {
+        "question": "What does 'salon' mean in English?",
+        "choices": ["Kitchen", "Bedroom", "Living room", "Dining room"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
           "question": "If you were born on May 10, your zodiac sign is...",
           "choices": ["Gémeaux", "Taureau", "Bélier", "Vierge"],
           "type": "MCQs",
@@ -2560,6 +3063,18 @@ export const quiz = [
           "choices": ["Anniversaire", "Fête", "Soirée", "Célébration"],
           "type": "MCQs",
           "correctAnswer": 2
+      },
+      {
+        "question": "Which furniture item is found in the 'salon'?",
+        "choices": ["Canapé (Sofa)", "Lit (Bed)", "Bureau (Desk)", "Table de nuit (Nightstand)"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Where would you most likely find a 'bibliothèque'?",
+        "choices": ["Kitchen", "Office", "Bedroom", "Living room"],
+        "type": "MCQs",
+        "correctAnswer": 4
       },
       {
           "question": "What is the zodiac sign of someone born in July?",
@@ -2574,6 +3089,12 @@ export const quiz = [
           "correctAnswer": 1
       },
       {
+        "question": "What does 'chambre' refer to in English?",
+        "choices": ["Bathroom", "Bedroom", "Kitchen", "Office"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
           "question": "Which verb means 'célébrer' in English?",
           "choices": ["To celebrate", "To turn", "To complete", "To have"],
           "type": "MCQs",
@@ -2584,6 +3105,12 @@ export const quiz = [
           "choices": ["Capricorne", "Verseau", "Scorpion", "Poissons"],
           "type": "MCQs",
           "correctAnswer": 2
+      },
+      {
+        "question": "What is the French term for a 'window'?",
+        "choices": ["Porte", "Fenêtre", "Miroir", "Table"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
           "question": "If you were born on April 18, you are...",
@@ -2604,6 +3131,18 @@ export const quiz = [
           "correctAnswer": 1
       },
       {
+        "question": "Which preposition is used to express 'next to' in French?",
+        "choices": ["Sur", "Sous", "À côté de", "Derrière"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is a demonstrative adjective?",
+        "choices": ["Le", "La", "Ce", "Une"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
           "question": "What pronoun is correct for 'we' in French?",
           "choices": ["Ils", "Tu", "Nous", "Vous"],
           "type": "MCQs",
@@ -2614,6 +3153,12 @@ export const quiz = [
           "choices": ["Je suis", "Tu es", "Nous sommes", "Ils sont"],
           "type": "MCQs",
           "correctAnswer": 1
+      },
+      {
+        "question": "Which room would you most likely find a 'lit' (bed)?",
+        "choices": ["Salon", "Cuisine", "Salle de bain", "Chambre"],
+        "type": "MCQs",
+        "correctAnswer": 4
       },
       {
           "question": "What verb completes this sentence: 'Nous ______ (have) un chien.'?",
@@ -2634,10 +3179,22 @@ export const quiz = [
           "correctAnswer": 2
       },
       {
+        "question": "'La table est dans la salle à manger.' Which preposition is used here?",
+        "choices": ["Dans", "Sur", "Sous", "À côté de"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
           "question": "How do you say 'fifty' in French?",
           "choices": ["Quarante", "Cinquante", "Soixante", "Vingt"],
           "type": "MCQs",
           "correctAnswer": 2
+      },
+      {
+        "question": "Where would you most likely find a 'bibliothèque'?",
+        "choices": ["Kitchen", "Office", "Bedroom", "Living room"],
+        "type": "MCQs",
+        "correctAnswer": 4
       },
       {
           "question": "What number follows 'soixante-dix-neuf'?",
@@ -2650,6 +3207,12 @@ export const quiz = [
           "choices": ["Vingt-cinq", "Quarante-cinq", "Trente-cinq", "Cinquante-cinq"],
           "type": "MCQs",
           "correctAnswer": 3
+      },
+      {
+        "question": "Which demonstrative adjective is used with feminine singular nouns in French?",
+        "choices": ["Ce", "Cette", "Ces", "Celui"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
           "question": "How do you say 'one hundred' in French?",
@@ -2665,6 +3228,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Le ______ est très grand. (The living room is very big.)",
+      "choices": ["salon","1","2","3"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
         "question": "Elle a ______ (30) ans aujourd'hui.",
         "choices": ["trente","1","2","3"],
         "type": "FillInTheBlanks",
@@ -2675,6 +3244,12 @@ export const quiz = [
         "choices": ["anniversaire","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "Il y a ______ canapé dans le salon. (There is a sofa in the living room.)",
+      "choices": ["un","2","3","4"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Nous préparons une fête d'______ (birthday) pour mon ami.",
@@ -2695,6 +3270,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "La ______ est à gauche de la chambre. (The bathroom is to the left of the bedroom.)",
+      "choices": ["salle de bain","1","2","3"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
         "question": "Il est ______ (Sagittarius) car son anniversaire est en décembre.",
         "choices": ["Sagittaire","1","2","3"],
         "type": "FillInTheBlanks",
@@ -2705,6 +3286,18 @@ export const quiz = [
         "choices": ["Balance","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "______ table est dans la salle à manger. (This table is in the dining room.)",
+      "choices": ["Cette","1","2","3"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ cuisine est moderne. (That kitchen is modern.)",
+      "choices": ["Cette","1","2","3"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Ma mère est ______ (Aquarius), née en février.",
@@ -2723,6 +3316,18 @@ export const quiz = [
         "choices": ["suis","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "______ chaise est derrière le bureau. (That chair is behind the desk.)",
+      "choices": ["Cette"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ chambre est à l'étage. (This bedroom is upstairs.)",
+      "choices": ["Cette"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Nous ______ (have) un cours de français aujourd'hui.",
@@ -2773,6 +3378,24 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Le ______ est à côté de la fenêtre. (The bed is next to the window.)",
+      "choices": ["lit","1","2","3"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ bibliothèque est près du canapé. (This bookshelf is near the sofa.)",
+      "choices": ["Cette","1","2","3"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ cuisine est grande et spacieuse. (This kitchen is large and spacious.)",
+      "choices": ["Cette","1","2","3"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
         "question": "Leurs ______ (parents) sont très gentils.",
         "choices": ["parents","1","2","3"],
         "type": "FillInTheBlanks",
@@ -2821,6 +3444,53 @@ export const quiz = [
             {
               "left": { "word": "Père", "rightId": 10 },
               "right": { "word": "We have", "rightId": 5 }
+            }
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "La chaise", "rightId": 1 },
+              "right": { "word": "The table", "rightId": 8 }
+            },
+            {
+              "left": { "word": "La chambre", "rightId": 2 },
+              "right": { "word": "In the bedroom", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Le canapé", "rightId": 3 },
+              "right": { "word": "Next to the kitchen", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Le lit", "rightId": 4 },
+              "right": { "word": "Under the table", "rightId": 6 }
+            },
+            {
+              "left": { "word": "La salle de bain", "rightId": 5 },
+              "right": { "word": "On the chair", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Sous la table", "rightId": 6 },
+              "right": { "word": "The bathroom", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Sur la chaise", "rightId": 7 },
+              "right": { "word": "The chair", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Devant le canapé", "rightId": 8 },
+              "right": { "word": "The bed", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Dans la chambre", "rightId": 9 },
+              "right": { "word": "In the bedroom", "rightId": 2 }
+            },
+            {
+              "left": { "word": "À côté de la cuisine", "rightId": 10 },
+              "right": { "word": "The living room", "rightId": 3 }
             }
           ],
         },
