@@ -5,7 +5,6 @@ export const quiz = [
       level: 'Easy',
       topic: 'Mixed',
       questions: [
-
         {
           question: "What does 'bonjour' mean in English?",
           choices: ['good night', 'hello', 'goodbye', 'good evening'],
@@ -126,55 +125,57 @@ export const quiz = [
             type: 'MCQs',
             correctAnswer: 2
           },
-
-            {
-              question: "Bella: Bonjour, ______. (Hello, Sir)",
-              choices: ["Monsieur", "mange", "a", "Mon"],
+         
+          {
+            question: "Bella: Bonjour, ______. (Hello, Sir)",
+            choices: ["Monsieur", "mange", "a", "Mon"],
+            type: 'FillInTheBlanks',
+            correctAnswer: 1
+          },
+          {
+            question: "Laurent: ______, Madame. (Hello, Madam)",
+            choices: ["Bonjour", "a", "mange", "vont"],
+            type: 'FillInTheBlanks',
+            correctAnswer: 1
+          },
+          {
+            question: "Bella: Je m'appelle Anne, et ______ ? (My name is Anne, and you?)",
+            choices: ["vous", "faisons", "allons", "avons"],
+            type: 'FillInTheBlanks',
+            correctAnswer: 1
+          },
+         
+          {
+            question: "Laurent: ______ m'appelle Pierre. (My name is Pierre.)",
+            choices: ["Je", "mangent", "lisent", "sont"],
+            type: 'FillInTheBlanks',
+            correctAnswer: 1
+          },
+          {
+            question: "Bella: ______ . (Nice to meet you.)",
+            choices: ["Enchantée", "fait", "mange", "vont"],
+            type: 'FillInTheBlanks',
+            correctAnswer: 1
+          },
+          
+          {
+            question: "Laurent: Je suis ______ d'anglais, et vous (I am an English teacher, and you?)",
+            choices: ["professeur", "est", "mange", "a"],
+            type:'FillInTheBlanks',
+            correctAnswer: 1
+          },
+          {
+            question: "Bella: Je suis ______ de français . (I am a French teacher.)",
+            choices: ["professeure", "faites", "lisez", "mangez"],
+            type: 'FillInTheBlanks',
+            correctAnswer: 1
+          },
+          {
+              question: "Bella: Vous ______ le café. (Do you like coffee?)",
+              choices: ["aimez", "faites", "lisez", "mangez"],
               type: 'FillInTheBlanks',
               correctAnswer: 1
-            },
-            {
-              question: "Laurent: ______, Madame. (Hello, Madam)",
-              choices: ["Bonjour", "a", "mange", "vont"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Bella: Je m'appelle Anne, et ______ ? (My name is Anne, and you?)",
-              choices: ["vous", "faisons", "allons", "avons"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Laurent: ______ m'appelle Pierre. (My name is Pierre.)",
-              choices: ["Je", "mangent", "lisent", "sont"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Bella: ______ . (Nice to meet you.)",
-              choices: ["Enchantée", "fait", "mange", "vont"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Laurent: Je suis ______ d'anglais, et vous (I am an English teacher, and you?)",
-              choices: ["professeur", "est", "mange", "a"],
-              type:'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Bella: Je suis ______ de français . (I am a French teacher.)",
-              choices: ["professeure", "faites", "lisez", "mangez"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-                question: "Bella: Vous ______ le café. (Do you like coffee?)",
-                choices: ["aimez", "faites", "lisez", "mangez"],
-                type: 'FillInTheBlanks',
-                correctAnswer: 1
-              },
+            },          
               {
                 question: "Laurent: J'adore le ______. (I love coffee.)",
                 choices: ["café", "faites", "lisez", "mangez"],
@@ -303,7 +304,18 @@ export const quiz = [
       level: 'Easy',
       topic: 'Mixed',
       questions: [
-
+        {
+          "question": "Which article is used for a masculine singular noun in French?",
+          "choices": ["La", "Le", "Une", "Les"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'les' mean in French?",
+          "choices": ["The (singular, masculine)", "The (plural, all genders)", "A (singular, feminine)", "A (singular, masculine)"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
         {
           question: 'What is the French word for "three"?',
           choices: ['Un', 'Trois', 'Deux', 'Quatre'],
@@ -315,6 +327,24 @@ export const quiz = [
           choices: ['Huit', 'Sept', 'Neuf', 'Dix'],
           type: 'MCQs',
           correctAnswer: 2,
+        },
+        {
+          "question": "What is the correct article for the word 'voiture' (car) in French?",
+          "choices": ["Un", "Une", "Le", "Les"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is the correct translation for 'the apple' in French?",
+          "choices": ["La pomme", "Le pomme", "Une pomme", "Des pommes"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which article is used for masculine singular nouns in French?",
+          "choices": ["La", "Les", "Un", "Des"],
+          "type": "MCQs",
+          "correctAnswer": 3
         },
         {
           question: "How do you say 'twelve' in French?",
@@ -359,6 +389,24 @@ export const quiz = [
           correctAnswer: 2,
         },
         {
+          "question": "Which of the following sentences is correct in French?",
+          "choices": ["J'ai un pommes.", "Elle a une pomme.", "Il a un pomme.", "Nous avons les pomme."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which article is used with plural nouns in French?",
+          "choices": ["Le", "La", "Les", "Une"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which article is used for a feminine singular noun starting with a vowel or silent 'h'?",
+          "choices": ["La", "L'", "Le", "Une"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           question: "What is the French word for 'nine'?",
           choices: ['Huit', 'Sept', 'Neuf', 'Dix'],
           type: 'MCQs',
@@ -395,6 +443,18 @@ export const quiz = [
           correctAnswer: 3,
         },
         {
+          "question": "Which article is used with plural nouns for things that are specific in French?",
+          "choices": ["Le", "Les", "La", "L'"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following sentences is correct in French?",
+          "choices": ["Nous avons des livres.", "Nous avons le livres.", "Nous avons un livres.", "Nous avons la livre."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
           question: "Which of the following letters is the last letter of the French alphabet?",
           choices: ['V', 'Y', 'Z', 'X'],
           type: 'MCQs',
@@ -425,6 +485,18 @@ export const quiz = [
           correctAnswer: 1,
         },
         {
+          "question": "______ livre est intéressant. (The book is interesting.)",
+          "choices": ["Le", "Un", "Une", "Les"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'ai ______ idée. (I have an idea.)",
+          "choices": ["Une", "Le", "Un", "Des"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
           "question": "'Four' in French is ______.",
           "choices": ["Quatre", "Cinq", "Six", "Trois"],
           "type": "FillInTheBlanks",
@@ -433,6 +505,24 @@ export const quiz = [
         {
           "question": "'Six' in French is ______.",
           "choices": ["Six", "Quatre", "Huit", "Dix"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ table est sur le côté. (The table is on the side.)",
+          "choices": ["La", "Un", "Une", "Les"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a ______ chats. (She has some cats.)",
+          "choices": ["Des", "Une", "Le", "Un"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ voiture est rouge. (The car is red.)",
+          "choices": ["La", "Un", "Le", "Une"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -463,6 +553,24 @@ export const quiz = [
         {
           "question": "'Three' in French is ______.",
           "choices": ["Trois", "Deux", "Un", "Quatre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ enfants jouent dans le jardin. (The children are playing in the garden.)",
+          "choices": ["Les", "Un", "Une", "Des"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il y a ______ garçon à l'école. (There is a boy at school.)",
+          "choices": ["Un", "Le", "Une", "Les"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ pomme est verte. (The apple is green.)",
+          "choices": ["La", "Un", "Une", "Les"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -511,6 +619,18 @@ export const quiz = [
         {
           "question": "In the French alphabet, the letter ______ comes after 'R'.",
           "choices": ["S", "Dix", "Quinze", "Trois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons ______ appartement à Paris. (We have an apartment in Paris.)",
+          "choices": ["Un", "Le", "Une", "Des"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ stylos sont sur la table. (The pens are on the table.)",
+          "choices": ["Les", "Un", "La", "Des"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -587,6 +707,53 @@ export const quiz = [
             {
               "left": { "word": "NEUF", "rightId": 10 },
               "right": { "word": "SIX", "rightId": 9 }
+            }
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Le livre", "rightId": 1 },
+              "right": { "word": "The school", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Un chat", "rightId": 2 },
+              "right": { "word": "The books", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Des pommes", "rightId": 3 },
+              "right": { "word": "An apple", "rightId": 7 }
+            },
+            {
+              "left": { "word": "La maison", "rightId": 4 },
+              "right": { "word": "Apples", "rightId": 3 }
+            },
+            {
+              "left": { "word": "L’école", "rightId": 5 },
+              "right": { "word": "A man", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Du lait", "rightId": 6 },
+              "right": { "word": "The book", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Une pomme", "rightId": 7 },
+              "right": { "word": "Milk", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Les livres", "rightId": 8 },
+              "right": { "word": "A cat", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Un homme", "rightId": 9 },
+              "right": { "word": "An orange", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Une Orange", "rightId": 10 },
+              "right": { "word": "The house", "rightId": 4 }
             }
           ],
         },

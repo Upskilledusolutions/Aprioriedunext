@@ -254,7 +254,7 @@ const Quiz = () => {
                       setFematch(true)
                       dispatch(addFinishedQuiz({questionType:questionType,exercise:quizId,language:subject}));
                       setResult(prev => ({
-                        correctAnswers: correctMatches,
+                        correctAnswers: correctMatches+prev.correctAnswers,
                         wrong: 10 - correctMatches
                       }));
                     }}
@@ -305,9 +305,9 @@ const Quiz = () => {
                 <div className={styles.margindena}>
                   <FaCheck className={styles.check} /> Correct Answers: {result.correctAnswers}
                 </div>
-                <div className={styles.margindena1}>
-                  <RxCross1 className={styles.cross} /> Wrong Answers: {filteredQuestions[activeQuestion].type === 'MatchTheFollowing' ? 10 - result.correctAnswers : result.wrong - 1}
-                </div>
+                {filteredQuestions[activeQuestion].type === 'MatchTheFollowing' ? "" : <div className={styles.margindena1}>
+                  <RxCross1 className={styles.cross} /> Wrong Answers: {result.wrong - 1}
+                </div>}
                 <button className={styles.mgright} onClick={reloadPage}>Retry Quiz</button>
                 {filteredQuestions[activeQuestion].type !== 'MatchTheFollowing' && <button onClick={()=>setShowreport(!showreport)}>Show Report</button>}
 

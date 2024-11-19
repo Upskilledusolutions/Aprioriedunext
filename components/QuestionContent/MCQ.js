@@ -1,8 +1,7 @@
 import styles from '../../src/styles/quiz/quiz.module.css'; // Assuming styles are in the same folder
 
-const MCQComponent = ({ question, onAnswerSelected, selectedOption, isSubmitted }) => {
+const MCQComponent = ({ question, onAnswerSelected, selectedOption, isSubmitted, number }) => {
   const { choices, correctAnswer } = question;
-
   return (
     <div>
       <h2>{question.question}</h2>

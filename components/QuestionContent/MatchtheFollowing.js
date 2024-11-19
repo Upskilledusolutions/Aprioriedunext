@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from '../../src/styles/MatchTheFollowing.module.css';
 
-const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
+const MatchTheFollowingGame = ({ questionData, onNext, onResult, number }) => {
     const [availablePairs, setAvailablePairs] = useState([]);
     const [selectedLeftItem, setSelectedLeftItem] = useState(null);
     const [selectedRightItem, setSelectedRightItem] = useState(null);
@@ -13,6 +13,7 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult }) => {
     const leftRefs = useRef({});
     const rightRefs = useRef({});
     const svgContainerRef = useRef(null);
+    console.log(number)
 
     useEffect(() => {
         if (questionData) {
