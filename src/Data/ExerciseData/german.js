@@ -311,6 +311,12 @@ export const quiz = [
         "correctAnswer": 3
       },
       {
+        "question": "What is the correct article for 'Auto'?",
+        "choices": ["Der", "Die", "Das", "Ein"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
         "question": "How do you say 'seven' in German?",
         "choices": ["Sechs", "Sieben", "Acht", "Neun"],
         "type": "MCQs",
@@ -329,6 +335,12 @@ export const quiz = [
         "correctAnswer": 3
       },
       {
+        "question": "Which is the indefinite article for a feminine noun?",
+        "choices": ["Ein", "Eine", "Der", "Das"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "How do you say 'fourteen' in German?",
         "choices": ["Vierzehn", "Fünfzehn", "Sechzehn", "Siebenzehn"],
         "type": "MCQs",
@@ -337,6 +349,12 @@ export const quiz = [
       {
         "question": "What is the German word for 'six'?",
         "choices": ["Fünf", "Sechs", "Sieben", "Acht"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct definite article for 'Buch'?",
+        "choices": ["Der", "Das", "Die", "Ein"],
         "type": "MCQs",
         "correctAnswer": 2
       },
@@ -353,6 +371,12 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "What is the correct article for 'Mann'?",
+        "choices": ["Der", "Die", "Das", "Ein"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
         "question": "How do you say 'twenty' in German?",
         "choices": ["Zehn", "Zwanzig", "Dreißig", "Viertzig"],
         "type": "MCQs",
@@ -367,6 +391,18 @@ export const quiz = [
       {
         "question": "How do you say 'six' in German?",
         "choices": ["Fünf", "Sechs", "Sieben", "Acht"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which article should be used for 'Katze'?",
+        "choices": ["Das", "Ein", "Die", "Eine"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which definite article goes with 'Lehrer'?",
+        "choices": ["Die", "Der", "Das", "Ein"],
         "type": "MCQs",
         "correctAnswer": 2
       },
@@ -395,8 +431,20 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "What is the indefinite article for 'Apfel'?",
+        "choices": ["Eine", "Das", "Der", "Ein"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
         "question": "Which of these letters does not traditionally belong to the German alphabet but is used in borrowed words?",
         "choices": ["X", "Q", "Y", "W"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct definite article for 'Stadt'?",
+        "choices": ["Das", "Der", "Die", "Ein"],
         "type": "MCQs",
         "correctAnswer": 3
       },
@@ -419,6 +467,18 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Which article matches with 'Blume'?",
+        "choices": ["Der", "Die", "Ein", "Das"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What article should be used for 'Glas'?",
+        "choices": ["Die", "Das", "Der", "Eine"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "Which letter comes right before 'P' in the German alphabet?",
         "choices": ["O", "M", "N", "L"],
         "type": "MCQs",
@@ -433,6 +493,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ Hund ist groß und freundlich.",
+        "choices": ["Der", "Die", "Das", "Ein"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "'Nine' in German is ______.",
         "choices": ["Neun", "Sechzehn", "Neeun", "Zwanzig"],
         "type": "FillInTheBlanks",
@@ -441,6 +507,12 @@ export const quiz = [
       {
         "question": "'One' in German is ______.",
         "choices": ["Eins", "Sieben", "Drei", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe ______ Buch auf dem Tisch gesehen.",
+        "choices": ["Ein", "Eine", "Der", "Das"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -463,6 +535,18 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ Mädchen spielt im Park.",
+        "choices": ["Das", "Der", "Die", "Ein"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Kannst du ______ Apfel für mich holen?",
+        "choices": ["Einen", "Ein", "Eine", "Das"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "'Eleven' in German is ______.",
         "choices": ["Elf", "Sechzehn", "Neun", "Vier"],
         "type": "FillInTheBlanks",
@@ -475,6 +559,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ Auto ist sehr teuer.",
+        "choices": ["Das", "Ein", "Der", "Die"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "'Sixteen' in German is ______.",
         "choices": ["Sechzehn", "Drei", "Neun", "Elf"],
         "type": "FillInTheBlanks",
@@ -483,6 +573,18 @@ export const quiz = [
       {
         "question": "'Twelve' in German is ______.",
         "choices": ["zwölf", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie hat ______ Katze als Haustier.",
+        "choices": ["Eine", "Ein", "Der", "Das"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ Lehrer erklärt die Aufgabe.",
+        "choices": ["Der", "Die", "Das", "Ein"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -501,6 +603,12 @@ export const quiz = [
       {
         "question": "'Eighteen' in German is ______.",
         "choices": ["Achtzehn", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich trinke ______ Glas Wasser.",
+        "choices": ["Ein", "Eine", "Das", "Der"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -531,6 +639,18 @@ export const quiz = [
       {
         "question": "In the German alphabet, the letter ______ comes after 'S'.",
         "choices": ["T", "Drei", "Neun", "Elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ Stadt ist sehr schön.",
+        "choices": ["Die", "Das", "Der", "Eine"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er möchte ______ Tee bestellen.",
+        "choices": ["Einen", "Ein", "Eine", "Das"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -591,6 +711,52 @@ export const quiz = [
       "right": { "word": "FOUR", "rightId": 6 }
     }
   ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+  "pairs": [
+    {
+      "left": { "word": "Der Tisch", "rightId": 1 },
+      "right": { "word": "The school", "rightId": 10 }
+    },
+    {
+      "left": { "word": "Die Lampe", "rightId": 2 },
+      "right": { "word": "A flower", "rightId": 9 }
+    },
+    {
+      "left": { "word": "Das Buch", "rightId": 3 },
+      "right": { "word": "A child", "rightId": 8 }
+    },
+    {
+      "left": { "word": "Ein Hund", "rightId": 4 },
+      "right": { "word": "A lamp", "rightId": 2 }
+    },
+    {
+      "left": { "word": "Eine Katze", "rightId": 5 },
+      "right": { "word": "The table", "rightId": 1 }
+    },
+    {
+      "left": { "word": "Der Stuhl", "rightId": 6 },
+      "right": { "word": "The car", "rightId": 7 }
+    },
+    {
+      "left": { "word": "Das Auto", "rightId": 7 },
+      "right": { "word": "The book", "rightId": 3 }
+    },
+    {
+      "left": { "word": "Ein Kind", "rightId": 8 },
+      "right": { "word": "A dog", "rightId": 4 }
+    },
+    {
+      "left": { "word": "Eine Blume", "rightId": 9 },
+      "right": { "word": "A cat", "rightId": 5 }
+    },
+    {
+      "left": { "word": "Die Schule", "rightId": 10 },
+      "right": { "word": "The chair", "rightId": 6 }
+    }
+  ]
 }
 
     ]
@@ -609,6 +775,12 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "______ Mutter ist Lehrerin. (My mother is a teacher.)",
+        "choices": ["deine", "seine", "meine", "eure"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
         "question": "What does \"fünf\" mean in English?",
         "choices": ["Five", "Six", "Seven", "Eight"],
         "type": "MCQs",
@@ -620,6 +792,12 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+       {
+    "question": "Das ist Paul. ______ Hund ist schwarz. (Paul’s dog is black.)",
+    "choices": ["ihr", "sein", "unser", "dein"],
+    "type": "MCQs",
+    "correctAnswer": 2
+  },
       {
         "question": "What is the German word for \"friend\"?",
         "choices": ["Feind", "Freund", "Begleiter", "Lehrer"],
@@ -631,6 +809,12 @@ export const quiz = [
         "choices": ["Twenty", "Thirty", "Forty", "Fifty"],
         "type": "MCQs",
         "correctAnswer": 2
+      },
+      {
+        "question": "Wir haben ______ Haus verkauft. (We sold our house.)",
+        "choices": ["mein", "ihr", "unser", "euer"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
         "question": "Which of the following means \"to write\" in German?",
@@ -651,6 +835,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Wo sind ______ Kinder? (Where are your children? - plural)",
+        "choices": ["ihre", "eure", "seine", "dein"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "Which word means \"food\" in German?",
         "choices": ["Wasser", "Essen", "Suppe", "Obst"],
         "type": "MCQs",
@@ -667,6 +857,18 @@ export const quiz = [
         "choices": ["Haus", "Familie", "Gruppe", "Gemeinschaft"],
         "type": "MCQs",
         "correctAnswer": 2
+      },
+      {
+        "question": "Ich suche ______ Bleistift. (I am looking for my pencil.)",
+        "choices": ["sein", "ihr", "meine", "mein"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Hast du ______ Buch gelesen? (Did you read your book?)",
+        "choices": ["dein", "ihre", "sein", "unser"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
         "question": "What does \"acht\" mean in English?",
@@ -693,6 +895,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Frau Schmitt liebt ______ Hund. (Mrs. Schmitt loves her dog.)",
+        "choices": ["ihr", "seine", "euer", "dein"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
         "question": "Which word means \"city\" in German?",
         "choices": ["Dorf", "Stadt", "Land", "Gemeinde"],
         "type": "MCQs",
@@ -705,8 +913,26 @@ export const quiz = [
         "correctAnswer": 4
       },
       {
+        "question": "Die Studenten haben ______ Notizen geteilt. (The students shared their notes.)",
+        "choices": ["unsere", "ihre", "euer", "mein"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "What does \"waschen\" mean?",
         "choices": ["To cook", "To clean", "To dance", "To run"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Ist das ______ Jacke? (Is this your jacket? - formal)",
+        "choices": ["euer", "dein", "Ihre", "seine"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Er hat ______ Schwester besucht. (He visited his sister.)",
+        "choices": ["eure", "seine", "unser", "ihr"],
         "type": "MCQs",
         "correctAnswer": 2
       },
@@ -731,8 +957,20 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Ich habe ein Auto. ______ Auto ist rot.",
+        "choices": ["mein", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Ich habe ______ (three) Katzen.",
         "choices": ["drei", "zwei", "e", "vier"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hast du die Bücher? ______ Bücher sind sehr interessant.",
+        "choices": ["dein", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -745,6 +983,12 @@ export const quiz = [
       {
         "question": "Meine Lieblingsfarbe ist ______ (yellow).",
         "choices": ["blau", "e", "gelb", "grün"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie liebt ______ Katze sehr.",
+        "choices": ["ihr", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -767,6 +1011,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Wir besuchen ______ Freunde morgen.",
+        "choices": ["unsere", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Die ______ (color) ihres Kleides ist rosa.",
         "choices": ["Farbe", "Schuhe", "Tasche", "Hut"],
         "type": "FillInTheBlanks",
@@ -781,6 +1031,18 @@ export const quiz = [
       {
         "question": "Ich werde einen Film ______ (to watch) heute Abend.",
         "choices": ["ansehen", "lesen", "essen", "spielen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das ist Thomas. ______ Bruder wohnt in Berlin.",
+        "choices": ["sein", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Kinder, wo sind ______ Schuhe?",
+        "choices": ["eure", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -803,6 +1065,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Ich sehe Anna und ______ Hund im Park.",
+        "choices": ["ihren", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Ich muss für die Prüfung ______ (to study).",
         "choices": ["lernen", "spielen", "essen", "trinken"],
         "type": "FillInTheBlanks",
@@ -811,6 +1079,18 @@ export const quiz = [
       {
         "question": "Das Haus hat ______ (ten) Fenster.",
         "choices": ["zehn", "neun", "e", "elf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Peter und Maria haben ______ Haus renoviert.",
+        "choices": ["ihr", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wo ist ______ Tasche? Ich finde sie nicht.",
+        "choices": ["meine", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -835,6 +1115,12 @@ export const quiz = [
       {
         "question": "Meine Schwester ist ______ (eight) Jahre alt.",
         "choices": ["acht", "sieben", "e", "neun"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Herr Müller, ist das ______ Auto?",
+        "choices": ["Ihr", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -900,7 +1186,64 @@ export const quiz = [
     }
   ]
 
-}
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Mein Buch", "rightId": 1 },
+      "right": { "word": "Their house", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Dein Auto", "rightId": 2 },
+      "right": { "word": "Your car", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Sein Hund", "rightId": 3 },
+      "right": { "word": "My book", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Ihr Garten", "rightId": 4 },
+      "right": { "word": "His dog", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Unser Tisch", "rightId": 5 },
+      "right": { "word": "Their family", "rightId": 10 }
+
+    },
+    {
+      "left": { "word": "Euer Zimmer", "rightId": 6 },
+      "right": { "word": "Her apartment", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Ihre Wohnung", "rightId": 7 },
+      "right": { "word": "Our family", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Unser Vater", "rightId": 8 },
+      "right": { "word": "Your (plural) room", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Ihr Haus", "rightId": 9 },
+      "right": { "word": "Their garden", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Ihre Familie", "rightId": 10 },
+      "right": { "word": "Our father", "rightId": 8 }
+      
+    }
+  ]
+
+},
 
     ]
   },
@@ -1227,6 +1570,12 @@ export const quiz = [
         "correctAnswer": 2
     },
     {
+      "question": "What is the German word for “juice”?",
+      "choices": ["Tee", "Wasser", "Saft", "Bier"],
+      "type": "MCQs",
+      "correctAnswer": 3
+    },
+    {
         "question": "What does \"Cousin\" mean in English?",
         "choices": ["Onkel", "Cousin", "Bruder", "Neffe"],
         "type": "MCQs",
@@ -1237,6 +1586,12 @@ export const quiz = [
         "choices": ["Großvater", "Tante", "Großmutter", "Schwester"],
         "type": "MCQs",
         "correctAnswer": 3
+    },
+    {
+      "question": "Which article fits correctly: “_____ Apfel”?",
+      "choices": ["eine", "ein", "die", "der"],
+      "type": "MCQs",
+      "correctAnswer": 2
     },
     {
         "question": "What is the English word for \"Nichte\"?",
@@ -1257,6 +1612,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "What does “Käse” mean?",
+      "choices": ["Cake", "Cheese", "Bread", "Juice"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
         "question": "How do you conjugate \"essen\" (to eat) for \"sie\" (feminine)?",
         "choices": ["Isst", "Essen", "Essst", "Isst"],
         "type": "MCQs",
@@ -1273,6 +1634,12 @@ export const quiz = [
         "choices": ["Sprichst", "Spreche", "Sprechen", "Spricht"],
         "type": "MCQs",
         "correctAnswer": 2
+    },
+    {
+      "question": "Which is correct: “Ich trinke _____ Kaffee”?",
+      "choices": ["eine", "ein", "der", "das"],
+      "type": "MCQs",
+      "correctAnswer": 2
     },
     {
         "question": "How do you conjugate \"trinken\" (to drink) for \"sie\" (plural)?",
@@ -1293,10 +1660,28 @@ export const quiz = [
         "correctAnswer": 2
     },
     {
+      "question": "What is the German term for “beer”?",
+      "choices": ["Wasser", "Kuchen", "Tee", "Bier"],
+      "type": "MCQs",
+      "correctAnswer": 4
+    },
+    {
+      "question": "What is the correct word for “water”?",
+      "choices": ["Wasser", "Suppe", "Saft", "Milch"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
         "question": "What is the pronoun for \"he\"?",
         "choices": ["Sie", "Er", "Wir", "Ich"],
         "type": "MCQs",
         "correctAnswer": 2
+    },
+    {
+      "question": "Which partitive article would you use for “Pizza”?",
+      "choices": ["eine", "ein", "der", "das"],
+      "type": "MCQs",
+      "correctAnswer": 1
     },
     {
         "question": "Which pronoun do we use for \"they\" (feminine)?",
@@ -1311,6 +1696,18 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "What does “Suppe” mean?",
+      "choices": ["Soup", "Water", "Tea", "Cake"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
+      "question": "“Kuchen” refers to which food item?",
+      "choices": ["Milk", "Cheese", "Cake", "Juice"],
+      "type": "MCQs",
+      "correctAnswer": 3
+    },
+    {
         "question": "How do you say \"thirty-five\" in German?",
         "choices": ["fünfunddreißig", "dreißig", "vierzig", "zwanzig"],
         "type": "MCQs",
@@ -1321,6 +1718,12 @@ export const quiz = [
         "choices": ["zweiundvierzig", "dreißig", "vierzig", "fünfzig"],
         "type": "MCQs",
         "correctAnswer": 1
+    },
+    {
+      "question": "What is the translation of “Tee”?",
+      "choices": ["Beer", "Water", "Tea", "Juice"],
+      "type": "MCQs",
+      "correctAnswer": 3
     },
     {
       "question": 'How do you say "aunt" in German?',
@@ -1349,10 +1752,22 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Ich möchte ______ (ein/eine) Apfel essen.",
+      "choices": ["einen", "ein", "eine", "der"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
         "question": "Die ______ (sister) von Anna ist sehr nett.",
         "choices": ["Schwester", "Schwester1", "Onkel", "Großeltern"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "Zum Frühstück trinke ich gern ______ (ein/eine) Kaffee. ",
+      "choices": ["einen", "ein", "eine", "der"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Mein ______ (uncle) wohnt in Berlin.",
@@ -1365,6 +1780,12 @@ export const quiz = [
         "choices": ["Großeltern", "Schwester", "Onkel", "Großelternew"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "Wir haben ______ (ein/eine) Brot gekauft.",
+      "choices": ["ein", "einen", "eine", "das"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Ich ______ (to read) ein interessantes Buch.",
@@ -1385,6 +1806,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Sie trinkt ______ (ein/eine) Tee mit Zucker.",
+      "choices": ["einen", "ein", "eine", "der"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
         "question": "Du ______ (to speak) sehr gut Deutsch.",
         "choices": ["sprichst", "spreche", "spricht", "sprechen"],
         "type": "FillInTheBlanks",
@@ -1401,6 +1828,18 @@ export const quiz = [
         "choices": ["lernt", "lernst", "lernte", "lernen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "Peter isst ______ (ein/eine) Banane zum Mittagessen.",
+      "choices": ["eine", "ein", "einen", "der"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Hast du ______ (ein/eine) Wasser?",
+      "choices": ["ein", "einen", "eine", "das"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "______ (I) habe keine Zeit.",
@@ -1421,6 +1860,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Er bestellt ______ (ein/eine) Cola im Restaurant.",
+      "choices": ["eine", "einen", "ein", "die"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
         "question": "______ (We) gehen heute Abend essen.",
         "choices": ["Wir", "Du", "Er", "Sie"],
         "type": "FillInTheBlanks",
@@ -1439,6 +1884,18 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Zum Abendessen brauche ich ______ (ein/eine) Suppe.",
+      "choices": ["eine", "ein", "einen", "die"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wir teilen ______ (ein/eine) Pizza.",
+      "choices": ["eine", "ein", "einen", "die"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
         "question": "______ (He) mag Musik.",
         "choices": ["Er", "Sie", "Wir", "Du"],
         "type": "FillInTheBlanks",
@@ -1449,6 +1906,12 @@ export const quiz = [
         "choices": ["Sie", "Wir", "Du", "Er"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "Ich nehme ______ (ein/eine) Bier, bitte.",
+      "choices": ["ein", "einen", "eine", "der"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Ich habe ______ (twenty) Äpfel gekauft.",
@@ -1518,6 +1981,63 @@ export const quiz = [
     }
   ]
 
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Brot", "rightId": 1 },
+      "right": { "word": "Juice", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Milch", "rightId": 2 },
+      "right": { "word": "Soup", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Apfel", "rightId": 3 },
+      "right": { "word": "Tea", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Tee", "rightId": 4 },
+      "right": { "word": "Cake", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Suppe", "rightId": 5 },
+      "right": { "word": "Cheese", "rightId": 6 }
+
+    },
+    {
+      "left": { "word": "Käse", "rightId": 6 },
+      "right": { "word": "Water", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "Saft", "rightId": 7 },
+      "right": { "word": "Bread", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Bier", "rightId": 8 },
+      "right": { "word": "Apple", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Wasser", "rightId": 9 },
+      "right": { "word": "Milk", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Kuchen", "rightId": 10 },
+      "right": { "word": "Beer", "rightId": 8 }
+      
+    }
+  ]
+
 }
 
     ]
@@ -1536,6 +2056,12 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "__________ (Dieser/Diese) Tisch ist neu.",
+        "choices": ["Dieser", "Diese", "Diese", "Dies"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
         "question": "What does \"Danke\" mean in English?",
         "choices": ["Please", "Goodbye", "Thank you", "Sorry"],
         "type": "MCQs",
@@ -1546,6 +2072,12 @@ export const quiz = [
         "choices": ["Bis später", "Tschüss", "Gute Nacht", "Guten Abend"],
         "type": "MCQs",
         "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe __________ (dieser/diese) Hund gestern gesehen.",
+        "choices": ["dieser", "diese", "diesen", "dieser"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
         "question": "What does \"Entschuldigung\" mean in English?",
@@ -1566,6 +2098,18 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "__________ (Diese/Dieser) Apfel ist rot.",
+        "choices": ["Diese", "Dies", "Dieser", "Diese"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "__________ (Dieser/Diese) Stadt ist sehr alt.",
+        "choices": ["Dieser", "Diese", "Dies", "Diese"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "How do you say \"Goodbye\" in German?",
         "choices": ["Hallo", "Auf Wiedersehen", "Tschüss", "Gute Nacht"],
         "type": "MCQs",
@@ -1580,6 +2124,12 @@ export const quiz = [
       {
         "question": "What does \"Freund\" mean in English?",
         "choices": ["Friend", "Family", "Teacher", "Neighbor"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "__________ (Dieser/Diese) Haus ist modern.",
+        "choices": ["Dieser", "Diese", "Dies", "Diese"],
         "type": "MCQs",
         "correctAnswer": 1
       },
@@ -1608,6 +2158,18 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "__________ (Diese/Dieser) Blumen sind schön.",
+        "choices": ["Diese", "Dies", "Diese", "Dieser"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "__________ (Dieser/Diese) Morgen ist sonnig.",
+        "choices": ["Dieser", "Diese", "Dies", "Diese"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
         "question": "How do you say \"Dog\" in German?",
         "choices": ["Katze", "Pferd", "Hund", "Kaninchen"],
         "type": "MCQs",
@@ -1626,6 +2188,12 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "__________ (Dieser/Diese) Buch gehört mir.",
+        "choices": ["Dieser", "Diese", "Dies", "Diese"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "What does Peter say to Stefan to invite him?",
         "choices": ["Möchtest du zu mir kommen?", "Wo ist die Bibliothek?", "Magst du Filme?", "Willst du in den Park gehen?"],
         "type": "MCQs",
@@ -1638,10 +2206,22 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "__________ (Dies/Dieser) Auto ist teuer.",
+        "choices": ["Dies", "Dies", "Dieser", "Diese"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
         "question": "What could Peter say to know the time?",
         "choices": ["Wann kommen wir an?", "Willst du einen Film sehen?", "Wo ist die Uhr?", "Was machst du morgen?"],
         "type": "MCQs",
         "correctAnswer": 1
+      },
+      {
+        "question": "Ich mag __________ (dieser/diese) Musik sehr.",
+        "choices": ["Dieser", "Diese", "Dies", "Diese"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
         "question": "If Stefan wants to know the plan for tomorrow, how would he ask?",
@@ -1658,6 +2238,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Die Stadt ist ______ (beautiful) und groß.",
+        "choices": ["schön", "groß","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Freund 2: Guten Morgen, ______ (I) geht’s gut, danke. Und dir?",
         "choices": ["mir","fg","sd","er"],
         "type": "FillInTheBlanks",
@@ -1670,8 +2256,26 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "In der Stadt gibt es viele ______ (shops).",
+        "choices": ["Geschäfte","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Freund 2: Was ______ (to do) du heute?",
         "choices": ["machst","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Park ist ______ (near) dem Bahnhof.",
+        "choices": ["nahe", "Bahnhof","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In dieser ______ (village), sind die Häuser sehr klein.",
+        "choices": ["Dorf", "klein","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1694,6 +2298,18 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Der ______ (river) fließt durch die Stadt.",
+        "choices": ["Fluss", "Stadt","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das ______ (museum) ist weit vom Hotel.",
+        "choices": ["Museum", "weit", "Hotel","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Freund 2: Super! Wann ______ (to meet) wir uns?",
         "choices": ["treffen","fg","sd","er"],
         "type": "FillInTheBlanks",
@@ -1706,8 +2322,26 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ (There) ist ein schöner Blick von meinem Fenster.",
+        "choices": ["Da", "Blick","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Freund 2: Toll! Welchen Film ______ (to watch) wir uns an?",
         "choices": ["schauen","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die ______ (street) ist lang und hat viele Gebäude.",
+        "choices": ["Straße", "lang", "Gebäude"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In ______ (this) Dorf gibt es keine Restaurants.",
+        "choices": ["diesem", "Restaurants"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1720,6 +2354,12 @@ export const quiz = [
       {
         "question": "Freund 2: Klasse! Ich ______ (love) lustige Filme.",
         "choices": ["liebe","fg","sd","er"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (mountain) ist hoch und schön.",
+        "choices": ["Berg", "hoch", "schön"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1777,7 +2417,7 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Hund", "rightId": 1 },
-      "right": { "word": "Table", "rightId": 10 }
+      "right": { "word": "Table", "rightId": 7 }
 
     },
     {
@@ -1792,17 +2432,17 @@ export const quiz = [
     },
     {
       "left": { "word": "Buch", "rightId": 4 },
-      "right": { "word": "Friend", "rightId": 7 }
+      "right": { "word": "Friend", "rightId": 10 }
       
     },
     {
       "left": { "word": "Fenster", "rightId": 5 },
-      "right": { "word": "Family", "rightId": 6 }
+      "right": { "word": "Family", "rightId": 1 }
 
     },
     {
       "left": { "word": "Familie", "rightId": 6 },
-      "right": { "word": "Window", "rightId": 5 }
+      "right": { "word": "Window", "rightId": 2 }
       
     },
     {
@@ -1817,12 +2457,69 @@ export const quiz = [
     },
     {
       "left": { "word": "Schule", "rightId": 9 },
-      "right": { "word": "Sister", "rightId": 2 }
+      "right": { "word": "Sister", "rightId": 6 }
       
     },
     {
       "left": { "word": "Tisch", "rightId": 10 },
-      "right": { "word": "Dog", "rightId": 1 }
+      "right": { "word": "Dog", "rightId": 5 }
+      
+    }
+  ]
+
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Die Küche", "rightId": 1 },
+      "right": { "word": "The chair", "rightId": 7 }
+
+    },
+    {
+      "left": { "word": "Das Wohnzimmer", "rightId": 2 },
+      "right": { "word": "The bathroom", "rightId": 9 }
+
+    },
+    {
+      "left": { "word": "Das Schlafzimmer", "rightId": 3 },
+      "right": { "word": "The TV", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Der Tisch", "rightId": 4 },
+      "right": { "word": "The wall", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Die Lampe", "rightId": 5 },
+      "right": { "word": "The kitchen", "rightId": 1 }
+
+    },
+    {
+      "left": { "word": "Der Teppich", "rightId": 6 },
+      "right": { "word": "The living room", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Der Stuhl", "rightId": 7 },
+      "right": { "word": "The table", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Der Fernseher", "rightId": 8 },
+      "right": { "word": "The bedroom", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Das Badezimmer", "rightId": 9 },
+      "right": { "word": "The carpet", "rightId": 6 }
+      
+    },
+    {
+      "left": { "word": "Die Wand", "rightId": 10 },
+      "right": { "word": "The lamp", "rightId": 5 }
       
     }
   ]
@@ -1845,6 +2542,12 @@ export const quiz = [
         "correctAnswer": 2
     },
     {
+      "question": "Which season comes after winter in Germany?",
+      "choices": ["Summer", "Autumn", "Spring", "Winter"],
+      "type": "MCQs",
+      "correctAnswer": 3
+    },
+    {
         "question": "How do you say 'We are friends' in German?",
         "choices": [ "Sie sind Freunde", "Du bist Freunde","Wir sind Freunde", "Ich bin Freunde"],
         "type": "MCQs",
@@ -1855,6 +2558,12 @@ export const quiz = [
         "choices": [ "Sie sind mein Lehrer", "Er ist mein Lehrer","Du bist mein Lehrer", "Wir sind mein Lehrer"],
         "type": "MCQs",
         "correctAnswer": 3
+    },
+    {
+      "question": "The German word for 'rain' is:",
+      "choices": ["Sonne", "Schnee", "Regen", "Wolke"],
+      "type": "MCQs",
+      "correctAnswer": 3
     },
     {
         "question": "How do you say 'They are students' in German?",
@@ -1875,6 +2584,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "What is the German word for 'windy'?",
+      "choices": ["Windig", "Wolkig", "Heiß", "Kalt"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
         "question": "How do you say 'They are happy' in German?",
         "choices": [ "Sie ist glücklich","Sie sind glücklich", "Ich bin glücklich", "Wir sind glücklich"],
         "type": "MCQs",
@@ -1891,6 +2606,18 @@ export const quiz = [
         "choices": [ "Ingenieure", "Ingenieuren","Ingenieurin", "Ingenieurein"],
         "type": "MCQs",
         "correctAnswer": 3
+    },
+    {
+      "question": "If it is very cold, which adjective would you use?",
+      "choices": ["Warm", "Kalt", "Heiß", "Sonnig"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
+      "question": "In which season do flowers typically bloom in Germany?",
+      "choices": ["Winter", "Summer", "Spring", "Autumn"],
+      "type": "MCQs",
+      "correctAnswer": 3
     },
     {
         "question": "How do you say 'Cuban' in German for a woman?",
@@ -1911,6 +2638,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "What does 'es regnet' mean?",
+      "choices": ["It is sunny", "It is raining", "It is snowing", "It is windy"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
         "question": "What is the feminine form of 'singer'?",
         "choices": [ "Sänger", "Sängerinnen", "Sängerin", "Sängeren"],
         "type": "MCQs",
@@ -1921,6 +2654,12 @@ export const quiz = [
         "choices": [ "Argentinierin", "Argentinier", "Argentinische", "Argentiniern"],
         "type": "MCQs",
         "correctAnswer": 2
+    },
+    {
+      "question": "Which of these adjectives means 'sunny'?",
+      "choices": ["Wolkig", "Heiß", "Sonnig", "Kalt"],
+      "type": "MCQs",
+      "correctAnswer": 3
     },
     {
         "question": "How do you say 'American' in German?",
@@ -1935,6 +2674,12 @@ export const quiz = [
         "correctAnswer": 4
     },
     {
+      "question": "What is the German term for 'cloud'?",
+      "choices": ["Sonne", "Wolke", "Regen", "Wind"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
         "question": "How do you form the sentence 'They have a cat' in German?",
         "choices": [ "Sie haben eine Katzen","Sie haben eine Katze", "Wir haben eine Katze", "Ich habe eine Katze"],
         "type": "MCQs",
@@ -1945,6 +2690,18 @@ export const quiz = [
         "choices": [ "Ich bin meine Freundin","Sie ist meine Freundin", "Sie sind meine Freundin", "Du bist meine Freundin"],
         "type": "MCQs",
         "correctAnswer": 2
+    },
+    {
+      "question": "Which season is typically associated with cold and snow in Germany?",
+      "choices": ["Summer", "Winter", "Autumn", "Spring"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
+      "question": "What is the German translation of 'autumn'?",
+      "choices": ["Sommer", "Frühling", "Herbst", "Winter"],
+      "type": "MCQs",
+      "correctAnswer": 3
     },
     {
         "question": "How do you form the sentence 'You have a book' in German?",
@@ -1967,6 +2724,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Im ______ (summer) scheint die Sonne oft.",
+      "choices": ["Sommer", "bist", "ist", "sind"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
+    {
         "question": "Du ______ (to be) meine Freundin.",
         "choices": ["bist", "bin", "ist", "sind"],
         "type": "FillInTheBlanks",
@@ -1978,6 +2741,12 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
+    {
+      "question": "Im ______ (winter) ist es meistens kalt.",
+      "choices": ["Winter", "bin", "bist", "sind"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
     {
         "question": "Wir ______ (to be) glücklich.",
         "choices": ["sind", "bist", "ist", "bin"],
@@ -1991,6 +2760,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Der ______ (cloud) ist grau und bedeckt den Himmel.",
+      "choices": ["Wolke", "bist", "ist", "bin"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
+    {
         "question": "Ich ______ (to call myself) Anna.",
         "choices": ["heiße", "bin", "habe", "ist"],
         "type": "FillInTheBlanks",
@@ -2003,6 +2778,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Heute ist das Wetter ______ (windy).",
+      "choices": ["habe", "hat", "bist", "sind"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
+    {
         "question": "Er ______ (to have) ein Buch.",
         "choices": ["hat", "habe", "bist", "sind"],
         "type": "FillInTheBlanks",
@@ -2014,6 +2795,12 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
+    {
+      "question": "Es ______ (rain) heute sehr stark.",
+      "choices": ["regnet", "hat", "habe", "bist"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
     {
         "question": "Du ______ (to have) eine schöne Wohnung.",
         "choices": ["hast", "hat", "bist", "sind"],
@@ -2033,6 +2820,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Der ______ (snow) hat gestern Nacht gefallen.",
+      "choices": ["Schnee", "deutschere", "deutsche", "deutsch"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
+    {
         "question": "Sie ist ______ (a profession).",
         "choices": ["Ärztin", "arzt", "ärztine", "ärzte"],
         "type": "FillInTheBlanks",
@@ -2044,6 +2837,18 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
+    {
+      "question": "Es wird ______ (sunny) morgen.",
+      "choices": ["sonnig", "französisch", "franzosen", "franzose"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
+  {
+    "question": "Ich mag den ______ (autumn) wegen der bunten Blätter.",
+    "choices": ["Herbst", "französisch", "franzosen", "franzose"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+},
     {
         "question": "Er ist ______ (a profession).",
         "choices": ["Tänzer", "tänzere", "tanzende", "tanz"],
@@ -2063,6 +2868,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Im ______ (spring) blühen die Blumen.",
+      "choices": ["Frühling", "lehrer", "lehrerin", "lehren"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
+    {
         "question": "Ich bin ______ (masculine nationality).",
         "choices": ["Italiener", "italienisch", "italiener", "italienerin"],
         "type": "FillInTheBlanks",
@@ -2074,6 +2885,12 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
+    {
+      "question": "Im Sommer ist es ______ (hot) in Indien.",
+      "choices": ["heiß", "ingenieur", "ingenieurin", "ingenieure"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+  },
     {
         "question": "Sie sind ______ (masculine nationality).",
         "choices": ["Amerikaner", "amerikanisch", "amerikaner", "amerikanerin"],
@@ -2132,6 +2949,62 @@ export const quiz = [
     {
       "left": { "word": "Kanadier", "rightId": 10 },
       "right": { "word": "Doctor", "rightId": 4 }
+      
+    }
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Cloudy", "rightId": 1 },
+      "right": { "word": "Windig", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Rainy", "rightId": 2 },
+      "right": { "word": "Schneebedeckt", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Windy", "rightId": 3 },
+      "right": { "word": "Sonnig", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Snowy", "rightId": 4 },
+      "right": { "word": "Wolkig", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Sunny", "rightId": 5 },
+      "right": { "word": "Kalt", "rightId": 6 }
+
+    },
+    {
+      "left": { "word": "Cold", "rightId": 6 },
+      "right": { "word": "Heiß", "rightId": 7 }
+      
+    },
+    {
+      "left": { "word": "Hot", "rightId": 7 },
+      "right": { "word": "Warm", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Warm", "rightId": 8 },
+      "right": { "word": "Herbst", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "Autumn", "rightId": 9 },
+      "right": { "word": "Frühling", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Spring", "rightId": 10 },
+      "right": { "word": "Regnerisch", "rightId": 2 }
       
     }
   ]
@@ -2459,11 +3332,12 @@ export const quiz = [
         "correctAnswer": 3
     },
     {
-        "question": "If you were born on February 12th, what is your zodiac sign?",
-        "choices": ["Wassermann", "Fische", "Steinbock", "Waage"],
-        "type": "MCQs",
-        "correctAnswer": 1
+      "question": "How do you ask in German?: 'What do you like to do in your free time?'",
+      "choices": ["Was machst du gerne?", "Was spielst du?", "Was isst du?", "Was trinkst du?"],
+      "type": "MCQs",
+      "correctAnswer": 1
     },
+    
     {
         "question": "How do you say \"party\" in German?",
         "choices": ["Feier", "Geburtstag", "Veranstaltung", "Fest"],
@@ -2507,6 +3381,12 @@ export const quiz = [
         "correctAnswer": 2
     },
     {
+      "question": "What is a typical hobby in your free time?",
+      "choices": ["Arbeiten", "Sport treiben", "Schlafen", "Lernen"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
         "question": "How do you conjugate \"sein\" for \"ich\"?",
         "choices": ["Bin", "Bist", "Sind", "Seid"],
         "type": "MCQs",
@@ -2517,6 +3397,36 @@ export const quiz = [
         "choices": ["Sprichst", "Sprechen", "Spricht", "Spreche"],
         "type": "MCQs",
         "correctAnswer": 2
+    },
+    {
+      "question": "Which verb means 'to play' in German?",
+      "choices": ["spielen", "gehen", "laufen", "schwimmen"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does 'wandern' mean?",
+      "choices": ["To read", "To walk/hike", "To write", "To swim"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which verb is in the infinitive?",
+      "choices": ["spielst", "gehen", "gespielt", "läuft"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
+      "question": "How do you ask?: 'Do you like to watch movies?'",
+      "choices": ["Magst du Filme sehen?", "Spielst du Fußball?", "Liests du Bücher?", "Trinkst du Wasser?"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
+        "question": "If you were born on February 12th, what is your zodiac sign?",
+        "choices": ["Wassermann", "Fische", "Steinbock", "Waage"],
+        "type": "MCQs",
+        "correctAnswer": 1
     },
     {
         "question": "What is the correct pronoun for \"we\" in German?",
@@ -2543,6 +3453,18 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Which verb is an infinitive?",
+      "choices": ["ging", "laufen", "laufend", "gelaufen"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
+      "question": "What does “to read” mean in German?",
+      "choices": ["lesen", "schreiben", "hören", "essen"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
         "question": "What does the verb \"schreiben\" mean?",
         "choices": ["To read", "To write", "To listen", "To watch"],
         "type": "MCQs",
@@ -2555,6 +3477,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "What do you do when you want to relax?",
+      "choices": ["Ich lese ein Buch.", "Ich spiele Fußball.", "Ich esse Pizza.", "Ich arbeite."],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
         "question": "What number follows \"neunundneunzig\"?",
         "choices": ["Hundert", "Achtzig", "Siebzig", "Sechsundneunzig"],
         "type": "MCQs",
@@ -2565,6 +3493,12 @@ export const quiz = [
         "choices": ["Fünfunddreißig", "Vierunddreißig", "Dreiunddreißig", "Zweiunddreißig"],
         "type": "MCQs",
         "correctAnswer": 1
+    },
+    {
+      "question": "What do you like doing in your free time?",
+      "choices": ["Ich spiele Basketball.", "Ich spiele Gitarre.", "Ich reise viel.", "Alle oben genannten."],
+      "type": "MCQs",
+      "correctAnswer": 4
     },
     {
         "question": "How do you say \"one hundred\" in German?",
@@ -2581,6 +3515,12 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Ich ______ (hike) gerne in den Bergen wandern.",
+      "choices": ["wandern", "gehen", "lesen", "spielen"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
         "question": "Ich habe am ______ (30) Geburtstag gefeiert.",
         "choices": ["dreißig", "vierzig", "fünfzig", "sechzig"],
         "type": "FillInTheBlanks",
@@ -2591,6 +3531,12 @@ export const quiz = [
         "choices": ["Geburtstag", "Tag", "Jahr", "Monat"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "Am Wochenende gehe ich ins Kino, um einen Film ______ (see).",
+      "choices": ["sehen", "lesen", "spielen", "hören"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Wir machen eine ______ (party) für meinen Freund.",
@@ -2605,6 +3551,18 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
+      "question": "Mein Bruder ______ (play) gerne Fußball. ",
+      "choices": ["spielt", "gehen", "lesen", "sehen"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Sie ______ (go) oft im Park spazieren. ",
+      "choices": ["gehen", "sehen", "spielen", "wandern"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
         "question": "Mein Sternzeichen ist ______ (Leo), weil ich im August geboren bin.",
         "choices": ["Löwe", "Stier", "Widder", "Zwilling"],
         "type": "FillInTheBlanks",
@@ -2615,6 +3573,12 @@ export const quiz = [
         "choices": ["Zwilling", "Löwe", "Widder", "Krebs"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "Wir ______ (read) zusammen ein Buch. ",
+      "choices": ["lesen", "sehen", "hören", "spielen"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Wenn du im Oktober geboren bist, bist du ______ (Libra).",
@@ -2633,6 +3597,18 @@ export const quiz = [
         "choices": ["Stier", "Waage", "Zwilling", "Löwe"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "Ich ______ (hear) Musik, wenn ich mich entspannen möchte. ",
+      "choices": ["hören", "sehen", "lesen", "spielen"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Meine Freundin ______ (plays) sehr gut Klavier. ",
+      "choices": ["spielt", "geht", "hört", "liest"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Ich ______ (am) Student in Deutsch.",
@@ -2663,6 +3639,24 @@ export const quiz = [
         "choices": ["schreibt", "schreibe", "schreiben", "schreib"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "Du ______ (like) im Sommer gerne schwimmen. ",
+      "choices": ["magst", "spielst", "gehst", "siehst"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Am Abend ______ (see) wir oft fern. ",
+      "choices": ["sehen", "hören", "spielen", "lesen"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Er ______ (travels) in seiner Freizeit viel. ",
+      "choices": ["reist", "geht", "liest", "spielt"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Mein ______ (father) ist Lehrer.",
@@ -2746,6 +3740,62 @@ export const quiz = [
     {
       "left": { "word": "Vater", "rightId": 10 },
       "right": { "word": "Mother", "rightId": 6 }
+      
+    }
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Musik hören", "rightId": 1 },
+      "right": { "word": "Travel", "rightId": 6 }
+
+    },
+    {
+      "left": { "word": "Joggen", "rightId": 2 },
+      "right": { "word": "To swim", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Filme sehen", "rightId": 3 },
+      "right": { "word": "Read books", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Klavier spielen", "rightId": 4 },
+      "right": { "word": "Watch films", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Schwimmen", "rightId": 5 },
+      "right": { "word": "Listen to music", "rightId": 1 }
+
+    },
+    {
+      "left": { "word": "Reisen", "rightId": 6 },
+      "right": { "word": "Jog", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Spazieren gehen", "rightId": 7 },
+      "right": { "word": "Play the piano", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "In den Bergen wandern", "rightId": 8 },
+      "right": { "word": "Play football", "rightId": 9 }
+      
+    },
+    {
+      "left": { "word": "Fußball spielen", "rightId": 9 },
+      "right": { "word": "Hiking in the mountains", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Bücher lesen", "rightId": 10 },
+      "right": { "word": "Go for a stroll", "rightId": 7 }
       
     }
   ]
