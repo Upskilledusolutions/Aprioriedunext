@@ -5,7 +5,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useDispatch, useSelector } from 'react-redux';
-import { unlockLesson } from '@/Store';
+import { unlockAssignments } from '@/Store';
 
 const LessonPage = ({ lesson }) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
