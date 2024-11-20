@@ -162,6 +162,48 @@ const lessonsSlice = createSlice({
   },
 });
 
+const AssignmentsSlice = createSlice({
+  name: 'unlockedAssignments',
+  initialState: {
+    unlockedAssignmentsFrench: typeof window !== "undefined" && localStorage.getItem('unlockedAssignmentsFrench')
+      ? JSON.parse(localStorage.getItem('unlockedAssignmentsFrench'))
+      : ["1","2","3","4","5"],
+    unlockedAssignmentsSpanish: typeof window !== "undefined" && localStorage.getItem('unlockedAssignmentsSpanish')
+      ? JSON.parse(localStorage.getItem('unlockedAssignmentsSpanish'))
+      : ["1","2","3","4","5"],
+    unlockedAssignmentsGerman: typeof window !== "undefined" && localStorage.getItem('unlockedAssignmentsGerman')
+      ? JSON.parse(localStorage.getItem('unlockedAssignmentsGerman'))
+      : ["1","2","3","4","5"],
+  },
+  reducers: {
+    unlockAssignments: (state, action) => {
+      const { subject, lessonId } = action.payload;
+      let unlockedAssignments;
+
+      switch (subject) {
+        case 'French':
+          unlockedAssignments = state.unlockedAssignmentsFrench;
+          if (!unlockedAssignments.includes(...lessonId)) {
+            state.unlockedAssignmentsFrench.push(...lessonId);
+          }
+          break;
+        case 'Spanish':
+          unlockedAssignments = state.unlockedAssignmentsSpanish;
+          if (!unlockedAssignments.includes(...lessonId)) {
+            state.unlockedAssignmentsSpanish.push(...lessonId);
+          }
+          break;
+        case 'German':
+          unlockedAssignments = state.unlockedAssignmentsGerman;
+          if (!unlockedAssignments.includes(...lessonId)) {
+            state.unlockedAssignmentsGerman.push(...lessonId);
+          }
+          break;
+      }
+    },
+  },
+});
+
 // Exercises slice (similar to unlockedPagesSlice)
 const exercisesSlice = createSlice({
   name: 'unlockedExercises',
@@ -209,6 +251,7 @@ const exercisesSlice = createSlice({
 export const { login, logout, setUserFromCookies } = authSlice.actions;
 export const { unlockPage } = unlockedPagesSlice.actions;
 export const { unlockLesson } = lessonsSlice.actions;
+export const { unlockAssignments } = AssignmentsSlice.actions;
 export const { unlockExercise } = exercisesSlice.actions;
 export const { addFinishedQuiz, setFinishedQuizzesFromLocalStorage } = finishedQuizzesSlice.actions;
 
@@ -218,6 +261,7 @@ export const store = configureStore({
     auth: authSlice.reducer,
     unlockedPages: unlockedPagesSlice.reducer,
     unlockedLessons: lessonsSlice.reducer,
+    unlockedAssignments: AssignmentsSlice.reducer,
     unlockedExercises: exercisesSlice.reducer,
     finishedQuizzes: finishedQuizzesSlice.reducer,
   },
@@ -237,6 +281,10 @@ store.subscribe(() => {
   localStorage.setItem('unlockedLessonsSpanish', JSON.stringify(state.unlockedLessons.unlockedLessonsSpanish));
   localStorage.setItem('unlockedLessonsGerman', JSON.stringify(state.unlockedLessons.unlockedLessonsGerman));
   localStorage.setItem('unlockedLessonsMultilingual', JSON.stringify(state.unlockedLessons.unlockedLessonsMultilingual));
+
+  localStorage.setItem('unlockedAssignmentsFrench', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsFrench));
+  localStorage.setItem('unlockedAssignmentsSpanish', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsSpanish));
+  localStorage.setItem('unlockedAssignmentsGerman', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsGerman));
 
   localStorage.setItem('unlockedExercisesFrench', JSON.stringify(state.unlockedExercises.unlockedExercisesFrench));
   localStorage.setItem('unlockedExercisesSpanish', JSON.stringify(state.unlockedExercises.unlockedExercisesSpanish));

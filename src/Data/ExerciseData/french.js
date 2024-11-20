@@ -6851,4 +6851,422 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '28',
+      name: 'French Exercise - 9 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "What does 'la tête' mean in English?",
+          "choices": ["The head", "The back", "The arm", "The leg"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is 'une ordonnance' in English?",
+          "choices": ["A cough", "A fever", "A prescription", "A cold"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Choose the correct translation: 'Elle a une toux légère.'",
+          "choices": ["She has a fever.", "She has a slight cough.", "She has a prescription.", "She has a headache."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'le dos' mean?",
+          "choices": ["The arm", "The back", "The leg", "The foot"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'to go to the doctor' in French?",
+          "choices": ["Aller au supermarché", "Aller chez le médecin", "Prendre une ordonnance", "Avoir une fièvre"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which is the correct conjugation of 'devoir' for 'ils'?",
+          "choices": ["Dois", "Dois", "Doivent", "Devons"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Choose the correct sentence:",
+          "choices": [
+            "Nous devons manger des légumes pour rester en forme.",
+            "Nous devons manger des légumes pour rester au médecin.",
+            "Nous doivent manger des légumes pour rester en forme.",
+            "Nous devons mange des légumes pour rester en forme."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Translate: 'You can walk slowly.'",
+          "choices": [
+            "Vous devez marcher lentement.",
+            "Vous pouvez marcher lentement.",
+            "Tu peux marcher lentement.",
+            "Il peut marcher lentement."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'Je dois boire de l’eau' mean?",
+          "choices": ["I can drink water.", "I must drink water.", "I drink water.", "I could drink water."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Choose the correct conjugation: 'Ils ______ (pouvoir) aller au parc après l’école.'",
+          "choices": ["Peuvent", "Peut", "Pouvez", "Pouvons"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+
+
+        {
+          "question": "Je ______ (pouvoir) aller chez le médecin après le déjeuner.",
+          "choices": ["peux", "peut", "pouvons", "pouvez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (devoir) boire de l’eau pour rester en bonne santé.",
+          "choices": ["devons", "dois", "devez", "doivent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (pouvoir) courir tous les matins sans se fatiguer.",
+          "choices": ["peut", "peux", "pouvez", "peuvent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (devoir) prendre ce médicament trois fois par jour.",
+          "choices": ["devez", "doivent", "devons", "dois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (pouvoir) jouer au football après leur consultation médicale.",
+          "choices": ["peuvent", "peux", "pouvez", "peut"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (devoir) te reposer quand tu as de la fièvre.",
+          "choices": ["dois", "devons", "devez", "doivent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sophie ______ (pouvoir) regarder la télévision si elle finit ses devoirs.",
+          "choices": ["peut", "peux", "pouvez", "peuvent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (devoir) éviter de manger trop de sucre.",
+          "choices": ["devons", "devez", "doivent", "dois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les enfants ______ (pouvoir) jouer dehors quand il fait beau.",
+          "choices": ["peuvent", "pouvez", "peut", "peux"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (devoir) consulter un spécialiste pour mon mal de dos.",
+          "choices": ["dois", "devons", "devez", "doivent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "La tête", "rightId": 1 },
+              "right": { "word": "We must drink water.", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Le bras", "rightId": 2 },
+              "right": { "word": "The cough", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Le dos", "rightId": 3 },
+              "right": { "word": "They can play outside.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Une ordonnance", "rightId": 4 },
+              "right": { "word": "I must go to the doctor.", "rightId": 8 }
+            },
+            {
+              "left": { "word": "La toux", "rightId": 5 },
+              "right": { "word": "He must take his medicine.", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Nous devons boire de l’eau.", "rightId": 6 },
+              "right": { "word": "The prescription", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Ils peuvent jouer dehors.", "rightId": 7 },
+              "right": { "word": "You can walk slowly.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Je dois aller chez le médecin.", "rightId": 8 },
+              "right": { "word": "The back", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Vous pouvez marcher lentement.", "rightId": 9 },
+              "right": { "word": "The head", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Il doit prendre ses médicaments.", "rightId": 10 },
+              "right": { "word": "The arm", "rightId":2 }
+            }
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '29',
+      name: 'French Exercise - 10 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "What is the correct way to say \"It’s 7:00 PM\" in French?",
+          "choices": [
+            "Il est sept heures.",
+            "Il est sept heures du matin.",
+            "Il est sept heures et demie.",
+            "Il est sept heures moins le quart."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following uses *passé composé* correctly?",
+          "choices": [
+            "Nous avons regardé un film hier soir.",
+            "Nous regardons un film hier soir.",
+            "Nous regardons un film demain soir.",
+            "Nous avons regarder un film hier soir."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say \"I met my friends this afternoon\" in French?",
+          "choices": [
+            "J'ai rencontré mes amis cet après-midi.",
+            "J'ai rencontrer mes amis cet après-midi.",
+            "Je rencontre mes amis cet après-midi.",
+            "Je rencontre mes amis demain après-midi."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence is in the *passé composé* tense?",
+          "choices": [
+            "Nous sommes partis à 10 heures.",
+            "Nous partons à 10 heures.",
+            "Nous partirons à 10 heures.",
+            "Nous partons toujours à 10 heures."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following times means 3:30 PM in French?",
+          "choices": [
+            "Il est trois heures et demie.",
+            "Il est trois heures moins le quart.",
+            "Il est quatre heures.",
+            "Il est trois heures et quart."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you ask \"What time is it?\" in French?",
+          "choices": [
+            "À quelle heure est-ce ?",
+            "Quelle heure est-il ?",
+            "Quand est-ce ?",
+            "Quand est-il ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which is the correct translation for \"They arrived at noon\"?",
+          "choices": [
+            "Ils sont arrivés à midi.",
+            "Ils arrivent à midi.",
+            "Ils sont arrivé à midi.",
+            "Ils arriveront à midi."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which auxiliary verb is used with the verb \"aller\" in the *passé composé*?",
+          "choices": [
+            "Avoir",
+            "Être",
+            "Aller",
+            "Faire"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is the correct way to say \"I have finished my work\"?",
+          "choices": [
+            "J'ai fini mon travail.",
+            "Je finis mon travail.",
+            "J'ai finir mon travail.",
+            "Je finis le travail."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What time is it in French if the clock shows 11:45?",
+          "choices": [
+            "Il est onze heures et quart.",
+            "Il est onze heures moins le quart.",
+            "Il est dix heures et demi.",
+            "Il est midi moins le quart."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+
+        {
+          "question": "Hier, nous ______ (manger) dans un restaurant italien.",
+          "choices": ["avons mangé", "a mangé", "mangions", "mangeons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (être) trois heures quand il est arrivé.",
+          "choices": ["était", "sera", "est", "fut"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (voir) un film incroyable la semaine dernière.",
+          "choices": ["avons vu", "voyons", "verrons", "avions vu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À quelle heure ______ (commencer) la réunion ce matin ?",
+          "choices": ["a commencé", "commençait", "commencera", "commençons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon train ______ (partir) à 9h00.",
+          "choices": ["est parti", "partira", "partait", "part"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (arriver) en retard au travail aujourd'hui.",
+          "choices": ["sont arrivés", "arrivaient", "arrivent", "seront arrivés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'______ (étudier) toute la journée hier.",
+          "choices": ["ai étudié", "étudiais", "étudierai", "étudie"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (prendre) le métro à 7h30 ce matin.",
+          "choices": ["a pris", "prenait", "prendra", "prend"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (être) 5 heures et demie quand elle a quitté le bureau.",
+          "choices": ["était", "est", "sera", "fut"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (visiter) le musée ce matin à 10h.",
+          "choices": ["avons visité", "visitions", "visiterons", "visitons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il est 4h15.", "rightId": 1 },
+              "right": { "word": "We left at 9 AM.", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Nous avons vu un film hier soir.", "rightId": 2 },
+              "right": { "word": "Did you have breakfast?", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Elle est allée au marché ce matin.", "rightId": 3 },
+              "right": { "word": "It's 8:30.", "rightId": 7 }
+            },
+            {
+              "left": { "word": "À quelle heure est le train ?", "rightId": 4 },
+              "right": { "word": "I finished my work at 6 PM.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "J'ai fini mon travail à 6h.", "rightId": 5 },
+              "right": { "word": "She studied for the exam.", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Nous avons mangé à 13h.", "rightId": 6 },
+              "right": { "word": "What time is the train?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Il est 8h30.", "rightId": 7 },
+              "right": { "word": "We ate at 1 PM.", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Tu as pris ton petit déjeuner ?", "rightId": 8 },
+              "right": { "word": "She went to the market this morning.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Nous sommes partis à 9h.", "rightId": 9 },
+              "right": { "word": "It's 4:15.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Elle a étudié pour l'examen.", "rightId": 10 },
+              "right": { "word": "We saw a movie last night.", "rightId":2 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]
