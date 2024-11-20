@@ -316,6 +316,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Which is the correct article for gato (cat)?",
+        "choices": ["El", "La", "Un", "Los"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
         "question": "How do you say 'four' in Spanish?",
         "choices": ["Cinco", "Cuatro", "Tres", "Seis"],
         "type": "MCQs",
@@ -326,6 +332,12 @@ export const quiz = [
         "choices": ["Nueve", "Diez", "Ocho", "Doce"],
         "type": "MCQs",
         "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct article for 'manzana' (apple)?",
+        "choices": ["La", "El", "Una", "Los"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
         "question": "How do you say 'fifteen' in Spanish?",
@@ -346,6 +358,12 @@ export const quiz = [
         "correctAnswer": 3
       },
       {
+        "question": "What is the indefinite article for 'libros' (books)?",
+        "choices": ["Un", "Una", "Los", "Unos"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
         "question": "What is the Spanish word for 'twenty'?",
         "choices": ["Diecinueve", "Dieciocho", "Veinte", "Veintidós"],
         "type": "MCQs",
@@ -362,6 +380,12 @@ export const quiz = [
         "choices": ["Dieciseis", "Quince", "Dieciséis", "Catorce"],
         "type": "MCQs",
         "correctAnswer": 3
+      },
+      {
+        "question": "Which article should be used for 'perro' (dog)?",
+        "choices": ["Un", "Una", "Los", "Unos"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
         "question": "How do you say 'eighteen' in Spanish?",
@@ -386,6 +410,12 @@ export const quiz = [
         "choices": ["Un", "Tres", "Cuatro", "Dos"],
         "type": "MCQs",
         "correctAnswer": 4
+      },
+      {
+        "question": "What is the correct article for 'ventana' (window)?",
+        "choices": ["Un", "La", "Los", "Unos"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
         "question": "What is the first letter of the Spanish alphabet?",
@@ -418,8 +448,38 @@ export const quiz = [
         "correctAnswer": 3
       },
       {
+        "question": "Which is the definite article for 'silla' (chair)?",
+        "choices": ["El", "La", "Una", "Los"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct article for 'estudiantes' (students)?",
+        "choices": ["El", "Las", "Una", "Los"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
         "question": "What is the 15th letter of the Spanish alphabet?",
         "choices": ["O", "P", "M", "N"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the indefinite article for 'jardín' (garden)?",
+        "choices": ["Un", "El", "Una", "Los"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which article is used for 'niños' (children)?",
+        "choices": ["La", "El", "Las", "Los"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What is the indefinite article for 'profesor' (teacher)?",
+        "choices": ["Un", "El", "Una", "Los"],
         "type": "MCQs",
         "correctAnswer": 1
       },
@@ -439,6 +499,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ (el/la/los/las) gato está en la casa.",
+        "choices": ["El", "La", "Los", "Las"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "'One' in Spanish is ______.",
         "choices": ["un", "dos", "tres", "cuatro"],
         "type": "FillInTheBlanks",
@@ -451,8 +517,20 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ (un/una) manzana está sobre la mesa.",
+        "choices": ["Una", "Un"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "'Fourteen' in Spanish is ______.",
         "choices": ["catorce", "dos", "trees", "cuatro"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (el/la/los/las) libros están en la estantería.",
+        "choices": ["Los", "El", "La", "Las"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -475,6 +553,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Tengo ______ (un/una) coche rojo.",
+        "choices": ["Un", "Una"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "'Six' in Spanish is ______.",
         "choices": ["seis", "seeis", "siete", "ocho"],
         "type": "FillInTheBlanks",
@@ -487,6 +571,18 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ (el/la/los/las) niña juega en el parque.",
+        "choices": ["La", "El", "Los", "Las"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (un/una) perro corre rápido.",
+        "choices": ["Un", "Una"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "'Eight' in Spanish is ______.",
         "choices": ["ocho", "nueve", "diez", "once"],
         "type": "FillInTheBlanks",
@@ -495,6 +591,12 @@ export const quiz = [
       {
         "question": "'Twenty' in Spanish is ______.",
         "choices": ["Veinte", "nuevee", "diez", "once"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (el/la/los/las) ventana está abierta.",
+        "choices": ["La", "El", "Los", "Las"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -513,6 +615,24 @@ export const quiz = [
       {
         "question": "'Sixteen' in Spanish is ______.",
         "choices": ["Dieciséis", "once", "doce", "trece"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (un/una) estudiante habla español.",
+        "choices": ["Un", "Una"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (el/la/los/las) profesor está en la clase.",
+        "choices": ["El", "La", "Los", "Las"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quiero ______ (un/una) taza de café.",
+        "choices": ["Una", "Un"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -597,6 +717,53 @@ export const quiz = [
             "right": { "word": "FOURTEEN", "rightId": 1 }
           }
         ]
+      },
+
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "El perro", "rightId": 1 },
+            "right": { "word": "The table", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Una manzana", "rightId": 2 },
+            "right": { "word": "a book", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Las casas", "rightId": 3 },
+            "right": { "word": "The garden", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Un libro", "rightId": 4 },
+            "right": { "word": "an apple", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Los gatos", "rightId": 5 },
+            "right": { "word": "The window", "rightId": 10 }
+          },
+          {
+            "left": { "word": "La mesa", "rightId": 6 },
+            "right": { "word": "The cats", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Una silla", "rightId": 7 },
+            "right": { "word": "The windows", "rightId": 9 }
+          },
+          {
+            "left": { "word": "El jardín", "rightId": 8 },
+            "right": { "word": "The houses", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Las ventanas", "rightId": 9 },
+            "right": { "word": "a chair", "rightId": 7 }
+          },
+          {
+            "left": { "word": "La ventana", "rightId": 10 },
+            "right": { "word": "the dog", "rightId": 1 }
+          }
+        ]
       }
       
     ]
@@ -617,6 +784,12 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "Choose the correct possessive adjective for: Mi hermana se llama María.",
+        "choices": ["Mi", "Tu", "Su", "Nuestro"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
         "question": "What does \"cinco\" mean in English?",
         "choices": ["Five", "Six", "Seven", "Eight"],
         "type": "MCQs",
@@ -625,6 +798,12 @@ export const quiz = [
       {
         "question": "Which color is “amarillo” in English?",
         "choices": ["Green", "Yellow", "Blue", "Black"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Choose the correct possessive adjective for: Tu madre trabaja en un hospital.",
+        "choices": ["Mi", "Tu", "Su", "Nuestra"],
         "type": "MCQs",
         "correctAnswer": 2
       },
@@ -653,10 +832,28 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "Choose the correct possessive adjective for: Sus padres viven en la ciudad.",
+        "choices": ["Mis", "Tus", "Sus", "Nuestros"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
         "question": "What is \"sesenta\" in English?",
         "choices": ["Sixty", "Seventy", "Eighty", "Ninety"],
         "type": "MCQs",
         "correctAnswer": 1
+      },
+      {
+        "question": "Choose the correct possessive adjective for: Su perro es muy bonito.",
+        "choices": ["Mi", "Nuestro", "Tu", "Su"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Choose the correct possessive adjective for: Nuestro abuelo vive con nosotros.",
+        "choices": ["Mi", "Tu", "Nuestro", "Vuestro"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
         "question": "Which word means \"food\" in Spanish?",
@@ -671,10 +868,22 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
+        "question": "Choose the correct possessive adjective for: Tus padres son muy amables.",
+        "choices": ["Mis", "Tus", "Nuestros", "Sus"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "What is the Spanish word for \"family\"?",
         "choices": ["Casa", "Familia", "Grupo", "Comunidad"],
         "type": "MCQs",
         "correctAnswer": 2
+      },
+      {
+        "question": "Choose the correct possessive adjective for: Mis amigos vienen a casa este fin de semana.",
+        "choices": ["Mis", "Tus", "Nuestros", "Sus"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
         "question": "What does \"ocho\" mean in English?",
@@ -695,6 +904,18 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Choose the correct possessive adjective for: Vuestra casa está cerca de la playa.",
+        "choices": ["Nuestra", "Tu", "Vuestra", "Sus"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct possessive adjective for: Sus hijos son muy inteligentes.",
+        "choices": ["Mis", "Tus", "Sus", "Nuestros"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
         "question": "What does \"nieve\" mean in English?",
         "choices": ["Snow", "Rain", "Wind", "Sun"],
         "type": "MCQs",
@@ -711,6 +932,12 @@ export const quiz = [
         "choices": ["Twelve", "Thirteen", "Fourteen", "Fifteen"],
         "type": "MCQs",
         "correctAnswer": 4
+      },
+      {
+        "question": "Choose the correct possessive adjective for: Nuestra tía vive en Madrid.",
+        "choices": ["Nuestra", "Tu", "Vuestra", "Su"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
         "question": "What does \"lavar\" mean?",
@@ -740,6 +967,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ (My) hermano es muy inteligente.",
+        "choices": ["Mi","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Ella tiene ______ (three) gatos.",
         "choices": ["tres", "dos", "e", "cuatro"],
         "type": "FillInTheBlanks",
@@ -748,6 +981,12 @@ export const quiz = [
       {
         "question": "Voy a la tienda a ______ (buy) pan.",
         "choices": ["comprar", "vender", "pagar", "buscar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Your - informal) casa es muy bonita.",
+        "choices": ["Tu","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -764,6 +1003,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ (His) perro es muy amigable.",
+        "choices": ["Su","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Tienes ______ (four) libros en tu mochila.",
         "choices": ["cuatro", "tres", "e", "cinco"],
         "type": "FillInTheBlanks",
@@ -772,6 +1017,18 @@ export const quiz = [
       {
         "question": "Me gusta ______ (to dance) salsa.",
         "choices": ["bailar", "cantar", "escuchar", "ver"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Our) madre cocina todos los días.",
+        "choices": ["Nuestra","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Your - plural in Spain) amigos están en la fiesta.",
+        "choices": ["Vuestros","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -800,6 +1057,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ (Their) hijos estudian en la escuela.",
+        "choices": ["Sus","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Mis amigos son muy ______ (funny).",
         "choices": ["divertidos", "serios", "tristes", "aburridos"],
         "type": "FillInTheBlanks",
@@ -824,8 +1087,26 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "______ (My) padres viajan a menudo.",
+        "choices": ["Mis","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Your - informal) coche está estacionado fuera.",
+        "choices": ["Tu","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Me siento ______ (tired) después de trabajar.",
         "choices": ["cansado", "e", "emocionado", "tranquilo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Our) profesor enseña matemáticas.",
+        "choices": ["Nuestro","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -838,6 +1119,12 @@ export const quiz = [
       {
         "question": "El libro está sobre la ______ (table).",
         "choices": ["mesa", "silla", "cama", "puerta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (His) abuela vive en el campo.",
+        "choices": ["Su","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -896,6 +1183,52 @@ export const quiz = [
           {
             "left": { "word": "Salud", "rightId": 10 },
             "right": { "word": "Cat", "rightId": 5 }
+          }
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Mi casa", "rightId": 1 },
+            "right": { "word": "His/Her/Their ideas", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Tu libro", "rightId": 2 },
+            "right": { "word": "Your chairs (plural)", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Su coche", "rightId": 3 },
+            "right": { "word": "My shoes", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Nuestro perro", "rightId": 4 },
+            "right": { "word": "His/Her/Their car", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Vuestro amigo", "rightId": 5 },
+            "right": { "word": "Your book", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Mis zapatos", "rightId": 6 },
+            "right": { "word": "Our friends (feminine)", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Tus flores", "rightId": 7 },
+            "right": { "word": "Our dog", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Sus ideas", "rightId": 8 },
+            "right": { "word": "My house", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Nuestras amigas", "rightId": 9 },
+            "right": { "word": "Your flowers", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Vuestras sillas", "rightId": 10 },
+            "right": { "word": "Your friend (plural)", "rightId": 5 }
           }
         ]
       }
@@ -1237,6 +1570,66 @@ export const quiz = [
         "correctAnswer": 3
       },
       {
+        "question": "What drink is usually consumed at breakfast?",
+        "choices": ["Vino", "Jugo", "Café", "Agua"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of these foods is a main dish in Spanish cuisine?",
+        "choices": ["Pan", "Paella", "Fruta", "Vino"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is typical for a snack in Spain?",
+        "choices": ["Jamón", "Té o café", "Arroz", "Carne"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which drink does not contain alcohol?",
+        "choices": ["Vino", "Agua", "Cerveza", "Sangría"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the gender of the word 'fruta'?",
+        "choices": ["Masculino", "Femenino", "Neutro", "Ambos"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'rice' in Spanish?",
+        "choices": ["Pan", "Arroz", "Pasta", "Carne"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What meal is eaten at night in Spain?",
+        "choices": ["Almuerzo", "Merienda", "Cena", "Desayuno"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of these is a food accompaniment?",
+        "choices": ["Vino", "Carne", "Té", "Arroz"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is not a food item?",
+        "choices": ["Pan", "Té", "Jugo", "Vino"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What drink is associated with Spanish breakfast?",
+        "choices": ["Jugo", "Café", "Té", "Agua"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "What is the correct conjugation of the verb 'beber' (to drink) for 'we'?",
         "choices": ["Bebemos", "Bebéis", "Bebes", "Beben"],
         "type": "MCQs",
@@ -1342,6 +1735,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Yo como ______ (bread) todos los días para el desayuno.",
+        "choices": ["pan","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "El hijo de mi hermana es mi ______ (nephew).",
         "choices": ["sobrino", "hijo", "tío", "primo"],
         "type": "FillInTheBlanks",
@@ -1356,6 +1755,12 @@ export const quiz = [
       {
         "question": "La ______ (granddaughter) de mi abuela se llama Carla.",
         "choices": ["nieta", "hija", "prima", "sobrina"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Tú quieres ______ (some) arroz con pollo?",
+        "choices": ["un poco de","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1384,6 +1789,18 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Ella toma ______ (water) en la mañana.",
+        "choices": ["agua","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros comemos ______ (some) carne para la cena.",
+        "choices": ["algo de","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "¿______ (to run) todos los días, Juan?",
         "choices": ["Corres", "Lees", "Hablas", "Comes"],
         "type": "FillInTheBlanks",
@@ -1404,6 +1821,12 @@ export const quiz = [
       {
         "question": "______ (You - formal) es profesor.",
         "choices": ["Usted", "Tú", "Nosotros", "Ellos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me encanta ______ (wine) español.",
+        "choices": ["El vino","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1432,6 +1855,12 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Voy a beber ______ (a little) jugo de naranja.",
+        "choices": ["un poco de","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "______ (He) es mi amigo.",
         "choices": ["Él", "Ella", "Tú", "Yo"],
         "type": "FillInTheBlanks",
@@ -1444,8 +1873,32 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Ellos están tomando ______ (tea) en la tarde.",
+        "choices": ["té","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo como ______ (fruit) con mi desayuno.",
+        "choices": ["fruta","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
         "question": "Hoy cumplo ______ (twenty-eight) años.",
         "choices": ["veintiocho", "veintinueve", "veintisiete", "treinta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quiero comprar ______ (some) pasta para la cena.",
+        "choices": ["algo de","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (chicken) es muy común en muchas comidas españolas.",
+        "choices": ["El pollo","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1500,6 +1953,52 @@ export const quiz = [
             "right": { "word": "Forty-two", "rightId": 10 }
           }
         ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Pan", "rightId": 1 },
+            "right": { "word": "Breakfast", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Agua", "rightId": 2 },
+            "right": { "word": "Tea", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Comida", "rightId": 3 },
+            "right": { "word": "Rice", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Té", "rightId": 4 },
+            "right": { "word": "Food", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Vino", "rightId": 5 },
+            "right": { "word": "Meat", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Arroz", "rightId": 6 },
+            "right": { "word": "Bread", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Desayuno", "rightId": 7 },
+            "right": { "word": "Fruit", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Carne", "rightId": 8 },
+            "right": { "word": "Water", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Fruta", "rightId": 9 },
+            "right": { "word": "Wine", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Cena", "rightId": 10 },
+            "right": { "word": "Dinner", "rightId": 10 }
+          }
+        ]
       }
       
     ]
@@ -1522,6 +2021,66 @@ export const quiz = [
         {
           "question": "What does \"Gracias\" mean?",
           "choices": ["Please", "Goodbye", "Thank you", "Sorry"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is 'la cocina' in English?",
+          "choices": ["Bathroom", "Living room", "Kitchen", "Bedroom"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Where is 'la mesa'?",
+          "choices": ["In the garden", "In the dining room", "In the bathroom", "In the bedroom"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'delante de' mean?",
+          "choices": ["Behind", "On top of", "In front of", "Between"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Where is 'el sofá'?",
+          "choices": ["In the kitchen", "In the living room", "In the bathroom", "In the garden"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'table' in Spanish?",
+          "choices": ["Cama", "Mesa", "Silla", "Estantería"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "'These desks are in the study.' What is the correct word to fill in the blank?",
+          "choices": ["Esas", "Estas", "Aquel", "Aquellas"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Where is 'la cama'?",
+          "choices": ["In the bathroom", "In the living room", "In the bedroom", "In the hallway"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "'That garden is very big.' What is the correct demonstrative adjective?",
+          "choices": ["Ese", "Estos", "Aquella", "Esta"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say 'sofa' in Spanish?",
+          "choices": ["Silla", "Sofá", "Cama", "Mesa"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'debajo de' mean?",
+          "choices": ["Above", "In front of", "Below", "Behind"],
           "type": "MCQs",
           "correctAnswer": 3
         },
@@ -1657,6 +2216,66 @@ export const quiz = [
       {
         "question": "Amigo 2: ¿Qué ______ (to do) hoy?",
         "choices": ["haces", "hago", "hace", "hacemos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El ______ (living room) está junto al comedor.",
+        "choices": ["Sala", "Cama", "Mesa", "Baño"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (bed) está en el dormitorio.",
+        "choices": ["Cama", "Sofá", "Estudio", "Mesa"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (This) mesa está en la cocina.",
+        "choices": ["Esta", "Ese", "Aquel", "Estas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (sofa) está frente a la televisión.",
+        "choices": ["Sofá", "Mesa", "Sala", "Cama"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (closet) está al lado de la cama.",
+        "choices": ["Armario", "Estudio", "Silla", "Baño"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Dónde está ______ (that) silla?",
+        "choices": ["Esa", "Esta", "Esas", "Aquella"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El ______ (study) está en el segundo piso.",
+        "choices": ["Estudio", "Sala", "Baño", "Pasillo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (These) sillas son cómodas.",
+        "choices": ["Estas", "Esas", "Aquellas", "Esa"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (bathroom) está detrás de la cocina.",
+        "choices": ["Baño", "Sala", "Cama", "Mesa"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Vas a poner la ______ (table) en la sala?",
+        "choices": ["Mesa", "Sofá", "Armario", "Estudio"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1801,6 +2420,52 @@ export const quiz = [
             "right": { "word": "Family", "rightId": 6 }
           }
         ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Cama", "rightId": 1 },
+            "right": { "word": "Aisle", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Escritorio", "rightId": 2 },
+            "right": { "word": "Rack", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Cocina", "rightId": 3 },
+            "right": { "word": "Couch", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Sofá", "rightId": 4 },
+            "right": { "word": "Garden", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Jardín", "rightId": 5 },
+            "right": { "word": "Desk", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Baño", "rightId": 6 },
+            "right": { "word": "Hall", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Mesa", "rightId": 7 },
+            "right": { "word": "Bed", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Pasillo", "rightId": 8 },
+            "right": { "word": "Kitchen", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Estantería", "rightId": 9 },
+            "right": { "word": "Table", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Sala", "rightId": 10 },
+            "right": { "word": "Bathroom", "rightId": 6 }
+          }
+        ]
       }
       
     ]
@@ -1861,6 +2526,66 @@ export const quiz = [
         "choices": ["Somos de España", "Son de España", "Eres de España", "Estoy de España"],
         "type": "MCQs",
         "correctAnswer": 1
+    },
+    {
+      "question": "What does 'Hace calor' mean in English?",
+      "choices": ["It’s cold", "It’s hot", "It’s sunny", "It’s windy"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
+      "question": "In which season is it very cold?",
+      "choices": ["Primavera", "Verano", "Otoño", "Invierno"],
+      "type": "MCQs",
+      "correctAnswer": 3
+    },
+    {
+      "question": "How do you say 'It’s raining' in Spanish?",
+      "choices": ["Está nevando", "Está lloviendo", "Hace viento", "Hace sol"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Which season is known for being cloudy?",
+      "choices": ["Invierno", "Verano", "Otoño", "Primavera"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
+      "question": "What does 'despejado' mean?",
+      "choices": ["Cloudy", "Clear", "Rainy", "Hot"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ (Cold) in winter.",
+      "choices": ["Caliente", "Frío", "Nublado", "Lluvia"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
+      "question": "How do you say 'foggy' in Spanish?",
+      "choices": ["Soleado", "Lluvioso", "Nublado", "Niebla"],
+      "type": "MCQs",
+      "correctAnswer": 3
+    },
+    {
+      "question": "In which season do flowers bloom?",
+      "choices": ["Invierno", "Verano", "Primavera", "Otoño"],
+      "type": "MCQs",
+      "correctAnswer": 2
+    },
+    {
+      "question": "Which season is known for being hot?",
+      "choices": ["Primavera", "Verano", "Otoño", "Invierno"],
+      "type": "MCQs",
+      "correctAnswer": 1
+    },
+    {
+      "question": "What does 'hace viento' mean?",
+      "choices": ["It’s raining", "It’s windy", "It’s snowing", "It’s sunny"],
+      "type": "MCQs",
+      "correctAnswer": 1
     },
     {
         "question": "What is the feminine form of \"engineer\"?",
@@ -1948,6 +2673,66 @@ export const quiz = [
         "choices": ["eres", "soy", "estoy", "son"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "______ (It's sunny) en verano.",
+      "choices": ["Hace sol", "Está nublado", "Hace calor", "Está lloviendo"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "En ______ (winter), hace mucho frío.",
+      "choices": ["Invierno", "Otoño", "Verano", "Primavera"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ (It's raining) mucho hoy, necesito un paraguas.",
+      "choices": ["Está lloviendo", "Está nevando", "Hace viento", "Hace sol"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "En ______ (autumn), las hojas caen de los árboles.",
+      "choices": ["Otoño", "Verano", "Primavera", "Invierno"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ (It's cloudy) y hace mucho frío.",
+      "choices": ["Está nublado", "Hace sol", "Hace calor", "Está lloviendo"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ (It's hot) en el verano.",
+      "choices": ["Hace calor", "Hace frío", "Hace viento", "Está nublado"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ (It's windy) hoy, ten cuidado.",
+      "choices": ["Hace viento", "Está nublado", "Hace sol", "Está lloviendo"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "En ______ (spring), las flores florecen.",
+      "choices": ["Primavera", "Otoño", "Invierno", "Verano"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ (It's snowing) en las montañas.",
+      "choices": ["Está nevando", "Está nublado", "Hace viento", "Hace sol"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "______ (It's foggy) esta mañana.",
+      "choices": ["Está nublado", "Hace viento", "Hace calor", "Niebla"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "Ella ______ (to be) estudiante de arte.",
@@ -2102,6 +2887,52 @@ export const quiz = [
             "right": { "word": "Spanish", "rightId": 5 }
           }
         ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Hace sol", "rightId": 1 },
+            "right": { "word": "Summer", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Hace calor", "rightId": 2 },
+            "right": { "word": "Rainy", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Está nevando", "rightId": 3 },
+            "right": { "word": "It's cloudy", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Hace frío", "rightId": 4 },
+            "right": { "word": "Está nevando", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Está nublado", "rightId": 5 },
+            "right": { "word": "Winter", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Primavera", "rightId": 6 },
+            "right": { "word": "It's hot", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Verano", "rightId": 7 },
+            "right": { "word": "It's cold", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Otoño", "rightId": 8 },
+            "right": { "word": "It's sunny", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Invierno", "rightId": 9 },
+            "right": { "word": "Spring", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Lluvioso", "rightId": 10 },
+            "right": { "word": "Autumn", "rightId": 8 }
+          }
+        ]
       }
       
     ]
@@ -2137,6 +2968,66 @@ export const quiz = [
             "choices": ["Lápiz", "Silla", "Mesa", "Carpeta"],
             "type": "MCQs",
             "correctAnswer": 2
+        },
+        {
+          "question": "What does 'Me gusta leer' mean in English?",
+          "choices": ["I like to read", "I don’t like to read", "I love to read", "I am reading"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following verbs means 'to swim'?",
+          "choices": ["Bailar", "Correr", "Nadar", "Tocar"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'No me gusta correr' mean?",
+          "choices": ["I like running", "I love running", "I don’t like running", "I run every day"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say 'I love playing football' in Spanish?",
+          "choices": ["Me encanta jugar al fútbol", "Me gusta jugar al fútbol", "Me encanta correr", "Me gusta ver fútbol"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following means 'to listen to music'?",
+          "choices": ["Jugar al fútbol", "Tocar la guitarra", "Escuchar música", "Ir de compras"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How would you express dislike for an activity in Spanish?",
+          "choices": ["Me gusta mucho", "No me gusta", "Me encanta", "A mí también"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which verb means 'to go shopping'?",
+          "choices": ["Leer", "Bailar", "Ir de compras", "Nadar"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say 'I like to read' in Spanish?",
+          "choices": ["Me gusta leer", "Me encanta leer", "No me gusta leer", "Me gusta correr"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which activity is commonly associated with 'Bailar'?",
+          "choices": ["Cooking", "Playing football", "Dancing", "Swimming"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'Me gusta mucho bailar' mean?",
+          "choices": ["I don’t like to dance", "I like to dance a lot", "I love dancing", "I’m dancing"],
+          "type": "MCQs",
+          "correctAnswer": 2
         },
         {
           "question": "What does \"lápiz\" mean?",
@@ -2248,6 +3139,66 @@ export const quiz = [
         "choices": ["escritorio", "libro", "pizarra", "silla"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
+    },
+    {
+      "question": "A mí me gusta ______ (to play) videojuegos en mi tiempo libre.",
+      "choices": ["jugar", "cocinar", "leer", "nadar"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "No me gusta ______ (to cook) por la noche.",
+      "choices": ["cocinar", "jugar", "leer", "nadar"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Me encanta ______ (to read) libros de ciencia ficción.",
+      "choices": ["leer", "cocinar", "jugar", "nadar"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "A él le gusta ______ (to swim) en la piscina.",
+      "choices": ["nadar", "leer", "cocinar", "jugar"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Nosotros ______ (to listen) música todos los días.",
+      "choices": ["escuchamos", "leemos", "jugamos", "nadamos"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "A ti te gusta ______ (to watch) películas de terror.",
+      "choices": ["ver", "leer", "bailar", "nadar"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Me gusta mucho ______ (to dance) salsa.",
+      "choices": ["bailar", "correr", "leer", "ver"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "A ella le gusta ______ (to go) de compras los sábados.",
+      "choices": ["ir", "leer", "correr", "bailar"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "No me gusta ______ (to run) por la mañana.",
+      "choices": ["correr", "leer", "nadar", "bailar"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Me encanta ______ (to play) al fútbol con mis amigos.",
+      "choices": ["jugar", "leer", "correr", "bailar"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
     },
     {
         "question": "La ______ (book) está en la mesa.",
@@ -2400,6 +3351,52 @@ export const quiz = [
           {
             "left": { "word": "Disculpa", "rightId": 10 },
             "right": { "word": "Table", "rightId": 5 }
+          }
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Leer", "rightId": 1 },
+            "right": { "word": "To dance", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Bailar", "rightId": 2 },
+            "right": { "word": "To watch movies", "rightId": 7 }
+          },
+          {
+            "left": { "word": "Escuchar música", "rightId": 3 },
+            "right": { "word": "To read", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Correr", "rightId": 4 },
+            "right": { "word": "To listen to music", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Jugar al fútbol", "rightId": 5 },
+            "right": { "word": "To run", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Ir de compras", "rightId": 6 },
+            "right": { "word": "To play the guitar", "rightId": 9 }
+          },
+          {
+            "left": { "word": "Ver películas", "rightId": 7 },
+            "right": { "word": "To swim", "rightId": 10 }
+          },
+          {
+            "left": { "word": "Cocinar", "rightId": 8 },
+            "right": { "word": "To go shopping", "rightId": 6 }
+          },
+          {
+            "left": { "word": "Tocar la guitarra", "rightId": 9 },
+            "right": { "word": "To cook", "rightId": 8 }
+          },
+          {
+            "left": { "word": "Nadar", "rightId": 10 },
+            "right": { "word": "To play soccer", "rightId": 5 }
           }
         ]
       }
