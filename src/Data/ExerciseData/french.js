@@ -7269,5 +7269,183 @@ export const quiz = [
   
       ],
     },
-   
+    {
+      quiz: '30',
+      name: 'French Exercise - 11 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "Which word means 'a painting' in French?",
+          "choices": ["Une galerie", "Une sculpture", "Une peinture", "Une exposition"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Un festival est lié à _______.",
+          "choices": ["La musique et les arts", "Les mathématiques", "Le sport", "La cuisine uniquement"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un orchestre joue généralement _______.",
+          "choices": ["Des tableaux", "De la musique classique", "De la danse", "Du théâtre"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'une galerie' mean in English?",
+          "choices": ["A festival", "A gallery", "A sculpture", "A painting"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Une exposition est souvent associée à _______.",
+          "choices": ["La musique", "Les arts visuels", "La danse", "Le chant"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Replace “à Paul” in the sentence: “Je parle à Paul.”",
+          "choices": ["Je parle lui.", "Je le parle.", "Je lui parle.", "Lui parle."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Nous _______ avons envoyé une invitation au concert.",
+          "choices": ["lui", "leur", "nous", "me"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Elle va _______ écrire une lettre d’admiration.",
+          "choices": ["te", "lui", "leur", "me"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Il _______ explique les détails du festival.",
+          "choices": ["leur", "me", "vous", "lui"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Tu vas _______ téléphoner avant le spectacle ?",
+          "choices": ["me", "leur", "lui", "nous"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+
+        {
+          "question": "J’ai acheté un billet pour un ______ (concert) de musique classique.",
+          "choices": ["concert", "peinture", "galerie", "sculpture"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce peintre célèbre a créé une magnifique ______ (paint).",
+          "choices": ["peinture", "concert", "sculpture", "orchestre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons visité une ______ (gallery) d’art moderne hier.",
+          "choices": ["galerie", "spectacle", "peinture", "sculpture"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ont vu une ______ (sculpture) célèbre au musée du Louvre.",
+          "choices": ["sculpture", "peinture", "orchestre", "spectacle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce soir, nous allons à un ______ (show) de théâtre.",
+          "choices": ["spectacle", "concert", "festival", "galerie"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle écoute de la musique jouée par un ______ (orchestra).",
+          "choices": ["orchestre", "sculpteur", "chanteur", "peintre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le ______ (singer) joue une mélodie incroyable au piano.",
+          "choices": ["chanteur", "sculpteur", "orchestre", "peintre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce ______ (festival) attire des artistes de toute l’Europe.",
+          "choices": ["festival", "spectacle", "concert", "peinture"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le professeur nous a montré une ______ (paint) ancienne.",
+          "choices": ["peinture", "sculpture", "orchestre", "galerie"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Après le spectacle, le public a applaudi ______ (there) chanteuse.",
+          "choices": ["la", "le", "les", "un"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Une peinture", "rightId": 1 },
+              "right": { "word": "A sculptor", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Un orchestre", "rightId": 2 },
+              "right": { "word": "A gallery", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Une galerie", "rightId": 3 },
+              "right": { "word": "A show", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Un concert", "rightId": 4 },
+              "right": { "word": "A festival", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Un sculpteur", "rightId": 5 },
+              "right": { "word": "A singer", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Une exposition", "rightId": 6 },
+              "right": { "word": "A concert", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Un spectacle", "rightId": 7 },
+              "right": { "word": "An exhibition", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Une sculpture", "rightId": 8 },
+              "right": { "word": "A painting", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Un festival", "rightId": 9 },
+              "right": { "word": "A sculpture", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Une chanteuse", "rightId": 10 },
+              "right": { "word": "An orchestra", "rightId":2 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]
