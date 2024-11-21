@@ -7059,7 +7059,7 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Which of the following uses *passé composé* correctly?",
+          "question": "Which of the following uses \"passé composé\" correctly?",
           "choices": [
             "Nous avons regardé un film hier soir.",
             "Nous regardons un film hier soir.",
@@ -7269,4 +7269,5 @@ export const quiz = [
   
       ],
     },
+   
 ]
