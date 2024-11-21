@@ -7209,7 +7209,7 @@ export const quiz = [
         },
         {
           "question": "Il ______ (être) 5 heures et demie quand elle a quitté le bureau.",
-          "choices": ["était", "est", "sera", "fut"],
+          "choices": ["était", "est", "", "fut"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
