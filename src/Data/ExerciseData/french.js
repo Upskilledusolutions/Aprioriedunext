@@ -7081,7 +7081,7 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Which sentence is in the *passé composé* tense?",
+          "question": "Which sentence is in the \"passé composé\" tense?",
           "choices": [
             "Nous sommes partis à 10 heures.",
             "Nous partons à 10 heures.",
