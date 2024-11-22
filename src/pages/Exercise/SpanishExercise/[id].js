@@ -24,7 +24,7 @@ const Quiz = () => {
   const [showMenu, setShowMenu] = useState(false); // Toggle state for sidebar on mobile
   const [selectedOption, setSelectedOption] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const [questionType, setQuestionType] = useState('MCQs'); // State to store selected question type
+  const [questionType, setQuestionType] = useState(''); // State to store selected question type
   const [isModalOpen, setIsModalOpen] = useState(true); // State to control modal visibility
   const [report, setReport] = useState([])
   const [showreport, setShowreport] = useState(false)
@@ -32,6 +32,7 @@ const Quiz = () => {
   const [fefill, setFefill] = useState(false)
   const [fematch, setFematch] = useState(false)
   const [finished, setFinished] = useState([]);
+  const [showerror, setShowerror] = useState(false)
 
   const dispatch = useDispatch();
   const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesSpanish);
@@ -132,9 +133,9 @@ const Quiz = () => {
   useEffect(() => {
     setActiveQuestion(0);
     setShowResult(false);
-    setSelectedAnswer("");
-    setSelectedAnswerIndex(null);
-    setSelectedOption(null);
+    // setSelectedAnswer("");
+    // setSelectedAnswerIndex(null);
+    // setSelectedOption(null);
     setTime(25);
     setStart(true);
     setResult({ correctAnswers: 0, wrong: 0 });
@@ -168,7 +169,8 @@ const Quiz = () => {
     setReport([]);
   };
 
-  const currentQuiz = completedQuizzes.find(quiz => quiz.exercise === quizId);
+  let completedQuizzes1 = completedQuizzes.filter(data => data.language == subject)
+  const currentQuiz = completedQuizzes1.find(quiz => quiz.exercise === quizId);
 
   return (
     <>
@@ -187,16 +189,16 @@ const Quiz = () => {
             <li className={`${currentQuiz?.questionTypes.includes('MCQs') ? styles.back : styles.white}`} 
             onClick={()=>selectQuestionType('MCQs')}><a>MCQ</a></li>
             <li className={`${currentQuiz?.questionTypes.includes('FillInTheBlanks') ? styles.back : styles.white}`} 
-            onClick={()=>selectQuestionType('FillInTheBlanks')}><a>Fill in the Blanks</a></li>
+            onClick={()=>[!selectedOption && selectQuestionType('FillInTheBlanks'), selectedOption && setShowerror(!showerror),setTime(-1)]}><a>Fill in the Blanks</a></li>
             <li className={`${currentQuiz?.questionTypes.includes('MatchTheFollowing') ? styles.back : styles.white}`} 
-            onClick={()=>selectQuestionType('MatchTheFollowing')}><a>Match the Following</a></li>
+            onClick={()=>[!selectedOption && selectQuestionType('MatchTheFollowing'), selectedOption && setShowerror(!showerror),setTime(-1)]}><a>Match the Following</a></li>
           </ul>
         </div>
 
 
         <div className={`${styles.mobileMenu} ${styles.sidebar}`}>
           <div className={styles.menuHeader} onClick={toggleMenu}>
-            <span>{questionType}</span>
+            <span>{questionType == '' ? 'Select' : questionType}</span>
             {showMenu ? <FiChevronUp /> : <FiChevronDown />}
           </div>
           {showMenu && (
@@ -207,12 +209,12 @@ const Quiz = () => {
                   </div>
                 </li>
                 <li onClick={toggleMenu}>
-                  <div onClick={()=>selectQuestionType('FillInTheBlanks')}>
+                  <div onClick={()=>[!selectedOption && selectQuestionType('FillInTheBlanks'), selectedOption && setShowerror(!showerror),setTime(-1)]}>
                   Fill In The Blanks
                   </div>
                 </li>
                 <li onClick={toggleMenu}>
-                  <div onClick={()=>selectQuestionType('MatchTheFollowing')}>
+                  <div onClick={()=>[!selectedOption && selectQuestionType('FillInTheBlanks'), selectedOption && setShowerror(!showerror),setTime(-1)]}>
                   Match The Following
                   </div>
                 </li>
@@ -222,12 +224,17 @@ const Quiz = () => {
 
         {/* Quiz Container */}
         <div className={styles.container}>
-          <div className={styles.timer}>
+        {questionType == '' ? '' :<div className={styles.timer}>
             <BsAlarm /> <span>{addLeadingZero(time)}</span>
-          </div>
+          </div>}
 
           <div className={styles.quizcontainer}>
-            {!showResult ? (
+           {showerror && <div className={styles.modelback}>
+            <div className={styles.errormodel}>You can't leave with an option selected! <br/><button onClick={() => setShowerror(!showerror)}>Go back</button>
+            </div>
+            </div>}
+            {questionType === '' ? <div className={styles.starting}><div className={styles.fulltext}>Please CLICK on any one of the three question types mentioned the orange column.</div><div className={styles.textmob}>Please select a question type from the orange drop down menu above.</div></div> : 
+            <div>{!showResult ? (
               <div>
                 {filteredQuestions[activeQuestion] ? (
                   <>
@@ -305,11 +312,11 @@ const Quiz = () => {
                 <div className={styles.margindena}>
                   <FaCheck className={styles.check} /> Correct Answers: {result.correctAnswers}
                 </div>
-                {filteredQuestions[activeQuestion].type === 'MatchTheFollowing' ? "" : <div className={styles.margindena1}>
+                {filteredQuestions[activeQuestion]?.type === 'MatchTheFollowing' ? "" : <div className={styles.margindena1}>
                   <RxCross1 className={styles.cross} /> Wrong Answers: {result.wrong - 1}
                 </div>}
                 <button className={styles.mgright} onClick={reloadPage}>Retry Quiz</button>
-                {filteredQuestions[activeQuestion].type !== 'MatchTheFollowing' && <button onClick={()=>setShowreport(!showreport)}>Show Report</button>}
+                {filteredQuestions[activeQuestion]?.type !== 'MatchTheFollowing' && <button onClick={()=>setShowreport(!showreport)}>Show Report</button>}
 
               {showreport && <table className={styles.table}>
               <tr>    
@@ -335,7 +342,8 @@ const Quiz = () => {
 
               
                 </div>
-                )}
+                )}</div>
+          }      
           </div>
         </div>
       </main>

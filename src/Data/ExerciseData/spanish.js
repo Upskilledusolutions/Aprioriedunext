@@ -14,120 +14,120 @@ export const quiz = [
         type: 'MCQs',
         correctAnswer: 1,
       },
-      {
-        question: "What does 'de nada' mean?",
-        choices: ['you’re welcome', 'thank you', 'goodbye', 'please'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "How do you say 'good afternoon' in Spanish?",
-        choices: ['buenas noches', 'buenas tardes', 'hola', 'buenos días'],
-        type: 'MCQs',
-        correctAnswer: 2,
-      },
-      {
-        question: "What does 'sí' mean?",
-        choices: ['yes', 'no', 'please', 'thank you'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "What is the Spanish word for 'no'?",
-        choices: ['sí', 'no', 'gracias', 'por favor'],
-        type: 'MCQs',
-        correctAnswer: 2,
-      },
-      {
-        question: "What does 'mucho gusto' mean?",
-        choices: ['nice to meet you', 'good morning', 'good night', 'see you later'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "How do you say 'see you later' in Spanish?",
-        choices: ['hasta luego', 'adiós', 'hola', 'gracias'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "What does 'bienvenido' mean?",
-        choices: ['welcome', 'goodbye', 'please', 'thank you'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "How do you say 'I don’t understand' in Spanish?",
-        choices: ['no comprendo', 'me llamo', 'por favor', 'gracias'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "What does 'hasta mañana' mean?",
-        choices: ['see you tomorrow', 'good night', 'goodbye', 'hello'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "What does 'hola' mean in English?",
-        choices: ['goodbye', 'hello', 'thank you', 'please'],
-        type: 'MCQs',
-        correctAnswer: 2,
-      },
-      {
-        question: "How do you say 'thank you' in Spanish?",
-        choices: ['gracias', 'por favor', 'adiós', 'hola'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "What does 'por favor' mean?",
-        choices: ['please', 'thank you', 'excuse me', 'goodbye'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "How do you say 'goodbye' in Spanish?",
-        choices: ['hola', 'adiós', 'buenos días', 'gracias'],
-        type: 'MCQs',
-        correctAnswer: 2,
-      },
-      {
-        question: "What does 'buenos días' mean?",
-        choices: ['good night', 'good morning', 'goodbye', 'thank you'],
-        type: 'MCQs',
-        correctAnswer: 2,
-      },
-      {
-        question: "How do you say 'excuse me' in Spanish?",
-        choices: ['lo siento', 'disculpe', 'gracias', 'por favor'],
-        type: 'MCQs',
-        correctAnswer: 2,
-      },
-      {
-        question: "What does 'lo siento' mean?",
-        choices: ['I’m sorry', 'thank you', 'please', 'hello'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
-      {
-        question: "How do you say 'good night' in Spanish?",
-        choices: ['buenos días', 'buenas noches', 'hola', 'gracias'],
-        type: 'MCQs',
-        correctAnswer: 2,
-      },
-      {
-        question: "What does '¿cómo estás?' mean?",
-        choices: ['what is your name?', 'how are you?', 'goodbye', 'where are you?'],
-        type: 'MCQs',
-        correctAnswer: 2,
-      },
-      {
-        question: "How do you say 'I am fine' in Spanish?",
-        choices: ['estoy bien', 'estoy mal', 'gracias', 'buenas noches'],
-        type: 'MCQs',
-        correctAnswer: 1,
-      },
+      // {
+      //   question: "What does 'de nada' mean?",
+      //   choices: ['you’re welcome', 'thank you', 'goodbye', 'please'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "How do you say 'good afternoon' in Spanish?",
+      //   choices: ['buenas noches', 'buenas tardes', 'hola', 'buenos días'],
+      //   type: 'MCQs',
+      //   correctAnswer: 2,
+      // },
+      // {
+      //   question: "What does 'sí' mean?",
+      //   choices: ['yes', 'no', 'please', 'thank you'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "What is the Spanish word for 'no'?",
+      //   choices: ['sí', 'no', 'gracias', 'por favor'],
+      //   type: 'MCQs',
+      //   correctAnswer: 2,
+      // },
+      // {
+      //   question: "What does 'mucho gusto' mean?",
+      //   choices: ['nice to meet you', 'good morning', 'good night', 'see you later'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "How do you say 'see you later' in Spanish?",
+      //   choices: ['hasta luego', 'adiós', 'hola', 'gracias'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "What does 'bienvenido' mean?",
+      //   choices: ['welcome', 'goodbye', 'please', 'thank you'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "How do you say 'I don’t understand' in Spanish?",
+      //   choices: ['no comprendo', 'me llamo', 'por favor', 'gracias'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "What does 'hasta mañana' mean?",
+      //   choices: ['see you tomorrow', 'good night', 'goodbye', 'hello'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "What does 'hola' mean in English?",
+      //   choices: ['goodbye', 'hello', 'thank you', 'please'],
+      //   type: 'MCQs',
+      //   correctAnswer: 2,
+      // },
+      // {
+      //   question: "How do you say 'thank you' in Spanish?",
+      //   choices: ['gracias', 'por favor', 'adiós', 'hola'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "What does 'por favor' mean?",
+      //   choices: ['please', 'thank you', 'excuse me', 'goodbye'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "How do you say 'goodbye' in Spanish?",
+      //   choices: ['hola', 'adiós', 'buenos días', 'gracias'],
+      //   type: 'MCQs',
+      //   correctAnswer: 2,
+      // },
+      // {
+      //   question: "What does 'buenos días' mean?",
+      //   choices: ['good night', 'good morning', 'goodbye', 'thank you'],
+      //   type: 'MCQs',
+      //   correctAnswer: 2,
+      // },
+      // {
+      //   question: "How do you say 'excuse me' in Spanish?",
+      //   choices: ['lo siento', 'disculpe', 'gracias', 'por favor'],
+      //   type: 'MCQs',
+      //   correctAnswer: 2,
+      // },
+      // {
+      //   question: "What does 'lo siento' mean?",
+      //   choices: ['I’m sorry', 'thank you', 'please', 'hello'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
+      // {
+      //   question: "How do you say 'good night' in Spanish?",
+      //   choices: ['buenos días', 'buenas noches', 'hola', 'gracias'],
+      //   type: 'MCQs',
+      //   correctAnswer: 2,
+      // },
+      // {
+      //   question: "What does '¿cómo estás?' mean?",
+      //   choices: ['what is your name?', 'how are you?', 'goodbye', 'where are you?'],
+      //   type: 'MCQs',
+      //   correctAnswer: 2,
+      // },
+      // {
+      //   question: "How do you say 'I am fine' in Spanish?",
+      //   choices: ['estoy bien', 'estoy mal', 'gracias', 'buenas noches'],
+      //   type: 'MCQs',
+      //   correctAnswer: 1,
+      // },
       
       // 20 Fill in the Blanks
 
@@ -137,120 +137,120 @@ export const quiz = [
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
-      {
-        question: "Yo _______ bien, gracias. (I am fine, thank you.)",
-        choices: ["estoy", "eres", "somos", "estás"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Me llamo Juan, ¿y tú _______? (My name is Juan, and you?)",
-        choices: ["cómo", "tú", "yo", "cómo te llamas"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 4
-      },
-      {
-        question: "Yo _______ de España. (I am from Spain.)",
-        choices: ["soy", "eres", "somos", "es"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "¿_______ español? (Do you speak Spanish?)",
-        choices: ["hablas", "hablo", "hablan", "hablas tú"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Sí, yo _______ español. (Yes, I speak Spanish.)",
-        choices: ["hablo", "hablas", "habla", "hablamos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Gracias, _______ luego. (Thank you, see you later.)",
-        choices: ["hasta", "adiós", "nos", "después"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "_________ por favor. (Water, please.)",
-        choices: ["agua", "tierra", "fuego", "aire"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "No, _______ entiendo. (No, I don’t understand.)",
-        choices: ["no", "sí", "tal vez", "ahora"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "_______ de dónde eres. (I know where you are from.)",
-        choices: ["sé", "sabes", "sabe", "sabemos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Nosotros _______ en la playa. (We are at the beach.)",
-        choices: ["estamos", "soy", "somos", "es"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Ella _______ profesora. (She is a teacher.)",
-        choices: ["es", "soy", "son", "estás"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "¿Dónde _______ tú? (Where are you?)",
-        choices: ["estás", "eres", "soy", "es"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Ellos _______ en casa. (They are at home.)",
-        choices: ["están", "estás", "estamos", "soy"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Nosotros _______ a la escuela. (We are going to school.)",
-        choices: ["vamos", "va", "voy", "van"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "¿Cómo _______ tú? (How are you?)",
-        choices: ["estás", "es", "soy", "somos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Yo _______ de México. (I am from Mexico.)",
-        choices: ["soy", "eres", "es", "somos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Ellos _______ contentos. (They are happy.)",
-        choices: ["están", "es", "soy", "somos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "Nosotros _______ amigos. (We are friends.)",
-        choices: ["somos", "soy", "eres", "es"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
-      {
-        question: "_______ está usted? (How are you?)",
-        choices: ["cómo", "cómo", "cómo", "cómo"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
-      },
+      // {
+      //   question: "Yo _______ bien, gracias. (I am fine, thank you.)",
+      //   choices: ["estoy", "eres", "somos", "estás"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Me llamo Juan, ¿y tú _______? (My name is Juan, and you?)",
+      //   choices: ["cómo", "tú", "yo", "cómo te llamas"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 4
+      // },
+      // {
+      //   question: "Yo _______ de España. (I am from Spain.)",
+      //   choices: ["soy", "eres", "somos", "es"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "¿_______ español? (Do you speak Spanish?)",
+      //   choices: ["hablas", "hablo", "hablan", "hablas tú"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Sí, yo _______ español. (Yes, I speak Spanish.)",
+      //   choices: ["hablo", "hablas", "habla", "hablamos"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Gracias, _______ luego. (Thank you, see you later.)",
+      //   choices: ["hasta", "adiós", "nos", "después"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "_________ por favor. (Water, please.)",
+      //   choices: ["agua", "tierra", "fuego", "aire"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "No, _______ entiendo. (No, I don’t understand.)",
+      //   choices: ["no", "sí", "tal vez", "ahora"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "_______ de dónde eres. (I know where you are from.)",
+      //   choices: ["sé", "sabes", "sabe", "sabemos"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Nosotros _______ en la playa. (We are at the beach.)",
+      //   choices: ["estamos", "soy", "somos", "es"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Ella _______ profesora. (She is a teacher.)",
+      //   choices: ["es", "soy", "son", "estás"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "¿Dónde _______ tú? (Where are you?)",
+      //   choices: ["estás", "eres", "soy", "es"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Ellos _______ en casa. (They are at home.)",
+      //   choices: ["están", "estás", "estamos", "soy"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Nosotros _______ a la escuela. (We are going to school.)",
+      //   choices: ["vamos", "va", "voy", "van"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "¿Cómo _______ tú? (How are you?)",
+      //   choices: ["estás", "es", "soy", "somos"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Yo _______ de México. (I am from Mexico.)",
+      //   choices: ["soy", "eres", "es", "somos"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Ellos _______ contentos. (They are happy.)",
+      //   choices: ["están", "es", "soy", "somos"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "Nosotros _______ amigos. (We are friends.)",
+      //   choices: ["somos", "soy", "eres", "es"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
+      // {
+      //   question: "_______ está usted? (How are you?)",
+      //   choices: ["cómo", "cómo", "cómo", "cómo"],
+      //   type: 'FillInTheBlanks',
+      //   correctAnswer: 1
+      // },
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -315,180 +315,180 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
-      {
-        "question": "Which is the correct article for gato (cat)?",
-        "choices": ["El", "La", "Un", "Los"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "How do you say 'four' in Spanish?",
-        "choices": ["Cinco", "Cuatro", "Tres", "Seis"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the Spanish word for 'ten'?",
-        "choices": ["Nueve", "Diez", "Ocho", "Doce"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the correct article for 'manzana' (apple)?",
-        "choices": ["La", "El", "Una", "Los"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "How do you say 'fifteen' in Spanish?",
-        "choices": ["Quince", "Catorce", "Dieciséis", "Veinte"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "How do you say 'seven' in Spanish?",
-        "choices": ["Cinco", "Seis", "Siete", "Ocho"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "How do you say 'eleven' in Spanish?",
-        "choices": ["Doce", "Trece", "Once", "Catorce"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "What is the indefinite article for 'libros' (books)?",
-        "choices": ["Un", "Una", "Los", "Unos"],
-        "type": "MCQs",
-        "correctAnswer": 4
-      },
-      {
-        "question": "What is the Spanish word for 'twenty'?",
-        "choices": ["Diecinueve", "Dieciocho", "Veinte", "Veintidós"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "How do you say 'three' in Spanish?",
-        "choices": ["Uno", "Tres", "Cuatro", "Dos"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "How do you say 'sixteen' in Spanish?",
-        "choices": ["Dieciseis", "Quince", "Dieciséis", "Catorce"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "Which article should be used for 'perro' (dog)?",
-        "choices": ["Un", "Una", "Los", "Unos"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "How do you say 'eighteen' in Spanish?",
-        "choices": ["Diecisiete", "Dieciocho", "Quince", "Veinte"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the Spanish pronunciation for 'five'?",
-        "choices": ["Seis", "Cinco", "Siete", "Cuatro"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "How do you say 'nine' in Spanish?",
-        "choices": ["Nueve", "Diez", "Ocho", "Siete"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "How do you say the number 'two' in Spanish?",
-        "choices": ["Un", "Tres", "Cuatro", "Dos"],
-        "type": "MCQs",
-        "correctAnswer": 4
-      },
-      {
-        "question": "What is the correct article for 'ventana' (window)?",
-        "choices": ["Un", "La", "Los", "Unos"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the first letter of the Spanish alphabet?",
-        "choices": ["B", "A", "E", "C"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Which letter comes after 'C' in the Spanish alphabet?",
-        "choices": ["E", "D", "F", "G"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "Which of the following letters is considered part of the traditional Spanish alphabet?",
-        "choices": ["Ñ", "K", "W", "V"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What is the 10th letter of the Spanish alphabet?",
-        "choices": ["I", "J", "K", "L"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "Which of the following is the last letter of the Spanish alphabet?",
-        "choices": ["X", "Y", "Z", "V"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "Which is the definite article for 'silla' (chair)?",
-        "choices": ["El", "La", "Una", "Los"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the correct article for 'estudiantes' (students)?",
-        "choices": ["El", "Las", "Una", "Los"],
-        "type": "MCQs",
-        "correctAnswer": 4
-      },
-      {
-        "question": "What is the 15th letter of the Spanish alphabet?",
-        "choices": ["O", "P", "M", "N"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What is the indefinite article for 'jardín' (garden)?",
-        "choices": ["Un", "El", "Una", "Los"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Which article is used for 'niños' (children)?",
-        "choices": ["La", "El", "Las", "Los"],
-        "type": "MCQs",
-        "correctAnswer": 4
-      },
-      {
-        "question": "What is the indefinite article for 'profesor' (teacher)?",
-        "choices": ["Un", "El", "Una", "Los"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Which letter comes right after 'N' in the Spanish alphabet?",
-        "choices": ["O", "Ñ", "P", "L"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
+      // {
+      //   "question": "Which is the correct article for gato (cat)?",
+      //   "choices": ["El", "La", "Un", "Los"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "How do you say 'four' in Spanish?",
+      //   "choices": ["Cinco", "Cuatro", "Tres", "Seis"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the Spanish word for 'ten'?",
+      //   "choices": ["Nueve", "Diez", "Ocho", "Doce"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the correct article for 'manzana' (apple)?",
+      //   "choices": ["La", "El", "Una", "Los"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "How do you say 'fifteen' in Spanish?",
+      //   "choices": ["Quince", "Catorce", "Dieciséis", "Veinte"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "How do you say 'seven' in Spanish?",
+      //   "choices": ["Cinco", "Seis", "Siete", "Ocho"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "How do you say 'eleven' in Spanish?",
+      //   "choices": ["Doce", "Trece", "Once", "Catorce"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "What is the indefinite article for 'libros' (books)?",
+      //   "choices": ["Un", "Una", "Los", "Unos"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 4
+      // },
+      // {
+      //   "question": "What is the Spanish word for 'twenty'?",
+      //   "choices": ["Diecinueve", "Dieciocho", "Veinte", "Veintidós"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "How do you say 'three' in Spanish?",
+      //   "choices": ["Uno", "Tres", "Cuatro", "Dos"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "How do you say 'sixteen' in Spanish?",
+      //   "choices": ["Dieciseis", "Quince", "Dieciséis", "Catorce"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "Which article should be used for 'perro' (dog)?",
+      //   "choices": ["Un", "Una", "Los", "Unos"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "How do you say 'eighteen' in Spanish?",
+      //   "choices": ["Diecisiete", "Dieciocho", "Quince", "Veinte"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the Spanish pronunciation for 'five'?",
+      //   "choices": ["Seis", "Cinco", "Siete", "Cuatro"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "How do you say 'nine' in Spanish?",
+      //   "choices": ["Nueve", "Diez", "Ocho", "Siete"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "How do you say the number 'two' in Spanish?",
+      //   "choices": ["Un", "Tres", "Cuatro", "Dos"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 4
+      // },
+      // {
+      //   "question": "What is the correct article for 'ventana' (window)?",
+      //   "choices": ["Un", "La", "Los", "Unos"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the first letter of the Spanish alphabet?",
+      //   "choices": ["B", "A", "E", "C"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Which letter comes after 'C' in the Spanish alphabet?",
+      //   "choices": ["E", "D", "F", "G"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "Which of the following letters is considered part of the traditional Spanish alphabet?",
+      //   "choices": ["Ñ", "K", "W", "V"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What is the 10th letter of the Spanish alphabet?",
+      //   "choices": ["I", "J", "K", "L"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "Which of the following is the last letter of the Spanish alphabet?",
+      //   "choices": ["X", "Y", "Z", "V"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "Which is the definite article for 'silla' (chair)?",
+      //   "choices": ["El", "La", "Una", "Los"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the correct article for 'estudiantes' (students)?",
+      //   "choices": ["El", "Las", "Una", "Los"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 4
+      // },
+      // {
+      //   "question": "What is the 15th letter of the Spanish alphabet?",
+      //   "choices": ["O", "P", "M", "N"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What is the indefinite article for 'jardín' (garden)?",
+      //   "choices": ["Un", "El", "Una", "Los"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Which article is used for 'niños' (children)?",
+      //   "choices": ["La", "El", "Las", "Los"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 4
+      // },
+      // {
+      //   "question": "What is the indefinite article for 'profesor' (teacher)?",
+      //   "choices": ["Un", "El", "Una", "Los"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Which letter comes right after 'N' in the Spanish alphabet?",
+      //   "choices": ["O", "Ñ", "P", "L"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
       
       // 20 Fill in the Blanks
 
@@ -498,180 +498,180 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
-      {
-        "question": "______ (el/la/los/las) gato está en la casa.",
-        "choices": ["El", "La", "Los", "Las"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'One' in Spanish is ______.",
-        "choices": ["un", "dos", "tres", "cuatro"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Two' in Spanish is ______.",
-        "choices": ["dos", "does", "tres", "cuatro"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (un/una) manzana está sobre la mesa.",
-        "choices": ["Una", "Un"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Fourteen' in Spanish is ______.",
-        "choices": ["catorce", "dos", "trees", "cuatro"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (el/la/los/las) libros están en la estantería.",
-        "choices": ["Los", "El", "La", "Las"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Four' in Spanish is ______.",
-        "choices": ["cuatro", "dos", "tres", "cueatro"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Nineteen' in Spanish is ______.",
-        "choices": ["Diecinueve", "dos", "cincoe", "seis"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Two' in Spanish is ______.",
-        "choices": ["dos", "does", "tres", "cuatro"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Tengo ______ (un/una) coche rojo.",
-        "choices": ["Un", "Una"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Six' in Spanish is ______.",
-        "choices": ["seis", "seeis", "siete", "ocho"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Seven' in Spanish is ______.",
-        "choices": ["siete", "seis", "ocho", "nueve"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (el/la/los/las) niña juega en el parque.",
-        "choices": ["La", "El", "Los", "Las"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (un/una) perro corre rápido.",
-        "choices": ["Un", "Una"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Eight' in Spanish is ______.",
-        "choices": ["ocho", "nueve", "diez", "once"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Twenty' in Spanish is ______.",
-        "choices": ["Veinte", "nuevee", "diez", "once"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (el/la/los/las) ventana está abierta.",
-        "choices": ["La", "El", "Los", "Las"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Ten' in Spanish is ______.",
-        "choices": ["diez", "once", "doce", "trece"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Eleven' in Spanish is ______.",
-        "choices": ["Once", "once", "doce", "trece"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "'Sixteen' in Spanish is ______.",
-        "choices": ["Dieciséis", "once", "doce", "trece"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (un/una) estudiante habla español.",
-        "choices": ["Un", "Una"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (el/la/los/las) profesor está en la clase.",
-        "choices": ["El", "La", "Los", "Las"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Quiero ______ (un/una) taza de café.",
-        "choices": ["Una", "Un"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The 5th letter of the Spanish alphabet is ______.",
-        "choices": ["E", "once", "doce", "trece"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The letter that comes before 'M' in the Spanish alphabet is ______.",
-        "choices": ["L", "once", "doce", "trece"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The 20th letter of the Spanish alphabet is ______.",
-        "choices": ["T", "once", "doce", "trece"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "In the Spanish alphabet, the letter ______ comes after 'R'.",
-        "choices": ["S", "once", "doce", "trece"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The 24th letter of the Spanish alphabet is ______.",
-        "choices": ["X", "once", "doce", "trece"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The letter ______ comes after 'Ñ' in the Spanish alphabet.",
-        "choices": ["O", "once", "doce", "trece"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
+      // {
+      //   "question": "______ (el/la/los/las) gato está en la casa.",
+      //   "choices": ["El", "La", "Los", "Las"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'One' in Spanish is ______.",
+      //   "choices": ["un", "dos", "tres", "cuatro"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Two' in Spanish is ______.",
+      //   "choices": ["dos", "does", "tres", "cuatro"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (un/una) manzana está sobre la mesa.",
+      //   "choices": ["Una", "Un"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Fourteen' in Spanish is ______.",
+      //   "choices": ["catorce", "dos", "trees", "cuatro"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (el/la/los/las) libros están en la estantería.",
+      //   "choices": ["Los", "El", "La", "Las"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Four' in Spanish is ______.",
+      //   "choices": ["cuatro", "dos", "tres", "cueatro"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Nineteen' in Spanish is ______.",
+      //   "choices": ["Diecinueve", "dos", "cincoe", "seis"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Two' in Spanish is ______.",
+      //   "choices": ["dos", "does", "tres", "cuatro"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Tengo ______ (un/una) coche rojo.",
+      //   "choices": ["Un", "Una"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Six' in Spanish is ______.",
+      //   "choices": ["seis", "seeis", "siete", "ocho"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Seven' in Spanish is ______.",
+      //   "choices": ["siete", "seis", "ocho", "nueve"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (el/la/los/las) niña juega en el parque.",
+      //   "choices": ["La", "El", "Los", "Las"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (un/una) perro corre rápido.",
+      //   "choices": ["Un", "Una"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Eight' in Spanish is ______.",
+      //   "choices": ["ocho", "nueve", "diez", "once"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Twenty' in Spanish is ______.",
+      //   "choices": ["Veinte", "nuevee", "diez", "once"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (el/la/los/las) ventana está abierta.",
+      //   "choices": ["La", "El", "Los", "Las"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Ten' in Spanish is ______.",
+      //   "choices": ["diez", "once", "doce", "trece"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Eleven' in Spanish is ______.",
+      //   "choices": ["Once", "once", "doce", "trece"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "'Sixteen' in Spanish is ______.",
+      //   "choices": ["Dieciséis", "once", "doce", "trece"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (un/una) estudiante habla español.",
+      //   "choices": ["Un", "Una"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (el/la/los/las) profesor está en la clase.",
+      //   "choices": ["El", "La", "Los", "Las"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Quiero ______ (un/una) taza de café.",
+      //   "choices": ["Una", "Un"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "The 5th letter of the Spanish alphabet is ______.",
+      //   "choices": ["E", "once", "doce", "trece"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "The letter that comes before 'M' in the Spanish alphabet is ______.",
+      //   "choices": ["L", "once", "doce", "trece"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "The 20th letter of the Spanish alphabet is ______.",
+      //   "choices": ["T", "once", "doce", "trece"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "In the Spanish alphabet, the letter ______ comes after 'R'.",
+      //   "choices": ["S", "once", "doce", "trece"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "The 24th letter of the Spanish alphabet is ______.",
+      //   "choices": ["X", "once", "doce", "trece"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "The letter ______ comes after 'Ñ' in the Spanish alphabet.",
+      //   "choices": ["O", "once", "doce", "trece"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -783,180 +783,180 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
-      {
-        "question": "Choose the correct possessive adjective for: Mi hermana se llama María.",
-        "choices": ["Mi", "Tu", "Su", "Nuestro"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What does \"cinco\" mean in English?",
-        "choices": ["Five", "Six", "Seven", "Eight"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Which color is “amarillo” in English?",
-        "choices": ["Green", "Yellow", "Blue", "Black"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "Choose the correct possessive adjective for: Tu madre trabaja en un hospital.",
-        "choices": ["Mi", "Tu", "Su", "Nuestra"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the Spanish word for \"friend\"?",
-        "choices": ["Amigo", "Enemigo", "Compañero", "Maestro"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What does \"treinta\" mean in English?",
-        "choices": ["Twenty", "Thirty", "Forty", "Fifty"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "Which of the following means \"to write\" in Spanish?",
-        "choices": ["Leer", "Escribir", "Hablar", "Jugar"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the meaning of \"triste\"?",
-        "choices": ["Happy", "Sad", "Angry", "Excited"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "Choose the correct possessive adjective for: Sus padres viven en la ciudad.",
-        "choices": ["Mis", "Tus", "Sus", "Nuestros"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "What is \"sesenta\" in English?",
-        "choices": ["Sixty", "Seventy", "Eighty", "Ninety"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Choose the correct possessive adjective for: Su perro es muy bonito.",
-        "choices": ["Mi", "Nuestro", "Tu", "Su"],
-        "type": "MCQs",
-        "correctAnswer": 4
-      },
-      {
-        "question": "Choose the correct possessive adjective for: Nuestro abuelo vive con nosotros.",
-        "choices": ["Mi", "Tu", "Nuestro", "Vuestro"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "Which word means \"food\" in Spanish?",
-        "choices": ["Agua", "Comida", "Sopa", "Fruta"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What does \"bienvenido\" mean?",
-        "choices": ["Goodbye", "Welcome", "Thank you", "Please"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "Choose the correct possessive adjective for: Tus padres son muy amables.",
-        "choices": ["Mis", "Tus", "Nuestros", "Sus"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the Spanish word for \"family\"?",
-        "choices": ["Casa", "Familia", "Grupo", "Comunidad"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "Choose the correct possessive adjective for: Mis amigos vienen a casa este fin de semana.",
-        "choices": ["Mis", "Tus", "Nuestros", "Sus"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What does \"ocho\" mean in English?",
-        "choices": ["Six", "Eight", "Ten", "Twelve"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "Which of the following means \"to listen\" in Spanish?",
-        "choices": ["Mirar", "Oír", "Hablar", "Jugar"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the meaning of \"feliz\"?",
-        "choices": ["Happy", "Busy", "Tired", "Sad"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Choose the correct possessive adjective for: Vuestra casa está cerca de la playa.",
-        "choices": ["Nuestra", "Tu", "Vuestra", "Sus"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "Choose the correct possessive adjective for: Sus hijos son muy inteligentes.",
-        "choices": ["Mis", "Tus", "Sus", "Nuestros"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "What does \"nieve\" mean in English?",
-        "choices": ["Snow", "Rain", "Wind", "Sun"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Which word means \"city\" in Spanish?",
-        "choices": ["Pueblo", "Ciudad", "Campo", "Aldea"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is \"quince\" in English?",
-        "choices": ["Twelve", "Thirteen", "Fourteen", "Fifteen"],
-        "type": "MCQs",
-        "correctAnswer": 4
-      },
-      {
-        "question": "Choose the correct possessive adjective for: Nuestra tía vive en Madrid.",
-        "choices": ["Nuestra", "Tu", "Vuestra", "Su"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What does \"lavar\" mean?",
-        "choices": ["To cook", "To clean", "To dance", "To run"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the Spanish word for \"teacher\"?",
-        "choices": ["Estudiante", "Maestro", "Amigo", "Escritor"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What does \"salud\" mean?",
-        "choices": ["Health", "Love", "Happiness", "Money"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Mi hermana se llama María.",
+      //   "choices": ["Mi", "Tu", "Su", "Nuestro"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What does \"cinco\" mean in English?",
+      //   "choices": ["Five", "Six", "Seven", "Eight"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Which color is “amarillo” in English?",
+      //   "choices": ["Green", "Yellow", "Blue", "Black"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Tu madre trabaja en un hospital.",
+      //   "choices": ["Mi", "Tu", "Su", "Nuestra"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the Spanish word for \"friend\"?",
+      //   "choices": ["Amigo", "Enemigo", "Compañero", "Maestro"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What does \"treinta\" mean in English?",
+      //   "choices": ["Twenty", "Thirty", "Forty", "Fifty"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "Which of the following means \"to write\" in Spanish?",
+      //   "choices": ["Leer", "Escribir", "Hablar", "Jugar"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the meaning of \"triste\"?",
+      //   "choices": ["Happy", "Sad", "Angry", "Excited"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Sus padres viven en la ciudad.",
+      //   "choices": ["Mis", "Tus", "Sus", "Nuestros"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "What is \"sesenta\" in English?",
+      //   "choices": ["Sixty", "Seventy", "Eighty", "Ninety"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Su perro es muy bonito.",
+      //   "choices": ["Mi", "Nuestro", "Tu", "Su"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 4
+      // },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Nuestro abuelo vive con nosotros.",
+      //   "choices": ["Mi", "Tu", "Nuestro", "Vuestro"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "Which word means \"food\" in Spanish?",
+      //   "choices": ["Agua", "Comida", "Sopa", "Fruta"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What does \"bienvenido\" mean?",
+      //   "choices": ["Goodbye", "Welcome", "Thank you", "Please"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Tus padres son muy amables.",
+      //   "choices": ["Mis", "Tus", "Nuestros", "Sus"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the Spanish word for \"family\"?",
+      //   "choices": ["Casa", "Familia", "Grupo", "Comunidad"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Mis amigos vienen a casa este fin de semana.",
+      //   "choices": ["Mis", "Tus", "Nuestros", "Sus"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What does \"ocho\" mean in English?",
+      //   "choices": ["Six", "Eight", "Ten", "Twelve"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "Which of the following means \"to listen\" in Spanish?",
+      //   "choices": ["Mirar", "Oír", "Hablar", "Jugar"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the meaning of \"feliz\"?",
+      //   "choices": ["Happy", "Busy", "Tired", "Sad"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Vuestra casa está cerca de la playa.",
+      //   "choices": ["Nuestra", "Tu", "Vuestra", "Sus"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Sus hijos son muy inteligentes.",
+      //   "choices": ["Mis", "Tus", "Sus", "Nuestros"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "What does \"nieve\" mean in English?",
+      //   "choices": ["Snow", "Rain", "Wind", "Sun"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Which word means \"city\" in Spanish?",
+      //   "choices": ["Pueblo", "Ciudad", "Campo", "Aldea"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is \"quince\" in English?",
+      //   "choices": ["Twelve", "Thirteen", "Fourteen", "Fifteen"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 4
+      // },
+      // {
+      //   "question": "Choose the correct possessive adjective for: Nuestra tía vive en Madrid.",
+      //   "choices": ["Nuestra", "Tu", "Vuestra", "Su"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What does \"lavar\" mean?",
+      //   "choices": ["To cook", "To clean", "To dance", "To run"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the Spanish word for \"teacher\"?",
+      //   "choices": ["Estudiante", "Maestro", "Amigo", "Escritor"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What does \"salud\" mean?",
+      //   "choices": ["Health", "Love", "Happiness", "Money"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
       
       // 20 Fill in the Blanks
 
@@ -966,180 +966,180 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
-      {
-        "question": "______ (My) hermano es muy inteligente.",
-        "choices": ["Mi","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Ella tiene ______ (three) gatos.",
-        "choices": ["tres", "dos", "e", "cuatro"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Voy a la tienda a ______ (buy) pan.",
-        "choices": ["comprar", "vender", "pagar", "buscar"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (Your - informal) casa es muy bonita.",
-        "choices": ["Tu","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Mi color favorito es ______ (yellow).",
-        "choices": ["amarillo", "e", "verde", "azul"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Los niños ______ (to play) en el parque.",
-        "choices": ["juegan", "corren", "comen", "saltan"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (His) perro es muy amigable.",
-        "choices": ["Su","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Tienes ______ (four) libros en tu mochila.",
-        "choices": ["cuatro", "tres", "e", "cinco"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Me gusta ______ (to dance) salsa.",
-        "choices": ["bailar", "cantar", "escuchar", "ver"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (Our) madre cocina todos los días.",
-        "choices": ["Nuestra","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (Your - plural in Spain) amigos están en la fiesta.",
-        "choices": ["Vuestros","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "La ______ (color) de su vestido es rosa.",
-        "choices": ["color", "talla", "forma", "textura"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "¿Dónde está mi ______ (phone)?",
-        "choices": ["teléfono", "coche", "llave", "bolso"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Voy a ______ (watch) una película esta noche.",
-        "choices": ["ver", "escuchar", "leer", "comprar"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "El tren sale a las ______ (five) de la tarde.",
-        "choices": ["cinco", "e", "seis", "siete"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (Their) hijos estudian en la escuela.",
-        "choices": ["Sus","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Mis amigos son muy ______ (funny).",
-        "choices": ["divertidos", "serios", "tristes", "aburridos"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "La fruta que más me gusta es la ______ (banana).",
-        "choices": ["banana", "naranja", "e", "pera"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Necesito ______ (to study) para el examen.",
-        "choices": ["estudiar", "trabajar", "leer", "escribir"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "La casa tiene ______ (ten) ventanas.",
-        "choices": ["diez", "siete", "ocho", "e"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (My) padres viajan a menudo.",
-        "choices": ["Mis","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (Your - informal) coche está estacionado fuera.",
-        "choices": ["Tu","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Me siento ______ (tired) después de trabajar.",
-        "choices": ["cansado", "e", "emocionado", "tranquilo"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (Our) profesor enseña matemáticas.",
-        "choices": ["Nuestro","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "La ______ (weather) es muy agradable en primavera.",
-        "choices": ["clima", "temperatura", "temporada", "estación"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "El libro está sobre la ______ (table).",
-        "choices": ["mesa", "silla", "cama", "puerta"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (His) abuela vive en el campo.",
-        "choices": ["Su","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Mi hermana tiene ______ (eight) años.",
-        "choices": ["ocho", "e", "nueve", "diez"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Es importante ______ (to rest) después de hacer ejercicio.",
-        "choices": ["descansar", "comer", "beber", "jugar"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
+      // {
+      //   "question": "______ (My) hermano es muy inteligente.",
+      //   "choices": ["Mi","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Ella tiene ______ (three) gatos.",
+      //   "choices": ["tres", "dos", "e", "cuatro"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Voy a la tienda a ______ (buy) pan.",
+      //   "choices": ["comprar", "vender", "pagar", "buscar"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (Your - informal) casa es muy bonita.",
+      //   "choices": ["Tu","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Mi color favorito es ______ (yellow).",
+      //   "choices": ["amarillo", "e", "verde", "azul"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Los niños ______ (to play) en el parque.",
+      //   "choices": ["juegan", "corren", "comen", "saltan"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (His) perro es muy amigable.",
+      //   "choices": ["Su","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Tienes ______ (four) libros en tu mochila.",
+      //   "choices": ["cuatro", "tres", "e", "cinco"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Me gusta ______ (to dance) salsa.",
+      //   "choices": ["bailar", "cantar", "escuchar", "ver"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (Our) madre cocina todos los días.",
+      //   "choices": ["Nuestra","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (Your - plural in Spain) amigos están en la fiesta.",
+      //   "choices": ["Vuestros","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "La ______ (color) de su vestido es rosa.",
+      //   "choices": ["color", "talla", "forma", "textura"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "¿Dónde está mi ______ (phone)?",
+      //   "choices": ["teléfono", "coche", "llave", "bolso"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Voy a ______ (watch) una película esta noche.",
+      //   "choices": ["ver", "escuchar", "leer", "comprar"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "El tren sale a las ______ (five) de la tarde.",
+      //   "choices": ["cinco", "e", "seis", "siete"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (Their) hijos estudian en la escuela.",
+      //   "choices": ["Sus","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Mis amigos son muy ______ (funny).",
+      //   "choices": ["divertidos", "serios", "tristes", "aburridos"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "La fruta que más me gusta es la ______ (banana).",
+      //   "choices": ["banana", "naranja", "e", "pera"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Necesito ______ (to study) para el examen.",
+      //   "choices": ["estudiar", "trabajar", "leer", "escribir"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "La casa tiene ______ (ten) ventanas.",
+      //   "choices": ["diez", "siete", "ocho", "e"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (My) padres viajan a menudo.",
+      //   "choices": ["Mis","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (Your - informal) coche está estacionado fuera.",
+      //   "choices": ["Tu","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Me siento ______ (tired) después de trabajar.",
+      //   "choices": ["cansado", "e", "emocionado", "tranquilo"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (Our) profesor enseña matemáticas.",
+      //   "choices": ["Nuestro","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "La ______ (weather) es muy agradable en primavera.",
+      //   "choices": ["clima", "temperatura", "temporada", "estación"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "El libro está sobre la ______ (table).",
+      //   "choices": ["mesa", "silla", "cama", "puerta"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (His) abuela vive en el campo.",
+      //   "choices": ["Su","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Mi hermana tiene ______ (eight) años.",
+      //   "choices": ["ocho", "e", "nueve", "diez"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Es importante ______ (to rest) después de hacer ejercicio.",
+      //   "choices": ["descansar", "comer", "beber", "jugar"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -1250,120 +1250,120 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
     },
-    {
-        "question": "How do you say 'father' in Spanish?",
-        "choices": ["Padre", "Hermano", "Tío", "Abuelo"],
-        "type": "MCQs",
-        "correctAnswer": 1
-    },
-    {
-        "question": "What does 'sobrino' mean in English?",
-        "choices": ["Nephew", "Uncle", "Cousin", "Grandson"],
-        "type": "MCQs",
-        "correctAnswer": 1
-    },
-    {
-        "question": "What do you call your father's wife?",
-        "choices": ["Madre", "Hermana", "Abuela", "Tía"],
-        "type": "MCQs",
-        "correctAnswer": 1
-    },
-    {
-        "question": "What is the correct present tense form of 'comer' (to eat) for 'yo'?",
-        "choices": ["Como", "Comes", "Comemos", "Coméis"],
-        "type": "MCQs",
-        "correctAnswer": 1
-    },
-    {
-        "question": "What is the present tense of 'escribir' (to write) for 'nosotros'?",
-        "choices": ["Escriben", "Escribe", "Escribimos", "Escribes"],
-        "type": "MCQs",
-        "correctAnswer": 3
-    },
-    {
-        "question": "Which form of 'hablar' (to speak) is used for 'tú'?",
-        "choices": ["Habla", "Hablas", "Hablan", "Hablamos"],
-        "type": "MCQs",
-        "correctAnswer": 2
-    },
-    {
-        "question": "What is the present tense of 'vivir' (to live) for 'ellos'?",
-        "choices": ["Vive", "Vivimos", "Viven", "Vivís"],
-        "type": "MCQs",
-        "correctAnswer": 3
-    },
-    {
-        "question": "What is the correct form of 'leer' (to read) for 'yo'?",
-        "choices": ["Leemos", "Leo", "Lees", "Leen"],
-        "type": "MCQs",
-        "correctAnswer": 2
-    },
-    {
-        "question": "What is the present tense of 'tener' (to have) for 'vosotros'?",
-        "choices": ["Tenéis", "Tienen", "Tienes", "Tengo"],
-        "type": "MCQs",
-        "correctAnswer": 1
-    },
-    {
-        "question": "What is the pronoun for 'they' (feminine) in Spanish?",
-        "choices": ["Ellos", "Ellas", "Ustedes", "Vosotros"],
-        "type": "MCQs",
-        "correctAnswer": 2
-    },
-    {
-        "question": "What is the pronoun for 'we' (masculine)?",
-        "choices": ["Nosotros", "Nosotras", "Vosotros", "Ellos"],
-        "type": "MCQs",
-        "correctAnswer": 1
-    },
-    {
-        "question": "Which pronoun is used for 'you' (informal, singular)?",
-        "choices": ["Tú", "Usted", "Vosotros", "Ellos"],
-        "type": "MCQs",
-        "correctAnswer": 1
-    },
-    {
-        "question": "What is the pronoun for 'he'?",
-        "choices": ["Ella", "Él", "Tú", "Usted"],
-        "type": "MCQs",
-        "correctAnswer": 2
-    },
-    {
-        "question": "What is the pronoun for 'you' (formal, singular)?",
-        "choices": ["Tú", "Usted", "Ellos", "Nosotros"],
-        "type": "MCQs",
-        "correctAnswer": 2
-    },
-    {
-        "question": "Which pronoun is used for 'she'?",
-        "choices": ["Él", "Ella", "Usted", "Ellos"],
-        "type": "MCQs",
-        "correctAnswer": 2
-    },
-    {
-      "question": "Which pronoun is used for 'we' (feminine)?",
-      "choices": ["Nosotros", "Ellas", "Nosotras", "Tú"],
-      "type": "MCQs",
-      "correctAnswer": 3
-  },
-  {
-    "question": "What is the pronoun for 'I' in Spanish?",
-    "choices": ["Tú", "Usted", "Yo", "Nosotros"],
-    "type": "MCQs",
-    "correctAnswer": 3
-},
-{
-  "question": "What is the correct pronoun for 'they' (masculine)?",
-  "choices": ["Ellas", "Ellos", "Vosotros", "Nosotros"],
-  "type": "MCQs",
-  "correctAnswer": 2
-},
-{
-  "question": "What is the pronoun for 'you' (informal, plural)?",
-  "choices": ["Tú", "Usted", "Vosotros", "Ellas"],
-  "type": "MCQs",
-  "correctAnswer": 3
-},
+//     {
+//         "question": "How do you say 'father' in Spanish?",
+//         "choices": ["Padre", "Hermano", "Tío", "Abuelo"],
+//         "type": "MCQs",
+//         "correctAnswer": 1
+//     },
+//     {
+//         "question": "What does 'sobrino' mean in English?",
+//         "choices": ["Nephew", "Uncle", "Cousin", "Grandson"],
+//         "type": "MCQs",
+//         "correctAnswer": 1
+//     },
+//     {
+//         "question": "What do you call your father's wife?",
+//         "choices": ["Madre", "Hermana", "Abuela", "Tía"],
+//         "type": "MCQs",
+//         "correctAnswer": 1
+//     },
+//     {
+//         "question": "What is the correct present tense form of 'comer' (to eat) for 'yo'?",
+//         "choices": ["Como", "Comes", "Comemos", "Coméis"],
+//         "type": "MCQs",
+//         "correctAnswer": 1
+//     },
+//     {
+//         "question": "What is the present tense of 'escribir' (to write) for 'nosotros'?",
+//         "choices": ["Escriben", "Escribe", "Escribimos", "Escribes"],
+//         "type": "MCQs",
+//         "correctAnswer": 3
+//     },
+//     {
+//         "question": "Which form of 'hablar' (to speak) is used for 'tú'?",
+//         "choices": ["Habla", "Hablas", "Hablan", "Hablamos"],
+//         "type": "MCQs",
+//         "correctAnswer": 2
+//     },
+//     {
+//         "question": "What is the present tense of 'vivir' (to live) for 'ellos'?",
+//         "choices": ["Vive", "Vivimos", "Viven", "Vivís"],
+//         "type": "MCQs",
+//         "correctAnswer": 3
+//     },
+//     {
+//         "question": "What is the correct form of 'leer' (to read) for 'yo'?",
+//         "choices": ["Leemos", "Leo", "Lees", "Leen"],
+//         "type": "MCQs",
+//         "correctAnswer": 2
+//     },
+//     {
+//         "question": "What is the present tense of 'tener' (to have) for 'vosotros'?",
+//         "choices": ["Tenéis", "Tienen", "Tienes", "Tengo"],
+//         "type": "MCQs",
+//         "correctAnswer": 1
+//     },
+//     {
+//         "question": "What is the pronoun for 'they' (feminine) in Spanish?",
+//         "choices": ["Ellos", "Ellas", "Ustedes", "Vosotros"],
+//         "type": "MCQs",
+//         "correctAnswer": 2
+//     },
+//     {
+//         "question": "What is the pronoun for 'we' (masculine)?",
+//         "choices": ["Nosotros", "Nosotras", "Vosotros", "Ellos"],
+//         "type": "MCQs",
+//         "correctAnswer": 1
+//     },
+//     {
+//         "question": "Which pronoun is used for 'you' (informal, singular)?",
+//         "choices": ["Tú", "Usted", "Vosotros", "Ellos"],
+//         "type": "MCQs",
+//         "correctAnswer": 1
+//     },
+//     {
+//         "question": "What is the pronoun for 'he'?",
+//         "choices": ["Ella", "Él", "Tú", "Usted"],
+//         "type": "MCQs",
+//         "correctAnswer": 2
+//     },
+//     {
+//         "question": "What is the pronoun for 'you' (formal, singular)?",
+//         "choices": ["Tú", "Usted", "Ellos", "Nosotros"],
+//         "type": "MCQs",
+//         "correctAnswer": 2
+//     },
+//     {
+//         "question": "Which pronoun is used for 'she'?",
+//         "choices": ["Él", "Ella", "Usted", "Ellos"],
+//         "type": "MCQs",
+//         "correctAnswer": 2
+//     },
+//     {
+//       "question": "Which pronoun is used for 'we' (feminine)?",
+//       "choices": ["Nosotros", "Ellas", "Nosotras", "Tú"],
+//       "type": "MCQs",
+//       "correctAnswer": 3
+//   },
+//   {
+//     "question": "What is the pronoun for 'I' in Spanish?",
+//     "choices": ["Tú", "Usted", "Yo", "Nosotros"],
+//     "type": "MCQs",
+//     "correctAnswer": 3
+// },
+// {
+//   "question": "What is the correct pronoun for 'they' (masculine)?",
+//   "choices": ["Ellas", "Ellos", "Vosotros", "Nosotros"],
+//   "type": "MCQs",
+//   "correctAnswer": 2
+// },
+// {
+//   "question": "What is the pronoun for 'you' (informal, plural)?",
+//   "choices": ["Tú", "Usted", "Vosotros", "Ellas"],
+//   "type": "MCQs",
+//   "correctAnswer": 3
+// },
       
       // 20 Fill in the Blanks
 
@@ -1373,120 +1373,120 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
-    {
-        "question": "La ______ (mother) de Juan es muy simpática.",
-        "choices": ["madre", "hermano", "padres", "hermana"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "Mis ______ (parents) viven en Madrid.",
-        "choices": ["padres", "hermano", "madre", "hermana"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "Ella tiene una ______ (sister) mayor.",
-        "choices": ["hermana", "madre", "padres", "hermano"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "Yo ______ (to eat) en casa todos los días.",
-        "choices": ["como", "comes", "comemos", "coméis"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "Nosotros ______ (to go) al parque los domingos.",
-        "choices": ["vamos", "vas", "van", "voy"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "Tú ______ (to speak) español muy bien.",
-        "choices": ["hablas", "hablo", "habla", "hablan"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "Ellos siempre ______ (to study) en la biblioteca.",
-        "choices": ["estudian", "estudio", "estudia", "estudias"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "Vosotros ______ (to run) por la mañana.",
-        "choices": ["corréis", "corren", "corremos", "corro"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "María ______ (to write) cartas a su abuela.",
-        "choices": ["escribe", "escribo", "escribes", "escriben"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (He) es muy trabajador.",
-        "choices": ["Él", "Yo", "Nosotros", "Ellos"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (I) siempre ayudo a mi familia.",
-        "choices": ["Yo", "Él", "Nosotros", "Ellos"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (We) vivimos en una casa grande.",
-        "choices": ["Nosotros", "Yo", "Ellos", "Tú"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (They - masculine) están jugando al fútbol.",
-        "choices": ["Ellos", "Ellas", "Nosotros", "Tú"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (You - informal, singular) tienes un perro bonito.",
-        "choices": ["Tú", "Él", "Nosotros", "Ellos"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (She) es mi amiga.",
-        "choices": ["Ella", "Él", "Tú", "Usted"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (They - feminine) son mis compañeras de clase.",
-        "choices": ["Ellas", "Ellos", "Nosotros", "Tú"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (You - formal, singular) es muy amable.",
-        "choices": ["Usted", "Tú", "Él", "Nosotros"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (We - feminine) vamos a la playa mañana.",
-        "choices": ["Nosotras", "Nosotros", "Ellos", "Tú"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
-    {
-        "question": "______ (You all - formal, plural) trabajan mucho.",
-        "choices": ["Ustedes", "Ellos", "Nosotros", "Tú"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-    },
+    // {
+    //     "question": "La ______ (mother) de Juan es muy simpática.",
+    //     "choices": ["madre", "hermano", "padres", "hermana"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "Mis ______ (parents) viven en Madrid.",
+    //     "choices": ["padres", "hermano", "madre", "hermana"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "Ella tiene una ______ (sister) mayor.",
+    //     "choices": ["hermana", "madre", "padres", "hermano"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "Yo ______ (to eat) en casa todos los días.",
+    //     "choices": ["como", "comes", "comemos", "coméis"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "Nosotros ______ (to go) al parque los domingos.",
+    //     "choices": ["vamos", "vas", "van", "voy"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "Tú ______ (to speak) español muy bien.",
+    //     "choices": ["hablas", "hablo", "habla", "hablan"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "Ellos siempre ______ (to study) en la biblioteca.",
+    //     "choices": ["estudian", "estudio", "estudia", "estudias"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "Vosotros ______ (to run) por la mañana.",
+    //     "choices": ["corréis", "corren", "corremos", "corro"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "María ______ (to write) cartas a su abuela.",
+    //     "choices": ["escribe", "escribo", "escribes", "escriben"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (He) es muy trabajador.",
+    //     "choices": ["Él", "Yo", "Nosotros", "Ellos"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (I) siempre ayudo a mi familia.",
+    //     "choices": ["Yo", "Él", "Nosotros", "Ellos"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (We) vivimos en una casa grande.",
+    //     "choices": ["Nosotros", "Yo", "Ellos", "Tú"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (They - masculine) están jugando al fútbol.",
+    //     "choices": ["Ellos", "Ellas", "Nosotros", "Tú"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (You - informal, singular) tienes un perro bonito.",
+    //     "choices": ["Tú", "Él", "Nosotros", "Ellos"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (She) es mi amiga.",
+    //     "choices": ["Ella", "Él", "Tú", "Usted"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (They - feminine) son mis compañeras de clase.",
+    //     "choices": ["Ellas", "Ellos", "Nosotros", "Tú"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (You - formal, singular) es muy amable.",
+    //     "choices": ["Usted", "Tú", "Él", "Nosotros"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (We - feminine) vamos a la playa mañana.",
+    //     "choices": ["Nosotras", "Nosotros", "Ellos", "Tú"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
+    // {
+    //     "question": "______ (You all - formal, plural) trabajan mucho.",
+    //     "choices": ["Ustedes", "Ellos", "Nosotros", "Tú"],
+    //     "type": "FillInTheBlanks",
+    //     "correctAnswer": 1
+    // },
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -1551,180 +1551,180 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
-      {
-        "question": "What does 'abuelo' mean in English?",
-        "choices": ["Grandfather", "Uncle", "Brother", "Father"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What is the term in Spanish for 'daughter-in-law'?",
-        "choices": ["Hija", "Suegra", "Cuñada", "Nuera"],
-        "type": "MCQs",
-        "correctAnswer": 4
-      },
-      {
-        "question": "What word describes 'your wife's father'?",
-        "choices": ["Sobrino", "Yerno", "Suegro", "Padrino"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "What drink is usually consumed at breakfast?",
-        "choices": ["Vino", "Jugo", "Café", "Agua"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "Which of these foods is a main dish in Spanish cuisine?",
-        "choices": ["Pan", "Paella", "Fruta", "Vino"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is typical for a snack in Spain?",
-        "choices": ["Jamón", "Té o café", "Arroz", "Carne"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "Which drink does not contain alcohol?",
-        "choices": ["Vino", "Agua", "Cerveza", "Sangría"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the gender of the word 'fruta'?",
-        "choices": ["Masculino", "Femenino", "Neutro", "Ambos"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "How do you say 'rice' in Spanish?",
-        "choices": ["Pan", "Arroz", "Pasta", "Carne"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What meal is eaten at night in Spain?",
-        "choices": ["Almuerzo", "Merienda", "Cena", "Desayuno"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "Which of these is a food accompaniment?",
-        "choices": ["Vino", "Carne", "Té", "Arroz"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Which of these is not a food item?",
-        "choices": ["Pan", "Té", "Jugo", "Vino"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What drink is associated with Spanish breakfast?",
-        "choices": ["Jugo", "Café", "Té", "Agua"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the correct conjugation of the verb 'beber' (to drink) for 'we'?",
-        "choices": ["Bebemos", "Bebéis", "Bebes", "Beben"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What conjugation corresponds to 'he' for the verb 'comer' (to eat)?",
-        "choices": ["Coma", "Comemos", "Come", "Coméis"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "What verb form does 'yo' use for 'trabajar' (to work)?",
-        "choices": ["Trabajo", "Trabajamos", "Trabajas", "Trabaja"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What form of 'vivir' corresponds to 'tú'?",
-        "choices": ["Vivo", "Vives", "Vive", "Vivimos"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What is the correct form of the verb 'escribir' for 'vosotros'?",
-        "choices": ["Escribes", "Escribimos", "Escribís", "Escriben"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "How do you conjugate 'entender' (to understand) for 'ella'?",
-        "choices": ["Entiende", "Entendemos", "Entiendes", "Entienden"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What pronoun corresponds to 'we' (feminine) in Spanish?",
-        "choices": ["Nosotros", "Nosotras", "Vosotros", "Ellas"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What pronoun is used for 'they' (masculine)?",
-        "choices": ["Ellos", "Vosotros", "Ellas", "Nosotros"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What pronoun is used for 'you all' (informal, masculine)?",
-        "choices": ["Ellas", "Vosotros", "Ellos", "Nosotras"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What pronoun is used for 'he' in Spanish?",
-        "choices": ["Ella", "Ello", "Él", "Yo"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "What pronoun corresponds to 'I' in Spanish?",
-        "choices": ["Yo", "Tú", "Nosotros", "Él"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What pronoun corresponds to 'you' (formal)?",
-        "choices": ["Usted", "Tú", "Ellos", "Nosotros"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What pronoun is used for 'she' in Spanish?",
-        "choices": ["Él", "Nosotros", "Ella", "Ellos"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "What pronoun corresponds to 'they' (feminine)?",
-        "choices": ["Ellos", "Vosotros", "Ellas", "Nosotros"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "How do you say 'twenty-three' in Spanish?",
-        "choices": ["Treinta y tres", "Veintitrés", "Veintiocho", "Veintiuno"],
-        "type": "MCQs",
-        "correctAnswer": 2
-      },
-      {
-        "question": "What number is 'cuarenta y siete'?",
-        "choices": ["47", "27", "37", "17"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
+      // {
+      //   "question": "What does 'abuelo' mean in English?",
+      //   "choices": ["Grandfather", "Uncle", "Brother", "Father"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What is the term in Spanish for 'daughter-in-law'?",
+      //   "choices": ["Hija", "Suegra", "Cuñada", "Nuera"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 4
+      // },
+      // {
+      //   "question": "What word describes 'your wife's father'?",
+      //   "choices": ["Sobrino", "Yerno", "Suegro", "Padrino"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "What drink is usually consumed at breakfast?",
+      //   "choices": ["Vino", "Jugo", "Café", "Agua"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "Which of these foods is a main dish in Spanish cuisine?",
+      //   "choices": ["Pan", "Paella", "Fruta", "Vino"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is typical for a snack in Spain?",
+      //   "choices": ["Jamón", "Té o café", "Arroz", "Carne"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "Which drink does not contain alcohol?",
+      //   "choices": ["Vino", "Agua", "Cerveza", "Sangría"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the gender of the word 'fruta'?",
+      //   "choices": ["Masculino", "Femenino", "Neutro", "Ambos"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "How do you say 'rice' in Spanish?",
+      //   "choices": ["Pan", "Arroz", "Pasta", "Carne"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What meal is eaten at night in Spain?",
+      //   "choices": ["Almuerzo", "Merienda", "Cena", "Desayuno"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "Which of these is a food accompaniment?",
+      //   "choices": ["Vino", "Carne", "Té", "Arroz"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Which of these is not a food item?",
+      //   "choices": ["Pan", "Té", "Jugo", "Vino"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What drink is associated with Spanish breakfast?",
+      //   "choices": ["Jugo", "Café", "Té", "Agua"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the correct conjugation of the verb 'beber' (to drink) for 'we'?",
+      //   "choices": ["Bebemos", "Bebéis", "Bebes", "Beben"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What conjugation corresponds to 'he' for the verb 'comer' (to eat)?",
+      //   "choices": ["Coma", "Comemos", "Come", "Coméis"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "What verb form does 'yo' use for 'trabajar' (to work)?",
+      //   "choices": ["Trabajo", "Trabajamos", "Trabajas", "Trabaja"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What form of 'vivir' corresponds to 'tú'?",
+      //   "choices": ["Vivo", "Vives", "Vive", "Vivimos"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What is the correct form of the verb 'escribir' for 'vosotros'?",
+      //   "choices": ["Escribes", "Escribimos", "Escribís", "Escriben"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "How do you conjugate 'entender' (to understand) for 'ella'?",
+      //   "choices": ["Entiende", "Entendemos", "Entiendes", "Entienden"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What pronoun corresponds to 'we' (feminine) in Spanish?",
+      //   "choices": ["Nosotros", "Nosotras", "Vosotros", "Ellas"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What pronoun is used for 'they' (masculine)?",
+      //   "choices": ["Ellos", "Vosotros", "Ellas", "Nosotros"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What pronoun is used for 'you all' (informal, masculine)?",
+      //   "choices": ["Ellas", "Vosotros", "Ellos", "Nosotras"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What pronoun is used for 'he' in Spanish?",
+      //   "choices": ["Ella", "Ello", "Él", "Yo"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "What pronoun corresponds to 'I' in Spanish?",
+      //   "choices": ["Yo", "Tú", "Nosotros", "Él"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What pronoun corresponds to 'you' (formal)?",
+      //   "choices": ["Usted", "Tú", "Ellos", "Nosotros"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "What pronoun is used for 'she' in Spanish?",
+      //   "choices": ["Él", "Nosotros", "Ella", "Ellos"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "What pronoun corresponds to 'they' (feminine)?",
+      //   "choices": ["Ellos", "Vosotros", "Ellas", "Nosotros"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 3
+      // },
+      // {
+      //   "question": "How do you say 'twenty-three' in Spanish?",
+      //   "choices": ["Treinta y tres", "Veintitrés", "Veintiocho", "Veintiuno"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 2
+      // },
+      // {
+      //   "question": "What number is 'cuarenta y siete'?",
+      //   "choices": ["47", "27", "37", "17"],
+      //   "type": "MCQs",
+      //   "correctAnswer": 1
+      // },
       
       // 20 Fill in the Blanks
 
@@ -1734,180 +1734,180 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
-      {
-        "question": "Yo como ______ (bread) todos los días para el desayuno.",
-        "choices": ["pan","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "El hijo de mi hermana es mi ______ (nephew).",
-        "choices": ["sobrino", "hijo", "tío", "primo"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Su ______ (mother) trabaja en un hospital.",
-        "choices": ["madre", "abuela", "hermana", "tía"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "La ______ (granddaughter) de mi abuela se llama Carla.",
-        "choices": ["nieta", "hija", "prima", "sobrina"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "¿Tú quieres ______ (some) arroz con pollo?",
-        "choices": ["un poco de","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Yo ______ (to write) correos electrónicos todos los días.",
-        "choices": ["escribo", "leo", "hablo", "corro"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Ellos ______ (to speak) inglés y español.",
-        "choices": ["hablan", "escriben", "comen", "cantan"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Nosotros ______ (to live) en una casa grande.",
-        "choices": ["vivimos", "escribimos", "hablamos", "jugamos"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Tú ______ (to understand) la lección muy bien.",
-        "choices": ["entiendes", "escribes", "comes", "vives"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Ella toma ______ (water) en la mañana.",
-        "choices": ["agua","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Nosotros comemos ______ (some) carne para la cena.",
-        "choices": ["algo de","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "¿______ (to run) todos los días, Juan?",
-        "choices": ["Corres", "Lees", "Hablas", "Comes"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Ella ______ (to read) muchos libros en su tiempo libre.",
-        "choices": ["lee", "corre", "vive", "come"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (They - feminine) van a la escuela.",
-        "choices": ["Ellas", "Nosotras", "Vosotras", "Ellos"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (You - formal) es profesor.",
-        "choices": ["Usted", "Tú", "Nosotros", "Ellos"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Me encanta ______ (wine) español.",
-        "choices": ["El vino","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (We - masculine) jugamos al fútbol todos los fines de semana.",
-        "choices": ["Nosotros", "Ellos", "Vosotros", "Ellas"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (I) estudio en la universidad.",
-        "choices": ["Yo", "Él", "Ella", "Nosotros"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (She) no tiene hermanos.",
-        "choices": ["Ella", "Él", "Nosotros", "Usted"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (You all - informal) siempre llegáis tarde.",
-        "choices": ["Vosotros", "Ellos", "Nosotros", "Ellas"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Voy a beber ______ (a little) jugo de naranja.",
-        "choices": ["un poco de","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (He) es mi amigo.",
-        "choices": ["Él", "Ella", "Tú", "Yo"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (We - feminine) cantamos en el coro.",
-        "choices": ["Nosotras", "Ellas", "Vosotras", "Ellos"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Ellos están tomando ______ (tea) en la tarde.",
-        "choices": ["té","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Yo como ______ (fruit) con mi desayuno.",
-        "choices": ["fruta","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Hoy cumplo ______ (twenty-eight) años.",
-        "choices": ["veintiocho", "veintinueve", "veintisiete", "treinta"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Quiero comprar ______ (some) pasta para la cena.",
-        "choices": ["algo de","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "______ (chicken) es muy común en muchas comidas españolas.",
-        "choices": ["El pollo","1","2","3"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Mi hermana tiene ______ y cinco (forty-five) años.",
-        "choices": ["cuarenta", "cuarenta y cuatro", "cuarenta y seis", "cincuenta"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
+      // {
+      //   "question": "Yo como ______ (bread) todos los días para el desayuno.",
+      //   "choices": ["pan","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "El hijo de mi hermana es mi ______ (nephew).",
+      //   "choices": ["sobrino", "hijo", "tío", "primo"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Su ______ (mother) trabaja en un hospital.",
+      //   "choices": ["madre", "abuela", "hermana", "tía"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "La ______ (granddaughter) de mi abuela se llama Carla.",
+      //   "choices": ["nieta", "hija", "prima", "sobrina"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "¿Tú quieres ______ (some) arroz con pollo?",
+      //   "choices": ["un poco de","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Yo ______ (to write) correos electrónicos todos los días.",
+      //   "choices": ["escribo", "leo", "hablo", "corro"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Ellos ______ (to speak) inglés y español.",
+      //   "choices": ["hablan", "escriben", "comen", "cantan"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Nosotros ______ (to live) en una casa grande.",
+      //   "choices": ["vivimos", "escribimos", "hablamos", "jugamos"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Tú ______ (to understand) la lección muy bien.",
+      //   "choices": ["entiendes", "escribes", "comes", "vives"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Ella toma ______ (water) en la mañana.",
+      //   "choices": ["agua","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Nosotros comemos ______ (some) carne para la cena.",
+      //   "choices": ["algo de","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "¿______ (to run) todos los días, Juan?",
+      //   "choices": ["Corres", "Lees", "Hablas", "Comes"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Ella ______ (to read) muchos libros en su tiempo libre.",
+      //   "choices": ["lee", "corre", "vive", "come"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (They - feminine) van a la escuela.",
+      //   "choices": ["Ellas", "Nosotras", "Vosotras", "Ellos"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (You - formal) es profesor.",
+      //   "choices": ["Usted", "Tú", "Nosotros", "Ellos"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Me encanta ______ (wine) español.",
+      //   "choices": ["El vino","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (We - masculine) jugamos al fútbol todos los fines de semana.",
+      //   "choices": ["Nosotros", "Ellos", "Vosotros", "Ellas"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (I) estudio en la universidad.",
+      //   "choices": ["Yo", "Él", "Ella", "Nosotros"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (She) no tiene hermanos.",
+      //   "choices": ["Ella", "Él", "Nosotros", "Usted"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (You all - informal) siempre llegáis tarde.",
+      //   "choices": ["Vosotros", "Ellos", "Nosotros", "Ellas"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Voy a beber ______ (a little) jugo de naranja.",
+      //   "choices": ["un poco de","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (He) es mi amigo.",
+      //   "choices": ["Él", "Ella", "Tú", "Yo"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (We - feminine) cantamos en el coro.",
+      //   "choices": ["Nosotras", "Ellas", "Vosotras", "Ellos"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Ellos están tomando ______ (tea) en la tarde.",
+      //   "choices": ["té","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Yo como ______ (fruit) con mi desayuno.",
+      //   "choices": ["fruta","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Hoy cumplo ______ (twenty-eight) años.",
+      //   "choices": ["veintiocho", "veintinueve", "veintisiete", "treinta"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Quiero comprar ______ (some) pasta para la cena.",
+      //   "choices": ["algo de","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "______ (chicken) es muy común en muchas comidas españolas.",
+      //   "choices": ["El pollo","1","2","3"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
+      // {
+      //   "question": "Mi hermana tiene ______ y cinco (forty-five) años.",
+      //   "choices": ["cuarenta", "cuarenta y cuatro", "cuarenta y seis", "cincuenta"],
+      //   "type": "FillInTheBlanks",
+      //   "correctAnswer": 1
+      // },
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",

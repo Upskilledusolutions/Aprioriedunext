@@ -8,6 +8,41 @@
   margin: 0;
   padding: 0 2vw 50px;
 }
+.fulltext{
+  display: block;
+  width: 70%;
+  text-align: center;
+}
+.textmob{
+  display: none;
+}
+.starting{
+  font-size: 32px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.modelback{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: #ffffff86;
+}
+.errormodel{
+  border: 1px solid rgb(113, 113, 113);
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  z-index: 100;
+  background-color: white;
+  padding: 20px 2vw;
+  width: auto;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .modal {
   position: fixed;
   top: 0;
@@ -662,5 +697,22 @@ margin-bottom: 10px;
 width: 90vw;
 padding-left: 5vw;
 padding-right: 5vw;
+  }
+  .starting{
+    left: 5%;
+    top: 30%;
+  }
+  .errormodel{
+    left: 2vw;
+    width: 75vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .fulltext{
+    display: none;
+  }
+  .textmob{
+    display: block;
+    width: 90%;
   }
 }
