@@ -7448,4 +7448,188 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '31',
+      name: 'French Exercise - 12 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "What is celebrated on July 14th?",
+          "choices": ["The end of the First World War", "The independence of France", "The storming of the Bastille", "The Christmas celebration"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which dessert is traditional for Christmas?",
+          "choices": ["A king cake", "A Christmas log", "Pancakes", "An apple pie"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which celebration is known for its fireworks?",
+          "choices": ["Easter", "Christmas", "July 14th", "Carnival"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Where is the Festival of Lights celebrated?",
+          "choices": ["Paris", "Marseille", "Lyon", "Bordeaux"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which food is associated with Easter?",
+          "choices": ["Foie gras", "Pancakes", "Chocolate eggs", "Macarons"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is correct?",
+          "choices": ["Cette galette est moins sucrée que celle de l’année dernière.", "Cette galette est aussi sucrée que celle de l’année dernière.", "Cette galette est le moins sucrée que celle de l’année dernière.", "Cette galette est sucrée comme celle de l’année dernière."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lyon is known for _______.",
+          "choices": ["its Carnival", "its fireworks", "its Festival of Lights", "its red wine"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which mountain is the highest in Europe?",
+          "choices": ["Everest", "Mont Blanc", "The Alps", "Kilimanjaro"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which comparison is correct?",
+          "choices": [
+            "This dessert is more delicious than that one.",
+            "This dessert is less delicious than that one.",
+            "This dessert is as delicious as that one.",
+            "This dessert is delicious like that one."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which celebration is 'the most famous' in France?",
+          "choices": ["Christmas", "Easter", "July 14th", "Carnival"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+
+       {
+    "question": "Le 14 juillet, on célèbre ______ de la Bastille.",
+    "choices": ["prise", "fête", "fin",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "À Noël, on mange souvent une ______ de Noël.",
+    "choices": ["bûche", "galette", "crêpe",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Cette fête est ______ importante que l’Épiphanie en France.",
+    "choices": ["plus", "moins", "aussi",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Les feux d’artifice du 14 juillet sont ______ de l’année.",
+    "choices": ["les plus beaux", "les moins bruyants", "aussi lumineux",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "À Pâques, les enfants cherchent des œufs en ______.",
+    "choices": ["chocolat", "sucre", "farine",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Cette galette des rois est ______ sucrée que celle de l’année dernière.",
+    "choices": ["moins", "plus", "aussi",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "La Fête des Lumières à Lyon est ______ célèbre que Noël.",
+    "choices": ["moins", "aussi", "plus",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "C’est la fête ______ importante de la région.",
+    "choices": ["la plus", "la moins", "le plus",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Le Mont Blanc est ______ montagne d’Europe.",
+    "choices": ["la plus haute", "le moins haut", "aussi haute",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Les crêpes sont ______ populaires que les gâteaux à Carnaval.",
+    "choices": ["moins", "plus", "aussi",""],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Le 14 juillet", "rightId": 1 },
+              "right": { "word": "The pancakes", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Une bûche de Noël", "rightId": 2 },
+              "right": { "word": "The most famous festival in France", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Une galette des rois", "rightId": 3 },
+              "right": { "word": "July 14", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Les crêpes", "rightId": 4 },
+              "right": { "word": "Carnival", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Pâques", "rightId": 5 },
+              "right": { "word": "A king cake", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Lyon", "rightId": 6 },
+              "right": { "word": "Easter", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Noël", "rightId": 7 },
+              "right": { "word": "Lyon", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Le Mont Blanc", "rightId": 8 },
+              "right": { "word": "Christmas", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Carnaval", "rightId": 9 },
+              "right": { "word": "Mont Blanc", "rightId": 8 }
+            },
+            {
+              "left": { "word": "La fête la plus célèbre en France", "rightId": 10 },
+              "right": { "word": "A Christmas log", "rightId":2 }
+            }
+          ],
+        },
+  
+      ],
+    },
 ]
