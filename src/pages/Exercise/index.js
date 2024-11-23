@@ -33,24 +33,24 @@ export default function Index() {
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
       link: '/Exercise/SpanishExercises',
     },
-    // {
-    //   type: 'frencha2',
-    //   heading: 'French Beginner (A2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our French exercise.',
-    //   link: '/Exercise/FrenchExercisesA2',
-    // },
-    // {
-    //   type: 'germana2',
-    //   heading: 'German Beginner (A2)',
-    //   text: 'Navigate both casual and formal language settings of Germany with this exercise.',
-    //   link: '/Exercise/GermanExercisesA2',
-    // },
-    // {
-    //   type: 'spanisha2',
-    //   heading: 'Spanish Beginner (A2)',
-    //   text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
-    //   link: '/Exercise/SpanishExercisesA2',
-    // }
+    {
+      type: 'italian',
+      heading: 'Italian Beginner (A1-A2)',
+      text: 'Master the language of art, culture, and diplomacy with our Italian exercise.',
+      link: '/Exercise/ItalianExercises',
+    },
+    {
+      type: 'russian',
+      heading: 'Russian Beginner (A1-A2)',
+      text: 'Navigate both casual and formal language settings of Russian with this exercise.',
+      link: '/Exercise/RussianExercises',
+    },
+    {
+      type: 'dutch',
+      heading: 'Dutch Beginner (A1-A2)',
+      text: 'Dive into the vibrant world of Dutch-speaking countries with this exercise.',
+      link: '/Exercise/DutchExercises',
+    },
   ];
 
   // Sort the cards so that unlocked cards come first

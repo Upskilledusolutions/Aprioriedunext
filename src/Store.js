@@ -217,6 +217,15 @@ const exercisesSlice = createSlice({
     unlockedExercisesGerman: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesGerman')
       ? JSON.parse(localStorage.getItem('unlockedExercisesGerman'))
       : ["1","2","3","4","5"],
+      unlockedExercisesItalian: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesItalian')
+      ? JSON.parse(localStorage.getItem('unlockedExercisesItalian'))
+      : ["1","2","3","4","5"],
+      unlockedExercisesRussian: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesRussian')
+      ? JSON.parse(localStorage.getItem('unlockedExercisesRussian'))
+      : ["1","2","3","4","5"],
+      unlockedExercisesDutch: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesDutch')
+      ? JSON.parse(localStorage.getItem('unlockedExercisesDutch'))
+      : ["1","2","3","4","5"],
   },
   reducers: {
     unlockExercise: (state, action) => {
@@ -242,6 +251,24 @@ const exercisesSlice = createSlice({
             state.unlockedExercisesGerman.push(...exerciseId);
           }
           break;
+          case 'Italian':
+            unlockedExercises = state.unlockedExercisesItalian;
+            if (!unlockedExercises.includes(...exerciseId)) {
+              state.unlockedExercisesItalian.push(...exerciseId);
+            }
+            break;
+            case 'Russian':
+              unlockedExercises = state.unlockedExercisesRussian;
+              if (!unlockedExercises.includes(...exerciseId)) {
+                state.unlockedExercisesRussian.push(...exerciseId);
+              }
+              break;
+              case 'Dutch':
+                unlockedExercises = state.unlockedExercisesDutch;
+                if (!unlockedExercises.includes(...exerciseId)) {
+                  state.unlockedExercisesDutch.push(...exerciseId);
+                }
+                break;
       }
     },
   },
@@ -289,4 +316,7 @@ store.subscribe(() => {
   localStorage.setItem('unlockedExercisesFrench', JSON.stringify(state.unlockedExercises.unlockedExercisesFrench));
   localStorage.setItem('unlockedExercisesSpanish', JSON.stringify(state.unlockedExercises.unlockedExercisesSpanish));
   localStorage.setItem('unlockedExercisesGerman', JSON.stringify(state.unlockedExercises.unlockedExercisesGerman));
+  localStorage.setItem('unlockedExercisesItalian', JSON.stringify(state.unlockedExercises.unlockedExercisesItalian));
+  localStorage.setItem('unlockedExercisesRussian', JSON.stringify(state.unlockedExercises.unlockedExercisesRussian));
+  localStorage.setItem('unlockedExercisesDutch', JSON.stringify(state.unlockedExercises.unlockedExercisesDutch));
 });
