@@ -29,12 +29,12 @@ export default function Index() {
       text: 'Get ready to put your German skills to the test with our exciting range of quizzes.',
       link: '/Practicetest/GermanQuizs',
     },
-    {
-      type: 'italian',
-      heading: 'Italian Language',
-      text: 'Get ready to put your Italian skills to the test with our exciting range of quizzes.',
-      link: '/Practicetest/ItalianQuizs',
-    },
+    // {
+    //   type: 'italian',
+    //   heading: 'Italian Language',
+    //   text: 'Get ready to put your Italian skills to the test with our exciting range of quizzes.',
+    //   link: '/Practicetest/ItalianQuizs',
+    // },
   ];
 
   // Determine if a card should be locked
@@ -63,19 +63,19 @@ export default function Index() {
     },
     {
       url: '/Testprep/3.jpg',
-      name: 'Jumbled Words',
+      name: 'Jumbled Sentences',
       text: 'Reorder words to get the correct answers',
     },
     {
-      url: '/Testprep/5.jpg',
-      name: 'Click on the correct answer',
+      url: '/Testprep/7.jpg',
+      name: 'Match the following',
       text: 'Highlight the incorrect words to get the correct answer',
     },
-    {
-      url: '/Testprep/6.jpg',
-      name: 'Drag and drop to the correct box',
-      text: 'Select missing words to get the correct answer',
-    },
+    // {
+    //   url: '/Testprep/6.jpg',
+    //   name: 'Drag and drop to the correct box',
+    //   text: 'Select missing words to get the correct answer',
+    // },
   ];
 
   return (

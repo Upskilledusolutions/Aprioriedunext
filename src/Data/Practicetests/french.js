@@ -12,120 +12,120 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 1
         },
-        // {
-        //   "question": "How do you say 'hello' in French?",
-        //   "choices": ["Bonjour", "Au revoir", "Merci", "S'il vous plaît"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "How do you introduce yourself in French?",
-        //   "choices": ["Je vais bien", "Je m'appelle...", "Merci beaucoup", "À bientôt"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "What is the nationality of someone from Spain?",
-        //   "choices": ["Français", "Espagnol", "Italien", "Allemand"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "What is the verb 'être' for 'je' in French??",
-        //   "choices": ["Es", "Suis", "Est", "Sommes"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "How old is Marie if she was born in 2005?",
-        //   "choices": ["15 ans", "16 ans", "17 ans", "18 ans"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "What does 'Comment ça va?' mean?",
-        //   "choices": ["What's your name?", "How are you?", "Where are you from?", "How old are you?"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "What is the verb 'avoir' for 'ils' in French?",
-        //   "choices": ["Ont", "A", "Ai", "Avons"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "How do you say 'thank you' in French?",
-        //   "choices": ["Bonjour", "Merci", "S'il vous plaît", "Oui"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "What number comes after quarante-deux in French?",
-        //   "choices": ["41", "43", "44", "40"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "What is the verb 'être' for 'nous' in French?",
-        //   "choices": ["Sommes", "Êtes", "Sont", "Suis"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "What is the feminine form of 'acteur' in French?",
-        //   "choices": ["Actrice", "Acteur", "Directeur", "Directrice"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "What does 'soixante-dix' mean?",
-        //   "choices": ["60", "70", "80", "90"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "How do you say 'goodbye' in French?",
-        //   "choices": ["Bonjour", "Merci", "Au revoir", "À bientôt"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 3
-        // },
-        // {
-        //   "question": "How old are you if you were born in 1990?",
-        //   "choices": ["30 ans", "32 ans", "34 ans", "28 ans"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 3
-        // },
-        // {
-        //   "question": "What is the nationality of someone from Canada?",
-        //   "choices": ["Canadien", "Américain", "Français", "Anglais"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "What does 'Je suis fatigué' mean?",
-        //   "choices": ["I am happy", "I am tired", "I am hungry", "I am busy"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "What does 'quatre-vingts' mean?",
-        //   "choices": ["70", "80", "90", "100"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 2
-        // },
-        // {
-        //   "question": "What is the verb 'avoir' for 'nous' in French?",
-        //   "choices": ["Avons", "Avez", "Ont", "Ai"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "What is the feminine form of français?",
-        //   "choices": ["Française", "France", "Français", "Francaise"],
-        //   "type": "MCQs",
-        //   "correctAnswer": 1
-        // },
+        {
+          "question": "How do you say 'hello' in French?",
+          "choices": ["Bonjour", "Au revoir", "Merci", "S'il vous plaît"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you introduce yourself in French?",
+          "choices": ["Je vais bien", "Je m'appelle...", "Merci beaucoup", "À bientôt"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the nationality of someone from Spain?",
+          "choices": ["Français", "Espagnol", "Italien", "Allemand"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the verb 'être' for 'je' in French??",
+          "choices": ["Es", "Suis", "Est", "Sommes"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How old is Marie if she was born in 2005?",
+          "choices": ["15 ans", "16 ans", "17 ans", "18 ans"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'Comment ça va?' mean?",
+          "choices": ["What's your name?", "How are you?", "Where are you from?", "How old are you?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the verb 'avoir' for 'ils' in French?",
+          "choices": ["Ont", "A", "Ai", "Avons"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say 'thank you' in French?",
+          "choices": ["Bonjour", "Merci", "S'il vous plaît", "Oui"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What number comes after quarante-deux in French?",
+          "choices": ["41", "43", "44", "40"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the verb 'être' for 'nous' in French?",
+          "choices": ["Sommes", "Êtes", "Sont", "Suis"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the feminine form of 'acteur' in French?",
+          "choices": ["Actrice", "Acteur", "Directeur", "Directrice"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 'soixante-dix' mean?",
+          "choices": ["60", "70", "80", "90"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'goodbye' in French?",
+          "choices": ["Bonjour", "Merci", "Au revoir", "À bientôt"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How old are you if you were born in 1990?",
+          "choices": ["30 ans", "32 ans", "34 ans", "28 ans"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the nationality of someone from Canada?",
+          "choices": ["Canadien", "Américain", "Français", "Anglais"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 'Je suis fatigué' mean?",
+          "choices": ["I am happy", "I am tired", "I am hungry", "I am busy"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'quatre-vingts' mean?",
+          "choices": ["70", "80", "90", "100"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the verb 'avoir' for 'nous' in French?",
+          "choices": ["Avons", "Avez", "Ont", "Ai"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the feminine form of français?",
+          "choices": ["Française", "France", "Français", "Francaise"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
 
 
 
@@ -135,120 +135,120 @@ export const quiz = [
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
-        // {
-        //   "question": "Il y a ______ (five) élèves dans la classe.",
-        //   "choices": ["cinq","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Nous avons ______ (ten) livres.",
-        //   "choices": ["dix","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Mon anniversaire est le ______ (twenty) juin.",
-        //   "choices": ["vingt","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Elle a ______ (thirty) ans.",
-        //   "choices": ["trente","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Je suis ______ (fourteen) ans.",
-        //   "choices": ["quatorze","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Ils ont ______ (four) chiens.",
-        //   "choices": ["quatre","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Vous êtes ______ (sixty) ans.",
-        //   "choices": ["soixante","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Il y a ______ (twenty-five) étudiants.",
-        //   "choices": ["vingt-cinq","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Elle a ______ (thirty-five) amis.",
-        //   "choices": ["trente-cinq","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "(My name is) ______ Marie.",
-        //   "choices": ["Je m'appelle","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Bonjour, ______ (he is) Paul.",
-        //   "choices": ["il est","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "(I am from) ______ France.",
-        //   "choices": ["Je viens de","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Comment ça va? Je vais ______ (good).",
-        //   "choices": ["bien","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Il est ______ (teacher, masculine).",
-        //   "choices": ["professeur","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Elle est ______ (student, feminine).",
-        //   "choices": ["étudiante","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Tu as ______ (a sister).",
-        //   "choices": ["une soeur","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Nous sommes ______ (family).",
-        //   "choices": ["famille","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Ils sont ______ (engineer).",
-        //   "choices": ["ingénieur","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
-        // {
-        //   "question": "Je suis ______ (sad).",
-        //   "choices": ["triste","","",""],
-        //   "type": "FillInTheBlanks",
-        //   "correctAnswer": 1
-        // },
+        {
+          "question": "Il y a ______ (five) élèves dans la classe.",
+          "choices": ["cinq","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons ______ (ten) livres.",
+          "choices": ["dix","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon anniversaire est le ______ (twenty) juin.",
+          "choices": ["vingt","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a ______ (thirty) ans.",
+          "choices": ["trente","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je suis ______ (fourteen) ans.",
+          "choices": ["quatorze","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ont ______ (four) chiens.",
+          "choices": ["quatre","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous êtes ______ (sixty) ans.",
+          "choices": ["soixante","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il y a ______ (twenty-five) étudiants.",
+          "choices": ["vingt-cinq","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a ______ (thirty-five) amis.",
+          "choices": ["trente-cinq","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(My name is) ______ Marie.",
+          "choices": ["Je m'appelle","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Bonjour, ______ (he is) Paul.",
+          "choices": ["il est","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(I am from) ______ France.",
+          "choices": ["Je viens de","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Comment ça va? Je vais ______ (good).",
+          "choices": ["bien","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est ______ (teacher, masculine).",
+          "choices": ["professeur","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est ______ (student, feminine).",
+          "choices": ["étudiante","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu as ______ (a sister).",
+          "choices": ["une soeur","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous sommes ______ (family).",
+          "choices": ["famille","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils sont ______ (engineer).",
+          "choices": ["ingénieur","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je suis ______ (sad).",
+          "choices": ["triste","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
        
   
         // 2 Jumbled Words
@@ -263,96 +263,96 @@ export const quiz = [
           "choices": ["s'appelle", "elle", "Marie"],
           "type": "JumbledWords"
         },
-        // {
-        //   "question": "Il a vingt ans.",
-        //   "choices": ["ans", "a", "il", "vingt"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Je suis Français.",
-        //   "choices": ["Français", "je", "suis"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Je viens du Canada.",
-        //   "choices": ["Canada", "viens", "du", "je"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Elle a trente ans.",
-        //   "choices": ["trente", "elle", "a", "ans"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Il est un professeur.",
-        //   "choices": ["professeur", "il", "est", "un"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Nous sommes une famille.",
-        //   "choices": ["nous", "sommes", "une", "famille"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Il dit bonjour.",
-        //   "choices": ["bonjour", "il", "dit"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "J'ai un chien.",
-        //   "choices": ["un", "j'ai", "chien"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Elle est étudiante.",
-        //   "choices": ["elle", "est", "étudiante"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Nous avons trois livres.",
-        //   "choices": ["nous", "avons", "livres", "trois"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Ils sont mes amis.",
-        //   "choices": ["sont", "ils", "amis", "mes"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Je veux être un artiste.",
-        //   "choices": ["être", "je", "veux", "un", "artiste"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Il a un chat.",
-        //   "choices": ["a", "un", "il", "chat"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Elle est très heureuse.",
-        //   "choices": ["elle", "très", "est", "heureuse"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "D'où êtes vous ?",
-        //   "choices": ["vous", "d'où", "êtes"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Ils travaillent à Paris.",
-        //   "choices": ["travaillent", "ils", "à", "Paris"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "J'ai un frère.",
-        //   "choices": ["j'ai", "un", "frère"],
-        //   "type": "JumbledWords"
-        // },
-        // {
-        //   "question": "Il est anglais.",
-        //   "choices": ["est", "il", "anglais"],
-        //   "type": "JumbledWords"
-        // },
+        {
+          "question": "Il a vingt ans.",
+          "choices": ["ans", "a", "il", "vingt"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je suis Français.",
+          "choices": ["Français", "je", "suis"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je viens du Canada.",
+          "choices": ["Canada", "viens", "du", "je"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle a trente ans.",
+          "choices": ["trente", "elle", "a", "ans"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il est un professeur.",
+          "choices": ["professeur", "il", "est", "un"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous sommes une famille.",
+          "choices": ["nous", "sommes", "une", "famille"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il dit bonjour.",
+          "choices": ["bonjour", "il", "dit"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J'ai un chien.",
+          "choices": ["un", "j'ai", "chien"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle est étudiante.",
+          "choices": ["elle", "est", "étudiante"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous avons trois livres.",
+          "choices": ["nous", "avons", "livres", "trois"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ils sont mes amis.",
+          "choices": ["sont", "ils", "amis", "mes"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je veux être un artiste.",
+          "choices": ["être", "je", "veux", "un", "artiste"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il a un chat.",
+          "choices": ["a", "un", "il", "chat"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle est très heureuse.",
+          "choices": ["elle", "très", "est", "heureuse"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "D'où êtes vous ?",
+          "choices": ["vous", "d'où", "êtes"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ils travaillent à Paris.",
+          "choices": ["travaillent", "ils", "à", "Paris"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J'ai un frère.",
+          "choices": ["j'ai", "un", "frère"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il est anglais.",
+          "choices": ["est", "il", "anglais"],
+          "type": "JumbledWords"
+        },
 
         {
           "question": "Match the Words.",
