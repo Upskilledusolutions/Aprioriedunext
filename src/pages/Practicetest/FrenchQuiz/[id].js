@@ -14,13 +14,14 @@ import FillInTheBlanksComponent from '../../../../components/QuestionContent/Fil
 import JumbledWordsComponent from '../../../../components/QuestionContent/ReorderParagraph'
 import ClickCorrectWordsComponent from '../../../../components/QuestionContent/HighlightIncorrectWords'
 import DragAndDropComponent from '../../../../components/QuestionContent/SelectMissingWords'
+import MatchTheFollowingGame from "../../../../components/QuestionContent/MatchtheFollowing";
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState("");
   const [selectedAnswerIndex, setSelectedAnswerIndex] = useState(null);
-  const [time, setTime] = useState(15);
+  const [time, setTime] = useState(25);
   const [start, setStart] = useState(true);
   const [result, setResult] = useState({ correctAnswers: 0, wrong: 0 });
   const [showMenu, setShowMenu] = useState(false); // Toggle state for sidebar on mobile
@@ -63,6 +64,18 @@ const Quiz = () => {
       setSelectedAnswer("");
     }
   };
+
+  useEffect(() => {
+    if (questions[activeQuestion]?.type === 'MatchTheFollowing') {
+      setTime(90); 
+    }
+    else if (questions[activeQuestion]?.type === 'JumbledWords') {
+      setTime(40); 
+    }
+    else if (questions[activeQuestion]?.type === 'FillInTheBlanks') {
+      setTime(35); 
+    }
+  }, [activeQuestion, questions]);
   
 
 const onAnswerSelected = (answer, index) => {
@@ -76,14 +89,15 @@ const onAnswerSelected = (answer, index) => {
 
     // Assuming your quiz data has a "type" field like { type: 'mcq', question: '...', choices: [...] }
 
-const mcqs = questions.filter((q) => q.type === 'MCQs').slice(0, 7);
-const fillInTheBlanks = questions.filter((q) => q.type === 'FillInTheBlanks').slice(0, 7);
-const jumbledWords = questions.filter((q) => q.type === 'JumbledWords').slice(0, 2);
-const clickCorrectWords = questions.filter((q) => q.type === 'ClickCorrectWords').slice(0, 2);
-const dragAndDrop = questions.filter((q) => q.type === 'DragAndDrop').slice(0, 2);
+const mcqs = questions.filter((q) => q.type === 'MCQs');
+const fillInTheBlanks = questions.filter((q) => q.type === 'FillInTheBlanks');
+const jumbledWords = questions.filter((q) => q.type === 'JumbledWords');
+// const clickCorrectWords = questions.filter((q) => q.type === 'ClickCorrectWords');
+// const dragAndDrop = questions.filter((q) => q.type === 'DragAndDrop');
+const MatchTheFollowing = questions.filter((q) => q.type === 'MatchTheFollowing');
 
 // Combine all question types into one array to iterate through in the quiz
-const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorrectWords, ...dragAndDrop];
+const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...MatchTheFollowing];
 
   useEffect(() => {
     // Reset the quiz state when the quiz changes (when `id` changes)
@@ -138,20 +152,17 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
         {/* Sidebar/Menu for larger screens */}
         <div className={`${styles.sidebar} ${styles.desktopSidebar}`}>
   <ul>
-    <li>
-      <a>MCQ</a>
+    <li className={styles.whitetube}>
+      <a className={styles.fontblack}>MCQ</a>
     </li>
-    <li>
-      <a>Fill in the Blanks</a>
+    <li className={styles.whitetube}>
+      <a className={styles.fontblack}>Fill in the Blanks</a>
     </li>
-    <li>
-      <a>Jumbled Words</a>
+    <li className={styles.whitetube}>
+      <a className={styles.fontblack}>Jumbled Words</a>
     </li>
-    <li>
-      <a>Click on Correct Words</a>
-    </li>
-    <li>
-      <a>Drag and Drop</a>
+    <li className={styles.whitetube}>
+      <a className={styles.fontblack}>Match the Following</a>
     </li>
   </ul>
 </div>
@@ -159,7 +170,7 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
 
         {/* Toggleable menu for smaller screens */}
         <div className={`${styles.mobileMenu} ${styles.sidebar}`}>
-          <div className={styles.menuHeader} onClick={toggleMenu}>
+          <div className={styles.menuHeader}>
             <span>{selectedQuiz.name}</span>
             {showMenu ? <FiChevronUp /> : <FiChevronDown />}
           </div>
@@ -243,7 +254,20 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
         }}
         />
     )}
-      {allQuestions[activeQuestion].type === 'ClickCorrectWords' && (
+
+{allQuestions[activeQuestion].type === 'MatchTheFollowing' && (
+                  <MatchTheFollowingGame
+                    questionData={allQuestions[activeQuestion]}
+                    onNext={onClickNext}
+                    onResult={({ isCorrect, correctMatches }) => {
+                      setResult(prev => ({
+                        correctAnswers: correctMatches+prev.correctAnswers,
+                        wrong: 10 - correctMatches
+                      }));
+                    }}
+                  />
+                )}
+      {/* {allQuestions[activeQuestion].type === 'ClickCorrectWords' && (
          <ClickCorrectWordsComponent
          question={allQuestions[activeQuestion]}
          onNext={onClickNext}
@@ -262,7 +286,7 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
           }));
         }}
         />
-      )}
+      )} */}
 
 { allQuestions[activeQuestion].type !== 'JumbledWords' && allQuestions[activeQuestion].type !== 'FillInTheBlanks'  && allQuestions[activeQuestion].type !== 'ClickCorrectWords' && allQuestions[activeQuestion].type !== 'DragAndDrop' && <div className={styles.flexright}>
         <button onClick={onClickNext} disabled={selectedAnswerIndex === null}>
@@ -286,14 +310,14 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...clickCorr
                   <div>Correct Answers:</div>
                   <div className={styles.color}>{result.correctAnswers}</div>
                 </div>
-                <div className={styles.flexi}>
+                {/* <div className={styles.flexi}>
                   <div>Wrong Answers:</div>
                   <div className={styles.color}>
                     {questions.length - result.correctAnswers}
                   </div>
-                </div>
+                </div> */}
                 <div className={styles.flex}>
-                  <Link className={styles.btns} href="/QuizTime">
+                  <Link className={styles.btns} href="/Practicetest/FrenchQuizs">
                     Go Back
                   </Link>
                   <div className={styles.btns} onClick={reloadPage}>

@@ -21,6 +21,7 @@ export default function Login() {
     { userId: 'mastertrainer3', password: 'upskilleduLC3', name: '', type: 'all' },
     { userId: 'mastertrainer4', password: 'upskilleduLC4', name: '', type: 'all' },
     { userId: 'mastertrainer5', password: 'upskilleduLC5', name: '', type: 'all' },
+    { "userId": "linguafranca50", "password": "BonSoir5830", "name": "", "type": "french", "next": "french2" },
     { "userId": "linguafranca53", "password": "BonSoir5829", "name": "", "type": "french" },
     // { "userId": "linguafranca59", "password": "MerciBien7339", "name": "", "type": "french" },
     { "userId": "linguafranca61", "password": "SalutTous6274", "name": "", "type": "french" },
@@ -34,7 +35,7 @@ export default function Login() {
     // { "userId": "quixoticlengua101", "password": "HolaAmigo7324", "name": "", "type": "spanish" },
     { "userId": "quixoticlengua103", "password": "BuenosDias5387", "name": "", "type": "spanish" },
     { "userId": "quixoticlengua107", "password": "GraciasMucho3145", "name": "", "type": "spanish" },
-    { "userId": "quixoticlengua109", "password": "PorFavor9263", "name": "", "type": "spanish" },
+    { "userId": "quixoticlengua109", "password": "PorFavor9263", "name": "", "type": "spanish" }, //using
     { "userId": "quixoticlengua113", "password": "AdiosAmigo4169", "name": "", "type": "spanish" },
     { "userId": "quixoticlengua127", "password": "ComoEstas7832", "name": "", "type": "spanish" },
     { "userId": "quixoticlengua131", "password": "HastaLuego5241", "name": "", "type": "spanish" },
@@ -62,7 +63,7 @@ export default function Login() {
 
     if (user) {
       // If valid, dispatch login and store in Redux & cookies
-      dispatch(login({ userId: user.userId, name: name, type: user.type })); // Include the 'type'
+      dispatch(login({ userId: user.userId, name: name, type: user.type, next: user.next })); // Include the 'type'
 
       // Redirect to the previous page
       router.back(); // Go back to the previous page

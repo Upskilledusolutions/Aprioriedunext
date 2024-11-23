@@ -108,8 +108,8 @@ const Quiz = () => {
         <div className={`${styles.sidebar} ${styles.desktopSidebar}`}>
           <ul>
             {quiz.map((qz, index) => (
-              <li key={index} className={!isAuthenticated && index > 1 ? styles.disabledLink : ""}>
-                <Link href={`/QuizTime/FrenchQuiz/${index + 1}`}>
+              <li key={index} className={!isAuthenticated && index > 1 ? `${styles.disabledLink} ${styles.whitetube}` : styles.whitetube}>
+                <Link className={styles.fontblack} href={`/QuizTime/FrenchQuiz/${index + 1}`}>
                   {qz.name}
                 </Link>
               </li>

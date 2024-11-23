@@ -7,10 +7,10 @@ import { FaLock } from 'react-icons/fa';
 
 export default function Index() {
   const { isAuthenticated, user } = useSelector((state) => state.auth);
-
+  console.log(user?.next)
   // Function to determine if a card should be locked
   const isCardLocked = (cardType) => {
-    return user?.type !== 'all' && user?.type !== cardType;
+    return user?.type !== 'all' && user?.type !== cardType && user?.next !== cardType;
   };
 
   // Array of card information with type, heading, and text
@@ -24,6 +24,12 @@ export default function Index() {
     {
       type: 'french',
       heading: 'French Beginner (A1-A2)',
+      text: 'Master the language of art, culture, and diplomacy with our French lessons.',
+      link: '/Readnow/Frenchlessons',
+    },
+    {
+      type: 'french2',
+      heading: 'French Beginner (B1-B2)',
       text: 'Master the language of art, culture, and diplomacy with our French lessons.',
       link: '/Readnow/Frenchlessons',
     },
