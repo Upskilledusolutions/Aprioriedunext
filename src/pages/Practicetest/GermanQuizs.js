@@ -2,7 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 import styles from '../../styles/quiz/quizpage.module.css'
 import Image from 'next/image'
-import { quiz } from "../../Data/Practicetests/french"; // Importing the quiz data
+import { quiz } from "../../Data/Practicetests/german"; // Importing the quiz data
 import Link from 'next/link';
 import { FaLock } from 'react-icons/fa'; // Import a lock icon
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
@@ -29,7 +29,7 @@ export default function FrenchQuizes() {
               const isLocked = !isAuthenticated && index > 1;
               return (
                 <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''}`}>
-                  <Link href={`FrenchQuiz/${data.quiz}`} className={styles.link}>
+                  <Link href={`GermanQuiz/${data.quiz}`} className={styles.link}>
                     <div className={styles.imgcont}>
                       <Image className={styles.img5} src={'/assests/1.png'} width={500} height={500} alt="img" />
                     </div>

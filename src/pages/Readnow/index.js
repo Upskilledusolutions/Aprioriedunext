@@ -46,19 +46,19 @@ export default function Index() {
       link: '/Readnow/Spanishlessons',
     },
     {
-      type: 'Italian',
+      type: 'italian',
       heading: 'Italian Beginner (A1-A2)',
       text: 'Master the language of art, culture, and diplomacy with our Italian lessons.',
       link: '/Readnow/Italianlessons',
     },
     {
-      type: 'Dutch',
+      type: 'dutch',
       heading: 'Dutch Beginner (A1-A2)',
       text: 'Navigate both casual and formal language settings of Dutch with this course.',
       link: '/Readnow/Dutchlessons',
     },
     {
-      type: 'Russian',
+      type: 'russian',
       heading: 'Russian Beginner (A1-A2)',
       text: 'Dive into the vibrant world of Russian-speaking countries with this course.',
       link: '/Readnow/Russianlessons',

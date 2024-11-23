@@ -52,7 +52,10 @@ export default function Login() {
     { "userId": "sprachmeister191", "password": "AllesKlar4287", "name": "", "type": "german" },
     { "userId": "sprachmeister193", "password": "Entschuldigung6724", "name": "", "type": "german" },
     { "userId": "sprachmeister197", "password": "GutenAbend8351", "name": "", "type": "german" },
-    { "userId": "sprachmeister201", "password": "GutenAbend8351", "name": "", "type": "germana2" }
+    { "userId": "sprachmeister201", "password": "GutenAbend8351", "name": "", "type": "germana2" },
+    {"userId": "linguaitaliana298", "password": "Buonasera9216", "name": "", "type": "italian"  },
+    {"userId": "ruskiyjazyk473", "password": "DobryyVecher5473", "name": "", "type": "russian"  },
+    {"userId": "nederlands729", "password": "Goedenavond8927", "name": "", "type": "dutch" }
   ];
 
   const handleSubmit = (e) => {
