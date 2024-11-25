@@ -7632,4 +7632,1341 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '32',
+      name: 'French Exercise - 13 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "How do you say 'global warming' in French?",
+          "choices": ["Le changement climatique", "La pollution", "Le réchauffement climatique", "L’air pur"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is correct?",
+          "choices": [
+            "Si nous plantons des arbres, la mer disparaîtra.",
+            "Si nous protégeons les forêts, nous protégerons la faune.",
+            "Si nous recyclons, les espèces en danger augmenteront.",
+            "Si nous ne faisons rien, la pollution disparaîtra."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is renewable energy?",
+          "choices": ["Le charbon", "L’énergie solaire", "Le pétrole", "Le plastique"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si nous utilisons moins de plastique, les océans _______.",
+          "choices": ["se pollueront", "seront plus propres", "disparaîtront", "deviendront plus petits"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What can we recycle?",
+          "choices": ["L’eau", "Les déchets alimentaires", "Les bouteilles en plastique", "Le vent"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "If the glaciers melt, what will happen?",
+          "choices": [
+            "La mer deviendra froide.",
+            "Le niveau de la mer augmentera.",
+            "Les animaux seront protégés.",
+            "La pollution diminuera."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'endangered species' in French?",
+          "choices": [
+            "Les espèces en danger",
+            "Les énergies renouvelables",
+            "Les forêts menacées",
+            "Les déchets réutilisables"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence is correct?",
+          "choices": [
+            "Si nous ne faisons rien, les glaciers fondront.",
+            "Si nous recyclons, la planète fondra.",
+            "Si nous utilisons du charbon, les arbres pousseront.",
+            "Si nous plantons des déchets, nous protègerons les espèces."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 'sustainable development' mean?",
+          "choices": [
+            "Utiliser plus d’énergie",
+            "Développement respectant l’environnement",
+            "Construire plus de routes",
+            "Augmenter la pollution"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What should we use to reduce pollution?",
+          "choices": [
+            "Les énergies renouvelables",
+            "Le plastique",
+            "Le charbon",
+            "Les voitures individuelles"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+
+
+        {
+          "question": "Si nous ______ (recycle), nous réduirons la pollution.",
+          "choices": ["recyclons", "recycler", "recyclent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les forêts disparaîtront si les humains ne ______ (protect) pas les arbres.",
+          "choices": ["protègent", "protège", "protègeons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous plantons des arbres, la planète ______ (will be) plus verte.",
+          "choices": ["sera", "seront", "serait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vous utilisez moins de plastique, vous ______ (will protect) les océans.",
+          "choices": ["protègerez", "protègera", "protègeons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si les glaciers fondent, le niveau de la mer ______ (will increase).",
+          "choices": ["augmentera", "augmenterez", "augmente"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si tu éteins les lumières, tu ______ (will save) de l’énergie.",
+          "choices": ["économiseras", "économisera", "économises"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous protégerons les espèces en danger si nous ______ (protect) leur habitat.",
+          "choices": ["protégeons", "protègeons", "protège"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si les villes deviennent plus vertes, la qualité de l’air ______ (will improve).",
+          "choices": ["améliorera", "amélioreraient", "améliorerons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous ne faisons rien, les animaux en danger ______ (will disappear).",
+          "choices": ["disparaîtront", "disparaît", "disparaîtrez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La pollution diminuera si tout le monde ______ (takes) les transports en commun.",
+          "choices": ["prend", "prenons", "prendront"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "La forêt", "rightId": 1 },
+              "right": { "word": "Augmentation de la température globale", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Recycler", "rightId": 2 },
+              "right": { "word": "Alternatives au pétrole et au charbon", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Une espèce en danger", "rightId": 3 },
+              "right": { "word": "Une ressource naturelle à protéger", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Le réchauffement climatique", "rightId": 4 },
+              "right": { "word": "Un groupe d’animaux menacés", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Les énergies renouvelables", "rightId": 5 },
+              "right": { "word": "Réduire les déchets en réutilisant", "rightId": 2 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "La pollution", "rightId": 1 },
+              "right": { "word": "Garder ou défendre quelque chose", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Protéger", "rightId": 2 },
+              "right": { "word": "Bus, métro, et tramway", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Le développement durable", "rightId": 3 },
+              "right": { "word": "Dégradation de l’environnement", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Les transports en commun", "rightId": 4 },
+              "right": { "word": "Sans pollution ni toxines", "rightId": 5 }
+            },
+            {
+              "left": { "word": "L’air pur", "rightId": 5 },
+              "right": { "word": "Développement respectant l’environnement", "rightId": 3 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '33',
+      name: 'French Exercise - 14 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "How do you say 'boss' in French?",
+          "choices": ["un contrat", "un patron", "un poste", "un salarié"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What word means 'job' in French?",
+          "choices": ["un emploi", "un entretien", "une réunion", "un projet"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence is FORMELLE?",
+          "choices": ["Salut, tu veux m’aider ?", "Pouvez-vous me donner votre avis ?", "Tu peux m’envoyer un message ?", "Merci pour ton aide."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'les congés payés' mean?",
+          "choices": ["des pauses au travail", "des vacances rémunérées", "des heures supplémentaires", "une réunion urgente"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What do you do during an interview?",
+          "choices": ["On signe un contrat.", "On parle avec un client.", "On cherche un poste.", "On discute avec un recruteur."],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "How would we say INFORMALLY 'Can you help me?'",
+          "choices": ["Pouvez-vous m’aider ?", "Peux-tu m’aider ?", "Puis-je demander votre aide ?", "Veuillez m’aider."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What word describes a person who works in a company?",
+          "choices": ["un salarié", "un contrat", "un collègue", "un poste"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the equivalent of 'meeting' in French?",
+          "choices": ["un entretien", "une réunion", "un emploi", "un projet"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is INFORMAL?",
+          "choices": ["Salut, tu es libre cet après-midi ?", "Pourriez-vous me confirmer la date ?", "Je souhaiterais avoir plus d’informations.", "Merci pour votre attention."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 'heures supplémentaires' mean?",
+          "choices": ["Des heures en plus de travail", "Une réunion prolongée", "Une pause déjeuner prolongée", "Une journée de congé"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+
+
+        {
+          "question": "Il cherche un ______ (job) dans une entreprise internationale.",
+          "choices": ["emploi", "emploi", "contrat", "salarié"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons une ______ (meeting) avec notre client à 15 heures.",
+          "choices": ["réunion", "réunion", "poste", "collègue"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle prépare un ______ (report) pour son entretien demain.",
+          "choices": ["rapport", "rapport", "contrat", "projet"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pendant l’______ (interview), le patron a posé beaucoup de questions.",
+          "choices": ["entretien", "entretien", "emploi", "salarié"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon ______ (colleague) m’a aidé avec ce dossier compliqué.",
+          "choices": ["collègue", "collègue", "poste", "patron"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le ______ (employee) a signé un contrat avec l’entreprise aujourd’hui.",
+          "choices": ["salarié", "salarié", "réunion", "congé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu peux m’envoyer un email pour ______ (discuss) le projet ?",
+          "choices": ["discuter", "discuter", "patron", "salarié"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans cette entreprise, le ______ (boss) est toujours très exigeant.",
+          "choices": ["patron", "patron", "contrat", "projet"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les ______ (leave) payés sont une tradition importante en France.",
+          "choices": ["congés", "congés", "emplois", "contrats"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je voudrais savoir si vous pouvez venir à l’______ (interview).",
+          "choices": ["entretien", "entretien", "réunion", "emploi"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "un entretien", "rightId": 1 },
+              "right": { "word": "position", "rightId": 2 }
+            },
+            {
+              "left": { "word": "un poste", "rightId": 2 },
+              "right": { "word": "job", "rightId": 5 }
+            },
+            {
+              "left": { "word": "heures supplémentaires", "rightId": 3 },
+              "right": { "word": "interview", "rightId": 1 }
+            },
+            {
+              "left": { "word": "un collègue", "rightId": 4 },
+              "right": { "word": "overtime", "rightId": 3 }
+            },
+            {
+              "left": { "word": "un emploi", "rightId": 5 },
+              "right": { "word": "colleague", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "un patron", "rightId": 1 },
+              "right": { "word": "contract", "rightId": 3 }
+            },
+            {
+              "left": { "word": "une réunion", "rightId": 2 },
+              "right": { "word": "employee", "rightId": 4 }
+            },
+            {
+              "left": { "word": "un contrat", "rightId": 3 },
+              "right": { "word": "meeting", "rightId": 2 }
+            },
+            {
+              "left": { "word": "un salarié", "rightId": 4 },
+              "right": { "word": "paid leave", "rightId": 5 }
+            },
+            {
+              "left": { "word": "les congés payés", "rightId": 5 },
+              "right": { "word": "boss", "rightId": 1 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '34',
+      name: 'French Exercise - 15 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "What word means “password” in French?",
+          "choices": ["Un clavier", "Un mot de passe", "Une souris", "Une application"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say “to download” in French?",
+          "choices": ["Télécharger", "Partager", "Se connecter", "Naviguer"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C’est une application ______ je trouve très facile à utiliser.",
+          "choices": ["où", "dont", "que", "qui"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "C’est l’année ______ j’ai acheté mon premier ordinateur.",
+          "choices": ["où", "que", "qui", "dont"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What word means “website” in French?",
+          "choices": ["Un mot de passe", "Une souris", "Un clavier", "Un site web"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Nous avons visité un endroit ______ tout le monde parle souvent.",
+          "choices": ["dont", "où", "que", "qui"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le smartphone ______ elle a acheté est très cher.",
+          "choices": ["où", "qui", "que", "dont"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "J’utilise une souris ______ est très rapide.",
+          "choices": ["où", "qui", "que", "dont"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What action do we take when we “share” a photo?",
+          "choices": ["On la supprime.", "On la rend accessible à d’autres.", "On l’imprime.", "On la garde privée."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le document ______ j’ai téléchargé contient des informations importantes.",
+          "choices": ["où", "que", "qui", "dont"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+        {
+          "question": "C’est le document ______ (that) j’ai téléchargé hier.",
+          "choices": ["que", "qui", "où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je dois entrer mon ______ (password) pour accéder à mon compte.",
+          "choices": ["mot de passe", "clavier", "souris"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le site ______ (or) je visite souvent est très informatif.",
+          "choices": ["où", "que", "qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons une réunion ______ (or) tout le monde est invité.",
+          "choices": ["où", "qui", "que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’application ______ (that) je t’ai parlé est très utile.",
+          "choices": ["que", "qui", "où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un ______ (smartphone) est un appareil que j’utilise pour lire mes e-mails.",
+          "choices": ["smartphone", "ordinateur", "souris"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "2023 est l’année ______ (or) j’ai commencé à apprendre le français.",
+          "choices": ["où", "que", "qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’ai besoin de télécharger ______ (an app) avant de l’utiliser.",
+          "choices": ["une application", "un clavier", "une souris"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C’est le projet ______ (of which) ils sont très fiers.",
+          "choices": ["dont", "où", "que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’ordinateur ______ (who) fonctionne le mieux est sur mon bureau.",
+          "choices": ["qui", "où", "que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Une application", "rightId": 1 },
+              "right": { "word": "A set of keys for typing", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Un clavier", "rightId": 2 },
+              "right": { "word": "The year something happened", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Où", "rightId": 3 },
+              "right": { "word": "A password", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Un mot de passe", "rightId": 4 },
+              "right": { "word": "Used to refer to a subject", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Qui", "rightId": 5 },
+              "right": { "word": "A program used on a smartphone", "rightId": 1 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Télécharger", "rightId": 1 },
+              "right": { "word": "Refers to something related to 'de'", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Une souris", "rightId": 2 },
+              "right": { "word": "To share", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Dont", "rightId": 3 },
+              "right": { "word": "A device to move a cursor", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Partager", "rightId": 4 },
+              "right": { "word": "A website", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Un site web", "rightId": 5 },
+              "right": { "word": "To download", "rightId": 1 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '35',
+      name: 'French Exercise - 16 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "How do you say “comic book” in French?",
+          "choices": ["Une comédie", "Une bande dessinée", "Un roman", "Une biographie"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What kind of movie is often funny?",
+          "choices": ["Un drame", "Une comédie", "Un documentaire", "Un film d’animation"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What word corresponds to “digital media”?",
+          "choices": ["La presse écrite", "Les réseaux sociaux", "La radio", "Les films"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What do you call a play written for the stage?",
+          "choices": ["Un roman", "Une biographie", "Une pièce de théâtre", "Une bande dessinée"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is an example of traditional media?",
+          "choices": ["Les magazines numériques", "La presse écrite", "Les réseaux sociaux", "Les podcasts"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'The book is read by the children'?",
+          "choices": ["Le livre lire par les enfants.", "Le livre est lu par les enfants.", "Le livre est lire par les enfants.", "Les enfants lisent le livre."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "La pièce _____ (être, écrire) par un célèbre dramaturge.",
+          "choices": ["est écrite", "écrite", "a été écrite", "sont écrites"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Un article intéressant a été _____ (publier) hier dans ce journal.",
+          "choices": ["publié", "publie", "publier", "publiés"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les billets sont _____ par les visiteurs à l’entrée du musée.",
+          "choices": ["acheter", "achetés", "achètent", "acheté"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Une chanson douce _____ (être, écouter) par les enfants.",
+          "choices": ["est écouter", "est écoutée", "écouter", "est écouteront"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+        {
+          "question": "Les informations sont diffusées à la télévision et à la _____ (radio).",
+          "choices": ["radio"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un _____ (documentary) est souvent très éducatif.",
+          "choices": ["documentaire"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cette chanson célèbre _____ (être, chanter) par un artiste connu.",
+          "choices": ["est chantée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le journal a été _____ (imprimer) ce matin.",
+          "choices": ["imprimé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les livres _____ (être, vendre) dans la librairie de l’université.",
+          "choices": ["sont vendus"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Une bande dessinée _____ (être, lire) par de nombreux enfants chaque jour.",
+          "choices": ["est lue"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un film d’animation _____ (être, produire) en France cette année.",
+          "choices": ["est produit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les réseaux sociaux sont _____ (utiliser) par beaucoup de jeunes.",
+          "choices": ["utilisés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La pièce de théâtre a été _____ (écrire) par Molière.",
+          "choices": ["écrite"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les magazines numériques sont souvent _____ (télécharger) sur les tablettes.",
+          "choices": ["téléchargés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Une bande dessinée", "rightId": 1 },
+              "right": { "word": "Social networks", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Un film d’animation", "rightId": 2 },
+              "right": { "word": "Comedy", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Une comédie", "rightId": 3 },
+              "right": { "word": "Drama", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Un drame", "rightId": 4 },
+              "right": { "word": "Animated movie", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Les réseaux sociaux", "rightId": 5 },
+              "right": { "word": "Comic book", "rightId": 1 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "La presse écrite", "rightId": 1 },
+              "right": { "word": "Play", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Un documentaire", "rightId": 2 },
+              "right": { "word": "News", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Une pièce de théâtre", "rightId": 3 },
+              "right": { "word": "Documentary", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Les nouvelles", "rightId": 4 },
+              "right": { "word": "Biography", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Une biographie", "rightId": 5 },
+              "right": { "word": "Printed press", "rightId": 1 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '36',
+      name: 'French Exercise - 17 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "How do you say 'poverty' in French?",
+          "choices": ["Le chômage", "La pauvreté", "L’éducation", "Le changement climatique"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Who is responsible for public safety?",
+          "choices": ["Le maire", "Le policier", "L’avocat", "Le professeur"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What word corresponds to 'unemployment'?",
+          "choices": ["La pauvreté", "Le chômage", "L’éducation", "Les citoyens"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you call 'citizens' in French?",
+          "choices": ["Les citoyens", "Les avocats", "Les professeurs", "Les policiers"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What word means 'climate change'?",
+          "choices": ["La pauvreté", "L’éducation", "Le changement climatique", "Les problèmes sociaux"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Complétez : Hier, le maire _____ (inaugurer) un nouveau bâtiment public.",
+          "choices": ["inaugure", "inaugurait", "a inauguré", "va inaugurer"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Complétez : Nous _____ (aller, futur proche) planter des arbres la semaine prochaine.",
+          "choices": ["allons", "avons", "allons planter", "plantons"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is in the past tense?",
+          "choices": [
+            "Les citoyens discutent des problèmes sociaux.",
+            "Les étudiants ont organisé une réunion hier.",
+            "Le maire parle des nouvelles lois.",
+            "Les citoyens vont voter demain."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is in the imperfect tense?",
+          "choices": [
+            "Le maire parle des nouvelles lois.",
+            "Les citoyens débattaient des nouvelles politiques.",
+            "Le professeur a expliqué la leçon.",
+            "Nous allons participer à un événement."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez : Les citoyens _____ (créer, présent) un projet pour aider les sans-abris.",
+          "choices": ["créaient", "créent", "ont créé", "vont créer"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+        {
+          "question": "Le _____ (mayor) est responsable des décisions importantes de la ville.",
+          "choices": ["maire", "mayor", "citoyen", "professeur"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Une avocate a _____ (présenter, passé composé) un plan pour l’égalité des sexes.",
+          "choices": ["présenté", "présenter", "présentait", "présente"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les citoyens _____ (aller, futur proche) organiser une réunion publique demain.",
+          "choices": ["vont", "allons", "allez", "va"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les professeurs _____ (enseigner, imparfait) toujours avec passion et patience dans cette école.",
+          "choices": ["enseignaient", "enseignent", "enseigneraient", "enseigne"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La _____ (poverty) reste un défi majeur dans de nombreuses régions.",
+          "choices": ["pauvreté", "chômage", "problème social", "égalité"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les policiers _____ (protéger, présent) les citoyens contre le danger.",
+          "choices": ["protègent", "protégé", "protéger", "protégeaient"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les étudiants _____ (créer, passé composé) une campagne pour le changement climatique.",
+          "choices": ["ont créé", "créent", "créaient", "vont créer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le chômage est un _____ (societal issue) qui affecte beaucoup de jeunes.",
+          "choices": ["problème social", "pauvreté", "inégalité", "chômage"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous _____ (planter, futur proche) des arbres pour améliorer notre environnement.",
+          "choices": ["allons planter", "plantons", "avons planté", "planteraient"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pendant son mandat, le maire _____ (lancer, passé composé) plusieurs projets écologiques.",
+          "choices": ["a lancé", "lançait", "lance", "va lancer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Un maire", "rightId": 1 },
+              "right": { "word": "Climate change", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Un policier", "rightId": 2 },
+              "right": { "word": "Lawyer", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Une avocate", "rightId": 3 },
+              "right": { "word": "Education", "rightId": 4 }
+            },
+            {
+              "left": { "word": "L’éducation", "rightId": 4 },
+              "right": { "word": "Police officer", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Le changement climatique", "rightId": 5 },
+              "right": { "word": "Mayor", "rightId": 1 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "La pauvreté", "rightId": 1 },
+              "right": { "word": "Citizens", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Le chômage", "rightId": 2 },
+              "right": { "word": "Social issues", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Les citoyens", "rightId": 3 },
+              "right": { "word": "Unemployment", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Les problèmes sociaux", "rightId": 4 },
+              "right": { "word": "Teacher", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Un professeur", "rightId": 5 },
+              "right": { "word": "Poverty", "rightId": 1 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '37',
+      name: 'French Exercise - 18 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "How do you say \"to sleep\" in French?",
+          "choices": ["Dormir", "Manger", "Visiter", "Prendre"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What word means \"castle\"?",
+          "choices": ["Le musée", "Le château", "La plage", "La maison"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say \"to visit\" in French?",
+          "choices": ["Jouer", "Voyager", "Visiter", "Dormir"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What word corresponds to \"garden\"?",
+          "choices": ["La plage", "Le jardin", "Le parc", "La maison"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say \"happy\" in the feminine form?",
+          "choices": ["Content", "Contente", "Contentes", "Contents"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez : Hier, nous _____ (prendre, passé composé) un taxi pour aller au musée.",
+          "choices": ["prenions", "avons pris", "prendrons", "prenons"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez : Quand j’étais enfant, je _____ (jouer, imparfait) souvent au parc.",
+          "choices": ["joue", "ai joué", "jouais", "vais jouer"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Complétez : Demain, ils _____ (aller, futur proche) faire du shopping au centre-ville.",
+          "choices": ["vont aller", "vont", "allaient", "iront"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez : Les enfants _____ (être, présent) impatients d’aller au parc.",
+          "choices": ["sont", "ont été", "étaient", "vont être"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez : Elle _____ (apprendre, présent) le français pour son travail.",
+          "choices": ["apprenait", "apprend", "a appris", "va apprendre"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+        {
+          "question": "Je _____ (manger, présent) des fruits frais tous les matins.",
+          "choices": ["mange","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Hier, nous _____ (visiter, passé composé) un château historique avec un guide.",
+          "choices": ["avons visité","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quand j’étais petit, je _____ (jouer, imparfait) souvent dans le jardin.",
+          "choices": ["jouais","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Demain, ils _____ (aller, futur proche) à la plage pour se détendre.",
+          "choices": ["vont aller","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pendant les vacances, nous _____ (dormir, présent) dans une maison de campagne.",
+          "choices": ["dormons","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est très _____ (content, adjectif féminin) de recevoir ses amis ce soir.",
+          "choices": ["contente","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous _____ (prendre, passé composé) un taxi pour arriver à l’heure.",
+          "choices": ["avons pris","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "_____ (Où/Quand) est-ce que tu as appris à parler français ?",
+          "choices": ["Où","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils _____ (être, présent) toujours en avance pour les réunions importantes.",
+          "choices": ["sont","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les enfants _____ (jouer, futur proche) avec leurs cousins dans le parc demain.",
+          "choices": ["vont jouer","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Hier, j’ai mangé", "rightId": 1 },
+              "right": { "word": "I will visit the museum tomorrow.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Demain, nous allons visiter", "rightId": 2 },
+              "right": { "word": "I ate a croissant.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Elle apprend", "rightId": 3 },
+              "right": { "word": "We are happy.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous sommes contents", "rightId": 4 },
+              "right": { "word": "I used to love chocolate.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "J’aimais", "rightId": 5 },
+              "right": { "word": "She is learning French.", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il jouait", "rightId": 1 },
+              "right": { "word": "She left early", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Elle est partie", "rightId": 2 },
+              "right": { "word": "They will play football.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous avons visité", "rightId": 3 },
+              "right": { "word": "He was playing with his dog.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ils vont jouer", "rightId": 4 },
+              "right": { "word": "You were at the park.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Vous étiez", "rightId": 5 },
+              "right": { "word": "We visited a castle.", "rightId": 3 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '38',
+      name: 'French Exercise - 19 (A2)',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+
+        {
+          "question": "How do you say \"How much does it cost?\" in French?",
+          "choices": ["Combien ça coûte ?", "Où est la gare ?", "Je voudrais un billet.", "Pouvez-vous répéter ?"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What do you mean if you ask \"Do you have apples?\"?",
+          "choices": ["Je prends une pomme.", "Avez-vous des pommes ?", "Où sont les pommes ?", "J’aime les pommes."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is correct to say \"I'll take two tickets\"?",
+          "choices": ["Je prends deux billets.", "Je vais aller deux billets.", "J’ai pris deux billets.", "Prenons deux billets."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "You are at the station. What do you say to ask for a table?",
+          "choices": ["L’addition, s’il vous plaît.", "À quelle heure part le train ?", "Où est la gare ?", "Je voudrais un billet."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "You want to know the time of a train. What do you say?",
+          "choices": ["Où est le train ?", "Combien ça coûte ?", "À quelle heure arrive le train ?", "Puis-je voir la carte ?"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is correct for ordering at a restaurant?",
+          "choices": ["Je voudrais un menu, s’il vous plaît.", "Où est la gare ?", "Je prends un aller simple.", "Vous avez des billets ?"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does \"L’addition, s’il vous plaît\" mean?",
+          "choices": ["The train schedule, please.", "A table for one, please.", "The bill, please.", "The map, please."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "If you order a drink, what do you say?",
+          "choices": ["Je vais à la gare.", "Je voudrais un café.", "Je prends un billet.", "À quelle heure est le dîner ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is a word for \"menu\" in French?",
+          "choices": ["La table", "Le café", "La carte", "L’addition"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What do you say if you're ready to order?",
+          "choices": ["Où est la carte ?", "Je prends une quiche lorraine.", "Combien ça coûte ?", "Où est la gare ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+        {
+          "question": "Bonjour, je voudrais _____ (un/une) baguette et du beurre, s’il vous plaît.",
+          "choices": ["une", "un", "la", "le"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Combien _____ (coûter) cette jupe rouge ?",
+          "choices": ["coûte", "coûtent", "valent", "vaut"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À quelle heure le train _____ (partir) pour Marseille ?",
+          "choices": ["part", "partent", "pars", "partez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "_____ (Où/Quand) est la gare, s’il vous plaît ?",
+          "choices": ["Où", "Quand", "Qui", "Comment"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous _____ (prendre, présent) deux billets aller-retour pour Lyon.",
+          "choices": ["prenons", "prenez", "prend", "prennent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je prends une salade et une _____ (eau/eaux), s’il vous plaît.",
+          "choices": ["eau", "eaux", "eau-minérale", "verre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le serveur _____ (apporter, passé composé) l’addition à notre table.",
+          "choices": ["a apporté", "a apportaient", "a apporter", "a apporté"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils vont _____ (visiter) le musée après le déjeuner.",
+          "choices": ["visiter", "visitent", "visitez", "visitaient"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "_____ (Est-ce que/Pourquoi) vous avez des fruits de saison ?",
+          "choices": ["Est-ce que", "Pourquoi", "Qui", "Quand"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pouvez-vous me _____ (donner) une carte des vins, s’il vous plaît ?",
+          "choices": ["donner", "donnez", "donné", "donnons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Bonjour, je voudrais une table", "rightId": 1 },
+              "right": { "word": "The check, please.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "L’addition, s’il vous plaît.", "rightId": 2 },
+              "right": { "word": "I would like a ticket to Paris.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Où est la gare, s’il vous plaît ?", "rightId": 3 },
+              "right": { "word": "Hello, I would like a table", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Je voudrais un billet pour Paris.", "rightId": 4 },
+              "right": { "word": "The map, please.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "La carte, s’il vous plaît.", "rightId": 5 },
+              "right": { "word": "Where is the station, please?", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Un aller-retour pour Lyon, merci.", "rightId": 1 },
+              "right": { "word": "How much does it cost?", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Combien ça coûte ?", "rightId": 2 },
+              "right": { "word": "A round trip to Lyon, thank you.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Nous avons réservé une table.", "rightId": 3 },
+              "right": { "word": "What time does the train arrive?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "À quelle heure arrive le train ?", "rightId": 4 },
+              "right": { "word": "I'm having a coffee.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je prends un café.", "rightId": 5 },
+              "right": { "word": "We reserved a table.", "rightId": 3 }
+            },
+          ],
+        },
+  
+      ],
+    },
 ]
