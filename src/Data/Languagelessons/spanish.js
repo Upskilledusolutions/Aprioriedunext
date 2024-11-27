@@ -2,8 +2,8 @@ export const data = [{
     id:'1',
     name:'Spanish Lesson 1 (A1)',
     level:'Beginners',
-    pdf:'https://drive.google.com/file/d/1Apg2kx9xJWJN8I6GIfOf7GzVbg277B5t/preview',
-    video:'https://www.youtube.com/embed/FqyYLPVF7_4?si=P7IB5v5bAeXIrnsp',
+    pdf:'https://drive.google.com/file/d/1MzBZ1RuXVardDlY898_bUgicOHiAIF-9/preview',
+    video:'https://www.youtube.com/embed/pYzbMwJrfp4?si=v6-UqXdnZACihei6',
     desc:'Spanish Foundation Lesson 1 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
