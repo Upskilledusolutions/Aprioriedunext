@@ -21,6 +21,12 @@ export default function Index() {
       text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
       link: '/ReadingAssignments/FrenchReading',
     },
+    {
+      type: 'spanish',
+      heading: 'Spanish Beginner (A1-A2)',
+      text: 'Master the language of art, culture, and diplomacy with our Spanish Reading Assignments.',
+      link: '/ReadingAssignments/SpanishReading',
+    },
   ];
 
   // Sort the cards so that unlocked cards come first
