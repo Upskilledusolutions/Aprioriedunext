@@ -5963,4 +5963,1155 @@ export const quiz = [
       
     ]
   },
+  {
+    quiz: '22',
+    name: 'Spanish Exercise - 3 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What is the correct translation of 'I would like to travel to Spain'?",
+        "choices": ["Me gustaría viajar a España.", "Me gustar viajar a España.", "Me gustaría viajo a España.", "Me gustarás viajar a España."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following sentences is a hypothetical situation?",
+        "choices": ["Compré un coche el año pasado.", "Si tuviera un coche, conduciría a la playa.", "¿Podrías traerme agua, por favor?", "Estoy estudiando para el examen de mañana."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Complete the sentence: Si yo fuera rico, ______ una mansión en Madrid.",
+        "choices": ["compraré", "compraría", "compro", "comprar"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence demonstrates a polite request?",
+        "choices": ["¿Podrías cerrar la ventana, por favor?", "Si pudiera, visitaría París.", "Él compraría una casa si ganara dinero.", "Me gustaría vivir en una gran ciudad."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which verb is irregular in the conditional tense?",
+        "choices": ["Hablar", "Tener", "Comer", "Beber"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'Could we go to the museum tomorrow?' in Spanish?",
+        "choices": ["Podríamos ir al museo mañana.", "Podemos ir al museo mañana.", "Podiamos ir al museo mañana.", "Podremos ir al museo mañana."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Si yo fuera tú, estudiaría más' mean?",
+        "choices": ["If I were you, I would study more.", "If I was you, I will study more.", "If I am you, I will study more.", "If I will be you, I will study more."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Complete the sentence: ¿______ ayudarme con este proyecto, por favor?",
+        "choices": [ "Puedo", "Podrías", "Podrá", "Podrían"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the conditional form of the verb 'ir' for 'nosotros'?",
+        "choices": [ "Vamos", "Íbamos", "Iremos","Iríamos"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Choose the sentence that uses the conditional correctly.",
+        "choices": ["Me gusta aprender a tocar el piano.", "Gustaría aprender a tocar el piano.","Me gustaría aprender a tocar el piano.", "Me gustarás aprender a tocar el piano."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Si tuviera más dinero, ______ (comprar) una casa cerca del mar.",
+        "choices": ["compraría", "compraríamos", "comprarías", "comprarían"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué ______ (hacer) tú si fueras el presidente?",
+        "choices": ["harías", "haremos", "haríamos", "harías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si viviéramos en España, ______ (aprender) a bailar flamenco.",
+        "choices": ["aprenderíamos", "aprendíamos", "aprenderíamos", "aprenderías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿ ______ (poder) usted decirme la hora, por favor?",
+        "choices": ["podría", "puedo", "podría", "podrías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (ir) a la playa si no lloviera.",
+        "choices": ["iríamos", "iremos", "iríamos", "irán"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si yo fuera médico, ______ (ayudar) a muchas personas enfermas.",
+        "choices": ["ayudaría", "ayudamos", "ayudaríamos", "ayudaría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me ______ (gustar) probar las tapas típicas españolas.",
+        "choices": ["gustaría", "gustaría", "gustan", "gustaron"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si fuera posible, ______ (viajar) al extranjero con mis amigos.",
+        "choices": ["viajaríamos", "viajamos", "viajaremos", "viajaría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿ ______ (querer) venir al concierto conmigo esta noche?",
+        "choices": ["querrías", "quería", "querría", "querrías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si ellos tuvieran tiempo, ______ (organizar) una fiesta para ti.",
+        "choices": ["organizarían", "organizan", "organizaríamos", "organizarían"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Me gustaría viajar a España.", "rightId": 1 },
+            "right": { "word": "It would be a good day to walk.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "¿Podrías ayudarme?", "rightId": 2 },
+            "right": { "word": "I would eat pizza every day.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Deberíamos estudiar más.", "rightId": 3 },
+            "right": { "word": "I would like to travel to Spain.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Sería un buen día para caminar.", "rightId": 4 },
+            "right": { "word": "We should study more.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Yo comería pizza todos los días.", "rightId": 5 },
+            "right": { "word": "Could you help me?", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "¿Qué harías tú?", "rightId": 1 },
+            "right": { "word": "They would visit the museum.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Ellos visitarían el museo.", "rightId": 2 },
+            "right": { "word": "Could you wait a moment?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Nos encantaría ir al cine.", "rightId": 3 },
+            "right": { "word": "What would you do?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Ella aprendería rápido.", "rightId": 4 },
+            "right": { "word": "We would love to go to the movies.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "¿Podrían esperar un momento?", "rightId": 5 },
+            "right": { "word": "She would learn quickly.", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '23',
+    name: 'Spanish Exercise - 4 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "Which of these phrases expresses an opinion in Spanish?",
+        "choices": [
+          "Comer pizza es divertido.",
+          "Pienso que el cine español es fantástico.",
+          "El clima está soleado.",
+          "Viajar a la India es caro."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these phrases expresses an opinion in Spanish?",
+        "choices": ["Discutir", "Creer", "Estar de acuerdo", "Preferir"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Complete: Si ganara la lotería, __________ una casa en Barcelona.",
+        "choices": ["compra", "compraría", "compré", "compraré"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'It seems to me' in Spanish?",
+        "choices": ["Me parece que", "Estoy de acuerdo", "Creo que", "No estoy de acuerdo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What phrase would you use to express disagreement?",
+        "choices": ["Estoy de acuerdo en que...", "No creo que...", "Pienso que...", "Me parece que..."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the conditional form of 'hacer'?",
+        "choices": ["Hacía", "Haría", "Hago", "Haré"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si no __________ comida, no podríamos vivir.",
+        "choices": ["hubiera", "tendría", "habría", "hay"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What word would you use to express a strong opinion?",
+        "choices": ["Creo que", "Me encanta que", "Es obvio que", "Es mejor que"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Completa: Si los estudiantes tuvieran menos tareas, __________ más tiempo libre.",
+        "choices": ["tendrían", "tendrían que", "tuvieran", "tuvieron"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In Spanish, how do you say 'If I were a bird'?",
+        "choices": ["Si soy un pájaro", "Si fuera un pájaro", "Si era un pájaro", "Si seré un pájaro"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Creo que las redes sociales son útiles, pero también ______.",
+        "choices": ["dañinas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En mi opinión, viajar a otro país es una experiencia ______.",
+        "choices": ["inolvidable"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si tuviera más tiempo, ______ aprender un nuevo idioma.",
+        "choices": ["trataría de"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "No estoy de acuerdo con que la tecnología ______ el tiempo familiar.",
+        "choices": ["reduzca"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me parece que ______ es más importante que ganar dinero.",
+        "choices": ["la felicidad"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si pudieras elegir un superpoder, ¿cuál ______?",
+        "choices": ["elegirías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Estoy de acuerdo en que un buen libro siempre ______ el ánimo.",
+        "choices": ["mejora"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si fuera posible, yo ______ más proyectos de voluntariado.",
+        "choices": ["haría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "No creo que todos los programas de televisión sean ______.",
+        "choices": ["educativos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En mi opinión, los jóvenes ______ más tiempo en actividades productivas.",
+        "choices": ["deberían pasar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Creo que es buena idea.", "rightId": 1 },
+            "right": { "word": "If I had time, I would do it.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Si tuviera tiempo, lo haría.", "rightId": 2 },
+            "right": { "word": "What do you think about this?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "En mi opinión, es mejor esperar.", "rightId": 3 },
+            "right": { "word": "I think it's a good idea.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Me parece interesante.", "rightId": 4 },
+            "right": { "word": "In my opinion, it's better to wait.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "¿Qué opinas de esto?", "rightId": 5 },
+            "right": { "word": "It seems interesting to me.", "rightId": 4 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Si fuera posible, viajaría más.", "rightId": 1 },
+            "right": { "word": "I'm not sure about that.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "No estoy seguro de eso.", "rightId": 2 },
+            "right": { "word": "Do you think it is important?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Prefiero no decir nada.", "rightId": 3 },
+            "right": { "word": "If it were possible, I would travel more.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Si pudiera, ayudaría más.", "rightId": 4 },
+            "right": { "word": "I prefer not to say anything.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "¿Crees que es importante?", "rightId": 5 },
+            "right": { "word": "If I could, I would help more.", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '24',
+    name: 'Spanish Exercise - 5 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "Which tense is used for completed actions in the past?",
+        "choices": ["Presente", "Pretérito", "Condicional", "Futuro"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which verb is used to express wishes or hypothetical actions?",
+        "choices": ["Ser", "Estar", "Gustar", "Conditional"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which of the following sentences is in conditional tense?",
+        "choices": [
+          "Nosotros viajamos a México.",
+          "Yo aprendería francés si tuviera tiempo.",
+          "Ellos van al cine los sábados.",
+          "Marta está muy cansada hoy."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'Where is the meeting?' in Spanish?",
+        "choices": [
+          "¿Dónde estar la reunión?",
+          "¿Dónde ser la reunión?",
+          "¿Dónde es la reunión?",
+          "¿Dónde estás la reunión?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which is correct?",
+        "choices": [
+          "Yo estaría en casa si no tuviera trabajo.",
+          "Yo estaré en casa si no tuviera trabajo.",
+          "Yo estoy en casa si no tuviera trabajo.",
+          "Yo estuve en casa si no tuviera trabajo."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following describes emotions?",
+        "choices": [
+          "Yo soy feliz.",
+          "Yo estoy feliz.",
+          "Yo fui feliz.",
+          "Yo seré feliz."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Complete: Marta __________ una película anoche.",
+        "choices": ["verá", "ve", "vio", "vería"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which sentence indicates a habitual action?",
+        "choices": [
+          "Luis viajó a Madrid.",
+          "Marta estaría en casa.",
+          "Ellos van al cine cada viernes.",
+          "Yo estaré en casa."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'Me gustaría viajar a Francia' mean?",
+        "choices": [
+          "I like to travel to France.",
+          "I would like to travel to France.",
+          "I traveled to France.",
+          "I will travel to France."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which verb indicates temporary location or condition?",
+        "choices": ["Ser", "Estar", "Gustar", "Ir"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Yo ______ (comer) en un restaurante famoso el fin de semana pasado.",
+        "choices": ["comí"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (viajar) a Barcelona durante las vacaciones de verano.",
+        "choices": ["viajamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Marta ______ (ser/estar) muy emocionada por su nuevo trabajo.",
+        "choices": ["está"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué ______ (hacer, tú) si tuvieras un millón de euros?",
+        "choices": ["harías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (ir) al cine cada sábado por la tarde.",
+        "choices": ["van"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Luis ______ (leer) un libro interesante anoche en su habitación.",
+        "choices": ["leyó"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ahora, nosotros ______ (estar) muy cansados después del partido de fútbol.",
+        "choices": ["estamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me ______ (gustar, condicional) aprender a tocar la guitarra algún día.",
+        "choices": ["gustaría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Dónde ______ (ser/estar) la reunión esta tarde, en la oficina o en casa?",
+        "choices": ["es"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pablo y Ana ______ (hablar) español todos los días para practicar.",
+        "choices": ["hablan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Tengo un libro.", "rightId": 1 },
+            "right": { "word": "She is kind.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Ella es amable.", "rightId": 2 },
+            "right": { "word": "I am going to study tomorrow.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Nos gusta el café.", "rightId": 3 },
+            "right": { "word": "I have a book.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "¿Dónde está la tienda?", "rightId": 4 },
+            "right": { "word": "We like coffee.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Voy a estudiar mañana.", "rightId": 5 },
+            "right": { "word": "Where is the store?", "rightId": 4 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Los gatos están durmiendo.", "rightId": 1 },
+            "right": { "word": "He is taller than me.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Es más alto que yo.", "rightId": 2 },
+            "right": { "word": "I prefer the blue one.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Abrí la ventana.", "rightId": 3 },
+            "right": { "word": "The cats are sleeping.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Estamos en el parque.", "rightId": 4 },
+            "right": { "word": "I opened the window.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Prefiero el azul.", "rightId": 5 },
+            "right": { "word": "We are at the park.", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '25',
+    name: 'Spanish Exercise - 6 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What does 'train' mean in Spanish?",
+        "choices": ["Tren", "Metro", "Autobús", "Avión"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'ticket' in Spanish?",
+        "choices": ["Billete", "Coche", "Estación", "Pasaporte"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct form of 'ir a' for 'they'?",
+        "choices": ["Voy a", "Vamos a", "Van a", "Vas a"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What word means 'subway' in Spanish?",
+        "choices": ["Tren", "Metro", "Barco", "Bicicleta"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What document do you need to travel internationally?",
+        "choices": ["Billete", "Pasaporte", "Estación", "Salida"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you say 'We are going to take the bus'?",
+        "choices": ["Vamos a tomar el autobús.", "Voy a tomar el avión.", "Vas a tomar el barco.", "Van a tomar el coche."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase describes 'They are going to rent a car'?",
+        "choices": ["Ellos van a alquilar un coche.", "Ellos van a conducir un barco.", "Ellos van a caminar.", "Ellos van a tomar el metro."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'aeropuerto' mean in English?",
+        "choices": ["Train Station", "Airport", "Subway", "Departure"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'barco' mean in English?",
+        "choices": ["Train", "Subway", "Boat", "Car"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the plural of 'bicicleta'?",
+        "choices": ["Bicicletas", "Bicicletes", "Bicicletos", "Bicicleto"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Yo voy a viajar en ______ (plane) para llegar más rápido.",
+        "choices": ["avión", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos van a tomar un ______ (ship) para explorar el río.",
+        "choices": ["barco", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros vamos a la ______ (season) para tomar el tren.",
+        "choices": ["estación", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Tú vas a comprar un ______ (ticket) de ida o ida y vuelta?",
+        "choices": ["billete", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis amigos van a llegar en ______ (bus) desde otra ciudad.",
+        "choices": ["autobús", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella va a alquilar un ______ (car) para su viaje.",
+        "choices": ["coche", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros vamos a tomar el ______ (metro) para llegar al trabajo.",
+        "choices": ["metro", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos van a viajar en ______ (bicycle) porque es más ecológico.",
+        "choices": ["bicicleta", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Tú vas a necesitar un ______ (passport) para viajar a otro país?",
+        "choices": ["pasaporte", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vamos a esperar la ______ (exit) antes de abordar el avión.",
+        "choices": ["salida", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Avión", "rightId": 1 },
+            "right": { "word": "Metro", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Autobús", "rightId": 2 },
+            "right": { "word": "Train Station", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Estación de tren", "rightId": 3 },
+            "right": { "word": "Plane", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Pasaporte", "rightId": 4 },
+            "right": { "word": "Bus", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Metro", "rightId": 5 },
+            "right": { "word": "Passport", "rightId": 4 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Billete.", "rightId": 1 },
+            "right": { "word": "Airport", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Bicicleta", "rightId": 2 },
+            "right": { "word": "Departure", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Aeropuerto", "rightId": 3 },
+            "right": { "word": "Ticket", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Barco", "rightId": 4 },
+            "right": { "word": "Bicycle", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Salida", "rightId": 5 },
+            "right": { "word": "Boat", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '26',
+    name: 'Spanish Exercise - 7 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What word means 'shoes' in Spanish?",
+        "choices": ["Zapatillas", "Zapatos", "Botas", "Sombreros"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'shirt' in Spanish?",
+        "choices": ["Falda", "Camiseta", "Camisa", "Vestido"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the plural form of 'abrigo' (coat)?",
+        "choices": ["Abrigos", "Abrigas", "Abrigues", "Abrigados"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What phrase would you use to ask for the price?",
+        "choices": ["¿Cómo se llama esto?", "¿Dónde está la tienda?", "¿Cuánto cuesta esto?", "¿Qué hora es?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'pantalones cortos' mean?",
+        "choices": ["Shorts", "Jeans", "Pants", "Coats"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the plural of 'camisa' (shirt)?",
+        "choices": ["Camisas", "Camises", "Camisaos", "Camisos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How would you say 'I want to try this dress on'?",
+        "choices": ["Quiero comprar este vestido.", "Quiero probarme este vestido.", "Quiero llevar este vestido.", "Quiero devolver este vestido."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase means 'The shoes are expensive'?",
+        "choices": ["Las zapatillas son baratas.", "Los zapatos son caros.", "Los zapatos son grandes.", "Las botas son caras."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct adjective to describe 'las camisas rojas' (the red shirts)?",
+        "choices": ["Roja", "Rojo", "Rojos", "Rojas"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What clothing do you wear in the winter?",
+        "choices": ["Traje de baño", "Sombrero", "Abrigo", "Sandalias"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Yo necesito comprar un ______ (coat) nuevo para el invierno.",
+        "choices": ["abrigo", "falda", "pantalones cortos", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella lleva una ______ (skirt) roja con zapatos negros.",
+        "choices": ["falda", "abrigo", "pantalones cortos", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros vamos a comprar unos ______ (shorts) para el verano.",
+        "choices": ["pantalones cortos", "falda", "abrigo", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Tienes unas ______ (sneakers) deportivas para correr?",
+        "choices": ["zapatillas", "falda", "pantalones cortos", "sombreros"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los ______ (hats) están de oferta en esta tienda.",
+        "choices": ["sombreros", "falda", "pantalones cortos", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Él busca una ______ (shirt) azul para la oficina.",
+        "choices": ["camisa", "falda", "pantalones cortos", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis padres siempre compran ______ (suits) tradicionales para las bodas.",
+        "choices": ["trajes", "falda", "pantalones cortos", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En el mercado, venden muchas ______ (t-shirts) de algodón.",
+        "choices": ["camisetas", "falda", "pantalones cortos", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Voy a probarme este par de ______ (boots) de cuero.",
+        "choices": ["botas", "falda", "pantalones cortos", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Dónde está el probador para estas ______ (blouses)?",
+        "choices": ["blusas", "falda", "pantalones cortos", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Camiseta", "rightId": 1 },
+            "right": { "word": "Pants", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Zapatos", "rightId": 2 },
+            "right": { "word": "Hat", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Sombrero", "rightId": 3 },
+            "right": { "word": "T-shirt", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Vestido", "rightId": 4 },
+            "right": { "word": "Shoes", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Pantalones", "rightId": 5 },
+            "right": { "word": "Dress", "rightId": 4 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Zapatillas", "rightId": 1 },
+            "right": { "word": "Blouse", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Falda", "rightId": 2 },
+            "right": { "word": "Shirt", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Blusa", "rightId": 3 },
+            "right": { "word": "Sneakers", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Chaqueta", "rightId": 4 },
+            "right": { "word": "Skirt", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Camisa", "rightId": 5 },
+            "right": { "word": "Jacket", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '27',
+    name: 'Spanish Exercise - 8 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "What does 'teatro' mean?",
+        "choices": ["Dance", "Theatre", "Painting", "Sculpture"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which one is an indirect object pronoun?",
+        "choices": ["Yo", "Tú", "Me", "Él"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which word describes a place where art is kept?",
+        "choices": ["Feria", "Museo", "Concierto", "Canción"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these words is related to music?",
+        "choices": ["Pintura", "Canción", "Escultura", "Exposición"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Les compré flores a mis padres.' mean?",
+        "choices": ["I bought flowers for my parents.", "My parents bought flowers for me.", "I sold flowers to my parents.", "My parents bought flowers for themselves."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which cultural activity involves 'flamenco'?",
+        "choices": ["Escultura", "Música y danza", "Pintura", "Teatro"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which pronoun would you use for 'a nosotros'?",
+        "choices": ["Me", "Te", "Nos", "Les"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Where can you see an 'exposición'?",
+        "choices": ["En un teatro", "En un museo", "En un concierto", "En una feria"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'les mostramos las fotos' mean?",
+        "choices": ["We show them the photos.", "They show us the photos.", "You show me the photos.", "I show you the photos."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which word is related to a festival or celebration?",
+        "choices": ["Tradición", "Canción", "Escultura", "Exposición"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Fui al ______ (museum) para ver esculturas antiguas.",
+        "choices": ["museo", "feria", "teatro", "concierto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿ ______ (You) diste las entradas para el concierto a Juan?",
+        "choices": ["Le", "Te", "Nos", "Les"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nos encanta escuchar la ______ (music) tradicional de España.",
+        "choices": ["música", "escultura", "danza", "pintura"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ayer asistí a un ______ (show) de flamenco.",
+        "choices": ["espectáculo", "concierto", "teatro", "museo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Le ______ (dar) tu opinión sobre la exposición?",
+        "choices": ["diste", "dio", "dieron", "daba"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi madre siempre me ______ (comprar) un regalo para mi cumpleaños.",
+        "choices": ["compra", "compró", "comprar", "compraban"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hay un ______ (exposure) de arte moderno en la galería esta semana.",
+        "choices": ["exposición", "teatro", "danza", "feria"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Te ______ (prestar) mi guitarra para practicar.",
+        "choices": ["presto", "presté", "prestar", "prestan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermana, quien ama el teatro, ______ (ir) al festival anual.",
+        "choices": ["fue", "fue", "iba", "iría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los niños les ______ (pedir) a sus padres permiso para ir al museo.",
+        "choices": ["pidieron", "pedían", "pedirán", "pedido"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Museo", "rightId": 1 },
+            "right": { "word": "Painting", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Pintura", "rightId": 2 },
+            "right": { "word": "Fair", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Canción", "rightId": 3 },
+            "right": { "word": "Museum", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Feria", "rightId": 4 },
+            "right": { "word": "Dance", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Danza", "rightId": 5 },
+            "right": { "word": "Song", "rightId": 3 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Teatro", "rightId": 1 },
+            "right": { "word": "Concert", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Tradición", "rightId": 2 },
+            "right": { "word": "Exhibition", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Concierto", "rightId": 3 },
+            "right": { "word": "Theatre", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Escultura", "rightId": 4 },
+            "right": { "word": "Tradition", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Exposición", "rightId": 5 },
+            "right": { "word": "Sculpture", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
 ];
