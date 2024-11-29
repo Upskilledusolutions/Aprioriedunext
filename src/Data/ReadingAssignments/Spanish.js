@@ -91,6 +91,27 @@ export const data = [
         desc:'Spanish Reading Assignments 13 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
     },
     {
+        id:'14',
+        name:'Spanish Reading Assignment 14 (A1)',
+        level:'Beginners',
+        pdf:'https://drive.google.com/file/d/1yi-bTSRwnz37mx1EL1BcZPblGyWIXJ9Q/preview',
+        desc:'Spanish Reading Assignments 14 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    },
+    {
+        id:'15',
+        name:'Spanish Reading Assignment 15 (A1)',
+        level:'Beginners',
+        pdf:'https://drive.google.com/file/d/1nVRHnHqTqGStbO_eXoKby3PnrldAFCCG/preview',
+        desc:'Spanish Reading Assignments 15 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    },
+    {
+        id:'16',
+        name:'Spanish Reading Assignment 16 (A1)',
+        level:'Beginners',
+        pdf:'https://drive.google.com/file/d/1eqSLlPg6W6Bjy0-m0ThaaQKV3DqxZrLJ/preview',
+        desc:'Spanish Reading Assignments 16 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    },
+    {
         id:'22',
         name:'Spanish Reading Assignment 3 (A2)',
         level:'Beginners',

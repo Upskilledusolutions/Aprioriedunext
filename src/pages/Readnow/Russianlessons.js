@@ -9,7 +9,7 @@ import { FaLock } from 'react-icons/fa';
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
-  const unlockedPages = useSelector((state) => state.unlockedLessons.unlockedLessonsFrench);
+  const unlockedPages = useSelector((state) => state.unlockedLessons.unlockedLessonsRussian);
   const [isClient, setIsClient] = useState(false);
 
   console.log(user)

@@ -9,7 +9,7 @@ import { useSelector } from 'react-redux'; // To access authentication status fr
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
-  const unlockedPages = useSelector((state) => state.unlockedPages.unlockedPagesFrench);
+  const unlockedPages = useSelector((state) => state.unlockedPages.unlockedPagesKorean);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {

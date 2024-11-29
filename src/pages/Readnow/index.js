@@ -63,6 +63,24 @@ export default function Index() {
       text: 'Dive into the vibrant world of Russian-speaking countries with this course.',
       link: '/Readnow/Russianlessons',
     },
+    {
+      type: 'japanese',
+      heading: 'Japanese Beginner (A1-A2)',
+      text: 'Dive into the vibrant world of Japanese-speaking countries with this course.',
+      link: '/Readnow/Japaneselessons',
+    },
+    {
+      type: 'korean',
+      heading: 'Korean Beginner (A1-A2)',
+      text: 'Dive into the vibrant world of Korean-speaking countries with this course.',
+      link: '/Readnow/Koreanlessons',
+    },
+    {
+      type: 'danish',
+      heading: 'Danish Beginner (A1-A2)',
+      text: 'Dive into the vibrant world of Danish-speaking countries with this course.',
+      link: '/Readnow/Danishlessons',
+    },
     // {
     //   type: 'frencha2',
     //   heading: 'French Beginner (A2)',
