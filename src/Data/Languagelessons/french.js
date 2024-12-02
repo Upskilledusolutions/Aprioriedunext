@@ -59,6 +59,7 @@ export const data = [{
     name:'French Lesson 8 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1psEJF80tntZhg3Uw8Gda2T_quHH9I21O/preview',
+    video:'https://www.youtube.com/embed/VolL7G588Sw?si=PoaM7oql7xTRAMmN',
     desc:'French Foundation Lesson 8 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
@@ -66,6 +67,7 @@ export const data = [{
     name:'French Lesson 9 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1Tx4i8Ma-pep8o_RAq3bR_WOGLffZdNLG/preview',
+    video:'https://www.youtube.com/embed/43_LG4WMoaE?si=-UQGH_0D3AgQgv1T',
     desc:'French Foundation Lesson 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
