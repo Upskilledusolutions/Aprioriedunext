@@ -67,6 +67,7 @@ export const data = [{
     name:'Spanish Lesson 9 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1H4fGCPaxt7QaT-X80nzF3Od9hrq645Hm/preview',
+    video:'https://www.youtube.com/embed/4SgNSBpSDa4?si=MOIqYz_wkvYC2yTw',
     desc:'Spanish Foundation Lesson 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
