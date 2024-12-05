@@ -201,7 +201,7 @@ export const quiz = [
                 correctAnswer: 1
               },
               {
-                question: "Bella: Au revoir, ______ Monsieur. (Goodbye, Sir.)",
+                question: "Bella: ______, Monsieur. (Goodbye, Sir.)",
                 choices: ["Au revoir", "faites", "lisez", "mangez"],
                 type: 'FillInTheBlanks',
                 correctAnswer: 1
