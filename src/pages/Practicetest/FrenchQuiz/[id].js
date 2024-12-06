@@ -42,7 +42,7 @@ const Quiz = () => {
   };
 
   const onClickNext = () => {
-    setTime(15);
+    setTime(25);
     setSelectedAnswerIndex(null);
     setIsSubmitted(false); // Reset isSubmitted
     setResult((prev) =>
@@ -106,7 +106,7 @@ const allQuestions = [...mcqs, ...fillInTheBlanks, ...jumbledWords, ...MatchTheF
     setSelectedAnswer("");
     setSelectedAnswerIndex(null);
     setSelectedOption(null);
-    setTime(15);
+    setTime(25);
     setStart(true);
     setResult({ correctAnswers: 0, wrong: 0 });
   }, [id]); // Only run when `id` changes
