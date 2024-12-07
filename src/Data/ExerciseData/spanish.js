@@ -275,6 +275,14 @@ export const quiz = [
             "left": { "word": "¿Qué hora es?", "rightId": 5 },
             "right": { "word": "Thank you very much", "rightId": 4 }
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Buenas noches", "rightId": 6 },
             "right": { "word": "I'm sorry", "rightId": 8 }
@@ -672,49 +680,56 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
+      
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
         "pairs": [
           {
             "left": { "word": "CATORCE", "rightId": 1 },
-            "right": { "word": "SEVENTEEN", "rightId": 10 }
+            "right": { "word": "EIGHTEEN", "rightId": 5}
           },
           {
             "left": { "word": "OCHO", "rightId": 2 },
-            "right": { "word": "SIXTEEN", "rightId": 9 }
-          },
-          {
-            "left": { "word": "DIEZ", "rightId": 3 },
-            "right": { "word": "FOURTEEN", "rightId": 8 }
-          },
-          {
-            "left": { "word": "CINCO", "rightId": 4 },
-            "right": { "word": "SIX", "rightId": 7 }
-          },
-          {
-            "left": { "word": "DIECIOCHO", "rightId": 5 },
-            "right": { "word": "ONE", "rightId": 6 }
-          },
-          {
-            "left": { "word": "UN", "rightId": 6 },
-            "right": { "word": "EIGHTEEN", "rightId": 5 }
-          },
-          {
-            "left": { "word": "SEIS", "rightId": 7 },
             "right": { "word": "FIVE", "rightId": 4 }
           },
           {
-            "left": { "word": "CATORCE", "rightId": 8 },
+            "left": { "word": "DIEZ", "rightId": 3 },
+            "right": { "word": "FOURTEEN", "rightId": 1 }
+          },
+          {
+            "left": { "word": "CINCO", "rightId": 4 },
             "right": { "word": "TEN", "rightId": 3 }
           },
           {
-            "left": { "word": "DIECISÉIS", "rightId": 9 },
+            "left": { "word": "DIECIOCHO", "rightId": 5 },
             "right": { "word": "EIGHT", "rightId": 2 }
+          }
+                ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "UN", "rightId": 6 },
+            "right": { "word": "SEVENTEEN", "rightId": 10 }
+          },
+          {
+            "left": { "word": "SEIS", "rightId": 7 },
+            "right": { "word": "SIXTEEN", "rightId": 9 }
+          },
+          {
+            "left": { "word": "CATORCE", "rightId": 8 },
+            "right": { "word": "SIX", "rightId": 7 }
+          },
+          {
+            "left": { "word": "DIECISÉIS", "rightId": 9 },
+            "right": { "word": "FOURTEEN", "rightId": 8 }
           },
           {
             "left": { "word": "DIECISIETE", "rightId": 10 },
-            "right": { "word": "FOURTEEN", "rightId": 1 }
+            "right": { "word": "ONE", "rightId": 6 }
           }
         ]
       },
@@ -725,7 +740,7 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "El perro", "rightId": 1 },
-            "right": { "word": "The table", "rightId": 6 }
+            "right": { "word": "The cats", "rightId": 5 }
           },
           {
             "left": { "word": "Una manzana", "rightId": 2 },
@@ -733,7 +748,7 @@ export const quiz = [
           },
           {
             "left": { "word": "Las casas", "rightId": 3 },
-            "right": { "word": "The garden", "rightId": 8 }
+            "right": { "word": "the dog", "rightId": 1 }
           },
           {
             "left": { "word": "Un libro", "rightId": 4 },
@@ -741,11 +756,19 @@ export const quiz = [
           },
           {
             "left": { "word": "Los gatos", "rightId": 5 },
-            "right": { "word": "The window", "rightId": 10 }
-          },
+            "right": { "word": "The houses", "rightId": 3 }
+          }
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "La mesa", "rightId": 6 },
-            "right": { "word": "The cats", "rightId": 5 }
+            "right": { "word": "The garden", "rightId": 8 }
           },
           {
             "left": { "word": "Una silla", "rightId": 7 },
@@ -753,7 +776,7 @@ export const quiz = [
           },
           {
             "left": { "word": "El jardín", "rightId": 8 },
-            "right": { "word": "The houses", "rightId": 3 }
+            "right": { "word": "The window", "rightId": 10 }
           },
           {
             "left": { "word": "Las ventanas", "rightId": 9 },
@@ -761,11 +784,10 @@ export const quiz = [
           },
           {
             "left": { "word": "La ventana", "rightId": 10 },
-            "right": { "word": "the dog", "rightId": 1 }
+            "right": { "word": "The table", "rightId": 6 }
           }
         ]
       }
-      
     ]
   },
   {
@@ -1158,12 +1180,20 @@ export const quiz = [
           },
           {
             "left": { "word": "Cincuenta", "rightId": 4 },
-            "right": { "word": "Green", "rightId": 3 }
+            "right": { "word": "Cat", "rightId": 5 }
           },
           {
             "left": { "word": "Gato", "rightId": 5 },
-            "right": { "word": "Yes", "rightId": 8 }
+            "right": { "word": "Green", "rightId": 3}
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "¿Qué tal?", "rightId": 6 },
             "right": { "word": "No", "rightId": 9 }
@@ -1182,25 +1212,26 @@ export const quiz = [
           },
           {
             "left": { "word": "Salud", "rightId": 10 },
-            "right": { "word": "Cat", "rightId": 5 }
+            "right": { "word": "Yes", "rightId": 8 }
           }
         ]
       },
+
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
         "pairs": [
           {
             "left": { "word": "Mi casa", "rightId": 1 },
-            "right": { "word": "His/Her/Their ideas", "rightId": 8 }
+            "right": { "word": "Our dog", "rightId": 4 }
           },
           {
             "left": { "word": "Tu libro", "rightId": 2 },
-            "right": { "word": "Your chairs (plural)", "rightId": 10 }
+            "right": { "word": "My house", "rightId": 1 }
           },
           {
             "left": { "word": "Su coche", "rightId": 3 },
-            "right": { "word": "My shoes", "rightId": 6 }
+            "right": { "word": "Your friend (plural)", "rightId": 5 }
           },
           {
             "left": { "word": "Nuestro perro", "rightId": 4 },
@@ -1210,29 +1241,36 @@ export const quiz = [
             "left": { "word": "Vuestro amigo", "rightId": 5 },
             "right": { "word": "Your book", "rightId": 2 }
           },
+         
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Mis zapatos", "rightId": 6 },
             "right": { "word": "Our friends (feminine)", "rightId": 9 }
           },
           {
             "left": { "word": "Tus flores", "rightId": 7 },
-            "right": { "word": "Our dog", "rightId": 4 }
+            "right": { "word": "His/Her/Their ideas", "rightId": 8 }
           },
           {
             "left": { "word": "Sus ideas", "rightId": 8 },
-            "right": { "word": "My house", "rightId": 1 }
+            "right": { "word": "My shoes", "rightId": 6 }
           },
           {
             "left": { "word": "Nuestras amigas", "rightId": 9 },
-            "right": { "word": "Your flowers", "rightId": 7 }
+            "right": { "word": "Your chairs (plural)", "rightId": 10 }
           },
           {
             "left": { "word": "Vuestras sillas", "rightId": 10 },
-            "right": { "word": "Your friend (plural)", "rightId": 5 }
-          }
+            "right": { "word": "Your flowers", "rightId": 7 }
+          },
         ]
-      }
-      
+      },
     ]
   },
   {
@@ -1501,23 +1539,32 @@ export const quiz = [
           },
           {
             "left": { "word": "Ellos", "rightId": 3 },
-            "right": { "word": "Father", "rightId": 6 }
+            "right": { "word": "Mother", "rightId": 1 }
           },
           {
             "left": { "word": "Tú", "rightId": 4 },
-            "right": { "word": "She", "rightId": 9 }
+            "right": { "word": "They (masculine)", "rightId": 3 }
           },
           {
             "left": { "word": "Hermana", "rightId": 5 },
             "right": { "word": "We (masculine)", "rightId": 2 }
           },
+          
+        ]
+      },
+      
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Padre", "rightId": 6 },
             "right": { "word": "You (informal)", "rightId": 8 }
           },
           {
             "left": { "word": "Él", "rightId": 7 },
-            "right": { "word": "They (masculine)", "rightId": 3 }
+            "right": { "word": "Father", "rightId": 6 }
           },
           {
             "left": { "word": "Ustedes", "rightId": 8 },
@@ -1525,15 +1572,14 @@ export const quiz = [
           },
           {
             "left": { "word": "Ella", "rightId": 9 },
-            "right": { "word": "Mother", "rightId": 1 }
+            "right": { "word": "You all (informal)", "rightId": 10 }
           },
           {
             "left": { "word": "Vosotros", "rightId": 10 },
-            "right": { "word": "You all (informal)", "rightId": 10 }
-          }
+            "right": { "word": "She", "rightId": 9 }
+          },
         ]
-      }
-      
+      },
     ]
   },
   {
@@ -1918,11 +1964,11 @@ export const quiz = [
           },
           {
             "left": { "word": "Nosotros", "rightId": 2 },
-            "right": { "word": "She", "rightId": 9 }
+            "right": { "word": "You (informal)", "rightId": 4 }
           },
           {
             "left": { "word": "Ellas", "rightId": 3 },
-            "right": { "word": "Forty", "rightId": 6 }
+            "right": { "word": "He", "rightId": 1 }
           },
           {
             "left": { "word": "Tú", "rightId": 4 },
@@ -1930,19 +1976,26 @@ export const quiz = [
           },
           {
             "left": { "word": "Ustedes", "rightId": 5 },
-            "right": { "word": "Twenty-five", "rightId": 7 }
+            "right": { "word": "Us", "rightId": 2 }
           },
+          ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Cuarenta", "rightId": 6 },
-            "right": { "word": "He", "rightId": 1 }
+            "right": { "word": "She", "rightId": 9 }
           },
           {
             "left": { "word": "Veinticinco", "rightId": 7 },
-            "right": { "word": "You (informal)", "rightId": 4 }
+            "right": { "word": "Forty", "rightId": 6 }
           },
           {
             "left": { "word": "Them", "rightId": 8 },
-            "right": { "word": "Us", "rightId": 2 }
+            "right": { "word": "Forty-two", "rightId": 10 }
           },
           {
             "left": { "word": "Ella", "rightId": 9 },
@@ -1950,7 +2003,7 @@ export const quiz = [
           },
           {
             "left": { "word": "Cuarenta y dos", "rightId": 10 },
-            "right": { "word": "Forty-two", "rightId": 10 }
+            "right": { "word": "Twenty-five", "rightId": 7 }
           }
         ]
       },
@@ -1960,7 +2013,7 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Pan", "rightId": 1 },
-            "right": { "word": "Breakfast", "rightId": 7 }
+            "right": { "word": "Water", "rightId": 2 }
           },
           {
             "left": { "word": "Agua", "rightId": 2 },
@@ -1968,19 +2021,27 @@ export const quiz = [
           },
           {
             "left": { "word": "Comida", "rightId": 3 },
-            "right": { "word": "Rice", "rightId": 6 }
+            "right": { "word": "Bread", "rightId": 1 }
           },
           {
             "left": { "word": "Té", "rightId": 4 },
-            "right": { "word": "Food", "rightId": 3 }
+            "right": { "word": "Wine", "rightId": 5 }
           },
           {
             "left": { "word": "Vino", "rightId": 5 },
-            "right": { "word": "Meat", "rightId": 8 }
+            "right": { "word": "Food", "rightId": 3 }
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+         
           {
             "left": { "word": "Arroz", "rightId": 6 },
-            "right": { "word": "Bread", "rightId": 1 }
+            "right": { "word": "Meat", "rightId": 8 }
           },
           {
             "left": { "word": "Desayuno", "rightId": 7 },
@@ -1988,19 +2049,18 @@ export const quiz = [
           },
           {
             "left": { "word": "Carne", "rightId": 8 },
-            "right": { "word": "Water", "rightId": 2 }
+            "right": { "word": "Breakfast", "rightId": 7 }
           },
           {
             "left": { "word": "Fruta", "rightId": 9 },
-            "right": { "word": "Wine", "rightId": 5 }
+            "right": { "word": "Dinner", "rightId": 10 }
           },
           {
             "left": { "word": "Cena", "rightId": 10 },
-            "right": { "word": "Dinner", "rightId": 10 }
+            "right": { "word": "Rice", "rightId": 6 }
           }
         ]
       }
-      
     ]
   },
   {
@@ -2381,7 +2441,7 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Perro", "rightId": 1 },
-            "right": { "word": "Chair", "rightId": 10 }
+            "right": { "word": "Window", "rightId": 5 }
           },
           {
             "left": { "word": "Hermana", "rightId": 2 },
@@ -2393,12 +2453,19 @@ export const quiz = [
           },
           {
             "left": { "word": "Libro", "rightId": 4 },
-            "right": { "word": "Friend", "rightId": 7 }
+            "right": { "word": "House", "rightId": 3 }
           },
           {
             "left": { "word": "Ventana", "rightId": 5 },
             "right": { "word": "Book", "rightId": 4 }
           },
+           ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Familia", "rightId": 6 },
             "right": { "word": "Table", "rightId": 8 }
@@ -2409,11 +2476,11 @@ export const quiz = [
           },
           {
             "left": { "word": "Mesa", "rightId": 8 },
-            "right": { "word": "House", "rightId": 3 }
+            "right": { "word": "Chair", "rightId": 10 }
           },
           {
             "left": { "word": "Escuela", "rightId": 9 },
-            "right": { "word": "Window", "rightId": 5 }
+            "right": { "word": "Friend", "rightId": 7 }
           },
           {
             "left": { "word": "Silla", "rightId": 10 },
@@ -2427,11 +2494,11 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Cama", "rightId": 1 },
-            "right": { "word": "Aisle", "rightId": 8 }
+            "right": { "word": "Kitchen", "rightId": 3 }
           },
           {
             "left": { "word": "Escritorio", "rightId": 2 },
-            "right": { "word": "Rack", "rightId": 9 }
+            "right": { "word": "Bed", "rightId": 1 }
           },
           {
             "left": { "word": "Cocina", "rightId": 3 },
@@ -2445,17 +2512,25 @@ export const quiz = [
             "left": { "word": "Jardín", "rightId": 5 },
             "right": { "word": "Desk", "rightId": 2 }
           },
+
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Baño", "rightId": 6 },
             "right": { "word": "Hall", "rightId": 10 }
           },
           {
             "left": { "word": "Mesa", "rightId": 7 },
-            "right": { "word": "Bed", "rightId": 1 }
+            "right": { "word": "Aisle", "rightId": 8  }
           },
           {
             "left": { "word": "Pasillo", "rightId": 8 },
-            "right": { "word": "Kitchen", "rightId": 3 }
+            "right": { "word": "Rack", "rightId": 9 }
           },
           {
             "left": { "word": "Estantería", "rightId": 9 },
@@ -2467,7 +2542,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
@@ -2848,7 +2922,7 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Italiano", "rightId": 1 },
-            "right": { "word": "Italian", "rightId": 9 }
+            "right": { "word": "Spanish", "rightId": 5 }
           },
           {
             "left": { "word": "Profesia", "rightId": 2 },
@@ -2856,7 +2930,7 @@ export const quiz = [
           },
           {
             "left": { "word": "Mexicano", "rightId": 3 },
-            "right": { "word": "Happy", "rightId": 8 }
+            "right": { "word": "Italian", "rightId": 1 }
           },
           {
             "left": { "word": "Abogado", "rightId": 4 },
@@ -2864,11 +2938,18 @@ export const quiz = [
           },
           {
             "left": { "word": "Española", "rightId": 5 },
-            "right": { "word": "Doctor", "rightId": 7 }
+            "right": { "word": "Teacher", "rightId": 2 }
           },
+          ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+         
           {
             "left": { "word": "Inglés", "rightId": 6 },
-            "right": { "word": "Teacher", "rightId": 2 }
+            "right": { "word": "Italian", "rightId": 9 }
           },
           {
             "left": { "word": "Médico", "rightId": 7 },
@@ -2876,15 +2957,15 @@ export const quiz = [
           },
           {
             "left": { "word": "Feliz", "rightId": 8 },
-            "right": { "word": "Mexican", "rightId": 1 }
+            "right": { "word": "Doctor", "rightId": 7 }
           },
           {
             "left": { "word": "Italiano", "rightId": 9 },
-            "right": { "word": "English", "rightId": 6 }
+            "right": { "word": "Happy", "rightId": 8 }
           },
           {
             "left": { "word": "Francés", "rightId": 10 },
-            "right": { "word": "Spanish", "rightId": 5 }
+            "right": { "word": "English", "rightId": 6 }
           }
         ]
       },
@@ -2894,11 +2975,11 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Hace sol", "rightId": 1 },
-            "right": { "word": "Summer", "rightId": 7 }
+            "right": { "word": "It's hot", "rightId": 2 }
           },
           {
             "left": { "word": "Hace calor", "rightId": 2 },
-            "right": { "word": "Rainy", "rightId": 10 }
+            "right": { "word": "It's cold", "rightId": 4 }
           },
           {
             "left": { "word": "Está nevando", "rightId": 3 },
@@ -2910,19 +2991,27 @@ export const quiz = [
           },
           {
             "left": { "word": "Está nublado", "rightId": 5 },
-            "right": { "word": "Winter", "rightId": 9 }
+            "right": { "word": "It's sunny", "rightId": 1 }
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+         
           {
             "left": { "word": "Primavera", "rightId": 6 },
-            "right": { "word": "It's hot", "rightId": 2 }
+            "right": { "word": "Summer", "rightId": 7 }
           },
           {
             "left": { "word": "Verano", "rightId": 7 },
-            "right": { "word": "It's cold", "rightId": 4 }
+            "right": { "word": "Rainy", "rightId": 10 }
           },
           {
             "left": { "word": "Otoño", "rightId": 8 },
-            "right": { "word": "It's sunny", "rightId": 1 }
+            "right": { "word": "Winter", "rightId": 9 }
           },
           {
             "left": { "word": "Invierno", "rightId": 9 },
@@ -2934,7 +3023,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
@@ -3314,7 +3402,7 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "La pizarra", "rightId": 1 },
-            "right": { "word": "Good morning", "rightId": 9 }
+            "right": { "word": "Book", "rightId": 2 }
           },
           {
             "left": { "word": "El lápiz", "rightId": 2 },
@@ -3322,7 +3410,7 @@ export const quiz = [
           },
           {
             "left": { "word": "La silla", "rightId": 3 },
-            "right": { "word": "Please", "rightId": 8 }
+            "right": { "word": "Table", "rightId": 5 }
           },
           {
             "left": { "word": "La tarea", "rightId": 4 },
@@ -3330,11 +3418,18 @@ export const quiz = [
           },
           {
             "left": { "word": "La mesa", "rightId": 5 },
-            "right": { "word": "Thank you", "rightId": 7 }
+            "right": { "word": "Folder", "rightId": 1 }
           },
+          ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "El escritorio", "rightId": 6 },
-            "right": { "word": "Book", "rightId": 2 }
+            "right": { "word": "Thank you", "rightId": 7 }
           },
           {
             "left": { "word": "Gracias", "rightId": 7 },
@@ -3342,7 +3437,7 @@ export const quiz = [
           },
           {
             "left": { "word": "Por favor", "rightId": 8 },
-            "right": { "word": "Folder", "rightId": 1 }
+            "right": { "word": "Good morning", "rightId": 9 }
           },
           {
             "left": { "word": "Buenos días", "rightId": 9 },
@@ -3350,7 +3445,7 @@ export const quiz = [
           },
           {
             "left": { "word": "Disculpa", "rightId": 10 },
-            "right": { "word": "Table", "rightId": 5 }
+            "right": { "word": "Please", "rightId": 8 }
           }
         ]
       },
@@ -3364,7 +3459,7 @@ export const quiz = [
           },
           {
             "left": { "word": "Bailar", "rightId": 2 },
-            "right": { "word": "To watch movies", "rightId": 7 }
+            "right": { "word": "To play soccer", "rightId": 5 }
           },
           {
             "left": { "word": "Escuchar música", "rightId": 3 },
@@ -3378,6 +3473,14 @@ export const quiz = [
             "left": { "word": "Jugar al fútbol", "rightId": 5 },
             "right": { "word": "To run", "rightId": 4 }
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+         
           {
             "left": { "word": "Ir de compras", "rightId": 6 },
             "right": { "word": "To play the guitar", "rightId": 9 }
@@ -3396,11 +3499,10 @@ export const quiz = [
           },
           {
             "left": { "word": "Nadar", "rightId": 10 },
-            "right": { "word": "To play soccer", "rightId": 5 }
+            "right": { "word": "To watch movies", "rightId": 7 }
           }
         ]
       }
-      
     ]
   },
   {
@@ -3654,6 +3756,7 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
+
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -3668,7 +3771,7 @@ export const quiz = [
           },
           {
             "left": { "word": "Nací en abril", "rightId": 3 },
-            "right": { "word": "I am from Spain", "rightId": 7 }
+            "right": { "word": "To turn (age)", "rightId": 2 }
           },
           {
             "left": { "word": "Escuela", "rightId": 4 },
@@ -3676,15 +3779,22 @@ export const quiz = [
           },
           {
             "left": { "word": "Mi hermana", "rightId": 5 },
-            "right": { "word": "Forty", "rightId": 9 }
+            "right": { "word": "I was born in April", "rightId": 3 }
           },
+                  ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Escorpio", "rightId": 6 },
             "right": { "word": "To study", "rightId": 8 }
           },
           {
             "left": { "word": "Soy de España", "rightId": 7 },
-            "right": { "word": "To turn (age)", "rightId": 2 }
+            "right": { "word": "Forty", "rightId": 9 }
           },
           {
             "left": { "word": "Estudiar", "rightId": 8 },
@@ -3692,7 +3802,7 @@ export const quiz = [
           },
           {
             "left": { "word": "Cuarenta", "rightId": 9 },
-            "right": { "word": "I was born in April", "rightId": 3 }
+            "right": { "word": "I am from Spain", "rightId": 7 }
           },
           {
             "left": { "word": "Cien", "rightId": 10 },
@@ -3700,7 +3810,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
@@ -3840,39 +3949,48 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Ella habla lentamente.", "rightId": 1 },
-            "right": { "word": "We go together.", "rightId": 7 }
+            "right": { "word": "They live nearby.", "rightId": 2 }
           },
           {
             "left": { "word": "Ellos viven cerca.", "rightId": 2 },
-            "right": { "word": "I rarely read books.", "rightId": 8 }
+            "right": { "word": "You never eat here.", "rightId": 5 }
           },
           {
             "left": { "word": "Yo estudio frecuentemente.", "rightId": 3 },
-            "right": { "word": "She sings well.", "rightId": 9 }
+            "right": { "word": "They are coming today.", "rightId": 4 }
           },
           {
             "left": { "word": "Ellos vienen hoy.", "rightId": 4 },
-            "right": { "word": "He reads quietly.", "rightId": 10 }
+            "right": { "word": "I study frequently.", "rightId": 3 }
           },
           {
             "left": { "word": "Tú nunca comes aquí.", "rightId": 5 },
             "right": { "word": "She speaks slowly.", "rightId": 1 }
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
+         
           {
             "left": { "word": "Él llega siempre temprano.", "rightId": 6 },
-            "right": { "word": "They live nearby.", "rightId": 2 }
+            "right": { "word": "She sings well.", "rightId": 9  }
           },
           {
             "left": { "word": "Nosotros vamos juntos.", "rightId": 7 },
-            "right": { "word": "I study frequently.", "rightId": 3 }
+            "right": { "word": "I rarely read books.", "rightId": 8 }
           },
           {
             "left": { "word": "Él lee raramente libros.", "rightId": 8 },
-            "right": { "word": "They are coming today.", "rightId": 4 }
+            "right": { "word": "We go together.", "rightId": 7 }
           },
           {
             "left": { "word": "Ella canta bien.", "rightId": 9 },
-            "right": { "word": "You never eat here.", "rightId": 5 }
+            "right": { "word": "He reads quietly.", "rightId": 10 }
           },
           {
             "left": { "word": "Él lee en silencio.", "rightId": 10 },
@@ -3880,7 +3998,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
@@ -4020,7 +4137,7 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Me gusta la música.", "rightId": 1 },
-            "right": { "word": "You (informal) don’t like to study.", "rightId": 7 }
+            "right": { "word": "Juan likes to read books.", "rightId": 3  }
           },
           {
             "left": { "word": "No me gustan las verduras.", "rightId": 2 },
@@ -4032,12 +4149,20 @@ export const quiz = [
           },
           {
             "left": { "word": "Nos gusta nadar.", "rightId": 4 },
-            "right": { "word": "We love traveling.", "rightId": 10 }
+            "right": { "word": "I love coffee.", "rightId": 5 }
           },
           {
             "left": { "word": "Te gustan las películas.", "rightId": 5 },
-            "right": { "word": "She speaks slowly.", "rightId": 9 }
+            "right": { "word": "We like swimming.", "rightId": 4}
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+         
           {
             "left": { "word": "A ellos les gusta bailar.", "rightId": 6 },
             "right": { "word": "She doesn’t like chocolate.", "rightId": 8 }
@@ -4048,19 +4173,18 @@ export const quiz = [
           },
           {
             "left": { "word": "A María no le gusta el chocolate.", "rightId": 8 },
-            "right": { "word": "We like swimming.", "rightId": 4 }
+            "right": { "word": "You (informal) don’t like to study.", "rightId": 7}
           },
           {
             "left": { "word": "Me encanta el café.", "rightId": 9 },
-            "right": { "word": "I love coffee.", "rightId": 5 }
+            "right": { "word": "We love traveling.", "rightId": 10 }
           },
           {
             "left": { "word": "Él lee en silencio.", "rightId": 10 },
-            "right": { "word": "Juan likes to read books.", "rightId": 3 }
+            "right": { "word": "She speaks slowly.", "rightId": 9 }
           }
         ]
       }
-      
     ]
   },
   {
@@ -4250,7 +4374,7 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "¿Dónde está la estación de tren?", "rightId": 1 },
-            "right": { "word": "Take the first street on the left.", "rightId": 7 }
+            "right": { "word": "How do I get to the bank?", "rightId": 3 }
           },
           {
             "left": { "word": "Gira a la derecha.", "rightId": 2 },
@@ -4262,12 +4386,20 @@ export const quiz = [
           },
           {
             "left": { "word": "Siga todo recto.", "rightId": 4 },
-            "right": { "word": "The bank is in front of the church.", "rightId": 10 }
+            "right": { "word": "The library is next to the park.", "rightId": 5 }
           },
           {
             "left": { "word": "La biblioteca está al lado del parque.", "rightId": 5 },
-            "right": { "word": "Can you help me, please?", "rightId": 9 }
+            "right": { "word": "Go straight ahead.", "rightId": 4 }
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "El supermercado está a la izquierda.", "rightId": 6 },
             "right": { "word": "It is next to the park.", "rightId": 8 }
@@ -4278,19 +4410,18 @@ export const quiz = [
           },
           {
             "left": { "word": "Está al lado del café.", "rightId": 8 },
-            "right": { "word": "Go straight ahead.", "rightId": 4 }
+            "right": { "word": "Can you help me, please?", "rightId": 9  }
           },
           {
             "left": { "word": "¿Puede ayudarme, por favor?", "rightId": 9 },
-            "right": { "word": "The library is next to the park.", "rightId": 5 }
+            "right": { "word":  "The bank is in front of the church.", "rightId": 10 }
           },
           {
             "left": { "word": "El banco está enfrente de la iglesia.", "rightId": 10 },
-            "right": { "word": "How do I get to the bank?", "rightId": 3 }
+            "right": { "word": "Take the first street on the left.", "rightId": 7 }
           }
         ]
-      }
-      
+      } 
     ]
   },
   {
@@ -4424,6 +4555,7 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
+
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -4442,15 +4574,23 @@ export const quiz = [
           },
           {
             "left": { "word": "Me gustaría agendar una reunión.", "rightId": 4 },
-            "right": { "word": "Thanks for your message.", "rightId": 10 }
+            "right": { "word": "Sincerely,", "rightId": 5}
           },
           {
             "left": { "word": "Atentamente,", "rightId": 5 },
-            "right": { "word": "Would you like to grab a coffee this afternoon?", "rightId": 9 }
+            "right": { "word": "I would like to schedule a meeting.", "rightId": 4 }
           },
+          
+        ]
+      },
+       {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+         
           {
             "left": { "word": "Espero que este correo le encuentre bien.", "rightId": 6 },
-            "right": { "word": "I would like to schedule a meeting.", "rightId": 4 }
+            "right": { "word":  "Would you like to grab a coffee this afternoon?", "rightId": 9 }
           },
           {
             "left": { "word": "Estoy escribiendo para confirmar nuestra cita.", "rightId": 7 },
@@ -4462,7 +4602,7 @@ export const quiz = [
           },
           {
             "left": { "word": "¿Te gustaría tomar un café esta tarde?", "rightId": 9 },
-            "right": { "word": "Sincerely,", "rightId": 5 }
+            "right": { "word": "Thanks for your message.", "rightId": 10 }
           },
           {
             "left": { "word": "Gracias por tu mensaje.", "rightId": 10 },
@@ -4470,7 +4610,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
@@ -4622,15 +4761,22 @@ export const quiz = [
           },
           {
             "left": { "word": "Vi una película la semana pasada.", "rightId": 4 },
-            "right": { "word": "Last Friday, I met a new friend.", "rightId": 10 }
+            "right": { "word": "I did my homework yesterday.", "rightId": 5 }
           },
           {
             "left": { "word": "Terminé mi tarea ayer.", "rightId": 5 },
-            "right": { "word": "I slept very well last night.", "rightId": 9 }
+            "right": { "word": "Last week, I saw a movie.", "rightId": 4 }
           },
+                  ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "El fin de semana, visité a mis abuelos.", "rightId": 6 },
-            "right": { "word": "Last week, I saw a movie.", "rightId": 4 }
+            "right": { "word": "I slept very well last night.", "rightId": 9 }
           },
           {
             "left": { "word": "Hoy en la mañana, escribí una carta.", "rightId": 7 },
@@ -4638,15 +4784,15 @@ export const quiz = [
           },
           {
             "left": { "word": "Ayer compré una camisa nueva.", "rightId": 8 },
-            "right": { "word": "I bought a new shirt yesterday.", "rightId": 8 }
+            "right": { "word": "Today in the morning, I wrote a letter.", "rightId": 7 }
           },
           {
             "left": { "word": "Anoche dormí muy bien.", "rightId": 9 },
-            "right": { "word": "I did my homework yesterday.", "rightId": 5 }
+            "right": { "word": "Last Friday, I met a new friend.", "rightId": 10 }
           },
           {
             "left": { "word": "El viernes pasado, conocí a un amigo nuevo.", "rightId": 10 },
-            "right": { "word": "Today in the morning, I wrote a letter.", "rightId": 7 }
+            "right": { "word": "I bought a new shirt yesterday.", "rightId": 8 }
           }
         ]
       }
@@ -4790,7 +4936,7 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Mañana iré al cine.", "rightId": 1 },
-            "right": { "word": "I will buy a car soon.", "rightId": 7 }
+            "right": { "word": "I will eat pizza next week.", "rightId": 2 }
           },
           {
             "left": { "word": "El próximo sábado, visitaré a mis amigos.", "rightId": 2 },
@@ -4798,35 +4944,43 @@ export const quiz = [
           },
           {
             "left": { "word": "Este verano, viajaré a España.", "rightId": 3 },
-            "right": { "word": "I will work on my project on Monday.", "rightId": 6 }
+            "right": { "word": "I will go to the movies tomorrow.", "rightId": 1  }
           },
           {
             "left": { "word": "La semana que viene, estudiaré para mis exámenes.", "rightId": 4 },
-            "right": { "word": "I will do my homework next week.", "rightId": 10 }
+            "right": { "word": "I will travel to Spain this summer.", "rightId": 3 }
           },
           {
             "left": { "word": "Este fin de semana, jugaré fútbol.", "rightId": 5 },
-            "right": { "word": "I will celebrate my birthday in December.", "rightId": 9 }
+            "right": { "word": "I will study for my exams next month.", "rightId": 4 }
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "El lunes, trabajaré en mi proyecto.", "rightId": 6 },
             "right": { "word": "I will learn to cook next year.", "rightId": 8 }
           },
           {
             "left": { "word": "Pronto compraré un coche.", "rightId": 7 },
-            "right": { "word": "I will eat pizza next week.", "rightId": 2 }
+            "right": { "word": "I will work on my project on Monday.", "rightId": 6 }
           },
           {
             "left": { "word": "El año que viene, aprenderé a cocinar.", "rightId": 8 },
-            "right": { "word": "I will go to the movies tomorrow.", "rightId": 1 }
+            "right": { "word": "I will buy a car soon.", "rightId": 7 }
           },
           {
             "left": { "word": "En diciembre, celebraré mi cumpleaños.", "rightId": 9 },
-            "right": { "word": "I will study for my exams next month.", "rightId": 4 }
+            "right": { "word": "I will do my homework next week.", "rightId": 10  }
           },
           {
             "left": { "word": "La próxima semana, haré mis tareas.", "rightId": 10 },
-            "right": { "word": "I will travel to Spain this summer.", "rightId": 3 }
+            "right": { "word": "I will celebrate my birthday in December.", "rightId": 9 }
           }
         ]
       }
@@ -4988,6 +5142,14 @@ export const quiz = [
             "left": { "word": "Siesta", "rightId": 5 },
             "right": { "word": "Day of the Dead", "rightId": 2 }
           },
+         
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+         
           {
             "left": { "word": "Fiestas Patrias", "rightId": 6 },
             "right": { "word": "Small Plates", "rightId": 10 }
@@ -5010,7 +5172,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
@@ -5150,11 +5311,11 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "Buenos días", "rightId": 1 },
-            "right": { "word": "Quiero saber", "rightId": 7 }
+            "right": { "word": "Porfa", "rightId": 4}
           },
           {
             "left": { "word": "¿Cómo está usted?", "rightId": 2 },
-            "right": { "word": "¿Me ayudas?", "rightId": 8 }
+            "right": { "word": "Encantado/a", "rightId": 3 }
           },
           {
             "left": { "word": "Mucho gusto", "rightId": 3 },
@@ -5168,6 +5329,13 @@ export const quiz = [
             "left": { "word": "Disculpe", "rightId": 5 },
             "right": { "word": "¿Qué tal?", "rightId": 2 }
           },
+                  ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Le agradezco", "rightId": 6 },
             "right": { "word": "¿Cómo te llamas?", "rightId": 10 }
@@ -5178,11 +5346,11 @@ export const quiz = [
           },
           {
             "left": { "word": "¿Podría ayudarme?", "rightId": 8 },
-            "right": { "word": "Encantado/a", "rightId": 3 }
+            "right": { "word": "Quiero saber", "rightId": 7 }
           },
           {
             "left": { "word": "Es un placer", "rightId": 9 },
-            "right": { "word": "Porfa", "rightId": 4 }
+            "right": { "word": "¿Me ayudas?", "rightId": 8}
           },
           {
             "left": { "word": "¿Cómo se llama usted?", "rightId": 10 },
@@ -5190,7 +5358,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
@@ -5380,11 +5547,11 @@ export const quiz = [
         "pairs": [
           {
             "left": { "word": "¿Hola, puedo hablar con... ?", "rightId": 1 },
-            "right": { "word": "Goodbye, have a good day.", "rightId": 7 }
+            "right": { "word": "I want to leave a message.", "rightId": 4 }
           },
           {
             "left": { "word": "Soy [Tu Nombre].", "rightId": 2 },
-            "right": { "word": "I'm calling about a matter.", "rightId": 8 }
+            "right": { "word": "Is [Name] home?", "rightId": 3 }
           },
           {
             "left": { "word": "¿Está [Nombre] en casa?", "rightId": 3 },
@@ -5398,6 +5565,13 @@ export const quiz = [
             "left": { "word": "¿Puedes decirle que llame?", "rightId": 5 },
             "right": { "word": "I am [Your Name].", "rightId": 2 }
           },
+          ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+         
           {
             "left": { "word": "Muchas gracias.", "rightId": 6 },
             "right": { "word": "Can you help me?", "rightId": 10 }
@@ -5408,11 +5582,11 @@ export const quiz = [
           },
           {
             "left": { "word": "Estoy llamando por un asunto.", "rightId": 8 },
-            "right": { "word": "Is [Name] home?", "rightId": 3 }
+            "right": { "word": "I'm calling about a matter.", "rightId": 8}
           },
           {
             "left": { "word": "No hay problema.", "rightId": 9 },
-            "right": { "word": "I want to leave a message.", "rightId": 4 }
+            "right": { "word": "Goodbye, have a good day.", "rightId": 7 }
           },
           {
             "left": { "word": "¿Me puedes ayudar?", "rightId": 10 },
@@ -5420,7 +5594,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
@@ -5554,17 +5727,18 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
+
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
         "pairs": [
           {
             "left": { "word": "Estimado/a [Nombre],", "rightId": 1 },
-            "right": { "word": "Until soon.", "rightId": 10 }
+            "right": { "word": "To whom it may concern,", "rightId": 4 }
           },
           {
             "left": { "word": "Querido/a [Nombre],", "rightId": 2 },
-            "right": { "word": "Thank you for your attention.", "rightId": 9 }
+            "right": { "word": "Hello [Name],", "rightId": 3}
           },
           {
             "left": { "word": "Hola [Nombre],", "rightId": 3 },
@@ -5578,6 +5752,14 @@ export const quiz = [
             "left": { "word": "Me alegra escribirte.", "rightId": 5 },
             "right": { "word": "Best regards.", "rightId": 2 }
           },
+          
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Espero que estés bien.", "rightId": 6 },
             "right": { "word": "To whom it may concern,", "rightId": 7 }
@@ -5588,11 +5770,11 @@ export const quiz = [
           },
           {
             "left": { "word": "Estoy muy contento/a de...", "rightId": 8 },
-            "right": { "word": "Hello [Name],", "rightId": 3 }
+            "right": { "word": "Thank you for your attention.", "rightId": 9 }
           },
           {
             "left": { "word": "Gracias por tu mensaje.", "rightId": 9 },
-            "right": { "word": "To whom it may concern,", "rightId": 4 }
+            "right": { "word": "Until soon.", "rightId": 10 }
           },
           {
             "left": { "word": "Adiós y cuídate.", "rightId": 10 },
@@ -5600,7 +5782,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
@@ -5734,6 +5915,7 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
+
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -5758,6 +5940,14 @@ export const quiz = [
             "left": { "word": "Me cepillo los dientes.", "rightId": 5 },
             "right": { "word": "I get up quickly.", "rightId": 2 }
           },
+         
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          
           {
             "left": { "word": "Me peino frente al espejo.", "rightId": 6 },
             "right": { "word": "I put on makeup before going out.", "rightId": 7 }
@@ -5914,6 +6104,7 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
+
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -5938,6 +6129,14 @@ export const quiz = [
             "left": { "word": "más grande que", "rightId": 5 },
             "right": { "word": "less expensive than", "rightId": 2 }
           },
+         
+        ]
+      },
+       {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+         
           {
             "left": { "word": "la más alta", "rightId": 6 },
             "right": { "word": "worst", "rightId": 7 }
@@ -5960,7 +6159,6 @@ export const quiz = [
           }
         ]
       }
-      
     ]
   },
   {
