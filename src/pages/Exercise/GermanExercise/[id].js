@@ -278,6 +278,7 @@ const Quiz = () => {
 
                 {filteredQuestions[activeQuestion].type === 'FillInTheBlanks' && (
                   <FillInTheBlanksComponent
+                    subject={subject}
                     question={filteredQuestions[activeQuestion]}
                     onNext={onClickNext}
                     onAnswerSelected={handleAnswerSelectedfill}

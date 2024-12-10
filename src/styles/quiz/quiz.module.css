@@ -8,6 +8,9 @@
   margin: 0;
   padding: 0 2vw 50px;
 }
+.keyboardContainer{
+  margin-top: 20px;
+}
 .fontblack{
   color: black;
 }
