@@ -34,6 +34,12 @@ export default function Index() {
       link: '/Conversations/SpanishConversationsA1',
     },
     {
+      type: 'frenchb1',
+      heading: 'French Intermediate (B1-B2)',
+      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+      link: '/Conversations/FrenchConversationsB1',
+    },
+    {
       type: 'italian',
       heading: 'Italian Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our Italian exercise.',
@@ -69,24 +75,6 @@ export default function Index() {
       text: 'Dive into the vibrant world of Danish-speaking countries with this exercise.',
       link: '/Conversations/DanishConversationsA1',
     },
-    // {
-    //   type: 'frencha2',
-    //   heading: 'French Beginner (A2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our French exercise.',
-    //   link: '/Conversations/FrenchConversations',
-    // },
-    // {
-    //   type: 'germana2',
-    //   heading: 'German Beginner (A2)',
-    //   text: 'Navigate both casual and formal language settings of Germany with this exercise.',
-    //   link: '/Conversations/GermanConversations',
-    // },
-    // {
-    //   type: 'spanisha2',
-    //   heading: 'Spanish Beginner (A2)',
-    //   text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
-    //   link: '/Conversations/SpanishConversations',
-    // }
   ];
 
   // Sort the cards so that unlocked cards come first

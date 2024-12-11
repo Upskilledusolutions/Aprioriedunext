@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import styles from '../../../styles/pdflessons.module.css';
-import { data } from '../../../Data/Languagelessons/frencha2'; // Import your JSON data
+import { data } from '../../../Data/ReadingAssignments/FrenchB1'; // Import your JSON data
 import { FaArrowLeftLong } from "react-icons/fa6";
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useDispatch, useSelector } from 'react-redux';
-import { unlockLesson } from '@/Store';
+import { unlockAssignments } from '@/Store';
 
 const LessonPage = ({ lesson }) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -16,8 +16,8 @@ const LessonPage = ({ lesson }) => {
   const { id } = router.query;
 
   const dispatch = useDispatch();
-  const unlockedPages = useSelector((state) => state.unlockedLessons.unlockedLessonsFrench);
-  const subject = 'FrenchA2';
+  const unlockedPages = useSelector((state) => state.unlockedAssignments.unlockedAssignmentsFrenchB1);
+  const subject = 'FrenchB1';
 
   useEffect(() => {
     if (id) {
@@ -26,7 +26,7 @@ const LessonPage = ({ lesson }) => {
         const nextPageId = data[currentIndex + 1].id;
         if (!unlockedPages.includes(nextPageId)) {
           const multiple = [nextPageId, data[currentIndex + 2]?.id, data[currentIndex + 3]?.id, data[currentIndex + 4]?.id, data[currentIndex + 5]?.id]
-          dispatch(unlockLesson({ subject, lessonId: multiple }));
+          dispatch(unlockAssignments({ subject, lessonId: multiple }));
         }
       }
     }

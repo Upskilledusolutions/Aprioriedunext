@@ -9,7 +9,7 @@ import { useSelector } from 'react-redux'; // To access authentication status fr
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
-  const unlockedPages = useSelector((state) => state.unlockedPages.unlockedPagesFrench);
+  const unlockedPages = useSelector((state) => state.unlockedPages.unlockedPagesFrenchB1);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -40,21 +40,9 @@ export default function FrenchQuizes() {
           const isUnlocked = unlockedPages.includes(data.id);
       return (
         <div key={data.id} className={styles.videocontainer}>
-        {/* <Link className={styles.link} href={`/Conversations/FrenchConversation/${data.id}`}>
-        <div className={styles.imgcont}>
-        <div className={styles.logocont}>
-          <Image className={styles.imagelogo} src={'/youtube/youtube.png'} width={400} height={180} alt='image'/>
-          </div>
-          <Image className={styles.image} src={data.url} width={400} height={180}/>
-        </div>
-        <div>
-          <h3 className={styles.title}>{data.title}</h3>
-          <p className={styles.desc}>{data.desc.slice(0,100)}...</p>
-        </div>
-        </Link> */}
 
 {isUnlocked || user.type === 'all' ? (
-              <Link className={styles.link} href={`/Conversations/FrenchConversation/${data.id}`}>
+              <Link className={styles.link} href={`/Conversations/FrenchConversationB1/${data.id}`}>
                 <div className={styles.imgcont}>
                   <div className={styles.logocont}>
                     <Image

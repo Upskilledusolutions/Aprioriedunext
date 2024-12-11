@@ -1,0 +1,23 @@
+export const data = [
+    {
+        id:'1',
+        name:'French Reading Assignment 1 (B1)',
+        level:'Intermediate',
+        pdf:'https://drive.google.com/file/d/1LluRCrcfFMkP6byGsmhVoV2TBkr2DtAi/preview',
+        desc:'French Reading Assignments 1 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    },
+    {
+        id:'2',
+        name:'French Reading Assignment 2 (B1)',
+        level:'Intermediate',
+        pdf:'https://drive.google.com/file/d/13kaosFTk7piS2GvJkgwbMTCNuxJxz36b/preview',
+        desc:'French Reading Assignments 2 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    },
+    {
+        id:'3',
+        name:'French Reading Assignment 3 (B1)',
+        level:'Intermediate',
+        pdf:'https://drive.google.com/file/d/1aIaCwKekN9VCKv8tjOBdpEzY4kE20UiR/preview',
+        desc:'French Reading Assignments 3 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    },
+]

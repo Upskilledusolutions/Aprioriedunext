@@ -34,6 +34,12 @@ export default function Index() {
       link: '/Exercise/SpanishExercises',
     },
     {
+      type: 'frenchb1',
+      heading: 'French Intermediate (B1-B2)',
+      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+      link: '/Exercise/FrenchExercisesB1',
+    },
+    {
       type: 'italian',
       heading: 'Italian Beginner (A1-A2)',
       text: 'Master the language of art, culture, and diplomacy with our Italian exercise.',

@@ -17,8 +17,8 @@ export function getServerSideProps(context) {
 export default function Conversation({ params }) {
   const { id } = params;
   const dispatch = useDispatch();
-  const unlockedPages = useSelector((state) => state.unlockedPages.unlockedPagesFrench);
-  const subject = 'French';
+  const unlockedPages = useSelector((state) => state.unlockedPages.unlockedPagesFrenchB1);
+  const subject = 'FrenchB1';
   const [isClient, setIsClient] = useState(false);
 
   const videodata = youdata.filter((data) => data.id === id);
@@ -72,7 +72,7 @@ export default function Conversation({ params }) {
               const isUnlocked = unlockedPages.includes(data.id);
       return (
         <div key={data.id} className={styles.videocontainer1}>
-          {isUnlocked ?  <Link className={styles.link1} href={`/Conversations/FrenchConversation/${data.id}`}>
+          {isUnlocked ?  <Link className={styles.link1} href={`/Conversations/FrenchConversationB1/${data.id}`}>
         <div className={styles.imgcont4}>
         <div className={styles.logocont}>
           <Image className={styles.imagelogo} src={'/youtube/youtube.png'} width={400} height={180} alt='image'/>
