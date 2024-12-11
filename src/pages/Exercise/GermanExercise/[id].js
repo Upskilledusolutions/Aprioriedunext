@@ -213,7 +213,7 @@ const Quiz = () => {
                   </div>
                 </li>
                 <li onClick={toggleMenu}>
-                  <div onClick={()=>[!selectedOption && selectQuestionType('FillInTheBlanks'), selectedOption && setShowerror(!showerror),setTime(-1)]}>
+                  <div onClick={()=>[!selectedOption && selectQuestionType('MatchTheFollowing'), selectedOption && setShowerror(!showerror),setTime(-1)]}>
                   Match The Following
                   </div>
                 </li>
