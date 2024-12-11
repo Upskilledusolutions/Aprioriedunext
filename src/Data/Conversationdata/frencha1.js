@@ -153,6 +153,27 @@ export const youdata = [
       title: "French Conversation 3 (A2)",
       desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
+    {
+      id: '23',
+      url: "/youtube/FrCA204.png",
+      youtube: "https://www.youtube.com/embed/j7O2Lg9SIOA?si=ik9m2v-A-zQE0PDK",
+      title: "French Conversation 4 (A2)",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
+    {
+      id: '24',
+      url: "/youtube/FrCA205.png",
+      youtube: "https://www.youtube.com/embed/hQVPvyahqpg?si=sIRhbjKNTXpb0GFI",
+      title: "French Conversation 5 (A2)",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
+    {
+      id: '25',
+      url: "/youtube/FrCA206.png",
+      youtube: "https://www.youtube.com/embed/XM41miOZo5U?si=a55u4Va2R4NcLXZx",
+      title: "French Conversation 6 (A2)",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
     
   ];
   
