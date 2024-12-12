@@ -16,6 +16,12 @@ export default function Index() {
   // Array of card information with type, heading, and text
   const cards = [
     {
+      type: 'english',
+      heading: 'English Beginner (A1-A2)',
+      text: 'Master the language of art, culture, and diplomacy with our English Reading Assignments.',
+      link: '/ReadingAssignments/EnglishReading',
+    },
+    {
       type: 'french',
       heading: 'French Beginner (A1-A2)',
       text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',

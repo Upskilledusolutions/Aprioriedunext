@@ -294,6 +294,9 @@ const AssignmentsSlice = createSlice({
     unlockedAssignmentsFrench: typeof window !== "undefined" && localStorage.getItem('unlockedAssignmentsFrench')
       ? JSON.parse(localStorage.getItem('unlockedAssignmentsFrench'))
       : ["1","2","3","4","5"],
+    unlockedAssignmentsEnglish: typeof window !== "undefined" && localStorage.getItem('unlockedAssignmentsEnglish')
+      ? JSON.parse(localStorage.getItem('unlockedAssignmentsEnglish'))
+      : ["1","2","3","4","5"],
     unlockedAssignmentsFrenchB1: typeof window !== "undefined" && localStorage.getItem('unlockedAssignmentsFrenchB1')
       ? JSON.parse(localStorage.getItem('unlockedAssignmentsFrenchB1'))
       : ["1","2","3","4","5"],
@@ -334,6 +337,12 @@ const AssignmentsSlice = createSlice({
             state.unlockedAssignmentsFrench.push(...lessonId);
           }
           break;
+          case 'English':
+            unlockedAssignments = state.unlockedAssignmentsEnglish;
+            if (!unlockedAssignments.includes(...lessonId)) {
+              state.unlockedAssignmentsEnglish.push(...lessonId);
+            }
+            break;
         case 'FrenchB1':
             unlockedAssignments = state.unlockedAssignmentsFrenchB1;
             if (!unlockedAssignments.includes(...lessonId)) {
@@ -522,6 +531,7 @@ store.subscribe(() => {
   localStorage.setItem('unlockedLessonsMultilingual', JSON.stringify(state.unlockedLessons.unlockedLessonsMultilingual));
 
   localStorage.setItem('unlockedAssignmentsFrench', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsFrench));
+  localStorage.setItem('unlockedAssignmentsEnglish', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsEnglish));
   localStorage.setItem('unlockedAssignmentsFrenchB1', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsFrenchB1));
   localStorage.setItem('unlockedAssignmentsSpanish', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsSpanish));
   localStorage.setItem('unlockedAssignmentsGerman', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsGerman));

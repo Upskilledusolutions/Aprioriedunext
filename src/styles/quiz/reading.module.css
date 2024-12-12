@@ -1,0 +1,166 @@
+.readingassignment {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .timer{
+    position: absolute;
+    top: 150px;
+    right: 7vw;
+    color: white;
+    background-color: rgb(227, 80, 61);
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .readingsection {
+    flex:1;
+    padding: 20px;
+    border: 1px solid rgb(227, 80, 61); /* Border matches the theme */
+    border-radius: 8px;
+    overflow-y: auto;
+    height: 80vh;
+  }
+  
+  .questionssection {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid rgb(227, 80, 61);
+    border-radius: 8px;
+    overflow-y: auto;
+    height: 80vh;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(227, 80, 61); /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: rgb(200, 70, 54); /* Slightly darker shade for hover */
+  }
+  
+  .label1 {
+    font-size: 16px;
+    color: rgb(100, 40, 35); /* Subtle dark tone for text */
+  }
+  
+  .h21 {
+    color: rgb(227, 80, 61); /* Heading color */
+  }
+  
+  .p1 {
+    color: rgb(80, 35, 30); /* Paragraph text color */
+    line-height: 1.5;
+  }
+
+  .readingsection::-webkit-scrollbar, .questionssection::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  .readingsection::-webkit-scrollbar-track, .questionssection::-webkit-scrollbar-track {
+    background: rgb(255, 245, 244); /* Track color */
+  }
+  
+  .readingsection::-webkit-scrollbar-thumb, .questionssection::-webkit-scrollbar-thumb {
+    background: rgb(227, 80, 61); /* Thumb color */
+    border-radius: 10px;
+  }
+  
+  .readingsection::-webkit-scrollbar-thumb:hover, .questionssection::-webkit-scrollbar-thumb:hover {
+    background: rgb(200, 70, 54); /* Hover state */
+  }
+  .listitem{
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  .ulist{
+    padding: 0;
+  }
+
+  .modal {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 400px;
+    margin: auto;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modalContent h2 {
+    color: rgb(227, 80, 61);
+    margin-bottom: 10px;
+  }
+  
+  .modalContent p {
+    font-size: 1.2rem;
+  }
+  
+  .closeButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(227, 80, 61);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .closeButton:hover {
+    background-color: rgb(200, 70, 55);
+  }
+  .btncont{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+
+  @media screen and (max-width: 768px){
+    .readingassignment {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .readingsection, .questionssection{
+        font-size: 20px;
+    }
+    .modal {
+        min-width: 80vw;
+    }
+  }

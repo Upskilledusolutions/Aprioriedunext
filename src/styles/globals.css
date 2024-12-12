@@ -14,6 +14,10 @@ body{
   --lightorange:rgb(255, 106, 0);
 }
 
+input[type="radio"] {
+  accent-color: rgb(227, 80, 61); /* Changed input color to orange */
+}
+
 .button-swiper{
   width: 97vw;
   display: flex;
