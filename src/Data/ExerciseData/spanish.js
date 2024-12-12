@@ -7135,6 +7135,564 @@ export const quiz = [
       
       // 20 MCQs
       {
+        "question": "¿Cuál de las siguientes actividades es un ejemplo de un pasatiempo?",
+        "choices": ["correr", "comer", "dormir", "estudiar"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué verbo significa 'to live' en español?",
+        "choices": ["comer", "vivir", "hablar", "bailar"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se dice 'I like to swim' en español?",
+        "choices": [ "me gusta nadé", "me gusta nadar", "me gusta nadando", "me gusta nadaré"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué verbo significa 'to eat' en español?",
+        "choices": ["vivir", "jugar", "leer", "comer"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "¿Cómo se conjuga el verbo 'comer' en la primera persona singular en el presente?",
+        "choices": ["como", "comes", "comí", "comemos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de las siguientes actividades no es un pasatiempo?",
+        "choices": ["estudiar", "leer", "ver una película", "bailar"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se dice 'He likes to play soccer' en español?",
+        "choices": ["le gustaba jugar al fútbol", "le gusta jugando al fútbol", "le gusta jugar fútbol", "le gusta jugar al fútbol"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "¿Cuál es la conjugación correcta del verbo 'vivir' en la tercera persona singular en el presente?",
+        "choices": ["vives", "vive", "vivimos", "vivieron"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué actividad se relaciona con 'escuchar música'?",
+        "choices": ["escuchar canciones", "ver una película", "pintar cuadros", "jugar al fútbol"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué significa 'hacer ejercicio'?",
+        "choices": [ "dormir", "comer bien", "practicar deportes", "leer un libro"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Me gusta ______ (to read) libros en mi tiempo libre.",
+        "choices": ["leer", "hacer", "correr", "vivir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué te gusta ______ (to do) los fines de semana?",
+        "choices": ["hacer", "leer", "cantar", "bailar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella siempre ______ (to run) en el parque por la mañana.",
+        "choices": ["corre", "canta", "baila", "lee"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (to live) en la ciudad de Madrid.",
+        "choices": ["vivimos", "comemos", "corremos", "jugamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A ti te gusta ______ (to sing) en el baño.",
+        "choices": ["cantar", "bailar", "leer", "correr"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermano ______ (to eat) pizza los domingos.",
+        "choices": ["come", "canta", "baila", "corre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me encanta ______ (to draw) y pintar.",
+        "choices": ["dibujar", "leer", "cantar", "bailar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (to live) en una casa cerca del mar.",
+        "choices": ["viven", "comen", "cantan", "bailan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me gusta ______ (to dance) salsa en las fiestas.",
+        "choices": ["bailar", "leer", "correr", "cantar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A Marta le gusta ______ (to watch) películas en su tiempo libre.",
+        "choices": ["ver", "cantar", "bailar", "leer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "hacer ejercicio", "rightId": 1 },
+            "right": { "word": "watch a movie", "rightId": 2 }
+          },
+          {
+            "left": { "word": "ver películas", "rightId": 2 },
+            "right": { "word": "play music", "rightId": 3 }
+          },
+          {
+            "left": { "word": "tocar la guitarra", "rightId": 3 },
+            "right": { "word": "do exercise", "rightId": 1 }
+          },
+          {
+            "left": { "word": "leer libros", "rightId": 4 },
+            "right": { "word": "sing songs", "rightId": 5 }
+          },
+          {
+            "left": { "word": "ir al cine", "rightId": 5 },
+            "right": { "word": "read books", "rightId": 4 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "bailar salsa", "rightId": 1 },
+            "right": { "word": "paint pictures", "rightId": 3 }
+          },
+          {
+            "left": { "word": "correr en el parque", "rightId": 2 },
+            "right": { "word": "listen to music", "rightId": 5 }
+          },
+          {
+            "left": { "word": "pintar cuadros", "rightId": 3 },
+            "right": { "word": "dance to music", "rightId": 1 }
+          },
+          {
+            "left": { "word": "jugar al fútbol", "rightId": 4 },
+            "right": { "word": "watch sports", "rightId": 2 }
+          },
+          {
+            "left": { "word": "escuchar música", "rightId": 5 },
+            "right": { "word": "play soccer", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '28',
+    name: 'Spanish Exercise - 9 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Qué significa \"tener fiebre\"?",
+        "choices": ["Tener hambre", "Tener calor", "Tener frío", "Tener temperatura alta"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "¿Qué deberías hacer si tienes un dolor de garganta?",
+        "choices": ["Cantar mucho", "Descansar y beber agua", "Comer comida picante", "Ir al gimnasio"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de los siguientes es un verbo modal que se usa para expresar una obligación?",
+        "choices": ["Poder", "Deber", "Comer", "Dormir"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si alguien tiene un resfriado, ¿qué debe hacer?",
+        "choices": ["Dormir mucho y tomar medicinas", "Hacer ejercicio", "Comer dulces", "Salir a caminar"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué parte del cuerpo necesitas para ver?",
+        "choices": ["Estómago", "Ojos", "Manos", "Corazón"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si tienes dolor de cabeza, ¿qué no debes hacer?",
+        "choices": ["Tomar una aspirina", "Dormir mucho", "Estudiar mucho", "Hacer ejercicio suave"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué significa \"deber\" en español?",
+        "choices": ["Poder hacer algo", "Necesitar hacer algo", "Comer algo", "Estudiar algo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué es un síntoma común de la gripe?",
+        "choices": ["Dolor de estómago", "Dolor de cabeza", "Dolor de espalda", "Dolor de pierna"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo puedes prevenir el dolor de espalda?",
+        "choices": ["Levantando pesas", "Manteniendo una buena postura", "Corriendo mucho", "Comiendo más carne"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si una persona tiene alergia a los mariscos, ¿qué debe evitar?",
+        "choices": ["Comer mariscos", "Comer verduras", "Comer frutas", "Comer carne"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },    
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Mi cabeza me duele mucho, ______ (poder, deber) ir al médico.",
+        "choices": ["debo", "poder", "deber", "ir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para estar saludable, ______ (poder, deber) comer frutas y verduras todos los días.",
+        "choices": ["debes", "poder", "deber", "comer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si tienes fiebre, ______ (poder, deber) descansar mucho.",
+        "choices": ["debes", "poder", "deber", "descansar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El doctor me dijo que ______ (poder, deber) hacer ejercicio regularmente.",
+        "choices": ["deberías", "poder", "deber", "hacer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella no ______ (poder, deber) comer comida picante debido a su estómago sensible.",
+        "choices": ["puede", "poder", "deber", "comer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Tú ______ (poder, deber) levantarte temprano para ir al gimnasio?",
+        "choices": ["puedes", "poder", "deber", "levantarse"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si ______ (poder, deber) correr más rápido, estarías más saludable.",
+        "choices": ["pudieras", "poder", "deber", "correr"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Poder, Deber) ______ ir a la farmacia a comprar medicinas para el dolor de cabeza.",
+        "choices": ["Puedo", "poder", "deber", "ir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es importante que tú ______ (poder, deber) tomar suficiente agua cada día.",
+        "choices": ["debes", "poder", "deber", "tomar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos no ______ (poder, deber) practicar deportes por su lesión.",
+        "choices": ["pueden", "poder", "deber", "practicar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "cabeza", "rightId": 1 },
+            "right": { "word": "bones", "rightId": 4 }
+          },
+          {
+            "left": { "word": "estómago", "rightId": 2 },
+            "right": { "word": "eyes", "rightId": 5 }
+          },
+          {
+            "left": { "word": "corazón", "rightId": 3 },
+            "right": { "word": "head", "rightId": 1 }
+          },
+          {
+            "left": { "word": "huesos", "rightId": 4 },
+            "right": { "word": "heart", "rightId": 3 }
+          },
+          {
+            "left": { "word": "ojos", "rightId": 5 },
+            "right": { "word": "stomach", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "resfriado", "rightId": 1 },
+            "right": { "word": "headache", "rightId": 2 }
+          },
+          {
+            "left": { "word": "dolor de cabeza", "rightId": 2 },
+            "right": { "word": "back", "rightId": 5 }
+          },
+          {
+            "left": { "word": "alergia", "rightId": 3 },
+            "right": { "word": "cold", "rightId": 1 }
+          },
+          {
+            "left": { "word": "pierna", "rightId": 4 },
+            "right": { "word": "allergy", "rightId": 3 }
+          },
+          {
+            "left": { "word": "espalda", "rightId": 5 },
+            "right": { "word": "leg", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '29',
+    name: 'Spanish Exercise - 10 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Qué hora es si el reloj marca 5:45 PM?",
+        "choices": ["Son las 5:45 AM", "Son las 5:45 PM", "Son las 6:45 PM", "Son las 4:45 PM"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es la respuesta correcta para esta pregunta? \"¿__________ (comer) tú algo antes de ir al trabajo?\"",
+        "choices": ["Comí", "Has comido", "Comer", "Comiste"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué significa “¿A qué hora __________ (empezar) la reunión?”?",
+        "choices": ["What time does the meeting begin?", "What time did the meeting start?", "What time will the meeting start?", "What time is the meeting?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se usa el pretérito perfecto en esta frase? \"Yo __________ (leer) ese libro.\"",
+        "choices": ["He leído", "Leí", "Leeré", "Leyó"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es la forma correcta del verbo en pretérito perfecto? \"Ellos __________ (ir) al cine este fin de semana.\"",
+        "choices": ["Fueron", "Han ido", "Iban", "Van"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué significa \"¿Qué hora es?\" en español?",
+        "choices": [ "What time was it?", "What time will it be?","What time is it?", "What time has it been?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿A qué hora __________ (salir) tú ayer?",
+        "choices": ["Salgo", "Salí", "Has salido", "Salías"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuándo __________ (llegar) ustedes al trabajo hoy?",
+        "choices": ["Llegaron", "Llegaron", "Han llegado", "Llegaban"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál es la forma correcta para “She has finished the work”?",
+        "choices": ["Ella ha terminado el trabajo", "Ella terminó el trabajo", "Ella termina el trabajo", "Ella terminará el trabajo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué significa la frase \"¿A qué hora empieza el partido de fútbol?\"?",
+        "choices": ["What time is the football match?", "What time does the football match end?", "What time does the football match start?", "What time was the football match?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Yo ______ (comer) en casa esta mañana.",
+        "choices": ["he comido", "comí", "como", "comía"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿A qué hora ______ (llegar) tú al trabajo ayer?",
+        "choices": ["llegaste", "llego", "llegaba", "llegué"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (trabajar) todo el día, así que están cansados.",
+        "choices": ["han trabajado", "trabajaron", "trabajan", "trabajaban"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (ver) esa película antes, ¿verdad?",
+        "choices": ["has visto", "viste", "ves", "veías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (hacer) todo el trabajo de la oficina ya.",
+        "choices": ["hemos hecho", "hicimos", "hacemos", "hacíamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuándo ______ (salir) ella del trabajo ayer?",
+        "choices": ["salió", "sale", "salía", "salí"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______ (estudiar) mucho esta semana para el examen.",
+        "choices": ["he estudiado", "estudié", "estudio", "estudiaba"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (volver) de sus vacaciones hace dos días.",
+        "choices": ["han vuelto", "volvieron", "vuelven", "volvían"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿A qué hora ______ (empezar) la reunión ayer?",
+        "choices": ["empezó", "empieza", "empezaba", "empezaré"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Marta ______ (terminar) su tarea hace media hora.",
+        "choices": ["ha terminado", "terminó", "termina", "terminaba"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "La reunión empieza a las 9:00 AM.", "rightId": 1 },
+            "right": { "word": "The football match begins at 7:00 PM.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Tengo una cita a las 3:00 PM.", "rightId": 2 },
+            "right": { "word": "The party is on Saturday night.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "El tren sale a las 6:30 AM.", "rightId": 3 },
+            "right": { "word": "The meeting starts at 9:00 AM.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "La fiesta es el sábado por la noche.", "rightId": 4 },
+            "right": { "word": "The train leaves at 6:30 AM.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "El partido de fútbol comienza a las 7:00 PM.", "rightId": 5 },
+            "right": { "word": "I have an appointment at 3:00 PM.", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Mi clase de español es a las 10:00 AM.", "rightId": 1 },
+            "right": { "word": "The flight arrives at 5:00 PM.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "El vuelo llega a las 5:00 PM.", "rightId": 2 },
+            "right": { "word": "We eat at 1:00 PM.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Tengo que trabajar hasta las 5:00 PM.", "rightId": 3 },
+            "right": { "word": "My Spanish class is at 10:00 AM.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "La conferencia empieza a las 11:00 AM.", "rightId": 4 },
+            "right": { "word": "I have to work until 5:00 PM.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Comemos a las 1:00 PM.", "rightId": 5 },
+            "right": { "word": "The conference starts at 11:00 AM.", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '30',
+    name: 'Spanish Exercise - 11 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
         "question": "What does 'teatro' mean?",
         "choices": ["Dance", "Theatre", "Painting", "Sculpture"],
         "type": "MCQs",
