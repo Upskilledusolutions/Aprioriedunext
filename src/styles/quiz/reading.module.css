@@ -163,4 +163,9 @@
     .modal {
         min-width: 80vw;
     }
+    .timer{
+        position: initial;
+        text-align: center;
+        font-size: 22px;
+    }
   }
