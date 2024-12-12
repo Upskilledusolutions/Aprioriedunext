@@ -91,6 +91,7 @@ export const data = [{
     name:'French Lesson 12 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1M4-YscLqi_jX0vGX7u2lGtZzwFsqSUcD/preview',
+    video:'https://www.youtube.com/embed/3HkkM7mcE5k?si=qTQlp0KXjkqJlRMe',
     desc:'French Foundation Lesson 12 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
