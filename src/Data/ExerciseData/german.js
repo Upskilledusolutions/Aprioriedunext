@@ -6116,4 +6116,424 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '22',
+    name: 'German Exercise - 3 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Was bedeutet \"Wenn ich mehr Zeit hätte, würde ich mehr reisen\"?",
+        "choices": [
+          "I have more time to travel.",
+          "I will travel if I have time.",
+          "I would travel if I had more time.",
+          "I had time to travel."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie lautet die korrekte Form des Verbs in diesem Satz: \"Wenn er mehr Geld ______, würde er ein Auto kaufen.\"",
+        "choices": ["hat", "hätte", "haben", "hatte"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche Antwort zeigt den richtigen Gebrauch des Konditionals?",
+        "choices": [
+          "Wenn ich du wäre, würde ich ihn anrufen.",
+          "Wenn ich du wäre, ich rufe ihn an.",
+          "Wenn ich du, würde ich ihn rufen.",
+          "Wenn ich bin, würde ich anrufen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie würdest du höflich bitten, etwas zu tun?",
+        "choices": [
+          "Könnte ich bitte das Fenster öffnen?",
+          "Kann ich das Fenster öffnen?",
+          "Ich öffne das Fenster.",
+          "Mach das Fenster auf."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was ist der Unterschied zwischen \"würde\" und \"konnte\" in hypothetischen Aussagen?",
+        "choices": [
+          "\"Würde\" ist für höfliche Bitten, \"konnte\" für fähige Handlungen.",
+          "\"Würde\" drückt eine Möglichkeit aus, \"konnte\" eine Fähigkeit.",
+          "\"Würde\" ist für Fakten, \"konnte\" für Wünsche.",
+          "\"Würde\" ist für die Zukunft, \"konnte\" für die Vergangenheit."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie lautet die richtige Antwort für die Situation: \"Wenn ich mehr Zeit _______ (haben), würde ich mehr lesen.\"",
+        "choices": ["hatte", "hätte", "habe", "hat"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches Verb ist im richtigen Konditional: \"Wenn sie mehr über das Thema _______ (wissen), würden sie die Diskussion besser verstehen.\"",
+        "choices": ["wissen", "gewusst", "hätte gewusst", "wüssten"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Wie fragt man höflich nach etwas im Konditional?",
+        "choices": [
+          "Würde es Ihnen etwas ausmachen, mir zu helfen?",
+          "Helf mir!",
+          "Du musst mir helfen.",
+          "Kannst du mir helfen?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie endet der Satz: \"Wenn wir uns beeilen _______ (wir) den Zug noch erwischen?\"",
+        "choices": ["könnten", "können", "würden", "hätten"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was ist die richtige Antwort auf die Frage: \"Was würdest du tun, wenn du im Lotto gewinnen würdest?\"",
+        "choices": [
+          "Ich würde eine Weltreise machen.",
+          "Ich mache eine Weltreise.",
+          "Ich habe eine Weltreise gemacht.",
+          "Ich bin auf einer Weltreise."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Wenn ich mehr Zeit hätte, ______ (would) ich Deutsch besser.",
+        "choices": ["würde", "lernen", "könnte", "wäre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ______ (would) ein neues Auto, wenn sie mehr Geld hätten.",
+        "choices": ["würden", "kaufen", "haben", "hätten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn du mir das Buch geben ______ (could), würde ich es dir zurückbringen.",
+        "choices": ["könntest", "geben", "könnten", "wären"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (would) nach Deutschland, wenn ich genug Geld hätte.",
+        "choices": ["würde", "reisen", "könnte", "wäre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn es morgen regnen ______ (would), bleiben wir zu Hause.",
+        "choices": ["würde", "werden", "wird", "hätte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Du ______ (would) mir, wenn du wüsstest, wie wichtig es ist.",
+        "choices": ["würdest", "helfen", "könntest", "hättest"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn er schneller laufen ______ (could), würde er den Wettkampf gewinnen.",
+        "choices": ["könnte", "laufen", "würde", "könnten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (would) in diesem Restaurant, wenn es nicht so teuer wäre.",
+        "choices": ["würden", "essen", "könnten", "wären"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ (would) mir Bescheid, wenn du etwas hörst.",
+        "choices": ["würdest", "sagen", "könntest", "hättest"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn ihr mehr üben ______ (could), würdet ihr die Prüfung bestehen.",
+        "choices": ["könntet", "üben", "könnten", "würden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Wenn ich mehr Zeit hätte,", "rightId": 1 },
+      "right": { "word": "If she had a better job,", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Wenn er das Angebot hätte,", "rightId": 2 },
+      "right": { "word": "If you gave me more information,", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Wenn sie einen besseren Job hätte,", "rightId": 3 },
+      "right": { "word": "If I had more time,", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Wenn du mir mehr Informationen gäbest,", "rightId": 4 },
+      "right": { "word": "If we had arrived earlier,", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Wenn wir früher angekommen wären,", "rightId": 5 },
+      "right": { "word": "If he had the offer,", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Wenn du höflicher wärest,", "rightId": 1 },
+      "right": { "word": "If he had more experience,", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Wenn ich an deiner Stelle wäre,", "rightId": 2 },
+      "right": { "word": "If you could judge the weather better,", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Wenn du das Wetter besser einschätzen könntest,", "rightId": 3 },
+      "right": { "word": "If she would practice more,", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Wenn er mehr Erfahrung hätte,", "rightId": 4 },
+      "right": { "word": "If I were in your place,", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Wenn sie mehr üben würde,", "rightId": 5 },
+      "right": { "word": "If you were more polite,", "rightId": 1 }
+
+    },
+  ]
+}
+    ]
+  },
+  {
+    quiz: '23',
+    name: 'German Exercise - 4 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Was würdest du machen, wenn du im Lotto gewinnen würdest?",
+        "choices": ["Ich gehe arbeiten.", "Ich kaufe ein Auto.", "Ich würde reisen.", "Ich bleibe zu Hause."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Meiner Meinung nach ist es wichtig, _______.",
+        "choices": ["zu reisen.", "viel Geld zu haben.", "eine Fremdsprache zu lernen.", "immer zu arbeiten."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wenn ich mehr Freizeit hätte, _______.",
+        "choices": ["ich würde mehr lesen.", "ich arbeite mehr.", "ich gehe ins Fitnessstudio.", "ich bleibe zu Hause."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was denkst du über das Leben in Deutschland?",
+        "choices": ["Es ist sehr langweilig.", "Es könnte interessant sein.", "Es ist schlecht.", "Es ist nur für Deutsche geeignet."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Würdest du in einem anderen Land leben?",
+        "choices": ["Ja, ich würde gerne.", "Nein, ich bleibe hier.", "Vielleicht, wenn es notwendig ist.", "Niemals."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn du mehr Geld hättest, _______.",
+        "choices": ["würdest du eine Wohnung kaufen.", "gehst du einkaufen.", "machst du nichts.", "bleibst du zu Hause."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was wäre deine Meinung zu einem Auslandssemester?",
+        "choices": ["Es ist zu schwierig.", "Es ist eine gute Idee.", "Es ist zu teuer.", "Es ist langweilig."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie würdest du reagieren, wenn du einen Fehler gemacht hättest?",
+        "choices": ["Ich ignoriere ihn.", "Ich entschuldige mich.", "Ich mache nichts.", "Ich wiederhole den Fehler."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Warum ist es wichtig, Meinungen auszudrücken?",
+        "choices": ["Um Konflikte zu vermeiden.", "Um sich auszudrücken.", "Um Freunde zu beeindrucken.", "Um Diskussionen zu vermeiden."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was würde passieren, wenn du nicht für die Prüfung lernst?",
+        "choices": ["Ich bestehe die Prüfung.", "Ich falle durch.", "Ich mache weiter.", "Ich wiederhole nichts."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },    
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich denke, dass ______ (the) Wetter heute schön ist.",
+        "choices": ["das", "der", "die", "ein"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn ich mehr Zeit hätte, ______ (would) ich Deutsch schneller lernen.",
+        "choices": ["würde", "könnte", "wäre", "hätte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meiner Meinung nach ist es ______ (very) wichtig, Fremdsprachen zu lernen.",
+        "choices": ["sehr", "viel", "wenig", "kaum"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (would) gern in Deutschland leben, wenn ich die Möglichkeit hätte.",
+        "choices": ["würde", "kann", "möchte", "habe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Glaubst du, dass er ______ (the) Prüfung besteht?",
+        "choices": ["die", "das", "eine", "eine"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn ich ein Auto hätte, ______ (could) ich dich abholen.",
+        "choices": ["könnte", "möchte", "wollte", "wäre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es ______ (were) besser, wenn wir früher ankommen würden.",
+        "choices": ["wäre", "möchte", "könnte", "wollte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich finde es ______ (very) interessant, neue Kulturen zu entdecken.",
+        "choices": ["sehr", "viel", "kaum", "wenig"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hättest du Zeit, wenn ich dich ______ (at) helfe?",
+        "choices": ["bei", "an", "für", "mit"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn wir mehr Übung machen würden, ______ (could) wir besser sprechen.",
+        "choices": ["könnten", "würden", "möchten", "hätten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Ich denke, dass...", "rightId": 1 },
+      "right": { "word": "I don't believe that...", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Es könnte sein, dass...", "rightId": 2 },
+      "right": { "word": "If I were you, I would...", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Ich bin der Meinung, dass...", "rightId": 3 },
+      "right": { "word": "I think that...", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Wenn ich du wäre, würde ich...", "rightId": 4 },
+      "right": { "word": "I am of the opinion that...", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Ich glaube nicht, dass...", "rightId": 5 },
+      "right": { "word": "It could be that...", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Vielleicht sollten wir...", "rightId": 1 },
+      "right": { "word": "I suggest that...", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Ich bin mir nicht sicher, ob...", "rightId": 2 },
+      "right": { "word": "It would be better if...", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Es wäre besser, wenn...", "rightId": 3 },
+      "right": { "word": "In my opinion...", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Ich schlage vor, dass...", "rightId": 4 },
+      "right": { "word": "I'm not sure if...", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Meiner Meinung nach...", "rightId": 5 },
+      "right": { "word": "Maybe we should...", "rightId": 1 }
+
+    },
+  ]
+}
+    ]
+  },
 ];

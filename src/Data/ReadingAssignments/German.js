@@ -146,4 +146,18 @@ export const data = [
         pdf:'https://drive.google.com/file/d/1C73EkLQNI5zrHmmJWKKfUtH1Xwsp8ycs/preview',
         desc:'German Reading Assignments 2 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
     },
+    {
+        id:'22',
+        name:'German Reading Assignment 3 (A2)',
+        level:'Beginners',
+        pdf:'https://drive.google.com/file/d/1bSveqzL7UBfnSp1IC4Wzi3ktFiTE9REq/preview',
+        desc:'German Reading Assignments 3 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    },
+    {
+        id:'23',
+        name:'German Reading Assignment 4 (A2)',
+        level:'Beginners',
+        pdf:'https://drive.google.com/file/d/1LtDI5JwkIzdPxRE6Tc1-w5Zk-ztH2qO_/preview',
+        desc:'German Reading Assignments 4 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+    },
 ]
