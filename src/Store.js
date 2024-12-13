@@ -74,6 +74,9 @@ const unlockedPagesSlice = createSlice({
     unlockedPagesFrench: typeof window !== "undefined" && localStorage.getItem('unlockedPagesFrench')
       ? JSON.parse(localStorage.getItem('unlockedPagesFrench'))
       : ["1","2","3","4","5"],
+      unlockedPagesEnglish: typeof window !== "undefined" && localStorage.getItem('unlockedPagesEnglish')
+      ? JSON.parse(localStorage.getItem('unlockedPagesEnglish'))
+      : ["1","2","3","4","5"],
     unlockedPagesFrenchB1: typeof window !== "undefined" && localStorage.getItem('unlockedPagesFrenchB1')
       ? JSON.parse(localStorage.getItem('unlockedPagesFrenchB1'))
       : ["1","2","3","4","5"],
@@ -114,6 +117,12 @@ const unlockedPagesSlice = createSlice({
             state.unlockedPagesFrench.push(...pageId);
           }
           break;
+          case 'English':
+            unlockedPages = state.unlockedPagesEnglish;
+            if (!unlockedPages.includes(...pageId)) {
+              state.unlockedPagesEnglish.push(...pageId);
+            }
+            break;
           case 'FrenchB1':
             unlockedPages = state.unlockedPagesFrenchB1;
             if (!unlockedPages.includes(...pageId)) {
@@ -508,6 +517,7 @@ store.subscribe(() => {
   localStorage.setItem('completedQuizzes', JSON.stringify(state.finishedQuizzes.completedQuizzes));
 
   localStorage.setItem('unlockedPagesFrench', JSON.stringify(state.unlockedPages.unlockedPagesFrench));
+  localStorage.setItem('unlockedPagesEnglish', JSON.stringify(state.unlockedPages.unlockedPagesEnglish));
   localStorage.setItem('unlockedPagesFrenchB1', JSON.stringify(state.unlockedPages.unlockedPagesFrenchB1));
   localStorage.setItem('unlockedPagesSpanish', JSON.stringify(state.unlockedPages.unlockedPagesSpanish));
   localStorage.setItem('unlockedPagesGerman', JSON.stringify(state.unlockedPages.unlockedPagesGerman));

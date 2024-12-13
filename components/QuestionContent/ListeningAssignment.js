@@ -64,12 +64,25 @@ const ReadingAssignmentWithAudio = ({ audios, questionsPerAudio }) => {
   };
 
   const handleSubmit = () => {
-    const calculatedScore = questionsPerAudio.flat().reduce((total, question, index) => {
-      const audioIndex = Math.floor(index / questionsPerAudio[0].length);
-      const questionIndex = index % questionsPerAudio[0].length;
-      return total + (selectedAnswers[audioIndex]?.[questionIndex] === question.correctAnswer ? 1 : 0);
+    if (audioRef.current) {
+        audioRef.current.pause();
+      }
+
+    const totalScore = questionsPerAudio.reduce((audioScore, questions, audioIndex) => {
+      return (
+        audioScore +
+        questions.reduce((questionScore, question, questionIndex) => {
+          if (
+            selectedAnswers[questionIndex] === question.correctAnswer &&
+            currentAudioIndex === audioIndex
+          ) {
+            return questionScore + 1;
+          }
+          return questionScore;
+        }, 0)
+      );
     }, 0);
-    setScore(calculatedScore);
+    setScore(totalScore);
     setIsEndModalOpen(true);
   };
 
@@ -93,6 +106,11 @@ const ReadingAssignmentWithAudio = ({ audios, questionsPerAudio }) => {
     setCurrentAudioIndex(0);
     setTimeLeft(null);
     setIsStartModalOpen(true);
+
+    if (audioRef.current) {
+        audioRef.current.currentTime = 0; // Reset audio to the beginning
+        audioRef.current.pause(); // Pause it initially
+      }
   };
 
   return (
@@ -112,7 +130,7 @@ const ReadingAssignmentWithAudio = ({ audios, questionsPerAudio }) => {
 
       {/* Questions Section */}
       <div className={styles.questionssection1}>
-        <h2>Questions for Audio {currentAudioIndex + 1}</h2>
+        {/* <h2>Questions for Audio {currentAudioIndex + 1}</h2> */}
         {currentQuestions.map((question, index) => (
           <div key={index} className={styles.question}>
             <p>

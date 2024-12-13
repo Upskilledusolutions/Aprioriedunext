@@ -54,14 +54,14 @@ export const data = [
           "correctAnswer": 1
         },
         {
-          "question": "What is Alice's response when asked about her English skills?",
+          "question": "What was Alice's response after knowing Jean's prefrence over language?",
           "choices": [
-            "Yes, I speak it fluently.",
-            "No, I do not speak English.",
-            "I prefer speaking French.",
-            "I speak English a little."
+            "Okay!",
+            "Fine!",
+            "Good!",
+            "None of the above"
           ],
-          "correctAnswer": 3
+          "correctAnswer": 0
         }
       ],
     ]
