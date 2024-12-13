@@ -5,6 +5,7 @@ export const data = [
         level:'Beginner',
         Title:'A Day in the Life of a Farmer',
         readingText: "Farming is one of the oldest professions in the world. Farmers wake up early in the morning, even before the sun rises, to begin their work. They take care of the animals on the farm, such as cows, chickens, and sheep. Farmers also grow crops like wheat, rice, and vegetables. These crops provide food for people all over the world. \nA farmer's day is full of hard work. They plow the fields, plant seeds, and water the crops. They also protect their plants from pests and bad weather. Farmers use tools and machines like tractors to make their work easier. At the end of the day, farmers feel proud because their work helps feed many people.",
+        audioFiles: ['/Sounds/Test.mp3','/Sounds/Test.mp3','/Sounds/Test.mp3','/Sounds/Test.mp3'],
         questions: [
             {
               question: "What time do farmers usually start their work?",

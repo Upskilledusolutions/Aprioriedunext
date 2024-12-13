@@ -42,10 +42,10 @@ export const quiz = [
         correctAnswer: 4,
       },
       {
-        question: "If someone replies 'pas grand chose' when asked how they are doing, it means",
-        choices: ['not much', 'a lot!', "I don't want to say", 'I want to say'],
+        question: "How do you say 'I'm good' in French?",
+        choices: ['je ne suis pas bon', 'je vais bien', "Je me sens bien", 'je ne me sens pas bien'],
         type: 'MCQs',
-        correctAnswer: 1,
+        correctAnswer: 2,
       },
       {
           question: "How do you say 'good luck!' in French?",
