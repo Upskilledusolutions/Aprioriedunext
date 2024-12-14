@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import styles from '../../../styles/pdflessons.module.css';
-import { data } from '../../../Data/ReadingAssignments/German'; // Import your JSON data
+import { data } from '../../../Data/ListeningAssignments/Spanish'; // Import your JSON data
 import { FaArrowLeftLong } from "react-icons/fa6";
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useDispatch, useSelector } from 'react-redux';
 import { unlockAssignments } from '@/Store';
-import ReadingAssignment from '../../../../components/QuestionContent/ReadingAssignment';
+import ListeningAssignmentWithAudio from '../../../../components/QuestionContent/ListeningAssignment';
 
 const LessonPage = ({ lesson }) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -17,8 +17,8 @@ const LessonPage = ({ lesson }) => {
   const { id } = router.query;
 
   const dispatch = useDispatch();
-  const unlockedPages = useSelector((state) => state.unlockedAssignments.unlockedAssignmentsGerman);
-  const subject = 'German';
+  const unlockedPages = useSelector((state) => state.unlockedAssignments.unlockedAssignmentsEnglish);
+  const subject = 'English';
 
   useEffect(() => {
     if (id) {
@@ -70,35 +70,8 @@ const LessonPage = ({ lesson }) => {
           <div className={styles.headcont}>
             <div className={styles.mainheading}>{lesson.name}</div>
           </div>
-          {/* <p>Level: {lesson.level}</p>
-          <p className={styles.full} onClick={handleToggleFullScreen}>View in full screen</p>
-          <p>{lesson.desc}</p> */}
 
-          <ReadingAssignment Title={lesson.Title} readingText={lesson.readingText} questions={lesson.questions}/>
-
-          {/* <div className={styles.bigcontainer}>
-            <div className={styles.btncontainer}>
-              <div onClick={() => setActive(true)} className={active ? `${styles.btnc}` : `${styles.btnd}`}>PDF</div>
-              <div onClick={() => setActive(false)} className={active ? `${styles.btnd}` : `${styles.btnc}`}>Video</div>
-            </div>
-         {active ?          <section className={isFullScreen ? `${styles.sectioncontainer1}` : `${styles.sectioncontainer}`}>
-            <iframe
-              src={`${lesson.pdf}#toolbar=0&navpanes=0&scrollbar=0`}
-              className={isFullScreen ? `${styles.section1}` : `${styles.section}`}
-              frameBorder="0"
-              width="100%"
-              height="500px"
-            />
-            {isFullScreen && (
-              <div className={styles.close} onClick={handleToggleFullScreen}>
-                <FaArrowLeftLong /> Go Back
-              </div>
-            )}
-            {isFullScreen && watermarkText && (
-              <div className={styles.watermark}>{watermarkText}</div>
-            )}
-          </section> : <div> {lesson.video ? <iframe className={styles.video} width="560" height="315" src={lesson.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> : <div className={styles.error}>Video not available!</div>}</div>} 
-          </div> */}
+          <ListeningAssignmentWithAudio audios={lesson.audios} questionsPerAudio={lesson.questionsPerAudio}/>
 
         </div>
       </main>

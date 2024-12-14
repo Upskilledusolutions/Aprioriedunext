@@ -6,6 +6,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useDispatch, useSelector } from 'react-redux';
 import { unlockAssignments } from '@/Store';
+import ReadingAssignment from '../../../../components/QuestionContent/ReadingAssignment';
 
 const LessonPage = ({ lesson }) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
@@ -69,11 +70,13 @@ const LessonPage = ({ lesson }) => {
           <div className={styles.headcont}>
             <div className={styles.mainheading}>{lesson.name}</div>
           </div>
-          <p>Level: {lesson.level}</p>
+          {/* <p>Level: {lesson.level}</p>
           <p className={styles.full} onClick={handleToggleFullScreen}>View in full screen</p>
-          <p>{lesson.desc}</p>
+          <p>{lesson.desc}</p> */}
 
-          <div className={styles.bigcontainer}>
+          <ReadingAssignment Title={lesson.Title} readingText={lesson.readingText} questions={lesson.questions}/>
+
+          {/* <div className={styles.bigcontainer}>
             <div className={styles.btncontainer}>
               <div onClick={() => setActive(true)} className={active ? `${styles.btnc}` : `${styles.btnd}`}>PDF</div>
               <div onClick={() => setActive(false)} className={active ? `${styles.btnd}` : `${styles.btnc}`}>Video</div>
@@ -95,7 +98,7 @@ const LessonPage = ({ lesson }) => {
               <div className={styles.watermark}>{watermarkText}</div>
             )}
           </section> : <div> {lesson.video ? <iframe className={styles.video} width="560" height="315" src={lesson.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> : <div className={styles.error}>Video not available!</div>}</div>} 
-          </div>
+          </div> */}
 
         </div>
       </main>

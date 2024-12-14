@@ -42,7 +42,6 @@ export default function FrenchQuizes() {
         dispatch(unlockExercise({ subject, exerciseId: multiple }));
     }
   }, [unlockedPage, completedQuizzes1]); // Run this effect when unlocked pages or completed quizzes change
-  console.log(unlockedPage)
   if (!isClient) {
     // Optionally return a loader or nothing until the client is ready
     return null;
