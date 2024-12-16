@@ -1160,4 +1160,568 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '7',
+      name: 'French Exercise - 7 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which of the following is a synonym for 'tourner' in the context of directions?",
+          "choices": ["marcher", "tourner", "suivre", "arrêter"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Where do you typically buy tickets for public transportation?",
+          "choices": ["à l'hôtel", "à la gare", "dans un restaurant", "à l'école"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'Take the bus' in French?",
+          "choices": ["prenez le bus", "allez à la station", "montez dans le bus", "traversez la rue"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the French word for 'intersection'?",
+          "choices": ["rue", "carrefour", "station", "pont"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What should you do if you're at a metro station and want to take the train?",
+          "choices": ["montez dans le bus", "achetez un ticket", "prenez le métro", "attendez à l'arrêt"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Where is the cinema usually located in a city?",
+          "choices": ["à côté du parc", "devant le musée", "à côté du centre commercial", "derrière la gare"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the French word for 'bus stop'?",
+          "choices": ["station de bus", "arrêt de métro", "l'arrêt de tram", "quai"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you give a direction to someone asking for the nearest pharmacy?",
+          "choices": ["Continuez tout droit et tournez à droite.", "Tournez à gauche et marchez tout droit.", "Prenez la rue principale et allez tout droit.", "Prenez à droite et continuez jusqu'à la deuxième rue."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which word describes something that is in front of you?",
+          "choices": ["derrière", "à gauche", "devant", "à droite"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say 'cross the street' in French?",
+          "choices": ["traversez la rue", "marchez sur la rue", "tournez à la rue", "montez dans la rue"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : Pour aller à la gare, tourne à ______ à la rue principale.",
+          "choices": ["gauche", "droite", "tout droit", "derrière"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : ______-vous à la station de métro pour prendre le train.",
+          "choices": ["Attendez", "Allez", "Sortez", "Montez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : L'hôtel est ______ du musée.",
+          "choices": ["devant", "derrière", "entre", "au-dessus"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : Vous devez prendre le bus ______ pour arriver à l'hôpital.",
+          "choices": ["numéro 4", "de nuit", "rapide", "lent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______ la rue à gauche pour voir le parc.",
+          "choices": ["Prenez", "Tournez", "Marchez", "Traversez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : ______-vous tout droit et l'arrêt de bus est juste là.",
+          "choices": ["Allez", "Tournez", "Traversez", "Montez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : Le cinéma se trouve ______ du centre commercial.",
+          "choices": ["devant", "à côté", "derrière", "au-dessous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : Prenez le métro à ______ à la gare.",
+          "choices": ["la sortie", "la station", "la rue", "l'entrée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : ______ votre ticket avant d'entrer dans le tram.",
+          "choices": ["Achetez", "Présentez", "Montez", "Attendez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______-vous à la deuxième rue à gauche.",
+          "choices": ["Allez", "Tournez", "Montez", "Sortez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 2
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Tournez à gauche", "rightId": 1 },
+              "right": { "word": "Cross the bridge", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Allez tout droit", "rightId": 2 },
+              "right": { "word": "Take the first right", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Prenez la première à droite", "rightId": 3 },
+              "right": { "word": "Go straight", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Continuez jusqu'au feu", "rightId": 4 },
+              "right": { "word": "Turn left", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Traversez le pont", "rightId": 5 },
+              "right": { "word": "Continue until the traffic light", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Passez devant l'école", "rightId": 1 },
+              "right": { "word": "Walk to the subway station", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Tournez à l'angle", "rightId": 2 },
+              "right": { "word": "Follow the main street", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Marchez jusqu'à la station de métro", "rightId": 3 },
+              "right": { "word": "Pass in front of the school", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Allez à la gare", "rightId": 4 },
+              "right": { "word": "Turn at the corner", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Suivez la rue principale", "rightId": 5 },
+              "right": { "word": "Go to the train station", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '8',
+      name: 'French Exercise - 8 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Elle adore ______ tôt le matin.",
+          "choices": ["se lever", "lever", "levé", "à lever"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il hésite à ______ sa passion pour le théâtre.",
+          "choices": ["avouer", "avouer de", "avouant", "avoué"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’ai peur de ne pas ______ bien ce rôle au théâtre.",
+          "choices": ["jouer", "jouant", "joué", "jouera"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils préfèrent ______ au parc après le travail.",
+          "choices": ["marcher", "marchant", "marché", "marche"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons décidé de ______ une pièce classique.",
+          "choices": ["regarder", "regardant", "regardé", "regardons"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel mot correspond à 'painting' en français ?",
+          "choices": ["dessiner", "sculpture", "peinture", "théâtre"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel sport utilise une raquette ?",
+          "choices": ["natation", "badminton", "équitation", "randonnée"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "La phrase 'faire du théâtre' signifie :",
+          "choices": ["going hiking", "acting", "playing the guitar", "painting"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si vous aimez les timbres, vous faites :",
+          "choices": ["de la natation", "du dessin", "du yoga", "une collection"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Quel mot désigne un 'museum' en français ?",
+          "choices": ["le parc", "la bibliothèque", "le musée", "la plage"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "J'adore ______ (paint) des tableaux modernes.",
+          "choices": ["peindre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous préférons ______ (spend) le week-end au parc.",
+          "choices": ["passer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils apprennent ______ (focus) en jouant aux échecs.",
+          "choices": ["se concentrer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est passionnée par ______ (read) des romans historiques.",
+          "choices": ["lire"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il commence à ______ (play) le piano régulièrement.",
+          "choices": ["jouer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu veux ______ (try) un nouveau passe-temps, n'est-ce pas ?",
+          "choices": ["essayer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les enfants aiment ______ (play) dehors quand il fait beau.",
+          "choices": ["jouer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’ai décidé de ______ (learn) la danse contemporaine.",
+          "choices": ["apprendre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Est-ce qu’ils envisagent ______ (participate) à des compétitions de natation ?",
+          "choices": ["participer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous aimons ______ (create) des sculptures en argile.",
+          "choices": ["créer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "J'aime chanter", "rightId": 1 },
+              "right": { "word": "Learning to play the piano is difficult", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je préfère peindre", "rightId": 2 },
+              "right": { "word": "I love playing football", "rightId": 3 }
+            },
+            {
+              "left": { "word": "J'adore jouer au football", "rightId": 3 },
+              "right": { "word": "I prefer painting", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Je déteste faire du jogging", "rightId": 4 },
+              "right": { "word": "I like singing", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Apprendre à jouer du piano est difficile", "rightId": 5 },
+              "right": { "word": "I hate jogging", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "J'aime regarder des films", "rightId": 1 },
+              "right": { "word": "I prefer reading novels", "rightId": 3 }
+            },
+            {
+              "left": { "word": "J'ai commencé à courir", "rightId": 2 },
+              "right": { "word": "Painting landscapes is soothing", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je préfère lire des romans", "rightId": 3 },
+              "right": { "word": "I like watching movies", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Écouter de la musique est relaxant", "rightId": 4 },
+              "right": { "word": "I started running", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Peindre des paysages est apaisant", "rightId": 5 },
+              "right": { "word": "Listening to music is relaxing", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '9',
+      name: 'French Exercise - 9 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Que signifie \"le beau-frère\" en anglais ?",
+          "choices": ["Brother-in-law", "Stepbrother", "Cousin", "Uncle"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "\"Qui\" est utilisé pour :",
+          "choices": ["Les sujets uniquement.", "Les objets directs uniquement.", "Les personnes uniquement.", "Les lieux uniquement."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "La fille que joue est ma cousine.",
+            "La fille qui joue est ma cousine.",
+            "La fille dont joue est ma cousine.",
+            "La fille laquelle joue est ma cousine."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment traduit-on \"stepsister\" en français ?",
+          "choices": ["Belle-sœur", "Demi-sœur", "Sœur adoptive", "Sœur cadette"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot utilise-t-on pour remplacer \"de qui\" dans une phrase relative ?",
+          "choices": ["Qui", "Que", "Dont", "Où"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "\"Le grand-père _____ parle est très gentil.\"",
+          "choices": ["que", "dont", "qui", "lequel"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Comment traduit-on \"godmother\" en français ?",
+          "choices": ["Marraine", "Belle-mère", "Sœur", "Tante"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "La maison que je suis née est grande.",
+            "La maison où je suis née est grande.",
+            "La maison dont je suis née est grande.",
+            "La maison laquelle je suis née est grande."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le mot \"parent\" en français signifie :",
+          "choices": [
+            "Un parent biologique uniquement.",
+            "Membre de la famille en général.",
+            "Père uniquement.",
+            "Ami proche."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que signifie \"la belle-sœur\" en anglais ?",
+          "choices": ["Stepsister", "Sister-in-law", "Cousin", "Aunt"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Mon frère, ______ habite à Paris, est professeur.",
+          "choices": ["qui", "que", "dont", "lequel"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La femme ______ tu as rencontrée hier est ma cousine.",
+          "choices": ["que", "qui", "dont", "où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mes amis, ______ je vois souvent, sont très gentils.",
+          "choices": ["que", "qui", "dont", "lequel"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le film ______ nous avons regardé était ennuyeux.",
+          "choices": ["que", "qui", "dont", "auquel"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'homme ______ a écrit ce livre est célèbre.",
+          "choices": ["qui", "que", "dont", "lequel"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Voici ma tante, ______ est très sympathique.",
+          "choices": ["qui", "que", "dont", "laquelle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le mariage ______ nous avons assisté hier était magnifique.",
+          "choices": ["auquel", "auxquels", "dont", "que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mes parents, ______ j'écris souvent, vivent en Inde.",
+          "choices": ["auxquels", "auquel", "dont", "où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C'est une histoire ______ j'ai entendu parler à la radio.",
+          "choices": ["dont", "que", "qui", "où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Voici l'ami ______ je t'ai parlé hier.",
+          "choices": ["dont", "qui", "que", "auquel"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "C'est mon frère qui habite à Paris.", "rightId": 1 },
+              "right": { "word": "This is the woman whom I met yesterday.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Voici la femme que j'ai rencontrée hier.", "rightId": 2 },
+              "right": { "word": "This is the friend who always helps me.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "C'est l'ami qui m'aide toujours.", "rightId": 3 },
+              "right": { "word": "This is the uncle who gave me this gift.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "La maison que nous avons visitée est magnifique.", "rightId": 4 },
+              "right": { "word": "This is my brother who lives in Paris.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "C'est l'oncle qui m'a offert ce cadeau.", "rightId": 5 },
+              "right": { "word": "The house that we visited is beautiful.", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "La cousine que tu as invitée est très gentille.", "rightId": 1 },
+              "right": { "word": "The children that we saw are playing in the garden.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "C'est ma sœur qui travaille dans un hôpital.", "rightId": 2 },
+              "right": { "word": "The letter that I wrote is for my mother.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Les enfants que nous avons vus jouent dans le jardin.", "rightId": 3 },
+              "right": { "word": "The cousin whom you invited is very kind.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "C'est le voisin qui organise la fête.", "rightId": 4 },
+              "right": { "word": "This is my sister who works in a hospital.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "La lettre que j'ai écrite est pour ma mère.", "rightId": 5 },
+              "right": { "word": "This is the neighbor who is organizing the party.", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
 ]

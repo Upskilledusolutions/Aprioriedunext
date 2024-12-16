@@ -40,4 +40,25 @@ export const data = [{
     pdf:'https://drive.google.com/file/d/1SqjLTJIZefMP-Lp50CzDAUVTn5FZiEw5/preview',
     desc:'French Foundation Lesson 6 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
+{
+    id:'7',
+    name:'French Lesson 7 (B1)',
+    level:'Intermediate',
+    pdf:'https://drive.google.com/file/d/1zMbHhAGfm1aA_Dmp6SpRwNjTG-pMg2US/preview',
+    desc:'French Foundation Lesson 7 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'8',
+    name:'French Lesson 8 (B1)',
+    level:'Intermediate',
+    pdf:'https://drive.google.com/file/d/1ui1rfzBaE4QmJc55j3ptYx3S2RgQiHao/preview',
+    desc:'French Foundation Lesson 8 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'9',
+    name:'French Lesson 9 (B1)',
+    level:'Intermediate',
+    pdf:'https://drive.google.com/file/d/1h8vEIsPJ1-HERQxFD1-tKgjAEyv-Kcxa/preview',
+    desc:'French Foundation Lesson 9 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
 ]
