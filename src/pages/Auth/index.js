@@ -16,11 +16,11 @@ export default function Login() {
 
   // Simulated user database
   const usersDB = [
-    { userId: 'mastertrainer1', password: 'upskilleduLC1', name: '', type: 'all' },
-    { userId: 'mastertrainer2', password: 'upskilleduLC2', name: '', type: 'all' },
-    { userId: 'mastertrainer3', password: 'upskilleduLC3', name: '', type: 'all' },
-    { userId: 'mastertrainer4', password: 'upskilleduLC4', name: '', type: 'all' },
-    { userId: 'mastertrainer5', password: 'upskilleduLC5', name: '', type: 'all' },
+    { userId: 'mastertrainer1', password: 'Chocolat@1474', name: '', type: 'all' },
+    { userId: 'mastertrainer2', password: 'Amigo@2024!', name: '', type: 'all' },
+    { userId: 'mastertrainer3', password: 'Liberté@3891', name: '', type: 'all' },
+    { userId: 'mastertrainer4', password: 'Baum@6720!', name: '', type: 'all' },
+    { userId: 'mastertrainer5', password: 'Frere@8461#', name: '', type: 'all' },
     { "userId": "linguafranca50", "password": "BonSoir5830", "name": "", "type": "french", "next": "french2" },
     { "userId": "linguafranca53", "password": "BonSoir5829", "name": "", "type": "french" },
     // { "userId": "linguafranca59", "password": "MerciBien7339", "name": "", "type": "french" },
