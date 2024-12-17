@@ -1724,4 +1724,559 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '10',
+      name: 'French Exercise - 10 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Quel mot décrit une forte douleur au ventre ?",
+          "choices": ["une fracture", "une fièvre", "une crise cardiaque", "une crampe"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Si quelqu’un est inconscient, que devez-vous faire ?",
+          "choices": ["Lui donner de l'eau.", "Le laisser seul.", "Appeler une ambulance.", "Lui crier dessus."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Comment dirait-on : \"I would call a doctor\" en français ?",
+          "choices": ["J'appelle un médecin.", "J’appellerais un médecin.", "Je vais appeler un médecin.", "Je suis médecin."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est le terme pour un médicament contre la douleur ?",
+          "choices": ["un antibiotique", "un antidouleur", "un sirop", "une pommade"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Vous avez mal à la tête. Que prenez-vous ?",
+          "choices": ["un comprimé", "une béquille", "une radio", "un pansement"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel numéro appelez-vous en France en cas d'urgence médicale ?",
+          "choices": ["15", "17", "18", "112"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vous étiez en retard pour l'hôpital, vous ________ un taxi.",
+          "choices": ["prendriez", "prenez", "prendrez", "prenniez"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Qu'est-ce qu'une entorse ?",
+          "choices": ["une brûlure", "une coupure", "une fracture", "une foulure"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Comment traduire \"She injured her knee\" ?",
+          "choices": ["Elle s'est blessée au coude.", "Elle s'est blessée au genou.", "Elle s'est cassée la jambe.", "Elle a mal aux oreilles."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Vous devriez appeler la police si vous ________ en danger.",
+          "choices": ["étiez", "êtes", "seriez", "serez"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que signifie \"la belle-sœur\" en anglais ?",
+          "choices": ["Stepsister", "Sister-in-law", "Cousin", "Aunt"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "En cas d'urgence, je devrais appeler le ______ (ambulance).",
+          "choices": ["ambulance"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je suis désolé, mais est-ce que vous ______ (pouvoir - conditionnel) m'aider ?",
+          "choices": ["pourriez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j'avais un accident, je ______ (contacter - conditionnel) immédiatement un médecin.",
+          "choices": ["contacterais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'hôpital le plus proche est situé à dix ______ (minutes).",
+          "choices": ["minutes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a mal à la ______ (jambe) après sa chute.",
+          "choices": ["jambe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Excusez-moi, où est la pharmacie la plus ______ (proche)?",
+          "choices": ["proche"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est important de ______ (avoir) une assurance médicale en voyage.",
+          "choices": ["avoir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "En cas de fièvre, vous devriez prendre un ______ (médicament).",
+          "choices": ["médicament"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vous vous sentiez mal, je ______ (appeler - conditionnel) le médecin. ",
+          "choices": ["appellerais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est tombée et elle a une ______ (blessure) à la tête.",
+          "choices": ["blessure"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "J'ai besoin d'une ambulance.", "rightId": 1 },
+              "right": { "word": "Call the police, please.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Appelez la police, s'il vous plaît.", "rightId": 2 },
+              "right": { "word": "She is unconscious.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Elle est inconsciente.", "rightId": 3 },
+              "right": { "word": "He twisted his ankle.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Avez-vous de la fièvre ?", "rightId": 4 },
+              "right": { "word": "I need an ambulance.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Il s'est foulé la cheville.", "rightId": 5 },
+              "right": { "word": "Do you have a fever?.", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je me suis coupé le doigt.", "rightId": 1 },
+              "right": { "word": "He is bleeding.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "J'ai mal au ventre.", "rightId": 2 },
+              "right": { "word": "Take these tablets.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il saigne beaucoup.", "rightId": 3 },
+              "right": { "word": "I cut my finger.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Elle a mal à la tête.", "rightId": 4 },
+              "right": { "word": "I have a stomach ache.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Prenez ces comprimés.", "rightId": 5 },
+              "right": { "word": "She has a headache.", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '11',
+      name: 'French Exercise - 11 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Quel mot désigne l’argent que l’on met de côté ?",
+          "choices": ["un salaire", "une dette", "une épargne", "une dépense"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Qu’est-ce qu’un distributeur automatique ?",
+          "choices": ["Une machine pour imprimer des billets", "Une machine pour retirer de l’argent", "Un bureau de change", "Un guichet bancaire"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si vous avez des difficultés financières, vous êtes en…",
+          "choices": ["solde positif", "déficit", "découvert bancaire", "remboursement"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel adverbe de quantité correspond à “a little” ?",
+          "choices": ["beaucoup", "peu", "trop", "assez"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel terme signifie le taux auquel vous échangez une devise contre une autre ?",
+          "choices": ["le taux de change", "le taux d’intérêt", "le montant", "le découvert"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si quelqu’un a “un prêt étudiant”, que doit-il faire ?",
+          "choices": ["Recevoir de l’argent", "Payer des intérêts", "Épargner de l’argent", "Retirer de l’argent"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que signifie “faire des économies” ?",
+          "choices": ["Dépenser tout son argent", "Gagner un salaire élevé", "Mettre de l’argent de côté", "Prendre un prêt bancaire"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel document la banque envoie-t-elle chaque mois pour résumer les transactions ?",
+          "choices": ["une carte bancaire", "un relevé bancaire", "un prêt", "un chèque"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle devise utilise-t-on en France ?",
+          "choices": ["le dollar", "la livre", "l’euro", "le yen"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel adverbe complète : “Il dépense ________ d’argent en vêtements” ?",
+          "choices": ["trop", "assez", "peu", "beaucoup"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’ai retiré ______ (a lot) d’argent au distributeur automatique.",
+          "choices": ["beaucoup", "trop", "peu", "assez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle dépense ______ (too much) pour ses loisirs chaque mois.",
+          "choices": ["trop", "beaucoup", "assez", "peu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour ouvrir un compte bancaire, vous devez fournir ______ (several) documents.",
+          "choices": ["plusieurs", "peu", "assez", "beaucoup"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je voudrais déposer ______ (a bit of) argent sur mon compte.",
+          "choices": ["un peu de", "trop de", "beaucoup de", "peu de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il reste ______ (little) d’argent dans mon portefeuille après avoir payé les factures.",
+          "choices": ["peu", "beaucoup", "assez", "trop"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons économisé ______ (enough) pour notre voyage en Europe.",
+          "choices": ["assez", "beaucoup", "trop", "peu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les étudiants ont besoin de ______ (a lot of) aide financière pour leurs études.",
+          "choices": ["beaucoup de", "un peu de", "peu de", "assez de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il faut toujours vérifier le ______ (pay) de votre compte.",
+          "choices": ["solde", "taux", "montant", "découvert"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avant de prêter de l’argent, il est important de connaître le ______ (rate) d’intérêt.",
+          "choices": ["taux", "solde", "montant", "épargne"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vais échanger des roupies contre des ______ (euros) à la banque.",
+          "choices": ["euros", "dollars", "livres", "yens"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "le distributeur automatique", "rightId": 1 },
+              "right": { "word": "student loan", "rightId": 3 }
+            },
+            {
+              "left": { "word": "un compte épargne", "rightId": 2 },
+              "right": { "word": "to save money", "rightId": 5 }
+            },
+            {
+              "left": { "word": "un prêt étudiant", "rightId": 3 },
+              "right": { "word": "savings account", "rightId": 2 }
+            },
+            {
+              "left": { "word": "un taux d’intérêt", "rightId": 4 },
+              "right": { "word": "ATM", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Économiser de l’argent", "rightId": 5 },
+              "right": { "word": "interest rate", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "un découvert bancaire", "rightId": 1 },
+              "right": { "word": "bank statement", "rightId": 5 }
+            },
+            {
+              "left": { "word": "le taux de change", "rightId": 2 },
+              "right": { "word": "to withdraw money", "rightId": 3 }
+            },
+            {
+              "left": { "word": "retirer de l’argent", "rightId": 3 },
+              "right": { "word": "exchange rate", "rightId": 2 }
+            },
+            {
+              "left": { "word": "une carte de crédit", "rightId": 4 },
+              "right": { "word": "overdraft", "rightId": 1 }
+            },
+            {
+              "left": { "word": "un relevé bancaire", "rightId": 5 },
+              "right": { "word": "credit card", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '12',
+      name: 'French Exercise - 12 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Quel mot désigne une information fausse partagée intentionnellement ?",
+          "choices": ["un reportage", "une fausse nouvelle", "une conférence de presse", "un journal"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle est la voix passive de “Le journaliste écrit l’article” ?",
+          "choices": ["L’article a écrit par le journaliste.", "L’article est écrit par le journaliste.", "Le journaliste est écrit par l’article.", "L’article écrit par le journaliste."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Où trouve-t-on des actualités diffusées en continu ?",
+          "choices": ["Dans un journal papier", "Sur une chaîne d’information", "Dans une revue littéraire", "Sur une affiche publicitaire"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est le rôle principal d’un “présentateur” ?",
+          "choices": ["Rédiger des articles", "Présenter les actualités", "Organiser des conférences de presse", "Contrôler les informations"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot désigne une émission diffusée en temps réel ?",
+          "choices": ["une émission enregistrée", "un reportage", "une émission en direct", "une publicité"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle phrase est à la voix passive ?",
+          "choices": ["Les journalistes écrivent les nouvelles.", "Les nouvelles sont écrites par les journalistes.", "Les journalistes vont écrire les nouvelles.", "Les nouvelles écrivent les journalistes."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment appelle-t-on un document officiel envoyé par une organisation aux médias ?",
+          "choices": ["un reportage", "un communiqué de presse", "une chaîne d’information", "une actualité"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que signifie “actualités de dernière minute” ?",
+          "choices": ["Des actualités anciennes", "Des informations importantes", "Des informations récentes et urgentes", "Une revue de presse"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel terme est utilisé pour décrire les médias en ligne ?",
+          "choices": ["la presse écrite", "les médias numériques", "la radio", "la télévision"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel outil utilise-t-on pour regarder les actualités à la télévision ?",
+          "choices": ["une radio", "un journal télévisé", "un reportage", "une publicité"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Les nouvelles sont ________ (publier) chaque matin dans le journal local.",
+          "choices": ["publiées"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’article est ________ (écrire) par un journaliste très connu.",
+          "choices": ["écrit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les résultats de l’enquête seront ________ (annoncer) demain à la télévision.",
+          "choices": ["annoncés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La conférence de presse a été ________ (organiser) par le gouvernement hier.",
+          "choices": ["organisée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Une fausse nouvelle est souvent ________ (partager) sur les réseaux sociaux.",
+          "choices": ["partagée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La vérité doit toujours être ________ (dire) dans les médias.",
+          "choices": ["dite"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les émissions de télévision sont ________ (regarder) par des millions de personnes chaque jour.",
+          "choices": ["regardées"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce reportage a été ________ (diffuser) en direct hier soir.",
+          "choices": ["diffusé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les journalistes ________ (inviter) à poser leurs questions après le discours.",
+          "choices": ["sont invités"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les images du tremblement de terre ont été ________ (montrer) sur toutes les chaînes d’information.",
+          "choices": ["montrées"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "un journal télévisé", "rightId": 1 },
+              "right": { "word": "news anchor", "rightId": 4 }
+            },
+            {
+              "left": { "word": "une fausse nouvelle", "rightId": 2 },
+              "right": { "word": "news channel", "rightId": 5 }
+            },
+            {
+              "left": { "word": "un reportage", "rightId": 3 },
+              "right": { "word": "fake news", "rightId": 2 }
+            },
+            {
+              "left": { "word": "un présentateur", "rightId": 4 },
+              "right": { "word": "news program", "rightId": 1 }
+            },
+            {
+              "left": { "word": "une chaîne d’information", "rightId": 5 },
+              "right": { "word": "breaking news", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "une conférence de presse", "rightId": 1 },
+              "right": { "word": "breaking news", "rightId": 5 }
+            },
+            {
+              "left": { "word": "un communiqué de presse", "rightId": 2 },
+              "right": { "word": "live broadcast", "rightId": 3 }
+            },
+            {
+              "left": { "word": "une émission en direct", "rightId": 3 },
+              "right": { "word": "press release", "rightId": 2 }
+            },
+            {
+              "left": { "word": "un article de journal", "rightId": 4 },
+              "right": { "word": "press conference", "rightId": 1 }
+            },
+            {
+              "left": { "word": "les actualités de dernière minute", "rightId": 5 },
+              "right": { "word": "newspaper article", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
 ]
