@@ -6,6 +6,13 @@ export const youdata = [
     title: "English Conversation 1 (A1)",
     desc: "Welcome to our first English conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two English speakers.",
   },
+  {
+    id: '2',
+    url: "/youtube/EnCA102.png",
+    youtube: "https://www.youtube.com/embed/Qqt3ZHXN5ek?si=tkvkiGBLpnWR4d-w",
+    title: "English Conversation 2 (A1)",
+    desc: "Welcome to our first English conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two English speakers.",
+  },
   ];
   
   
