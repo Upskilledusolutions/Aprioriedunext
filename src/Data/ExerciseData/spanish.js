@@ -7870,4 +7870,190 @@ export const quiz = [
       
     ]
   },
+  {
+    quiz: '31',
+    name: 'Spanish Exercise - 12 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Cómo se dice 'fireworks' en español?",
+        "choices": ["calabaza", "fuegos artificiales", "fiesta", "comparsa"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué comida tradicional se come en México durante el Día de los Muertos?",
+        "choices": ["tacos", "paella", "pan de muerto", "pollo asado"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la mejor descripción de 'comparsa'?",
+        "choices": ["un baile tradicional", "un desfile religioso", "un grupo de personas disfrazadas", "una comida navideña"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué bebida tradicional se toma durante Navidad en España?",
+        "choices": ["vino tinto", "sidra", "champán", "horchata"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es el plato principal tradicional en una cena de Nochebuena?",
+        "choices": ["jamón", "pavo", "tortilla", "empanada"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se compara 'más grande' con 'el más grande'?",
+        "choices": ["bigger / the biggest", "larger / the largest", "smaller / the smallest", "both a and b"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué tradición ocurre durante la Feria de Abril en Sevilla?",
+        "choices": ["Lanzar tomates", "Bailar sevillanas", "Comer paella", "Hacer procesiones"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es el significado de 'rosas' en el día de Sant Jordi?",
+        "choices": ["libros", "flores", "bailes", "regalos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué celebración marca el 31 de diciembre en España?",
+        "choices": ["nochebuena", "nochevieja", "día de los Reyes Magos", "la Semana Santa"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué evento incluye el uso de máscaras y disfraces?",
+        "choices": ["la Feria de Abril", "el Carnaval", "el Día de los Muertos", "la Nochebuena"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "La ______ es una fiesta popular en España donde las personas lanzan tomates. (Hint: festival name)",
+        "choices": ["Tomatina", "Cava", "Calaveras", "Regalos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Durante Navidad, solemos comer turrón y ______ (a sparkling drink).",
+        "choices": ["Cava", "Tomatina", "Pavo", "Procesiones"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En México, el Día de los Muertos se celebra con pan de muerto y ______ (decorations).",
+        "choices": ["Calaveras", "Arroz", "Encierros", "Fuegos artificiales"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los niños esperan que los Reyes Magos les traigan ______ (gifts) el 6 de enero.",
+        "choices": ["Regalos", "Fuegos artificiales", "Cava", "Turrón"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El ______ (turkey) es un plato tradicional para la cena de Navidad en España.",
+        "choices": ["Pavo", "Arroz", "Pan de muerto", "Jamón"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Durante la Semana Santa, las personas asisten a ______ (religious parades).",
+        "choices": ["Procesiones", "Turrón", "Tomatina", "Cabalgata"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En las bodas, los invitados suelen lanzar ______ (rice) para desear buena suerte.",
+        "choices": ["Arroz", "Roscas", "Cava", "Pavo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La fiesta de San Fermín se celebra con ______ (bull runs) en Pamplona.",
+        "choices": ["Encierros", "Fuegos artificiales", "Procesiones", "Cava"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Durante la Feria de Abril en Sevilla, las personas bailan ______ (a traditional dance).",
+        "choices": ["Sevillanas", "Cava", "Arroz", "Turrón"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En Cataluña, el 23 de abril se celebra el día de Sant Jordi regalando libros y ______ (roses).",
+        "choices": ["Rosas", "Fuegos artificiales", "Pavo", "Tomatina"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "nochevieja", "rightId": 1 },
+            "right": { "word": "alimento", "rightId": 5 }
+          },
+          {
+            "left": { "word": "comparsa", "rightId": 2 },
+            "right": { "word": "pumpkin", "rightId": 4 }
+          },
+          {
+            "left": { "word": "villancicos", "rightId": 3 },
+            "right": { "word": "epiphany", "rightId": 1 }
+          },
+          {
+            "left": { "word": "calabaza", "rightId": 4 },
+            "right": { "word": "christmas carols", "rightId": 2 }
+          },
+          {
+            "left": { "word": "food", "rightId": 5 },
+            "right": { "word": "fireworks", "rightId": 3 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "feria", "rightId": 1 },
+            "right": { "word": "parade", "rightId": 3 }
+          },
+          {
+            "left": { "word": "procesión", "rightId": 2 },
+            "right": { "word": "celebration", "rightId": 5 }
+          },
+          {
+            "left": { "word": "cabalgata", "rightId": 3 },
+            "right": { "word": "fair", "rightId": 1 }
+          },
+          {
+            "left": { "word": "fiesta", "rightId": 4 },
+            "right": { "word": "religious procession", "rightId": 2 }
+          },
+          {
+            "left": { "word": "celebración", "rightId": 5 },
+            "right": { "word": "party", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
 ];
