@@ -107,6 +107,7 @@ export const data = [{
     name:'Spanish Lesson 14 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1Ejrkq6yKjE9wPXNLuE3Zu7bCxID6zXGb/preview',
+    video:'https://www.youtube.com/embed/0MeKKNVpk44?si=fcG9_fLYP-sI_De1',
     desc:'Spanish Foundation Lesson 14 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {

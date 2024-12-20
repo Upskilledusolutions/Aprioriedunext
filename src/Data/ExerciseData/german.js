@@ -6536,4 +6536,205 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '24',
+    name: 'German Exercise - 5 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Wie spät ist es?",
+        "choices": ["Es ist Montag", "Es ist fünf Uhr", "Es regnet", "Es ist warm"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was machst du am Wochenende?",
+        "choices": ["Ich lerne für die Prüfung", "Ich esse ein Buch", "Ich tanze das Fenster", "Ich schlafe die Straße"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welche Aktivität ist dein Hobby?",
+        "choices": ["tanzen", "frühling", "arbeiten", "regen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was möchten Sie trinken?",
+        "choices": ["Ein Buch lesen", "Wasser bitte", "Einen Film schauen", "Es ist kalt"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wann beginnt der Unterricht?",
+        "choices": ["Um neun Uhr", "Mit dem Zug", "In der Küche", "Ich spiele Fußball"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie oft trainierst du?",
+        "choices": ["Jeden Tag", "Am Tisch", "Mit der Katze", "Der Baum ist groß"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn ich mehr Zeit hätte, ...",
+        "choices": ["lerne ich Klavier", "hätte ich gelernt Klavier", "würde ich Klavier lernen", "lerne Klavier ich"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Könnten Sie mir sagen, wo ...",
+        "choices": ["die Bibliothek ist?", "einen Film schauen?", "das Wetter ist warm?", "der Tisch liest?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was machst du, wenn es regnet?",
+        "choices": ["Ich spiele draußen", "Ich bleibe zu Hause", "Ich klettere die Sonne", "Ich fahre das Meer"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wann sind die Ferien?",
+        "choices": ["Im Sommer", "Bei der Post", "Neben der Lampe", "Mit dem Wasser"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich denke, dass ______ (the) Wetter heute schön ist.",
+        "choices": ["das", "der", "die", "ein"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (gehen) jeden Morgen joggen. (I go jogging every morning.)",
+        "choices": ["gehe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn ich Zeit hätte, ______ (lernen) ich gerne eine neue Sprache. (If I had time, I would like to learn a new language.)",
+        "choices": ["würde lernen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ (spielen) Fußball nach der Schule, oder? (You play football after school, right?)",
+        "choices": ["spielst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (möchten) nächstes Jahr nach Deutschland reisen. (We would like to travel to Germany next year.)",
+        "choices": ["möchten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ (lesen) jeden Abend ein Buch. (He reads a book every evening.)",
+        "choices": ["liest"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ______ (können) das Fenster öffnen, bitte? (Could you open the window, please?)",
+        "choices": ["könnten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (haben) gerne mehr Freizeit für meine Hobbys. (I would like to have more free time for my hobbies.)",
+        "choices": ["hätte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wann ______ (beginnen) der Deutschkurs? (When does the German course start?)",
+        "choices": ["beginnt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Könnten Sie mir bitte ______ (zeigen), wo das Museum ist? (Could you please show me where the museum is?)",
+        "choices": ["zeigen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Am Wochenende ______ (treffen) wir unsere Freunde im Park. (On the weekend, we meet our friends in the park.)",
+        "choices": ["treffen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Bücher lesen", "rightId": 1 },
+      "right": { "word": "Watching a movie", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Einen Ausflug machen", "rightId": 2 },
+      "right": { "word": "At 7 o’clock in the morning", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Es tut mir leid", "rightId": 3 },
+      "right": { "word": "Reading books", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Einen Film schauen", "rightId": 4 },
+      "right": { "word": "I am sorry", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Um 7 Uhr morgens", "rightId": 5 },
+      "right": { "word": "Going on a trip", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Fahrrad fahren", "rightId": 1 },
+      "right": { "word": "In the afternoon", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Könnten Sie bitte helfen?", "rightId": 2 },
+      "right": { "word": "Finding a hobby", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Ein Hobby finden", "rightId": 3 },
+      "right": { "word": "Thank you very much", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Nachmittags", "rightId": 4 },
+      "right": { "word": "Could you please help?", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Vielen Dank", "rightId": 5 },
+      "right": { "word": "Riding a bicycle", "rightId": 1 }
+
+    },
+  ]
+}
+    ]
+  },
 ];
