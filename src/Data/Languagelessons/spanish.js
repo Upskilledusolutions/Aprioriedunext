@@ -115,6 +115,7 @@ export const data = [{
     name:'Spanish Lesson 15 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1l7K5izylH1tTpAFpEjd4lOQ57lc-x_LD/preview',
+    video:'https://www.youtube.com/embed/vby91GUK-hs?si=Xj_T-EAlkH9orMbL',
     desc:'Spanish Foundation Lesson 15 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
