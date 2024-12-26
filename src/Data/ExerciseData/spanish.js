@@ -8056,4 +8056,190 @@ export const quiz = [
       
     ]
   },
+  {
+    quiz: '32',
+    name: 'Spanish Exercise - 13 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Qué palabra significa 'recycling' en español?",
+        "choices": ["Naturaleza", "Reciclaje", "Basura", "Tormenta"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se dice 'forest' en español?",
+        "choices": ["Río", "Árbol", "Bosque", "Contaminación"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué es un ejemplo de energía renovable?",
+        "choices": ["Carbón", "Petróleo", "Energía solar", "Plástico"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Si el clima ______ (cambiar), los animales no tendrían suficiente comida.",
+        "type": "MCQs",
+        "choices": ["cambia", "cambiara", "cambiaría", "cambió"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué fenómeno está relacionado con el aumento de las temperaturas globales?",
+        "type": "MCQs",
+        "choices": ["Reciclaje", "Cambio climático", "Tormenta", "Contaminación"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si pudieras elegir, ¿dónde vivirías?",
+        "choices": ["En la ciudad", "En un bosque", "En una oficina", "En una fábrica"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la mejor forma de reducir la basura en el medio ambiente?",
+        "type": "MCQs",
+        "choices": ["Tirarla al océano", "Quemarla", "Reciclarla", "Guardarla"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cómo se llama el gas principal responsable del calentamiento global?",
+        "type": "MCQs",
+        "choices": ["Oxígeno", "Dióxido de carbono", "Hidrógeno", "Nitrógeno"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si plantamos más árboles, ¿qué beneficio tendremos?",
+        "choices": ["Más madera para quemar", "Aire más limpio", "Menos oxígeno", "Más basura"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de estos animales vive principalmente en el océano?",
+        "type": "MCQs",
+        "choices": ["León", "Ballena", "Gato", "Águila"],
+        "correctAnswer": 2
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Si yo fuera un animal, sería un ______ (animal) que vive en el bosque.",
+        "choices": ["animal", "animal", "animal", "animal"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (rain) es importante para la agricultura.",
+        "choices": ["lluvia", "lluvia", "lluvia", "lluvia"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si cuidamos los ______ (trees), tendremos aire más limpio.",
+        "choices": ["árboles", "árboles", "árboles", "árboles"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El calentamiento global afecta a los ______ (glaciers) en todo el mundo.",
+        "choices": ["glaciares", "glaciares", "glaciares", "glaciares"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si plantáramos más ______ (flowers), los jardines serían más hermosos.",
+        "choices": ["flores", "flores", "flores", "flores"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Una ______ (storm) fuerte puede causar muchos problemas en la ciudad.",
+        "choices": ["tormenta", "tormenta", "tormenta", "tormenta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El ______ (recycling) es una forma de proteger el medio ambiente.",
+        "choices": ["reciclaje", "reciclaje", "reciclaje", "reciclaje"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si pudieras vivir en la naturaleza, ¿vivirías cerca de un ______ (river) o en las montañas?",
+        "choices": ["río", "río", "río", "río"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El cambio ______ (climatic) es un problema mundial que debemos resolver.",
+        "choices": ["climático", "climático", "climático", "climático"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si no reciclamos, habrá más ______ (trash) en los océanos.",
+        "choices": ["basura", "basura", "basura", "basura"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "contaminación", "rightId": 1 },
+            "right": { "word": "renewable energy", "rightId": 3 }
+          },
+          {
+            "left": { "word": "bosque", "rightId": 2 },
+            "right": { "word": "global warming", "rightId": 4 }
+          },
+          {
+            "left": { "word": "energía renovable", "rightId": 3 },
+            "right": { "word": "pollution", "rightId": 1 }
+          },
+          {
+            "left": { "word": "calentamiento", "rightId": 4 },
+            "right": { "word": "nature", "rightId": 5 }
+          },
+          {
+            "left": { "word": "naturaleza", "rightId": 5 },
+            "right": { "word": "forest", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "recursos naturales", "rightId": 1 },
+            "right": { "word": "climate change", "rightId": 3 }
+          },
+          {
+            "left": { "word": "tormenta", "rightId": 2 },
+            "right": { "word": "ocean", "rightId": 5 }
+          },
+          {
+            "left": { "word": "cambio climático", "rightId": 3 },
+            "right": { "word": "natural resources", "rightId": 1 }
+          },
+          {
+            "left": { "word": "reciclaje", "rightId": 4 },
+            "right": { "word": "storm", "rightId": 2 }
+          },
+          {
+            "left": { "word": "océano", "rightId": 5 },
+            "right": { "word": "recycling", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
 ];
