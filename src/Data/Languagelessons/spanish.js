@@ -123,6 +123,7 @@ export const data = [{
     name:'Spanish Lesson 16 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1baeRgURyfa1x4VXrTPfoK98O7Nk-tDfA/preview',
+    video:'https://www.youtube.com/embed/UArw7LxMfdY?si=mnSxaVr3Kjl2TZ97',
     desc:'Spanish Foundation Lesson 16 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
