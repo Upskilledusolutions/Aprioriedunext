@@ -6737,4 +6737,199 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '25',
+    name: 'German Exercise - 6 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Welches Verkehrsmittel fliegt?",
+        "choices": ["Der Zug", "Das Flugzeug", "Die Straßenbahn", "Das Taxi"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was findet man am Bahnhof?",
+        "choices": ["Das Flugzeug", "Der Fahrplan", "Die Kreuzfahrt", "Der Reisepass"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches Verkehrsmittel hat keinen Fahrer?",
+        "choices": ["Das Taxi", "Der Zug", "Das Flugzeug", "Die Straßenbahn"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Womit reist man auf dem Wasser?",
+        "choices": ["Die Straßenbahn", "Der Bus", "Die Kreuzfahrt", "Der Zug"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wo checkt man ein, bevor man fliegt?",
+        "choices": ["Am Bahnhof", "An der Bushaltestelle", "Am Flughafen", "Im Taxi"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Verkehrsmittel braucht einen Fahrplan?",
+        "choices": ["Der Zug", "Der Reisepass", "Die Kreuzfahrt", "Das Gepäck"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was braucht man, um in ein anderes Land zu reisen?",
+        "choices": ["Der Fahrplan", "Der Reisepass", "Der Bahnhof", "Der Bus"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist ein Gepäckstück?",
+        "choices": ["Der Fahrplan", "Der Reisepass", "Das Gepäck", "Die Straßenbahn"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Verkehrsmittel hat Reifen und fährt auf der Straße?",
+        "choices": ["Der Zug", "Das Taxi", "Das Flugzeug", "Die Kreuzfahrt"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was benutzt man, um Informationen über Zugzeiten zu finden?",
+        "choices": ["Der Bahnhof", "Der Reisepass", "Der Fahrplan", "Das Gepäck"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Morgen __________ wir mit dem Zug nach Berlin fahren. (Hint: werden)",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich __________ ein Auto mieten, um die Stadt zu erkunden. (Hint: werden)",
+        "choices": ["werde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du __________ am Flughafen auf mich warten. (Hint: werden)",
+        "choices": ["wirst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir __________ pünktlich an der Bushaltestelle sein. (Hint: werden)",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Eltern __________ nächstes Jahr nach Europa reisen. (Hint: werden)",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie __________ ihr Gepäck am Schalter abgeben. (Hint: werden)",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir __________ eine Kreuzfahrt nach Norwegen machen. (Hint: werden)",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr __________ im Hotel einchecken, sobald ihr ankommt. (Hint: werden)",
+        "choices": ["werdet"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich __________ ein Ticket für den Nachtzug kaufen. (Hint: werden)",
+        "choices": ["werde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du __________ den Fahrplan überprüfen, bevor du gehst. (Hint: werden)",
+        "choices": ["wirst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "der Zug", "rightId": 1 },
+      "right": { "word": "the train station", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "die Bushaltestelle", "rightId": 2 },
+      "right": { "word": "the luggage", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "das Flugzeug", "rightId": 3 },
+      "right": { "word": "the train", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "das Gepäck", "rightId": 4 },
+      "right": { "word": "the airplane", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "der Bahnhof", "rightId": 5 },
+      "right": { "word": "the bus stop", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "die Straßenbahn", "rightId": 1 },
+      "right": { "word": "the timetable", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "das Taxi", "rightId": 2 },
+      "right": { "word": "the cruise", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "die Kreuzfahrt", "rightId": 3 },
+      "right": { "word": "the passport", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "der Fahrplan", "rightId": 4 },
+      "right": { "word": "the taxi", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "der Reisepass", "rightId": 5 },
+      "right": { "word": "the tram", "rightId": 1 }
+
+    },
+  ]
+}
+    ]
+  },
 ];

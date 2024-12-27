@@ -39,48 +39,48 @@ export default function Index() {
       text: 'Master the language of art, culture, and diplomacy with our German Reading Assignments.',
       link: '/ReadingAssignments/GermanReading',
     },
-    {
-      type: 'frenchb1',
-      heading: 'French Intermediate (B1-B2)',
-      text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
-      link: '/ReadingAssignments/FrenchReadingB1',
-    },
-    {
-      type: 'italian',
-      heading: 'Italian Beginner (A1-A2)',
-      text: 'Master the language of art, culture, and diplomacy with our Italian Reading Assignments.',
-      link: '/ReadingAssignments/ItalianReading',
-    },
-    {
-      type: 'russian',
-      heading: 'Russian Beginner (A1-A2)',
-      text: 'Master the language of art, culture, and diplomacy with our Russian Reading Assignments.',
-      link: '/ReadingAssignments/RussianReading',
-    },
-    {
-      type: 'dutch',
-      heading: 'Dutch Beginner (A1-A2)',
-      text: 'Master the language of art, culture, and diplomacy with our Dutch Reading Assignments.',
-      link: '/ReadingAssignments/DutchReading',
-    },
-    {
-      type: 'japanese',
-      heading: 'Japanese Beginner (A1-A2)',
-      text: 'Master the language of art, culture, and diplomacy with our Japanese Reading Assignments.',
-      link: '/ReadingAssignments/JapaneseReading',
-    },
-    {
-      type: 'korean',
-      heading: 'Korean Beginner (A1-A2)',
-      text: 'Master the language of art, culture, and diplomacy with our Korean Reading Assignments.',
-      link: '/ReadingAssignments/KoreanReading',
-    },
-    {
-      type: 'danish',
-      heading: 'Danish Beginner (A1-A2)',
-      text: 'Master the language of art, culture, and diplomacy with our Danish Reading Assignments.',
-      link: '/ReadingAssignments/DanishReading',
-    },
+    // {
+    //   type: 'frenchb1',
+    //   heading: 'French Intermediate (B1-B2)',
+    //   text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
+    //   link: '/ReadingAssignments/FrenchReadingB1',
+    // },
+    // {
+    //   type: 'italian',
+    //   heading: 'Italian Beginner (A1-A2)',
+    //   text: 'Master the language of art, culture, and diplomacy with our Italian Reading Assignments.',
+    //   link: '/ReadingAssignments/ItalianReading',
+    // },
+    // {
+    //   type: 'russian',
+    //   heading: 'Russian Beginner (A1-A2)',
+    //   text: 'Master the language of art, culture, and diplomacy with our Russian Reading Assignments.',
+    //   link: '/ReadingAssignments/RussianReading',
+    // },
+    // {
+    //   type: 'dutch',
+    //   heading: 'Dutch Beginner (A1-A2)',
+    //   text: 'Master the language of art, culture, and diplomacy with our Dutch Reading Assignments.',
+    //   link: '/ReadingAssignments/DutchReading',
+    // },
+    // {
+    //   type: 'japanese',
+    //   heading: 'Japanese Beginner (A1-A2)',
+    //   text: 'Master the language of art, culture, and diplomacy with our Japanese Reading Assignments.',
+    //   link: '/ReadingAssignments/JapaneseReading',
+    // },
+    // {
+    //   type: 'korean',
+    //   heading: 'Korean Beginner (A1-A2)',
+    //   text: 'Master the language of art, culture, and diplomacy with our Korean Reading Assignments.',
+    //   link: '/ReadingAssignments/KoreanReading',
+    // },
+    // {
+    //   type: 'danish',
+    //   heading: 'Danish Beginner (A1-A2)',
+    //   text: 'Master the language of art, culture, and diplomacy with our Danish Reading Assignments.',
+    //   link: '/ReadingAssignments/DanishReading',
+    // },
   ];
 
   // Sort the cards so that unlocked cards come first

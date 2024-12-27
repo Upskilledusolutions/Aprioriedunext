@@ -1,0 +1,97 @@
+.heading{
+    background-color: rgb(227, 80, 61);
+    padding: 15px 5vw;
+    font-size: 32px;
+    font-weight: 600;
+    color: white
+}
+.container{
+    display: flex;
+}
+.leftlist{
+    background-color: rgb(227, 80, 61);
+    color: white;
+    margin: 0;
+    padding: 15px 2vw;
+    border-top: 1px solid white;
+}
+.leftlist li{
+    list-style: none;
+    font-size: 16px;
+    padding: 20px 0;
+}
+.heading2{
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 1px solid white;
+}
+.flexing{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+}
+.dropdownMenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    height: 200px;
+    overflow-y: scroll;
+    transition: 0.3s;
+  }
+  .dropdownMenu1{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    height: 0;
+    overflow-y: scroll;
+    transition: 0.3s;
+  }
+
+  .dropdownMenu1::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  .dropdownMenu1::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  .dropdownMenu1::-webkit-scrollbar-thumb {
+    background:  rgb(137, 16, 0);
+  }
+
+  .dropdownMenu::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  .dropdownMenu::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  .dropdownMenu::-webkit-scrollbar-thumb {
+    background:  rgb(137, 16, 0);
+  }
+  
+  .dropdownMenu li {
+    padding: 15px 1vw;
+    cursor: pointer;
+  }
+  
+  .dropdownMenu li:hover {
+    background-color: rgb(181, 48, 31);
+  }
+  
+  /* Dropdown Icon */
+  .dropdownIcon {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .dropdownIcon.open {
+    transform: rotate(180deg); /* Rotate the icon when dropdown is open */
+  }

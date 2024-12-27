@@ -60,5 +60,67 @@ export const data = [
         }
       ],
     ]
+  },
+  {
+    id:'2',
+    name:'German Listening Assignment 2 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/GermanA1/German02.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "What does the waitress say first?",
+          "choices": ["Noch nicht.", "Hallo! Bist du bereit?", "Was empfehlen Sie?", "Guten Appetit!"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "How does the woman respond to the waitress’s first question?",
+          "choices": ["Ja, ein Café au Lait.", "Noch nicht. Was empfehlen Sie?", "Bitte schön!", "Das Croissant ist sehr gut."],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does the waitress recommend?",
+          "choices": ["Ein Café au Lait.", "Ein Sandwich.", "Das Croissant.", "Eine Pizza."],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does the woman order first?",
+          "choices": ["Ein Croissant.", "Ein Café au Lait.", "Ein Sandwich.", "Ein Wasser."],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What does the waitress ask after the woman orders a croissant?",
+          "choices": ["Kommt gleich.", "Guten Appetit!", "Noch etwas?", "Was empfehlen Sie?"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What drink does the woman order?",
+          "choices": ["Eine Cola.", "Ein Wasser.", "Ein Café au Lait.", "Ein Bier."],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does the waitress say after the woman orders?",
+          "choices": ["Guten Appetit!", "Perfekt! Kommt gleich.", "Bitte schön!", "Noch nicht."],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does the waitress say when she serves the food?",
+          "choices": ["Vielen Dank!", "Guten Appetit!", "Bitte schön!", "Kommt gleich."],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does the woman say after receiving her order?",
+          "choices": ["Guten Appetit!", "Das Croissant ist sehr gut.", "Vielen Dank!", "Noch nicht."],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does the waitress say at the end?",
+          "choices": ["Guten Appetit!", "Noch etwas?", "Bitte schön!", "Das Croissant ist sehr gut."],
+          "correctAnswer": 0
+        }
+      ],
+    ]
   }
 ]
