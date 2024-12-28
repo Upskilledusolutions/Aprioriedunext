@@ -1912,5 +1912,586 @@ export const quiz = [
         
       ],
     },
+    {
+      quiz: '4',
+      name: 'Spanish Practice Test - 4',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "¿Cómo se dice 'quickly' en español?",
+          "choices": ["lentamente", "rápido", "tarde", "temprano"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál es el adverbio que significa 'every day'?",
+          "choices": ["siempre", "nunca", "todos los días", "a veces"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cómo se dice 'never' en español?",
+          "choices": ["siempre", "nunca", "a veces", "raramente"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué adverbio describe la frecuencia de algo?",
+          "choices": ["rápidamente", "casi", "nunca", "de repente"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cómo se dice 'a little' en español?",
+          "choices": ["mucho", "poco", "nada", "bastante"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se dice 'on the left' en español?",
+          "choices": ["a la derecha", "a la izquierda", "en frente", "detrás"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Dónde está la estación de tren?",
+          "choices": ["detrás del museo", "cerca del parque", "a la izquierda del banco", "al lado de la farmacia"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cómo se dice 'in front of' en español?",
+          "choices": ["al lado de", "detrás de", "en frente de", "encima de"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cómo se indica una dirección 'next to' en español?",
+          "choices": ["a la derecha", "al lado de", "encima de", "detrás de"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Dónde está el cine?",
+          "choices": ["a la izquierda del restaurante", "en frente de la plaza", "detrás del hotel", "a la derecha del supermercado"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se dice 'summer' en español?",
+          "choices": ["invierno", "otoño", "primavera", "verano"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Qué estación del año es cuando nieva?",
+          "choices": ["otoño", "primavera", "verano", "invierno"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿En qué estación las flores empiezan a crecer?",
+          "choices": ["verano", "primavera", "otoño", "invierno"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué estación es conocida por las hojas caídas de los árboles?",
+          "choices": ["verano", "otoño", "invierno", "primavera"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿En qué estación hace más calor en muchos países?",
+          "choices": ["primavera", "verano", "otoño", "invierno"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se dice 'Monday' en español?",
+          "choices": ["martes", "lunes", "miércoles", "jueves"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuántos días tiene el mes de febrero en un año no bisiesto?",
+          "choices": ["31", "30", "28", "29"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de los siguientes meses es en primavera?",
+          "choices": ["diciembre", "junio", "abril", "octubre"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál es el último día de la semana?",
+          "choices": ["sábado", "domingo", "viernes", "jueves"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se dice 'December' en español?",
+          "choices": ["enero", "febrero", "diciembre", "marzo"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+
+        {
+          "question": "Ella camina __________ (slow).",
+          "choices": ["lentamente", "rápido", "frecuentemente", "a menudo"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Yo estudio __________ (always) por la mañana.",
+          "choices": ["siempre", "nunca", "a veces", "casi"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "María habla __________ (fast) en clase.",
+          "choices": ["rápido", "lentamente", "casi", "de repente"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ellos juegan __________ (frequently) en el parque.",
+          "choices": ["frecuentemente", "siempre", "a veces", "nunca"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Nosotros viajamos __________ (often) a la playa.",
+          "choices": ["a menudo", "nunca", "siempre", "de repente"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "La tienda está __________ (near) del parque.",
+          "choices": ["cerca", "lejos", "a la derecha", "al lado"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "La escuela está __________ (beside) del supermercado.",
+          "choices": ["al lado", "en frente", "detrás", "a la izquierda"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "La iglesia está __________ (to the right) de la biblioteca.",
+          "choices": ["a la derecha", "a la izquierda", "en frente", "detrás"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "El restaurante está __________ (opposite) del cine.",
+          "choices": ["en frente", "a la izquierda", "detrás", "cerca"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "El hotel está __________ (behind) del banco.",
+          "choices": ["detrás", "al lado", "a la derecha", "en frente"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "En __________ (summer) hace mucho calor.",
+          "choices": ["verano", "invierno", "otoño", "primavera"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "En __________ (winter) nieva mucho.",
+          "choices": ["invierno", "verano", "primavera", "otoño"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "En __________ (spring) las flores crecen.",
+          "choices": ["primavera", "verano", "otoño", "invierno"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "En __________ (autumn) las hojas caen de los árboles.",
+          "choices": ["otoño", "invierno", "verano", "primavera"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "El clima en __________ (winter) es muy frío.",
+          "choices": ["invierno", "verano", "primavera", "otoño"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "El __________ (monday) es el primer día de la semana.",
+          "choices": ["lunes", "martes", "miércoles", "domingo"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Mi cumpleaños es en __________ (december).",
+          "choices": ["diciembre", "enero", "febrero", "marzo"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "El __________ (friday) vamos al cine.",
+          "choices": ["viernes", "lunes", "domingo", "jueves"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Hay 30 días en __________ (april).",
+          "choices": ["abril", "mayo", "febrero", "junio"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "El __________ (sunday) es el último día de la semana.",
+          "choices": ["domingo", "sábado", "viernes", "lunes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Ella camina muy lentamente.",
+          "choices": ["Ella", "camina", "muy", "lentamente"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ellos juegan frecuentemente en el parque.",
+          "choices": ["Ellos", "juegan", "frecuentemente", "en", "el", "parque"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Siempre me despierto tarde.",
+          "choices": ["Siempre", "me", "despierto", "tarde"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tú hablas muy bien español.",
+          "choices": ["Tú", "hablas", "muy", "bien", "español"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ellos esperan mucho tiempo.",
+          "choices": ["Ellos", "esperan", "mucho", "tiempo"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "El cine está a la izquierda de la calle.",
+          "choices": ["El", "cine", "está", "a", "la", "izquierda", "de", "la", "calle"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "La iglesia está en la derecha de la calle.",
+          "choices": ["La", "iglesia", "está", "en", "la", "derecha", "de", "la", "calle"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "La tienda está al lado del restaurante.",
+          "choices": ["La", "tienda", "está", "al", "lado", "del", "restaurante"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "El parque está al lado del museo.",
+          "choices": ["El", "parque", "está", "al", "lado", "del", "museo"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "El banco está detrás del supermercado.",
+          "choices": ["El", "banco", "está", "detrás", "del", "supermercado"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "En verano hace mucho calor.",
+          "choices": ["En", "verano", "hace", "mucho", "calor"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "En invierno nieva mucho.",
+          "choices": ["En", "invierno", "nieva", "mucho"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "En otoño las hojas caen.",
+          "choices": ["En", "otoño", "las", "hojas", "caen"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "En primavera las flores crecen.",
+          "choices": ["En", "primavera", "las", "flores", "crecen"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "En invierno hace mucho frío.",
+          "choices": ["En", "invierno", "hace", "mucho", "frío"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "El lunes es el primer día de la semana.",
+          "choices": ["El", "lunes", "es", "el", "primer", "día", "de", "la", "semana"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mi cumpleaños es en octubre.",
+          "choices": ["Mi", "cumpleaños", "es", "en", "octubre"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "El mes de abril tiene 30 días.",
+          "choices": ["El", "mes", "de", "abril", "tiene", "30", "días"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "El año empieza en enero.",
+          "choices": ["El", "año", "empieza", "en", "enero"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nosotros vamos al cine el viernes.",
+          "choices": ["Nosotros", "vamos", "al", "cine", "el", "viernes"],
+          "type": "JumbledWords"
+        },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "casi", "rightId": 1 },
+            "right": { "word": "never", "rightId": 5 }
+          },
+          {
+            "left": { "word": "a menudo", "rightId": 2 },
+            "right": { "word": "almost never", "rightId": 1 }
+          },
+          {
+            "left": { "word": "raramente", "rightId": 3 },
+            "right": { "word": "frequently", "rightId": 2 }
+          },
+          {
+            "left": { "word": "siempre", "rightId": 4 },
+            "right": { "word": "rarely", "rightId": 3 }
+          },
+          {
+            "left": { "word": "nunca", "rightId": 5 },
+            "right": { "word": "always", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "rápidamente", "rightId": 1 },
+            "right": { "word": "too much", "rightId": 3 }
+          },
+          {
+            "left": { "word": "tarde", "rightId": 2 },
+            "right": { "word": "quickly", "rightId": 1 }
+          },
+          {
+            "left": { "word": "demasiado", "rightId": 3 },
+            "right": { "word": "often", "rightId": 5 }
+          },
+          {
+            "left": { "word": "normalmente", "rightId": 4 },
+            "right": { "word": "late", "rightId": 2 }
+          },
+          {
+            "left": { "word": "frecuentemente", "rightId": 5 },
+            "right": { "word": "normally", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "el cine", "rightId": 1 },
+            "right": { "word": "the bus station", "rightId": 4 }
+          },
+          {
+            "left": { "word": "el supermercado", "rightId": 2 },
+            "right": { "word": "the clothing store", "rightId": 5 }
+          },
+          {
+            "left": { "word": "la farmacia", "rightId": 3 },
+            "right": { "word": "the supermarket", "rightId": 2 }
+          },
+          {
+            "left": { "word": "la estación de autobuses", "rightId": 4 },
+            "right": { "word": "the pharmacy", "rightId": 3 }
+          },
+          {
+            "left": { "word": "la tienda de ropa", "rightId": 5 },
+            "right": { "word": "the cinema", "rightId": 1 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "el restaurante", "rightId": 1 },
+            "right": { "word": "the park", "rightId": 3 }
+          },
+          {
+            "left": { "word": "la biblioteca", "rightId": 2 },
+            "right": { "word": "the shopping center", "rightId": 5 }
+          },
+          {
+            "left": { "word": "el parque", "rightId": 3 },
+            "right": { "word": "the library", "rightId": 2 }
+          },
+          {
+            "left": { "word": "la estación de trenes", "rightId": 4 },
+            "right": { "word": "the train station", "rightId": 4 }
+          },
+          {
+            "left": { "word": "el centro comercial", "rightId": 5 },
+            "right": { "word": "the restaurant", "rightId": 1 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "primavera", "rightId": 1 },
+            "right": { "word": "rain", "rightId": 5 }
+          },
+          {
+            "left": { "word": "verano", "rightId": 2 },
+            "right": { "word": "autumn", "rightId": 3 }
+          },
+          {
+            "left": { "word": "otoño", "rightId": 3 },
+            "right": { "word": "summer", "rightId": 2 }
+          },
+          {
+            "left": { "word": "invierno", "rightId": 4 },
+            "right": { "word": "spring", "rightId": 1 }
+          },
+          {
+            "left": { "word": "lluvia", "rightId": 5 },
+            "right": { "word": "winter", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "cálido", "rightId": 1 },
+            "right": { "word": "cool", "rightId": 2 }
+          },
+          {
+            "left": { "word": "fresco", "rightId": 2 },
+            "right": { "word": "rainy", "rightId": 3 }
+          },
+          {
+            "left": { "word": "lluvioso", "rightId": 3 },
+            "right": { "word": "wet", "rightId": 5 }
+          },
+          {
+            "left": { "word": "soleado", "rightId": 4 },
+            "right": { "word": "warm", "rightId": 1 }
+          },
+          {
+            "left": { "word": "húmedo", "rightId": 5 },
+            "right": { "word": "sunny", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "enero", "rightId": 1 },
+            "right": { "word": "peak of summer", "rightId": 4 }
+          },
+          {
+            "left": { "word": "febrero", "rightId": 2 },
+            "right": { "word": "beginning of fall", "rightId": 5 }
+          },
+          {
+            "left": { "word": "marzo", "rightId": 3 },
+            "right": { "word": "beginning of spring", "rightId": 3 }
+          },
+          {
+            "left": { "word": "julio", "rightId": 4 },
+            "right": { "word": "first month of the year", "rightId": 1 }
+          },
+          {
+            "left": { "word": "noviembre", "rightId": 5 },
+            "right": { "word": "month of love (Valentine's)", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "lunes", "rightId": 1 },
+            "right": { "word": "weekend", "rightId": 3 }
+          },
+          {
+            "left": { "word": "jueves", "rightId": 2 },
+            "right": { "word": "day of rest", "rightId": 5 }
+          },
+          {
+            "left": { "word": "sábado", "rightId": 3 },
+            "right": { "word": "last month of the year", "rightId": 4 }
+          },
+          {
+            "left": { "word": "diciembre", "rightId": 4 },
+            "right": { "word": "first day of the week", "rightId": 1 }
+          },
+          {
+            "left": { "word": "domingo", "rightId": 5 },
+            "right": { "word": "before Friday", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+        
+      ],
+    },
   ];
   

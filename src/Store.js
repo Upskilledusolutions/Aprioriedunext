@@ -189,6 +189,9 @@ const lessonsSlice = createSlice({
     unlockedLessonsFrench: typeof window !== "undefined" && localStorage.getItem('unlockedLessonsFrench')
       ? JSON.parse(localStorage.getItem('unlockedLessonsFrench'))
       : ["1","2","3","4","5"],
+      unlockedLessonsEnglishB1: typeof window !== "undefined" && localStorage.getItem('unlockedLessonsEnglishB1')
+      ? JSON.parse(localStorage.getItem('unlockedLessonsEnglishB1'))
+      : ["1","2","3","4","5"],
     unlockedLessonsFrenchB1: typeof window !== "undefined" && localStorage.getItem('unlockedLessonsFrenchB1')
       ? JSON.parse(localStorage.getItem('unlockedLessonsFrenchB1'))
       : ["1","2","3","4","5"],
@@ -232,6 +235,12 @@ const lessonsSlice = createSlice({
             state.unlockedLessonsFrench.push(...lessonId);
           }
           break;
+          case 'EnglishB1':
+            unlockedLessons = state.unlockedLessonsEnglishB1;
+            if (!unlockedLessons.includes(...lessonId)) {
+              state.unlockedLessonsEnglishB1.push(...lessonId);
+            }
+            break;
           case 'FrenchB1':
             unlockedLessons = state.unlockedLessonsFrenchB1;
             if (!unlockedLessons.includes(...lessonId)) {
@@ -306,6 +315,9 @@ const AssignmentsSlice = createSlice({
     unlockedAssignmentsEnglish: typeof window !== "undefined" && localStorage.getItem('unlockedAssignmentsEnglish')
       ? JSON.parse(localStorage.getItem('unlockedAssignmentsEnglish'))
       : ["1","2","3","4","5"],
+      unlockedAssignmentsEnglishB1: typeof window !== "undefined" && localStorage.getItem('unlockedAssignmentsEnglishB1')
+      ? JSON.parse(localStorage.getItem('unlockedAssignmentsEnglishB1'))
+      : ["1","2","3","4","5"],
     unlockedAssignmentsFrenchB1: typeof window !== "undefined" && localStorage.getItem('unlockedAssignmentsFrenchB1')
       ? JSON.parse(localStorage.getItem('unlockedAssignmentsFrenchB1'))
       : ["1","2","3","4","5"],
@@ -352,6 +364,12 @@ const AssignmentsSlice = createSlice({
               state.unlockedAssignmentsEnglish.push(...lessonId);
             }
             break;
+            case 'EnglishB1':
+              unlockedAssignments = state.unlockedAssignmentsEnglishB1;
+              if (!unlockedAssignments.includes(...lessonId)) {
+                state.unlockedAssignmentsEnglishB1.push(...lessonId);
+              }
+              break;
         case 'FrenchB1':
             unlockedAssignments = state.unlockedAssignmentsFrenchB1;
             if (!unlockedAssignments.includes(...lessonId)) {
@@ -418,6 +436,9 @@ const exercisesSlice = createSlice({
     unlockedExercisesFrench: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesFrench')
       ? JSON.parse(localStorage.getItem('unlockedExercisesFrench'))
       : ["1","2","3","4","5"],
+      unlockedExercisesEnglishB1: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesEnglishB1')
+      ? JSON.parse(localStorage.getItem('unlockedExercisesEnglishB1'))
+      : ["1","2","3","4","5"],
     unlockedExercisesFrenchB1: typeof window !== "undefined" && localStorage.getItem('unlockedExercisesFrenchB1')
       ? JSON.parse(localStorage.getItem('unlockedExercisesFrenchB1'))
       : ["1","2","3","4","5"],
@@ -449,6 +470,12 @@ const exercisesSlice = createSlice({
             state.unlockedExercisesFrench.push(...exerciseId);
           }
           break;
+          case 'EnglishB1':
+            unlockedExercises = state.unlockedExercisesEnglishB1;
+            if (!unlockedExercises.includes(...exerciseId)) {
+              state.unlockedExercisesEnglishB1.push(...exerciseId);
+            }
+            break;
           case 'FrenchB1':
             unlockedExercises = state.unlockedExercisesFrenchB1;
             if (!unlockedExercises.includes(...exerciseId)) {
@@ -529,6 +556,7 @@ store.subscribe(() => {
   localStorage.setItem('unlockedPagesDanish', JSON.stringify(state.unlockedPages.unlockedPagesDanish));
 
   localStorage.setItem('unlockedLessonsFrench', JSON.stringify(state.unlockedLessons.unlockedLessonsFrench));
+  localStorage.setItem('unlockedLessonsEnglishB1', JSON.stringify(state.unlockedLessons.unlockedLessonsEnglishB1));
   localStorage.setItem('unlockedLessonsFrenchB1', JSON.stringify(state.unlockedLessons.unlockedLessonsFrenchB1));
   localStorage.setItem('unlockedLessonsSpanish', JSON.stringify(state.unlockedLessons.unlockedLessonsSpanish));
   localStorage.setItem('unlockedLessonsGerman', JSON.stringify(state.unlockedLessons.unlockedLessonsGerman));
@@ -542,6 +570,7 @@ store.subscribe(() => {
 
   localStorage.setItem('unlockedAssignmentsFrench', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsFrench));
   localStorage.setItem('unlockedAssignmentsEnglish', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsEnglish));
+  localStorage.setItem('unlockedAssignmentsEnglishB1', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsEnglishB1));
   localStorage.setItem('unlockedAssignmentsFrenchB1', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsFrenchB1));
   localStorage.setItem('unlockedAssignmentsSpanish', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsSpanish));
   localStorage.setItem('unlockedAssignmentsGerman', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsGerman));
@@ -553,6 +582,7 @@ store.subscribe(() => {
   localStorage.setItem('unlockedAssignmentsDanish', JSON.stringify(state.unlockedAssignments.unlockedAssignmentsDanish));
 
   localStorage.setItem('unlockedExercisesFrench', JSON.stringify(state.unlockedExercises.unlockedExercisesFrench));
+  localStorage.setItem('unlockedExercisesEnglishB1', JSON.stringify(state.unlockedExercises.unlockedExercisesEnglishB1));
   localStorage.setItem('unlockedExercisesFrenchB1', JSON.stringify(state.unlockedExercises.unlockedExercisesFrenchB1));
   localStorage.setItem('unlockedExercisesSpanish', JSON.stringify(state.unlockedExercises.unlockedExercisesSpanish));
   localStorage.setItem('unlockedExercisesGerman', JSON.stringify(state.unlockedExercises.unlockedExercisesGerman));

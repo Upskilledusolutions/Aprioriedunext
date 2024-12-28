@@ -1860,5 +1860,590 @@ export const quiz = [
           },
       ],
     },
+    {
+      quiz: '4',
+      name: 'German Practice Test - 4',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "Welches Wort bedeutet „immer“?",
+          "choices": ["oft", "selten", "immer", "manchmal"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Welches Wort bedeutet „nie“?",
+          "choices": ["oft", "selten", "nie", "manchmal"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Welche Option ist richtig? „Er fährt sehr __________.“",
+          "choices": ["langsam", "immer", "geradeaus", "selten"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie oft regnet es im Frühling?",
+          "choices": ["manchmal", "nie", "immer", "selten"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "„Gehen Sie __________ die Straße entlang.“",
+          "choices": ["oft", "immer", "geradeaus", "links"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Was bedeutet „geradeaus“?",
+          "choices": ["nach rechts", "nach links", "geradeaus", "zurück"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "„Die Post ist __________ der Bank.“",
+          "choices": ["hinter", "vor", "neben", "zwischen"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Wo ist der Supermarkt?",
+          "choices": [
+            "neben der Schule",
+            "über der Straße",
+            "zwischen der Post und der Bank",
+            "gegenüber dem Park"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "„Gehen Sie __________ dem Hotel.“",
+          "choices": ["links neben", "hinter", "geradeaus vor", "über"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "„Die Apotheke ist __________ der Post.“",
+          "choices": ["rechts neben", "hinter", "gegenüber", "über"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Welcher Monat ist im Winter?",
+          "choices": ["Juni", "Januar", "September", "April"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wann ist es sonnig?",
+          "choices": ["Winter", "Herbst", "Frühling", "Sommer"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Welcher Monat ist im Herbst?",
+          "choices": ["März", "November", "Mai", "Juni"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wann schneit es?",
+          "choices": ["Sommer", "Herbst", "Winter", "Frühling"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Wann ist es regnerisch?",
+          "choices": ["Frühling", "Sommer", "Herbst", "Winter"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welcher Monat kommt nach Juli?",
+          "choices": ["Juni", "August", "September", "Oktober"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was ist der erste Tag der Woche?",
+          "choices": ["Montag", "Dienstag", "Mittwoch", "Sonntag"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welcher Monat ist der letzte im Jahr?",
+          "choices": ["November", "Dezember", "Januar", "Oktober"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wann ist Weihnachten?",
+          "choices": ["November", "Dezember", "Januar", "Oktober"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welcher Monat ist der erste?",
+          "choices": ["Januar", "Februar", "März", "April"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Er fährt __________ (schnell / langsam) zur Arbeit.",
+          "choices": ["schnell", "langsam"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Lisa geht __________ (oft / nie) ins Kino.",
+          "choices": ["oft", "nie"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Du solltest __________ (immer / selten) freundlich sein.",
+          "choices": ["immer", "selten"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Wir haben __________ (manchmal / nie) Ferien im Sommer.",
+          "choices": ["manchmal", "nie"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Peter isst __________ (zu viel / zu wenig) Schokolade.",
+          "choices": ["zu viel", "zu wenig"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Das Hotel liegt __________ (neben / hinter) dem Bahnhof.",
+          "choices": ["neben", "hinter"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Die Schule ist __________ (vor / über) dem Park.",
+          "choices": ["vor", "über"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Gehen Sie __________ (geradeaus / links) und dann rechts.",
+          "choices": ["geradeaus", "links"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Das Café ist __________ (zwischen / an) der Bibliothek und der Post.",
+          "choices": ["zwischen", "an"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Die Apotheke befindet sich __________ (gegenüber / über) der Bank.",
+          "choices": ["gegenüber", "über"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Im Winter ist es __________ (kalt / warm).",
+          "choices": ["kalt", "warm"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Der Frühling ist oft __________ (regnerisch / trocken).",
+          "choices": ["regnerisch", "trocken"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Der Sommer ist __________ (sonnig / kühl).",
+          "choices": ["sonnig", "kühl"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Im Herbst fallen die Blätter __________ (langsam / schnell).",
+          "choices": ["langsam", "schnell"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Im Winter schneit es __________ (viel / wenig).",
+          "choices": ["viel", "wenig"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "(Montag / Samstag) __________ ist der erste Tag der Woche.",
+          "choices": ["Montag", "Samstag"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Im __________ (Januar / Juli) feiern wir Neujahr.",
+          "choices": ["Januar", "Juli"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "(Dezember / März) __________ ist der letzte Monat des Jahres.",
+          "choices": ["Dezember", "März"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Der Sommer beginnt im __________ (Juni / September).",
+          "choices": ["Juni", "September"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "(Donnerstag / Sonntag) __________ ist ein Werktag.",
+          "choices": ["Donnerstag", "Sonntag"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Er fährt schnell zur Arbeit.",
+          "choices": ["Er", "fährt", "schnell", "zur", "Arbeit"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Lisa geht oft ins Kino.",
+          "choices": ["Lisa", "geht", "oft", "ins", "Kino"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Du solltest immer freundlich sein.",
+          "choices": ["Du", "solltest", "immer", "freundlich", "sein"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wir haben manchmal Ferien im Sommer.",
+          "choices": ["Wir", "haben", "manchmal", "Ferien", "im", "Sommer"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Peter isst zu viel Schokolade.",
+          "choices": ["Peter", "isst", "zu", "viel", "Schokolade"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Das Hotel liegt neben dem Bahnhof.",
+          "choices": ["Das", "Hotel", "liegt", "neben", "dem", "Bahnhof"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Die Schule ist vor dem Park.",
+          "choices": ["Die", "Schule", "ist", "vor", "dem", "Park"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Gehen Sie geradeaus und dann rechts.",
+          "choices": ["Gehen", "Sie", "geradeaus", "und", "dann", "rechts"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Das Café ist zwischen der Bibliothek und der Post.",
+          "choices": ["Das", "Café", "ist", "zwischen", "der", "Bibliothek", "und", "der", "Post"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Die Apotheke befindet sich gegenüber der Bank.",
+          "choices": ["Die", "Apotheke", "befindet", "sich", "gegenüber", "der", "Bank"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Im Frühling sind die Temperaturen angenehm.",
+          "choices": ["Im", "Frühling", "sind", "die", "Temperaturen", "angenehm"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Im Winter gibt es viel Schnee.",
+          "choices": ["Im", "Winter", "gibt", "es", "viel", "Schnee"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Der Sommer ist oft heiß.",
+          "choices": ["Der", "Sommer", "ist", "oft", "heiß"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Im Herbst fällt der Regen.",
+          "choices": ["Im", "Herbst", "fällt", "der", "Regen"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Im Herbst fallen die Blätter schnell.",
+          "choices": ["Im", "Herbst", "fallen", "die", "Blätter", "schnell"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Montag ist der erste Tag der Woche.",
+          "choices": ["Montag", "ist", "der", "erste", "Tag", "der", "Woche"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Januar ist der erste Monat des Jahres.",
+          "choices": ["Januar", "ist", "der", "erste", "Monat", "des", "Jahres"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Der Sommer beginnt im Juni.",
+          "choices": ["Der", "Sommer", "beginnt", "im", "Juni"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Der Sonntag ist ein Ruhetag.",
+          "choices": ["Der", "Sonntag", "ist", "ein", "Ruhetag"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Der Dezember ist der letzte Monat des Jahres.",
+          "choices": ["Der", "Dezember", "ist", "der", "letzte", "Monat", "des", "Jahres"],
+          "type": "JumbledWords"
+        },
+
+        
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "schnell", "rightId": 1 },
+                "right": { "word": "rarely", "rightId": 4 }
+              },
+              {
+                "left": { "word": "oft", "rightId": 2 },
+                "right": { "word": "never", "rightId": 5 }
+              },
+              {
+                "left": { "word": "immer", "rightId": 3 },
+                "right": { "word": "always", "rightId": 3 }
+              },
+              {
+                "left": { "word": "selten", "rightId": 4 },
+                "right": { "word": "quickly", "rightId": 1 }
+              },
+              {
+                "left": { "word": "nie", "rightId": 5 },
+                "right": { "word": "often", "rightId": 2 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "manchmal", "rightId": 1 },
+                "right": { "word": "slowly", "rightId": 3 }
+              },
+              {
+                "left": { "word": "zu viel", "rightId": 2 },
+                "right": { "word": "hardly", "rightId": 5 }
+              },
+              {
+                "left": { "word": "langsam", "rightId": 3 },
+                "right": { "word": "immediately", "rightId": 4 }
+              },
+              {
+                "left": { "word": "sofort", "rightId": 4 },
+                "right": { "word": "sometimes", "rightId": 1 }
+              },
+              {
+                "left": { "word": "kaum", "rightId": 5 },
+                "right": { "word": "too much", "rightId": 2 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "geradeaus", "rightId": 1 },
+                "right": { "word": "next to", "rightId": 5 }
+              },
+              {
+                "left": { "word": "rechts", "rightId": 2 },
+                "right": { "word": "left", "rightId": 3 }
+              },
+              {
+                "left": { "word": "links", "rightId": 3 },
+                "right": { "word": "straight ahead", "rightId": 1 }
+              },
+              {
+                "left": { "word": "hinter", "rightId": 4 },
+                "right": { "word": "right", "rightId": 2 }
+              },
+              {
+                "left": { "word": "neben", "rightId": 5 },
+                "right": { "word": "behind", "rightId": 4 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "zwischen", "rightId": 1 },
+                "right": { "word": "above", "rightId": 4 }
+              },
+              {
+                "left": { "word": "gegenüber", "rightId": 2 },
+                "right": { "word": "in front of", "rightId": 3 }
+              },
+              {
+                "left": { "word": "vor", "rightId": 3 },
+                "right": { "word": "between", "rightId": 1 }
+              },
+              {
+                "left": { "word": "über", "rightId": 4 },
+                "right": { "word": "below", "rightId": 5 }
+              },
+              {
+                "left": { "word": "unter", "rightId": 5 },
+                "right": { "word": "opposite", "rightId": 2 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "Frühling", "rightId": 1 },
+                "right": { "word": "autumn", "rightId": 3 }
+              },
+              {
+                "left": { "word": "Sommer", "rightId": 2 },
+                "right": { "word": "spring", "rightId": 1 }
+              },
+              {
+                "left": { "word": "Herbst", "rightId": 3 },
+                "right": { "word": "summer", "rightId": 2 }
+              },
+              {
+                "left": { "word": "Winter", "rightId": 4 },
+                "right": { "word": "rainy", "rightId": 5 }
+              },
+              {
+                "left": { "word": "regnerisch", "rightId": 5 },
+                "right": { "word": "winter", "rightId": 4 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "sonnig", "rightId": 1 },
+                "right": { "word": "cold", "rightId": 2 }
+              },
+              {
+                "left": { "word": "kalt", "rightId": 2 },
+                "right": { "word": "sunny", "rightId": 1 }
+              },
+              {
+                "left": { "word": "warm", "rightId": 3 },
+                "right": { "word": "snow-covered", "rightId": 5 }
+              },
+              {
+                "left": { "word": "windig", "rightId": 4 },
+                "right": { "word": "warm", "rightId": 3 }
+              },
+              {
+                "left": { "word": "schneebedeckt", "rightId": 5 },
+                "right": { "word": "windy", "rightId": 4 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "Montag", "rightId": 1 },
+                "right": { "word": "Tuesday", "rightId": 2 }
+              },
+              {
+                "left": { "word": "Dienstag", "rightId": 2 },
+                "right": { "word": "Friday", "rightId": 5 }
+              },
+              {
+                "left": { "word": "Mittwoch", "rightId": 3 },
+                "right": { "word": "Thursday", "rightId": 4 }
+              },
+              {
+                "left": { "word": "Donnerstag", "rightId": 4 },
+                "right": { "word": "Wednesday", "rightId": 3 }
+              },
+              {
+                "left": { "word": "Freitag", "rightId": 5 },
+                "right": { "word": "Monday", "rightId": 1 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "Samstag", "rightId": 1 },
+                "right": { "word": "December", "rightId": 4 }
+              },
+              {
+                "left": { "word": "Sonntag", "rightId": 2 },
+                "right": { "word": "July", "rightId": 5 }
+              },
+              {
+                "left": { "word": "Januar", "rightId": 3 },
+                "right": { "word": "Sunday", "rightId": 2 }
+              },
+              {
+                "left": { "word": "Dezember", "rightId": 4 },
+                "right": { "word": "January", "rightId": 3 }
+              },
+              {
+                "left": { "word": "Juli", "rightId": 5 },
+                "right": { "word": "Saturday", "rightId": 1 }
+              },
+             
+            ],
+          },
+
+      ],
+    },
   ];
   

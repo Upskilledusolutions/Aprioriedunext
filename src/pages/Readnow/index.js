@@ -22,6 +22,12 @@ export default function Index() {
       link: '/Readnow/Multilinguallessons',
     },
     {
+      type: 'englishb1',
+      heading: 'English Beginner (B1-B2)',
+      text: 'Master the language of art, culture, and diplomacy with our English lessons.',
+      link: '/Readnow/EnglishlessonsB1',
+    },
+    {
       type: 'french',
       heading: 'French Beginner (A1-A2)',
       text: 'Master the language of art, culture, and diplomacy with our French lessons.',

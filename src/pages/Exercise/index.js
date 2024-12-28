@@ -22,6 +22,12 @@ export default function Index() {
       link: '/Exercise/FrenchExercises',
     },
     {
+      type: 'englishb1',
+      heading: 'English Beginner (B1-B2)',
+      text: 'Master the language of art, culture, and diplomacy with our English exercise.',
+      link: '/Exercise/EnglishExercisesB1',
+    },
+    {
       type: 'german',
       heading: 'German Beginner (A1-A2)',
       text: 'Navigate both casual and formal language settings of Germany with this exercise.',

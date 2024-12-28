@@ -21,6 +21,12 @@ export default function Index() {
       text: 'Dive into the vibrant world of English-speaking countries with this course.',
       link: '/ReadingPractice/EnglishReading',
     },
+    {
+      type: 'englishb1',
+      heading: 'English Reading Practice (B1-B2)',
+      text: 'Dive into the vibrant world of English-speaking countries with this course.',
+      link: '/ReadingPractice/EnglishReadingB1',
+    },
   ];
 
   // Sort the cards so that unlocked cards come first

@@ -167,6 +167,34 @@ const FillInTheBlanksComponent = ({
 
   // Language-specific keyboard layouts
   const languageLayouts = {
+    English: {
+      default: [
+        "a z e r t y u i o p",
+        "q s d f g h j k l m",
+        "w x c v b n , ; : !",
+        "{space} {caps} {bksp} {enter}"
+      ],
+      shift: [
+        "A Z E R T Y U I O P",
+        "Q S D F G H J K L M",
+        "W X C V B N ? . / ",
+        "{space} {caps} {bksp} {enter}"
+      ]
+    },
+    EnglishB1: {
+      default: [
+        "a z e r t y u i o p",
+        "q s d f g h j k l m",
+        "w x c v b n , ; : !",
+        "{space} {caps} {bksp} {enter}"
+      ],
+      shift: [
+        "A Z E R T Y U I O P",
+        "Q S D F G H J K L M",
+        "W X C V B N ? . /",
+        "{space} {caps} {bksp} {enter}"
+      ]
+    },
     French: {
       default: [
         "a z e r t y u i o p à",

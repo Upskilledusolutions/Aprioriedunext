@@ -895,102 +895,102 @@ export const quiz = [
         // 2 Jumbled Words
         
         {
-          "question": "La voiture est rouge.",
+          "question": "La voiture est rouge",
           "choices": ["rouge", "est", "la", "voiture"],
           "type": "JumbledWords"
         },
         {
-          "question": "Les crayons sont bleus.",
+          "question": "Les crayons sont bleus",
           "choices": ["bleus", "crayons", "sont", "les"],
           "type": "JumbledWords"
         },
         {
-          "question": "Le ciel est bleu.",
+          "question": "Le ciel est bleu",
           "choices": ["est", "ciel", "le", "bleu"],
           "type": "JumbledWords"
         },
         {
-          "question": "Les fleurs sont blanches.",
+          "question": "Les fleurs sont blanches",
           "choices": ["les", "blanches", "sont", "fleurs"],
           "type": "JumbledWords"
         },
         {
-          "question": "Ma mère est gentille.",
+          "question": "Ma mère est gentille",
           "choices": ["mère", "ma", "gentille", "est"],
           "type": "JumbledWords"
         },
         {
-          "question": "J’ai une sœur.",
+          "question": "J’ai une sœur",
           "choices": ["J’ai", "sœur", "une"],
           "type": "JumbledWords"
         },
         {
-          "question": "Où est ton père?",
+          "question": "Où est ton père",
           "choices": ["ton", "père", "est", "où"],
           "type": "JumbledWords"
         },
         {
-          "question": "Nous visitons nos grands-parents.",
+          "question": "Nous visitons nos grands-parents",
           "choices": ["grands-parents", "visitons", "nos", "nous"],
           "type": "JumbledWords"
         },
         {
-          "question": "Il se réveille le matin.",
+          "question": "Il se réveille le matin",
           "choices": ["réveille", "se", "matin", "il", "le"],
           "type": "JumbledWords"
         },
         {
-          "question": "Elle va à l'école.",
+          "question": "Elle va à l'école",
           "choices": ["l'école", "à", "va", "elle"],
           "type": "JumbledWords"
         },
         {
-          "question": "Nous mangeons le déjeuner.",
+          "question": "Nous mangeons le déjeuner",
           "choices": ["mangeons", "nous", "déjeuner", "le"],
           "type": "JumbledWords"
         },
         {
-          "question": "Elle regarde la télévision le soir.",
+          "question": "Elle regarde la télévision le soir",
           "choices": ["regarde", "télévision", "elle", "soir", "le" , "la"],
           "type": "JumbledWords"
         },
         {
-          "question": "Le livre est sur la table.",
+          "question": "Le livre est sur la table",
           "choices": ["livre", "le", "table", "la", "est", "sur"],
           "type": "JumbledWords"
         },
         {
-          "question": "Elle a un chien.",
+          "question": "Elle a un chien",
           "choices": ["un", "a", "chien", "elle"],
           "type": "JumbledWords"
         },
         {
-          "question": "Donne-moi une bouteille d'eau.",
+          "question": "Donne-moi une bouteille d'eau",
           "choices": ["d'eau", "une", "bouteille", "donne-moi"],
           "type": "JumbledWords"
         },
         {
-          "question": "Je ferme la porte.",
+          "question": "Je ferme la porte",
           "choices": ["porte", "la", "ferme", "je"],
           "type": "JumbledWords"
         },
         {
-          "question": "J'ai un sac.",
+          "question": "J'ai un sac",
           "choices": ["J'ai", "sac", "un"],
           "type": "JumbledWords"
         },
         {
-          "question": "Mes parents vivent à Paris.",
+          "question": "Mes parents vivent à Paris",
           "choices": ["vivent", "mes", "parents", "Paris", "à"],
           "type": "JumbledWords"
         },
         {
-          "question": "La table est petite.",
+          "question": "La table est petite",
           "choices": ["la", "table", "est", "petite"],
           "type": "JumbledWords"
         },
         {
-          "question": "Le jardin est vert.",
+          "question": "Le jardin est vert",
           "choices": ["vert", "est", "jardin", "le"],
           "type": "JumbledWords"
         },
@@ -1218,64 +1218,6 @@ export const quiz = [
            
           ],
         },
-
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "bleu", "rightId": 1 },
-              "right": { "word": "pomme", "rightId": 5 }
-            },
-            {
-              "left": { "word": "père", "rightId": 2 },
-              "right": { "word": "matin", "rightId": 3 }
-            },
-            {
-              "left": { "word": "se réveiller", "rightId": 3 },
-              "right": { "word": "ciel", "rightId": 1 }
-            },
-            {
-              "left": { "word": "le", "rightId": 4 },
-              "right": { "word": "papa", "rightId": 2 }
-            },
-            {
-              "left": { "word": "rouge", "rightId": 5 },
-              "right": { "word": "masculin singulier", "rightId": 4 }
-            },
-           
-          ],
-        },
-
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "sœur", "rightId": 1 },
-              "right": { "word": "nuit", "rightId": 4 }
-            },
-            {
-              "left": { "word": "manger", "rightId": 2 },
-              "right": { "word": "féminin singulier", "rightId": 3 }
-            },
-            {
-              "left": { "word": "la", "rightId": 3 },
-              "right": { "word": "fille", "rightId": 1 }
-            },
-            {
-              "left": { "word": "noir", "rightId": 4 },
-              "right": { "word": "livre", "rightId": 5 }
-            },
-            {
-              "left": { "word": "étudier", "rightId": 5 },
-              "right": { "word": "petit déjeuner", "rightId": 2 }
-            },
-           
-          ],
-        },
-
-
 
       
       ],
@@ -1535,102 +1477,102 @@ export const quiz = [
         // 2 Jumbled Words
         
         {
-          "question": "La table est devant le professeur.",
+          "question": "La table est devant le professeur",
           "choices": ["table", "la", "professeur", "devant", "est", "la"],
           "type": "JumbledWords"
         },
         {
-          "question": "L'élève est assis à son bureau.",
+          "question": "L'élève est assis à son bureau",
           "choices": ["l'élève", "assis", "à", "bureau", "est", "son"],
           "type": "JumbledWords"
         },
         {
-          "question": "L'étudiant lit le livre.",
+          "question": "L'étudiant lit le livre",
           "choices": ["le", "livre", "l'étudiant", "lit"],
           "type": "JumbledWords"
         },
         {
-          "question": "Le professeur écrit au tableau.",
+          "question": "Le professeur écrit au tableau",
           "choices": ["écrit", "tableau", "professeur", "le", "au"],
           "type": "JumbledWords"
         },
         {
-          "question": "Les élèves ont les feuilles.",
+          "question": "Les élèves ont les feuilles",
           "choices": ["feuilles", "élèves", "les", "les", "ont"],
           "type": "JumbledWords"
         },
         {
-          "question": "Le cahier est sur ma table.",
+          "question": "Le cahier est sur ma table",
           "choices": ["cahier", "ma", "le", "sur", "table", "est"],
           "type": "JumbledWords"
         },
         {
-          "question": "Ma maison est une grande belle.",
+          "question": "Ma maison est une grande belle",
           "choices": ["maison", "est", "une", "grande", "ma", "belle"],
           "type": "JumbledWords"
         },
         {
-          "question": "La chaise est dans la salle.",
+          "question": "La chaise est dans la salle",
           "choices": ["chaise", "salle", "dans", "est", "la", "la"],
           "type": "JumbledWords"
         },
         {
-          "question": "Le canapé est dans le salon.",
+          "question": "Le canapé est dans le salon",
           "choices": ["est", "le", "canapé", "salon", "dans", "le"],
           "type": "JumbledWords"
         },
         {
-          "question": "Le réfrigérateur est dans la cuisine.",
+          "question": "Le réfrigérateur est dans la cuisine",
           "choices": ["cuisine", "la", "dans", "réfrigérateur", "le", "est"],
           "type": "JumbledWords"
         },
         {
-          "question": "Ma chambre est en haut.",
+          "question": "Ma chambre est en haut",
           "choices": ["ma", "chambre", "est", "en haut"],
           "type": "JumbledWords"
         },
         {
-          "question": "Le livre est sur la table.",
+          "question": "Le livre est sur la table",
           "choices": ["sur", "est" ,"la", "le", "livre", "table"],
           "type": "JumbledWords"
         },
         {
-          "question": "Ces chaises sont rouges.",
+          "question": "Ces chaises sont rouges",
           "choices": ["chaises", "ces", "sont", "rouges"],
           "type": "JumbledWords"
         },
         {
-          "question": "Ce livre est intéressant.",
+          "question": "Ce livre est intéressant",
           "choices": ["livre", "ce", "est", "intéressant"],
           "type": "JumbledWords"
         },
         {
-          "question": "Cette voiture est très rapide.",
+          "question": "Cette voiture est très rapide",
           "choices": ["voiture", "cette", "est", "très", "rapide"],
           "type": "JumbledWords"
         },
         {
-          "question": "Cette table est nouvelle.",
+          "question": "Cette table est nouvelle",
           "choices": ["table", "cette", "est", "nouvelle"],
           "type": "JumbledWords"
         },
         {
-          "question": "Ces maisons sont grandes.",
+          "question": "Ces maisons sont grandes",
           "choices": ["maison", "ces", "sont", "grandes"],
           "type": "JumbledWords"
         },
         {
-          "question": "Ce chapeau est joli.",
+          "question": "Ce chapeau est joli",
           "choices": ["chapeau", "ce", "est", "joli"],
           "type": "JumbledWords"
         },
         {
-          "question": "Ces stylos sont mes bleus.",
+          "question": "Ces stylos sont mes bleus",
           "choices": ["stylos", "ces", "sont", "mes", "bleus"],
           "type": "JumbledWords"
         },
         {
-          "question": "Ce chien est mon.",
+          "question": "Ce chien est mon",
           "choices": ["chien", "ce", "est", "mon"],
           "type": "JumbledWords"
         },
@@ -1803,117 +1745,6 @@ export const quiz = [
           ],
         },
 
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "ce livre", "rightId": 1 },
-              "right": { "word": "this pen", "rightId": 4 }
-            },
-            {
-              "left": { "word": "la porte", "rightId": 2 },
-              "right": { "word": "whiteboard", "rightId": 5 }
-            },
-            {
-              "left": { "word": "l'élève", "rightId": 3 },
-              "right": { "word": "this student", "rightId": 3 }
-            },
-            {
-              "left": { "word": "ce stylo", "rightId": 4 },
-              "right": { "word": "this book", "rightId": 1 }
-            },
-            {
-              "left": { "word": "le tableau", "rightId": 5 },
-              "right": { "word": "this door", "rightId": 2 }
-            },
-           
-          ],
-        },
-
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "la fenêtre", "rightId": 1 },
-              "right": { "word": "chalk", "rightId": 3 }
-            },
-            {
-              "left": { "word": "ce bureau", "rightId": 2 },
-              "right": { "word": "this door", "rightId": 5 }
-            },
-            {
-              "left": { "word": "cette craie", "rightId": 3 },
-              "right": { "word": "book", "rightId": 4 }
-            },
-            {
-              "left": { "word": "le livre", "rightId": 4 },
-              "right": { "word": "this window", "rightId": 1 }
-            },
-            {
-              "left": { "word": "cette porte", "rightId": 5 },
-              "right": { "word": "desk", "rightId": 2 }
-            },
-           
-          ],
-        },
-
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "cet escalier", "rightId": 1 },
-              "right": { "word": "this chair", "rightId": 5 }
-            },
-            {
-              "left": { "word": "ce lit", "rightId": 2 },
-              "right": { "word": "bathroom", "rightId": 3 }
-            },
-            {
-              "left": { "word": "cette salle de bains", "rightId": 3 },
-              "right": { "word": "this stairs", "rightId": 1 }
-            },
-            {
-              "left": { "word": "ces livres", "rightId": 4 },
-              "right": { "word": "bed", "rightId": 2 }
-            },
-            {
-              "left": { "word": "cette chaise", "rightId": 5 },
-              "right": { "word": "these books", "rightId": 4 }
-            },
-           
-          ],
-        },
-
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "la cuisine", "rightId": 1 },
-              "right": { "word": "this table", "rightId": 4 }
-            },
-            {
-              "left": { "word": "ces fenêtres", "rightId": 2 },
-              "right": { "word": "sofa", "rightId": 3 }
-            },
-            {
-              "left": { "word": "ce canapé", "rightId": 3 },
-              "right": { "word": "kitchen", "rightId": 1 }
-            },
-            {
-              "left": { "word": "cette table", "rightId": 4 },
-              "right": { "word": "refrigerators", "rightId": 5 }
-            },
-            {
-              "left": { "word": "ces réfrigérateurs", "rightId": 5 },
-              "right": { "word": "these windows", "rightId": 2 }
-            },
-           
-          ],
-        },
       ],
     },
     {
@@ -2171,82 +2002,82 @@ export const quiz = [
         // 2 Jumbled Words
         
         {
-          "question": "L'hiver est froid.",
+          "question": "L'hiver est froid",
           "choices": ["froid", "l'hiver",  "est"],
           "type": "JumbledWords"
       },
       {
-          "question": "Il fait très chaud aujourd'hui.",
+          "question": "Il fait très chaud aujourd'hui",
           "choices": ["très", "chaud", "aujourd'hui", "il", "fait"],
           "type": "JumbledWords"
       },
       {
-          "question": "Je suis en vacances en août.",
+          "question": "Je suis en vacances en août",
           "choices": ["vacances", "en", "en", "août", "je", "suis"],
           "type": "JumbledWords"
       },
       {
-          "question": "Nous avons un grand voyage.",
+          "question": "Nous avons un grand voyage",
           "choices": ["grand", "avons", "voyage", "un", "nous"],
           "type": "JumbledWords"
       },
       {
-          "question": "Je suis à gauche de la direction.",
+          "question": "Je suis à gauche de la direction",
           "choices": ["je", "gauche", "à", "suis", "de la", "direction"],
           "type": "JumbledWords"
       },
       {
-          "question": "Ce temps est chaud en été.",
+          "question": "Ce temps est chaud en été",
           "choices": ["chaud", "fait", "il", "été", "en", "ce"],
           "type": "JumbledWords"
       },
       {
-          "question": "Il neige en hiver.",
+          "question": "Il neige en hiver",
           "choices": ["neige", "hiver", "en", "il"],
           "type": "JumbledWords"
       },
       {
-          "question": "Le mois de janvier est froid.",
+          "question": "Le mois de janvier est froid",
           "choices": ["janvier", "le", "de", "froid", "mois", "est"],
           "type": "JumbledWords"
       },
       {
-          "question": "Il tourne à droite.",
+          "question": "Il tourne à droite",
           "choices": ["tournez", "droite", "à", "il"],
           "type": "JumbledWords"
       },
       {
-          "question": "Je vais tout droit maintenant.",
+          "question": "Je vais tout droit maintenant",
           "choices": ["maintenant", "je", "tout", "vais", "droit"],
           "type": "JumbledWords"
       },
       {
-          "question": "Il adore si le temps pleut.",
+          "question": "Il adore si le temps pleut",
           "choices": ["il", "si", "le", "pleut", "adore", "temps"],
           "type": "JumbledWords"
       },
       {
-          "question": "Nous voyageons en train.",
+          "question": "Nous voyageons en train",
           "choices": ["en", "train", "voyageons", "nous"],
           "type": "JumbledWords"
       },
       {
-          "question": "Lundi est demain.",
+          "question": "Lundi est demain",
           "choices": ["demain", "est", "lundi"],
           "type": "JumbledWords"
       },
       {
-          "question": "L'hiver commence après le printemps.",
+          "question": "L'hiver commence après le printemps",
           "choices": ["printemps", "après", "commence", "l'hiver", "le"],
           "type": "JumbledWords"
       },
       {
-          "question": "Le mois d'avril est du printemps.",
+          "question": "Le mois d'avril est du printemps",
           "choices": ["le", "d'avril", "mois", "printemps", "du", "est"],
           "type": "JumbledWords"
       },
       {
-          "question": "Aujourd'hui est une belle journée.",
+          "question": "Aujourd'hui est une belle journée",
           "choices": ["belle", "est", "journée", "une", "aujourd'hui"],
           "type": "JumbledWords"
       },
@@ -2490,62 +2321,6 @@ export const quiz = [
             {
               "left": { "word": "beaucoup", "rightId": 5 },
               "right": { "word": "often", "rightId": 4 }
-            },
-           
-          ],
-        },
-
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "lundi", "rightId": 1 },
-              "right": { "word": "august", "rightId": 2 }
-            },
-            {
-              "left": { "word": "août", "rightId": 2 },
-              "right": { "word": "spring", "rightId": 3 }
-            },
-            {
-              "left": { "word": "le printemps", "rightId": 3 },
-              "right": { "word": "the rain", "rightId": 5 }
-            },
-            {
-              "left": { "word": "décembre", "rightId": 4 },
-              "right": { "word": "monday", "rightId": 1 }
-            },
-            {
-              "left": { "word": "la pluie", "rightId": 5 },
-              "right": { "word": "december", "rightId": 4 }
-            },
-           
-          ],
-        },
-
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "ce livre", "rightId": 1 },
-              "right": { "word": "the sun", "rightId": 4 }
-            },
-            {
-              "left": { "word": "la porte", "rightId": 2 },
-              "right": { "word": "winter", "rightId": 5 }
-            },
-            {
-              "left": { "word": "l'élève", "rightId": 3 },
-              "right": { "word": "the wind", "rightId": 3 }
-            },
-            {
-              "left": { "word": "ce stylo", "rightId": 4 },
-              "right": { "word": "straight ahead", "rightId": 1 }
-            },
-            {
-              "left": { "word": "le tableau", "rightId": 5 },
-              "right": { "word": "turn left", "rightId": 2 }
             },
            
           ],
@@ -2808,102 +2583,102 @@ export const quiz = [
         // 2 Jumbled Words
         
         {
-          "question": "Je n’aime pas manger trop de légumes.",
+          "question": "Je n’aime pas manger trop de légumes",
           "choices": ["Je", "n’aime", "pas", "manger", "trop", "de", "légumes"],
           "type": "JumbledWords"
       },
       {
-          "question": "Tu préfères le chocolat ou le café ?",
+          "question": "Tu préfères le chocolat ou le café",
           "choices": ["Tu", "préfères", "le", "chocolat", "ou", "le", "café"],
           "type": "JumbledWords"
       },
       {
-          "question": "Les enfants adorent regarder les dessins animés.",
+          "question": "Les enfants adorent regarder les dessins animés",
           "choices": ["Les", "enfants", "adorent", "regarder", "les", "dessins", "animés"],
           "type": "JumbledWords"
       },
       {
-          "question": "J’adore faire du vélo, c’est un sport.",
+          "question": "J’adore faire du vélo, c’est un sport",
           "choices": ["J’adore", "faire", "du", "vélo", "c’est", "un", "sport"],
           "type": "JumbledWords"
       },
       {
-          "question": "Je n’aime pas vraiment les légumes.",
+          "question": "Je n’aime pas vraiment les légumes",
           "choices": ["Je", "n’aime", "pas", "vraiment", "les", "légumes"],
           "type": "JumbledWords"
       },
       {
-          "question": "Elle aime écouter toute sorte de musique.",
+          "question": "Elle aime écouter toute sorte de musique",
           "choices": ["Elle", "aime", "écouter", "toute", "sorte", "de", "musique"],
           "type": "JumbledWords"
       },
       {
-          "question": "Nous préférons passer les vacances à la plage l’été.",
+          "question": "Nous préférons passer les vacances à la plage l’été",
           "choices": ["Nous", "préférons", "passer", "les", "vacances", "à", "la", "plage", "l’été"],
           "type": "JumbledWords"
       },
       {
-          "question": "Prenez la rue à droite, suivez l’hôtel.",
+          "question": "Prenez la rue à droite, suivez l’hôtel",
           "choices": ["Prenez", "la", "rue", "à", "droite", "suivez", "l’hôtel"],
           "type": "JumbledWords"
       },
       {
-          "question": "Où voulez-vous trouver le musée ?",
+          "question": "Où voulez-vous trouver le musée",
           "choices": ["Où", "voulez-vous", "trouver", "le", "musée"],
           "type": "JumbledWords"
       },
       {
-          "question": "Continuez tout droit jusqu’au parc.",
+          "question": "Continuez tout droit jusqu’au parc",
           "choices": ["Continuez", "tout", "droit", "jusqu’au", "parc"],
           "type": "JumbledWords"
       },
       {
-          "question": "La pharmacie est à gauche de la bibliothèque.",
+          "question": "La pharmacie est à gauche de la bibliothèque",
           "choices": ["La", "pharmacie", "est", "à", "gauche", "de", "la", "bibliothèque"],
           "type": "JumbledWords"
       },
       {
-          "question": "Prenez cette rue à deux coins à droite.",
+          "question": "Prenez cette rue à deux coins à droite",
           "choices": ["Prenez", "cette", "rue", "à", "deux", "coins", "à", "droite"],
           "type": "JumbledWords"
       },
       {
-          "question": "Combien d’heures est-il tard ?",
+          "question": "Combien d’heures est-il tard",
           "choices": ["Combien", "d’heures", "est-il", "tard"],
           "type": "JumbledWords"
       },
       {
-          "question": "La boulangerie est près du poste.",
+          "question": "La boulangerie est près du poste",
           "choices": ["La", "boulangerie", "est", "près", "du", "poste"],
           "type": "JumbledWords"
       },
       {
-          "question": "Je vais voir le film après le dîner, à 8h.",
+          "question": "Je vais voir le film après le dîner, à 8h",
           "choices": ["Je", "vais", "voir", "le", "film", "après", "le", "dîner", "à", "8h"],
           "type": "JumbledWords"
       },
       {
-          "question": "Tu veux qu’on se rencontre demain après-midi à 15h ?",
+          "question": "Tu veux qu’on se rencontre demain après-midi à 15h",
           "choices": ["Tu", "veux", "qu’on", "se", "rencontre", "demain", "après-midi", "à", "15h"],
           "type": "JumbledWords"
       },
       {
-          "question": "Nous allons prendre un rendez-vous au café.",
+          "question": "Nous allons prendre un rendez-vous au café",
           "choices": ["Nous", "allons", "prendre", "un", "rendez-vous", "au", "café"],
           "type": "JumbledWords"
       },
       {
-          "question": "Quand est mon rendez-vous ce soir ?",
+          "question": "Quand est mon rendez-vous ce soir",
           "choices": ["Quand", "est", "mon", "rendez-vous", "ce", "soir"],
           "type": "JumbledWords"
       },
       {
-          "question": "Il est possible de venir ce lundi matin.",
+          "question": "Il est possible de venir ce lundi matin",
           "choices": ["Il", "est", "possible", "de", "venir", "ce", "lundi", "matin"],
           "type": "JumbledWords"
       },
       {
-          "question": "On peut changer l’heure de notre rendez-vous.",
+          "question": "On peut changer l’heure de notre rendez-vous",
           "choices": ["On", "peut", "changer", "l’heure", "de", "notre", "rendez-vous"],
           "type": "JumbledWords"
       },
@@ -3132,57 +2907,583 @@ export const quiz = [
           ],
         },
 
+
+
+      ],
+    },
+    {
+      quiz: '6',
+      name: 'French Practice Test - 6',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
         {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "J’aime les vacances d’été.", "rightId": 1 },
-              "right": { "word": "Where is the library?", "rightId": 2 }
-            },
-            {
-              "left": { "word": "Où est la bibliothèque ?", "rightId": 2 },
-              "right": { "word": "I like summer vacations.", "rightId": 1 }
-            },
-            {
-              "left": { "word": "Préférez-vous aller au cinéma ?", "rightId": 3 },
-              "right": { "word": "Take the first street on the right.", "rightId": 5 }
-            },
-            {
-              "left": { "word": "Le rendez-vous est à la plage.", "rightId": 4 },
-              "right": { "word": "Do you prefer going to the cinema?", "rightId": 3 }
-            },
-            {
-              "left": { "word": "Prenez la première rue à droite.", "rightId": 5 },
-              "right": { "word": "The meeting is at the beach.", "rightId": 4 }
-            },
-           
-          ],
+          "question": "Quelle phrase est correcte pour proposer un rendez-vous ?",
+          "choices": ["Je veux une réunion maintenant.", "Que diriez-vous de jeudi ?", "Vous êtes tard !", "Pouvez-vous m’acheter un sandwich ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
         },
+        {
+          "question": "Que diriez-vous si vous êtes libre pour un rendez-vous ?",
+          "choices": ["Désolé, je ne peux pas.", "Oui, cela me convient.", "Où est le restaurant ?", "Je veux dormir."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle option signifie \"Can we meet tomorrow?\"",
+          "choices": ["Pouvons-nous nous voir demain ?", "Voulez-vous dîner maintenant ?", "Je ne suis pas libre.", "Peut-être vendredi."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "\"Je suis disponible mardi\" signifie :",
+          "choices": ["I am free on Monday.", "I am busy on Tuesday.", "I am free on Tuesday.", "I cannot meet."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle réponse est correcte pour refuser un rendez-vous ?",
+          "choices": ["Je suis désolé, je ne suis pas disponible.", "Allons au cinéma.", "Pourquoi pas ?", "Je suis libre à 18h."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase est adaptée à un email formel ?",
+          "choices": ["Salut, comment ça va ?", "Veuillez trouver ci-joint le document demandé.", "Je t’écris pour te dire merci.", "À plus tard !"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle formule de politesse est correcte pour un email informel ?",
+          "choices": ["Cordialement,", "Bien à vous,", "Salut,", "Je reste à votre disposition."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle phrase correspond à un email professionnel ?",
+          "choices": ["Peux-tu venir chez moi ?", "J’ai bien reçu votre message et je vous en remercie.", "Je ne sais pas quoi faire.", "Merci pour ton aide !"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que signifie 'Veuillez accepter mes salutations distinguées' ?",
+          "choices": ["Best regards,", "Thank you,", "Please accept my kind regards,", "I’ll call you soon."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle option n'est pas utilisée dans un email formel ?",
+          "choices": ["Cordialement,", "Merci,", "À tout à l’heure,", "Veuillez accepter."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle phrase est correcte au passé composé ?",
+          "choices": ["Je mangeais une pomme.", "J’ai mangé une pomme.", "Je mangerai une pomme.", "J’ai mange une pomme."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel auxiliaire utilise-t-on pour 'aller; au passé composé ?",
+          "choices": ["Être", "Avoir", "Aller", "Faire"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez : Ils _______ un bon film hier soir.",
+          "choices": ["ont vu", "ont voir", "voient", "voyons"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est le participe passé du verbe 'prendre' ?",
+          "choices": ["pris", "prendu", "prendre", "prit"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez : Nous _______ nos devoirs avant 18h.",
+          "choices": ["avons fini", "avons finir", "finissions", "finirons"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est l'auxiliaire utilisé pour 'je suis allé' ?",
+          "choices": ["Être", "Avoir", "Aller", "Faire"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez : Nous _______ heureux d’être ici.",
+          "choices": ["sommes", "avons", "allons", "faisons"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel auxiliaire est utilisé pour 'J’ai mangé' ?",
+          "choices": ["Être", "Avoir", "Aller", "Faire"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez : Vous _______ en retard ce matin.",
+          "choices": ["êtes", "avez", "faisiez", "allez"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel auxiliaire est nécessaire pour le passé composé des verbes pronominaux ?",
+          "choices": ["Être", "Avoir","Faire", "Aller" ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+
+
+        {
+          "question": "Je voudrais _______ (take) un rendez-vous pour demain.",
+          "choices": ["prendre", "venir", "se voir", "presence"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "À quelle heure pouvez-vous _______ (come) ?",
+          "choices": ["venir", "prendre", "se voir", "presence"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Nous _______ (see each other) à 15h.",
+          "choices": ["se voir", "prendre", "venir", "presence"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Pouvez-vous confirmer votre _______ (presence) ?",
+          "choices": ["se voir", "prendre", "venir", "presence"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Je suis _______ (busy) mercredi.",
+          "choices": ["occupé", "prendre", "se voir", "presence"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Cher Monsieur, merci pour votre _______ (invitation).",
+          "choices": ["invitation", "venir", "presence", "prendre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Je vous _______ (write) pour confirmer ma présence.",
+          "choices": ["écrire", "venir", "prendre", "occupé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Veuillez _______ (accept) mes salutations respectueuses.",
+          "choices": ["accepter", "prendre", "venir", "se voir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Salut Julie, je _______ (want) te parler de notre rendez-vous.",
+          "choices": ["vouloir", "accepter", "prendre", "presence"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "À bientôt, _______ (write)-moi dès que possible !",
+          "choices": ["écris", "avoir", "venir", "être"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Hier, j’_______ (go) au parc avec mes amis.",
+          "choices": ["allé", "mangé", "vu", "fait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Nous _______ (eat) un délicieux repas au restaurant.",
+          "choices": ["mangé", "allé", "vu", "fini"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Elle _______ (finish) ses devoirs avant de partir.",
+          "choices": ["fini", "voir", "avoir", "être"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ils _______ (see) un film intéressant.",
+          "choices": ["vu", "fait", "mangé", "allé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Tu _______ (do) tes courses ce matin ?",
+          "choices": ["fait", "mangé", "allé", "fini"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "J’_______ (have) une réunion ce matin.",
+          "choices": ["avoir", "mangé", "fini", "vu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Nous _______ (be) très heureux de te voir.",
+          "choices": ["être", "avoir", "fini", "mangé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Tu _______ (have) un chien ?",
+          "choices": ["avoir", "être", "prendre", "fini"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Ils _______ (be) en retard pour la réunion.",
+          "choices": ["être", "avoir", "voir", "fini"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Vous _______ (have) des questions ?",
+          "choices": ["avoir", "être", "prendre", "accepter"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 0
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Nous prenons un rendez-vous demain à 14h",
+          "choices": ["Nous", "prenons", "un", "rendez-vous", "demain", "à", "14h"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "À quelle heure pouvez-vous être libre",
+          "choices": ["À", "quelle", "heure", "pouvez-vous", "être", "libre"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pouvez-vous confirmer votre présence à rendez-vous",
+          "choices": ["Pouvez-vous", "confirmer", "votre", "présence", "à", "rendez-vous"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je suis malheureusement occupé demain",
+          "choices": ["Je", "suis", "malheureusement", "occupé", "demain"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Êtes-vous préparé pour la réunion",
+          "choices": ["Êtes-vous", "préparé", "pour", "la", "réunion"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je vous remercie pour votre message",
+          "choices": ["Je", "vous", "remercie", "pour", "votre", "message"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pouvez-vous confirmer un rendez-vous demain",
+          "choices": ["Pouvez-vous", "confirmer", "un", "rendez-vous", "demain"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Cher Monsieur, merci pour votre document",
+          "choices": ["Cher", "Monsieur", "merci", "pour", "votre", "document"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Julie, je t’écris pour confirmer notre réunion",
+          "choices": ["Julie", "je", "t’écris", "pour", "confirmer", "notre", "réunion"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Veuillez accepter mes salutations distinguées",
+          "choices": ["Veuillez", "accepter", "mes", "salutations", "distinguées"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je suis allé au parc ce matin",
+          "choices": ["Je", "suis", "allé", "au", "parc", "ce", "matin"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous avons dîné au restaurant après avoir vu un film",
+          "choices": ["Nous", "avons", "dîné", "au", "restaurant", "après", "avoir", "vu", "un", "film"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle a déjà fait ses devoirs",
+          "choices": ["Elle", "a", "déjà", "fait", "ses", "devoirs"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous avons fait une promenade hier",
+          "choices": ["Nous", "avons", "fait", "une", "promenade", "hier"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je suis allé à cours tôt",
+          "choices": ["Je", "suis", "allé", "à", "cours", "tôt"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous avons été très heureux",
+          "choices": ["Nous", "avons", "été", "très", "heureux"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu as combien d’années",
+          "choices": ["Tu", "as", "combien", "d’années"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ils ont toujours été en retard",
+          "choices": ["Ils", "ont", "toujours", "été", "en", "retard"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Avez-vous des questions",
+          "choices": ["Avez-vous", "des", "questions"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ce jour a été une belle journée",
+          "choices": ["Ce", "jour", "a", "été", "une", "belle", "journée"],
+          "type": "JumbledWords"
+        },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "À quelle heure sommes-nous libres ?", "rightId": 1 },
+            "right": { "word": "I would like to make an appointment.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Je voudrais prendre rendez-vous.", "rightId": 2 },
+            "right": { "word": "Can we reschedule the meeting?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Êtes-vous disponible demain matin ?", "rightId": 3 },
+            "right": { "word": "I'm sorry, I can't.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Je suis désolé(e), je ne peux pas.", "rightId": 4 },
+            "right": { "word": "When are we free?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Pouvons-nous reporter la réunion ?", "rightId": 5 },
+            "right": { "word": "Are you available tomorrow morning?", "rightId": 3 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Quel jour vous convient le mieux ?", "rightId": 1 },
+            "right": { "word": "The appointment is confirmed.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Nous pouvons nous rencontrer à midi.", "rightId": 2 },
+            "right": { "word": "Which day suits you best?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Je vais vérifier mon calendrier.", "rightId": 3 },
+            "right": { "word": "Can I call you back later?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Le rendez-vous est confirmé.", "rightId": 4 },
+            "right": { "word": "I will check my calendar.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Puis-je vous rappeler plus tard ?", "rightId": 5 },
+            "right": { "word": "We can meet at noon.", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Cher Monsieur / Chère Madame", "rightId": 1 },
+            "right": { "word": "Hi!", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Salut !", "rightId": 2 },
+            "right": { "word": "Kind regards", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Cordialement", "rightId": 3 },
+            "right": { "word": "See you soon", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Merci pour votre réponse", "rightId": 4 },
+            "right": { "word": "Dear Sir/Madam", "rightId": 1 }
+          },
+          {
+            "left": { "word": "À bientôt", "rightId": 5 },
+            "right": { "word": "Thank you for your response", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Cordialement", "rightId": 1 },
+            "right": { "word": "Thank you for your email", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Je vous écris pour vous informer", "rightId": 2 },
+            "right": { "word": "Please find attached", "rightId": 5 }
+          },
+          {
+            "left": { "word": "J’espère que tu vas bien", "rightId": 3 },
+            "right": { "word": "I hope you’re doing well", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Je te remercie pour ton email", "rightId": 4 },
+            "right": { "word": "Best regards", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Veuillez trouver ci-joint", "rightId": 5 },
+            "right": { "word": "I am writing to inform you", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "J'ai mangé", "rightId": 1 },
+            "right": { "word": "We met some friends", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Elle a visité Paris", "rightId": 2 },
+            "right": { "word": "They took the train", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Nous avons rencontré des amis", "rightId": 3 },
+            "right": { "word": "You studied all night", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Vous avez étudié toute la nuit", "rightId": 4 },
+            "right": { "word": "I ate", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Ils ont pris le train", "rightId": 5 },
+            "right": { "word": "She visited Paris", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Tu as écouté de la musique", "rightId": 1 },
+            "right": { "word": "I went to the store", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Il a fait ses devoirs", "rightId": 2 },
+            "right": { "word": "We went shopping", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Nous avons fait du shopping", "rightId": 3 },
+            "right": { "word": "You listened to music", "rightId": 1 }
+          },
+          {
+            "left": { "word": "J'ai vu le film", "rightId": 4 },
+            "right": { "word": "He did his homework", "rightId": 2 }
+          },
+          {
+            "left": { "word": "J'ai acheté des cadeaux", "rightId": 5 },
+            "right": { "word": "I saw the movie", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "J'ai mangé", "rightId": 1 },
+            "right": { "word": "You have arrived", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Il est parti", "rightId": 2 },
+            "right": { "word": "We have studied", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Nous avons étudié", "rightId": 3 },
+            "right": { "word": "I have eaten", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Vous êtes arrivés", "rightId": 4 },
+            "right": { "word": "She will go", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Elle va partir", "rightId": 5 },
+            "right": { "word": "He left", "rightId": 2 }
+          },
+         
+        ],
+      },
 
         {
           "question": "Match the Words.",
           type: "MatchTheFollowing",
           "pairs": [
             {
-              "left": { "word": "Nous adorons visiter des musées.", "rightId": 1 },
-              "right": { "word": "Is it possible to meet at noon?", "rightId": 2 }
+              "left": { "word": "Ils sont allés", "rightId": 1 },
+              "right": { "word": "You spoke", "rightId": 3 }
             },
             {
-              "left": { "word": "Est-il possible de se rencontrer à midi ?", "rightId": 2 },
-              "right": { "word": "We prefer appointments in the evening.", "rightId": 5 }
+              "left": { "word": "Je suis allé", "rightId": 2 },
+              "right": { "word": "They went", "rightId": 1 }
             },
             {
-              "left": { "word": "Continuez tout droit jusqu’au parc.", "rightId": 3 },
-              "right": { "word": "I don’t like rain in autumn.", "rightId": 4 }
+              "left": { "word": "Tu as parlé", "rightId": 3 },
+              "right": { "word": "I went", "rightId": 2 }
             },
             {
-              "left": { "word": "Je n’aime pas la pluie en automne.", "rightId": 4 },
-              "right": { "word": "Continue straight to the park.", "rightId": 3 }
+              "left": { "word": "Elles dorment", "rightId": 4 },
+              "right": { "word": "We will eat", "rightId": 5 }
             },
             {
-              "left": { "word": "Nous préférons les rendez-vous le soir.", "rightId": 5 },
-              "right": { "word": "We love visiting museums.", "rightId": 1 }
+              "left": { "word": "Nous allons manger", "rightId": 5 },
+              "right": { "word": "They are sleeping", "rightId": 4 }
             },
            
           ],

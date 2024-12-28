@@ -1,7 +1,7 @@
 export const data = [
   {
-    id: '2',
-    name: 'English Reading Assignment 2 (A1)',
+    id: '1',
+    name: 'English Reading Assignment 1 (A1)',
     level: 'Beginner',
     Title: 'Lucy\'s Day',
     readingText: "Lucy is a young girl. She lives in a small town with her family. Lucy has one brother and one sister. Her brother’s name is Sam, and her sister’s name is Lily. Lucy likes to play outside. She loves the green trees and the blue sky. Every morning, Lucy eats breakfast with her family. She drinks milk and eats bread. After breakfast, she goes to school. At school, Lucy learns English and plays with her friends. She is happy and loves her family very much.",

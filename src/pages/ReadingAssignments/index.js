@@ -22,6 +22,12 @@ export default function Index() {
       link: '/ReadingAssignments/EnglishReading',
     },
     {
+      type: 'englishb1',
+      heading: 'English Beginner (B1-B2)',
+      text: 'Master the language of art, culture, and diplomacy with our English Reading Assignments.',
+      link: '/ReadingAssignments/EnglishReadingB1',
+    },
+    {
       type: 'french',
       heading: 'French Beginner (A1-A2)',
       text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
