@@ -22,6 +22,12 @@ export default function Index() {
       link: '/ListeningAssignments/EnglishListening',
     },
     {
+      type: 'englishb1',
+      heading: 'English Beginner (B1-B2)',
+      text: 'Master the language of art, culture, and diplomacy with our English Listening Assignments.',
+      link: '/ListeningAssignments/EnglishListeningB1',
+    },
+    {
       type: 'french',
       heading: 'French Beginner (A1-A2)',
       text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
