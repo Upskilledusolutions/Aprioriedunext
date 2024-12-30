@@ -9,7 +9,7 @@ import { FaLock } from 'react-icons/fa';
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
-  const unlockedPages = useSelector((state) => state.unlockedLessons.unlockedLessonsSpanish);
+  const unlockedPages = useSelector((state) => state.unlockedLessons.unlockedLessonsSpanishA2);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ export default function FrenchQuizes() {
       <main>
         <div className={styles.container}>
           <div className={styles.headcont}>
-            <div className={styles.mainheading}>Spanish Lessons</div>
+            <div className={styles.mainheading}>Spanish Lessons (A2)</div>
           </div>
 
           <div className={styles.cards1}>

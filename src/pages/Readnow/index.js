@@ -7,10 +7,10 @@ import { FaLock } from 'react-icons/fa';
 
 export default function Index() {
   const { isAuthenticated, user } = useSelector((state) => state.auth);
-  console.log(user?.next)
+  
   // Function to determine if a card should be locked
   const isCardLocked = (cardType) => {
-    return user?.type !== 'all' && user?.type !== cardType && user?.next !== cardType;
+    return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
 
   // Array of card information with type, heading, and text
@@ -23,88 +23,89 @@ export default function Index() {
     },
     {
       type: 'englishb1',
-      heading: 'English Beginner (B1-B2)',
+      heading: 'English Beginner (B1)',
       text: 'Master the language of art, culture, and diplomacy with our English lessons.',
       link: '/Readnow/EnglishlessonsB1',
     },
     {
       type: 'french',
-      heading: 'French Beginner (A1-A2)',
+      heading: 'French Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our French lessons.',
       link: '/Readnow/Frenchlessons',
     },
     {
+      type: 'frencha2',
+      heading: 'French Beginner (A2)',
+      text: 'Master the language of art, culture, and diplomacy with our French lessons.',
+      link: '/Readnow/FrenchlessonsA2',
+    },
+    {
       type: 'frenchb1',
-      heading: 'French Intermediate (B1-B2)',
+      heading: 'French Intermediate (B1)',
       text: 'Master the language of art, culture, and diplomacy with our French lessons.',
       link: '/Readnow/FrenchlessonsB1',
     },
     {
       type: 'german',
-      heading: 'German Beginner (A1-A2)',
+      heading: 'German Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Germany with this course.',
       link: '/Readnow/Germanlessons',
     },
     {
+      type: 'germana2',
+      heading: 'German Beginner (A2)',
+      text: 'Navigate both casual and formal language settings of Germany with this course.',
+      link: '/Readnow/GermanlessonsA2',
+    },
+    {
       type: 'spanish',
-      heading: 'Spanish Beginner (A1-A2)',
+      heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
       link: '/Readnow/Spanishlessons',
     },
     {
+      type: 'spanisha2',
+      heading: 'Spanish Beginner (A2)',
+      text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
+      link: '/Readnow/SpanishlessonsA2',
+    },
+    {
       type: 'italian',
-      heading: 'Italian Beginner (A1-A2)',
+      heading: 'Italian Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our Italian lessons.',
       link: '/Readnow/Italianlessons',
     },
     {
       type: 'dutch',
-      heading: 'Dutch Beginner (A1-A2)',
+      heading: 'Dutch Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Dutch with this course.',
       link: '/Readnow/Dutchlessons',
     },
     {
       type: 'russian',
-      heading: 'Russian Beginner (A1-A2)',
+      heading: 'Russian Beginner (A1)',
       text: 'Dive into the vibrant world of Russian-speaking countries with this course.',
       link: '/Readnow/Russianlessons',
     },
     {
       type: 'japanese',
-      heading: 'Japanese Beginner (A1-A2)',
+      heading: 'Japanese Beginner (A1)',
       text: 'Dive into the vibrant world of Japanese-speaking countries with this course.',
       link: '/Readnow/Japaneselessons',
     },
     {
       type: 'korean',
-      heading: 'Korean Beginner (A1-A2)',
+      heading: 'Korean Beginner (A1)',
       text: 'Dive into the vibrant world of Korean-speaking countries with this course.',
       link: '/Readnow/Koreanlessons',
     },
     {
       type: 'danish',
-      heading: 'Danish Beginner (A1-A2)',
+      heading: 'Danish Beginner (A1)',
       text: 'Dive into the vibrant world of Danish-speaking countries with this course.',
       link: '/Readnow/Danishlessons',
     },
-    // {
-    //   type: 'frencha2',
-    //   heading: 'French Beginner (A2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our French lessons.',
-    //   link: '/Readnow/FrenchlessonsA2',
-    // },
-    // {
-    //   type: 'germana2',
-    //   heading: 'German Beginner (A2)',
-    //   text: 'Navigate both casual and formal language settings of Germany with this course.',
-    //   link: '/Readnow/GermanlessonsA2',
-    // },
-    // {
-    //   type: 'spanisha2',
-    //   heading: 'Spanish Beginner (A2)',
-    //   text: 'Navigate both casual and formal language settings of Germany with this course.',
-    //   link: '/Readnow/SpanishlessonsA2',
-    // },
+   
   ];
 
   // Sort the cards so that unlocked cards come first

@@ -10,40 +10,58 @@ export default function Index() {
 
   // Function to determine if a card should be locked
   const isCardLocked = (cardType) => {
-    return user?.type !== 'all' && user?.type !== cardType;
+    return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
 
   // Array of card information with type, heading, and text
   const cards = [
     {
       type: 'english',
-      heading: 'English Beginner (A1-A2)',
+      heading: 'English Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our English exercise.',
       link: '/Conversations/EnglishConversationsA1',
     },
     {
       type: 'french',
-      heading: 'French Beginner (A1-A2)',
+      heading: 'French Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our French exercise.',
       link: '/Conversations/FrenchConversationsA1',
     },
     {
+      type: 'frencha2',
+      heading: 'French Beginner (A2)',
+      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+      link: '/Conversations/FrenchConversationsA2',
+    },
+    {
+      type: 'frenchb1',
+      heading: 'French Intermediate (B1)',
+      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+      link: '/Conversations/FrenchConversationsB1',
+    },
+    {
       type: 'german',
-      heading: 'German Beginner (A1-A2)',
+      heading: 'German Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Germany with this exercise.',
       link: '/Conversations/GermanConversationsA1',
     },
     {
+      type: 'germana2',
+      heading: 'German Beginner (A2)',
+      text: 'Navigate both casual and formal language settings of Germany with this exercise.',
+      link: '/Conversations/GermanConversationsA2',
+    },
+    {
       type: 'spanish',
-      heading: 'Spanish Beginner (A1-A2)',
+      heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
       link: '/Conversations/SpanishConversationsA1',
     },
     {
-      type: 'frenchb1',
-      heading: 'French Intermediate (B1-B2)',
-      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
-      link: '/Conversations/FrenchConversationsB1',
+      type: 'spanisha2',
+      heading: 'Spanish Beginner (A2)',
+      text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
+      link: '/Conversations/SpanishConversationsA2',
     },
     {
       type: 'italian',

@@ -32,7 +32,7 @@ export default function FrenchQuizes() {
       <main>
         <div className={styles.container}>
           <div className={styles.headcont}>
-            <div className={styles.mainheading}>Korean Reading Assignments</div>
+            <div className={styles.mainheading}>Korean Reading Assignments (A1)</div>
           </div>
 
           <div className={styles.cards1}>

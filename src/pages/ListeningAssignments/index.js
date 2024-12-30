@@ -10,38 +10,38 @@ export default function Index() {
 
   // Function to determine if a card should be locked
   const isCardLocked = (cardType) => {
-    return user?.type !== 'all' && user?.type !== cardType;
+    return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
 
   // Array of card information with type, heading, and text
   const cards = [
     {
       type: 'english',
-      heading: 'English Beginner (A1-A2)',
+      heading: 'English Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our English Listening Assignments.',
       link: '/ListeningAssignments/EnglishListening',
     },
     {
       type: 'englishb1',
-      heading: 'English Beginner (B1-B2)',
+      heading: 'English Beginner (B1)',
       text: 'Master the language of art, culture, and diplomacy with our English Listening Assignments.',
       link: '/ListeningAssignments/EnglishListeningB1',
     },
     {
       type: 'french',
-      heading: 'French Beginner (A1-A2)',
+      heading: 'French Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
       link: '/ListeningAssignments/FrenchListening',
     },
     {
       type: 'spanish',
-      heading: 'Spanish Beginner (A1-A2)',
+      heading: 'Spanish Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',
       link: '/ListeningAssignments/SpanishListening',
     },
     {
       type: 'german',
-      heading: 'German Beginner (A1-A2)',
+      heading: 'German Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',
       link: '/ListeningAssignments/GermanListening',
     },

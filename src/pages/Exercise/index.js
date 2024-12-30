@@ -10,56 +10,74 @@ export default function Index() {
 
   // Function to determine if a card should be locked
   const isCardLocked = (cardType) => {
-    return user?.type !== 'all' && user?.type !== cardType;
+    return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
 
   // Array of card information with type, heading, and text
   const cards = [
     {
       type: 'french',
-      heading: 'French Beginner (A1-A2)',
+      heading: 'French Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our French exercise.',
       link: '/Exercise/FrenchExercises',
     },
     {
+      type: 'frencha2',
+      heading: 'French Beginner (A2)',
+      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+      link: '/Exercise/FrenchExercisesA2',
+    },
+    {
+      type: 'frenchb1',
+      heading: 'French Intermediate (B1)',
+      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+      link: '/Exercise/FrenchExercisesB1',
+    },
+    {
       type: 'englishb1',
-      heading: 'English Beginner (B1-B2)',
+      heading: 'English Beginner (B1)',
       text: 'Master the language of art, culture, and diplomacy with our English exercise.',
       link: '/Exercise/EnglishExercisesB1',
     },
     {
       type: 'german',
-      heading: 'German Beginner (A1-A2)',
+      heading: 'German Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Germany with this exercise.',
       link: '/Exercise/GermanExercises',
     },
     {
+      type: 'germana2',
+      heading: 'German Beginner (A2)',
+      text: 'Navigate both casual and formal language settings of Germany with this exercise.',
+      link: '/Exercise/GermanExercisesA2',
+    },
+    {
       type: 'spanish',
-      heading: 'Spanish Beginner (A1-A2)',
+      heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
       link: '/Exercise/SpanishExercises',
     },
     {
-      type: 'frenchb1',
-      heading: 'French Intermediate (B1-B2)',
-      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
-      link: '/Exercise/FrenchExercisesB1',
+      type: 'spanisha2',
+      heading: 'Spanish Beginner (A2)',
+      text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
+      link: '/Exercise/SpanishExercisesA2',
     },
     {
       type: 'italian',
-      heading: 'Italian Beginner (A1-A2)',
+      heading: 'Italian Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our Italian exercise.',
       link: '/Exercise/ItalianExercises',
     },
     {
       type: 'russian',
-      heading: 'Russian Beginner (A1-A2)',
+      heading: 'Russian Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Russian with this exercise.',
       link: '/Exercise/RussianExercises',
     },
     {
       type: 'dutch',
-      heading: 'Dutch Beginner (A1-A2)',
+      heading: 'Dutch Beginner (A1)',
       text: 'Dive into the vibrant world of Dutch-speaking countries with this exercise.',
       link: '/Exercise/DutchExercises',
     },

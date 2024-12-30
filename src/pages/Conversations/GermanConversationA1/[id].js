@@ -72,7 +72,7 @@ export default function Conversation({ params }) {
               const isUnlocked = unlockedPages.includes(data.id);
       return (
         <div key={data.id} className={styles.videocontainer1}>
-          {isUnlocked ?  <Link className={styles.link1} href={`/Conversations/GermanConversation/${data.id}`}>
+          {isUnlocked ?  <Link className={styles.link1} href={`/Conversations/GermanConversationA1/${data.id}`}>
         <div className={styles.imgcont4}>
         <div className={styles.logocont}>
           <Image className={styles.imagelogo} src={'/youtube/youtube.png'} width={400} height={180} alt='image'/>

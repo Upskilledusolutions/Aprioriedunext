@@ -10,20 +10,20 @@ export default function Index() {
   console.log(user?.next)
   // Function to determine if a card should be locked
   const isCardLocked = (cardType) => {
-    return user?.type !== 'all' && user?.type !== cardType && user?.next !== cardType;
+    return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
 
   // Array of card information with type, heading, and text
   const cards = [
     {
       type: 'english',
-      heading: 'English Reading Practice (A1-A2)',
+      heading: 'English Reading Practice (A1)',
       text: 'Dive into the vibrant world of English-speaking countries with this course.',
       link: '/ReadingPractice/EnglishReading',
     },
     {
       type: 'englishb1',
-      heading: 'English Reading Practice (B1-B2)',
+      heading: 'English Reading Practice (B1)',
       text: 'Dive into the vibrant world of English-speaking countries with this course.',
       link: '/ReadingPractice/EnglishReadingB1',
     },

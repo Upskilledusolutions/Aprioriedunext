@@ -16,7 +16,7 @@ const LessonPage = ({ lesson }) => {
   const { id } = router.query;
 
   const dispatch = useDispatch();
-  const unlockedPages = useSelector((state) => state.unlockedLessons.unlockedLessonsGerman);
+  const unlockedPages = useSelector((state) => state.unlockedLessons.unlockedLessonsGermanA2);
   const subject = 'GermanA2';
 
   useEffect(() => {
