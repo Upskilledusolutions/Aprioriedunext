@@ -578,7 +578,7 @@ export const quiz = [
       },
       {
         "question": "'Twelve' in German is ______.",
-        "choices": ["zwölf", "Drei", "Neun", "Elf"],
+        "choices": ["zwolf", "zwölf", "Drei", "Neun", "Elf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -596,7 +596,7 @@ export const quiz = [
       },
       {
         "question": "'Fifteen' in German is ______.",
-        "choices": ["Fünfzehn", "Drei", "Neun", "Elf"],
+        "choices": ["Funfzehn", "Fünfzehn", "Drei", "Neun", "Elf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -696,26 +696,6 @@ export const quiz = [
       "left": { "word": "NEUN", "rightId": 5 },
       "right": { "word": "TWELVE", "rightId": 1 }
     },
-    {
-      "left": { "word": "VIER", "rightId": 6 },
-      "right": { "word": "EIGHT", "rightId": 7 }
-    },
-    {
-      "left": { "word": "ACHT", "rightId": 7 },
-      "right": { "word": "TWO", "rightId": 8 }
-    },
-    {
-      "left": { "word": "ZWEI", "rightId": 8 },
-      "right": { "word": "TEN", "rightId": 9 }
-    },
-    {
-      "left": { "word": "ZEHN", "rightId": 9 },
-      "right": { "word": "NINETEEN", "rightId": 10 }
-    },
-    {
-      "left": { "word": "NEUNZEHN", "rightId": 10 },
-      "right": { "word": "FOUR", "rightId": 6 }
-    }
   ]
 },
 {
@@ -724,15 +704,15 @@ export const quiz = [
   "pairs": [
     {
       "left": { "word": "Der Tisch", "rightId": 1 },
-      "right": { "word": "The school", "rightId": 10 }
+      "right": { "word": "A dog", "rightId": 4 }
     },
     {
       "left": { "word": "Die Lampe", "rightId": 2 },
-      "right": { "word": "A flower", "rightId": 9 }
+      "right": { "word": "A cat", "rightId": 5 }
     },
     {
       "left": { "word": "Das Buch", "rightId": 3 },
-      "right": { "word": "A child", "rightId": 8 }
+      "right": { "word": "The Book", "rightId": 3 }
     },
     {
       "left": { "word": "Ein Hund", "rightId": 4 },
@@ -742,26 +722,6 @@ export const quiz = [
       "left": { "word": "Eine Katze", "rightId": 5 },
       "right": { "word": "The table", "rightId": 1 }
     },
-    {
-      "left": { "word": "Der Stuhl", "rightId": 6 },
-      "right": { "word": "The car", "rightId": 7 }
-    },
-    {
-      "left": { "word": "Das Auto", "rightId": 7 },
-      "right": { "word": "The book", "rightId": 3 }
-    },
-    {
-      "left": { "word": "Ein Kind", "rightId": 8 },
-      "right": { "word": "A dog", "rightId": 4 }
-    },
-    {
-      "left": { "word": "Eine Blume", "rightId": 9 },
-      "right": { "word": "A cat", "rightId": 5 }
-    },
-    {
-      "left": { "word": "Die Schule", "rightId": 10 },
-      "right": { "word": "The chair", "rightId": 6 }
-    }
   ]
 }
 
@@ -1011,8 +971,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Ich liebe es, ______ (to dance).",
-        "choices": ["zu tanzen", "zu singen", "zu spielen", "zu lernen"],
+        "question": "Ich liebe es, zu ______ (to dance).",
+        "choices": ["tanzen", "zu singen", "zu spielen", "zu lernen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1054,7 +1014,7 @@ export const quiz = [
       },
       {
         "question": "Der Zug fährt um ______ (five) Uhr nachmittags ab.",
-        "choices": ["fünf", "e", "sechs", "drei"],
+        "choices": ["funf", "fünf", "e", "sechs", "drei"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1102,7 +1062,7 @@ export const quiz = [
       },
       {
         "question": "Ich fühle mich ______ (tired) nach der Arbeit.",
-        "choices": ["müde", "wach", "aktiv", "fit"],
+        "choices": ["mude", "müde", "wach", "aktiv", "fit"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1142,8 +1102,7 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "guten morgen", "rightId": 1 },
-      "right": { "word": "health", "rightId": 10 }
-
+      "right": { "word": "fifty", "rightId": 4 }
     },
     {
       "left": { "word": "bitte", "rightId": 2 },
@@ -1165,9 +1124,16 @@ export const quiz = [
       "right": { "word": "blue", "rightId": 3 }
 
     },
+  ]
+
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "wie geht's?", "rightId": 6 },
-      "right": { "word": "fifty", "rightId": 4 }
+      "right": { "word": "health", "rightId": 10 }
       
     },
     {
@@ -1199,8 +1165,7 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Mein Buch", "rightId": 1 },
-      "right": { "word": "Their house", "rightId": 9 }
-
+      "right": { "word": "Our family", "rightId": 5 }
     },
     {
       "left": { "word": "Dein Auto", "rightId": 2 },
@@ -1219,9 +1184,15 @@ export const quiz = [
     },
     {
       "left": { "word": "Unser Tisch", "rightId": 5 },
-      "right": { "word": "Their family", "rightId": 10 }
-
+      "right": { "word": "Their garden", "rightId": 4 }
     },
+  ]
+
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Euer Zimmer", "rightId": 6 },
       "right": { "word": "Her apartment", "rightId": 7 }
@@ -1229,7 +1200,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Ihre Wohnung", "rightId": 7 },
-      "right": { "word": "Our family", "rightId": 5 }
+      "right": { "word": "Their family", "rightId": 10 }
       
     },
     {
@@ -1239,7 +1210,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Ihr Haus", "rightId": 9 },
-      "right": { "word": "Their garden", "rightId": 4 }
+      "right": { "word": "Their house", "rightId": 9 }
       
     },
     {
@@ -1507,38 +1478,13 @@ export const quiz = [
   "type": "MatchTheFollowing",
 "pairs": [
     {
-      "left": { "word": "Mutter", "rightId": 1 },
-      "right": { "word": "He", "rightId": 7 }
-
-    },
-    {
-      "left": { "word": "Wir (feminine)", "rightId": 2 },
-      "right": { "word": "You (formal, singular)", "rightId": 10 }
-
-    },
-    {
-      "left": { "word": "Sie (plural)", "rightId": 3 },
-      "right": { "word": "Father", "rightId": 6 }
-      
-    },
-    {
-      "left": { "word": "Du", "rightId": 4 },
-      "right": { "word": "She", "rightId": 9 }
-      
-    },
-    {
-      "left": { "word": "Schwester", "rightId": 5 },
-      "right": { "word": "We (feminine)", "rightId": 2 }
-
-    },
-    {
       "left": { "word": "Vater", "rightId": 6 },
-      "right": { "word": "You (informal)", "rightId": 4 }
+      "right": { "word": "He", "rightId": 7 }
       
     },
     {
       "left": { "word": "Er", "rightId": 7 },
-      "right": { "word": "They (plural)", "rightId": 3 }
+      "right": { "word": "She", "rightId": 9 }
       
     },
     {
@@ -1548,14 +1494,46 @@ export const quiz = [
     },
     {
       "left": { "word": "Sie (singular, feminine)", "rightId": 9 },
-      "right": { "word": "Mother", "rightId": 1 }
+      "right": { "word": "Father", "rightId": 6 }
       
     },
     {
       "left": { "word": "Sie (formal, singular)", "rightId": 10 },
-      "right": { "word": "Sister", "rightId": 5 }
+      "right": { "word": "You (formal, singular)", "rightId": 10 }
       
     }
+  ]
+
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Mutter", "rightId": 1 },
+      "right": { "word": "Sister", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Wir (feminine)", "rightId": 2 },
+      "right": { "word": "Mother", "rightId": 1 }
+
+    },
+    {
+      "left": { "word": "Sie (plural)", "rightId": 3 },
+      "right": { "word": "You (informal)", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Du", "rightId": 4 },
+      "right": { "word": "They (plural)", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Schwester", "rightId": 5 },
+      "right": { "word": "We (feminine)", "rightId": 2 }
+
+    },
   ]
 
 }
@@ -1936,53 +1914,28 @@ export const quiz = [
   "type": "MatchTheFollowing",
 "pairs": [
     {
-      "left": { "word": "Ich", "rightId": 1 },
-      "right": { "word": "Thirty", "rightId": 10 }
-
-    },
-    {
-      "left": { "word": "Sie (formal)", "rightId": 2 },
-      "right": { "word": "They (feminine)", "rightId": 9 }
-
-    },
-    {
-      "left": { "word": "Er", "rightId": 3 },
-      "right": { "word": "You (informal)", "rightId": 8 }
-      
-    },
-    {
-      "left": { "word": "Wir", "rightId": 4 },
-      "right": { "word": "Thirty-five", "rightId": 7 }
-      
-    },
-    {
-      "left": { "word": "Sie (plural)", "rightId": 5 },
-      "right": { "word": " Forty-two", "rightId": 6 }
-
-    },
-    {
       "left": { "word": "Zweiunddreißig", "rightId": 6 },
-      "right": { "word": "They (masculine)", "rightId": 5 }
+      "right": { "word": "Thirty", "rightId": 10 }
       
     },
     {
       "left": { "word": "Fünfundvierzig", "rightId": 7 },
-      "right": { "word": "We", "rightId": 4 }
+      "right": { "word": "You (informal)", "rightId": 8 }
       
     },
     {
       "left": { "word": "Du", "rightId": 8 },
-      "right": { "word": "He", "rightId": 3 }
+      "right": { "word": " Forty-two", "rightId": 6 }
       
     },
     {
       "left": { "word": "Sie", "rightId": 9 },
-      "right": { "word": "You (formal)", "rightId": 2 }
+      "right": { "word": "Thirty-five", "rightId": 7 }
       
     },
     {
       "left": { "word": "Dreißig", "rightId": 10 },
-      "right": { "word": "I", "rightId": 1 }
+      "right": { "word": "They (feminine)", "rightId": 9 }
       
     }
   ]
@@ -1993,8 +1946,40 @@ export const quiz = [
   "type": "MatchTheFollowing",
 "pairs": [
     {
+      "left": { "word": "Ich", "rightId": 1 },
+      "right": { "word": "You (formal)", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Sie (formal)", "rightId": 2 },
+      "right": { "word": "He", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Er", "rightId": 3 },
+      "right": { "word": "We", "rightId": 4 }
+      
+    },
+    {
+      "left": { "word": "Wir", "rightId": 4 },
+      "right": { "word": "They (masculine)", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Sie (plural)", "rightId": 5 },
+      "right": { "word": "I", "rightId": 1 }
+
+    },
+  ]
+
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
       "left": { "word": "Brot", "rightId": 1 },
-      "right": { "word": "Juice", "rightId": 7 }
+      "right": { "word": "Milk", "rightId": 2 }
 
     },
     {
@@ -2009,14 +1994,21 @@ export const quiz = [
     },
     {
       "left": { "word": "Tee", "rightId": 4 },
-      "right": { "word": "Cake", "rightId": 10 }
+      "right": { "word": "Apple", "rightId": 3 }
       
     },
     {
       "left": { "word": "Suppe", "rightId": 5 },
-      "right": { "word": "Cheese", "rightId": 6 }
+      "right": { "word": "Bread", "rightId": 1 }
 
     },
+  ]
+
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Käse", "rightId": 6 },
       "right": { "word": "Water", "rightId": 9 }
@@ -2024,17 +2016,17 @@ export const quiz = [
     },
     {
       "left": { "word": "Saft", "rightId": 7 },
-      "right": { "word": "Bread", "rightId": 1 }
+      "right": { "word": "Cheese", "rightId": 6 }
       
     },
     {
       "left": { "word": "Bier", "rightId": 8 },
-      "right": { "word": "Apple", "rightId": 3 }
+"right": { "word": "Juice", "rightId": 7 }
       
     },
     {
       "left": { "word": "Wasser", "rightId": 9 },
-      "right": { "word": "Milk", "rightId": 2 }
+      "right": { "word": "Cake", "rightId": 10 }
       
     },
     {
