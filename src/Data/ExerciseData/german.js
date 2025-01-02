@@ -293,8 +293,7 @@ export const quiz = [
       "right": { "word": "Tische", "rightId": 9 }
     }
   ]
-}
-
+},
     ]
   },
   {
