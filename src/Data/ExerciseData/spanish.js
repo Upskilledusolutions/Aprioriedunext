@@ -133,7 +133,7 @@ export const quiz = [
 
       {
         question: "Hola, ¿cómo _______? (Hello, how are you?)",
-        choices: ["estás", "estoy", "eres", "somos"],
+        choices: ["estas", "estás", "estoy", "eres", "somos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
@@ -145,7 +145,7 @@ export const quiz = [
       },
       {
         question: "Me llamo Juan, ¿y tú _______? (My name is Juan, and you?)",
-        choices: ["cómo", "tú", "yo", "cómo te llamas"],
+        choices: ["como", "cómo", "tú", "yo", "cómo te llamas"],
         type: 'FillInTheBlanks',
         correctAnswer: 4
       },
@@ -187,7 +187,7 @@ export const quiz = [
       },
       {
         question: "_______ de dónde eres. (I know where you are from.)",
-        choices: ["sé", "sabes", "sabe", "sabemos"],
+        choices: ["se", "sé", "sabes", "sabe", "sabemos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
@@ -205,13 +205,13 @@ export const quiz = [
       },
       {
         question: "¿Dónde _______ tú? (Where are you?)",
-        choices: ["estás", "eres", "soy", "es"],
+        choices: ["estas", "estás", "eres", "soy", "es"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
         question: "Ellos _______ en casa. (They are at home.)",
-        choices: ["están", "estás", "estamos", "soy"],
+        choices: ["estan", "están", "estás", "estamos", "soy"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
@@ -223,7 +223,7 @@ export const quiz = [
       },
       {
         question: "¿Cómo _______ tú? (How are you?)",
-        choices: ["estás", "es", "soy", "somos"],
+        choices: ["estas", "estás", "es", "soy", "somos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
@@ -235,7 +235,7 @@ export const quiz = [
       },
       {
         question: "Ellos _______ contentos. (They are happy.)",
-        choices: ["están", "es", "soy", "somos"],
+        choices: ["estan", "están", "es", "soy", "somos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
@@ -247,7 +247,7 @@ export const quiz = [
       },
       {
         question: "_______ está usted? (How are you?)",
-        choices: ["cómo", "cómo", "cómo", "cómo"],
+        choices: ["como", "cómo", "cómo", "cómo", "cómo"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
@@ -622,7 +622,7 @@ export const quiz = [
       },
       {
         "question": "'Sixteen' in Spanish is ______.",
-        "choices": ["Dieciséis", "once", "doce", "trece"],
+        "choices": ["Dieciseis","Dieciséis", "once", "doce", "trece"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1062,7 +1062,7 @@ export const quiz = [
       },
       {
         "question": "¿Dónde está mi ______ (phone)?",
-        "choices": ["teléfono", "coche", "llave", "bolso"],
+        "choices": ["telefono","teléfono", "coche", "llave", "bolso"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1455,7 +1455,7 @@ export const quiz = [
     },
     {
         "question": "Vosotros ______ (to run) por la mañana.",
-        "choices": ["corréis", "corren", "corremos", "corro"],
+        "choices": ["correis","corréis", "corren", "corremos", "corro"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
@@ -1467,7 +1467,7 @@ export const quiz = [
     },
     {
         "question": "______ (He) es muy trabajador.",
-        "choices": ["Él", "Yo", "Nosotros", "Ellos"],
+        "choices": ["El","Él", "Yo", "Nosotros", "Ellos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
@@ -1491,7 +1491,7 @@ export const quiz = [
     },
     {
         "question": "______ (You - informal, singular) tienes un perro bonito.",
-        "choices": ["Tú", "Él", "Nosotros", "Ellos"],
+        "choices": ["Tu","Tú", "Él", "Nosotros", "Ellos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
