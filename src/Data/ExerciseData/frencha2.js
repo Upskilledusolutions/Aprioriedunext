@@ -3000,61 +3000,61 @@ export const quiz = [
         },
 
         {
-          "question": "Les informations sont diffusées à la télévision et à la _____ (radio).",
+          "question": "Les informations sont diffusées à la télévision et à la ______ (radio).",
           "choices": ["radio"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Un _____ (documentary) est souvent très éducatif.",
+          "question": "Un ______ (documentary) est souvent très éducatif.",
           "choices": ["documentaire"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Cette chanson célèbre _____ (être, chanter) par un artiste connu.",
+          "question": "Cette chanson célèbre ______ (être, chanter) par un artiste connu.",
           "choices": ["est chantée"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Le journal a été _____ (imprimer) ce matin.",
+          "question": "Le journal a été ______ (imprimer) ce matin.",
           "choices": ["imprimé"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les livres _____ (être, vendre) dans la librairie de l’université.",
+          "question": "Les livres ______ (être, vendre) dans la librairie de l’université.",
           "choices": ["sont vendus"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Une bande dessinée _____ (être, lire) par de nombreux enfants chaque jour.",
+          "question": "Une bande dessinée ______ (être, lire) par de nombreux enfants chaque jour.",
           "choices": ["est lue"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Un film d’animation _____ (être, produire) en France cette année.",
+          "question": "Un film d’animation ______ (être, produire) en France cette année.",
           "choices": ["est produit"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les réseaux sociaux sont _____ (utiliser) par beaucoup de jeunes.",
+          "question": "Les réseaux sociaux sont ______ (utiliser) par beaucoup de jeunes.",
           "choices": ["utilisés"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "La pièce de théâtre a été _____ (écrire) par Molière.",
+          "question": "La pièce de théâtre a été ______ (écrire) par Molière.",
           "choices": ["écrite"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les magazines numériques sont souvent _____ (télécharger) sur les tablettes.",
+          "question": "Les magazines numériques sont souvent ______ (télécharger) sur les tablettes.",
           "choices": ["téléchargés"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -3195,61 +3195,61 @@ export const quiz = [
         },
 
         {
-          "question": "Le _____ (mayor) est responsable des décisions importantes de la ville.",
+          "question": "Le ______ (mayor) est responsable des décisions importantes de la ville.",
           "choices": ["maire", "mayor", "citoyen", "professeur"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Une avocate a _____ (présenter, passé composé) un plan pour l’égalité des sexes.",
+          "question": "Une avocate a ______ (présenter, passé composé) un plan pour l’égalité des sexes.",
           "choices": ["présenté", "présenter", "présentait", "présente"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les citoyens _____ (aller, futur proche) organiser une réunion publique demain.",
+          "question": "Les citoyens ______ (aller, futur proche) organiser une réunion publique demain.",
           "choices": ["vont", "allons", "allez", "va"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les professeurs _____ (enseigner, imparfait) toujours avec passion et patience dans cette école.",
+          "question": "Les professeurs ______ (enseigner, imparfait) toujours avec passion et patience dans cette école.",
           "choices": ["enseignaient", "enseignent", "enseigneraient", "enseigne"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "La _____ (poverty) reste un défi majeur dans de nombreuses régions.",
+          "question": "La ______ (poverty) reste un défi majeur dans de nombreuses régions.",
           "choices": ["pauvreté", "chômage", "problème social", "égalité"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les policiers _____ (protéger, présent) les citoyens contre le danger.",
+          "question": "Les policiers ______ (protéger, présent) les citoyens contre le danger.",
           "choices": ["protègent", "protégé", "protéger", "protégeaient"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les étudiants _____ (créer, passé composé) une campagne pour le changement climatique.",
+          "question": "Les étudiants ______ (créer, passé composé) une campagne pour le changement climatique.",
           "choices": ["ont créé", "créent", "créaient", "vont créer"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Le chômage est un _____ (societal issue) qui affecte beaucoup de jeunes.",
+          "question": "Le chômage est un ______ (societal issue) qui affecte beaucoup de jeunes.",
           "choices": ["problème social", "pauvreté", "inégalité", "chômage"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Nous _____ (planter, futur proche) des arbres pour améliorer notre environnement.",
+          "question": "Nous ______ (planter, futur proche) des arbres pour améliorer notre environnement.",
           "choices": ["allons planter", "plantons", "avons planté", "planteraient"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Pendant son mandat, le maire _____ (lancer, passé composé) plusieurs projets écologiques.",
+          "question": "Pendant son mandat, le maire ______ (lancer, passé composé) plusieurs projets écologiques.",
           "choices": ["a lancé", "lançait", "lance", "va lancer"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -3380,61 +3380,61 @@ export const quiz = [
         },
 
         {
-          "question": "Je _____ (manger, présent) des fruits frais tous les matins.",
+          "question": "Je ______ (manger, présent) des fruits frais tous les matins.",
           "choices": ["mange","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Hier, nous _____ (visiter, passé composé) un château historique avec un guide.",
+          "question": "Hier, nous ______ (visiter, passé composé) un château historique avec un guide.",
           "choices": ["avons visité","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Quand j’étais petit, je _____ (jouer, imparfait) souvent dans le jardin.",
+          "question": "Quand j’étais petit, je ______ (jouer, imparfait) souvent dans le jardin.",
           "choices": ["jouais","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Demain, ils _____ (aller, futur proche) à la plage pour se détendre.",
+          "question": "Demain, ils ______ (aller, futur proche) à la plage pour se détendre.",
           "choices": ["vont aller","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Pendant les vacances, nous _____ (dormir, présent) dans une maison de campagne.",
+          "question": "Pendant les vacances, nous ______ (dormir, présent) dans une maison de campagne.",
           "choices": ["dormons","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Elle est très _____ (content, adjectif féminin) de recevoir ses amis ce soir.",
+          "question": "Elle est très ______ (content, adjectif féminin) de recevoir ses amis ce soir.",
           "choices": ["contente","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Nous _____ (prendre, passé composé) un taxi pour arriver à l’heure.",
+          "question": "Nous ______ (prendre, passé composé) un taxi pour arriver à l’heure.",
           "choices": ["avons pris","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "(Où/Quand) _____ est-ce que tu as appris à parler français ?",
+          "question": "(Où/Quand) ______ est-ce que tu as appris à parler français ?",
           "choices": ["Où","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ils _____ (être, présent) toujours en avance pour les réunions importantes.",
+          "question": "Ils ______ (être, présent) toujours en avance pour les réunions importantes.",
           "choices": ["sont","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les enfants _____ (jouer, futur proche) avec leurs cousins dans le parc demain.",
+          "question": "Les enfants ______ (jouer, futur proche) avec leurs cousins dans le parc demain.",
           "choices": ["vont jouer","","",""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -3565,61 +3565,61 @@ export const quiz = [
         },
 
         {
-          "question": "Bonjour, je voudrais _____ (un/une) baguette et du beurre, s’il vous plaît.",
+          "question": "Bonjour, je voudrais ______ (un/une) baguette et du beurre, s’il vous plaît.",
           "choices": ["une", "un", "la", "le"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Combien _____ (coûter) cette jupe rouge ?",
+          "question": "Combien ______ (coûter) cette jupe rouge ?",
           "choices": ["coûte", "coûtent", "valent", "vaut"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "À quelle heure le train _____ (partir) pour Marseille ?",
+          "question": "À quelle heure le train ______ (partir) pour Marseille ?",
           "choices": ["part", "partent", "pars", "partez"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "(Où/Quand) _____ est la gare, s’il vous plaît ?",
+          "question": "(Où/Quand) ______ est la gare, s’il vous plaît ?",
           "choices": ["Où", "Quand", "Qui", "Comment"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Nous _____ (prendre, présent) deux billets aller-retour pour Lyon.",
+          "question": "Nous ______ (prendre, présent) deux billets aller-retour pour Lyon.",
           "choices": ["prenons", "prenez", "prend", "prennent"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Je prends une salade et une _____ (eau/eaux), s’il vous plaît.",
+          "question": "Je prends une salade et une ______ (eau/eaux), s’il vous plaît.",
           "choices": ["eau", "eaux", "eau-minérale", "verre"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Le serveur _____ (apporter, passé composé) l’addition à notre table.",
+          "question": "Le serveur ______ (apporter, passé composé) l’addition à notre table.",
           "choices": ["a apporté", "a apportaient", "a apporter", "a apporté"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ils vont _____ (visiter) le musée après le déjeuner.",
+          "question": "Ils vont ______ (visiter) le musée après le déjeuner.",
           "choices": ["visiter", "visitent", "visitez", "visitaient"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "(Est-ce que/Pourquoi) _____ vous avez des fruits de saison ?",
+          "question": "(Est-ce que/Pourquoi) ______ vous avez des fruits de saison ?",
           "choices": ["Est-ce que", "Pourquoi", "Qui", "Quand"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Pouvez-vous me _____ (donner) une carte des vins, s’il vous plaît ?",
+          "question": "Pouvez-vous me ______ (donner) une carte des vins, s’il vous plaît ?",
           "choices": ["donner", "donnez", "donné", "donnons"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1

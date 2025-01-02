@@ -2163,61 +2163,61 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "Les nouvelles sont ________ (publier) chaque matin dans le journal local.",
+          "question": "Les nouvelles sont ______ (publier) chaque matin dans le journal local.",
           "choices": ["publiées"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "L’article est ________ (écrire) par un journaliste très connu.",
+          "question": "L’article est ______ (écrire) par un journaliste très connu.",
           "choices": ["écrit"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les résultats de l’enquête seront ________ (annoncer) demain à la télévision.",
+          "question": "Les résultats de l’enquête seront ______ (annoncer) demain à la télévision.",
           "choices": ["annoncés"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "La conférence de presse a été ________ (organiser) par le gouvernement hier.",
+          "question": "La conférence de presse a été ______ (organiser) par le gouvernement hier.",
           "choices": ["organisée"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Une fausse nouvelle est souvent ________ (partager) sur les réseaux sociaux.",
+          "question": "Une fausse nouvelle est souvent ______ (partager) sur les réseaux sociaux.",
           "choices": ["partagée"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "La vérité doit toujours être ________ (dire) dans les médias.",
+          "question": "La vérité doit toujours être ______ (dire) dans les médias.",
           "choices": ["dite"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les émissions de télévision sont ________ (regarder) par des millions de personnes chaque jour.",
+          "question": "Les émissions de télévision sont ______ (regarder) par des millions de personnes chaque jour.",
           "choices": ["regardées"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ce reportage a été ________ (diffuser) en direct hier soir.",
+          "question": "Ce reportage a été ______ (diffuser) en direct hier soir.",
           "choices": ["diffusé"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les journalistes ________ (inviter) à poser leurs questions après le discours.",
+          "question": "Les journalistes ______ (inviter) à poser leurs questions après le discours.",
           "choices": ["sont invités"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Les images du tremblement de terre ont été ________ (montrer) sur toutes les chaînes d’information.",
+          "question": "Les images du tremblement de terre ont été ______ (montrer) sur toutes les chaînes d’information.",
           "choices": ["montrées"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1

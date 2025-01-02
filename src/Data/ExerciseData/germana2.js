@@ -1064,61 +1064,61 @@ export const quiz = [
 
       // 20 Fill in the Blanks
       {
-        "question": "Morgen __________ wir mit dem Zug nach Berlin fahren. (Hint: werden)",
+        "question": "Morgen ______ wir mit dem Zug nach Berlin fahren. (Hint: werden)",
         "choices": ["werden"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ich __________ ein Auto mieten, um die Stadt zu erkunden. (Hint: werden)",
+        "question": "Ich ______ ein Auto mieten, um die Stadt zu erkunden. (Hint: werden)",
         "choices": ["werde"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Du __________ am Flughafen auf mich warten. (Hint: werden)",
+        "question": "Du ______ am Flughafen auf mich warten. (Hint: werden)",
         "choices": ["wirst"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Wir __________ pünktlich an der Bushaltestelle sein. (Hint: werden)",
+        "question": "Wir ______ pünktlich an der Bushaltestelle sein. (Hint: werden)",
         "choices": ["werden"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Meine Eltern __________ nächstes Jahr nach Europa reisen. (Hint: werden)",
+        "question": "Meine Eltern ______ nächstes Jahr nach Europa reisen. (Hint: werden)",
         "choices": ["werden"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Sie __________ ihr Gepäck am Schalter abgeben. (Hint: werden)",
+        "question": "Sie ______ ihr Gepäck am Schalter abgeben. (Hint: werden)",
         "choices": ["werden"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Wir __________ eine Kreuzfahrt nach Norwegen machen. (Hint: werden)",
+        "question": "Wir ______ eine Kreuzfahrt nach Norwegen machen. (Hint: werden)",
         "choices": ["werden"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ihr __________ im Hotel einchecken, sobald ihr ankommt. (Hint: werden)",
+        "question": "Ihr ______ im Hotel einchecken, sobald ihr ankommt. (Hint: werden)",
         "choices": ["werdet"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ich __________ ein Ticket für den Nachtzug kaufen. (Hint: werden)",
+        "question": "Ich ______ ein Ticket für den Nachtzug kaufen. (Hint: werden)",
         "choices": ["werde"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Du __________ den Fahrplan überprüfen, bevor du gehst. (Hint: werden)",
+        "question": "Du ______ den Fahrplan überprüfen, bevor du gehst. (Hint: werden)",
         "choices": ["wirst"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1

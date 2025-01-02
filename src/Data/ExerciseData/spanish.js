@@ -3884,61 +3884,61 @@ export const quiz = [
       // 20 Fill in the Blanks
 
       {
-        "question": "Marta llega _______ (always) tarde a la oficina.",
+        "question": "Marta llega ______ (always) tarde a la oficina.",
         "choices": ["siempre","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "El perro duerme _______ (here) en la cama.",
+        "question": "El perro duerme ______ (here) en la cama.",
         "choices": ["aquí","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ellos hablan _______ (quickly) cuando están nerviosos.",
+        "question": "Ellos hablan ______ (quickly) cuando están nerviosos.",
         "choices": ["rápidamente","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Yo _______ (never) olvido mis llaves en casa.",
+        "question": "Yo ______ (never) olvido mis llaves en casa.",
         "choices": ["nunca","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Nosotros vamos al gimnasio _______ (sometimes), no todos los días.",
+        "question": "Nosotros vamos al gimnasio ______ (sometimes), no todos los días.",
         "choices": ["a veces","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Manuel canta _______ (good) en la fiesta de cumpleaños.",
+        "question": "Manuel canta ______ (good) en la fiesta de cumpleaños.",
         "choices": ["bien","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "El tren sale _______ (now) de la estación.",
+        "question": "El tren sale ______ (now) de la estación.",
         "choices": ["ahora","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Tú debes estudiar _______ (further) si quieres aprobar el examen.",
+        "question": "Tú debes estudiar ______ (further) si quieres aprobar el examen.",
         "choices": ["más","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Nosotros vivimos _______ (near) del parque.",
+        "question": "Nosotros vivimos ______ (near) del parque.",
         "choices": ["cerca","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ella come _______ (slowly) para disfrutar la comida.",
+        "question": "Ella come ______ (slowly) para disfrutar la comida.",
         "choices": ["lentamente","1","2","3"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -4072,61 +4072,61 @@ export const quiz = [
       // 20 Fill in the Blanks
 
       {
-        "question": "A mí ________ (gustar) el chocolate caliente.",
+        "question": "A mí ______ (gustar) el chocolate caliente.",
         "choices": ["gusta","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A ti no ________ (gustar) las verduras.",
+        "question": "A ti no ______ (gustar) las verduras.",
         "choices": ["gustan","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A nosotros nos ________ (encantar) los deportes de aventura.",
+        "question": "A nosotros nos ______ (encantar) los deportes de aventura.",
         "choices": ["encantan","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A ellos les ________ (interesar) la historia.",
+        "question": "A ellos les ______ (interesar) la historia.",
         "choices": ["interesa","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A ella ________ (gustar) leer libros románticos.",
+        "question": "A ella ______ (gustar) leer libros románticos.",
         "choices": ["gusta","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A vosotros os ________ (gustar) las fiestas grandes?",
+        "question": "A vosotros os ______ (gustar) las fiestas grandes?",
         "choices": ["gustan","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A mí me ________ (gustar) el cine más que la televisión.",
+        "question": "A mí me ______ (gustar) el cine más que la televisión.",
         "choices": ["gusta","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A ti te ________ (interesar) la moda?",
+        "question": "A ti te ______ (interesar) la moda?",
         "choices": ["interesa","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A nosotros no nos ________ (gustar) los insectos.",
+        "question": "A nosotros no nos ______ (gustar) los insectos.",
         "choices": ["gustan","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A ella le ________ (encantar) las flores.",
+        "question": "A ella le ______ (encantar) las flores.",
         "choices": ["encantan","1","3","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -4309,61 +4309,61 @@ export const quiz = [
       // 20 Fill in the Blanks
 
       {
-        "question": "Gira a la ________ (right) en la segunda calle.",
+        "question": "Gira a la ______ (right) en la segunda calle.",
         "choices": ["derecha", "recto", "enfrente de", "calle"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Sigue ________ (straight) hasta llegar al parque.",
+        "question": "Sigue ______ (straight) hasta llegar al parque.",
         "choices": ["recto", "derecha", "enfrente de", "calle"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "La estación está ________ (in front of) la plaza.",
+        "question": "La estación está ______ (in front of) la plaza.",
         "choices": ["enfrente de", "cerca", "lejos", "calle"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Cruza la ________ (street) y verás la farmacia a la derecha.",
+        "question": "Cruza la ______ (street) y verás la farmacia a la derecha.",
         "choices": ["calle", "plaza", "esquina", "biblioteca"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "El hospital está ________ (near) de la escuela.",
+        "question": "El hospital está ______ (near) de la escuela.",
         "choices": ["cerca", "lejos", "entre", "al lado de"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "La biblioteca está ________ (far) del cine.",
+        "question": "La biblioteca está ______ (far) del cine.",
         "choices": ["lejos", "cerca", "entre", "enfrente de"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Para llegar al museo, tienes que ________ (cross) dos calles.",
+        "question": "Para llegar al museo, tienes que ______ (cross) dos calles.",
         "choices": ["cruzar", "girar", "seguir", "ir"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "La cafetería está ________ (between) la librería y el banco.",
+        "question": "La cafetería está ______ (between) la librería y el banco.",
         "choices": ["entre", "cerca", "lejos", "enfrente de"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Gira a la ________ (left) en la esquina para llegar a la estación de tren.",
+        "question": "Gira a la ______ (left) en la esquina para llegar a la estación de tren.",
         "choices": ["izquierda", "derecha", "calle", "plaza"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Sigue recto y la tienda está ________ (next to) la farmacia.",
+        "question": "Sigue recto y la tienda está ______ (next to) la farmacia.",
         "choices": ["al lado de", "enfrente de", "lejos", "cerca"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -4496,61 +4496,61 @@ export const quiz = [
       // 20 Fill in the Blanks
 
       {
-        "question": "________ (Dear) Sr. García, le escribo para confirmar nuestra reunión del jueves.",
+        "question": "______ (Dear) Sr. García, le escribo para confirmar nuestra reunión del jueves.",
         "choices": ["Estimado","Querido", "1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Nos gustaría ________ (confirm) la cita para el próximo martes.",
+        "question": "Nos gustaría ______ (confirm) la cita para el próximo martes.",
         "choices": ["confirmar", "cancelar","1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Hola Ana, ¿te parece bien si ________ (see you) a las 4:00 p.m. para tomar un café?",
+        "question": "Hola Ana, ¿te parece bien si ______ (see you) a las 4:00 p.m. para tomar un café?",
         "choices": ["nos vemos", "confirmamos","1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Le escribo para ________ (program) una reunión la semana próxima.",
+        "question": "Le escribo para ______ (program) una reunión la semana próxima.",
         "choices": ["programar","solicitar", "1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "________ (Sincerely), Juan Pérez.",
+        "question": "______ (Sincerely), Juan Pérez.",
         "choices": ["Atentamente", "Saludos","1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Voy a ________ (reschedule) nuestra cita para el lunes.",
+        "question": "Voy a ______ (reschedule) nuestra cita para el lunes.",
         "choices": ["reprogramar", "confirmar","1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "________ (This) libre este viernes para una reunión?",
+        "question": "______ (This) libre este viernes para una reunión?",
         "choices": ["¿Está?","¿Estás?", "1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Le informo que debo ________ (Cancel) la reunión del miércoles.",
+        "question": "Le informo que debo ______ (Cancel) la reunión del miércoles.",
         "choices": ["cancelar", "confirmar","1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Hola Pedro, ¿qué te parece si ________ (we program) la reunión el viernes?",
+        "question": "Hola Pedro, ¿qué te parece si ______ (we program) la reunión el viernes?",
         "choices": ["programamos","confirmamos", "1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Por favor, ________ (confirm) su disponibilidad para la reunión.",
+        "question": "Por favor, ______ (confirm) su disponibilidad para la reunión.",
         "choices": ["confirma","confirme", "1","2"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1

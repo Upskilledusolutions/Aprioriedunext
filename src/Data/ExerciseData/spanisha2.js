@@ -1,6 +1,6 @@
 export const quiz = [
   {
-    quiz: '20',
+    quiz: '1',
     name: 'Spanish Exercise - 1 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -189,7 +189,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '21',
+    quiz: '2',
     name: 'Spanish Exercise - 2 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -377,7 +377,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '22',
+    quiz: '3',
     name: 'Spanish Exercise - 3 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -563,7 +563,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '23',
+    quiz: '4',
     name: 'Spanish Exercise - 4 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -754,7 +754,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '24',
+    quiz: '5',
     name: 'Spanish Exercise - 5 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -970,7 +970,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '25',
+    quiz: '6',
     name: 'Spanish Exercise - 6 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -1156,7 +1156,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '26',
+    quiz: '7',
     name: 'Spanish Exercise - 7 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -1342,7 +1342,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '27',
+    quiz: '8',
     name: 'Spanish Exercise - 8 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -1528,7 +1528,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '28',
+    quiz: '9',
     name: 'Spanish Exercise - 9 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -1714,7 +1714,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '29',
+    quiz: '10',
     name: 'Spanish Exercise - 10 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -1900,7 +1900,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '30',
+    quiz: '11',
     name: 'Spanish Exercise - 11 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -2086,7 +2086,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '31',
+    quiz: '12',
     name: 'Spanish Exercise - 12 (A2)',
     level: 'Easy',
     topic: 'Mixed',
@@ -2272,7 +2272,7 @@ export const quiz = [
     ]
   },
   {
-    quiz: '32',
+    quiz: '13',
     name: 'Spanish Exercise - 13 (A2)',
     level: 'Easy',
     topic: 'Mixed',
