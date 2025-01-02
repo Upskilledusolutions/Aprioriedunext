@@ -132,121 +132,121 @@ export const quiz = [
       // 20 Fill in the Blanks
 
       {
-        question: "Hola, ¿cómo _______? (Hello, how are you?)",
+        question: "Hola, ¿cómo ______? (Hello, how are you?)",
         choices: ["estas", "estás", "estoy", "eres", "somos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Yo _______ bien, gracias. (I am fine, thank you.)",
+        question: "Yo ______ bien, gracias. (I am fine, thank you.)",
         choices: ["estoy", "eres", "somos", "estás"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Me llamo Juan, ¿y tú _______? (My name is Juan, and you?)",
+        question: "Me llamo Juan, ¿y tú ______? (My name is Juan, and you?)",
         choices: ["como", "cómo", "tú", "yo", "cómo te llamas"],
         type: 'FillInTheBlanks',
         correctAnswer: 4
       },
       {
-        question: "Yo _______ de España. (I am from Spain.)",
+        question: "Yo ______ de España. (I am from Spain.)",
         choices: ["soy", "eres", "somos", "es"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "¿_______ español? (Do you speak Spanish?)",
+        question: "¿______ español? (Do you speak Spanish?)",
         choices: ["hablas", "hablo", "hablan", "hablas tú"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Sí, yo _______ español. (Yes, I speak Spanish.)",
+        question: "Sí, yo ______ español. (Yes, I speak Spanish.)",
         choices: ["hablo", "hablas", "habla", "hablamos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Gracias, _______ luego. (Thank you, see you later.)",
+        question: "Gracias, ______ luego. (Thank you, see you later.)",
         choices: ["hasta", "adiós", "nos", "después"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "_________ por favor. (Water, please.)",
+        question: "______ por favor. (Water, please.)",
         choices: ["agua", "tierra", "fuego", "aire"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "No, _______ entiendo. (No, I don’t understand.)",
+        question: "No, ______ entiendo. (No, I don’t understand.)",
         choices: ["no", "sí", "tal vez", "ahora"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "_______ de dónde eres. (I know where you are from.)",
+        question: "______ de dónde eres. (I know where you are from.)",
         choices: ["se", "sé", "sabes", "sabe", "sabemos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Nosotros _______ en la playa. (We are at the beach.)",
+        question: "Nosotros ______ en la playa. (We are at the beach.)",
         choices: ["estamos", "soy", "somos", "es"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Ella _______ profesora. (She is a teacher.)",
+        question: "Ella ______ profesora. (She is a teacher.)",
         choices: ["es", "soy", "son", "estás"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "¿Dónde _______ tú? (Where are you?)",
+        question: "¿Dónde ______ tú? (Where are you?)",
         choices: ["estas", "estás", "eres", "soy", "es"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Ellos _______ en casa. (They are at home.)",
+        question: "Ellos ______ en casa. (They are at home.)",
         choices: ["estan", "están", "estás", "estamos", "soy"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Nosotros _______ a la escuela. (We are going to school.)",
+        question: "Nosotros ______ a la escuela. (We are going to school.)",
         choices: ["vamos", "va", "voy", "van"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "¿Cómo _______ tú? (How are you?)",
+        question: "¿Cómo ______ tú? (How are you?)",
         choices: ["estas", "estás", "es", "soy", "somos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Yo _______ de México. (I am from Mexico.)",
+        question: "Yo ______ de México. (I am from Mexico.)",
         choices: ["soy", "eres", "es", "somos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Ellos _______ contentos. (They are happy.)",
+        question: "Ellos ______ contentos. (They are happy.)",
         choices: ["estan", "están", "es", "soy", "somos"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "Nosotros _______ amigos. (We are friends.)",
+        question: "Nosotros ______ amigos. (We are friends.)",
         choices: ["somos", "soy", "eres", "es"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
       {
-        question: "_______ está usted? (How are you?)",
+        question: "______ está usted? (How are you?)",
         choices: ["como", "cómo", "cómo", "cómo", "cómo"],
         type: 'FillInTheBlanks',
         correctAnswer: 1
