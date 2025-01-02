@@ -172,7 +172,7 @@ export const quiz = [
       },
       {
         question: "Wir ______ Musik. (We listen to music.)",
-        choices: ['hören', 'lesen', 'essen', 'sehen'],
+        choices: ["horen", 'hören', 'lesen', 'essen', 'sehen'],
         type: 'FillInTheBlanks',
         correctAnswer: 1
       },
@@ -253,26 +253,6 @@ export const quiz = [
   "type": "MatchTheFollowing",
   "pairs": [
     {
-      "left": { "word": "Hund", "rightId": 1 },
-      "right": { "word": "Mäuse", "rightId": 4 }
-    },
-    {
-      "left": { "word": "Katze", "rightId": 2 },
-      "right": { "word": "Häuser", "rightId": 3 }
-    },
-    {
-      "left": { "word": "Haus", "rightId": 3 },
-      "right": { "word": "Autos", "rightId": 5 }
-    },
-    {
-      "left": { "word": "Maus", "rightId": 4 },
-      "right": { "word": "Hunde", "rightId": 1 }
-    },
-    {
-      "left": { "word": "Auto", "rightId": 5 },
-      "right": { "word": "Katzen", "rightId": 2 }
-    },
-    {
       "left": { "word": "Baum", "rightId": 6 },
       "right": { "word": "Kinder", "rightId": 8 }
     },
@@ -292,6 +272,33 @@ export const quiz = [
       "left": { "word": "Stuhl", "rightId": 10 },
       "right": { "word": "Tische", "rightId": 9 }
     }
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+  "pairs": [
+    {
+      "left": { "word": "Hund", "rightId": 1 },
+      "right": { "word": "Mäuse", "rightId": 4 }
+    },
+    {
+      "left": { "word": "Katze", "rightId": 2 },
+      "right": { "word": "Häuser", "rightId": 3 }
+    },
+    {
+      "left": { "word": "Haus", "rightId": 3 },
+      "right": { "word": "Autos", "rightId": 5 }
+    },
+    {
+      "left": { "word": "Maus", "rightId": 4 },
+      "right": { "word": "Hunde", "rightId": 1 }
+    },
+    {
+      "left": { "word": "Auto", "rightId": 5 },
+      "right": { "word": "Katzen", "rightId": 2 }
+    },
   ]
 },
     ]

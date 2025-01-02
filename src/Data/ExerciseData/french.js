@@ -153,7 +153,7 @@ export const quiz = [
         },
         {
           question: "Bella: ______ . (Nice to meet you.)",
-          choices: ["Enchantée", "fait", "mange", "vont"],
+          choices: ["Enchantee", "Enchantée", "fait", "mange", "vont"],
           type: 'FillInTheBlanks',
           correctAnswer: 1
         },
@@ -178,7 +178,7 @@ export const quiz = [
           },          
             {
               question: "Laurent: J'adore le ______. (I love coffee.)",
-              choices: ["café", "faites", "lisez", "mangez"],
+              choices: ["cafe", "café", "faites", "lisez", "mangez"],
               type: 'FillInTheBlanks',
               correctAnswer: 1
             },
@@ -1135,13 +1135,13 @@ export const quiz = [
       },
       {
         "question": "Mon anniversaire est le ______ (twentieth) mars.",
-        "choices": ["vingtième", "e", "trentième", "quinzième"],
+        "choices": ["vingtieme", "vingtième", "e", "trentième", "quinzième"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Il est ______ (tired) après une longue journée de travail.",
-        "choices": ["fatigué", "content", "énergique", "calme"],
+        "choices": ["fatigue", "fatigué", "content", "énergique", "calme"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1380,7 +1380,7 @@ export const quiz = [
      
       {
         "question": "Mon ______ (father) travaille à Paris.",
-        "choices": ["père", "frère", "oncle", "ami"],
+        "choices": ["pere", "père", "frère", "oncle", "ami"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1782,8 +1782,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Complete the sentence: Elle mange ______ soupe tous les soirs. (She eats some soup every evening.)",
-        "choices": ["de la", "du", "des"],
+        "question": "Complete the sentence: Elle mange ______ la soupe tous les soirs. (She eats some soup every evening.)",
+        "choices": ["de", "du", "des"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1818,8 +1818,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Complete the sentence: Il boit ______ eau tous les jours. (He drinks some water every day.)",
-        "choices": ["de l'", "du", "des"],
+        "question": "Complete the sentence: Il boit ______ l'eau tous les jours. (He drinks some water every day.)",
+        "choices": ["de", "du", "des"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1884,8 +1884,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Complete the sentence: ______ salade est délicieuse. (The salad is delicious.)",
-        "choices": ["de la", "du", "des"],
+        "question": "Complete the sentence: ______ la salade est délicieuse. (The salad is delicious.)",
+        "choices": ["de", "du", "des"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1915,7 +1915,7 @@ export const quiz = [
       },
       {
         "question": "J'ai acheté ______ (thirty-one) livres cette année.",
-        "choices": ["trente et un", "quarante et un", "vingt et un", "trente-deux"],
+        "choices": ["trente-et-un", "quarante et un", "vingt et un", "trente-deux"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
