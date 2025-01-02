@@ -1189,4 +1189,394 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '7',
+    name: 'German Exercise - 7 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Was bedeutet \"Kleider\" auf Englisch?",
+        "choices": [ "Shoes", "Clothes", "Jacket", "T-shirt"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches Adjektiv passt zu \"Hose\"?",
+        "choices": [ "Großer", "Große", "Großen", "Große"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Wie sagt man \"I want to buy clothes\" auf Deutsch?",
+        "choices": [ "Ich will kaufen Kleidung", "Ich kaufe Kleidung", "Ich mag Kleidung kaufen", "Ich möchte Kleidung kaufen"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Was ist der Plural von \"Pullover\"?",
+        "choices": [ "Pullovers", "Pullover", "Pulloveren", "Pulloves"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie nennt man die \"Umkleidekabine\" auf Englisch?",
+        "choices": ["Fitting room", "Dressing room", "Locker room", "Shop"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welches Wort passt zu \"schön\"?",
+        "choices": ["Der Mantel", "Das T-Shirt", "Die Hose", "Der Pullover"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie viel kostet der Mantel?",
+        "choices": [ "40 Euro", "30 Euro", "50 Euro", "25 Euro"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was ist die richtige Endung für \"schön\" im Dativ Singular für das Wort \"Kleid\"?",
+        "choices": [ "Schöner", "Schönem", "Schönen", "Schöneren"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie fragt man nach der Größe eines Kleidungsstücks?",
+        "choices": ["Was ist deine Größe?", "Welche Größe hast du?", "Welche Größe möchtest du?", "Welche Größe ist das?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was bedeutet \"Preis\" auf Englisch?",
+        "choices": ["Price", "Store", "Size", "Discount"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich möchte ein ______ (jacket) kaufen.",
+        "choices": ["Jacke", "Kleidung", "Kleid", "Schuhe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Hast du ______ (clothes) für den Sommer gekauft?",
+        "choices": ["Kleider", "Kleid", "Hosen", "Schuhe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Der ______ (dress) ist zu teuer für mich.",
+        "choices": ["Kleid", "Jacke", "T-Shirt", "Pullover"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Ich brauche noch ______ (shoes) für die Party.",
+        "choices": ["Schuhe", "Kleidung", "Socken", "Mantel"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Welche ______ (shirt) gefällt dir am besten?",
+        "choices": ["Hemd", "Kleid", "Pullover", "T-Shirt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Die ______ (jeans) passen mir nicht.",
+        "choices": ["Jeans", "Kleidung", "Hose", "Jacke"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Wir gehen ______ (shopping) im Zentrum.",
+        "choices": ["Einkaufen", "Reisen", "Arbeiten", "Essen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Ich habe keine ______ (money) mehr für neue Kleidung.",
+        "choices": ["Geld", "Kleider", "Schuhe", "Taschen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+      {
+        "question": "______ (where) kann ich das kaufen?",
+        "choices": ["Wo", "Wie", "Was", "Warum"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+      {
+        "question": "Das ______ (coat) ist warm genug für den Winter.",
+        "choices": ["Mantel", "Hemd", "Pullover", "T-Shirt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 0
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Der Pullover ist zu groß.", "rightId": 1 },
+      "right": { "word": "The salesman helps me.", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Ich habe keine Hose.", "rightId": 2 },
+      "right": { "word": "The T-shirt costs 20 euros.", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Wo ist die Umkleidekabine?", "rightId": 3 },
+      "right": { "word": "The sweater is too big.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Das T-Shirt kostet 20 Euro.", "rightId": 4 },
+      "right": { "word": "Where is the fitting room?", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Der Verkäufer hilft mir.", "rightId": 5 },
+      "right": { "word": "I have the wrong size.", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Ich habe die falsche Größe.", "rightId": 1 },
+      "right": { "word": "I would like to try on the coat.", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Diese Schuhe sind sehr bequem.", "rightId": 2 },
+      "right": { "word": "How much does it cost?", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Wie viel kostet das? ", "rightId": 3 },
+      "right": { "word": "These jeans are made of cotton.", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Ich möchte den Mantel anprobieren.", "rightId": 4 },
+      "right": { "word": "These shoes are very comfortable.", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Diese Jeans sind aus Baumwolle.", "rightId": 5 },
+      "right": { "word": "I have the wrong size.", "rightId": 1 }
+
+    },
+  ]
+}
+    ]
+  },
+  {
+    quiz: '8',
+    name: 'German Exercise - 8 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Was ist deine Lieblingsaktivität in deiner Freizeit?",
+        "choices": ["schwimmen", "kochen", "wandern", "lesen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was bedeutet „spielen“ auf Englisch?",
+        "choices": ["to swim", "to cook", "to play", "to read"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welche Tätigkeit macht man in den Bergen?",
+        "choices": ["singen", "wandern", "reiten", "tanzen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie nennt man es, wenn man mit einem Pinsel Bilder malt?",
+        "choices": ["zeichnen", "singen", "tanzen", "kochen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie sagt man auf Deutsch: 'I like to sing'?",
+        "choices": ["Ich singe gern.", "Ich tanze gern.", "Ich lese gern.", "Ich koche gern."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welche der folgenden Aktivitäten ist kein Hobby?",
+        "choices": ["wandern", "schwimmen", "arbeiten", "reiten"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was bedeutet „wandern“ auf Englisch?",
+        "choices": ["to hike", "to dance", "to swim", "to read"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was tun die meisten Menschen, um sich zu entspannen?",
+        "choices": ["wandern", "schach spielen", "tanzen", "lesen"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Was ist der korrekte Satz?",
+        "choices": ["Ich spielen Fußball.", "Ich spielt Fußball.", "Ich spiele Fußball.", "Ich spiele Fußballe."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welche der folgenden Aktivitäten ist am besten für die Fitness?",
+        "choices": ["tanzen", "schach spielen", "lesen", "kochen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich ________ (spielen) jeden Tag Fußball mit meinen Freunden.",
+        "choices": ["spiele", "spielen", "spielst", "spielt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ________ (wandern) gerne in den Bergen.",
+        "choices": ["wandern", "wandere", "wandert", "wanderst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mein Bruder ________ (kochen) sehr gut und macht oft leckere Gerichte.",
+        "choices": ["kocht", "koche", "kochen", "kochst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ________ (schwimmen) oft im Schwimmbad?",
+        "choices": ["schwimmst", "schwimmen", "schwimmt", "schwimme"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Maria und Paul ________ (tanzen) jedes Wochenende zusammen.",
+        "choices": ["tanzen", "tanzst", "tanze", "tanzt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ________ (lesen) Bücher über Geschichte und Kultur.",
+        "choices": ["lest", "lesen", "liest", "lese"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ________ (singen) im Chor, weil ich Musik liebe.",
+        "choices": ["singe", "singst", "singen", "singt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ________ (essen) oft in einem Restaurant nach der Arbeit.",
+        "choices": ["essen", "esst", "isst", "esse"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ________ (reiten) gern, besonders an sonnigen Tagen.",
+        "choices": ["reite", "reiten", "reitest", "reitet"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ________ (reparieren) Autos als Hobby.",
+        "choices": ["repariert", "reparieren", "reparierst", "repariertest"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "schwimmen", "rightId": 1 },
+      "right": { "word": "Dancing at a club", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "kochen", "rightId": 2 },
+      "right": { "word": "Hiking in nature", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "tanzen", "rightId": 3 },
+      "right": { "word": "Swimming in a pool", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "wandern", "rightId": 4 },
+      "right": { "word": "Singing in a choir", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "singen", "rightId": 5 },
+      "right": { "word": "Cooking dishes", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "lesen", "rightId": 1 },
+      "right": { "word": "Riding horses", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "reiten", "rightId": 2 },
+      "right": { "word": "Playing football", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Fußball spielen", "rightId": 3 },
+      "right": { "word": "Drawing pictures", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Schach spielen", "rightId": 4 },
+      "right": { "word": "Reading books", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "zeichnen", "rightId": 5 },
+      "right": { "word": "Playing chess", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
 ];

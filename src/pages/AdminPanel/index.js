@@ -92,7 +92,6 @@ export default function index() {
             onClick={handleSectionClick}
           />
         </ul>
-        <div></div>
       </div>
     </div>
   );

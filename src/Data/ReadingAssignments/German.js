@@ -518,4 +518,122 @@ export const data = [
               }
           ],
     },
+    {
+      id:'7',
+      name:'German Reading Assignment 7 (A1)',
+      level:'Beginner',
+      Title:'',
+      readingText: "Amélie es una estudiante francesa en la India. Se llama Amélie y tiene veinte años. Rohan es su amiga india que estudia con ella. Se llama Rohan y siente una gran pasión por el francés. Luc y Julie también son sus amigos en la clase. Se llaman Luc y Julie y son muy simpáticos. Julie tiene un libro rojo para aprender francés. Juntos, están felices de estudiar y practicar el idioma. \nAmélie is a French student in India. Her name is Amélie, and she is twenty years old. Rohan is her Indian friend who studies with her. His name is Rohan, and he has a great passion for French. Luc and Julie are also their friends in the class. Their names are Luc and Julie, and they are very nice. Julie has a red book for learning French. Together, they are happy to study and practice the language.",
+      questions: [
+        {
+          "question": "¿De qué país es Amélie?",
+          "choices": ["India", "Francia", "España", "Italia"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuántos años tiene Amélie?",
+          "choices": ["18", "20", "22", "25"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se llama la amiga india de Amélie?",
+          "choices": ["Julie", "Rohan", "Luc", "Amélie"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué pasión tiene Rohan?",
+          "choices": ["el inglés", "el francés", "la música", "el arte"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Quiénes son los otros amigos de Amélie?",
+          "choices": ["Julie y Marc", "Luc y Julie", "Rohan y Julie", "Luc y Marc"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué tiene Julie para aprender francés?",
+          "choices": ["una libreta", "un libro rojo", "una computadora", "un cuaderno"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo son Luc y Julie?",
+          "choices": ["Malos", "Muy simpáticos", "Enojados", "Serios"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué están haciendo Amélie, Rohan, Luc y Julie juntos?",
+          "choices": ["Están jugando", "Están viajando", "Están estudiando y practicando francés", "Están comiendo"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿De qué nacionalidad es Amélie?",
+          "choices": ["India", "China", "Francesa", "Española"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Dónde estudia Amélie?",
+          "choices": ["en Francia", "en España", "en India", "en Alemania"],
+          "correctAnswer": 2
+        }
+        ],
+  },
+  {
+    id:'8',
+    name:'German Reading Assignment 8 (A1)',
+    level:'Beginner',
+    Title:'',
+    readingText: "Sophie findet in einer örtlichen Bibliothek ein interessantes Buch. Marc liest das Buch und tauscht Ideen mit Julien aus. Julien beschließt, sich selbst ein Exemplar zu kaufen. Clara kommt mit Croissants, um ihre Diskussion zu begleiten. Freunde sprechen darüber, wie wichtig es ist, regelmäßig zu lesen. Sophie zeigt jedem ein Foto im Buch. Marc glaubt, dass es sich bei dem Foto um einen berühmten Ort handelt. Julien schlägt vor, diesen Sommer einen Besuch vor Ort zu organisieren. Die Freunde vereinbaren, die Reise zu planen.\nSophie finds an interesting book in a local library. Marc reads the book and shares ideas with Julien. Julien decides to buy a copy for himself. Clara arrives with croissants to accompany their discussion. Friends talk about the importance of reading regularly. Sophie shows everyone a photo in the book. Marc thinks the photo is of a famous place. Julien suggests organizing a visit to the place this summer. The friends agree to plan the trip.",
+    questions: [
+      {
+        "question": "¿De qué país es Amélie?",
+        "choices": ["India", "Francia", "España", "Italia"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuántos años tiene Amélie?",
+        "choices": ["18", "20", "22", "25"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se llama la amiga india de Amélie?",
+        "choices": ["Julie", "Rohan", "Luc", "Amélie"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué pasión tiene Rohan?",
+        "choices": ["el inglés", "el francés", "la música", "el arte"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Quiénes son los otros amigos de Amélie?",
+        "choices": ["Julie y Marc", "Luc y Julie", "Rohan y Julie", "Luc y Marc"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué tiene Julie para aprender francés?",
+        "choices": ["una libreta", "un libro rojo", "una computadora", "un cuaderno"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo son Luc y Julie?",
+        "choices": ["Malos", "Muy simpáticos", "Enojados", "Serios"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué están haciendo Amélie, Rohan, Luc y Julie juntos?",
+        "choices": ["Están jugando", "Están viajando", "Están estudiando y practicando francés", "Están comiendo"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿De qué nacionalidad es Amélie?",
+        "choices": ["India", "China", "Francesa", "Española"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Dónde estudia Amélie?",
+        "choices": ["en Francia", "en España", "en India", "en Alemania"],
+        "correctAnswer": 2
+      }
+      ],
+},
 ]
