@@ -594,4 +594,122 @@ export const data = [
               }
           ],
     },
+    {
+      id:'7',
+      name:'French Reading Assignment 7 (A1)',
+      level:'Beginner',
+      Title:'',
+      readingText: "Amélie est une étudiante française en Inde. Elle s'appelle Amélie et elle a vingt ans. Rohan est son ami indien qui étudie avec elle. Il s'appelle Rohan et il a une grande passion pour le français. Luc et Julie sont aussi leurs amis dans la classe. Ils s'appellent Luc et Julie et ils sont très gentils. Julie a un livre rouge pour apprendre le français. Ensemble, ils sont heureux d'étudier et de pratiquer la langue. \nAmélie is a French student in India. Her name is Amélie, and she is twenty years old. Rohan is her Indian friend who studies with her. His name is Rohan, and he has a great passion for French. Luc and Julie are also their friends in the class. Their names are Luc and Julie, and they are very nice. Julie has a red book for learning French. Together, they are happy to study and practice the language.",
+      questions: [
+        {
+          "question": "Qui est Amélie ?",
+          "choices": ["Une étudiante indienne", "Une enseignante française", "Une amie de Rohan", "Une étudiante française"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "Où est-ce qu'Amélie étudie ?",
+          "choices": ["En Inde", "En France", "En Angleterre", "Aux États-Unis"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Quel âge a Amélie ?",
+          "choices": ["20 ans", "18 ans", "25 ans", "30 ans"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Comment s'appelle l'ami indien d'Amélie ?",
+          "choices": ["Luc", "Rohan", "Julie", "Marc"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Qu'est-ce que Rohan aime particulièrement ?",
+          "choices": ["La musique", "Le français", "Le sport", "L'art"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quels sont les noms des autres amis d'Amélie et Rohan dans la classe ?",
+          "choices": ["Luc et Sophie", "Luc et Julie", "Julie et Pierre", "Marie et Jean"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que fait Julie pour apprendre le français ?",
+          "choices": ["Elle écoute de la musique française", "Elle regarde des films français", "Elle a un livre rouge", "Elle prend des cours particuliers"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment sont les amis d'Amélie et Rohan ?",
+          "choices": ["Gentils", "Méchants", "Timides", "Tristes"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Que font Amélie, Rohan, Luc et Julie ensemble ?",
+          "choices": ["Ils étudient et pratiquent le français", "Ils jouent au football", "Ils vont au cinéma", "Ils cuisinent ensemble"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Qu'est-ce qu'Amélie, Rohan, Luc et Julie ressentent en étudiant ensemble ?",
+          "choices": ["Ils sont tristes", "Ils sont heureux", "Ils sont en colère", "Ils sont fatigués"],
+          "correctAnswer": 3
+        }
+        ],
+  },
+  {
+    id:'8',
+    name:'French Reading Assignment 8 (A1)',
+    level:'Beginner',
+    Title:'',
+    readingText: "Sophie trouve un livre intéressant dans une bibliothèque locale. Marc lit le livre et partage des idées avec Julien. Julien décide de s'en acheter un exemplaire. Clara arrive avec des croissants pour accompagner leur discussion. Des amis parlent de l’importance de lire régulièrement. Sophie montre à chacun une photo dans le livre. Marc pense que la photo représente un lieu célèbre. Julien propose d'organiser une visite des lieux cet été. Les amis acceptent de planifier le voyage. \nSophie finds an interesting book in a local library. Marc reads the book and shares ideas with Julien. Julien decides to buy a copy for himself. Clara arrives with croissants to accompany their discussion. Friends talk about the importance of reading regularly. Sophie shows everyone a photo in the book. Marc thinks the photo is of a famous place. Julien suggests organizing a visit to the place this summer. The friends agree to plan the trip.",
+    questions: [
+      {
+        "question": "Où Sophie trouve-t-elle un livre intéressant ?",
+        "choices": ["À la bibliothèque locale", "Dans un magasin", "Dans une librairie en ligne", "Dans un café"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Qui lit le livre après Sophie ?",
+        "choices": ["Clara", "Marc", "Julien", "Sophie elle-même"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Avec qui Marc partage-t-il des idées ?",
+        "choices": ["Clara", "Sophie", "Julien", "Personne"],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Que décide Julien de faire après avoir discuté du livre ?",
+        "choices": ["Acheter un exemplaire du livre", "Lire un autre livre", "Partager ses idées avec Marc", "Prendre une photo"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "Qui arrive avec des croissants ?",
+        "choices": ["Sophie", "Clara", "Julien", "Marc"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pourquoi Clara apporte-t-elle des croissants ?",
+        "choices": ["Pour partager avec tout le monde", "Pour accompagner leur discussion", "Pour un goûter", "Pour fêter un événement spécial"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quel sujet les amis abordent-ils pendant leur discussion ?",
+        "choices": ["La politique", "L'importance de lire régulièrement", "Les voyages d'été", "Les recettes de cuisine"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Que montre Sophie à chacun des amis ?",
+        "choices": ["Un dessin", "Une photo dans le livre", "Un extrait du livre", "Un film"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Que pense Marc de la photo ?",
+        "choices": ["Elle montre un animal", "Elle montre une famille", "Elle montre un événement historique", "Elle représente un lieu célèbre"],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Que propose Julien après avoir vu la photo ?",
+        "choices": ["Organiser une fête", "Lire plus de livres", "Partir en vacances", "Organiser une visite des lieux cet été"],
+        "correctAnswer": 3
+      }
+      ],
+},
 ]

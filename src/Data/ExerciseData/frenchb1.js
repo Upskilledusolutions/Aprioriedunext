@@ -2279,4 +2279,398 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '13',
+      name: 'French Exercise - 13 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which of the following sentences correctly uses the subjunctive mood?",
+          "choices": ["Je pense que tu es intelligent.", "Il est nécessaire que tu sois à l'heure.", "Je suis sûr que vous arrivez bientôt.", "Ils croient que vous travaillez tard."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which expression requires the use of the subjunctive?",
+          "choices": ["Il est évident que", "Il faut que", "Il est clair que", "Il semble que"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following is the correct conjugation of 'faire' in the subjunctive for 'vous'?",
+          "choices": ["fassiez", "ferez", "faisiez", "faire"],
+          "type": "MCQs",
+          "correctAnswer": 0
+        },
+        {
+          "question": "What is the correct subjunctive conjugation for 'avoir' in the first person plural (nous)?",
+          "choices": ["ayons", "avons", "aurez", "aient"],
+          "type": "MCQs",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Which of the following statements is true about French politics?",
+          "choices": ["The president is only elected every ten years.", "The National Assembly and the Senate together make up the French parliament.", "Political parties are not allowed to participate in elections.", "French politicians are all appointed by the President."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 'un sénateur' refer to?",
+          "choices": ["A member of the French National Assembly", "A member of the French Senate", "A political activist", "A journalist"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "The subjunctive mood is used to express:",
+          "choices": ["Wishes and emotions", "Facts and certainties", "Completed actions", "Future events"],
+          "type": "MCQs",
+          "correctAnswer": 0
+        },
+        {
+          "question": "The verb 'être' in the subjunctive for 'nous' is:",
+          "choices": ["soyons", "serons", "étions", "sommes"],
+          "type": "MCQs",
+          "correctAnswer": 0
+        },
+        {
+          "question": "Which political system does France follow?",
+          "choices": ["Constitutional monarchy", "Federalism", "Republic", "Theocracy"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is a main role of a deputy ('député') in the French political system?",
+          "choices": ["To represent citizens in the Senate", "To propose new laws", "To conduct court trials", "To supervise the military"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il faut que tu ______ (faire) tes devoirs avant de sortir.",
+          "choices": ["fasses", "ferez", "faisiez", "faire"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Bien qu'il ______ (être) fatigué, il a décidé de travailler toute la nuit.",
+          "choices": ["soit", "est", "serait", "être"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est essentiel que nous ______ (avoir) une réunion avant la fin de la semaine.",
+          "choices": ["ayons", "avons", "aurez", "avoir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je doute qu'ils ______ (comprendre) la situation actuelle.",
+          "choices": ["comprennent", "comprend", "comprendraient", "comprendre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour que vous ______ (réussir) dans cette entreprise, il faut être motivé.",
+          "choices": ["réussissiez", "réussir", "réussiraient", "réussis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est important que nous ______ (réagir) rapidement face à ce problème.",
+          "choices": ["réagissiez", "réagissons", "réagir", "réagirez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ne pense pas qu’il ______ (venir) à la fête ce soir.",
+          "choices": ["vienne", "vient", "viendra", "venir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est nécessaire que tu ______ (savoir) utiliser ce logiciel avant de commencer le travail.",
+          "choices": ["saches", "savoir", "sait", "sachiez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Bien que nous ______ (être) en retard, nous avons réussi à arriver à temps.",
+          "choices": ["soyons", "sommes", "serons", "être"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est dommage que vous ______ (ne pas pouvoir) participer à la réunion.",
+          "choices": ["ne puissiez", "ne pouvez", "ne pouviez", "ne pouvoir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il faut que", "rightId": 1 },
+              "right": { "word": "although", "rightId": 2 }
+            },
+            {
+              "left": { "word": "bien que", "rightId": 2 },
+              "right": { "word": "It is necessary that", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Il est important que", "rightId": 3 },
+              "right": { "word": "so that", "rightId": 4 }
+            },
+            {
+              "left": { "word": "pour que", "rightId": 4 },
+              "right": { "word": "the government", "rightId": 5 }
+            },
+            {
+              "left": { "word": "le gouvernement", "rightId": 5 },
+              "right": { "word": "It is necessary that", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "la politique", "rightId": 1 },
+              "right": { "word": "the law", "rightId": 3 }
+            },
+            {
+              "left": { "word": "l'égalité des sexes", "rightId": 2 },
+              "right": { "word": "to hope", "rightId": 5 }
+            },
+            {
+              "left": { "word": "la loi", "rightId": 3 },
+              "right": { "word": "gender equality", "rightId": 2 }
+            },
+            {
+              "left": { "word": "voter", "rightId": 4 },
+              "right": { "word": "politics", "rightId": 1 }
+            },
+            {
+              "left": { "word": "espérer que", "rightId": 5 },
+              "right": { "word": "to vote", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '14',
+      name: 'French Exercise - 14 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which phrase correctly translates 'If I had studied more, I would have passed the exam'?",
+          "choices": [
+            "Si j'ai étudié davantage, j'ai réussi l'examen.",
+            "Si j'étudiais davantage, j'aurais réussi l'examen.",
+            "Si j'avais étudié davantage, j'aurais réussi l'examen.",
+            "Si j'étudierai davantage, je réussis l'examen."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'postuler pour un emploi' mean?",
+          "choices": [
+            "to apply for a job",
+            "to quit a job",
+            "to promote someone",
+            "to sign a contract"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which verb form fits this sentence: 'Si tu ______ (venir) avec moi, nous aurions appris beaucoup.'",
+          "choices": ["viens", "venait", "viens", "étais venu"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "What is the term for 'to work full-time' in French?",
+          "choices": [
+            "Travailler à plein temps",
+            "Travailler à temps partiel",
+            "Travailler dur",
+            "Travailler en freelance"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si clause: Which phrase completes this sentence? 'Si elle avait un emploi stable, elle ______ (acheter) une maison.'",
+          "choices": [
+            "aurait acheté",
+            "acheterait",
+            "achetait",
+            "achèterait"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which of the following phrases means 'career advancement'?",
+          "choices": [
+            "une promotion de carrière",
+            "une démission",
+            "une régression professionnelle",
+            "un entretien d’embauche"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Fill in the blank: 'Si nous ______ (faire) un effort, nous réussirions à temps.'",
+          "choices": ["faisons", "ferons", "faisions", "avons fait"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the meaning of 'un stage en entreprise'?",
+          "choices": [
+            "a scholarship",
+            "a university diploma",
+            "an internship in a company",
+            "a management course"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Choose the correct verb form: 'Si les étudiants ______ (savoir) utiliser les outils numériques, ils seraient plus efficaces.'",
+          "choices": ["savent", "sauraient", "sachent", "savaient"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which verb is used in this sentence: 'Si elle ______ (pouvoir) voyager, elle irait à Paris.'",
+          "choices": ["peut", "pouvait", "pouvait", "pourra"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si j'________ (avoir) de bonnes notes, j'irai dans une université prestigieuse.",
+          "choices": ["avais", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si tu ________ (étudier) davantage, tu comprendrais mieux cette matière.",
+          "choices": ["étudiais", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si elle ________ (faire) un stage, elle aurait plus d'expérience.",
+          "choices": ["faisait", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous réussirons si nous ________ (travailler) dur.",
+          "choices": ["travaillons", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vous ________ (aller) à l'étranger, vous apprendriez beaucoup de nouvelles choses.",
+          "choices": ["alliez", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si je ________ (être) professeur, je serais très strict.",
+          "choices": ["étais", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si on ________ (apprendre) les langues tôt, c'est plus facile.",
+          "choices": ["apprend", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ________ (obtenir) un emploi s'ils terminaient leurs études.",
+          "choices": ["obtiendraient", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vous ________ (pouvoir) choisir, quelle carrière choisiriez-vous ?",
+          "choices": ["pouviez", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si elle ________ (postuler) à cette entreprise, elle serait embauchée.",
+          "choices": ["postulait", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "une bourse d'études", "rightId": 1 },
+              "right": { "word": "cover letter", "rightId": 4 }
+            },
+            {
+              "left": { "word": "un stage en entreprise", "rightId": 2 },
+              "right": { "word": "scholarship", "rightId": 1 }
+            },
+            {
+              "left": { "word": "la gestion des ressources humaines", "rightId": 3 },
+              "right": { "word": "internship", "rightId": 2 }
+            },
+            {
+              "left": { "word": "une lettre de motivation", "rightId": 4 },
+              "right": { "word": "social sciences", "rightId": 5 }
+            },
+            {
+              "left": { "word": "les sciences sociales ", "rightId": 5 },
+              "right": { "word": "human resources management", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "passer un entretien", "rightId": 1 },
+              "right": { "word": "higher education diploma", "rightId": 3 }
+            },
+            {
+              "left": { "word": "le système éducatif", "rightId": 2 },
+              "right": { "word": "continuous education", "rightId": 5 }
+            },
+            {
+              "left": { "word": "un diplôme universitaire", "rightId": 3 },
+              "right": { "word": "education system", "rightId": 2 }
+            },
+            {
+              "left": { "word": "travailler à temps partiel", "rightId": 4 },
+              "right": { "word": "attend an interview", "rightId": 1 }
+            },
+            {
+              "left": { "word": "la formation continue", "rightId": 5 },
+              "right": { "word": "work part-time", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
 ]
