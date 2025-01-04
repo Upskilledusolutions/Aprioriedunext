@@ -1460,8 +1460,8 @@ export const quiz = [
         "correctAnswer": 1
     },
     {
-        "question": "María ______ (to write) cartas a su abuela.",
-        "choices": ["escribe", "escribo", "escribes", "escriben"],
+        "question": "Maria es mi ______ (sister).",
+        "choices": ["hermana", "escribo", "escribes", "escriben"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
     },
