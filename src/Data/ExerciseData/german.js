@@ -220,7 +220,7 @@ export const quiz = [
       },
       {
         "question": "(Where are you?) ______ bist du?",
-        "choices": ["Bist", "Wie", "Wo", "Wann"],
+        "choices": ["Wo", "Wie", "Wo", "Wann"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
