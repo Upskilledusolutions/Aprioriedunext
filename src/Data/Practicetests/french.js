@@ -3041,124 +3041,124 @@ export const quiz = [
 
 
         {
-          "question": "Je voudrais _______ (take) un rendez-vous pour demain.",
+          "question": "Je voudrais ______ (take) un rendez-vous pour demain.",
           "choices": ["prendre", "venir", "se voir", "presence"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "À quelle heure pouvez-vous _______ (come) ?",
+          "question": "À quelle heure pouvez-vous ______ (come) ?",
           "choices": ["venir", "prendre", "se voir", "presence"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Nous _______ (see each other) à 15h.",
+          "question": "Nous ______ (see each other) à 15h.",
           "choices": ["se voir", "prendre", "venir", "presence"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Pouvez-vous confirmer votre _______ (presence) ?",
+          "question": "Pouvez-vous confirmer votre ______ (presence) ?",
           "choices": ["se voir", "prendre", "venir", "presence"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Je suis _______ (busy) mercredi.",
+          "question": "Je suis ______ (busy) mercredi.",
           "choices": ["occupé", "prendre", "se voir", "presence"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Cher Monsieur, merci pour votre _______ (invitation).",
+          "question": "Cher Monsieur, merci pour votre ______ (invitation).",
           "choices": ["invitation", "venir", "presence", "prendre"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Je vous _______ (write) pour confirmer ma présence.",
+          "question": "Je vous ______ (write) pour confirmer ma présence.",
           "choices": ["écrire", "venir", "prendre", "occupé"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Veuillez _______ (accept) mes salutations respectueuses.",
+          "question": "Veuillez ______ (accept) mes salutations respectueuses.",
           "choices": ["accepter", "prendre", "venir", "se voir"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Salut Julie, je _______ (want) te parler de notre rendez-vous.",
+          "question": "Salut Julie, je ______ (want) te parler de notre rendez-vous.",
           "choices": ["vouloir", "accepter", "prendre", "presence"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "À bientôt, _______ (write)-moi dès que possible !",
+          "question": "À bientôt, ______ (write)-moi dès que possible !",
           "choices": ["écris", "avoir", "venir", "être"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Hier, j’_______ (go) au parc avec mes amis.",
+          "question": "Hier, j'______ (go) au parc avec mes amis.",
           "choices": ["allé", "mangé", "vu", "fait"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Nous _______ (eat) un délicieux repas au restaurant.",
+          "question": "Nous ______ (eat) un délicieux repas au restaurant.",
           "choices": ["mangé", "allé", "vu", "fini"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Elle _______ (finish) ses devoirs avant de partir.",
+          "question": "Elle ______ (finish) ses devoirs avant de partir.",
           "choices": ["fini", "voir", "avoir", "être"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Ils _______ (see) un film intéressant.",
+          "question": "Ils ______ (see) un film intéressant.",
           "choices": ["vu", "fait", "mangé", "allé"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Tu _______ (do) tes courses ce matin ?",
+          "question": "Tu ______ (do) tes courses ce matin ?",
           "choices": ["fait", "mangé", "allé", "fini"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "J’_______ (have) une réunion ce matin.",
+          "question": "J'______ (have) une réunion ce matin.",
           "choices": ["avoir", "mangé", "fini", "vu"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Nous _______ (be) très heureux de te voir.",
+          "question": "Nous ______ (be) très heureux de te voir.",
           "choices": ["être", "avoir", "fini", "mangé"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Tu _______ (have) un chien ?",
+          "question": "Tu ______ (have) un chien ?",
           "choices": ["avoir", "être", "prendre", "fini"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Ils _______ (be) en retard pour la réunion.",
+          "question": "Ils ______ (be) en retard pour la réunion.",
           "choices": ["être", "avoir", "voir", "fini"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Vous _______ (have) des questions ?",
+          "question": "Vous ______ (have) des questions ?",
           "choices": ["avoir", "être", "prendre", "accepter"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
        
   
@@ -3490,6 +3490,474 @@ export const quiz = [
         },
 
 
+
+      ],
+    },
+    {
+      quiz: '7',
+      name: 'French Practice Test - 7',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "Demain, je _________ au marché pour acheter des fruits.",
+          "choices": ["vais aller", "vais allé", "irai", "va aller"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marie _________ ses devoirs après le dîner.",
+          "choices": ["fera", "feras", "va faire", "fais"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Nous _________ visiter Paris l’année prochaine.",
+          "choices": ["irons", "allons visiter", "allons allés", "visiterons"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Ils _________ un nouveau projet à l’école demain.",
+          "choices": ["commenceront", "commençaient", "vont commencer", "commenciez"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu _________ au cinéma ce soir ?",
+          "choices": ["ira", "vas aller", "alleras", "allies"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Est-ce qu’il _________ à la réunion la semaine prochaine ?",
+          "choices": ["va assister", "assistera", "assistait", "vas assister"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Vous _________ en vacances en Espagne cet été ?",
+          "choices": ["aller", "irez", "vont aller", "allez aller"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Marc _________ un cadeau pour sa sœur demain.",
+          "choices": ["vas acheter", "achètera", "acheterait", "va acheter"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Elles _________ leur nouvelle maison dans quelques mois.",
+          "choices": ["vont acheter", "achèteront", "acheteraient", "vas acheter"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Je _________ mon cours de français l’année prochaine.",
+          "choices": ["vais continuer", "continuerai", "continue", "vais continué"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "La Fête de la Musique est célébrée le _________.",
+          "choices": ["14 juillet", "21 juin", "25 décembre", "1er mai"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le dessert traditionnel de Noël en France est _________.",
+          "choices": ["le gâteau au chocolat", "la bûche de Noël", "les macarons", "la galette des rois"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "La Fête des Lumières a lieu chaque année à _________.",
+          "choices": ["Paris", "Lyon", "Marseille", "Bordeaux"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Pendant Mardi Gras, les gens se déguisent avec _________.",
+          "choices": ["des masques", "des crêpes", "des fleurs", "des lampions"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le 14 juillet célèbre _________.",
+          "choices": ["l’Épiphanie", "la prise de la Bastille", "la Saint-Valentin", "l’Armistice"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le Beaujolais Nouveau est une fête autour du _________.",
+          "choices": ["fromage", "pain", "vin", "chocolat"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Pour le 1er mai, les Français offrent traditionnellement _________.",
+          "choices": ["des roses", "des tulipes", "des muguets", "des lys"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "À Noël, les Français mangent souvent _________.",
+          "choices": ["des œufs en chocolat", "des crêpes", "du foie gras", "des galettes des rois"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Pendant la Chandeleur, on prépare _________.",
+          "choices": ["des crêpes", "des tartes", "des éclairs", "des brioches"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À Pâques, les enfants cherchent _________ dans le jardin.",
+          "choices": ["des gâteaux", "des œufs en chocolat", "des fruits", "des pains"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+
+        {
+          "question": "Demain, je ______ (partir) en vacances avec mes amis.",
+          "choices": ["partirai"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (aller) au restaurant ce soir.",
+          "choices": ["vont aller"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (organiser) une fête pour ton anniversaire.",
+          "choices": ["organiserons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (prendre) un café avec moi la semaine prochaine ?",
+          "choices": ["prendras"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (trouver) un nouveau travail après ses études.",
+          "choices": ["trouvera"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (rencontrer) mes collègues à 14 heures.",
+          "choices": ["rencontrerai"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (voyager) en Espagne cet été ?",
+          "choices": ["voyagerez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marc et Julie ______ (écrire) un livre ensemble bientôt.",
+          "choices": ["écriront"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (changer) de voiture dans quelques mois.",
+          "choices": ["changerons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (acheter) un cadeau pour toi demain.",
+          "choices": ["achèterai"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La Fête de la Musique est célébrée chaque année le ______ (date).",
+          "choices": ["21 juin"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le 14 juillet est aussi connu comme la ______ (événement).",
+          "choices": ["prise de la Bastille"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pendant Noël, les Français décorent souvent un ______ (objet).",
+          "choices": ["sapin de Noël"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À Pâques, les cloches envoient des ______ (objet sucré).",
+          "choices": ["œufs en chocolat"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pendant la Chandeleur, on mange des ______ (plat traditionnel).",
+          "choices": ["crêpes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La Fête des Lumières a lieu chaque année à ______ (ville).",
+          "choices": ["Lyon"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À la Toussaint, les familles visitent les ______ (lieu).",
+          "choices": ["cimetières"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le Beaujolais Nouveau célèbre l’arrivée d’un nouveau ______ (produit).",
+          "choices": ["vin"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pendant les marchés de Noël, on boit du ______ (boisson).",
+          "choices": ["vin chaud"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le 1er mai, on offre du ______ (fleur porte-bonheur).",
+          "choices": ["muguet"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Je vais aller à la bibliothèque demain.",
+          "choices": ["Je", "vais", "aller", "à", "la", "bibliothèque", "demain"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous visiterons Paris avec mes amis l’année prochaine.",
+          "choices": ["Nous", "visiterons", "Paris", "avec", "mes", "amis", "l’année", "prochaine"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle fera ses devoirs ce soir à la maison.",
+          "choices": ["Elle", "fera", "ses", "devoirs", "ce", "soir", "à", "la", "maison"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il va bientôt acheter une voiture.",
+          "choices": ["Il", "va", "bientôt", "acheter", "une", "voiture"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous irons en Espagne pour les vacances cet été.",
+          "choices": ["Nous", "irons", "en", "Espagne", "pour", "les", "vacances", "cet", "été"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il voudra travailler à Paris un jour.",
+          "choices": ["Il", "voudra", "travailler", "à", "Paris", "un", "jour"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Julie va acheter ce cadeau pour toi.",
+          "choices": ["Julie", "va", "acheter", "ce", "cadeau", "pour", "toi"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je réussirai mes examens si j’étudie.",
+          "choices": ["Je", "réussirai", "mes", "examens", "si", "j’étudie"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Iras-tu au cinéma demain soir avec Paul ?",
+          "choices": ["Iras-tu", "au", "cinéma", "demain", "soir", "avec", "Paul", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous allons organiser une fête ce week-end chez nous.",
+          "choices": ["Nous", "allons", "organiser", "une", "fête", "ce", "week-end", "chez", "nous"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "On célèbre la Fête de la Musique le 21 juin chaque année.",
+          "choices": ["On", "célèbre", "la", "Fête", "de", "la", "Musique", "le", "21", "juin", "chaque", "année"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Les familles françaises décorent un sapin pour Noël.",
+          "choices": ["Les", "familles", "françaises", "décorent", "un", "sapin", "pour", "Noël"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "On mange la bûche de Noël comme dessert traditionnel.",
+          "choices": ["On", "mange", "la", "bûche", "de", "Noël", "comme", "dessert", "traditionnel"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "La Fête des Lumières se déroule chaque année à Lyon.",
+          "choices": ["La", "Fête", "des", "Lumières", "se", "déroule", "chaque", "année", "à", "Lyon"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Les enfants cherchent des œufs en chocolat à Pâques.",
+          "choices": ["Les", "enfants", "cherchent", "des", "œufs", "en", "chocolat", "à", "Pâques"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "On célèbre la prise de la Bastille le 14 juillet en France.",
+          "choices": ["On", "célèbre", "la", "prise", "de", "la", "Bastille", "le", "14", "juillet", "en", "France"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Les gens se déguisent avec des masques pour Mardi Gras.",
+          "choices": ["Les", "gens", "se", "déguisent", "avec", "des", "masques", "pour", "Mardi", "Gras"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "La fête du Beaujolais Nouveau est une célébration autour du vin.",
+          "choices": ["La", "fête", "du", "Beaujolais", "Nouveau", "est", "une", "célébration", "autour", "du", "vin"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Les Français s’offrent du muguet traditionnellement le 1er mai.",
+          "choices": ["Les", "Français", "s’offrent", "du", "muguet", "traditionnellement", "le", "1er", "mai"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Les visiteurs boivent souvent du vin chaud au marché de Noël.",
+          "choices": ["Les", "visiteurs", "boivent", "souvent", "du", "vin", "chaud", "au", "marché", "de", "Noël"],
+          "type": "JumbledWords"
+        },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Demain, je vais faire ", "rightId": 1 },
+            "right": { "word": "Paris l’année prochaine.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Nous visiterons", "rightId": 2 },
+            "right": { "word": "à l’université l’année prochaine.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Tu vas prendre ", "rightId": 3 },
+            "right": { "word": "une nouvelle voiture bientôt.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Ils achèteront ", "rightId": 4 },
+            "right": { "word": "des fruits au marché demain.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Elle travaillera ", "rightId": 5 },
+            "right": { "word": "une réservation au restaurant ?", "rightId": 3 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Il va appeler ", "rightId": 1 },
+            "right": { "word": "mes devoirs après le dîner.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Vous réussirez ", "rightId": 2 },
+            "right": { "word": "ses parents demain soir.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Nous allons organiser", "rightId": 3 },
+            "right": { "word": "au cinéma avec ses amis.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Tu finiras ", "rightId": 4 },
+            "right": { "word": "une fête ce week-end.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Marc ira ", "rightId": 5 },
+            "right": { "word": "à l’examen, c’est sûr.", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "La Fête de la Musique ", "rightId": 1 },
+            "right": { "word": "la bûche de Noël.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "À Noël, on mange", "rightId": 2 },
+            "right": { "word": "le muguet.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Le 1er mai est associé", "rightId": 3 },
+            "right": { "word": "des masques.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "À Pâques, les enfants cherchent", "rightId": 4 },
+            "right": { "word": "le 21 juin", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Pendant Mardi Gras, les gens portent", "rightId": 5 },
+            "right": { "word": "des œufs en chocolat.", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "La Chandeleur est célèbre pour", "rightId": 1 },
+            "right": { "word": "le vin.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "La Fête des Lumières a lieu", "rightId": 2 },
+            "right": { "word": "du vin chaud.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Le 14 juillet célèbre ", "rightId": 3 },
+            "right": { "word": "la prise de la Bastille.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Le Beaujolais Nouveau célèbre ", "rightId": 4 },
+            "right": { "word": "des crêpes.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Pendant les marchés de Noël, on boit", "rightId": 5 },
+            "right": { "word": "à Lyon.", "rightId": 2 }
+          },
+         
+        ],
+      },
 
       ],
     },

@@ -1331,7 +1331,7 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "¿__________ casa está muy lejos?",
+          "question": "¿______ casa está muy lejos?",
           "choices": ["Este", "Ese", "Aquella", "Esta"],
           "type": "MCQs",
           "correctAnswer": 3
@@ -1923,243 +1923,243 @@ export const quiz = [
           "question": "¿Cómo se dice 'quickly' en español?",
           "choices": ["lentamente", "rápido", "tarde", "temprano"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Cuál es el adverbio que significa 'every day'?",
           "choices": ["siempre", "nunca", "todos los días", "a veces"],
           "type": "MCQs",
-          "correctAnswer": 2
+          "correctAnswer": 3
         },
         {
           "question": "¿Cómo se dice 'never' en español?",
           "choices": ["siempre", "nunca", "a veces", "raramente"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Qué adverbio describe la frecuencia de algo?",
           "choices": ["rápidamente", "casi", "nunca", "de repente"],
           "type": "MCQs",
-          "correctAnswer": 2
+          "correctAnswer": 3
         },
         {
           "question": "¿Cómo se dice 'a little' en español?",
           "choices": ["mucho", "poco", "nada", "bastante"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Cómo se dice 'on the left' en español?",
           "choices": ["a la derecha", "a la izquierda", "en frente", "detrás"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Dónde está la estación de tren?",
           "choices": ["detrás del museo", "cerca del parque", "a la izquierda del banco", "al lado de la farmacia"],
           "type": "MCQs",
-          "correctAnswer": 2
+          "correctAnswer": 3
         },
         {
           "question": "¿Cómo se dice 'in front of' en español?",
           "choices": ["al lado de", "detrás de", "en frente de", "encima de"],
           "type": "MCQs",
-          "correctAnswer": 2
+          "correctAnswer": 3
         },
         {
           "question": "¿Cómo se indica una dirección 'next to' en español?",
           "choices": ["a la derecha", "al lado de", "encima de", "detrás de"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Dónde está el cine?",
           "choices": ["a la izquierda del restaurante", "en frente de la plaza", "detrás del hotel", "a la derecha del supermercado"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Cómo se dice 'summer' en español?",
           "choices": ["invierno", "otoño", "primavera", "verano"],
           "type": "MCQs",
-          "correctAnswer": 3
+          "correctAnswer": 4
         },
         {
           "question": "¿Qué estación del año es cuando nieva?",
           "choices": ["otoño", "primavera", "verano", "invierno"],
           "type": "MCQs",
-          "correctAnswer": 3
+          "correctAnswer": 4
         },
         {
           "question": "¿En qué estación las flores empiezan a crecer?",
           "choices": ["verano", "primavera", "otoño", "invierno"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Qué estación es conocida por las hojas caídas de los árboles?",
           "choices": ["verano", "otoño", "invierno", "primavera"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿En qué estación hace más calor en muchos países?",
           "choices": ["primavera", "verano", "otoño", "invierno"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Cómo se dice 'Monday' en español?",
           "choices": ["martes", "lunes", "miércoles", "jueves"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Cuántos días tiene el mes de febrero en un año no bisiesto?",
           "choices": ["31", "30", "28", "29"],
           "type": "MCQs",
-          "correctAnswer": 2
+          "correctAnswer": 3
         },
         {
           "question": "¿Cuál de los siguientes meses es en primavera?",
           "choices": ["diciembre", "junio", "abril", "octubre"],
           "type": "MCQs",
-          "correctAnswer": 2
+          "correctAnswer": 3
         },
         {
           "question": "¿Cuál es el último día de la semana?",
           "choices": ["sábado", "domingo", "viernes", "jueves"],
           "type": "MCQs",
-          "correctAnswer": 1
+          "correctAnswer": 2
         },
         {
           "question": "¿Cómo se dice 'December' en español?",
           "choices": ["enero", "febrero", "diciembre", "marzo"],
           "type": "MCQs",
-          "correctAnswer": 2
+          "correctAnswer": 3
         },
 
 
         {
-          "question": "Ella camina __________ (slow).",
+          "question": "Ella camina ______ (slow).",
           "choices": ["lentamente", "rápido", "frecuentemente", "a menudo"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Yo estudio __________ (always) por la mañana.",
+          "question": "Yo estudio ______ (always) por la mañana.",
           "choices": ["siempre", "nunca", "a veces", "casi"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "María habla __________ (fast) en clase.",
+          "question": "María habla ______ (fast) en clase.",
           "choices": ["rápido", "lentamente", "casi", "de repente"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Ellos juegan __________ (frequently) en el parque.",
+          "question": "Ellos juegan ______ (frequently) en el parque.",
           "choices": ["frecuentemente", "siempre", "a veces", "nunca"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Nosotros viajamos __________ (often) a la playa.",
+          "question": "Nosotros viajamos ______ (often) a la playa.",
           "choices": ["a menudo", "nunca", "siempre", "de repente"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "La tienda está __________ (near) del parque.",
+          "question": "La tienda está ______ (near) del parque.",
           "choices": ["cerca", "lejos", "a la derecha", "al lado"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "La escuela está __________ (beside) del supermercado.",
+          "question": "La escuela está ______ (beside) del supermercado.",
           "choices": ["al lado", "en frente", "detrás", "a la izquierda"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "La iglesia está __________ (to the right) de la biblioteca.",
+          "question": "La iglesia está ______ (to the right) de la biblioteca.",
           "choices": ["a la derecha", "a la izquierda", "en frente", "detrás"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "El restaurante está __________ (opposite) del cine.",
+          "question": "El restaurante está ______ (opposite) del cine.",
           "choices": ["en frente", "a la izquierda", "detrás", "cerca"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "El hotel está __________ (behind) del banco.",
+          "question": "El hotel está ______ (behind) del banco.",
           "choices": ["detrás", "al lado", "a la derecha", "en frente"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "En __________ (summer) hace mucho calor.",
+          "question": "En ______ (summer) hace mucho calor.",
           "choices": ["verano", "invierno", "otoño", "primavera"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "En __________ (winter) nieva mucho.",
+          "question": "En ______ (winter) nieva mucho.",
           "choices": ["invierno", "verano", "primavera", "otoño"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "En __________ (spring) las flores crecen.",
+          "question": "En ______ (spring) las flores crecen.",
           "choices": ["primavera", "verano", "otoño", "invierno"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "En __________ (autumn) las hojas caen de los árboles.",
+          "question": "En ______ (autumn) las hojas caen de los árboles.",
           "choices": ["otoño", "invierno", "verano", "primavera"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "El clima en __________ (winter) es muy frío.",
+          "question": "El clima en ______ (winter) es muy frío.",
           "choices": ["invierno", "verano", "primavera", "otoño"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "El __________ (monday) es el primer día de la semana.",
+          "question": "El ______ (monday) es el primer día de la semana.",
           "choices": ["lunes", "martes", "miércoles", "domingo"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Mi cumpleaños es en __________ (december).",
+          "question": "Mi cumpleaños es en ______ (december).",
           "choices": ["diciembre", "enero", "febrero", "marzo"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "El __________ (friday) vamos al cine.",
+          "question": "El ______ (friday) vamos al cine.",
           "choices": ["viernes", "lunes", "domingo", "jueves"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "Hay 30 días en __________ (april).",
+          "question": "Hay 30 días en ______ (april).",
           "choices": ["abril", "mayo", "febrero", "junio"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
         {
-          "question": "El __________ (sunday) es el último día de la semana.",
+          "question": "El ______ (sunday) es el último día de la semana.",
           "choices": ["domingo", "sábado", "viernes", "lunes"],
           "type": "FillInTheBlanks",
-          "correctAnswer": 0
+          "correctAnswer": 1
         },
        
   
@@ -2485,6 +2485,531 @@ export const quiz = [
           {
             "left": { "word": "domingo", "rightId": 5 },
             "right": { "word": "before Friday", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+        
+      ],
+    },
+    {
+      quiz: '5',
+      name: 'Spanish Practice Test - 5',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "¿Te gusta la pizza?",
+          "choices": ["Sí, me gusta mucho", "No, no me gusta mucho", "No, no me gusta nada", "Sí, me gusta mucho pizza"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué prefieres: el chocolate o las galletas?",
+          "choices": ["Prefiero la leche", "Prefiero el chocolate", "Me gustan las galletas", "Me gusta el helado"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "A mí no me gusta _____ fútbol.",
+          "choices": ["la", "el", "los", "las"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Te gusta el cine?",
+          "choices": ["Sí, me encanta el cine", "No, no tengo tiempo", "Sí, me gusta bailar", "No, prefiero la música"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué te gusta hacer en tu tiempo libre?",
+          "choices": ["Me gusta dormir", "Me gusta leer libros", "Me gusta comer pizza", "Me gusta viajar"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "No me gusta _____ fútbol, prefiero el baloncesto.",
+          "choices": ["la", "el", "los", "las"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Te gusta más el helado de chocolate o el de vainilla?",
+          "choices": ["Me gusta más el chocolate", "Me gusta más la vainilla", "No me gusta ninguno", "Los dos me gustan"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "A mí no me gustan _____ animales pequeños.",
+          "choices": ["los", "las", "el", "la"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo llego a la estación de tren?",
+          "choices": ["Gira a la derecha y sigue todo recto", "Ve a la playa y gira a la izquierda", "Cruza la calle y gira a la derecha", "Sigue derecho hasta el parque"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Dónde está el baño?",
+          "choices": ["Está cerca del restaurante", "Está a la derecha del hotel", "Está al fondo a la izquierda", "Está en el centro de la ciudad"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Para llegar a mi casa, ¿tengo que tomar un autobús?",
+          "choices": ["No, está muy lejos", "Sí, tomas el autobús número 5", "No, está cerca caminando", "Sí, pero es mejor en tren"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Dónde queda la farmacia?",
+          "choices": ["A la derecha del cine", "Al lado de la panadería", "Frente al banco", "Detrás del hospital"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se llega a la plaza mayor?",
+          "choices": ["Caminas hasta el final y giras a la derecha", "Sigues todo recto y giras a la izquierda", "Gira a la derecha y sigue hasta el banco", "Cruza la calle y sigue recto"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Dónde está la oficina de correos?",
+          "choices": ["Está frente al supermercado", "Está a la izquierda de la biblioteca", "Está junto al parque", "Está al final de la calle"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué distancia hay hasta el museo?",
+          "choices": ["Está a 5 minutos caminando", "Está a una hora en tren", "Está a 2 kilómetros de aquí", "Está a 15 minutos en coche"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Dónde está la tienda de ropa?",
+          "choices": ["Está cerca de la estación de tren", "Está detrás de la iglesia", "Está frente al cine", "Está junto al supermercado"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿A qué hora te gustaría ver la película?",
+          "choices": ["A las 8:00", "A las 3:00", "A las 7:30", "A las 6:45"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Quieres salir conmigo el sábado?",
+          "choices": ["Sí, me encantaría", "No, estoy ocupado", "Tal vez mañana", "Sí, pero no a las 6"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuándo tenemos la reunión?",
+          "choices": ["El jueves a las 4:00", "El viernes a las 2:00", "El lunes a las 10:00", "El domingo a las 9:00"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Podemos vernos a las 5?",
+          "choices": ["Sí, está bien", "No, tengo clase", "Claro, a las 6", "Sí, pero no en mi casa"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },      
+
+
+        {
+          "question": "A mí me ______ las películas de acción.",
+          "choices": ["gustan", "les gusta", "gusta", "preferimos"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ellos ______ bailar salsa los fines de semana.",
+          "choices": ["les gusta", "les gusta", "gusta", "preferimos"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿A ti te ______ estudiar matemáticas?",
+          "choices": ["gusta", "gustan", "me gusta", "nos gusta"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nosotros ______ más el café que el té.",
+          "choices": ["preferimos", "les gusta", "gusta", "me gusta"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Me ______ mucho la pizza.",
+          "choices": ["encanta", "gustan", "gusta", "preferimos"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "A ustedes les ______ leer libros de aventura.",
+          "choices": ["gusta", "gusta", "me gustan", "preferimos"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Yo ______ mucho las vacaciones en la playa.",
+          "choices": ["me gustan", "encantan", "gusta", "preferimos"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La tienda está ______ la esquina, a la derecha.",
+          "choices": ["en", "cerca de", "por", "al lado de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tienes que caminar ______ la calle principal.",
+          "choices": ["por", "en", "cerca de", "al lado de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "El restaurante está ______ la plaza mayor.",
+          "choices": ["en", "cerca de", "por", "al lado de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo llego al cine? - Sigue ______ la calle y gira a la derecha.",
+          "choices": ["por", "por, en", "a, en", "en, a"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "El parque está ______ la escuela.",
+          "choices": ["cerca de", "por", "en", "al lado de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "El hotel está ______ la estación de tren.",
+          "choices": ["cerca de", "en", "por", "al lado de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La iglesia está ______ el museo, en la misma calle.",
+          "choices": ["al lado de", "cerca de", "por", "en"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Yo ______ una cita con el doctor a las 3 p.m.",
+          "choices": ["tengo", "tienen", "tenemos", "tienes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ellos ______ que estudiar para el examen el miércoles.",
+          "choices": ["tienen", "tengo", "tenemos", "tienes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿A qué hora ______ ustedes con el profesor?",
+          "choices": ["tienen", "tengo", "tenemos", "tienes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Yo ______ que llamar a Juan para confirmar la cita.",
+          "choices": ["tengo", "tienen", "tenemos", "tienes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nosotros ______ al cine este fin de semana.",
+          "choices": ["vamos", "van", "vamos a", "vamos por"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿______ ir al parque mañana?",
+          "choices": ["Quieres", "Quiero", "Quieren", "Queremos"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Me gusta mucho la pizza.",
+          "choices": ["Me", "gusta", "mucho", "la", "pizza"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Prefieres las películas de terror a las de comedia.",
+          "choices": ["Prefieres", "las", "películas", "de", "terror", "a", "las", "de", "comedia"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nosotros gusta mucho el helado de chocolate.",
+          "choices": ["Nosotros", "gusta", "mucho", "el", "helado", "de", "chocolate"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "¿Qué deporte te gusta mucho?",
+          "choices": ["¿Qué", "deporte", "te", "gusta", "mucho?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tú no prefieres mucho los deportes.",
+          "choices": ["Tú", "no", "prefieres", "mucho", "los", "deportes"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Yo prefiero la pasta más que las ensaladas.",
+          "choices": ["Yo", "prefiero", "la", "pasta", "más", "que", "las", "ensaladas"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "A ellos les gusta mucho viajar por Europa.",
+          "choices": ["A", "ellos", "les", "gusta", "mucho", "viajar", "por", "Europa"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Sigue dos semáforos y gira a la derecha.",
+          "choices": ["Sigue", "dos", "semáforos", "y", "gira", "a", "la", "derecha"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "La estación está cerca de la casa.",
+          "choices": ["La", "estación", "está", "cerca", "de", "la", "casa"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "¿Cómo voy al parque?",
+          "choices": ["¿Cómo", "voy", "al", "parque?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tienes que seguir esta calle todo hasta el final.",
+          "choices": ["Tienes", "que", "seguir", "esta", "calle", "todo", "hasta", "el", "final"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "¿Dónde está el baño, por favor?",
+          "choices": ["¿Dónde", "está", "el", "baño", "por", "favor?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Gira a la derecha para ir a la iglesia.",
+          "choices": ["Gira", "a", "la", "derecha", "para", "ir", "a", "la", "iglesia"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "No corras por la acera.",
+          "choices": ["No", "corras", "por", "la", "acera"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Quedamos a las tres de la tarde.",
+          "choices": ["Quedamos", "a", "las", "tres", "de", "la", "tarde"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Vamos al café mañana.",
+          "choices": ["Vamos", "al", "café", "mañana"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Vamos a comer a las tres.",
+          "choices": ["Vamos", "a", "comer", "a", "las", "tres"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "¿A qué hora quedamos para la reunión?",
+          "choices": ["¿A", "qué", "hora", "quedamos", "para", "la", "reunión?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ustedes quedamos a ir el restaurante.",
+          "choices": ["Ustedes", "quedamos", "a", "ir", "el", "restaurante"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "El sábado me vas a encontrar con ellos.",
+          "choices": ["El", "sábado", "me", "vas", "a", "encontrar", "con", "ellos"],
+          "type": "JumbledWords"
+        },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Me gusta mucho leer libros.", "rightId": 1 },
+            "right": { "word": "I don’t like eating pizza.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "No me gusta comer pizza.", "rightId": 2 },
+            "right": { "word": "I really like reading books.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Prefiero el té al café.", "rightId": 3 },
+            "right": { "word": "I hate waking up early.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Me encanta escuchar música clásica.", "rightId": 4 },
+            "right": { "word": "I prefer tea over coffee.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Odio levantarme temprano.", "rightId": 5 },
+            "right": { "word": "I love listening to classical music.", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "A ella le gusta bailar salsa.", "rightId": 1 },
+            "right": { "word": "Do you like chocolate?", "rightId": 2 }
+          },
+          {
+            "left": { "word": "¿Te gusta el chocolate?", "rightId": 2 },
+            "right": { "word": "She likes dancing salsa.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "No me importa ver películas de acción.", "rightId": 3 },
+            "right": { "word": "We like going to the movies together.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Prefiero quedarme en casa los fines de semana.	", "rightId": 4 },
+            "right": { "word": "I don’t mind watching action movies.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Nos gusta ir al cine juntos.", "rightId": 5 },
+            "right": { "word": "I prefer staying home on weekends.", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "¿Dónde está la estación de tren?", "rightId": 1 },
+            "right": { "word": "Follow straight for two blocks.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Gire a la derecha en el semáforo.", "rightId": 2 },
+            "right": { "word": "The library is next to the park.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "¿Hay un cajero automático cerca de aquí?", "rightId": 3 },
+            "right": { "word": "Turn right at the traffic light.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Siga recto por dos cuadras.", "rightId": 4 },
+            "right": { "word": "Is there an ATM near here?", "rightId": 3 }
+          },
+          {
+            "left": { "word": "La biblioteca está al lado del parque.", "rightId": 5 },
+            "right": { "word": "Where is the train station?", "rightId": 1 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "¿Cómo llego al centro comercial?", "rightId": 1 },
+            "right": { "word": "The bank is in front of the supermarket.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Tome la segunda calle a la izquierda.	", "rightId": 2 },
+            "right": { "word": "I’m looking for a cheap hotel.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "El banco está frente al supermercado.", "rightId": 3 },
+            "right": { "word": "Take the second street on the left.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "¿Cuánto tiempo se tarda en llegar al aeropuerto?", "rightId": 4 },
+            "right": { "word": "How long does it take to get to the airport?", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Estoy buscando un hotel barato.", "rightId": 5 },
+            "right": { "word": "How do I get to the shopping mall?", "rightId": 1 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "¿A qué hora nos encontramos?", "rightId": 1 },
+            "right": { "word": "Is it okay if we change the time?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "¿Tienes tiempo el viernes?", "rightId": 2 },
+            "right": { "word": "Can I call you later?", "rightId": 3 }
+          },
+          {
+            "left": { "word": "¿Puedo llamarte más tarde?", "rightId": 3 },
+            "right": { "word": "Do you have time on Friday?", "rightId": 2 }
+          },
+          {
+            "left": { "word": "¿Dónde nos vemos?", "rightId": 4 },
+            "right": { "word": "What time are we meeting?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "¿Está bien si cambiamos la hora?", "rightId": 5 },
+            "right": { "word": "Where should we meet?", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "¿Podemos reunirnos mañana?", "rightId": 1 },
+            "right": { "word": "Is three o'clock good for you?", "rightId": 2 }
+          },
+          {
+            "left": { "word": "¿Te parece bien a las tres?", "rightId": 2 },
+            "right": { "word": "Sorry, I have to cancel our meeting.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Lo siento, tengo que cancelar nuestra reunión.", "rightId": 3 },
+            "right": { "word": "Do you prefer coffee or lunch together?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Confirmaré contigo más tarde.", "rightId": 4 },
+            "right": { "word": "Can we meet tomorrow?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "¿Prefieres un café o almorzar juntos?", "rightId": 5 },
+            "right": { "word": "I’ll confirm with you later.", "rightId": 4 }
           },
          
         ],

@@ -55,13 +55,13 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Er ________ (is) mein Freund.",
+          "question": "Er ______ (is) mein Freund.",
           "choices": ["sind", "ist", "habe", "bin"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Ich ________ (have) ein Buch.",
+          "question": "Ich ______ (have) ein Buch.",
           "choices": ["haben", "habe", "bist", "sind"],
           "type": "MCQs",
           "correctAnswer": 2
@@ -2438,6 +2438,530 @@ export const quiz = [
               {
                 "left": { "word": "Juli", "rightId": 5 },
                 "right": { "word": "Saturday", "rightId": 1 }
+              },
+             
+            ],
+          },
+
+      ],
+    },
+    {
+      quiz: '5',
+      name: 'German Practice Test - 5',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "Was magst du am meisten?",
+          "choices": ["Sport", "Kochen", "Lesen", "Tanzen"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was isst du gerne?",
+          "choices": ["Pizza", "Brot", "Pasta", "Salat"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was findest du langweilig?",
+          "choices": ["Reisen", "Arbeiten", "Fernsehen", "Schlafen"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Aktivität magst du nicht?",
+          "choices": ["laufen", "schwimmen", "kochen", "putzen"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Was trinkst du am liebsten?",
+          "choices": ["Wasser", "Cola", "Tee", "Bier"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie oft gehst du ins Kino?",
+          "choices": ["jeden Monat", "jede Woche", "nie", "einmal im Jahr"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was ist dein Lieblingsessen?",
+          "choices": ["Schnitzel", "Pizza", "Currywurst", "Spaghetti"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie komme ich zum Supermarkt?",
+          "choices": ["Gehen Sie geradeaus", "Gehen Sie nach rechts", "Biegen Sie nach links ab", "Gehen Sie zum Park"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wo ist der nächste Bahnhof?",
+          "choices": ["Es ist links", "Es ist rechts", "Es ist neben dem Hotel", "Es ist gegenüber vom Park"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie komme ich zur U-Bahn?",
+          "choices": ["Gehen Sie zwei Straßen weiter", "Gehen Sie bis zum Ende der Straße", "Biegen Sie an der nächsten Ecke ab", "Gehen Sie durch den Park"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wo ist das Restaurant?",
+          "choices": ["Es ist auf der linken Seite", "Es ist hinter dem Museum", "Es ist gegenüber der Bank", "Es ist neben dem Supermarkt"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Entschuldigung, wie komme ich zum Park?",
+          "choices": ["Gehen Sie geradeaus und dann links", "Gehen Sie rechts", "Es ist auf der anderen Straßenseite", "Biegen Sie nach der Kirche ab"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Entschuldigung, ist das weit von hier?",
+          "choices": ["Ja, es ist sehr weit", "Nein, es ist in der Nähe", "Es ist auf der anderen Seite", "Es ist in der Stadtmitte"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie komme ich zum Flughafen?",
+          "choices": ["Es ist in der Nähe", "Gehen Sie bis zum Ende der Straße und dann rechts", "Biegen Sie links ab", "Fahren Sie mit dem Bus"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wann hast du Zeit, uns zu treffen?",
+          "choices": ["Morgen um 10 Uhr", "Heute Nachmittag", "Nächstes Wochenende", "In einer Stunde"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wann können wir uns sehen?",
+          "choices": ["Ich habe keine Zeit", "Morgen", "Am Freitag", "Nächsten Montag"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was machst du am Samstag?",
+          "choices": ["Ich gehe ins Kino", "Ich arbeite", "Ich gehe einkaufen", "Ich bin zu Hause"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was ist der beste Tag, um sich zu treffen?",
+          "choices": ["Samstag", "Donnerstag", "Montag",  "Freitag"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Wie oft treffen wir uns?",
+          "choices": [ "Jede Woche", "Jeden Monat", "Jedes Jahr", "Alle zwei Wochen"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was machst du morgen um 16 Uhr?",
+          "choices": ["Ich gehe schlafen","Ich habe einen Termin", "Ich lese ein Buch", "Ich bin unterwegs"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+        {
+          "question": "Ich ______ (mag / magst) gerne ins Kino gehen.",
+          "choices": ["mag", "magst", "möchte", "mögen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Du ______ (hasst/ liebst) es, Fußball zu spielen.",
+          "choices": ["liebst", "hasst", "magst", "möchtest"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir ______ (mögen/ möchten) einen Spaziergang machen.",
+          "choices": ["möchten", "mögen", "haben", "gehen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Er ______ (finde/ findet) es langweilig, zu lesen.",
+          "choices": ["findet", "finde", "möchte", "mag"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sie ______ (mögt / mögen) keinen Kaffee.",
+          "choices": ["mögt", "mögen", "mag", "lieben"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ (liebe / mag) es, zu reisen.",
+          "choices": ["liebe", "mag", "finde", "möchte"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Du ______ (magst / hasst) Schokolade, oder?",
+          "choices": ["magst", "hasst", "liebst", "möchtest"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Entschuldigung, ______ (wo/ wie) komme ich zum Bahnhof?",
+          "choices": ["wie", "wo", "wann", "wer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Gehen Sie ______ (bis/ geradeaus) der Ecke und dann links.",
+          "choices": ["geradeaus", "bis", "nach", "über"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Die Bibliothek ist ______ (neben / hinter) dem Museum.",
+          "choices": ["neben", "hinter", "vor", "zwischen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Entschuldigung, ______ (wie/ haben) Sie einen Stadtplan?",
+          "choices": ["haben", "wie", "wann", "was"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Fahren Sie ______ (geradeaus / rechts) bis zum Park.",
+          "choices": ["geradeaus", "rechts", "links", "nach"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie ______ (weit/ lange) ist es bis zur nächsten U-Bahn-Station?",
+          "choices": ["lange", "weit", "viel", "gut"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Die Bank ist ______ (direkt / rechts) von hier.",
+          "choices": ["direkt", "rechts", "neben", "gegenüber"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ (möchte / möchte) einen Termin für morgen.",
+          "choices": ["möchte", "möchten", "mag", "liebe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wann ______ (passt/ passt) es dir, uns zu treffen?",
+          "choices": ["passt", "passtest", "möchtest", "liebst"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir ______ (treffen / treffen) uns am Freitag um 14 Uhr.",
+          "choices": ["treffen", "trefften", "haben", "gehen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich habe einen ______ (Termin/ Termin) um 16 Uhr.",
+          "choices": ["Termin", "Termine", "Zeit", "Platz"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Hast du ______ (Zeit / Zeiten) am Donnerstag?",
+          "choices": ["Zeit", "Zeiten", "Tagen", "Uhr"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir ______ (sehen/ sehen) uns morgen um 18 Uhr.",
+          "choices": ["sehen", "sahen", "werden", "möchten"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },,
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Ich esse sehr gerne Pizza.",
+          "choices": ["Ich", "esse", "sehr", "gerne", "Pizza"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Magst du Schokolade nicht?",
+          "choices": ["Magst", "du", "Schokolade", "nicht"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich höre am liebsten gern Musik.",
+          "choices": ["Ich", "höre", "am", "liebsten", "gern", "Musik"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Du trinkst immer gern Wasser.",
+          "choices": ["Du", "trinkst", "immer", "gern", "Wasser"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Liebst du Pizza oder Pasta mehr?",
+          "choices": ["Liebst", "du", "Pizza", "oder", "Pasta", "mehr"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich esse oft gern Obst.",
+          "choices": ["Ich", "esse", "oft", "gern", "Obst"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Er spielt nicht gerne Fußball.",
+          "choices": ["Er", "spielt", "nicht", "gerne", "Fußball"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Geht die Straße links über.",
+          "choices": ["Geht", "die", "Straße", "links", "über"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wo ist der Bahnhof?",
+          "choices": ["Wo", "ist", "der", "Bahnhof"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Geh gerade die Straße entlang.",
+          "choices": ["Geh", "gerade", "die", "Straße", "entlang"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Du biegst dort links ab.",
+          "choices": ["Du", "biegst", "dort", "links", "ab"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wo ist der Supermarkt?",
+          "choices": ["Wo", "ist", "der", "Supermarkt"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Gehe bis zur Ecke der Straße.",
+          "choices": ["Gehe", "bis", "zur", "Ecke", "der", "Straße"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wie weit ist es zum Hotel?",
+          "choices": ["Wie", "weit", "ist", "es", "zum", "Hotel"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wir treffen uns nach dem Abendessen.",
+          "choices": ["Wir", "treffen", "uns", "nach", "dem", "Abendessen"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich habe einen Termin am Montag.",
+          "choices": ["Ich", "habe", "einen", "Termin", "am", "Montag"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wann hast du den Arzttermin?",
+          "choices": ["Wann", "hast", "du", "den", "Arzttermin"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wir treffen uns am Mittwoch um 15 Uhr.",
+          "choices": ["Wir", "treffen", "uns", "am", "Mittwoch", "um", "15", "Uhr"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Sie haben keinen Termin.",
+          "choices": ["Sie", "haben", "keinen", "Termin"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wir treffen uns um 10 Uhr nach.",
+          "choices": ["Wir", "treffen", "uns", "um", "10", "Uhr", "nach"],
+          "type": "JumbledWords"
+        },
+
+        
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "Ich esse gerne Pizza.", "rightId": 1 },
+                "right": { "word": "I prefer drinking tea to coffee.", "rightId": 3 }
+              },
+              {
+                "left": { "word": "Magst du Schokolade?", "rightId": 2 },
+                "right": { "word": "I don't like chocolate.", "rightId": 5 }
+              },
+              {
+                "left": { "word": "Ich trinke lieber Tee als Kaffee.", "rightId": 3 },
+                "right": { "word": "Do you like listening to music?", "rightId": 4 }
+              },
+              {
+                "left": { "word": "Hörst du gerne Musik?", "rightId": 4 },
+                "right": { "word": "I like to eat pizza.", "rightId": 1 }
+              },
+              {
+                "left": { "word": "Ich mag keine Schokolade.", "rightId": 5 },
+                "right": { "word": "Do you like chocolate?", "rightId": 2 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "Was isst du lieber?", "rightId": 1 },
+                "right": { "word": "I like sports.", "rightId": 5 }
+              },
+              {
+                "left": { "word": "Spielst du gerne Fußball?", "rightId": 2 },
+                "right": { "word": "Do you like ice cream?", "rightId": 3 }
+              },
+              {
+                "left": { "word": "Magst du Eis?", "rightId": 3 },
+                "right": { "word": "What do you like to drink the most?", "rightId": 4 }
+              },
+              {
+                "left": { "word": "Was trinkst du am liebsten?", "rightId": 4 },
+                "right": { "word": "What do you prefer to eat?", "rightId": 1 }
+              },
+              {
+                "left": { "word": "Ich mag Sport.", "rightId": 5 },
+                "right": { "word": "Do you like playing football?", "rightId": 2 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "Wie komme ich zum Bahnhof?", "rightId": 1 },
+                "right": { "word": "How far is it to the park?", "rightId": 5 }
+              },
+              {
+                "left": { "word": "Wo ist der Supermarkt?", "rightId": 2 },
+                "right": { "word": "Can you help me?", "rightId": 3 }
+              },
+              {
+                "left": { "word": "Können Sie mir helfen?", "rightId": 3 },
+                "right": { "word": "How do I get to the train station?", "rightId": 1 }
+              },
+              {
+                "left": { "word": "Entschuldigung, wo ist die Bank?", "rightId": 4 },
+                "right": { "word": "Where is the supermarket?", "rightId": 2 }
+              },
+              {
+                "left": { "word": "Wie weit ist es bis zum Park?", "rightId": 5 },
+                "right": { "word": "Excuse me, where is the bank?", "rightId": 4 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "Ist das Kino in der Nähe?", "rightId": 1 },
+                "right": { "word": "How do I get to the restaurant?", "rightId": 4 }
+              },
+              {
+                "left": { "word": "Welche Straße nehme ich?", "rightId": 2 },
+                "right": { "word": "Is there a parking space here?", "rightId": 3 }
+              },
+              {
+                "left": { "word": "Gibt es hier einen Parkplatz?", "rightId": 3 },
+                "right": { "word": "Is the cinema nearby?", "rightId": 1 }
+              },
+              {
+                "left": { "word": "Wie komme ich zum Restaurant?", "rightId": 4 },
+                "right": { "word": "Where is the metro", "rightId": 5 }
+              },
+              {
+                "left": { "word": "Wo ist die U-Bahn?", "rightId": 5 },
+                "right": { "word": "Which street should I take?", "rightId": 2 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "Wann treffen wir uns?", "rightId": 1 },
+                "right": { "word": "Can you make it on Friday?", "rightId": 3 }
+              },
+              {
+                "left": { "word": "Hast du morgen Zeit?", "rightId": 2 },
+                "right": { "word": "When will we meet?", "rightId": 1 }
+              },
+              {
+                "left": { "word": "Kannst du am Freitag?", "rightId": 3 },
+                "right": { "word": "Do you have time tomorrow?", "rightId": 2 }
+              },
+              {
+                "left": { "word": "Wo treffen wir uns?", "rightId": 4 },
+                "right": { "word": "Do you have a doctor's appointment?", "rightId": 5 }
+              },
+              {
+                "left": { "word": "Hast du einen Termin beim Arzt?", "rightId": 5 },
+                "right": { "word": "Where shall we meet?", "rightId": 4 }
+              },
+             
+            ],
+          },
+    
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "Wann ist der nächste freie Termin?", "rightId": 1 },
+                "right": { "word": "I don’t have time on Monday.", "rightId": 2 }
+              },
+              {
+                "left": { "word": "Ich habe keine Zeit am Montag.", "rightId": 2 },
+                "right": { "word": "When is the next free appointment?", "rightId": 1 }
+              },
+              {
+                "left": { "word": "Wollen wir ins Kino gehen?", "rightId": 3 },
+                "right": { "word": "When is the birthday?", "rightId": 5 }
+              },
+              {
+                "left": { "word": "9. Können wir später telefonieren?", "rightId": 4 },
+                "right": { "word": "Do you want to go to the cinema?", "rightId": 3 }
+              },
+              {
+                "left": { "word": "Wann ist der Geburtstag?", "rightId": 5 },
+                "right": { "word": "Can we talk later on the phone?", "rightId": 4 }
               },
              
             ],
