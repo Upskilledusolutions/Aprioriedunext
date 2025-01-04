@@ -9,247 +9,247 @@ export const quiz = [
       // 20 MCQs
 
       {
-        question: "How do you say 'my name is' in Spanish?",
-        choices: ['me llamo', 'cómo estás', 'por favor', 'gracias'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "What is the Spanish pronoun for \"I\"?",
+        "choices": ["Tú", "Nosotros", "Yo", "Ellos"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "What does 'de nada' mean?",
-        choices: ["you're welcome", 'thank you', 'goodbye', 'please'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "Which form of \"ser\" is used with \"tú\"?",
+        "choices": ["soy", "eres", "es", "somos"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "How do you say 'good afternoon' in Spanish?",
-        choices: ['buenas noches', 'buenas tardes', 'hola', 'buenos días'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What is the Spanish pronoun for \"we\"?",
+        "choices": ["Ellos", "Vosotros", "Nosotros", "Ustedes"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "What does 'sí' mean?",
-        choices: ['yes', 'no', 'please', 'thank you'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "What does \"Él es\" mean in English?",
+        "choices": ["He is", "She is", "They are", "You are"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "What is the Spanish word for 'no'?",
-        choices: ['sí', 'no', 'gracias', 'por favor'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What does \"Ella es mi amiga\" mean?",
+        "choices": ["He is my friend", "She is my friend", "They are my friends", "I am her friend"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What does 'mucho gusto' mean?",
-        choices: ['nice to meet you', 'good morning', 'good night', 'see you later'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "What is the Spanish word for \"Goodbye\"?",
+        "choices": ["Hola", "Adiós", "Gracias", "Por favor"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "How do you say 'see you later' in Spanish?",
-        choices: ['hasta luego', 'adiós', 'hola', 'gracias'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "What is the Spanish phrase for \"How are you?\" (informal)?",
+        "choices": ["¿Cómo estás?", "¿Cómo te llamas?", "¿Cómo se llama?", "¿Qué tal?"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "What does 'bienvenido' mean?",
-        choices: ['welcome', 'goodbye', 'please', 'thank you'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "Which of the following means \"Good evening\" in Spanish?",
+        "choices": ["Buenos días", "Buenas tardes", "Buenas noches", "Hola"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "How do you say 'I don’t understand' in Spanish?",
-        choices: ['no comprendo', 'me llamo', 'por favor', 'gracias'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "What does \"Yo soy\" mean?",
+        "choices": ["I am", "I like", "I have", "I want"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "What does 'hasta mañana' mean?",
-        choices: ['see you tomorrow', 'good night', 'goodbye', 'hello'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "How do you say \"I am from Mexico\" in Spanish?",
+        "choices": ["Yo soy México", "Soy de México", "Yo de México", "Estoy de México"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What does 'hola' mean in English?",
-        choices: ['goodbye', 'hello', 'thank you', 'please'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What does \"Buenos días\" mean?",
+        "choices": ["Good night", "Good morning", "Good afternoon", "Good evening"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "How do you say 'thank you' in Spanish?",
-        choices: ['gracias', 'por favor', 'adiós', 'hola'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "What is the formal way to say \"you are\" in Spanish?",
+        "choices": ["Tú eres", "Usted es", "Vosotros sois", "Nosotros somos"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What does 'por favor' mean?",
-        choices: ['please', 'thank you', 'excuse me', 'goodbye'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "What does \"Nosotros somos de España\" mean?",
+        "choices": ["We are in Spain", "We are from Spain", "We are Spanish", "We are Spain"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "How do you say 'goodbye' in Spanish?",
-        choices: ['hola', 'adiós', 'buenos días', 'gracias'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "How do you say \"My name is\" in Spanish?",
+        "choices": ["Yo soy", "Tú eres", "Me llamo", "Soy de"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "What does 'buenos días' mean?",
-        choices: ['good night', 'good morning', 'goodbye', 'thank you'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "How do you respond to \"¿Cómo te llamas?\"",
+        "choices": ["Me llamo...", "Yo soy...", "Estoy...", "Eres..."],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "How do you say 'excuse me' in Spanish?",
-        choices: ['lo siento', 'disculpe', 'gracias', 'por favor'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "Which of the following means \"See you later\" in Spanish?",
+        "choices": ["Adiós", "Hasta luego", "Buenos días", "Nos vemos"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What does 'lo siento' mean?",
-        choices: ['I’m sorry', 'thank you', 'please', 'hello'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "What is the correct response to \"¿Cómo estás?\"",
+        "choices": ["Estoy bien", "Yo soy bien", "Es bien", "Somos bien"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "How do you say 'good night' in Spanish?",
-        choices: ['buenos días', 'buenas noches', 'hola', 'gracias'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What does \"Adiós\" mean?",
+        "choices": ["Hello", "Goodbye", "Good morning", "See you"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What does '¿cómo estás?' mean?",
-        choices: ['what is your name?', 'how are you?', 'goodbye', 'where are you?'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What is the Spanish word for \"friend\"?",
+        "choices": ["Amigo", "Hermano", "Maestro", "Estudiante"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-        question: "How do you say 'I am fine' in Spanish?",
-        choices: ['estoy bien', 'estoy mal', 'gracias', 'buenas noches'],
-        type: 'MCQs',
-        correctAnswer: 1,
+        "question": "What is the Spanish word for \"teacher\"?",
+        "choices": ["Estudiante", "Profesor", "Médico", "Amigo"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       
       // 20 Fill in the Blanks
 
       {
-        question: "Hola, ¿cómo ______? (Hello, how are you?)",
-        choices: ["estas", "estás", "estoy", "eres", "somos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "______ días. (Good morning)",
+        "choices": ["Buenos", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Yo ______ bien, gracias. (I am fine, thank you.)",
-        choices: ["estoy", "eres", "somos", "estás"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "¿Cómo ______ tú? (How are you?)",
+        "choices": ["estás", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Me llamo Juan, ¿y tú ______? (My name is Juan, and you?)",
-        choices: ["como", "cómo", "tú", "yo", "cómo te llamas"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 4
+        "question": "Yo ______ estudiante. (I am a student.)",
+        "choices": ["soy", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Yo ______ de España. (I am from Spain.)",
-        choices: ["soy", "eres", "somos", "es"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Tú ______ muy amable. (You are very kind.)",
+        "choices": ["eres", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "¿______ español? (Do you speak Spanish?)",
-        choices: ["hablas", "hablo", "hablan", "hablas tú"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Él ______ profesor. (He is a teacher.)",
+        "choices": ["es", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Sí, yo ______ español. (Yes, I speak Spanish.)",
-        choices: ["hablo", "hablas", "habla", "hablamos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Ella ______ mi amiga. (She is my friend.)",
+        "choices": ["es", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Gracias, ______ luego. (Thank you, see you later.)",
-        choices: ["hasta", "adiós", "nos", "después"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "(It) ______ un día bonito.",
+        "choices": ["Es", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "______ por favor. (Water, please.)",
-        choices: ["agua", "tierra", "fuego", "aire"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Nosotros ______ contentos. (We are happy.)",
+        "choices": ["somos", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "No, ______ entiendo. (No, I don’t understand.)",
-        choices: ["no", "sí", "tal vez", "ahora"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Vosotros ______ estudiantes. (You [plural] are students.)",
+        "choices": ["sois", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "______ de dónde eres. (I know where you are from.)",
-        choices: ["se", "sé", "sabes", "sabe", "sabemos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Ellos ______ en España. (They are in Spain.)",
+        "choices": ["están", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Nosotros ______ en la playa. (We are at the beach.)",
-        choices: ["estamos", "soy", "somos", "es"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Buenas ______. (Good evening)",
+        "choices": ["noches", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Ella ______ profesora. (She is a teacher.)",
-        choices: ["es", "soy", "son", "estás"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "¿Cómo ______ usted? (How are you? [formal])",
+        "choices": ["está", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "¿Dónde ______ tú? (Where are you?)",
-        choices: ["estas", "estás", "eres", "soy", "es"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Yo ______ María. (I am María.)",
+        "choices": ["soy", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Ellos ______ en casa. (They are at home.)",
-        choices: ["estan", "están", "estás", "estamos", "soy"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Mi nombre ______ Juan. (My name is Juan.)",
+        "choices": ["es", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Nosotros ______ a la escuela. (We are going to school.)",
-        choices: ["vamos", "va", "voy", "van"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "¿De dónde ______ tú? (Where are you from?)",
+        "choices": ["eres", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "¿Cómo ______ tú? (How are you?)",
-        choices: ["estas", "estás", "es", "soy", "somos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "(I) ______ de México.",
+        "choices": ["Soy", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Yo ______ de México. (I am from Mexico.)",
-        choices: ["soy", "eres", "es", "somos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Hasta ______. (See you later.)",
+        "choices": ["luego", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Ellos ______ contentos. (They are happy.)",
-        choices: ["estan", "están", "es", "soy", "somos"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Buenas ______ noches. (Good night.)",
+        "choices": ["Buenas", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "Nosotros ______ amigos. (We are friends.)",
-        choices: ["somos", "soy", "eres", "es"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Mi hermano ______ doctor. (My brother is a doctor.)",
+        "choices": ["es", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
-        question: "______ está usted? (How are you?)",
-        choices: ["como", "cómo", "cómo", "cómo", "cómo"],
-        type: 'FillInTheBlanks',
-        correctAnswer: 1
+        "question": "Nosotros ______ en Madrid. (We are in Madrid.)",
+        "choices": ["estamos", "", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
       },
       {
         "question": "Empareja las palabras singulares y plurales.",
@@ -269,10 +269,10 @@ export const quiz = [
           },
           {
             "left": { "word": "Muchas gracias", "rightId": 4 },
-            "right": { "word": "What time is it?", "rightId": 5 }
+            "right": { "word": "I am", "rightId": 5 }
           },
           {
-            "left": { "word": "¿Qué hora es?", "rightId": 5 },
+            "left": { "word": "Yo soy", "rightId": 5 },
             "right": { "word": "Thank you very much", "rightId": 4 }
           },
           
@@ -284,24 +284,24 @@ export const quiz = [
         "pairs": [
           
           {
-            "left": { "word": "Buenas noches", "rightId": 6 },
-            "right": { "word": "I'm sorry", "rightId": 8 }
+            "left": { "word": "Encantado/a", "rightId": 6 },
+            "right": { "word": "He is", "rightId": 8 }
           },
           {
             "left": { "word": "Por favor", "rightId": 7 },
-            "right": { "word": "Good evening", "rightId": 6 }
+            "right": { "word": "Nice to meet you", "rightId": 6 }
           },
           {
-            "left": { "word": "Lo siento", "rightId": 8 },
+            "left": { "word": "Él es", "rightId": 8 },
             "right": { "word": "Please", "rightId": 7 }
           },
           {
-            "left": { "word": "¿Dónde está el baño?", "rightId": 9 },
+            "left": { "word": "Nosotros somos", "rightId": 9 },
             "right": { "word": "Good morning", "rightId": 10 }
           },
           {
             "left": { "word": "Buenos días", "rightId": 10 },
-            "right": { "word": "Where is the bathroom?", "rightId": 9 }
+            "right": { "word": "We are", "rightId": 9 }
           }
         ]
       }

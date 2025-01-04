@@ -6,272 +6,270 @@ export const quiz = [
     topic: 'Mixed',
     questions: [
       {
-        question: "What does 'bonjour' mean in English?",
-        choices: ['good night', 'hello', 'goodbye', 'good evening'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What is the French pronoun for 'I'?",
+        "choices": ["Tu", "Il", "Je", "Nous"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "How do the French say 'goodbye'?",
-        choices: ['adieu', 'à bientôt', 'au revoir', 'à demoin!'],
-        type: 'MCQs',
-        correctAnswer: 3,
+        "question": "What is the verb 'être' conjugated for 'nous'?",
+        "choices": ["êtes", "sommes", "est", "sont"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What does 'salut' mean?",
-        choices: ['farewell', 'hi', 'see you!', 'good morning'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What does 'Il est' mean?",
+        "choices": ["We are", "He is", "You are", "They are"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "What's the French for 'good evening, sir'?",
-        choices: ['bonjour, monsieur', 'bonsoir, monsieur', 'bonne nuit, monsieur', 'salut, monsieur'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What is the meaning of 'Comment ça va?'",
+        "choices": ["What is your name?", "How are you?", "Where are you from?", "What do you do?"],
+        "type": "MCQs",
+        "correctAnswer": 2
       },
       {
-        question: "How do you say 'I'm not doing very well' in French?",
-        choices: ['Je vais bien', 'Je ne vais pas très bien', 'Je ne vais pas loin', 'Je ne vais bien'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What does 'Tu es' mean?",
+        "choices": ["He is", "I am", "You are (informal)", "They are"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "What does 'comment vas-tu?' mean?",
-        choices: ["What is it that you are?", 'Where are you going?', "What is it that you are?", "How are you?"],
-        type: 'MCQs',
-        correctAnswer: 4,
+        "question": "What is the French word for 'Goodbye'?",
+        "choices": ["Salut", "Bonjour", "Au revoir", "Merci"],
+        "type": "MCQs",
+        "correctAnswer": 3
       },
       {
-        question: "How do you say 'I'm good' in French?",
-        choices: ['je ne suis pas bon', 'je vais bien', "Je me sens bien", 'je ne me sens pas bien'],
-        type: 'MCQs',
-        correctAnswer: 2,
+        "question": "What is the French word for 'Good evening'?",
+        "choices": ["Bonsoir", "Bonjour", "Bonne nuit", "Salut"],
+        "type": "MCQs",
+        "correctAnswer": 1
       },
       {
-          question: "How do you say 'good luck!' in French?",
-          choices: ['bonne chance!', 'bonne journée!', "bon retour!", 'bonne nuit'],
-          type: 'MCQs',
-          correctAnswer: 1,
-        },
-        {
-          question: "How would you say 'if you please' (or 'please') in French?",
-          choices: ['excusez-moi', "s'il vous plaît", "merci", "il n'y a pas de quoi"],
-          type: 'MCQs',
-          correctAnswer: 2,
-        },
-        {
-          question: "What does 'merci' mean?",
-          choices: ['excuse me', 'well', "thank you", 'hello'],
-          type: 'MCQs',
-          correctAnswer: 3,
-        },
-        {
-          question: "How do you say 'excuse me' in French?",
-          choices: ["il n'y a pas de quoi", 'excusez-moi', "merci", "s'il vous plaît"],
-          type: 'MCQs',
-          correctAnswer: 2,
-        },
-        {
-          question: "'Comment allez-vous?' means ...",
-          choices: ['Where are you?', 'Who are you?', "How are you?", 'Are you well?'],
-          type: 'MCQs',
-          correctAnswer: 3,
-        },
-        {
-          question: "How do you say 'nice to meet you' in French?",
-          choices: ['a bientôt', 'bienvenu', "enchanté(e)", 'de rien'],
-          type: 'MCQs',
-          correctAnswer: 3,
-        },
-        {
-          question: "What does 'très bien!' mean?",
-          choices: ['very good!', 'well, say!', "we'll see!", 'hello'],
-          type: 'MCQs',
-          correctAnswer: 1,
-        },
-        {
-          question: "How do you say 'sorry' in French?",
-          choices: ['de rien', 'excusez-moi', "désolé", 'bienvenu'],
-          type: 'MCQs',
-          correctAnswer: 3,
-        },
-        {
-          question: "How do you say 'What time is it?' in French?",
-          choices: ["Quelle heure est-il?", "Où est la montre?", "C'est quelle heure?", "Qu'est-ce que c'est l'heure?"],
-          type: 'MCQs',
-          correctAnswer: 1
-        },
-        {
-          question: "Which of the following means 'I am thirsty' in French?",
-          choices: ["J'ai faim", "Je suis soif", "J'ai soif", "Je veux boire"],
-          type: 'MCQs',
-          correctAnswer: 3
-        },
-        {
-          question: "How do you say 'I would like' in French?",
-          choices: ["je voudrais", "je veux", "j'aimerais", "j'ai besoin"],
-          type: 'MCQs',
-          correctAnswer: 1
-        },
-        {
-          question: "What is the French word for 'bread'?",
-          choices: ["pain", "fromage", "baguette", "gâteau"],
-          type: 'MCQs',
-          correctAnswer: 1
-        },
-        {
-          question: "Which of the following means 'How much does it cost?' in French?",
-          choices: ["C'est combien?", "Combien ça coûte?", "Qu'est-ce que c'est le prix?", "Quelle est le tarif?"],
-          type: 'MCQs',
-          correctAnswer: 2
-        },
+        "question": "What does 'Je suis' mean?",
+        "choices": ["You are", "I am", "He is", "They are"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'We are happy' in French?",
+        "choices": ["Nous sommes heureux", "Vous êtes heureux", "Ils sont heureux", "Je suis heureux"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Il est un étudiant' mean?",
+        "choices": ["He is a teacher", "He is a student", "He is kind", "He is my friend"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the French word for 'teacher'?",
+        "choices": ["Étudiant", "Professeur", "Médecin", "Ami"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the formal way to say 'you are' in French?",
+        "choices": ["Tu es", "Vous êtes", "Il est", "Nous sommes"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Elles sont' mean?",
+        "choices": ["They [feminine] are", "They [masculine] are", "We are", "You are"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'What is your name?' in French?",
+        "choices": ["Comment ça va?", "Comment t'appelles-tu?", "Où habites-tu?", "Qui es-tu?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Salut' mean?",
+        "choices": ["Goodbye", "Hello/Hi", "Good evening", "See you later"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the meaning of 'Bonne nuit'?",
+        "choices": ["Good morning", "Good night", "Good evening", "Goodbye"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Je suis de l'Inde' mean?",
+        "choices": ["I am from France", "I am from India", "I am from Canada", "I am from Italy"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'C’est un plaisir de vous rencontrer' mean?",
+        "choices": ["It’s a pleasure to meet you", "How are you?", "Nice to see you again", "Welcome"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the French word for 'friend' (masculine)?",
+        "choices": ["Ami", "Amie", "Professeur", "Étudiant"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the French word for 'classroom'?",
+        "choices": ["Salle de classe", "Bureau", "École", "Maison"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
        
         {
-          question: "Bella: Bonjour, ______. (Hello, Sir)",
-          choices: ["Monsieur", "mange", "a", "Mon"],
-          type: 'FillInTheBlanks',
-          correctAnswer: 1
+          "question": "Bonjour, ______ allez-vous? (Hello, how are you?)",
+          "choices": ["Comment"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
         },
         {
-          question: "Laurent: ______, Madame. (Hello, Madam)",
-          choices: ["Bonjour", "a", "mange", "vont"],
-          type: 'FillInTheBlanks',
-          correctAnswer: 1
+          "question": "Je ______ étudiant. (I am a student.)",
+          "choices": ["suis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
         },
         {
-          question: "Bella: Je m'appelle Anne, et ______ ? (My name is Anne, and you?)",
-          choices: ["vous", "faisons", "allons", "avons"],
-          type: 'FillInTheBlanks',
-          correctAnswer: 1
-        },
-       
-        {
-          question: "Laurent: ______ m'appelle Pierre. (My name is Pierre.)",
-          choices: ["Je", "mangent", "lisent", "sont"],
-          type: 'FillInTheBlanks',
-          correctAnswer: 1
+          "question": "Il ______ gentil. (He is kind.)",
+          "choices": ["est"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
         },
         {
-          question: "Bella: ______ . (Nice to meet you.)",
-          choices: ["Enchantee", "Enchantée", "fait", "mange", "vont"],
-          type: 'FillInTheBlanks',
-          correctAnswer: 1
-        },
-        
-        {
-          question: "Laurent: Je suis ______ d'anglais, et vous (I am an English teacher, and you?)",
-          choices: ["professeur", "est", "mange", "a"],
-          type:'FillInTheBlanks',
-          correctAnswer: 1
+          "question": "Nous ______ heureux aujourd'hui. (We are happy today.)",
+          "choices": ["sommes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
         },
         {
-          question: "Bella: Je suis ______ de français . (I am a French teacher.)",
-          choices: ["professeure", "faites", "lisez", "mangez"],
-          type: 'FillInTheBlanks',
-          correctAnswer: 1
+          "question": "Elles ______ mes amies. (They [feminine] are my friends.)",
+          "choices": ["sont"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
         },
         {
-            question: "Bella: Vous ______ le café. (Do you like coffee?)",
-            choices: ["aimez", "faites", "lisez", "mangez"],
-            type: 'FillInTheBlanks',
-            correctAnswer: 1
-          },          
-            {
-              question: "Laurent: J'adore le ______. (I love coffee.)",
-              choices: ["cafe", "café", "faites", "lisez", "mangez"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Bella regarde sa ______. (Bella looks at her watch.)",
-              choices: ["montre", "faites", "lisez", "mangez"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Bella: Oh, ______ -moi. J'ai une classe dans 5 minutes !. (Oh, excuse me. I have a class in 5 minutes!)",
-              choices: ["excusez", "faites", "lisez", "mangez"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Laurent: Je comprends. ______ , Madame. (I understand. Goodbye, Madam.)",
-              choices: ["Au revoir", "faites", "lisez", "mangez"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Bella: Au revoir, ______ Monsieur. (Goodbye, Sir.)",
-              choices: ["Au revoir", "faites", "lisez", "mangez"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Bella: Où habitez-______? (Where do you live?)",
-              choices: ["vous", "tu", "elle", "moi"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Laurent: ______ à Paris. (I live in Paris.)",
-              choices: ["J'habite", "dans", "sur", "chez"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Bella: Est-ce que vous ______ le français? (Do you speak French?)",
-              choices: ["parlez", "mangez", "regardez", "étudiez"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Laurent: Oui, je ______ français et anglais. (Yes, I speak French and English.)",
-              choices: ["parle", "mange", "regarde", "étudie"],
-              type: 'FillInTheBlanks',
-              correctAnswer: 1
-            },
-            {
-              question: "Bella: Vous aimez la ______ ? (Do you like France?)",
-              choices: ["France", "le café", "la ville", "la nourriture"],
-              type: "FillInTheBlanks",
-              correctAnswer: 1
-            },
-            {
-              question: "Laurent: La France est un pays ______ . (France is a beautiful country.)",
-              choices: ["beau", "grande", "riche", "pauvre"],
-              type: "FillInTheBlanks",
-              correctAnswer: 1
-            },
-            {
-              question: "Bella: J'aimerais visiter ______ . (I would like to visit Paris.)",
-              choices: ["Paris", "Rome", "Londres", "New York"],
-              type: "FillInTheBlanks",
-              correctAnswer: 1
-            },
+          "question": "Tu ______ français? (Are you French?)",
+          "choices": ["es"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ professeurs. (You [formal/plural] are teachers.)",
+          "choices": ["êtes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "On ______ dans la classe. (We are in the classroom.)",
+          "choices": ["est"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ très belle. (She is very beautiful.)",
+          "choices": ["est"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ de l'Inde. (I am from India.)",
+          "choices": ["suis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(Good morning!) ______ matin!",
+          "choices": ["Bon"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(What) ______ t’appelles-tu?",
+          "choices": ["Comment"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(Where) ______ est-ce que tu habites?",
+          "choices": ["Où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pierre et Marie ______ mes amis. (Pierre and Marie are my friends.)",
+          "choices": ["sont"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ un médecin. (He is a doctor.)",
+          "choices": ["est"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ contentes? (Are you [formal/plural] happy?)",
+          "choices": ["êtes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Au ______! (Goodbye!)",
+          "choices": ["revoir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(He is kind.) ______ est gentil.",
+          "choices": ["Il"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ de Paris. (We are from Paris.)",
+          "choices": ["sommes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C’est un plaisir de ______ rencontrer. (It’s a pleasure to meet you.)",
+          "choices": ["vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
 
       {
         "question": "Match the Words.",
         type: "MatchTheFollowing",
         "pairs": [
           {
-            "left": { "word": "hello", "rightId": 1 },
-            "right": { "word": "monsieur", "rightId": 3 }
+            "left": { "word": "bonjour", "rightId": 1 },
+            "right": { "word": "What's your name?", "rightId": 3 }
           },
           {
-            "left": { "word": "Ma'am", "rightId": 2 },
-            "right": { "word": "bonjour", "rightId": 1 }
+            "left": { "word": "tu es", "rightId": 2 },
+            "right": { "word": "good morning", "rightId": 1 }
           },
           {
-            "left": { "word": "Sir", "rightId": 3 },
-            "right": { "word": "madame", "rightId": 2 }
+            "left": { "word": "Comment t'appelles-tu?", "rightId": 3 },
+            "right": { "word": "You are", "rightId": 2 }
           },
           {
-            "left": { "word": "good-bye", "rightId": 4 },
-            "right": { "word": "enchanté", "rightId": 5 }
+            "left": { "word": "Je m'appelle", "rightId": 4 },
+            "right": { "word": "bye", "rightId": 5 }
           },
           {
-            "left": { "word": "nice to meet you", "rightId": 5 },
-            "right": { "word": "au revoir", "rightId": 4 }
+            "left": { "word": "au revoir", "rightId": 5 },
+            "right": { "word": "My name is", "rightId": 4 }
           },
          
         ],
