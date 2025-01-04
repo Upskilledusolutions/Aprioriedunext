@@ -135,8 +135,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Wie ______ du? (How are you?)",
-        "choices": ["geht", "bist", "heiße", "kommen"],
+        "question": "______ später! (See you later!)",
+        "choices": ["Bis", "bist", "heiße", "kommen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -201,8 +201,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Ich ______ Anna. (I am Anna.)",
-        "choices": ["bin", "heiße", "sind", "bist"],
+        "question": "Mein Name ______ Anna. (My name is Anna.)",
+        "choices": ["ist", "heiße", "sind", "bist"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
