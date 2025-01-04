@@ -2558,61 +2558,61 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
-          "question": "Si j'________ (avoir) de bonnes notes, j'irai dans une université prestigieuse.",
+          "question": "Si j'______ (avoir) de bonnes notes, j'irai dans une université prestigieuse.",
           "choices": ["avais", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si tu ________ (étudier) davantage, tu comprendrais mieux cette matière.",
+          "question": "Si tu ______ (étudier) davantage, tu comprendrais mieux cette matière.",
           "choices": ["étudiais", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si elle ________ (faire) un stage, elle aurait plus d'expérience.",
+          "question": "Si elle ______ (faire) un stage, elle aurait plus d'expérience.",
           "choices": ["faisait", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Nous réussirons si nous ________ (travailler) dur.",
+          "question": "Nous réussirons si nous ______ (travailler) dur.",
           "choices": ["travaillons", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si vous ________ (aller) à l'étranger, vous apprendriez beaucoup de nouvelles choses.",
+          "question": "Si vous ______ (aller) à l'étranger, vous apprendriez beaucoup de nouvelles choses.",
           "choices": ["alliez", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si je ________ (être) professeur, je serais très strict.",
+          "question": "Si je ______ (être) professeur, je serais très strict.",
           "choices": ["étais", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si on ________ (apprendre) les langues tôt, c'est plus facile.",
+          "question": "Si on ______ (apprendre) les langues tôt, c'est plus facile.",
           "choices": ["apprend", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ils ________ (obtenir) un emploi s'ils terminaient leurs études.",
+          "question": "Ils ______ (obtenir) un emploi s'ils terminaient leurs études.",
           "choices": ["obtiendraient", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si vous ________ (pouvoir) choisir, quelle carrière choisiriez-vous ?",
+          "question": "Si vous ______ (pouvoir) choisir, quelle carrière choisiriez-vous ?",
           "choices": ["pouviez", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Si elle ________ (postuler) à cette entreprise, elle serait embauchée.",
+          "question": "Si elle ______ (postuler) à cette entreprise, elle serait embauchée.",
           "choices": ["postulait", "", "", ""],
           "type": "FillInTheBlanks",
           "correctAnswer": 1

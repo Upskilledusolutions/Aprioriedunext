@@ -16,7 +16,7 @@ export const quiz = [
       },
       {
         question: "What does 'de nada' mean?",
-        choices: ['you’re welcome', 'thank you', 'goodbye', 'please'],
+        choices: ["you're welcome", 'thank you', 'goodbye', 'please'],
         type: 'MCQs',
         correctAnswer: 1,
       },
@@ -324,8 +324,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Which is the correct article for gato (cat)?",
-        "choices": ["El", "La", "Un", "Los"],
+        "question": "Which is the correct indefinite article for the word *libro* (book) in Spanish?",
+        "choices": ["Un", "Una", "Unos", "Unas"],
         "type": "MCQs",
         "correctAnswer": 1
       },
@@ -342,10 +342,10 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What is the correct article for 'manzana' (apple)?",
+        "question": "What is the correct definite article for 'manzana' (apple)?",
         "choices": ["La", "El", "Una", "Los"],
         "type": "MCQs",
-        "correctAnswer": 3
+        "correctAnswer": 1
       },
       {
         "question": "How do you say 'fifteen' in Spanish?",
