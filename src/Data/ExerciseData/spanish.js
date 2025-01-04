@@ -46,7 +46,7 @@ export const quiz = [
       },
       {
         "question": "What is the Spanish phrase for \"How are you?\" (informal)?",
-        "choices": ["¿Cómo estás?", "¿Cómo te llamas?", "¿Cómo se llama?", "¿Qué tal?"],
+        "choices": ["¿Cómo estás?", "¿Cómo te llamas?", "¿Cómo se llama?", "¿quién eres?"],
         "type": "MCQs",
         "correctAnswer": 1
       },
@@ -138,7 +138,7 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "¿Cómo ______ tú? (How are you?)",
+        "question": "¿Cómo ______? (How are you?)",
         "choices": ["estás", "", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -168,13 +168,13 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "(It) ______ un día bonito.",
+        "question": "(It is good.) ______ bueno.",
         "choices": ["Es", "", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Nosotros ______ contentos. (We are happy.)",
+        "question": "Nosotros ______ felices. (We are happy.)",
         "choices": ["somos", "", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -234,13 +234,13 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Buenas ______ noches. (Good night.)",
+        "question": "______ noches. (Good night.)",
         "choices": ["Buenas", "", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Mi hermano ______ doctor. (My brother is a doctor.)",
+        "question": "Mi hermano ______ medico. (My brother is a doctor.)",
         "choices": ["es", "", "", "", ""],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
