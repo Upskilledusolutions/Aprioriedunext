@@ -771,19 +771,19 @@ export const quiz = [
             "right": { "word": "The garden", "rightId": 8 }
           },
           {
-            "left": { "word": "Una silla", "rightId": 7 },
-            "right": { "word": "The windows", "rightId": 9 }
+            "left": { "word": "una silla", "rightId": 7 },
+            "right": { "word": "a room", "rightId": 9 }
           },
           {
             "left": { "word": "El jardín", "rightId": 8 },
-            "right": { "word": "The window", "rightId": 10 }
+            "right": { "word": "a rat", "rightId": 10 }
           },
           {
-            "left": { "word": "Las ventanas", "rightId": 9 },
+            "left": { "word": "una habitación", "rightId": 9 },
             "right": { "word": "a chair", "rightId": 7 }
           },
           {
-            "left": { "word": "La ventana", "rightId": 10 },
+            "left": { "word": "una rata", "rightId": 10 },
             "right": { "word": "The table", "rightId": 6 }
           }
         ]

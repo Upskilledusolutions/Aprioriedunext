@@ -316,8 +316,8 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What does 'les' mean in French?",
-        "choices": ["the (singular, masculine)", "the (plural, all genders)", "a (singular, feminine)", "a (singular, masculine)"],
+        "question": "Complete the sentence - _______ chat dort sur le canapé. (The cat is sleeping on the couch.)",
+        "choices": ["Un", "Le", "Des", "Du"],
         "type": "MCQs",
         "correctAnswer": 2
       },
@@ -394,10 +394,10 @@ export const quiz = [
         correctAnswer: 2,
       },
       {
-        "question": "Which of the following sentences is correct in French?",
-        "choices": ["J'ai un pommes.", "Elle a une pomme.", "Il a un pomme.", "Nous avons les pomme."],
+        "question": "Complete the sentence - ______ pomme est rouge. (The apple is red.)",
+        "choices": ["Une", "Des", "La", "Du"],
         "type": "MCQs",
-        "correctAnswer": 2
+        "correctAnswer": 3
       },
       {
         "question": "Which article is used with plural nouns in French?",
@@ -412,10 +412,10 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What is the French word for 'nine'?",
-        "choices": ["huit", "sept", "neuf", "dix"],
+        "question": "What is the correct spelling of the number '17' in French?",
+        "choices": ["Dix-sept", "Seize", "Dix-huit", "Quinze"],
         "type": "MCQs",
-        "correctAnswer": 3
+        "correctAnswer": 1
       },
       {
         "question": "How do you say 'six' in French?",
@@ -496,8 +496,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "J'ai ______ (an) idée.",
-        "choices": ["Une", "Le", "Un", "Des"],
+        "question": "C'est ______ verre. (That is a glass)",
+        "choices": ["un", "Le", "Una", "Des"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
