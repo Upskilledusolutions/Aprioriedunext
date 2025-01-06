@@ -26,7 +26,10 @@
     display: inline;
   }
 .sectioncontainer{
-    width: 80vw;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(27,27,27,255);
     height: 500px;
     position: relative;
 }
@@ -41,6 +44,9 @@
 .section,.video{
     width: 90vw;
     height: 500px;
+}
+.section{
+    width: 55vw;
 }
 .section1{
     width: 100vw;
@@ -130,5 +136,8 @@ text-align: center;
     }
     .mainheading{
         font-size: 32px;
+    }
+    .section{
+        width: 100vw;
     }
 }

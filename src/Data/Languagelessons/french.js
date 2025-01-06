@@ -148,6 +148,7 @@ export const data = [
     name:'French Lesson 19 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1kY9VAWTNj79ooJqVIs5xSe2mZA0VBF5v/preview',
+    video:'https://www.youtube.com/embed/JibuGt9QO80?si=G22SA_R4QqasIdr4',
     desc:'French Foundation Lesson 19 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 ]
