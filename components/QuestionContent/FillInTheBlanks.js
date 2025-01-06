@@ -1,132 +1,3 @@
-// import React, { useState, useRef, useEffect } from 'react';
-// import styles from '../../src/styles/quiz/quiz.module.css'; // Adjust the path as needed
-// import Keyboard from 'react-simple-keyboard';
-// import 'react-simple-keyboard/build/css/index.css';
-
-// const FillInTheBlanksComponent = ({
-//   subject,
-//   question,
-//   questionNumber,
-//   onAnswerSelected,
-//   isSubmitted,
-//   onNext,
-//   onResult,
-// }) => {
-//   const { question: sentence, choices, correctAnswer } = question;
-//   const [userInput, setUserInput] = useState('');
-//   const [keyboardVisible, setKeyboardVisible] = useState(false);
-
-//   // Ref for the input field
-//   const inputRef = useRef(null);
-
-//   // Function to handle input changes
-//   const handleChange = (e) => {
-//     setUserInput(e.target.value);
-//   };
-
-//   // Function to handle virtual keyboard input
-//   const handleKeyboardInput = (input) => {
-//     setUserInput(input);
-//   };
-
-//   // Function to handle form submission
-//   const handleSubmit = () => {
-//     const userAnswer = userInput.trim();
-//     const correctAnswerText = choices[correctAnswer - 1];
-//     const isCorrect =
-//       userInput.trim().toLowerCase() === choices[correctAnswer - 1].toLowerCase();
-
-//     // Send the user's input and the correct answer to the parent
-//     const result = {
-//       questionNumber,
-//       userAnswer,
-//       correctAnswer: correctAnswerText,
-//     };
-
-//     onAnswerSelected(userAnswer, correctAnswer);
-//     onResult(isCorrect, result); // Send the full report for this question
-
-//     setUserInput('');
-//     setTimeout(() => {
-//       onNext(); // Move to the next question after a short delay
-//     }, 1000);
-//   };
-
-//   // Focus the input field when the component is rendered
-//   useEffect(() => {
-//     if (inputRef.current) {
-//       inputRef.current.focus();
-//     }
-//   }, []);
-
-//   // Render sentence with an input field
-//   const renderSentence = sentence.split('______').map((part, index) => (
-//     <React.Fragment key={index}>
-//       {part}
-//       {index < sentence.split('______').length - 1 && (
-//         <input
-//           type="text"
-//           value={userInput}
-//           onChange={handleChange}
-//           className={styles.inputField}
-//           disabled={isSubmitted}
-//           ref={inputRef} // Attach ref to the input field
-//           onFocus={() => setKeyboardVisible(true)} // Show keyboard on focus
-//         />
-//       )}
-//     </React.Fragment>
-//   ));
-
-//   return (
-//     <div>
-//       <h2 className={styles.fillblanksentence}>{renderSentence}</h2>
-//       <button
-//         onClick={handleSubmit}
-//         className={styles.submitButton1}
-//         disabled={isSubmitted}
-//       >
-//         Submit
-//       </button>
-
-//       {keyboardVisible && (
-//         <div className={styles.keyboardContainer}>
-//           <Keyboard
-//             onChange={handleKeyboardInput}
-//             input={userInput}
-//             onKeyPress={(button) => {
-//               if (button === '{enter}') handleSubmit(); // Submit on Enter
-//               if (button === '{bksp}') setUserInput(userInput.slice(0, -1)); // Backspace
-//             }}
-//             layout={{
-//               default: [
-//                 'a z e r t y u i o p à',
-//                 'q s d f g h j k l m é',
-//                 'w x c v b n , ; : ! è ç',
-//                 '{space} {bksp} {enter}',
-//               ],
-//               shift: [
-//                 'A Z E R T Y U I O P',
-//                 'Q S D F G H J K L M',
-//                 'W X C V B N , ; : !',
-//                 '{space} {bksp} {enter}',
-//               ],
-//             }}
-//             display={{
-//               '{bksp}': '←',
-//               '{enter}': '↵',
-//               '{space}': 'Espace',
-//             }}
-//             theme="hg-theme-default"
-//           />
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default FillInTheBlanksComponent;
-
-
 import React, { useState, useRef, useEffect } from 'react';
 import styles from '../../src/styles/quiz/quiz.module.css'; // Adjust the path as needed
 import Keyboard from 'react-simple-keyboard';
@@ -339,9 +210,7 @@ const FillInTheBlanksComponent = ({
   const handleSubmit = () => {
     const userAnswer = userInput.trim();
     const correctAnswerText = choices[correctAnswer - 1];
-    const isCorrect =
-      userInput.trim().toLowerCase() === choices[correctAnswer - 1].toLowerCase();
-
+    const available = choices.filter(data => data.toLowerCase() === userInput.trim().toLowerCase())
     // Send the user's input and the correct answer to the parent
     const result = {
       questionNumber,
@@ -350,7 +219,7 @@ const FillInTheBlanksComponent = ({
     };
 
     onAnswerSelected(userAnswer, correctAnswer);
-    onResult(isCorrect, result); // Send the full report for this question
+    onResult(available, result); // Send the full report for this question
     // keyboardRef.current.clearInput()
     setUserInput('');
     if (keyboardRef.current) {

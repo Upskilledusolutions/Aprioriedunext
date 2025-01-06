@@ -2673,4 +2673,550 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '15',
+      name: 'French Exercise - 15 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which sentence is correct regarding past participle agreements?",
+          "choices": ["Ils ont mangé les pommes", "Ils ont mangées les pommes", "Ils ont mangé la pomme", "Ils ont mangés la pomme"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "In the sentence 'Elle a _____ (choisir) une robe,' which form of the verb fits?",
+          "choices": ["choisi", "choisie", "choisis", "choisies"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the past participle of 'aller' when used with 'être'?",
+          "choices": ["allé", "allée", "allés", "allées"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct past participle agreement for the sentence 'Les filles ont _____ (arriver)'?",
+          "choices": ["arrivé", "arrivée", "arrivées", "arrivés"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of the following sentences uses the correct past participle agreement?",
+          "choices": ["Il a mangées les pommes", "Il a mangé les pommes", "Il a mangé la pomme", "Il a mangée la pomme"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is correct: 'Elle a _____ (manger) la tarte'?",
+          "choices": ["mangé", "mangée", "mange", "manger"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "'Nous avons _____ (prendre) un taxi' - what is the correct form of the verb 'prendre'?",
+          "choices": ["prenez", "pris", "prisé", "prendre"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the past participle form of 'voir' in the sentence: 'Ils ont _____ (voir) un film'?",
+          "choices": ["vus", "vue", "voir", "vu"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which past participle is correct for 'partir' in: 'Elle est _____ (partir) en vacances'?",
+          "choices": ["parti", "partie", "partis", "parties"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "The correct form of past participle for 'apprendre' in 'Tu as _____ (apprendre) la langue' is:",
+          "choices": ["appris", "apprise", "apprendu", "apprena"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a ______ (manger) une pomme.",
+          "choices": ["mangé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons ______ (finir) nos devoirs.",
+          "choices": ["fini"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils sont ______ (partir) en vacances.",
+          "choices": ["partis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu as ______ (voir) ce film hier ?",
+          "choices": ["vu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a ______ (choisir) une robe rouge.",
+          "choices": ["choisie"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’ai ______ (prendre) l’avion ce matin.",
+          "choices": ["pris"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons ______ (aller) au musée.",
+          "choices": ["allé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elles sont ______ (arriver) à l'heure.",
+          "choices": ["arrivées"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous avez ______ (apprendre) le français ?",
+          "choices": ["appris"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il a ______ (lire) un livre intéressant.",
+          "choices": ["lu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Elle a mangé la pomme.", "rightId": 1 },
+              "right": { "word": "I chose an interesting book.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous sommes allés à la plage.", "rightId": 2 },
+              "right": { "word": "She ate the apple.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Les filles sont arrivées en retard.", "rightId": 3 },
+              "right": { "word": "We went to the beach.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "J’ai choisi un livre intéressant.", "rightId": 4 },
+              "right": { "word": "He took the train this morning.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il a pris le train ce matin.", "rightId": 5 },
+              "right": { "word": "The girls arrived late.", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ils ont vu le film hier soir.", "rightId": 1 },
+              "right": { "word": "You finished your homework.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Marie est partie en vacances.", "rightId": 2 },
+              "right": { "word": "The decision was made yesterday.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Vous avez fini vos devoirs.", "rightId": 3 },
+              "right": { "word": "Marie left for vacation.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Ils ont lu le livre entier. ", "rightId": 4 },
+              "right": { "word": "They saw the movie last night.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "La décision a été prise hier.", "rightId": 5 },
+              "right": { "word": "They read the whole book.", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '16',
+      name: 'French Exercise - 16 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which of the following is a formal opening in a letter?",
+          "choices": ["salut,", "bonjour,", "Monsieur/Madame,", "coucou,"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which term is used to refer to an official document in business?",
+          "choices": ["lettre privée", "contrat", "courrier électronique", "facture"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the best way to end a formal letter in French?",
+          "choices": ["Bien à vous,", "Merci,", "Salutations distinguées,", "À plus tard,"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of these terms is used in official correspondence?",
+          "choices": ["appeler", "rencontrer", "contacter", "chatter"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'Je vous prie de bien vouloir...' express?",
+          "choices": ["a request", "a greeting", "a goodbye", "an announcement"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the meaning of 'cordialement'?",
+          "choices": ["Best regards", "Respectfully yours", "Kind regards", "Yours truly"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of the following is used to make an official request in French?",
+          "choices": ["Pouvez-vous m'envoyer… ?", "Salut,", "Je suis pressé…", "Merci beaucoup,"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of these terms refers to a business transaction in French?",
+          "choices": ["activité commerciale", "rendez-vous", "correspondance", "parole"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which term is a polite way to end a formal letter in French?",
+          "choices": ["À tout de suite,", "Dans l’attente de votre réponse,", "Bonne journée,", "À bientôt,"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which phrase would you use when you want to thank someone for their attention in official correspondence?",
+          "choices": ["Merci pour votre patience", "Je vous remercie pour votre attention", "Merci de répondre rapidement", "J’attends votre réponse"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Lettre officielle: '______ Monsieur, Je vous écris pour vous informer de…'",
+          "choices": ["Cher", "Monsieur/Madame", "Salut", "Madame"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Business: 'J’aimerais ______ (discuter) de ce projet avec vous.'",
+          "choices": ["discuter", "travailler", "étudier", "réfléchir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Formal Greeting: 'Je vous ______ de bien vouloir recevoir l’expression de mes salutations distinguées.'",
+          "choices": ["prie", "souhaite", "demande", "remercie"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Letter Salutation: '______ de votre attention, je vous prie d’agréer, Monsieur/Madame, l’expression de mes salutations respectueuses.'",
+          "choices": ["Veuillez agréer", "Merci", "Je vous remercie", "Recevez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Formal Requests: '______ (souhaiter) que vous puissiez répondre rapidement à ma demande.'",
+          "choices": ["souhaiter", "préférer", "exiger", "demander"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Official Term: 'Le ______ de votre commande sera effectué dans les plus brefs délais.'",
+          "choices": ["traitement", "livraison", "paiement", "retour"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Business: 'Je vous ______ de bien vouloir trouver ci-joint le rapport demandé.'",
+          "choices": ["prie", "demande", "souhaite", "dis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Politeness in Letters: 'Je vous prie de ______ ma demande.'",
+          "choices": ["considérer", "accepter", "rejeter", "ignorer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Conclusion in Letters: 'Dans l’attente de votre ______, je vous prie d’agréer, Monsieur/Madame, l’expression de mes salutations distinguées.'",
+          "choices": ["réponse", "décision", "appel", "feedback"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Official communication: 'Nous vous ______ de nous informer de la situation actuelle.'",
+          "choices": ["prions", "remercions", "demandons", "invitons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Cordialement", "rightId": 1 },
+              "right": { "word": "I remain at your disposal", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je vous prie de bien vouloir", "rightId": 2 },
+              "right": { "word": "SBest regards", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Merci de votre compréhension", "rightId": 3 },
+              "right": { "word": "I kindly ask you", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Respectueusement vôtre", "rightId": 4 },
+              "right": { "word": "Thank you for your understanding", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Je reste à votre disposition", "rightId": 5 },
+              "right": { "word": "Respectfully yours", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "À bientôt", "rightId": 1 },
+              "right": { "word": "Awaiting your reply", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Sincèrement vôtre", "rightId": 2 },
+              "right": { "word": "Thank you for your attention", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Dans l’attente de votre réponse", "rightId": 3 },
+              "right": { "word": "Sincerely yours", "rightId": 2 }
+            },
+            {
+              "left": { "word": "En espérant une réponse rapide", "rightId": 4 },
+              "right": { "word": "See you soon", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Je vous remercie pour votre attention", "rightId": 5 },
+              "right": { "word": "Hoping for a quick response", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '17',
+      name: 'French Exercise - 17 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "What is the correct preposition for 'Paris'?",
+          "choices": ["à", "en", "du", "de"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which preposition is used to talk about going to 'Canada'?",
+          "choices": ["à", "en", "du", "de"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which preposition is used to describe traveling from 'Morocco'?",
+          "choices": ["à", "en", "du", "de"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the correct preposition for saying 'in France'?",
+          "choices": ["à", "en", "du", "de"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which preposition is used to describe going to 'Germany'?",
+          "choices": ["à", "en", "du", "de"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which preposition is used for saying 'in India'?",
+          "choices": ["à", "en", "du", "de"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is the correct preposition for 'Belgium'?",
+          "choices": ["à", "en", "du", "de"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What preposition do we use to say 'to Italy'?",
+          "choices": ["à", "en", "du", "de"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which preposition is used for 'Brazil'?",
+          "choices": ["à", "en", "du", "de"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which preposition is correct for saying 'to the United States'?",
+          "choices": ["à", "en", "aux", "de"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Les voyageurs vont ______ Paris. (to)",
+          "choices": ["à", "a"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle part ______ Inde en juin. (to)",
+          "choices": ["en"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je viens ______ Canada. (from)",
+          "choices": ["du"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il habite ______ Lyon, une belle ville. (in)",
+          "choices": ["à", "a"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous allons ______ Etats-Unis cet été. (to)",
+          "choices": ["aux"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils sont partis ______ Allemagne pour le travail. (to)",
+          "choices": ["en"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu vas ______ Maroc en vacances ? (to)",
+          "choices": ["au"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vais ______ plage ce week-end. (to)",
+          "choices": ["à", "a"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle vient ______ Brésil. (from)",
+          "choices": ["du"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous vivons ______ Paris depuis trois ans. (in)",
+          "choices": ["à", "a"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je vais à Paris cet été.", "rightId": 1 },
+              "right": { "word": "We are going to Italy for the holidays.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Elle habite en Espagne.", "rightId": 2 },
+              "right": { "word": "I am going to Paris this summer.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ils partent au Japon demain.", "rightId": 3 },
+              "right": { "word": "She lives in Spain.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Nous allons en Italie pour les vacances.", "rightId": 4 },
+              "right": { "word": "He went to Australia last year.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il est allé en Australie l'année dernière.", "rightId": 5 },
+              "right": { "word": "They are leaving for Japan tomorrow.", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je viens du Canada.", "rightId": 1 },
+              "right": { "word": "She comes from India.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Ils vivent aux Etats-Unis.", "rightId": 2 },
+              "right": { "word": "Are you going to the beach this weekend?", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Elle vient d'Inde.", "rightId": 3 },
+              "right": { "word": "They live in the United States.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Nous sommes en France pour un mois.", "rightId": 4 },
+              "right": { "word": "I come from Canada.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Tu vas à la plage ce week-end ?", "rightId": 5 },
+              "right": { "word": "We are in France for a month.", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
 ]

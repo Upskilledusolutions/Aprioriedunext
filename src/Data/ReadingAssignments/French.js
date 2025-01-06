@@ -712,4 +712,186 @@ export const data = [
       }
       ],
 },
+{
+  id:'9',
+  name:'French Reading Assignment 9 (A1)',
+  level:'Beginner',
+  Title:'',
+  readingText: "Claire regarde ce tableau magnifique dans le musée. Pierre admire cet artiste célèbre qui a créé le tableau. Amélie veut acheter ces souvenirs pour sa famille. Jean trouve cette sculpture très intéressante et unique. Ils discutent de ces œuvres d’art pendant toute la visite. Après la visite, ils vont dans ce restaurant pour dîner. Pierre commande cette spécialité locale qui est très délicieuse. Ils passent un moment agréable grâce à cette journée spéciale. \nClaire looks at this magnificent painting in the museum. Pierre admires this famous artist who created the painting. Amélie wants to buy these souvenirs for her family. Jean finds this sculpture very interesting and unique. They discuss these works of art during the entire visit. After the visit, they go to this restaurant for dinner. Pierre orders this local specialty which is very delicious. They have a pleasant time thanks to this special day.",
+  questions: [
+    {
+      "question": "Que fait Claire dans le musée ?",
+      "choices": ["Elle mange un repas.", "Elle regarde un tableau.", "Elle écrit une lettre.", "Elle écoute de la musique."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pierre admire ______ artiste célèbre.",
+      "choices": ["cet", "cette", "ces", "ce"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Amélie veut acheter ______ souvenirs pour sa famille.",
+      "choices": ["cet", "cette", "ces", "ce"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Jean trouve la sculpture très ennuyeuse.",
+      "choices": ["Vrai", "Faux"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "De quoi discutent-ils pendant la visite ?",
+      "choices": ["Des œuvres d’art", "Du restaurant", "Des sculptures", "Des souvenirs"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Associez les phrases aux bonnes personnes : Claire regarde un tableau magnifique, Amélie veut acheter des souvenirs, Pierre commande une spécialité locale.",
+      "choices": ["Claire, Amélie, Pierre", "Amélie, Pierre, Claire", "Pierre, Claire, Amélie", "Amélie, Claire, Pierre"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Traduisez en anglais : 'Ils passent un moment agréable grâce à cette journée spéciale.'",
+      "choices": [
+        "They spend an unpleasant moment due to this special day.",
+        "They have a pleasant time thanks to this special day.",
+        "They argue about the special day.",
+        "They visit a museum on a special day."
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Après la visite, ils ______ dans un restaurant.",
+      "choices": ["vont", "va", "aller", "allent"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Pierre commande ______ spécialité locale qui est très délicieuse.",
+      "choices": ["cet", "cette", "ces", "ce"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Où vont-ils après la visite ?",
+      "choices": ["Ils vont au musée.", "Ils vont au restaurant.", "Ils vont à l’hôtel.", "Ils vont au parc."],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'10',
+  name:'French Reading Assignment 10 (A1)',
+  level:'Beginner',
+  Title:'',
+  readingText: "Marie parle calmement avec Sophie dans le café du village. Paul regarde attentivement le menu avant de commander sa boisson. Sophie choisit rapidement un dessert parce qu’elle a très faim. Jacques arrive tardivement mais s’excuse poliment auprès de ses amis. Ils discutent joyeusement de leurs plans pour le week-end prochain. Marie propose d’aller lentement au parc après le repas. Paul marche prudemment car il pleut beaucoup dehors. Ils rentrent finalement chez eux, contents de leur journée ensemble.  \nMarie speaks calmly with Sophie in the village café. Paul looks attentively at the menu before ordering his drink. Sophie quickly chooses a dessert because she is very hungry. Jacques arrives late but politely apologizes to his friends. They joyfully discuss their plans for the upcoming weekend. Marie suggests going slowly to the park after the meal. Paul walks carefully because it is raining a lot outside. They finally return home, happy with their day together.",
+  questions: [
+    {
+      "question": "Que fait Marie au début de l'histoire ?",
+      "choices": ["Elle parle calmement avec Sophie.", "Elle regarde le menu.", "Elle commande une boisson.", "Elle arrive tardivement."],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Pourquoi Sophie choisit-elle rapidement un dessert ?",
+      "choices": ["Parce qu’elle a très faim.", "Parce qu’elle est pressée.", "Parce qu’elle aime les desserts.", "Parce qu’il pleut."],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Que fait Paul avant de commander ?",
+      "choices": ["Il discute avec ses amis.", "Il regarde attentivement le menu.", "Il marche prudemment.", "Il arrive tardivement."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment Jacques s’excuse-t-il auprès de ses amis ?",
+      "choices": ["Rapidement", "Calmement", "Poliment", "Joyeusement"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "De quoi discutent les amis au café ?",
+      "choices": ["De leur repas", "De leurs plans pour le week-end", "De la météo", "Du dessert de Sophie"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que propose Marie après le repas ?",
+      "choices": ["De rentrer à la maison", "D’aller lentement au parc", "De commander une boisson", "De marcher prudemment sous la pluie"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pourquoi Paul marche-t-il prudemment ?",
+      "choices": ["Parce qu’il est fatigué.", "Parce qu’il pleut beaucoup dehors.", "Parce qu’il regarde le menu.", "Parce qu’il discute avec ses amis."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment les amis rentrent-ils chez eux ?",
+      "choices": ["Fatigués", "Tristes", "Contents", "Pressés"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Où se déroule la scène principale ?",
+      "choices": ["Dans le parc", "Au café du village", "Chez Jacques", "Dans une maison"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel adjectif décrit l’attitude des amis lorsqu’ils discutent ?",
+      "choices": ["Calmement", "Joyeusement", "Lentement", "Tardivement"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'11',
+  name:'French Reading Assignment 11 (A1)',
+  level:'Beginner',
+  Title:'',
+  readingText: "Sophie adore lire des romans et aller au cinéma. Marc préfère jouer au football avec ses amis le week-end. Clara n’aime pas le chocolat noir, elle préfère le chocolat au lait. Sophie aime beaucoup les films d’aventure, mais Marc préfère les films sportifs. Clara adore essayer de nouveaux plats dans les restaurants. Marc ne mange jamais de légumes, il ne les aime pas du tout. Sophie et Clara aiment beaucoup faire du shopping ensemble. Marc préfère passer du temps à l’extérieur plutôt que de rester chez lui. Sophie et Marc discutent souvent de leurs films préférés. Clara, elle, préfère passer du temps avec ses amis à la maison. \nSophie loves reading novels and going to the cinema. Marc prefers playing football with his friends on the weekend. Clara doesn’t like dark chocolate, she prefers milk chocolate. Sophie really likes adventure films, but Marc prefers sports films. Clara loves trying new dishes in restaurants. Marc never eats vegetables, he doesn’t like them at all. Sophie and Clara really like shopping together. Marc prefers spending time outside rather than staying at home. Sophie and Marc often talk about their favorite films. Clara, on the other hand, prefers spending time with her friends at home.",
+  questions: [
+    {
+      "question": "Que préfère Sophie ?",
+      "choices": ["Jouer au football", "Lire des romans", "Manger du chocolat noir", "Rester chez elle"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qu’aime faire Marc le week-end ?",
+      "choices": ["Aller au cinéma", "Faire du shopping", "Jouer au football avec ses amis", "Regarder des films d’aventure"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel type de chocolat Clara préfère-t-elle ?",
+      "choices": ["Le chocolat noir", "Le chocolat blanc", "Le chocolat au lait", "Elle n’aime pas le chocolat"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel genre de films Sophie aime-t-elle ?",
+      "choices": ["Les films d’aventure", "Les films sportifs", "Les films romantiques", "Les films comiques"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Que fait Clara dans les restaurants ?",
+      "choices": ["Elle mange des légumes.", "Elle essaie de nouveaux plats.", "Elle regarde des films.", "Elle fait du shopping."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pourquoi Marc ne mange-t-il pas de légumes ?",
+      "choices": ["Il préfère les fruits.", "Il ne les aime pas du tout.", "Il est allergique.", "Il est végétarien."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que font Sophie et Clara ensemble ?",
+      "choices": ["Elles jouent au football.", "Elles font du shopping.", "Elles regardent des films sportifs.", "Elles cuisinent."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Où Marc préfère-t-il passer son temps ?",
+      "choices": ["À la maison", "À l’extérieur", "Au cinéma", "Avec Clara"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "De quoi Sophie et Marc discutent-ils souvent ?",
+      "choices": ["De football", "De romans", "De leurs films préférés", "De restaurants"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Que préfère faire Clara avec ses amis ?",
+      "choices": ["Aller au cinéma", "Jouer au football", "Passer du temps à la maison", "Faire du shopping"],
+      "correctAnswer": 2
+    }
+    ],
+},
 ]

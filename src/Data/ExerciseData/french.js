@@ -128,7 +128,7 @@ export const quiz = [
        
         {
           "question": "Bonjour, ______ allez-vous? (Hello, how are you?)",
-          "choices": ["Comment"],
+          "choices": ["Comment", "Commant"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
