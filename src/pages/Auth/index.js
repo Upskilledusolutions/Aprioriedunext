@@ -22,7 +22,7 @@ export default function Login() {
     { userId: 'mastertrainer4', password: 'Baum@6720!', name: '', type: 'all', "next":[] },
     { userId: 'mastertrainer5', password: 'Frere@8461#', name: '', type: 'all', "next":[] },
     { "userId": "linguafranca50", "password": "BonSoir5830", "name": "", "type": "french", "next":[] },
-    { "userId": "linguafranca53", "password": "BonSoir5829", "name": "", "type": "french", "next":[] },
+    { "userId": "linguafranca53", "password": "BonSoir5829", "name": "", "type": "french", "next":["frencha2"] },
     // { "userId": "linguafranca59", "password": "MerciBien7339", "name": "", "type": "french", "next":[] },
     { "userId": "linguafranca61", "password": "SalutTous6274", "name": "", "type": "french", "next":[] },
     { "userId": "linguafranca67", "password": "CavaBien1948", "name": "", "type": "french", "next":[] },
