@@ -122,5 +122,129 @@ export const data = [
         }
       ],
     ]
-  }
+  },
+  {
+    id:'3',
+    name:'Spanish Listening Assignment 3 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/SpanishA1/Spanish03.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "What does the shopkeeper ask the buyer when they first meet?",
+          "choices": ["¿Qué color prefieres?", "¿Puedo ayudarte?", "¿Cuánto cuesta?", "¿Qué talla buscas?"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the buyer looking for?",
+          "choices": ["Una chaqueta", "Un pantalón", "Un suéter", "Un sombrero"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What size does the buyer want?",
+          "choices": ["Talla S", "Talla M", "Talla L", "Talla XL"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What color does the buyer want for the sweater?",
+          "choices": ["Rojo", "Verde", "Azul", "Negro"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does the shopkeeper say about the color of the sweater?",
+          "choices": ["No tengo azul", "Aquí tienes un suéter azul", "Tengo suéteres en todos los colores", "¿Prefieres otro color?"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "How much does the sweater cost?",
+          "choices": ["20 euros", "25 euros", "30 euros", "40 euros"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does the buyer ask about the sweater?",
+          "choices": ["¿Es muy caro?", "¿Puedo probármelo?", "¿Es de lana?", "¿Lo tienes en otro color?"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does the shopkeeper say about the fitting room?",
+          "choices": ["El probador está allí", "El probador está cerrado", "El probador está ocupado", "El probador no está disponible"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "How does the buyer feel about the sweater after trying it on?",
+          "choices": ["No le gusta", "Le queda bien", "Es demasiado pequeño", "Es demasiado grande"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does the buyer say after deciding to buy the sweater?",
+          "choices": ["¡No lo quiero!", "¡Lo devolveré!", "¡Lo aceptaré!", "¡Lo cambiaré!"],
+          "correctAnswer": 2
+        }
+      ],
+    ]
+  },
+  {
+    id:'4',
+    name:'Spanish Listening Assignment 4 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/SpanishA1/Spanish04.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "What does '¡Hola!' mean in English?",
+          "choices": ["Goodbye", "Hello", "How are you?", "See you later"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does the phrase '¿Estás libre este fin de semana?' mean?",
+          "choices": ["Are you busy this weekend?", "Are you free this weekend?", "Do you want to go out this weekend?", "Where are you this weekend?"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the girl's response to '¿Estás libre este fin de semana?'",
+          "choices": ["No, no estoy libre.", "Sí, estoy libre el sábado.", "No sé.", "Sí, estoy libre el domingo."],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 'Me gusta ir al cine' mean in English?",
+          "choices": ["I like to go to the park.", "I like to watch movies.", "I like to go to the cinema.", "I don't like the cinema."],
+          "correctAnswer": 2
+        },
+        {
+          "question": "How does the boy respond to '¿Qué te gusta hacer?'",
+          "choices": ["Me gusta ir al cine.", "No me gusta hacer nada.", "Me gusta leer libros.", "Me gusta bailar."],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What is the boy's suggestion for the time?",
+          "choices": ["A las 9 a. m.", "A las 3 p. m.", "A las 5 p. m.", "A las 7 p. m."],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the girl's response to the proposed time?",
+          "choices": ["No, no puedo.", "Sí, perfecto.", "Tal vez.", "A las 4 p. m."],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Where do they agree to meet?",
+          "choices": ["Frente al cine.", "En el restaurante.", "En el parque.", "En mi casa."],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What time are they meeting at the cinema?",
+          "choices": ["A las 15.00 horas.", "A las 10.00 horas.", "A las 18.00 horas.", "A las 12.00 horas."],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What does '¡Nos vemos el sábado!' mean in English?",
+          "choices": ["See you on Saturday!", "See you tomorrow!", "See you at the cinema!", "See you at 3 p. m.!"],
+          "correctAnswer": 0
+        }
+      ],
+    ]
+  },
 ]

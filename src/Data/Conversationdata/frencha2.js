@@ -118,6 +118,13 @@ export const youdata = [
       title: "French Conversation 17 (A2)",
       desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
     },
+    {
+      id: '18',
+      url: "/youtube/FrCA218.png",
+      youtube: "https://www.youtube.com/embed/1Zrh41FyLVM?si=5WPJF-M7zZTXiBsj",
+      title: "French Conversation 18 (A2)",
+      desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+    },
   ];
   
   

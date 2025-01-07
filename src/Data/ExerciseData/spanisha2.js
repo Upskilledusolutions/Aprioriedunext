@@ -2457,4 +2457,808 @@ export const quiz = [
       
     ]
   },
+  {
+    quiz: '14',
+    name: 'Spanish Exercise - 14 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Cuál de estas profesiones trabaja en un hospital?",
+        "choices": ["abogado", "médico", "carpintero", "contador"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se dice 'secretary' en español?",
+        "choices": ["gerente", "ingeniero", "secretario", "obrero"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué verbo usarías para hablar formalmente con un jefe?",
+        "choices": ["tú", "usted", "nosotros", "ellos"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Completa la frase: ¿Puede ______ su identificación, por favor?",
+        "choices": ["mostrarme", "hablar", "decir", "caminar"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué opción describe mejor a un 'ingeniero'?",
+        "choices": [
+          "Trabaja en proyectos de construcción y diseño.",
+          "Ayuda a los pacientes en un hospital.",
+          "Prepara reportes financieros.",
+          "Organiza reuniones en una oficina."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué significa 'cliente'?",
+        "choices": ["client", "worker", "manager", "engineer"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Completa la frase: ¿Dónde ______ usted?",
+        "choices": ["estás", "está", "estoy", "están"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué profesión corresponde a 'cuenta dinero y prepara balances'?",
+        "choices": ["médico", "secretario", "contador", "carpintero"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué forma es correcta para un jefe hablando con sus empleados?",
+        "choices": [
+          "Tú tienes que llegar temprano.",
+          "Usted tiene que llegar temprano.",
+          "Ellos tienen que llegar temprano.",
+          "Nosotros tenemos que llegar temprano."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la forma correcta de hablar con un amigo?",
+        "choices": ["tú", "usted", "él", "ellos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Yo soy ______ (doctor). Trabajo en un hospital.",
+        "choices": ["doctor","médico","medico"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi madre es ______ (profesor). Enseña en una universidad.",
+        "choices": ["profesora"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (hablar) con tus colegas en español.",
+        "choices": ["hablas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿(Ser)______ usted el jefe de esta empresa?",
+        "choices": ["Es"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La secretaria organiza las ______ (reuniones) para el equipo.",
+        "choices": ["reuniones"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Puedes ______ (escribir) un correo a tu jefe?",
+        "choices": ["escribir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los ______ (clientes) siempre son muy educados con nosotros.",
+        "choices": ["clientes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (trabajar) como ingenieros en la empresa.",
+        "choices": ["trabajan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Me puede decir cuál es su ______ (puesto) en la empresa?",
+        "choices": ["puesto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (tener) una reunión con el gerente a las 3 PM.",
+        "choices": ["tenemos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "carpintero", "rightId": 1 },
+            "right": { "word": "company", "rightId": 3 }
+          },
+          {
+            "left": { "word": "médico", "rightId": 2 },
+            "right": { "word": "lawyer", "rightId": 4 }
+          },
+          {
+            "left": { "word": "empresa", "rightId": 3 },
+            "right": { "word": "carpenter", "rightId": 1 }
+          },
+          {
+            "left": { "word": "abogado", "rightId": 4 },
+            "right": { "word": "secretary", "rightId": 5 }
+          },
+          {
+            "left": { "word": "secretario", "rightId": 5 },
+            "right": { "word": "doctor", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "contador", "rightId": 1 },
+            "right": { "word": "manager", "rightId": 3 }
+          },
+          {
+            "left": { "word": "cliente", "rightId": 2 },
+            "right": { "word": "engineer", "rightId": 5 }
+          },
+          {
+            "left": { "word": "gerente", "rightId": 3 },
+            "right": { "word": "accountant", "rightId": 1 }
+          },
+          {
+            "left": { "word": "obrero", "rightId": 4 },
+            "right": { "word": "client", "rightId": 2 }
+          },
+          {
+            "left": { "word": "ingeniero", "rightId": 5 },
+            "right": { "word": "worker", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '15',
+    name: 'Spanish Exercise - 15 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Cuál es el significado de 'red social' en español?",
+        "choices": [
+          "Una aplicación de mensajería",
+          "Un programa de televisión",
+          "Una plataforma para compartir contenido en línea",
+          "Un sistema de navegación"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué significa 'correo electrónico'?",
+        "choices": [
+          "Un mensaje escrito en papel",
+          "Un tipo de software",
+          "Un mensaje enviado a través de internet",
+          "Una forma de videollamada"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué es una 'videollamada'?",
+        "choices": [
+          "Una llamada en persona",
+          "Una llamada a través de internet con video",
+          "Un mensaje de texto",
+          "Una llamada de audio"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué dispositivo suele tener una 'pantalla táctil'?",
+        "choices": [
+          "Un teléfono móvil",
+          "Una impresora",
+          "Una televisión vieja",
+          "Un teléfono fijo"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué hace un 'navegador web'?",
+        "choices": [
+          "Envía correos electrónicos",
+          "Ayuda a encontrar información en internet",
+          "Guarda información en la nube",
+          "Llama a otros usuarios"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la función de un 'enlace'?",
+        "choices": [
+          "Guardar un archivo",
+          "Acceder a una página web",
+          "Enviar un correo",
+          "Crear una publicación"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué significa 'actualizar' en el contexto de tecnología?",
+        "choices": [
+          "Poner en pausa un programa",
+          "Descargar un archivo de internet",
+          "Cambiar algo a la última versión disponible",
+          "Apagar un dispositivo"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué es un 'blog'?",
+        "choices": [
+          "Una red social",
+          "Un sitio web personal donde se publican artículos",
+          "Una aplicación de video",
+          "Un tipo de correo electrónico"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Para qué usamos una 'contraseña'?",
+        "choices": [
+          "Para encender el dispositivo",
+          "Para proteger la información",
+          "Para iniciar una videollamada",
+          "Para enviar un mensaje"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué significa 'aplicación móvil'?",
+        "choices": [
+          "Un tipo de navegador web",
+          "Un software para computadora de escritorio",
+          "Un programa para teléfonos móviles",
+          "Una red social"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "El ______ (ordenador, computadora) está apagado.",
+        "choices": ["ordenador"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella usa su ______ (teléfono, móvil) para enviar mensajes.",
+        "choices": ["móvil"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los ______ (conectores, cables) están enredados.",
+        "choices": ["cables"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vamos a usar ______ (porque, pero) no podemos encontrar la contraseña.",
+        "choices": ["porque"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "María necesita ______ (apagar, encender) su computadora.",
+        "choices": ["encender"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me gusta enviar mensajes ______ (aunque, ya que) a veces son largos.",
+        "choices": ["aunque"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En el ______ (correo, web) recibí un mensaje importante.",
+        "choices": ["correo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los ______ (datos, películas) de este programa son enormes.",
+        "choices": ["datos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Y, También) ______ quiero hablar con mis amigos por videollamada.",
+        "choices": ["También"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Necesito buscar información ______ (después, antes) de comenzar el trabajo.",
+        "choices": ["antes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Red social", "rightId": 1 },
+            "right": { "word": "Software for browsing online", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Correo electrónico", "rightId": 2 },
+            "right": { "word": "Call through the internet", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Videollamada", "rightId": 3 },
+            "right": { "word": "Network for sharing images", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Navegador web", "rightId": 4 },
+            "right": { "word": "Platform for text communication", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Aplicación móvil", "rightId": 5 },
+            "right": { "word": "Application for sending and receiving emails", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Enlace", "rightId": 1 },
+            "right": { "word": "Personal website with regular posts", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Pantalla táctil", "rightId": 2 },
+            "right": { "word": "Code to protect access", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Blog", "rightId": 3 },
+            "right": { "word": "URL to access a web page", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Actualizar", "rightId": 4 },
+            "right": { "word": "Feature of modern devices", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Contraseña", "rightId": 5 },
+            "right": { "word": "Change to the latest version", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '16',
+    name: 'Spanish Exercise - 16 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Cuál de las siguientes películas fue dirigida por Pedro Almodóvar?",
+        "choices": ["El Laberinto del Fauno", "La Casa de Papel", "El Secreto de Sus Ojos", "Volver"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "¿Qué tipo de medio es un periódico?",
+        "choices": ["Impreso", "Radio", "Internet", "Televisión"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Quién escribió el libro Cien años de soledad?",
+        "choices": [ "Pablo Neruda", "Gabriel García Márquez", "Isabel Allende", "Juan Rulfo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué es una serie de televisión?",
+        "choices": [ "Un tipo de película corta", "Un programa televisivo dividido en episodios", "Un libro de capítulos", "Un género de música"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué significa 'relación' en gramática?",
+        "choices": ["Un tipo de cláusula que conecta ideas", "Una conversación entre personas", "Un verbo de acción", "Un sustantivo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué es un actor?",
+        "choices": [ "Una persona que escribe libros", "Una persona que hace música", "Una persona que interpreta un personaje en una obra", "Una persona que edita películas"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cómo se llama el director de La Casa de Papel?",
+        "choices": ["Álex Pina", "Alejandro González Iñárritu", "Guillermo del Toro", "Pedro Almodóvar"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué es una novela?",
+        "choices": [ "Una película corta", "Un tipo de revista", "Una obra escrita larga de ficción", "Una noticia en el periódico"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿En qué tipo de medio se escucha música principalmente?",
+        "choices": ["Radio", "Periódico", "Libro", "Televisión"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué tipo de literatura es Don Quijote de la Mancha?",
+        "choices": [ "Ciencia ficción", "Drama", "Novela clásica", "Poesía"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "La película ______ (que/quien) vimos ayer fue muy interesante.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El libro ______ (que/quien) estoy leyendo es de Gabriel García Márquez.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Necesito saber ______ (quién/quien) llamó esta mañana.",
+        "choices": ["quién"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La noticia ______ (que/quien) escuché fue muy preocupante.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me gusta mucho el cine ______ (que/quien) muestra historias de la vida real.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El director ______ (que/quien) hizo esta película es muy famoso en España.",
+        "choices": ["quien"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El autor ______ (quien/que) escribió 'Cien años de soledad' es colombiano.",
+        "choices": ["quien"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La película ______ (que/quien) ganó el premio fue vista por millones de personas.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La novela ______ (quien/que) estamos leyendo trata sobre la guerra civil.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El periódico ______ (que/quien) me suscribí es muy popular.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Cine", "rightId": 1 },
+            "right": { "word": "Something that is heard on the radio", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Periódico", "rightId": 2 },
+            "right": { "word": "A form of written art", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Literatura", "rightId": 3 },
+            "right": { "word": "Something that is seen on television or in the cinema", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Canción", "rightId": 4 },
+            "right": { "word": "A person who directs a movie", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Director", "rightId": 5 },
+            "right": { "word": "A medium of communication that informs about current events", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Película", "rightId": 1 },
+            "right": { "word": "A person who acts in a movie", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Autor", "rightId": 2 },
+            "right": { "word": "A person who plays a role in a movie", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Actor", "rightId": 3 },
+            "right": { "word": "A production of movies or television", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Libro", "rightId": 4 },
+            "right": { "word": "A person who writes books", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Serie", "rightId": 5 },
+            "right": { "word": "A written work that has many chapters", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '17',
+    name: 'Spanish Exercise - 17 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Qué significa 'voluntario' en español?",
+        "choices": ["Volunteer", "Helper", "Citizen", "Teacher"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de estas frases está en presente?",
+        "choices": ["Está trabajando", "Estaba trabajando", "Trabajó", "Trabajará"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué es la 'igualdad'?",
+        "choices": [ "A system of unequal rights", "Equal rights for all", "A fight for rights", "The absence of justice"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de los siguientes es un ejemplo de 'trabajo social'?",
+        "choices": [ "Organizar eventos", "Voluntariado", "Hacer compras", "Enseñar en la escuela"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué forma de verbo está en futuro?",
+        "choices": [ "Ayudé", "Ayudando", "Ayudaré", "Ayudaba"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué papel tiene la 'comunidad' en la sociedad?",
+        "choices": [ "Resolver problemas individuales", "Vivir de manera independiente", "Vivir en armonía", "Decidir las leyes"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué es la 'pobreza'?",
+        "choices": [ "Tener mucho dinero", "Un tipo de comida", "Un cargo político", "La falta de necesidades básicas"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "¿Qué tenso se utiliza para expresar algo que sucede habitualmente?",
+        "choices": [ "Futuro", "Presente", "Pretérito imperfecto", "Condicional"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Las ______ son un grupo que lucha por sus derechos en la sociedad.",
+        "choices": [ "Niños", "Gente rica", "Ciudadanos", "Mujeres"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Los jóvenes deben ______ en proyectos comunitarios.",
+        "choices": [ "Ser ayudados", "Ayudar", "Ayudaron", "Ayudarían"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "La ______ (profesión) de mi hermano es médico.",
+        "choices": ["profesión","profesion"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En mi ______ (comunidad), hay muchas personas que ayudan a los demás.",
+        "choices": ["comunidad"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (trabajar) en una organización sin ánimo de lucro para resolver problemas sociales.",
+        "choices": ["trabajan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El gobierno está ______ (enfocar) su atención en la educación para mejorar la sociedad.",
+        "choices": ["enfocando"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(mujeres) ______ luchan por la igualdad en muchos países.",
+        "choices": ["Las mujeres"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los voluntarios ______ (ayudar) en situaciones de emergencia.",
+        "choices": ["ayudan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En nuestra sociedad, todos ______ (tener) derecho a la educación.",
+        "choices": ["tienen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los ______ (joven) deben ser responsables y ayudar a su comunidad.",
+        "choices": ["jóvenes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Las personas ______ (vivir) en la pobreza necesitan más apoyo.",
+        "choices": ["que viven"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El gobierno ______ (trabajar) en una campaña para mejorar la salud pública.",
+        "choices": ["trabaja"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Voluntario", "rightId": 1 },
+            "right": { "word": "Laws or strategies created to help manage social issues.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Igualdad", "rightId": 2 },
+            "right": { "word": "A system of people working together in a community.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Sociedad", "rightId": 3 },
+            "right": { "word": "A job that directly helps people in need.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Educación", "rightId": 4 },
+            "right": { "word": "The absence of enough money to meet basic needs.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Pobreza", "rightId": 5 },
+            "right": { "word": "A state of equal rights and opportunities for all.", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Trabajo social ", "rightId": 1 },
+            "right": { "word": "Laws or strategies created to help manage social issues.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Comunidad", "rightId": 2 },
+            "right": { "word": "A young person actively involved in community activities.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Política", "rightId": 3 },
+            "right": { "word": "A job that directly helps people in need.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Mujer", "rightId": 4 },
+            "right": { "word": "A group of people living in a particular area with shared values.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Joven", "rightId": 5 },
+            "right": { "word": "A woman’s fight for equal rights.", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
 ];

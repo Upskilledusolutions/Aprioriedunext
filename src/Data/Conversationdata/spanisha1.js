@@ -118,5 +118,19 @@ export const youdata = [
     title: "Spanish Conversation 17 (A1)",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },
+  {
+    id: '18',
+    url: "/youtube/SpCA18.png",
+    youtube: "https://www.youtube.com/embed/SXv1rTNjkTE?si=RF7lrBAG0JUy1u5a",
+    title: "Spanish Conversation 18 (A1)",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
+  {
+    id: '19',
+    url: "/youtube/SpCA19.png",
+    youtube: "https://www.youtube.com/embed/vC2saTank4w?si=mnkfhB2e3DYKuvmV",
+    title: "Spanish Conversation 19 (A1)",
+    desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+  },
 ];
 

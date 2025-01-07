@@ -532,4 +532,122 @@ export const data = [
               }
           ],
     },
+    {
+      id:'7',
+      name:'Spanish Reading Assignment 7 (A1)',
+      level:'Beginner',
+      Title:'',
+      readingText: "Amélie es una estudiante francesa en la India. Se llama Amélie y tiene veinte años. Rohan es su amiga india que estudia con ella. Se llama Rohan y siente una gran pasión por el francés. Luc y Julie también son sus amigos en la clase. Se llaman Luc y Julie y son muy simpáticos. Julie tiene un libro rojo para aprender francés. Juntos, están felices de estudiar y practicar el idioma. \nAmélie is a French student in India. Her name is Amélie, and she is twenty years old. Rohan is her Indian friend who studies with her. His name is Rohan, and he has a great passion for French. Luc and Julie are also their friends in the class. Their names are Luc and Julie, and they are very nice. Julie has a red book for learning French. Together, they are happy to study and practice the language.",
+      questions: [
+        {
+          "question": "¿Quién es Amélie?",
+          "choices": ["Una estudiante india", "Una estudiante francesa", "Un profesor francés", "Una amiga de Rohan"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuántos años tiene Amélie?",
+          "choices": ["18", "20", "25", "30"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se llama la amiga india de Amélie?",
+          "choices": ["Julie", "Luc", "Rohan", "Marie"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué siente Rohan por el francés?",
+          "choices": ["Aburrimiento", "Una gran pasión", "Miedo", "Confusión"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Quiénes son los otros amigos de Amélie en la clase?",
+          "choices": ["Rohan y Luc", "Luc y Julie", "Julie y Marie", "Rohan y Marie"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo son Luc y Julie?",
+          "choices": ["Tristes", "Simpáticos", "Serios", "Enfadados"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué tiene Julie para aprender francés?",
+          "choices": ["Un cuaderno", "Un libro rojo", "Un diccionario", "Un ordenador"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué están haciendo juntos Amélie, Rohan, Luc y Julie?",
+          "choices": ["Viajar por la India", "Estudiar y practicar el francés", "Comer juntos", "Ver una película"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿De qué nacionalidad es Amélie?",
+          "choices": ["India", "Española", "Francesa", "Italiana"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué idioma están estudiando y practicando?",
+          "choices": ["Alemán", "Italiano", "Francés", "Inglés"],
+          "correctAnswer": 2
+        }
+        ],
+  },
+  {
+    id:'8',
+    name:'Spanish Reading Assignment 8 (A1)',
+    level:'Beginner',
+    Title:'',
+    readingText: "Sophie encuentra un libro interesante en una biblioteca local. Marc lee el libro y comparte ideas con Julien. Julien decide comprarse una copia. Clara llega con croissants para acompañar la conversación. Los amigos hablan de la importancia de leer con regularidad. Sophie les muestra a todos una foto del libro. Marc cree que la foto es de un lugar famoso. Julien sugiere organizar una visita al lugar este verano. Los amigos acuerdan planificar el viaje. \nSophie finds an interesting book in a local library. Marc reads the book and shares ideas with Julien. Julien decides to buy a copy for himself. Clara arrives with croissants to accompany their discussion. Friends talk about the importance of reading regularly. Sophie shows everyone a photo in the book. Marc thinks the photo is of a famous place. Julien suggests organizing a visit to the place this summer. The friends agree to plan the trip.",
+    questions: [
+      {
+        "question": "¿Dónde encuentra Sophie el libro interesante?",
+        "choices": ["En una tienda", "En una biblioteca local", "En una librería", "En su casa"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Quién lee el libro después de Sophie?",
+        "choices": ["Clara", "Marc", "Julien", "Sophie"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Con quién comparte Marc las ideas del libro?",
+        "choices": ["Clara", "Julien", "Sophie", "Nadie"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué decide hacer Julien después de leer el libro?",
+        "choices": ["Comprar una copia", "Prestarlo a Sophie", "Regalarlo a Marc", "Leer otro libro"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "¿Qué lleva Clara cuando llega?",
+        "choices": ["Un café", "Croissants", "Un libro", "Una cámara"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿De qué hablan los amigos?",
+        "choices": ["De un viaje al extranjero", "De la importancia de leer con regularidad", "De la comida", "De la música"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué le muestra Sophie a los demás?",
+        "choices": ["Una foto del libro", "Una foto de la biblioteca", "Una foto de un lugar famoso", "Una foto de sus amigos"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "¿Qué cree Marc sobre la foto que ve?",
+        "choices": ["Que es de un lugar famoso", "Que es de su casa", "Que es de un museo", "Que es de un paisaje natural"],
+        "correctAnswer": 0
+      },
+      {
+        "question": "¿Qué sugiere Julien después de ver la foto?",
+        "choices": ["Organizar un picnic", "Organizar una visita al lugar este verano", "Ver otra foto", "Comprar el libro"],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué deciden hacer los amigos al final del párrafo?",
+        "choices": ["Visitar otro lugar", "Planificar un viaje", "Ir a una película", "Hacer un examen"],
+        "correctAnswer": 1
+      }
+      ],
+},
 ]
