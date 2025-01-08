@@ -128,7 +128,7 @@ export const youdata = [
   {
     id: '19',
     url: "/youtube/SpCA19.png",
-    youtube: "https://www.youtube.com/embed/vC2saTank4w?si=mnkfhB2e3DYKuvmV",
+    youtube: "https://www.youtube.com/embed/BwDgFkdHjco?si=6_d4fW5Wk1_TSlA2",
     title: "Spanish Conversation 19 (A1)",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },

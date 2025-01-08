@@ -55,5 +55,19 @@ export const data = [
     pdf:'https://drive.google.com/file/d/1kUa_9hL7IvrnIUz0vGMZuKOP7apBkqo4/preview',
     desc:'German Foundation Lesson 8 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
+{
+    id:'9',
+    name:'German Lesson 9 (A2)',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/11_UVSAn-o-BEdPBqYiAYZRpNMYKqD6fy/preview',
+    desc:'German Foundation Lesson 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'10',
+    name:'German Lesson 10 (A2)',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1_rnm46Gc5aJUwd8NxxbR07grUCzE827k/preview',
+    desc:'German Foundation Lesson 10 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
 ]
 

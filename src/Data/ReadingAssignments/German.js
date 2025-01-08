@@ -636,4 +636,122 @@ export const data = [
       }
       ],
 },
+{
+  id:'9',
+  name:'German Reading Assignment 9 (A1)',
+  level:'Beginner',
+  Title:'',
+  readingText: "Claire betrachtet dieses prächtige Gemälde im Museum. Pierre bewundert diesen berühmten Künstler, der das Gemälde geschaffen hat. Amélie möchte diese Souvenirs für ihre Familie kaufen. Jean findet diese Skulptur sehr interessant und einzigartig. Während des gesamten Besuchs diskutieren sie über diese Kunstwerke. Nach dem Besuch gehen sie zum Abendessen in dieses Restaurant. Pierre bestellt diese lokale Spezialität, die sehr lecker ist. Dank dieses besonderen Tages haben sie eine angenehme Zeit. \nClaire looks at this magnificent painting in the museum. Pierre admires this famous artist who created the painting. Amélie wants to buy these souvenirs for her family. Jean finds this sculpture very interesting and unique. They discuss these works of art during the entire visit. After the visit, they go to this restaurant for dinner. Pierre orders this local specialty which is very delicious. They have a pleasant time thanks to this special day.",
+  questions: [
+    {
+      "question": "Was betrachtet Claire im Museum?",
+      "choices": ["Eine Skulptur", "Ein Gemälde", "Ein Foto", "Ein Buch"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wer bewundert den berühmten Künstler?",
+      "choices": ["Amélie", "Jean", "Pierre", "Claire"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Was möchte Amélie für ihre Familie kaufen?",
+      "choices": ["Eine Skulptur", "Souvenirs", "Ein Buch", "Ein Gemälde"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was findet Jean sehr interessant?",
+      "choices": ["Das Gemälde", "Der Künstler", "Die Skulptur", "Die Souvenirs"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Worüber diskutieren sie während des gesamten Besuchs?",
+      "choices": ["Über das Restaurant", "Über das Mittagessen", "Über die Kunstwerke", "Über die Souvenirs"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Was machen sie nach dem Besuch des Museums?",
+      "choices": ["Sie gehen einkaufen", "Sie gehen zum Abendessen", "Sie gehen spazieren", "Sie fahren nach Hause"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was bestellt Pierre im Restaurant?",
+      "choices": ["Ein Sandwich", "Eine Suppe", "Eine lokale Spezialität", "Einen Salat"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Wie ist die lokale Spezialität, die Pierre bestellt?",
+      "choices": ["Unappetitlich", "Sehr lecker", "Scharf", "Süß"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was haben sie dank dieses besonderen Tages?",
+      "choices": ["Eine unangenehme Zeit", "Eine lange Diskussion", "Eine angenehme Zeit", "Eine anstrengende Zeit"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Wo findet der Besuch statt?",
+      "choices": ["In einem Restaurant", "In einer Galerie", "Im Museum", "In einem Park"],
+      "correctAnswer": 2
+    }
+    ],
+},
+{
+  id:'10',
+  name:'German Reading Assignment 10 (A1)',
+  level:'Beginner',
+  Title:'',
+  readingText: "Marie unterhält sich im Dorfcafé ruhig mit Sophie. Paul schaut sich aufmerksam die Speisekarte an, bevor er sein Getränk bestellt. Sophie wählt schnell ein Dessert, weil sie großen Hunger hat. Jacques kommt zu spät, entschuldigt sich aber höflich bei seinen Freunden. Freudig besprechen sie ihre Pläne für das kommende Wochenende. Marie schlägt vor, nach dem Essen langsam in den Park zu gehen. Paul geht vorsichtig, da es draußen viel regnet. Endlich kehren sie nach Hause zurück, zufrieden mit ihrem gemeinsamen Tag. \nMarie speaks calmly with Sophie in the village café. Paul looks attentively at the menu before ordering his drink. Sophie quickly chooses a dessert because she is very hungry. Jacques arrives late but politely apologizes to his friends. They joyfully discuss their plans for the upcoming weekend. Marie suggests going slowly to the park after the meal. Paul walks carefully because it is raining a lot outside. They finally return home, happy with their day together.",
+  questions: [
+    {
+      "question": "Was macht Marie im Dorfcafé?",
+      "choices": ["Sie trinkt einen Kaffee", "Sie unterhält sich mit Sophie", "Sie liest die Zeitung", "Sie isst ein Dessert"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was schaut Paul sich an, bevor er bestellt?",
+      "choices": ["Die Speisekarte", "Das Wetter draußen", "Das Menü im Restaurant", "Die Rechnung"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Warum wählt Sophie schnell ein Dessert?",
+      "choices": ["Sie hat wenig Zeit", "Sie möchte das Dessert verschenken", "Sie hat großen Hunger", "Sie mag Desserts sehr"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Was tut Jacques, als er zu spät kommt?",
+      "choices": ["Er geht direkt nach Hause", "Er entschuldigt sich höflich", "Er erklärt den Grund für seine Verspätung", "Er lacht darüber"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was besprechen die Freunde?",
+      "choices": ["Ihre Urlaubspläne", "Ihre Pläne für das kommende Wochenende", "Ihre Lieblingsrestaurants", "Die beste Zeit, um nach Hause zu gehen"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was schlägt Marie vor, nach dem Essen zu tun?",
+      "choices": ["Einen Spaziergang im Park machen", "Ein Dessert essen", "Nach Hause gehen", "Im Café bleiben"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Warum geht Paul vorsichtig?",
+      "choices": ["Weil er müde ist", "Weil es draußen regnet", "Weil er ein Geschenk tragen muss", "Weil er laufen möchte"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie fühlen sich die Freunde, als sie nach Hause zurückkehren?",
+      "choices": ["Müde und enttäuscht", "Zufrieden", "Hungrig", "Frustriert"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Welche Aktivität schlägt Marie vor, nach dem Essen zu tun?",
+      "choices": ["Einen Film schauen", "Ins Kino gehen", "In den Park gehen", "Eine weitere Runde Kaffee trinken"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Warum geht Paul vorsichtig, obwohl es regnet?",
+      "choices": ["Er möchte einen Unfall vermeiden", "Er ist krank", "Er hat Angst vor dem Regen", "Er ist in Eile"],
+      "correctAnswer": 0
+    }
+    ],
+},
 ]

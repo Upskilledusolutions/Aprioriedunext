@@ -1454,61 +1454,61 @@ export const quiz = [
 
       // 20 Fill in the Blanks
       {
-        "question": "Ich ________ (spielen) jeden Tag Fußball mit meinen Freunden.",
+        "question": "Ich ______ (spielen) jeden Tag Fußball mit meinen Freunden.",
         "choices": ["spiele", "spielen", "spielst", "spielt"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Wir ________ (wandern) gerne in den Bergen.",
+        "question": "Wir ______ (wandern) gerne in den Bergen.",
         "choices": ["wandern", "wandere", "wandert", "wanderst"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Mein Bruder ________ (kochen) sehr gut und macht oft leckere Gerichte.",
+        "question": "Mein Bruder ______ (kochen) sehr gut und macht oft leckere Gerichte.",
         "choices": ["kocht", "koche", "kochen", "kochst"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Du ________ (schwimmen) oft im Schwimmbad?",
+        "question": "Du ______ (schwimmen) oft im Schwimmbad?",
         "choices": ["schwimmst", "schwimmen", "schwimmt", "schwimme"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Maria und Paul ________ (tanzen) jedes Wochenende zusammen.",
+        "question": "Maria und Paul ______ (tanzen) jedes Wochenende zusammen.",
         "choices": ["tanzen", "tanzst", "tanze", "tanzt"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ihr ________ (lesen) Bücher über Geschichte und Kultur.",
+        "question": "Ihr ______ (lesen) Bücher über Geschichte und Kultur.",
         "choices": ["lest", "lesen", "liest", "lese"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ich ________ (singen) im Chor, weil ich Musik liebe.",
+        "question": "Ich ______ (singen) im Chor, weil ich Musik liebe.",
         "choices": ["singe", "singst", "singen", "singt"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Wir ________ (essen) oft in einem Restaurant nach der Arbeit.",
+        "question": "Wir ______ (essen) oft in einem Restaurant nach der Arbeit.",
         "choices": ["essen", "esst", "isst", "esse"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ich ________ (reiten) gern, besonders an sonnigen Tagen.",
+        "question": "Ich ______ (reiten) gern, besonders an sonnigen Tagen.",
         "choices": ["reite", "reiten", "reitest", "reitet"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ihr ________ (reparieren) Autos als Hobby.",
+        "question": "Ihr ______ (reparieren) Autos als Hobby.",
         "choices": ["repariert", "reparieren", "reparierst", "repariertest"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -1573,6 +1573,397 @@ export const quiz = [
     {
       "left": { "word": "zeichnen", "rightId": 5 },
       "right": { "word": "Playing chess", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
+  {
+    quiz: '9',
+    name: 'German Exercise - 9 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which modal verb is used to express obligation?",
+        "choices": ["können", "müssen", "dürfen", "sollen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Translate: 'I can speak German.'",
+        "choices": ["Ich muss Deutsch sprechen.", "Ich darf Deutsch sprechen.", "Ich kann Deutsch sprechen.", "Ich soll Deutsch sprechen."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'der Magen' mean?",
+        "choices": ["Stomach", "Heart", "Liver", "Lung"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'teeth' in German?",
+        "choices": ["der Mund", "die Zähne", "die Hände", "die Augen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct form of müssen for er?",
+        "choices": ["musst", "müsst", "müssen", "muss"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which of these body parts is die Nase?",
+        "choices": ["Eye", "Nose", "Ear", "Mouth"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I must go to the doctor'?",
+        "choices": ["Ich kann zum Arzt gehen.", "Ich darf zum Arzt gehen.", "Ich muss zum Arzt gehen.", "Ich soll zum Arzt gehen."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'der Rücken' mean?",
+        "choices": ["Chest", "Back", "Shoulder", "Neck"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct plural form of 'das Bein'?",
+        "choices": ["die Beine", "die Beinen", "der Beine", "den Beinen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Ich muss schlafen' mean?",
+        "choices": ["I can sleep.", "I must sleep.", "I may sleep.", "I should sleep."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+      {
+        "question": "Ich habe Kopfschmerzen. Ich ______ (müssen) zum Arzt gehen.",
+        "choices": ["müssen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ (können) viel Wasser trinken, um gesund zu bleiben.",
+        "choices": ["kannst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn du Zahnschmerzen hast, ______ (müssen) du zum Zahnarzt gehen.",
+        "choices": ["musst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (können) heute nicht joggen, weil es regnet.",
+        "choices": ["können"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Mutter ______ (müssen) jeden Tag Medikamente einnehmen.",
+        "choices": ["muss"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Patient ______ (können) seinen Arm nicht bewegen.",
+        "choices": ["kann"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (müssen) mehr schlafen, weil ich müde bin.",
+        "choices": ["muss"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Kinder ______ (können) draußen spielen, wenn das Wetter schön ist.",
+        "choices": ["können"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ (müssen) zur Arbeit gehen, obwohl er sich nicht gut fühlt.",
+        "choices": ["muss"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ (können) Deutsch sprechen, um mit dem Arzt zu kommunizieren.",
+        "choices": ["kannst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "der Kopf", "rightId": 1 },
+      "right": { "word": "Back", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "die Hand ", "rightId": 2 },
+      "right": { "word": "Stomach", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "der Rücken", "rightId": 3 },
+      "right": { "word": "Head", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "der Magen", "rightId": 4 },
+      "right": { "word": "Arm", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "der Arm", "rightId": 5 },
+      "right": { "word": "Hand", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "der Arzt", "rightId": 1 },
+      "right": { "word": "Leg", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "das Bein", "rightId": 2 },
+      "right": { "word": "Foot", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "der Fuß ", "rightId": 3 },
+      "right": { "word": "Nose", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "die Zähne", "rightId": 4 },
+      "right": { "word": "Doctor", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "die Nase", "rightId": 5 },
+      "right": { "word": "Teeth", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
+  {
+    quiz: '10',
+    name: 'German Exercise - 10 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "What does 'Es ist Viertel vor fünf' mean?",
+        "choices": ["It is 5:45", "It is 4:15", "It is 4:45", "It is 5:15"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say 'I went to the supermarket' in German?",
+        "choices": ["Ich habe ins Kino gegangen.", "Ich bin zum Supermarkt gegangen.", "Ich habe den Supermarkt gegangen.", "Ich bin ins Kino gegangen."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence is correct in the perfect tense?",
+        "choices": ["Er hat gestern gearbeitet.", "Er haben gestern gearbeitet.", "Er hat gestern arbeiteten.", "Er gearbeitet hat gestern."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Wann hast du Deutsch gelernt?' mean?",
+        "choices": ["When did you learn German?", "Why did you learn German?", "What are you learning in German?", "How did you learn German?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How would you ask someone what time it is in German?",
+        "choices": ["Was ist die Uhr?", "Was ist Uhrzeit?", "Wie viel Uhr ist es?", "Was Uhr ist jetzt?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct translation for 'We played football'?",
+        "choices": ["Wir spielen Fußball.", "Wir haben Fußball gespielt.", "Wir spielen Fußball haben.", "Wir haben gespielt Fußball."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Choose the correct form: 'He drove to Berlin yesterday.'",
+        "choices": ["Er hat gestern nach Berlin gefahren.", "Er ist gestern nach Berlin gefahren.", "Er ist gestern Berlin fahren.", "Er hat gestern Berlin gefahren."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Die Schule beginnt um acht Uhr' mean?",
+        "choices": ["School ends at 8 o'clock.", "School starts at 8 o'clock.", "The school is at 8 o'clock.", "The school ends in 8 minutes."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'We had breakfast at 7:30'?",
+        "choices": ["Wir haben um sieben Uhr dreißig gefrühstückt.", "Wir haben Frühstück gehabt um sieben Uhr dreißig.", "Wir haben sieben dreißig Frühstück gegessen.", "Wir hatten Frühstück um sieben Uhr."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a valid sentence in the perfect tense?",
+        "choices": ["Ich habe ein Buch gelesen.", "Ich lese ein Buch.", "Ich hatte ein Buch lesen.", "Ich haben gelesen ein Buch."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Es ist fünf Uhr. Ich ______ (gehen) gestern ins Kino.",
+        "choices": ["gegangen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Um wie viel Uhr ______ (haben) du heute Mittag gegessen?",
+        "choices": ["hast"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Gestern habe ______ (arbeiten) ich von 9 Uhr bis 18 Uhr.",
+        "choices": ["gearbeitet"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir haben ______ (spielen) letzte Woche Fußball.",
+        "choices": ["gespielt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie sind ______ (fahren) mit dem Zug nach München.",
+        "choices": ["gefahren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wann hast ______ (essen) du gestern Abend?",
+        "choices": ["gegessen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe ______ (lernen) Deutsch um zehn Uhr morgens.",
+        "choices": ["gelernt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Freunde haben ______ (besuchen) mich gestern um drei Uhr.",
+        "choices": ["besucht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er hat ______ (haben) um elf Uhr einen Termin beim Arzt.",
+        "choices": ["gehabt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Um wie viel Uhr seid ______ (gehen) ihr ins Bett?",
+        "choices": ["gegangen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Es ist halb drei.", "rightId": 1 },
+      "right": { "word": "I worked on Saturday.", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Ich bin um acht Uhr aufgestanden.", "rightId": 2 },
+      "right": { "word": "The train arrives at 5:00.", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Wir haben zu Mittag gegessen.", "rightId": 3 },
+      "right": { "word": "It is 2:30.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Der Zug kommt um fünf Uhr an.", "rightId": 4 },
+      "right": { "word": "We ate lunch.", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Ich habe am Samstag gearbeitet.", "rightId": 5 },
+      "right": { "word": "I woke up at 8:00.", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Er hat gestern Fußball gespielt.", "rightId": 1 },
+      "right": { "word": "When did you have breakfast?", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Wann hast du gefrühstückt?", "rightId": 2 },
+      "right": { "word": "She received a call at 10:00.", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Sie hat um zehn Uhr einen Anruf bekommen.", "rightId": 3 },
+      "right": { "word": "It is 12:15.", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Um wie viel Uhr geht die Schule los?", "rightId": 4 },
+      "right": { "word": "He played football yesterday.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Es ist Viertel nach zwölf.", "rightId": 5 },
+      "right": { "word": "At what time does school start?", "rightId": 4 }
 
     },
   ]
