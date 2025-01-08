@@ -1,43 +1,231 @@
+/* Small Bar Section */
+.smallBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Search input field */
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.searchContainer input {
+  border: 1px solid rgb(186, 186, 186);
+  padding: 10px 20px;
+  width: 30vw;
+  font-size: 14px;
+  border-radius: 50px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.searchContainer input:focus {
+  border: 1px solid #007bff;
+}
+
+/* Search icon */
+.searchIcon {
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 100%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+/* "Create New" Button */
+.createButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.createButton:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.createButton:focus {
+  outline: none;
+}
+
 .tableContainer {
-    overflow-x: auto;
-    margin-top: 20px;
-    width: 100%;
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px 2%;
+  border-radius: 8px; /* Soft rounded corners for container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, professional font */
+  color: #333; /* Dark text for readability */
+}
+
+.table th,
+.table td {
+  border: 1px solid #e0e0e0; /* Lighter borders for cleaner look */
+  padding: 12px 10px; /* Increased padding for better spacing */
+  text-align: left;
+}
+
+.table td {
+  font-size: 15px; /* Slightly larger font size for better readability */
+}
+
+.table th {
+  background-color: rgb(227, 80, 61); /* A professional blue background for headers */
+  color: white; /* White text for contrast */
+  font-weight: bold;
+  text-transform: uppercase; /* Uppercase headers for emphasis */
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternating row colors for better readability */
+}
+
+.table tr:hover {
+  background-color: #f1f1f1; /* Light hover effect for row highlight */
+}
+
+.table .editButton,
+.table .deleteButton {
+  padding: 5px 7px; /* Comfortable button size */
+  font-size: 22px; /* Slightly smaller font size for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth hover and click effects */
+  border: none;
+  outline: none;
+}
+
+.table .editButton {
+  background-color: #4caf50; /* Green for editing */
+  color: white;
+}
+
+.table .editButton:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+  transform: scale(1.05); /* Slight grow effect on hover */
+}
+
+.table .deleteButton {
+  background-color: #f44336; /* Red for delete */
+  color: white;
+}
+
+.table .deleteButton:hover {
+  background-color: #e53935; /* Slightly darker red on hover */
+  transform: scale(1.05); /* Slight grow effect on hover */
+}
+
+.table td button:focus {
+  outline: none;
+}
+
+.table td button:active {
+  transform: scale(0.98); /* Subtle shrink effect on click */
+}
+
+.formContainer {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+@media (min-width: 768px) {
+  .formGrid {
+    grid-template-columns: repeat(2, 1fr); /* Two inputs per line */
   }
-  
-  .table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  .table th,
-  .table td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-  }
-  .table td {
-    font-size: 14px;
-  }
-  
-  .table th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-  }
-  
-  .editButton {
-    color: white;
-    background-color: #4caf50;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    margin-right: 5px;
-  }
-  
-  .deleteButton {
-    color: white;
-    background-color: #f44336;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
+}
+
+.formField {
+  display: flex;
+  flex-direction: column;
+}
+
+.formField label {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.formField input,
+.formField textarea {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 90%; /* Ensure inputs take full width */
+}
+
+.smallInput {
+  max-width: 120px; /* Restrict width for small input */
+}
+
+.textareaInput {
+  height: 100px;
+  resize: vertical;
+}
+
+.fullWidth {
+  grid-column: span 2; /* Make desc take the full line */
+}
+
+.submitButton,
+.cancelButton {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.submitButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.cancelButton {
+  background-color: #f44336;
+  color: white;
+}
+
+.cancelButton:hover {
+  background-color: #e53935;
+}

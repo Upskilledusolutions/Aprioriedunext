@@ -6,11 +6,12 @@ import RightSide from '../../../components/Admin/RightSide';
 export default function Index() {
   const [selection, setSelection] = useState({ section: null, language: null });
   const [allCollections, setAllCollections] = useState([]);
+  const [formData, setFormData] = useState(null); // Manage form data for edit
+  const [showForm, setShowForm] = useState(false); // Manage form visibility
 
-  // Fetch lessons data from the API
   useEffect(() => {
     const fetchLessons = async () => {
-      if (!selection.section || !selection.language) return; // Prevent fetch if either value is null
+      if (!selection.section || !selection.language) return;
 
       try {
         const response = await fetch(`http://localhost:5000/api/${selection.section}/${selection.language}`);
@@ -22,7 +23,39 @@ export default function Index() {
     };
 
     fetchLessons();
-  }, [selection]); // Trigger useEffect only when selection changes
+  }, [selection]);
+
+  const refreshData = async () => {
+    try {
+      const response = await fetch(`http://localhost:5000/api/${selection.section}/${selection.language}`);
+      const updatedData = await response.json();
+      setAllCollections(updatedData);
+    } catch (error) {
+      console.error('Error refreshing data:', error);
+    }
+  };
+
+  const handleDelete = async (id) => {
+    try {
+      const response = await fetch(`http://localhost:5000/api/${selection.section}/${selection.language}/${id}`, {
+        method: 'DELETE',
+      });
+
+      if (!response.ok) {
+        throw new Error(`Failed to delete: ${response.statusText}`);
+      }
+
+      alert(`Item with ID ${id} deleted successfully`);
+      refreshData();
+    } catch (error) {
+      alert(`Error deleting item: ${error.message}`);
+    }
+  };
+
+  const handleEdit = (item) => {
+    setFormData(item); // Set form data for the selected item
+    setShowForm(true); // Show the form
+  };
 
   const handleLanguageSelection = (section, language) => {
     setSelection({ section, language });
@@ -34,9 +67,22 @@ export default function Index() {
       <div className={styles.container}>
         <Left onLanguageSelect={handleLanguageSelection} />
         <div className={styles.righttext}>
-          {selection.section && selection.language 
-            ? <RightSide data={allCollections}/> 
-            : 'Please select a section and language.'}
+          {selection.section && selection.language ? (
+            <RightSide
+              data={allCollections}
+              section={selection.section}
+              language={selection.language}
+              refreshData={refreshData}
+              onDelete={handleDelete}
+              onEdit={handleEdit}
+              formData={formData} // Pass form data for editing
+              setFormData={setFormData}
+              setShowForm={setShowForm} // Pass function to control form visibility
+              showForm={showForm} // Manage form visibility
+            />
+          ) : (
+            'Please select a section and language.'
+          )}
         </div>
       </div>
     </div>

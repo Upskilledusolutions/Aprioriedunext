@@ -1,59 +1,73 @@
-import React from 'react'
+import React, { useState } from 'react';
 import styles from '@/styles/RightSide.module.css';
+import SearchBar from './SearchBar';
+import CreateNewForm from './CreateNewForm';
+import Table from './Table';
 
-export default function RightSide({ data }) {
-      // Check if data is not null or undefined and contains at least one element
-  if (!data || data.length === 0) {
-    return <div>No data available</div>;
-  }
+export default function RightSide({
+  data,
+  section,
+  language,
+  refreshData,
+  onDelete,
+  onEdit,
+  formData,
+  setFormData,
+  setShowForm,
+  showForm,  // New prop to control visibility of the form
+}) {
+  let sect = section.replace(/^'|'$/g, ''); // Clean up section name
 
-    const excludeKeys = ['_id', '__v'];
+  const headings = {
+    'Lessons': ["id", "name", "level", "pdf", "video", "desc"],
+    'Conversations': ["id", "title", "url", "youtube", "desc"]
+  };
 
-    // Get the keys of the object excluding '_id' and '__v'
-    const filteredKeys = Object?.keys(data[0]).filter(key => !excludeKeys.includes(key));
-    console.log(filteredKeys)
+  const [searchTerm, setSearchTerm] = useState('');
+  const [isCreatingNew, setIsCreatingNew] = useState(false);
+
+  const handleSearch = (term) => {
+    setSearchTerm(term);
+  };
+
+  const handleCreateNew = () => {
+    setShowForm(true); // Show the form when "Create New" is clicked
+    setIsCreatingNew(true)
+    setFormData(null)
+  };
 
   return (
-    <div className={styles.tableContainer}>
-    <table className={styles.table}>
-      <thead>
-        <tr>
-        {filteredKeys.map(heading=><th>{heading}</th>)}
-        </tr>
-      </thead>
-      <tbody>
-        {data.length > 0 ? (
-          data.map((item, index) => (
-            <tr key={index}>
-              <td>{item?.id.slice(0,10)}</td>
-              <td>{item?.name.slice(0,20)}</td>
-              <td>{item?.level.slice(0,20)}</td>
-              <td>{item?.pdf.slice(0,25)}</td>
-              <td>{item?.video?.slice(0,25)}</td>
-              <td>{item?.desc.slice(0,40)}</td>
-              <td>
-                <button
-                  className={styles.editButton}
-                  onClick={() => alert(`Edit ${item.title}`)}
-                >
-                  Edit
-                </button>
-                <button
-                  className={styles.deleteButton}
-                  onClick={() => alert(`Delete ${item.title}`)}
-                >
-                  Delete
-                </button>
-              </td>
-            </tr>
-          ))
-        ) : (
-          <tr>
-            <td colSpan="4">No data available</td>
-          </tr>
-        )}
-      </tbody>
-    </table>
-  </div>
-  )
+    <div>
+      {/* Small Bar Section with Search and Create New Button */}
+      <div className={styles.smallBar}>
+        <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
+        <button className={styles.createButton} onClick={handleCreateNew}>
+          Create New
+        </button>
+      </div>
+
+      {/* Show Form if showForm is true */}
+      {showForm && (
+        <CreateNewForm
+          refreshData={refreshData}
+          section={section}
+          language={language}
+          headings={headings[sect]}
+          setShowForm={setShowForm}
+          initialData={formData} 
+          isCreatingNew={isCreatingNew}
+        />
+      )}
+
+      {/* Table Section */}
+      <Table
+        data={data}
+        section={sect}
+        headings={headings[sect]}
+        onEdit={onEdit}
+        onDelete={onDelete}
+        setIsCreatingNew={setIsCreatingNew}
+      />
+    </div>
+  );
 }
