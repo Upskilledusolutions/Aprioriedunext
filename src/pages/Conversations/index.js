@@ -21,6 +21,12 @@ export default function Index() {
       text: 'Master the language of art, culture, and diplomacy with our English exercise.',
       link: '/Conversations/EnglishConversationsA1',
     },
+    // {
+    //   type: 'englishb1',
+    //   heading: 'English Intermediate (B1)',
+    //   text: 'Master the language of art, culture, and diplomacy with our English exercise.',
+    //   link: '/Conversations/EnglishConversationsB1',
+    // },
     {
       type: 'french',
       heading: 'French Beginner (A1)',
@@ -40,6 +46,12 @@ export default function Index() {
       link: '/Conversations/FrenchConversationsB1',
     },
     {
+      type: 'frenchc1',
+      heading: 'French Advanced (C1)',
+      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+      link: '/Conversations/FrenchConversationsC1',
+    },
+    {
       type: 'german',
       heading: 'German Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Germany with this exercise.',
@@ -52,6 +64,12 @@ export default function Index() {
       link: '/Conversations/GermanConversationsA2',
     },
     {
+      type: 'germanc1',
+      heading: 'German Advanced (C1)',
+      text: 'Navigate both casual and formal language settings of Germany with this exercise.',
+      link: '/Conversations/GermanConversationsC1',
+    },
+    {
       type: 'spanish',
       heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
@@ -62,6 +80,12 @@ export default function Index() {
       heading: 'Spanish Beginner (A2)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
       link: '/Conversations/SpanishConversationsA2',
+    },
+    {
+      type: 'spanishc1',
+      heading: 'Spanish Advanced (C1)',
+      text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
+      link: '/Conversations/SpanishConversationsC1',
     },
     {
       type: 'italian',

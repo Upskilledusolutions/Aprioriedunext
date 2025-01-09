@@ -485,187 +485,187 @@ export const quiz = [
       },
       {
         "question": "What is the 3rd letter of the French alphabet?",
-        "choices": ["c", "z", "q", "p"],
+        "choices": ["c"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
         "question": "(The) ______ livre est intéressant.",
-        "choices": ["Le", "Un", "Une", "Les"],
+        "choices": ["Le"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "C'est ______ verre. (That is a glass)",
-        "choices": ["un", "Le", "Una", "Des"],
+        "choices": ["un"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Four' in French is ______.",
-        "choices": ["Quatre", "Cinq", "Six", "Trois"],
+        "choices": ["Quatre"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Six' in French is ______.",
-        "choices": ["Six", "Quatre", "Huit", "Dix"],
+        "choices": ["Six"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(The) ______ table est sur le côté.",
-        "choices": ["La", "Un", "Une", "Les"],
+        "choices": ["La"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Elle a ______ (some) chats.",
-        "choices": ["Des", "Une", "Le", "Un"],
+        "choices": ["Des"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(The) ______ voiture est rouge.",
-        "choices": ["La", "Un", "Le", "Une"],
+        "choices": ["La"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Eight' in French is ______.",
-        "choices": ["Huit", "Six", "Dix", "Quatorze"],
+        "choices": ["Huit"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Ten' in French is ______.",
-        "choices": ["Dix", "Onze", "Huit", "Vingt"],
+        "choices": ["Dix"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Five' in French is ______.",
-        "choices": ["Cinq", "Six", "Huit", "Quatre"],
+        "choices": ["Cinq"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Nine' in French is ______.",
-        "choices": ["neuf", "Dix", "Quatre", "Quatorze"],
+        "choices": ["neuf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Three' in French is ______.",
-        "choices": ["Trois", "Deux", "Un", "Quatre"],
+        "choices": ["Trois"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(The) ______ enfants jouent dans le jardin.",
-        "choices": ["Les", "Un", "Une", "Des"],
+        "choices": ["Les"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Il y a ______ (a) garçon à l'école.",
-        "choices": ["Un", "Le", "Une", "Les"],
+        "choices": ["Un"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(The) ______ pomme est verte.",
-        "choices": ["La", "Un", "Une", "Les"],
+        "choices": ["La"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The letter 'H' in French is ______ (silent or pronounced).",
-        "choices": ["Silent", "Pronounced", "Gé", "Bé"],
+        "choices": ["Silent"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Eleven' in French is ______.",
-        "choices": ["Onze", "Dix", "Quatre", "Quatorze"],
+        "choices": ["Onze"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Fourteen' in French is ______.",
-        "choices": ["Quatorze", "Onze", "Vingt", "Six"],
+        "choices": ["Quatorze"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Twenty' in French is ______.",
-        "choices": ["Vingt", "Dix", "Quinze", "Trois"],
+        "choices": ["Vingt"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The 5th letter of the French alphabet is ______.",
-        "choices": ["E", "Dix", "Quinze", "Trois"],
+        "choices": ["E"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The letter that comes before 'N' in the French alphabet is ______.",
-        "choices": ["M", "Dix", "Quinze", "Trois"],
+        "choices": ["M"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The 20th letter of the French alphabet is ______.",
-        "choices": ["T", "Dix", "Quinze", "Trois"],
+        "choices": ["T"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "In the French alphabet, the letter ______ comes after 'R'.",
-        "choices": ["S", "Dix", "Quinze", "Trois"],
+        "choices": ["S"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Nous avons ______ (an) appartement à Paris.",
-        "choices": ["Un", "Le", "Une", "Des"],
+        "choices": ["Un"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(The) ______ stylos sont sur la table.",
-        "choices": ["Les", "Un", "La", "Des"],
+        "choices": ["Les"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The letter ______ is the last consonant of the French alphabet.",
-        "choices": ["Z", "Dix", "Quinze", "Trois"],
+        "choices": ["Z"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The letter that comes after 'G' in the French alphabet is ______.",
-        "choices": ["H", "Dix", "Quinze", "Trois"],
+        "choices": ["H"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The 15th letter of the French alphabet is ______.",
-        "choices": ["O", "Dix", "Quinze", "Trois"],
+        "choices": ["O"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "In the French alphabet, the letter ______ comes before 'F'.",
-        "choices": ["E", "Dix", "Quinze", "Trois"],
+        "choices": ["E"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The 23rd letter of the French alphabet is ______.",
-        "choices": ["Vingt", "Dix", "Quinze", "Trois"],
+        "choices": ["Vingt"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -965,181 +965,181 @@ export const quiz = [
       },
       {
         "question": "(My) ______ frère est médecin.",
-        "choices": ["Mon","1","2","3"],
+        "choices": ["Mon"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Le mur ______ (white) est taché.",
-        "choices": ["blanc", "es", "est", "sommes"],
+        "choices": ["blanc"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Il y a ______ (three) pommes sur la table.",
-        "choices": ["trois", "deux", "e", "quatre"],
+        "choices": ["trois"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(Your - informal) ______ soeur est gentille.",
-        "choices": ["Ta","1","2","3"],
+        "choices": ["Ta"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "La couleur du ciel est ______ (blue).",
-        "choices": ["bleu", "vert", "rouge", "jaune"],
+        "choices": ["bleu"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(His) ______ livre est sur la table.",
-        "choices": ["Son","2","1","3"],
+        "choices": ["Son"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The number ______ (five) comes after number four.",
-        "choices": ["mangeons", "manges", "mange", "mangent"],
+        "choices": ["mangeons"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Elle a ______ (two) chats et un chien.",
-        "choices": ["deux", "e", "trois", "quatre"],
+        "choices": ["deux"],
         "type": "FillInTheBlanks",
         "correctAnswer": 2
       }, 
       {
         "question": "(Our) ______ maison est grande.",
-        "choices": ["Notre","1","2","3"],
+        "choices": ["Notre"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Je voudrais un café ______ (hot), s'il vous plaît.",
-        "choices": ["chaud", "e", "tiède", "doux"],
+        "choices": ["chaud"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Le ______ (color) de ma voiture est rouge.",
-        "choices": ["couleur", "ton", "teinte", "nuance"],
+        "choices": ["couleur"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "the number eleven comes before number ______ (twelve).",
-        "choices": ["douze", "venir", "partir", "rester"],
+        "choices": ["douze"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(Their) ______ enfants sont à l'école.",
-        "choices": ["Leurs","1","2","4"],
+        "choices": ["Leurs"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Mon frère a ______ (five) ans.",
-        "choices": ["cinq", "e", "six", "dix"],
+        "choices": ["cinq"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Cette robe est très ______ (beautiful).",
-        "choices": ["belle", "jolie", "beau", "ravissante"],
+        "choices": ["belle"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "J'______ (to have) un examen demain.",
-        "choices": ["ai", "as", "a", "avons"],
+        "choices": ["ai"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(Your - formal/plural) ______ voiture est très rapide.",
-        "choices": ["Votre","1","2","3"],
+        "choices": ["Votre"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(My) ______ amis viennent ce soir.",
-        "choices": ["Mes","1","2","3"],
+        "choices": ["Mes"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Le ______ (weather) aujourd'hui est ensoleillé.",
-        "choices": ["temps", "climat", "météo", "saison"],
+        "choices": ["temps"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "La terre paraît ______ (blue) depuis l'espace.",
-        "choices": ["bleue", "lisez", "lit", "lire"],
+        "choices": ["bleue"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(Her) ______ chien est très mignon.",
-        "choices": ["Son","1","2","3"],
+        "choices": ["Son"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Il fait ______ (cold) en hiver.",
-        "choices": ["froid", "e", "tiède", "frais"],
+        "choices": ["froid"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Où lis-tu un ______ (book) ?",
-        "choices": ["livre", "parle", "parlons", "parles"],
+        "choices": ["livre"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "La ______ (dog) de Marie est très amicale.",
-        "choices": ["chien", "1", "animal", "bête"],
+        "choices": ["chien"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(Your - informal) ______ parents sont très gentils.",
-        "choices": ["Tes","1","2","3"],
+        "choices": ["Tes"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(Their) ______ appartement est joli.",
-        "choices": ["Leur","1","2","3"],
+        "choices": ["Leur"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Je préfère le ______ (green) aux autres couleurs.",
-        "choices": ["vert", "bleu", "e", "jaune"],
+        "choices": ["vert"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Elle a acheté ______ (ten) pommes au marché.",
-        "choices": ["dix", "neuf", "e", "sept"],
+        "choices": ["dix"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Mon anniversaire est le ______ (twentieth) mars.",
-        "choices": ["vingtieme", "vingtième", "e", "trentième", "quinzième"],
+        "choices": ["vingtieme"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Il est ______ (tired) après une longue journée de travail.",
-        "choices": ["fatigue", "fatigué", "content", "énergique", "calme"],
+        "choices": ["fatigue"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1378,121 +1378,121 @@ export const quiz = [
      
       {
         "question": "Mon ______ (father) travaille à Paris.",
-        "choices": ["pere", "père", "frère", "oncle", "ami"],
+        "choices": ["pere"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ma ______-mère (grandmother) habite avec nous.",
-        "choices": ["grand", "tante", "mère", "sœur"],
+        "choices": ["grand"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ils ont un ______ (son) et une fille.",
-        "choices": ["fils", "père", "frère", "neveu"],
+        "choices": ["fils"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Je vais rendre visite à ma ______ (aunt) ce week-end.",
-        "choices": ["tante", "cousine", "mère", "sœur"],
+        "choices": ["tante"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Tu ______ (to eat) toujours des fruits le matin.",
-        "choices": ["manges", "bois", "lis", "écris"],
+        "choices": ["manges"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Nous ______ (to go) à l'école ensemble.",
-        "choices": ["allons", "partons", "courons", "venons"],
+        "choices": ["allons"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Elle ______ (to read) un bon livre en ce moment.",
-        "choices": ["lit", "parle", "écrit", "dessine"],
+        "choices": ["lit"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Vous ______ (to speak) français très bien.",
-        "choices": ["parlez", "comprenez", "lisez", "écoutez"],
+        "choices": ["parlez"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ils ______ (to finish) leurs devoirs maintenant.",
-        "choices": ["finissent", "commencent", "lisent", "mangent"],
+        "choices": ["finissent"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Je ______ (to drink) du café tous les matins.",
-        "choices": ["bois", "mange", "parle", "cours"],
+        "choices": ["bois"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(I) ______ suis étudiant en français.",
-        "choices": ["Je", "Il", "Elle", "Nous"],
+        "choices": ["Je"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(We - feminine) ______ sommes heureuses d’être ici.",
-        "choices": ["Nous", "Elles", "Vous", "Ils"],
+        "choices": ["Nous"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(She) ______ est toujours en avance.",
-        "choices": ["Elle", "Il", "Je", "Nous"],
+        "choices": ["Elle"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(They - masculine) ______ jouent au football.",
-        "choices": ["Ils", "Nous", "Elles", "Vous"],
+        "choices": ["Ils"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(You - informal) ______ es très intelligent.",
-        "choices": ["Tu", "Vous", "Elle", "Il"],
+        "choices": ["Tu"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(You - formal, singular) ______ êtes professeur de français.",
-        "choices": ["Vous", "Tu", "Elle", "Nous"],
+        "choices": ["Vous"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(They - feminine) ______ aiment voyager.",
-        "choices": ["Elles", "Ils", "Nous", "Vous"],
+        "choices": ["Elles"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(You all - informal) ______ regardez la télévision ensemble.",
-        "choices": ["Vous", "Nous", "Elles", "Ils"],
+        "choices": ["Vous"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(He) ______ habite en France depuis trois ans.",
-        "choices": ["Il", "Elle", "Nous", "Vous"],
+        "choices": ["Il"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(We) ______ parlons anglais et français.",
-        "choices": ["Nous", "Ils", "Vous", "Elles"],
+        "choices": ["Nous"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1739,181 +1739,181 @@ export const quiz = [
      
       {
         "question": "Le ______ (uncle) de Marie vit à Paris.",
-        "choices": ["oncle", "cousin", "frère", "père"],
+        "choices": ["oncle"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: Je voudrais ______ pain, s'il vous plaît. (I would like some bread, please.)",
-        "choices": ["du", "de la", "des"],
+        "choices": ["du"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "La ______ (aunt) de Paul travaille à l'hôpital.",
-        "choices": ["tante", "mère", "sœur", "cousine"],
+        "choices": ["tante"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Mon ______ (nephew) est très intelligent.",
-        "choices": ["neveu", "cousin", "fils", "frère"],
+        "choices": ["neveu"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Mes ______-parents (grandparents) habitent à la campagne.",
-        "choices": ["grands", "oncles", "parents", "cousins"],
+        "choices": ["grands"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Je ______ (to read) un livre intéressant.",
-        "choices": ["lis", "parle", "apprends", "finis"],
+        "choices": ["lis"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ils ______ (to speak) trois langues.",
-        "choices": ["parlent", "lisent", "finissent", "prennent"],
+        "choices": ["parlent"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: Elle mange ______ la soupe tous les soirs. (She eats some soup every evening.)",
-        "choices": ["de", "du", "des"],
+        "choices": ["de"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: Nous avons acheté ______ pommes au marché. (We bought some apples at the market.)",
-        "choices": ["des", "du", "de la"],
+        "choices": ["des"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Nous ______ (to go) à la plage cet été.",
-        "choices": ["allons", "partons", "prenons", "finissons"],
+        "choices": ["allons"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Tu ______ (to finish) tes devoirs rapidement.",
-        "choices": ["finis", "prends", "lis", "apprends"],
+        "choices": ["finis"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Elle ______ (to take) toujours le bus pour aller au travail.",
-        "choices": ["prend", "finit", "lit", "parle"],
+        "choices": ["prend"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Vous ______ (to learn) le français depuis deux ans.",
-        "choices": ["apprenez", "finissez", "lisez", "parlez"],
+        "choices": ["apprenez"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: Il boit ______ l'eau tous les jours. (He drinks some water every day.)",
-        "choices": ["de", "du", "des"],
+        "choices": ["de"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: Tu veux ______ chocolat? (Do you want some chocolate?)",
-        "choices": ["du", "de la", "des"],
+        "choices": ["du"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(I) ______ suis très fatigué aujourd'hui.",
-        "choices": ["Je", "Tu", "Il", "Nous"],
+        "choices": ["Je"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(They - masculine) ______ aiment jouer au football.",
-        "choices": ["Ils", "Nous", "Elles", "Vous"],
+        "choices": ["Ils"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(She) ______ est toujours la première à répondre.",
-        "choices": ["Elle", "Il", "Tu", "Nous"],
+        "choices": ["Elle"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(You - formal) ______ êtes mon professeur préféré.",
-        "choices": ["Vous", "Tu", "Elle", "Il"],
+        "choices": ["Vous"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: J'aime ______ fromage. (I like some cheese.)",
-        "choices": ["du", "des", "de la"],
+        "choices": ["du"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: ______ lait est nécessaire pour cette recette. (Some milk is needed for this recipe.)",
-        "choices": ["du", "de la", "des"],
+        "choices": ["du"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(We) ______ devons partir tôt demain matin.",
-        "choices": ["Nous", "Ils", "Vous", "Elles"],
+        "choices": ["Nous"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(They - feminine) ______ habitent à Lyon.",
-        "choices": ["Elles", "Ils", "Nous", "Vous"],
+        "choices": ["Elles"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(He) ______ ne mange pas de viande.",
-        "choices": ["Il", "Elle", "Tu", "Nous"],
+        "choices": ["Il"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: ______ la salade est délicieuse. (The salad is delicious.)",
-        "choices": ["de", "du", "des"],
+        "choices": ["de"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: Vous avez ______ beurre pour les croissants? (Do you have some butter for the croissants?)",
-        "choices": ["du", "de la", "des"],
+        "choices": ["du"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(You - informal) ______ vas à la fête ce soir?",
-        "choices": ["Tu", "Vous", "Il", "Elle"],
+        "choices": ["Tu"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Mon père a ______ (forty-five) ans aujourd'hui.",
-        "choices": ["quarante-cinq", "trente-cinq", "vingt-cinq", "cinquante"],
+        "choices": ["quarante-cinq"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Complete the sentence: Ils ont mangé ______ riz pour le déjeuner. (They ate some rice for lunch.)",
-        "choices": ["du", "des", "de la"],
+        "choices": ["du"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "J'ai acheté ______ (thirty-one) livres cette année.",
-        "choices": ["trente-et-un", "quarante et un", "vingt et un", "trente-deux"],
+        "choices": ["trente-et-un"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

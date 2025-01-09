@@ -34,16 +34,34 @@ export default function Index() {
       link: '/ListeningAssignments/FrenchListening',
     },
     {
+      type: 'frenchc1',
+      heading: 'French Advanced (C1)',
+      text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
+      link: '/ListeningAssignments/FrenchListeningC1',
+    },
+    {
       type: 'spanish',
       heading: 'Spanish Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',
       link: '/ListeningAssignments/SpanishListening',
     },
     {
+      type: 'spanishc1',
+      heading: 'Spanish Advanced (C1)',
+      text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',
+      link: '/ListeningAssignments/SpanishListeningC1',
+    },
+    {
       type: 'german',
       heading: 'German Beginner (A1)',
       text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',
       link: '/ListeningAssignments/GermanListening',
+    },
+    {
+      type: 'germanc1',
+      heading: 'German Advanced (C1)',
+      text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',
+      link: '/ListeningAssignments/GermanListeningC1',
     },
   ];
 

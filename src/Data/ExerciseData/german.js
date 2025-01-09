@@ -130,121 +130,121 @@ export const quiz = [
       // 20 Fill in the Blanks
       {
         "question": "(Good morning) ______ Morgen!",
-        "choices": ["Guten", "Guten Abend", "Hallo", "Gute Nacht"],
+        "choices": ["Guten"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ später! (See you later!)",
-        "choices": ["Bis", "bist", "heiße", "kommen"],
+        "choices": ["Bis"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich ______ müde. (I am tired.)",
-        "choices": ["bin", "bist", "ist", "sind"],
+        "choices": ["bin"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Du ______ sehr nett. (You are very nice.)",
-        "choices": ["bist", "bin", "ist", "sind"],
+        "choices": ["bist"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Er ______ ein Student. (He is a student.)",
-        "choices": ["ist", "bin", "bist", "sind"],
+        "choices": ["ist"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Sie ______ meine Lehrerin. (She is my teacher.)",
-        "choices": ["ist", "bist", "sind", "bin"],
+        "choices": ["ist"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Es ______ ein schönes Haus. (It is a beautiful house.)",
-        "choices": ["ist", "sind", "bist", "bin"],
+        "choices": ["ist"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Wir ______ glücklich. (We are happy.)",
-        "choices": ["sind", "bist", "bin", "ist"],
+        "choices": ["sind"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ihr ______ meine Freunde. (You [plural] are my friends.)",
-        "choices": ["seid", "sind", "bist", "bin"],
+        "choices": ["seid"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Sie ______ in Deutschland. (They are in Germany.)",
-        "choices": ["sind", "bist", "bin", "ist"],
+        "choices": ["sind"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Guten ______! (Good evening)",
-        "choices": ["Abend", "Morgen", "Tag", "Nacht"],
+        "choices": ["Abend"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(What is your name?) ______ heißt du?",
-        "choices": ["Wie", "Was", "Wann", "Wo"],
+        "choices": ["Wie"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Mein Name ______ Anna. (My name is Anna.)",
-        "choices": ["ist", "heiße", "sind", "bist"],
+        "choices": ["ist"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Mein Name ______ Peter. (My name is Peter.)",
-        "choices": ["ist", "bin", "heiße", "sind"],
+        "choices": ["ist"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(How are you?) ______ geht es dir?",
-        "choices": ["Wie", "Was", "Warum", "Wann"],
+        "choices": ["Wie"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(Where are you?) ______ bist du?",
-        "choices": ["Wo", "Wie", "Wo", "Wann"],
+        "choices": ["Wo"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Tschüss, bis ______! (Bye, see you!)",
-        "choices": ["bald", "später", "morgen", "nochmal"],
+        "choices": ["bald"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(Good evening) ______ Abend!",
-        "choices": ["Guten", "Gute", "Hallo", "Morgen"],
+        "choices": ["Guten"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Mein Bruder ______ Lehrer. (My brother is a teacher.)",
-        "choices": ["ist", "bin", "bist", "sind"],
+        "choices": ["ist"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "(I am from India.) ______ aus Indien.",
-        "choices": ["Ich komme", "Ich bin", "Ich heiße", "Ich aus"],
+        "choices": ["Ich komme"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -494,181 +494,181 @@ export const quiz = [
       // 20 Fill in the Blanks
       {
         "question": "'Seven' in German is ______.",
-        "choices": ["Sieben", "Sieeben", "Neun", "Drei"],
+        "choices": ["Sieben"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ Hund ist groß und freundlich.",
-        "choices": ["Der", "Die", "Das", "Ein"],
+        "choices": ["Der"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Nine' in German is ______.",
-        "choices": ["Neun", "Sechzehn", "Neeun", "Zwanzig"],
+        "choices": ["Neun"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'One' in German is ______.",
-        "choices": ["Eins", "Sieben", "Drei", "Elf"],
+        "choices": ["Eins"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich habe ______ Buch auf dem Tisch gesehen.",
-        "choices": ["Ein", "Eine", "Der", "Das"],
+        "choices": ["Ein"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Three' in German is ______.",
-        "choices": ["Drei", "Sechzehn", "e", "Vier"],
+        "choices": ["Drei"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Twenty' in German is ______.",
-        "choices": ["Zwanzig", "e", "Dreizehn", "Elf"],
+        "choices": ["Zwanzig"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Four' in German is ______.",
-        "choices": ["Vier", "Neun", "Dreizehn", "Sechzehn"],
+        "choices": ["Vier"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ Mädchen spielt im Park.",
-        "choices": ["Das", "Der", "Die", "Ein"],
+        "choices": ["Das"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Kannst du ______ Apfel für mich holen?",
-        "choices": ["Einen", "Ein", "Eine", "Das"],
+        "choices": ["Einen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Eleven' in German is ______.",
-        "choices": ["Elf", "Sechzehn", "Neun", "Vier"],
+        "choices": ["Elf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Thirteen' in German is ______.",
-        "choices": ["Dreizehn", "Vier", "Eins", "Zwanzig"],
+        "choices": ["Dreizehn"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ Auto ist sehr teuer.",
-        "choices": ["Das", "Ein", "Der", "Die"],
+        "choices": ["Das"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Sixteen' in German is ______.",
-        "choices": ["Sechzehn", "Drei", "Neun", "Elf"],
+        "choices": ["Sechzehn"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Twelve' in German is ______.",
-        "choices": ["zwolf", "zwölf", "Drei", "Neun", "Elf"],
+        "choices": ["zwolf", "zwölf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Sie hat ______ Katze als Haustier.",
-        "choices": ["Eine", "Ein", "Der", "Das"],
+        "choices": ["Eine"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ Lehrer erklärt die Aufgabe.",
-        "choices": ["Der", "Die", "Das", "Ein"],
+        "choices": ["Der"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Fifteen' in German is ______.",
-        "choices": ["Funfzehn", "Fünfzehn", "Drei", "Neun", "Elf"],
+        "choices": ["Funfzehn", "Fünfzehn"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Nineteen' in German is ______.",
-        "choices": ["Neunzehn", "Drei", "Neun", "Elf"],
+        "choices": ["Neunzehn"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Eighteen' in German is ______.",
-        "choices": ["Achtzehn", "Drei", "Neun", "Elf"],
+        "choices": ["Achtzehn"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich trinke ______ Glas Wasser.",
-        "choices": ["Ein", "Eine", "Das", "Der"],
+        "choices": ["Ein"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "'Eight' in German is ______.",
-        "choices": ["Acht", "Drei", "Neun", "Elf"],
+        "choices": ["Acht"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The 5th letter of the German alphabet is ______.",
-        "choices": ["E", "Drei", "Neun", "Elf"],
+        "choices": ["E"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The letter that comes before 'N' in the German alphabet is ______.",
-        "choices": ["M", "Drei", "Neun", "Elf"],
+        "choices": ["M"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The 20th letter of the German alphabet is ______.",
-        "choices": ["T", "Drei", "Neun", "Elf"],
+        "choices": ["T"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "In the German alphabet, the letter ______ comes after 'S'.",
-        "choices": ["T", "Drei", "Neun", "Elf"],
+        "choices": ["T"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ Stadt ist sehr schön.",
-        "choices": ["Die", "Das", "Der", "Eine"],
+        "choices": ["Die"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Er möchte ______ Tee bestellen.",
-        "choices": ["Einen", "Ein", "Eine", "Das"],
+        "choices": ["Einen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The 23rd letter of the German alphabet is ______.",
-        "choices": ["X", "Drei", "Neun", "Elf"],
+        "choices": ["X"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "The letter ______ comes after 'P' in the German alphabet.",
-        "choices": ["Q", "Drei", "Neun", "Elf"],
+        "choices": ["Q"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -918,181 +918,181 @@ export const quiz = [
       // 20 Fill in the Blanks
       {
         "question": "Der Himmel ist ______ (gray) heute.",
-        "choices": ["grau", "blau", "schwarz", "weiß"],
+        "choices": ["grau"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich habe ein Auto. ______ Auto ist rot.",
-        "choices": ["mein", "", "", ""],
+        "choices": ["mein"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich habe ______ (three) Katzen.",
-        "choices": ["drei", "zwei", "e", "vier"],
+        "choices": ["drei"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Hast du die Bücher? ______ Bücher sind sehr interessant.",
-        "choices": ["dein", "", "", ""],
+        "choices": ["dein"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich gehe zum Laden, um ______ (to buy) Brot.",
-        "choices": ["kaufen", "essen", "trinken", "sehen"],
+        "choices": ["kaufen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Meine Lieblingsfarbe ist ______ (yellow).",
-        "choices": ["blau", "e", "gelb", "grün"],
+        "choices": ["blau"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Sie liebt ______ Katze sehr.",
-        "choices": ["ihr", "", "", ""],
+        "choices": ["ihr"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Die Kinder ______ (to play) im Park.",
-        "choices": ["spielen", "singen", "tanzen", "essen"],
+        "choices": ["spielen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Du hast ______ (four) Bücher in deiner Tasche.",
-        "choices": ["vier", "e", "fünf", "sechs"],
+        "choices": ["vier"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich liebe es, zu ______ (to dance).",
-        "choices": ["tanzen", "zu singen", "zu spielen", "zu lernen"],
+        "choices": ["tanzen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Wir besuchen ______ Freunde morgen.",
-        "choices": ["unsere", "", "", ""],
+        "choices": ["unsere"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Die ______ (color) ihres Kleides ist rosa.",
-        "choices": ["Farbe", "Schuhe", "Tasche", "Hut"],
+        "choices": ["Farbe"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Wo ist mein ______ (phone)?",
-        "choices": ["Telefon", "Buch", "Tisch", "Stuhl"],
+        "choices": ["Telefon"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich werde einen Film ______ (to watch) heute Abend.",
-        "choices": ["ansehen", "lesen", "essen", "spielen"],
+        "choices": ["ansehen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Das ist Thomas. ______ Bruder wohnt in Berlin.",
-        "choices": ["sein", "", "", ""],
+        "choices": ["sein"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Kinder, wo sind ______ Schuhe?",
-        "choices": ["eure", "", "", ""],
+        "choices": ["eure"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Der Zug fährt um ______ (five) Uhr nachmittags ab.",
-        "choices": ["funf", "fünf", "e", "sechs", "drei"],
+        "choices": ["funf", "fünf"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Meine Freunde sind sehr ______ (funny).",
-        "choices": ["lustig", "traurig", "langweilig", "ernst"],
+        "choices": ["lustig"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Das Obst, das ich am meisten mag, ist die ______ (banana).",
-        "choices": ["Banane", "Apfel", "Orange", "Traube"],
+        "choices": ["Banane"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich sehe Anna und ______ Hund im Park.",
-        "choices": ["ihren", "", "", ""],
+        "choices": ["ihren"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich muss für die Prüfung ______ (to study).",
-        "choices": ["lernen", "spielen", "essen", "trinken"],
+        "choices": ["lernen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Das Haus hat ______ (ten) Fenster.",
-        "choices": ["zehn", "neun", "e", "elf"],
+        "choices": ["zehn"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Peter und Maria haben ______ Haus renoviert.",
-        "choices": ["ihr", "", "", ""],
+        "choices": ["ihr"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Wo ist ______ Tasche? Ich finde sie nicht.",
-        "choices": ["meine", "", "", ""],
+        "choices": ["meine"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich fühle mich ______ (tired) nach der Arbeit.",
-        "choices": ["mude", "müde", "wach", "aktiv", "fit"],
+        "choices": ["mude", "müde"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Das ______ (weather) ist im Frühling sehr angenehm.",
-        "choices": ["Wetter", "Jahr", "Tag", "Monat"],
+        "choices": ["Wetter"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Das Buch liegt auf dem ______ (table).",
-        "choices": ["Tisch", "Stuhl", "Boden", "Regal"],
+        "choices": ["Tisch"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Meine Schwester ist ______ (eight) Jahre alt.",
-        "choices": ["acht", "sieben", "e", "neun"],
+        "choices": ["acht"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Herr Müller, ist das ______ Auto?",
-        "choices": ["Ihr", "", "", ""],
+        "choices": ["Ihr"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Es ist wichtig, sich ______ (to rest) nach dem Sport.",
-        "choices": ["auszuruhen", "zu lernen", "zu spielen", "zu essen"],
+        "choices": ["auszuruhen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1355,121 +1355,121 @@ export const quiz = [
       // 20 Fill in the Blanks
       {
         "question": "Mein ______ (father) arbeitet in Berlin.",
-        "choices": ["Vater", "Bruder", "Sohn", "Onkel"],
+        "choices": ["Vater"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Meine ______ (grandmother) besucht uns oft.",
-        "choices": ["Großmutter", "Tante", "Mutter", "Schwester"],
+        "choices": ["Großmutter"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Er hat einen ______ (son) und zwei Töchter.",
-        "choices": ["Sohn", "Bruder", "Cousin", "Neffe"],
+        "choices": ["Sohn"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich gehe am Wochenende zu meiner ______ (aunt).",
-        "choices": ["Tante", "Cousine", "Mutter", "Schwester"],
+        "choices": ["Tante"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Du ______ (to eat) immer Brot zum Frühstück.",
-        "choices": ["isst", "trinkst", "liest", "schreibst"],
+        "choices": ["isst"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Wir ______ (to go) oft ins Kino.",
-        "choices": ["gehen", "essen", "lesen", "trinken"],
+        "choices": ["gehen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Er ______ (to read) jeden Abend ein Buch.",
-        "choices": ["liest", "schreibt", "redet", "trinkt"],
+        "choices": ["liest"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ihr ______ (to speak) Deutsch sehr gut.",
-        "choices": ["sprecht", "reden", "lesen", "essen"],
+        "choices": ["sprecht"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Sie ______ (to finish) ihre Arbeit bald.",
-        "choices": ["beendet", "isst", "liest", "redet"],
+        "choices": ["beendet"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ich ______ (to drink) jeden Tag Wasser.",
-        "choices": ["trinke", "esse", "gehe", "schreibe"],
+        "choices": ["trinke"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (I) bin Schüler.",
-        "choices": ["Ich", "Du", "Er", "Wir"],
+        "choices": ["Ich"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (We) sind froh, hier zu sein.",
-        "choices": ["Wir", "Sie", "Ihr", "Er"],
+        "choices": ["Wir"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (She) kommt aus Deutschland.",
-        "choices": ["Sie", "Er", "Ich", "Wir"],
+        "choices": ["Sie"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (They - masculine) spielen Fußball.",
-        "choices": ["Sie", "Wir", "Ihr", "Euch"],
+        "choices": ["Sie"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (You - informal) bist sehr nett.",
-        "choices": ["Du", "Sie", "Er", "Wir"],
+        "choices": ["Du"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (You - formal) sind Lehrer.",
-        "choices": ["Sie", "Du", "Er", "Wir"],
+        "choices": ["Sie"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (They - feminine) gehen einkaufen.",
-        "choices": ["Sie", "Ihr", "Wir", "Er"],
+        "choices": ["Sie"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (You all - informal) habt Zeit, oder?",
-        "choices": ["Ihr", "Du", "Sie", "Er"],
+        "choices": ["Ihr"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (He) wohnt in München.",
-        "choices": ["Er", "Sie", "Du", "Wir"],
+        "choices": ["Er"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "______ (We) lernen Deutsch.",
-        "choices": ["Wir", "Ihr", "Sie", "Er"],
+        "choices": ["Wir"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },      

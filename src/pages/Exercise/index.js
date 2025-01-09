@@ -34,8 +34,20 @@ export default function Index() {
       link: '/Exercise/FrenchExercisesB1',
     },
     {
+      type: 'frenchc1',
+      heading: 'French Advanced (C1)',
+      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+      link: '/Exercise/FrenchExercisesC1',
+    },
+    // {
+    //   type: 'englisha1',
+    //   heading: 'English Beginner (A1)',
+    //   text: 'Master the language of art, culture, and diplomacy with our English exercise.',
+    //   link: '/Exercise/EnglishExercisesA1',
+    // },
+    {
       type: 'englishb1',
-      heading: 'English Beginner (B1)',
+      heading: 'English Intermediate (B1)',
       text: 'Master the language of art, culture, and diplomacy with our English exercise.',
       link: '/Exercise/EnglishExercisesB1',
     },
@@ -52,6 +64,12 @@ export default function Index() {
       link: '/Exercise/GermanExercisesA2',
     },
     {
+      type: 'germanc1',
+      heading: 'German Advanced (C1)',
+      text: 'Navigate both casual and formal language settings of Germany with this exercise.',
+      link: '/Exercise/GermanExercisesC1',
+    },
+    {
       type: 'spanish',
       heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
@@ -62,6 +80,12 @@ export default function Index() {
       heading: 'Spanish Beginner (A2)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
       link: '/Exercise/SpanishExercisesA2',
+    },
+    {
+      type: 'spanishc1',
+      heading: 'Spanish Advanced (C1)',
+      text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
+      link: '/Exercise/SpanishExercisesC1',
     },
     {
       type: 'italian',

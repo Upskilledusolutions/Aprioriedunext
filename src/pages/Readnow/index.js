@@ -22,8 +22,14 @@ export default function Index() {
       link: '/Readnow/Multilinguallessons',
     },
     {
+      type: 'englisha1',
+      heading: 'English Beginner (A1)',
+      text: 'Master the language of art, culture, and diplomacy with our English lessons.',
+      link: '/Readnow/EnglishlessonsA1',
+    },
+    {
       type: 'englishb1',
-      heading: 'English Beginner (B1)',
+      heading: 'English Intermediate (B1)',
       text: 'Master the language of art, culture, and diplomacy with our English lessons.',
       link: '/Readnow/EnglishlessonsB1',
     },
@@ -46,6 +52,12 @@ export default function Index() {
       link: '/Readnow/FrenchlessonsB1',
     },
     {
+      type: 'frenchc1',
+      heading: 'French Advanced (C1)',
+      text: 'Master the language of art, culture, and diplomacy with our French lessons.',
+      link: '/Readnow/FrenchlessonsC1',
+    },
+    {
       type: 'german',
       heading: 'German Beginner (A1)',
       text: 'Navigate both casual and formal language settings of Germany with this course.',
@@ -58,6 +70,12 @@ export default function Index() {
       link: '/Readnow/GermanlessonsA2',
     },
     {
+      type: 'germanc1',
+      heading: 'German Advanced (C1)',
+      text: 'Navigate both casual and formal language settings of Germany with this course.',
+      link: '/Readnow/GermanlessonsC1',
+    },
+    {
       type: 'spanish',
       heading: 'Spanish Beginner (A1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
@@ -68,6 +86,12 @@ export default function Index() {
       heading: 'Spanish Beginner (A2)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
       link: '/Readnow/SpanishlessonsA2',
+    },
+    {
+      type: 'spanishc1',
+      heading: 'Spanish Advanced (C1)',
+      text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
+      link: '/Readnow/SpanishlessonsC1',
     },
     {
       type: 'italian',
