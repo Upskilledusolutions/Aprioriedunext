@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Head from 'next/head';
+import { cards } from '../../Data/Routes/ReadingAssignments'
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
 import styles from "../../styles/quiz/quizpage.module.css";
 import { FaLock } from 'react-icons/fa';
@@ -14,86 +15,7 @@ export default function Index() {
   };
 
   // Array of card information with type, heading, and text
-  const cards = [
-    {
-      type: 'english',
-      heading: 'English Beginner (A1)',
-      text: 'Master the language of art, culture, and diplomacy with our English Reading Assignments.',
-      link: '/ReadingAssignments/EnglishReading',
-    },
-    {
-      type: 'englishb1',
-      heading: 'English Beginner (B1)',
-      text: 'Master the language of art, culture, and diplomacy with our English Reading Assignments.',
-      link: '/ReadingAssignments/EnglishReadingB1',
-    },
-    {
-      type: 'french',
-      heading: 'French Beginner (A1)',
-      text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
-      link: '/ReadingAssignments/FrenchReading',
-    },
-    {
-      type: 'frenchc1',
-      heading: 'French Beginner (C1)',
-      text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
-      link: '/ReadingAssignments/FrenchReadingC1',
-    },
-    {
-      type: 'spanishc1',
-      heading: 'Spanish Beginner (C1)',
-      text: 'Master the language of art, culture, and diplomacy with our Spanish Reading Assignments.',
-      link: '/ReadingAssignments/SpanishReadingC1',
-    },
-    {
-      type: 'germanc1',
-      heading: 'German Beginner (C1)',
-      text: 'Master the language of art, culture, and diplomacy with our German Reading Assignments.',
-      link: '/ReadingAssignments/GermanReadingC1',
-    },
-    // {
-    //   type: 'frenchb1',
-    //   heading: 'French Intermediate (B1-B2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
-    //   link: '/ReadingAssignments/FrenchReadingB1',
-    // },
-    // {
-    //   type: 'italian',
-    //   heading: 'Italian Beginner (A1-A2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our Italian Reading Assignments.',
-    //   link: '/ReadingAssignments/ItalianReading',
-    // },
-    // {
-    //   type: 'russian',
-    //   heading: 'Russian Beginner (A1-A2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our Russian Reading Assignments.',
-    //   link: '/ReadingAssignments/RussianReading',
-    // },
-    // {
-    //   type: 'dutch',
-    //   heading: 'Dutch Beginner (A1-A2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our Dutch Reading Assignments.',
-    //   link: '/ReadingAssignments/DutchReading',
-    // },
-    // {
-    //   type: 'japanese',
-    //   heading: 'Japanese Beginner (A1-A2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our Japanese Reading Assignments.',
-    //   link: '/ReadingAssignments/JapaneseReading',
-    // },
-    // {
-    //   type: 'korean',
-    //   heading: 'Korean Beginner (A1-A2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our Korean Reading Assignments.',
-    //   link: '/ReadingAssignments/KoreanReading',
-    // },
-    // {
-    //   type: 'danish',
-    //   heading: 'Danish Beginner (A1-A2)',
-    //   text: 'Master the language of art, culture, and diplomacy with our Danish Reading Assignments.',
-    //   link: '/ReadingAssignments/DanishReading',
-    // },
-  ];
+
 
   // Sort the cards so that unlocked cards come first
   const sortedCards = cards.sort((a, b) => {
@@ -136,7 +58,7 @@ export default function Index() {
                 <div className={styles.cardheading}>{card.heading}</div>
                 <div className={styles.cardtext}>{card.text}</div>
                 {!isCardLocked(card.type) ? (
-                  <Link href={card.link} className={styles.btn}>
+                  <Link href={`ReadingAssignments/${card.link}`} className={styles.btn}>
                     Start Learning
                   </Link>
                 ) : (

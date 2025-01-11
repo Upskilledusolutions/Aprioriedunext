@@ -34,6 +34,7 @@ export default function Navbar() {
   };
 
   const handleLogout = () => {
+    window.location.href = '/';
     dispatch(logout()); // Dispatch logout action
     setDropdownVisible(false); // Hide dropdown after logging out
   };

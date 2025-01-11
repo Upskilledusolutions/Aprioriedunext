@@ -20,7 +20,12 @@ export default function RightSide({
 
   const headings = {
     'Lessons': ["id", "name", "level", "pdf", "video", "desc"],
-    'Conversations': ["id", "title", "url", "youtube", "desc"]
+    'Conversations': ["id", "title", "url", "youtube", "desc"],
+    'Exercises': ["quiz", "name", "level", "topic", "questions"],
+    'Reading': ["id", "name", "audios", "questionsPerAudio"],
+    'Listening': ["id", "name", "level","Title","readingText", "questions"],
+    'ReadingP': ["id", "name", "level", "readingText"],
+    'PracticeTest': ["quiz", "name", "level", "topic", "questions"],
   };
 
   const [searchTerm, setSearchTerm] = useState('');

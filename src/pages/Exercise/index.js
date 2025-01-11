@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Head from 'next/head';
+import { cards } from '../../Data/Routes/Exercises'
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
 import styles from "../../styles/quiz/quizpage.module.css";
 import { FaLock } from 'react-icons/fa';
@@ -12,100 +13,6 @@ export default function Index() {
   const isCardLocked = (cardType) => {
     return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
-
-  // Array of card information with type, heading, and text
-  const cards = [
-    {
-      type: 'french',
-      heading: 'French Beginner (A1)',
-      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
-      link: '/Exercise/FrenchExercises',
-    },
-    {
-      type: 'frencha2',
-      heading: 'French Beginner (A2)',
-      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
-      link: '/Exercise/FrenchExercisesA2',
-    },
-    {
-      type: 'frenchb1',
-      heading: 'French Intermediate (B1)',
-      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
-      link: '/Exercise/FrenchExercisesB1',
-    },
-    {
-      type: 'frenchc1',
-      heading: 'French Advanced (C1)',
-      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
-      link: '/Exercise/FrenchExercisesC1',
-    },
-    // {
-    //   type: 'englisha1',
-    //   heading: 'English Beginner (A1)',
-    //   text: 'Master the language of art, culture, and diplomacy with our English exercise.',
-    //   link: '/Exercise/EnglishExercisesA1',
-    // },
-    {
-      type: 'englishb1',
-      heading: 'English Intermediate (B1)',
-      text: 'Master the language of art, culture, and diplomacy with our English exercise.',
-      link: '/Exercise/EnglishExercisesB1',
-    },
-    {
-      type: 'german',
-      heading: 'German Beginner (A1)',
-      text: 'Navigate both casual and formal language settings of Germany with this exercise.',
-      link: '/Exercise/GermanExercises',
-    },
-    {
-      type: 'germana2',
-      heading: 'German Beginner (A2)',
-      text: 'Navigate both casual and formal language settings of Germany with this exercise.',
-      link: '/Exercise/GermanExercisesA2',
-    },
-    {
-      type: 'germanc1',
-      heading: 'German Advanced (C1)',
-      text: 'Navigate both casual and formal language settings of Germany with this exercise.',
-      link: '/Exercise/GermanExercisesC1',
-    },
-    {
-      type: 'spanish',
-      heading: 'Spanish Beginner (A1)',
-      text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
-      link: '/Exercise/SpanishExercises',
-    },
-    {
-      type: 'spanisha2',
-      heading: 'Spanish Beginner (A2)',
-      text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
-      link: '/Exercise/SpanishExercisesA2',
-    },
-    {
-      type: 'spanishc1',
-      heading: 'Spanish Advanced (C1)',
-      text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
-      link: '/Exercise/SpanishExercisesC1',
-    },
-    {
-      type: 'italian',
-      heading: 'Italian Beginner (A1)',
-      text: 'Master the language of art, culture, and diplomacy with our Italian exercise.',
-      link: '/Exercise/ItalianExercises',
-    },
-    {
-      type: 'russian',
-      heading: 'Russian Beginner (A1)',
-      text: 'Navigate both casual and formal language settings of Russian with this exercise.',
-      link: '/Exercise/RussianExercises',
-    },
-    {
-      type: 'dutch',
-      heading: 'Dutch Beginner (A1)',
-      text: 'Dive into the vibrant world of Dutch-speaking countries with this exercise.',
-      link: '/Exercise/DutchExercises',
-    },
-  ];
 
   // Sort the cards so that unlocked cards come first
   const sortedCards = cards.sort((a, b) => {
@@ -148,7 +55,7 @@ export default function Index() {
                 <div className={styles.cardheading}>{card.heading}</div>
                 <div className={styles.cardtext}>{card.text}</div>
                 {!isCardLocked(card.type) ? (
-                  <Link href={card.link} className={styles.btn}>
+                  <Link href={`Exercise/${card.link}`} className={styles.btn}>
                     Take a test
                   </Link>
                 ) : (

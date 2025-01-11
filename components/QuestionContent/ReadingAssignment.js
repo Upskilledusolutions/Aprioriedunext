@@ -3,8 +3,8 @@ import styles from "../../src/styles/quiz/reading.module.css"
 import Modal from "react-modal"; 
 
 const ReadingAssignment = ({ readingText, questions, Title }) => {
-  const [selectedAnswers, setSelectedAnswers] = useState(Array(questions.length).fill(null));
-  const paragraphs = readingText.split("\n");
+  const [selectedAnswers, setSelectedAnswers] = useState(Array(questions?.length).fill(null));
+  const paragraphs = readingText?.split("\n");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
@@ -58,7 +58,7 @@ const ReadingAssignment = ({ readingText, questions, Title }) => {
       {/* Reading Section */}
       <div className={styles.readingsection}>
         <h2>{Title}</h2>
-        {paragraphs.map((text, index) => (
+        {paragraphs?.map((text, index) => (
         <p key={index}>{text}</p>
       ))}
       </div>
@@ -66,7 +66,7 @@ const ReadingAssignment = ({ readingText, questions, Title }) => {
       {/* Questions Section */}
       <div className={styles.questionssection}>
         <h2>Questions</h2>
-        {questions.map((question, index) => (
+        {questions?.map((question, index) => (
           <div key={index} className={styles.question}>
             <p><b>{index + 1}. {question.question}</b></p>
             <ul className={styles.ulist}>
@@ -97,7 +97,7 @@ const ReadingAssignment = ({ readingText, questions, Title }) => {
       >
         <div className={styles.modalContent}>
           <h2>Quiz Completed!</h2>
-          <p>You scored <b>{score}</b> out of <b>{questions.length}</b>!</p>
+          <p>You scored <b>{score}</b> out of <b>{questions?.length}</b>!</p>
           <div className={styles.btncont}>
           <button className={styles.closeButton} onClick={restartQuiz}>Restart</button>
           {/* <button className={styles.closeButton} onClick={closeModal}>Close</button> */}

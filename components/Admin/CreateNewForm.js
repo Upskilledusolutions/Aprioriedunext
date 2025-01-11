@@ -1,20 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import styles from '@/styles/RightSide.module.css';
+import QuestionsForm from './QuestionsForm';
 
 const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm, initialData, isCreatingNew }) => {
-  const [formData, setFormData] = useState({});
+  const [formData, setFormData] = useState({questions: []});
+  const [questions, setQuestions] = useState([])
   const [loading, setLoading] = useState(false); // For submission state
 
-  console.log(initialData, isCreatingNew)
-
-  // Reset formData if creating a new entry (when isCreatingNew is true)
   useEffect(() => {
     if (isCreatingNew) {
-      setFormData({}); // Clear formData for a new entry
+      setFormData({ questions: [] }); // Clear formData for a new entry
     } else if (initialData) {
       setFormData(initialData); // Populate form for editing
     }
-  }, [isCreatingNew, initialData]); // Run when isCreatingNew or initialData changes
+  }, [isCreatingNew, initialData]);
 
   // Handle form input change
   const handleInputChange = (e) => {
@@ -96,7 +95,10 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
                   onChange={handleInputChange}
                   placeholder={`Enter ${heading}`}
                 />
-              ): (
+              ) : heading === 'questions' ? (
+                <QuestionsForm formData={formData} setFormData={setFormData}/>
+              ) 
+              : (
                 <input
                   type="text"
                   id={heading}

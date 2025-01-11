@@ -147,6 +147,11 @@
   transform: scale(0.98); /* Subtle shrink effect on click */
 }
 
+.inputcontainer{
+  width: 100%;
+  display: flex;
+}
+
 .formContainer {
   padding: 20px;
   border: 1px solid #ddd;

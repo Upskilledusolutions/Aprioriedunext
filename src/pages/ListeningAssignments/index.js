@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Head from 'next/head';
+import { cards } from '../../Data/Routes/ListeningAssignments'
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
 import styles from "../../styles/quiz/quizpage.module.css";
 import { FaLock } from 'react-icons/fa';
@@ -12,58 +13,6 @@ export default function Index() {
   const isCardLocked = (cardType) => {
     return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
-
-  // Array of card information with type, heading, and text
-  const cards = [
-    {
-      type: 'english',
-      heading: 'English Beginner (A1)',
-      text: 'Master the language of art, culture, and diplomacy with our English Listening Assignments.',
-      link: '/ListeningAssignments/EnglishListening',
-    },
-    {
-      type: 'englishb1',
-      heading: 'English Beginner (B1)',
-      text: 'Master the language of art, culture, and diplomacy with our English Listening Assignments.',
-      link: '/ListeningAssignments/EnglishListeningB1',
-    },
-    {
-      type: 'french',
-      heading: 'French Beginner (A1)',
-      text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
-      link: '/ListeningAssignments/FrenchListening',
-    },
-    {
-      type: 'frenchc1',
-      heading: 'French Advanced (C1)',
-      text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
-      link: '/ListeningAssignments/FrenchListeningC1',
-    },
-    {
-      type: 'spanish',
-      heading: 'Spanish Beginner (A1)',
-      text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',
-      link: '/ListeningAssignments/SpanishListening',
-    },
-    {
-      type: 'spanishc1',
-      heading: 'Spanish Advanced (C1)',
-      text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',
-      link: '/ListeningAssignments/SpanishListeningC1',
-    },
-    {
-      type: 'german',
-      heading: 'German Beginner (A1)',
-      text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',
-      link: '/ListeningAssignments/GermanListening',
-    },
-    {
-      type: 'germanc1',
-      heading: 'German Advanced (C1)',
-      text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',
-      link: '/ListeningAssignments/GermanListeningC1',
-    },
-  ];
 
   // Sort the cards so that unlocked cards come first
   const sortedCards = cards.sort((a, b) => {
@@ -106,7 +55,7 @@ export default function Index() {
                 <div className={styles.cardheading}>{card.heading}</div>
                 <div className={styles.cardtext}>{card.text}</div>
                 {!isCardLocked(card.type) ? (
-                  <Link href={card.link} className={styles.btn}>
+                  <Link href={`ListeningAssignments/${card.link}`} className={styles.btn}>
                     Start Learning
                   </Link>
                 ) : (
