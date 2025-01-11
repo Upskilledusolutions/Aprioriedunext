@@ -1,0 +1,190 @@
+/* General Styles */
+.container {
+    display: flex;
+    font-family: Arial, sans-serif;
+    height: 82vh;
+  }
+  .dropdown{
+    display: none;
+  }
+  /* Sidebar Styles */
+  .sidebar {
+    width: 20%;
+    background: rgb(227, 80, 61);
+    padding: 1rem;
+    color: white;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar h3 {
+    margin: 0 0 1rem 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sidebar li.selected {
+    background: rgb(208, 53, 32);
+  }
+  
+  /* Chat Area Styles */
+  .chatarea {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chatmessages {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto; /* This makes the chat messages scrollable */
+    background: #fff;
+    display: flex;
+    flex-direction: column; /* Normal top-to-bottom order */
+  }
+  
+  .chatmessage {
+    display: flex;
+    margin: 0.5rem 0;
+  }
+  
+  .chatmessage.user {
+    justify-content: flex-end;
+  }
+  
+  .chatmessage.assistant {
+    justify-content: flex-start;
+  }
+  
+  .chatbubble {
+    max-width: 60%;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+  }
+  
+  .chatbubble.user {
+    background: rgb(227, 80, 61);
+    color: white;
+  }
+  
+  .chatbubble.assistant {
+    background: rgb(208, 53, 32);
+    color: white;
+  }
+  
+  /* Input Area Styles */
+  .inputarea {
+    display: flex;
+    padding: 1rem;
+    border-top: 1px solid #8a8a8a;
+  }
+  .locked{
+    background-color: rgb(255, 171, 160);
+  }
+  .locked:hover{
+    background-color: rgb(255, 171, 160);
+  }
+  .inputtextarea {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #8a8a8a;
+    resize: none;
+  }
+  
+  .inputbutton {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: rgb(218, 52, 31);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .inputbutton:hover {
+    background: rgb(225, 34, 9);
+  }
+
+  .flex{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .chatmessages::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .chatmessages::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+  .chatmessages::-webkit-scrollbar-thumb {
+    background: rgb(208, 53, 32);
+  }
+  
+  /* Handle on hover */
+  .chatmessages::-webkit-scrollbar-thumb:hover {
+    background: rgb(208, 53, 32);
+  }
+  
+  @media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+    .chatarea{
+        height: 80vh;
+    }
+    .sidebar{
+        display: none;
+    }
+    .dropdown{
+        padding: 10px 5%;
+        display: block;
+    }
+    .dropdown ul{
+        padding: 0;
+        margin: 0;
+    }
+    .locked{
+        background-color: rgb(225, 116, 101);
+      }
+      .locked:hover{
+        background-color: rgb(225, 116, 101);
+      }
+    .dropdown ul li{
+       border: none;
+       list-style: none;
+       padding: 10px;
+       color: white;
+    }
+    .dropdown ul .selected{
+        background-color: rgb(208, 53, 32);
+        width: 95%;
+        padding: 10px;
+        border-radius: 0;
+    }
+    .selected{
+        width: 90%;
+        padding: 10px 5%;
+        border: 1px solid rgb(101, 101, 101);
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .inputarea{
+        padding-bottom: 100px;
+    }
+  }
