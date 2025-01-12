@@ -1,33 +1,18 @@
 import Link from 'next/link';
 import React from 'react';
 import Head from 'next/head';
+import { cards } from '../../Data/Routes/ReadingP'
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
 import styles from "../../styles/quiz/quizpage.module.css";
 import { FaLock } from 'react-icons/fa';
 
 export default function Index() {
-  const { isAuthenticated, user } = useSelector((state) => state.auth);
-  console.log(user?.next)
+  const { user } = useSelector((state) => state.auth);
+
   // Function to determine if a card should be locked
   const isCardLocked = (cardType) => {
     return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
-
-  // Array of card information with type, heading, and text
-  const cards = [
-    {
-      type: 'english',
-      heading: 'English Reading Practice (A1)',
-      text: 'Dive into the vibrant world of English-speaking countries with this course.',
-      link: '/ReadingPractice/EnglishReading',
-    },
-    {
-      type: 'englishb1',
-      heading: 'English Reading Practice (B1)',
-      text: 'Dive into the vibrant world of English-speaking countries with this course.',
-      link: '/ReadingPractice/EnglishReadingB1',
-    },
-  ];
 
   // Sort the cards so that unlocked cards come first
   const sortedCards = cards.sort((a, b) => {
@@ -70,7 +55,7 @@ export default function Index() {
                 <div className={styles.cardheading}>{card.heading}</div>
                 <div className={styles.cardtext}>{card.text}</div>
                 {!isCardLocked(card.type) ? (
-                  <Link href={card.link} className={styles.btn}>
+                  <Link href={`/ReadingPractice/${card.link}`} className={styles.btn}>
                     Start Learning
                   </Link>
                 ) : (

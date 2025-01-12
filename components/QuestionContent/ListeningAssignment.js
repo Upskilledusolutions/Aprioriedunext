@@ -137,7 +137,7 @@ const ReadingAssignmentWithAudio = ({ audios, questionsPerAudio }) => {
               <b>{index + 1}. {question.question}</b>
             </p>
             <ul className={styles.ulist}>
-              {question.choices.map((choice, choiceIndex) => (
+              {question?.choices?.map((choice, choiceIndex) => (
                 <li key={choiceIndex} className={styles.listitem}>
                   <label>
                     <input

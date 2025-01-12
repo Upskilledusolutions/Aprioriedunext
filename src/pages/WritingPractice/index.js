@@ -1,186 +1,71 @@
-import React, { useEffect, useRef, useState } from 'react';
-import styles from '../../styles/WritingP.module.css';
-import { useSelector } from 'react-redux';
-import { FaLock, FaCaretDown } from 'react-icons/fa';
+import Link from 'next/link';
+import React from 'react';
+import Head from 'next/head';
+import { cards } from '../../Data/Routes/WritingPractice'
+import { useSelector } from 'react-redux'; // To access authentication status from Redux
+import styles from "../../styles/quiz/quizpage.module.css";
+import { FaLock } from 'react-icons/fa';
 
-const ChatGPTComponent = () => {
-  const { user } = useSelector((state) => state.auth);
-  const [selectedTopic, setSelectedTopic] = useState('French');
-  const [messages, setMessages] = useState([
-    { role: 'assistant', content: "Bonjour, je m'appelle Chatbot, et vous ?" },
-  ]);
-  const [input, setInput] = useState('');
-  const [loading, setLoading] = useState(false); // Add a loading state
-  const [show, setShow] = useState(false)
-  const chatMessagesRef = useRef(null);
+export default function Index() {
+  const { isAuthenticated, user } = useSelector((state) => state.auth);
 
-  const Languages = [
-    {
-      languagecourse: 'French',
-      firstsent: "Bonjour, je m'appelle Chatbot, et vous ?",
-    },
-    {
-      languagecourse: 'Spanish',
-      firstsent: 'Hola, mi nombre es Chatbot y tú?',
-    },
-    {
-      languagecourse: 'German',
-      firstsent: 'Hallo, mein Name ist Chatbot und du?',
-    },
-  ];
-
-  useEffect(() => {
-    // Scroll to the bottom when new messages are added
-    if (chatMessagesRef.current) {
-      chatMessagesRef.current.scrollTop = chatMessagesRef.current.scrollHeight;
-    }
-  }, [messages]); // Assuming 'messages' is the state holding your chat messages
-
-  const handleTopicSelect = (topic, sent) => {
-    setSelectedTopic(topic);
-    setMessages([{ role: 'assistant', content: sent }]);
-    setShow(!show)
+  // Function to determine if a card should be locked
+  const isCardLocked = (cardType) => {
+    return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
 
-  const handleSubmit = async () => {
-    if (!input.trim()) return;
-
-    const userMessage = { role: 'user', content: input };
-    setMessages((prev) => [...prev, userMessage]);
-    setLoading(true); // Show "Chatbot is typing..." indicator
-
-    try {
-      const response = await fetch('/api/openai', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          model: 'gpt-4o-mini',
-          messages: [
-            {
-              role: 'system',
-              content: `You are a ${selectedTopic} instructor who helps a native English Speaking student getting better in ${selectedTopic} language. Please give your feedback on the inputs (in English Language) for grammar and vocabulary and then continue the conversation by giving a response from the next line.`,
-            },
-            ...messages,
-            userMessage,
-          ],
-        }),
-      });
-
-      const data = await response.json();
-      const botMessage = {
-        role: 'assistant',
-        content: data.choices[0].message.content,
-      };
-      setMessages((prev) => [...prev, botMessage]);
-    } catch (error) {
-      console.error('Error fetching response:', error);
-      const errorMessage = {
-        role: 'assistant',
-        content: 'Sorry, something went wrong. Please try again later.',
-      };
-      setMessages((prev) => [...prev, errorMessage]);
+  // Sort the cards so that unlocked cards come first
+  const sortedCards = cards.sort((a, b) => {
+    // If card A is unlocked and card B is locked, A comes first
+    if (!isCardLocked(a.type) && isCardLocked(b.type)) {
+      return -1;
     }
-
-    setLoading(false); // Hide the indicator
-    setInput('');
-  };
-
-  console.log(user?.type.includes(selectedTopic.toLowerCase()) || user?.type === 'all')
+    // If card A is locked and card B is unlocked, B comes first
+    if (isCardLocked(a.type) && !isCardLocked(b.type)) {
+      return 1;
+    }
+    // Keep the default order if both are locked or both are unlocked
+    return 0;
+  });
 
   return (
-    <div className={styles.container}>
-      {/* Sidebar */}
-      <div className={styles.sidebar}>
-        <h1>Languages</h1>
-        <ul>
-          {Languages.map((topic, index) => (
-          user?.type.includes(topic.languagecourse.toLowerCase()) | user?.type === 'all' ?
-            <li
-              key={index}
-              onClick={() => handleTopicSelect(topic.languagecourse, topic.firstsent)}
-              className={topic.languagecourse === selectedTopic | user?.type === 'all' ? `${styles.selected}` : ''}
-            >
-              {topic.languagecourse}
-            </li> :
-            <li
-            key={index}
-            className={styles.locked}
-            >
-              <div className={styles.flex}>{topic.languagecourse}<FaLock /></div>
-            </li>
-          ))}
-        </ul>
-      </div>
+    <>
+      <Head>
+        <title>Writing Practice</title>
+        <meta name="description" content="Generated by create next app" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/logo/newlogo1.png" />
+      </Head>
+      <main>
+        <div className={styles.container}>
+          <div className={styles.headcont}>
+            <div className={styles.mainheading}>Writing Practice</div>
+          </div>
 
-      <div className={styles.dropdown}>
-          <div className={styles.selected} onClick={() => setShow(!show)}>{selectedTopic} <FaCaretDown/></div>
-          {show && <ul>
-          {Languages.map((topic, index) => (
-          user?.type.includes(topic.languagecourse.toLowerCase()) || user?.type === 'all' ?
-            <li
-              key={index}
-              onClick={() => handleTopicSelect(topic.languagecourse, topic.firstsent)}
-              className={topic.languagecourse === selectedTopic || user?.type === 'all' ? `${styles.selected}` : ''}
-            >
-              {topic.languagecourse}
-            </li> :
-            <li
-            key={index}
-            className={styles.locked}
-            >
-              <div className={styles.flex}>{topic.languagecourse}<FaLock /></div>
-            </li>
-          ))}
-        </ul>}
-      </div>
+          <div className={styles.maintext}>
+            Explore the beauty of new cultures by mastering Spanish, French, or German through our engaging lessons. Whether you're a beginner or looking to perfect your fluency, our language courses are designed to guide you at every step.
+          </div>
 
-      {/* Chat Area */}
-      <div className={styles.chatarea}>
-        <div className={styles.chatmessages} ref={chatMessagesRef}>
-          {messages.map((message, index) => (
-            <div
-              key={index}
-              className={`${styles.chatmessage} ${
-                message.role === 'user' ? styles.user : styles.assistant
-              }`}
-            >
+          <div className={styles.cards}>
+            {sortedCards.map((card) => (
               <div
-                className={`${styles.chatbubble} ${
-                  message.role === 'user' ? styles.user : styles.assistant
-                }`}
+                key={card.type}
+                className={`${styles.card} ${isCardLocked(card.type) ? styles.locked : ''}`}
               >
-                {message.content}
+                <div className={styles.cardheading}>{card.heading}</div>
+                <div className={styles.cardtext}>{card.text}</div>
+                {!isCardLocked(card.type) ? (
+                  <Link href={`WritingPractice/${card.link}`} className={styles.btn}>
+                    Start Learning
+                  </Link>
+                ) : (
+                  <div className={styles.lockedText}><FaLock className={styles.lock} />Locked</div>
+                )}
               </div>
-            </div>
-          ))}
-
-          {/* Loading Indicator */}
-          {loading && (
-            <div className={`${styles.chatmessage} ${styles.assistant}`}>
-              <div className={`${styles.chatbubble} ${styles.assistant}`}>
-                Chatbot is typing...
-              </div>
-            </div>
-          )}
+            ))}
+          </div>
         </div>
-
-        {/* Input Area */}
-        <div className={styles.inputarea}>
-          <textarea
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            className={styles.inputtextarea}
-            rows={2}
-          ></textarea>
-          <button onClick={handleSubmit} className={styles.inputbutton} disabled={loading}>
-            {loading ? 'Loading...' : 'Send'}
-          </button>
-        </div>
-      </div>
-    </div>
+      </main>
+    </>
   );
-};
-
-export default ChatGPTComponent;
+}

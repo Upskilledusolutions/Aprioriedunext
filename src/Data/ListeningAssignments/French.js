@@ -308,5 +308,317 @@ export const data = [
         }
       ],
     ]
+  },
+  {
+    id:'6',
+    name:'French Listening Assignment 6 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French06.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+          {
+            "question": "Que demande l'homme au début de la conversation ?",
+            "choices": ["Où habite Marie", "Si Marie a des frères et sœurs", "Quel est le nom de son frère", "Ce qu'elle fait le dimanche"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Combien de frères ou sœurs Marie a-t-elle ?",
+            "choices": ["Deux frères", "Une sœur", "Un frère", "Aucun"],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Comment s’appelle la sœur de l’homme ?",
+            "choices": ["Marie", "Thomas", "Claire", "Sophie"],
+            "correctAnswer": 2
+          },
+          {
+            "question": "Comment s’appelle le frère de Marie ?",
+            "choices": ["Claire", "Thomas", "Paul", "Pierre"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Que fait la famille de Marie chaque dimanche ?",
+            "choices": ["Ils font des randonnées", "Ils déjeunent ensemble", "Ils vont au cinéma", "Ils jouent au football"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Qu’aime faire la famille de l’homme ?",
+            "choices": ["Faire des randonnées", "Déjeuner ensemble", "Aller au parc", "Regarder la télé"],
+            "correctAnswer": 0
+          },
+          {
+            "question": "Que dit la femme sur les randonnées ?",
+            "choices": ["Ce n'est pas amusant", "Ça a l'air amusant", "Elle déteste ça", "Elle veut venir"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Que dit l'homme à la fin de la conversation ?",
+            "choices": ["Il préfère rester chez lui", "C'était un bon moment", "Il n'aime pas les randonnées", "Il veut déjeuner en famille"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Qui aime faire des randonnées ?",
+            "choices": ["La femme et son frère", "L’homme et sa famille", "Marie seule", "Thomas"],
+            "correctAnswer": 1
+          },
+          {
+            "question": "Que signifie « déjeuner » dans le contexte de la conversation ?",
+            "choices": ["Manger le petit-déjeuner", "Manger le déjeuner", "Manger le dîner", "Manger un goûter"],
+            "correctAnswer": 1
+          }
+        ]
+        
+      ],
+  },
+  {
+    id:'7',
+    name:'French Listening Assignment 7 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French07.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+            {
+              "question": "Que cherche l’homme au début de la conversation ?",
+              "choices": ["Une maison", "Un deux-pièces", "Une voiture", "Un studio"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Combien coûte l’appartement par mois ?",
+              "choices": ["500 euros", "600 euros", "700 euros", "800 euros"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Que demande l’homme à propos de l’appartement ?",
+              "choices": ["S'il est meublé", "S'il a un balcon", "Combien de chambres il a", "Où il est situé"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Comment est le balcon de l’appartement ?",
+              "choices": ["Grand", "Petit", "Moyen", "Il n’y a pas de balcon"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Combien de mois de caution faut-il payer ?",
+              "choices": ["Un mois", "Deux mois", "Trois mois", "Pas de caution"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Que signifie « caution » dans le contexte de la conversation ?",
+              "choices": ["Un loyer mensuel", "Une assurance habitation", "Une garantie financière", "Une clé de l’appartement"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Quelle est la durée du bail proposé ?",
+              "choices": ["Trois mois", "Six mois", "Un an", "Deux ans"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Que veut faire l’homme après la conversation ?",
+              "choices": ["Louer immédiatement", "Y réfléchir", "Visiter l’appartement", "Chercher un autre appartement"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Que dit la femme à la fin de la conversation ?",
+              "choices": ["Elle ne peut pas attendre", "Elle va rappeler l’homme", "Elle demande à l’homme de la tenir au courant", "Elle ne veut pas signer le bail"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Que signifie « bail » dans cette conversation ?",
+              "choices": ["Le prix du loyer", "Le contrat de location", "La clé de l’appartement", "La garantie financière"],
+              "correctAnswer": 1
+            }
+          ]          
+        
+      ],
+  },
+  {
+    id:'8',
+    name:'French Listening Assignment 8 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French08.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+            {
+              "question": "À quelle heure Emma se lève-t-elle ?",
+              "choices": ["6 heures", "7 heures", "8 heures", "9 heures"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Que fait Emma après s’être levée ?",
+              "choices": ["Elle va au travail", "Elle fait du sport", "Elle prend son petit-déjeuner", "Elle regarde la télévision"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "À quelle heure Emma commence-t-elle à travailler ?",
+              "choices": ["8 heures", "9 heures", "10 heures", "11 heures"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "À quelle heure Emma termine-t-elle son travail ?",
+              "choices": ["4 heures", "5 heures", "6 heures", "7 heures"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Que fait Emma le soir après le travail ?",
+              "choices": ["Elle dîne et regarde la télévision", "Elle sort avec des amis", "Elle lit un livre", "Elle joue de la guitare"],
+              "correctAnswer": 0
+            },
+            {
+              "question": "Quel passe-temps Emma aime-t-elle ?",
+              "choices": ["Jouer de la guitare", "Lire", "Regarder des films", "Cuisiner"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Quel est le passe-temps de Lucas ?",
+              "choices": ["Lire", "Jouer de la guitare", "Peindre", "Regarder la télévision"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Que dit Emma à propos du passe-temps de Lucas ?",
+              "choices": ["Elle le trouve ennuyeux", "Elle le trouve génial", "Elle veut apprendre la guitare", "Elle préfère cuisiner"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Qui dit : « Moi aussi ! » ?",
+              "choices": ["Lucas", "Emma", "Un autre personnage", "Personne"],
+              "correctAnswer": 0
+            },
+            {
+              "question": "Quelle est la relation entre Emma et Lucas ?",
+              "choices": ["Ils sont collègues", "Ils sont amis", "Ils sont frères et sœurs", "Ce n'est pas précisé"],
+              "correctAnswer": 3
+            }
+          ]          
+    ]
+  },
+  {
+    id:'9',
+    name:'French Listening Assignment 9 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French09.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+            {
+              "question": "Quel temps fait-il aujourd’hui ?",
+              "choices": ["Il pleut", "Il fait beau et ensoleillé", "Il neige", "Il fait froid"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Que pense Paul du soleil ?",
+              "choices": ["Il n’aime pas le soleil", "Il adore le soleil", "Il préfère la pluie", "Il ne dit rien"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Quelle est la saison préférée de Sophie ?",
+              "choices": ["L'hiver", "L'été", "Le printemps", "L'automne"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Quelle est la saison préférée de Paul ?",
+              "choices": ["L'été", "L'automne", "L'hiver", "Le printemps"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Qu'aime faire Sophie en hiver ?",
+              "choices": ["De la randonnée", "Du ski", "Aller à la plage", "Rester à la maison"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Qu'aime faire Paul en été ?",
+              "choices": ["Du ski", "Aller à la plage", "De la randonnée", "Lire à la maison"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Que propose Sophie à la fin de la conversation ?",
+              "choices": ["Aller à la plage", "Faire du ski", "Aller se promener", "Rester chez elle"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Comment Paul répond-il à la suggestion de Sophie ?",
+              "choices": ["Il refuse", "Il propose une autre idée", "Il est d’accord", "Il ne répond pas"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Que signifie « agréable » dans le contexte de la conversation ?",
+              "choices": ["Mauvais", "Agréable à regarder", "Plaisant", "Ennuyeux"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Où aime aller Sophie en été ?",
+              "choices": ["À la montagne", "À la plage", "Chez ses amis", "Au cinéma"],
+              "correctAnswer": 1
+            }
+          ]          
+    ]
+  },
+  {
+    id:'10',
+    name:'French Listening Assignment 10 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French10.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+            {
+              "question": "Que planifient Marc et la femme ?",
+              "choices": ["Un dîner", "Des vacances", "Une sortie au musée", "Une fête"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Où la femme veut-elle aller ?",
+              "choices": ["En Espagne", "En Italie", "En France", "En Allemagne"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Quelle ville Marc veut-il visiter ?",
+              "choices": ["Milan", "Venise", "Rome", "Naples"],
+              "correctAnswer": 2
+            },
+            {
+              "question": "Qu’est-ce que Marc veut faire en plus de visiter Rome ?",
+              "choices": ["Aller à la montagne", "Aller à la plage", "Faire du shopping", "Regarder un film"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Que veut voir Marc pendant les vacances ?",
+              "choices": ["Des musées", "Des parcs d’attractions", "Des montagnes", "Des stades de football"],
+              "correctAnswer": 0
+            },
+            {
+              "question": "Qu’est-ce que la femme mentionne sur la cuisine italienne ?",
+              "choices": ["Elle aime les pizzas", "Elle adore la cuisine italienne", "Elle préfère la cuisine française", "Elle ne dit rien"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Que dit Marc sur les pâtes ?",
+              "choices": ["Il aime les pâtes", "Il n’aime pas les pâtes", "Il préfère les pizzas", "Il ne parle pas de pâtes"],
+              "correctAnswer": 0
+            },
+            {
+              "question": "Où veulent-ils réserver un hôtel ?",
+              "choices": ["Près de la plage", "Dans le centre", "En dehors de la ville", "À la campagne"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Pour combien de jours planifient-ils leurs vacances ?",
+              "choices": ["Trois jours", "Une semaine", "Deux semaines", "Dix jours"],
+              "correctAnswer": 1
+            },
+            {
+              "question": "Que dit la femme à la fin de la conversation ?",
+              "choices": ["Elle est fatiguée", "Elle a hâte de partir", "Elle change d’avis sur l’Italie", "Elle préfère aller en Espagne"],
+              "correctAnswer": 1
+            }
+          ]          
+    ]
   }
 ]

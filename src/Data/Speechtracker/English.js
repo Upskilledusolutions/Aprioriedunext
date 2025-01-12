@@ -58,5 +58,11 @@ export const data = [
         name: 'English Reading Practice 10 (A1)',
         level: 'Intermediate',
         readingText: "Traveling allows people to experience new cultures and meet new people. It broadens the mind and helps individuals develop a better understanding of the world. Whether visiting a nearby city or traveling to a distant country, the experience can be life-changing. Traveling exposes us to different languages, customs, and perspectives, making us more open-minded and adaptable."
+    },
+    {
+        id: '11',
+        name: 'English Reading Practice 11 (A1)',
+        level: 'Intermediate',
+        readingText: "Le temps peut changer rapidement en montagne. Il est important de se préparer à différentes conditions. En été, les journées sont chaudes et ensoleillées, mais il peut faire froid le soir. En hiver, la neige recouvre le sol et les températures peuvent descendre en dessous de zéro. Emportez toujours des vêtements et des fournitures supplémentaires lorsque vous faites une randonnée en montagne."
     }
 ];
