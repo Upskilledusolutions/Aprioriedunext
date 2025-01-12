@@ -130,7 +130,7 @@ const SpeechTracker = ({ data, code }) => {
         className={`${styles.toggleButton} ${isListening ? styles.listening : ""}`}
         onClick={toggleListening}
       >
-        {isListening ? "Stop Listening" : "Start Listening"}
+        {isListening ? "Stop Speaking" : "Start Speaking"}
       </button>
       <button
         className={styles.readAloudButton}

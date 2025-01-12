@@ -3,7 +3,7 @@ export const data = [
         id: '1',
         name: 'German Reading Practice 1 (A1)',
         level: 'Beginner',
-        readingText: "Hallo, ich heiße Marie. Ich bin 25 Jahre alt und wohne in Berlin, Deutschland. Ich studiere Biologie an der Universität. In meiner Freizeit lese ich gerne Bücher, höre Musik und koche. Ich habe einen Bruder, der Lucas heißt. Er ist jünger als ich. Ich liebe es, neue Leute kennenzulernen und neue Kulturen zu entdecken. Schön, Sie kennenzulernen!"
+        readingText: "Hallo, Ich bin ein deutscher Student. Ich bin 25 Jahre alt und wohne in Berlin, Deutschland. Ich studiere Biologie an der Universität. In meiner Freizeit lese ich gerne Bücher, höre Musik und koche. Ich habe einen Bruder, der Lucas heißt. Er ist jünger als ich. Ich liebe es, neue Leute kennenzulernen und neue Kulturen zu entdecken. Schön, Sie kennenzulernen!"
     },
     {
         id: '2',
