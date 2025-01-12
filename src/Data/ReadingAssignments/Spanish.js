@@ -1,182 +1,3 @@
-// export const data = [
-//     {
-//         id:'1',
-//         name:'Spanish Reading Assignment 1 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1fiJulijUgxz9kebT-ffR14VrIqCDSKQB/preview',
-//         desc:'Spanish Reading Assignments 1 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'2',
-//         name:'Spanish Reading Assignment 2 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1cuxEjYLNXcTeTUqlg6eZf1F28aYbBfc4/preview',
-//         desc:'Spanish Reading Assignments 2 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'3',
-//         name:'Spanish Reading Assignment 3 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1JaNfzKgB7nCJwln2EMwipr2YnI1GRB7N/preview',
-//         desc:'Spanish Reading Assignments 3 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'4',
-//         name:'Spanish Reading Assignment 4 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1TQOwUF1L6kGkF_yVu2pbrK2Yltq2ZGQG/preview',
-//         desc:'Spanish Reading Assignments 4 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'5',
-//         name:'Spanish Reading Assignment 5 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/13ngu9Qn5hTLtg-Q3Aosk_ZzF4WlUmHp0/preview',
-//         desc:'Spanish Reading Assignments 5 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'6',
-//         name:'Spanish Reading Assignment 6 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1SiY2vy-7daZCtnnKilwlNtRIeZSy_STX/preview',
-//         desc:'Spanish Reading Assignments 6 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'7',
-//         name:'Spanish Reading Assignment 7 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1KMSivw0c-N02U-hkUhsL1QPD9W6K3Pap/preview',
-//         desc:'Spanish Reading Assignments 7 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'8',
-//         name:'Spanish Reading Assignment 8 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1NYJ7PNonNHllHu23ogx14xh56IQrsMiD/preview',
-//         desc:'Spanish Reading Assignments 8 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'9',
-//         name:'Spanish Reading Assignment 9 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1IsLlpX_AHWYJ_XPmOCAt266kRgY-aMEt/preview',
-//         desc:'Spanish Reading Assignments 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'10',
-//         name:'Spanish Reading Assignment 10 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1hoWPJn-0L6FUDcef-5J0STfJZKFR14dt/preview',
-//         desc:'Spanish Reading Assignments 10 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'11',
-//         name:'Spanish Reading Assignment 11 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1XOxpLOJdRp17HES9IeZ9GTxe3qe9w5TB/preview',
-//         desc:'Spanish Reading Assignments 11 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'12',
-//         name:'Spanish Reading Assignment 12 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1FuqrLpUQvSNUlzF9lxEGtdKB8XXakRkf/preview',
-//         desc:'Spanish Reading Assignments 12 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'13',
-//         name:'Spanish Reading Assignment 13 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1QgnIs3ccEJ2Ek-0dMoitwLd5m_07L30q/preview',
-//         desc:'Spanish Reading Assignments 13 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'14',
-//         name:'Spanish Reading Assignment 14 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1yi-bTSRwnz37mx1EL1BcZPblGyWIXJ9Q/preview',
-//         desc:'Spanish Reading Assignments 14 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'15',
-//         name:'Spanish Reading Assignment 15 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1nVRHnHqTqGStbO_eXoKby3PnrldAFCCG/preview',
-//         desc:'Spanish Reading Assignments 15 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'16',
-//         name:'Spanish Reading Assignment 16 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1eqSLlPg6W6Bjy0-m0ThaaQKV3DqxZrLJ/preview',
-//         desc:'Spanish Reading Assignments 16 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'22',
-//         name:'Spanish Reading Assignment 3 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1FS-3PnTLb66LnNxUFnFg64_GE7xVhhi3/preview',
-//         desc:'Spanish Reading Assignments 3 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'23',
-//         name:'Spanish Reading Assignment 4 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1kIDjA2JgLX_T-HrLtcr0Msps8ozazy8z/preview',
-//         desc:'Spanish Reading Assignments 4 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'24',
-//         name:'Spanish Reading Assignment 5 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1afoz7-MyASihEr0Iw-aNtraEDoS1sKFr/preview',
-//         desc:'Spanish Reading Assignments 5 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'25',
-//         name:'Spanish Reading Assignment 6 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/14laF3c5esTXHJjvUkRevy4Kl0gPFGyPt/preview',
-//         desc:'Spanish Reading Assignments 6 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'26',
-//         name:'Spanish Reading Assignment 7 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1dCOVh9X22DhIBOfjndESGyOd4VZQ1F-b/preview',
-//         desc:'Spanish Reading Assignments 7 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'27',
-//         name:'Spanish Reading Assignment 8 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1MEFBnf6MsfSq7GTunrnxRDzfUQPZaJY0/preview',
-//         desc:'Spanish Reading Assignments 8 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'28',
-//         name:'Spanish Reading Assignment 9 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1MWJ7QLXE0nwIW6atzrmSNb_oLfDEvjmm/preview',
-//         desc:'Spanish Reading Assignments 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'29',
-//         name:'Spanish Reading Assignment 10 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/19gyCAmHGtT1N6tvvJmbuNOd7v68V-2qM/preview',
-//         desc:'Spanish Reading Assignments 10 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'30',
-//         name:'Spanish Reading Assignment 11 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1SeTVwbgcHHl7d6sZS5qaye6xjOfeCCHF/preview',
-//         desc:'Spanish Reading Assignments 11 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-// ]
-
-
 export const data = [
     {
         id:'1',
@@ -649,5 +470,654 @@ export const data = [
         "correctAnswer": 1
       }
       ],
+},
+{
+  id:'9',
+  name:'Spanish Reading Assignment 9 (A1)',
+  level:'Beginner',
+  Title:'La Cultura Española',
+  readingText: "La cultura española es una de las más ricas y variadas del mundo. A lo largo de los siglos, España ha sido influenciada por diversas civilizaciones, como los romanos, los visigodos, los musulmanes y los cristianos, lo que ha dado lugar a una mezcla única de tradiciones, costumbres y arte. España es famosa por su patrimonio arquitectónico, con monumentos tan emblemáticos como la Alhambra en Granada, la Sagrada Familia en Barcelona y el Palacio Real en Madrid. La música flamenca y las danzas tradicionales también son parte fundamental de la identidad española, al igual que las corridas de toros, que, aunque polémicas, forman parte de la historia cultural del país. \nSpanish culture is one of the richest and most varied in the world. Over the centuries, Spain has been influenced by various civilizations, such as the Romans, the Visigoths, the Muslims, and the Christians, which has resulted in a unique blend of traditions, customs, and art. Spain is famous for its architectural heritage, with iconic monuments such as the Alhambra in Granada, the Sagrada Familia in Barcelona, and the Royal Palace in Madrid. Flamenco music and traditional dances are also a fundamental part of Spain's identity, as well as bullfighting, which, though controversial, is part of the country's cultural history.",
+  questions: [
+    {
+      "question": "¿Qué influencia ha tenido España a lo largo de los siglos?",
+      "choices": ["Solo los romanos", "Diversas civilizaciones", "Solo los musulmanes", "Solo los cristianos"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué ha dado lugar a una mezcla única de tradiciones, costumbres y arte en España?",
+      "choices": ["Las civilizaciones antiguas", "Las guerras", "Las costumbres de los cristianos", "Las corridas de toros"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Cuál es un monumento famoso en Granada?",
+      "choices": ["La Alhambra", "El Palacio Real", "La Sagrada Familia", "El Museo del Prado"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué monumento famoso se encuentra en Barcelona?",
+      "choices": ["La Alhambra", "La Sagrada Familia", "El Palacio Real", "La Torre Eiffel"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Dónde se encuentra el Palacio Real?",
+      "choices": ["En Barcelona", "En Madrid", "En Granada", "En Sevilla"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué tipo de música es famosa en España?",
+      "choices": ["Flamenca", "Jazz", "Rock", "Pop"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué son las corridas de toros?",
+      "choices": ["Un deporte", "Un tipo de danza", "Parte de la historia cultural de España", "Un festival de música"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué forma parte de la identidad española además de la música flamenca?",
+      "choices": ["Las corridas de toros", "La comida italiana", "Las tradiciones alemanas", "El cine francés"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Cuál de estas civilizaciones NO ha influido en la cultura española?",
+      "choices": ["Los visigodos", "Los romanos", "Los musulmanes", "Los franceses"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "¿Cómo se describe la cultura española?",
+      "choices": ["Pobre y triste", "Rica y variada", "Moderna y aburrida", "Poca conocida"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'10',
+  name:'Spanish Reading Assignment 10 (A1)',
+  level:'Beginner',
+  Title:'La Gastronomía Española',
+  readingText: "La gastronomía española es reconocida mundialmente por su diversidad y sabor. En cada región de España se encuentran platos únicos que reflejan tanto la historia como la geografía del lugar. Entre los platos más conocidos están la paella, originaria de Valencia, y el gazpacho, una sopa fría andaluza. Las tapas, pequeñas porciones de comida que se sirven en bares y restaurantes, también son muy populares y permiten a los comensales disfrutar de una variedad de sabores en una sola comida. Además, España es famosa por su producción de aceite de oliva, jamón ibérico y vinos de renombre, como los de La Rioja y Ribera del Duero. \nSpanish cuisine is globally recognized for its diversity and flavor. In every region of Spain, there are unique dishes that reflect both the history and geography of the place. Among the most well-known dishes are paella, originating from Valencia, and gazpacho, a cold soup from Andalusia. Tapas, small portions of food served in bars and restaurants, are also very popular and allow diners to enjoy a variety of flavors in a single meal. Furthermore, Spain is famous for its production of olive oil, Iberian ham, and renowned wines such as those from La Rioja and Ribera del Duero.",
+  questions: [
+    {
+      "question": "¿Por qué es famosa la gastronomía española?",
+      "choices": ["Por su simplicidad", "Por su diversidad y sabor", "Por la cantidad de carne", "Por los postres"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿De dónde es originaria la paella?",
+      "choices": ["Madrid", "Valencia", "Sevilla", "Barcelona"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué tipo de sopa es el gazpacho?",
+      "choices": ["Sopa fría andaluza", "Sopa caliente de pollo", "Sopa de pescado", "Sopa de verduras"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué son las tapas?",
+      "choices": ["Postres típicos", "Bebidas tradicionales", "Pequeñas porciones de comida", "Dulces"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Dónde se sirven las tapas generalmente?",
+      "choices": ["En casa", "En bares y restaurantes", "En la playa", "En tiendas de comestibles"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué producto es famoso en España además de la comida?",
+      "choices": ["Aceite de oliva", "Café", "Chocolate", "Frutas tropicales"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué tipo de jamón es famoso en España?",
+      "choices": ["Jamón ibérico", "Jamón de pavo", "Jamón cocido", "Jamón serrano"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Cuál de estos vinos es de renombre en España?",
+      "choices": ["Vino de La Rioja", "Vino de Napa Valley", "Vino de Bordeaux", "Vino de Toscana"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué refleja la gastronomía de cada región de España?",
+      "choices": ["La religión", "La historia y geografía del lugar", "La política", "El clima frío"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué se puede disfrutar con las tapas?",
+      "choices": ["Un solo sabor", "Una variedad de sabores", "Solo platos principales", "Solamente postres"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'11',
+  name:'Spanish Reading Assignment 11 (A1)',
+  level:'Beginner',
+  Title:'El Turismo en España',
+  readingText: "España es uno de los destinos turísticos más visitados del mundo, y no es difícil entender por qué. Con su clima cálido, hermosos paisajes y una gran variedad de actividades, España ofrece algo para todos. Las playas de la Costa Brava y la Costa del Sol atraen a millones de turistas cada año, mientras que las ciudades históricas como Barcelona, Madrid, Sevilla y Granada son centros culturales y artísticos. Además, los turistas pueden disfrutar de las montañas de los Pirineos para practicar deportes de invierno o explorar los senderos en las Islas Canarias. La rica historia de España, sus museos y su vibrante vida nocturna son solo algunos de los atractivos que hacen que España sea un destino incomparable. \nSpain is one of the most visited tourist destinations in the world, and it’s not hard to understand why. With its warm climate, beautiful landscapes, and a wide variety of activities, Spain offers something for everyone. The beaches of the Costa Brava and Costa del Sol attract millions of tourists every year, while historical cities like Barcelona, Madrid, Seville, and Granada are cultural and artistic hubs. Additionally, tourists can enjoy the Pyrenees mountains for winter sports or explore the trails in the Canary Islands. Spain’s rich history, its museums, and vibrant nightlife are just some of the attractions that make Spain an unmatched destination.",
+  questions: [
+    {
+      "question": "¿Por qué España es uno de los destinos turísticos más visitados del mundo?",
+      "choices": ["Por su clima cálido, hermosos paisajes y variedad de actividades", "Por su gastronomía", "Por sus festivales", "Por su economía"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué atrae a millones de turistas cada año a la Costa Brava y la Costa del Sol?",
+      "choices": ["El clima frío", "Las playas", "Las montañas", "Las ciudades históricas"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Cuáles son algunas de las ciudades históricas mencionadas en el texto?",
+      "choices": ["Barcelona, Madrid, Sevilla y Granada", "Valencia, Salamanca, Toledo y Zaragoza", "Bilbao, Málaga, Alicante y León", "Córdoba, Valencia, Madrid y Barcelona"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué se puede hacer en las montañas de los Pirineos?",
+      "choices": ["Nadar", "Practicar deportes de invierno", "Tomar el sol", "Hacer turismo urbano"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Dónde se pueden explorar senderos en España?",
+      "choices": ["En la Costa Brava", "En las Islas Canarias", "En Madrid", "En Barcelona"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué atrae a los turistas a las ciudades como Barcelona, Madrid, Sevilla y Granada?",
+      "choices": ["La vida nocturna", "Su historia y cultura", "Las playas", "La comida"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué parte de España es conocida por su vibrante vida nocturna?",
+      "choices": ["Las Islas Canarias", "Madrid y Barcelona", "Las montañas de los Pirineos", "La Costa del Sol"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué tipo de actividades se pueden hacer en España según el texto?",
+      "choices": ["Visitar museos, disfrutar de la vida nocturna, y practicar deportes de invierno", "Nadar y bucear", "Hacer senderismo y correr", "Navegar y practicar deportes acuáticos"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué tipo de paisaje se destaca en España según el texto?",
+      "choices": ["Montañas y desiertos", "Playas, montañas y ciudades históricas", "Llanuras y selvas", "Bosques y bosques tropicales"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué hace que España sea un destino incomparable?",
+      "choices": ["Su clima cálido y hermosos paisajes", "La gran variedad de actividades y su historia", "Sus parques naturales y deportes acuáticos", "La vida nocturna y sus festivales"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'12',
+  name:'Spanish Reading Assignment 12 (A1)',
+  level:'Beginner',
+  Title:'La Historia de España',
+  readingText: "La historia de España es compleja y fascinante, llena de acontecimientos que han marcado tanto al país como al mundo. Durante la Edad Media, España estuvo dividida en varios reinos cristianos y musulmanes, y la convivencia entre ambas culturas dejó una huella profunda en la arquitectura, la lengua y la comida del país. En 1492, los Reyes Católicos unificaron España, y Cristóbal Colón llegó al Nuevo Mundo, lo que dio inicio a una era de exploración y colonización. La Guerra Civil Española, que tuvo lugar entre 1936 y 1939, fue otro evento crucial, que resultó en la dictadura de Francisco Franco hasta su muerte en 1975. La transición a la democracia y la entrada en la Unión Europea en los años 80 marcaron el comienzo de una nueva era para España. \nThe history of Spain is complex and fascinating, full of events that have shaped both the country and the world. During the Middle Ages, Spain was divided into several Christian and Muslim kingdoms, and the coexistence of both cultures left a profound mark on the country’s architecture, language, and cuisine. In 1492, the Catholic Monarchs unified Spain, and Christopher Columbus arrived in the New World, marking the beginning of an era of exploration and colonization. The Spanish Civil War, which took place between 1936 and 1939, was another crucial event, resulting in the dictatorship of Francisco Franco until his death in 1975. The transition to democracy and Spain's entry into the European Union in the 1980s marked the beginning of a new era for Spain.",
+  questions: [
+    {
+      "question": "¿Qué acontecimiento importante ocurrió en 1492?",
+      "choices": ["La Guerra Civil Española", "La unificación de España y el descubrimiento de América", "La dictadura de Francisco Franco", "La entrada de España en la Unión Europea"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Quién llegó al Nuevo Mundo en 1492?",
+      "choices": ["Hernán Cortés", "Francisco Franco", "Cristóbal Colón", "Fernando de Aragón"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué evento marcó la historia de España entre 1936 y 1939?",
+      "choices": ["La transición a la democracia", "La Edad Media", "La Guerra Civil Española", "La colonización de América"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué dictador gobernó España hasta 1975?",
+      "choices": ["Felipe VI", "Francisco Franco", "Juan Carlos I", "Carlos I"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Cuándo tuvo lugar la transición a la democracia en España?",
+      "choices": ["En los años 80", "En 1492", "En 1936", "En 1975"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué evento marcó el comienzo de la unificación de España?",
+      "choices": ["La Edad Media", "La llegada de Cristóbal Colón al Nuevo Mundo", "La muerte de Francisco Franco", "La unificación de los Reyes Católicos en 1492"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "¿Cómo influyó la convivencia entre culturas en la historia de España?",
+      "choices": ["Causó conflictos bélicos", "Dejó huella en la arquitectura, lengua y comida", "Transformó la política del país", "Hizo que España fuera un país sin cultura propia"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué evento histórico ocurrió después de la muerte de Francisco Franco?",
+      "choices": ["La Guerra Civil Española", "La dictadura de Franco", "La transición a la democracia", "La entrada de España en la Unión Europea"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Cómo se describe la historia de España?",
+      "choices": ["Simple y tranquila", "Compleja y fascinante", "Aburrida y monótona", "Sin importancia"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué aspecto importante se menciona sobre la Edad Media en España?",
+      "choices": ["Era una época de paz y prosperidad", "Estaba dividida en reinos cristianos y musulmanes", "Era una época de exploración y colonización", "No tuvo influencia en la cultura española"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'13',
+  name:'Spanish Reading Assignment 13 (A1)',
+  level:'Beginner',
+  Title:"El Arte en España",
+  readingText: "España ha sido el hogar de algunos de los artistas más influyentes de la historia. Desde el pintor renacentista El Greco hasta el revolucionario cubista Pablo Picasso, el arte español ha sido una parte integral de la cultura mundial. En el siglo XVI, pintores como Velázquez y Zurbarán contribuyeron al Siglo de Oro español, creando obras maestras que ahora se exhiben en museos como el Museo del Prado en Madrid. A lo largo del siglo XX, el surrealismo de Salvador Dalí y las innovaciones de Antoni Gaudí en la arquitectura dejaron una huella indeleble. El arte en España sigue floreciendo, con numerosos museos y galerías en todo el país, que permiten a los visitantes sumergirse en la rica tradición artística de España. \nSpain has been home to some of the most influential artists in history. From the Renaissance painter El Greco to the revolutionary cubist Pablo Picasso, Spanish art has been an integral part of world culture. In the 16th century, painters such as Velázquez and Zurbarán contributed to the Spanish Golden Age, creating masterpieces now exhibited in museums such as the Museo del Prado in Madrid. Throughout the 20th century, Salvador Dalí’s surrealism and Antoni Gaudí’s innovations in architecture left an indelible mark. Art in Spain continues to thrive, with numerous museums and galleries throughout the country, allowing visitors to immerse themselves in Spain's rich artistic tradition.",
+  questions: [
+    {
+      "question": "¿Quién fue un pintor renacentista famoso de España?",
+      "choices": ["Pablo Picasso", "Salvador Dalí", "El Greco", "Antoni Gaudí"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué movimiento artístico está relacionado con Salvador Dalí?",
+      "choices": ["Cubismo", "Surrealismo", "Renacimiento", "Impresionismo"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿En qué museo se pueden ver obras del Siglo de Oro español?",
+      "choices": ["Museo de Arte Moderno", "Museo del Prado", "Museo Guggenheim", "Museo Dalí"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué artista español es conocido por su cubismo revolucionario?",
+      "choices": ["El Greco", "Velázquez", "Pablo Picasso", "Zurbarán"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué contribuyó Antoni Gaudí al arte?",
+      "choices": ["Pinturas surrealistas", "Esculturas renacentistas", "Innovaciones en arquitectura", "Obras cubistas"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿En qué siglo se destacó el Siglo de Oro español?",
+      "choices": ["Siglo XVIII", "Siglo XV", "Siglo XVI", "Siglo XX"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué pintor español es conocido por sus obras maestras durante el Siglo de Oro?",
+      "choices": ["Velázquez", "El Greco", "Salvador Dalí", "Antoni Gaudí"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué tipo de arte es Salvador Dalí conocido por?",
+      "choices": ["Pinturas cubistas", "Esculturas renacentistas", "Arte surrealista", "Arquitectura modernista"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Dónde se pueden explorar las innovaciones artísticas de Antoni Gaudí?",
+      "choices": ["En el Museo del Prado", "En la Sagrada Familia", "En el Museo Dalí", "En el Museo Guggenheim"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué sigue siendo una parte integral de la cultura mundial?",
+      "choices": ["La música española", "El arte español", "La literatura española", "La gastronomía española"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'14',
+  name:'Spanish Reading Assignment 14 (A1)',
+  level:'Beginner',
+  Title:'La Diversidad Regional de España',
+  readingText: "España es un país de gran diversidad geográfica y cultural. Cada una de sus 17 comunidades autónomas tiene su propia identidad, tradiciones y, en muchos casos, su propio idioma. En Cataluña, se habla catalán, en Galicia se habla gallego y en el País Vasco, el euskera es el idioma oficial. Esta diversidad cultural se refleja en las fiestas y celebraciones regionales, como la Feria de Abril en Sevilla, la fiesta de San Fermín en Pamplona y la Diada en Cataluña. Además, la cocina varía de una región a otra, con platos como la fabada asturiana en el norte o el pulpo a la gallega en Galicia, lo que hace que cada región de España sea única y fascinante. \nSpain is a country of great geographical and cultural diversity. Each of its 17 autonomous communities has its own identity, traditions, and, in many cases, its own language. In Catalonia, Catalan is spoken; in Galicia, Galician; and in the Basque Country, Basque is the official language. This cultural diversity is reflected in regional festivals and celebrations, such as the Feria de Abril in Seville, the San Fermín festival in Pamplona, and the Diada in Catalonia. Furthermore, cuisine varies from one region to another, with dishes like fabada asturiana in the north or pulpo a la gallega in Galicia, making each region of Spain unique and fascinating.",
+  questions: [
+    {
+      "question": "¿Qué idioma se habla en Cataluña?",
+      "choices": ["Gallego", "Catalán", "Euskera", "Castellano"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué fiesta se celebra en Pamplona?",
+      "choices": ["Feria de Abril", "Diada", "San Fermín", "Las Fallas"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Cuál es el idioma oficial del País Vasco?",
+      "choices": ["Catalán", "Euskera", "Gallego", "Castellano"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué tipo de comida es típica en Galicia?",
+      "choices": ["Fabada asturiana", "Pulpo a la gallega", "Paella", "Tortilla española"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Cuál es la principal característica de la diversidad cultural de España?",
+      "choices": ["Cada región tiene su propio idioma", "La gastronomía es uniforme en todo el país", "El clima es similar en todas las regiones", "Las tradiciones son iguales en todo el país"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿En qué ciudad se celebra la Feria de Abril?",
+      "choices": ["Sevilla", "Madrid", "Barcelona", "Valencia"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué plato es típico del norte de España?",
+      "choices": ["Pulpo a la gallega", "Fabada asturiana", "Paella", "Gazpacho"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué significa que las comunidades autónomas de España tienen su propia identidad?",
+      "choices": ["Cada comunidad tiene su propia moneda", "Cada comunidad tiene su propio idioma", "Cada comunidad tiene un gobierno independiente", "Cada comunidad tiene su propio ejército"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué tipo de plato es la fabada asturiana?",
+      "choices": ["Sopa fría", "Paella", "Plato de arroz", "Guiso"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "¿En qué región de España se habla gallego?",
+      "choices": ["Cataluña", "Galicia", "País Vasco", "Andalucía"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'15',
+  name:'Spanish Reading Assignment 15 (A1)',
+  level:'Beginner',
+  Title:'El Sistema Educativo en España',
+  readingText: "El sistema educativo en España está estructurado en tres niveles principales: educación primaria, secundaria y educación superior. Los niños comienzan la educación primaria a los seis años y la completan a los 12. A continuación, pasan a la educación secundaria, que incluye dos etapas: la ESO (Educación Secundaria Obligatoria), que es gratuita y obligatoria hasta los 16 años, y el Bachillerato, que prepara a los estudiantes para la universidad o la formación profesional. Las universidades españolas son muy prestigiosas y ofrecen una amplia gama de programas en diferentes campos. España también es un destino popular para estudiantes internacionales debido a su calidad educativa y su entorno cultural vibrante. \nThe education system in Spain is structured into three main levels: primary education, secondary education, and higher education. Children start primary education at six years old and finish it at 12. They then move on to secondary education, which includes two stages: the ESO (Compulsory Secondary Education), which is free and compulsory until the age of 16, and Bachillerato, which prepares students for university or vocational training. Spanish universities are very prestigious and offer a wide range of programs in different fields. Spain is also a popular destination for international students due to its high-quality education and vibrant cultural environment.",
+  questions: [
+    {
+      "question": "¿A qué edad comienzan los niños la educación primaria en España?",
+      "choices": ["4 años", "6 años", "8 años", "10 años"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Cuántos niveles principales tiene el sistema educativo en España?",
+      "choices": ["1", "2", "3", "4"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿A qué edad completan los niños la educación primaria?",
+      "choices": ["10 años", "12 años", "14 años", "16 años"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Cuál es la duración de la educación secundaria obligatoria en España?",
+      "choices": ["2 años", "4 años", "6 años", "8 años"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué significa ESO en el contexto del sistema educativo español?",
+      "choices": ["Escuela Secundaria Obligatoria", "Educación Secundaria Obligatoria", "Estudios Secundarios Obligatorios", "Educación Secundaria Oficial"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿El Bachillerato en España es obligatorio?",
+      "choices": ["Sí", "No", "Solo para los que quieren ir a la universidad", "Solo para los estudiantes que eligen formación profesional"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué prepara el Bachillerato en España?",
+      "choices": ["Para la universidad o la formación profesional", "Para el trabajo inmediato", "Para la educación primaria", "Para la educación secundaria obligatoria"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Las universidades españolas son reconocidas por su...",
+      "choices": ["Acceso fácil", "Prestigio", "Económia", "Ubicación"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Por qué España es un destino popular para estudiantes internacionales?",
+      "choices": ["Por su clima cálido", "Por su calidad educativa y su entorno cultural vibrante", "Por su bajo costo de vida", "Por sus tradiciones religiosas"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Cuáles son los tres niveles principales del sistema educativo en España?",
+      "choices": ["Primaria, Secundaria y Superior", "Infantil, Primaria y Secundaria", "Primaria, Secundaria y Universitario", "Secundaria, Universitario y Posgrado"],
+      "correctAnswer": 0
+    }
+    ],
+},
+{
+  id:'16',
+  name:'Spanish Reading Assignment 16 (A1)',
+  level:'Beginner',
+  Title:'El Deporte en España',
+  readingText: "El deporte es una parte importante de la vida en España, y el fútbol es, sin duda, el más popular. Equipos como el Real Madrid y el FC Barcelona son conocidos en todo el mundo, y los partidos entre estos dos gigantes del fútbol, conocidos como El Clásico, son eventos de gran importancia. Además del fútbol, otros deportes como el baloncesto, el tenis y el ciclismo también tienen una gran tradición en España. La tenista Rafael Nadal es uno de los deportistas más famosos del país, y el ciclismo ha dado lugar a leyendas como Miguel Induráin. Los españoles también son apasionados por la vela y los deportes acuáticos, especialmente en las costas mediterráneas. \nSports are an important part of life in Spain, and football is undoubtedly the most popular. Teams like Real Madrid and FC Barcelona are known worldwide, and matches between these two football giants, known as El Clásico, are events of great importance. In addition to football, other sports like basketball, tennis, and cycling also have a strong tradition in Spain. Tennis player Rafael Nadal is one of the country's most famous athletes, and cycling has produced legends like Miguel Induráin. Spaniards are also passionate about sailing and water sports, especially along the Mediterranean coasts.",
+  questions: [
+    {
+      "question": "¿Cuál es el deporte más popular en España?",
+      "choices": ["Fútbol", "Baloncesto", "Tenis", "Ciclismo"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué equipos de fútbol son conocidos en todo el mundo?",
+      "choices": ["Real Madrid y FC Barcelona", "Atlético de Madrid y Sevilla", "Valencia y Deportivo La Coruña", "Bayern Múnich y Paris Saint-Germain"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Cómo se llaman los partidos entre el Real Madrid y el FC Barcelona?",
+      "choices": ["El Partido del Siglo", "El Clásico", "La Final", "El Derbi"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué deporte tiene una gran tradición en España además del fútbol?",
+      "choices": ["Baloncesto", "Béisbol", "Rugby", "Golf"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Quién es uno de los deportistas más famosos de España en tenis?",
+      "choices": ["Rafael Nadal", "Pablo Carreño", "Fernando Verdasco", "David Ferrer"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué ciclista español ha dejado una huella importante en la historia del ciclismo?",
+      "choices": ["Miguel Induráin", "Alberto Contador", "Carlos Sastre", "Luis León Sánchez"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué deportes acuáticos son populares en las costas mediterráneas de España?",
+      "choices": ["Vela y deportes acuáticos", "Surf y esquí acuático", "Natación y piragüismo", "Snorkel y buceo"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué tipo de deportes disfrutan especialmente los españoles en las costas mediterráneas?",
+      "choices": ["Vela y deportes acuáticos", "Fútbol y baloncesto", "Tenis y ciclismo", "Rugby y béisbol"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué deporte ha dado lugar a leyendas como Miguel Induráin?",
+      "choices": ["Ciclismo", "Fútbol", "Baloncesto", "Tenis"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué deporte está asociado con el evento El Clásico?",
+      "choices": ["Fútbol", "Baloncesto", "Ciclismo", "Tenis"],
+      "correctAnswer": 0
+    }
+    ],
+},
+{
+  id:'17',
+  name:'Spanish Reading Assignment 17 (A1)',
+  level:'Beginner',
+  Title:'La Política en España',
+  readingText: "España es una monarquía parlamentaria, lo que significa que el rey o la reina es el jefe del estado, pero el poder político real recae en el parlamento y el gobierno. El sistema político español está basado en una constitución aprobada en 1978, que garantiza los derechos y libertades de los ciudadanos y establece las bases del sistema democrático. España tiene una estructura de partidos políticos diversa, con el Partido Socialista Obrero Español (PSOE), el Partido Popular (PP) y otros grupos políticos que compiten en elecciones generales. Las elecciones en España se celebran cada cuatro años, y el gobierno es responsable ante el parlamento. \nSpain is a parliamentary monarchy, meaning the king or queen is the head of state, but real political power lies with parliament and the government. The Spanish political system is based on a constitution approved in 1978, which guarantees the rights and freedoms of citizens and establishes the foundations of the democratic system. Spain has a diverse political party structure, with the Spanish Socialist Workers' Party (PSOE), the Popular Party (PP), and other political groups competing in general elections. Elections in Spain are held every four years, and the government is accountable to parliament.",
+  questions: [
+    {
+      "question": "¿Qué tipo de monarquía tiene España?",
+      "choices": ["Monarquía parlamentaria", "Monarquía absoluta", "República presidencialista", "República parlamentaria"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Quién es el jefe del estado en España?",
+      "choices": ["El parlamento", "El presidente del gobierno", "El rey o la reina", "El primer ministro"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Dónde recae el poder político real en España?",
+      "choices": ["En el rey o la reina", "En el parlamento y el gobierno", "En el ejército", "En los tribunales"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿En qué año se aprobó la constitución española?",
+      "choices": ["1975", "1981", "1978", "1990"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué garantiza la constitución española?",
+      "choices": ["La igualdad de los ciudadanos", "Los derechos y libertades de los ciudadanos", "El poder absoluto del rey", "El control del parlamento sobre el gobierno"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué tipo de sistema político tiene España?",
+      "choices": ["Democracia parlamentaria", "Dictadura militar", "República presidencialista", "Monarquía absoluta"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué partidos políticos son destacados en España?",
+      "choices": ["PSOE y PP", "PSOE y Ciudadanos", "PP y Vox", "Vox y Podemos"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Cada cuánto tiempo se celebran las elecciones generales en España?",
+      "choices": ["Cada dos años", "Cada cuatro años", "Cada cinco años", "Cada seis años"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué establece la constitución española?",
+      "choices": ["Las bases del sistema democrático", "El poder absoluto del monarca", "El poder de la Iglesia sobre el Estado", "La independencia del parlamento"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Quién es responsable ante el parlamento en España?",
+      "choices": ["El rey", "El gobierno", "El ejército", "La constitución"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'18',
+  name:'Spanish Reading Assignment 18 (A1)',
+  level:'Beginner',
+  Title:'El Medio Ambiente en España',
+  readingText: "España enfrenta varios desafíos medioambientales, como la desertificación, la contaminación del aire y el cambio climático. Sin embargo, también está dando pasos importantes para abordar estos problemas. El gobierno español ha implementado políticas de energías renovables y ha promovido el uso de energías limpias como la solar y la eólica. Además, el país tiene varios parques nacionales y áreas protegidas, que ayudan a conservar la biodiversidad y el medio ambiente. Las Islas Canarias, por ejemplo, son un destino importante para los ecoturistas debido a su rica fauna y flora. España también está trabajando en la reducción de residuos y en la mejora de la eficiencia energética para mitigar los efectos del cambio climático. \nSpain faces several environmental challenges, such as desertification, air pollution, and climate change. However, it is also taking significant steps to address these issues. The Spanish government has implemented renewable energy policies and has promoted the use of clean energies such as solar and wind power. Additionally, the country has several national parks and protected areas that help preserve biodiversity and the environment. The Canary Islands, for example, are an important destination for ecotourists due to their rich fauna and flora. Spain is also working on waste reduction and improving energy efficiency to mitigate the effects of climate change.",
+  questions: [
+    {
+      "question": "¿Qué desafíos medioambientales enfrenta España?",
+      "choices": ["La desertificación, la contaminación del aire y el cambio climático", "La escasez de recursos hídricos", "La deforestación y el sobrepastoreo", "El aumento de la población"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué tipo de energías está promoviendo España para abordar los problemas medioambientales?",
+      "choices": ["Energías renovables", "Energías fósiles", "Energías nucleares", "Energías hidráulicas"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué energías limpias están siendo promovidas en España?",
+      "choices": ["Térmica y geotérmica", "Solar y eólica", "Nuclear y hidroeléctrica", "Carbón y gas natural"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué ayuda a conservar la biodiversidad y el medio ambiente en España?",
+      "choices": ["Los parques nacionales y áreas protegidas", "La reducción de la urbanización", "La educación ambiental", "El control de la población"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Por qué las Islas Canarias son importantes para los ecoturistas?",
+      "choices": ["Por su rica fauna y flora", "Por sus playas turísticas", "Por su clima cálido todo el año", "Por sus monumentos históricos"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué está haciendo España para mitigar los efectos del cambio climático?",
+      "choices": ["Reducir residuos y mejorar la eficiencia energética", "Promover la deforestación", "Aumentar el uso de combustibles fósiles", "Fomentar la agricultura intensiva"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué tipo de política medioambiental ha implementado el gobierno español?",
+      "choices": ["Políticas de expansión urbana", "Políticas de deforestación", "Políticas de industrialización", "Políticas de energías renovables"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "¿Cuál es uno de los principales destinos para ecoturistas en España?",
+      "choices": ["Barcelona", "Madrid", "Las Islas Canarias", "Valencia"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué objetivo tiene el gobierno español con respecto al cambio climático?",
+      "choices": ["Aumentar las emisiones de CO2", "Mitigar los efectos del cambio climático", "Expandir la agricultura intensiva", "Disminuir el uso de energías renovables"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué tipo de energías España está promoviendo para reducir la contaminación?",
+      "choices": ["Energías térmicas", "Energías no renovables", "Energías limpias como la solar y la eólica", "Energías nucleares"],
+      "correctAnswer": 2
+    }
+    ],
+},
+{
+  id:'19',
+  name:'Spanish Reading Assignment 19 (A1)',
+  level:'Beginner',
+  Title:'La Familia en España',
+  readingText: "La familia es un pilar fundamental en la sociedad española, y es común que los miembros de la familia se mantengan muy unidos. Las cenas familiares, especialmente los fines de semana, son una tradición muy arraigada. Los abuelos desempeñan un papel crucial en la crianza de los niños y en el apoyo a los padres. Las familias españolas suelen vivir en casas grandes y pasar tiempo juntos en actividades al aire libre. Aunque la sociedad española está cambiando y se está volviendo más moderna, la familia sigue siendo un valor importante, y las relaciones familiares son clave para el bienestar emocional y social de los individuos. \nFamily is a fundamental pillar in Spanish society, and it is common for family members to remain very close. Family dinners, especially on weekends, are a deeply rooted tradition. Grandparents play a crucial role in raising children and supporting parents. Spanish families often live in large houses and spend time together in outdoor activities. Although Spanish society is changing and becoming more modern, family remains an important value, and family relationships are key to the emotional and social well-being of individuals.",
+  questions: [
+    {
+      "question": "¿Qué es un pilar fundamental en la sociedad española?",
+      "choices": ["El trabajo", "La familia", "La educación", "La política"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué tradición es común en las familias españolas los fines de semana?",
+      "choices": ["Ir al cine", "Salir de compras", "Cenas familiares", "Visitar museos"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué papel desempeñan los abuelos en las familias españolas?",
+      "choices": ["No tienen un papel relevante", "Desempeñan un papel crucial en la crianza de los niños", "Son los encargados de la educación escolar", "Solo cuidan a los animales"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Cómo suelen vivir las familias españolas?",
+      "choices": ["En casas pequeñas", "En apartamentos en el centro de la ciudad", "En casas grandes", "En pisos de alquiler"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué tipo de actividades suelen hacer las familias españolas juntas?",
+      "choices": ["Ir al gimnasio", "Pasar tiempo en actividades al aire libre", "Ver televisión en casa", "Jugar videojuegos"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Cómo está cambiando la sociedad española?",
+      "choices": ["Está volviéndose más moderna", "Está volviéndose más tradicional", "Está perdiendo valores", "Está volviendo al campo"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué sigue siendo un valor importante en la sociedad española?",
+      "choices": ["La familia", "El dinero", "La tecnología", "La política"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "¿Qué se considera clave para el bienestar emocional y social de los individuos en España?",
+      "choices": ["La amistad", "Las relaciones familiares", "El trabajo", "La religión"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "¿Qué se menciona como una característica de la vida familiar en España?",
+      "choices": ["La falta de tiempo juntos", "La vida individual", "La cercanía y unión entre los miembros", "El aislamiento"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "¿Qué tipo de sociedad está surgiendo en España?",
+      "choices": ["Una sociedad más moderna", "Una sociedad rural", "Una sociedad cerrada", "Una sociedad más conservadora"],
+      "correctAnswer": 0
+    }
+    ],
 },
 ]

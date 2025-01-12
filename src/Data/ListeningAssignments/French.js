@@ -620,5 +620,563 @@ export const data = [
             }
           ]          
     ]
-  }
+  },
+  {
+    id:'11',
+    name:'French Listening Assignment 11 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French11.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "What is the patient’s main complaint?",
+          "choices": ["I have a cough", "I have a headache", "I have a fever", "I have a sore throat"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "How long has the patient been feeling unwell?",
+          "choices": ["For one day", "For two days", "For three days", "For a week"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What other symptoms does the patient have?",
+          "choices": ["Fatigue", "Fever and cough", "Sore throat and headache", "Stomach ache"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Does the patient have a sore throat?",
+          "choices": ["No", "Yes, a little", "Yes, a lot", "Not mentioned"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the doctor going to check?",
+          "choices": ["Blood pressure", "Temperature", "Heart rate", "Breathing"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the patient's temperature?",
+          "choices": ["37 degrees", "38 degrees", "39 degrees", "40 degrees"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What advice does the doctor give?",
+          "choices": ["Take a hot shower", "Rest and drink water", "Go to the hospital", "Take antibiotics"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What medicine does the doctor recommend?",
+          "choices": ["Paracetamol", "Aspirin", "Antibiotics", "Cough syrup"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "How does the patient respond after hearing the treatment advice?",
+          "choices": ["I don't want to take medicine", "I don't feel better", "Thank you, doctor!", "I am going to the hospital"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does the doctor say at the end of the conversation?",
+          "choices": ["Goodbye", "Take care of yourself", "Get well soon", "See you next time"],
+          "correctAnswer": 1
+        }
+          ]          
+    ]
+  },
+  {
+    id:'12',
+    name:'French Listening Assignment 12 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French12.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "What is the girl asking the boy at the beginning of the conversation?",
+          "choices": ["Did you enjoy the movie?", "Have you seen the movie?", "What did you think of the hero?", "Was the movie good?"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "When did the boy watch the movie?",
+          "choices": ["Yesterday", "Last week", "This morning", "Two days ago"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What is the girl's opinion about the movie?",
+          "choices": ["It was terrible", "It was good", "It was amazing", "It was okay"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What did the girl think of the hero in the movie?",
+          "choices": ["She didn't like him", "She thought he was funny", "She adored him", "She was scared of him"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the boy's opinion about the hero?",
+          "choices": ["He is very brave", "He is not interesting", "He is scary", "He is weak"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What is the boy's favorite scene in the movie?",
+          "choices": ["The battle scene", "The end", "The middle scene", "The funny scenes"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "How did the girl feel about the ending of the movie?",
+          "choices": ["She was very surprised", "She didn't like it", "It was boring", "She was sad"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What is the girl's favorite scene in the movie?",
+          "choices": ["The end", "The battle in the middle", "The hero's introduction", "The funny moments"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What did the boy think of the villain?",
+          "choices": ["He liked him", "He thought the villain was funny", "He thought the villain was scary", "He thought the villain was weak"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does the girl suggest at the end of the conversation?",
+          "choices": ["To watch a movie together", "To meet next week", "To go for a walk", "To watch another movie this weekend"],
+          "correctAnswer": 3
+        }
+          ]          
+    ]
+  },
+  {
+    id:'13',
+    name:'French Listening Assignment 13 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French13.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "What is the man's name?",
+          "choices": ["Marie", "Léo", "Paul", "Jacques"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the woman's name?",
+          "choices": ["Léo", "Marie", "Sophie", "Lucie"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Who is the man with?",
+          "choices": ["His cousin", "His friend", "His sister", "His brother"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "How long has the woman lived here?",
+          "choices": ["Two years", "One year", "Three years", "Five years"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What does the woman like to do on weekends?",
+          "choices": ["Go to the gym", "Go to the cinema", "Play sports", "Travel"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What sport does the man like?",
+          "choices": ["Tennis", "Football", "Basketball", "Cycling"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What sport does the woman do?",
+          "choices": ["Yoga", "Running", "Swimming", "Cycling"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Where is the man's favorite place to visit?",
+          "choices": ["London", "New York", "Paris", "Rome"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Does the woman like to travel?",
+          "choices": ["No, not really", "Yes, a lot", "Sometimes", "She prefers staying home"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the final topic of the conversation?",
+          "choices": ["They talk about their jobs", "They plan to meet again", "They discuss Paris", "They talk about their families"],
+          "correctAnswer": 1
+        }
+          ]          
+    ]
+  },
+  {
+    id:'14',
+    name:'French Listening Assignment 14 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French14.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "What is the man asking about?",
+          "choices": ["The station", "The restaurant", "The cinema", "The park"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "How far is the station from here?",
+          "choices": ["Five minutes", "Ten minutes", "Fifteen minutes", "Twenty minutes"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "How should the man walk to the station?",
+          "choices": ["Turn right", "Turn left", "Go straight", "Take a bus"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What should the man do at the second street?",
+          "choices": ["Turn right", "Turn left", "Go straight", "Continue walking"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Where is the station?",
+          "choices": ["At the roundabout", "Near the cinema", "At the second street", "Not yet, continue to the roundabout"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "What should the man do after the roundabout?",
+          "choices": ["Turn left", "Turn right", "Take the first exit to the right", "Continue straight"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does the woman wish the man?",
+          "choices": ["A good day", "Good luck", "A good trip", "A good evening"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "What does the man thank the woman for?",
+          "choices": ["Her help", "Her directions", "Her time", "Her kindness"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "How is the man traveling to the station?",
+          "choices": ["By bike", "By car", "On foot", "By bus"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the woman's response when the man thanks her?",
+          "choices": ["You're welcome", "It's okay", "No problem", "No need"],
+          "correctAnswer": 0
+        }
+          ]          
+    ]
+  },
+  {
+    id:'15',
+    name:'French Listening Assignment 15 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French15.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Quel est le plat préféré de la femme ?",
+          "choices": ["La pizza", "Les pâtes à la bolognaise", "Le fromage", "Les olives"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Qu'est-ce que l'homme aime sur sa pizza ?",
+          "choices": ["Des tomates, des champignons, et du fromage", "Des tomates et du jambon", "Des olives et du fromage de chèvre", "Du fromage et des oignons"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Que met la femme sur sa pizza ?",
+          "choices": ["Des tomates et du fromage", "Des olives et du fromage de chèvre", "Des champignons et du jambon", "Des tomates et des oignons"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que sait faire la femme ?",
+          "choices": ["La pizza", "La bolognaise", "Les pâtes", "Le fromage"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quels ingrédients sont utilisés pour la bolognaise ?",
+          "choices": ["Des tomates et du fromage", "De la viande, des tomates et des oignons", "Du jambon et des olives", "Du fromage et des tomates"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "La bolognaise est-elle difficile à préparer ?",
+          "choices": ["Oui, c'est difficile", "Non, c'est facile", "Oui, il faut beaucoup de temps", "Non, mais c'est compliqué"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pourquoi la femme dit-elle que la bolognaise est délicieuse ?",
+          "choices": ["Parce qu'elle a du fromage", "Parce qu'elle est simple mais délicieuse", "Parce qu'il y a des olives", "Parce qu'elle est épicée"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que va faire l'homme après avoir parlé de la bolognaise ?",
+          "choices": ["Il va essayer de faire la pizza", "Il va essayer de faire la bolognaise", "Il va cuisiner des pâtes", "Il va acheter de la viande"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que dit l'homme à la fin de la conversation ?",
+          "choices": ["Merci", "C'est délicieux", "Bonne journée", "Bon appétit"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Que veut dire 'Mmm' dans la conversation ?",
+          "choices": ["C'est un signe de désapprobation", "C'est un signe de surprise", "C'est un signe de plaisir", "C'est un signe de confusion"],
+          "correctAnswer": 2
+        }
+          ]          
+    ]
+  },
+  {
+    id:'16',
+    name:'French Listening Assignment 16 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French16.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Quel passe-temps aime la fille ?",
+          "choices": ["Jouer au foot", "Écouter de la musique", "Faire du dessin", "Jouer du piano"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel passe-temps aime le garçon ?",
+          "choices": ["Faire du dessin", "Écouter de la musique", "Jouer au foot", "Jouer du piano"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "À quelle fréquence le garçon joue-t-il au foot ?",
+          "choices": ["Chaque jour", "Chaque week-end", "Une fois par mois", "Tous les jours"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que fait la fille comme passe-temps ?",
+          "choices": ["Elle écoute de la musique", "Elle dessine", "Elle joue du piano", "Elle joue au foot"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que dessine la fille ?",
+          "choices": ["Des portraits", "Des paysages", "Des animaux", "Des fleurs"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel instrument de musique la fille joue-t-elle ?",
+          "choices": ["Le violon", "La guitare", "Le piano", "La flûte"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel genre de musique le garçon aime-t-il ?",
+          "choices": ["Le jazz", "Le rock", "La musique classique", "La musique électronique"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel genre de musique la fille aime-t-elle ?",
+          "choices": ["Le rock", "La musique classique", "La musique pop", "Le jazz"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "La fille aime-t-elle dessiner ?",
+          "choices": ["Oui, elle adore ça", "Non, elle n'aime pas", "Elle préfère jouer au foot", "Elle n'a pas de passe-temps"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Que pense le garçon de la fille qui joue du piano ?",
+          "choices": ["Il trouve ça génial", "Il trouve ça ennuyeux", "Il n'aime pas la musique", "Il veut apprendre aussi"],
+          "correctAnswer": 0
+        }
+          ]          
+    ]
+  },
+  {
+    id:'17',
+    name:'French Listening Assignment 17 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French17.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Que veut devenir le garçon ?",
+          "choices": ["Un médecin", "Un ingénieur", "Un professeur", "Un musicien"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que veut devenir la fille ?",
+          "choices": ["Un ingénieur", "Un professeur", "Un médecin", "Un écrivain"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle langue la fille veut-elle enseigner ?",
+          "choices": ["Allemand", "Français", "Anglais", "Espagnol"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel pays la fille veut-elle visiter ?",
+          "choices": ["France", "Italie", "Japon", "États-Unis"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "De quoi rêve le garçon ?",
+          "choices": ["Visiter le Japon", "Aller aux États-Unis", "Enseigner le français", "Devenir professeur"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pourquoi le garçon veut-il visiter les États-Unis ?",
+          "choices": ["Voir les plages", "Voir New York et ses gratte-ciels", "Visiter Disneyland", "Étudier l'anglais"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pourquoi la fille veut-elle visiter le Japon ?",
+          "choices": ["Pour la nourriture et la culture", "Voir les plages", "Pour le climat", "Visiter les villes"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Que souhaite le garçon à la fille ?",
+          "choices": ["Bonne chance pour tes rêves", "Voyager aux États-Unis", "Devenir professeur", "Visiter New York"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Que dit la fille en réponse aux vœux du garçon ?",
+          "choices": ["Merci, toi aussi !", "Je te souhaite le meilleur !", "Bonne chance !", "À bientôt !"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Quel est le rêve de la fille pour l'avenir ?",
+          "choices": ["Devenir professeur", "Devenir ingénieur", "Devenir chef", "Devenir médecin"],
+          "correctAnswer": 0
+        }
+          ]          
+    ]
+  },
+  {
+    id:'18',
+    name:'French Listening Assignment 18 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French18.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Que veut faire l'homme à la réception ?",
+          "choices": ["Demander des informations", "Réserver une chambre", "Changer de chambre", "Faire une plainte"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour combien de personnes l'homme veut-il réserver la chambre ?",
+          "choices": ["Pour une personne", "Pour deux personnes", "Pour trois personnes", "Pour quatre personnes"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour combien de nuits l'homme veut-il réserver la chambre ?",
+          "choices": ["Une nuit", "Deux nuits", "Trois nuits", "Quatre nuits"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle type de lit l'homme préfère-t-il ?",
+          "choices": ["Un lit simple", "Un lit double", "Deux lits simples", "Un lit superposé"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel genre de vue l'homme veut-il dans sa chambre ?",
+          "choices": ["Une vue sur la montagne", "Une vue sur la rue", "Une vue sur la mer", "Une vue sur le jardin"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le petit déjeuner est-il inclus ?",
+          "choices": ["Non", "Oui, mais il faut payer en supplément", "Oui, il est inclus", "Non, mais on peut l'acheter séparément"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est le prix par nuit ?",
+          "choices": ["100 euros", "150 euros", "200 euros", "250 euros"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est le nom de l'homme qui réserve la chambre ?",
+          "choices": ["Alex Dupont", "Jean Martin", "Paul Bernard", "Michel Lefevre"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Est-ce que la réservation est confirmée ?",
+          "choices": ["Non", "Oui, la chambre est réservée", "L'homme doit encore payer", "Il faut appeler pour confirmer"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que fait l'homme après avoir entendu le prix de la chambre ?",
+          "choices": ["Il demande une réduction", "Il accepte de prendre la chambre", "Il change d'avis", "Il demande un autre type de chambre"],
+          "correctAnswer": 1
+        }
+          ]          
+    ]
+  },
+  {
+    id:'19',
+    name:'French Listening Assignment 19 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/FrenchA1/French19.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Que veut faire la femme à la banque ?",
+          "choices": ["Retirer de l'argent", "Ouvrir un compte", "Demander un prêt", "Fermer un compte"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel type de compte la femme veut-elle ouvrir ?",
+          "choices": ["Un compte épargne", "Un compte courant", "Un compte joint", "Un compte entreprise"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle pièce d’identité la femme donne-t-elle ?",
+          "choices": ["Sa carte d'identité", "Son passeport", "Son permis de conduire", "Sa carte bancaire"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel type de carte la femme choisit-elle ?",
+          "choices": ["Une carte premium", "Une carte classique", "Une carte de débit", "Une carte prépayée"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que propose le banquier après la carte ?",
+          "choices": ["Un accès en ligne", "Un prêt bancaire", "Un compte épargne", "Une carte supplémentaire"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Que doit remplir la femme pour finaliser l'ouverture du compte ?",
+          "choices": ["Un formulaire", "Un chèque", "Un contrat", "Un reçu"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Combien de temps faudra-t-il pour activer le compte ?",
+          "choices": ["12 heures", "24 heures", "48 heures", "Une semaine"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Qu'est-ce que la femme dit après avoir reçu le formulaire ?",
+          "choices": ["Quand sera le compte actif ?", "Puis-je avoir une carte ?", "Merci beaucoup !", "Je n'ai pas d'identité."],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Que dit le banquier pour conclure la conversation ?",
+          "choices": ["Bonne soirée !", "Bonne journée !", "Merci pour votre visite !", "À bientôt !"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle est la réponse du banquier lorsqu'on demande quand le compte sera actif ?",
+          "choices": ["Immédiatement", "Dans 12 heures", "Dans 24 heures", "Dans 48 heures"],
+          "correctAnswer": 2
+        }
+          ]          
+    ]
+  },
 ]

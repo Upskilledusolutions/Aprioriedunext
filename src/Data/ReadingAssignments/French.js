@@ -1,244 +1,3 @@
-// export const data = [
-//     {
-//         id:'1',
-//         name:'French Reading Assignment 1 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/14vt9CM5YY98ODGanQibkKqXDSv_w5WF2/preview',
-//         desc:'French Reading Assignments 1 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'2',
-//         name:'French Reading Assignment 2 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/17ejfXWQ078VyS-QC0KtKm7lm7c0Q1POG/preview',
-//         desc:'French Reading Assignments 2 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'3',
-//         name:'French Reading Assignment 4 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1fsPGmKkotTgA9ln-TAclisp2K2s0ch2c/preview',
-//         desc:'French Reading Assignments 4 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'4',
-//         name:'French Reading Assignment 6 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1Ac87OZwgpmiueRXQiUC8TEEej9p3pO7A/preview',
-//         desc:'French Reading Assignments 6 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'5',
-//         name:'French Reading Assignment 7 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1PojpyDVDatHAf-kh9XMkag-wGNijZPBw/preview',
-//         desc:'French Reading Assignments 7 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'6',
-//         name:'French Reading Assignment 8 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1L0r_xiKTnlEO4DkXGRE8CTUUpwoTJFcb/preview',
-//         desc:'French Reading Assignments 8 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'7',
-//         name:'French Reading Assignment 9 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1t5ztg_2qKxUAvBIGAdCa87LFhGZChPnD/preview',
-//         desc:'French Reading Assignments 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'8',
-//         name:'French Reading Assignment 10 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1H0O0C3PmwHkVXGt2PDq_X_Yoc2ATRQoU/preview',
-//         desc:'French Reading Assignments 10 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'9',
-//         name:'French Reading Assignment 11 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1TCK0q-83cgtgFZEJDC7zg1F0L1aFHW8X/preview',
-//         desc:'French Reading Assignments 11 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'10',
-//         name:'French Reading Assignment 13 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1ALWnlZHhxu83fFArPeAPgYvm8kzZHcpW/preview',
-//         desc:'French Reading Assignments 13 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'11',
-//         name:'French Reading Assignment 14 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1Osja-5klM5iehvxUX8r7n2u3L-a7Go_s/preview',
-//         desc:'French Reading Assignments 14 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'12',
-//         name:'French Reading Assignment 15 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1AYGTEnswAXIciKCtgCH_qTk4a2cUu7Nb/preview',
-//         desc:'French Reading Assignments 15 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'13',
-//         name:'French Reading Assignment 17 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1gCokhVol9M-oHa7w-h5xPPMTNbWpJM40/preview',
-//         desc:'French Reading Assignments 17 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'14',
-//         name:'French Reading Assignment 18 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1zlNs2GvZr5ifKsFK_G1kw-emKjc91SBV/preview',
-//         desc:'French Reading Assignments 18 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'15',
-//         name:'French Reading Assignment 19 (A1)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1NVzrZmUbDhEt6NC3Tf9XoJgGe0SN0MtD/preview',
-//         desc:'French Reading Assignments 19 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'16',
-//         name:'French Reading Assignment 1 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1qzv9w8ulyvoWQuFj4uoV9NUH_8TAnGr7/preview',
-//         desc:'French Reading Assignments 1 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'17',
-//         name:'French Reading Assignment 2 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1kNexVgEv_wsHib2B0aE07wJX-EP4ARaA/preview',
-//         desc:'French Reading Assignments 2 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'18',
-//         name:'French Reading Assignment 3 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1FfHSKp3MOyr0FvbD60VfIrx0i_vo-bsU/preview',
-//         desc:'French Reading Assignments 3 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'19',
-//         name:'French Reading Assignment 4 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1KnZeNo4kbhEMyBKqSKqEvTyLtdSMoXdz/preview',
-//         desc:'French Reading Assignments 4 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'20',
-//         name:'French Reading Assignment 5 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/16gjOhDNITrt-5TuDA9r0oNBUtlahvcCS/preview',
-//         desc:'French Reading Assignments 5 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'21',
-//         name:'French Reading Assignment 6 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1zGdelBmYHMvia0nN0yLLLCE3EQnbr-SI/preview',
-//         desc:'French Reading Assignments 6 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'22',
-//         name:'French Reading Assignment 7 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1Hb13d5rW6CPL0spm8rJywS4NPk_MsIju/preview',
-//         desc:'French Reading Assignments 7 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'23',
-//         name:'French Reading Assignment 8 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/125hFcNgHDDHxb8od52ITi4g_Kv11OM0d/preview',
-//         desc:'French Reading Assignments 8 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'24',
-//         name:'French Reading Assignment 9 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1YwSFOvlqZzpqT0yVNGwozX4zBvDqSEYI/preview',
-//         desc:'French Reading Assignments 9 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'25',
-//         name:'French Reading Assignment 10 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1TBZh6OdoyMpu8TemjvFuSMyYrMYyjDm2/preview',
-//         desc:'French Reading Assignments 10 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'26',
-//         name:'French Reading Assignment 11 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1YKKST4mbjWEm7c25P0htCZvqCnTVo8yc/preview',
-//         desc:'French Reading Assignments 11 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'27',
-//         name:'French Reading Assignment 12 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1lpmjRplF8l80aOGWns0aTJ5JvrMrSadM/preview',
-//         desc:'French Reading Assignments 12 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'28',
-//         name:'French Reading Assignment 13 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1FfGJm1hI-neBP22WQ4NLoVfbqlz-la7b/preview',
-//         desc:'French Reading Assignments 13 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'29',
-//         name:'French Reading Assignment 14 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1YIl-k2uMUsS9QQhkURz5e-JOSCAEgxBa/preview',
-//         desc:'French Reading Assignments 14 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'30',
-//         name:'French Reading Assignment 15 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1GVfmsCl60zJiKx_2XJRxkNTU2h09xgik/preview',
-//         desc:'French Reading Assignments 15 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'31',
-//         name:'French Reading Assignment 16 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1ei08AL6n3eCl_7oUnU7rxHPxG0gmnGzJ/preview',
-//         desc:'French Reading Assignments 16 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'32',
-//         name:'French Reading Assignment 17 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/13ChlxdYccTWjVsqN2rC9PHcin_Dymk_2/preview',
-//         desc:'French Reading Assignments 17 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'33',
-//         name:'French Reading Assignment 18 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1D5TQXSrxtMKgRBXuk-2uiluI8lUTV4Ma/preview',
-//         desc:'French Reading Assignments 18 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-//     {
-//         id:'34',
-//         name:'French Reading Assignment 19 (A2)',
-//         level:'Beginners',
-//         pdf:'https://drive.google.com/file/d/1oBJOFq0Adn967M35LPyb-LRtxOQS6BGI/preview',
-//         desc:'French Reading Assignments 19 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational Assignment introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
-//     },
-// ]
-
 export const data = [
     {
         id:'1',
@@ -891,6 +650,478 @@ export const data = [
       "question": "Que préfère faire Clara avec ses amis ?",
       "choices": ["Aller au cinéma", "Jouer au football", "Passer du temps à la maison", "Faire du shopping"],
       "correctAnswer": 2
+    }
+    ],
+},
+{
+  id:'12',
+  name:'French Reading Assignment 12 (A1)',
+  level:'Beginner',
+  Title:'La Culture Française',
+  readingText: "La culture française est reconnue dans le monde entier pour sa richesse et sa diversité. Elle inclut l’art, la littérature, la mode, la gastronomie et bien d’autres aspects. Paris, souvent appelée 'la ville lumière', est le centre de cette culture vibrante. Les écrivains comme Victor Hugo, Albert Camus et Marcel Proust ont marqué l’histoire littéraire. En cuisine, des plats comme les croissants, le coq au vin, et les escargots sont devenus des symboles de la France. La mode, quant à elle, est dominée par des marques telles que Chanel, Louis Vuitton et Dior. Enfin, le cinéma français est célébré pour son originalité, notamment grâce à des réalisateurs comme François Truffaut et Jean-Luc Godard. \nFrench culture is recognized worldwide for its richness and diversity. It includes art, literature, fashion, gastronomy, and much more. Paris, often called 'the City of Light,'' is the center of this vibrant culture. Writers such as Victor Hugo, Albert Camus, and Marcel Proust have made their mark on literary history. In cuisine, dishes like croissants, coq au vin, and escargots have become symbols of France. Fashion, meanwhile, is dominated by brands such as Chanel, Louis Vuitton, and Dior. Finally, French cinema is celebrated for its originality, thanks to directors like François Truffaut and Jean-Luc Godard.",
+  questions: [
+    {
+      "question": "Que signifie l'expression \"la culture française\" ?",
+      "choices": ["La géographie de la France", "Les coutumes et traditions de la France", "Les monuments célèbres en France", "Les régions de la France"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle ville est souvent appelée \"la ville lumière\" ?",
+      "choices": ["Marseille", "Lyon", "Paris", "Bordeaux"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quels écrivains célèbres sont mentionnés dans le texte ?",
+      "choices": ["Molière, Victor Hugo et Albert Camus", "Victor Hugo, Albert Camus et Marcel Proust", "Jean-Luc Godard et Marcel Proust", "François Truffaut et Victor Hugo"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels plats français sont cités comme symboles de la France ?",
+      "choices": ["Croissants, baguette et soupe à l’oignon", "Croissants, coq au vin et escargots", "Crêpes, croissants et cassoulet", "Croissants, ratatouille et bouillabaisse"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels sont les exemples de marques de mode mentionnés ?",
+      "choices": ["Chanel, Louis Vuitton et Dior", "Hermès, Chanel et Givenchy", "Dior, Balenciaga et Yves Saint Laurent", "Gucci, Chanel et Louis Vuitton"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Le texte mentionne le cinéma français pour quelle raison ?",
+      "choices": ["Pour son succès mondial", "Pour ses effets spéciaux", "Pour son originalité", "Pour ses grands acteurs"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quels réalisateurs français sont mentionnés ?",
+      "choices": ["Jean-Luc Godard et François Truffaut", "Marcel Proust et Albert Camus", "Victor Hugo et François Truffaut", "Louis Vuitton et Jean-Luc Godard"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel domaine n’est pas mentionné dans le texte ?",
+      "choices": ["La littérature", "La musique", "La gastronomie", "La mode"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pourquoi Paris est-elle importante dans la culture française ?",
+      "choices": ["Parce qu’elle est une grande ville touristique", "Parce qu’elle est le centre de la culture vibrante", "Parce qu’elle a des monuments historiques", "Parce qu’elle est connue pour son vin"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels mots décrivent le mieux la culture française selon le texte ?",
+      "choices": ["Riche et diverse", "Simple et traditionnelle", "Moderne et rapide", "Historique et ancienne"],
+      "correctAnswer": 0
+    }
+    ],
+},
+{
+  id:'13',
+  name:'French Reading Assignment 13 (A1)',
+  level:'Beginner',
+  Title:"L'Importance de la Langue Française",
+  readingText: "La langue française est l’une des plus parlées dans le monde, avec environ 300 millions de locuteurs. Elle est la langue officielle de nombreux pays, dont le Canada, la Belgique, la Suisse et plusieurs nations africaines. En outre, le français est l’une des langues de travail des Nations Unies, de l’Union européenne et d’autres organisations internationales. Apprendre le français peut ouvrir des portes à de nouvelles opportunités professionnelles et culturelles. La langue française est également riche en expressions idiomatiques qui reflètent la créativité et la finesse de la pensée française. \nThe French language is one of the most widely spoken in the world, with approximately 300 million speakers. It is the official language of many countries, including Canada, Belgium, Switzerland, and several African nations. Furthermore, French is one of the working languages of the United Nations, the European Union, and other international organizations. Learning French can open doors to new professional and cultural opportunities. The French language is also rich in idiomatic expressions that reflect the creativity and finesse of French thought.",
+  questions: [
+    {
+      "question": "Combien de locuteurs parlent français dans le monde, selon le texte ?",
+      "choices": ["200 millions", "300 millions", "400 millions", "500 millions"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Le français est la langue officielle de quel pays parmi les suivants ?",
+      "choices": ["Mexique", "Belgique", "Chine", "Australie"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Le français est une langue de travail dans quelle organisation ?",
+      "choices": ["L’UNESCO", "Les Nations Unies", "La NASA", "L’OTAN"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels continents comptent des nations où le français est une langue officielle ?",
+      "choices": ["Asie et Océanie", "Afrique et Europe", "Amérique et Asie", "Europe et Antarctique"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Selon le texte, apprendre le français peut :",
+      "choices": ["Améliorer vos compétences en mathématiques", "Ouvrir des opportunités professionnelles et culturelles", "Rendre les voyages gratuits", "Enseigner d'autres langues automatiquement"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle caractéristique de la langue française est mentionnée dans le texte ?",
+      "choices": ["Sa grammaire simple", "Ses expressions idiomatiques riches", "Son alphabet unique", "Son vocabulaire limité"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels pays francophones sont mentionnés dans le texte ?",
+      "choices": ["Italie, Suisse, Espagne", "Canada, Belgique, Suisse", "Allemagne, Suisse, Canada", "Portugal, Canada, Suisse"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Le français est l’une des langues officielles de :",
+      "choices": ["L’Union européenne", "L’ASEAN", "L’Organisation mondiale de la santé uniquement", "La Ligue arabe"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Le texte décrit la langue française comme :",
+      "choices": ["Une langue difficile", "Riche et créative", "Peu parlée", "Surtout utilisée en Europe"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pourquoi le français est-il considéré comme une langue importante ?",
+      "choices": ["Parce qu'il est parlé uniquement en Europe", "Parce qu'il est utilisé dans de nombreuses organisations internationales", "Parce qu'il est plus simple que l'anglais", "Parce qu'il est la langue officielle des États-Unis"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'14',
+  name:'French Reading Assignment 14 (A1)',
+  level:'Beginner',
+  Title:'La Gastronomie Française',
+  readingText: "La gastronomie française est un véritable art. Elle est reconnue par l’UNESCO comme patrimoine culturel immatériel de l’humanité. Les repas français commencent souvent avec une entrée, comme une soupe ou une salade, suivie d’un plat principal qui peut inclure de la viande, du poisson ou des légumes. Le repas se termine par un dessert, souvent accompagné de café. Les fromages jouent également un rôle important dans la gastronomie française, avec plus de 400 variétés disponibles. Enfin, le vin est presque toujours présent à table, chaque région ayant ses spécialités. \nFrench gastronomy is a true art. It is recognized by UNESCO as an intangible cultural heritage of humanity. French meals often start with an appetizer, such as soup or salad, followed by a main course that may include meat, fish, or vegetables. The meal ends with dessert, often accompanied by coffee. Cheese also plays an important role in French gastronomy, with more than 400 varieties available. Finally, wine is almost always present at the table, with each region offering its specialties.",
+  questions: [
+    {
+      "question": "Comment la gastronomie française est-elle décrite dans le texte ?",
+      "choices": ["Comme une tradition ancienne", "Comme un véritable art", "Comme un repas rapide", "Comme une cuisine internationale"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Par qui la gastronomie française est-elle reconnue comme patrimoine culturel immatériel ?",
+      "choices": ["L’Union européenne", "L’UNESCO", "Le gouvernement français", "L’ONU"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qu’est-ce qui est souvent servi comme entrée dans un repas français ?",
+      "choices": ["Un dessert", "Une soupe ou une salade", "Du fromage", "Un café"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que peut inclure un plat principal français ?",
+      "choices": ["Du pain et du beurre", "De la viande, du poisson ou des légumes", "Un dessert et un café", "Un apéritif et du fromage"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Par quoi le repas français se termine-t-il souvent ?",
+      "choices": ["Un fromage", "Un dessert accompagné de café", "Un plat principal", "Une entrée"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Combien de variétés de fromages sont mentionnées dans le texte ?",
+      "choices": ["Plus de 200", "Plus de 300", "Plus de 400", "Plus de 500"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel rôle le fromage joue-t-il dans la gastronomie française ?",
+      "choices": ["Un rôle mineur", "Un rôle important", "Un rôle décoratif", "Un rôle occasionnel"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle boisson est presque toujours présente à table ?",
+      "choices": ["Du café", "De l’eau", "Du vin", "Du thé"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Que peut-on dire sur le vin en France selon le texte ?",
+      "choices": ["Chaque région a ses spécialités", "Le vin est réservé aux repas de fête", "Le vin est produit uniquement dans le sud", "Le vin n’est pas très populaire"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Comment les repas français sont-ils organisés, selon le texte ?",
+      "choices": ["Ils commencent par un dessert", "Ils incluent une entrée, un plat principal et un dessert", "Ils se concentrent uniquement sur le fromage", "Ils sont accompagnés de thé ou de café dès le début"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'15',
+  name:'French Reading Assignment 15 (A1)',
+  level:'Beginner',
+  Title:'Le Tourisme en France',
+  readingText: "La France est la destination touristique la plus visitée au monde, accueillant plus de 80 millions de visiteurs chaque année. Des monuments emblématiques comme la tour Eiffel, le château de Versailles et la cathédrale Notre-Dame attirent des millions de touristes. Les régions comme la Provence, la Côte d’Azur et la vallée de la Loire offrent des paysages magnifiques et une culture locale riche. De plus, les montagnes françaises, comme les Alpes et les Pyrénées, sont idéales pour les sports d’hiver. Le tourisme est donc un pilier de l’économie française. \nFrance is the most visited tourist destination in the world, welcoming over 80 million visitors each year. Iconic landmarks like the Eiffel Tower, the Palace of Versailles, and Notre-Dame Cathedral attract millions of tourists. Regions like Provence, the French Riviera, and the Loire Valley offer stunning landscapes and rich local culture. Furthermore, French mountains such as the Alps and the Pyrenees are ideal for winter sports. Tourism is therefore a pillar of the French economy.",
+  questions: [
+    {
+      "question": "Quelle est la destination touristique la plus visitée au monde selon le texte ?",
+      "choices": ["L'Italie", "La France", "L'Espagne", "Le Japon"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Combien de visiteurs la France accueille-t-elle chaque année ?",
+      "choices": ["60 millions", "70 millions", "80 millions", "90 millions"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel monument emblématique est mentionné dans le texte ?",
+      "choices": ["Le Colisée", "La tour Eiffel", "La Sagrada Família", "Big Ben"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel château célèbre attire des millions de touristes ?",
+      "choices": ["Le château de Windsor", "Le château de Versailles", "Le château de Neuschwanstein", "Le château de Prague"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle région française est connue pour ses paysages magnifiques ?",
+      "choices": ["La Provence", "La Toscane", "La Catalogne", "La Bavière"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quels massifs montagneux français sont idéaux pour les sports d’hiver ?",
+      "choices": ["Les Andes et les Rocheuses", "Les Alpes et les Pyrénées", "Les Appalaches et les Dolomites", "Les Carpates et les Vosges"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle est la cathédrale célèbre mentionnée dans le texte ?",
+      "choices": ["La cathédrale Saint-Paul", "La cathédrale Notre-Dame", "La cathédrale de Milan", "La cathédrale de Séville"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel est un pilier important de l’économie française selon le texte ?",
+      "choices": ["L'agriculture", "Le tourisme", "L'industrie automobile", "La technologie"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles régions françaises sont mentionnées comme ayant une culture locale riche ?",
+      "choices": ["La Bretagne et la Normandie", "La Provence et la Côte d’Azur", "La Bourgogne et l’Alsace", "La Corse et le Limousin"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle vallée est mentionnée pour ses paysages magnifiques ?",
+      "choices": ["La vallée du Rhône", "La vallée de la Loire", "La vallée du Mississippi", "La vallée du Danube"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'16',
+  name:'French Reading Assignment 16 (A1)',
+  level:'Beginner',
+  Title:'La Mode à Paris',
+  readingText: "Paris est connue comme la capitale mondiale de la mode. Chaque année, la Fashion Week attire des créateurs, des mannequins et des journalistes du monde entier. Les marques de luxe comme Hermès, Saint Laurent et Balmain y présentent leurs dernières collections. Mais la mode à Paris ne se limite pas aux podiums. Les Parisiens eux-mêmes sont réputés pour leur élégance et leur sens du style. Des boutiques aux friperies, la ville offre une expérience unique pour les amateurs de mode. \nParis is known as the global capital of fashion. Each year, Fashion Week attracts designers, models, and journalists from around the world. Luxury brands like Hermès, Saint Laurent, and Balmain showcase their latest collections there. But fashion in Paris is not limited to runways. Parisians themselves are renowned for their elegance and sense of style. From boutiques to thrift stores, the city offers a unique experience for fashion enthusiasts.",
+  questions: [
+    {
+      "question": "Comment Paris est-elle connue selon le texte ?",
+      "choices": ["Comme la capitale de la gastronomie", "Comme la capitale mondiale de la mode", "Comme la ville lumière", "Comme la capitale de l'art"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel événement attire des créateurs, des mannequins et des journalistes à Paris chaque année ?",
+      "choices": ["Le Festival de Cannes", "La Fashion Week", "Le Tour de France", "Le Salon de l'Automobile"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles marques de luxe présentent leurs collections à Paris ?",
+      "choices": ["Prada, Gucci et Versace", "Hermès, Saint Laurent et Balmain", "Zara, H&M et Uniqlo", "Nike, Adidas et Puma"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "À quoi la mode à Paris ne se limite-t-elle pas ?",
+      "choices": ["Aux boutiques", "Aux podiums", "Aux musées", "Aux friperies"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pour quoi les Parisiens sont-ils réputés ?",
+      "choices": ["Leur cuisine", "Leur sens du style", "Leur hospitalité", "Leur amour du vin"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que peut-on trouver à Paris pour les amateurs de mode ?",
+      "choices": ["Des musées et des galeries", "Des boutiques et des friperies", "Des cafés et des restaurants", "Des parcs et des jardins"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle expérience Paris offre-t-elle selon le texte ?",
+      "choices": ["Une expérience culinaire", "Une expérience unique pour les amateurs de mode", "Une expérience historique", "Une expérience musicale"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qui sont attirés par la Fashion Week à Paris ?",
+      "choices": ["Les sportifs et les spectateurs", "Les créateurs, les mannequins et les journalistes", "Les étudiants et les professeurs", "Les familles et les enfants"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles marques ne sont PAS mentionnées dans le texte ?",
+      "choices": ["Chanel et Dior", "Hermès et Balmain", "Saint Laurent et Hermès", "Prada et Versace"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Comment les Parisiens sont-ils décrits dans le texte ?",
+      "choices": ["Comme élégants et ayant un sens du style", "Comme accueillants et chaleureux", "Comme sportifs et dynamiques", "Comme discrets et réservés"],
+      "correctAnswer": 0
+    }
+    ],
+},
+{
+  id:'17',
+  name:'French Reading Assignment 17 (A1)',
+  level:'Beginner',
+  Title:'L’Histoire de la Révolution Française',
+  readingText: "La Révolution française, qui a débuté en 1789, est un événement marquant de l’histoire mondiale. Elle a été déclenchée par des inégalités sociales, une crise économique et des idées révolutionnaires inspirées par les Lumières. La prise de la Bastille, le 14 juillet 1789, symbolise le début de cette période de bouleversements. Parmi les réformes importantes, on peut citer la Déclaration des droits de l’homme et du citoyen, qui affirme les principes d’égalité et de liberté. La Révolution a aussi conduit à la fin de la monarchie absolue et à l’instauration de la République. Bien qu’elle ait été marquée par des périodes de violence, la Révolution française a jeté les bases des démocraties modernes. \nThe French Revolution, which began in 1789, is a landmark event in world history. It was triggered by social inequalities, an economic crisis, and revolutionary ideas inspired by the Enlightenment. The storming of the Bastille on July 14, 1789, symbolizes the start of this period of upheaval. Among the key reforms was the Declaration of the Rights of Man and of the Citizen, which asserts the principles of equality and freedom. The Revolution also led to the end of absolute monarchy and the establishment of the Republic. Although marked by periods of violence, the French Revolution laid the foundation for modern democracies.",
+  questions: [
+    {
+      "question": "Quand a débuté la Révolution française ?",
+      "choices": ["1787", "1788", "1789", "1790"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel événement symbolise le début de la Révolution française ?",
+      "choices": ["La Déclaration des droits de l’homme", "La prise de la Bastille", "La fin de la monarchie", "Le 14 juillet 1799"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels facteurs ont déclenché la Révolution française ?",
+      "choices": ["La guerre et la faim", "Les inégalités sociales, une crise économique et les idées révolutionnaires", "La paix et l'unité", "Les idées de l’Église"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel document a affirmé les principes d’égalité et de liberté ?",
+      "choices": ["La Constitution", "La Déclaration des droits de l’homme et du citoyen", "Le Code Civil", "Le traité de Versailles"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel type de gouvernement a été instauré après la Révolution française ?",
+      "choices": ["La monarchie absolue", "La dictature", "La République", "L'Empire"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quand a eu lieu la prise de la Bastille ?",
+      "choices": ["10 août 1789", "14 juillet 1789", "1er janvier 1789", "5 mai 1789"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qu’est-ce que la Révolution française a mis fin à ?",
+      "choices": ["La République", "La monarchie absolue", "La guerre civile", "La guerre mondiale"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles idées ont inspiré la Révolution française ?",
+      "choices": ["Les idées religieuses", "Les idées révolutionnaires des Lumières", "Les idées militaires", "Les idées royales"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "La Révolution française a conduit à la création de quelles bases ?",
+      "choices": ["Des réformes fiscales", "Des démocraties modernes", "Des monarchies constitutionnelles", "Des empires coloniaux"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle caractéristique a marqué la Révolution française ?",
+      "choices": ["L’unité et la paix", "Des périodes de violence", "Le soutien de l’aristocratie", "Le rejet des idées des Lumières"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'18',
+  name:'French Reading Assignment 18 (A1)',
+  level:'Beginner',
+  Title:'L’Environnement en France',
+  readingText: "La France accorde une grande importance à la protection de l’environnement. Des initiatives ont été mises en place pour réduire les émissions de carbone et promouvoir les énergies renouvelables. Le pays s’est engagé à respecter les accords internationaux, comme l’Accord de Paris sur le climat. En outre, les espaces naturels comme les parcs nationaux et les réserves naturelles sont protégés pour préserver la biodiversité. Les citoyens participent également à des projets locaux, comme le recyclage et les jardins communautaires. Cependant, des défis subsistent, notamment en ce qui concerne la pollution urbaine et les déchets plastiques. \nFrance places great importance on protecting the environment. Initiatives have been implemented to reduce carbon emissions and promote renewable energy. The country is committed to honoring international agreements, such as the Paris Climate Agreement. Additionally, natural spaces such as national parks and nature reserves are protected to preserve biodiversity. Citizens also participate in local projects, such as recycling and community gardens. However, challenges remain, particularly regarding urban pollution and plastic waste.",
+  questions: [
+    {
+      "question": "Quel est l'objectif principal de la France en ce qui concerne l'environnement ?",
+      "choices": ["Réduire la pollution et protéger les animaux", "Accorder une grande importance à la protection de l'environnement", "Favoriser la croissance économique", "Augmenter l'utilisation des combustibles fossiles"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles initiatives la France a-t-elle mises en place ?",
+      "choices": ["Réduire les émissions de carbone et promouvoir les énergies renouvelables", "Construire plus d'usines", "Supprimer les espaces naturels", "Accroître la production industrielle"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel accord international la France respecte-t-elle ?",
+      "choices": ["L'Accord de Paris sur le climat", "L'Accord de Rome sur le commerce", "L'Accord de Genève sur la sécurité", "L'Accord de Londres sur l'éducation"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quels types d'espaces sont protégés en France ?",
+      "choices": ["Les plages et les rues", "Les parcs nationaux et les réserves naturelles", "Les fermes et les usines", "Les zones urbaines et commerciales"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pourquoi les espaces naturels sont-ils protégés ?",
+      "choices": ["Pour la détente des citoyens", "Pour préserver la biodiversité", "Pour construire de nouvelles maisons", "Pour organiser des événements"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment les citoyens participent-ils à la protection de l'environnement ?",
+      "choices": ["En votant pour des lois", "En recyclant et en participant à des jardins communautaires", "En visitant les parcs nationaux", "En réduisant les salaires"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels défis existent encore en France en matière d'environnement ?",
+      "choices": ["La réduction des déchets alimentaires", "La pollution urbaine et les déchets plastiques", "La surpopulation dans les campagnes", "Le manque d'énergie solaire"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels types d'énergies la France cherche-t-elle à promouvoir ?",
+      "choices": ["Les énergies renouvelables", "Les énergies fossiles", "Les énergies nucléaires uniquement", "Les énergies non renouvelables"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel est un des projets locaux auxquels participent les citoyens ?",
+      "choices": ["Les programmes d'exportation", "Les jardins communautaires", "Les événements politiques", "Les concours artistiques"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que cherche à réduire la France dans le cadre de la protection de l'environnement ?",
+      "choices": ["Les émissions de carbone", "Les forêts", "La consommation de viande", "Les espaces verts"],
+      "correctAnswer": 0
+    }
+    ],
+},
+{
+  id:'19',
+  name:'French Reading Assignment 19 (A1)',
+  level:'Beginner',
+  Title:'Les Systèmes Éducatifs en France',
+  readingText: "Le système éducatif français est structuré de manière rigoureuse et se compose de plusieurs étapes. Les enfants commencent par l’école maternelle, qui est suivie de l’école primaire. Ensuite, ils passent au collège, où ils suivent un programme général. Après le collège, les élèves intègrent le lycée, où ils préparent le baccalauréat, un diplôme essentiel pour accéder à l’enseignement supérieur. Les universités françaises, comme la Sorbonne ou l’Université de Strasbourg, sont reconnues pour leur excellence. L’éducation est gratuite et obligatoire jusqu’à 16 ans, ce qui garantit à tous les enfants un accès égal à l’instruction. \nThe French educational system is rigorously structured and consists of several stages. Children start with kindergarten, followed by primary school. Then, they move on to middle school, where they follow a general curriculum. After middle school, students enter high school, where they prepare for the baccalaureate, a key diploma for accessing higher education. French universities, such as the Sorbonne or the University of Strasbourg, are renowned for their excellence. Education is free and mandatory up to the age of 16, ensuring equal access to education for all children.",
+  questions: [
+    {
+      "question": "Par quelle étape commence le système éducatif français ?",
+      "choices": ["L’école primaire", "Le collège", "L’école maternelle", "Le lycée"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Que suit l’école maternelle dans le système éducatif français ?",
+      "choices": ["Le collège", "Le lycée", "L’école primaire", "L’université"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Qu’est-ce que les élèves préparent au lycée ?",
+      "choices": ["Le bac", "Le certificat", "Le brevet", "L’examen de fin d’année"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel diplôme est essentiel pour accéder à l’enseignement supérieur en France ?",
+      "choices": ["Le bac", "Le brevet des collèges", "Le diplôme universitaire", "Le CAP"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel type de programme les élèves suivent-ils au collège ?",
+      "choices": ["Un programme professionnel", "Un programme général", "Un programme scientifique", "Un programme sportif"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Jusqu’à quel âge l’éducation est-elle gratuite et obligatoire en France ?",
+      "choices": ["18 ans", "16 ans", "14 ans", "12 ans"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles universités françaises sont reconnues pour leur excellence ?",
+      "choices": ["L’Université de Lyon", "L’Université de Paris", "La Sorbonne et l’Université de Strasbourg", "L’Université de Marseille"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Où les élèves vont-ils après le collège ?",
+      "choices": ["Au lycée", "A l’université", "A l’école primaire", "Dans un centre de formation"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel âge ont les enfants lorsqu’ils commencent l’école maternelle en France ?",
+      "choices": ["3 ans", "5 ans", "6 ans", "4 ans"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Que garantit l’éducation gratuite et obligatoire jusqu’à 16 ans ?",
+      "choices": ["Un accès à la formation professionnelle", "Un accès égal à l’instruction", "Un accès aux universités", "Un accès à des bourses scolaires"],
+      "correctAnswer": 1
     }
     ],
 },

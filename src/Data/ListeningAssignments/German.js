@@ -390,5 +390,253 @@ export const data = [
         }
       ],
     ]
+  },
+  {
+    id:'7',
+    name:'German Listening Assignment 7 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/GermanA1/German07.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Was sucht der Mann zu Beginn des Gesprächs?",
+          "choices": ["Ein Haus", "Eine Zwei-Zimmer-Wohnung", "Ein Auto", "Ein Studio"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie viel kostet die Wohnung pro Monat?",
+          "choices": ["500 Euro", "600 Euro", "700 Euro", "800 Euro"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was fragt der Mann bezüglich der Wohnung?",
+          "choices": ["Ob sie möbliert ist", "Ob sie einen Balkon hat", "Wie viele Zimmer sie hat", "Wo sie sich befindet"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie ist der Balkon der Wohnung?",
+          "choices": ["Groß", "Klein", "Mittel", "Es gibt keinen Balkon"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie viele Monate Kaution muss man zahlen?",
+          "choices": ["Einen Monat", "Zwei Monate", "Drei Monate", "Keine Kaution"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was bedeutet „Kaution“ im Kontext des Gesprächs?",
+          "choices": ["Eine monatliche Miete", "Eine Wohngebäudeversicherung", "Eine finanzielle Garantie", "Ein Schlüssel zur Wohnung"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wie lange ist der vorgeschlagene Mietvertrag?",
+          "choices": ["Drei Monate", "Sechs Monate", "Ein Jahr", "Zwei Jahre"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was will der Mann nach dem Gespräch tun?",
+          "choices": ["Sofort mieten", "Darüber nachdenken", "Die Wohnung besichtigen", "Eine andere Wohnung suchen"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was sagt die Frau am Ende des Gesprächs?",
+          "choices": ["Sie kann nicht warten", "Sie wird den Mann zurückrufen", "Sie bittet den Mann, sie auf dem Laufenden zu halten", "Sie möchte den Mietvertrag nicht unterschreiben"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was bedeutet „Mietvertrag“ in diesem Gespräch?",
+          "choices": ["Der Mietpreis", "Der Mietvertrag", "Der Schlüssel zur Wohnung", "Die finanzielle Garantie"],
+          "correctAnswer": 1
+        }
+      ],
+    ]
+  },
+  {
+    id:'8',
+    name:'German Listening Assignment 8 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/GermanA1/German08.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Um wie viel Uhr steht Emma auf?",
+          "choices": ["6 Uhr", "7 Uhr", "8 Uhr", "9 Uhr"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was macht Emma, nachdem sie aufgestanden ist?",
+          "choices": ["Sie geht zur Arbeit", "Sie macht Sport", "Sie frühstückt", "Sie sieht fern"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Um wie viel Uhr beginnt Emma zu arbeiten?",
+          "choices": ["8 Uhr", "9 Uhr", "10 Uhr", "11 Uhr"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Um wie viel Uhr beendet Emma ihre Arbeit?",
+          "choices": ["16 Uhr", "17 Uhr", "18 Uhr", "19 Uhr"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was macht Emma abends nach der Arbeit?",
+          "choices": ["Sie isst zu Abend und sieht fern", "Sie geht mit Freunden aus", "Sie liest ein Buch", "Sie spielt Gitarre"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Welches Hobby mag Emma?",
+          "choices": ["Gitarre spielen", "Lesen", "Filme schauen", "Kochen"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was ist Lucas' Hobby?",
+          "choices": ["Lesen", "Gitarre spielen", "Malen", "Fernsehen schauen"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was sagt Emma über Lucas' Hobby?",
+          "choices": ["Sie findet es langweilig", "Sie findet es toll", "Sie möchte Gitarre lernen", "Sie kocht lieber"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wer sagt: „Ich auch!“?",
+          "choices": ["Lucas", "Emma", "Eine andere Person", "Niemand"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Wie ist das Verhältnis zwischen Emma und Lucas?",
+          "choices": ["Sie sind Kollegen", "Sie sind Freunde", "Sie sind Geschwister", "Es wird nicht angegeben"],
+          "correctAnswer": 3
+        }
+      ],
+    ]
+  },
+  {
+    id:'9',
+    name:'German Listening Assignment 9 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/GermanA1/German09.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Wie ist das Wetter heute?",
+          "choices": ["Es regnet", "Es ist schön und sonnig", "Es schneit", "Es ist kalt"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was denkt Paul über die Sonne?",
+          "choices": ["Er mag die Sonne nicht", "Er liebt die Sonne", "Er bevorzugt den Regen", "Er sagt nichts"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was ist Sophies Lieblingsjahreszeit?",
+          "choices": ["Der Winter", "Der Sommer", "Der Frühling", "Der Herbst"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was ist Pauls Lieblingsjahreszeit?",
+          "choices": ["Der Sommer", "Der Herbst", "Der Winter", "Der Frühling"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was macht Sophie im Winter gerne?",
+          "choices": ["Wandern", "Skifahren", "Zum Strand gehen", "Zuhause bleiben"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was macht Paul im Sommer gerne?",
+          "choices": ["Skifahren", "Zum Strand gehen", "Wandern", "Zuhause lesen"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was schlägt Sophie am Ende des Gesprächs vor?",
+          "choices": ["Zum Strand gehen", "Skifahren", "Spazieren gehen", "Bei ihr zu Hause bleiben"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wie reagiert Paul auf Sophies Vorschlag?",
+          "choices": ["Er lehnt ab", "Er schlägt eine andere Idee vor", "Er stimmt zu", "Er antwortet nicht"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was bedeutet „angenehm“ im Kontext des Gesprächs?",
+          "choices": ["Schlecht", "Angenehm anzusehen", "Angenehm", "Langweilig"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wo geht Sophie im Sommer gerne hin?",
+          "choices": ["In die Berge", "Zum Strand", "Zu ihren Freunden", "Ins Kino"],
+          "correctAnswer": 1
+        }
+      ],
+    ]
+  },
+  {
+    id:'10',
+    name:'German Listening Assignment 10 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/GermanA1/German10.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Was planen Marc und die Frau?",
+          "choices": ["Ein Abendessen", "Einen Urlaub", "Einen Museumsbesuch", "Eine Party"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wohin möchte die Frau gehen?",
+          "choices": ["Nach Spanien", "Nach Italien", "Nach Frankreich", "Nach Deutschland"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welche Stadt möchte Marc besuchen?",
+          "choices": ["Mailand", "Venedig", "Rom", "Neapel"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was möchte Marc zusätzlich zu einem Besuch in Rom tun?",
+          "choices": ["In die Berge gehen", "An den Strand gehen", "Einkaufen gehen", "Einen Film schauen"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was möchte Marc während des Urlaubs sehen?",
+          "choices": ["Museen", "Vergnügungsparks", "Berge", "Fußballstadien"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Was sagt die Frau über die italienische Küche?",
+          "choices": ["Sie liebt Pizza", "Sie liebt die italienische Küche", "Sie bevorzugt die französische Küche", "Sie sagt nichts dazu"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was sagt Marc über Pasta?",
+          "choices": ["Er liebt Pasta", "Er mag keine Pasta", "Er bevorzugt Pizza", "Er spricht nicht über Pasta"],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Wo möchten sie ein Hotel buchen?",
+          "choices": ["Am Strand", "Im Zentrum", "Außerhalb der Stadt", "Auf dem Land"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Für wie viele Tage planen sie ihren Urlaub?",
+          "choices": ["Drei Tage", "Eine Woche", "Zwei Wochen", "Zehn Tage"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was sagt die Frau am Ende des Gesprächs?",
+          "choices": ["Sie ist müde", "Sie freut sich auf die Reise", "Sie ändert ihre Meinung über Italien", "Sie möchte lieber nach Spanien"],
+          "correctAnswer": 1
+        }
+      ],
+    ]
   }
 ]
