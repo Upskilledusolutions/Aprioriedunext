@@ -90,10 +90,10 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What does 'bon après-midi' mean?",
+        "question": "What does 'au revoir' mean?",
         "choices": ["Goodbye", "Hello/Hi", "Good afternoon", "See you later"],
         "type": "MCQs",
-        "correctAnswer": 2
+        "correctAnswer": 1
       },
       {
         "question": "What is the meaning of 'Bonne nuit'?",
@@ -108,8 +108,8 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What does 'C’est un plaisir de vous rencontrer' mean?",
-        "choices": ["It’s a pleasure to meet you", "How are you?", "Nice to see you again", "Welcome"],
+        "question": "What does 'Ravi de vous rencontrer' mean?",
+        "choices": ["It’s a pleasure to meet you", "How are you?", "Nice to meet you", "Welcome"],
         "type": "MCQs",
         "correctAnswer": 1
       },
