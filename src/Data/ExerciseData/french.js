@@ -121,7 +121,7 @@ export const quiz = [
       },
       {
         "question": "What is the French word for 'classroom'?",
-        "choices": ["salle de classe", "bureau", "École", "maison"],
+        "choices": ["salle de classe", "bureau", "école", "maison"],
         "type": "MCQs",
         "correctAnswer": 1
       },
