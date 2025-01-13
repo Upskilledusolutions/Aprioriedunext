@@ -91,31 +91,31 @@ export const quiz = [
       },
       {
         "question": "What does 'au revoir' mean?",
-        "choices": ["Goodbye", "Hello/Hi", "Good afternoon", "See you later"],
+        "choices": ["Goodbye", "Hello/Hi", "Good afternoon.", "See you later."],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
         "question": "What is the meaning of 'Bonne nuit'?",
-        "choices": ["Good morning", "Good night", "Good evening", "Goodbye"],
+        "choices": ["Good morning.", "Good night.", "Good evening.", "Goodbye"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
         "question": "What does 'Je suis de l'Inde' mean?",
-        "choices": ["I am from France", "I am from India", "I am from Canada", "I am from Italy"],
+        "choices": ["I am from France.", "I am from India.", "I am from Canada.", "I am from Italy."],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "What does 'Ravi de vous rencontrer' mean?",
-        "choices": ["It’s a pleasure to meet you", "How are you?", "Nice to meet you", "Welcome"],
+        "question": "What does 'Enchanté' mean?",
+        "choices": ["Delighted.", "How are you?", "Nice to meet you.", "Welcome."],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
         "question": "What is the French word for 'friend' (masculine)?",
-        "choices": ["ami", "amie", "professeur", "Étudiant"],
+        "choices": ["ami", "amie", "professeur", "étudiant"],
         "type": "MCQs",
         "correctAnswer": 1
       },
