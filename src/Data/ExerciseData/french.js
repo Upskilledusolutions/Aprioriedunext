@@ -108,8 +108,8 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What does 'Enchanté' mean?",
-        "choices": ["Delighted.", "How are you?", "Nice to meet you.", "Welcome."],
+        "question": "What does 'À bientôt!' mean?",
+        "choices": ["See you soon.", "How are you?", "Nice to meet you.", "Welcome."],
         "type": "MCQs",
         "correctAnswer": 1
       },
