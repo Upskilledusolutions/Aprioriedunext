@@ -85,7 +85,7 @@ export const quiz = [
       },
       {
         "question": "How do you say 'What is your name?' in French?",
-        "choices": ["Comment ça va?", "Comment t'appelles-tu?", "Où habites-tu?", "Qui es-tu?"],
+        "choices": ["Comment ça va?", "Comment tu t'appelle?", "Où habites-tu?", "Qui es-tu?"],
         "type": "MCQs",
         "correctAnswer": 2
       },
