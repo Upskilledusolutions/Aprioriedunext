@@ -12,7 +12,7 @@ export const quiz = [
         "correctAnswer": 3
       },
       {
-        "question": "What is the verb 'être' conjugated for 'nous'?",
+        "question": "What is the conjugated verb form of 'être' for the pronoun 'nous'?",
         "choices": ["êtes", "sommes", "est", "sont"],
         "type": "MCQs",
         "correctAnswer": 2
@@ -37,13 +37,13 @@ export const quiz = [
       },
       {
         "question": "What is the French word for 'Goodbye'?",
-        "choices": ["Salut", "Bonjour", "Au revoir", "Merci"],
+        "choices": ["Bonne nuit", "Bonjour", "Au revoir", "Merci"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
         "question": "What is the French word for 'Good evening'?",
-        "choices": ["Bonsoir", "Bonjour", "Bonne nuit", "Salut"],
+        "choices": ["Bonsoir", "Bonjour", "Bonne nuit", "Bon après-midi"],
         "type": "MCQs",
         "correctAnswer": 1
       },
@@ -252,12 +252,12 @@ export const quiz = [
         type: "MatchTheFollowing",
         "pairs": [
           {
-            "left": { "word": "bonjour", "rightId": 1 },
+            "left": { "word": "Bonjour", "rightId": 1 },
             "right": { "word": "What's your name?", "rightId": 3 }
           },
           {
-            "left": { "word": "tu es", "rightId": 2 },
-            "right": { "word": "good morning", "rightId": 1 }
+            "left": { "word": "Tu es", "rightId": 2 },
+            "right": { "word": "Good morning", "rightId": 1 }
           },
           {
             "left": { "word": "Comment t'appelles-tu?", "rightId": 3 },
@@ -265,10 +265,10 @@ export const quiz = [
           },
           {
             "left": { "word": "Je m'appelle", "rightId": 4 },
-            "right": { "word": "bye", "rightId": 5 }
+            "right": { "word": "Bye", "rightId": 5 }
           },
           {
-            "left": { "word": "au revoir", "rightId": 5 },
+            "left": { "word": "Au revoir", "rightId": 5 },
             "right": { "word": "My name is", "rightId": 4 }
           },
          
@@ -280,24 +280,24 @@ export const quiz = [
         "pairs": [
          
           {
-            "left": { "word": "hi", "rightId": 6 },
-            "right": { "word": "bonne nuit", "rightId": 8 }
+            "left": { "word": "Hi", "rightId": 6 },
+            "right": { "word": "Bonne nuit", "rightId": 8 }
           },
           {
-            "left": { "word": "see you soon", "rightId": 7 },
-            "right": { "word": "salut", "rightId": 6 }
+            "left": { "word": "See you soon", "rightId": 7 },
+            "right": { "word": "Salut", "rightId": 6 }
           },
           {
-            "left": { "word": "good night", "rightId": 8 },
-            "right": { "word": "a bientôt", "rightId": 7 }
+            "left": { "word": "Good night", "rightId": 8 },
+            "right": { "word": "A bientôt", "rightId": 7 }
           },
           {
-            "left": { "word": "see you tomorrow", "rightId": 9 },
-            "right": { "word": "bonsoir!", "rightId": 10 }
+            "left": { "word": "See you tomorrow", "rightId": 9 },
+            "right": { "word": "Bonsoir!", "rightId": 10 }
           },
           {
-            "left": { "word": "good evening", "rightId": 10 },
-            "right": { "word": "a demain!", "rightId": 9 }
+            "left": { "word": "Good evening", "rightId": 10 },
+            "right": { "word": "A demain!", "rightId": 9 }
           }
         ],
       },
@@ -412,12 +412,6 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What is the correct spelling of the number '17' in French?",
-        "choices": ["Dix-sept", "Seize", "Dix-huit", "Quinze"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
         "question": "How do you say 'six' in French?",
         "choices": ["sept", "cinq", "six", "quatre"],
         "type": "MCQs",
@@ -430,64 +424,10 @@ export const quiz = [
         "correctAnswer": 3
       },
       {
-        "question": "Which of the following is the first letter of the French alphabet?",
-        "choices": ["c", "z", "a", "b"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Which letter comes after 'b' in the French alphabet?",
-        "choices": ["e", "c", "d", "f"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "Which of these letters does not exist in the traditional French alphabet?",
-        "choices": ["k", "q", "w", "t"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
         "question": "Which article is used with plural nouns for things that are specific in French?",
         "choices": ["le", "les", "la", "l'"],
         "type": "MCQs",
         "correctAnswer": 2
-      },
-      {
-        "question": "Which of the following sentences is correct in French?",
-        "choices": ["Nous avons des livres.", "Nous avons le livres.", "Nous avons un livres.", "Nous avons la livre."],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Which of the following letters is the last letter of the French alphabet?",
-        "choices": ["v", "y", "z", "x"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "What is the 10th letter of the French alphabet?",
-        "choices": ["i", "h", "j", "k"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "Which letter comes before 'z' in the French alphabet?",
-        "choices": ["y", "d", "f", "g"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "Which letter comes after 'g' in the French alphabet?",
-        "choices": ["h", "k", "a", "d"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "What is the 3rd letter of the French alphabet?",
-        "choices": ["c"],
-        "type": "MCQs",
-        "correctAnswer": 1
       },
       {
         "question": "(The) ______ livre est intéressant.",
@@ -580,12 +520,6 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The letter 'H' in French is ______ (silent or pronounced).",
-        "choices": ["Silent"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
         "question": "'Eleven' in French is ______.",
         "choices": ["Onze"],
         "type": "FillInTheBlanks",
@@ -604,30 +538,6 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "The 5th letter of the French alphabet is ______.",
-        "choices": ["E"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The letter that comes before 'N' in the French alphabet is ______.",
-        "choices": ["M"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The 20th letter of the French alphabet is ______.",
-        "choices": ["T"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "In the French alphabet, the letter ______ comes after 'R'.",
-        "choices": ["S"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
         "question": "Nous avons ______ (an) appartement à Paris.",
         "choices": ["Un"],
         "type": "FillInTheBlanks",
@@ -636,36 +546,6 @@ export const quiz = [
       {
         "question": "(The) ______ stylos sont sur la table.",
         "choices": ["Les"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The letter ______ is the last consonant of the French alphabet.",
-        "choices": ["Z"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The letter that comes after 'G' in the French alphabet is ______.",
-        "choices": ["H"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The 15th letter of the French alphabet is ______.",
-        "choices": ["O"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "In the French alphabet, the letter ______ comes before 'F'.",
-        "choices": ["E"],
-        "type": "FillInTheBlanks",
-        "correctAnswer": 1
-      },
-      {
-        "question": "The 23rd letter of the French alphabet is ______.",
-        "choices": ["Vingt"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
