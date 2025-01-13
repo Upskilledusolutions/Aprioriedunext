@@ -61,7 +61,7 @@ export const quiz = [
       },
       {
         "question": "What does 'Il est un étudiant' mean?",
-        "choices": ["He is a teacher", "He is a student", "He is kind", "He is my friend"],
+        "choices": ["He is a teacher.", "He is a student.", "He is kind.", "He is my friend."],
         "type": "MCQs",
         "correctAnswer": 2
       },
@@ -79,7 +79,7 @@ export const quiz = [
       },
       {
         "question": "What does 'Elles sont' mean?",
-        "choices": ["They [feminine] are", "They [masculine] are", "We are", "You are"],
+        "choices": ["They are (feminine)", "They are (masculine)", "We are", "You are"],
         "type": "MCQs",
         "correctAnswer": 1
       },
@@ -90,8 +90,8 @@ export const quiz = [
         "correctAnswer": 2
       },
       {
-        "question": "What does 'Salut' mean?",
-        "choices": ["Goodbye", "Hello/Hi", "Good evening", "See you later"],
+        "question": "What does 'bon après-midi' mean?",
+        "choices": ["Goodbye", "Hello/Hi", "Good afternoon", "See you later"],
         "type": "MCQs",
         "correctAnswer": 2
       },
@@ -115,19 +115,19 @@ export const quiz = [
       },
       {
         "question": "What is the French word for 'friend' (masculine)?",
-        "choices": ["Ami", "Amie", "Professeur", "Étudiant"],
+        "choices": ["ami", "amie", "professeur", "Étudiant"],
         "type": "MCQs",
         "correctAnswer": 1
       },
       {
         "question": "What is the French word for 'classroom'?",
-        "choices": ["Salle de classe", "Bureau", "École", "Maison"],
+        "choices": ["salle de classe", "bureau", "École", "maison"],
         "type": "MCQs",
         "correctAnswer": 1
       },
        
         {
-          "question": "Bonjour, ______ allez-vous? (Hello, how are you?)",
+          "question": "Bonjour, ______ ça va? (Hello, how are you?)",
           "choices": ["Comment", "Commant"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -169,8 +169,8 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "On ______ dans la classe. (We are in the classroom.)",
-          "choices": ["est"],
+          "question": "Nous ______ dans la classe. (We are in the classroom.)",
+          "choices": ["sommes"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -187,13 +187,13 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "(Good morning!) ______ matin!",
-          "choices": ["Bon"],
+          "question": "(Good morning!) ______!",
+          "choices": ["Bonjour"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "(What) ______ t’appelles-tu?",
+          "question": "______ tu t'appelle?",
           "choices": ["Comment"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
@@ -241,7 +241,7 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "C’est un plaisir de ______ rencontrer. (It’s a pleasure to meet you.)",
+          "question": "Ravi de ______ rencontrer. (Nice to meet you.)",
           "choices": ["vous"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
