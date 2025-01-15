@@ -3270,62 +3270,122 @@ export const quiz = [
       
       // 20 MCQs
       {
-        "question": "¿Qué significa 'voluntario' en español?",
-        "choices": ["Volunteer", "Helper", "Citizen", "Teacher"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "¿Cuál de estas frases está en presente?",
-        "choices": ["Está trabajando", "Estaba trabajando", "Trabajó", "Trabajará"],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "¿Qué es la 'igualdad'?",
-        "choices": [ "A system of unequal rights", "Equal rights for all", "A fight for rights", "The absence of justice"],
+        "question": "¿Qué significa 'feliz' en inglés?",
+        "choices": ["Sad", "Happy", "Angry", "Tired"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "¿Cuál de los siguientes es un ejemplo de 'trabajo social'?",
-        "choices": [ "Organizar eventos", "Voluntariado", "Hacer compras", "Enseñar en la escuela"],
+        "question": "¿Cómo se dice 'I am studying' en español?",
+        "choices": ["Estudia", "Estudias", "Estudiamos", "Estoy estudiando"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "¿Qué verbo corresponde con la frase 'I wake up'?",
+        "choices": ["Levanto", "Me levanto", "Levantas", "Me levantas"],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "¿Qué forma de verbo está en futuro?",
-        "choices": [ "Ayudé", "Ayudando", "Ayudaré", "Ayudaba"],
+        "question": "¿Cómo se pregunta 'What time is it?' en español?",
+        "choices": ["¿Cuántos años tienes?", "¿Qué hora es?", "¿Dónde estás?", "¿Cómo estás?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué significa 'comer' en inglés?",
+        "choices": ["Drink", "Eat", "Sleep", "Run"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es el pronombre de objeto directo para 'yo'?",
+        "choices": ["Me", "Te", "Lo", "La"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se dice 'He eats' en español?",
+        "choices": ["Coma", "Come", "Comiendo", "Comer"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué verbo en pretérito significa 'I traveled'?",
+        "choices": ["Viajo", "Viaje", "Viajé", "Viajar"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "¿Qué papel tiene la 'comunidad' en la sociedad?",
-        "choices": [ "Resolver problemas individuales", "Vivir de manera independiente", "Vivir en armonía", "Decidir las leyes"],
+        "question": "¿Cuál es la forma correcta del artículo definido para 'niña'?",
+        "choices": ["El", "La", "Los", "Las"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se dice 'We go to the restaurant' en español?",
+        "choices": ["Vamos al restaurante", "Voy al restaurante", "Va al restaurante", "Vamos a restaurante"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se dice 'They are happy' en español?",
+        "choices": ["Ellos son felices", "Ellos están felices", "Ellos son feliz", "Ellos está feliz"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la forma correcta del verbo 'leer' en la primera persona del presente?",
+        "choices": ["Leo", "Lees", "Lee", "Leí"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se dice 'She is eating' en español?",
+        "choices": ["Ella comer", "Ella está comiendo", "Ella come", "Ella comería"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué pronombre se usa para decir 'I am talking to you'?",
+        "choices": ["Me", "Te", "Lo", "Le"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de las siguientes frases está en pretérito?",
+        "choices": ["Estudiamos en la biblioteca", "Estudiamos todos los días", "Estudiamos mañana", "Estudiamos a menudo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se dice 'We went to the market' en español?",
+        "choices": ["Vamos al mercado", "Fuimos al mercado", "Vamos al mercado ayer", "Fuimos a mercado"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se pregunta 'Where is the train station?' en español?",
+        "choices": ["¿Dónde está la estación de tren?", "¿Dónde está el tren?", "¿Dónde está el mercado?", "¿Dónde vamos al tren?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es el pronombre de objeto indirecto para 'tú'?",
+        "choices": ["Te", "Lo", "Le", "Nos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué significa 'ayer' en inglés?",
+        "choices": ["Today", "Tomorrow", "Yesterday", "Now"],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "¿Qué es la 'pobreza'?",
-        "choices": [ "Tener mucho dinero", "Un tipo de comida", "Un cargo político", "La falta de necesidades básicas"],
-        "type": "MCQs",
-        "correctAnswer": 4
-      },
-      {
-        "question": "¿Qué tenso se utiliza para expresar algo que sucede habitualmente?",
-        "choices": [ "Futuro", "Presente", "Pretérito imperfecto", "Condicional"],
-        "type": "MCQs",
-        "correctAnswer": 3
-      },
-      {
-        "question": "Las ______ son un grupo que lucha por sus derechos en la sociedad.",
-        "choices": [ "Niños", "Gente rica", "Ciudadanos", "Mujeres"],
-        "type": "MCQs",
-        "correctAnswer": 4
-      },
-      {
-        "question": "Los jóvenes deben ______ en proyectos comunitarios.",
-        "choices": [ "Ser ayudados", "Ayudar", "Ayudaron", "Ayudarían"],
+        "question": "¿Cómo se dice 'My father is traveling to Spain' en español?",
+        "choices": ["Mi padre viaja a España", "Mi padre está viajando a España", "Mi padre viajaba a España", "Mi padre viajará a España"],
         "type": "MCQs",
         "correctAnswer": 2
       },
@@ -3333,62 +3393,122 @@ export const quiz = [
       // 20 Fill in the Blanks
 
       {
-        "question": "La ______ (profesión) de mi hermano es médico.",
-        "choices": ["profesión","profesion"],
+        "question": "El ______ (monday) es un buen día para ir a trabajar.",
+        "choices": ["lunes"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "En mi ______ (comunidad), hay muchas personas que ayudan a los demás.",
-        "choices": ["comunidad"],
+        "question": "Mi ______ (sister) se llama Ana.",
+        "choices": ["hermana"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ellos ______ (trabajar) en una organización sin ánimo de lucro para resolver problemas sociales.",
-        "choices": ["trabajan"],
+        "question": "A mí me gusta comer ______ (pizza) los fines de semana.",
+        "choices": ["pizza"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "El gobierno está ______ (enfocar) su atención en la educación para mejorar la sociedad.",
-        "choices": ["enfocando"],
+        "question": "¿(As) ______ vas a la estación de tren?",
+        "choices": ["Cómo"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "(mujeres) ______ luchan por la igualdad en muchos países.",
-        "choices": ["Las mujeres"],
+        "question": "El ______ (March) es el mes que empieza la primavera en España.",
+        "choices": ["marzo"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Los voluntarios ______ (ayudar) en situaciones de emergencia.",
-        "choices": ["ayudan"],
+        "question": "Yo ______ (talk) con mi amiga todos los días.",
+        "choices": ["hablo"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "En nuestra sociedad, todos ______ (tener) derecho a la educación.",
-        "choices": ["tienen"],
+        "question": "Necesito ______ (look for) un hotel para mi viaje a Madrid.",
+        "choices": ["buscar"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Los ______ (joven) deben ser responsables y ayudar a su comunidad.",
-        "choices": ["jóvenes"],
+        "question": "(This) ______ año he viajado mucho.",
+        "choices": ["Este"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Las personas ______ (vivir) en la pobreza necesitan más apoyo.",
-        "choices": ["que viven"],
+        "question": "Los ______ (children) están jugando en el parque.",
+        "choices": ["niños"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "El gobierno ______ (trabajar) en una campaña para mejorar la salud pública.",
-        "choices": ["trabaja"],
+        "question": "Ellos ______ (have) una fiesta el sábado pasado.",
+        "choices": ["tuvieron"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(He) ______ avión sale a las 9:00 de la mañana.",
+        "choices": ["El"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A María le ______ (like) bailar salsa.",
+        "choices": ["gusta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi ______ (mother) vive en Delhi.",
+        "choices": ["madre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (travel) en tren a la ciudad.",
+        "choices": ["viajamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me ______ (lift) temprano para hacer ejercicio.",
+        "choices": ["levanto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(The) ______ comida mexicana es muy rica.",
+        "choices": ["La"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Juan y yo ______ (study) juntos para el examen.",
+        "choices": ["estudiamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los ______ (parents) de Carlos son muy amables.",
+        "choices": ["padres"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A ______ (you) te gusta ir al cine los fines de semana.",
+        "choices": ["ti"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (travel) a Madrid el verano pasado.",
+        "choices": ["viajamos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -3397,24 +3517,24 @@ export const quiz = [
         "type": "MatchTheFollowing",
         "pairs": [
           {
-            "left": { "word": "Voluntario", "rightId": 1 },
-            "right": { "word": "Laws or strategies created to help manage social issues.", "rightId": 4 }
+            "left": { "word": "el lunes", "rightId": 1 },
+            "right": { "word": "the train", "rightId": 5 }
           },
           {
-            "left": { "word": "Igualdad", "rightId": 2 },
-            "right": { "word": "A system of people working together in a community.", "rightId": 3 }
+            "left": { "word": "la pizza", "rightId": 2 },
+            "right": { "word": "I travel", "rightId": 3 }
           },
           {
-            "left": { "word": "Sociedad", "rightId": 3 },
-            "right": { "word": "A job that directly helps people in need.", "rightId": 1 }
+            "left": { "word": "yo viajo", "rightId": 3 },
+            "right": { "word": "on Monday", "rightId": 1 }
           },
           {
-            "left": { "word": "Educación", "rightId": 4 },
-            "right": { "word": "The absence of enough money to meet basic needs.", "rightId": 5 }
+            "left": { "word": "la familia", "rightId": 4 },
+            "right": { "word": "the family", "rightId": 4 }
           },
           {
-            "left": { "word": "Pobreza", "rightId": 5 },
-            "right": { "word": "A state of equal rights and opportunities for all.", "rightId": 2 }
+            "left": { "word": "el tren", "rightId": 5 },
+            "right": { "word": "the pizza", "rightId": 2 }
           },
         ]
       },
@@ -3423,24 +3543,24 @@ export const quiz = [
         "type": "MatchTheFollowing",
         "pairs": [
           {
-            "left": { "word": "Trabajo social ", "rightId": 1 },
-            "right": { "word": "Laws or strategies created to help manage social issues.", "rightId": 3 }
+            "left": { "word": "Me gusta bailar", "rightId": 1 },
+            "right": { "word": "the cinema", "rightId": 3 }
           },
           {
-            "left": { "word": "Comunidad", "rightId": 2 },
-            "right": { "word": "A young person actively involved in community activities.", "rightId": 5 }
+            "left": { "word": "la estación", "rightId": 2 },
+            "right": { "word": "the food", "rightId": 5 }
           },
           {
-            "left": { "word": "Política", "rightId": 3 },
-            "right": { "word": "A job that directly helps people in need.", "rightId": 1 }
+            "left": { "word": "el cine", "rightId": 3 },
+            "right": { "word": "I like to dance", "rightId": 1 }
           },
           {
-            "left": { "word": "Mujer", "rightId": 4 },
-            "right": { "word": "A group of people living in a particular area with shared values.", "rightId": 2 }
+            "left": { "word": "Mi madre", "rightId": 4 },
+            "right": { "word": "the station", "rightId": 2 }
           },
           {
-            "left": { "word": "Joven", "rightId": 5 },
-            "right": { "word": "A woman’s fight for equal rights.", "rightId": 4 }
+            "left": { "word": "la comida", "rightId": 5 },
+            "right": { "word": "my mother", "rightId": 4 }
           }
         ]
       }
@@ -3753,5 +3873,4 @@ export const quiz = [
       
     ]
   },
-
 ];
