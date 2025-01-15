@@ -1,6 +1,6 @@
-import Head from 'next/head';
+import Head from 'next/head'; 
 import React, { useEffect, useState } from 'react';
-import { cards } from '../../Data/Routes/Conversations'
+import { cards } from '../../Data/Routes/Conversations';
 import styles from '../../styles/quiz/conversation.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -11,12 +11,11 @@ import { useSelector } from 'react-redux';
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
   const [isClient, setIsClient] = useState(false);
-    const [convoData, setconvoData] = useState(null);
+  const [convoData, setconvoData] = useState(null);
 
-      const router = useRouter();
-      const { id } = router.query; // Get the dynamic `id` from the route
-    
-      const somedata = cards.find((data) => data.link === id);
+  const router = useRouter();
+  const { id } = router.query; // Get the dynamic `id` from the route
+  const somedata = cards.find((data) => data.link === id);
 
   useEffect(() => {
     setIsClient(true); // Set to true when client-side is ready
@@ -24,12 +23,20 @@ export default function FrenchQuizes() {
     if (somedata) {
       // Dynamically import the lesson data
       import(`../../Data/Conversationdata/${somedata.data}`)
-        .then((module) => setconvoData(module.youdata))
+      // .then((module) => setconvoData(module.youdata))
+        .then((module) => {
+          let data = module.youdata;
+          
+          // Check condition and slice convoData
+          if (somedata?.data === 'frenchb1' && (user?.type === 'frenchb1' || user?.next?.includes('frenchb1'))) {
+            data = data.slice(0, 5); // Slice to only include first 5 entries
+          }
+          
+          setconvoData(data); // Set the sliced or full data
+        })
         .catch((error) => console.error('Error loading lesson data:', error));
     }
-  }, [somedata]);
-
-
+  }, [somedata, user]); // Depend on somedata and user to trigger the effect when they change
 
   if (!isClient || !somedata) {
     // Optionally return a loader or handle invalid `id`
@@ -51,57 +58,55 @@ export default function FrenchQuizes() {
           </div>
 
           <div className={styles.container}>
-          {convoData?.map((data, index) => {
-      return (
-        <div key={data.id} className={styles.videocontainer}>
-
-{user.trial && data.id < 3 || user.type === 'all' || !user.trial ? (
-              <Link className={styles.link} href={`/Conversations/SingleConversation/${somedata.link2}/${data.id}`}>
-                <div className={styles.imgcont}>
-                  <div className={styles.logocont}>
-                    <Image
-                      className={styles.imagelogo}
-                      src={'/youtube/youtube.png'}
-                      width={400}
-                      height={180}
-                      alt='image'
-                    />
-                  </div>
-                  <Image className={styles.image} src={data.url} width={400} height={180} alt={data.title} />
+            {convoData?.map((data, index) => {
+              return (
+                <div key={data.id} className={styles.videocontainer}>
+                  {user.trial && data.id < 3 || user.type === 'all' || !user.trial ? (
+                    <Link className={styles.link} href={`/Conversations/SingleConversation/${somedata.link2}/${data.id}`}>
+                      <div className={styles.imgcont}>
+                        <div className={styles.logocont}>
+                          <Image
+                            className={styles.imagelogo}
+                            src={'/youtube/youtube.png'}
+                            width={400}
+                            height={180}
+                            alt='image'
+                          />
+                        </div>
+                        <Image className={styles.image} src={data.url} width={400} height={180} alt={data.title} />
+                      </div>
+                      <div>
+                        <h3 className={styles.title}>{data.title}</h3>
+                        <p className={styles.desc}>{data.desc.slice(0, 100)}...</p>
+                      </div>
+                    </Link>
+                  ) : (
+                    <div className={styles.locked}>
+                      <div className={styles.lockOverlay}>
+                        <FaLock />
+                        <p>Locked</p>
+                      </div>
+                      <div className={styles.imgcont}>
+                        <div className={styles.logocont}>
+                          <Image
+                            className={styles.imagelogo}
+                            src={'/youtube/youtube.png'}
+                            width={400}
+                            height={180}
+                            alt='image'
+                          />
+                        </div>
+                        <Image className={styles.image} src={data.url} width={400} height={180} alt={data.title} />
+                      </div>
+                      <div>
+                        <h3 className={styles.title}>{data.title}</h3>
+                        <p className={styles.desc}>{data.desc.slice(0, 100)}...</p>
+                      </div>
+                    </div>
+                  )}
                 </div>
-                <div>
-                  <h3 className={styles.title}>{data.title}</h3>
-                  <p className={styles.desc}>{data.desc.slice(0, 100)}...</p>
-                </div>
-              </Link>
-            ) : (
-              <div className={styles.locked}>
-                <div className={styles.lockOverlay}>
-                  <FaLock />
-                  <p>Locked</p>
-                </div>
-                <div className={styles.imgcont}>
-                  <div className={styles.logocont}>
-                    <Image
-                      className={styles.imagelogo}
-                      src={'/youtube/youtube.png'}
-                      width={400}
-                      height={180}
-                      alt='image'
-                    />
-                  </div>
-                  <Image className={styles.image} src={data.url} width={400} height={180} alt={data.title} />
-                </div>
-                <div>
-                  <h3 className={styles.title}>{data.title}</h3>
-                  <p className={styles.desc}>{data.desc.slice(0, 100)}...</p>
-                </div>
-              </div>
-            )}
-
-      </div>
-      )
-    })}
+              );
+            })}
           </div>
         </div>
       </main>

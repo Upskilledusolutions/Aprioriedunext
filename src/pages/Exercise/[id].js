@@ -24,7 +24,17 @@ export default function FrenchQuizes() {
     if (somedata) {
       // Dynamically import the lesson data
       import(`../../Data/ExerciseData/${somedata.data}`)
-        .then((module) => setexerciseData(module.quiz))
+        // .then((module) => setexerciseData(module.quiz))
+        .then((module) => {
+          let data = module.quiz;
+          
+          // Check condition and slice convoData
+          if (somedata?.data === 'frenchb1' && (user?.type === 'frenchb1' || user?.next?.includes('frenchb1'))) {
+            data = data.slice(0, 5); // Slice to only include first 5 entries
+          }
+          
+          setexerciseData(data); // Set the sliced or full data
+        })
         .catch((error) => console.error('Error loading lesson data:', error));
     }
   }, [somedata]);
