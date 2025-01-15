@@ -3261,4 +3261,497 @@ export const quiz = [
       
     ]
   },
+  {
+    quiz: '18',
+    name: 'Spanish Exercise - 18 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿Qué significa 'voluntario' en español?",
+        "choices": ["Volunteer", "Helper", "Citizen", "Teacher"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de estas frases está en presente?",
+        "choices": ["Está trabajando", "Estaba trabajando", "Trabajó", "Trabajará"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué es la 'igualdad'?",
+        "choices": [ "A system of unequal rights", "Equal rights for all", "A fight for rights", "The absence of justice"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de los siguientes es un ejemplo de 'trabajo social'?",
+        "choices": [ "Organizar eventos", "Voluntariado", "Hacer compras", "Enseñar en la escuela"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué forma de verbo está en futuro?",
+        "choices": [ "Ayudé", "Ayudando", "Ayudaré", "Ayudaba"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué papel tiene la 'comunidad' en la sociedad?",
+        "choices": [ "Resolver problemas individuales", "Vivir de manera independiente", "Vivir en armonía", "Decidir las leyes"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué es la 'pobreza'?",
+        "choices": [ "Tener mucho dinero", "Un tipo de comida", "Un cargo político", "La falta de necesidades básicas"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "¿Qué tenso se utiliza para expresar algo que sucede habitualmente?",
+        "choices": [ "Futuro", "Presente", "Pretérito imperfecto", "Condicional"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Las ______ son un grupo que lucha por sus derechos en la sociedad.",
+        "choices": [ "Niños", "Gente rica", "Ciudadanos", "Mujeres"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Los jóvenes deben ______ en proyectos comunitarios.",
+        "choices": [ "Ser ayudados", "Ayudar", "Ayudaron", "Ayudarían"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "La ______ (profesión) de mi hermano es médico.",
+        "choices": ["profesión","profesion"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En mi ______ (comunidad), hay muchas personas que ayudan a los demás.",
+        "choices": ["comunidad"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (trabajar) en una organización sin ánimo de lucro para resolver problemas sociales.",
+        "choices": ["trabajan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El gobierno está ______ (enfocar) su atención en la educación para mejorar la sociedad.",
+        "choices": ["enfocando"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(mujeres) ______ luchan por la igualdad en muchos países.",
+        "choices": ["Las mujeres"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los voluntarios ______ (ayudar) en situaciones de emergencia.",
+        "choices": ["ayudan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En nuestra sociedad, todos ______ (tener) derecho a la educación.",
+        "choices": ["tienen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los ______ (joven) deben ser responsables y ayudar a su comunidad.",
+        "choices": ["jóvenes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Las personas ______ (vivir) en la pobreza necesitan más apoyo.",
+        "choices": ["que viven"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El gobierno ______ (trabajar) en una campaña para mejorar la salud pública.",
+        "choices": ["trabaja"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Voluntario", "rightId": 1 },
+            "right": { "word": "Laws or strategies created to help manage social issues.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Igualdad", "rightId": 2 },
+            "right": { "word": "A system of people working together in a community.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Sociedad", "rightId": 3 },
+            "right": { "word": "A job that directly helps people in need.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Educación", "rightId": 4 },
+            "right": { "word": "The absence of enough money to meet basic needs.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Pobreza", "rightId": 5 },
+            "right": { "word": "A state of equal rights and opportunities for all.", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Trabajo social ", "rightId": 1 },
+            "right": { "word": "Laws or strategies created to help manage social issues.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Comunidad", "rightId": 2 },
+            "right": { "word": "A young person actively involved in community activities.", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Política", "rightId": 3 },
+            "right": { "word": "A job that directly helps people in need.", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Mujer", "rightId": 4 },
+            "right": { "word": "A group of people living in a particular area with shared values.", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Joven", "rightId": 5 },
+            "right": { "word": "A woman’s fight for equal rights.", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+  {
+    quiz: '19',
+    name: 'Spanish Exercise - 19 (A2)',
+    level: 'Easy',
+    topic: 'Mixed',
+    questions: [
+      
+      // 20 MCQs
+      {
+        "question": "¿__________ el supermercado más cercano?",
+        "choices": ["Dónde", "Cómo", "Qué", "Cuándo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿__________ prefieres, café o té?",
+        "choices": ["Qué", "Dónde", "Cuándo", "Cómo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "El __________ está al lado de la estación de tren.",
+        "choices": ["cine", "restaurante", "supermercado", "banco"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿__________ vas de vacaciones?",
+        "choices": ["Qué", "Cómo", "Cuándo", "Dónde"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Yo __________ una pizza grande, por favor.",
+        "choices": ["quiero", "quiero que", "querer", "querría"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿__________ está la tienda de ropa?",
+        "choices": ["Dónde", "Cómo", "Qué", "Cuándo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros __________ viajar a España el próximo verano.",
+        "choices": ["vamos a", "vamos", "viajan", "viajamos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos __________ muy temprano al aeropuerto.",
+        "choices": ["salen", "salieron", "sale", "salir"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿__________ me puedes traer la cuenta?",
+        "choices": ["Cuando", "Dónde", "Qué", "Por favor"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Yo __________ a la tienda a comprar pan.",
+        "choices": ["voy", "va", "voy a", "fui"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿__________ puedo pagar con tarjeta de crédito?",
+        "choices": ["Dónde", "Cómo", "Cuándo", "Qué"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿__________ es la playa más cercana?",
+        "choices": ["Qué", "Dónde", "Cuándo", "Cómo"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Quiero comprar __________ en la tienda de ropa.",
+        "choices": ["una camisa", "unas camisas", "un camisa", "unos camisas"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿__________ es tu restaurante favorito?",
+        "choices": ["Qué", "Cuál", "Cómo", "Dónde"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿__________ vamos al cine o al restaurante?",
+        "choices": ["Cuándo", "Cómo", "Qué", "Dónde"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "__________ de viajar a España en verano.",
+        "choices": ["Estoy pensando", "Pensando", "Pienso", "Pensé"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿__________ hay un banco cerca de aquí?",
+        "choices": ["Dónde", "Qué", "Cómo", "Cuándo"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos __________ comer en un restaurante italiano.",
+        "choices": ["prefieren", "preferir", "prefiera", "preferido"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El taxi __________ aquí dentro de 10 minutos.",
+        "choices": ["llegaba", "llegará", "llega", "llegó"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿__________ la estación de tren desde aquí?",
+        "choices": ["Cómo llego", "Dónde llego", "Qué llego", "Cuándo llego"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Yo __________ (go) al mercado para comprar frutas.",
+        "choices": ["voy"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿(As) __________ estás? ¡Hace mucho calor!",
+        "choices": ["Cómo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella __________ (like) mucho la comida española.",
+        "choices": ["gusta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros __________ (travel) a Madrid el próximo mes.",
+        "choices": ["viajamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El mes pasado, __________ (eat) en un restaurante mexicano.",
+        "choices": ["comí"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo __________ (need) una botella de agua, por favor.",
+        "choices": ["necesito"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿(Where) __________ está la estación de tren?",
+        "choices": ["Dónde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos __________ (talk) español y francés.",
+        "choices": ["hablan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿(How many) __________ años tienes?",
+        "choices": ["Cuántos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros __________ (can) ir de compras mañana.",
+        "choices": ["podemos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me __________ (love) los zapatos que llevas.",
+        "choices": ["encantan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros __________ (have) que comprar un mapa para el viaje.",
+        "choices": ["tenemos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quiero __________ (buy) una camiseta en esta tienda.",
+        "choices": ["comprar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿(That) __________ prefieres, la pizza o la pasta?",
+        "choices": ["Qué"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A mí __________ (like) mucho viajar a la playa.",
+        "choices": ["gusta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo __________ (need) cambiar dinero en el banco.",
+        "choices": ["necesito"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ustedes __________ (take) un taxi para ir al restaurante.",
+        "choices": ["toman"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Is) __________ un buen restaurante, ¿verdad?",
+        "choices": ["Es"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿(Where) __________ están los baños, por favor?",
+        "choices": ["Dónde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La cuenta, __________ (please).",
+        "choices": ["por favor"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "la tienda de ropa", "rightId": 1 },
+            "right": { "word": "the beach", "rightId": 4 }
+          },
+          {
+            "left": { "word": "el avión", "rightId": 2 },
+            "right": { "word": "the train station", "rightId": 3 }
+          },
+          {
+            "left": { "word": "la estación de tren", "rightId": 3 },
+            "right": { "word": "the clothing store", "rightId": 1 }
+          },
+          {
+            "left": { "word": "la playa", "rightId": 4 },
+            "right": { "word": "the menu", "rightId": 5 }
+          },
+          {
+            "left": { "word": "el menú", "rightId": 5 },
+            "right": { "word": "the plane", "rightId": 2 }
+          },
+        ]
+      },
+      {
+        "question": "Empareja las palabras singulares y plurales.",
+        "type": "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "el supermercado", "rightId": 1 },
+            "right": { "word": "the passport", "rightId": 3 }
+          },
+          {
+            "left": { "word": "el taxi", "rightId": 2 },
+            "right": { "word": "the backpack", "rightId": 5 }
+          },
+          {
+            "left": { "word": "el pasaporte", "rightId": 3 },
+            "right": { "word": "the supermarket", "rightId": 1 }
+          },
+          {
+            "left": { "word": "el restaurante", "rightId": 4 },
+            "right": { "word": "the taxi", "rightId": 2 }
+          },
+          {
+            "left": { "word": "la mochila", "rightId": 5 },
+            "right": { "word": "the restaurant", "rightId": 4 }
+          }
+        ]
+      }
+      
+    ]
+  },
+
 ];

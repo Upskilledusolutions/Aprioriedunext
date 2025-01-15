@@ -125,4 +125,11 @@ export const data = [
     pdf:'https://drive.google.com/file/d/1CJlyeYtNJ6JgiaiBz3ufUal7HPTreeo8/preview',
     desc:'Spanish Foundation Lesson 18 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
+{
+    id:'19',
+    name:'Spanish Lesson 19 (A2)',
+    level:'Beginners',
+    pdf:'https://drive.google.com/file/d/1IycaVlQemSOmLg1LhhM9HLl9sReMpCb4/preview',
+    desc:'Spanish Foundation Lesson 19 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
 ]

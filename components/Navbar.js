@@ -135,7 +135,7 @@ export default function Navbar() {
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Conversations'>Conversations</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/ReadingAssignments'>Reading Assignments</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/ListeningAssignments'>Listening Assignments</Link>
-                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/ReadingPractice'>Reading Practice</Link>
+                {/* <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/ReadingPractice'>Reading Practice</Link> */}
                 {user.type === 'all' && <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/WritingPractice'>Writing Practice</Link>}
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/TestPrep'>Practice Test</Link>
                 {user.type === 'all' && <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/AdminPanel'>Admin Panel</Link>}
