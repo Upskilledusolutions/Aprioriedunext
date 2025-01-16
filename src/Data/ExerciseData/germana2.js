@@ -1970,4 +1970,958 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '11',
+    name: 'German Exercise - 11 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which composer wrote the famous opera The Magic Flute?",
+        "choices": ["Ludwig van Beethoven", "Johann Sebastian Bach", "Wolfgang Amadeus Mozart", "Richard Wagner"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Who is famous for the Brandenburg Concertos?",
+        "choices": ["Franz Schubert", "Johann Sebastian Bach", "Richard Wagner", "Ludwig van Beethoven"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Where was Beethoven born?",
+        "choices": ["Vienna, Austria", "Bonn, Germany", "Munich, Germany", "Paris, France"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following was a famous conductor of the Berlin Philharmonic?",
+        "choices": ["Herbert von Karajan", "Wolfgang Amadeus Mozart", "Carl Orff", "Johannes Brahms"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does the word 'Konzert' mean in English?",
+        "choices": ["Museum", "Gallery", "Concert", "Symphony"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Who is the composer of the German Requiem?",
+        "choices": ["Franz Schubert", "Johannes Brahms", "Richard Wagner", "Ludwig van Beethoven"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "In which city is the famous Semperoper located?",
+        "choices": ["Berlin", "Dresden", "Munich", "Hamburg"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Who composed The Ring Cycle?",
+        "choices": ["Wolfgang Amadeus Mozart", "Johann Sebastian Bach", "Richard Wagner", "Franz Schubert"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of these is a famous German opera house?",
+        "choices": ["Scala Opera House", "Vienna Opera House", "Semper Opera House", "Paris Opera House"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the most famous composition by Beethoven?",
+        "choices": ["The Magic Flute", "Symphony No. 9", "Brandenburg Concerto", "Requiem"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What type of musical instrument is a 'Geige' in German?",
+        "choices": ["Piano", "Violin", "Trumpet", "Flute"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Who wrote Eine kleine Nachtmusik?",
+        "choices": ["Richard Wagner", "Franz Schubert", "Ludwig van Beethoven", "Wolfgang Amadeus Mozart"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which famous composer is known for his Requiem mass?",
+        "choices": ["Ludwig van Beethoven", "Franz Schubert", "Wolfgang Amadeus Mozart", "Johannes Brahms"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is a common feature of classical music?",
+        "choices": ["Rock drums", "Strong rhythm and heavy bass", "Strings and orchestras", "Electronic beats"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Who is considered the founder of modern classical music in Germany?",
+        "choices": ["Johann Sebastian Bach", "Richard Wagner", "Ludwig van Beethoven", "Wolfgang Amadeus Mozart"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the German word for 'opera'?",
+        "choices": ["Theater", "Konzert", "Oper", "Galerie"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of these composers was known for his operas?",
+        "choices": ["Johann Sebastian Bach", "Franz Schubert", "Richard Wagner", "Beethoven"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is the name of a famous German music festival?",
+        "choices": ["Bayreuth Festival", "Edinburgh Festival", "Salzburg Festival", "Paris Jazz Festival"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a famous German composer known for his symphonies?",
+        "choices": ["Richard Wagner", "Johannes Brahms", "Franz Schubert", "Wolfgang Amadeus Mozart"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which composer is known for the Pastoral Symphony?",
+        "choices": ["Johann Sebastian Bach", "Ludwig van Beethoven", "Richard Wagner", "Franz Schubert"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Der ______ (composer) ist sehr bekannt für seine Opern. ",
+        "choices": ["Komponist"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir gehen heute Abend ins ______ (concert).",
+        "choices": ["Konzert"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (symphony) von Beethoven ist weltberühmt. ",
+        "choices": ["Symphonie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In der Kunstgalerie gibt es viele ______ (paintings) von Picasso. ",
+        "choices": ["Gemälde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die ______ (conductor) des Berliner Orchesters ist sehr talentiert. ",
+        "choices": ["Dirigent"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es ist wichtig, die Musik ______ (language) in einem Konzert zu verstehen. ",
+        "choices": ["Sprache"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (can't) das Konzert nicht hören. ",
+        "choices": ["Kann"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In Deutschland gibt es viele ______ (books) über Musikgeschichte. ",
+        "choices": ["Bücher"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (Requiem) von Mozart gilt als eines der größten Werke der Musikgeschichte. ",
+        "choices": ["Requiem"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Can) ______ du mir bitte das Programm für das Konzert geben? ",
+        "choices": ["Kann"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Dieser ______ (composer) gehört zu den berühmtesten Musikern der Welt. ",
+        "choices": ["Komponist"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Beethoven hatte viele ______ (struggles) in seinem Leben. ",
+        "choices": ["Schwierigkeiten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die ______ (performance) der deutschen Philharmonie ist bekannt. ",
+        "choices": ["Aufführung"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Viele Menschen gehen regelmäßig ins ______ (theater) für die klassische Musik. ",
+        "choices": ["Theater"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich werde das ______ (composition) von Bach studieren. ",
+        "choices": ["Komposition"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (orchestra) gibt heute ein Konzert im Stadtpark. ",
+        "choices": ["Orchester"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das ______ (opera house) in Wien ist ein berühmtes Konzerthaus. ",
+        "choices": ["Opernhaus"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die ______ (piano) ist eine der bekanntesten Instrumente in der Musikgeschichte. ",
+        "choices": ["Klavier"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (setting) der Oper ist beeindruckend. ",
+        "choices": ["Schauplatz"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Beethoven ist ______ (truly) ein echter Genie. ",
+        "choices": ["wirklich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Wolfgang Amadeus Mozart", "rightId": 1 },
+      "right": { "word": "I worked on Saturday.", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Johann Sebastian Bach", "rightId": 2 },
+      "right": { "word": "Concerto for Violin", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Ludwig van Beethoven", "rightId": 3 },
+      "right": { "word": "It is 2:30.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Richard Wagner", "rightId": 4 },
+      "right": { "word": "We ate lunch.", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Franz Schubert", "rightId": 5 },
+      "right": { "word": "I woke up at 8:00.", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Er hat gestern Fußball gespielt.", "rightId": 1 },
+      "right": { "word": "When did you have breakfast?", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Wann hast du gefrühstückt?", "rightId": 2 },
+      "right": { "word": "She received a call at 10:00.", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Sie hat um zehn Uhr einen Anruf bekommen.", "rightId": 3 },
+      "right": { "word": "It is 12:15.", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Um wie viel Uhr geht die Schule los?", "rightId": 4 },
+      "right": { "word": "He played football yesterday.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Es ist Viertel nach zwölf.", "rightId": 5 },
+      "right": { "word": "At what time does school start?", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
+  {
+    quiz: '12',
+    name: 'German Exercise - 12 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Was isst man oft auf dem Oktoberfest?",
+        "choices": ["Pizza", "Curry", "Schweinshaxe", "Pommes"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Getränk ist auf dem Oktoberfest am beliebtesten?",
+        "choices": ["Tee", "Bier", "Wein", "Wasser"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Ein Zelt auf dem Oktoberfest ist oft __________ als ein normales Restaurant.",
+        "choices": ["kleiner", "größer", "schöner", "lauter"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Die Brezel schmeckt __________ mit Butter.",
+        "choices": ["besser", "gut", "schön", "toll"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wann begann das erste Oktoberfest?",
+        "choices": ["1800", "1810", "1900", "2000"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche Stadt ist weltweit bekannt für das Oktoberfest?",
+        "choices": ["Berlin", "Hamburg", "München", "Frankfurt"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welcher Nachtisch ist typisch für Weihnachten in Deutschland?",
+        "choices": ["Stollen", "Sachertorte", "Croissant", "Eis"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was bedeutet „Guten Rutsch“?",
+        "choices": ["Frohe Ostern", "Frohes neues Jahr", "Herzlichen Glückwunsch", "Guten Appetit"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche Suppe isst man oft in Bayern?",
+        "choices": ["Gulaschsuppe", "Kürbissuppe", "Leberknödelsuppe", "Zwiebelsuppe"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Getränk trinkt man traditionell im Winter?",
+        "choices": ["Glühwein", "Apfelsaft", "Bier", "Kaffee"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Weihnachtsmarkt in Köln ist __________ als der in Nürnberg.",
+        "choices": ["am kleinsten", "größer", "moderner", "weniger interessant"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Der beste Kuchen ist der, der __________ schmeckt.",
+        "choices": ["gut", "besser", "am besten", "schlecht"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Heutzutage feiern Menschen __________ als früher.",
+        "choices": ["traditioneller", "moderner", "stiller", "schneller"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Glühwein ist im Winter __________ als kalter Saft.",
+        "choices": ["beliebter", "weniger beliebt", "teuer", "altmodisch"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie viele Tage dauert das Oktoberfest normalerweise?",
+        "choices": ["10", "16-18", "5", "20"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Warum begann das erste Oktoberfest im Jahr 1810?",
+        "choices": ["Zur Feier der Hochzeit des Kronprinzen", "Zur Feier eines Kriegsgewinns", "Zur Gründung von München", "Wegen eines Sportfestes"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welches Tier war ein Teil der ersten Oktoberfestfeier?",
+        "choices": ["Pferde", "Kühe", "Schafe", "Schweine"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie viele Besucher kommen jedes Jahr zum Oktoberfest?",
+        "choices": ["1 Million", "3 Millionen", "6 Millionen", "10 Millionen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Getränk hat auf dem Oktoberfest einen besonderen Preis?",
+        "choices": ["Kaffee", "Bier", "Wasser", "Wein"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say the number 'seventeen' in German?",
+        "choices": ["Fünfzehn", "Sechzehn", "Siebzehn", "Achtzehn"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Der ______ (composer) ist sehr bekannt für seine Opern. ",
+        "choices": ["Komponist"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich liebe es, ______ (Plätzchen / Kuchen) zu Weihnachten zu backen.",
+        "choices": ["Plätzchen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Zum Geburtstag bekomme ich immer viele ______ (Geschenke / Briefe).",
+        "choices": ["Geschenke"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Oktoberfest findet jedes Jahr in ______ (München / Hamburg) statt.",
+        "choices": ["München"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Brezel ist ein typisches ______ (Brot / Kuchen) aus Bayern.",
+        "choices": ["Brot"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Während der Feiertage besuche ich meine ______ (Familie / Kollegen).",
+        "choices": ["Familie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Auf dem Markt gibt es die besten ______ (Würste / Bücher).",
+        "choices": ["Würste"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Älter / Jünger) als mein Bruder ist meine Schwester.",
+        "choices": ["Älter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ein Dirndl ist ______ (schöner / lang) als eine Lederhose.",
+        "choices": ["schöner"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Heute ist das Wetter ______ (besser / am besten) als gestern.",
+        "choices": ["besser"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Zum Oktoberfest trägt man oft ______ (traditionelle / moderne) Kleidung.",
+        "choices": ["traditionelle"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In Deutschland isst man zu Weihnachten oft ______ (Weihnachtsgans / Pasta).",
+        "choices": ["Weihnachtsgans"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Geschichte von Oktoberfest begann ______ (1810 / 1900).",
+        "choices": ["1810"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Dieses Bier ist ______ (größer / stärker) als das andere.",
+        "choices": ["stärker"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ein festlicher Abend ist ______ (teurer / am teuersten) mit Familie.",
+        "choices": ["teurer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Blaskapelle spielt immer ______ (laut / lauter) als die anderen Musiker.",
+        "choices": ["lauter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Zum Fasching tragen Kinder oft ______ (Kostüme / Hüte).",
+        "choices": ["Kostüme"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Man sagt, dass deutsche Traditionen ______ (älter / jünger) als moderne Trends sind.",
+        "choices": ["älter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Bayerisch / Schwäbisch) ist ein deutscher Dialekt, den viele in Bayern sprechen.",
+        "choices": ["Bayerisch"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Weihnachtsbaum ist in Deutschland ______ (wichtiger / am wichtigsten) für die Dekoration.",
+        "choices": ["wichtiger"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es gibt ______ (mehr / weniger) Bier auf dem Oktoberfest als in einer normalen Bar.",
+        "choices": ["mehr"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Brezel", "rightId": 1 },
+      "right": { "word": "Traditional Bavarian Dress", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Dirndl", "rightId": 2 },
+      "right": { "word": "Traditional Pants", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Weihnachtsgans", "rightId": 3 },
+      "right": { "word": "Pretzel", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Blaskapelle", "rightId": 4 },
+      "right": { "word": "Christmas Goose", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Lederhose", "rightId": 5 },
+      "right": { "word": "Brass Band", "rightId": 4 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Biergarten", "rightId": 1 },
+      "right": { "word": "Carnival Costume", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Fasching Kostüm", "rightId": 2 },
+      "right": { "word": "Beer Tent", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Traditionelle Musik", "rightId": 3 },
+      "right": { "word": "Christmas Tree", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "München", "rightId": 4 },
+      "right": { "word": "Beer Garden", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Weihnachtsbaum", "rightId": 5 },
+      "right": { "word": "Munich", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
+  {
+    quiz: '13',
+    name: 'German Exercise - 13 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Was bedeutet \"Klimawandel\"?",
+        "choices": ["Climate change", "Recycling", "Air pollution", "Forest protection"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welcher Begriff bedeutet \"renewable energy\"?",
+        "choices": ["fossile Energie", "erneuerbare Energie", "nicht erneuerbare Energie", "Energieverlust"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist der \"Treibhauseffekt\"?",
+        "choices": ["The melting of ice caps", "The ozone layer", "The greenhouse effect", "The recycling system"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie sagt man \"forest\" auf Deutsch?",
+        "choices": ["Wüste", "Wald", "Baum", "Strauch"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was kann man tun, um die Umwelt zu schützen?",
+        "choices": ["Mehr Abfall produzieren", "Strom sparen", "Treibhausgase freisetzen", "Bäume fällen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist eine erneuerbare Energiequelle?",
+        "choices": ["Kohle", "Öl", "Wind", "Erdgas"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was bedeutet \"Abholzung\"?",
+        "choices": ["Conservation", "Deforestation", "Forestation", "Air pollution"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches der folgenden ist ein Effekt des Klimawandels?",
+        "choices": ["Saubereres Wasser", "Mehr Bäume", "Anstieg des Meeresspiegels", "Weniger CO2"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie können wir Wasser sparen?",
+        "choices": ["Indem wir lange duschen", "Indem wir weniger Plastik benutzen", "Indem wir den Wasserhahn schließen", "Indem wir Müll trennen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was bedeutet \"Umweltschutz\"?",
+        "choices": ["Nature pollution", "Environmental protection", "Climate change", "Air pollution"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie sagt man \"global warming\" auf Deutsch?",
+        "choices": ["Ozonloch", "Treibhauseffekt", "Erderwärmung", "Klimaanlage"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was ist eine Konsequenz des Treibhauseffekts?",
+        "choices": ["Weniger Plastik", "Schmelzende Gletscher", "Mehr fossile Brennstoffe", "Weniger Windenergie"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was bedeutet \"Recycling\"?",
+        "choices": ["Wiederverwertung", "Mülltrennung", "Abfall", "Verschmutzung"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was ist \"Luftverschmutzung\"?",
+        "choices": ["Air pollution", "Noise pollution", "Renewable energy", "Deforestation"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie kann man den Treibhauseffekt reduzieren?",
+        "choices": ["Mehr fossile Brennstoffe nutzen", "Weniger CO2 ausstoßen", "Mehr Bäume fällen", "Plastik ins Meer werfen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie sagt man \"ozone layer\" auf Deutsch?",
+        "choices": ["Wald", "Ozonloch", "Ozonschicht", "Klimawandel"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was ist eine erneuerbare Energiequelle?",
+        "choices": ["Kohle", "Erdgas", "Solarenergie", "Plastik"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was ist ein Synonym für \"Mülltrennung\"?",
+        "choices": ["Recycling", "Luftverschmutzung", "Ozonloch", "Erderwärmung"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was bedeutet \"Windkraft\"?",
+        "choices": ["Wind power", "Wind forest", "Wind layer", "Wind pollution"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie können wir unseren CO2-Fußabdruck reduzieren?",
+        "choices": ["Mehr mit dem Auto fahren", "Weniger Plastik verwenden", "Mehr Öl verbrauchen", "Kohleenergie nutzen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Die ______ (forest) ist voller Bäume und Tiere.",
+        "choices": ["Wald"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn wir die Umwelt schützen wollen, sollten wir ______ (recycle).",
+        "choices": ["recyceln"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (climate change) hat große Auswirkungen auf die Natur.",
+        "choices": ["Klimawandel"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn wir weniger Fleisch essen, ______ (save) wir die Umwelt.",
+        "choices": ["sparen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Viele Tiere sterben, weil ihre ______ (habitat) zerstört wird.",
+        "choices": ["Lebensraum"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn die Luftverschmutzung weiter steigt, wird es ______ (difficult) zu atmen.",
+        "choices": ["schwierig"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir müssen mehr ______ (solar energy) nutzen, um Energie zu sparen.",
+        "choices": ["Solarenergie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn wir ______ (less plastic) verwenden, wird die Umwelt sauberer.",
+        "choices": ["weniger Plastik"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (rain) ist notwendig für die Landwirtschaft.",
+        "choices": ["Regen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ohne sauberes ______ (water) können Menschen und Tiere nicht leben.",
+        "choices": ["Wasser"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Regierung plant ein Gesetz, um den ______ (greenhouse effect) zu reduzieren.",
+        "choices": ["Treibhauseffekt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn wir mehr ______ (trees) pflanzen, wird die Erde grüner.",
+        "choices": ["Bäume"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir sollten den Müll in ______ (different bins) trennen.",
+        "choices": ["verschiedene Tonnen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (storm) hat viele Häuser beschädigt.",
+        "choices": ["Sturm"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es ist wichtig, den ______ (ozone layer) zu schützen.",
+        "choices": ["Ozonschicht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn jeder seinen Teil beiträgt, ______ (can) die Umwelt gerettet werden.",
+        "choices": ["kann"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die ______ (nature conservation) ist ein wichtiges Thema.",
+        "choices": ["Naturschutz"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (wind energy) wird oft in Küstenregionen genutzt.",
+        "choices": ["Windenergie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir sollten immer die ______ (environmental protection laws) beachten.",
+        "choices": ["Umweltschutzgesetze"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ein kleiner Schritt kann einen großen ______ (impact) haben.",
+        "choices": ["Einfluss"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Umweltverschmutzung", "rightId": 1 },
+      "right": { "word": "Global warming", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Erderwärmung", "rightId": 2 },
+      "right": { "word": "Renewable energy", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Mülltrennung", "rightId": 3 },
+      "right": { "word": "Pollution", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "erneuerbare Energie", "rightId": 4 },
+      "right": { "word": "Waste separation", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Abfall", "rightId": 5 },
+      "right": { "word": "Brass Band", "rightId": 4 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Klimawandel", "rightId": 1 },
+      "right": { "word": "Deforestation", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Abholzung", "rightId": 2 },
+      "right": { "word": "Wind energy", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Windkraft", "rightId": 3 },
+      "right": { "word": "Greenhouse effect", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Sonnenenergie", "rightId": 4 },
+      "right": { "word": "Global warming", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Treibhauseffekt", "rightId": 5 },
+      "right": { "word": "Solar energy", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
 ];
