@@ -1,138 +1,203 @@
-/* Main Container */
+/* Speech Tracker Container */
 .speechTrackerContainer {
-    font-family: 'Arial', sans-serif;
-    background-color: white;
-    padding: 20px 5vw;
-    border-radius: 8px;
-    width: 70vw;
-    margin: 50px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 70%;
+  margin: 50px auto;
+  padding: 20px 5% 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+/* Flex Containers */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexbuttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.timelineContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.time{
+  width: 100px;
+}
+
+.timelineContainer input[type="range"] {
+  width: 100%;
+  background: #333333;
+  border-radius: 10px;
+  height: 5px;
+  appearance: none;
+  transition: background-color 0.3s ease;
+}
+
+.timelineContainer input[type="range"]:hover {
+  background: #444444;
+}
+
+.timelineContainer input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(227, 80, 61);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.timelineContainer input[type="range"]:focus::-webkit-slider-thumb {
+  background-color: rgb(223, 42, 19);
+}
+
+/* Buttons */
+.toggleButton,
+.readAloudButton,
+.speechTrackerButton {
+  background-color: rgb(227, 80, 61);
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggleButton:hover,
+.readAloudButton:hover,
+.speechTrackerButton:hover {
+  background-color: rgb(227, 80, 61);
+}
+
+.toggleButton:disabled {
+  background-color: #555555;
+  cursor: not-allowed;
+}
+
+.readAloudButton {
+  padding: 10px;
+  background-color: rgb(227, 80, 61);
+  border: 2px solid rgb(227, 80, 61);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.readAloudButton:hover {
+  background-color: rgb(216, 58, 37);
+  border-color: rgb(218, 51, 29);
+}
+
+.speedControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.speedControls button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.speedControls button:hover {
+  color: rgb(227, 80, 61);
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalContent {
+  background-color: #1E1E1E;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.modalContent h2 {
+  font-size: 2rem;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.modalContent p {
+  font-size: 1.1rem;
+  color: #B0B0B0;
+  margin-bottom: 30px;
+}
+
+.closeModalButton {
+  background-color: #3F9BFC;
+  color: #FFFFFF;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.closeModalButton:hover {
+  background-color: #2B81D8;
+}
+
+/* Error Messages */
+.errorMessage {
+  font-size: 1.1rem;
+  color: #F44336;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+  .speechTrackerContainer {
+    width: 80%;
   }
   .flex{
-    display: flex;
+    flex-direction: column;
   }
-  .readAloudButton{
-font-size: 24px;
-background: none;
-border: none;
-  }
-  /* Heading */
-  .heading {
-    text-align: center;
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* Paragraph */
-  .paragraph {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: #555;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  /* Word Styling */
-  .word {
-    margin-right: 5px;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .highlighted {
-    font-weight: bold;
-    color: rgb(227, 80, 61);
-    animation: highlight 0.5s ease-in-out;
-    margin-right: 5px;
-  }
-  
-  /* Animation for highlighting bold words */
-  @keyframes highlight {
-    0% {
-      opacity: 0;
-      transform: scale(0.8);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-  
-  /* Button Styling */
-  .toggleButton {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
+  .toggleButton{
+    width: 100%;
     border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-    display: block;
-    margin: 20px auto;
+    margin-bottom: 40px;
   }
-  
-  .toggleButton:hover {
-    background-color: #45a049;
-  }
-  
-  /* Listening State */
-  .listening {
-    background-color: #f44336;
-  }
-  
-  .listening:hover {
-    background-color: #e53935;
-  }
-  
-  /* Error Message */
-  .errorMessage {
-    color: red;
-    font-size: 1rem;
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .modalContent {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 300px;
-  }
-  
-  .closeModalButton {
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: rgb(227, 80, 61);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .closeModalButton:hover {
-    background-color: rgb(227, 80, 61);
-  }
-  
-  @media screen and (max-width: 768px){
-    .speechTrackerContainer {
-        width: 80vw;
-    }
-    .paragraph {
-        font-size: 16px;
-    }
-  }
+}
