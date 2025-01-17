@@ -44,13 +44,13 @@ export const data = [
           "correctAnswer": 0
         },
         {
-          "question": "What did Paul said about Paris?",
-          "choices": ["c'est beau", "c'est bien", "c'est correct", "ce n'est pas bien"],
+          "question": "How long is Paul living in the same city?",
+          "choices": ["5 ans", "3 mois", "1 an", "8 mois"],
           "correctAnswer": 0
         },
         {
-          "question": "How long is Paul living in the same city?",
-          "choices": ["5 ans", "3 mois", "1 an", "8 mois"],
+          "question": "What did Paul said about Paris?",
+          "choices": ["c'est beau", "c'est bien", "c'est correct", "ce n'est pas bien"],
           "correctAnswer": 0
         },
         {

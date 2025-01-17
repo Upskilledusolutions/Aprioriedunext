@@ -7,7 +7,7 @@ const ReadingAssignment = ({ readingText, questions, Title }) => {
   const paragraphs = readingText?.split("\n");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(300); // 5 minutes in seconds
+  const [timeLeft, setTimeLeft] = useState(600); // 5 minutes in seconds
 
   useEffect(() => {
     if (timeLeft > 0) {
