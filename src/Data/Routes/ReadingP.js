@@ -81,4 +81,31 @@
         link2: 'FrenchReadingPageB1',
         code: 'fr-FR'
       },
+      {
+        type: 'frenchc1',
+        heading: 'French Reading Practice (C1)',
+        text: 'Dive into the vibrant world of French-speaking countries with this course.',
+        link: 'FrenchReadingC1',
+        data: 'Frenchc1',
+        link2: 'FrenchReadingPageC1',
+        code: 'fr-FR'
+      },
+      {
+        type: 'spanishc1',
+        heading: 'Spanish Reading Practice (C1)',
+        text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
+        link: 'SpanishReadingC1',
+        data: 'Spanishc1',
+        link2: 'SpanishReadingPageC1',
+        code: 'es-ES'
+      },
+      {
+        type: 'germanc1',
+        heading: 'German Reading Practice (C1)',
+        text: 'Dive into the vibrant world of German-speaking countries with this course.',
+        link: 'GermanReadingC1',
+        data: 'Germanc1',
+        link2: 'GermanReadingPageC1',
+        code: 'de-DE'
+      },
   ];
