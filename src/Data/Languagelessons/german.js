@@ -122,6 +122,7 @@ export const data = [{
     name:'German Lesson 16 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1fIVt2QE_ah0VYKiY6MR6YRstxyU-FWXS/preview',
+    video:'https://www.youtube.com/embed/EkiIp3zjG8E?si=fyYbe8P0DKBnLtv0',
     desc:'German Foundation Lesson 16 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
@@ -129,6 +130,7 @@ export const data = [{
     name:'German Lesson 17 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1TO_zNQM_t7Vp7LCadGoYyp5fccDlNWK2/preview',
+    video:'https://www.youtube.com/embed/Ql4cSWWJsy0?si=hpvNN9p2cn18FJg6',
     desc:'German Foundation Lesson 17 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
