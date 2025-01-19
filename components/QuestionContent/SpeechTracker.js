@@ -3,6 +3,44 @@ import styles from '../../src/styles/quiz/speechtracker.module.css';
 import { HiSpeakerWave } from "react-icons/hi2";
 import { HiSpeakerXMark } from "react-icons/hi2";
 
+// Function to calculate the similarity percentage between two words
+const getSimilarity = (word1, word2) => {
+  let longer = word1;
+  let shorter = word2;
+  if (word1.length < word2.length) {
+    longer = word2;
+    shorter = word1;
+  }
+
+  const longerLength = longer.length;
+  if (longerLength === 0) {
+    return 1.0; // both words are empty
+  }
+
+  return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
+};
+
+// Function to calculate the edit distance (Levenshtein distance)
+const editDistance = (s1, s2) => {
+  const l1 = s1.length;
+  const l2 = s2.length;
+  const dp = Array(l1 + 1).fill(null).map(() => Array(l2 + 1).fill(0));
+
+  for (let i = 0; i <= l1; i++) dp[i][0] = i;
+  for (let j = 0; j <= l2; j++) dp[0][j] = j;
+
+  for (let i = 1; i <= l1; i++) {
+    for (let j = 1; j <= l2; j++) {
+      const cost = s1[i - 1] === s2[j - 1] ? 0 : 1;
+      dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost);
+    }
+  }
+
+  return dp[l1][l2];
+};
+
+
+
 const SpeechTracker = ({ data, code }) => {
   const [spokenWords, setSpokenWords] = useState(""); // Final recognized words
   const [interimWords, setInterimWords] = useState(""); // Interim (live) recognized words
@@ -72,7 +110,10 @@ const SpeechTracker = ({ data, code }) => {
     return paragraphArray.map((word, index) => {
       const cleanedWord = word.replace(/[.,?!]/g, "").toLowerCase();
 
-      if (index === nextBoldIndex && spokenArray.includes(cleanedWord)) {
+      // Compare spoken words with a similarity threshold of 60%
+      const isSimilar = spokenArray.some(spokenWord => getSimilarity(spokenWord, cleanedWord) >= 0.6);
+      console.log(isSimilar)
+      if (index === nextBoldIndex && isSimilar) {
         setLastBoldIndex(index);
         nextBoldIndex += 1;
       }
@@ -207,17 +248,6 @@ const SpeechTracker = ({ data, code }) => {
           >
             {isReading ? <HiSpeakerXMark /> : <HiSpeakerWave />}
           </button>
-          {/* <div className={styles.timelineContainer}>
-        <span className={styles.time}>{Math.floor(currentTime)} / {Math.floor(totalDuration)}s</span>
-        <input
-          type="range"
-          min="0"
-          max={totalDuration}
-          value={currentTime}
-          onChange={handleSliderChange}
-          className={styles.slider}
-        />
-      </div> */}
           <div className={styles.speedControls}>
             <span>Speed {speed.toFixed(1)}x</span>
             <button onClick={decreaseSpeed}>-</button>

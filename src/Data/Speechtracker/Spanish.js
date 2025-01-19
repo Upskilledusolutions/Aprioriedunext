@@ -3,7 +3,7 @@ export const data = [
         id: '1',
         name: 'Spanish Speaking Practice 1 (A1)',
         level: 'Beginner',
-        readingText: "Hola, Ich bin ein spanischer Student. Tengo 25 años y vivo en Madrid, España. Soy estudiante de biología en la universidad. En mi tiempo libre, me gusta leer libros, escuchar música y cocinar. Tengo un hermano que se llama Lucas. Es más joven que yo. Me encanta conocer gente nueva y descubrir nuevas culturas. ¡Encantado/a de conocerte!"
+        readingText: "Hola, soy un estudiante de español. Tengo 25 años y vivo en Madrid, España. Soy estudiante de biología en la universidad. En mi tiempo libre, me gusta leer libros, escuchar música y cocinar. Tengo un hermano que se llama Lucas. Es más joven que yo. Me encanta conocer gente nueva y descubrir nuevas culturas. ¡Encantado/a de conocerte!"
     },
     {
         id: '2',
