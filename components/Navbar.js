@@ -163,6 +163,8 @@ export default function Navbar() {
         </div>
       </motion.div>
 
+      {isDropdownVisible && <div onClick={toggleDropdown} className={styles.blankspace}/>}
+
       {/* Conditionally render Authmodal */}
       {showModal && <Authmodal hideAuthmodal={hideAuthmodal} />}
     </div>

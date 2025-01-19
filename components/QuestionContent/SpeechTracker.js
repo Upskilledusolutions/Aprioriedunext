@@ -230,6 +230,15 @@ const SpeechTracker = ({ data, code }) => {
     }
   };
 
+  useEffect(() => {
+    // Cleanup function to stop the speech if the page is navigated away
+    return () => {
+      if (window.speechSynthesis) {
+        window.speechSynthesis.cancel(); // Cancel any ongoing speech
+      }
+    };
+  }, []); // Empty dependency array to run only on component unmount
+
   return (
     <div className={styles.speechTrackerContainer}>
       <h1 className={styles.heading}>Speech Tracker</h1>
