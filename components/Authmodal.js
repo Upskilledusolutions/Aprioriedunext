@@ -12,9 +12,9 @@ const Authmodal = ({ hideAuthmodal }) => {
         <Link href={'/Auth'} className={styles.loginButton} onClick={hideAuthmodal}>Login</Link>
         <button className={styles.closeButton} onClick={hideAuthmodal}>Close</button>
         </div>
-        <div className={styles.memcont}>
+        {/* <div className={styles.memcont}>
             <Link href={'/BecomeMember'} className={styles.memButton} onClick={hideAuthmodal}>Become a Member</Link>
-        </div>
+        </div> */}
         
       </div>
     </div>

@@ -2,7 +2,7 @@
   export const cards = [
     {
       type: 'english',
-      heading: 'English Reading Practice (A1)',
+      heading: 'English Speaking Practice (A1)',
       text: 'Dive into the vibrant world of English-speaking countries with this course.',
       link: 'EnglishReading',
       data: 'English',
@@ -11,7 +11,7 @@
     },
     {
         type: 'french',
-        heading: 'French Reading Practice (A1)',
+        heading: 'French Speaking Practice (A1)',
         text: 'Dive into the vibrant world of French-speaking countries with this course.',
         link: 'FrenchReading',
         data: 'French',
@@ -20,7 +20,7 @@
       },
       {
         type: 'spanish',
-        heading: 'Spanish Reading Practice (A1)',
+        heading: 'Spanish Speaking Practice (A1)',
         text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
         link: 'SpanishReading',
         data: 'Spanish',
@@ -29,7 +29,7 @@
       },
       {
         type: 'german',
-        heading: 'German Reading Practice (A1)',
+        heading: 'German Speaking Practice (A1)',
         text: 'Dive into the vibrant world of German-speaking countries with this course.',
         link: 'GermanReading',
         data: 'German',
@@ -38,7 +38,7 @@
       },
       {
         type: 'frencha2',
-        heading: 'French Reading Practice (A2)',
+        heading: 'French Speaking Practice (A2)',
         text: 'Dive into the vibrant world of French-speaking countries with this course.',
         link: 'FrenchReadingA2',
         data: 'Frencha2',
@@ -47,7 +47,7 @@
       },
       {
         type: 'spanisha2',
-        heading: 'Spanish Reading Practice (A2)',
+        heading: 'Spanish Speaking Practice (A2)',
         text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
         link: 'SpanishReadingA2',
         data: 'Spanisha2',
@@ -56,7 +56,7 @@
       },
       {
         type: 'germana2',
-        heading: 'German Reading Practice (A2)',
+        heading: 'German Speaking Practice (A2)',
         text: 'Dive into the vibrant world of German-speaking countries with this course.',
         link: 'GermanReadingA2',
         data: 'Germana2',
@@ -65,7 +65,7 @@
       },
       {
         type: 'englishb1',
-        heading: 'English Reading Practice (B1)',
+        heading: 'English Speaking Practice (B1)',
         text: 'Dive into the vibrant world of English-speaking countries with this course.',
         link: 'EnglishReadingB1',
         data: 'englishb1',
@@ -74,7 +74,7 @@
       },
       {
         type: 'frenchb1',
-        heading: 'French Reading Practice (B1)',
+        heading: 'French Speaking Practice (B1)',
         text: 'Dive into the vibrant world of French-speaking countries with this course.',
         link: 'FrenchReadingB1',
         data: 'Frenchb1',
@@ -83,7 +83,7 @@
       },
       {
         type: 'frenchc1',
-        heading: 'French Reading Practice (C1)',
+        heading: 'French Speaking Practice (C1)',
         text: 'Dive into the vibrant world of French-speaking countries with this course.',
         link: 'FrenchReadingC1',
         data: 'Frenchc1',
@@ -92,7 +92,7 @@
       },
       {
         type: 'spanishc1',
-        heading: 'Spanish Reading Practice (C1)',
+        heading: 'Spanish Speaking Practice (C1)',
         text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
         link: 'SpanishReadingC1',
         data: 'Spanishc1',
@@ -101,7 +101,7 @@
       },
       {
         type: 'germanc1',
-        heading: 'German Reading Practice (C1)',
+        heading: 'German Speaking Practice (C1)',
         text: 'Dive into the vibrant world of German-speaking countries with this course.',
         link: 'GermanReadingC1',
         data: 'Germanc1',
