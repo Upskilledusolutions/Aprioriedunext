@@ -52,6 +52,7 @@ const SpeechTracker = ({ data, code }) => {
   const [speed, setSpeed] = useState(0.75); // Speed state (1 is normal speed)
   const [totalDuration, setTotalDuration] = useState(0); // Total speech duration in seconds
   const [currentTime, setCurrentTime] = useState(0); // Current speech time
+  const [isStop, setIsstop] = useState(false) 
   const recognitionRef = useRef(null);
   const utteranceRef = useRef(null); // Added a reference for the current utterance
   const intervalRef = useRef(null); // Reference for interval to track speech progress
@@ -248,8 +249,13 @@ const SpeechTracker = ({ data, code }) => {
           className={`${styles.toggleButton} ${isListening ? styles.listening : ""}`}
           onClick={toggleListening}
         >
-          {isListening ? "Stop Speaking" : "Start Speaking"}
+          {isListening ? <div onClick={()=>[setIsstop(false)]}>Stop Speaking</div> : <div>Start Speaking</div>}
         </button>
+        {/* <>
+          {isStop && <div>
+          <button className={styles.toggleButton}>Restart</button>
+          <button className={styles.toggleButton}>Resume</button></div>}
+        </> */}
         <div className={styles.flexbuttons}>
           <button
             className={styles.readAloudButton}

@@ -138,6 +138,7 @@ export const data = [{
     name:'German Lesson 18 (A1)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1vMQTUecnAvcehEoA-kQhTjaHeZ9NtowX/preview',
+    video:'https://www.youtube.com/embed/R_I5GR0o-xw?si=TYt_uJR6cv2HJIFu',
     desc:'German Foundation Lesson 18 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
