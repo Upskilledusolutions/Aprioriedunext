@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from '../../src/styles/quiz/speechtracker.module.css';
 import { HiSpeakerWave } from "react-icons/hi2";
 import { HiSpeakerXMark } from "react-icons/hi2";
+import { MdHearing, MdHearingDisabled } from "react-icons/md";
 
 // Function to calculate the similarity percentage between two words
 const getSimilarity = (word1, word2) => {
@@ -245,31 +246,73 @@ const SpeechTracker = ({ data, code }) => {
       <h1 className={styles.heading}>Speech Tracker</h1>
       <p className={styles.paragraph}>{highlightWords()}</p>
       <div className={styles.flex}>
+        <div className={styles.btnsflex}>
+          {isListening ? <MdHearing className={styles.hrbtns}/> : <MdHearingDisabled className={styles.hrbtns}/>}
+    {isListening ? (
+      <>
         <button
-          className={`${styles.toggleButton} ${isListening ? styles.listening : ""}`}
-          onClick={toggleListening}
+          className={`${styles.toggleButton}`}
+          onClick={() => {
+            setIsListening(false);
+            setIsstop(true);
+          }}
         >
-          {isListening ? <div onClick={()=>[setIsstop(false)]}>Stop Speaking</div> : <div>Start Speaking</div>}
+          Stop
         </button>
-        {/* <>
-          {isStop && <div>
-          <button className={styles.toggleButton}>Restart</button>
-          <button className={styles.toggleButton}>Resume</button></div>}
-        </> */}
-        <div className={styles.flexbuttons}>
-          <button
-            className={styles.readAloudButton}
-            onClick={toggleReadAloud}
-          >
-            {isReading ? <HiSpeakerXMark /> : <HiSpeakerWave />}
-          </button>
-          <div className={styles.speedControls}>
-            <span>Speed {speed.toFixed(1)}x</span>
-            <button onClick={decreaseSpeed}>-</button>
-            <button onClick={increaseSpeed}>+</button>
-          </div>
-        </div>
-      </div>
+        <button
+          className={styles.toggleButton}
+          onClick={() => {
+            resetProgress();
+            setIsListening(true);
+          }}
+        >
+          Restart
+        </button>
+      </>
+    ) : isStop ? (
+      <>
+        <button
+          className={`${styles.toggleButton}`}
+          onClick={() => {
+            setIsListening(true);
+            setIsstop(false);
+          }}
+        >
+          Resume
+        </button>
+        <button
+          className={styles.toggleButton}
+          onClick={resetProgress}
+        >
+          Restart
+        </button>
+      </>
+    ) : (
+      <button
+        className={`${styles.toggleButton}`}
+        onClick={() => {
+          setIsListening(true);
+          setIsstop(false);
+        }}
+      >
+        Start Speaking
+      </button>
+    )}
+    </div>
+  <div className={styles.flexbuttons}>
+    <button
+      className={styles.readAloudButton}
+      onClick={toggleReadAloud}
+    >
+      {isReading ? <HiSpeakerXMark /> : <HiSpeakerWave />}
+    </button>
+    <div className={styles.speedControls}>
+      <button onClick={decreaseSpeed}>-</button>
+      <span>{speed.toFixed(2)}x</span>
+      <button onClick={increaseSpeed}>+</button>
+    </div>
+    </div>
+  </div>
 
       {error && <p className={styles.errorMessage}>{error}</p>}
 

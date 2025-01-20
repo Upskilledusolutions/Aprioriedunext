@@ -1,8 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styles from '../../../../styles/WritingP.module.css';
 import { cards } from '../../../../Data/Routes/WritingPractice'
+import { IoSend } from "react-icons/io5";
+import { MdContentCopy } from "react-icons/md";
 // import { useSelector } from 'react-redux';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 // import { FaLock, FaCaretDown } from 'react-icons/fa';
 
 const ChatGPTComponent = () => {
@@ -17,6 +20,25 @@ const ChatGPTComponent = () => {
   const [loading, setLoading] = useState(false); // Add a loading state
   const [show, setShow] = useState(false)
   const chatMessagesRef = useRef(null);
+  const [languageimage, setLanguageimage] = useState("/chatbot/ff.jpg")
+
+  useEffect(()=>{
+    if (!router.isReady) return;
+
+    if(course.slice(0,3).toLowerCase() === 'fre') 
+      {setLanguageimage("/chatbot/ff.jpg")
+        setSelectedTopic('French')
+      }
+      else if(course.slice(0,3).toLowerCase() === 'ger') 
+        {
+          setLanguageimage('/chatbot/gf.jpg')
+          setSelectedTopic('German')
+        }
+        else if(course.slice(0,3).toLowerCase() === 'spa') 
+          {setLanguageimage('/chatbot/sf.jpg')
+            setSelectedTopic('Spanish')
+          }
+  })
 
    // Find lesson metadata based on `id`
         const somedata = cards.find((data) => data.link2 === course);
@@ -118,52 +140,11 @@ const ChatGPTComponent = () => {
     setInput('');
   };
 
-  return (
-    <div className={styles.container}>
-      {/* Sidebar */}
-      {/* <div className={styles.sidebar}>
-        <h1>Languages</h1>
-        <ul>
-          {Languages.map((topic, index) => (
-          user?.type.includes(topic.languagecourse.toLowerCase()) | user?.type === 'all' ?
-            <li
-              key={index}
-              onClick={() => handleTopicSelect(topic.languagecourse, topic.firstsent[0])}
-              className={topic.languagecourse === selectedTopic | user?.type === 'all' ? `${styles.selected}` : ''}
-            >
-              {topic.languagecourse}
-            </li> :
-            <li
-            key={index}
-            className={styles.locked}
-            >
-              <div className={styles.flex}>{topic.languagecourse}<FaLock /></div>
-            </li>
-          ))}
-        </ul>
-      </div>
+  console.log(`${languageimage}`)
 
-      <div className={styles.dropdown}>
-          <div className={styles.selected} onClick={() => setShow(!show)}>{selectedTopic} <FaCaretDown/></div>
-          {show && <ul>
-          {Languages.map((topic, index) => (
-          user?.type.includes(topic.languagecourse.toLowerCase()) || user?.type === 'all' ?
-            <li
-              key={index}
-              onClick={() => handleTopicSelect(topic.languagecourse, topic.firstsent[0])}
-              className={topic.languagecourse === selectedTopic || user?.type === 'all' ? `${styles.selected}` : ''}
-            >
-              {topic.languagecourse}
-            </li> :
-            <li
-            key={index}
-            className={styles.locked}
-            >
-              <div className={styles.flex}>{topic.languagecourse}<FaLock /></div>
-            </li>
-          ))}
-        </ul>}
-      </div> */}
+  return (
+    <div className={styles.background}>
+    <div className={styles.container}>
 
       {/* Chat Area */}
       <div className={styles.chatarea}>
@@ -171,7 +152,9 @@ const ChatGPTComponent = () => {
         <div className={`${styles.chatmessage} ${styles.assistant}`}>
       <div className={`${styles.chatbubble} ${styles.assistant}`}
       >
-      {lesson[id-1].firstsent[0]}
+        <div><Image className={styles.avatar} width={400} height={400} src={"/chatbot/bot.png"} alt="image"/></div>
+        <div className={styles.textcontent}>{lesson[id-1].firstsent[0]}</div>
+        <div className={styles.copy}><MdContentCopy /></div>
        </div>
       </div>
           {messages.map((message, index) => (
@@ -185,8 +168,18 @@ const ChatGPTComponent = () => {
                 className={`${styles.chatbubble} ${
                   message.role === 'user' ? styles.user : styles.assistant
                 }`}
-              >
-                {message.content}
+              > <div><Image className={styles.avatar} width={400} height={400} src={message.role === 'user' ? `${languageimage}` : "/chatbot/bot.png"} alt="image"/></div>
+                <div className={styles.textcontent}
+                >{message.content}</div>
+                <div className={styles.copy}
+                 onClick={() => {
+                  navigator.clipboard.writeText(message.content).then(() => {
+                    alert("Message copied to clipboard!");
+                  }).catch(err => {
+                    console.error("Failed to copy text: ", err);
+                  });
+                }}
+                ><MdContentCopy /></div> 
               </div>
             </div>
           ))}
@@ -210,10 +203,11 @@ const ChatGPTComponent = () => {
             rows={2}
           ></textarea>
           <button onClick={handleSubmit} className={styles.inputbutton} disabled={loading}>
-            {loading ? 'Loading...' : 'Send'}
+            {loading ? '...' : <IoSend /> }
           </button>
         </div>
       </div>
+    </div>
     </div>
   );
 };

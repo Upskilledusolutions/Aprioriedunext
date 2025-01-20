@@ -16,7 +16,7 @@ export default function ProfileForm() {
   const sendEmail = (e) => {
     e.preventDefault();
     console.log(formValues)
-    emailjs.sendForm('service_8ff93o8', 'template_76aavbk', form.current, 'WHP4fLLjX31i21JPb')
+    emailjs.sendForm('service_h543lm1', 'template_76aavbk', form.current, 'WHP4fLLjX31i21JPb')
     .then(() => {
       setFormValues({
         name:'',

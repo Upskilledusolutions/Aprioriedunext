@@ -1,8 +1,15 @@
 /* General Styles */
+.background{
+  padding: 30px 0;
+  background: linear-gradient(rgb(227, 80, 61) 0%,  rgb(119, 21, 8) 100%);
+}
+
 .container {
     display: flex;
     font-family: Arial, sans-serif;
-    height: 82vh;
+    height: 76vh;
+    width: 80vw;
+    margin: 0px auto;
   }
   .dropdown{
     display: none;
@@ -45,11 +52,13 @@
   
   .chatmessages {
     flex: 1;
-    padding: 1rem;
+    padding: 2rem;
     overflow-y: auto; /* This makes the chat messages scrollable */
-    background: #fff;
+    background: linear-gradient(rgb(236, 105, 88) 0%,  rgb(152, 53, 40) 100%);
     display: flex;
     flex-direction: column; /* Normal top-to-bottom order */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
   
   .chatmessage {
@@ -67,25 +76,28 @@
   
   .chatbubble {
     max-width: 60%;
-    padding: 0.5rem 1rem;
+    min-width: 100px;
+    padding: 1rem 1rem;
     border-radius: 10px;
   }
   
   .chatbubble.user {
-    background: rgb(227, 80, 61);
-    color: white;
+    background: rgb(255, 231, 227);
+    color: black;
   }
   
   .chatbubble.assistant {
-    background: rgb(208, 53, 32);
-    color: white;
+    background: white;
+    color: black;
   }
   
   /* Input Area Styles */
   .inputarea {
     display: flex;
     padding: 1rem;
-    border-top: 1px solid #8a8a8a;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
   }
   .locked{
     background-color: rgb(255, 171, 160);
@@ -97,16 +109,43 @@
     flex: 1;
     padding: 0.5rem;
     border-radius: 5px;
-    border: 1px solid #8a8a8a;
+    background-color: #e5e5e5;
     resize: none;
+    border: none;
+  }
+
+  .inputarea textarea:focus {
+    outline: none;
+  }
+
+  .textcontent{
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(199, 199, 199);
+  }
+
+  .copy{
+    padding-top: 10px;
+  }
+
+  .copy:hover{
+    cursor: pointer;
+  }
+
+  .avatar{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
   }
   
   .inputbutton {
     margin-left: 0.5rem;
-    padding: 0.5rem 1rem;
-    width: 20%;
-    border-radius: 5px;
+    padding: 1rem;
+    border-radius: 50%;
     background: rgb(218, 52, 31);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -124,15 +163,11 @@
   .chatmessages::-webkit-scrollbar {
     width: 5px;
   }
-  
-  /* Track */
-  .chatmessages::-webkit-scrollbar-track {
-    background: white;
-  }
+
   
   /* Handle */
   .chatmessages::-webkit-scrollbar-thumb {
-    background: rgb(208, 53, 32);
+    background: rgb(207, 82, 66);
   }
   
   /* Handle on hover */
@@ -144,8 +179,11 @@
     .container{
         flex-direction: column;
     }
+    .chatmessages{
+      padding: 0.75rem;
+    }
     .chatarea{
-        height: 80vh;
+        height: 70vh;
     }
     .sidebar{
         display: none;
@@ -186,6 +224,12 @@
         align-items: center;
     }
     .inputarea{
-        padding-bottom: 100px;
+        margin-bottom: 0px;
+    }
+    .chatbubble {
+      max-width: 90%;
+    }
+    .container {
+      width: 90vw;
     }
   }
