@@ -3699,121 +3699,121 @@ export const quiz = [
       // 20 Fill in the Blanks
 
       {
-        "question": "Yo __________ (go) al mercado para comprar frutas.",
+        "question": "Yo ______ (go) al mercado para comprar frutas.",
         "choices": ["voy"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "¿(As) __________ estás? ¡Hace mucho calor!",
+        "question": "¿(As) ______ estás? ¡Hace mucho calor!",
         "choices": ["Cómo"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ella __________ (like) mucho la comida española.",
+        "question": "Ella ______ (like) mucho la comida española.",
         "choices": ["gusta"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Nosotros __________ (travel) a Madrid el próximo mes.",
+        "question": "Nosotros ______ (travel) a Madrid el próximo mes.",
         "choices": ["viajamos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "El mes pasado, __________ (eat) en un restaurante mexicano.",
+        "question": "El mes pasado, ______ (eat) en un restaurante mexicano.",
         "choices": ["comí"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Yo __________ (need) una botella de agua, por favor.",
+        "question": "Yo ______ (need) una botella de agua, por favor.",
         "choices": ["necesito"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "¿(Where) __________ está la estación de tren?",
+        "question": "¿(Where) ______ está la estación de tren?",
         "choices": ["Dónde"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ellos __________ (talk) español y francés.",
+        "question": "Ellos ______ (talk) español y francés.",
         "choices": ["hablan"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "¿(How many) __________ años tienes?",
+        "question": "¿(How many) ______ años tienes?",
         "choices": ["Cuántos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Nosotros __________ (can) ir de compras mañana.",
+        "question": "Nosotros ______ (can) ir de compras mañana.",
         "choices": ["podemos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Me __________ (love) los zapatos que llevas.",
+        "question": "Me ______ (love) los zapatos que llevas.",
         "choices": ["encantan"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Nosotros __________ (have) que comprar un mapa para el viaje.",
+        "question": "Nosotros ______ (have) que comprar un mapa para el viaje.",
         "choices": ["tenemos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Quiero __________ (buy) una camiseta en esta tienda.",
+        "question": "Quiero ______ (buy) una camiseta en esta tienda.",
         "choices": ["comprar"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "¿(That) __________ prefieres, la pizza o la pasta?",
+        "question": "¿(That) ______ prefieres, la pizza o la pasta?",
         "choices": ["Qué"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "A mí __________ (like) mucho viajar a la playa.",
+        "question": "A mí ______ (like) mucho viajar a la playa.",
         "choices": ["gusta"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Yo __________ (need) cambiar dinero en el banco.",
+        "question": "Yo ______ (need) cambiar dinero en el banco.",
         "choices": ["necesito"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "Ustedes __________ (take) un taxi para ir al restaurante.",
+        "question": "Ustedes ______ (take) un taxi para ir al restaurante.",
         "choices": ["toman"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "(Is) __________ un buen restaurante, ¿verdad?",
+        "question": "(Is) ______ un buen restaurante, ¿verdad?",
         "choices": ["Es"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "¿(Where) __________ están los baños, por favor?",
+        "question": "¿(Where) ______ están los baños, por favor?",
         "choices": ["Dónde"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
-        "question": "La cuenta, __________ (please).",
+        "question": "La cuenta, ______ (please).",
         "choices": ["por favor"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1

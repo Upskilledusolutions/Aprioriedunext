@@ -48,6 +48,14 @@ export const cards = [
       link2: 'SpanishListeningAssignment'
     },
     {
+      type: 'spanisha2',
+      heading: 'Spanish Beginner (A2)',
+      text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',
+      link: 'SpanishListeningA2',
+      data: 'Spanisha2',
+      link2: 'SpanishListeningAssignmentA2'
+    },
+    {
       type: 'spanishc1',
       heading: 'Spanish Advanced (C1)',
       text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',

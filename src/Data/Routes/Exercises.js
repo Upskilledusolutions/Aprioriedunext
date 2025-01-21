@@ -97,6 +97,15 @@ export const cards = [
       subject: 'SpanishA2'
     },
     {
+      type: 'spanishb1',
+      heading: 'Spanish Intermediate (B1)',
+      text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
+      link: 'SpanishExercisesB1',
+      data:'spanishb1',
+      link2: 'SpanishExerciseB1',
+      subject: 'SpanishB1'
+    },
+    {
       type: 'spanishc1',
       heading: 'Spanish Advanced (C1)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',

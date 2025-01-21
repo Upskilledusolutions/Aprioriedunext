@@ -83,8 +83,16 @@
       heading: 'Spanish Beginner (A2)',
       text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
       link: 'SpanishConversationsA2',
-      data: 'spanishb1',
+      data: 'spanisha2',
       link2: 'SpanishConversationA2'
+    },
+    {
+      type: 'spanishb1',
+      heading: 'Spanish Intermediate (B1)',
+      text: 'Dive into the vibrant world of Spanish-speaking countries with this exercise.',
+      link: 'SpanishConversationsB1',
+      data: 'spanishb1',
+      link2: 'SpanishConversationB1'
     },
     {
       type: 'spanishc1',

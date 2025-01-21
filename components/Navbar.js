@@ -141,7 +141,8 @@ export default function Navbar() {
             {/* Dropdown menu */}
             {isDropdownVisible && (
               <div className={styles.dropdownMenu}>
-                <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Readnow'>Lessons</Link>
+                <Link href={'/User'} className={styles.logoutButton} onClick={toggleDropdown}>Visit Profile</Link>
+                {/* <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Readnow'>Lessons</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Exercise'>Exercises</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Conversations'>Conversations</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/ReadingAssignments'>Reading Assignments</Link>
@@ -149,7 +150,7 @@ export default function Navbar() {
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/ReadingPractice'>Speaking Practice</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/WritingPractice'>Writing Practice</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/TestPrep'>Practice Test</Link>
-                {user.type === 'all' && <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/AdminPanel'>Admin Panel</Link>}
+                {user.type === 'all' && <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/AdminPanel'>Admin Panel</Link>} */}
                 <button className={styles.logoutButton} onClick={handleLogout}>Logout</button>
               </div>
             )}
