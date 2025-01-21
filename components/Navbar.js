@@ -5,11 +5,11 @@ import Link from 'next/link';
 import { IoIosArrowUp } from "react-icons/io";
 import { motion } from "framer-motion";
 import { useRouter } from 'next/router';
-import MenuButton from './menubutton/MenuButton';
 import { useDispatch, useSelector } from 'react-redux'; // To access the Redux state
 import { FaUserCircle } from "react-icons/fa"; // User icon
 import Authmodal from './Authmodal'; // Import the Authmodal component
 import { logout } from '../src/Store'
+import Paymentmodal from './Paymentmodal'
 
 export default function Navbar() {
   const [click, setClick] = useState(true);
@@ -19,6 +19,7 @@ export default function Navbar() {
   const [drop, setDrop] = useState(false);
   const [drop1, setDrop1] = useState(false);
   const [showModal, setShowModal] = useState(false); // State to control modal visibility
+  const [showPaymodel, setShowPaymodel] = useState(false)
   const [isDropdownVisible, setDropdownVisible] = useState(false);
 
   const router = useRouter();
@@ -86,6 +87,14 @@ export default function Navbar() {
     setShowModal(false);
   }
 
+  function hidepaymodal(){
+    setShowPaymodel(!showPaymodel)
+  }
+
+  function showpaymodel(){
+    setShowPaymodel(!showPaymodel)
+  }
+
   return (
     <div className={show ? `${styles.fixed}` : `${styles.none}`}>
       <motion.div 
@@ -119,14 +128,14 @@ export default function Navbar() {
         </ul>
 
         <div className={styles.endflex}>
-        {/* <Link href='/Payment' className={styles.Joinnow}>Join Now</Link> */}
+        {user?.type === 'all' && <div className={styles.Joinnow} onClick={showpaymodel}>Join Now</div>}
         {isAuthenticated && user ? (
           <div className={styles.userInfoContainer}>
             <div className={styles.userinfocont}>
             <div className={styles.userInfo} onClick={toggleDropdown}>
               <FaUserCircle className={styles.userIcon} />
               <span className={styles.userId}>{user.name}</span>
-              <span className={styles.userIdm}>{user.name.slice(0,14)}{user.name.length > 14 ? '...' : ''}</span>
+              <span className={styles.userIdm}>{user.name.slice(0,8)}{user.name.length > 14 ? '...' : ''}</span>
             </div>
             </div>
             {/* Dropdown menu */}
@@ -166,7 +175,8 @@ export default function Navbar() {
       {isDropdownVisible && <div onClick={toggleDropdown} className={styles.blankspace}/>}
 
       {/* Conditionally render Authmodal */}
-      {showModal && <Authmodal hideAuthmodal={hideAuthmodal} />}
+      {showModal && <Authmodal hideAuthmodal={hideAuthmodal} showpaymodel={showpaymodel}/>}
+      {showPaymodel && <Paymentmodal hidepaymodal={hidepaymodal} />}
     </div>
   );
 }

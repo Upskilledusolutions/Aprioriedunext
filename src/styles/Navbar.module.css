@@ -114,6 +114,9 @@ text-decoration: none;
   font-size: 14px;
   text-decoration: none;
 }
+.Joinnow:hover{
+  cursor: pointer;
+}
 .members:hover{
   cursor: pointer;
 }
@@ -440,10 +443,6 @@ text-decoration: none;
     padding: 0 5vw;
     justify-content: space-between;
   }
- .members{
-    margin-left: 50%;
-    margin-right: 5%;
-  }
   .userInfoContainer{
     margin-right: 0%;
   }
@@ -452,8 +451,7 @@ text-decoration: none;
     color: white;
     padding: 10px 3vw;
     padding-right: 5vw;
-    border-radius: 40px;
-    max-width: 50vw;
+    border-radius: 5px;
     margin-right: 0;
     font-size: 12px;
     width: max-content;
@@ -487,9 +485,15 @@ text-decoration: none;
     top: 40px;
     display: none;
   }
-  .userinfocont{
-    width: 55vw;
+  .endflex{
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+  }
+  .Joinnow, .members{
+    text-align: center;
+    padding: 10px 0;
+    width: 30%;
   }
 }
