@@ -37,29 +37,18 @@ export default function Login() {
     { "userId": "linguafranca71", "password": "AuRevoir5367", "name": "", "trial": false, "type": "french", "next":[] },
     { "userId": "linguafranca73", "password": "BonneNuit8193", "name": "", "trial": false, "type": "french", "next":[] },
     { "userId": "linguafranca79", "password": "OuiMerci2487", "name": "", "trial": false, "type": "french", "next":[] }, //using
-    { "userId": "linguafranca83", "password": "TresBien5726", "name": "", "trial": false, "type": "frencha2", "next":[] },
-    { "userId": "linguafranca89", "password": "AllonsY4186", "name": "","trial": false, "type": "frencha2", "next":[] },
+    { "userId": "linguafranca193", "password": "TresBien5726", "name": "", "trial": true, "type": "frencha2", "next":[] },
+    { "userId": "linguafranca189", "password": "PasEncore4186", "name": "","trial": true, "type": "french", "next":[] }, //using
     { "userId": "linguafranca97", "password": "CavaToi9325", "name": "", "trial": false, "type": "french", "next":[] }, //using
     { "userId": "linguafranca101", "password": "DeRien4872", "name": "", "trial": false, "type": "french", "next":[] }, //using
     { "userId": "linguafranca107", "password": "AuRevoir7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using
-    { "userId": "linguafranca109", "password": "BonSoir5830", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca111", "password": "BonSoir5829", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca109", "password": "MerciBien7339", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca113", "password": "SalutTous6274", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca127", "password": "CavaBien1948", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca131", "password": "AuRevoir5367", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca137", "password": "BonneNuit8193", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca139", "password": "OuiMerci2487", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca149", "password": "TresBien5726", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca151", "password": "AllonsY4186", "name": "", "trial": false, "type": "frenchb1", "next":[] },
-    { "userId": "linguafranca163", "password": "CavaToi9325", "name": "", "trial": false, "type": "frenchb1", "next":[] },
     // { "userId": "quixoticlengua101", "password": "HolaAmigo7324", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua103", "password": "BuenosDias8387", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua107", "password": "GraciasMucho3145", "name": "", "trial": true, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua109", "password": "PorFavor29369", "name": "", "trial": false, "type": "spanish", "next":[] }, 
     { "userId": "quixoticlengua113", "password": "AdiosAmigo1137", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua127", "password": "ComoEstas7832", "name": "", "trial": false, "type": "spanish", "next":[] },
-    { "userId": "quixoticlengua131", "password": "HastaLuego5241", "name": "", "trial": false, "type": "spanish", "next":[] },
+    { "userId": "quixoticlengua191", "password": "HastaLuego5241", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua137", "password": "TeQuiero8974", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua139", "password": "LoSiento6138", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua149", "password": "BuenasNoches4926", "name": "", "trial": false, "type": "spanish", "next":[] },

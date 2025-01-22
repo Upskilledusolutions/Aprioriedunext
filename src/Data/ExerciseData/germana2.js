@@ -3240,4 +3240,576 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '15',
+    name: 'German Exercise - 15 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Wie nennt man einen tragbaren Computer?",
+        "choices": ["Desktop", "Smartphone", "Laptop", "Tablet"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was ist eine „Datenwolke“?",
+        "choices": ["WLAN", "Cloud", "Server", "Firewall"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche Konjunktion bedeutet „weil“?",
+        "choices": ["aber", "wenn", "denn", "weil"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Was benutzt man, um Daten zu speichern?",
+        "choices": ["Tastatur", "USB-Stick", "Maus", "Bildschirm"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche App wird oft für Videokonferenzen verwendet?",
+        "choices": ["Instagram", "Zoom", "Spotify", "Twitter"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche Konjunktion bedeutet „obwohl“?",
+        "choices": ["damit", "als", "obwohl", "wenn"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Gerät wird für digitale Fotografie verwendet?",
+        "choices": ["Maus", "Tastatur", "Kamera", "Router"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welche Konjunktion bedeutet „so dass“?",
+        "choices": ["weil", "oder", "wenn", "so dass"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Was ist „Wi-Fi“ auf Deutsch?",
+        "choices": ["Internet", "WLAN", "Router", "Verbindung"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche der folgenden Begriffe bedeutet „Softwareentwickler“?",
+        "choices": ["Informatiker", "Techniker", "Programmierer", "Ingenieur"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Gerät nutzt man, um Dokumente zu drucken?",
+        "choices": ["Scanner", "Drucker", "Router", "Bildschirm"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist das deutsche Wort für „file“?",
+        "choices": ["Gerät", "Bildschirm", "Datei", "Verbindung"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was ist ein „Router“?",
+        "choices": ["Ein Netzwerkgerät", "Eine Tastatur", "Ein Bildschirm", "Ein Drucker"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welche Konjunktion bedeutet „damit“?",
+        "choices": ["obwohl", "damit", "aber", "weil"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was nutzt man, um E-Mails zu schreiben?",
+        "choices": ["Scanner", "Router", "Computer", "Bildschirm"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welche Konjunktion drückt eine Bedingung aus?",
+        "choices": ["wenn", "aber", "oder", "weil"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welcher Begriff bedeutet „digitalisieren“?",
+        "choices": ["löschen", "scannen", "speichern", "herunterladen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche der folgenden Begriffe bedeutet „Anzeige“?",
+        "choices": ["Datei", "Verbindung", "Bildschirm", "Router"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was ist die Bedeutung von „Firewall“?",
+        "choices": ["Schutz vor Viren", "Zugangsdaten", "Verbindung", "Netzwerk"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welche der folgenden Konjunktionen leitet einen Nebensatz ein?",
+        "choices": ["aber", "und", "weil", "oder"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Ich brauche eine neue ______ (mouse) für meinen Computer.",
+        "choices": ["Maus"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Kannst du das Dokument auf einem ______ (USB stick) speichern?",
+        "choices": ["USB Stick"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Computer funktioniert nicht, weil der ______ (power supply) kaputt ist.",
+        "choices": ["Stromversorgung"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie hat eine wichtige ______ (email) von ihrem Chef bekommen.",
+        "choices": ["email"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe das Bild mit einem ______ (scanner) digitalisiert.",
+        "choices": ["Scanner"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (WiFi) ist in diesem Café kostenlos verfügbar.",
+        "choices": ["WLAN"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mein Handy hat keine gute ______ (battery).",
+        "choices": ["Batterie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hast du das Programm auf deinem ______ (laptop) installiert?",
+        "choices": ["Laptop"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er arbeitet als ______ (software developer) in einer großen Firma.",
+        "choices": ["Softwareentwickler"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Verbindung ist schlecht, ______ (because) das Netzwerk überlastet ist.",
+        "choices": ["weil"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe die Datei heruntergeladen, ______ (but) sie ist beschädigt.",
+        "choices": ["aber"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie benutzt Zoom, ______ (because) sie von zu Hause aus arbeitet.",
+        "choices": ["weil"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (When) ich im Büro bin, benutze ich meinen Desktop-Computer.",
+        "choices": ["wenn"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir müssen warten, ______ (until) das Internet wieder funktioniert.",
+        "choices": ["bis"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Drucker funktioniert nicht, ______ (because) kein Papier mehr da ist.",
+        "choices": ["weil"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Although) die App nützlich ist, gibt es manchmal Fehler.",
+        "choices": ["obwohl"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Passwort war falsch, ______ (so) ich konnte mich nicht einloggen.",
+        "choices": ["also"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du kannst die Datei öffnen, ______ (if) du ein PDF-Programm hast.",
+        "choices": ["wenn"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ (Before) du das Meeting startest, überprüfe die Kamera.",
+        "choices": ["bevor"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir müssen uns beeilen, ______ (since) die Frist bald endet.",
+        "choices": ["da"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Internet", "rightId": 1 },
+      "right": { "word": "Sicherheit", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Computer", "rightId": 2 },
+      "right": { "word": "Dokument", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Passwort", "rightId": 3 },
+      "right": { "word": "Verbindung", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Bildschirm", "rightId": 4 },
+      "right": { "word": "Gerät", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Datei", "rightId": 5 },
+      "right": { "word": "Anzeige", "rightId": 4 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Kamera", "rightId": 1 },
+      "right": { "word": "Mobil", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Netzwerk", "rightId": 2 },
+      "right": { "word": "Eingabe", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Tastatur", "rightId": 3 },
+      "right": { "word": "Router", "rightId": 2 }
+      
+    },
+    {
+      "left": { "word": "Software", "rightId": 4 },
+      "right": { "word": "Aufnahme", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Handy", "rightId": 5 },
+      "right": { "word": "Programm", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
+  {
+    quiz: '16',
+    name: 'German Exercise - 16 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Welches Medium wird oft im Auto gehört?",
+        "choices": ["Zeitungen", "Zeitschriften", "Radio", "Bücher"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was ist ein sehr wichtiger Teil eines Filmes?",
+        "choices": ["Der Autor", "Der Kritiker", "Der Regisseur", "Der Schauspieler"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welche Art von Medien sind oft in bunten Bildern und kurzen Artikeln?",
+        "choices": ["Bücher", "Zeitschriften", "Zeitungen", "Radiosendungen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was liest man, um mehr über historische Ereignisse zu erfahren?",
+        "choices": ["Romane", "Zeitschriften", "Artikel", "Sachbücher"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Welches Medium ist für Unterhaltung und Nachrichten bekannt?",
+        "choices": ["Zeitungen", "Radio", "Bücher", "Filme"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist eine beliebte Quelle für wissenschaftliche Informationen?",
+        "choices": ["Die Zeitschrift", "Der Roman", "Der Podcast", "Der Bericht"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welche Medienart wird oft für Interviews verwendet?",
+        "choices": ["Filme", "Radio", "Zeitungen", "Bücher"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist ein Beispiel für einen literarischen Preis?",
+        "choices": ["Der Oscar", "Der Nobelpreis", "Der Literaturkritiker", "Der Romanpreis"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches Medium hilft, sich zu entspannen und zu lernen?",
+        "choices": ["Radio", "Filme", "Bücher", "Podcasts"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Genre von Medien kann auch zur Bildung verwendet werden?",
+        "choices": ["Filme", "Zeitschriften", "Bücher", "Musik"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Die ______ (newspaper) ist heute sehr interessant. (The newspaper is very interesting today.)",
+        "choices": ["Zeitung"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich lese gerne ______ (books), weil es sehr spannend ist. (I like reading books because they are very exciting.)",
+        "choices": ["Buch"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (film) hat viele Preise gewonnen. (The film won many awards.)",
+        "choices": ["Film"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Radio) ______ hört man am besten im Auto. (The radio is best listened to in the car.)",
+        "choices": ["Radio"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (author) hat einen neuen Roman veröffentlicht. (The author has published a new novel.)",
+        "choices": ["Autor"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich finde ______ (magazine) sehr unterhaltsam. (I find the magazine very entertaining.)",
+        "choices": ["Zeitschrift"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Book) ______ auf dem Tisch ist mein Lieblingsbuch. (The book on the table is my favorite book.)",
+        "choices": ["Buch"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (critic) hat den Film sehr gut bewertet. (The critic rated the film very well.)",
+        "choices": ["Kritiker"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Movie) ______ im Kino gestern war fantastisch. (The movie in the cinema yesterday was fantastic.)",
+        "choices": ["Film"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie hat ______ (article) über Literatur geschrieben. (She wrote an article about literature.)",
+        "choices": ["Artikel"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Person) ______, die den Film gemacht hat, ist sehr bekannt. (The person who made the movie is very famous.)",
+        "choices": ["Person"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Music) ______ im Hintergrund war sehr beruhigend. (The music in the background was very soothing.)",
+        "choices": ["Musik"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das ______ (Book) über Geschichte ist sehr lehrreich. (The book about history is very educational.)",
+        "choices": ["Buch"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich höre oft ______ (Podcast) über Politik. (I often listen to podcasts about politics.)",
+        "choices": ["Podcast"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Magazine) ______, die ich lese, ist monatlich. (The magazine I read is monthly.)",
+        "choices": ["Zeitschrift"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (novel) von diesem Schriftsteller ist ein Bestseller. (The novel by this author is a bestseller.)",
+        "choices": ["Roman"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Person) ______, die den Artikel geschrieben hat, ist ein Experte. (The person who wrote the article is an expert.)",
+        "choices": ["Person"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Film) ______, den wir gestern gesehen haben, war spannend. (The film we watched yesterday was thrilling.)",
+        "choices": ["Film"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Radio) ______ hat heute die Nachrichten gesendet. (The radio broadcasted the news today.)",
+        "choices": ["Radio"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das ______ (Book), das du mir empfohlen hast, war großartig. (The book you recommended to me was great.)",
+        "choices": ["Buch"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "der Film", "rightId": 1 },
+      "right": { "word": "Ein bekanntes Magazin", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "der Autor", "rightId": 2 },
+      "right": { "word": "Ein Literaturkritiker", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "der Artikel", "rightId": 3 },
+      "right": { "word": "Ein Drama im Theater", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "die Zeitschrift", "rightId": 4 },
+      "right": { "word": "Ein interessantes Thema", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "der Kritiker", "rightId": 5 },
+      "right": { "word": "Ein Roman von Goethe", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "das Buch", "rightId": 1 },
+      "right": { "word": "Ein interessantes Interview", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "der Radiobericht", "rightId": 2 },
+      "right": { "word": "Ein spannendes Abenteuer", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "die Musik", "rightId": 3 },
+      "right": { "word": "Ein Artikel über Wissenschaft", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "der Podcast", "rightId": 4 },
+      "right": { "word": "Ein Buch über Geschichte", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "der Literaturkritiker", "rightId": 5 },
+      "right": { "word": "Ein Report über Politik", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
 ];
