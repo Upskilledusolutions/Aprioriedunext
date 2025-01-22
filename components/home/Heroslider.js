@@ -16,7 +16,17 @@ export default function EventsSlider() {
     }
   };
 
-    const data = [{url:'/hero/7.jpg',one:"Empowering Minds",two:"Ensuring equitable access to education for all."},{url:'/hero/8.jpg',one:"Unlock Your Potential",two:"Believe in yourself."},{url:'/hero/9.jpg',one:"Where Curiosity Meets Excellence",two:"Experience learning as a journey of fascinating discoveries"}]
+  // Utility function to render text with \n as line breaks
+  const renderWithLineBreaks = (text) => {
+    return text.split("\n").map((line, index) => (
+      <React.Fragment key={index}>
+        {line}
+        {index !== text.split("\n").length - 1 && <br />}
+      </React.Fragment>
+    ));
+  };
+
+    const data = [{url:'/hero/7.jpg',one:"Empowering Minds",two:"Ensuring equitable access to \n education for all."},{url:'/hero/8.jpg',one:"Unlock Your Potential",two:"Consistency will outshine \n talent every time."},{url:'/hero/9.jpg',one:"Where Curiosity Meets Excellence",two:"Experience a journey of \n fascinating discoveries"}]
 
   return (
     <div className={styles.margintop}>
@@ -54,7 +64,7 @@ export default function EventsSlider() {
                 
                 <div className={styles.pos}>
                   <div className={styles.one}>{data.one}</div>
-                  <div className={styles.two}>{data.two}</div>
+                  <div className={styles.two}>{renderWithLineBreaks(data.two)}</div>
                   <div className={styles.three} onClick={() => scrollToSection()}>View all courses</div>
                 </div>
                 <Image src={data.url} className={styles.img} width={2000} height={2000} alt='image' />

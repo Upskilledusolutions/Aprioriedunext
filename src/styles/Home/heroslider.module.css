@@ -98,10 +98,10 @@
     align-items: center;
     text-align: center;
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.45);
     z-index: 1000;
     width: 60%;
-    height: 640px;
+    height: 740px;
     padding: 0 20vw;
   }
   .one{
@@ -143,14 +143,14 @@
     .pos{
       width: 80vw;
       padding: 0 10vw;
-      height: 350px;
+      height: 450px;
       gap: 10px;
     }
     .one{
       font-size: 18px;
     }
     .two{
-      font-size: 22px;
+      font-size: 21px;
       margin-bottom: 20px;
     }
     .three{
