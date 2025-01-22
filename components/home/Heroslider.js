@@ -16,7 +16,7 @@ export default function EventsSlider() {
     }
   };
 
-    const data = [{url:'/hero/1.jpg',one:"Empowering Minds",two:"Ensuring equitable access to education for all."},{url:'/hero/2.jpg',one:"Unlock Your Potential",two:"Believe in yourself."},{url:'/hero/3.jpg',one:"Where Curiosity Meets Excellence",two:"Experience learning as a journey of fascinating discoveries"}]
+    const data = [{url:'/hero/7.jpg',one:"Empowering Minds",two:"Ensuring equitable access to education for all."},{url:'/hero/8.jpg',one:"Unlock Your Potential",two:"Believe in yourself."},{url:'/hero/9.jpg',one:"Where Curiosity Meets Excellence",two:"Experience learning as a journey of fascinating discoveries"}]
 
   return (
     <div className={styles.margintop}>
