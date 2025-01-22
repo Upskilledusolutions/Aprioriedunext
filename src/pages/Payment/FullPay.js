@@ -10,10 +10,14 @@ const ReferralForm = () => {
     name: '',
     phone: '',
     email: '',
+    city: '',
+    country: '',
+    occupation: '',
     referralCode: '',
     type: 'Full Version',
     amount: '50',
     source: '',
+    sourcename: '',
     gender: '',
     age: '',
     course: '',
@@ -35,7 +39,11 @@ const ReferralForm = () => {
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = 'Enter a valid email address';
     }
+    if (!formData.city) newErrors.city = 'City is required';
+    if (!formData.country) newErrors.country = 'Country is required';
+    if (!formData.occupation) newErrors.occupation = 'Occupation/Profession is required';
     if (!formData.source) newErrors.source = 'Please select a source';
+    if (!formData.sourcename) newErrors.sourcename = 'Please write a source name';
     if (!formData.gender) newErrors.gender = 'Please select a gender';
     if (!formData.age) {
       newErrors.age = 'Age is required';
@@ -70,8 +78,12 @@ const ReferralForm = () => {
             name: '',
             phone: '',
             email: '',
+            city: '',
+            country: '',
+            occupation: '',
             referralCode: '',
             source: '',
+            sourcename: '',
             gender: '',
             age: '',
             course: '',
@@ -89,10 +101,11 @@ const ReferralForm = () => {
     <div className={styles.background}>
       <div className={styles.formContainer}>
         <h1 className={styles.title}>Payment Form</h1>
+        <div className={styles.note}><b>Note: </b>Field marked with <span className={styles.span}>*</span> are mandatory to fill.</div>
         <form ref={form} onSubmit={sendEmail} className={styles.form} noValidate>
           <div className={styles.row}>
             <div className={styles.formGroup}>
-              <label className={styles.label} htmlFor="name">Name</label>
+              <label className={styles.label} htmlFor="name">Name <span className={styles.span}>*</span></label>
               <input
                 type="text"
                 id="name"
@@ -106,7 +119,7 @@ const ReferralForm = () => {
             </div>
             
             <div className={styles.formGroup}>
-              <label className={styles.label} htmlFor="phone">Phone</label>
+              <label className={styles.label} htmlFor="phone">Phone <span className={styles.span}>*</span></label>
               <input
                 type="tel"
                 id="phone"
@@ -122,7 +135,7 @@ const ReferralForm = () => {
 
           <div className={styles.row}>
             <div className={styles.formGroup}>
-              <label className={styles.label} htmlFor="email">Email</label>
+              <label className={styles.label} htmlFor="email">Email <span className={styles.span}>*</span></label>
               <input
                 type="email"
                 id="email"
@@ -149,8 +162,38 @@ const ReferralForm = () => {
           </div>
 
           <div className={styles.row}>
+          <div className={styles.formGroup}>
+              <label className={styles.label} htmlFor="city">City <span className={styles.span}>*</span></label>
+              <input
+                type="text"
+                id="city"
+                name="city"
+                required
+                value={formData.city}
+                onChange={handleChange}
+                className={errors.city ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
+              />
+              {errors.city && <span className={styles.errorText}>{errors.city}</span>}
+            </div>
+
             <div className={styles.formGroup}>
-              <label className={styles.label} htmlFor="source">How did you come to know about us?</label>
+              <label className={styles.label} htmlFor="country">Country <span className={styles.span}>*</span></label>
+              <input
+                type="text"
+                id="country"
+                name="country"
+                required
+                value={formData.country}
+                onChange={handleChange}
+                className={errors.country ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
+              />
+              {errors.country && <span className={styles.errorText}>{errors.country}</span>}
+            </div>
+          </div>
+
+          <div className={styles.row}>
+            <div className={styles.formGroup}>
+              <label className={styles.label} htmlFor="source">How did you come to know about us? <span className={styles.span}>*</span></label>
               <select
                 id="source"
                 name="source"
@@ -169,7 +212,36 @@ const ReferralForm = () => {
             </div>
 
             <div className={styles.formGroup}>
-              <label className={styles.label} htmlFor="gender">Gender</label>
+              <label className={styles.label} htmlFor="sourcename">
+                Name of the Source <span className={styles.span}>*</span>
+              </label>
+              <input
+                type="text"
+                id="sourcename"
+                name="sourcename"
+                value={formData.sourcename}
+                onChange={handleChange}
+                className={`${styles.input}`}
+              />
+            </div>
+          </div>
+
+          <div className={styles.row}>
+            <div className={styles.formGroup}>
+              <label className={styles.label} htmlFor="age">Age <span className={styles.span}>*</span></label>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                value={formData.age}
+                onChange={handleChange}
+                className={errors.age ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
+              />
+              {errors.age && <span className={styles.errorText}>{errors.age}</span>}
+            </div>
+
+          <div className={styles.formGroup}>
+              <label className={styles.label} htmlFor="gender">Gender <span className={styles.span}>*</span></label>
               <select
                 id="gender"
                 name="gender"
@@ -186,20 +258,22 @@ const ReferralForm = () => {
               </select>
               {errors.gender && <span className={styles.errorText}>{errors.gender}</span>}
             </div>
-          </div>
+            </div>
 
-          <div className={styles.row}>
+          
+            <div className={styles.row}>
             <div className={styles.formGroup}>
-              <label className={styles.label} htmlFor="age">Age</label>
+              <label className={styles.label} htmlFor="occupation">Occupation/ Profession <span className={styles.span}>*</span></label>
               <input
-                type="number"
-                id="age"
-                name="age"
-                value={formData.age}
+                type="text"
+                id="occupation"
+                name="occupation"
+                required
+                value={formData.occupation}
                 onChange={handleChange}
-                className={errors.age ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
+                className={errors.occupation ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
               />
-              {errors.age && <span className={styles.errorText}>{errors.age}</span>}
+              {errors.occupation && <span className={styles.errorText}>{errors.occupation}</span>}
             </div>
 
             <input
@@ -210,7 +284,7 @@ const ReferralForm = () => {
             />
 
             <div className={styles.formGroup}>
-              <label className={styles.label} htmlFor="course">Course</label>
+              <label className={styles.label} htmlFor="course">Course <span className={styles.span}>*</span></label>
               <select
                 id="course"
                 name="course"

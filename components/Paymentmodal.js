@@ -49,7 +49,7 @@ const Authmodal = ({ hidepaymodal }) => {
               <h2 className={styles.title}>Become a Member</h2>
             </div>
             <div className={styles.content}>
-              <p className={styles.description}>Have you availed on our free trial?</p>
+              <p className={styles.description}>Have you availed of our free trial?</p>
               <div className={styles.btnflex}>
                 <Link href={'/Payment/Pay'} className={styles.actionButton} onClick={end}>
                   Yes

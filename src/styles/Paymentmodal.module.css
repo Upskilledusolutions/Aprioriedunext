@@ -14,7 +14,7 @@
   }
 
   .closeButton {
-    background: var(--darkorange);
+    background: var(--blue);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -90,7 +90,7 @@ background-color: white;
   }
   
   .actionButton:hover {
-    background: var(--darkorange);
+    background: var(--blue);
     color: #fff;
     cursor: pointer;
   }
@@ -106,7 +106,7 @@ background-color: white;
   }
   
   .contactLink {
-    color: var(--darkorange);
+    color: var(--blue);
     text-decoration: underline;
   }
   

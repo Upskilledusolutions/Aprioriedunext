@@ -78,9 +78,10 @@ const ReferralForm = () => {
     <div className={styles.background}>
       <div className={styles.formContainer1}>
         <h1 className={styles.title}>Payment Form</h1>
+        <div className={styles.note}><b>Note: </b>Field marked with <span className={styles.span}>*</span> are mandatory to fill.</div>
         <form ref={form} onSubmit={sendEmail} className={styles.form} noValidate>
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="name">Name</label>
+            <label className={styles.label} htmlFor="name">Name <span className={styles.span}>*</span></label>
             <input
               type="text"
               id="name"
@@ -94,7 +95,7 @@ const ReferralForm = () => {
           </div>
 
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="phone">Phone</label>
+            <label className={styles.label} htmlFor="phone">Phone <span className={styles.span}>*</span></label>
             <input
               type="tel"
               id="phone"
@@ -108,7 +109,7 @@ const ReferralForm = () => {
           </div>
 
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="email">Email</label>
+            <label className={styles.label} htmlFor="email">Email <span className={styles.span}>*</span></label>
             <input
               type="email"
               id="email"
@@ -122,7 +123,7 @@ const ReferralForm = () => {
           </div>
 
           <div className={styles.formGroup}>
-            <label className={styles.label} htmlFor="trialUserId">Trial User Id</label>
+            <label className={styles.label} htmlFor="trialUserId">Trial User Id <span className={styles.span}>*</span></label>
             <input
               type="text"
               id="trialUserId"

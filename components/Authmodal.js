@@ -11,7 +11,7 @@ const Authmodal = ({ hideAuthmodal, showpaymodel }) => {
     <div className={styles.modalOverlay} onClick={hideAuthmodal}>
       <div className={styles.modalContent} onClick={e => e.stopPropagation()}>
         <div className={styles.header}>
-          <h2 className={styles.title}>Authentication</h2>
+          <h2 className={styles.title}>Welcome</h2>
           <p className={styles.subtitle}>
             Login with your credentials to unlock premium features and exclusive content.
           </p>
