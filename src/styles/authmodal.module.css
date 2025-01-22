@@ -67,7 +67,7 @@
 }
 
 .actionButton:hover {
-  background: var(--darkorange);
+  background: var(--blue);
   color: #fff;
 }
 .closeButton {
@@ -86,7 +86,7 @@
 }
 
 .closeButton:hover {
-  background: var(--darkorange);
+  background: var(--blue);
   color: #fff;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .memButton {
-  background: #ff9807;
+  background: var(--blue);
   color: #fff;
   padding: 10px 20px;
   border-radius: 10px;
@@ -113,7 +113,7 @@
 }
 
 .memButton:hover {
-  background: #ffb300;
+  background: var(--blue);
   transform: translateY(-2px);
 }
 

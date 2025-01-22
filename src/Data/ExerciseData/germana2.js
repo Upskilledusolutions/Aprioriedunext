@@ -2924,4 +2924,320 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '14',
+    name: 'German Exercise - 14 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Was macht ein Arzt?",
+        "choices": ["Repariert Autos", "Behandelt Patienten", "Verkauft Kleidung", "Unterrichtet Schüler"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wo arbeitet ein Kellner?",
+        "choices": ["In einem Restaurant", "In einer Schule", "Auf einer Baustelle", "In einem Krankenhaus"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie nennt man eine Person, die in einer Fabrik arbeitet?",
+        "choices": ["Lehrer", "Arbeiter", "Manager", "Techniker"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wer arbeitet in einem Gericht?",
+        "choices": ["Der Arzt", "Der Kellner", "Der Anwalt", "Der Mechaniker"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was ist das deutsche Wort für „office“?",
+        "choices": ["Die Schule", "Das Krankenhaus", "Das Büro", "Der Bau"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welche Person hilft bei technischen Problemen?",
+        "choices": ["Der Chef", "Der Techniker", "Die Lehrerin", "Der Kellner"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wer unterrichtet Schüler?",
+        "choices": ["Der Lehrer", "Der Arzt", "Der Ingenieur", "Der Manager"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wo arbeitet ein Bauarbeiter?",
+        "choices": ["Im Büro", "Auf einer Baustelle", "Im Krankenhaus", "Im Restaurant"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche Person plant Gebäude?",
+        "choices": ["Der Mechaniker", "Der Architekt", "Der Anwalt", "Der Techniker"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wer ist der Leiter eines Unternehmens?",
+        "choices": ["Der Lehrer", "Der Bauarbeiter", "Der Chef", "Der Arzt"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie sagt man höflich „Wie geht es Ihnen?“?",
+        "choices": ["Wie geht's dir?", "Wie geht es Ihnen?", "Geht's gut?", "Was machst du?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie fragt man einen Freund nach seinem Namen?",
+        "choices": ["Wie heißen Sie?", "Wie heißt du?", "Was ist Ihr Name?", "Können Sie mir Ihren Namen sagen?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie spricht man einen Lehrer höflich an?",
+        "choices": ["Du bist nett.", "Sie sind nett.", "Komm her.", "Hör auf."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie sagt man höflich, dass man Hilfe braucht?",
+        "choices": ["Kannst du mir helfen?", "Hilf mir!", "Können Sie mir bitte helfen?", "Helfen Sie mir!"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie fragt man einen Kollegen informell nach der Uhrzeit?",
+        "choices": ["Wie spät ist es?", "Können Sie mir die Uhrzeit sagen?", "Weißt du die Zeit?", "Was ist die Zeit?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie drückt man Höflichkeit am Telefon aus?",
+        "choices": ["Wer ist da?", "Wer spricht da?", "Mit wem spreche ich bitte?", "Was willst du?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie spricht man einen Fremden höflich an?",
+        "choices": ["Hallo, was willst du?", "Hallo, wer bist du?", "Hallo, wie heißen Sie?", "Hallo, komm her!"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie fragt man formell, ob jemand Zeit hat?",
+        "choices": ["Hast du Zeit?", "Haben Sie Zeit?", "Zeit?", "Was ist die Zeit?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie bedankt man sich höflich?",
+        "choices": ["Danke!", "Dankeschön!", "Vielen Dank!", "Alles Gute!"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie verabschiedet man sich höflich?",
+        "choices": ["Tschüss!", "Mach's gut!", "Auf Wiedersehen!", "Bis bald!"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Ich bin Arzt und arbeite im ______ (Hospital).",
+        "choices": ["Krankenhaus"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ist Lehrer und unterrichtet in der ______ (School).",
+        "choices": ["Schule"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ist Ingenieurin und arbeitet in einer großen ______ (Company).",
+        "choices": ["Firma"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir suchen einen neuen ______ (Employee) für unsere IT-Abteilung.",
+        "choices": ["Mitarbeiter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (Manager) schreibt jeden Tag viele E-Mails.",
+        "choices": ["Manager"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Als Kellner arbeite ich in einem schönen ______ (Restaurant).",
+        "choices": ["Restaurant"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Kannst du mir bitte die ______ (Report) mit den Details schicken?",
+        "choices": ["Bericht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Sekretärin organisiert alle ______ (Meetings) für den Chef.",
+        "choices": ["Besprechungen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (Technician) repariert die kaputte Maschine.",
+        "choices": ["Techniker"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mein Onkel ist ______ (Architect) und arbeitet auf dem Bau.",
+        "choices": ["Architekt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie sprechen mit Ihrem Chef. Sagen Sie: \"______ (How, Formal) können wir das Problem lösen?\"",
+        "choices": ["Wie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du sprichst mit deinem Freund. Sagen Sie: \"______ (How, Formal) bist du mit deiner Arbeit zufrieden?\"",
+        "choices": ["Wie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Kunde fragt: \"Wann können ______ (How, Informal) die Rechnung bezahlen?\"",
+        "choices": ["Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Kollege fragt: \"Hast ______ (you, Formal) die Präsentation fertig?\"",
+        "choices": ["du"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Ärztin fragt den Patienten: \"Wie fühlen ______ ((you, Informal)) sich heute?\"",
+        "choices": ["Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr Chef fragt: \"Können ______ (you, Formal) die Dateien bis morgen senden?\"",
+        "choices": ["Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr Freund fragt: \"Warum kommst ______ (you, Formal) nicht zur Party?\"",
+        "choices": ["du"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Herr Schmidt sagt: \"Könnten ______  (you, Formal) mir bitte helfen?\"",
+        "choices": ["Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Schüler fragt den Lehrer: \"Können ______ (you, Formal) mir das erklären?\"",
+        "choices": ["Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Freund sagt: \"Weißt ______ (you, Informal) schon die Neuigkeiten?\"",
+        "choices": ["du"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "der Anwalt", "rightId": 1 },
+      "right": { "word": "Mechanic", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "die Krankenschwester", "rightId": 2 },
+      "right": { "word": "Teacher", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "der Chef", "rightId": 3 },
+      "right": { "word": "Lawyer", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "der Mechaniker ", "rightId": 4 },
+      "right": { "word": "Manager", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "die Lehrerin", "rightId": 5 },
+      "right": { "word": "Nurse", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "der Kellner", "rightId": 1 },
+      "right": { "word": "Engineer", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "die Ingenieurin", "rightId": 2 },
+      "right": { "word": "Office", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "das Büro", "rightId": 3 },
+      "right": { "word": "Doctor", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "der Bauarbeiter", "rightId": 4 },
+      "right": { "word": "Waiter", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "der Arzt", "rightId": 5 },
+      "right": { "word": "Construction worker", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
 ];
