@@ -45,6 +45,21 @@ export default function Footer() {
       </div>
 
       <div>
+        <div className={styles.lefttopic}>Policies</div>
+        <div className={styles.textcontainer}>
+            <div className={styles.text1}>
+              <Link className={styles.text5} href='/Policies/TnC'>Terms and conditions</Link>
+            </div>
+            <div className={styles.text1}>
+              <Link className={styles.text5} href='/Policies/PrivacyPolicy'>Privacy Policy</Link>
+            </div>
+            <div className={styles.text1}>
+              <Link className={styles.text5} href='/Policies/Refundpolicy'>Refund policy</Link>
+            </div>
+          </div>
+      </div>
+
+      <div>
         <div className={styles.lefttopic}>Join the activities</div>
         <div className={styles.textcontainer}>
             <div className={styles.text1}>
@@ -61,6 +76,7 @@ export default function Footer() {
             </div>
           </div>
       </div>
+
       <div>
         <div className={styles.lefttopic}>Get in touch</div>
         <div className={styles.margintop}>
