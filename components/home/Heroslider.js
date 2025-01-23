@@ -26,7 +26,7 @@ export default function EventsSlider() {
     ));
   };
 
-    const data = [{url:'/hero/7.jpg',one:"Empowering Minds",two:"Ensuring equitable access to \n education for all."},{url:'/hero/8.jpg',one:"Unlock Your Potential",two:"Consistency will outshine \n talent every time."},{url:'/hero/9.jpg',one:"Where Curiosity Meets Excellence",two:"Experience a journey of \n fascinating discoveries"}]
+    const data = [{url:'/hero/7.jpg',one:"Empowering Minds",two:"Ensuring equitable access to \n education for all"},{url:'/hero/8.jpg',one:"Unlock Your Potential",two:"Consistency will outshine \n talent every time"},{url:'/hero/9.jpg',one:"Where Curiosity Meets Excellence",two:"Experience a journey of \n fascinating discoveries"}]
 
   return (
     <div className={styles.margintop}>
