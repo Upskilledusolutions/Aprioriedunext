@@ -1,3 +1,21 @@
+.right{
+  width: 70vw;
+}
+
+.addButton {
+  margin-top: 16px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}
 /* Small Bar Section */
 .smallBar {
   display: flex;
@@ -8,6 +26,53 @@
   margin-bottom: 15px;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #f9f9f9;
+  width: 30vw;
+}
+
+.small {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.matchRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.input {
+  display: block;
+  width: 50%;
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.choiceInput {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
 }
 
 /* Search input field */
@@ -143,6 +208,12 @@
   outline: none;
 }
 
+.flex5{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .table td button:active {
   transform: scale(0.98); /* Subtle shrink effect on click */
 }
@@ -159,6 +230,8 @@
   width: 100%;
   margin: 0 auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .formGrid {
@@ -169,7 +242,7 @@
 
 @media (min-width: 768px) {
   .formGrid {
-    grid-template-columns: repeat(2, 1fr); /* Two inputs per line */
+    grid-template-columns: repeat(1, 1fr); /* Two inputs per line */
   }
 }
 

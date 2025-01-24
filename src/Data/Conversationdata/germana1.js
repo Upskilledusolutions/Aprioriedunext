@@ -125,6 +125,13 @@ export const youdata = [
       title: "German Conversation 18 (A1)",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
+    {
+      id: '19',
+      url: "/youtube/GmCA19.png",
+      youtube: "https://www.youtube.com/embed/UE7cO4_FivE?si=vPTg2zPhQIULxZsR",
+      title: "German Conversation 19 (A1)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
   ];
   
   

@@ -3812,4 +3812,953 @@ export const quiz = [
 }
     ]
   },
+  {
+    quiz: '17',
+    name: 'German Exercise - 17 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Welche Rolle hat ein Bürgermeister?",
+        "choices": ["Lehrer", "Politiker", "Arzt", "Ingenieur"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie nennt man eine Person, die in einem Krankenhaus arbeitet?",
+        "choices": ["Feuerwehrmann", "Krankenschwester", "Bürgermeister", "Sozialarbeiterin"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was macht ein Feuerwehrmann?",
+        "choices": ["Er unterrichtet Kinder.", "Er baut Straßen.", "Er löscht Feuer.", "Er kümmert sich um Patienten."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was bedeutet „Umweltverschmutzung“ auf Englisch?",
+        "choices": ["Recycling", "Environmental pollution", "Global warming", "Renewable energy"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wo arbeitet ein Sozialarbeiter oft?",
+        "choices": ["In einer Schule", "Im Altenheim", "In einem Hotel", "In einer Fabrik"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was sollte man tun, um die Umwelt zu schützen?",
+        "choices": ["Müll trennen", "Viel Wasser verschwenden", "Autos kaufen", "Papier wegwerfen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was ist typisch für die Arbeitslosigkeit?",
+        "choices": ["Keine Arbeit zu haben", "Viel Arbeit zu haben", "Im Ausland zu arbeiten", "Urlaub zu machen"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was bedeutet „Flüchtling“ auf Englisch?",
+        "choices": ["Worker", "Refugee", "Tourist", "Patient"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wo wird ein Ingenieur am wahrscheinlichsten arbeiten?",
+        "choices": ["In einer Küche", "Auf einer Baustelle", "In einem Krankenhaus", "In einer Schule"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist der beste Weg, Deutsch zu lernen?",
+        "choices": ["Filme schauen", "Bücher lesen", "Online Kurse nehmen", "Alle oben genannten"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Welcher Beruf passt zu „Straßenbau“?",
+        "choices": ["Lehrer", "Bauarbeiter", "Krankenschwester", "Feuerwehrmann"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wer ist zuständig für die Stadtplanung?",
+        "choices": ["Arzt", "Bürgermeister", "Ingenieur", "Sozialarbeiter"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was bedeutet „Sekretärin“?",
+        "choices": ["Teacher", "Secretary", "Nurse", "Politician"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wo werden alte Menschen oft betreut?",
+        "choices": ["Krankenhaus", "Altenheim", "Schule", "Universität"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was kann man im Park machen?",
+        "choices": ["Einkaufen", "Spazieren gehen", "Studieren", "Arbeiten"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie kann man die Luftverschmutzung reduzieren?",
+        "choices": ["Mehr Autos kaufen", "Öffentliche Verkehrsmittel nutzen", "Viel Plastik verwenden", "Holz verbrennen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist typisch für einen Flüchtling?",
+        "choices": ["Er lebt im Heimatland.", "Er flieht vor Konflikten.", "Er arbeitet als Ingenieur.", "Er ist Bürgermeister."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wer ist verantwortlich für das Feuerlöschen?",
+        "choices": ["Arzt", "Feuerwehrmann", "Bürgermeister", "Lehrer"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wo arbeiten Sozialarbeiter oft?",
+        "choices": ["In Hotels", "In Pflegeheimen", "Auf Baustellen", "In Banken"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist „Arbeitslosigkeit“?",
+        "choices": ["Wenn man Arbeit hat", "Wenn man keine Arbeit hat", "Wenn man studiert", "Wenn man reist"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Der Arzt hilft ______ (the) Patienten im Krankenhaus.",
+        "choices": ["die"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Lehrer erklärt ______ (the) Kindern die Grammatik.",
+        "choices": ["den"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Polizei hat den ______ (lost) Dieb gefangen.",
+        "choices": ["verlorenen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir besuchen unsere Freunde, die in ______ (one) Stadt leben.",
+        "choices": ["einer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich brauche eine ______ (fast) Lösung für dieses Problem.",
+        "choices": ["schnelle"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie arbeitet als ______ (secretary) in einer großen Firma.",
+        "choices": ["Sekretärin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Politiker sprach über ______ (the) wichtige Themen.",
+        "choices": ["die"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Umweltprobleme betreffen ______ (all) Menschen.",
+        "choices": ["alle"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich gehe jeden Morgen in ______ (the) Park spazieren.",
+        "choices": ["den"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es ist wichtig, ______ (the) Müll zu trennen.",
+        "choices": ["den"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mein Nachbar hilft mir, ______ (my) Fahrrad zu reparieren.",
+        "choices": ["mein"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Kinder spielen auf ______ (the) Straße.",
+        "choices": ["der"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hast du ______ (the) Buch gelesen, das ich dir gegeben habe?",
+        "choices": ["das"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Ingenieur arbeitet an ______ (a new one) Projekt.",
+        "choices": ["einem neuen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Bürgermeister hat mit ______ (the) Bürgern gesprochen.",
+        "choices": ["den"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir lernen, wie man ______ (a) Brief auf Deutsch schreibt.",
+        "choices": ["einen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es gibt viele ______ (different) Berufe in einer Stadt.",
+        "choices": ["verschiedene"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Krankenschwester kümmert sich um ______ (the) Patienten.",
+        "choices": ["die"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In Deutschland gibt es viele ______ (different) Möglichkeiten, Deutsch zu lernen.",
+        "choices": ["verschiedene"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Jugendlichen helfen ______ (the) alten Menschen im Pflegeheim.",
+        "choices": ["den"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "der Feuerwehrmann", "rightId": 1 },
+      "right": { "word": "Nurse", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "die Krankenschwester", "rightId": 2 },
+      "right": { "word": "Social worker", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "die Umweltverschmutzung", "rightId": 3 },
+      "right": { "word": "Firefighter", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "das Altenheim", "rightId": 4 },
+      "right": { "word": "Environmental pollution", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "die Sozialarbeiterin", "rightId": 5 },
+      "right": { "word": "Old age home", "rightId": 4 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "der Bürgermeister", "rightId": 1 },
+      "right": { "word": "Road construction", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "der Straßenbau", "rightId": 2 },
+      "right": { "word": "Refugee", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "der Flüchtling", "rightId": 3 },
+      "right": { "word": "Engineer", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "die Arbeitslosigkeit", "rightId": 4 },
+      "right": { "word": "Mayor", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "der Ingenieur", "rightId": 5 },
+      "right": { "word": "Unemployment", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
+  {
+    quiz: '18',
+    name: 'German Exercise - 18 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "Which article is correct for 'Haus'?",
+        "choices": ["Der", "Die", "Das", "Dem"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the plural of 'Apfel'?",
+        "choices": ["Äpfel", "Apfeln", "Apfels", "Apfelnn"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Katze' mean?",
+        "choices": ["Dog", "Cat", "Horse", "Cow"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which article is correct for 'Kind'?",
+        "choices": ["Der", "Die", "Das", "Dem"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the plural of 'Tisch'?",
+        "choices": ["Tischen", "Tisches", "Tische", "Tischs"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'Uhr' mean?",
+        "choices": ["Clock", "Chair", "Table", "Bed"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'newspaper' in German?",
+        "choices": ["Zeitung", "Buch", "Stuhl", "Tür"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Fenster' mean?",
+        "choices": ["Door", "Window", "Wall", "Roof"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'flower' in German?",
+        "choices": ["Blume", "Baum", "Blatt", "Gras"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Brot' mean?",
+        "choices": ["Bread", "Butter", "Breakfast", "Basket"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'I must go'?",
+        "choices": ["Ich darf gehen.", "Ich muss gehen.", "Ich kann gehen.", "Ich soll gehen."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'wir können' mean?",
+        "choices": ["We can", "We must", "We should", "We want"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'You should study'?",
+        "choices": ["Du musst lernen.", "Du kannst lernen.", "Du sollst lernen.", "Du darfst lernen."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'darf ich?' mean?",
+        "choices": ["Must I?", "Should I?", "May I?", "Can I?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say 'They want to eat'?",
+        "choices": ["Sie müssen essen.", "Sie sollen essen.", "Sie wollen essen.", "Sie dürfen essen."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'Fahrkarte' mean?",
+        "choices": ["Ticket", "Passport", "Map", "Bag"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'Where is the bus stop'?",
+        "choices": ["Wo ist die Haltestelle?", "Wo ist der Bahnhof?", "Wo ist der Zug?", "Wo ist die Straße?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'rechts' mean?",
+        "choices": ["Left", "Straight", "Right", "Backward"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say 'The train arrives at 9'?",
+        "choices": ["Der Zug kommt um neun.", "Der Zug fährt um neun.", "Der Zug bleibt um neun.", "Der Zug hält um neun."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'links' mean?",
+        "choices": ["Left", "Right", "Forward", "Backward"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+
+      // 20 Fill in the Blanks
+
+      {
+        "question": "Ich kaufe ______ Apfel. (an apple)",
+        "choices": ["einen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das ist ______ Katze. (a cat)",
+        "choices": ["eine"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Kannst du mir ______ Uhrzeit sagen? (the time)",
+        "choices": ["die"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er hat gestern ______ Brief geschrieben. (a letter)",
+        "choices": ["einen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir wollen heute ______ Film sehen. (a movie)",
+        "choices": ["einen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich trinke jeden Morgen ______ Kaffee. (coffee)",
+        "choices": ["einen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Kinder haben ______ Ball gespielt. (a ball)",
+        "choices": ["einen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "______ Bahnhof ist ganz in der Nähe. (The train station)",
+        "choices": ["Der"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie hat ______ Blumen gekauft. (flowers)",
+        "choices": ["die"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Könnt ihr ______ Zimmer aufräumen? (the room)",
+        "choices": ["das"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe ______ Buch gelesen. (a book)",
+        "choices": ["ein"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir müssen jetzt ______ Bus nehmen. (the bus)",
+        "choices": ["den"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Möchtest du ______ Tee oder Wasser? (tea)",
+        "choices": ["Tee"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie sind in ______ Schule gegangen. (the school)",
+        "choices": ["die"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Peter kauft heute ______ Zeitung. (a newspaper)",
+        "choices": ["eine"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir haben gestern ______ Kuchen gebacken. (a cake)",
+        "choices": ["einen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wo ist ______ Restaurant? (the restaurant)",
+        "choices": ["das"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du solltest ______ Schuhe anziehen. (your shoes)",
+        "choices": ["deine"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er hat mir ______ Nachricht geschickt. (a message)",
+        "choices": ["eine"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Können Sie mir ______ Weg zum Markt zeigen? (the way)",
+        "choices": ["den"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Ich hätte gern ein Wasser.", "rightId": 1 },
+      "right": { "word": "Where is the supermarket?", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "Können Sie mir helfen?", "rightId": 2 },
+      "right": { "word": "I want to buy a ticket.", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "Wie spät ist es?", "rightId": 3 },
+      "right": { "word": "I would like water.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Wo ist der Supermarkt?", "rightId": 4 },
+      "right": { "word": "What time is it?", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "Ich möchte eine Fahrkarte kaufen.", "rightId": 5 },
+      "right": { "word": "Can you help me?", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Das Wetter ist heute schön.", "rightId": 1 },
+      "right": { "word": "We reserved a table.", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "Wir haben einen Tisch reserviert.", "rightId": 2 },
+      "right": { "word": "I need a taxi.", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "Ich brauche ein Taxi.", "rightId": 3 },
+      "right": { "word": "Can you repeat that?", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "Der Zug kommt um 10 Uhr.", "rightId": 4 },
+      "right": { "word": "The weather is nice today.", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "Können Sie das wiederholen?", "rightId": 5 },
+      "right": { "word": "The train arrives at 10 a.m.", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
+  {
+    quiz: '19',
+    name: 'German Exercise - 19 (A2)',
+    level: 'Intermediate',
+    topic: 'Mixed',
+    questions: [
+      // 20 MCQs
+      {
+        "question": "What is the German word for 'dog'?",
+        "choices": ["Katze", "Hund", "Pferd", "Vogel"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'blau' mean in English?",
+        "choices": ["Green", "Red", "Blue", "Yellow"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of these is a verb?",
+        "choices": ["laufen", "schnell", "gut", "Haus"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'teacher' in German?",
+        "choices": ["Arzt", "Lehrer", "Köchin", "Schüler"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'der Tisch' mean?",
+        "choices": ["The chair", "The table", "The bed", "The window"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'die Rechnung' mean?",
+        "choices": ["The receipt", "The bill", "The tip", "The order"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "If you want to ask for the price, what would you say?",
+        "choices": ["Wo ist der Bahnhof?", "Was kostet das?", "Wie geht es Ihnen?", "Wie heißt du?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I would like to order' in German?",
+        "choices": ["Ich will bestellen", "Ich möchte bestellen", "Ich esse bestellen", "Ich trinke bestellen"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is 'the train station' in German?",
+        "choices": ["Der Supermarkt", "Der Bahnhof", "Die Schule", "Das Restaurant"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase means 'I am traveling by train'?",
+        "choices": ["Ich reise mit dem Flugzeug", "Ich reise mit dem Auto", "Ich reise mit dem Zug", "Ich reise zu Fuß"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the German word for 'receipt'?",
+        "choices": ["Fahrkarte", "Quittung", "Koffer", "Gepäck"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you ask for the price in German?",
+        "choices": ["Wo ist das?", "Wie viel kostet das?", "Was ist das?", "Kann ich das haben?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "The German word for 'train' is:",
+        "choices": ["Auto", "Zug", "Bus", "Flugzeug"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you order a coffee in German?",
+        "choices": ["Ich brauche Kaffee.", "Kaffee ist hier.", "Ich hätte gerne einen Kaffee, bitte.", "Wo ist Kaffee?"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "The plural of 'Apfel' (apple) in German is:",
+        "choices": ["Apfels", "Apfel", "Äpfel", "Apfele"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the German word for 'hotel'?",
+        "choices": ["Hostel", "Pension", "Hotel", "Unterkunft"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'Rechnung' mean in a restaurant?",
+        "choices": ["Bill", "Receipt", "Menu", "Tip"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which preposition is used for 'in' in German?",
+        "choices": ["zu", "auf", "in", "an"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "'Ich gehe ____ Markt.' What preposition fits here?",
+        "choices": ["in", "zum", "auf", "bei"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct word for 'breakfast' in German?",
+        "choices": ["Abendessen", "Frühstück", "Mittagessen", "Snack"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+
+      // 20 Fill in the Blanks
+
+
+      {
+        "question": "Ich habe gestern einen ______ (book) gekauft.",
+        "choices": ["Buch"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er arbeitet als ______ (teacher) an einer Schule.",
+        "choices": ["Lehrer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir müssen den Bus um ______ (5:30) Uhr nehmen.",
+        "choices": ["5:30"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Wetter ist heute ______ (sunny).",
+        "choices": ["sonnig"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie hat eine ______ (red) Tasche gekauft.",
+        "choices": ["rote"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich möchte bitte eine ______ (pizza) bestellen.",
+        "choices": ["Pizza"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Haben Sie ______ (cheese) im Angebot?",
+        "choices": ["Käse"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Hotel liegt in der ______ (city center).",
+        "choices": ["Stadtzentrum"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir reisen mit dem ______ (train) nach Berlin.",
+        "choices": ["Zug"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Können Sie mir bitte eine ______ (map) geben?",
+        "choices": ["Karte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (go) in den Supermarkt, um Milch zu kaufen.",
+        "choices": ["gehe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Brot kostet zwei ______ (euro).",
+        "choices": ["Euro"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Kannst du mir bitte ______ (help)?",
+        "choices": ["helfen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich hätte gerne ______ (a) Apfelkuchen, bitte.",
+        "choices": ["einen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (drive) morgen nach München.",
+        "choices": ["fahren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Haben Sie einen Tisch für ______ (two) Personen?",
+        "choices": ["zwei"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Zug nach Berlin ______ (arrives) um 10 Uhr.",
+        "choices": ["kommt an"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Könnten Sie mir den Weg zur ______ (Railroad station) zeigen?",
+        "choices": ["Bahnhof"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie viel ______ (costs) diese Schuhe?",
+        "choices": ["kostet"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich brauche einen ______ (ticket) nach Köln.",
+        "choices": ["Fahrkarte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "das Auto", "rightId": 1 },
+      "right": { "word": "the dog", "rightId": 4 }
+
+    },
+    {
+      "left": { "word": "der Baum", "rightId": 2 },
+      "right": { "word": "the flower", "rightId": 5 }
+
+    },
+    {
+      "left": { "word": "die Katze", "rightId": 3 },
+      "right": { "word": "the car", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "der Hund", "rightId": 4 },
+      "right": { "word": "the cat", "rightId": 3 }
+      
+    },
+    {
+      "left": { "word": "die Blume", "rightId": 5 },
+      "right": { "word": "the tree", "rightId": 2 }
+
+    },
+  ]
+},
+
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "das Restaurant", "rightId": 1 },
+      "right": { "word": "the train station", "rightId": 2 }
+
+    },
+    {
+      "left": { "word": "der Bahnhof", "rightId": 2 },
+      "right": { "word": "the supermarket", "rightId": 3 }
+
+    },
+    {
+      "left": { "word": "der Supermarkt", "rightId": 3 },
+      "right": { "word": "the bill", "rightId": 5 }
+      
+    },
+    {
+      "left": { "word": "das Hotel", "rightId": 4 },
+      "right": { "word": "the restaurant", "rightId": 1 }
+      
+    },
+    {
+      "left": { "word": "die Rechnung", "rightId": 5 },
+      "right": { "word": "the hotel", "rightId": 4 }
+
+    },
+  ]
+}
+    ]
+  },
 ];

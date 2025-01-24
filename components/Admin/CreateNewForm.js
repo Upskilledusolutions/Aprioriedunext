@@ -53,6 +53,8 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
     setShowForm(false); // Hide the form without submitting
   };
 
+  // console.log(formData)
+
   return (
     <div className={styles.formContainer}>
       <form onSubmit={handleFormSubmit}>

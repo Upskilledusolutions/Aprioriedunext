@@ -42,7 +42,7 @@ export default function RightSide({
   };
 
   return (
-    <div>
+    <div className={styles.right}>
       {/* Small Bar Section with Search and Create New Button */}
       <div className={styles.smallBar}>
         <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />

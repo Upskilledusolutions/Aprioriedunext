@@ -27,7 +27,7 @@ export default function Login() {
     { "userId": "TraiVerSpaA2", "password": "FelizHora6357", "name": "","trial": true, "type": "spanisha2", "next":[] },
     { "userId": "TraiVerGerA1", "password": "DunkelNacht5732", "name": "","trial": true, "type": "german", "next":[] },
     { "userId": "TraiVerGerA2", "password": "NeuerWeg5824", "name": "","trial": true, "type": "germana2", "next":[] },
-    { "userId": "quixoticlengua149", "password": "ClaroCielo2761", "name": "","trial": true, "type": "spanish", "next":[] }, //using
+    { "userId": "quixoticlengua149", "password": "ClaroCielo2761", "name": "","trial": false, "type": "spanish", "next":[] }, //using
     { "userId": "linguafranca50", "password": "BonSoir5830", "name": "", "trial": false, "type": "french", "next":["frencha2"] },
     { "userId": "linguafranca51", "password": "BonSoir5639", "name": "","trial": true, "type": "french", "next":[] },
     { "userId": "linguafranca53", "password": "BonSoir5829", "name": "", "trial": false, "type": "french", "next":["frencha2", "frenchb1"] }, //using
@@ -51,7 +51,6 @@ export default function Login() {
     { "userId": "quixoticlengua191", "password": "HastaLuego5241", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua137", "password": "TeQuiero8974", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua139", "password": "LoSiento6138", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
-    { "userId": "quixoticlengua149", "password": "BuenasNoches4926", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "sprachmeister151", "password": "GutenTag2935", "name": "", "trial": false, "type": "german", "next":[] }, 
     { "userId": "sprachmeister157", "password": "DankeSchon16479", "name": "", "trial": true, "type": "german", "next":[] }, //using
     { "userId": "sprachmeister163", "password": "BitteSehr8271", "name": "", "trial": false, "type": "german", "next":[] },

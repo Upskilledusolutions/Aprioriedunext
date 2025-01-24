@@ -1,150 +1,195 @@
-import React from 'react';
-import styles from '@/styles/RightSide.module.css';
+import React, { useState } from 'react';
+import styles from '@/styles/RightSide.module.css'
 
-export default function QuestionsForm({ formData, setFormData }) {
-  const handleAddQuestion = () => {
-    setFormData((prevData) => ({
-      ...prevData,
-      questions: [
-        ...prevData.questions,
-        { question: '', choices: [], correctAnswer: null, pairs: [] },
-      ],
+function MCQ({ index, updateData }) {
+  const [choices, setChoices] = useState(['', '', '', '']);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    updateData(index, { [name]: value });
+  };
+
+  const handleChoiceChange = (choiceIndex, value) => {
+    const updatedChoices = [...choices];
+    updatedChoices[choiceIndex] = value;
+    setChoices(updatedChoices);
+    updateData(index, { choices: updatedChoices });
+  };
+
+  return (
+    <div className={styles.card}>
+      <div className={styles.small}>MCQ {index + 1}</div>
+      <input
+        name="question"
+        className={styles.input}
+        placeholder="Question"
+        onChange={handleInputChange}
+      />
+      <div className={styles.choices}>
+        {choices.map((choice, i) => (
+          <input
+            key={i}
+            className={styles.choiceInput}
+            placeholder={`Choice ${i + 1}`}
+            value={choice}
+            onChange={(e) => handleChoiceChange(i, e.target.value)}
+          />
+        ))}
+      </div>
+      <input
+        name="correctAnswer"
+        className={styles.input}
+        placeholder="Correct Answer"
+        onChange={handleInputChange}
+      />
+    </div>
+  );
+}
+
+function FillInTheBlanks({ index, updateData }) {
+  const [choices, setChoices] = useState(['', '', '', '']);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    updateData(index, { [name]: value });
+  };
+
+  const handleChoiceChange = (choiceIndex, value) => {
+    const updatedChoices = [...choices];
+    updatedChoices[choiceIndex] = value;
+    setChoices(updatedChoices);
+    updateData(index, { choices: updatedChoices });
+  };
+
+  return (
+    <div className={styles.card}>
+      <div className={styles.small}>Fill in the Blanks {index + 1}</div>
+      <input
+        name="question"
+        className={styles.input}
+        placeholder="Question"
+        onChange={handleInputChange}
+      />
+      <div className={styles.choices}>
+        {choices.map((choice, i) => (
+          <input
+            key={i}
+            className={styles.choiceInput}
+            placeholder={`Choice ${i + 1}`}
+            value={choice}
+            onChange={(e) => handleChoiceChange(i, e.target.value)}
+          />
+        ))}
+      </div>
+      <input
+        name="correctAnswer"
+        className={styles.input}
+        placeholder="Correct Answer"
+        onChange={handleInputChange}
+      />
+    </div>
+  );
+}
+
+function Match({ index, updateData }) {
+  const [pairs, setPairs] = useState([
+    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
+    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
+    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
+    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
+    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
+  ]);
+
+  const handleInputChange = (rowIndex, field, side, value) => {
+    const updatedPairs = [...pairs];
+    updatedPairs[rowIndex][side][field] = value;
+    setPairs(updatedPairs);
+    updateData(index, { pairs: updatedPairs });
+  };
+
+  return (
+    <div className={styles.card}>
+      <div className={styles.small}>Match {index + 1}</div>
+      {pairs.map((pair, rowIndex) => (
+        <div key={rowIndex} className={styles.matchRow}>
+          <input
+            className={styles.input}
+            placeholder="Left Word"
+            value={pair.left.word}
+            onChange={(e) => handleInputChange(rowIndex, "word", "left", e.target.value)}
+          />
+          <input
+            className={styles.input}
+            placeholder="Left ID"
+            value={pair.left.rightId}
+            onChange={(e) => handleInputChange(rowIndex, "rightId", "left", e.target.value)}
+          />
+          <input
+            className={styles.input}
+            placeholder="Right Word"
+            value={pair.right.word}
+            onChange={(e) => handleInputChange(rowIndex, "word", "right", e.target.value)}
+          />
+          <input
+            className={styles.input}
+            placeholder="Right ID"
+            value={pair.right.rightId}
+            onChange={(e) => handleInputChange(rowIndex, "rightId", "right", e.target.value)}
+          />
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default function QuestionsForm() {
+  const [formData, setFormData] = useState({ mcqs: [], blanks: [], matches: [] });
+  const [componentsCount, setComponentsCount] = useState({ mcqs: 10, blanks: 10, matches: 1 });
+
+  const updateMCQData = (index, data) => {
+    const newMCQs = [...formData.mcqs];
+    newMCQs[index] = { ...newMCQs[index], ...data };
+    setFormData((prev) => ({ ...prev, mcqs: newMCQs }));
+  };
+
+  const updateBlankData = (index, data) => {
+    const newBlanks = [...formData.blanks];
+    newBlanks[index] = { ...newBlanks[index], ...data };
+    setFormData((prev) => ({ ...prev, blanks: newBlanks }));
+  };
+
+  const updateMatchData = (index, data) => {
+    const newMatches = [...formData.matches];
+    newMatches[index] = { ...newMatches[index], ...data };
+    setFormData((prev) => ({ ...prev, matches: newMatches }));
+  };
+
+  const addMoreComponents = () => {
+    setComponentsCount((prev) => ({
+      mcqs: prev.mcqs + 10,
+      blanks: prev.blanks + 10,
+      matches: prev.matches + 1,
     }));
-  };
-
-  const handleQuestionChange = (index, field, value) => {
-    const updatedQuestions = [...formData.questions];
-    updatedQuestions[index][field] = value;
-    setFormData((prevData) => ({ ...prevData, questions: updatedQuestions }));
-  };
-
-  const handleRemoveQuestion = (index) => {
-    const updatedQuestions = [...formData.questions];
-    updatedQuestions.splice(index, 1);
-    setFormData((prevData) => ({ ...prevData, questions: updatedQuestions }));
   };
 
   return (
     <div>
-      <div>
-        {formData.questions.map((question, index) => (
-          <div key={index}>
-            <div>
-            <label>Question {index + 1}</label>
-            <input
-              type="text"
-              value={question.question}
-              onChange={(e) =>
-                handleQuestionChange(index, 'question', e.target.value)
-              }
-              placeholder="Enter question text"
-              required
-            />
-            </div>
-            {/* MCQs Section */}
-            {question.choices.map((choice, choiceIndex) => (
-              <input
-                key={choiceIndex}
-                type="text"
-                value={choice}
-                onChange={(e) => {
-                  const updatedChoices = [...question.choices];
-                  updatedChoices[choiceIndex] = e.target.value;
-                  handleQuestionChange(index, 'choices', updatedChoices);
-                }}
-                placeholder={`Choice ${choiceIndex + 1}`}
-              />
-            ))}
-            <button
-              type="button"
-              onClick={() =>
-                handleQuestionChange(index, 'choices', [
-                  ...question.choices,
-                  '',
-                ])
-              }
-            >
-              Add Choice
-            </button> <br/>
-
-            {/* Fill in the Blanks Section */}
-            <label>Fill in the Blanks</label>
-            <input
-              type="text"
-              value={question.correctAnswer}
-              onChange={(e) =>
-                handleQuestionChange(index, 'correctAnswer', e.target.value)
-              }
-              placeholder="Correct Answer"
-            />
-
-            {/* Match the Following Section */}
-            <label>Pairs</label> <br/>
-            {question.pairs.map((pair, pairIndex) => (
-              <div key={pairIndex} className={styles.pairBlock}>
-                <input
-                  type="text"
-                  value={pair.left.word}
-                  onChange={(e) => {
-                    const updatedPairs = [...question.pairs];
-                    updatedPairs[pairIndex].left.word = e.target.value;
-                    handleQuestionChange(index, 'pairs', updatedPairs);
-                  }}
-                  placeholder="Left Word"
-                />
-                <input
-                  type="number"
-                  value={pair.left.rightId}
-                  onChange={(e) => {
-                    const updatedPairs = [...question.pairs];
-                    updatedPairs[pairIndex].left.rightId = Number(e.target.value);
-                    handleQuestionChange(index, 'pairs', updatedPairs);
-                  }}
-                  placeholder="Left ID"
-                />
-                <input
-                  type="text"
-                  value={pair.right.word}
-                  onChange={(e) => {
-                    const updatedPairs = [...question.pairs];
-                    updatedPairs[pairIndex].right.word = e.target.value;
-                    handleQuestionChange(index, 'pairs', updatedPairs);
-                  }}
-                  placeholder="Right Word"
-                />
-                <input
-                  type="number"
-                  value={pair.right.rightId}
-                  onChange={(e) => {
-                    const updatedPairs = [...question.pairs];
-                    updatedPairs[pairIndex].right.rightId = Number(e.target.value);
-                    handleQuestionChange(index, 'pairs', updatedPairs);
-                  }}
-                  placeholder="Right ID"
-                />
-              </div>
-            ))}
-            <button
-              type="button"
-              onClick={() =>
-                handleQuestionChange(index, 'pairs', [
-                  ...question.pairs,
-                  { left: { word: '', rightId: null }, right: { word: '', rightId: null } },
-                ])
-              }
-            >
-              Add Pair
-            </button>
-
-            <button type="button" onClick={() => handleRemoveQuestion(index)}>
-              Remove Question
-            </button>
-          </div>
-        ))}
-        <button type="button" onClick={handleAddQuestion}>
-          Add Question
-        </button>
+      <div className={styles.flex5}>
+      {[...Array(componentsCount.mcqs)].map((_, i) => (
+        <MCQ className={styles.flexitms} key={`mcq-${i}`} index={i} updateData={updateMCQData} />
+      ))}
       </div>
+      <div className={styles.flex5}>
+      {[...Array(componentsCount.blanks)].map((_, i) => (
+        <FillInTheBlanks key={`blank-${i}`} index={i} updateData={updateBlankData} />
+      ))}
+      </div>
+      <div className={styles.flex5}>
+      {[...Array(componentsCount.matches)].map((_, i) => (
+        <Match key={`match-${i}`} index={i} updateData={updateMatchData} />
+      ))}
+      </div>
+      <button onClick={addMoreComponents}>Add More Components</button>
     </div>
   );
 }

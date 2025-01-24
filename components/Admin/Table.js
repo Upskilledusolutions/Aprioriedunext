@@ -20,7 +20,7 @@ const Table = ({ data, section, headings, onDelete, onEdit, setIsCreatingNew }) 
               <tr key={index}>
                 {headings.map((heading, idx) => (
                   <td key={idx}>
-                    {item[heading] ? item[heading].slice(0, 25) : 'N/A'}
+                    {item[heading] ? heading === 'questions' ? item[heading].length : item[heading].slice(0, 25) : 'N/A'}
                   </td>
                 ))}
                 <td>
