@@ -90,7 +90,7 @@ const ReferralForm = () => {
           amount = "9000";
           break;
         case "Workshop":
-          amount = "5";
+          amount = "250";
           break;
         case "Contests and Events":
           amount = "500";
