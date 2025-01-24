@@ -38,7 +38,7 @@ const SuccessPage = () => {
     doc.text(`Name: ${name}`, 20, 50);
     doc.text(`Email: ${email}`, 20, 60);
     doc.text(`Phone: ${phone}`, 20, 70);
-    doc.text(`Trial ID: ${trialUserId}`, 20, 80);
+    {trialUserId && doc.text(`Trial ID: ${trialUserId}`, 20, 80);}
     doc.text(`Receipt Number: ${receipt}`, 20, 90);
     doc.text(`Date: ${date}`, 20, 100);
     doc.text(`Amount: Rs ${amount}`, 20, 110);
