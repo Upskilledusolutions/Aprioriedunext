@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 
 const PaymentPage = () => {
   const router = useRouter();
-  const { name, email, phone, trialUserId, amount, receipt } = router.query;
+  const { name, email, phone, trialUserId, amount, receipt, course } = router.query;
   console.log(name)
 
   useEffect(() => {
@@ -44,6 +44,7 @@ const PaymentPage = () => {
               query: {
                 ...formData,
                 receipt: receipt,
+                course: course,
                 date: new Date().toLocaleDateString(),
               },
             });

@@ -1,6 +1,15 @@
 .scroll{
   overflow: auto;
 }
+.top{
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.tic{
+  width: 2.5vw;
+  height: auto;
+}
 .container {
     text-align: center;
     margin: 20px;
@@ -14,15 +23,14 @@
   }
   
   .title {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 5px 0;
     color: black;
   }
   
   .subtitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 10px;
-    color: #555;
   }
   
   .receiptDetails {
