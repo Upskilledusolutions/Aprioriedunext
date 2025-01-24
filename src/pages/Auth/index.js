@@ -41,6 +41,7 @@ export default function Login() {
     { "userId": "linguafranca189", "password": "PasEncore4186", "name": "","trial": true, "type": "french", "next":[] }, //using
     { "userId": "linguafranca97", "password": "CavaToi9325", "name": "", "trial": false, "type": "french", "next":[] }, //using
     { "userId": "linguafranca101", "password": "DeRien4872", "name": "", "trial": false, "type": "french", "next":[] }, //using
+    { "userId": "linguafranca201", "password": "ChatSouris2649", "name": "", "trial": true, "type": "french", "next":[] }, //using
     { "userId": "linguafranca107", "password": "AuRevoir7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using
     // { "userId": "quixoticlengua101", "password": "HolaAmigo7324", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua103", "password": "BuenosDias8387", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
@@ -53,7 +54,7 @@ export default function Login() {
     { "userId": "quixoticlengua139", "password": "LoSiento6138", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
     { "userId": "sprachmeister151", "password": "GutenTag2935", "name": "", "trial": false, "type": "german", "next":[] }, 
     { "userId": "sprachmeister157", "password": "DankeSchon16479", "name": "", "trial": true, "type": "german", "next":[] }, //using
-    { "userId": "sprachmeister163", "password": "BitteSehr8271", "name": "", "trial": false, "type": "german", "next":[] },
+    { "userId": "sprachmeister211", "password": "BitteSehr8271", "name": "", "trial": true, "type": "german", "next":[] }, //using
     { "userId": "sprachmeister167", "password": "WieGehts3149", "name": "", "trial": false, "type": "german", "next":[] },
     { "userId": "sprachmeister173", "password": "TschussMein3975", "name": "", "trial": false, "type": "german", "next":[] },
     { "userId": "sprachmeister179", "password": "AufWiedersehen5932", "name": "", "trial": false, "type": "german", "next":[] },
