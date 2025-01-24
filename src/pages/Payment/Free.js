@@ -279,24 +279,12 @@ const ReferralForm = () => {
                 className={errors.course ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
               >
                <option value="">Select a course</option>
-                <option value="French A1">French A1</option>
-                <option value="French A2">French A2</option>
-                <option value="French B1">French B1</option>
-                <option value="French B2">French B2</option>
-                <option value="French C1">French C1</option>
-                <option value="French C2">French C2</option>
-                <option value="Spanish A1">Spanish A1</option>
-                <option value="Spanish A2">Spanish A2</option>
-                <option value="Spanish B1">Spanish B1</option>
-                <option value="Spanish B2">Spanish B2</option>
-                <option value="Spanish C1">Spanish C1</option>
-                <option value="Spanish C2">Spanish C2</option>
-                <option value="German A1">German A1</option>
-                <option value="German A2">German A2</option>
-                <option value="German B1">German B1</option>
-                <option value="German B2">German B2</option>
-                <option value="German C1">German C1</option>
-                <option value="German C2">German C2</option>
+                <option value="Self study package">Self study package (6 months) - ₹6000</option>
+                <option value="Online Classes for Adults">Online Classes for Adults (6 months) - ₹12000</option>
+                <option value="Online Classes for Children">Online Classes for Children (3 months) - ₹9000</option>
+                <option value="Self study package + Doubt sessions">Self study package + Doubt sessions (6 months) - ₹9000</option>
+                <option value="Workshop">Workshop - ₹250</option>
+                <option value="Contests and Events">Contests and Events -₹500 </option>
               </select>
               {errors.course && <span className={styles.errorText}>{errors.course}</span>}
             </div>

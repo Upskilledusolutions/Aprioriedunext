@@ -10,10 +10,11 @@ const ReferralForm = () => {
     name: '',
     phone: '',
     email: '',
+    course: '',
     referralCode: '',
     trialUserId: '',
     type: 'Full Version',
-    amount: '50',
+    amount: 'Select a Course',
   });
 
   const [errors, setErrors] = useState({});
@@ -35,6 +36,7 @@ const ReferralForm = () => {
     if (!formData.trialUserId) {
       newErrors.trialUserId = 'Trial User Id is required';
     }
+    if (!formData.course) newErrors.course = 'Please select a course';
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -42,11 +44,45 @@ const ReferralForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+  
+    // Set amount based on course selection
+    if (name === "course") {
+      let amount = "";
+      switch (value) {
+        case "Self study package":
+          amount = "6000";
+          break;
+        case "Online Classes for Adults":
+          amount = "12000";
+          break;
+        case "Online Classes for Children":
+          amount = "9000";
+          break;
+        case "Self study package + Doubt sessions":
+          amount = "9000";
+          break;
+        case "Workshop":
+          amount = "250";
+          break;
+        case "Contests and Events":
+          amount = "500";
+          break;
+        default:
+          amount = "";
+      }
+      setFormData({
+        ...formData,
+        [name]: value,
+        amount: amount, // Update amount dynamically
+      });
+    } else {
+      setFormData({
+        ...formData,
+        [name]: value,
+      });
+    }
   };
+  
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -62,6 +98,8 @@ const ReferralForm = () => {
             name: '',
             phone: '',
             email: '',
+            course: '',
+            amount: '',
             referralCode: '',
             trialUserId: '',
             type: 'Full Version', // Reset type explicitly
@@ -123,6 +161,27 @@ const ReferralForm = () => {
           </div>
 
           <div className={styles.formGroup}>
+              <label className={styles.label} htmlFor="course">Course <span className={styles.span}>*</span></label>
+              <select
+                id="course"
+                name="course"
+                required
+                value={formData.course}
+                onChange={handleChange}
+                className={errors.course ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
+              >
+               <option value="">Select a course</option>
+                <option value="Self study package">Self study package (6 months) - ₹6000</option>
+                <option value="Online Classes for Adults">Online Classes for Adults (6 months) - ₹12000</option>
+                <option value="Online Classes for Children">Online Classes for Children (3 months) - ₹9000</option>
+                <option value="Self study package + Doubt sessions">Self study package + Doubt sessions (6 months) - ₹9000</option>
+                <option value="Workshop">Workshop - ₹250</option>
+                <option value="Contests and Events">Contests and Events -₹500 </option>
+              </select>
+              {errors.course && <span className={styles.errorText}>{errors.course}</span>}
+            </div>
+
+          <div className={styles.formGroup}>
             <label className={styles.label} htmlFor="trialUserId">Trial User Id <span className={styles.span}>*</span></label>
             <input
               type="text"
@@ -150,6 +209,19 @@ const ReferralForm = () => {
               id="referralCode"
               name="referralCode"
               value={formData.referralCode}
+              onChange={handleChange}
+              className={styles.input}
+            />
+          </div>
+
+          <div className={styles.formGroup}>
+            <label className={styles.label}>Amount</label>
+            <input
+              type="text"
+              id="amount"
+              name="amount"
+              value={formData.amount}
+              readOnly
               onChange={handleChange}
               className={styles.input}
             />

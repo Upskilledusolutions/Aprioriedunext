@@ -15,7 +15,7 @@ const ReferralForm = () => {
     occupation: '',
     referralCode: '',
     type: 'Full Version',
-    amount: '50',
+    amount: 'Select a Course',
     source: '',
     sourcename: '',
     gender: '',
@@ -58,10 +58,43 @@ const ReferralForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
+  
+    // Set amount based on course selection
+    if (name === "course") {
+      let amount = "";
+      switch (value) {
+        case "Self study package":
+          amount = "6000";
+          break;
+        case "Online Classes for Adults":
+          amount = "12000";
+          break;
+        case "Online Classes for Children":
+          amount = "9000";
+          break;
+        case "Self study package + Doubt sessions":
+          amount = "9000";
+          break;
+        case "Workshop":
+          amount = "250";
+          break;
+        case "Contests and Events":
+          amount = "500";
+          break;
+        default:
+          amount = "";
+      }
+      setFormData({
+        ...formData,
+        [name]: value,
+        amount: amount, // Update amount dynamically
+      });
+    } else {
+      setFormData({
+        ...formData,
+        [name]: value,
+      });
+    }
   };
 
   const sendEmail = (e) => {
@@ -83,6 +116,7 @@ const ReferralForm = () => {
             occupation: '',
             referralCode: '',
             source: '',
+            amount: '',
             sourcename: '',
             gender: '',
             age: '',
@@ -283,7 +317,7 @@ const ReferralForm = () => {
               onChange={handleChange}
             />
 
-            <div className={styles.formGroup}>
+<div className={styles.formGroup}>
               <label className={styles.label} htmlFor="course">Course <span className={styles.span}>*</span></label>
               <select
                 id="course"
@@ -294,27 +328,30 @@ const ReferralForm = () => {
                 className={errors.course ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
               >
                <option value="">Select a course</option>
-                <option value="French A1">French A1</option>
-                <option value="French A2">French A2</option>
-                <option value="French B1">French B1</option>
-                <option value="French B2">French B2</option>
-                <option value="French C1">French C1</option>
-                <option value="French C2">French C2</option>
-                <option value="Spanish A1">Spanish A1</option>
-                <option value="Spanish A2">Spanish A2</option>
-                <option value="Spanish B1">Spanish B1</option>
-                <option value="Spanish B2">Spanish B2</option>
-                <option value="Spanish C1">Spanish C1</option>
-                <option value="Spanish C2">Spanish C2</option>
-                <option value="German A1">German A1</option>
-                <option value="German A2">German A2</option>
-                <option value="German B1">German B1</option>
-                <option value="German B2">German B2</option>
-                <option value="German C1">German C1</option>
-                <option value="German C2">German C2</option>
+                <option value="Self study package">Self study package (6 months) - ₹6000</option>
+                <option value="Online Classes for Adults">Online Classes for Adults (6 months) - ₹12000</option>
+                <option value="Online Classes for Children">Online Classes for Children (3 months) - ₹9000</option>
+                <option value="Self study package + Doubt sessions">Self study package + Doubt sessions (6 months) - ₹9000</option>
+                <option value="Workshop">Workshop - ₹250</option>
+                <option value="Contests and Events">Contests and Events -₹500 </option>
               </select>
               {errors.course && <span className={styles.errorText}>{errors.course}</span>}
             </div>
+          </div>
+
+        <div className={styles.row1}>
+          <div className={styles.formGroup}>
+            <label className={styles.label}>Amount</label>
+            <input
+              type="text"
+              id="amount"
+              name="amount"
+              value={formData.amount}
+              readOnly
+              onChange={handleChange}
+              className={styles.input}
+            />
+          </div>
           </div>
 
           <button type="submit" className={styles.submitButton}>Submit</button>

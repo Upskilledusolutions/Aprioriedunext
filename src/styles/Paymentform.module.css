@@ -118,6 +118,9 @@
   .row {
     flex-direction: column;
   }
+  .row1{
+    width: 100%;
+  }
 
   .formGroup {
     width: 100%;

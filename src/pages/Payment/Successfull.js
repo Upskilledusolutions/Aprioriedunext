@@ -26,12 +26,12 @@ const SuccessPage = () => {
     // Add company name
     doc.setFont('Helvetica', 'bold');
     doc.setFontSize(18);
-    doc.text('Upskilledu Solutions', 35, 20);
+    doc.text('Upskilledu Solutions', 35, 21);
   
     // Add subtitle
     doc.setFontSize(14);
     doc.setFont('Helvetica', 'normal');
-    doc.text('Payment Receipt', 35, 30);
+    doc.text('Payment Receipt', 35.5, 27);
   
     // Add receipt details
     doc.setFontSize(12);
@@ -41,7 +41,7 @@ const SuccessPage = () => {
     doc.text(`Trial ID: ${trialUserId}`, 20, 80);
     doc.text(`Receipt Number: ${receipt}`, 20, 90);
     doc.text(`Date: ${date}`, 20, 100);
-    doc.text(`Amount: ₹${amount}`, 20, 110);
+    doc.text(`Amount: Rs ${amount}`, 20, 110);
   
     // Add footer
     doc.setFontSize(10);
