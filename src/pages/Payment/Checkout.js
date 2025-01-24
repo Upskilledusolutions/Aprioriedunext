@@ -3,7 +3,8 @@ import { useRouter } from 'next/router';
 
 const PaymentPage = () => {
   const router = useRouter();
-  const { name, email, phone, trialUserId, amount } = router.query;
+  const { name, email, phone, trialUserId, amount, receipt } = router.query;
+  console.log(name)
 
   useEffect(() => {
     const initiatePayment = async () => {
@@ -42,12 +43,12 @@ const PaymentPage = () => {
               pathname: '/Payment/Successfull',
               query: {
                 ...formData,
-                receipt: data.receipt,
+                receipt: receipt,
                 date: new Date().toLocaleDateString(),
               },
             });
           },
-          prefill: { name, email, contact: phone },
+          prefill: { name, email, contact: phone, receipt },
           theme: { color: '#F37254' },
         };
 

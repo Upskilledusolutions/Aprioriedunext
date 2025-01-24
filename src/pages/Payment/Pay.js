@@ -13,6 +13,7 @@ const ReferralForm = () => {
     course: '',
     referralCode: '',
     trialUserId: '',
+    receipt: '',
     type: 'Full Version',
     amount: 'Select a Course',
   });
@@ -40,6 +41,19 @@ const ReferralForm = () => {
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
+  };
+
+  const createReceipt = () => {
+    // Generate a random 4-letter prefix
+    const prefix = Math.random().toString(36).substring(2, 6).toUpperCase();
+  
+    // Get the current date and time in YYYYMMDD-HHMMSS format
+    const now = new Date();
+    const datePart = now.toISOString().split('T')[0].replace(/-/g, ''); // YYYYMMDD
+    const timePart = now.toTimeString().split(' ')[0].replace(/:/g, ''); // HHMMSS
+  
+    // Combine the prefix, date, and time
+    return `${prefix}-${datePart}-${timePart}`;
   };
 
   const handleChange = (e) => {
@@ -74,11 +88,13 @@ const ReferralForm = () => {
         ...formData,
         [name]: value,
         amount: amount, // Update amount dynamically
+        receipt: createReceipt(),
       });
     } else {
       setFormData({
         ...formData,
         [name]: value,
+        receipt: createReceipt(),
       });
     }
   };
@@ -100,6 +116,7 @@ const ReferralForm = () => {
             email: '',
             course: '',
             amount: '',
+            receipt: '',
             referralCode: '',
             trialUserId: '',
             type: 'Full Version', // Reset type explicitly
@@ -199,6 +216,13 @@ const ReferralForm = () => {
             type="hidden"
             name="type"
             value={formData.type}
+            onChange={handleChange}
+          />
+
+          <input
+            type="hidden"
+            name="receipt"
+            value={formData.receipt}
             onChange={handleChange}
           />
 

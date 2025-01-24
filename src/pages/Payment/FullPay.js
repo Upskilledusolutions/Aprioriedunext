@@ -14,6 +14,7 @@ const ReferralForm = () => {
     country: '',
     occupation: '',
     referralCode: '',
+    receipt: '',
     type: 'Full Version',
     amount: 'Select a Course',
     source: '',
@@ -56,6 +57,19 @@ const ReferralForm = () => {
     return Object.keys(newErrors).length === 0;
   };
 
+  const createReceipt = () => {
+    // Generate a random 4-letter prefix
+    const prefix = Math.random().toString(36).substring(2, 6).toUpperCase();
+  
+    // Get the current date and time in YYYYMMDD-HHMMSS format
+    const now = new Date();
+    const datePart = now.toISOString().split('T')[0].replace(/-/g, ''); // YYYYMMDD
+    const timePart = now.toTimeString().split(' ')[0].replace(/:/g, ''); // HHMMSS
+  
+    // Combine the prefix, date, and time
+    return `${prefix}-${datePart}-${timePart}`;
+  };
+
   const handleChange = (e) => {
     const { name, value } = e.target;
   
@@ -88,11 +102,13 @@ const ReferralForm = () => {
         ...formData,
         [name]: value,
         amount: amount, // Update amount dynamically
+        receipt: createReceipt(),
       });
     } else {
       setFormData({
         ...formData,
         [name]: value,
+        receipt: createReceipt(),
       });
     }
   };
@@ -116,6 +132,7 @@ const ReferralForm = () => {
             occupation: '',
             referralCode: '',
             source: '',
+            receipt: '',
             amount: '',
             sourcename: '',
             gender: '',
@@ -316,6 +333,13 @@ const ReferralForm = () => {
               value={formData.type}
               onChange={handleChange}
             />
+
+          <input
+            type="hidden"
+            name="receipt"
+            value={formData.receipt}
+            onChange={handleChange}
+          />
 
 <div className={styles.formGroup}>
               <label className={styles.label} htmlFor="course">Course <span className={styles.span}>*</span></label>

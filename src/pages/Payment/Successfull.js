@@ -7,6 +7,8 @@ const SuccessPage = () => {
   const router = useRouter();
   const { name, email, phone, trialUserId, amount, receipt, date } = router.query;
 
+  // console.log(receipt)
+
   const downloadReceipt = () => {
     const doc = new jsPDF();
   

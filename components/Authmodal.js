@@ -25,12 +25,12 @@ const Authmodal = ({ hideAuthmodal, showpaymodel }) => {
               Close
             </button>
           </div>
-          {/* <div className={styles.memberSection}>
+          <div className={styles.memberSection}>
             <p className={styles.memberText}>Not a member yet?</p>
             <div className={styles.memButton} onClick={openmem}>
               Become a Member
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
