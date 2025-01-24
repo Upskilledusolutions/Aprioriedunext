@@ -66,7 +66,7 @@ const SuccessPage = () => {
         <p><strong>Email:</strong> {email}</p>
         <p><strong>Phone:</strong> {phone}</p>
         {trialUserId && <p><strong>Trial Id:</strong> {trialUserId}</p>}
-        <p><strong>Receipt Number:</strong> {receipt}</p>
+        <p><strong>Receipt Id:</strong> {receipt}</p>
         <p><strong>Date:</strong> {date}</p>
         <p><strong>Amount:</strong> ₹{amount}</p>
       </div>
