@@ -128,7 +128,7 @@ export default function Navbar() {
         </ul>
 
         <div className={styles.endflex}>
-        {user?.type === 'all' && <div className={styles.Joinnow} onClick={showpaymodel}>Join Now</div>}
+        <div className={styles.Joinnow} onClick={showpaymodel}>Join Now</div>
         {isAuthenticated && user ? (
           <div className={styles.userInfoContainer}>
             <div className={styles.userinfocont}>
