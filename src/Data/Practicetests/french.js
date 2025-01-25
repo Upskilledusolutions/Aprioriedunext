@@ -1,7 +1,7 @@
 export const quiz = [
     {
       quiz: '1',
-      name: 'French Practice Test - 1',
+      name: 'French A1 Practice Test - 1',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -642,7 +642,7 @@ export const quiz = [
     },
     {
       quiz: '2',
-      name: 'French Practice Test - 2',
+      name: 'French A1 Practice Test - 2',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -1224,7 +1224,7 @@ export const quiz = [
     },
     {
       quiz: '3',
-      name: 'French Practice Test - 3',
+      name: 'French A1 Practice Test - 3',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -1749,7 +1749,7 @@ export const quiz = [
     },
     {
       quiz: '4',
-      name: 'French Practice Test - 4',
+      name: 'French A1 Practice Test - 4',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -2330,7 +2330,7 @@ export const quiz = [
     },
     {
       quiz: '5',
-      name: 'French Practice Test - 5',
+      name: 'French A1 Practice Test - 5',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -2913,7 +2913,7 @@ export const quiz = [
     },
     {
       quiz: '6',
-      name: 'French Practice Test - 6',
+      name: 'French A1 Practice Test - 6',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -3495,7 +3495,7 @@ export const quiz = [
     },
     {
       quiz: '7',
-      name: 'French Practice Test - 7',
+      name: 'French A1 Practice Test - 7',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -3963,7 +3963,7 @@ export const quiz = [
     },
     {
       quiz: '8',
-      name: 'French Practice Test - 8',
+      name: 'French A1 Practice Test - 8',
       level: 'Easy',
       topic: 'Mixed',
       questions: [

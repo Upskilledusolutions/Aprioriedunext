@@ -77,7 +77,7 @@ const ReferralForm = () => {
     if (name === "course") {
       let amount = "";
       switch (value) {
-        case "Self study package":
+        case "OSA - Self study package":
           amount = "6000";
           break;
         case "Online Classes for Adults":
@@ -86,7 +86,7 @@ const ReferralForm = () => {
         case "Online Classes for Children":
           amount = "9000";
           break;
-        case "Self study package + Doubt sessions":
+        case "OSA - Self study package + Doubt sessions":
           amount = "9000";
           break;
         case "Workshop":
@@ -352,10 +352,10 @@ const ReferralForm = () => {
                 className={errors.course ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
               >
                <option value="">Select a course</option>
-                <option value="Self study package">Self study package (6 months) - ₹6000</option>
+                <option value="OSA - Self study package">OSA - Self study package (6 months) - ₹6000</option>
                 <option value="Online Classes for Adults">Online Classes for Adults (6 months) - ₹12000</option>
                 <option value="Online Classes for Children">Online Classes for Children (3 months) - ₹9000</option>
-                <option value="Self study package + Doubt sessions">Self study package + Doubt sessions (6 months) - ₹9000</option>
+                <option value="OSA - Self study package + Doubt sessions">OSA - Self study package + Doubt sessions (6 months) - ₹9000</option>
                 <option value="Workshop">Workshop - ₹250</option>
                 <option value="Contests and Events">Contests and Events -₹500 </option>
               </select>

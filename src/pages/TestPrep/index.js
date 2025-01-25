@@ -13,19 +13,31 @@ export default function Index() {
   const languageCards = [
     {
       type: 'french',
-      heading: 'French Language',
+      heading: 'French A1 Practice Test',
       text: 'Get ready to put your French skills to the test with our exciting range of quizzes.',
       link: '/Practicetest/FrenchQuizs',
     },
     {
+      type: 'frencha2',
+      heading: 'French A2 Practice Test',
+      text: 'Get ready to put your French skills to the test with our exciting range of quizzes.',
+      link: '/Practicetest/FrenchQuizsA2',
+    },
+    {
       type: 'spanish',
-      heading: 'Spanish Language',
+      heading: 'Spanish A1 Practice Test',
       text: 'Get ready to put your Spanish skills to the test with our exciting range of quizzes.',
       link: '/Practicetest/SpanishQuizs',
     },
     {
+      type: 'spanisha2',
+      heading: 'Spanish A2 Practice Test',
+      text: 'Get ready to put your Spanish skills to the test with our exciting range of quizzes.',
+      link: '/Practicetest/SpanishQuizsA2',
+    },
+    {
       type: 'german',
-      heading: 'German Language',
+      heading: 'German A1 Practice Test',
       text: 'Get ready to put your German skills to the test with our exciting range of quizzes.',
       link: '/Practicetest/GermanQuizs',
     },

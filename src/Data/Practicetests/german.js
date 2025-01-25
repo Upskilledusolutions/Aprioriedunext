@@ -1,7 +1,7 @@
 export const quiz = [
     {
       quiz: '1',
-      name: 'German Practice Test - 1',
+      name: 'German A1 Practice Test - 1',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -590,7 +590,7 @@ export const quiz = [
     },
     {
       quiz: '2',
-      name: 'German Practice Test - 2',
+      name: 'German A1 Practice Test - 2',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -1227,7 +1227,7 @@ export const quiz = [
     },
     {
       quiz: '3',
-      name: 'German Practice Test - 3',
+      name: 'German A1 Practice Test - 3',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -1862,7 +1862,7 @@ export const quiz = [
     },
     {
       quiz: '4',
-      name: 'German Practice Test - 4',
+      name: 'German A1 Practice Test - 4',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
@@ -2447,7 +2447,7 @@ export const quiz = [
     },
     {
       quiz: '5',
-      name: 'German Practice Test - 5',
+      name: 'German A1 Practice Test - 5',
       level: 'Easy',
       topic: 'Mixed',
       questions: [
