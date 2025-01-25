@@ -47,11 +47,11 @@ function MCQ({ index, updateData }) {
 }
 
 function FillInTheBlanks({ index, updateData }) {
-  const [choices, setChoices] = useState(['', '', '', '']);
+  const [choices, setChoices] = useState(['']);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    updateData(index, { [name]: value });
+    updateData(index, { [name]: value , correctAnswer: '1'});
   };
 
   const handleChoiceChange = (choiceIndex, value) => {
@@ -75,29 +75,29 @@ function FillInTheBlanks({ index, updateData }) {
           <input
             key={i}
             className={styles.choiceInput}
-            placeholder={`Choice ${i + 1}`}
+            placeholder={`Answer`}
             value={choice}
             onChange={(e) => handleChoiceChange(i, e.target.value)}
           />
         ))}
       </div>
-      <input
+      {/* <input
         name="correctAnswer"
         className={styles.input}
         placeholder="Correct Answer"
         onChange={handleInputChange}
-      />
+      /> */}
     </div>
   );
 }
 
 function Match({ index, updateData }) {
   const [pairs, setPairs] = useState([
-    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
-    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
-    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
-    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
-    { left: { word: "", rightId: "" }, right: { word: "", rightId: "" } },
+    { left: { word: "", rightId: "1" }, right: { word: "", rightId: "" } },
+    { left: { word: "", rightId: "2" }, right: { word: "", rightId: "" } },
+    { left: { word: "", rightId: "3" }, right: { word: "", rightId: "" } },
+    { left: { word: "", rightId: "4" }, right: { word: "", rightId: "" } },
+    { left: { word: "", rightId: "5" }, right: { word: "", rightId: "" } },
   ]);
 
   const handleInputChange = (rowIndex, field, side, value) => {
@@ -142,26 +142,31 @@ function Match({ index, updateData }) {
   );
 }
 
-export default function QuestionsForm() {
+export default function QuestionsForm({PformData, PsetFormData}) {
   const [formData, setFormData] = useState({ mcqs: [], blanks: [], matches: [] });
   const [componentsCount, setComponentsCount] = useState({ mcqs: 10, blanks: 10, matches: 1 });
+
+  console.log(PformData)
 
   const updateMCQData = (index, data) => {
     const newMCQs = [...formData.mcqs];
     newMCQs[index] = { ...newMCQs[index], ...data };
     setFormData((prev) => ({ ...prev, mcqs: newMCQs }));
+    PsetFormData((prev) => ({ ...prev, questions: [formData] }));
   };
 
   const updateBlankData = (index, data) => {
     const newBlanks = [...formData.blanks];
     newBlanks[index] = { ...newBlanks[index], ...data };
     setFormData((prev) => ({ ...prev, blanks: newBlanks }));
+    PsetFormData((prev) => ({ ...prev, questions: [formData] }));
   };
 
   const updateMatchData = (index, data) => {
     const newMatches = [...formData.matches];
     newMatches[index] = { ...newMatches[index], ...data };
     setFormData((prev) => ({ ...prev, matches: newMatches }));
+    PsetFormData((prev) => ({ ...prev, questions: [formData] }));
   };
 
   const addMoreComponents = () => {
@@ -189,7 +194,7 @@ export default function QuestionsForm() {
         <Match key={`match-${i}`} index={i} updateData={updateMatchData} />
       ))}
       </div>
-      <button onClick={addMoreComponents}>Add More Components</button>
+      <button className={styles.submitButton} onClick={addMoreComponents}>Add More Components</button>
     </div>
   );
 }

@@ -3961,5 +3961,529 @@ export const quiz = [
 
       ],
     },
+    {
+      quiz: '8',
+      name: 'French Practice Test - 8',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "Which of the following is the informal way to say 'hello' in French?",
+          "choices": ["Bonjour", "Salut", "Bonsoir", "Coucou"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How would you formally ask someone 'How are you?'",
+          "choices": ["Comment ça va ?", "Ça va ?", "Comment allez-vous ?", "Tu vas bien ?"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'Tu' signify in French?",
+          "choices": ["Formal 'you'", "Informal 'you'", "A pronoun for 'he'", "A pronoun for 'she'"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which phrase is used in formal conversations to apologize?",
+          "choices": ["Désolé", "Pardon", "Je suis désolé(e)", "Excuse-moi"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "If you’re speaking to your teacher, how would you say 'thank you'?",
+          "choices": ["Merci", "Merci beaucoup", "Je te remercie", "Je vous remercie"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which of these phrases is formal?",
+          "choices": ["Tu veux un café ?", "Vous voulez un café ?", "Ça va ?", "T’as faim ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the formal way to address a stranger?",
+          "choices": ["Tu", "Vous", "Il", "Elle"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which phrase is most likely used among friends?",
+          "choices": ["Enchanté(e)", "Coucou !", "Au revoir", "Je vous remercie"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "In which situation would you use 'Monsieur' or 'Madame'?",
+          "choices": ["When greeting a friend", "When speaking to a store clerk", "When meeting a child", "When talking to a sibling"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which phrase is informal?",
+          "choices": ["Comment allez-vous ?", "Vous habitez où ?", "Ça roule ?", "Puis-je vous aider ?"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is a typical way to answer the phone in French?",
+          "choices": ["Salut !", "Allô ?", "Bonjour !", "Oui ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How would you ask 'Who is this?' on the phone?",
+          "choices": ["Qui est-ce ?", "C’est qui ?", "Qui parle ?", "Toutes les réponses sont correctes."],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "What would you say to politely request someone on the phone?",
+          "choices": ["Je veux parler à Paul.", "Je voudrais parler à Paul, s’il vous plaît.", "Passe-moi Paul !", "Où est Paul ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'I’ll call back later' in French?",
+          "choices": ["Je rappelle plus tard.", "J’appelle maintenant.", "Je téléphone demain.", "Je vais rappeler."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "If someone says 'Un instant, s’il vous plaît,' what do they mean?",
+          "choices": ["One moment, please.", "I’ll call you back.", "Who is this?", "Speak louder, please."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the informal way to say 'Goodbye' on the phone?",
+          "choices": ["Au revoir", "Salut", "À bientôt", "Ciao"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "If you want to ask for clarification on the phone, what can you say?",
+          "choices": ["Répétez, s’il vous plaît.", "Quoi ?", "Parlez !", "D’accord ?"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the polite way to say, 'Can you speak more slowly?'",
+          "choices": ["Tu peux parler lentement ?", "Vous pouvez parler plus lentement, s’il vous plaît ?", "Parle lentement !", "Vous parlez bien ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is a common way to confirm that you’ve understood something on the phone?",
+          "choices": ["Oui, c’est clair.", "Pas du tout.", "Qui êtes-vous ?", "C’est faux !"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which phrase would you use to politely end a phone call?",
+          "choices": ["J’ai fini, bye.", "Bonne journée, au revoir !", "OK, ciao !", "Tchao, à plus."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+
+        {
+          "question": "Bonjour, Madame. Comment ______ vous? (Hint: formal way of asking 'How are you?')",
+          "choices": ["allez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Salut, Pierre! ______ ça va? (Hint: informal way of asking 'How's it going?')",
+          "choices": ["Ça"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Voulez-vous un café ou un thé? ______ préférez-vous? (Hint: formal version of 'What do you prefer?')",
+          "choices": ["Que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu as un moment pour discuter? ______ m'aider? (Hint: informal way of asking 'Can you help me?')",
+          "choices": ["Peux-tu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ habitez-vous, Monsieur? (Hint: formal way of asking 'Where do you live?')",
+          "choices": ["Où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Où ______ tu ce soir? (Hint: informal way of asking 'Where are you going tonight?')",
+          "choices": ["vas"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Excusez-moi, pouvez-vous me dire l'heure? ______ heure est-il? (Hint: formal register for time inquiry.)",
+          "choices": ["Quelle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(Tu/Vous) ______ préférez-vous? (Hint: Choose the correct pronoun for formal speech.)",
+          "choices": ["Vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pierre, ______ (excuse-moi/pardon) de te déranger, mais as-tu un stylo? (Hint: Choose the informal expression.)",
+          "choices": ["Excuse-moi"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Madame, ______ (t'es/vous êtes) sûre? (Hint: Use the formal register.)",
+          "choices": ["Vous êtes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Claire, ______ (pourriez-tu/pourrais-tu) me prêter ton livre? (Hint: Correct the polite informal question.)",
+          "choices": ["Pourrais-tu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Monsieur, ______ (ton/votre) rendez-vous est confirmé à 15 heures. (Hint: Formal possessive.)",
+          "choices": ["Votre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Salut, ça va? ______ (bien/Je vais bien), et toi? (Hint: Informal reply.)",
+          "choices": ["Bien"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(S'il te plaît/S'il vous plaît) ______, pourriez-vous m'aider avec ce sac? (Hint: Polite form of 'please.')",
+          "choices": ["S'il vous plaît"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(Allô/Bonjour) ______, qui est à l’appareil? (Hint: How to answer a phone call.)",
+          "choices": ["Allô"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(Est-ce que/Peux-tu) ______ je peux parler à Sophie, s’il vous plaît? (Hint: Polite way to request someone.)",
+          "choices": ["Est-ce que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(Attendez/Attends) ______ un instant, je vais la chercher. (Hint: Polite way of asking to wait.)",
+          "choices": ["Attendez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je suis désolé(e), elle n’est pas là pour le moment. Voulez-vous ______ (laisser/donner) un message? (Hint: Correct word for 'leave a message.')",
+          "choices": ["laisser"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Bonjour, c’est Sophie. ______ (puis-je/Je peux) parler à Paul? (Hint: Formal phone inquiry.)",
+          "choices": ["Puis-je"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vous ______ (entends/écoutez) très mal. Pouvez-vous répéter, s’il vous plaît? (Hint: Correct verb for 'hear.')",
+          "choices": ["entends"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Bonjour, comment allez-vous aujourd'hui ?",
+          "choices": ["Bonjour", "comment", "allez-vous", "aujourd'hui?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Salut, ça va bien ?",
+          "choices": ["Salut", "ça", "va", "bien?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je vous remercie de votre aide.",
+          "choices": ["Je", "vous", "remercie", "de", "votre", "aide."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Merci beaucoup pour ton aide.",
+          "choices": ["Merci", "beaucoup", "pour", "ton", "aide."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Où habitez-vous, madame ?",
+          "choices": ["Où", "habitez-vous", "madame?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu viens ce soir à la fête ?",
+          "choices": ["Tu", "viens", "ce", "soir", "à", "la", "fête?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pouvez-vous me dire l'heure, s'il vous plaît ?",
+          "choices": ["Pouvez-vous", "me", "dire", "l'heure", "s'il", "vous", "plaît?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "C'est super de te voir !",
+          "choices": ["C'est", "super", "de", "te", "voir!"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je vous en prie, asseyez-vous.",
+          "choices": ["Je", "vous", "en", "prie", "asseyez-vous."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu veux un café ?",
+          "choices": ["Tu", "veux", "un", "café?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Puis-je avoir un rendez-vous demain ?",
+          "choices": ["Puis-je", "avoir", "un", "rendez-vous", "demain?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu veux sortir ce soir ?",
+          "choices": ["Tu", "veux", "sortir", "ce", "soir?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Excusez-moi, où est la gare ?",
+          "choices": ["Excusez-moi", "où", "est", "la", "gare?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "T'as vu ce film hier ?",
+          "choices": ["T'as", "vu", "ce", "film", "hier?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J’aimerais réserver une table pour deux.",
+          "choices": ["J’aimerais", "réserver", "une", "table", "pour", "deux."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "On se retrouve à huit heures.",
+          "choices": ["On", "se", "retrouve", "à", "huit", "heures."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je vous souhaite une excellente journée.",
+          "choices": ["Je", "vous", "souhaite", "une", "excellente", "journée."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ça roule, à plus tard !",
+          "choices": ["Ça", "roule", "à", "plus", "tard !"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Allô, comment puis-je vous aider ?",
+          "choices": ["Allô", "comment", "puis-je", "vous", "aider ?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Salut, c’est moi, tu vas bien ?",
+          "choices": ["Salut", "c’est", "moi", "tu", "vas", "bien ?"],
+          "type": "JumbledWords"
+        },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "C’est pas grave", "rightId": 1 },
+            "right": { "word": "I'm sorry", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Je suis désolé(e)", "rightId": 2 },
+            "right": { "word": "How are you?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Excusez-moi", "rightId": 3 },
+            "right": { "word": "You are welcome", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Je vous en prie", "rightId": 4 },
+            "right": { "word": "It doesn't matter", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Ça va?", "rightId": 5 },
+            "right": { "word": "Excuse me", "rightId": 3 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Bonjour, comment allez-vous ?", "rightId": 1 },
+            "right": { "word": "Thank you so much.", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Salut, ça va ?", "rightId": 2 },
+            "right": { "word": "Good morning, how are you doing ?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Je vous en prie.", "rightId": 3 },
+            "right": { "word": "What's your name ?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Merci beaucoup.", "rightId": 4 },
+            "right": { "word": "You are welcome.", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Comment tu t'appelles ?", "rightId": 5 },
+            "right": { "word": "à l’examen, c’est sûr.", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Tu veux sortir ce soir ?", "rightId": 1 },
+            "right": { "word": "Excuse me, where is the station?", "rightId": 2 }
+          },
+          {
+            "left": { "word": "Excusez-moi, où est la gare ?", "rightId": 2 },
+            "right": { "word": "Do you have any news?", "rightId": 3 }
+          },
+          {
+            "left": { "word": "T'as des nouvelles ?", "rightId": 3 },
+            "right": { "word": "See you soon !", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Je suis désolé.", "rightId": 4 },
+            "right": { "word": "Do you want to go out tonight?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "À bientôt !", "rightId": 5 },
+            "right": { "word": "Je suis désolé.", "rightId": 4 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Pardon, monsieur/madame", "rightId": 1 },
+            "right": { "word": "Thank you", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Merci", "rightId": 2 },
+            "right": { "word": "It doesn't matter", "rightId": 5 }
+          },
+          {
+            "left": { "word": "De rien", "rightId": 3 },
+            "right": { "word": "It was nothing", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Je vous remercie", "rightId": 4 },
+            "right": { "word": "Sorry, sir/madam", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Ça ne fait rien", "rightId": 5 },
+            "right": { "word": "Thanks", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Allô ?", "rightId": 1 },
+            "right": { "word": "Who is it from?", "rightId": 2 }
+          },
+          {
+            "left": { "word": "C’est de la part de qui ?", "rightId": 2 },
+            "right": { "word": "Can you call back later?", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Je voudrais parler à Mme Dupont", "rightId": 3 },
+            "right": { "word": "He is in a meeting", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Il est en réunion", "rightId": 4 },
+            "right": { "word": "Hello ?", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Pouvez-vous rappeler plus tard ?", "rightId": 5 },
+            "right": { "word": "I would like to speak to Mrs. Dupont", "rightId": 3 }
+          },
+         
+        ],
+      },
+
+      {
+        "question": "Match the Words.",
+        type: "MatchTheFollowing",
+        "pairs": [
+          {
+            "left": { "word": "Je suis désolé(e), il n’est pas là", "rightId": 1 },
+            "right": { "word": "Wait a moment, I'll pass it on to you", "rightId": 4 }
+          },
+          {
+            "left": { "word": "Je vous écoute", "rightId": 2 },
+            "right": { "word": "I'm sorry, he's not here", "rightId": 1 }
+          },
+          {
+            "left": { "word": "Oui, c’est bien moi", "rightId": 3 },
+            "right": { "word": "Thank you for calling", "rightId": 5 }
+          },
+          {
+            "left": { "word": "Attendez un moment, je vous le passe", "rightId": 4 },
+            "right": { "word": "Yes, it's me", "rightId": 3 }
+          },
+          {
+            "left": { "word": "Merci de votre appel", "rightId": 5 },
+            "right": { "word": "I'm listening to you", "rightId": 2 }
+          },
+         
+        ],
+      },
+
+      ],
+    },
   ];
   

@@ -42,6 +42,7 @@ export default function Login() {
     { "userId": "linguafranca97", "password": "CavaToi9325", "name": "", "trial": false, "type": "french", "next":[] }, //using
     { "userId": "linguafranca101", "password": "DeRien4872", "name": "", "trial": false, "type": "french", "next":[] }, //using
     { "userId": "linguafranca201", "password": "ChatSouris2649", "name": "", "trial": true, "type": "french", "next":[] }, //using
+    { "userId": "linguafranca213", "password": "YeuxVerts1049", "name": "", "trial": true, "type": "french", "next":[] }, //using
     { "userId": "linguafranca107", "password": "AuRevoir7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using
     // { "userId": "quixoticlengua101", "password": "HolaAmigo7324", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua103", "password": "BuenosDias8387", "name": "", "trial": false, "type": "spanish", "next":[] }, //using

@@ -53,7 +53,7 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
     setShowForm(false); // Hide the form without submitting
   };
 
-  // console.log(formData)
+  console.log(formData)
 
   return (
     <div className={styles.formContainer}>
@@ -63,7 +63,7 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
             <div
               key={index}
               className={`${styles.formField} ${
-                heading === 'desc' ? styles.fullWidth : ''
+                heading === 'desc' || heading === 'questions' ? styles.fullWidth : ''
               }`}
             >
               <label htmlFor={heading}>{heading}</label>
@@ -98,7 +98,7 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
                   placeholder={`Enter ${heading}`}
                 />
               ) : heading === 'questions' ? (
-                <QuestionsForm formData={formData} setFormData={setFormData}/>
+                <QuestionsForm PformData={formData} PsetFormData={setFormData}/>
               ) 
               : (
                 <input
