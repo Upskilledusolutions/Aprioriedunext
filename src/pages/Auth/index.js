@@ -68,7 +68,45 @@ export default function Login() {
     { "userId": "sprachmeister201", "password": "GutenAbend8351", "name": "", "trial": false, "type": "germana2", "next":[] },
     {"userId": "linguaitaliana298", "password": "Buonasera9216", "name": "", "trial": false, "type": "italian", "next":[]  },
     {"userId": "ruskiyjazyk473", "password": "DobryyVecher5473", "name": "", "trial": false, "type": "russian", "next":[]  },
-    {"userId": "nederlands729", "password": "Goedenavond8927", "name": "", "trial": false, "type": "dutch", "next":[] }
+    {"userId": "nederlands729", "password": "Goedenavond8927", "name": "", "trial": false, "type": "dutch", "next":[] },
+
+    //New
+    {"userId": "linguafranca223", "password": "SaphirChimere9397", "name": "", "trial": true, "type": "french", "next":[] },
+    {"userId": "linguafranca227", "password": "SereniteLegende8835", "name": "", "trial": true, "type": "french", "next":[] },
+    {"userId": "linguafranca229", "password": "InconnuSaphir2727", "name": "", "trial": true, "type": "french", "next":[] },
+    {"userId": "linguafranca233", "password": "MelancolieSolitude9465", "name": "", "trial": true, "type": "french", "next":[] },
+    {"userId": "linguafranca239", "password": "LegendeInconnu1182", "name": "", "trial": true, "type": "french", "next":[] },
+
+    {"userId": "lumieresaison503", "password": "ReverieChimere5755", "name": "", "trial": true, "type": "frencha2", "next":[] },
+    {"userId": "lumieresaison509", "password": "EmerveillementSaphir6563", "name": "", "trial": true, "type": "frencha2", "next":[] },
+    {"userId": "lumieresaison521", "password": "MelancolieLegende8961", "name": "", "trial": true, "type": "frencha2", "next":[] },
+    {"userId": "lumieresaison523", "password": "LegendeChimere7679", "name": "", "trial": true, "type": "frencha2", "next":[] },
+    {"userId": "lumieresaison541", "password": "SaphirElegance8028", "name": "", "trial": true, "type": "frencha2", "next":[] },
+
+    {"userId": "quixoticlengua241", "password": "BrisaLenta1480", "name": "", "trial": true, "type": "spanish", "next":[] },
+    {"userId": "quixoticlengua251", "password": "CieloAzul9631", "name": "", "trial": true, "type": "spanish", "next":[] },
+    {"userId": "quixoticlengua257", "password": "EdificioAlto5917", "name": "", "trial": true, "type": "spanish", "next":[] },
+    {"userId": "quixoticlengua263", "password": "PequenoError2604", "name": "", "trial": true, "type": "spanish", "next":[] },
+    {"userId": "quixoticlengua269", "password": "DiaNoche5913", "name": "", "trial": true, "type": "spanish", "next":[] },
+
+    {"userId": "valleestudiar547", "password": "BuenasNoches4819", "name": "", "trial": true, "type": "spanisha2", "next":[] },
+    {"userId": "valleestudiar557", "password": "LuzBlanca5825", "name": "", "trial": true, "type": "spanisha2", "next":[] },
+    {"userId": "valleestudiar563", "password": "RioqueFluye2739", "name": "", "trial": true, "type": "spanisha2", "next":[] },
+    {"userId": "valleestudiar569", "password": "VarillaMetalica1480", "name": "", "trial": true, "type": "spanisha2", "next":[] },
+    {"userId": "valleestudiar571", "password": "CadenaDeoro3816", "name": "", "trial": true, "type": "spanisha2", "next":[] },
+
+    {"userId": "sprachmeister271", "password": "KleinerFehler9265", "name": "", "trial": true, "type": "german", "next":[] },
+    {"userId": "sprachmeister277", "password": "WeibesLicht7823", "name": "", "trial": true, "type": "german", "next":[] },
+    {"userId": "sprachmeister281", "password": "FliebenderFluss4916", "name": "", "trial": true, "type": "german", "next":[] },
+    {"userId": "sprachmeister283", "password": "TagNacht4816", "name": "", "trial": true, "type": "german", "next":[] },
+    {"userId": "sprachmeister293", "password": "GutenAbend0619", "name": "", "trial": true, "type": "german", "next":[] },
+
+    {"userId": "stellungvor577", "password": "LangsameBrise6825", "name": "", "trial": true, "type": "germana2", "next":[] },
+    {"userId": "stellungvor587", "password": "BlauerHimmel1693", "name": "", "trial": true, "type": "germana2", "next":[] },
+    {"userId": "stellungvor593", "password": "HohesGebaude5915", "name": "", "trial": true, "type": "germana2", "next":[] },
+    {"userId": "stellungvor599", "password": "MetallStab6926", "name": "", "trial": true, "type": "germana2", "next":[] },
+    {"userId": "stellungvor601", "password": "GoldKette5729", "name": "", "trial": true, "type": "germana2", "next":[] },
+
   ];
 
   const handleSubmit = (e) => {
