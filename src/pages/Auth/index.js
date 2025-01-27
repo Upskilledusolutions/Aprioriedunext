@@ -71,7 +71,7 @@ export default function Login() {
     {"userId": "nederlands729", "password": "Goedenavond8927", "name": "", "trial": false, "type": "dutch", "next":[] },
 
     //New
-    {"userId": "linguafranca223", "password": "SaphirChimere9397", "name": "", "trial": true, "type": "french", "next":[] },
+    {"userId": "linguafranca223", "password": "SaphirChimere9397", "name": "", "trial": true, "type": "french", "next":[] }, //using
     {"userId": "linguafranca227", "password": "SereniteLegende8835", "name": "", "trial": true, "type": "french", "next":[] },
     {"userId": "linguafranca229", "password": "InconnuSaphir2727", "name": "", "trial": true, "type": "french", "next":[] },
     {"userId": "linguafranca233", "password": "MelancolieSolitude9465", "name": "", "trial": true, "type": "french", "next":[] },

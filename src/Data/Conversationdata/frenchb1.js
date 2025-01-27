@@ -132,6 +132,13 @@ export const youdata = [
     title: "French Conversation 19 (B1)",
     desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
   },
+  {
+    id: '20',
+    url: "/youtube/FrCB120.png",
+    youtube: "https://www.youtube.com/embed/Y_q_RBwKaZo?si=Pb7PPoHeshwACuiX",
+    title: "French Conversation 20 (B1)",
+    desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+  },
   ];
   
   

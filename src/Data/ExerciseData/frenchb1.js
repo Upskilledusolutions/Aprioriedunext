@@ -3219,4 +3219,1140 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '18',
+      name: 'French Exercise - 18 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which of the following is a French literary movement?",
+          "choices": ["Realism", "Surrealism", "Romanticism", "All of the above"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Who is the author of 'Le Rouge et le Noir'?",
+          "choices": ["Gustave Flaubert", "Stendhal", "Victor Hugo", "Emile Zola"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'la métaphore' refer to?",
+          "choices": [
+            "A comparison using 'comme'",
+            "An exaggerated statement",
+            "A direct comparison without 'like' or 'as'",
+            "A repetition of consonant sounds"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Who wrote 'La Peste'?",
+          "choices": ["Albert Camus", "Jean-Paul Sartre", "Paul Valéry", "Voltaire"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following is a characteristic of the French Realist movement?",
+          "choices": [
+            "Idealized characters",
+            "Focus on nature and emotion",
+            "Depiction of ordinary, everyday life",
+            "Use of supernatural elements"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Who wrote 'Les Fleurs du mal'?",
+          "choices": ["Paul Verlaine", "Arthur Rimbaud", "Charles Baudelaire", "Guillaume Apollinaire"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of these is the main genre of 'Les Misérables'?",
+          "choices": ["Poetry", "Drama", "Historical novel", "Science fiction"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the French word for 'symbolism' in literary terms?",
+          "choices": ["Surréalisme", "Symbolisme", "Réalisme", "Romantisme"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which author is associated with the existentialist movement in literature?",
+          "choices": ["Camus", "Hugo", "Flaubert", "Balzac"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following literary terms refers to the central character of a story?",
+          "choices": ["Antagonist", "Protagonist", "Narrator", "Foil"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is NOT a literary figure from the French Renaissance?",
+          "choices": ["François Rabelais", "Michel de Montaigne", "Pierre Corneille", "Jean de La Fontaine"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'la personnification' refer to in French literature?",
+          "choices": [
+            "Giving human traits to non-human entities",
+            "Comparing two things",
+            "Using irony",
+            "Writing in first-person"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Who is the author of 'Madame Bovary'?",
+          "choices": ["Honoré de Balzac", "Gustave Flaubert", "Marcel Proust", "Albert Camus"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is 'le réalisme' in literature?",
+          "choices": [
+            "A style focused on idealism and fantasy",
+            "A style that emphasizes realistic portrayals of ordinary life",
+            "A type of romantic writing",
+            "A movement focused on political propaganda"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is 'l'ironie' in literature?",
+          "choices": [
+            "The use of excessive flattery",
+            "A statement that means the opposite of what it says",
+            "The repetitive use of sounds",
+            "A genre of poetry"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is a theme in 'Les Misérables'?",
+          "choices": ["The power of love", "Social justice and poverty", "The triumph of nature", "The futility of war"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is 'le flash-back' in a narrative?",
+          "choices": ["A description of the future", "A look into past events", "A sudden change in location", "A repetition of the main theme"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which French literary period followed the Enlightenment?",
+          "choices": ["Romanticism", "Realism", "Renaissance", "Baroque"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "In the phrase 'Il a dit qu'il viendrait', what is 'qu'il viendrait'?",
+          "choices": ["Reported speech", "Indirect speech", "Direct speech", "Conditional statement"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following is a prominent feature of French classical literature?",
+          "choices": [
+            "Free verse poetry",
+            "Strict adherence to form and reason",
+            "Use of surreal elements",
+            "Emphasis on individualism"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Il a dit, 'Je vais à la bibliothèque.' → Il a dit qu'il ______ (was going) à la bibliothèque.",
+          "choices": ["allait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un ______ (novel) est un genre littéraire qui raconte une histoire fictive, souvent avec des éléments surnaturels.",
+          "choices": ["roman"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'auteur de 'Les Misérables' est Victor ______.",
+          "choices": ["Hugo"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marie a dit, 'Je suis fatiguée.' → Marie a dit qu'elle ______ (was) fatiguée.",
+          "choices": ["était"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un ______ (comparison) est une figure de style qui consiste à comparer deux éléments avec 'comme' ou 'tel'.",
+          "choices": ["comparaison"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "'Nous partons demain' → Ils ont dit qu'ils ______ (would leave) demain.",
+          "choices": ["partiraient"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Honoré de ______ est considéré comme le père du réalisme en littérature.",
+          "choices": ["Balzac"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "'Je vais bien', a-t-il dit → Il a dit qu'il ______ (was going) bien.",
+          "choices": ["allait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un ______ (novel) épique est une longue œuvre narrative en prose qui raconte les aventures d’un héros.",
+          "choices": ["roman"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le roman ______ (the) Misérables de Victor Hugo raconte l’histoire de la Révolution française.",
+          "choices": ["Les"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "'Tu viens avec moi ?' → Il m’a demandé si je ______ (was coming) avec lui.",
+          "choices": ["venais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un ______ (subject) est un mot qui désigne l'action ou l'état exprimé par le verbe.",
+          "choices": ["sujet"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Antoine de Saint-______ (Exupéry) est l’auteur de 'Le Petit Prince'.",
+          "choices": ["Exupéry"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "'Je vais à l'école chaque jour' → Il a dit qu'il ______ (was going) à l'école chaque jour.",
+          "choices": ["allait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La ______ (narration) est la manière dont l’auteur présente les événements dans une œuvre littéraire.",
+          "choices": ["narration"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’auteur Paul ______ est connu pour ses œuvres de poésie et de théâtre.",
+          "choices": ["Verlaine"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "'J'ai terminé mes devoirs' → Elle a dit qu'elle ______ (had) terminé ses devoirs.",
+          "choices": ["avait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un ______ (drama) est un récit où l'intrigue se concentre sur les relations entre les personnages.",
+          "choices": ["drame"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Albert ______ est un célèbre écrivain du 20ème siècle, connu pour ses romans sur la condition humaine.",
+          "choices": ["Camus"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "'Je n'ai pas faim' → Elle a dit qu'elle ______ (didn't have) pas faim.",
+          "choices": ["n'avait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je vais au marché.", "rightId": 1 },
+              "right": { "word": "He said it was raining today.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous avons terminé nos devoirs.", "rightId": 2 },
+              "right": { "word": "He said that he was going to the market.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Elle a vu ce film.", "rightId": 3 },
+              "right": { "word": "They said they had finished their homework.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Il pleut aujourd'hui.", "rightId": 4 },
+              "right": { "word": "He said he would be at the meeting tomorrow.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je serai à la réunion demain.", "rightId": 5 },
+              "right": { "word": "She said she had seen that movie.", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Une comparaison", "rightId": 1 },
+              "right": { "word": "A direct comparison between two unrelated things without 'like' or 'as.'", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Un antagoniste", "rightId": 2 },
+              "right": { "word": "Giving human traits to non-human things.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Une métaphore", "rightId": 3 },
+              "right": { "word": "The character who opposes the protagonist.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Un climax", "rightId": 4 },
+              "right": { "word": "A comparison between two things using 'like' or 'as.'", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Une personnification	", "rightId": 5 },
+              "right": { "word": "The highest point of tension or drama in a story.", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '19',
+      name: 'French Exercise - 19 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "What is the main cause of global warming?",
+          "choices": [
+            "Solar radiation",
+            "Greenhouse gases",
+            "Wind erosion",
+            "Natural cycles"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following contributes to climate change?",
+          "choices": [
+            "Deforestation",
+            "Planting trees",
+            "Solar power usage",
+            "Reducing waste"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the result of melting ice caps?",
+          "choices": [
+            "Rising sea levels",
+            "Decreased rainfall",
+            "Increased pollution",
+            "Deforestation"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following is a consequence of deforestation?",
+          "choices": [
+            "Reduced biodiversity",
+            "More oxygen",
+            "Less flooding",
+            "More wildlife"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the main greenhouse gas responsible for climate change?",
+          "choices": [
+            "Methane",
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which of the following ecosystems is most affected by climate change?",
+          "choices": [
+            "Desert ecosystems",
+            "Tropical rainforests",
+            "Urban environments",
+            "Tundra"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "What can help reduce global warming?",
+          "choices": [
+            "Using more fossil fuels",
+            "Planting more trees",
+            "Reducing solar energy",
+            "Cutting down more forests"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What happens when the ozone layer is depleted?",
+          "choices": [
+            "More sunlight reaches the Earth",
+            "Water resources increase",
+            "Temperatures decrease",
+            "Fossil fuel emissions are reduced"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following is an example of a natural disaster exacerbated by climate change?",
+          "choices": [
+            "Earthquakes",
+            "Floods",
+            "Volcanoes",
+            "Tornadoes"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How does pollution affect wildlife?",
+          "choices": [
+            "It provides them with better habitats",
+            "It leads to habitat loss and health issues",
+            "It increases food availability",
+            "It encourages migration"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the subjunctive form of 'être' for 'nous'?",
+          "choices": [
+            "soyons",
+            "sois",
+            "soit",
+            "êtes"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence uses the subjunctive correctly?",
+          "choices": [
+            "Il est possible que je suis fatigué.",
+            "Il est dommage que tu es tard.",
+            "Il faut qu’ils partent.",
+            "Je doute qu’elle mange."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'Il est important que' express?",
+          "choices": [
+            "A wish",
+            "An obligation",
+            "A doubt",
+            "An emotion"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which is the correct use of the subjunctive after 'bien que'?",
+          "choices": [
+            "Bien que je suis malade, je vais au travail.",
+            "Bien que je sois malade, je vais au travail.",
+            "Bien que je malade, je vais au travail.",
+            "Bien que je suis, je vais au travail."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you express doubt with 'douter que'?",
+          "choices": [
+            "Je doute que vous comprenez.",
+            "Je doute que vous comprendrez.",
+            "Je doute que vous comprenez.",
+            "Je doute que vous compreniez."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which sentence is correct using the subjunctive?",
+          "choices": [
+            "Je veux que tu es heureux.",
+            "Je veux que tu sois heureux.",
+            "Je veux que tu heureux.",
+            "Je veux que tu es."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which verb form completes the sentence 'Je suis désolé que vous __________ à la réunion'?",
+          "choices": [
+            "êtes",
+            "soyez",
+            "être",
+            "sois"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the subjunctive of 'avoir' for 'ils'?",
+          "choices": [
+            "aient",
+            "ont",
+            "aie",
+            "avait"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What emotion does 'Il est triste que' express?",
+          "choices": [
+            "Happiness",
+            "Surprise",
+            "Regret",
+            "Sadness"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which sentence expresses an emotion in the subjunctive?",
+          "choices": [
+            "Il est important que vous êtes à l’heure.",
+            "Il est nécessaire que nous soyons à l’heure.",
+            "Je crois qu’ils arrivent.",
+            "Elle pense que tu fais un bon travail."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Il est important que tu ______ (être) à l’heure.",
+          "choices": ["sois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je doute qu’il ______ (savoir) la vérité.",
+          "choices": ["sache"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il faut que nous ______ (partir) avant midi.",
+          "choices": ["partions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je suis content que vous ______ (venir) me voir.",
+          "choices": ["veniez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ne pense pas qu’il ______ (aimer) ce film.",
+          "choices": ["aime"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est triste que son ami ______ (partir).",
+          "choices": ["parte"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je suis surpris qu’ils ______ (avoir) autant de travail.",
+          "choices": ["aient"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est nécessaire que nous ______ (faire) attention.",
+          "choices": ["fassions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons peur qu’il ______ (tomber) malade.",
+          "choices": ["tombe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle veut que je ______ (choisir) un autre film.",
+          "choices": ["choisisse"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le réchauffement ______ (climatic) est une question importante.",
+          "choices": ["climatique"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les ______ (glaciers) sont en train de fondre à cause du réchauffement climatique.",
+          "choices": ["glaciers"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’ ______ (extinction) de la nature est une menace pour les écosystèmes.",
+          "choices": ["extinction"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est crucial de protéger la ______ (biodiversity) pour les générations futures.",
+          "choices": ["biodiversité"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les ______ (broadcasts) de dioxyde de carbone contribuent au réchauffement climatique.",
+          "choices": ["émissions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "De nombreux animaux sont ______ (threatened) à cause du changement climatique.",
+          "choices": ["menacés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La ______ (elevation) mondiale augmente à cause de l’activité humaine.",
+          "choices": ["élévation"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est nécessaire de réduire les ______ (broadcasts) de gaz à effet de serre.",
+          "choices": ["émissions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les ______ (oceans) sont touchées par des conditions météorologiques extrêmes.",
+          "choices": ["océans"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les ______ (disasters) naturelles, telles que les incendies de forêt, sont aggravées par le climat.",
+          "choices": ["catastrophes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il faut que", "rightId": 1 },
+              "right": { "word": "I'm glad that", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Je suis content que", "rightId": 2 },
+              "right": { "word": "It is necessary that", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Il est nécessaire que", "rightId": 3 },
+              "right": { "word": "I doubt that", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Je doute que", "rightId": 4 },
+              "right": { "word": "It is important that", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il est important que", "rightId": 5 },
+              "right": { "word": "It is necessary that", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Réchauffement", "rightId": 1 },
+              "right": { "word": "Biodiversity", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Biodiversité", "rightId": 2 },
+              "right": { "word": "Pollution", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Pollution", "rightId": 3 },
+              "right": { "word": "Forest fires", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Océans", "rightId": 4 },
+              "right": { "word": "Warming", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Incendies de forêt", "rightId": 5 },
+              "right": { "word": "Oceans", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '20',
+      name: 'French Exercise - 20 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "______ est ce que tu utilises pour envoyer des messages instantanés ?",
+          "choices": [
+            "Un clavier",
+            "Une tablette",
+            "Un smartphone",
+            "Un modem"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Le logiciel ______ nous avons téléchargé est très pratique.",
+          "choices": [
+            "que",
+            "qui",
+            "où",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "______ préfères-tu, un iPhone ou un Android ?",
+          "choices": [
+            "Qu'",
+            "Qui",
+            "Où",
+            "Lequel"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "J'ai acheté un appareil ______ permet de faire des vidéos.",
+          "choices": [
+            "que",
+            "qui",
+            "où",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "______ tu utilises pour chercher des informations ?",
+          "choices": [
+            "Le téléphone",
+            "Internet",
+            "Le logiciel",
+            "Une caméra"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le programme ______ nous avons installé ne fonctionne pas.",
+          "choices": [
+            "que",
+            "qui",
+            "où",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il y a une mise à jour ______ tu dois télécharger.",
+          "choices": [
+            "que",
+            "qui",
+            "où",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Voici le téléphone ______ tu as demandé.",
+          "choices": [
+            "que",
+            "dont",
+            "qui",
+            "où"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "C'est l'application ______ je trouve la plus utile.",
+          "choices": [
+            "où",
+            "que",
+            "qui",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "La caméra ______ il a achetée est très haute définition.",
+          "choices": [
+            "qui",
+            "que",
+            "où",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le modem ______ tu as acheté est défectueux.",
+          "choices": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "La tablette ______ il utilise est assez rapide.",
+          "choices": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le portable ______ elle a acheté est très cher.",
+          "choices": [
+            "que",
+            "qui",
+            "où",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ est le site web ______ tu vas souvent ?",
+          "choices": [
+            "Où, que",
+            "Que, qui",
+            "Qu', où",
+            "Où, où"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "L’écran ______ il utilise est très grand.",
+          "choices": [
+            "que",
+            "qui",
+            "dont",
+            "où"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ c’est ce qui est arrivé à ton ordinateur ?",
+          "choices": [
+            "Qui",
+            "Qu'",
+            "Où",
+            "Lequel"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "L'application ______ je télécharge est gratuite.",
+          "choices": [
+            "que",
+            "qui",
+            "où",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Voici la tablette ______ tu peux utiliser pour le travail.",
+          "choices": [
+            "que",
+            "qui",
+            "où",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ sont les avantages de ce logiciel ?",
+          "choices": [
+            "Quels",
+            "Qu'",
+            "Qui",
+            "Que"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ tu vas utiliser pour connecter ton appareil ?",
+          "choices": [
+            "Où",
+            "Qu'",
+            "Lequel",
+            "Qui"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Je connais une personne ______ travaille à Paris.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C'est le livre ______ j'ai acheté hier.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Voilà l'école ______ mon fils étudie.",
+          "choices": ["où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le film ______ nous avons regardé était intéressant.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a une sœur ______ vit à Lyon.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'ai un ami ______ parle trois langues.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La maison ______ nous avons visitée est grande.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'ordinateur ______ je travaille est très rapide.",
+          "choices": ["avec lequel"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le téléphone ______ j'ai perdu est rouge.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C'est la voiture ______ il rêve depuis longtemps.",
+          "choices": ["qu'"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il y a un restaurant ______ la cuisine est délicieuse.",
+          "choices": ["où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Voici l'hôtel ______ nous avons séjourné pendant nos vacances.",
+          "choices": ["où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'application ______ j'utilise tous les jours est très utile.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le projet ______ il a présenté a été bien accueilli.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C'est un logiciel ______ permet de créer des vidéos.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les outils ______ tu as besoin sont dans le coffre.",
+          "choices": ["dont"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le smartphone ______ elle a acheté est dernier modèle.",
+          "choices": ["qu'elle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Voici la bibliothèque ______ j'étudie.",
+          "choices": ["où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'enseignant ______ nous avons rencontré est sympathique.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le site web ______ tu as visité contient beaucoup d'informations.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Un ordinateur", "rightId": 1 },
+              "right": { "word": "Appareil pour la saisie de texte sur un ordinateur", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Un téléphone", "rightId": 2 },
+              "right": { "word": "Appareil électronique pour visionner des vidéos et images", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Une tablette", "rightId": 3 },
+              "right": { "word": "Appareil portable qui permet de prendre des photos", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Une caméra", "rightId": 4 },
+              "right": { "word": "Outil de communication mobile pour passer des appels", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Un clavier", "rightId": 5 },
+              "right": { "word": "Dispositif utilisé pour naviguer sur Internet", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Réchauffement", "rightId": 1 },
+              "right": { "word": "Appareil permettant la connexion à Internet", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Biodiversité", "rightId": 2 },
+              "right": { "word": "Programme permettant d'accomplir des tâches sur un appareil", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Pollution", "rightId": 3 },
+              "right": { "word": "Machine qui permet d'imprimer des documents", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Océans", "rightId": 4 },
+              "right": { "word": "Appareil électronique pour visionner des vidéos et images", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Incendies de forêt", "rightId": 5 },
+              "right": { "word": "Dispositif de pointage pour un ordinateur", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
 ]
