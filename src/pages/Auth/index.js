@@ -32,8 +32,8 @@ export default function Login() {
     { "userId": "linguafranca51", "password": "BonSoir5639", "name": "","trial": true, "type": "french", "next":[] },
     { "userId": "linguafranca53", "password": "BonSoir5829", "name": "", "trial": false, "type": "french", "next":["frencha2", "frenchb1"] }, //using
     // { "userId": "linguafranca59", "password": "MerciBien7339", "name": "", "trial": false, "type": "french", "next":[] },
-    { "userId": "linguafranca61", "password": "SalutTous6274", "name": "", "trial": false, "type": "french", "next":[] },
-    { "userId": "linguafranca67", "password": "CavaBien1948", "name": "", "trial": false, "type": "french", "next":[] },
+    // { "userId": "linguafranca61", "password": "SalutTous6274", "name": "", "trial": false, "type": "french", "next":[] },
+    // { "userId": "linguafranca67", "password": "CavaBien1948", "name": "", "trial": false, "type": "french", "next":[] },
     { "userId": "linguafranca71", "password": "AuRevoir5367", "name": "", "trial": false, "type": "french", "next":[] },
     { "userId": "linguafranca73", "password": "BonneNuit8193", "name": "", "trial": false, "type": "french", "next":[] },
     { "userId": "linguafranca79", "password": "OuiMerci2487", "name": "", "trial": false, "type": "french", "next":[] }, //using
@@ -44,16 +44,17 @@ export default function Login() {
     { "userId": "linguafranca201", "password": "ChatSouris2649", "name": "", "trial": true, "type": "french", "next":[] }, //using
     { "userId": "linguafranca213", "password": "YeuxVerts1049", "name": "", "trial": true, "type": "french", "next":[] }, //using
     { "userId": "linguafranca107", "password": "AuRevoir7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using
+    { "userId": "linguafranca1", "password": "AuInconnu7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using
     // { "userId": "quixoticlengua101", "password": "HolaAmigo7324", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua103", "password": "BuenosDias8387", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
-    { "userId": "quixoticlengua107", "password": "GraciasMucho3145", "name": "", "trial": true, "type": "spanish", "next":[] },
+    // { "userId": "quixoticlengua107", "password": "GraciasMucho3145", "name": "", "trial": true, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua109", "password": "PorFavor29369", "name": "", "trial": false, "type": "spanish", "next":[] }, 
     { "userId": "quixoticlengua113", "password": "AdiosAmigo1137", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua127", "password": "ComoEstas7832", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua191", "password": "HastaLuego5241", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua137", "password": "TeQuiero8974", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua139", "password": "LoSiento6138", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
-    { "userId": "sprachmeister151", "password": "GutenTag2935", "name": "", "trial": false, "type": "german", "next":[] }, 
+    // { "userId": "sprachmeister151", "password": "GutenTag2935", "name": "", "trial": false, "type": "german", "next":[] }, 
     { "userId": "sprachmeister157", "password": "DankeSchon16479", "name": "", "trial": true, "type": "german", "next":[] }, //using
     { "userId": "sprachmeister211", "password": "BitteSehr8271", "name": "", "trial": true, "type": "german", "next":[] }, //using
     { "userId": "sprachmeister167", "password": "WieGehts3149", "name": "", "trial": false, "type": "german", "next":[] },

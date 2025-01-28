@@ -40,6 +40,14 @@ export const cards = [
         link2: 'SpanishReadingAssignment',
       },
       {
+        type: 'spanisha2',
+        heading: 'Spanish Beginner (A2)',
+        text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
+        link: 'SpanishReadingA2',
+        data: 'Spanisha2',
+        link2: 'SpanishReadingAssignmentA2',
+      },
+      {
         type: 'german',
         heading: 'German Beginner (A1)',
         text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',

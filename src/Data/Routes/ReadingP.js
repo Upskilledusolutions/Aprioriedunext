@@ -55,6 +55,15 @@
         code: 'es-ES'
       },
       {
+        type: 'spanishb1',
+        heading: 'Spanish Speaking Practice (B1)',
+        text: 'Dive into the vibrant world of Spanish-speaking countries with this course.',
+        link: 'SpanishReadingB1',
+        data: 'Spanishb1',
+        link2: 'SpanishReadingPageB1',
+        code: 'es-ES'
+      },
+      {
         type: 'germana2',
         heading: 'German Speaking Practice (A2)',
         text: 'Dive into the vibrant world of German-speaking countries with this course.',
