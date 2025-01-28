@@ -55,4 +55,12 @@ export const cards = [
       data: 'Frenchb1',
       link2: 'FrenchWritingPageB1'
     },
+    {
+      type: 'spanishb1',
+      heading: 'Spanish Beginner (B1)',
+      text: 'Master the language of art, culture, and diplomacy with our Spanish Writing Practice.',
+      link: 'SpanishWritingB1',
+      data: 'Spanishb1',
+      link2: 'SpanishWritingPageB1'
+    },
   ];
