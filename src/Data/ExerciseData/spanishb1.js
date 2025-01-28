@@ -317,245 +317,245 @@ export const quiz = [
         
         // 20 MCQs
         {
-            "question": "¿Cómo se dice \"to get dressed\" en español?",
-            "choices": ["acostarse", "vestirse", "levantarse", "ducharse"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué palabra describe a una persona que no dice mentiras?",
-            "choices": ["guapo", "honesto", "flojo", "rápido"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cuál es el adjetivo para \"friendly\" en español?",
-            "choices": ["generoso", "honesto", "amistoso", "alto"],
-            "type": "MCQs",
-            "correctAnswer": 3
-          },
-          {
-            "question": "¿Cómo se dice \"to worry\" en español?",
-            "choices": ["acostarse", "preocuparse", "levantarse", "divertirse"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué adjetivo describe a alguien con cabello rubio?",
-            "choices": ["moreno", "rubio", "delgado", "rápido"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cómo se dice \"caring\" en español?",
-            "choices": ["amistoso", "cariñoso", "trabajador", "bello"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cómo se conjuga el verbo reflexivo ducharse para \"yo\"?",
-            "choices": ["me ducho", "te duchas", "nos duchamos", "se duchan"],
-            "type": "MCQs",
-            "correctAnswer": 1
-          },
-          {
-            "question": "¿Cuál es el antónimo de \"alto\"?",
-            "choices": ["grande", "delgado", "bajo", "guapo"],
-            "type": "MCQs",
-            "correctAnswer": 3
-          },
-          {
-            "question": "¿Cómo se dice \"to have fun\" en español?",
-            "choices": ["divertirse", "acostarse", "vestirse", "quejarse"],
-            "type": "MCQs",
-            "correctAnswer": 1
-          },
-          {
-            "question": "¿Cuál es el adjetivo que describe a una persona que trabaja mucho?",
-            "choices": ["trabajador", "flojo", "bello", "amable"],
-            "type": "MCQs",
-            "correctAnswer": 1
-          },
-          {
-            "question": "¿Qué significa \"preocuparse\"?",
-            "choices": ["to get ready", "to worry", "to get dressed", "to wake up"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cuál es el sinónimo de \"hermoso\"?",
-            "choices": ["amistoso", "bello", "inteligente", "sabio"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué palabra describe a alguien con cabello oscuro?",
-            "choices": ["rubio", "moreno", "bello", "corto"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cómo se conjuga el verbo levantarse para \"ellos\"?",
-            "choices": ["nos levantamos", "se levantan", "te levantas", "me levanto"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué significa \"simpático\"?",
-            "choices": ["smart", "nice", "handsome", "lazy"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cómo se dice \"intelligent\" en español?",
-            "choices": ["honesto", "simpático", "inteligente", "generoso"],
-            "type": "MCQs",
-            "correctAnswer": 3
-          },
-          {
-            "question": "¿Cuál es el opuesto de \"delgado\"?",
-            "choices": ["amistoso", "simpático", "generoso", "gordo"],
-            "type": "MCQs",
-            "correctAnswer": 4
-          },
-          {
-            "question": "¿Qué verbo describe \"to lie down\"?",
-            "choices": ["divertirse", "acostarse", "levantarse", "ducharse"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué palabra describe a alguien muy bueno escuchando?",
-            "choices": ["simpático", "amistoso", "cariñoso", "sabio"],
-            "type": "MCQs",
-            "correctAnswer": 4
-          },
-          {
-            "question": "¿Qué significa \"leal\"?",
-            "choices": ["loyal", "honest", "hard-working", "intelligent"],
-            "type": "MCQs",
-            "correctAnswer": 1
-          },
+          "question": "¿Qué verbo se usa en pretérito imperfecto para expresar hábitos en el pasado?",
+          "choices": ["Comer", "Bailar", "Usar", "Todos los anteriores"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Cuando éramos pequeños, ______ mucho en el parque.",
+          "choices": ["jugábamos", "jugamos", "juegan", "jugábamosos"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mientras él ______ la ropa, yo limpiaba la casa.",
+          "choices": ["plancha", "planchaba", "planché", "planchar"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué hacías cuando ______ niño?",
+          "choices": ["eras", "era", "fuiste", "eres"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mis padres siempre ______ la cena juntos.",
+          "choices": ["cocinaban", "cocinaron", "cocinen", "cocinas"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mientras tú lavabas los platos, ellos ______ música.",
+          "choices": ["escuchabas", "escucharon", "escuchaban", "escuchaste"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Cada mañana, él ______ la cama antes de ir al trabajo.",
+          "choices": ["hacía", "hacía", "hacía", "hacías"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué hacías cuando no ______ luz en casa?",
+          "choices": ["hay", "había", "hubo", "habías"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Mis padres siempre ______ los fines de semana juntos.",
+          "choices": ["pasan", "pasaban", "pasaron", "pasanían"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Mientras tú barrías el suelo, yo ______ los platos.",
+          "choices": ["lavaba", "lavé", "lavabas", "lavaré"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cada tarde, nosotros ______ con nuestros amigos en el parque.",
+          "choices": ["hablábamos", "hablamos", "hablaste", "hablabais"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Antes, mi hermana ______ un diario todos los días.",
+          "choices": ["escribías", "escribía", "escribir", "escribieron"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Mis abuelos ______ temprano y regaban las plantas.",
+          "choices": ["despertaban", "despertaron", "despertabanse", "despertaronse"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cuando mi madre cocinaba, yo siempre ______ la mesa.",
+          "choices": ["ponía", "puse", "ponías", "pondría"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "En la escuela, nosotros ______ canciones en español.",
+          "choices": ["cantábamos", "cantasteis", "cantaron", "cantabas"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tú ______ la ropa mientras yo planchaba las camisas.",
+          "choices": ["lavabas", "lavabas", "lavaste", "lavaron"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cada noche, ellos ______ antes de dormir.",
+          "choices": ["leían", "leen", "leyeron", "leerán"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mientras yo ______ la cena, mi hermano ponía la mesa.",
+          "choices": ["cocinaba", "cocinée", "cocinaré", "cocinaría"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Antes, los niños ______ cartas a sus amigos.",
+          "choices": ["escribían", "escriben", "escribieron", "escribirán"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Durante el verano, nosotros ______ la piscina todos los días.",
+          "choices": ["visitábamos", "visitamos", "visitarán", "visitaste"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
         
         // 20 Fill in the Blanks
   
-        {
-            "question": "Yo siempre ______ (to get up) temprano para ir al trabajo.",
-            "choices": ["levantarse"],
+          {
+            "question": "Cuando era pequeño, mi madre siempre ______ (preparar) el desayuno temprano.",
+            "choices": ["preparaba"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Ellos se ______ (to get dressed) rápidamente para la fiesta.",
-            "choices": ["visten"],
+            "question": "En verano, nosotros ______ (jugar) en el parque todos los días.",
+            "choices": ["jugábamos"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Nosotros nos ______ (to take a shower) después de hacer ejercicio.",
-            "choices": ["duchamos"],
+            "question": "Mientras yo ______ (limpiar) la casa, mi hermano veía la televisión.",
+            "choices": ["limpiaba"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "María se ______ (to comb her hair) antes de salir.",
-            "choices": ["peina"],
+            "question": "Mis abuelos siempre ______ (contar) historias interesantes por la noche.",
+            "choices": ["contaban"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "¿Tú te ______ (to go to bed) temprano los fines de semana?",
-            "choices": ["acuestas"],
+            "question": "Antes de mudarnos, nosotros ______ (vivir) en un apartamento pequeño.",
+            "choices": ["vivíamos"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Me gusta la gente que es ______ (kind).",
-            "choices": ["amable"],
+            "question": "Los niños ______ (leer) cuentos antes de dormir cada noche.",
+            "choices": ["leían"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Juan es muy ______ (intelligent) y resuelve problemas rápidamente.",
-            "choices": ["inteligente"],
+            "question": "Mi padre ______ (cortar) el césped los domingos por la mañana.",
+            "choices": ["cortaba"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "La actriz es ______ (beautiful) y talentosa.",
-            "choices": ["bella"],
+            "question": "Cada tarde, mi madre y yo ______ (cocinar) juntos en la cocina.",
+            "choices": ["cocinábamos"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Mis amigos siempre son ______ (loyal) en cualquier situación.",
-            "choices": ["leales"],
+            "question": "¿Qué ______ (hacer) tú cuando empezó la tormenta?",
+            "choices": ["hacías"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Él tiene el cabello ______ (short) y ojos verdes.",
-            "choices": ["corto"],
+            "question": "Siempre ______ (poner, nosotros) música mientras limpiábamos.",
+            "choices": ["poníamos"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Tú siempre te ______ (to worry) por los exámenes, ¿verdad?",
-            "choices": ["preocupas"],
+            "question": "Cuando era joven, yo no ______ (tener) quehaceres en casa.",
+            "choices": ["tenía"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Nosotros nos ______ (to have fun) mucho en las vacaciones.",
-            "choices": ["divertimos"],
+            "question": "Mis amigos ______ (escribir) cartas en lugar de enviar mensajes de texto.",
+            "choices": ["escribían"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Cuando está cansado, él se ______ (to go to bed) temprano.",
-            "choices": ["acuesta"],
+            "question": "Todos los días, mi abuela ______ (regar) las plantas del jardín.",
+            "choices": ["regaba"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Mi abuela es muy ______ (wise) y siempre da buenos consejos.",
-            "choices": ["sabia"],
+            "question": "Nosotros ______ (hacer) los deberes antes de cenar.",
+            "choices": ["hacíamos"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Mi primo es ______ (tall) y delgado.",
-            "choices": ["alto"],
+            "question": "Tú siempre ______ (sacar) la basura después de la cena.",
+            "choices": ["sacabas"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Yo no me ______ (to remember) de dónde dejé las llaves.",
-            "choices": ["acuerdo"],
+            "question": "Mientras mi hermana ______ (planchar) la ropa, yo barría el suelo.",
+            "choices": ["planchaba"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Ellos se ______ (to complain) del tráfico todos los días.",
-            "choices": ["quejan"],
+            "question": "Ellos ______ (lavar) los platos después de cada comida.",
+            "choices": ["lavaban"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "La clase ______ (to start) a las ocho en punto.",
-            "choices": ["comienza"],
+            "question": "Mi abuelo ______ (arreglar) su bicicleta los fines de semana.",
+            "choices": ["arreglaba"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Nosotros ______ (to be) responsables en nuestro trabajo.",
-            "choices": ["somos"],
+            "question": "Cada mañana, yo ______ (lavarse) los dientes antes de desayunar.",
+            "choices": ["me lavaba"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
           {
-            "question": "Tú te ______ (to feel) mejor después de hablar con tu amigo.",
-            "choices": ["sientes"],
+            "question": "En el pasado, mi familia ______ (pasar) las vacaciones en la playa.",
+            "choices": ["pasábamos"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
@@ -565,24 +565,24 @@ export const quiz = [
           "type": "MatchTheFollowing",
           "pairs": [
             {
-              "left": { "word": "Simpático", "rightId": 1 },
-              "right": { "word": "Honest", "rightId": 5 }
+              "left": { "word": "Preparar el desayuno", "rightId": 1 },
+              "right": { "word": "Fix the car", "rightId": 4 }
             },
             {
-              "left": { "word": "Cómico", "rightId": 2 },
-              "right": { "word": "Generous", "rightId": 3 }
+              "left": { "word": "Limpiar la casa", "rightId": 2 },
+              "right": { "word": "Wash the dishes", "rightId": 3 }
             },
             {
-              "left": { "word": "Generoso", "rightId": 3 },
-              "right": { "word": "Handsome", "rightId": 4 }
+              "left": { "word": "Lavar los platos", "rightId": 3 },
+              "right": { "word": "Make the bed", "rightId": 5 }
             },
             {
-              "left": { "word": "Guapo", "rightId": 4 },
-              "right": { "word": "Friendly", "rightId": 1 }
+              "left": { "word": "Arreglar el coche", "rightId": 4 },
+              "right": { "word": "Prepare breakfast", "rightId": 1 }
             },
             {
-              "left": { "word": "Honesto", "rightId": 5 },
-              "right": { "word": "Funny", "rightId": 2 }
+              "left": { "word": "Hacer la cama", "rightId": 5 },
+              "right": { "word": "Clean the house", "rightId": 2 }
             },
            
           ]
@@ -593,24 +593,333 @@ export const quiz = [
           "pairs": [
             
             {
-              "left": { "word": "Delgado", "rightId": 6 },
-              "right": { "word": "Friendly", "rightId": 7 }
+              "left": { "word": "Lavar la ropa", "rightId": 6 },
+              "right": { "word": "Sew on a button", "rightId": 9 }
             },
             {
-              "left": { "word": "Amistoso", "rightId": 7 },
-              "right": { "word": "Hard-working", "rightId": 8 }
+              "left": { "word": "Regar las plantas", "rightId": 7 },
+              "right": { "word": "Take out the trash", "rightId": 8 }
             },
             {
-              "left": { "word": "Trabajador", "rightId": 8 },
-              "right": { "word": "Intelligent", "rightId": 9 }
+              "left": { "word": "Sacar la basura", "rightId": 8 },
+              "right": { "word": "Water the plants", "rightId": 7 }
             },
             {
-              "left": { "word": "Inteligente", "rightId": 9 },
-              "right": { "word": "Caring", "rightId": 10 }
+              "left": { "word": "Coser un botón", "rightId": 9 },
+              "right": { "word": "Turn on the light", "rightId": 10 }
             },
             {
-              "left": { "word": "Cariñoso", "rightId": 10 },
-              "right": { "word": "Slim", "rightId": 6 }
+              "left": { "word": "Encender la luz", "rightId": 10 },
+              "right": { "word": "Wash clothes", "rightId": 6 }
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+      quiz: '3',
+      name: 'Spanish Exercise - 3 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        
+        // 20 MCQs
+        {
+          "question": "¿Cuál de las siguientes frases es correcta en pretérito?",
+          "choices": ["Cuando era niño, jugaba mucho.", "Ayer jugué con mis amigos.", "Siempre jugaba en el parque.", "Cada vez que jugaba, me caía."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué medio de transporte es más común para viajar entre ciudades?",
+          "choices": ["Bicicleta", "Autobús", "Avión", "Tren"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "¿Qué verbo es incorrecto en pretérito?",
+          "choices": ["Comí", "Escribí", "Vivía", "Hablé"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Cuando viajas, ¿qué necesitas para poder entrar a otro país?",
+          "choices": ["La visa", "El boleto de avión", "El pasaporte", "Un libro"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Cuál de las siguientes frases está en imperfecto?",
+          "choices": ["Fuimos al cine.", "Estábamos en la fiesta.", "Compramos boletos.", "Vi una película."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Durante las vacaciones, ¿dónde solemos ir la mayoría de las personas?",
+          "choices": ["A la montaña", "Al trabajo", "A la escuela", "A la iglesia"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué tipo de vacaciones prefieres, las vacaciones de verano o las de invierno?",
+          "choices": ["Las de invierno, porque me gusta el frío.", "Las de verano, porque me encanta la playa.", "No me gusta viajar.", "Me gusta viajar todo el año."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué significa el verbo \"ir\" en pretérito?",
+          "choices": ["Iba", "Fui", "Voy", "Irá"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué actividad puedes hacer en la playa?",
+          "choices": ["Nadar", "Esquiar", "Montar a caballo", "Subir montañas"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué necesitas para viajar a un país extranjero?",
+          "choices": ["Una mochila", "Un teléfono móvil", "Un pasaporte", "Un sombrero"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Si viajas en tren, ¿qué debes tener?",
+          "choices": ["Un billete de tren", "Un billete de avión", "Un coche", "Un mapa"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál es el medio de transporte más rápido para viajar entre países?",
+          "choices": ["Barco", "Tren", "Avión", "Autobús"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Qué tiempo verbal usas para describir una acción habitual en el pasado?",
+          "choices": ["Pretérito", "Imperfecto", "Futuro", "Subjuntivo"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Durante las vacaciones, muchas personas prefieren:",
+          "choices": ["Quedarse en casa", "Trabajar", "Ir a la playa", "Dormir"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Qué forma verbal de pretérito es correcta?",
+          "choices": ["Jugué", "Jugaba", "Jugando", "Jugaré"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "En un hotel, para ir de un piso a otro, necesitas:",
+          "choices": ["Un mapa", "Una llave", "Un teléfono", "Un ascensor"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué actividad suele hacerse en la montaña?",
+          "choices": ["Nadar", "Esquiar", "Comer en un restaurante", "Visitar museos"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "El verbo \"viajar\" en imperfecto se conjuga como:",
+          "choices": ["Viajaba", "Viajaré", "Viajé", "Viajo"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vas a un país extranjero, es importante tener:",
+          "choices": ["El billete de tren", "El pasaporte", "La mochila", "El billete de avión"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de las siguientes actividades es típica en las vacaciones de invierno?",
+          "choices": ["Nadar", "Esquiar", "Comer helados", "Ir a la playa"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        
+        // 20 Fill in the Blanks
+  
+          {
+            "question": "El año pasado, yo ______ (viajar) a Madrid con mis amigos.",
+            "choices": ["viajé"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Cuando era niño, siempre ______ (ir) al parque después de la escuela.",
+            "choices": ["iba"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ellos ______ (comer) en un restaurante cuando empezó a llover.",
+            "choices": ["comían"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ayer, nosotros ______ (hacer) una excursión por la ciudad.",
+            "choices": ["hicimos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Cuando ella era pequeña, ______ (vivir) en un pueblo cerca del mar.",
+            "choices": ["vivía"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Nosotros ______ (pasar) unas vacaciones increíbles en la playa el verano pasado.",
+            "choices": ["pasamos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mientras nosotros ______ (esperar) el autobús, comenzó a nevar.",
+            "choices": ["esperábamos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El martes pasado, Juan ______ (tomar) un vuelo a Barcelona.",
+            "choices": ["tomó"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Durante las vacaciones de Navidad, nosotros ______ (ir) a visitar a nuestros abuelos.",
+            "choices": ["fuimos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Cada verano, mi familia y yo ______ (ir) a la montaña para hacer senderismo.",
+            "choices": ["íbamos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El mes pasado, yo ______ (comprar) un boleto de tren para ir a Sevilla.",
+            "choices": ["compré"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "En las vacaciones, mis amigos y yo ______ (salir) de fiesta hasta tarde.",
+            "choices": ["salimos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Cuando nosotros ______ (llegar) al aeropuerto, ya estaba lloviendo.",
+            "choices": ["llegamos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mientras tú ______ (leer) un libro, yo veía una película.",
+            "choices": ["leías"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "De niño, yo ______ (ir) al cine cada fin de semana.",
+            "choices": ["iba"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Hace un mes, nosotros ______ (hacer) una reserva en un hotel en París.",
+            "choices": ["hicimos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Cada vez que yo ______ (viajar) a México, me encantaba probar la comida típica.",
+            "choices": ["viajaba"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Cuando fuimos a la playa, mi hermano ______ (nadar) todo el día.",
+            "choices": ["nadó"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mientras ellos ______ (caminar) por el sendero, vieron un ciervo.",
+            "choices": ["caminaban"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Cuando ______ (ser) jóvenes, viajábamos mucho por Europa.",
+            "choices": ["éramos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+  
+        {
+          "question": "Empareja las palabras singulares y plurales.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "el preterito perfecto", "rightId": 1 },
+              "right": { "word": "imperfect", "rightId": 2 }
+            },
+            {
+              "left": { "word": "el imperfecto", "rightId": 2 },
+              "right": { "word": "Travel by plane", "rightId": 3 }
+            },
+            {
+              "left": { "word": "viajar en avión", "rightId": 3 },
+              "right": { "word": "Take an excursion", "rightId": 5 }
+            },
+            {
+              "left": { "word": "ir a la playa", "rightId": 4 },
+              "right": { "word": "past perfect", "rightId": 1 }
+            },
+            {
+              "left": { "word": "hacer una excursión", "rightId": 5 },
+              "right": { "word": "go to the beach", "rightId": 4 }
+            },
+           
+          ]
+        },
+        {
+          "question": "Empareja las palabras singulares y plurales.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            
+            {
+              "left": { "word": "el pasaporte", "rightId": 6 },
+              "right": { "word": "winter holidays", "rightId": 10 }
+            },
+            {
+              "left": { "word": "tomar un tren", "rightId": 7 },
+              "right": { "word": "travel by road", "rightId": 8 }
+            },
+            {
+              "left": { "word": "viajar por carretera", "rightId": 8 },
+              "right": { "word": "summer vacation", "rightId": 9 }
+            },
+            {
+              "left": { "word": "las vacaciones de verano", "rightId": 9 },
+              "right": { "word": "take a train", "rightId": 7 }
+            },
+            {
+              "left": { "word": "las vacaciones de invierno", "rightId": 10 },
+              "right": { "word": "passport", "rightId": 6 }
             }
           ]
         }
