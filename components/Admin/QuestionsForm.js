@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from '@/styles/RightSide.module.css'
 
-function MCQ({ index, updateData }) {
+function MCQ({ index, updateData, predataMCQ }) {
   const [choices, setChoices] = useState(['', '', '', '']);
 
   const handleInputChange = (e) => {
@@ -23,6 +23,7 @@ function MCQ({ index, updateData }) {
         name="question"
         className={styles.input}
         placeholder="Question"
+        value={predataMCQ[index]?.question}
         onChange={handleInputChange}
       />
       <div className={styles.choices}>
@@ -31,7 +32,7 @@ function MCQ({ index, updateData }) {
             key={i}
             className={styles.choiceInput}
             placeholder={`Choice ${i + 1}`}
-            value={choice}
+            value={predataMCQ[index]?.choices[i] || choice}
             onChange={(e) => handleChoiceChange(i, e.target.value)}
           />
         ))}
@@ -40,13 +41,14 @@ function MCQ({ index, updateData }) {
         name="correctAnswer"
         className={styles.input}
         placeholder="Correct Answer"
+        value={predataMCQ[index]?.correctAnswer}
         onChange={handleInputChange}
       />
     </div>
   );
 }
 
-function FillInTheBlanks({ index, updateData }) {
+function FillInTheBlanks({ index, updateData, predataFB }) {
   const [choices, setChoices] = useState(['']);
 
   const handleInputChange = (e) => {
@@ -68,6 +70,7 @@ function FillInTheBlanks({ index, updateData }) {
         name="question"
         className={styles.input}
         placeholder="Question"
+        value={predataFB[index]?.question}
         onChange={handleInputChange}
       />
       <div className={styles.choices}>
@@ -76,7 +79,7 @@ function FillInTheBlanks({ index, updateData }) {
             key={i}
             className={styles.choiceInput}
             placeholder={`Answer`}
-            value={choice}
+            value={predataFB[index]?.choices[i] || choice}
             onChange={(e) => handleChoiceChange(i, e.target.value)}
           />
         ))}
@@ -91,13 +94,13 @@ function FillInTheBlanks({ index, updateData }) {
   );
 }
 
-function Match({ index, updateData }) {
+function Match({ index, updateData, predataMTF }) {
   const [pairs, setPairs] = useState([
-    { left: { word: "", rightId: "1" }, right: { word: "", rightId: "" } },
-    { left: { word: "", rightId: "2" }, right: { word: "", rightId: "" } },
-    { left: { word: "", rightId: "3" }, right: { word: "", rightId: "" } },
-    { left: { word: "", rightId: "4" }, right: { word: "", rightId: "" } },
-    { left: { word: "", rightId: "5" }, right: { word: "", rightId: "" } },
+    { left: { word: predataMTF[index]?.pairs[0]?.left?.word || "", rightId: predataMTF[index]?.pairs[0]?.left?.rightId || "" }, right: { word: predataMTF[index]?.pairs[0]?.right?.word || "", rightId: predataMTF[index]?.pairs[0]?.right?.rightId || "" } },
+    { left: { word: predataMTF[index]?.pairs[1]?.left?.word || "", rightId: predataMTF[index]?.pairs[1]?.left?.rightId || "" }, right: { word: predataMTF[index]?.pairs[1]?.right?.word || "", rightId: predataMTF[index]?.pairs[1]?.right?.rightId || "" } },
+    { left: { word: predataMTF[index]?.pairs[2]?.left?.word || "", rightId: predataMTF[index]?.pairs[2]?.left?.rightId || "" }, right: { word: predataMTF[index]?.pairs[2]?.right?.word || "", rightId: predataMTF[index]?.pairs[2]?.right?.rightId || "" } },
+    { left: { word: predataMTF[index]?.pairs[3]?.left?.word || "", rightId: predataMTF[index]?.pairs[3]?.left?.rightId || "" }, right: { word: predataMTF[index]?.pairs[3]?.right?.word || "", rightId: predataMTF[index]?.pairs[3]?.right?.rightId || "" } },
+    { left: { word: predataMTF[index]?.pairs[4]?.left?.word || "", rightId: predataMTF[index]?.pairs[4]?.left?.rightId || "" }, right: { word: predataMTF[index]?.pairs[4]?.right?.word || "", rightId: predataMTF[index]?.pairs[4]?.right?.rightId || "" } },
   ]);
 
   const handleInputChange = (rowIndex, field, side, value) => {
@@ -145,8 +148,17 @@ function Match({ index, updateData }) {
 export default function QuestionsForm({PformData, PsetFormData}) {
   const [formData, setFormData] = useState({ mcqs: [], blanks: [], matches: [] });
   const [componentsCount, setComponentsCount] = useState({ mcqs: 10, blanks: 10, matches: 1 });
+  const predataMCQ = PformData.questions.filter((data) => data.type === "MCQs");
+  const predataFB = PformData.questions.filter((data) => data.type === "FillInTheBlanks");
+  const predataMTF = PformData.questions.filter((data) => data.type === "MatchTheFollowing");
 
-  console.log(PformData)
+  useEffect(() => {
+    setComponentsCount({
+      mcqs: predataMCQ.length || 10,
+      blanks: predataFB.length || 10,
+      matches: predataMTF.length || 1,
+    });
+  }, [PformData]); // Recalculate whenever PformData changes
 
   const updateMCQData = (index, data) => {
     const newMCQs = [...formData.mcqs];
@@ -181,17 +193,17 @@ export default function QuestionsForm({PformData, PsetFormData}) {
     <div>
       <div className={styles.flex5}>
       {[...Array(componentsCount.mcqs)].map((_, i) => (
-        <MCQ className={styles.flexitms} key={`mcq-${i}`} index={i} updateData={updateMCQData} />
+        <MCQ className={styles.flexitms} key={`mcq-${i}`} predataMCQ={predataMCQ} index={i} updateData={updateMCQData} />
       ))}
       </div>
       <div className={styles.flex5}>
       {[...Array(componentsCount.blanks)].map((_, i) => (
-        <FillInTheBlanks key={`blank-${i}`} index={i} updateData={updateBlankData} />
+        <FillInTheBlanks key={`blank-${i}`} index={i} predataFB={predataFB} updateData={updateBlankData} />
       ))}
       </div>
       <div className={styles.flex5}>
       {[...Array(componentsCount.matches)].map((_, i) => (
-        <Match key={`match-${i}`} index={i} updateData={updateMatchData} />
+        <Match key={`match-${i}`} index={i} predataMTF={predataMTF} updateData={updateMatchData} />
       ))}
       </div>
       <button className={styles.submitButton} onClick={addMoreComponents}>Add More Components</button>

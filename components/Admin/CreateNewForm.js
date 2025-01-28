@@ -4,8 +4,9 @@ import QuestionsForm from './QuestionsForm';
 
 const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm, initialData, isCreatingNew }) => {
   const [formData, setFormData] = useState({questions: []});
-  const [questions, setQuestions] = useState([])
   const [loading, setLoading] = useState(false); // For submission state
+
+  console.log(formData)
 
   useEffect(() => {
     if (isCreatingNew) {
@@ -52,8 +53,6 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
   const handleCancel = () => {
     setShowForm(false); // Hide the form without submitting
   };
-
-  console.log(formData)
 
   return (
     <div className={styles.formContainer}>

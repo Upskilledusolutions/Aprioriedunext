@@ -19,6 +19,7 @@ export const data = [{
     name:'French Lesson 3 (B1)',
     level:'Intermediate',
     pdf:'https://drive.google.com/file/d/1TKfz9jEjqyH-a5jFSH1Q3JrRhXZJF7O5/preview',
+    video:'https://www.youtube.com/embed/5vz_6_wbBXo?si=lilK1d03Uszp0rrL',
     desc:'French Foundation Lesson 3 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
