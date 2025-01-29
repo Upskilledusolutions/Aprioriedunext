@@ -6,8 +6,6 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
   const [formData, setFormData] = useState({questions: []});
   const [loading, setLoading] = useState(false); // For submission state
 
-  console.log(formData)
-
   useEffect(() => {
     if (isCreatingNew) {
       setFormData({ questions: [] }); // Clear formData for a new entry
@@ -62,7 +60,7 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
             <div
               key={index}
               className={`${styles.formField} ${
-                heading === 'desc' || heading === 'questions' ? styles.fullWidth : ''
+                heading === 'desc' || heading === 'questions' || heading === 'readingText' ? styles.fullWidth : ''
               }`}
             >
               <label htmlFor={heading}>{heading}</label>
@@ -77,7 +75,7 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
                   className={styles.smallInput}
                   required
                 />
-              ) : heading === 'desc' ? (
+              ) : heading === 'desc' || heading === 'readingText' ? (
                 <textarea
                   id={heading}
                   name={heading}
@@ -97,7 +95,7 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
                   placeholder={`Enter ${heading}`}
                 />
               ) : heading === 'questions' ? (
-                <QuestionsForm PformData={formData} PsetFormData={setFormData}/>
+                <QuestionsForm PformData={formData} PsetFormData={setFormData} section={section} isCreatingNew={isCreatingNew}/>
               ) 
               : (
                 <input

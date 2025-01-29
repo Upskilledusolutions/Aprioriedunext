@@ -80,6 +80,14 @@ export const cards = [
       link2: 'GermanlessonA2'
     },
     {
+      type: 'germanb1',
+      heading: 'German Beginner (B1)',
+      text: 'Navigate both casual and formal language settings of Germany with this course.',
+      link: 'GermanlessonsB1',
+      data: 'germanb1',
+      link2: 'GermanlessonB1'
+    },
+    {
       type: 'germanc1',
       heading: 'German Advanced (C1)',
       text: 'Navigate both casual and formal language settings of Germany with this course.',

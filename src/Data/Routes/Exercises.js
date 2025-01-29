@@ -79,6 +79,15 @@ export const cards = [
       subject: 'GermanA2'
     },
     {
+      type: 'germanb1',
+      heading: 'German Beginner (B1)',
+      text: 'Navigate both casual and formal language settings of Germany with this exercise.',
+      link: 'GermanExercisesB1',
+      data:'germanb1',
+      link2: 'GermanExerciseB1',
+      subject: 'GermanB1'
+    },
+    {
       type: 'germanc1',
       heading: 'German Advanced (C1)',
       text: 'Navigate both casual and formal language settings of Germany with this exercise.',

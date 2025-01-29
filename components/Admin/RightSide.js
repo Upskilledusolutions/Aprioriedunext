@@ -22,8 +22,8 @@ export default function RightSide({
     'Lessons': ["id", "name", "level", "pdf", "video", "desc"],
     'Conversations': ["id", "title", "url", "youtube", "desc"],
     'Exercises': ["quiz", "name", "level", "topic", "questions"],
-    'Reading': ["id", "name", "audios", "questionsPerAudio"],
-    'Listening': ["id", "name", "level","Title","readingText", "questions"],
+    'Reading': ["id", "name", "level", "Title", "readingText", "questions"],
+    'Listening': ["id", "name", "level","audios", "questions"],
     'ReadingP': ["id", "name", "level", "readingText"],
     'PracticeTest': ["quiz", "name", "level", "topic", "questions"],
   };
@@ -71,6 +71,7 @@ export default function RightSide({
         headings={headings[sect]}
         onEdit={onEdit}
         onDelete={onDelete}
+        refreshData={refreshData}
         setIsCreatingNew={setIsCreatingNew}
       />
     </div>

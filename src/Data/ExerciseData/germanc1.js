@@ -222,25 +222,25 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Wenn du mehr Zeit _____, könntest du uns helfen.",
+          "question": "Wenn du mehr Zeit ______, könntest du uns helfen.",
           "choices": ["hättest", "hast", "hättest gehabt", "haben"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "Wenn sie gestern nicht krank _____, wäre sie heute hier.",
+          "question": "Wenn sie gestern nicht krank ______, wäre sie heute hier.",
           "choices": ["gewesen", "wäre gewesen", "ist", "gewesen wäre"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Wenn er den Zug _____, wäre er rechtzeitig angekommen.",
+          "question": "Wenn er den Zug ______, wäre er rechtzeitig angekommen.",
           "choices": ["erwischen", "erwischt", "erwischt hätte", "erwischen hätte"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "Es wäre besser, wenn du das Problem _____.",
+          "question": "Es wäre besser, wenn du das Problem ______.",
           "choices": ["gelöst hättest", "lösen", "löst", "lösen würdest"],
           "type": "MCQs",
           "correctAnswer": 1
