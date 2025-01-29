@@ -12,6 +12,7 @@ export const data = [
     name:'Spanish Lesson 2 (A2)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1rUydWxdO7YA24Efn0FEkAsZSNUX-4slm/preview',
+    video:'https://www.youtube.com/embed/Ec1WMFZ2sS0?si=BNqtyi0baRa5-e_x',
     desc:'Spanish Foundation Lesson 2 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {

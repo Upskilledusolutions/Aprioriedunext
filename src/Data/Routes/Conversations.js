@@ -59,8 +59,16 @@
       heading: 'German Beginner (A2)',
       text: 'Navigate both casual and formal language settings of Germany with this exercise.',
       link: 'GermanConversationsA2',
-      data: 'germanb1',
+      data: 'germana2',
       link2: 'GermanConversationA2'
+    },
+    {
+      type: 'germanb1',
+      heading: 'German Beginner (B1)',
+      text: 'Navigate both casual and formal language settings of Germany with this exercise.',
+      link: 'GermanConversationsB1',
+      data: 'germanb1',
+      link2: 'GermanConversationB1'
     },
     {
       type: 'germanc1',

@@ -3518,8 +3518,133 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "The adverb of 'défensif' is:",
+        "choices": ["Défensivement", "Offensivement", "Gracieusement", "Mal"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which adverb is the opposite of 'constamment'?",
+        "choices": ["Souvent", "Rarement", "Immédiatement", "Rapidement"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "'He speaks loudly' translates to:",
+        "choices": ["Il parle lentement", "Il parle doucement", "Il parle bruyamment", "Il parle rarement"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which adverb describes an action done attentively?",
+        "choices": ["Distraitement", "Attentivement", "Confusément", "Lentement"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "'We go to school __________.' Complete with the correct adverb.",
+        "choices": ["Rarely", "Rapidly", "Seriously", "Prudently"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which adverb means 'gracefully'?",
+        "choices": ["Gracieusement", "Toujours", "Lentement", "Maladroitement"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which adverb describes a frequent action?",
+        "choices": ["Rarely", "Often", "Never", "Abruptly"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Complete: 'They arrive __________.' (immediately)",
+        "choices": ["Immediately", "Softly", "Quickly", "Constantly"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The adverb for 'poli' is:",
+        "choices": ["Brutalement", "Poliement", "Gracieusement", "Confortablement"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "'He sings softly' in French is:",
+        "choices": ["Il chante doucement", "Il chante fort", "Il chante prudemment", "Il chante toujours"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following adverbs means 'too much'?",
+        "choices": ["très", "trop", "toujours", "rarement"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
    
-     
+      {
+        "question": "Elle danse ______ (gracieusement/bizarre) à chaque spectacle.",
+        "choices": ["gracieusement"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous arrivons ______ (tard/tôt) à la réunion.",
+        "choices": ["tard"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pierre répond ______ (bruyamment/calme) à la question.",
+        "choices": ["bruyamment"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elle chante ______ (fort/bas) mais avec émotion.",
+        "choices": ["fort"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Il conduit ______ (dangereusement/prudemment) sur la route.",
+        "choices": ["prudemment"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tu manges ______ (rapidement/lentement) ton repas.",
+        "choices": ["lentement"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Marie travaille ______ (efficacement/paresseusement).",
+        "choices": ["efficacement"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le professeur explique ______ (clairement/confus).",
+        "choices": ["clairement"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "L'enfant joue ______ (doucement/brutalement) avec ses jouets.",
+        "choices": ["doucement"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vous répondez ______ (poliement/maladroitement) à la dame.",
+        "choices": ["poliement"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
     {
       "question": "Il parle ______ (bien/mal) espagnol.",
       "choices": ["bien","1","2","3"],

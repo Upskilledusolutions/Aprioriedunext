@@ -3867,8 +3867,134 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "What is the German adverb for 'today'?",
+        "choices": ["Gestern", "Morgen", "Heute", "jetzt"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How would you say 'there' in German?",
+        "choices": ["Dort", "Hier", "Überall", "jetzt"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these adverbs means 'with pleasure'?",
+        "choices": ["Gerne", "Langsam", "Jetzt", "ziemlich"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Choose the correct adverb for 'outside':",
+        "choices": ["Draußen", "Innen", "Hier", "sofort"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "'Ich komme ______.' (I’m coming immediately.)",
+        "choices": ["Morgen", "Sofort", "Ziemlich", "gerne"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which adverb refers to frequency?",
+        "choices": ["Sehr", "Ziemlich", "Immer", "draußen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Translate 'very' into German:",
+        "choices": ["Ziemlich", "Sehr", "Jetzt", "hier"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "'The children are playing everywhere.' What is 'everywhere' in German?",
+        "choices": ["Sofort", "Ziemlich", "Überall", "morgen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct adverb: 'We will meet tomorrow.'",
+        "choices": ["Heute", "Morgen", "Immer", "Gerne"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which adverb describes intensity?",
+        "choices": ["Ziemlich", "Draußen", "Morgen", "hier"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following adverbs means 'too much'?",
+        "choices": ["très", "trop", "toujours", "rarement"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
 
       // 20 Fill in the Blanks
+      {
+        "question": "Ich fahre ______ (quickly) zur Arbeit.",
+        "choices": ["schnell"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie bleibt ______ (here) im Haus.",
+        "choices": ["hier"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir essen ______ (always) um 7 Uhr.",
+        "choices": ["immer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er läuft ______ (slowly) nach Hause.",
+        "choices": ["langsam"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Kinder spielen ______ (outside).",
+        "choices": ["draußen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich komme ______ (immediately).",
+        "choices": ["sofort"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie tanzt ______ (with pleasure).",
+        "choices": ["gerne"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er arbeitet ______ (now) im Büro.",
+        "choices": ["jetzt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Film war ______ (very) spannend.",
+        "choices": ["sehr"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir reisen ______ (tomorrow).",
+        "choices": ["morgen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Ich komme ______ (always) pünktlich zur Arbeit.",
         "choices": ["immer","1","2","3"],

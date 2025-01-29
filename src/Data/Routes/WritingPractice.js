@@ -48,6 +48,14 @@ export const cards = [
       link2: 'GermanWritingPageA2'
     },
     {
+      type: 'germanb1',
+      heading: 'German Beginner (B1)',
+      text: 'Master the language of art, culture, and diplomacy with our German Writing Practice.',
+      link: 'GermanWritingB1',
+      data: 'Germanb1',
+      link2: 'GermanWritingPageB1'
+    },
+    {
       type: 'frenchb1',
       heading: 'French Beginner (B1)',
       text: 'Master the language of art, culture, and diplomacy with our French Writing Practice.',

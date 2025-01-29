@@ -63,6 +63,14 @@ export const cards = [
         data: 'Germana2',
         link2: 'GermanReadingAssignmentA2',
       },
+      // {
+      //   type: 'germanb1',
+      //   heading: 'German Beginner (B1)',
+      //   text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
+      //   link: 'GermanReadingB1',
+      //   data: 'Germanb1',
+      //   link2: 'GermanReadingAssignmentB1',
+      // },
     {
       type: 'frenchc1',
       heading: 'French Beginner (C1)',

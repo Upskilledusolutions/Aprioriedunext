@@ -3821,6 +3821,66 @@ export const quiz = [
       
       // 20 MCQs
       {
+        "question": "Which adverb best completes this sentence? 'Carlos trabaja _______ por la noche.'",
+        "choices": ["hoy", "siempre", "mañana", "mal"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Where should the adverb 'rápidamente' typically be placed in this sentence? 'Ellos conducen _______ por la autopista.'",
+        "choices": ["after the verb", "before the subject", "before the verb", "at the end of the sentence"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Choose the appropriate Spanish adverb for 'yesterday.'",
+        "choices": ["hoy", "anteayer", "ayer", "todavía"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Select the adverb that expresses time:",
+        "choices": ["rápidamente", "a veces", "siempre", "pronto"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Complete the sentence: 'María canta _______ (perfectly) en la iglesia.'",
+        "choices": ["perfectamente", "mal", "poco", "bien"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following means 'never' in Spanish?",
+        "choices": ["jamás", "tarde", "bien", "lejos"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which adverb indicates manner?",
+        "choices": ["cuidadosamente", "temprano", "nunca", "allí"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Translate the following: 'Siempre voy al gimnasio.'",
+        "choices": ["I never go to the gym.", "I always go to the gym.", "I rarely go to the gym.", "I sometimes go to the gym."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the Spanish adverb for 'nearby'?",
+        "choices": ["cerca", "lejos", "encima", "afuera"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which adverb means 'too much'?",
+        "choices": ["poco", "demasiado", "bastante", "apenas"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "What is the correct adverb to complete this sentence: Ella trabaja _______?",
         "choices": ["Aquí", "Bien", "Siempre", "Lentamente"],
         "type": "MCQs",
@@ -3882,7 +3942,66 @@ export const quiz = [
       },
       
       // 20 Fill in the Blanks
-
+      {
+        "question": "Mi hermana corre ______ (rápido/rápidamente) en las competencias.",
+        "choices": ["rápidamente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pedro habla español ______ (bien/bueno).",
+        "choices": ["bien"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La clase empieza ______ (pronto/tarde).",
+        "choices": ["pronto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hicimos la tarea ______ (cuidadosamente/cuidadoso).",
+        "choices": ["cuidadosamente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los niños juegan ______ en el parque (alegre/alegremente).",
+        "choices": ["alegremente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Juan canta ______ (fuerte/fuertemente).",
+        "choices": ["fuertemente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Te esperaré ______ (paciente/pacientemente) hasta que llegues.",
+        "choices": ["pacientemente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Necesitas estudiar ______ (serio/seriamente) para el examen.",
+        "choices": ["seriamente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El chef prepara la comida ______ (cuidadoso/cuidadosamente).",
+        "choices": ["cuidadosamente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis amigos hablan ______ (claramente/claro) sobre sus planes.",
+        "choices": ["claramente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Marta llega ______ (always) tarde a la oficina.",
         "choices": ["siempre","1","2","3"],
