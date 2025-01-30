@@ -25,6 +25,7 @@ export default function RightSide({
     'Reading': ["id", "name", "level", "Title", "readingText", "questions"],
     'Listening': ["id", "name", "level","audios", "questions"],
     'ReadingP': ["id", "name", "level", "readingText"],
+    'Writing': ["id", "name", "level", "firstsent"],
     'PracticeTest': ["quiz", "name", "level", "topic", "questions"],
   };
 

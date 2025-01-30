@@ -92,6 +92,14 @@ export default function Left({ onLanguageSelect }) {
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
       />
       <DropdownSection
+        sectionName="Writing"
+        text="Writing"
+        languages={languages}
+        isActive={activeSection === 'Writing' && isOpen}
+        onClick={handleSectionClick}
+        onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
+      />
+      <DropdownSection
         sectionName="PracticeTest"
         text="Practice Test"
         languages={languages}

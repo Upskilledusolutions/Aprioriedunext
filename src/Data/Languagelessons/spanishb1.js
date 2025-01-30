@@ -20,4 +20,18 @@ export const data = [{
     pdf:'https://drive.google.com/file/d/1aCNRhApNvnjXDpoyEuJgeYHUef62KHQG/preview',
     desc:'Spanish Foundation Lesson 3 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
+{
+    id:'4',
+    name:'Spanish Lesson 4 (B1)',
+    level:'Intermediate',
+    pdf:'https://drive.google.com/file/d/1imvoUyw2wxepPDs8WfVW8-DEfnO11F_s/preview',
+    desc:'Spanish Foundation Lesson 4 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
+{
+    id:'5',
+    name:'Spanish Lesson 5 (B1)',
+    level:'Intermediate',
+    pdf:'https://drive.google.com/file/d/1tolxsMS9Yat1K9BGXNKMHqN9Id8tHTea/preview',
+    desc:'Spanish Foundation Lesson 5 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
+},
 ]

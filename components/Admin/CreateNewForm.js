@@ -52,6 +52,24 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
     setShowForm(false); // Hide the form without submitting
   };
 
+  // Handle updating a specific index in the firstsent array
+const handleFirstSentChange = (e, index) => {
+  const newSentences = [...formData.firstsent];
+  newSentences[index] = e.target.value;
+  setFormData({ ...formData, firstsent: newSentences });
+};
+
+// Add a new empty input field for firstsent
+const addFirstSent = () => {
+  setFormData({ ...formData, firstsent: [...(formData.firstsent || []), ''] });
+};
+
+// Remove a sentence by index
+const removeFirstSent = (index) => {
+  const newSentences = formData.firstsent.filter((_, idx) => idx !== index);
+  setFormData({ ...formData, firstsent: newSentences });
+};
+
   return (
     <div className={styles.formContainer}>
       <form onSubmit={handleFormSubmit}>
@@ -94,6 +112,26 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
                   onChange={handleInputChange}
                   placeholder={`Enter ${heading}`}
                 />
+              ) : heading === 'firstsent' ? (
+                <div className={styles.arrayInputContainer}>
+                  {formData.firstsent && formData.firstsent.length > 0 ? (
+                    formData.firstsent.map((sentence, idx) => (
+                      <div key={idx} className={styles.arrayInput}>
+                        <input
+                          type="text"
+                          name={`firstsent-${idx}`}
+                          value={sentence}
+                          onChange={(e) => handleFirstSentChange(e, idx)}
+                          placeholder={`Sentence ${idx + 1}`}
+                        />
+                        <button type="button" onClick={() => removeFirstSent(idx)}>❌</button>
+                      </div>
+                    ))
+                  ) : (
+                    <p className={styles.errorpara}>No sentences added.</p>
+                  )}
+                  <button type="button" onClick={addFirstSent}>➕ Add Sentence</button>
+                </div>
               ) : heading === 'questions' ? (
                 <QuestionsForm PformData={formData} PsetFormData={setFormData} section={section} isCreatingNew={isCreatingNew}/>
               ) 

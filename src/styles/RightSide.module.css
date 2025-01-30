@@ -198,6 +198,9 @@
   background-color: #f44336; /* Red for delete */
   color: white;
 }
+.errorpara{
+font-size: 14px;
+}
 
 .table .deleteButton:hover {
   background-color: #e53935; /* Slightly darker red on hover */

@@ -926,4 +926,622 @@ export const quiz = [
         
       ]
     },
+    {
+      quiz: '4',
+      name: 'Spanish Exercise - 4 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        
+        // 20 MCQs
+        {
+          "question": "¿Cuál es la forma correcta del comparativo?",
+          "choices": ["Más bueno", "Mejor", "Bueno más", "Buenísimo"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "La Torre Eiffel es ______ que la Puerta de Alcalá.",
+          "choices": ["Más alta", "Altísima", "Mejor", "Tan alta"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mi hermano es __________ que yo.",
+          "choices": ["Alto", "Más alto", "El más alto", "Menos más alto"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de las siguientes frases es correcta?",
+          "choices": ["Madrid es la ciudad más grande de España.", "Madrid es más grande de España.", "Madrid es grande más en España.", "Madrid es grandísimo de España."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "El Amazonas es el río __________ del mundo.",
+          "choices": ["Más largo", "Largo", "Tan largo", "Largo más"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La comida india es __________ picante que la comida italiana.",
+          "choices": ["Tanto", "Tan", "Más", "Muy"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Este coche es __________ caro que el otro.",
+          "choices": ["Tan", "Menos", "Más", "Mucho"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Cómo se dice 'the most expensive hotel' en español?",
+          "choices": ["El hotel caro", "El hotel más caro", "El más caro hotel", "Más caro hotel"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál es la forma correcta del superlativo de 'bueno'?",
+          "choices": ["Buenísimo", "Más bueno", "Mejor", "El mejor"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "¿Cuál es la frase correcta?",
+          "choices": ["Esta película es más interesante que la otra.", "Esta película es el más interesante que la otra.", "Esta película más interesante.", "Esta película más es interesante."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál es un plato típico de España?",
+          "choices": ["Sushi", "Pasta carbonara", "Paella", "Curry"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Qué bebida se asocia más con España?",
+          "choices": ["Tequila", "Vino tinto", "Sake", "Cerveza alemana"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cómo se dice 'I would like the menu' en español?",
+          "choices": ["Yo quiero la comida", "Me gusta la comida", "Quiero el menú", "Me gustaría el menú"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "¿Qué ingrediente es común en la tortilla española?",
+          "choices": ["Tomate", "Patatas", "Arroz", "Ajo"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si pides 'mariscos', ¿qué tipo de comida recibirás?",
+          "choices": ["Carne de res", "Mariscos", "Pollo", "Verduras"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de las siguientes opciones es un postre?",
+          "choices": ["Gazpacho", "Churros", "Tortilla de patatas", "Paella"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cómo se llama el plato español que lleva arroz y mariscos?",
+          "choices": ["Ensalada", "Paella", "Croquetas", "Tortilla"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué es una 'tapa' en España?",
+          "choices": ["Una comida grande", "Un postre", "Una porción pequeña de comida", "Un tipo de bebida"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Cuál de estos alimentos es un marisco?",
+          "choices": ["Pollo", "Gambas", "Lechuga", "Cordero"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cómo se llama la comida más grande del día en España?",
+          "choices": ["El desayuno", "La cena", "El almuerzo", "La merienda"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        
+        // 20 Fill in the Blanks
+  
+          {
+            "question": "Mi casa es ______ (bigger) que la tuya.",
+            "choices": ["más grande"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Este restaurante tiene la comida ______ (best) de la ciudad.",
+            "choices": ["mejor"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La paella es ______ (more delicious) que la tortilla de patatas.",
+            "choices": ["más deliciosa"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "En verano, el clima en Madrid es ______ (hotter) que en Barcelona.",
+            "choices": ["más caluroso"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El helado de chocolate es ______ (better) que el de vainilla para mí.",
+            "choices": ["mejor"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La comida india es ______ (spicier) que la comida española.",
+            "choices": ["más picante"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El café colombiano es ______ (strongest) del mundo.",
+            "choices": ["el más fuerte"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "De todos los platos, la paella es la ______ (most famous) de España.",
+            "choices": ["la más famosa"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Hoy hace ______ (colder) que ayer.",
+            "choices": ["más frío"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El menú de este restaurante es ______ (cheaper) que el de aquel.",
+            "choices": ["más barato"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "¿Cuál es la fruta ______ (most nutritious) que conoces?",
+            "choices": ["más nutritiva"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Las tapas en este bar son ______ (less expensive) que en el otro.",
+            "choices": ["menos caras"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Comer en casa es ______ (healthier) que comer en la calle.",
+            "choices": ["más saludable"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El aceite de oliva español es de los ______ (highest quality).",
+            "choices": ["de la mejor calidad"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Los churros son ______ (sweeter) que las galletas.",
+            "choices": ["más dulces"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La paella de mariscos es ______ (more popular) que la de verduras.",
+            "choices": ["más popular"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El jamón ibérico es el ______ (most famous) de España.",
+            "choices": ["el más famoso"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Beber agua es ______ (better) que beber refrescos.",
+            "choices": ["mejor"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Los niños suelen comer comida ______ (simpler) que los adultos.",
+            "choices": ["más simple"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La comida mexicana es ______ (as spicy as) la comida india.",
+            "choices": ["tan picante como"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+  
+        {
+          "question": "Empareja las palabras singulares y plurales.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "La cuenta", "rightId": 1 },
+              "right": { "word": "Tip", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Propina", "rightId": 2 },
+              "right": { "word": "Waiter", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Camarero", "rightId": 3 },
+              "right": { "word": "Main course", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Menú del día", "rightId": 4 },
+              "right": { "word": "Bill", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Plato principal", "rightId": 5 },
+              "right": { "word": "Menu of the day", "rightId": 4 }
+            },
+           
+          ]
+        },
+        {
+          "question": "Empareja las palabras singulares y plurales.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            
+            {
+              "left": { "word": "Entrada", "rightId": 6 },
+              "right": { "word": "Homemade food", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Postre", "rightId": 7 },
+              "right": { "word": "Napkin", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Servilleta", "rightId": 8 },
+              "right": { "word": "Check", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Jarra de agua", "rightId": 9 },
+              "right": { "word": "Dessert", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Comida casera", "rightId": 10 },
+              "right": { "word": "Appetizer", "rightId": 6 }
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+      quiz: '5',
+      name: 'Spanish Exercise - 5 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        
+        // 20 MCQs
+        {
+          "question": "¿Qué verbo en futuro simple es correcto?",
+          "choices": ["Él viajarás", "Él viajará", "Él viajarán", "Él viajamos"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué significa “horario flexible”?",
+          "choices": ["Jornada laboral de muchas horas", "Un horario de trabajo adaptable", "No tener trabajo", "Un trabajo fijo sin cambios"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cómo se dice “job application” en español?",
+          "choices": ["Entrevista", "Nómina", "Solicitud de empleo", "Curriculum"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "En el futuro, si estudias español, tú ______ más oportunidades de trabajo.",
+          "choices": ["Tienes", "Tenías", "Tendrás", "Teníamos"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Cuál de estas palabras está relacionada con “viajar”?",
+          "choices": ["Facturar el equipaje", "Enviar un correo", "Presentar un examen", "Aprobar un curso"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál de estas opciones es un beneficio de trabajar en una empresa internacional?",
+          "choices": ["Horarios irregulares", "Más oportunidades laborales", "Menos sueldo", "Más impuestos"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si tienes una entrevista de trabajo mañana, ¿qué verbo en futuro simple es correcto?",
+          "choices": ["Yo responderé a todas las preguntas.", "Yo responde todas las preguntas.", "Yo respondía todas las preguntas.", "Yo responderás a todas las preguntas."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "En el futuro, ¿qué harás si consigues un buen empleo?",
+          "choices": ["Comprar una casa", "Jugar videojuegos todo el día", "No trabajar nunca", "No hacer nada"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál de los siguientes objetos necesitas para viajar?",
+          "choices": ["Maleta", "Calculadora", "Cuaderno de notas", "Tijeras"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál es el beneficio de tener un seguro de viaje?",
+          "choices": ["No tener que pagar impuestos", "Protección en caso de emergencias durante el viaje", "No necesitar pasaporte", "Conseguir empleo más rápido"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué significa “reservar un billete”?",
+          "choices": ["Cancelar un viaje", "Comprar un ticket con anticipación", "Trabajar en una empresa", "Aprobar un examen"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué verbo en futuro simple es correcto?",
+          "choices": ["Nosotros viajamos a Perú.", "Nosotros viajaremos a Perú.", "Nosotros viajó a Perú.", "Nosotros viajábamos a Perú."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Dónde trabajarás después de la universidad?",
+          "choices": ["En una fábrica", "En una empresa", "En una tienda", "Todas las anteriores"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "¿Cuál de los siguientes es un documento importante para viajar?",
+          "choices": ["Pasaporte", "Factura", "Chequera", "Manual de instrucciones"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se dice “internship” en español?",
+          "choices": ["Salario", "Pasantía", "Trabajo fijo", "Carrera"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué harás después de aprobar tus exámenes?",
+          "choices": ["Celebraré con mis amigos.", "Hacemos la maleta.", "Viajamos a Francia.", "Comíamos en un restaurante."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué significa “empleador”?",
+          "choices": ["Persona que busca trabajo", "Persona que contrata trabajadores", "Persona que compra productos", "Persona que estudia"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de los siguientes es un beneficio de estudiar en el extranjero?",
+          "choices": ["Conocer una nueva cultura", "No pagar impuestos", "No aprender idiomas", "Tener menos oportunidades"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si quieres postular a un empleo, necesitas…",
+          "choices": ["Un currículum", "Una calculadora", "Un boleto de avión", "Una cámara de fotos"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "En el futuro, ¿qué hará un estudiante después de graduarse?",
+          "choices": ["Buscar un trabajo", "No hacer nada", "No estudiar más", "Olvidar todo lo aprendido"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        
+        // 20 Fill in the Blanks
+  
+          {
+            "question": "Mañana, mis amigos y yo ______ (viajar) a España para estudiar.",
+            "choices": ["viajaremos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "¿Dónde ______ (trabajar) tú después de terminar la universidad?",
+            "choices": ["trabajarás"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mis padres ______ (visitar) la India el próximo año.",
+            "choices": ["visitarán"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Yo ______ (aprender) más español para mejorar mi comunicación.",
+            "choices": ["aprenderé"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Nosotros ______ (tener) una reunión importante la próxima semana.",
+            "choices": ["tendremos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Tú ______ (encontrar) un buen trabajo después de graduarte.",
+            "choices": ["encontrarás"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El avión ______ (salir) a las 10 de la mañana.",
+            "choices": ["saldrá"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "En el futuro, yo ______ (vivir) en Barcelona por unos años.",
+            "choices": ["viviré"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ellos ______ (estudiar) economía en la universidad.",
+            "choices": ["estudiarán"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El profesor nos ______ (explicar) el tema en la próxima clase.",
+            "choices": ["explicará"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mi hermana ______ (empezar) su nuevo trabajo en enero.",
+            "choices": ["empezará"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "¿Cuándo ______ (ir) de vacaciones a América Latina?",
+            "choices": ["irás"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "En mi próxima entrevista, yo ______ (contestar) todas las preguntas con confianza.",
+            "choices": ["contestaré"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Si ahorramos dinero, ______ (hacer) un viaje a Perú el próximo verano.",
+            "choices": ["haremos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ustedes ______ (recibir) el certificado después del curso.",
+            "choices": ["recibirán"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mi jefe me ______ (dar) un aumento el próximo mes.",
+            "choices": ["dará"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Los estudiantes ______ (escribir) un ensayo sobre el impacto del turismo.",
+            "choices": ["escribirán"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Tú ______ (asistir) a la conferencia internacional la próxima semana.",
+            "choices": ["asistirás"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Yo ______ (comprar) un billete de avión para visitar México.",
+            "choices": ["compraré"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Si todo va bien, nosotros ______ (celebrar) nuestra graduación en Madrid.",
+            "choices": ["celebraremos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+  
+        {
+          "question": "Empareja las palabras singulares y plurales.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Entrevista de trabajo", "rightId": 1 },
+              "right": { "word": "To pack a suitcase", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Horario flexible", "rightId": 2 },
+              "right": { "word": "To book a ticket", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Hacer la maleta", "rightId": 3 },
+              "right": { "word": "Flexible schedule", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Viaje de negocios", "rightId": 4 },
+              "right": { "word": "Job interview", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Reservar un billete", "rightId": 5 },
+              "right": { "word": "Business trip", "rightId": 4 }
+            },
+           
+          ]
+        },
+        {
+          "question": "Empareja las palabras singulares y plurales.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            
+            {
+              "left": { "word": "Solicitar un puesto", "rightId": 6 },
+              "right": { "word": "Travel insurance", "rightId": 9 }
+            },
+            {
+              "left": { "word": "Nómina", "rightId": 7 },
+              "right": { "word": "Work requirements", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Requisitos del trabajo", "rightId": 8 },
+              "right": { "word": "Travel itinerary", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Seguro de viaje", "rightId": 9 },
+              "right": { "word": "Paycheck", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Itinerario de viaje", "rightId": 10 },
+              "right": { "word": "Job application", "rightId": 6 }
+            }
+          ]
+        }
+        
+      ]
+    },
 ]

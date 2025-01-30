@@ -152,7 +152,7 @@ const ChatGPTComponent = () => {
         <div className={`${styles.chatmessage} ${styles.assistant}`}>
       <div className={`${styles.chatbubble} ${styles.assistant}`}
       >
-        <div><Image className={styles.avatar} width={400} height={400} src={"/chatbot/bot.png"} alt="image"/></div>
+        <div><Image className={styles.avatar} width={400} height={400} src={"/chatbot/bot1.png"} alt="image"/></div>
         <div className={styles.textcontent}>{lesson[id-1].firstsent[0]}</div>
         <div className={styles.copy}><MdContentCopy /></div>
        </div>
@@ -168,7 +168,7 @@ const ChatGPTComponent = () => {
                 className={`${styles.chatbubble} ${
                   message.role === 'user' ? styles.user : styles.assistant
                 }`}
-              > <div><Image className={styles.avatar} width={400} height={400} src={message.role === 'user' ? `${languageimage}` : "/chatbot/bot.png"} alt="image"/></div>
+              > <div><Image className={styles.avatar} width={400} height={400} src={message.role === 'user' ? `${languageimage}` : "/chatbot/bot1.png"} alt="image"/></div>
                 <div className={styles.textcontent}
                 >{message.content}</div>
                 <div className={styles.copy}
