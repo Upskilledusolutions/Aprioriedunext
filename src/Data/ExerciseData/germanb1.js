@@ -605,4 +605,322 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '3',
+      name: 'German Exercise - 3 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Welche Zeitform benutzt man in der geschriebenen Sprache, z. B. in Zeitungsartikeln?",
+          "choices": ["Perfekt", "Präteritum", "Futur I", "Plusquamperfekt"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welcher Satz ist korrekt?",
+          "choices": [
+            "Gestern habe ich ins Kino ging.",
+            "Gestern bin ich ins Kino gegangen.",
+            "Gestern gehe ich ins Kino.",
+            "Gestern ins Kino gehe ich."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Form ist Präteritum?",
+          "choices": ["Ich habe gespielt.", "Ich spielte.", "Ich bin gegangen.", "Ich habe gegangen."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "„Er _____ nach Hause.“ (gehen, Perfekt)",
+          "choices": ["geht", "ging", "ist gegangen", "hat gegangen"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Welche Zeitform wird häufiger im gesprochenen Deutsch verwendet?",
+          "choices": ["Perfekt", "Präteritum", "Plusquamperfekt", "Futur II"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welcher Satz ist nicht richtig?",
+          "choices": [
+            "Ich habe gestern ein Buch gelesen.",
+            "Ich las gestern ein Buch.",
+            "Ich habe gestern ein Buch las.",
+            "Gestern habe ich ein Buch gelesen."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "„Er _____ in Frankreich.“ (sein, Präteritum)",
+          "choices": ["war", "ist gewesen", "hat gewesen", "war gewesen"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welche Verben stehen oft im Präteritum?",
+          "choices": ["haben, sein, müssen", "essen, trinken, fahren", "kaufen, sprechen, lesen", "backen, spielen, lernen"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welcher Satz steht im Perfekt?",
+          "choices": [
+            "Ich machte meine Hausaufgaben.",
+            "Ich bin nach Hause gegangen.",
+            "Er ging ins Kino.",
+            "Wir lasen ein Buch."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Zeitform benutzt man, um eine abgeschlossene Handlung in der Vergangenheit zu beschreiben?",
+          "choices": ["Perfekt", "Präteritum", "Plusquamperfekt", "Futur I"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wo kauft man in Deutschland normalerweise ein Zugticket?",
+          "choices": ["An der Tankstelle", "Am Bahnhof", "Im Hotel", "Im Supermarkt"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was braucht man, um ins Ausland zu reisen?",
+          "choices": ["Eine Kreditkarte", "Einen Reisepass", "Ein Souvenir", "Eine Bordkarte"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wo übernachten viele Touristen in einer Stadt?",
+          "choices": ["In einer Schule", "In einem Hotel", "In einem Supermarkt", "In einer Fabrik"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche ist eine bekannte deutsche Fluggesellschaft?",
+          "choices": ["British Airways", "Lufthansa", "American Airlines", "Emirates"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welches Verkehrsmittel benutzt man auf einem Fluss?",
+          "choices": ["Ein Flugzeug", "Ein Schiff", "Ein Auto", "Ein Fahrrad"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was sollte man im Urlaub nicht vergessen?",
+          "choices": ["Ein Flugzeug", "Eine Fahrkarte", "Eine Landkarte", "Eine Eintrittskarte"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Stadt ist bekannt für das Oktoberfest?",
+          "choices": ["Berlin", "München", "Hamburg", "Köln"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Womit kann man in Deutschland kostenlos reisen?",
+          "choices": ["Mit einem Auto", "Mit einem Fahrrad", "Mit einem Taxi", "Mit einem Flugzeug"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was kann man als Andenken aus dem Urlaub mitbringen?",
+          "choices": ["Eine Bordkarte", "Ein Souvenir", "Eine Fahrkarte", "Einen Flug"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Sehenswürdigkeit findet man in Berlin?",
+          "choices": ["Eiffelturm", "Brandenburger Tor", "Kolosseum", "Buckingham Palace"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+       
+        {
+          "question": "Letztes Jahr ______ (reisen) wir nach Deutschland.",
+          "choices": ["reisten"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Gestern ______ (besuchen) ich ein berühmtes Museum.",
+          "choices": ["besuchte"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Letzte Woche ______ (machen) du eine Radtour durch die Stadt.",
+          "choices": ["machtest"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Am Wochenende ______ (fliegen) sie nach Wien.",
+          "choices": ["flog"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vor zwei Tagen ______ (fahren) wir mit dem Zug nach Berlin.",
+          "choices": ["fuhren"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ (sehen) das Brandenburger Tor zum ersten Mal.",
+          "choices": ["habe gesehen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Gestern Abend ______ (essen) wir in einem traditionellen Restaurant.",
+          "choices": ["haben gegessen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sie ______ (verlieren) ihr Gepäck am Flughafen.",
+          "choices": ["hat verloren"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir ______ (finden) ein günstiges Hotel in der Innenstadt.",
+          "choices": ["haben gefunden"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ihr ______ (haben) eine tolle Reise nach Hamburg.",
+          "choices": ["hattet"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Letzten Sommer ______ (wandern) sie in den Alpen.",
+          "choices": ["wanderten"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mein Bruder ______ (nehmen) einen Flug nach Indien.",
+          "choices": ["nahm"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Letzte Woche ______ (kaufen) ich ein Souvenir aus München.",
+          "choices": ["habe gekauft"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir ______ (besichtigen) den Kölner Dom.",
+          "choices": ["haben besichtigt"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Gestern ______ (trinken) ich eine heiße Schokolade im Café.",
+          "choices": ["habe getrunken"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mein Freund ______ (erzählen) mir von seiner Reise nach Spanien.",
+          "choices": ["hat erzählt"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ (fotografieren) viele Sehenswürdigkeiten in Frankfurt.",
+          "choices": ["habe fotografiert"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Letzten Monat ______ (schreiben) sie einen Reisebericht.",
+          "choices": ["haben geschrieben"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ihr ______ (probieren) das typische Essen in Österreich.",
+          "choices": ["habt probiert"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ (buchen) ein Ticket für die Zugfahrt nach Hamburg.",
+          "choices": ["habe gebucht"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "der Reisepass", "rightId": 1 },
+                "right": { "word": "Flight ticket", "rightId": 2 }
+              },
+              {
+                "left": { "word": "das Flugticket", "rightId": 2 },
+                "right": { "word": "Sightseeing", "rightId": 4 }
+              },
+              {
+                "left": { "word": "der Koffer", "rightId": 3 },
+                "right": { "word": "Hotel room", "rightId": 5 }
+              },
+              {
+                "left": { "word": "die Sehenswürdigkeit", "rightId": 4 },
+                "right": { "word": "Suitcase", "rightId": 3 }
+              },
+              {
+                "left": { "word": "das Hotelzimmer", "rightId": 5 },
+                "right": { "word": "Passport", "rightId": 1 }
+              },
+            ],
+          },
+
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "die Abfahrt", "rightId": 1 },
+                "right": { "word": "Travel insurance", "rightId": 3 }
+              },
+              {
+                "left": { "word": "der Mietwagen", "rightId": 2 },
+                "right": { "word": "Boarding pass", "rightId": 4 }
+              },
+              {
+                "left": { "word": "die Reiserücktrittsversicherung", "rightId": 3 },
+                "right": { "word": "Rental car", "rightId": 2 }
+              },
+              {
+                "left": { "word": "die Bordkarte", "rightId": 4 },
+                "right": { "word": "Souvenir", "rightId": 5 }
+              },
+              {
+                "left": { "word": "das Andenken", "rightId": 5 },
+                "right": { "word": "Departure", "rightId": 1 }
+              },
+            ],
+          },
+  
+      ],
+    },
 ]

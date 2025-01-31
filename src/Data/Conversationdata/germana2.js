@@ -13,6 +13,13 @@ export const youdata = [
       title: "German Conversation 2 (A2)",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
+    {
+      id: '3',
+      url: "/youtube/GmCA203.png",
+      youtube: "https://www.youtube.com/embed/0t_rHVQ0zZs?si=fKDuXODWz7oKVxF8",
+      title: "German Conversation 3 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
   ];
   
   

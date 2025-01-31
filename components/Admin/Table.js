@@ -20,8 +20,13 @@ const Table = ({ data, section, headings, onDelete, onEdit, setIsCreatingNew }) 
               <tr key={index}>
                 {headings.map((heading, idx) => (
                   <td key={idx}>
-                    {item[heading] ? heading === 'questions' || heading === 'firstsent' ? item[heading].length : item[heading].slice(0, 25) : 'N/A'}
-                  </td>
+                  {item[heading] !== undefined ? (
+                    heading === 'trial' ? (item.trial ? "✅ Yes" : "❌ No") :
+                    heading === 'questions' || heading === 'firstsent' || heading === 'next' ? item[heading].length :
+                    typeof item[heading] === 'string' ? item[heading].slice(0, 25) :
+                    JSON.stringify(item[heading])
+                  ) : 'N/A'}
+                </td>
                 ))}
                 <td>
                   <button

@@ -7,6 +7,66 @@ export const quiz = [
     questions: [
       // 20 MCQs
       {
+        "question": "What is the correct reflexive pronoun for 'ich'?",
+        "choices": ["sich", "mich", "dich", "uns"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which reflexive verb fits this sentence: 'Wir _________ jeden Abend im Wohnzimmer.' (to relax)",
+        "choices": ["sich freuen", "sich rasieren", "sich entspannen", "sich beeilen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the translation of 'Ich ziehe mich an'?",
+        "choices": ["I wash myself", "I get dressed", "I sit down", "I remember"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Complete the sentence: 'Er _________ um 7 Uhr morgens.' (to wake up)",
+        "choices": ["wäscht sich", "zieht sich an", "freut sich", "wacht auf"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Choose the correct sentence:",
+        "choices": ["Wir sich treffen heute im Park.", "Wir treffen uns heute im Park.", "Wir uns treffen heute im Park.", "Wir treffen sich heute im Park."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'sich freuen' mean?",
+        "choices": ["To sit down", "To get dressed", "To be happy", "To remember"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which sentence is correct?",
+        "choices": ["Ich ärgere sich.", "Er freut mich.", "Ich freue mich.", "Wir entspannen sich."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct form of 'sich rasieren' for 'du'?",
+        "choices": ["rasierst dich", "rasieren sich", "rasierst sich", "rasieren dich"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which reflexive verb completes the sentence: 'Sie _________ immer vor dem Spiegel.' (to put on makeup)",
+        "choices": ["freuen sich", "schminkt sich", "erinnert sich", "entspannt sich"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Translate: 'Wir freuen uns auf das Wochenende.'",
+        "choices": ["We are looking forward to the weekend.", "We are relaxing on the weekend.", "We are hurrying for the weekend.", "We are dressing up for the weekend."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
         "question": "Which reflexive pronoun is used with 'we'?",
         "choices": ["mich", "uns", "dich", "sich"],
         "type": "MCQs",
@@ -125,6 +185,66 @@ export const quiz = [
       {
         "question": "Nach dem Frühstück ______ (brush my teeth) ich.",
         "choices": ["putze mir die Zähne", "beeilen uns", "wasche mich", "konzentrierst dich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (sich waschen) jeden Morgen vor dem Frühstück.",
+        "choices": ["wasche mich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Peter ______ (sich anziehen) schnell, weil er spät dran ist.",
+        "choices": ["zieht sich an"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (sich beeilen), um den Bus zu erwischen.",
+        "choices": ["beeilen uns"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Maria ______ (sich freuen) auf das Wochenende.",
+        "choices": ["freut sich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Am Abend ______ (sich entspannen) ich vor dem Fernseher.",
+        "choices": ["entspanne mich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Kinder ______ (sich ausruhen) nach dem langen Schultag.",
+        "choices": ["ruhen sich aus"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wann ______ du (sich duschen)?",
+        "choices": ["duschst dich"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ (sich die Zähne putzen) nach dem Essen.",
+        "choices": ["putzt sich die Zähne"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ______ (sich vorbereiten) auf die Prüfung.",
+        "choices": ["bereitet euch vor"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (sich hinlegen) um 22 Uhr schlafen.",
+        "choices": ["lege mich hin"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

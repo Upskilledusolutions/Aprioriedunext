@@ -43,6 +43,7 @@ export default function Left({ onLanguageSelect }) {
       <div className={styles.heading2}>Sections</div>
 
       {/* Reusable DropdownSection Component */}
+      <div className={styles.user} onClick={() => onLanguageSelect("Auth", "Users")}>Users</div>
       <DropdownSection
         sectionName="Lessons"
         text="Lessons"

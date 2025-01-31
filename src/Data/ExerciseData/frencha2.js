@@ -66,6 +66,66 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "Which verb is reflexive in the following sentence: “Elle _______ (se lever) à 6 heures.”",
+        "choices": ["mange", "dort", "se lève", "lit"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "In the sentence “Je me brosse les dents,” what is the reflexive pronoun?",
+        "choices": ["Je", "me", "brosse", "les"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the infinitive form of the verb in 'Nous nous reposons'?",
+        "choices": ["se coucher", "se laver", "se reposer", "se promener"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which sentence correctly uses a reflexive verb?",
+        "choices": ["Tu regardes la télé.", "Nous mangeons un gâteau.", "Ils se lavent les mains.", "Elle danse bien."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the past tense of 'se lever' for 'je'?",
+        "choices": ["Je levais", "Je me suis levé(e)", "J’ai levé", "Je suis levé"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these actions is typically part of a daily routine?",
+        "choices": ["se promener", "se réveiller", "se marier", "se fâcher"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'se dépêcher' mean?",
+        "choices": ["To relax", "To hurry", "To eat", "To sleep"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which reflexive verb is used to describe brushing one’s teeth?",
+        "choices": ["se peigner", "se coiffer", "se brosser", "se coucher"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which sentence correctly uses a reflexive verb in the negative?",
+        "choices": ["Je ne se réveille pas.", "Tu ne te laves pas les mains.", "Elle ne se lave pas.", "Ils ne se réveiller pas."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the English translation of 'Ils se disputent souvent'?",
+        "choices": ["They often argue.", "They often relax.", "They often run.", "They often forget."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
           {
             question: "Je ______ (se réveiller) à six heures chaque matin.",
@@ -126,6 +186,66 @@ export const quiz = [
               choices: ["se lève", "faites", "lisez", "mangez"],
               type: 'FillInTheBlanks',
               correctAnswer: 1
+            },
+            {
+              "question": "Je ______ (se lever) à 7 heures du matin tous les jours.",
+              "choices": ["me lève"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Tu ______ (s'habiller) rapidement avant de prendre le petit déjeuner.",
+              "choices": ["t'habilles"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Paul ______ (se raser) avant d'aller au travail.",
+              "choices": ["se rase"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Nous ______ (se brosser) les dents après chaque repas.",
+              "choices": ["nous brossons"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Vous ______ (se coucher) tard le vendredi soir.",
+              "choices": ["vous couchez"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Les enfants ______ (se dépêcher) pour aller à l'école.",
+              "choices": ["se dépêchent"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Je ______ (se reposer) une heure l'après-midi.",
+              "choices": ["me repose"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Marie et Claire ______ (se maquiller) avant la fête.",
+              "choices": ["se maquillent"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Tu ______ (se promener) dans le parc après le déjeuner ?",
+              "choices": ["te promènes"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Ils ______ (se disputer) souvent à propos de petits détails.",
+              "choices": ["se disputent"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
             },
 
       {

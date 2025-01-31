@@ -378,6 +378,12 @@ export const quiz = [
               "left": { "word": "Comment ça va ?", "rightId": 5 },
               "right": { "word": "Please", "rightId": 4 }
             },
+          ],
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
             {
               "left": { "word": "À bientôt", "rightId": 6 },
               "right": { "word": "Welcome", "rightId": 8 }
@@ -406,7 +412,7 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Zéro", "rightId": 1 },
-      "right": { "word": "60", "rightId": 7 }
+      "right": { "word": "10", "rightId": 2 }
     },
     {
       "left": { "word": "Dix", "rightId": 2 },
@@ -418,33 +424,39 @@ export const quiz = [
     },
     {
       "left": { "word": "Trente", "rightId": 4 },
-      "right": { "word": "100", "rightId": 10 }
-    },
-    {
-      "left": { "word": "Quarante", "rightId": 5 },
       "right": { "word": "20", "rightId": 3 }
     },
     {
-      "left": { "word": "Cinquante", "rightId": 6 },
-      "right": { "word": "10", "rightId": 2 }
-    },
-    {
-      "left": { "word": "Soixante", "rightId": 7 },
+      "left": { "word": "Quarante", "rightId": 5 },
       "right": { "word": "30", "rightId": 4 }
     },
-    {
-      "left": { "word": "Soixante-dix", "rightId": 8 },
-      "right": { "word": "80", "rightId": 9 }
-    },
-    {
-      "left": { "word": "Quatre-vingts", "rightId": 9 },
-      "right": { "word": "50", "rightId": 6 }
-    },
-    {
-      "left": { "word": "Cent", "rightId": 10 },
-      "right": { "word": "70", "rightId": 8 }
-    }
   ]
+},
+{
+  "question": "Match the Words.",
+  type: "MatchTheFollowing",
+"pairs": [
+{
+"left": { "word": "Cinquante", "rightId": 6 },
+"right": { "word": "60", "rightId": 7 }
+},
+{
+"left": { "word": "Soixante", "rightId": 7 },
+"right": { "word": "100", "rightId": 10 }
+},
+{
+"left": { "word": "Soixante-dix", "rightId": 8 },
+"right": { "word": "80", "rightId": 9 }
+},
+{
+"left": { "word": "Quatre-vingts", "rightId": 9 },
+"right": { "word": "50", "rightId": 6 }
+},
+{
+"left": { "word": "Cent", "rightId": 10 },
+"right": { "word": "70", "rightId": 8 }
+}
+]
 },
 {
   "question": "Match the Words.",
@@ -470,6 +482,12 @@ export const quiz = [
 "left": { "word": "Voici...", "rightId": 5 },
 "right": { "word": "I am...", "rightId": 3 }
 },
+]
+},
+{
+  "question": "Match the Words.",
+  type: "MatchTheFollowing",
+"pairs": [
 {
 "left": { "word": "C'est mon ami...", "rightId": 6 },
 "right": { "word": "I am a student...", "rightId": 7 }
@@ -502,23 +520,29 @@ export const quiz = [
 },
 {
 "left": { "word": "Espagnol", "rightId": 2 },
-"right": { "word": "Italian", "rightId": 6 }
+"right": { "word": "Engineer", "rightId": 3 }
 },
 {
 "left": { "word": "Ingénieur", "rightId": 3 },
-"right": { "word": "Student", "rightId": 8 }
+"right": { "word": "Spanish", "rightId": 2 }
 },
 {
 "left": { "word": "Médecin", "rightId": 4 },
-"right": { "word": "German", "rightId": 7 }
+"right": { "word": "Doctor", "rightId": 4 }
 },
 {
 "left": { "word": "Professeur", "rightId": 5 },
 "right": { "word": "French", "rightId": 1 }
 },
+]
+},
+{
+  "question": "Match the Words.",
+  type: "MatchTheFollowing",
+"pairs": [
 {
 "left": { "word": "Italien", "rightId": 6 },
-"right": { "word": "Spanish", "rightId": 2 }
+"right": { "word": "Student", "rightId": 8 }
 },
 {
 "left": { "word": "Allemand", "rightId": 7 },
@@ -530,11 +554,11 @@ export const quiz = [
 },
 {
 "left": { "word": "Canadien", "rightId": 9 },
-"right": { "word": "Engineer", "rightId": 3 }
+"right": { "word": "Italian", "rightId": 6 }
 },
 {
 "left": { "word": "Avocat(e)", "rightId": 10 },
-"right": { "word": "Doctor", "rightId": 4 }
+"right": { "word": "German", "rightId": 7 }
 }
 ]
 },
@@ -544,15 +568,15 @@ export const quiz = [
 "pairs": [
 {
 "left": { "word": "Je suis", "rightId": 1 },
-"right": { "word": "I have", "rightId": 7 }
+"right": { "word": "You are", "rightId": 2 }
 },
 {
 "left": { "word": "Tu es", "rightId": 2 },
-"right": { "word": "He has", "rightId": 9 }
+"right": { "word": "He is", "rightId": 3 }
 },
 {
 "left": { "word": "Il est", "rightId": 3 },
-"right": { "word": "You have", "rightId": 8 }
+"right": { "word": "We are", "rightId": 4 }
 },
 {
 "left": { "word": "Nous sommes", "rightId": 4 },
@@ -562,9 +586,15 @@ export const quiz = [
 "left": { "word": "Vous êtes", "rightId": 5 },
 "right": { "word": "I am", "rightId": 1 }
 },
+]
+},
+{
+  "question": "Match the Words.",
+  type: "MatchTheFollowing",
+"pairs": [
 {
 "left": { "word": "Ils sont", "rightId": 6 },
-"right": { "word": "You are", "rightId": 2 }
+"right": { "word": "I have", "rightId": 7 }
 },
 {
 "left": { "word": "J'ai", "rightId": 7 },
@@ -576,11 +606,11 @@ export const quiz = [
 },
 {
 "left": { "word": "Il a", "rightId": 9 },
-"right": { "word": "He is", "rightId": 3 }
+"right": { "word": "He has", "rightId": 9 }
 },
 {
 "left": { "word": "Nous avons", "rightId": 10 },
-"right": { "word": "We are", "rightId": 4 }
+"right": { "word": "You have", "rightId": 8 }
 }
 ]
 },

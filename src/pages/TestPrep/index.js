@@ -24,6 +24,12 @@ export default function Index() {
       link: '/Practicetest/FrenchQuizsA2',
     },
     {
+      type: 'frenchb1',
+      heading: 'French B1 Practice Test',
+      text: 'Get ready to put your French skills to the test with our exciting range of quizzes.',
+      link: '/Practicetest/FrenchQuizsB1',
+    },
+    {
       type: 'spanish',
       heading: 'Spanish A1 Practice Test',
       text: 'Get ready to put your Spanish skills to the test with our exciting range of quizzes.',

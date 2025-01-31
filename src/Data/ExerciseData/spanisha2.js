@@ -8,6 +8,66 @@ export const quiz = [
       
       // 20 MCQs
       {
+        "question": "Which of the following reflexive verbs means 'to get up'?",
+        "choices": ["Dormirse", "Levantarse", "Sentarse", "Vestirse"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence describes someone waking up early?",
+        "choices": ["Me divierto por la tarde.", "Me despierto temprano.", "Me acuesto tarde.", "Me visto en el coche."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What reflexive verb is used for 'to enjoy oneself'?",
+        "choices": ["Peinarse", "Acostarse", "Divertirse", "Levantarse"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which is a reflexive verb?",
+        "choices": ["Comer", "Ducharse", "Leer", "Hablar"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'afeitarse' mean?",
+        "choices": ["To shave", "To comb hair", "To wake up", "To go to bed"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What reflexive verb describes 'putting on makeup'?",
+        "choices": ["Maquillarse", "Peinarse", "Dormirse", "Vestirse"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which pronoun matches the verb form 'te lavas'?",
+        "choices": ["He", "We", "You (informal)", "They"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'irse' mean in English?",
+        "choices": ["To sit", "To leave", "To wash", "To comb"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence correctly uses a reflexive verb?",
+        "choices": ["Ella come pizza.", "Nosotros nos duchamos por la mañana.", "Yo leo un libro en la tarde.", "Ellos escriben cartas."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct form for 'You (formal) wake up'?",
+        "choices": ["Te despiertas", "Se despierta", "Me despierto", "Nos despertamos"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "What is the reflexive pronoun for 'you' (informal)?",
         "choices": ["me", "se", "te", "nos"],
         "type": "MCQs",
@@ -127,6 +187,66 @@ export const quiz = [
       {
         "question": "Yo ______ (leave) a la cama a las diez.",
         "choices": ["me voy", "me va", "me vas", "me van"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermana ______ (acostarse) temprano porque tiene clase mañana.",
+        "choices": ["se acuesta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (cepillarse) los dientes después del desayuno.",
+        "choices": ["nos cepillamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿A qué hora ______ (despertarse) tú durante los fines de semana?",
+        "choices": ["te despiertas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos siempre ______ (prepararse) para la escuela con tiempo.",
+        "choices": ["se preparan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Antes de salir, yo ______ (ponerse) el abrigo.",
+        "choices": ["me pongo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vosotros ______ (mirarse) en el espejo antes de salir.",
+        "choices": ["os miráis"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi padre ______ (afeitarse) mientras escucha música.",
+        "choices": ["se afeita"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los estudiantes ______ (sentarse) en sus escritorios al comenzar la clase.",
+        "choices": ["se sientan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (relajarse) después de un día ocupado, ¿verdad?",
+        "choices": ["te relajas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (irse) a la playa en verano.",
+        "choices": ["nos vamos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

@@ -1,6 +1,73 @@
 import React, { useEffect, useState } from 'react';
 import styles from '@/styles/RightSide.module.css'
 
+function Loader() {
+  return <div className={styles.loader}>Loading questions...</div>;
+}
+
+function JumbledWords({ index, updateData, predataJW }) {
+  const [choices, setChoices] = useState(() => {
+    return predataJW[index]?.choices?.length ? predataJW[index].choices : ["", ""];
+  });
+
+  useEffect(() => {
+    if (predataJW[index]?.choices) {
+      setChoices(predataJW[index].choices);
+    }
+  }, [predataJW, index]);
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    updateData(index, { [name]: value, choices });
+  };
+
+  const handleChoiceChange = (choiceIndex, value) => {
+    const updatedChoices = [...choices];
+    updatedChoices[choiceIndex] = value;
+    setChoices(updatedChoices);
+    updateData(index, { choices: updatedChoices });
+  };
+
+  const addChoice = () => {
+    const updatedChoices = [...choices, ""];
+    setChoices(updatedChoices);
+    updateData(index, { choices: updatedChoices });
+  };
+
+  const removeChoice = (choiceIndex) => {
+    const updatedChoices = choices.filter((_, i) => i !== choiceIndex);
+    setChoices(updatedChoices);
+    updateData(index, { choices: updatedChoices });
+  };
+
+  return (
+    <div className={styles.card}>
+      <div className={styles.small}>Jumbled Words {index + 1}</div>
+      <input
+        name="question"
+        className={styles.input}
+        placeholder="Question"
+        value={predataJW[index]?.question || ""}
+        onChange={handleInputChange}
+      />
+      <div className={styles.choices}>
+        {choices.map((choice, i) => (
+          <div key={i} className={styles.choiceRowflex}>
+            <input
+              className={styles.choiceInput}
+              placeholder={`Word ${i + 1}`}
+              value={choice}
+              onChange={(e) => handleChoiceChange(i, e.target.value)}
+            />
+            <button className={styles.removeBtn} onClick={() => removeChoice(i)}>❌</button>
+          </div>
+        ))}
+      </div>
+      <button className={styles.addButton} onClick={addChoice}>+ Add Word</button>
+    </div>
+  );
+}
+
 function MCQ({ index, updateData, predataMCQ }) {
   const [choices, setChoices] = useState(() => {
     return predataMCQ[index]?.choices?.length ? predataMCQ[index].choices : ['', '', '', ''];
@@ -228,14 +295,19 @@ function Match({ index, updateData, predataMTF }) {
 }
 
 
-export default function QuestionsForm({PformData, PsetFormData, section, isCreatingNew}) {
-  const [formData, setFormData] = useState({ Amcqs: [], mcqs: [], blanks: [], matches: [] });
-  const [componentsCount, setComponentsCount] = useState({ Amcqs: section !== "Exercises" ? 10 : 0 ,mcqs: section === "Exercises" ? 20 : section === "Reading" || section === "Listening" ? 0 : 10, blanks: section === "Exercises" ? 20 : section === "Reading" || section === "Listening" ? 0 : 10, matches: section === "Exercises" ? 2 : section === "Reading" || section === "Listening" ? 0 : 1 });
-  const predataMCQ = PformData.questions.filter((data) => data?.type === "MCQs");
-  const predataFB = PformData.questions.filter((data) => data?.type === "FillInTheBlanks");
-  const predataMTF = PformData.questions.filter((data) => data?.type === "MatchTheFollowing");
-
-  console.log(PformData)
+export default function QuestionsForm({PformData, PsetFormData, section}) {
+  const [formData, setFormData] = useState({ Amcqs: [], mcqs: [], blanks: [], matches: [], jumbledWords: [] });
+  const [loading, setLoading] = useState(true);
+  const [componentsCount, setComponentsCount] = useState({ 
+    Amcqs: section !== "Exercises" && section !== "PracticeTest" ? 10 : 0 ,
+    mcqs: section === "Exercises" ? 20 : section === "PracticeTest" ? 20 : section === "Reading" || section === "Listening" ? 0 : 10, 
+    blanks: section === "Exercises" ? 20 : section === "PracticeTest" ? 20 : section === "Reading" || section === "Listening" ? 0 : 10, 
+    matches: section === "Exercises" ? 2 : section === "PracticeTest" ? 8 : section === "Reading" || section === "Listening" ? 0 : 1 ,
+    jumbledWords: section === "PracticeTest" ? 20 : 0});
+    const predataMCQ = PformData.questions.filter((data) => data?.type === "MCQs");
+    const predataFB = PformData.questions.filter((data) => data?.type === "FillInTheBlanks");
+    const predataMTF = PformData.questions.filter((data) => data?.type === "MatchTheFollowing");
+    const predataJW = PformData.questions.filter((data) => data?.type === "JumbledWords");
 
   useEffect(() => {
     setFormData({
@@ -243,8 +315,19 @@ export default function QuestionsForm({PformData, PsetFormData, section, isCreat
       mcqs: predataMCQ || [],
       blanks: predataFB || [],
       matches: predataMTF || [],
-    });
+      jumbledWords: predataJW || []
+   });
+
   }, [PformData]); // Recalculate whenever PformData changes
+
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(() => setLoading(false), 500);
+  }, [])
+
+  if (loading) {
+    return <Loader />;
+  }
 
   const updateMCQData = (index, data) => {
     const newMCQ = [...formData.mcqs];
@@ -255,6 +338,19 @@ export default function QuestionsForm({PformData, PsetFormData, section, isCreat
       questions: [
         ...prev.questions.filter((q) => q?.type !== "MCQs"),
         ...newMCQ.map((mcq) => ({ type: "MCQs", ...mcq })),
+      ],
+    }));
+  };
+
+  const updateJumbledWordsData = (index, data) => {
+    const newJumbledWords = [...formData.jumbledWords];
+    newJumbledWords[index] = { ...newJumbledWords[index], ...data };
+    setFormData((prev) => ({ ...prev, jumbledWords: newJumbledWords }));
+    PsetFormData((prev) => ({
+      ...prev,
+      questions: [
+        ...prev.questions.filter((q) => q?.type !== "JumbledWords"),
+        ...newJumbledWords.map((jw) => ({ type: "JumbledWords", ...jw })),
       ],
     }));
   };
@@ -322,6 +418,11 @@ export default function QuestionsForm({PformData, PsetFormData, section, isCreat
       {[...Array(componentsCount.blanks)].map((_, i) => (
         <FillInTheBlanks key={`blank-${i}`} index={i} predataFB={predataFB} updateData={updateBlankData} />
       ))}
+      </div>
+      <div className={styles.flex5}>
+        {[...Array(componentsCount.jumbledWords || 2)].map((_, i) => (
+          <JumbledWords key={`jw-${i}`} predataJW={predataJW} index={i} updateData={updateJumbledWordsData} />
+        ))}
       </div>
       <div className={styles.flex5}>
       {[...Array(componentsCount.matches)].map((_, i) => (

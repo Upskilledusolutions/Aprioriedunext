@@ -4128,6 +4128,66 @@ export const quiz = [
       
       // 20 MCQs
       {
+        "question": "Which verb is used to express 'liking' in Spanish?",
+        "choices": ["Comer", "Gustar", "Beber", "Hablar"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct translation for 'He likes chocolate'?",
+        "choices": ["Te gusta el chocolate", "Me gusta el chocolate", "Le gusta el chocolate", "Nos gusta el chocolate"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct pronoun: ___ encanta la música pop. (We love pop music.)",
+        "choices": ["Me", "Nos", "Le", "Te"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is the correct negative form of 'They like apples'?",
+        "choices": ["No le gusta las manzanas", "No les gustan las manzanas", "Les no gustan las manzanas", "Les gusta no las manzanas"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Translate: 'I love dogs.'",
+        "choices": ["Me gustan los perros", "Me encanta los perros", "Me encantan los perros", "Me disgustan los perros"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct way to ask 'Do you like music?' in Spanish?",
+        "choices": ["¿Te gustan las músicas?", "¿Te gusta la música?", "¿Me gusta la música?", "¿Nos gusta la música?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Complete the sentence: A ellos ___ gustan los deportes.",
+        "choices": ["Me", "Le", "Nos", "Les"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "How do you express dislike politely in Spanish?",
+        "choices": ["Me encanta", "Me gusta mucho", "No me gusta", "Me disgusta mucho"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which verb form agrees with 'las películas'?",
+        "choices": ["gusta", "gustan", "gusta mucho", "encantan"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Choose the correct translation: 'She dislikes waking up early.'",
+        "choices": ["Le disgusta levantarse temprano", "Le gusta levantarse temprano", "Nos disgusta levantarse temprano", "Les encanta levantarse temprano"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
         "question": "What is the correct way to say 'I like sports' in Spanish?",
         "choices": ["Me gustan los deportes", "Me gusta los deportes", "Me encanta los deportes", "Me gustamos los deportes"],
         "type": "MCQs",
@@ -4190,6 +4250,66 @@ export const quiz = [
       
       // 20 Fill in the Blanks
 
+      {
+        "question": "A mí ______ (gustar) leer libros de misterio.",
+        "choices": ["gusta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿A ti ______ (gustar) las películas románticas?",
+        "choices": ["gustan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A nosotros no ______ (gustar) la comida picante.",
+        "choices": ["gusta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermana ______ (encantar) las flores.",
+        "choices": ["encanta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A ellos ______ (disgustar) los deportes extremos.",
+        "choices": ["disgustan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué ______ (gustar) hacer a ti los fines de semana?",
+        "choices": ["gusta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A Pedro y a mí nos ______ (gustar) la música clásica.",
+        "choices": ["gusta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A mi madre ______ (encantar) cocinar para nosotros.",
+        "choices": ["encanta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A vosotros no os ______ (gustar) madrugar, ¿verdad?",
+        "choices": ["gusta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A mí ______ (disgustar) el ruido fuerte en la ciudad.",
+        "choices": ["disgusta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "A mí ______ (gustar) el chocolate caliente.",
         "choices": ["gusta","1","3","2"],

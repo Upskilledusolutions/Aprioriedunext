@@ -8,7 +8,7 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
 
   useEffect(() => {
     if (isCreatingNew) {
-      setFormData({ questions: [] }); // Clear formData for a new entry
+      setFormData({ questions: [], trial: false, next: [] }); // Clear formData for a new entry
     } else if (initialData) {
       setFormData(initialData); // Populate form for editing
     }
@@ -23,8 +23,17 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
     }));
   };
 
+    // Handle checkbox (boolean) change
+    const handleCheckboxChange = (e) => {
+      setFormData((prevData) => ({
+        ...prevData,
+        trial: e.target.checked, // Set boolean value
+      }));
+    };
+
   const handleFormSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
 
     try {
       const method = initialData ? 'PUT' : 'POST'; // Update if editing
@@ -45,6 +54,8 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
       refreshData();
     } catch (error) {
       alert(`Error submitting form: ${error.message}`);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -68,6 +79,22 @@ const addFirstSent = () => {
 const removeFirstSent = (index) => {
   const newSentences = formData.firstsent.filter((_, idx) => idx !== index);
   setFormData({ ...formData, firstsent: newSentences });
+};
+
+  // Handle `next` array changes
+  const handleNextChange = (e, index) => {
+    const newNext = [...formData.next];
+    newNext[index] = e.target.value;
+    setFormData({ ...formData, next: newNext });
+  };
+
+const addNext = () => {
+  setFormData({ ...formData, next: [...(formData.next || []), ''] });
+};
+
+const removeNext = (index) => {
+  const newNext = formData.next.filter((_, idx) => idx !== index);
+  setFormData({ ...formData, next: newNext });
 };
 
   return (
@@ -112,6 +139,17 @@ const removeFirstSent = (index) => {
                   onChange={handleInputChange}
                   placeholder={`Enter ${heading}`}
                 />
+              ) : heading === 'trial' ? (
+                <label className={styles.switch}>
+                <input
+                  type="checkbox"
+                  id={heading}
+                  name={heading}
+                  checked={formData.trial || false}
+                  onChange={handleCheckboxChange}
+                />
+                <span className={styles.slider}></span>
+              </label>
               ) : heading === 'firstsent' ? (
                 <div className={styles.arrayInputContainer}>
                   {formData.firstsent && formData.firstsent.length > 0 ? (
@@ -132,6 +170,22 @@ const removeFirstSent = (index) => {
                   )}
                   <button type="button" onClick={addFirstSent}>➕ Add Sentence</button>
                 </div>
+              ): heading === 'next' ? (
+                <div className={styles.arrayInputContainer}>
+                  {formData?.next?.map((item, idx) => (
+                    <div key={idx} className={styles.arrayInput}>
+                      <input
+                        type="text"
+                        name={`next-${idx}`}
+                        value={item}
+                        onChange={(e) => handleNextChange(e, idx)}
+                        placeholder={`Next ${idx + 1}`}
+                      />
+                      <button type="button" onClick={() => removeNext(idx)}>❌</button>
+                    </div>
+                  ))}
+                  <button type="button" onClick={addNext}>➕ Add Next</button>
+                </div>
               ) : heading === 'questions' ? (
                 <QuestionsForm PformData={formData} PsetFormData={setFormData} section={section} isCreatingNew={isCreatingNew}/>
               ) 
@@ -143,7 +197,6 @@ const removeFirstSent = (index) => {
                   value={formData[heading] || ''}
                   onChange={handleInputChange}
                   placeholder={`Enter ${heading}`}
-                  required
                 />
               )}
             </div>

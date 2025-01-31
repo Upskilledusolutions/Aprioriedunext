@@ -3769,6 +3769,66 @@ export const quiz = [
     topic: 'Mixed',
     questions: [
       {
+        "question": "How would you say 'I prefer tea' in French?",
+        "choices": ["J'aime le thé", "Je préfère le thé", "Je ne préfère pas le thé", "J'adore le thé"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Complete the sentence: 'Ils __________ les fruits de mer.' (They dislike seafood)",
+        "choices": ["aiment", "adorent", "ne préfèrent pas", "n'aiment pas"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What does 'Nous n'aimons pas la pluie' mean?",
+        "choices": ["We like the rain", "We prefer the rain", "We love the rain", "We do not like the rain"],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "'Tu préfères le café ou le thé ?' asks about:",
+        "choices": ["Preferences", "Likes", "Dislikes", "Hobbies"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How would you respond positively to 'Tu aimes les voyages ?' (Do you like traveling?)",
+        "choices": ["Non, je préfère les voyages", "Oui, j'adore les voyages", "Je ne sais pas", "Non, je n'aime pas les voyages"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which expression shows indifference?",
+        "choices": ["J'adore les chiens", "Je n'aime pas les chiens", "Je préfère les chats", "Bof, les chiens..."],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "'Nous adorons faire du vélo' means:",
+        "choices": ["We love cycling", "We dislike cycling", "We prefer cycling", "We do not like cycling"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following correctly completes the sentence: 'Ils __________ regarder la télé.'",
+        "choices": ["adore", "adorez", "adorent", "adorons"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Translate: 'Paul dislikes winter.'",
+        "choices": ["Paul aime l'hiver", "Paul adore l'hiver", "Paul n'aime pas l'hiver", "Paul préfère l'hiver"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Complete the sentence: 'Mes parents __________ faire des randonnées.'",
+        "choices": ["aime", "aiment", "aimons", "aimez"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
         "question": "How do you say \"I love ice cream\" in French?",
         "choices": [
           "J'adore les glaces",
@@ -3938,6 +3998,66 @@ export const quiz = [
       "choices": ["aime","1","2","3"],
       "type": "FillInTheBlanks",
       "correctAnswer": 1
+  },
+  {
+    "question": "Sophie ______ (aimer) beaucoup les fleurs dans son jardin.",
+    "choices": ["aime"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Mon frère ______ (préférer) les films de science-fiction aux comédies.",
+    "choices": ["préfère"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Nous ______ (adorer) écouter de la musique en voiture.",
+    "choices": ["adorons"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Est-ce qu'elles ______ (ne pas aimer) les plats sucrés ?",
+    "choices": ["n’aiment pas"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Je ______ (ne pas aimer) faire du sport, mais j'aime marcher.",
+    "choices": ["n’aime pas"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Paul et Julie ______ (aimer) découvrir de nouveaux restaurants.",
+    "choices": ["aiment"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Tu ______ (préférer) la cuisine italienne ou indienne ?",
+    "choices": ["préfères"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Ma mère ______ (ne pas aimer) conduire la nuit.",
+    "choices": ["n’aime pas"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "On ______ (préférer) lire des magazines en vacances.",
+    "choices": ["préfère"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
+  },
+  {
+    "question": "Est-ce que vous ______ (aimer) les randonnées en montagne ?",
+    "choices": ["aimez"],
+    "type": "FillInTheBlanks",
+    "correctAnswer": 1
   },
 
       {

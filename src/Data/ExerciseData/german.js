@@ -4119,7 +4119,67 @@ export const quiz = [
     level: 'Intermediate',
     topic: 'Mixed',
     questions: [
-      // 20 MCQs
+
+      {
+        "question": "What is the correct translation for 'I like music'?",
+        "choices": ["Ich liebe Musik", "Ich höre Musik", "Ich mag Musik", "Ich hasse Musik"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say 'She loves chocolate' in German?",
+        "choices": ["Sie mag Schokolade", "Sie liebt Schokolade", "Sie hört Schokolade", "Sie gefällt Schokolade"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which verb is used to express 'to dislike' in German?",
+        "choices": ["lieben", "gefallen", "hassen", "finden"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct pronoun for 'it' when referring to 'das Auto'?",
+        "choices": ["sie", "ihn", "es", "er"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say 'We like pizza' in German?",
+        "choices": ["Wir hassen Pizza", "Wir lieben Pizza", "Wir mögen Pizza", "Wir essen Pizza"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the best translation for 'Do you like this book?'",
+        "choices": ["efällt dir dieses Buch?", "Magst du dieses Buch?", "Liebst du dieses Buch?", "Hasst du dieses Buch?"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'They love summer' in German?",
+        "choices": ["Sie lieben den Sommer", "Sie mögen den Sommer", "Sie hassen den Sommer", "Sie gefallen Sommer"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct pronoun for 'him' in German?",
+        "choices": ["ihn", "es", "sie", "er"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which verb fits best in 'Ich _______ laute Musik nicht' (I don't like loud music)?",
+        "choices": ["liebe", "mag", "gefällt", "hasse"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'He hates getting up early' in German?",
+        "choices": ["Er liebt früh aufzustehen", "Er mag früh aufzustehen", "Er hasst früh aufzustehen", "Er gefällt früh aufzustehen"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
       {
         "question": "Ich (like) keinen Spinat.",
         "choices": ["magst", "mag", "mögen", "magst du"],
@@ -4182,6 +4242,66 @@ export const quiz = [
       },
 
       // 20 Fill in the Blanks
+      {
+        "question": "Wir ______ (to love) Musik und tanzen gern dazu.",
+        "choices": ["lieben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(she) ______  liebt Bücher und liest jeden Tag.",
+        "choices": ["Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich trinke gern Tee, aber meine Freunde ______ (to dislike) ihn.",
+        "choices": ["mögen nicht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ (to like) Schokolade, aber nicht Eis.",
+        "choices": ["mag"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(you, informal) ______  magst du Pizza oder Pasta lieber?",
+        "choices": ["Magst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Eltern ______ (to love) Reisen, aber ich bleibe lieber zu Hause.",
+        "choices": ["lieben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ______ (to hate) Regen, nicht wahr?",
+        "choices": ["hasst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (to love) den Sommer, weil das Wetter schön ist.",
+        "choices": ["liebe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Peter ______ (to dislike) Fisch, aber er isst gern Fleisch.",
+        "choices": ["mag nicht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (to like) Hunde, aber wir haben keine Katze.",
+        "choices": ["mögen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Ich ______ (likes) keinen Fisch, aber ich esse gern Fleisch.",
         "choices": ["mag", "mögen", "möchtest", "mögt"],
