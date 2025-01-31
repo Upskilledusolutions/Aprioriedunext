@@ -3,7 +3,7 @@ import { IoCreateOutline } from "react-icons/io5";
 import { MdDeleteOutline } from "react-icons/md";
 import styles from '@/styles/RightSide.module.css';
 
-const Table = ({ data, section, headings, onDelete, onEdit, setIsCreatingNew }) => {
+const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNew }) => {
   return (
     <div className={styles.tableContainer}>
       <table className={styles.table}>
@@ -22,6 +22,7 @@ const Table = ({ data, section, headings, onDelete, onEdit, setIsCreatingNew }) 
                   <td key={idx}>
                   {item[heading] !== undefined ? (
                     heading === 'trial' ? (item.trial ? "✅ Yes" : "❌ No") :
+                    heading === 'using' ? (item.using ? "✅ Yes" : "❌ No") :
                     heading === 'questions' || heading === 'firstsent' || heading === 'next' ? item[heading].length :
                     typeof item[heading] === 'string' ? item[heading].slice(0, 25) :
                     JSON.stringify(item[heading])

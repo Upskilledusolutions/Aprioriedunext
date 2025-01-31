@@ -420,7 +420,7 @@ export default function QuestionsForm({PformData, PsetFormData, section}) {
       ))}
       </div>
       <div className={styles.flex5}>
-        {[...Array(componentsCount.jumbledWords || 2)].map((_, i) => (
+        {[...Array(componentsCount.jumbledWords)].map((_, i) => (
           <JumbledWords key={`jw-${i}`} predataJW={predataJW} index={i} updateData={updateJumbledWordsData} />
         ))}
       </div>

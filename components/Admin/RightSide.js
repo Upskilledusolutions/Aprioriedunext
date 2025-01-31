@@ -5,6 +5,7 @@ import CreateNewForm from './CreateNewForm';
 import Table from './Table';
 
 export default function RightSide({
+  URL,
   data,
   section,
   language,
@@ -19,7 +20,7 @@ export default function RightSide({
   let sect = section.replace(/^'|'$/g, ''); // Clean up section name
 
   const headings = {
-    'Auth': ["userId", "password", "name", "trial", "type", "next"],
+    'Auth': ["userId", "password", "using","trial", "type", "next"],
     'Lessons': ["id", "name", "level", "pdf", "video", "desc"],
     'Conversations': ["id", "title", "url", "youtube", "desc"],
     'Exercises': ["quiz", "name", "level", "topic", "questions"],
@@ -56,6 +57,7 @@ export default function RightSide({
       {/* Show Form if showForm is true */}
       {showForm && (
         <CreateNewForm
+          URL={URL}
           refreshData={refreshData}
           section={section}
           language={language}
@@ -68,6 +70,7 @@ export default function RightSide({
 
       {/* Table Section */}
       <Table
+        URL={URL}
         data={data}
         section={sect}
         headings={headings[sect]}

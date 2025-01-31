@@ -8,13 +8,16 @@ export default function Index() {
   const [allCollections, setAllCollections] = useState([]);
   const [formData, setFormData] = useState(null); // Manage form data for edit
   const [showForm, setShowForm] = useState(false); // Manage form visibility
+  const URL = process.env.NEXT_PUBLIC_BACKENDURL
+
+  console.log(URL)
 
   useEffect(() => {
     const fetchLessons = async () => {
       if (!selection.section || !selection.language) return;
 
       try {
-        const response = await fetch(`http://localhost:5000/api/${selection.section}/${selection.language}`);
+        const response = await fetch(`${URL}/api/${selection.section}/${selection.language}`);
         const data = await response.json();
         setAllCollections(data);
       } catch (error) {
@@ -27,7 +30,7 @@ export default function Index() {
 
   const refreshData = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/${selection.section}/${selection.language}`);
+      const response = await fetch(`${URL}/api/${selection.section}/${selection.language}`);
       const updatedData = await response.json();
       setAllCollections(updatedData);
     } catch (error) {
@@ -37,7 +40,7 @@ export default function Index() {
 
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/${selection.section}/${selection.language}/${id}`, {
+      const response = await fetch(`${URL}/api/${selection.section}/${selection.language}/${id}`, {
         method: 'DELETE',
       });
 
@@ -69,6 +72,7 @@ export default function Index() {
         <div className={styles.righttext}>
           {selection.section && selection.language ? (
             <RightSide
+              URL={URL}
               data={allCollections}
               section={selection.section}
               language={selection.language}

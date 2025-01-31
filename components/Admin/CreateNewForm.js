@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from '@/styles/RightSide.module.css';
 import QuestionsForm from './QuestionsForm';
 
-const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm, initialData, isCreatingNew }) => {
+const CreateNewForm = ({ URL, refreshData, section, headings, language,  setShowForm, initialData, isCreatingNew }) => {
   const [formData, setFormData] = useState({questions: []});
   const [loading, setLoading] = useState(false); // For submission state
 
@@ -31,6 +31,14 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
       }));
     };
 
+        // Handle checkbox (boolean) change
+        const handleusingCheckboxChange = (e) => {
+          setFormData((prevData) => ({
+            ...prevData,
+            using: e.target.checked, // Set boolean value
+          }));
+        };
+
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -38,8 +46,8 @@ const CreateNewForm = ({ refreshData, section, headings, language,  setShowForm,
     try {
       const method = initialData ? 'PUT' : 'POST'; // Update if editing
       const url = initialData
-        ? `http://localhost:5000/api/${section}/${language}/${initialData._id}`
-        : `http://localhost:5000/api/${section}/${language}`;
+        ? `${URL}/api/${section}/${language}/${initialData._id}`
+        : `${URL}/api/${section}/${language}`;
 
       const response = await fetch(url, {
         method,
@@ -147,6 +155,17 @@ const removeNext = (index) => {
                   name={heading}
                   checked={formData.trial || false}
                   onChange={handleCheckboxChange}
+                />
+                <span className={styles.slider}></span>
+              </label>
+              ): heading === 'using' ? (
+                <label className={styles.switch}>
+                <input
+                  type="checkbox"
+                  id={heading}
+                  name={heading}
+                  checked={formData.using || false}
+                  onChange={handleusingCheckboxChange}
                 />
                 <span className={styles.slider}></span>
               </label>
