@@ -30,7 +30,7 @@ export default function FrenchQuizes() {
               const isLocked = !isAuthenticated && index > 1;
               return (
                 <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''}`}>
-                  <Link href={`FrenchQuizA2/${data.quiz}`} className={styles.link}>
+                  <Link href={`FrenchQuizB1/${data.quiz}`} className={styles.link}>
                     <div className={styles.imgcont}>
                       <Image className={styles.img5} src={'/assests/1.png'} width={500} height={500} alt="img" />
                     </div>
