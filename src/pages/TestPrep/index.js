@@ -57,7 +57,7 @@ export default function Index() {
 
   // Determine if a card should be locked
   const isCardLocked = (cardType) => {
-    return user?.type !== 'all' && user?.type !== cardType;
+    return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
 
   // Sort language cards with unlocked first and locked last

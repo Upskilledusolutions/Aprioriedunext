@@ -642,4 +642,631 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '2',
+      name: 'French A2 Practice Test - 2',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which auxiliary verb is used with the conditional tense in French?",
+          "choices": ["Avoir", "Être", "Neither, verbs take their own endings", "Aller"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the correct conditional form of 'avoir' in the first-person singular?",
+          "choices": ["J’ai", "J’aurai", "J’aurais", "J’avais"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say 'He would go to France' in French?",
+          "choices": ["Il va en France", "Il irait en France", "Il ira en France", "Il allé en France"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is correct in the conditional tense?",
+          "choices": [
+            "Je serais content si j’ai plus de temps.",
+            "Je serai content si j’ai plus de temps.",
+            "Je serais content si j’avais plus de temps.",
+            "Je suis content si j’avais plus de temps."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the correct conditional form of 'faire' in the third-person singular?",
+          "choices": ["Il ferait", "Il fait", "Il fera", "Il faisait"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following sentences correctly expresses a hypothetical situation?",
+          "choices": [
+            "Si j’ai de l’argent, j’achèterai une voiture.",
+            "Si j’avais de l’argent, j’achèterais une voiture.",
+            "Si j’avais de l’argent, j’achetais une voiture.",
+            "Si j’ai de l’argent, j’achète une voiture."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which conditional form is commonly used for polite requests in French?",
+          "choices": ["Présent", "Futur simple", "Conditionnel", "Passé composé"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How would you politely say 'Could you help me?' in French?",
+          "choices": ["Peux-tu m’aider ?", "Pourriez-vous m’aider ?", "Vous aidez-moi ?", "Tu peux aider moi ?"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the correct translation of 'If I were you, I would go to the doctor.'",
+          "choices": [
+            "Si j’étais toi, j’irais chez le médecin.",
+            "Si je serais toi, j’irais chez le médecin.",
+            "Si j’étais toi, je vais chez le médecin.",
+            "Si je serai toi, j’irais chez le médecin."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is a correct way to make a polite request in French?",
+          "choices": [
+            "Je voudrais un café, s’il vous plaît.",
+            "Donnez-moi un café !",
+            "J’aurai un café.",
+            "Je prends un café."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which phrase is used to express an opinion in French?",
+          "choices": ["Je pense que...", "Il est parti...", "J’ai acheté...", "Je suis allé..."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How would you say 'I believe that this idea is good' in French?",
+          "choices": [
+            "Je pense que cette idée est bonne.",
+            "Je crois cette idée bonne.",
+            "J’estime cette idée est bonne.",
+            "Je crois que cette idée est bonne."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which of the following expresses a hypothetical opinion?",
+          "choices": [
+            "À mon avis, c’est intéressant.",
+            "Si j’étais président, je changerais les lois.",
+            "Je pense que Paris est une belle ville.",
+            "J’aime la musique française."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'Il me semble que' mean?",
+          "choices": ["It seems to me that", "I am sure that", "I doubt that", "It is obvious that"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence best expresses a hypothetical regret?",
+          "choices": [
+            "J’aurais dû étudier plus.",
+            "Je suis content de mon choix.",
+            "J’espère que tout va bien.",
+            "Je vais travailler demain."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say 'I agree with you' in French?",
+          "choices": [
+            "Je suis d’accord avec toi.",
+            "Je suis en désaccord avec toi.",
+            "Je suis d’accord toi.",
+            "Je suis d’accord pour toi."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What phrase can you use to politely disagree with someone?",
+          "choices": ["Je ne suis pas sûr(e).", "Absolument !", "Tu as raison.", "C’est évident."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How would you introduce your opinion in a debate?",
+          "choices": ["Selon moi, ...", "Peut-être que...", "C’est une blague !", "D’accord."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you express a balanced opinion?",
+          "choices": [
+            "D’un côté... d’un autre côté...",
+            "J’ai complètement tort.",
+            "Ça n’a aucun sens !",
+            "Je suis le meilleur."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is an appropriate way to end an argument in a respectful manner?",
+          "choices": [
+            "Nous avons des opinions différentes, et c’est bien.",
+            "Tu as tort, et c’est tout !",
+            "Tu ne comprends rien !",
+            "C’est n’importe quoi !"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Si j'avais de l'argent, je ______ (acheter) une nouvelle voiture.",
+          "choices": ["achèterais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (pouvoir) aller au cinéma si nous avions le temps.",
+          "choices": ["pourrions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (devoir) étudier plus pour réussir ton examen.",
+          "choices": ["devrais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (aimer) visiter Paris s'ils en avaient l'occasion.",
+          "choices": ["aimeraient"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (être) content si vous gagniez à la loterie.",
+          "choices": ["seriez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si tu avais faim, est-ce que tu ______ (manger) quelque chose ?",
+          "choices": ["mangerais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______-vous me passer le sel, s'il vous plaît ?",
+          "choices": ["Pourriez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j'étais riche, je ______ (voyager) autour du monde.",
+          "choices": ["voyagerais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______-tu m'aider avec mes devoirs ?",
+          "choices": ["Pourrais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "S'il faisait beau, nous ______ (aller) à la plage.",
+          "choices": ["irions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À mon avis, tu ______ (devoir) parler plus en classe.",
+          "choices": ["devrais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j'étais toi, je ______ (choisir) cette option.",
+          "choices": ["choisirais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je pense que nous ______ (pouvoir) résoudre ce problème ensemble.",
+          "choices": ["pourrions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Selon moi, il ______ (être) préférable de commencer tôt.",
+          "choices": ["serait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous avions plus de temps, nous ______ (visiter) le musée.",
+          "choices": ["visiterions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "D'un côté, je comprends ton point de vue, mais de l'autre, je ______ que c'est une mauvaise idée.",
+          "choices": ["pense"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ que les devoirs sont nécessaires pour apprendre.",
+          "choices": ["Je crois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______-tu que l'école devrait commencer plus tard ?",
+          "choices": ["Penses"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ne suis pas d'accord avec toi parce que ______.",
+          "choices": ["c'est trop compliqué"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "______ que les vacances sont trop courtes.",
+          "choices": ["Je trouve"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "J’irais à Paris si je pouvais.",
+          "choices": ["J’irais", "à", "Paris", "si", "je", "pouvais"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu mangerais un croissant si tu voudrais.",
+          "choices": ["Tu", "mangerais", "un", "croissant", "si", "tu", "voudrais"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous aimerions voyager en France.",
+          "choices": ["Nous", "aimerions", "voyager", "en", "France"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle achèterait une robe si elle avait de l’argent.",
+          "choices": ["Elle", "achèterait", "une", "robe", "si", "elle", "avait", "de", "l’argent"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Vous parleriez français si vous pouviez.",
+          "choices": ["Vous", "parleriez", "français", "si", "vous", "pouviez"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pourriez-vous m’aider, s’il vous plait?",
+          "choices": ["Pourriez-vous", "m’aider", "s’il", "vous", "plait"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Si j’étais riche, j’achèterais une maison.",
+          "choices": ["Si", "j’étais", "riche", "j’achèterais", "une", "maison"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Voudriez-vous prendre un café?",
+          "choices": ["Voudriez-vous", "prendre", "un", "café"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Si tu avais du temps, tu voyagerais.",
+          "choices": ["Si", "tu", "avais", "du", "temps", "tu", "voyagerais"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pourrais-je avoir de l’eau, s’il vous plaît?",
+          "choices": ["Pourrais-je", "avoir", "de", "l’eau", "s’il", "vous", "plaît"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je pense que c’est une bonne idée.",
+          "choices": ["Je", "pense", "que", "c’est", "une", "bonne", "idée"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Si j’étais toi, je choisirais le rouge.",
+          "choices": ["Si", "j’étais", "toi", "je", "choisirais", "le", "rouge"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "À mon avis, le film était intéressant.",
+          "choices": ["À", "mon", "avis", "le", "film", "était", "intéressant"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je crois que c’est possible.",
+          "choices": ["Je", "crois", "que", "c’est", "possible"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Si nous avions plus de temps, nous finirions.",
+          "choices": ["Si", "nous", "avions", "plus", "de", "temps", "nous", "finirions"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je suis d’accord avec toi.",
+          "choices": ["Je", "suis", "d’accord", "avec", "toi"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Non, je ne pense pas que ce soit vrai.",
+          "choices": ["Non", "je", "ne", "pense", "pas", "que", "ce", "soit", "vrai"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "À mon avis, les études sont importantes.",
+          "choices": ["À", "mon", "avis", "les", "études", "sont", "importantes"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je préfère les vacances à la montagne.",
+          "choices": ["Je", "préfère", "les", "vacances", "à", "la", "montagne"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je ne suis pas d’accord parce que c’est difficile.",
+          "choices": ["Je", "ne", "suis", "pas", "d’accord", "parce", "que", "c’est", "difficile"],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je voudrais un café.", "rightId": 1 },
+              "right": { "word": "They could come.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous aimerions voyager.", "rightId": 2 },
+              "right": { "word": "She would buy a house.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Tu devrais étudier.", "rightId": 3 },
+              "right": { "word": "We would like to travel.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Ils pourraient venir.", "rightId": 4 },
+              "right": { "word": "You should study.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Elle achèterait une maison.", "rightId": 5 },
+              "right": { "word": "I would like a coffee.", "rightId": 1 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Vous feriez un gâteau.", "rightId": 1 },
+              "right": { "word": "I would go to the beach.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "J’irais à la plage.", "rightId": 2 },
+              "right": { "word": "You would make a cake.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Il prendrait un taxi.", "rightId": 3 },
+              "right": { "word": "One should leave early.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Elles diraient la vérité.", "rightId": 4 },
+              "right": { "word": "He would take a taxi.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "On devrait partir tôt.", "rightId": 5 },
+              "right": { "word": "They would tell the truth.", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Si j’avais de l’argent, j’achèterais une voiture.", "rightId": 1 },
+              "right": { "word": "Could you help me, please?", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Pourriez-vous m’aider, s’il vous plaît?", "rightId": 2 },
+              "right": { "word": "If you studied more, you would succeed.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Si tu étudiais plus, tu réussirais.", "rightId": 3 },
+              "right": { "word": "If the weather were nice, we would go to the park.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je voudrais parler au directeur.", "rightId": 4 },
+              "right": { "word": "If I had money, I would buy a car.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "S’il faisait beau, nous irions au parc.", "rightId": 5 },
+              "right": { "word": "I would like to speak to the manager.", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Pourrais-tu fermer la fenêtre?", "rightId": 1 },
+              "right": { "word": "If she came, I would be happy.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Si nous avions le temps, nous visiterions Paris.", "rightId": 2 },
+              "right": { "word": "I would prefer to stay at home.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Auriez-vous un stylo à me prêter?", "rightId": 3 },
+              "right": { "word": "Would you have a pen to lend me?", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Si elle venait, je serais heureux.", "rightId": 4 },
+              "right": { "word": "Could you close the window?", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Je préférerais rester à la maison.", "rightId": 5 },
+              "right": { "word": "If we had time, we would visit Paris.", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "À mon avis, c’est une bonne idée.", "rightId": 1 },
+              "right": { "word": "I believe it’s too hot.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Je pense que tu as raison.", "rightId": 2 },
+              "right": { "word": "In my opinion, this movie is boring.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Si j’étais riche, je voyagerais partout.", "rightId": 3 },
+              "right": { "word": "If I were rich, I would travel everywhere.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Je crois qu’il fait trop chaud.", "rightId": 4 },
+              "right": { "word": "In my opinion, it’s a good idea.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Selon moi, ce film est ennuyeux.", "rightId": 5 },
+              "right": { "word": "I think you are right.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Si nous gagnions à la loterie, nous achèterions une maison.", "rightId": 1 },
+              "right": { "word": "I find this book interesting.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Je trouve que ce livre est intéressant.", "rightId": 2 },
+              "right": { "word": "If I had time, I would read more.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Si tu venais, ce serait génial.", "rightId": 3 },
+              "right": { "word": "I agree with you.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Je suis d’accord avec toi.", "rightId": 4 },
+              "right": { "word": "If we won the lottery, we would buy a house.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Si j’avais le temps, je lirais plus.", "rightId": 5 },
+              "right": { "word": "If you came, it would be great.", "rightId": 3 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Cependant, je ne suis pas d’accord.", "rightId": 1 },
+              "right": { "word": "According to statistics, it’s true.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Par exemple, cela pourrait causer des problèmes.", "rightId": 2 },
+              "right": { "word": "But we need to think about the consequences.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je suis pour cette idée.", "rightId": 3 },
+              "right": { "word": "I am in favor of this idea.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Selon les statistiques, c’est vrai.", "rightId": 4 },
+              "right": { "word": "However, I disagree.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Mais il faut penser aux conséquences.", "rightId": 5 },
+              "right": { "word": "For example, it could cause problems.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "D’un côté, je comprends ton point de vue.", "rightId": 1 },
+              "right": { "word": "On the other hand, there are advantages.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "En revanche, il y a des avantages.", "rightId": 2 },
+              "right": { "word": "I am against this proposal.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "C’est un argument valable.", "rightId": 3 },
+              "right": { "word": "We could also consider another solution.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "On pourrait aussi considérer une autre solution.", "rightId": 4 },
+              "right": { "word": "On one hand, I understand your point of view.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Je suis contre cette proposition.", "rightId": 5 },
+              "right": { "word": "That’s a valid argument.", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]
