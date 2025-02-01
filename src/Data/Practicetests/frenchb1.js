@@ -128,7 +128,7 @@ export const quiz = [
 
         {
             "question": "Je ______ (se lever) tôt chaque matin.",
-            "choices": ["me lève"],
+            "choices": ["me lever"],
             "type": "FillInTheBlanks",
             "correctAnswer": 1
           },
