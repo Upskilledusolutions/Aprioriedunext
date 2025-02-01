@@ -921,23 +921,23 @@ export const quiz = [
           "pairs": [
             {
               "left": { "word": "Yo comería una pizza.", "rightId": 1 },
-              "right": { "word": "to brush oneself", "rightId": 4 }
+              "right": { "word": "They could help us.", "rightId": 4 }
             },
             {
               "left": { "word": "Tú deberías estudiar más.", "rightId": 2 },
-              "right": { "word": "to wash oneself", "rightId": 5 }
+              "right": { "word": "She would buy a car.", "rightId": 5 }
             },
             {
               "left": { "word": "Nosotros viajaríamos a España.", "rightId": 3 },
-              "right": { "word": "to comb one's hair", "rightId": 2 }
+              "right": { "word": "You should study more.", "rightId": 2 }
             },
             {
               "left": { "word": "Ellos podrían ayudarnos.", "rightId": 4 },
-              "right": { "word": "to wake up", "rightId": 1 }
+              "right": { "word": "I would eat a pizza.", "rightId": 1 }
             },
             {
               "left": { "word": "lla compraría un coche.", "rightId": 5 },
-              "right": { "word": "to go to bed", "rightId": 3 }
+              "right": { "word": "We would travel to Spain.", "rightId": 3 }
             },
            
           ],
@@ -948,52 +948,24 @@ export const quiz = [
           type: "MatchTheFollowing",
           "pairs": [
             {
-              "left": { "word": "afeitarse", "rightId": 1 },
-              "right": { "word": "to relax", "rightId": 3 }
+              "left": { "word": "Ustedes harían la tarea.", "rightId": 1 },
+              "right": { "word": "He would take a taxi.", "rightId": 3 }
             },
             {
-              "left": { "word": "maquillarse", "rightId": 2 },
-              "right": { "word": "to shave oneself", "rightId": 1 }
+              "left": { "word": "Yo iría a la playa.", "rightId": 2 },
+              "right": { "word": "You all would do the homework.", "rightId": 1 }
             },
             {
-              "left": { "word": "vestirse", "rightId": 3 },
-              "right": { "word": "to undress oneself", "rightId": 5 }
+              "left": { "word": "Él tomaría un taxi.", "rightId": 3 },
+              "right": { "word": "One should be kind.", "rightId": 5 }
             },
             {
-              "left": { "word": "relajarse", "rightId": 4 },
-              "right": { "word": "to dress oneself", "rightId": 2 }
+              "left": { "word": "Ellas dirían la verdad.", "rightId": 4 },
+              "right": { "word": "I would go to the beach.", "rightId": 2 }
             },
             {
-              "left": { "word": "desvestirse", "rightId": 5 },
-              "right": { "word": "to put on makeup", "rightId": 4 }
-            },
-           
-          ],
-        },
-  
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "Me despierto a las 7 de la mañana.", "rightId": 1 },
-              "right": { "word": "We go to bed after eating dinner.", "rightId": 2 }
-            },
-            {
-              "left": { "word": "Se acuesta después de cenar.", "rightId": 2 },
-              "right": { "word": "I shower at night.", "rightId": 3 }
-            },
-            {
-              "left": { "word": "Nos duchamos antes de desayunar.", "rightId": 3 },
-              "right": { "word": "I dress quickly in the morning.", "rightId": 5 }
-            },
-            {
-              "left": { "word": "Ellos se cepillan los dientes después de comer.", "rightId": 4 },
-              "right": { "word": "He/She gets up at 7 in the morning.", "rightId": 1 }
-            },
-            {
-              "left": { "word": "Me visto rápidamente.", "rightId": 5 },
-              "right": { "word": "They brush their teeth after lunch.", "rightId": 4 }
+              "left": { "word": "Uno debería ser amable.", "rightId": 5 },
+              "right": { "word": "They would tell the truth.", "rightId": 4 }
             },
            
           ],
@@ -1004,52 +976,24 @@ export const quiz = [
           type: "MatchTheFollowing",
           "pairs": [
             {
-              "left": { "word": "Más alto que", "rightId": 1 },
-              "right": { "word": "As fast as", "rightId": 4 }
+              "left": { "word": "Si tuviera dinero, compraría una casa.", "rightId": 1 },
+              "right": { "word": "Could you help me, please?", "rightId": 2 }
             },
             {
-              "left": { "word": "Menos interesante que", "rightId": 2 },
-              "right": { "word": "Less expensive than", "rightId": 5 }
+              "left": { "word": "¿Podría ayudarme, por favor?", "rightId": 2 },
+              "right": { "word": "If you studied more, you would pass the exam.", "rightId": 3 }
             },
             {
-              "left": { "word": "El más bonito", "rightId": 3 },
-              "right": { "word": "The most beautiful", "rightId": 3 }
+              "left": { "word": "Si estudiaras más, aprobarías el examen.", "rightId": 3 },
+              "right": { "word": "If it were sunny, we would go to the park.", "rightId": 5 }
             },
             {
-              "left": { "word": "Tan rápido como", "rightId": 4 },
-              "right": { "word": "More interesting than", "rightId": 1 }
+              "left": { "word": "Me gustaría hablar con el gerente.", "rightId": 4 },
+              "right": { "word": "If I had money, I would buy a house.", "rightId": 1 }
             },
             {
-              "left": { "word": "Menos caro que", "rightId": 5 },
-              "right": { "word": "The biggest", "rightId": 2 }
-            },
-           
-          ],
-        },
-  
-        {
-          "question": "Match the Words.",
-          type: "MatchTheFollowing",
-          "pairs": [
-            {
-              "left": { "word": "El más grande", "rightId": 1 },
-              "right": { "word": "Smaller than", "rightId": 2 }
-            },
-            {
-              "left": { "word": "Más pequeño que", "rightId": 2 },
-              "right": { "word": "Easier than", "rightId": 5 }
-            },
-            {
-              "left": { "word": "Más divertido que", "rightId": 3 },
-              "right": { "word": "The best movie", "rightId": 4 }
-            },
-            {
-              "left": { "word": "La mejor película", "rightId": 4 },
-              "right": { "word": "The best", "rightId": 1 }
-            },
-            {
-              "left": { "word": "Más fácil que", "rightId": 5 },
-              "right": { "word": "More fun than", "rightId": 3 }
+              "left": { "word": "Si hiciera sol, iríamos al parque.", "rightId": 5 },
+              "right": { "word": "I would like to speak to the manager.", "rightId": 4 }
             },
            
           ],
@@ -1060,24 +1004,80 @@ export const quiz = [
           type: "MatchTheFollowing",
           "pairs": [
             {
-              "left": { "word": "Te afeitas antes de salir de casa.", "rightId": 1 },
-              "right": { "word": "We go to bed early on weekends.", "rightId": 4 }
+              "left": { "word": "¿Podrías cerrar la ventana?", "rightId": 1 },
+              "right": { "word": "If she came, I would be happy.", "rightId": 4 }
             },
             {
-              "left": { "word": "Se maquilla antes de la fiesta.", "rightId": 2 },
-              "right": { "word": "You shave before leaving the house.", "rightId": 1 }
+              "left": { "word": "Si tuviéramos tiempo, visitaríamos México.", "rightId": 2 },
+              "right": { "word": "I would prefer to stay home.", "rightId": 5 }
             },
             {
-              "left": { "word": "Me relajo después del trabajo.", "rightId": 3 },
-              "right": { "word": "They wash their hands before eating.", "rightId": 5 }
+              "left": { "word": "¿Tendría un bolígrafo que me prestara?", "rightId": 3 },
+              "right": { "word": "Would you have a pen to lend me?", "rightId": 3 }
             },
             {
-              "left": { "word": "Nos acostamos temprano los fines de semana.", "rightId": 4 },
-              "right": { "word": "I relax after work.", "rightId": 3 }
+              "left": { "word": "Si ella viniera, estaría feliz.", "rightId": 4 },
+              "right": { "word": "Could you close the window?", "rightId": 1 }
             },
             {
-              "left": { "word": "Se lavan las manos antes de comer.", "rightId": 5 },
-              "right": { "word": "She puts on makeup before the party.", "rightId": 2 }
+              "left": { "word": "Preferiría quedarme en casa.", "rightId": 5 },
+              "right": { "word": "If we had time, we would visit Mexico.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "En mi opinión, es una buena idea.", "rightId": 1 },
+              "right": { "word": "I think you are right.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Creo que tienes razón.", "rightId": 2 },
+              "right": { "word": "In my opinion, this movie is boring.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Si fuera rico, viajaría por todo el mundo.", "rightId": 3 },
+              "right": { "word": "I believe it’s too hot.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Pienso que hace demasiado calor.", "rightId": 4 },
+              "right": { "word": "In my opinion, it’s a good idea.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Para mí, esta película es aburrida.", "rightId": 5 },
+              "right": { "word": "If I were rich, I would travel the world.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Si ganáramos la lotería, compraríamos una casa.", "rightId": 1 },
+              "right": { "word": "I agree with you.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Me parece que este libro es interesante.", "rightId": 2 },
+              "right": { "word": "If we won the lottery, we would buy a house.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Si vinieras, sería genial.", "rightId": 3 },
+              "right": { "word": "If I had time, I would read more.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Estoy de acuerdo contigo.", "rightId": 4 },
+              "right": { "word": "If you came, it would be great.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Si tuviera tiempo, leería más.", "rightId": 5 },
+              "right": { "word": "I find this book interesting.", "rightId": 2 }
             },
            
           ],
@@ -1088,24 +1088,24 @@ export const quiz = [
           type: "MatchTheFollowing",
           "pairs": [
             {
-              "left": { "word": "Juan es más inteligente que Marta.", "rightId": 1 },
-              "right": { "word": "This book is the most interesting of all.", "rightId": 4 }
+              "left": { "word": "Sin embargo, no estoy de acuerdo.", "rightId": 1 },
+              "right": { "word": "According to statistics, it’s true.", "rightId": 4 }
             },
             {
-              "left": { "word": "Esta película es tan interesante como esa.", "rightId": 2 },
-              "right": { "word": "They are less friendly than us.", "rightId": 5 }
+              "left": { "word": "Por ejemplo, esto podría causar problemas.", "rightId": 2 },
+              "right": { "word": "But we need to think about the consequences.", "rightId": 5 }
             },
             {
-              "left": { "word": "Ella corre más rápido que yo.", "rightId": 3 },
-              "right": { "word": "She runs faster than me.", "rightId": 3 }
+              "left": { "word": "Estoy a favor de esta idea.", "rightId": 3 },
+              "right": { "word": "I am in favor of this idea.", "rightId": 3 }
             },
             {
-              "left": { "word": "Este libro es el más interesante de todos.", "rightId": 4 },
-              "right": { "word": "Maria is more intelligent than Pedro.", "rightId": 1 }
+              "left": { "word": "Según las estadísticas, es verdad.", "rightId": 4 },
+              "right": { "word": "However, I disagree.", "rightId": 1 }
             },
             {
-              "left": { "word": "Ellos son menos amables que nosotros.", "rightId": 5 },
-              "right": { "word": "This movie is as interesting as that one.", "rightId": 2 }
+              "left": { "word": "Pero hay que pensar en las consecuencias.", "rightId": 5 },
+              "right": { "word": "For example, this could cause problems.", "rightId": 2 }
             },
            
           ],
@@ -1116,24 +1116,24 @@ export const quiz = [
           type: "MatchTheFollowing",
           "pairs": [
             {
-              "left": { "word": "María tiene más dinero que Pedro.", "rightId": 1 },
-              "right": { "word": "This car is faster than the other.", "rightId": 2 }
+              "left": { "word": "Por un lado, entiendo tu punto de vista.", "rightId": 1 },
+              "right": { "word": "On the other hand, there are advantages.", "rightId": 2 }
             },
             {
-              "left": { "word": "Este coche es más rápido que el otro.", "rightId": 2 },
-              "right": { "word": "This exercise is more difficult than the previous one.", "rightId": 5 }
+              "left": { "word": "Por otro lado, hay ventajas.", "rightId": 2 },
+              "right": { "word": "I am against this proposal.", "rightId": 5 }
             },
             {
-              "left": { "word": "Este restaurante es más caro que el de la esquina.", "rightId": 3 },
-              "right": { "word": "Juan is taller than his brother.", "rightId": 4 }
+              "left": { "word": "Es un argumento válido.", "rightId": 3 },
+              "right": { "word": "We could consider another solution.", "rightId": 4 }
             },
             {
-              "left": { "word": "Juan es más alto que su hermano.", "rightId": 4 },
-              "right": { "word": "Maria has more money than Pedro.", "rightId": 1 }
+              "left": { "word": "Podríamos considerar otra solución.", "rightId": 4 },
+              "right": { "word": "On one hand, I understand your point of view.", "rightId": 1 }
             },
             {
-              "left": { "word": "Este ejercicio es más difícil que el anterior.", "rightId": 5 },
-              "right": { "word": "This restaurant is more expensive than the one on the corner.", "rightId": 3 }
+              "left": { "word": "Estoy en contra de esta propuesta.", "rightId": 5 },
+              "right": { "word": "That’s a valid argument.", "rightId": 3 }
             },
            
           ],
