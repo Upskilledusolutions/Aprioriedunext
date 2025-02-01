@@ -47,6 +47,12 @@ export default function Index() {
       text: 'Get ready to put your German skills to the test with our exciting range of quizzes.',
       link: '/Practicetest/GermanQuizs',
     },
+    {
+      type: 'germana2',
+      heading: 'German A2 Practice Test',
+      text: 'Get ready to put your German skills to the test with our exciting range of quizzes.',
+      link: '/Practicetest/GermanQuizsA2',
+    },
     // {
     //   type: 'italian',
     //   heading: 'Italian Language',
