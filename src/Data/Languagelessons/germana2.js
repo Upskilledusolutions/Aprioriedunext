@@ -12,6 +12,7 @@ export const data = [
     name:'German Lesson 2 (A2)',
     level:'Beginners',
     pdf:'https://drive.google.com/file/d/1_EAefLWwvpudU3kb3oWs7UdyvXR3h4pa/preview',
+    // video:'https://www.youtube.com/embed/mojzE6d5wJc?si=Vxnsx_2BY3KZkyNA',
     desc:'German Foundation Lesson 2 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
