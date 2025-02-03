@@ -2,20 +2,20 @@ import React, { useEffect, useState } from 'react';
 import Left from '../../../components/Admin/left';
 import styles from '@/styles/Admin.module.css';
 import RightSide from '../../../components/Admin/RightSide';
+import LoadingSpinner from '../../../components/loader';
 
 export default function Index() {
   const [selection, setSelection] = useState({ section: null, language: null });
   const [allCollections, setAllCollections] = useState([]);
   const [formData, setFormData] = useState(null); // Manage form data for edit
   const [showForm, setShowForm] = useState(false); // Manage form visibility
+  const [ loading, setLoading ] = useState(false)
   const URL = process.env.NEXT_PUBLIC_BACKENDURL
-
-  console.log(URL)
 
   useEffect(() => {
     const fetchLessons = async () => {
       if (!selection.section || !selection.language) return;
-
+      setLoading(true)
       try {
         const response = await fetch(`${URL}/api/${selection.section}/${selection.language}`);
         const data = await response.json();
@@ -23,12 +23,14 @@ export default function Index() {
       } catch (error) {
         console.error('Error fetching lessons:', error);
       }
+      setLoading(false)
     };
 
     fetchLessons();
   }, [selection]);
 
   const refreshData = async () => {
+    setLoading(true)
     try {
       const response = await fetch(`${URL}/api/${selection.section}/${selection.language}`);
       const updatedData = await response.json();
@@ -36,6 +38,7 @@ export default function Index() {
     } catch (error) {
       console.error('Error refreshing data:', error);
     }
+    setLoading(false)
   };
 
   const handleDelete = async (id) => {
@@ -65,6 +68,8 @@ export default function Index() {
   };
 
   return (
+    <div>
+      {loading && <div className={styles.loader}><LoadingSpinner /></div>}
     <div className={styles.bigcontainer}>
       <div className={styles.heading}>Admin Dashboard</div>
       <div className={styles.container}>
@@ -89,6 +94,7 @@ export default function Index() {
           )}
         </div>
       </div>
+    </div>
     </div>
   );
 }

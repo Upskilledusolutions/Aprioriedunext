@@ -12,7 +12,8 @@ const authSlice = createSlice({
     login: (state, action) => {
       state.isAuthenticated = true;
       state.user = action.payload;
-      Cookies.set('user', JSON.stringify(action.payload));
+// Set cookie with 1-day expiration
+Cookies.set("user", JSON.stringify(action.payload), { expires: 6/24 });
     },
     logout: (state) => {
       state.isAuthenticated = false;
