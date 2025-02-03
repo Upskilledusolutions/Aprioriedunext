@@ -589,535 +589,535 @@ export const data = [
     }
     ],
 },
-// {
-//   id:'11',
-//   name:'French Reading Assignment 11 (A2)',
-//   level:'Beginner',
-//   Title:'Le rôle de la musique dans la société',
-//   readingText: "La musique joue un rôle essentiel dans la société humaine. Depuis la nuit des temps, les êtres humains ont utilisé la musique pour exprimer leurs émotions, raconter des histoires et célébrer des événements. Elle traverse les frontières culturelles et unit les gens, qu’ils soient musiciens ou auditeurs. De plus, la musique a des effets prouvés sur le bien-être mental et émotionnel, en permettant à ceux qui l’écoutent de se détendre, de se concentrer ou de se motiver. La musique est également un moyen de protestation et un outil de changement social. \nMusic plays a vital role in human society. Since the dawn of time, humans have used music to express their emotions, tell stories, and celebrate events. It crosses cultural boundaries and unites people, whether they are musicians or listeners. Furthermore, music has proven effects on mental and emotional well-being, allowing listeners to relax, focus, or motivate themselves. Music is also a means of protest and a tool for social change.",
-//   questions: [
-//     {
-//       "question": "Que préfère Sophie ?",
-//       "choices": ["Jouer au football", "Lire des romans", "Manger du chocolat noir", "Rester chez elle"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Qu’aime faire Marc le week-end ?",
-//       "choices": ["Aller au cinéma", "Faire du shopping", "Jouer au football avec ses amis", "Regarder des films d’aventure"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Quel type de chocolat Clara préfère-t-elle ?",
-//       "choices": ["Le chocolat noir", "Le chocolat blanc", "Le chocolat au lait", "Elle n’aime pas le chocolat"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Quel genre de films Sophie aime-t-elle ?",
-//       "choices": ["Les films d’aventure", "Les films sportifs", "Les films romantiques", "Les films comiques"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Que fait Clara dans les restaurants ?",
-//       "choices": ["Elle mange des légumes.", "Elle essaie de nouveaux plats.", "Elle regarde des films.", "Elle fait du shopping."],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Pourquoi Marc ne mange-t-il pas de légumes ?",
-//       "choices": ["Il préfère les fruits.", "Il ne les aime pas du tout.", "Il est allergique.", "Il est végétarien."],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Que font Sophie et Clara ensemble ?",
-//       "choices": ["Elles jouent au football.", "Elles font du shopping.", "Elles regardent des films sportifs.", "Elles cuisinent."],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Où Marc préfère-t-il passer son temps ?",
-//       "choices": ["À la maison", "À l’extérieur", "Au cinéma", "Avec Clara"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "De quoi Sophie et Marc discutent-ils souvent ?",
-//       "choices": ["De football", "De romans", "De leurs films préférés", "De restaurants"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Que préfère faire Clara avec ses amis ?",
-//       "choices": ["Aller au cinéma", "Jouer au football", "Passer du temps à la maison", "Faire du shopping"],
-//       "correctAnswer": 2
-//     }
-//     ],
-// },
-// {
-//   id:'12',
-//   name:'French Reading Assignment 12 (A2)',
-//   level:'Beginner',
-//   Title:"L'importance de la santé mentale",
-//   readingText: "La santé mentale est un aspect crucial de la santé globale, mais elle est souvent négligée. Les troubles mentaux affectent des millions de personnes dans le monde entier, qu’il s’agisse de dépression, d’anxiété ou de stress. Il est essentiel de comprendre que la santé mentale est aussi importante que la santé physique. Les stigmates autour des troubles mentaux doivent être brisés pour permettre aux individus de demander de l'aide et de recevoir le soutien dont ils ont besoin. Des campagnes de sensibilisation sont nécessaires pour encourager les gens à parler ouvertement de leur santé mentale. \nMental health is a crucial aspect of overall health but is often overlooked. Mental disorders affect millions of people worldwide, whether it be depression, anxiety, or stress. It is essential to understand that mental health is just as important as physical health. The stigma surrounding mental disorders must be broken to allow individuals to ask for help and receive the support they need. Awareness campaigns are necessary to encourage people to openly discuss their mental health.",
-//   questions: [
-//     {
-//       "question": "Que signifie l'expression \"la culture française\" ?",
-//       "choices": ["La géographie de la France", "Les coutumes et traditions de la France", "Les monuments célèbres en France", "Les régions de la France"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelle ville est souvent appelée \"la ville lumière\" ?",
-//       "choices": ["Marseille", "Lyon", "Paris", "Bordeaux"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Quels écrivains célèbres sont mentionnés dans le texte ?",
-//       "choices": ["Molière, Victor Hugo et Albert Camus", "Victor Hugo, Albert Camus et Marcel Proust", "Jean-Luc Godard et Marcel Proust", "François Truffaut et Victor Hugo"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quels plats français sont cités comme symboles de la France ?",
-//       "choices": ["Croissants, baguette et soupe à l’oignon", "Croissants, coq au vin et escargots", "Crêpes, croissants et cassoulet", "Croissants, ratatouille et bouillabaisse"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quels sont les exemples de marques de mode mentionnés ?",
-//       "choices": ["Chanel, Louis Vuitton et Dior", "Hermès, Chanel et Givenchy", "Dior, Balenciaga et Yves Saint Laurent", "Gucci, Chanel et Louis Vuitton"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Le texte mentionne le cinéma français pour quelle raison ?",
-//       "choices": ["Pour son succès mondial", "Pour ses effets spéciaux", "Pour son originalité", "Pour ses grands acteurs"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Quels réalisateurs français sont mentionnés ?",
-//       "choices": ["Jean-Luc Godard et François Truffaut", "Marcel Proust et Albert Camus", "Victor Hugo et François Truffaut", "Louis Vuitton et Jean-Luc Godard"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Quel domaine n’est pas mentionné dans le texte ?",
-//       "choices": ["La littérature", "La musique", "La gastronomie", "La mode"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Pourquoi Paris est-elle importante dans la culture française ?",
-//       "choices": ["Parce qu’elle est une grande ville touristique", "Parce qu’elle est le centre de la culture vibrante", "Parce qu’elle a des monuments historiques", "Parce qu’elle est connue pour son vin"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quels mots décrivent le mieux la culture française selon le texte ?",
-//       "choices": ["Riche et diverse", "Simple et traditionnelle", "Moderne et rapide", "Historique et ancienne"],
-//       "correctAnswer": 0
-//     }
-//     ],
-// },
-// {
-//   id:'13',
-//   name:'French Reading Assignment 13 (A2)',
-//   level:'Beginner',
-//   Title:"La littérature classique française",
-//   readingText: "La littérature classique française est un trésor de sagesse, de réflexion et de beauté. Des auteurs comme Molière, Racine et Voltaire ont marqué l’histoire littéraire avec leurs pièces de théâtre, romans et essais. Ces œuvres abordent des thèmes universels, tels que l'amour, le pouvoir, la justice et la condition humaine, qui restent pertinents aujourd'hui. La richesse de la langue française, la finesse des personnages et la profondeur des idées font de ces œuvres des classiques qui continuent d’influencer les écrivains du monde entier. \nClassical French literature is a treasure of wisdom, reflection, and beauty. Authors like Molière, Racine, and Voltaire have marked literary history with their plays, novels, and essays. These works address universal themes such as love, power, justice, and the human condition, which remain relevant today. The richness of the French language, the depth of the characters, and the depth of ideas make these works classics that continue to influence writers worldwide.",
-//   questions: [
-//     {
-//       "question": "Combien de locuteurs parlent français dans le monde, selon le texte ?",
-//       "choices": ["200 millions", "300 millions", "400 millions", "500 millions"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Le français est la langue officielle de quel pays parmi les suivants ?",
-//       "choices": ["Mexique", "Belgique", "Chine", "Australie"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Le français est une langue de travail dans quelle organisation ?",
-//       "choices": ["L’UNESCO", "Les Nations Unies", "La NASA", "L’OTAN"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quels continents comptent des nations où le français est une langue officielle ?",
-//       "choices": ["Asie et Océanie", "Afrique et Europe", "Amérique et Asie", "Europe et Antarctique"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Selon le texte, apprendre le français peut :",
-//       "choices": ["Améliorer vos compétences en mathématiques", "Ouvrir des opportunités professionnelles et culturelles", "Rendre les voyages gratuits", "Enseigner d'autres langues automatiquement"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelle caractéristique de la langue française est mentionnée dans le texte ?",
-//       "choices": ["Sa grammaire simple", "Ses expressions idiomatiques riches", "Son alphabet unique", "Son vocabulaire limité"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quels pays francophones sont mentionnés dans le texte ?",
-//       "choices": ["Italie, Suisse, Espagne", "Canada, Belgique, Suisse", "Allemagne, Suisse, Canada", "Portugal, Canada, Suisse"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Le français est l’une des langues officielles de :",
-//       "choices": ["L’Union européenne", "L’ASEAN", "L’Organisation mondiale de la santé uniquement", "La Ligue arabe"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Le texte décrit la langue française comme :",
-//       "choices": ["Une langue difficile", "Riche et créative", "Peu parlée", "Surtout utilisée en Europe"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Pourquoi le français est-il considéré comme une langue importante ?",
-//       "choices": ["Parce qu'il est parlé uniquement en Europe", "Parce qu'il est utilisé dans de nombreuses organisations internationales", "Parce qu'il est plus simple que l'anglais", "Parce qu'il est la langue officielle des États-Unis"],
-//       "correctAnswer": 1
-//     }
-//     ],
-// },
-// {
-//   id:'14',
-//   name:'French Reading Assignment 14 (A2)',
-//   level:'Beginner',
-//   Title:'La gastronomie et les traditions culinaires',
-//   readingText: "La gastronomie française est réputée pour sa diversité et sa sophistication. Chaque région de France a ses propres spécialités culinaires qui reflètent son histoire et ses traditions. Par exemple, en Bretagne, les crêpes sont incontournables, tandis que dans le sud de la France, les plats à base de légumes méditerranéens, comme la ratatouille, sont populaires. La cuisine française est également connue pour ses techniques précises et son respect des ingrédients locaux de qualité. Elle fait partie intégrante du patrimoine culturel du pays. \nFrench gastronomy is renowned for its diversity and sophistication. Each region of France has its own culinary specialties that reflect its history and traditions. For example, in Brittany, crepes are a must-try, while in the south of France, dishes based on Mediterranean vegetables, such as ratatouille, are popular. French cuisine is also known for its precise techniques and respect for high-quality local ingredients. It is an integral part of the country's cultural heritage.",
-//   questions: [
-//     {
-//       "question": "Comment la gastronomie française est-elle décrite dans le texte ?",
-//       "choices": ["Comme une tradition ancienne", "Comme un véritable art", "Comme un repas rapide", "Comme une cuisine internationale"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Par qui la gastronomie française est-elle reconnue comme patrimoine culturel immatériel ?",
-//       "choices": ["L’Union européenne", "L’UNESCO", "Le gouvernement français", "L’ONU"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Qu’est-ce qui est souvent servi comme entrée dans un repas français ?",
-//       "choices": ["Un dessert", "Une soupe ou une salade", "Du fromage", "Un café"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Que peut inclure un plat principal français ?",
-//       "choices": ["Du pain et du beurre", "De la viande, du poisson ou des légumes", "Un dessert et un café", "Un apéritif et du fromage"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Par quoi le repas français se termine-t-il souvent ?",
-//       "choices": ["Un fromage", "Un dessert accompagné de café", "Un plat principal", "Une entrée"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Combien de variétés de fromages sont mentionnées dans le texte ?",
-//       "choices": ["Plus de 200", "Plus de 300", "Plus de 400", "Plus de 500"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Quel rôle le fromage joue-t-il dans la gastronomie française ?",
-//       "choices": ["Un rôle mineur", "Un rôle important", "Un rôle décoratif", "Un rôle occasionnel"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelle boisson est presque toujours présente à table ?",
-//       "choices": ["Du café", "De l’eau", "Du vin", "Du thé"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Que peut-on dire sur le vin en France selon le texte ?",
-//       "choices": ["Chaque région a ses spécialités", "Le vin est réservé aux repas de fête", "Le vin est produit uniquement dans le sud", "Le vin n’est pas très populaire"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Comment les repas français sont-ils organisés, selon le texte ?",
-//       "choices": ["Ils commencent par un dessert", "Ils incluent une entrée, un plat principal et un dessert", "Ils se concentrent uniquement sur le fromage", "Ils sont accompagnés de thé ou de café dès le début"],
-//       "correctAnswer": 1
-//     }
-//     ],
-// },
-// {
-//   id:'15',
-//   name:'French Reading Assignment 15 (A2)',
-//   level:'Beginner',
-//   Title:'Les énergies renouvelables et la transition énergétique',
-//   readingText: "La transition énergétique est un défi majeur du XXIe siècle. Le recours aux énergies fossiles a des conséquences néfastes sur l’environnement et contribue au réchauffement climatique. Les énergies renouvelables, comme l’énergie solaire, éolienne et hydraulique, représentent une alternative durable et nécessaire pour assurer un avenir énergétique plus propre. De nombreux pays investissent dans ces sources d’énergie pour réduire leur dépendance aux énergies non renouvelables et diminuer leur empreinte carbone. La transition énergétique nécessite des politiques audacieuses et des innovations technologiques pour réussir. \nThe energy transition is a major challenge of the 21st century. The reliance on fossil fuels has harmful consequences for the environment and contributes to global warming. Renewable energies, such as solar, wind, and hydroelectric power, represent a sustainable and necessary alternative to ensure a cleaner energy future. Many countries are investing in these energy sources to reduce their dependence on non-renewable resources and decrease their carbon footprint. The energy transition requires bold policies and technological innovations to succeed.",
-//   questions: [
-//     {
-//       "question": "Quelle est la destination touristique la plus visitée au monde selon le texte ?",
-//       "choices": ["L'Italie", "La France", "L'Espagne", "Le Japon"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Combien de visiteurs la France accueille-t-elle chaque année ?",
-//       "choices": ["60 millions", "70 millions", "80 millions", "90 millions"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Quel monument emblématique est mentionné dans le texte ?",
-//       "choices": ["Le Colisée", "La tour Eiffel", "La Sagrada Família", "Big Ben"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quel château célèbre attire des millions de touristes ?",
-//       "choices": ["Le château de Windsor", "Le château de Versailles", "Le château de Neuschwanstein", "Le château de Prague"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelle région française est connue pour ses paysages magnifiques ?",
-//       "choices": ["La Provence", "La Toscane", "La Catalogne", "La Bavière"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Quels massifs montagneux français sont idéaux pour les sports d’hiver ?",
-//       "choices": ["Les Andes et les Rocheuses", "Les Alpes et les Pyrénées", "Les Appalaches et les Dolomites", "Les Carpates et les Vosges"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelle est la cathédrale célèbre mentionnée dans le texte ?",
-//       "choices": ["La cathédrale Saint-Paul", "La cathédrale Notre-Dame", "La cathédrale de Milan", "La cathédrale de Séville"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quel est un pilier important de l’économie française selon le texte ?",
-//       "choices": ["L'agriculture", "Le tourisme", "L'industrie automobile", "La technologie"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelles régions françaises sont mentionnées comme ayant une culture locale riche ?",
-//       "choices": ["La Bretagne et la Normandie", "La Provence et la Côte d’Azur", "La Bourgogne et l’Alsace", "La Corse et le Limousin"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelle vallée est mentionnée pour ses paysages magnifiques ?",
-//       "choices": ["La vallée du Rhône", "La vallée de la Loire", "La vallée du Mississippi", "La vallée du Danube"],
-//       "correctAnswer": 1
-//     }
-//     ],
-// },
-// {
-//   id:'16',
-//   name:'French Reading Assignment 16 (A2)',
-//   level:'Beginner',
-//   Title:"La place de l'art dans la société moderne",
-//   readingText: "L'art occupe une place essentielle dans la société moderne. Il permet aux individus d’exprimer leurs émotions, de remettre en question les normes sociales et de faire réfléchir les spectateurs sur des problématiques importantes. Que ce soit à travers la peinture, la sculpture, le cinéma ou la musique, l’art a la capacité de transformer la perception que l’on a du monde. Dans un monde en constante évolution, l’art offre un espace de réflexion, d’évasion et de dialogue. Il incite à la créativité et enrichit la vie culturelle. \nArt plays a vital role in modern society. It allows individuals to express their emotions, challenge social norms, and make audiences reflect on important issues. Whether through painting, sculpture, cinema, or music, art has the ability to transform the way we perceive the world. In an ever-evolving world, art offers a space for reflection, escape, and dialogue. It encourages creativity and enriches cultural life.",
-//   questions: [
-//     {
-//       "question": "Comment Paris est-elle connue selon le texte ?",
-//       "choices": ["Comme la capitale de la gastronomie", "Comme la capitale mondiale de la mode", "Comme la ville lumière", "Comme la capitale de l'art"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quel événement attire des créateurs, des mannequins et des journalistes à Paris chaque année ?",
-//       "choices": ["Le Festival de Cannes", "La Fashion Week", "Le Tour de France", "Le Salon de l'Automobile"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelles marques de luxe présentent leurs collections à Paris ?",
-//       "choices": ["Prada, Gucci et Versace", "Hermès, Saint Laurent et Balmain", "Zara, H&M et Uniqlo", "Nike, Adidas et Puma"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "À quoi la mode à Paris ne se limite-t-elle pas ?",
-//       "choices": ["Aux boutiques", "Aux podiums", "Aux musées", "Aux friperies"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Pour quoi les Parisiens sont-ils réputés ?",
-//       "choices": ["Leur cuisine", "Leur sens du style", "Leur hospitalité", "Leur amour du vin"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Que peut-on trouver à Paris pour les amateurs de mode ?",
-//       "choices": ["Des musées et des galeries", "Des boutiques et des friperies", "Des cafés et des restaurants", "Des parcs et des jardins"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelle expérience Paris offre-t-elle selon le texte ?",
-//       "choices": ["Une expérience culinaire", "Une expérience unique pour les amateurs de mode", "Une expérience historique", "Une expérience musicale"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Qui sont attirés par la Fashion Week à Paris ?",
-//       "choices": ["Les sportifs et les spectateurs", "Les créateurs, les mannequins et les journalistes", "Les étudiants et les professeurs", "Les familles et les enfants"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelles marques ne sont PAS mentionnées dans le texte ?",
-//       "choices": ["Chanel et Dior", "Hermès et Balmain", "Saint Laurent et Hermès", "Prada et Versace"],
-//       "correctAnswer": 3
-//     },
-//     {
-//       "question": "Comment les Parisiens sont-ils décrits dans le texte ?",
-//       "choices": ["Comme élégants et ayant un sens du style", "Comme accueillants et chaleureux", "Comme sportifs et dynamiques", "Comme discrets et réservés"],
-//       "correctAnswer": 0
-//     }
-//     ],
-// },
-// {
-//   id:'17',
-//   name:'French Reading Assignment 17 (A2)',
-//   level:'Beginner',
-//   Title:'Les droits des femmes',
-//   readingText: "Les droits des femmes ont fait des progrès importants au cours des dernières décennies, mais il reste encore beaucoup à faire. Bien que de nombreuses lois aient été adoptées pour garantir l'égalité entre les sexes, des inégalités persistent dans de nombreux domaines, notamment le travail, l'éducation et la politique. Les femmes continuent de se battre pour leurs droits, notamment pour mettre fin à la violence domestique et à la discrimination. Il est crucial que les gouvernements, les entreprises et les citoyens se mobilisent pour garantir l'égalité des droits pour toutes les femmes. \nWomen's rights have made significant progress in recent decades, but much remains to be done. Although many laws have been passed to ensure gender equality, inequalities persist in many areas, including work, education, and politics. Women continue to fight for their rights, particularly to end domestic violence and discrimination. It is crucial that governments, businesses, and citizens mobilize to ensure equal rights for all women.",
-//   questions: [
-//     {
-//       "question": "Quand a débuté la Révolution française ?",
-//       "choices": ["1787", "1788", "1789", "1790"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Quel événement symbolise le début de la Révolution française ?",
-//       "choices": ["La Déclaration des droits de l’homme", "La prise de la Bastille", "La fin de la monarchie", "Le 14 juillet 1799"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quels facteurs ont déclenché la Révolution française ?",
-//       "choices": ["La guerre et la faim", "Les inégalités sociales, une crise économique et les idées révolutionnaires", "La paix et l'unité", "Les idées de l’Église"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quel document a affirmé les principes d’égalité et de liberté ?",
-//       "choices": ["La Constitution", "La Déclaration des droits de l’homme et du citoyen", "Le Code Civil", "Le traité de Versailles"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quel type de gouvernement a été instauré après la Révolution française ?",
-//       "choices": ["La monarchie absolue", "La dictature", "La République", "L'Empire"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Quand a eu lieu la prise de la Bastille ?",
-//       "choices": ["10 août 1789", "14 juillet 1789", "1er janvier 1789", "5 mai 1789"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Qu’est-ce que la Révolution française a mis fin à ?",
-//       "choices": ["La République", "La monarchie absolue", "La guerre civile", "La guerre mondiale"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelles idées ont inspiré la Révolution française ?",
-//       "choices": ["Les idées religieuses", "Les idées révolutionnaires des Lumières", "Les idées militaires", "Les idées royales"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "La Révolution française a conduit à la création de quelles bases ?",
-//       "choices": ["Des réformes fiscales", "Des démocraties modernes", "Des monarchies constitutionnelles", "Des empires coloniaux"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelle caractéristique a marqué la Révolution française ?",
-//       "choices": ["L’unité et la paix", "Des périodes de violence", "Le soutien de l’aristocratie", "Le rejet des idées des Lumières"],
-//       "correctAnswer": 1
-//     }
-//     ],
-// },
-// {
-//   id:'18',
-//   name:'French Reading Assignment 18 (A2)',
-//   level:'Beginner',
-//   Title:"L'avenir de l'intelligence artificielle",
-//   readingText: "L'intelligence artificielle (IA) est l'une des avancées technologiques les plus passionnantes et prometteuses de notre époque. Elle transforme des secteurs entiers, de la médecine à la finance, en passant par l'automobile. Les algorithmes d'IA permettent aux machines de réaliser des tâches qui étaient autrefois réservées aux humains, comme la reconnaissance d'images et la prise de décisions complexes. Cependant, l'IA soulève aussi des questions éthiques, telles que la protection de la vie privée et l'impact sur l'emploi. L'avenir de l'IA dépendra de la manière dont nous régulerons son développement et son utilisation. \nArtificial intelligence (AI) is one of the most exciting and promising technological advancements of our time. It is transforming entire sectors, from medicine to finance, and even in the automotive industry. AI algorithms allow machines to perform tasks that were once reserved for humans, such as image recognition and making complex decisions. However, AI also raises ethical questions, such as privacy protection and its impact on employment. The future of AI will depend on how we regulate its development and use.",
-//   questions: [
-//     {
-//       "question": "Quel est l'objectif principal de la France en ce qui concerne l'environnement ?",
-//       "choices": ["Réduire la pollution et protéger les animaux", "Accorder une grande importance à la protection de l'environnement", "Favoriser la croissance économique", "Augmenter l'utilisation des combustibles fossiles"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelles initiatives la France a-t-elle mises en place ?",
-//       "choices": ["Réduire les émissions de carbone et promouvoir les énergies renouvelables", "Construire plus d'usines", "Supprimer les espaces naturels", "Accroître la production industrielle"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Quel accord international la France respecte-t-elle ?",
-//       "choices": ["L'Accord de Paris sur le climat", "L'Accord de Rome sur le commerce", "L'Accord de Genève sur la sécurité", "L'Accord de Londres sur l'éducation"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Quels types d'espaces sont protégés en France ?",
-//       "choices": ["Les plages et les rues", "Les parcs nationaux et les réserves naturelles", "Les fermes et les usines", "Les zones urbaines et commerciales"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Pourquoi les espaces naturels sont-ils protégés ?",
-//       "choices": ["Pour la détente des citoyens", "Pour préserver la biodiversité", "Pour construire de nouvelles maisons", "Pour organiser des événements"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Comment les citoyens participent-ils à la protection de l'environnement ?",
-//       "choices": ["En votant pour des lois", "En recyclant et en participant à des jardins communautaires", "En visitant les parcs nationaux", "En réduisant les salaires"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quels défis existent encore en France en matière d'environnement ?",
-//       "choices": ["La réduction des déchets alimentaires", "La pollution urbaine et les déchets plastiques", "La surpopulation dans les campagnes", "Le manque d'énergie solaire"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quels types d'énergies la France cherche-t-elle à promouvoir ?",
-//       "choices": ["Les énergies renouvelables", "Les énergies fossiles", "Les énergies nucléaires uniquement", "Les énergies non renouvelables"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Quel est un des projets locaux auxquels participent les citoyens ?",
-//       "choices": ["Les programmes d'exportation", "Les jardins communautaires", "Les événements politiques", "Les concours artistiques"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Que cherche à réduire la France dans le cadre de la protection de l'environnement ?",
-//       "choices": ["Les émissions de carbone", "Les forêts", "La consommation de viande", "Les espaces verts"],
-//       "correctAnswer": 0
-//     }
-//     ],
-// },
-// {
-//   id:'19',
-//   name:'French Reading Assignment 19 (A2)',
-//   level:'Beginner',
-//   Title:"L'impact du sport sur la société",
-//   readingText: "Le sport a un impact profond sur la société. Il rassemble les gens, les incite à adopter un mode de vie plus sain et offre une échappatoire à ceux qui cherchent à se divertir ou à se détendre. Les grandes compétitions sportives, comme les Jeux Olympiques et la Coupe du Monde de football, ont le pouvoir d’unir des nations et de créer un sentiment de fierté nationale. Le sport est également un moyen d’enseigner des valeurs importantes comme le travail d'équipe, la persévérance et le respect. Il a le pouvoir de transformer des vies et d’inspirer des générations. \nSports have a profound impact on society. It brings people together, encourages a healthier lifestyle, and offers an escape for those seeking entertainment or relaxation. Major sporting events, such as the Olympic Games and the FIFA World Cup, have the power to unite nations and create a sense of national pride. Sport is also a way to teach important values such as teamwork, perseverance, and respect. It has the power to transform lives and inspire generations.",
-//   questions: [
-//     {
-//       "question": "Par quelle étape commence le système éducatif français ?",
-//       "choices": ["L’école primaire", "Le collège", "L’école maternelle", "Le lycée"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Que suit l’école maternelle dans le système éducatif français ?",
-//       "choices": ["Le collège", "Le lycée", "L’école primaire", "L’université"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Qu’est-ce que les élèves préparent au lycée ?",
-//       "choices": ["Le bac", "Le certificat", "Le brevet", "L’examen de fin d’année"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Quel diplôme est essentiel pour accéder à l’enseignement supérieur en France ?",
-//       "choices": ["Le bac", "Le brevet des collèges", "Le diplôme universitaire", "Le CAP"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Quel type de programme les élèves suivent-ils au collège ?",
-//       "choices": ["Un programme professionnel", "Un programme général", "Un programme scientifique", "Un programme sportif"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Jusqu’à quel âge l’éducation est-elle gratuite et obligatoire en France ?",
-//       "choices": ["18 ans", "16 ans", "14 ans", "12 ans"],
-//       "correctAnswer": 1
-//     },
-//     {
-//       "question": "Quelles universités françaises sont reconnues pour leur excellence ?",
-//       "choices": ["L’Université de Lyon", "L’Université de Paris", "La Sorbonne et l’Université de Strasbourg", "L’Université de Marseille"],
-//       "correctAnswer": 2
-//     },
-//     {
-//       "question": "Où les élèves vont-ils après le collège ?",
-//       "choices": ["Au lycée", "A l’université", "A l’école primaire", "Dans un centre de formation"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Quel âge ont les enfants lorsqu’ils commencent l’école maternelle en France ?",
-//       "choices": ["3 ans", "5 ans", "6 ans", "4 ans"],
-//       "correctAnswer": 0
-//     },
-//     {
-//       "question": "Que garantit l’éducation gratuite et obligatoire jusqu’à 16 ans ?",
-//       "choices": ["Un accès à la formation professionnelle", "Un accès égal à l’instruction", "Un accès aux universités", "Un accès à des bourses scolaires"],
-//       "correctAnswer": 1
-//     }
-//     ],
-// },
+{
+  id:'11',
+  name:'French Reading Assignment 11 (A2)',
+  level:'Beginner',
+  Title:'Le rôle de la musique dans la société',
+  readingText: "La musique joue un rôle essentiel dans la société humaine. Depuis la nuit des temps, les êtres humains ont utilisé la musique pour exprimer leurs émotions, raconter des histoires et célébrer des événements. Elle traverse les frontières culturelles et unit les gens, qu’ils soient musiciens ou auditeurs. De plus, la musique a des effets prouvés sur le bien-être mental et émotionnel, en permettant à ceux qui l’écoutent de se détendre, de se concentrer ou de se motiver. La musique est également un moyen de protestation et un outil de changement social. \nMusic plays a vital role in human society. Since the dawn of time, humans have used music to express their emotions, tell stories, and celebrate events. It crosses cultural boundaries and unites people, whether they are musicians or listeners. Furthermore, music has proven effects on mental and emotional well-being, allowing listeners to relax, focus, or motivate themselves. Music is also a means of protest and a tool for social change.",
+  questions: [
+    {
+      "question": "Que préfère Sophie ?",
+      "choices": ["Jouer au football", "Lire des romans", "Manger du chocolat noir", "Rester chez elle"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qu’aime faire Marc le week-end ?",
+      "choices": ["Aller au cinéma", "Faire du shopping", "Jouer au football avec ses amis", "Regarder des films d’aventure"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel type de chocolat Clara préfère-t-elle ?",
+      "choices": ["Le chocolat noir", "Le chocolat blanc", "Le chocolat au lait", "Elle n’aime pas le chocolat"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel genre de films Sophie aime-t-elle ?",
+      "choices": ["Les films d’aventure", "Les films sportifs", "Les films romantiques", "Les films comiques"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Que fait Clara dans les restaurants ?",
+      "choices": ["Elle mange des légumes.", "Elle essaie de nouveaux plats.", "Elle regarde des films.", "Elle fait du shopping."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pourquoi Marc ne mange-t-il pas de légumes ?",
+      "choices": ["Il préfère les fruits.", "Il ne les aime pas du tout.", "Il est allergique.", "Il est végétarien."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que font Sophie et Clara ensemble ?",
+      "choices": ["Elles jouent au football.", "Elles font du shopping.", "Elles regardent des films sportifs.", "Elles cuisinent."],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Où Marc préfère-t-il passer son temps ?",
+      "choices": ["À la maison", "À l’extérieur", "Au cinéma", "Avec Clara"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "De quoi Sophie et Marc discutent-ils souvent ?",
+      "choices": ["De football", "De romans", "De leurs films préférés", "De restaurants"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Que préfère faire Clara avec ses amis ?",
+      "choices": ["Aller au cinéma", "Jouer au football", "Passer du temps à la maison", "Faire du shopping"],
+      "correctAnswer": 2
+    }
+    ],
+},
+{
+  id:'12',
+  name:'French Reading Assignment 12 (A2)',
+  level:'Beginner',
+  Title:"L'importance de la santé mentale",
+  readingText: "La santé mentale est un aspect crucial de la santé globale, mais elle est souvent négligée. Les troubles mentaux affectent des millions de personnes dans le monde entier, qu’il s’agisse de dépression, d’anxiété ou de stress. Il est essentiel de comprendre que la santé mentale est aussi importante que la santé physique. Les stigmates autour des troubles mentaux doivent être brisés pour permettre aux individus de demander de l'aide et de recevoir le soutien dont ils ont besoin. Des campagnes de sensibilisation sont nécessaires pour encourager les gens à parler ouvertement de leur santé mentale. \nMental health is a crucial aspect of overall health but is often overlooked. Mental disorders affect millions of people worldwide, whether it be depression, anxiety, or stress. It is essential to understand that mental health is just as important as physical health. The stigma surrounding mental disorders must be broken to allow individuals to ask for help and receive the support they need. Awareness campaigns are necessary to encourage people to openly discuss their mental health.",
+  questions: [
+    {
+      "question": "Que signifie l'expression \"la culture française\" ?",
+      "choices": ["La géographie de la France", "Les coutumes et traditions de la France", "Les monuments célèbres en France", "Les régions de la France"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle ville est souvent appelée \"la ville lumière\" ?",
+      "choices": ["Marseille", "Lyon", "Paris", "Bordeaux"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quels écrivains célèbres sont mentionnés dans le texte ?",
+      "choices": ["Molière, Victor Hugo et Albert Camus", "Victor Hugo, Albert Camus et Marcel Proust", "Jean-Luc Godard et Marcel Proust", "François Truffaut et Victor Hugo"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels plats français sont cités comme symboles de la France ?",
+      "choices": ["Croissants, baguette et soupe à l’oignon", "Croissants, coq au vin et escargots", "Crêpes, croissants et cassoulet", "Croissants, ratatouille et bouillabaisse"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels sont les exemples de marques de mode mentionnés ?",
+      "choices": ["Chanel, Louis Vuitton et Dior", "Hermès, Chanel et Givenchy", "Dior, Balenciaga et Yves Saint Laurent", "Gucci, Chanel et Louis Vuitton"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Le texte mentionne le cinéma français pour quelle raison ?",
+      "choices": ["Pour son succès mondial", "Pour ses effets spéciaux", "Pour son originalité", "Pour ses grands acteurs"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quels réalisateurs français sont mentionnés ?",
+      "choices": ["Jean-Luc Godard et François Truffaut", "Marcel Proust et Albert Camus", "Victor Hugo et François Truffaut", "Louis Vuitton et Jean-Luc Godard"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel domaine n’est pas mentionné dans le texte ?",
+      "choices": ["La littérature", "La musique", "La gastronomie", "La mode"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pourquoi Paris est-elle importante dans la culture française ?",
+      "choices": ["Parce qu’elle est une grande ville touristique", "Parce qu’elle est le centre de la culture vibrante", "Parce qu’elle a des monuments historiques", "Parce qu’elle est connue pour son vin"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels mots décrivent le mieux la culture française selon le texte ?",
+      "choices": ["Riche et diverse", "Simple et traditionnelle", "Moderne et rapide", "Historique et ancienne"],
+      "correctAnswer": 0
+    }
+    ],
+},
+{
+  id:'13',
+  name:'French Reading Assignment 13 (A2)',
+  level:'Beginner',
+  Title:"La littérature classique française",
+  readingText: "La littérature classique française est un trésor de sagesse, de réflexion et de beauté. Des auteurs comme Molière, Racine et Voltaire ont marqué l’histoire littéraire avec leurs pièces de théâtre, romans et essais. Ces œuvres abordent des thèmes universels, tels que l'amour, le pouvoir, la justice et la condition humaine, qui restent pertinents aujourd'hui. La richesse de la langue française, la finesse des personnages et la profondeur des idées font de ces œuvres des classiques qui continuent d’influencer les écrivains du monde entier. \nClassical French literature is a treasure of wisdom, reflection, and beauty. Authors like Molière, Racine, and Voltaire have marked literary history with their plays, novels, and essays. These works address universal themes such as love, power, justice, and the human condition, which remain relevant today. The richness of the French language, the depth of the characters, and the depth of ideas make these works classics that continue to influence writers worldwide.",
+  questions: [
+    {
+      "question": "Combien de locuteurs parlent français dans le monde, selon le texte ?",
+      "choices": ["200 millions", "300 millions", "400 millions", "500 millions"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Le français est la langue officielle de quel pays parmi les suivants ?",
+      "choices": ["Mexique", "Belgique", "Chine", "Australie"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Le français est une langue de travail dans quelle organisation ?",
+      "choices": ["L’UNESCO", "Les Nations Unies", "La NASA", "L’OTAN"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels continents comptent des nations où le français est une langue officielle ?",
+      "choices": ["Asie et Océanie", "Afrique et Europe", "Amérique et Asie", "Europe et Antarctique"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Selon le texte, apprendre le français peut :",
+      "choices": ["Améliorer vos compétences en mathématiques", "Ouvrir des opportunités professionnelles et culturelles", "Rendre les voyages gratuits", "Enseigner d'autres langues automatiquement"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle caractéristique de la langue française est mentionnée dans le texte ?",
+      "choices": ["Sa grammaire simple", "Ses expressions idiomatiques riches", "Son alphabet unique", "Son vocabulaire limité"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels pays francophones sont mentionnés dans le texte ?",
+      "choices": ["Italie, Suisse, Espagne", "Canada, Belgique, Suisse", "Allemagne, Suisse, Canada", "Portugal, Canada, Suisse"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Le français est l’une des langues officielles de :",
+      "choices": ["L’Union européenne", "L’ASEAN", "L’Organisation mondiale de la santé uniquement", "La Ligue arabe"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Le texte décrit la langue française comme :",
+      "choices": ["Une langue difficile", "Riche et créative", "Peu parlée", "Surtout utilisée en Europe"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pourquoi le français est-il considéré comme une langue importante ?",
+      "choices": ["Parce qu'il est parlé uniquement en Europe", "Parce qu'il est utilisé dans de nombreuses organisations internationales", "Parce qu'il est plus simple que l'anglais", "Parce qu'il est la langue officielle des États-Unis"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'14',
+  name:'French Reading Assignment 14 (A2)',
+  level:'Beginner',
+  Title:'La gastronomie et les traditions culinaires',
+  readingText: "La gastronomie française est réputée pour sa diversité et sa sophistication. Chaque région de France a ses propres spécialités culinaires qui reflètent son histoire et ses traditions. Par exemple, en Bretagne, les crêpes sont incontournables, tandis que dans le sud de la France, les plats à base de légumes méditerranéens, comme la ratatouille, sont populaires. La cuisine française est également connue pour ses techniques précises et son respect des ingrédients locaux de qualité. Elle fait partie intégrante du patrimoine culturel du pays. \nFrench gastronomy is renowned for its diversity and sophistication. Each region of France has its own culinary specialties that reflect its history and traditions. For example, in Brittany, crepes are a must-try, while in the south of France, dishes based on Mediterranean vegetables, such as ratatouille, are popular. French cuisine is also known for its precise techniques and respect for high-quality local ingredients. It is an integral part of the country's cultural heritage.",
+  questions: [
+    {
+      "question": "Comment la gastronomie française est-elle décrite dans le texte ?",
+      "choices": ["Comme une tradition ancienne", "Comme un véritable art", "Comme un repas rapide", "Comme une cuisine internationale"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Par qui la gastronomie française est-elle reconnue comme patrimoine culturel immatériel ?",
+      "choices": ["L’Union européenne", "L’UNESCO", "Le gouvernement français", "L’ONU"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qu’est-ce qui est souvent servi comme entrée dans un repas français ?",
+      "choices": ["Un dessert", "Une soupe ou une salade", "Du fromage", "Un café"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que peut inclure un plat principal français ?",
+      "choices": ["Du pain et du beurre", "De la viande, du poisson ou des légumes", "Un dessert et un café", "Un apéritif et du fromage"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Par quoi le repas français se termine-t-il souvent ?",
+      "choices": ["Un fromage", "Un dessert accompagné de café", "Un plat principal", "Une entrée"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Combien de variétés de fromages sont mentionnées dans le texte ?",
+      "choices": ["Plus de 200", "Plus de 300", "Plus de 400", "Plus de 500"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel rôle le fromage joue-t-il dans la gastronomie française ?",
+      "choices": ["Un rôle mineur", "Un rôle important", "Un rôle décoratif", "Un rôle occasionnel"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle boisson est presque toujours présente à table ?",
+      "choices": ["Du café", "De l’eau", "Du vin", "Du thé"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Que peut-on dire sur le vin en France selon le texte ?",
+      "choices": ["Chaque région a ses spécialités", "Le vin est réservé aux repas de fête", "Le vin est produit uniquement dans le sud", "Le vin n’est pas très populaire"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Comment les repas français sont-ils organisés, selon le texte ?",
+      "choices": ["Ils commencent par un dessert", "Ils incluent une entrée, un plat principal et un dessert", "Ils se concentrent uniquement sur le fromage", "Ils sont accompagnés de thé ou de café dès le début"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'15',
+  name:'French Reading Assignment 15 (A2)',
+  level:'Beginner',
+  Title:'Les énergies renouvelables et la transition énergétique',
+  readingText: "La transition énergétique est un défi majeur du XXIe siècle. Le recours aux énergies fossiles a des conséquences néfastes sur l’environnement et contribue au réchauffement climatique. Les énergies renouvelables, comme l’énergie solaire, éolienne et hydraulique, représentent une alternative durable et nécessaire pour assurer un avenir énergétique plus propre. De nombreux pays investissent dans ces sources d’énergie pour réduire leur dépendance aux énergies non renouvelables et diminuer leur empreinte carbone. La transition énergétique nécessite des politiques audacieuses et des innovations technologiques pour réussir. \nThe energy transition is a major challenge of the 21st century. The reliance on fossil fuels has harmful consequences for the environment and contributes to global warming. Renewable energies, such as solar, wind, and hydroelectric power, represent a sustainable and necessary alternative to ensure a cleaner energy future. Many countries are investing in these energy sources to reduce their dependence on non-renewable resources and decrease their carbon footprint. The energy transition requires bold policies and technological innovations to succeed.",
+  questions: [
+    {
+      "question": "Quelle est la destination touristique la plus visitée au monde selon le texte ?",
+      "choices": ["L'Italie", "La France", "L'Espagne", "Le Japon"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Combien de visiteurs la France accueille-t-elle chaque année ?",
+      "choices": ["60 millions", "70 millions", "80 millions", "90 millions"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel monument emblématique est mentionné dans le texte ?",
+      "choices": ["Le Colisée", "La tour Eiffel", "La Sagrada Família", "Big Ben"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel château célèbre attire des millions de touristes ?",
+      "choices": ["Le château de Windsor", "Le château de Versailles", "Le château de Neuschwanstein", "Le château de Prague"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle région française est connue pour ses paysages magnifiques ?",
+      "choices": ["La Provence", "La Toscane", "La Catalogne", "La Bavière"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quels massifs montagneux français sont idéaux pour les sports d’hiver ?",
+      "choices": ["Les Andes et les Rocheuses", "Les Alpes et les Pyrénées", "Les Appalaches et les Dolomites", "Les Carpates et les Vosges"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle est la cathédrale célèbre mentionnée dans le texte ?",
+      "choices": ["La cathédrale Saint-Paul", "La cathédrale Notre-Dame", "La cathédrale de Milan", "La cathédrale de Séville"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel est un pilier important de l’économie française selon le texte ?",
+      "choices": ["L'agriculture", "Le tourisme", "L'industrie automobile", "La technologie"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles régions françaises sont mentionnées comme ayant une culture locale riche ?",
+      "choices": ["La Bretagne et la Normandie", "La Provence et la Côte d’Azur", "La Bourgogne et l’Alsace", "La Corse et le Limousin"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle vallée est mentionnée pour ses paysages magnifiques ?",
+      "choices": ["La vallée du Rhône", "La vallée de la Loire", "La vallée du Mississippi", "La vallée du Danube"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'16',
+  name:'French Reading Assignment 16 (A2)',
+  level:'Beginner',
+  Title:"La place de l'art dans la société moderne",
+  readingText: "L'art occupe une place essentielle dans la société moderne. Il permet aux individus d’exprimer leurs émotions, de remettre en question les normes sociales et de faire réfléchir les spectateurs sur des problématiques importantes. Que ce soit à travers la peinture, la sculpture, le cinéma ou la musique, l’art a la capacité de transformer la perception que l’on a du monde. Dans un monde en constante évolution, l’art offre un espace de réflexion, d’évasion et de dialogue. Il incite à la créativité et enrichit la vie culturelle. \nArt plays a vital role in modern society. It allows individuals to express their emotions, challenge social norms, and make audiences reflect on important issues. Whether through painting, sculpture, cinema, or music, art has the ability to transform the way we perceive the world. In an ever-evolving world, art offers a space for reflection, escape, and dialogue. It encourages creativity and enriches cultural life.",
+  questions: [
+    {
+      "question": "Comment Paris est-elle connue selon le texte ?",
+      "choices": ["Comme la capitale de la gastronomie", "Comme la capitale mondiale de la mode", "Comme la ville lumière", "Comme la capitale de l'art"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel événement attire des créateurs, des mannequins et des journalistes à Paris chaque année ?",
+      "choices": ["Le Festival de Cannes", "La Fashion Week", "Le Tour de France", "Le Salon de l'Automobile"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles marques de luxe présentent leurs collections à Paris ?",
+      "choices": ["Prada, Gucci et Versace", "Hermès, Saint Laurent et Balmain", "Zara, H&M et Uniqlo", "Nike, Adidas et Puma"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "À quoi la mode à Paris ne se limite-t-elle pas ?",
+      "choices": ["Aux boutiques", "Aux podiums", "Aux musées", "Aux friperies"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pour quoi les Parisiens sont-ils réputés ?",
+      "choices": ["Leur cuisine", "Leur sens du style", "Leur hospitalité", "Leur amour du vin"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que peut-on trouver à Paris pour les amateurs de mode ?",
+      "choices": ["Des musées et des galeries", "Des boutiques et des friperies", "Des cafés et des restaurants", "Des parcs et des jardins"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle expérience Paris offre-t-elle selon le texte ?",
+      "choices": ["Une expérience culinaire", "Une expérience unique pour les amateurs de mode", "Une expérience historique", "Une expérience musicale"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qui sont attirés par la Fashion Week à Paris ?",
+      "choices": ["Les sportifs et les spectateurs", "Les créateurs, les mannequins et les journalistes", "Les étudiants et les professeurs", "Les familles et les enfants"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles marques ne sont PAS mentionnées dans le texte ?",
+      "choices": ["Chanel et Dior", "Hermès et Balmain", "Saint Laurent et Hermès", "Prada et Versace"],
+      "correctAnswer": 3
+    },
+    {
+      "question": "Comment les Parisiens sont-ils décrits dans le texte ?",
+      "choices": ["Comme élégants et ayant un sens du style", "Comme accueillants et chaleureux", "Comme sportifs et dynamiques", "Comme discrets et réservés"],
+      "correctAnswer": 0
+    }
+    ],
+},
+{
+  id:'17',
+  name:'French Reading Assignment 17 (A2)',
+  level:'Beginner',
+  Title:'Les droits des femmes',
+  readingText: "Les droits des femmes ont fait des progrès importants au cours des dernières décennies, mais il reste encore beaucoup à faire. Bien que de nombreuses lois aient été adoptées pour garantir l'égalité entre les sexes, des inégalités persistent dans de nombreux domaines, notamment le travail, l'éducation et la politique. Les femmes continuent de se battre pour leurs droits, notamment pour mettre fin à la violence domestique et à la discrimination. Il est crucial que les gouvernements, les entreprises et les citoyens se mobilisent pour garantir l'égalité des droits pour toutes les femmes. \nWomen's rights have made significant progress in recent decades, but much remains to be done. Although many laws have been passed to ensure gender equality, inequalities persist in many areas, including work, education, and politics. Women continue to fight for their rights, particularly to end domestic violence and discrimination. It is crucial that governments, businesses, and citizens mobilize to ensure equal rights for all women.",
+  questions: [
+    {
+      "question": "Quand a débuté la Révolution française ?",
+      "choices": ["1787", "1788", "1789", "1790"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quel événement symbolise le début de la Révolution française ?",
+      "choices": ["La Déclaration des droits de l’homme", "La prise de la Bastille", "La fin de la monarchie", "Le 14 juillet 1799"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels facteurs ont déclenché la Révolution française ?",
+      "choices": ["La guerre et la faim", "Les inégalités sociales, une crise économique et les idées révolutionnaires", "La paix et l'unité", "Les idées de l’Église"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel document a affirmé les principes d’égalité et de liberté ?",
+      "choices": ["La Constitution", "La Déclaration des droits de l’homme et du citoyen", "Le Code Civil", "Le traité de Versailles"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quel type de gouvernement a été instauré après la Révolution française ?",
+      "choices": ["La monarchie absolue", "La dictature", "La République", "L'Empire"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Quand a eu lieu la prise de la Bastille ?",
+      "choices": ["10 août 1789", "14 juillet 1789", "1er janvier 1789", "5 mai 1789"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Qu’est-ce que la Révolution française a mis fin à ?",
+      "choices": ["La République", "La monarchie absolue", "La guerre civile", "La guerre mondiale"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles idées ont inspiré la Révolution française ?",
+      "choices": ["Les idées religieuses", "Les idées révolutionnaires des Lumières", "Les idées militaires", "Les idées royales"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "La Révolution française a conduit à la création de quelles bases ?",
+      "choices": ["Des réformes fiscales", "Des démocraties modernes", "Des monarchies constitutionnelles", "Des empires coloniaux"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelle caractéristique a marqué la Révolution française ?",
+      "choices": ["L’unité et la paix", "Des périodes de violence", "Le soutien de l’aristocratie", "Le rejet des idées des Lumières"],
+      "correctAnswer": 1
+    }
+    ],
+},
+{
+  id:'18',
+  name:'French Reading Assignment 18 (A2)',
+  level:'Beginner',
+  Title:"L'avenir de l'intelligence artificielle",
+  readingText: "L'intelligence artificielle (IA) est l'une des avancées technologiques les plus passionnantes et prometteuses de notre époque. Elle transforme des secteurs entiers, de la médecine à la finance, en passant par l'automobile. Les algorithmes d'IA permettent aux machines de réaliser des tâches qui étaient autrefois réservées aux humains, comme la reconnaissance d'images et la prise de décisions complexes. Cependant, l'IA soulève aussi des questions éthiques, telles que la protection de la vie privée et l'impact sur l'emploi. L'avenir de l'IA dépendra de la manière dont nous régulerons son développement et son utilisation. \nArtificial intelligence (AI) is one of the most exciting and promising technological advancements of our time. It is transforming entire sectors, from medicine to finance, and even in the automotive industry. AI algorithms allow machines to perform tasks that were once reserved for humans, such as image recognition and making complex decisions. However, AI also raises ethical questions, such as privacy protection and its impact on employment. The future of AI will depend on how we regulate its development and use.",
+  questions: [
+    {
+      "question": "Quel est l'objectif principal de la France en ce qui concerne l'environnement ?",
+      "choices": ["Réduire la pollution et protéger les animaux", "Accorder une grande importance à la protection de l'environnement", "Favoriser la croissance économique", "Augmenter l'utilisation des combustibles fossiles"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles initiatives la France a-t-elle mises en place ?",
+      "choices": ["Réduire les émissions de carbone et promouvoir les énergies renouvelables", "Construire plus d'usines", "Supprimer les espaces naturels", "Accroître la production industrielle"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel accord international la France respecte-t-elle ?",
+      "choices": ["L'Accord de Paris sur le climat", "L'Accord de Rome sur le commerce", "L'Accord de Genève sur la sécurité", "L'Accord de Londres sur l'éducation"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quels types d'espaces sont protégés en France ?",
+      "choices": ["Les plages et les rues", "Les parcs nationaux et les réserves naturelles", "Les fermes et les usines", "Les zones urbaines et commerciales"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Pourquoi les espaces naturels sont-ils protégés ?",
+      "choices": ["Pour la détente des citoyens", "Pour préserver la biodiversité", "Pour construire de nouvelles maisons", "Pour organiser des événements"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Comment les citoyens participent-ils à la protection de l'environnement ?",
+      "choices": ["En votant pour des lois", "En recyclant et en participant à des jardins communautaires", "En visitant les parcs nationaux", "En réduisant les salaires"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels défis existent encore en France en matière d'environnement ?",
+      "choices": ["La réduction des déchets alimentaires", "La pollution urbaine et les déchets plastiques", "La surpopulation dans les campagnes", "Le manque d'énergie solaire"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quels types d'énergies la France cherche-t-elle à promouvoir ?",
+      "choices": ["Les énergies renouvelables", "Les énergies fossiles", "Les énergies nucléaires uniquement", "Les énergies non renouvelables"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel est un des projets locaux auxquels participent les citoyens ?",
+      "choices": ["Les programmes d'exportation", "Les jardins communautaires", "Les événements politiques", "Les concours artistiques"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Que cherche à réduire la France dans le cadre de la protection de l'environnement ?",
+      "choices": ["Les émissions de carbone", "Les forêts", "La consommation de viande", "Les espaces verts"],
+      "correctAnswer": 0
+    }
+    ],
+},
+{
+  id:'19',
+  name:'French Reading Assignment 19 (A2)',
+  level:'Beginner',
+  Title:"L'impact du sport sur la société",
+  readingText: "Le sport a un impact profond sur la société. Il rassemble les gens, les incite à adopter un mode de vie plus sain et offre une échappatoire à ceux qui cherchent à se divertir ou à se détendre. Les grandes compétitions sportives, comme les Jeux Olympiques et la Coupe du Monde de football, ont le pouvoir d’unir des nations et de créer un sentiment de fierté nationale. Le sport est également un moyen d’enseigner des valeurs importantes comme le travail d'équipe, la persévérance et le respect. Il a le pouvoir de transformer des vies et d’inspirer des générations. \nSports have a profound impact on society. It brings people together, encourages a healthier lifestyle, and offers an escape for those seeking entertainment or relaxation. Major sporting events, such as the Olympic Games and the FIFA World Cup, have the power to unite nations and create a sense of national pride. Sport is also a way to teach important values such as teamwork, perseverance, and respect. It has the power to transform lives and inspire generations.",
+  questions: [
+    {
+      "question": "Par quelle étape commence le système éducatif français ?",
+      "choices": ["L’école primaire", "Le collège", "L’école maternelle", "Le lycée"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Que suit l’école maternelle dans le système éducatif français ?",
+      "choices": ["Le collège", "Le lycée", "L’école primaire", "L’université"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Qu’est-ce que les élèves préparent au lycée ?",
+      "choices": ["Le bac", "Le certificat", "Le brevet", "L’examen de fin d’année"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel diplôme est essentiel pour accéder à l’enseignement supérieur en France ?",
+      "choices": ["Le bac", "Le brevet des collèges", "Le diplôme universitaire", "Le CAP"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel type de programme les élèves suivent-ils au collège ?",
+      "choices": ["Un programme professionnel", "Un programme général", "Un programme scientifique", "Un programme sportif"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Jusqu’à quel âge l’éducation est-elle gratuite et obligatoire en France ?",
+      "choices": ["18 ans", "16 ans", "14 ans", "12 ans"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Quelles universités françaises sont reconnues pour leur excellence ?",
+      "choices": ["L’Université de Lyon", "L’Université de Paris", "La Sorbonne et l’Université de Strasbourg", "L’Université de Marseille"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Où les élèves vont-ils après le collège ?",
+      "choices": ["Au lycée", "A l’université", "A l’école primaire", "Dans un centre de formation"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Quel âge ont les enfants lorsqu’ils commencent l’école maternelle en France ?",
+      "choices": ["3 ans", "5 ans", "6 ans", "4 ans"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Que garantit l’éducation gratuite et obligatoire jusqu’à 16 ans ?",
+      "choices": ["Un accès à la formation professionnelle", "Un accès égal à l’instruction", "Un accès aux universités", "Un accès à des bourses scolaires"],
+      "correctAnswer": 1
+    }
+    ],
+},
 ]

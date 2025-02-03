@@ -322,4 +322,89 @@ export const data = [
         "Quels dangers penses-tu que la technologie pourrait présenter dans l'avenir?"
       ]
     },
+    {
+      id:'20',
+      name:'French Writing Practice 20 (B1)',
+      level:'Beginner',
+      firstsent: [
+        "Comment les réseaux sociaux influencent-ils nos relations personnelles?",
+        "Penses-tu que la télévision a encore un rôle important dans notre société?",
+        "Quelle est l'importance des traditions culturelles dans un monde globalisé?",
+        "Comment la musique influence-t-elle l'identité d'une génération?",
+        "Quel est l'impact du tourisme sur les cultures locales?",
+        "Penses-tu que le cinéma peut changer les mentalités?",
+        "Pourquoi est-il important de préserver les langues régionales?",
+        "Comment l'immigration influence-t-elle la culture d'un pays?",
+        "Que penses-tu des débats sur la liberté d'expression dans les médias?",
+        "La lecture est-elle encore essentielle dans notre monde numérique?"
+      ]
+    },
+    {
+      id:'21',
+      name:'French Writing Practice 21 (B1)',
+      level:'Beginner',
+      firstsent: [
+        "Quelles sont les solutions les plus efficaces pour lutter contre le changement climatique?",
+        "Penses-tu que les voitures électriques sont l'avenir des transports?",
+        "Comment les jeunes peuvent-ils contribuer à la protection de l’environnement?",
+        "Quels sont les avantages et les inconvénients du recyclage?",
+        "Penses-tu que les gouvernements en font assez pour protéger la planète?",
+        "Comment pourrait-on réduire l’utilisation du plastique dans la vie quotidienne?",
+        "Quel est l’impact de la déforestation sur l’écosystème?",
+        "Que penses-tu des énergies renouvelables comme l’éolien et le solaire?",
+        "Faut-il interdire certains produits pour protéger la biodiversité?",
+        "Comment sensibiliser les gens aux enjeux écologiques?"
+      ]
+    },
+    {
+      id:'22',
+      name:'French Writing Practice 22 (B1)',
+      level:'Beginner',
+      firstsent: [
+        "L'école prépare-t-elle suffisamment les élèves au monde du travail?",
+        "Quels sont les avantages et les inconvénients de l’apprentissage en ligne?",
+        "Comment pourrait-on améliorer le système éducatif actuel?",
+        "Est-il préférable de choisir une carrière par passion ou pour la sécurité financière?",
+        "Que penses-tu de l’idée d’une semaine de travail de quatre jours?",
+        "L’expérience est-elle plus importante que les diplômes dans le monde du travail?",
+        "Quels conseils donnerais-tu à quelqu’un qui hésite sur son orientation professionnelle?",
+        "Les universités devraient-elles être gratuites pour tous?",
+        "Le télétravail est-il une bonne ou une mauvaise chose selon toi?",
+        "Comment vois-tu ton avenir professionnel dans dix ans?"
+      ]
+    },
+    {
+      id:'23',
+      name:'French Writing Practice 23 (B1)',
+      level:'Beginner',
+      firstsent: [
+        "Pourquoi est-il important de manger équilibré?",
+        "Comment la technologie influence-t-elle notre mode de vie et notre santé?",
+        "Quels sont les avantages et les inconvénients du sport en salle par rapport au sport en plein air?",
+        "Comment pourrait-on améliorer la qualité de vie des personnes âgées?",
+        "Que penses-tu des régimes alimentaires comme le végétarisme ou le véganisme?",
+        "Les médecines alternatives sont-elles aussi efficaces que la médecine traditionnelle?",
+        "Comment le stress affecte-t-il notre santé?",
+        "Que faire pour améliorer la santé mentale des jeunes?",
+        "Comment encourager les gens à pratiquer plus d’activités physiques?",
+        "L’accès aux soins de santé devrait-il être gratuit pour tous?"
+      ]
+    },
+    {
+      id:'24',
+      name:'French Writing Practice 24 (B1)',
+      level:'Beginner',
+      firstsent: [
+        "Quels sont les avantages et les risques des avancées en génétique?",
+        "Penses-tu que les humains pourront un jour vivre sur une autre planète?",
+        "Que penses-tu de l’idée des voitures volantes?",
+        "Les robots pourraient-ils remplacer les enseignants dans le futur?",
+        "Quels impacts la découverte de nouvelles technologies a-t-elle sur la société?",
+        "Que penses-tu des expériences scientifiques sur les animaux?",
+        "Quels sont les défis de l’intelligence artificielle dans la médecine?",
+        "Le voyage dans le temps pourrait-il devenir une réalité un jour?",
+        "Que penses-tu de l’impression 3D et de ses applications?",
+        "Les nanotechnologies vont-elles révolutionner notre quotidien?"
+      ]
+    },
 ]

@@ -4355,4 +4355,708 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '21',
+      name: 'French Exercise - 21 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which verb is used for reflexive actions in passé composé?",
+          "choices": ["Être", "Avoir", "Aller", "Venir"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 'réveillon' refer to?",
+          "choices": ["Birthday", "Christmas dinner", "New Year's Eve dinner", "Wedding party"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of the following reflexive verbs takes 'être' in passé composé?",
+          "choices": ["Se laver", "Se réveiller", "Se coucher", "Se marier"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "When is 'Pâques' celebrated?",
+          "choices": ["Christmas", "Easter", "New Year's Day", "Bastille Day"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is 'le Carnaval' in French-speaking cultures?",
+          "choices": ["A music festival", "A celebration before Lent", "A Christmas market", "A national holiday"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which reflexive verb means 'to get dressed'?",
+          "choices": ["Se lever", "S'habiller", "Se souvenir", "Se coucher"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'National Day' in French?",
+          "choices": ["La fête nationale", "La Saint-Jean", "Le Jour de l'An", "La fête de la musique"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does the word 'Noël' refer to?",
+          "choices": ["Easter", "Christmas", "New Year's Eve", "National Holiday"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which verb is used in passé composé for the reflexive action 'to get angry'?",
+          "choices": ["Se fâcher", "Se marier", "Se coucher", "Se reposer"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which French tradition involves music performances throughout the country?",
+          "choices": ["La fête nationale", "La fête de la musique", "Le carnaval", "Le réveillon"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is celebrated during 'Hanoukka'?",
+          "choices": ["Jewish Festival of Lights", "National Holiday", "Christmas", "New Year’s Eve"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What do you do when you 'se coucher' in French?",
+          "choices": ["Get up", "Go to bed", "Eat dinner", "Dress up"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which event is related to a large celebration on 14th July in France?",
+          "choices": ["Bastille Day", "Mardi Gras", "Christmas", "National Day"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What do 'réveillon' and 'Noël' have in common?",
+          "choices": ["They both involve Easter celebrations", "They both are related to the New Year's Eve", "They are both part of the Christmas holiday celebrations", "They refer to different music festivals"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of the following is a reflexive verb meaning 'to marry'?",
+          "choices": ["Se reposer", "Se marier", "Se réveiller", "Se lever"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'New Year’s Day' in French?",
+          "choices": ["Jour de Noël", "Jour de l'An", "Jour de Pâques", "Jour de la fête nationale"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following reflexive verbs means 'to rest'?",
+          "choices": ["Se promener", "Se fâcher", "Se reposer", "Se réveiller"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which celebration marks the start of the new year in France?",
+          "choices": ["Pâques", "Noël", "Jour de l'An", "Le carnaval"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is 'Le Jour de l'An' in French?",
+          "choices": ["Easter", "New Year’s Day", "Christmas", "National Day"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is a traditional food served during 'le Réveillon'?",
+          "choices": ["Roast turkey", "Seafood platters", "Crepes", "Tiramisu"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Je me ______ (se lever) tôt ce matin.",
+          "choices": ["suis levé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (se coucher) à 10 heures hier soir.",
+          "choices": ["s'est couchée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous nous ______ (se laver) avant de partir.",
+          "choices": ["sommes lavés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils se ______ (se promener) dans le parc.",
+          "choices": ["sont promenés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu te ______ (se réveiller) tard aujourd’hui ?",
+          "choices": ["es réveillé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marie ______ (s’habiller) rapidement pour aller à l’école.",
+          "choices": ["s'est habillée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous vous ______ (se préparer) pour la fête d’anniversaire ?",
+          "choices": ["êtes préparés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je me ______ (s'amuser) bien lors de la soirée.",
+          "choices": ["suis amusé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (se doucher) après avoir couru.",
+          "choices": ["s'est douché"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous nous ______ (se retrouver) chez Pierre pour la fête.",
+          "choices": ["sommes retrouvés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elles se ______ (se maquiller) avant la soirée.",
+          "choices": ["sont maquillées"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous vous ______ (se dépêcher) de finir vos devoirs.",
+          "choices": ["êtes dépêchés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (se reposer) après ton travail ?",
+          "choices": ["t'es reposé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je me ______ (se souvenir) de mon voyage en France.",
+          "choices": ["suis souvenu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils se ______ (se baigner) dans la mer cet été.",
+          "choices": ["sont baignés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (se fâcher) après son ami.",
+          "choices": ["s'est fâchée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous nous ______ (se tromper) de chemin pendant nos vacances.",
+          "choices": ["sommes trompés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (se rendre) au marché pour acheter des légumes.",
+          "choices": ["s'est rendu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous vous ______ (se préparer) pour le dîner de Noël ?",
+          "choices": ["êtes préparés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils se ______ (se dire) au revoir avant de partir.",
+          "choices": ["sont dit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Mariage", "rightId": 1 },
+              "right": { "word": "Birthday", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Réveillon", "rightId": 2 },
+              "right": { "word": "Wedding", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Noël", "rightId": 3 },
+              "right": { "word": "Easter", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Pâques", "rightId": 4 },
+              "right": { "word": "New Year’s Eve", "rightId": 2 }
+            },
+            {
+              "left": { "word": "L'anniversaire", "rightId": 5 },
+              "right": { "word": "Christmas", "rightId": 3 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Fête de la musique", "rightId": 1 },
+              "right": { "word": "Hanukkah", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Fête nationale", "rightId": 2 },
+              "right": { "word": "Music Festival", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Hanoukka", "rightId": 3 },
+              "right": { "word": "Carnival", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Jour de l'An", "rightId": 4 },
+              "right": { "word": "National Holiday", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Carnaval", "rightId": 5 },
+              "right": { "word": "New Year’s Day", "rightId": 4 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '22',
+      name: 'French Exercise - 22 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Quel est le sens de l'expression « être dans les nuages » ?",
+          "choices": [
+            "To be lost in thought",
+            "To be daydreaming",
+            "To be happy",
+            "To be angry"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que veut dire « avoir un poil dans la main » ?",
+          "choices": [
+            "To be lazy",
+            "To have something on your mind",
+            "To be very busy",
+            "To be very neat"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Qu'est-ce que « ça ne casse pas trois pattes à un canard » veut dire ?",
+          "choices": [
+            "It's an amazing thing",
+            "It’s very simple",
+            "It’s boring",
+            "It’s difficult to do"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle est la traduction de l’expression « chercher la petite bête » ?",
+          "choices": [
+            "To look for flaws",
+            "To look for something small",
+            "To look for a pet",
+            "To search for a book"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que signifie « avoir le cafard » ?",
+          "choices": [
+            "To feel depressed",
+            "To feel happy",
+            "To be very energetic",
+            "To be scared"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que veut dire « faire chou blanc » ?",
+          "choices": [
+            "To fail",
+            "To succeed",
+            "To feel bored",
+            "To be lucky"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'expression « être à l’ouest » veut dire :",
+          "choices": [
+            "To be confused",
+            "To be lost",
+            "To be calm",
+            "To be energetic"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que veut dire « en avoir marre » ?",
+          "choices": [
+            "To be very excited",
+            "To be tired of something",
+            "To enjoy a moment",
+            "To feel angry"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Qu'est-ce que signifie l'expression « être dans la lune » ?",
+          "choices": [
+            "To be distracted",
+            "To be calm",
+            "To be very tired",
+            "To be angry"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que signifie l'expression « tirer les vers du nez » ?",
+          "choices": [
+            "To extract information",
+            "To tell jokes",
+            "To play a prank",
+            "To stay quiet"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle expression signifie « to be very tired » en français ?",
+          "choices": [
+            "Être sur un nuage",
+            "Être crevé",
+            "Avoir un coup de foudre",
+            "Être dans le pétrin"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que veut dire l’expression « ça me prend la tête » ?",
+          "choices": [
+            "It’s frustrating me",
+            "It’s making me happy",
+            "It’s making me hungry",
+            "It’s confusing me"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que signifie l'expression « se mettre en quatre » ?",
+          "choices": [
+            "To help someone a lot",
+            "To relax",
+            "To fail miserably",
+            "To be nervous"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle est l’expression qui veut dire « to mess things up » ?",
+          "choices": [
+            "Avoir un coup de foudre",
+            "Mettre les pieds dans le plat",
+            "Faire des économies",
+            "Tomber dans les pommes"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que signifie l’expression « comme un poisson dans l’eau » ?",
+          "choices": [
+            "To be very comfortable",
+            "To feel awkward",
+            "To be very energetic",
+            "To be upset"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’expression « en avoir ras le bol » signifie :",
+          "choices": [
+            "To be very happy",
+            "To be fed up",
+            "To be in a rush",
+            "To be in trouble"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que veut dire l’expression « être sur la bonne voie » ?",
+          "choices": [
+            "To be on the right track",
+            "To be confused",
+            "To be lost",
+            "To be angry"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que veut dire « avoir la pêche » ?",
+          "choices": [
+            "To be very energetic",
+            "To be very sad",
+            "To be sleepy",
+            "To be hungry"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle est la traduction de l’expression « avoir le cœur sur la main » ?",
+          "choices": [
+            "To be generous",
+            "To be rude",
+            "To be honest",
+            "To be sad"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'expression « être dans le brouillard » signifie :",
+          "choices": [
+            "To be confused",
+            "To be calm",
+            "To be confident",
+            "To be very tired"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il pleut des ______ et des chats. (It’s raining ____ and cats.)",
+          "choices": ["chiens"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je suis sur un ______ de fer. (I’m on a ____ of iron.)",
+          "choices": ["cheval"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C’est la ______ du siècle. (It’s the ____ of the century.)",
+          "choices": ["fin"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il n’y a pas ______ sous le soleil. (There is nothing ____ under the sun.)",
+          "choices": ["nouveau"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a un ______ à la langue. (She has a ____ on her tongue.)",
+          "choices": ["langue"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je suis tombé dans les ______. (I fell into the ____.)",
+          "choices": ["pommes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ne suis pas dans mon ______. (I’m not in my ____.)",
+          "choices": ["assiette"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il a eu un ______ de génie. (He had a ____ of genius.)",
+          "choices": ["éclat"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce n’est pas ______ à ma porte. (It’s not ____ at my door.)",
+          "choices": ["fric"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C’est un ______ de fer. (It’s a ____ of iron.)",
+          "choices": ["bête"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "On ne peut pas être ______ et avoir le beurre. (You can’t be ____ and have the butter.)",
+          "choices": ["riche"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a mis ______ la table. (She set ____ the table.)",
+          "choices": ["dans"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je me suis ______ dans le pétrin. (I got ____ into trouble.)",
+          "choices": ["embrouillé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il faut ______ du bon côté. (You have to ____ on the good side.)",
+          "choices": ["marcher"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C’est la ______ de l’année. (It’s the ____ of the year.)",
+          "choices": ["programme"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vais ______ un coup de main. (I’m going to ____ a hand.)",
+          "choices": ["donner"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il a fait un ______ de la situation. (He made a ____ of the situation.)",
+          "choices": ["spectacle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C’est ______ pour rien. (It’s ____ for nothing.)",
+          "choices": ["sans"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle m’a fait ______ des œufs. (She made me ____ eggs.)",
+          "choices": ["cuire"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est ______ comme un lion. (He is ____ like a lion.)",
+          "choices": ["fort"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ça marche!", "rightId": 1 },
+              "right": { "word": "To leave", "rightId": 3 }
+            },
+            {
+              "left": { "word": "C’est pas de la tarte!", "rightId": 2 },
+              "right": { "word": "It’s a piece of cake", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Je me casse!", "rightId": 3 },
+              "right": { "word": "You are a star!", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Faire la grasse matinée", "rightId": 4 },
+              "right": { "word": "Go back to sleep", "rightId": 2 }
+            },
+            {
+              "left": { "word": "T’es une star!", "rightId": 5 },
+              "right": { "word": "I’m very tired", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "C’est la fin des haricots", "rightId": 1 },
+              "right": { "word": "To fall in love instantly", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Je suis vachement fatigué", "rightId": 2 },
+              "right": { "word": "It’s the end of everything", "rightId": 1 }
+            },
+            {
+              "left": { "word": "T’es dans le pétrin", "rightId": 3 },
+              "right": { "word": "I’m very angry", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Avoir un coup de foudre", "rightId": 4 },
+              "right": { "word": "I’m super tired", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Je suis crevé", "rightId": 5 },
+              "right": { "word": "To be in trouble", "rightId": 3 }
+            },
+          ],
+        },
+  
+      ],
+    },
 ]

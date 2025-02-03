@@ -112,5 +112,35 @@ export const data = [
         name: 'French Speaking Practice 19 (B1)',
         level: 'Intermediate',
         readingText: "Lorsque j'étais plus jeune, j'avais l'habitude de partir en vacances avec mes parents chaque année. Nous allions souvent à la mer, mais parfois, nous choisissions la montagne pour explorer de nouveaux horizons. Ces vacances étaient l'occasion de passer du temps en famille, de découvrir de nouveaux paysages et de goûter à des plats typiques des régions que nous visitions. Aujourd'hui encore, ces souvenirs me rendent nostalgique."
+    },
+    {
+        id: '20',
+        name: 'French Speaking Practice 20 (B1)',
+        level: 'Intermediate',
+        readingText: "À l'école primaire, j'adorais les cours d'art plastique. J'aimais dessiner et peindre des paysages imaginaires, remplis de couleurs vives et de formes étranges. Mon professeur nous encourageait à exprimer notre créativité sans crainte de faire des erreurs. Chaque vendredi, nous exposions nos œuvres sur le mur de la classe, et je ressentais toujours une grande fierté en voyant mon dessin affiché. Aujourd'hui encore, j'aime prendre du temps pour dessiner lorsque j'en ai l'occasion."
+    },
+    {
+        id: '21',
+        name: 'French Speaking Practice 21 (B1)',
+        level: 'Intermediate',
+        readingText: "Quand j'étais enfant, j'avais un chien qui s'appelait Max. C'était un adorable labrador noir, toujours plein d'énergie et prêt à jouer. Chaque matin, avant de partir à l'école, je lui donnais à manger et lui faisais un câlin. Après les cours, nous allions au parc où il courait après son jouet préféré. Max était bien plus qu'un simple animal de compagnie ; il était mon meilleur ami. Même s'il n'est plus là aujourd'hui, je garde de merveilleux souvenirs de nos moments passés ensemble."
+    },
+    {
+        id: '22',
+        name: 'French Speaking Practice 22 (B1)',
+        level: 'Intermediate',
+        readingText: "Les dimanches en famille étaient toujours très spéciaux. Nous nous réunissions chez mes grands-parents pour un grand repas. Ma grand-mère préparait ses fameuses tartes aux pommes, dont l'odeur embaumait toute la maison. Pendant que les adultes discutaient, mes cousins et moi jouions dans le jardin. Nous organisions des courses, construisions des cabanes et inventions des histoires incroyables. Ces moments de partage étaient précieux, et je les chéris encore aujourd'hui."
+    },
+    {
+        id: '23',
+        name: 'French Speaking Practice 23 (B1)',
+        level: 'Intermediate',
+        readingText: "Pendant mon adolescence, j'ai commencé à m'intéresser à la musique. J'ai appris à jouer de la guitare en regardant des tutoriels en ligne et en pratiquant tous les jours. Au début, c'était difficile, mais avec le temps, j'ai réussi à jouer mes chansons préférées. Un jour, j'ai même eu l'occasion de jouer devant mes amis lors d'une fête. J'étais nerveux, mais après quelques notes, j'ai pris confiance en moi. Depuis, la musique fait partie de ma vie et me permet de m'évader du quotidien."
+    },
+    {
+        id: '24',
+        name: 'French Speaking Practice 24 (B1)',
+        level: 'Intermediate',
+        readingText: "Un été, j'ai eu l'occasion de partir en échange scolaire en Espagne. C'était ma première expérience loin de ma famille, et au début, j'étais un peu inquiet. Mais très vite, j'ai découvert une nouvelle culture, une nouvelle langue et des gens formidables. Ma famille d'accueil était très gentille et m'a fait découvrir des spécialités locales comme la paella. Grâce à cette expérience, j'ai pris confiance en moi et j'ai compris l'importance d'être ouvert aux autres cultures."
     }
 ];
