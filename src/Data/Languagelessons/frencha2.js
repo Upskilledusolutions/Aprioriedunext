@@ -20,7 +20,7 @@ id:'3',
 name:'French Lesson 3 (A2)',
 level:'Beginners',
 pdf:'https://drive.google.com/file/d/1BbE6rD2hS0q4nEA014tHYeBFrV50wbJs/preview',
-video:'https://www.youtube.com/embed/S4BINoSD4iQ?si=TWWKd62CRaFzXoxZ',
+video:'https://www.youtube.com/embed/AUPFNzGmhec?si=frvJodMXftz4JIZa',
 desc:'French Foundation Lesson 3 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {

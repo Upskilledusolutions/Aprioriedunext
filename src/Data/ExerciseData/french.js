@@ -4181,6 +4181,66 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "How do you say \"Where is the train station?\" in French?",
+        "choices": ["Où est la gare?", "Où est le parc?", "Où est la bibliothèque?", "Où est le supermarché?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Tournez à gauche\" mean in English?",
+        "choices": ["Turn right", "Go straight", "Turn left", "Stop here"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase means \"It’s next to the bank\" in French?",
+        "choices": ["C’est à côté de la banque.", "C’est en face de la banque.", "C’est loin de la banque.", "C’est derrière la banque."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct response to \"Où est la poste?\"",
+        "choices": ["La poste est à droite.", "La poste est ouverte.", "La poste est fermée.", "La poste est grande."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"Go straight ahead\" in French?",
+        "choices": ["Tournez à droite", "Allez tout droit", "Arrêtez-vous", "Prenez à gauche"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"C’est en face du parc\" mean in English?",
+        "choices": ["It’s next to the park.", "It’s behind the park.", "It’s in front of the park.", "It’s far from the park."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following means \"Is there a pharmacy nearby?\" in French?",
+        "choices": ["Y a-t-il une pharmacie près d’ici?", "Où est la pharmacie?", "La pharmacie est fermée.", "Je cherche une pharmacie."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct translation of \"The museum is behind the church\"?",
+        "choices": ["Le musée est à côté de l’église.", "Le musée est derrière l’église.", "Le musée est en face de l’église.", "Le musée est loin de l’église."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"Excuse me, can you help me?\" in French?",
+        "choices": ["Excusez-moi, pouvez-vous m’aider?", "Bonjour, où est la gare?", "Merci, au revoir.", "Je ne comprends pas."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Prenez la première rue à droite\" mean in English?",
+        "choices": ["Take the first street on the left.", "Take the second street on the right.", "Take the first street on the right.", "Go straight ahead."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
      
       {
         "question": "(Turn right) ______ après le feu rouge.",
@@ -4239,6 +4299,66 @@ export const quiz = [
       {
         "question": "Où est l’arrêt de bus le plus ______ (near)?",
         "choices": ["proche", "loin", "près", "à côté"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pour aller à la gare, vous devez tourner ______. (to the right)",
+        "choices": ["à droite"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La poste est ______ de la banque. (next to)",
+        "choices": ["à côté"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Excusez-moi, où est ______ ? (the train station)",
+        "choices": ["la gare"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le supermarché est tout ______, à 200 mètres. (straight ahead)",
+        "choices": ["droit"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Comment puis-je aller à ______ ? (the museum)",
+        "choices": ["le musée"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vous allez voir un parc ______ vous. (in front of)",
+        "choices": ["devant"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Est-ce que c’est ______ d’ici ? (far)",
+        "choices": ["loin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pour arriver au musée, traversez le pont et continuez tout ______. (straight ahead)",
+        "choices": ["droit"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pouvez-vous me dire où se trouve ______ ? (the post office)",
+        "choices": ["la poste"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tournez ______ à la deuxième rue. (to the left)",
+        "choices": ["à gauche"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -4414,6 +4534,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "How do you say \"Can we meet at 3 PM?\" in French?",
+        "choices": [
+          "On peut se rencontrer à 15 heures ?",
+          "On peut aller à 15 heures ?",
+          "On peut parler à 15 heures ?",
+          "On peut manger à 15 heures ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Je suis disponible à 10 heures\" mean in English?",
+        "choices": [
+          "I am busy at 10 o'clock.",
+          "I am available at 10 o'clock.",
+          "I am late at 10 o'clock.",
+          "I am tired at 10 o'clock."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase is used to suggest a meeting time?",
+        "choices": [
+          "Quel est votre nom ?",
+          "Ça vous va à 14 heures ?",
+          "Où habitez-vous ?",
+          "Comment ça va ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"I have an appointment\" in French?",
+        "choices": [
+          "J'ai un rendez-vous.",
+          "J'ai un problème.",
+          "J'ai un cadeau.",
+          "J'ai un ami."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Pouvez-vous reporter le rendez-vous ?\" mean in English?",
+        "choices": [
+          "Can you cancel the appointment?",
+          "Can you reschedule the appointment?",
+          "Can you confirm the appointment?",
+          "Can you make the appointment?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase is used to confirm an appointment?",
+        "choices": [
+          "Désolé, je ne peux pas.",
+          "Oui, c'est parfait.",
+          "Non, merci.",
+          "Peut-être."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"What time is convenient for you?\" in French?",
+        "choices": [
+          "Quelle heure est-il ?",
+          "À quelle heure êtes-vous libre ?",
+          "Quel est votre nom ?",
+          "Comment allez-vous ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"Je suis désolé, je ne suis pas libre\" mean in English?",
+        "choices": [
+          "I am sorry, I am not free.",
+          "I am sorry, I am late.",
+          "I am sorry, I am busy.",
+          "I am sorry, I am tired."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is used to ask for someone's availability?",
+        "choices": [
+          "Êtes-vous libre demain ?",
+          "Quel est votre âge ?",
+          "Où allez-vous ?",
+          "Comment ça va ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"Let's meet at the café\" in French?",
+        "choices": [
+          "Rencontrons-nous au café.",
+          "Allons au café.",
+          "Parlons au café.",
+          "Mangeons au café."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
      
       {
         "question": "Je voudrais ______ (make an appointment) pour discuter du projet.",
@@ -4472,6 +4702,66 @@ export const quiz = [
       {
         "question": "Je vous écris pour ______ (discuss) notre collaboration future.",
         "choices": ["discuter", "parler", "expliquer", "négocier"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je voudrais prendre un rendez-vous chez le ______. (dentist)",
+        "choices": ["dentiste"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Est-ce que vous êtes ______ demain matin? (free)",
+        "choices": ["libre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le rendez-vous est à ______ heures. (three)",
+        "choices": ["trois"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je suis désolé, je ne suis pas ______ à cette heure-ci. (available)",
+        "choices": ["disponible"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pouvez-vous ______ le rendez-vous à 15h? (confirm)",
+        "choices": ["confirmer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "J'ai un ______ à 14h, je ne peux pas venir. (meeting)",
+        "choices": ["réunion"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Est-ce que je peux ______ un rendez-vous pour vendredi? (make)",
+        "choices": ["prendre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le ______ est complet, essayez un autre jour. (schedule)",
+        "choices": ["agenda"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je dois ______ mon rendez-vous, je suis malade. (cancel)",
+        "choices": ["annuler"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "À quelle ______ est le rendez-vous? (time)",
+        "choices": ["heure"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

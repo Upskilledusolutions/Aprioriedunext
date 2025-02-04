@@ -376,6 +376,66 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "Which of the following sentences correctly uses a comparative?",
+        "choices": ["Este coche es el más rápido.", "Juan es más alto que Pedro.", "La pizza es la mejor.", "Ella canta mejor."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "In Spanish, which word is commonly used to form comparisons of inequality?",
+        "choices": ["tan", "como", "que", "mejor"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Complete the sentence: “Este hotel es ______________ que el otro.”",
+        "choices": ["el mejor", "mejor", "el peor", "peores"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a correct superlative sentence?",
+        "choices": ["María es más inteligente que Laura.", "Pedro es tan fuerte como su hermano.", "Este es el peor restaurante de la ciudad.", "El coche es más caro."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct translation for “He is the youngest in the group”?",
+        "choices": ["Él es el más joven del grupo.", "Él es más joven que el grupo.", "Él es tan joven como el grupo.", "Él es joven del grupo."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Complete the sentence: “Ella es ______________ cantante del país.”",
+        "choices": ["más buena", "la mejor", "mejor", "la más mejor"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following uses “tan...como” correctly?",
+        "choices": ["Luisa es tan alta como Pedro.", "Este coche es tan más caro.", "Juan es el tan alto de todos.", "Ella canta tan mejor."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Complete the sentence: “Este libro es ______________ que ese.”",
+        "choices": ["tan interesante", "más interesante", "el más interesante", "interesante"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct superlative form in Spanish?",
+        "choices": ["Pedro es el más alto.", "Pedro es alto que todos.", "Pedro es tan alto.", "Pedro es más alto."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following sentences shows a comparison of equality?",
+        "choices": ["Ella es la mejor cantante.", "Luis corre más rápido que Pedro.", "Marta es tan inteligente como Ana.", "El coche es el peor."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
       
       // 20 Fill in the Blanks
 
@@ -436,6 +496,66 @@ export const quiz = [
       {
         "question": "Luis es el ______ (most generous) de todos.",
         "choices": ["más generoso", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Este hotel es más ______ (comfortable) que el otro.",
+        "choices": ["cómodo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi perro es más ______ (friendly) que el de mi vecino.",
+        "choices": ["amigable"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hoy estoy más ______ (tired) que ayer.",
+        "choices": ["cansado"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El libro de historia es más ______ (boring) que el de ciencia ficción.",
+        "choices": ["aburrido"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Carmen canta ______ (well) que su prima.",
+        "choices": ["mejor"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Este es el lugar más ______ (beautiful) lugar que he visitado.",
+        "choices": ["hermoso"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Andrés es el más ______ (strong) de su equipo.",
+        "choices": ["fuerte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "María llegó la más ______ (early) de todos.",
+        "choices": ["temprano"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Esta playa es la playa más ______ (clean) de la zona.",
+        "choices": ["limpia"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Enero fue el mes más ______ (rainy) mes del año pasado.",
+        "choices": ["lluvioso"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -564,6 +684,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "How do you say 'I would travel to Spain if I had money' in Spanish?",
+        "choices": [
+          "Viajaré a España si tengo dinero.",
+          "Viajaría a España si tuviera dinero.",
+          "Viajo a España si tengo dinero.",
+          "Viajé a España si tenía dinero."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a polite request using the conditional tense?",
+        "choices": [
+          "¿Puedes ayudarme?",
+          "¿Podrías ayudarme?",
+          "¿Ayudas?",
+          "¿Ayudaste?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct conditional form of 'comer' for 'we'?",
+        "choices": [
+          "comeríamos",
+          "comeríamos",
+          "comeremos",
+          "comíamos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'She would study more if she had time' in Spanish?",
+        "choices": [
+          "Ella estudiaría más si tiene tiempo.",
+          "Ella estudiaría más si tuviera tiempo.",
+          "Ella estudiará más si tiene tiempo.",
+          "Ella estudió más si tenía tiempo."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence uses the conditional tense correctly for a hypothetical situation?",
+        "choices": [
+          "Si tengo tiempo, voy al cine.",
+          "Si tuviera tiempo, iría al cine.",
+          "Si tengo tiempo, iré al cine.",
+          "Si tenía tiempo, fui al cine."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the conditional form of 'hablar' for 'you' (tú)?",
+        "choices": [
+          "hablarías",
+          "hablarás",
+          "hablaste",
+          "hablabas"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'They would buy a house if they won the lottery' in Spanish?",
+        "choices": [
+          "Comprarían una casa si ganaran la lotería.",
+          "Comprarán una casa si ganan la lotería.",
+          "Compraron una casa si ganaban la lotería.",
+          "Compran una casa si ganan la lotería."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a polite request?",
+        "choices": [
+          "¿Quieres cerrar la ventana?",
+          "¿Cierras la ventana?",
+          "¿Podrías cerrar la ventana?",
+          "¿Cerraste la ventana?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the conditional form of 'vivir' for 'I'?",
+        "choices": [
+          "viviré",
+          "viviría",
+          "vivía",
+          "viví"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'We would go to the beach if it were sunny' in Spanish?",
+        "choices": [
+          "Iríamos a la playa si hace sol.",
+          "Iremos a la playa si hace sol.",
+          "Íbamos a la playa si hacía sol.",
+          "Fuimos a la playa si hacía sol."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
       
       // 20 Fill in the Blanks
 
@@ -624,6 +854,66 @@ export const quiz = [
       {
         "question": "Si ellos tuvieran tiempo, ______ (organizar) una fiesta para ti.",
         "choices": ["organizarían", "organizan", "organizaríamos", "organizarían"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si tuviera más tiempo, yo ______ (would travel) por todo el mundo.",
+        "choices": ["viajaría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (would eat) en ese restaurante si no fuera tan caro.",
+        "choices": ["comeríamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Tú ______ (would help) a tu hermana con su tarea?",
+        "choices": ["ayudarías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (would buy) una casa más grande si ganaran la lotería.",
+        "choices": ["comprarían"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si yo fuera tú, ______ (would study) más para el examen.",
+        "choices": ["estudiaría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ustedes ______ (would visit) a sus abuelos si vivieran más cerca.",
+        "choices": ["visitarían"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué ______ (would you do) tú en mi lugar?",
+        "choices": ["harías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______ (would call) a mi mejor amigo si tuviera su número.",
+        "choices": ["llamaría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si no lloviera, nosotros ______ (would go) al parque.",
+        "choices": ["iríamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella ______ (would read) más libros si tuviera tiempo libre.",
+        "choices": ["leería"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

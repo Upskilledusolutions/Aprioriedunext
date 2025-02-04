@@ -4544,6 +4544,66 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "How do you say \"Where is the bus stop?\" in Spanish?",
+        "choices": ["¿Dónde está la parada de autobús?", "¿Dónde está el supermercado?", "¿Dónde está el hospital?", "¿Dónde está la escuela?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"todo recto\" mean in English?",
+        "choices": ["Turn left", "Turn right", "Go straight", "Stop"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase means \"next to\" in Spanish?",
+        "choices": ["Lejos de", "Cerca de", "Al lado de", "Entre"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "If someone says \"Gira a la derecha,\" what should you do?",
+        "choices": ["Go straight", "Turn left", "Turn right", "Stop"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct response to \"¿Dónde está el supermercado?\" if it’s far away?",
+        "choices": ["Está cerca.", "Está lejos.", "Está al lado.", "Está entre."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following means \"traffic light\" in Spanish?",
+        "choices": ["Semáforo", "Calle", "Parada", "Parque"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"It’s 5 minutes away\" in Spanish?",
+        "choices": ["Está a cinco minutos.", "Está lejos.", "Está cerca.", "Está al lado."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"entre\" mean in English?",
+        "choices": ["Next to", "Between", "Far from", "Straight"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase would you use to ask for directions to the park?",
+        "choices": ["¿Dónde está el parque?", "¿Dónde está el hospital?", "¿Dónde está la escuela?", "¿Dónde está el supermercado?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If someone says \"Sigue todo recto,\" what should you do?",
+        "choices": ["Turn left", "Turn right", "Go straight", "Stop"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
       
       // 20 Fill in the Blanks
 
@@ -4604,6 +4664,66 @@ export const quiz = [
       {
         "question": "Sigue recto y la tienda está ______ (next to) la farmacia.",
         "choices": ["al lado de", "enfrente de", "lejos", "cerca"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para llegar al cine, camina ______ (three blocks).",
+        "choices": ["tres cuadras"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El hospital está ______ (on the corner) de la calle Mayor.",
+        "choices": ["en la esquina"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para ir al museo, cruza la ______ (square).",
+        "choices": ["plaza"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La estación de autobuses está ______ (behind) el centro comercial.",
+        "choices": ["detrás"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Camina ______ (five minutes) y verás la iglesia.",
+        "choices": ["cinco minutos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para llegar al aeropuerto, toma la ______ (exit) número 5.",
+        "choices": ["salida"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El parque está ______ (two blocks) desde aquí.",
+        "choices": ["dos cuadras"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para llegar a la biblioteca, gira a la ______ (right) en la próxima esquina.",
+        "choices": ["derecha"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La cafetería está ______ (on the left) de la calle San Martín.",
+        "choices": ["a la izquierda"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El supermercado está ______ (near) del banco.",
+        "choices": ["cerca"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -4731,6 +4851,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "How do you say \"Can we meet at 3:00 PM?\" in Spanish?",
+        "choices": [
+          "¿Podemos encontrarnos a las 3:00 PM?",
+          "¿Podemos ir a las 3:00 PM?",
+          "¿Podemos salir a las 3:00 PM?",
+          "¿Podemos comer a las 3:00 PM?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"¿A qué hora es la cita?\" mean in English?",
+        "choices": [
+          "Where is the appointment?",
+          "What time is the appointment?",
+          "Who is the appointment with?",
+          "Why is the appointment?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase is used to confirm an appointment?",
+        "choices": [
+          "¿Puedes repetir, por favor?",
+          "Sí, a esa hora estoy libre.",
+          "No entiendo.",
+          "¿Qué hora es?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"I need to reschedule the meeting\" in Spanish?",
+        "choices": [
+          "Necesito cancelar la reunión.",
+          "Necesito cambiar la hora de la reunión.",
+          "Necesito llegar tarde a la reunión.",
+          "Necesito salir temprano de la reunión."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"¿Está disponible el viernes?\" mean in English?",
+        "choices": [
+          "Are you busy on Friday?",
+          "Are you available on Friday?",
+          "Is Friday a holiday?",
+          "Is Friday your favorite day?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase is used to ask for someone’s availability?",
+        "choices": [
+          "¿Qué día es hoy?",
+          "¿A qué hora abren?",
+          "¿Cuándo estás libre?",
+          "¿Dónde está el baño?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say \"The appointment is at 10:00 AM\" in Spanish?",
+        "choices": [
+          "La cita es a las 10:00 AM.",
+          "La cita es en la mañana.",
+          "La cita es tarde.",
+          "La cita es temprano."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"¿Podemos cambiar la fecha?\" mean in English?",
+        "choices": [
+          "Can we change the time?",
+          "Can we change the place?",
+          "Can we change the date?",
+          "Can we cancel the appointment?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase is used to suggest a different time?",
+        "choices": [
+          "¿Qué tal a las 4:00 PM?",
+          "¿Dónde es la reunión?",
+          "¿Quién va a la reunión?",
+          "¿Por qué es la reunión?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"I’m sorry, I can’t make it\" in Spanish?",
+        "choices": [
+          "Lo siento, no puedo ir.",
+          "Lo siento, estoy ocupado.",
+          "Lo siento, no entiendo.",
+          "Lo siento, ¿puedes repetir?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
       
       // 20 Fill in the Blanks
 
@@ -4791,6 +5021,66 @@ export const quiz = [
       {
         "question": "Por favor, ______ (confirm) su disponibilidad para la reunión.",
         "choices": ["confirma","confirme", "1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿A qué hora quieres ______ la cita? (make)",
+        "choices": ["hacer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Necesito ______ una reunión con el doctor. (schedule)",
+        "choices": ["programar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Podemos ______ la reunión para el viernes? (move)",
+        "choices": ["mover"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Estás ______ para las 3 de la tarde? (free)",
+        "choices": ["libre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Voy a ______ mi horario para ver si estoy disponible. (check)",
+        "choices": ["revisar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quiero ______ la cita de mañana. (cancel)",
+        "choices": ["cancelar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Me puedes ______ si vas a venir? (tell)",
+        "choices": ["decir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "No puedo ______ a la reunión, lo siento. (attend)",
+        "choices": ["asistir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Podemos ______ la cita para otro día? (change)",
+        "choices": ["cambiar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Te voy a ______ un día antes para recordarte. (call)",
+        "choices": ["llamar"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

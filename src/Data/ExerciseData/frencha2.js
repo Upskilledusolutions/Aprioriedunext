@@ -370,6 +370,66 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "Which of the following is the correct translation for “This book is more interesting than the other”?",
+        "choices": ["Ce livre est moins intéressant que l’autre.", "Ce livre est plus intéressant que l’autre.", "Ce livre est aussi intéressant que l’autre.", "Ce livre est le plus intéressant."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say “He is as tall as his brother” in French?",
+        "choices": ["Il est plus grand que son frère.", "Il est moins grand que son frère.", "Il est aussi grand que son frère.", "Il est le plus grand."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the superlative form of “petit” (small) for a masculine noun?",
+        "choices": ["le plus petit", "la plus petite", "les plus petits", "le moins petit"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Translate “She is the most intelligent student” into French:",
+        "choices": ["Elle est l'élève la moins intelligente.", "Elle est l'élève la plus intelligente.", "Elle est plus intelligente que les autres.", "Elle est aussi intelligente que les autres."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following means “This is the least expensive car”?",
+        "choices": ["C’est la voiture la plus chère.", "C’est la voiture la moins chère.", "C’est la voiture aussi chère.", "C’est la voiture moins chère."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Choose the correct form: “Jean runs faster than Pierre”",
+        "choices": ["Jean court moins vite que Pierre.", "Jean court aussi vite que Pierre.", "Jean court plus vite que Pierre.", "Jean court le plus vite."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say “This cake is the least sweet” in French?",
+        "choices": ["Ce gâteau est le plus sucré.", "Ce gâteau est aussi sucré.", "Ce gâteau est le moins sucré.", "Ce gâteau est moins sucré."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following sentences is correct?",
+        "choices": ["Elle est plus belle que tous.", "Elle est la plus belle de toutes.", "Elle est moins belle que toutes.", "Elle est aussi belle que toutes."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does “Il est le moins rapide” mean?",
+        "choices": ["He is the fastest.", "He is less fast.", "He is the least fast.", "He is as fast."],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase means “The tallest building”?",
+        "choices": ["Le bâtiment le plus haut", "Le bâtiment le moins haut", "Le bâtiment aussi haut", "Le bâtiment plus haut"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       {
         "question": "Mon frère est ______ (plus/moins) grand que moi.",
@@ -428,6 +488,66 @@ export const quiz = [
       {
         "question": "La France est ______ (plus/moins) grande que l’Inde en termes de population.",
         "choices": ["moins", "plus","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Cette robe est ______ (plus élégante / moins élégante) que la précédente.",
+        "choices": ["plus élégante"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mon chien est ______ (plus gentil / le plus gentil) que celui du voisin.",
+        "choices": ["plus gentil"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Cette pizza est ______ (meilleure / moins bonne) que celle du restaurant italien.",
+        "choices": ["meilleure"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ce film est ______ (plus long / le plus long) de la série.",
+        "choices": ["le plus long"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La France est ______ (plus grande / moins grande) que la Belgique.",
+        "choices": ["plus grande"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Cette activité est ______ (moins intéressante / la plus intéressante) que la randonnée.",
+        "choices": ["moins intéressante"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pierre est ______ (plus grand / moins grand) que son frère.",
+        "choices": ["plus grand"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ce restaurant est ______ (le moins cher / plus cher) du quartier.",
+        "choices": ["le moins cher"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Cette chanteuse est ______ (la meilleure / moins bonne) du concours.",
+        "choices": ["la meilleure"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "L’hiver au Canada est ______ (plus froid / moins froid) que l’hiver en Espagne.",
+        "choices": ["plus froid"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -495,111 +615,221 @@ export const quiz = [
     questions: [
 
       {
-        "question": "How do you express a hypothetical situation with the conditional?",
+        "question": "How would you say 'I would like a coffee' in French?",
         "choices": [
-          "with 'si + present'",
-          "with 'si + imperfect'",
-          "with 'si + conditional'",
-          "with 'si + future'"
+          "Je veux un café.",
+          "Je voudrais un café.",
+          "J’ai voulu un café.",
+          "Je prends un café."
         ],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "Which phrase is correct for making a polite request?",
+        "question": "Which of the following sentences uses the conditional tense for a polite request?",
         "choices": [
-          "I want help.",
-          "You must help me.",
-          "Could you help me?",
-          "Help me, please."
+          "Peux-tu m’aider ?",
+          "Pourrais-tu m’aider ?",
+          "Tu m’aides ?",
+          "Aide-moi !"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct conditional form of 'aller' for 'nous'?",
+        "choices": [
+          "Nous allons",
+          "Nous irions",
+          "Nous allions",
+          "Nous irons"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence expresses a hypothetical situation?",
+        "choices": [
+          "Si j’ai le temps, je vais au cinéma.",
+          "Si j’avais le temps, j’irais au cinéma.",
+          "Je vais au cinéma.",
+          "J’allais au cinéma."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you say 'They would travel if they had money' in French?",
+        "choices": [
+          "Ils voyagent s’ils ont de l’argent.",
+          "Ils voyageraient s’ils avaient de l’argent.",
+          "Ils ont voyagé s’ils avaient de l’argent.",
+          "Ils voyageront s’ils auront de l’argent."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the conditional form of 'être' for 'elle'?",
+        "choices": [
+          "Elle est",
+          "Elle était",
+          "Elle serait",
+          "Elle sera"
         ],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "If I ______ earlier, I would have caught the train.",
+        "question": "Which of the following is a polite request using the conditional tense?",
         "choices": [
-          "had left",
-          "will leave",
-          "would have left",
-          "had been leaving"
+          "Donne-moi le livre.",
+          "Pourriez-vous me donner le livre ?",
+          "Tu me donnes le livre ?",
+          "Donnez-moi le livre !"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct conditional form of 'avoir' for 'je'?",
+        "choices": [
+          "J’ai",
+          "J’avais",
+          "J’aurais",
+          "J’aurai"
         ],
         "type": "MCQs",
         "correctAnswer": 3
       },
       {
-        "question": "What is the correct verb form for the sentence: 'If you ______ a bit more, you would succeed.'",
+        "question": "Which sentence is grammatically correct?",
         "choices": [
-          "studied",
-          "will study",
-          "study",
-          "would study"
-        ],
-        "type": "MCQs",
-        "correctAnswer": 1
-      },
-      {
-        "question": "When is the conditional used?",
-        "choices": [
-          "to talk about real facts",
-          "for wishes and hypotheses",
-          "to express past actions",
-          "to describe ongoing actions"
+          "Si je serais riche, j’achèterais une maison.",
+          "Si j’étais riche, j’achèterais une maison.",
+          "Si je suis riche, j’achèterais une maison.",
+          "Si j’ai été riche, j’achèterais une maison."
         ],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "Which phrase is correct?",
+        "question": "How would you say 'We would visit Paris if it were possible' in French?",
         "choices": [
-          "If I would have the money, I would help you.",
-          "If I had the money, I would help you.",
-          "If I have the money, I would help you.",
-          "If I have the money, I will help you."
+          "Nous visitons Paris si c’est possible.",
+          "Nous visiterions Paris si c’était possible.",
+          "Nous avons visité Paris si c’était possible.",
+          "Nous visiterons Paris si c’est possible."
         ],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "I ______ like to meet you.",
+        "question": "How would you say 'She would call you if she had your number' in French?",
         "choices": [
-          "like",
-          "would like",
-          "likes",
-          "would likes"
+          "Elle t’appelle si elle a ton numéro.",
+          "Elle t’appellerait si elle avait ton numéro.",
+          "Elle t’a appelé si elle avait ton numéro.",
+          "Elle t’appellera si elle aura ton numéro."
         ],
         "type": "MCQs",
         "correctAnswer": 2
       },
       {
-        "question": "If you ______ more time, you would travel more.",
+        "question": "What is the conditional form of 'faire' for 'vous'?",
         "choices": [
-          "had",
-          "have",
-          "would have",
-          "would had"
+          "Vous faites",
+          "Vous feriez",
+          "Vous ferez",
+          "Vous faisiez"
         ],
         "type": "MCQs",
-        "correctAnswer": 1
+        "correctAnswer": 2
       },
       {
-        "question": "How do you express a polite suggestion in French?",
+        "question": "Which sentence is a polite request using the conditional tense?",
         "choices": [
-          "I can do that.",
-          "I should do that.",
-          "I would like to do that.",
-          "I will do that."
+          "Donne-moi ton stylo.",
+          "Pourrais-tu me prêter ton stylo ?",
+          "Tu me prêtes ton stylo ?",
+          "Prête-moi ton stylo !"
         ],
         "type": "MCQs",
-        "correctAnswer": 3
+        "correctAnswer": 2
       },
       {
-        "question": "If you were more patient, you would understand the situation better.",
+        "question": "What is the correct conditional form of 'venir' for 'ils'?",
         "choices": [
-          "are",
-          "would be",
-          "are",
-          "were"
+          "Ils viennent",
+          "Ils viendraient",
+          "Ils venaient",
+          "Ils viendront"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence expresses a hypothetical situation?",
+        "choices": [
+          "Si je suis fatigué, je vais me coucher.",
+          "Si j’étais fatigué, j’irais me coucher.",
+          "Je vais me coucher.",
+          "Je me couchais."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you say 'I would study more if I had time' in French?",
+        "choices": [
+          "J’étudie plus si j’ai le temps.",
+          "J’étudierais plus si j’avais le temps.",
+          "J’ai étudié plus si j’avais le temps.",
+          "J’étudierai plus si j’aurai le temps."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the conditional form of 'pouvoir' for 'tu'?",
+        "choices": [
+          "Tu peux",
+          "Tu pourrais",
+          "Tu pouvais",
+          "Tu pourras"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a polite request using the conditional tense?",
+        "choices": [
+          "Ouvre la fenêtre.",
+          "Pourriez-vous ouvrir la fenêtre ?",
+          "Tu ouvres la fenêtre ?",
+          "Ouvre la fenêtre, s’il te plaît."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct conditional form of 'voir' for 'nous'?",
+        "choices": [
+          "Nous voyons",
+          "Nous verrions",
+          "Nous voyions",
+          "Nous verrons"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you say 'You would understand if you listened' in French?",
+        "choices": [
+          "Tu comprends si tu écoutes.",
+          "Tu comprendrais si tu écoutais.",
+          "Tu as compris si tu écoutais.",
+          "Tu comprendras si tu écoutes."
         ],
         "type": "MCQs",
         "correctAnswer": 2
@@ -662,6 +892,66 @@ export const quiz = [
       {
         "question": "Si je ______ (could), je t'emmènerais en vacances.",
         "choices": ["pouvais"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si j'avais de l'argent, je ______ (to travel) en France.",
+        "choices": ["voyagerais"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous ______ (to eat) au restaurant si nous avions faim.",
+        "choices": ["mangerions"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tu ______ (to buy) cette robe si elle était moins chère.",
+        "choices": ["achèterais"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ils ______ (to visit) Paris s'ils avaient le temps.",
+        "choices": ["visiteraient"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si vous étudiiez plus, vous ______ (to pass) l'examen.",
+        "choices": ["passeriez"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elle ______ (to call) son ami si elle avait son numéro.",
+        "choices": ["appellerait"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si tu m'aidais, je ______ (to finish) plus vite.",
+        "choices": ["finirais"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous ______ (to go) à la plage s'il faisait beau.",
+        "choices": ["irions"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si j'étais toi, je ______ (to choose) cette option.",
+        "choices": ["choisirais"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ils ______ (to play) au football s'ils n'étaient pas fatigués.",
+        "choices": ["joueraient"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

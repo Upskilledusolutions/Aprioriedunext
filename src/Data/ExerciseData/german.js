@@ -4487,6 +4487,66 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "How do you ask for directions to the train station in German?",
+        "choices": ["Wo ist der Bahnhof?", "Wie geht es dir?", "Was ist das?", "Wie spät ist es?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Geradeaus\" mean in English?",
+        "choices": ["Turn left", "Turn right", "Straight ahead", "Stop"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase means \"Where is the nearest bakery?\"",
+        "choices": ["Wo ist die nächste Bäckerei?", "Wo ist der Supermarkt?", "Wo ist die Apotheke?", "Wo ist der Park?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Links\" mean in English?",
+        "choices": ["Right", "Left", "Straight", "Back"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"Excuse me, can you help me?\" in German?",
+        "choices": ["Entschuldigung, können Sie mir helfen?", "Wie viel kostet das?", "Wo ist die Toilette?", "Ich verstehe nicht."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Rechts\" mean in English?",
+        "choices": ["Left", "Right", "Straight", "Stop"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase means \"Is it far from here?\"",
+        "choices": ["Ist es weit von hier?", "Ist es nah von hier?", "Wo ist das?", "Wie komme ich dahin?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Entschuldigung\" mean in English?",
+        "choices": ["Thank you", "Excuse me", "Goodbye", "Hello"],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"Turn right at the next street\" in German?",
+        "choices": ["Biegen Sie rechts an der nächsten Straße ab.", "Gehen Sie geradeaus.", "Biegen Sie links ab.", "Wo ist die nächste Straße?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Wo ist die Apotheke?\" mean in English?",
+        "choices": ["Where is the pharmacy?", "Where is the supermarket?", "Where is the bank?", "Where is the park?"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       // 20 Fill in the Blanks
       {
@@ -4546,6 +4606,66 @@ export const quiz = [
       {
         "question": "Überqueren Sie die ______ (the street) und gehen Sie geradeaus.",
         "choices": ["Straße","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Entschuldigung, wo ist der ______? (park / supermarket / bank)",
+        "choices": ["Supermarkt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Gehen Sie geradeaus bis zur ______. (traffic light / bridge / school)",
+        "choices": ["Ampel"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Biegen Sie links an der ______ ab. (church / restaurant / corner)",
+        "choices": ["Ecke"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Bahnhof ist ______ der Post. (next to / behind / between)",
+        "choices": ["neben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie komme ich zum ______? (museum / hospital / cinema)",
+        "choices": ["Museum"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Apotheke ist ______ der Straße. (on the left / on the right / in the middle)",
+        "choices": ["auf der linken Seite"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Gehen Sie über die ______. (bridge / park / square)",
+        "choices": ["Brücke"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Café ist ______ dem Supermarkt. (opposite / near / inside)",
+        "choices": ["gegenüber"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wo ist der nächste ______? (bus stop / zoo / library)",
+        "choices": ["Busbahnhof"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie müssen an der nächsten ______ rechts abbiegen. (crossing / roundabout / street)",
+        "choices": ["Kreuzung"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -4724,6 +4844,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "How do you ask for an appointment in German?",
+        "choices": [
+          "Ich möchte einen Termin vereinbaren.",
+          "Ich habe Hunger.",
+          "Wo ist der Bahnhof?",
+          "Kannst du mir helfen?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Wann passt es Ihnen?\" mean in English?",
+        "choices": [
+          "Where are you?",
+          "When is it convenient for you?",
+          "What is your name?",
+          "How much does it cost?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase is used to suggest a time for an appointment?",
+        "choices": [
+          "Geht es um 10 Uhr?",
+          "Ich bin müde.",
+          "Das ist teuer.",
+          "Ich verstehe nicht."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"I am available at 3 p.m.\" in German?",
+        "choices": [
+          "Ich bin um 15 Uhr verfügbar.",
+          "Ich habe keine Zeit.",
+          "Ich bin krank.",
+          "Ich bin beschäftigt."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Termin\" mean in English?",
+        "choices": [
+          "Time",
+          "Appointment",
+          "Place",
+          "Food"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase is used to confirm an appointment?",
+        "choices": [
+          "Das passt mir gut.",
+          "Ich bin spät dran.",
+          "Ich habe keine Ahnung.",
+          "Das ist falsch."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"Can we reschedule?\" in German?",
+        "choices": [
+          "Können wir den Termin verschieben?",
+          "Wo ist die Toilette?",
+          "Ich bin verloren.",
+          "Was kostet das?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Ich bin beschäftigt\" mean in English?",
+        "choices": [
+          "I am busy.",
+          "I am hungry.",
+          "I am tired.",
+          "I am happy."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is used to ask for someone’s availability?",
+        "choices": [
+          "Wann haben Sie Zeit?",
+          "Wie geht es Ihnen?",
+          "Wo wohnen Sie?",
+          "Was machen Sie?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"The appointment is at 2 p.m.\" in German?",
+        "choices": [
+          "Der Termin ist um 14 Uhr.",
+          "Ich bin um 14 Uhr da.",
+          "Es ist zu spät.",
+          "Ich habe keine Zeit."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       // 20 Fill in the Blanks
       {
@@ -4783,6 +5013,66 @@ export const quiz = [
       {
         "question": "Ich werde den Termin mit Herrn Müller ______ (confirm).",
         "choices": ["bestätigen", "verschieben", "absagen", "vereinbaren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich möchte einen Termin beim Arzt ______. (machen / absagen)",
+        "choices": ["machen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Können wir den Termin auf Montag ______? (verschieben / bestätigen)",
+        "choices": ["verschieben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe am Dienstag um 10 Uhr ______. (Zeit / Termin)",
+        "choices": ["Termin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Entschuldigung, ich kann nicht kommen. Ich muss den Termin ______. (absagen / bestätigen)",
+        "choices": ["absagen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wann haben Sie ______? (Zeit / Verfügbarkeit)",
+        "choices": ["Verfügbarkeit"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich möchte einen Tisch für zwei Personen ______. (reservieren / stornieren)",
+        "choices": ["reservieren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Können wir den Termin um 15 Uhr ______? (vereinbaren / bestätigen)",
+        "choices": ["vereinbaren"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe um 14 Uhr ______. (Besprechung / Termin)",
+        "choices": ["Termin"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Können Sie mir bitte Ihre Telefonnummer ______? (geben / nehmen)",
+        "choices": ["geben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich komme etwas später. Können wir den Termin ______? (verschieben / bestätigen)",
+        "choices": ["verschieben"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

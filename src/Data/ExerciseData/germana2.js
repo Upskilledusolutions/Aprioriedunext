@@ -373,6 +373,66 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "How do you say 'She is more tired than him' in German?",
+        "choices": ["Sie ist mehr müde als er.", "Sie ist müder als er.", "Sie ist am müdesten als er.", "Sie ist müde als er."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Fill in the blank: 'Mein Bruder ist __________ (tall) als ich.'",
+        "choices": ["höher", "mehr hoch", "größer", "am größten"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct comparative form for the adjective 'hoch' (high):",
+        "choices": ["höher", "hocher", "hohster", "am höchsten"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following sentences uses the superlative form correctly?",
+        "choices": ["Das ist der günstigste Preis.", "Das ist günstigste Preis.", "Das ist der günstiger Preis.", "Das ist der günstigeren Preis."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Fill in the blank: 'Der Film war __________ (good) als das Buch.'",
+        "choices": ["besser", "am besten", "gute", "bester"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which sentence is incorrect?",
+        "choices": ["Der Tisch ist größer als der Stuhl.", "Der Tisch ist am größesten.", "Der Tisch ist größer als der Stuhl.", "Der Tisch ist am größten."],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct translation for 'This chair is more comfortable than that one'?",
+        "choices": ["Dieser Stuhl ist bequemer als der.", "Dieser Stuhl ist bequemer als das.", "Dieser Stuhl ist am bequemsten als der.", "Dieser Stuhl ist bequemlicher als der."],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which is the correct form for 'schlecht' (bad) in the superlative?",
+        "choices": ["am schlechtste", "schlechter", "am schlechtesten", "schlechteste"],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Fill in the blank: 'Dieser Test ist __________ (easy) als der letzte.'",
+        "choices": ["einfacher", "am einfachsten", "einfach", "am einfachersten"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you form the comparative of the adjective 'teuer' (expensive)?",
+        "choices": ["teurer", "teuerer", "am teuersten", "teuerersten"],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       // 20 Fill in the Blanks
       {
@@ -432,6 +492,66 @@ export const quiz = [
       {
         "question": "Ich habe das ______ (most expensive) Auto in der Stadt gesehen.",
         "choices": ["teuerste","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Schwester ist ______ (tall, taller, tallest) als ich.",
+        "choices": ["Größer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ein Elefant ist ______ (heavy, heavier, heaviest) als ein Pferd.",
+        "choices": ["schwerer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich finde Mathematik ______ (difficult, more difficult, most difficult) als Physik.",
+        "choices": ["schwieriger"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Maria spricht Deutsch ______ (good, better, best) als Paul.",
+        "choices": ["besser"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Film gestern Abend war ______ (bad, worse, worst) als erwartet.",
+        "choices": ["schlechter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Aussicht auf dem Berg ist das ______ (beautiful, more beautiful, most beautiful) in der ganzen Region.",
+        "choices": ["schönste"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Laufen ist ______ (healthy, healthier, healthiest) als sitzen.",
+        "choices": ["gesünder"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Dieser Kuchen schmeckt ______ (delicious, more delicious, most delicious) als der andere.",
+        "choices": ["leckerer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mein Hund ist ______ (friendly, friendlier, friendliest) als der Hund meiner Nachbarn.",
+        "choices": ["freundlicher"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Hotel war das ______ (comfortable, more comfortable, most comfortable), in dem wir je übernachtet haben.",
+        "choices": ["bequemste"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -590,6 +710,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "What is the correct form of the verb 'haben' in the conditional tense for 'ich'?",
+        "choices": [
+          "hätte",
+          "hätten",
+          "hattest",
+          "hattet"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which auxiliary verb is used to form the conditional tense in German?",
+        "choices": [
+          "sein",
+          "haben",
+          "werden",
+          "können"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I would go' in German?",
+        "choices": [
+          "Ich gehe",
+          "Ich würde gehen",
+          "Ich ging",
+          "Ich bin gegangen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the conditional tense of 'können' for 'er'?",
+        "choices": [
+          "könnte",
+          "könnten",
+          "könntest",
+          "könntet"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which sentence is in the conditional tense?",
+        "choices": [
+          "Ich spiele Fußball.",
+          "Ich würde Fußball spielen.",
+          "Ich habe Fußball gespielt.",
+          "Ich spielte Fußball."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct conditional form of 'sein' for 'wir'?",
+        "choices": [
+          "wäre",
+          "wären",
+          "wärst",
+          "wärt"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'We would eat pizza' in German?",
+        "choices": [
+          "Wir essen Pizza.",
+          "Wir würden Pizza essen.",
+          "Wir aßen Pizza.",
+          "Wir haben Pizza gegessen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the conditional tense of 'müssen' for 'du'?",
+        "choices": [
+          "müsste",
+          "müssten",
+          "müsstest",
+          "müsstet"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following is NOT a conditional tense form?",
+        "choices": [
+          "würde",
+          "hätte",
+          "könnte",
+          "ging"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "How do you say 'She would read a book' in German?",
+        "choices": [
+          "Sie liest ein Buch.",
+          "Sie würde ein Buch lesen.",
+          "Sie las ein Buch.",
+          "Sie hat ein Buch gelesen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
 
       // 20 Fill in the Blanks
       {
@@ -649,6 +879,66 @@ export const quiz = [
       {
         "question": "Wenn ihr mehr üben ______ (could), würdet ihr die Prüfung bestehen.",
         "choices": ["könntet", "üben", "könnten", "würden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn ich mehr Zeit ______ (have), würde ich ein Buch lesen.",
+        "choices": ["hätte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn du fleißig ______ (study), würdest du die Prüfung bestehen.",
+        "choices": ["lernen würdest"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn es nicht ______ (rain), würden wir spazieren gehen.",
+        "choices": ["regnen würde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn sie genug Geld ______ (have), würden sie nach Italien reisen.",
+        "choices": ["hätten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn er früher ______ (get up), würde er nicht zu spät kommen.",
+        "choices": ["aufstehen würde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn ihr mir ______ (help), würden wir schneller fertig werden.",
+        "choices": ["helfen würdet"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn ich reich ______ (be), würde ich ein Haus kaufen.",
+        "choices": ["wäre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn du mich ______ (call), würde ich antworten.",
+        "choices": ["anrufen würdest"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn wir keine Hausaufgaben ______ (have), würden wir ins Kino gehen.",
+        "choices": ["hätten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn er besser Deutsch ______ (speak), würde er in Deutschland arbeiten.",
+        "choices": ["sprechen würde"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
