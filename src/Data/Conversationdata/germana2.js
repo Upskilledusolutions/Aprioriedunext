@@ -20,6 +20,55 @@ export const youdata = [
       title: "German Conversation 3 (A2)",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
+    {
+      id: '4',
+      url: "/youtube/GmCA204.png",
+      youtube: "https://www.youtube.com/embed/axRdpSxXpFM?si=fCl05g4_uLgvuCr7",
+      title: "German Conversation 4 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '5',
+      url: "/youtube/GmCA205.png",
+      youtube: "https://www.youtube.com/embed/_yniT9jxoDQ?si=q439gDgK20VT1-xX",
+      title: "German Conversation 5 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '6',
+      url: "/youtube/GmCA206.png",
+      youtube: "https://www.youtube.com/embed/-xo5CeQpZVg?si=YxHxuyX8hKJhTY32",
+      title: "German Conversation 6 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '7',
+      url: "/youtube/GmCA207.png",
+      youtube: "https://www.youtube.com/embed/Ibgam_DpHwk?si=61VE07WVmDER3RuB",
+      title: "German Conversation 7 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '8',
+      url: "/youtube/GmCA208.png",
+      youtube: "https://www.youtube.com/embed/F4P7Q4-MtNI?si=UvaTXWwjOmi28wfI",
+      title: "German Conversation 8 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '9',
+      url: "/youtube/GmCA209.png",
+      youtube: "https://www.youtube.com/embed/u3kqCVFeG9s?si=ja9dRwytNfEibWzQ",
+      title: "German Conversation 9 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '10',
+      url: "/youtube/GmCA210.png",
+      youtube: "https://www.youtube.com/embed/xxHN99gc4cY?si=Y86XiYtkYa8VX4lI",
+      title: "German Conversation 10 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
   ];
   
   
