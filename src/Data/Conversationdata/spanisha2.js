@@ -34,4 +34,18 @@ export const youdata = [
       title: "Spanish Conversation 5 (A2)",
       desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
     },
+    {
+      id: '6',
+      url: "/youtube/SpCA206.png",
+      youtube: "https://www.youtube.com/embed/JAb3DislELk?si=l7XxgqBJ-rj3tRlu",
+      title: "Spanish Conversation 6 (A2)",
+      desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+    },
+    {
+      id: '7',
+      url: "/youtube/SpCA207.png",
+      youtube: "https://www.youtube.com/embed/1fLtS52vu2I?si=QaAAhJoo4eSL0tGl",
+      title: "Spanish Conversation 7 (A2)",
+      desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
+    },
 ]

@@ -70,7 +70,7 @@ export default function Login() {
 
     //New
     {"userId": "linguafranca223", "password": "SaphirChimere9397", "name": "", "trial": true, "type": "french", "next":[] }, //using
-    {"userId": "linguafranca227", "password": "SereniteLegende8835", "name": "", "trial": true, "type": "french", "next":[] },
+    {"userId": "linguafranca227", "password": "SereniteLegende8835", "name": "", "trial": true, "type": "french", "next":[] }, //using
     {"userId": "linguafranca229", "password": "InconnuSaphir2727", "name": "", "trial": true, "type": "french", "next":[] },
     {"userId": "linguafranca233", "password": "MelancolieSolitude9465", "name": "", "trial": true, "type": "french", "next":[] },
     {"userId": "linguafranca239", "password": "LegendeInconnu1182", "name": "", "trial": true, "type": "french", "next":[] },
@@ -81,8 +81,8 @@ export default function Login() {
     {"userId": "lumieresaison523", "password": "LegendeChimere7679", "name": "", "trial": true, "type": "frencha2", "next":[] },
     {"userId": "lumieresaison541", "password": "SaphirElegance8028", "name": "", "trial": true, "type": "frencha2", "next":[] },
 
-    {"userId": "quixoticlengua241", "password": "BrisaLenta1480", "name": "", "trial": true, "type": "spanish", "next":[] },
-    {"userId": "quixoticlengua251", "password": "CieloAzul9631", "name": "", "trial": true, "type": "spanish", "next":[] },
+    {"userId": "quixoticlengua241", "password": "BrisaLenta1480", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
+    {"userId": "quixoticlengua251", "password": "CieloAzul9631", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
     {"userId": "quixoticlengua257", "password": "EdificioAlto5917", "name": "", "trial": true, "type": "spanish", "next":[] },
     {"userId": "quixoticlengua263", "password": "PequenoError2604", "name": "", "trial": true, "type": "spanish", "next":[] },
     {"userId": "quixoticlengua269", "password": "DiaNoche5913", "name": "", "trial": true, "type": "spanish", "next":[] },
