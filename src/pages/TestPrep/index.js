@@ -66,8 +66,18 @@ export default function Index() {
     return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
 
+            // Function to check if the card should be displayed
+            const shouldDisplayCard = (card) => {
+              if (user?.type === 'all') return true;
+              
+              const cardPrefix = card.heading.slice(0, 3).toLowerCase();
+              const userTypePrefix = user?.type?.slice(0, 3).toLowerCase();
+              
+              return userTypePrefix === cardPrefix || user?.next?.some(nextType => nextType.slice(0, 3).toLowerCase() === cardPrefix);
+            };
+
   // Sort language cards with unlocked first and locked last
-  const sortedLanguageCards = languageCards.sort((a, b) => {
+  const sortedLanguageCards = languageCards.filter(shouldDisplayCard).sort((a, b) => {
     if (!isCardLocked(a.type) && isCardLocked(b.type)) return -1; // Unlocked comes first
     if (isCardLocked(a.type) && !isCardLocked(b.type)) return 1;  // Locked comes last
     return 0; // Maintain order if both are locked or both are unlocked

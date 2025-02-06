@@ -14,8 +14,18 @@ export default function Index() {
     return user?.type !== 'all' && user?.type !== cardType && !user?.next.includes(cardType);
   };
 
+      // Function to check if the card should be displayed
+      const shouldDisplayCard = (card) => {
+        if (user?.type === 'all') return true;
+        
+        const cardPrefix = card.heading.slice(0, 3).toLowerCase();
+        const userTypePrefix = user?.type?.slice(0, 3).toLowerCase();
+        
+        return userTypePrefix === cardPrefix || user?.next?.some(nextType => nextType.slice(0, 3).toLowerCase() === cardPrefix);
+      };
+
   // Sort the cards so that unlocked cards come first
-  const sortedCards = cards.sort((a, b) => {
+  const sortedCards = cards.filter(shouldDisplayCard).sort((a, b) => {
     // If card A is unlocked and card B is locked, A comes first
     if (!isCardLocked(a.type) && isCardLocked(b.type)) {
       return -1;
