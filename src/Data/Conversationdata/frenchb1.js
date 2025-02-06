@@ -153,6 +153,20 @@ export const youdata = [
     title: "French Conversation 22 (B1)",
     desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
   },
+  {
+    id: '23',
+    url: "/youtube/FrCB123.png",
+    youtube: "https://www.youtube.com/embed/rvlHyDuFW3w?si=bp6CL_rsBe3m13y6",
+    title: "French Conversation 23 (B1)",
+    desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+  },
+  {
+    id: '24',
+    url: "/youtube/FrCB124.png",
+    youtube: "https://www.youtube.com/embed/eYi7cHicPxs?si=nA4g59wJvRxJWoIL",
+    title: "French Conversation 24 (B1)",
+    desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
+  },
   ];
   
   
