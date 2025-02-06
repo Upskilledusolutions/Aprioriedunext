@@ -5,7 +5,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our English Listening Assignments.',
       link: 'EnglishListening',
       data: 'English',
-      link2: 'EnglishListeningAssignment'
+      link2: 'EnglishListeningAssignment',
+      subject: 'EnglishLA'
     },
     {
       type: 'englishb1',
@@ -13,7 +14,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our English Listening Assignments.',
       link: 'EnglishListeningB1',
       data: 'EnglishB1',
-      link2: 'EnglishListeningAssignmentB1'
+      link2: 'EnglishListeningAssignmentB1',
+      subject: 'EnglishB1LA'
     },
     {
       type: 'french',
@@ -21,7 +23,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
       link: 'FrenchListening',
       data: 'French',
-      link2: 'FrenchListeningAssignment'
+      link2: 'FrenchListeningAssignment',
+      subject: 'FrenchLA'
     },
     {
       type: 'frencha2',
@@ -29,7 +32,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
       link: 'FrenchListeningA2',
       data: 'Frencha2',
-      link2: 'FrenchListeningAssignmentA2'
+      link2: 'FrenchListeningAssignmentA2',
+      subject: 'FrenchA2LA'
     },
     {
       type: 'frenchc1',
@@ -37,7 +41,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
       link: 'FrenchListeningC1',
       data: 'Frenchc1',
-      link2: 'FrenchListeningAssignmentC1'
+      link2: 'FrenchListeningAssignmentC1',
+      subject: 'FrenchC1LA'
     },
     {
       type: 'spanish',
@@ -45,7 +50,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',
       link: 'SpanishListening',
       data: 'Spanish',
-      link2: 'SpanishListeningAssignment'
+      link2: 'SpanishListeningAssignment',
+      subject: 'SpanishLA'
     },
     {
       type: 'spanisha2',
@@ -53,7 +59,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',
       link: 'SpanishListeningA2',
       data: 'Spanisha2',
-      link2: 'SpanishListeningAssignmentA2'
+      link2: 'SpanishListeningAssignmentA2',
+      subject: 'SpanishA2LA'
     },
     {
       type: 'spanishc1',
@@ -61,7 +68,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our Spanish Listening Assignments.',
       link: 'SpanishListeningC1',
       data: 'Spanishc1',
-      link2: 'SpanishListeningAssignmentC1'
+      link2: 'SpanishListeningAssignmentC1',
+      subject: 'SpanishC1LA'
     },
     {
       type: 'german',
@@ -69,7 +77,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',
       link: 'GermanListening',
       data: 'German',
-      link2: 'GermanListeningAssignment'
+      link2: 'GermanListeningAssignment',
+      subject: 'GermanLA'
     },
     {
       type: 'germanc1',
@@ -77,6 +86,7 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',
       link: 'GermanListeningC1',
       data: 'Germanc1',
-      link2: 'GermanListeningAssignmentC1'
+      link2: 'GermanListeningAssignmentC1',
+      subject: 'GermanC1LA'
     },
   ];

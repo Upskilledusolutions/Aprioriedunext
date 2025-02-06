@@ -50,7 +50,11 @@ const LessonPage = () => {
             <div className={styles.mainheading}>{lesson[id-1].name}</div>
           </div>
 
-          <ListeningAssignmentWithAudio audios={lesson[id-1].audios} questionsPerAudio={lesson[id-1].questionsPerAudio}/>
+          <ListeningAssignmentWithAudio 
+          id ={id} 
+          subject={somedata.subject} 
+          audios={lesson[id-1].audios} 
+          questionsPerAudio={lesson[id-1].questionsPerAudio}/>
 
         </div>
       </main>

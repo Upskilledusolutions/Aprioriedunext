@@ -52,7 +52,13 @@ const LessonPage = () => {
             <div className={styles.mainheading}>{lesson[id-1].name}</div>
           </div>
 
-          <ReadingAssignment Title={lesson?.[id-1].Title} readingText={lesson[id-1].readingText} questions={lesson[id-1].questions}/>
+          <ReadingAssignment 
+          id ={id} 
+          subject={somedata.subject} 
+          Title={lesson?.[id-1].Title} 
+          readingText={lesson[id-1].readingText} 
+          questions={lesson[id-1].questions}
+          />
 
         </div>
       </main>

@@ -10,6 +10,7 @@ import { useRouter } from 'next/router';
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
+  const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
   const [isClient, setIsClient] = useState(false);
   const [reading, setReading] = useState(null)
 
@@ -29,13 +30,13 @@ export default function FrenchQuizes() {
     }
   }, [somedata]);
 
-  console.log(somedata)
-
   if (!isClient || !somedata) {
     // Optionally return a loader or handle invalid `id`
     return <div>Loading...</div>;
   }
 
+  const subject = somedata.subject
+  let completedQuizzes1 = completedQuizzes.filter(data=> data.language == subject)
   return (
     <>
       <Head>
@@ -52,8 +53,10 @@ export default function FrenchQuizes() {
 
           <div className={styles.cards1}>
             {reading?.map((data, index) => {
+               const completedData = completedQuizzes1.find(quiz => quiz.exercise.toString() === data.id);
+               const completedStyles = completedData ? styles.completed : ''; // Add completed styles
               return (
-                <div key={data.id} className={styles.card1}>
+                <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
                   {user.trial && data.id < 3 || user.type === 'all' || !user.trial ?
                    <Link href={`SingleReadingAssignment/${somedata.link2}/${data.id}`} className={styles.link}>
                   {/* {isLocked && (

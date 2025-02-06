@@ -41,7 +41,11 @@ export default function Index() {
 
   return (
     <div>
-      <SpeechTracker data={lesson[id-1].readingText} code={somedata.code}/>
+      <SpeechTracker 
+      id ={id} 
+      subject={somedata.subject} 
+      data={lesson[id-1].readingText} 
+      code={somedata.code}/>
     </div>
   );
 }

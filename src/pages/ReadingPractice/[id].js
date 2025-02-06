@@ -10,6 +10,7 @@ import { useRouter } from 'next/router';
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
+  const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
   const [isClient, setIsClient] = useState(false);
   const [lessonData, setLessonData] = useState(null);
 
@@ -34,6 +35,9 @@ const router = useRouter();
     return <div>Loading...</div>;
   }
 
+  const subject = somedata.subject
+  let completedQuizzes1 = completedQuizzes.filter(data=> data.language == subject)
+
   return (
     <>
       <Head>
@@ -49,9 +53,12 @@ const router = useRouter();
           </div>
 
           <div className={styles.cards1}>
-            {lessonData ? (
-              lessonData.map((data, index) => (
-                <div key={data.id} className={styles.card1}>
+            {lessonData ? 
+              lessonData.map((data, index) => {
+                const completedData = completedQuizzes1.find(quiz => quiz.exercise.toString() === data.id);
+                const completedStyles = completedData ? styles.completed : ''; // Add completed styles
+                return (
+                <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
                   {user.trial && data.id < 3 || user.type === 'all' || !user.trial ? (
                     <Link href={`SingleReading/${somedata.link2}/${data.id}`} className={styles.link}>
                       <div className={styles.cardflex5}>
@@ -82,8 +89,8 @@ const router = useRouter();
                     </div>
                   )}
                 </div>
-              ))
-            ) : (
+              )})
+             : (
               <div>Loading lessons...</div>
             )}
           </div>

@@ -3,6 +3,8 @@ import styles from '../../../../styles/WritingP.module.css';
 import { cards } from '../../../../Data/Routes/WritingPractice'
 import { IoSend } from "react-icons/io5";
 import { MdContentCopy } from "react-icons/md";
+import { useDispatch } from "react-redux";
+import { addFinishedQuiz } from "@/Store";
 // import { useSelector } from 'react-redux';
 import { useRouter } from 'next/router';
 import Image from 'next/image';
@@ -16,6 +18,7 @@ const ChatGPTComponent = () => {
   const { course, id } = router.query;
   const [selectedTopic, setSelectedTopic] = useState('French');
   const [messages, setMessages] = useState([]);
+  const dispatch = useDispatch();
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false); // Add a loading state
   const [show, setShow] = useState(false)
@@ -91,8 +94,14 @@ const ChatGPTComponent = () => {
     setMessages([{ role: 'assistant', content: sent }]);
     setShow(!show)
   };
+  function closeModal(){
+    setIsModalOpen(false)
+  }
 
   const handleSubmit = async () => {
+    if(!lesson[id-1].firstsent[(Math.floor(messages.length / 3))+1]) {
+      dispatch(addFinishedQuiz({questionType:"MCQs",exercise:id,language:somedata.subject}));
+    }
     if (!input.trim()) return;
 
     const userMessage = { role: 'user', content: input };
@@ -125,7 +134,7 @@ const ChatGPTComponent = () => {
       };
       setMessages((prev) => [...prev, botMessage,{
         role: 'assistant',
-        content: lesson[id-1].firstsent[Math.floor(messages.length / 2 + 1)]
+        content: lesson[id-1].firstsent[(Math.floor(messages.length / 3))+1]
       }]);
     } catch (error) {
       console.error('Error fetching response:', error);
@@ -140,7 +149,7 @@ const ChatGPTComponent = () => {
     setInput('');
   };
 
-  console.log(`${languageimage}`)
+  console.log(lesson[id-1].firstsent[(Math.floor(messages.length / 3))+1])
 
   return (
     <div className={styles.background}>
@@ -164,7 +173,7 @@ const ChatGPTComponent = () => {
                 message.role === 'user' ? styles.user : styles.assistant
               }`}
             >
-              <div
+              {message.content && <div
                 className={`${styles.chatbubble} ${
                   message.role === 'user' ? styles.user : styles.assistant
                 }`}
@@ -180,7 +189,7 @@ const ChatGPTComponent = () => {
                   });
                 }}
                 ><MdContentCopy /></div> 
-              </div>
+              </div>}
             </div>
           ))}
 
@@ -201,11 +210,14 @@ const ChatGPTComponent = () => {
             onChange={(e) => setInput(e.target.value)}
             className={styles.inputtextarea}
             rows={2}
+            placeholder={!lesson[id-1].firstsent[(Math.floor(messages.length / 3))] ? 'Exercise is completed' : ''}
+            disabled={!lesson[id-1].firstsent[(Math.floor(messages.length / 3))] ? true : false}
           ></textarea>
           <button onClick={handleSubmit} className={styles.inputbutton} disabled={loading}>
             {loading ? '...' : <IoSend /> }
           </button>
         </div>
+
       </div>
     </div>
     </div>

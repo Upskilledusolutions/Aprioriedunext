@@ -5,7 +5,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our French Writing Practice.',
       link: 'FrenchWriting',
       data: 'French',
-      link2: 'FrenchWritingPage'
+      link2: 'FrenchWritingPage',
+      subject: 'FrenchWP'
     },
     {
       type: 'spanish',
@@ -13,7 +14,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our Spanish Writing Practice.',
       link: 'SpanishWriting',
       data: 'Spanish',
-      link2: 'SpanishWritingPage'
+      link2: 'SpanishWritingPage',
+      subject: 'SpanishWP'
     },
     {
       type: 'german',
@@ -21,7 +23,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our German Writing Practice.',
       link: 'GermanWriting',
       data: 'German',
-      link2: 'GermanWritingPage'
+      link2: 'GermanWritingPage',
+      subject: 'GermanWP'
     },
     {
       type: 'frencha2',
@@ -29,7 +32,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our French Writing Practice.',
       link: 'FrenchWritingA2',
       data: 'Frencha2',
-      link2: 'FrenchWritingPageA2'
+      link2: 'FrenchWritingPageA2',
+      subject: 'FrenchA2WP'
     },
     {
       type: 'spanisha2',
@@ -37,7 +41,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our Spanish Writing Practice.',
       link: 'SpanishWritingA2',
       data: 'Spanisha2',
-      link2: 'SpanishWritingPageA2'
+      link2: 'SpanishWritingPageA2',
+      subject: 'SpanishA2WP'
     },
     {
       type: 'germana2',
@@ -45,7 +50,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our German Writing Practice.',
       link: 'GermanWritingA2',
       data: 'Germana2',
-      link2: 'GermanWritingPageA2'
+      link2: 'GermanWritingPageA2',
+      subject: 'GermanA2WP'
     },
     {
       type: 'germanb1',
@@ -53,7 +59,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our German Writing Practice.',
       link: 'GermanWritingB1',
       data: 'Germanb1',
-      link2: 'GermanWritingPageB1'
+      link2: 'GermanWritingPageB1',
+      subject: 'GermanB1WP'
     },
     {
       type: 'frenchb1',
@@ -61,7 +68,8 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our French Writing Practice.',
       link: 'FrenchWritingB1',
       data: 'Frenchb1',
-      link2: 'FrenchWritingPageB1'
+      link2: 'FrenchWritingPageB1',
+      subject: 'FrenchB1WP'
     },
     {
       type: 'spanishb1',
@@ -69,6 +77,7 @@ export const cards = [
       text: 'Master the language of art, culture, and diplomacy with our Spanish Writing Practice.',
       link: 'SpanishWritingB1',
       data: 'Spanishb1',
-      link2: 'SpanishWritingPageB1'
+      link2: 'SpanishWritingPageB1',
+      subject: 'SpanishB1WP'
     },
   ];

@@ -8,7 +8,8 @@ import { FaCheck } from "react-icons/fa6";
 import { RxCross1 } from "react-icons/rx";
 import Head from "next/head";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // For toggling icons
-import { useSelector } from 'react-redux'; // To access authentication status from Redux
+import { useDispatch, useSelector } from "react-redux";
+import { unlockExercise, addFinishedQuiz } from "@/Store";
 import MCQComponent from '../../../../components/QuestionContent/MCQ'
 import FillInTheBlanksComponent from '../../../../components/QuestionContent/FillInTheBlanks'
 import JumbledWordsComponent from '../../../../components/QuestionContent/ReorderParagraph'
@@ -27,6 +28,8 @@ const Quiz = () => {
   const [showMenu, setShowMenu] = useState(false); // Toggle state for sidebar on mobile
   const [selectedOption, setSelectedOption] = useState(null);
  const [isSubmitted, setIsSubmitted] = useState(false);
+ const dispatch = useDispatch();
+ const subject = 'FrenchPT';
 
   const router = useRouter();
   const { id } = router.query; // Get the dynamic route parameter
@@ -62,6 +65,7 @@ const Quiz = () => {
       setTime(0);
       setSelectedOption(null);
       setSelectedAnswer("");
+      dispatch(addFinishedQuiz({questionType:"MCQs",exercise:quizId,language:subject}));
     }
   };
 

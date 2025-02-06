@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from "react";
 import styles from "../../src/styles/quiz/reading.module.css"
+import { useDispatch } from "react-redux";
+import { addFinishedQuiz } from "@/Store";
 import Modal from "react-modal"; 
 
-const ReadingAssignment = ({ readingText, questions, Title }) => {
+const ReadingAssignment = ({ id, subject, readingText, questions, Title }) => {
   const [selectedAnswers, setSelectedAnswers] = useState(Array(questions?.length).fill(null));
   const paragraphs = readingText?.split("\n");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(600); // 5 minutes in seconds
+  const dispatch = useDispatch();
 
   useEffect(() => {
     if (timeLeft > 0) {
@@ -36,6 +39,7 @@ const ReadingAssignment = ({ readingText, questions, Title }) => {
     }, 0);
     setScore(calculatedScore);
     setIsModalOpen(true);
+    dispatch(addFinishedQuiz({questionType:"MCQs",exercise:id,language:subject}));
   };
 
   const closeModal = () => {

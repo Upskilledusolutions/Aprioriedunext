@@ -65,7 +65,7 @@ export default function FrenchQuizes() {
             {exerciseData?.map((data, index) => {
              const completedData = completedQuizzes1.find(quiz => quiz.exercise.toString() === data.quiz);
              // Determine if all required question types are completed
-             const isCompleted = completedData && completedData.questionTypes.length > 2 
+             const isCompleted = completedData && completedData.questionTypes.length
              const completedStyles = isCompleted ? styles.completed : ''; // Add completed styles
               return (
                 <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
@@ -73,13 +73,21 @@ export default function FrenchQuizes() {
                   <Link href={`${somedata.link2}/${data.quiz}`} className={styles.link}>
                     <div className={styles.imgcont}>
                       <Image className={styles.img5} src={'/assests/1.png'} width={500} height={500} alt="img" />
+                      <div className={styles.indicators}>
+                      {[...Array(3)].map((_, index) => (
+                        <div
+                          key={index}
+                          className={`${styles.box} ${index < completedData?.questionTypes.length ? styles.filled : ""}`}
+                        />
+                      ))}
+                      </div>
                     </div>
                     <div className={styles.info}>
                       <div className={styles.name}>{data.name}</div>
                       <div className={styles.level}>Level: {data.level}</div>
                       <div className={styles.topic}>Topic: {data.topic}</div>
                     </div>
-                  </Link>:                                <div className={styles.locked2}>
+                  </Link>: <div className={styles.locked2}>
                 <div className={styles.lockOverlay3}>
                   <FaLock />
                   <p>Locked</p>

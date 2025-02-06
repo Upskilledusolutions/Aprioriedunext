@@ -1,9 +1,11 @@
 import React, { useEffect, useState, useRef } from "react";
 import styles from "../../src/styles/quiz/reading.module.css";
+import { useDispatch } from "react-redux";
+import { addFinishedQuiz } from "@/Store";
 import Modal from "react-modal";
 import { useRouter } from 'next/router';
 
-const ReadingAssignmentWithAudio = ({ audios, questionsPerAudio }) => {
+const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) => {
   const [selectedAnswers, setSelectedAnswers] = useState([]);
   const [currentAudioIndex, setCurrentAudioIndex] = useState(0);
   const [currentQuestions, setCurrentQuestions] = useState([]);
@@ -13,6 +15,7 @@ const ReadingAssignmentWithAudio = ({ audios, questionsPerAudio }) => {
   const [timeLeft, setTimeLeft] = useState(null); // Timer starts as null
   const audioRef = useRef(null);
   const router = useRouter();
+  const dispatch = useDispatch();
 
   useEffect(() => {
     setCurrentQuestions(questionsPerAudio[currentAudioIndex] || []);
@@ -84,6 +87,7 @@ const ReadingAssignmentWithAudio = ({ audios, questionsPerAudio }) => {
     }, 0);
     setScore(totalScore);
     setIsEndModalOpen(true);
+    dispatch(addFinishedQuiz({questionType:"MCQs",exercise:id,language:subject}));
   };
 
   const startAssignment = async () => {

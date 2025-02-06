@@ -36,6 +36,7 @@ id:'5',
 name:'French Lesson 5 (A2)',
 level:'Beginners',
 pdf:'https://drive.google.com/file/d/1tDK0IOEhjwo-4PfTddTIV8hp0eG2NLU1/preview',
+video:'https://www.youtube.com/embed/bg4Oa3Mmwb8?si=NhEb_18StRTW7bNY',
 desc:'French Foundation Lesson 5 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {

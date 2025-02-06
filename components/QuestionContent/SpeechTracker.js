@@ -3,6 +3,8 @@ import styles from '../../src/styles/quiz/speechtracker.module.css';
 import { HiSpeakerWave } from "react-icons/hi2";
 import { HiSpeakerXMark } from "react-icons/hi2";
 import { MdHearing, MdHearingDisabled } from "react-icons/md";
+import { useDispatch } from "react-redux";
+import { addFinishedQuiz } from "@/Store";
 
 // Function to calculate the similarity percentage between two words
 const getSimilarity = (word1, word2) => {
@@ -42,7 +44,7 @@ const editDistance = (s1, s2) => {
 
 
 
-const SpeechTracker = ({ data, code }) => {
+const SpeechTracker = ({ id, subject, data, code }) => {
   const [spokenWords, setSpokenWords] = useState(""); // Final recognized words
   const [interimWords, setInterimWords] = useState(""); // Interim (live) recognized words
   const [isListening, setIsListening] = useState(false);
@@ -57,6 +59,7 @@ const SpeechTracker = ({ data, code }) => {
   const recognitionRef = useRef(null);
   const utteranceRef = useRef(null); // Added a reference for the current utterance
   const intervalRef = useRef(null); // Reference for interval to track speech progress
+  const dispatch = useDispatch();
 
   const toggleListening = () => {
     setIsListening((prev) => !prev);
@@ -113,8 +116,7 @@ const SpeechTracker = ({ data, code }) => {
       const cleanedWord = word.replace(/[.,?!]/g, "").toLowerCase();
 
       // Compare spoken words with a similarity threshold of 60%
-      const isSimilar = spokenArray.some(spokenWord => getSimilarity(spokenWord, cleanedWord) >= 0.6);
-      console.log(isSimilar)
+      const isSimilar = spokenArray.some(spokenWord => getSimilarity(spokenWord, cleanedWord) >= 0.4);
       if (index === nextBoldIndex && isSimilar) {
         setLastBoldIndex(index);
         nextBoldIndex += 1;
@@ -131,6 +133,7 @@ const SpeechTracker = ({ data, code }) => {
   useEffect(() => {
     if (lastBoldIndex >= data.split(" ").length - 1) {
       setIsModalOpen(true);
+      dispatch(addFinishedQuiz({questionType:"MCQs",exercise:id,language:subject}));
     }
   }, [lastBoldIndex, data]);
 

@@ -6,6 +6,7 @@ export const cards = [
       link: 'EnglishReading',
       data: 'English',
       link2: 'EnglishReadingAssignment',
+      subject: 'EnglishRA'
     },
     {
       type: 'englishb1',
@@ -14,6 +15,7 @@ export const cards = [
       link: 'EnglishReadingB1',
       data: 'Englishb1',
       link2: 'EnglishReadingAssignmentB1',
+      subject: 'Englishb1RA'
     },
     {
       type: 'french',
@@ -22,6 +24,7 @@ export const cards = [
       link: 'FrenchReading',
       data: 'French',
       link2: 'FrenchReadingAssignment',
+      subject: 'FrenchRA'
     },
     {
       type: 'frencha2',
@@ -30,6 +33,7 @@ export const cards = [
       link: 'FrenchReadingA2',
       data: 'Frencha2',
       link2: 'FrenchReadingAssignmentA2',
+      subject: 'FrenchA2RA'
     },
     {
         type: 'spanish',
@@ -38,6 +42,7 @@ export const cards = [
         link: 'SpanishReading',
         data: 'Spanish',
         link2: 'SpanishReadingAssignment',
+        subject: 'SpanishRA'
       },
       {
         type: 'spanisha2',
@@ -46,6 +51,7 @@ export const cards = [
         link: 'SpanishReadingA2',
         data: 'Spanisha2',
         link2: 'SpanishReadingAssignmentA2',
+        subject: 'SpanishA2RA'
       },
       {
         type: 'german',
@@ -54,6 +60,7 @@ export const cards = [
         link: 'GermanReading',
         data: 'German',
         link2: 'GermanReadingAssignment',
+        subject: 'GermanRA'
       },
       {
         type: 'germana2',
@@ -62,6 +69,7 @@ export const cards = [
         link: 'GermanReadingA2',
         data: 'Germana2',
         link2: 'GermanReadingAssignmentA2',
+        subject: 'GermanA2RA'
       },
       // {
       //   type: 'germanb1',
@@ -78,6 +86,7 @@ export const cards = [
       link: 'FrenchReadingC1',
       data: 'Frenchc1',
       link2: 'FrenchReadingAssignmentC1',
+      subject: 'FrenchC1RA'
     },
     {
       type: 'spanishc1',
@@ -86,6 +95,7 @@ export const cards = [
       link: 'SpanishReadingC1',
       data: 'Spanishc1',
       link2: 'SpanishReadingAssignmentC1',
+      subject: 'SpanishC1RA'
     },
     {
       type: 'germanc1',
@@ -94,5 +104,6 @@ export const cards = [
       link: 'GermanReadingC1',
       data: 'Germanc1',
       link2: 'GermanReadingAssignmentC1',
+      subject: 'GermanC1RA'
     },
   ];

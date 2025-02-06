@@ -9,6 +9,9 @@ import { useSelector } from 'react-redux'; // To access authentication status fr
 
 export default function FrenchQuizes() {
   const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status
+  const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
+  const subject = "FrenchPT"
+  let completedQuizzes1 = completedQuizzes.filter(data=> data.language == subject)
 
   return (
     <>
@@ -26,10 +29,12 @@ export default function FrenchQuizes() {
 
           <div className={styles.cards1}>
             {quiz.map((data, index) => {
+              const completedData = completedQuizzes1.find(quiz => quiz.exercise.toString() === data.quiz);
+              const completedStyles = completedData ? styles.completed : ''; // Add completed styles
               // Determine if the quiz should be locked
               const isLocked = !isAuthenticated && index > 1;
               return (
-                <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''}`}>
+                <div key={data.quiz} className={`${styles.card1} ${completedStyles} ${isLocked ? styles.locked : ''}`}>
                   <Link href={`FrenchQuiz/${data.quiz}`} className={styles.link}>
                     <div className={styles.imgcont}>
                       <Image className={styles.img5} src={'/assests/1.png'} width={500} height={500} alt="img" />

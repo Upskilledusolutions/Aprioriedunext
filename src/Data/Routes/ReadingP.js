@@ -7,7 +7,8 @@
       link: 'EnglishReading',
       data: 'English',
       link2: 'EnglishReadingPage',
-      code: 'en-US'
+      code: 'en-US',
+      subject: 'EnglishRP'
     },
     {
         type: 'french',
@@ -16,7 +17,8 @@
         link: 'FrenchReading',
         data: 'French',
         link2: 'FrenchReadingPage',
-        code: 'fr-FR'
+        code: 'fr-FR',
+        subject: 'FrenchRP'
       },
       {
         type: 'spanish',
@@ -25,7 +27,8 @@
         link: 'SpanishReading',
         data: 'Spanish',
         link2: 'SpanishReadingPage',
-        code: 'es-ES'
+        code: 'es-ES',
+        subject: 'SpanishRP'
       },
       {
         type: 'german',
@@ -34,7 +37,8 @@
         link: 'GermanReading',
         data: 'German',
         link2: 'GermanReadingPageB1',
-        code: 'de-DE'
+        code: 'de-DE',
+        subject: 'GermanRP'
       },
       {
         type: 'frencha2',
@@ -43,7 +47,8 @@
         link: 'FrenchReadingA2',
         data: 'Frencha2',
         link2: 'FrenchReadingPageA2',
-        code: 'fr-FR'
+        code: 'fr-FR',
+        subject: 'FrenchA2RP'
       },
       {
         type: 'spanisha2',
@@ -52,7 +57,8 @@
         link: 'SpanishReadingA2',
         data: 'Spanisha2',
         link2: 'SpanishReadingPageA2',
-        code: 'es-ES'
+        code: 'es-ES',
+        subject: 'SpanishA2RAP'
       },
       {
         type: 'spanishb1',
@@ -61,7 +67,8 @@
         link: 'SpanishReadingB1',
         data: 'Spanishb1',
         link2: 'SpanishReadingPageB1',
-        code: 'es-ES'
+        code: 'es-ES',
+        subject: 'SpanishB1RP'
       },
       {
         type: 'germana2',
@@ -70,7 +77,8 @@
         link: 'GermanReadingA2',
         data: 'Germana2',
         link2: 'GermanReadingPageA2',
-        code: 'de-DE'
+        code: 'de-DE',
+        subject: 'GermanA2RP'
       },
       {
         type: 'englishb1',
@@ -79,7 +87,8 @@
         link: 'EnglishReadingB1',
         data: 'englishb1',
         link2: 'EnglishReadingPageB1',
-        code: 'en-US'
+        code: 'en-US',
+        subject: 'EnglishB1RP'
       },
       {
         type: 'frenchb1',
@@ -88,7 +97,8 @@
         link: 'FrenchReadingB1',
         data: 'Frenchb1',
         link2: 'FrenchReadingPageB1',
-        code: 'fr-FR'
+        code: 'fr-FR',
+        subject: 'FrenchB1RP'
       },
       {
         type: 'frenchc1',
@@ -97,7 +107,8 @@
         link: 'FrenchReadingC1',
         data: 'Frenchc1',
         link2: 'FrenchReadingPageC1',
-        code: 'fr-FR'
+        code: 'fr-FR',
+        subject: 'FrenchC1RP'
       },
       {
         type: 'spanishc1',
@@ -106,7 +117,8 @@
         link: 'SpanishReadingC1',
         data: 'Spanishc1',
         link2: 'SpanishReadingPageC1',
-        code: 'es-ES'
+        code: 'es-ES',
+        subject: 'SpanishC1RP'
       },
       {
         type: 'germanc1',
@@ -115,6 +127,7 @@
         link: 'GermanReadingC1',
         data: 'Germanc1',
         link2: 'GermanReadingPageC1',
-        code: 'de-DE'
+        code: 'de-DE',
+        subject: 'GermanC1RP'
       },
   ];

@@ -3,7 +3,7 @@ export const data = [
         id: '1',
         name: 'French Speaking Practice 1 (A1)',
         level: 'Beginner',
-        readingText: "Bonjour, je suis un étudiant français. J’ai 25 ans et je vis à Paris, en France. Je suis étudiante en biologie à l’université. Dans mon temps libre, j’aime lire des livres, écouter de la musique et cuisiner. J’ai un frère qui s’appelle Lucas. Il est plus jeune que moi. J’adore rencontrer de nouvelles personnes et découvrir de nouvelles cultures. Enchanté(e) de faire votre connaissance !"
+        readingText: "Bonjour, je suis un étudiant français."
     },
     {
         id: '2',
