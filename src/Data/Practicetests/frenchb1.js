@@ -1031,11 +1031,11 @@ export const quiz = [
             },
             {
               "left": { "word": "Faire une valise", "rightId": 3 },
-              "right": { "word": "To pack a suitcase", "rightId": 3 }
+              "right": { "word": "A delayed flight", "rightId": 1 }
             },
             {
               "left": { "word": "Un guide touristique", "rightId": 4 },
-              "right": { "word": "A delayed flight", "rightId": 1 }
+              "right": { "word": "To pack a suitcase", "rightId": 3 }
             },
             {
               "left": { "word": "Un bureau de change", "rightId": 5 },
