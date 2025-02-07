@@ -1075,8 +1075,178 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },    
+      {
+        "question": "How do you say 'I think that...' in German?",
+        "choices": [
+          "Ich denke, dass...",
+          "Ich glaube, dass...",
+          "Ich finde, dass...",
+          "All of the above"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which phrase is used to express a hypothetical situation in German?",
+        "choices": [
+          "Wenn ich Zeit hätte, ...",
+          "Ich habe Zeit, ...",
+          "Ich hatte Zeit, ...",
+          "Ich werde Zeit haben, ..."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Ich finde, dass...' mean in English?",
+        "choices": [
+          "I believe that...",
+          "I think that...",
+          "I feel that...",
+          "I know that..."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which sentence correctly expresses a hypothetical situation?",
+        "choices": [
+          "Wenn ich reich wäre, würde ich ein Haus kaufen.",
+          "Ich bin reich und kaufe ein Haus.",
+          "Ich war reich und kaufte ein Haus.",
+          "Ich werde reich sein und ein Haus kaufen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'In my opinion...' in German?",
+        "choices": [
+          "Meiner Meinung nach...",
+          "Ich denke, dass...",
+          "Ich glaube, dass...",
+          "Ich finde, dass..."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is used to agree with someone's opinion?",
+        "choices": [
+          "Das stimmt.",
+          "Das finde ich nicht.",
+          "Ich bin anderer Meinung.",
+          "Das ist falsch."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Ich glaube, dass...' mean in English?",
+        "choices": [
+          "I think that...",
+          "I believe that...",
+          "I feel that...",
+          "I know that..."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence is a correct hypothetical statement?",
+        "choices": [
+          "Wenn ich fliegen könnte, würde ich um die Welt reisen.",
+          "Ich kann fliegen und reise um die Welt.",
+          "Ich konnte fliegen und reiste um die Welt.",
+          "Ich werde fliegen können und um die Welt reisen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'I disagree' in German?",
+        "choices": [
+          "Ich bin anderer Meinung.",
+          "Das stimmt nicht.",
+          "Ich finde das nicht gut.",
+          "All of the above"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Which phrase is used to introduce a hypothetical situation?",
+        "choices": [
+          "Wenn ich...",
+          "Weil ich...",
+          "Obwohl ich...",
+          "Damit ich..."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       // 20 Fill in the Blanks
+      {
+        "question": "Ich ______, dass Deutsch lernen Spaß macht. (think)",
+        "choices": ["denke"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Do you think) ______ du, dass das Wetter morgen schön wird?",
+        "choices": ["Glaubst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meiner ______ nach ist Kaffee besser als Tee. (In my opinion)",
+        "choices": ["Meinung"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich bin der ______, dass wir früher anfangen sollten. (I am of the opinion)",
+        "choices": ["Meinung"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(If only) ______ wir mehr Zeit hätten!",
+        "choices": ["Hätten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn das Wetter schön ______, gingen wir spazieren. (were)",
+        "choices": ["wäre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(If I had) ______ ich mehr Geld, würde ich ein neues Auto kaufen.",
+        "choices": ["Hätte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ nicht so müde, wenn er früher ins Bett ginge. (would not be)",
+        "choices": ["wäre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wenn wir früher aufstehen ______, könnten wir den Zug erreichen. (would)",
+        "choices": ["würden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(If you were) ______ du in meiner Situation, was würdest du tun?",
+        "choices": ["Wärst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Ich denke, dass ______ (the) Wetter heute schön ist.",
         "choices": ["das", "der", "die", "ein"],
@@ -1270,8 +1440,178 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "Which word is the correct translation of 'book' in German?",
+        "choices": [
+          "Buch",
+          "Bleistift",
+          "Tisch",
+          "Stuhl"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct plural form of 'das Kind' (the child)?",
+        "choices": [
+          "die Kinder",
+          "die Kinde",
+          "die Kinds",
+          "die Kinden"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which preposition correctly completes the sentence: 'Ich gehe ___ Schule'?",
+        "choices": [
+          "in",
+          "auf",
+          "zur",
+          "bei"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct past tense form of the verb 'gehen' (to go)?",
+        "choices": [
+          "gegangen",
+          "ging",
+          "geht",
+          "gehen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which word means 'always' in German?",
+        "choices": [
+          "manchmal",
+          "nie",
+          "immer",
+          "oft"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct accusative form of 'der Hund' (the dog) in the sentence: 'Ich sehe ___ Hund'?",
+        "choices": [
+          "der",
+          "den",
+          "das",
+          "die"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a correct translation of 'I am hungry' in German?",
+        "choices": [
+          "Ich bin müde.",
+          "Ich habe Hunger.",
+          "Ich bin hungrig.",
+          "Ich habe Durst."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct word order for this sentence: 'Ich ___ gestern ___ Kino ___'?",
+        "choices": [
+          "bin, ins, gegangen",
+          "gegangen, bin, ins",
+          "ins, bin, gegangen",
+          "bin, gegangen, ins"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which word is the opposite of 'schnell' (fast)?",
+        "choices": [
+          "langsam",
+          "schnell",
+          "groß",
+          "klein"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct translation of 'She reads a book' in German?",
+        "choices": [
+          "Sie liest ein Buch.",
+          "Sie lesen ein Buch.",
+          "Sie liest eine Buch.",
+          "Sie lesen eine Buch."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       // 20 Fill in the Blanks
+      {
+        "question": "Ich ______ heute Abend ins Kino gehen. (want)",
+        "choices": ["möchte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Gestern ______ ich einen Film gesehen. (have watched)",
+        "choices": ["habe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das Buch liegt ______ dem Tisch. (on)",
+        "choices": ["auf"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ morgen früh auf. (get)",
+        "choices": ["stehe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": [1, 2]
+      },
+      {
+        "question": "Das ist ein ______ Buch. (interesting)",
+        "choices": ["interessantes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(can) ______ du mir bitte helfen?",
+        "choices": ["Kannst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ im Park Fußball gespielt. (have played)",
+        "choices": ["haben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich gehe ______ der Schule. (to)",
+        "choices": ["zur"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(turn)______ du bitte das Licht an?",
+        "choices": ["Machst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": [1, 2]
+      },
+      {
+        "question": "Sie trägt eine ______ Jacke. (red)",
+        "choices": ["rote"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Ich denke, dass ______ (the) Wetter heute schön ist.",
         "choices": ["das", "der", "die", "ein"],

@@ -4888,7 +4888,176 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
-     
+      {
+        "question": "How do you say 'I ate' in French?",
+        "choices": [
+          "Je mange",
+          "J'ai mangé",
+          "Je vais manger",
+          "Je mangeais"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is the correct past tense form of 'finir' (to finish)?",
+        "choices": [
+          "J'ai fini",
+          "Je finis",
+          "Je finirai",
+          "Je finissais"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the past participle of the verb 'prendre' (to take)?",
+        "choices": [
+          "Prendu",
+          "Pris",
+          "Prené",
+          "Prendais"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which auxiliary verb is used with 'aller' (to go) in the passé composé?",
+        "choices": [
+          "Être",
+          "Avoir",
+          "Aller",
+          "Faire"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'We went to the park' in French?",
+        "choices": [
+          "Nous allons au parc",
+          "Nous sommes allés au parc",
+          "Nous irons au parc",
+          "Nous allions au parc"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following sentences is correct in the passé composé?",
+        "choices": [
+          "Il a joué au football",
+          "Il joue au football",
+          "Il jouait au football",
+          "Il jouera au football"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the past participle of 'voir' (to see)?",
+        "choices": [
+          "Vu",
+          "Voiré",
+          "Vus",
+          "Voir"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following verbs uses 'être' as the auxiliary verb in the passé composé?",
+        "choices": [
+          "Manger",
+          "Venir",
+          "Prendre",
+          "Finir"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'She watched a movie' in French?",
+        "choices": [
+          "Elle regarde un film",
+          "Elle a regardé un film",
+          "Elle regardait un film",
+          "Elle regardera un film"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct translation of 'They (masculine) arrived yesterday' in French?",
+        "choices": [
+          "Ils sont arrivés hier",
+          "Ils ont arrivé hier",
+          "Ils arrivent hier",
+          "Ils arrivaient hier"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hier, je _______ un film au cinéma. (watched)",
+        "choices": ["ai regardé"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous _______ une pizza pour le dîner. (ate)",
+        "choices": ["avons mangé"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elle _______ à la plage samedi dernier. (went)",
+        "choices": ["est allée"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tu _______ au football avec tes amis. (played)",
+        "choices": ["as joué"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ils _______ le musée pendant les vacances. (visited)",
+        "choices": ["ont visité"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "J’_______ un verre de jus d’orange ce matin. (drank)",
+        "choices": ["ai bu"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vous _______ en train pour aller à Paris. (traveled)",
+        "choices": ["avez voyagé"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Il _______ un livre intéressant hier soir. (read)",
+        "choices": ["a lu"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous _______ un magnifique coucher de soleil. (saw)",
+        "choices": ["avons vu"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elles _______ toute la nuit à la fête. (danced)",
+        "choices": ["ont dansé"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "La semaine dernière, il ______ (visiter) un musée.",
         "choices": ["a visité","1","2","3"],

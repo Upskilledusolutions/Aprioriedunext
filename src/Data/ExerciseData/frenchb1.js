@@ -5059,4 +5059,718 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '23',
+      name: 'French Exercise - 23 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Quel temps utilise-t-on pour parler d'une action qui a eu lieu avant une autre action passée ?",
+          "choices": [
+            "Passé simple",
+            "Plus-que-parfait",
+            "Imparfait",
+            "Futur antérieur"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle conjonction introduit souvent le subjonctif ?",
+          "choices": [
+            "parce que",
+            "quand",
+            "bien que",
+            "et"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Lequel de ces mots désigne un raisonnement logique ?",
+          "choices": [
+            "Déduction",
+            "Contradiction",
+            "Hypothèse",
+            "Réfutation"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase est au conditionnel présent ?",
+          "choices": [
+            "J’irai au marché demain.",
+            "Si j’avais le temps, je voyagerais.",
+            "Elle est partie ce matin.",
+            "Il fera beau ce week-end."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel verbe est utilisé pour exprimer une obligation ?",
+          "choices": [
+            "Devoir",
+            "Pouvoir",
+            "Savoir",
+            "Vouloir"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel mot désigne une conséquence logique ?",
+          "choices": [
+            "Hypothèse",
+            "Conclusion",
+            "Argument",
+            "Analyse"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase exprime une action en cours dans le passé ?",
+          "choices": [
+            "Nous avons mangé.",
+            "Il pleuvait quand je suis sorti.",
+            "Demain, je vais partir.",
+            "Je prends mon déjeuner."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que signifie \"prémisse\" en français ?",
+          "choices": [
+            "Un raisonnement",
+            "Une conclusion",
+            "Un argument de départ",
+            "Une démonstration"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel temps emploie-t-on pour exprimer un futur dans le passé ?",
+          "choices": [
+            "Futur antérieur",
+            "Conditionnel passé",
+            "Imparfait",
+            "Conditionnel présent"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase contient un verbe au subjonctif ?",
+          "choices": [
+            "Il faut que tu viennes.",
+            "Il est allé au marché.",
+            "J’ai mangé une pomme.",
+            "Nous avons étudié."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Comment appelle-t-on une proposition qui sert à prouver une affirmation ?",
+          "choices": [
+            "Argument",
+            "Hypothèse",
+            "Conclusion",
+            "Prémisse"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel mot est synonyme de \"cohérent\" ?",
+          "choices": [
+            "Logique",
+            "Abstrait",
+            "Diffus",
+            "Disparate"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel mot ne correspond pas à une notion d'analyse ?",
+          "choices": [
+            "Synthèse",
+            "Interprétation",
+            "Prédiction",
+            "Hasard"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Quelle conjonction exprime une opposition ?",
+          "choices": [
+            "Puisque",
+            "Mais",
+            "Donc",
+            "Car"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est le contraire de \"explicite\" ?",
+          "choices": [
+            "Ambigu",
+            "Clair",
+            "Précis",
+            "Rigoureux"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel temps est utilisé dans cette phrase ? \"Il aurait aimé venir.\"",
+          "choices": [
+            "Conditionnel passé",
+            "Imparfait",
+            "Subjonctif passé",
+            "Futur antérieur"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Comment exprime-t-on une certitude en français ?",
+          "choices": [
+            "Il se peut que",
+            "Je suis certain que",
+            "Il est possible que",
+            "On dirait que"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot exprime une déduction logique ?",
+          "choices": [
+            "Conjecture",
+            "Conclusion",
+            "Paradoxe",
+            "Fausseté"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase exprime une probabilité ?",
+          "choices": [
+            "Il viendra sûrement.",
+            "Je suis certain qu’il viendra.",
+            "Il est venu hier.",
+            "Je refuse qu’il vienne."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase contient un adverbe d'intensité ?",
+          "choices": [
+            "Il travaille souvent.",
+            "Il parle très bien.",
+            "Il mange à midi.",
+            "Il vient chez moi."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si j'______(avoir) assez d'argent, j’achèterais une nouvelle voiture.",
+          "choices": ["avais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Hier, il ______ (pleuvoir) toute la journée.",
+          "choices": ["a plu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (partir) pour la France dès que j’aurai mon visa.",
+          "choices": ["partirai"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (étudier) déjà depuis trois heures quand je suis arrivé.",
+          "choices": ["étudiait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’année dernière, nous ______ (aller) en Espagne pendant deux semaines.",
+          "choices": ["sommes allés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si tu ______ (être) plus attentif, tu comprendrais mieux.",
+          "choices": ["étais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous  ______ (travailler) dur depuis le matin.",
+          "choices": ["travaillons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quand j’étais petit, je ______ (jouer) au cricket avec mes amis.",
+          "choices": ["jouais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avant-hier, ils ______ (finir) leur projet en avance.",
+          "choices": ["ont fini"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si je ______ (pouvoir), j’apprendrais plusieurs langues.",
+          "choices": ["pouvais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (falloir) que nous révisions avant l’examen.",
+          "choices": ["faut"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'économiste a expliqué que l’inflation ______ (augmenter) rapidement.",
+          "choices": ["augmentait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vous ______ (savoir) la réponse, vous devriez lever la main.",
+          "choices": ["saviez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (prévoir) de visiter le musée ce week-end.",
+          "choices": ["prévoyons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lorsque le professeur ______ (expliquer) la leçon, les élèves prenaient des notes.",
+          "choices": ["expliquait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est important que nous ______ (analyser) les données avec soin.",
+          "choices": ["analysions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si elle ______ (comprendre) mieux les nuances des temps, elle parlerait plus couramment.",
+          "choices": ["comprenait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (relire) toujours mes notes avant un test.",
+          "choices": ["relis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Après qu’il ______ (terminer) son travail, il est parti en vacances.",
+          "choices": ["a terminé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (sembler) que la solution soit logique.",
+          "choices": ["semble"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Hypothèse", "rightId": 1 },
+              "right": { "word": "Conjunction", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Conjonction", "rightId": 2 },
+              "right": { "word": "Assumption", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Prédiction", "rightId": 3 },
+              "right": { "word": "Causal relationship", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Déduction", "rightId": 4 },
+              "right": { "word": "Forecast", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Cause", "rightId": 5 },
+              "right": { "word": "Conclusion", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Conséquence", "rightId": 1 },
+              "right": { "word": "Inference", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Argument", "rightId": 2 },
+              "right": { "word": "Outcome", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Comparaison", "rightId": 3 },
+              "right": { "word": "Logical structure", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Inférence", "rightId": 4 },
+              "right": { "word": "Reasoning", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Cohérence", "rightId": 5 },
+              "right": { "word": "Comparison", "rightId": 3 }
+            },
+          ],
+        },
+  
+      ],
+    },
+    {
+      quiz: '24',
+      name: 'French Exercise - 24 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Quel mot est un synonyme de 'rapide' ?",
+          "choices": ["Lent", "Doucement", "Vif", "Sombre"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Lequel de ces mots est un verbe ?",
+          "choices": ["Chanson", "Dormir", "Important", "Bleu"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "Je suis allé à la supermarché.",
+            "Je suis allé au supermarché.",
+            "Je suis allée à la supermarché.",
+            "Je suis allé le supermarché."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle est la forme correcte du subjonctif ?",
+          "choices": [
+            "Il faut que tu faire tes devoirs.",
+            "Il faut que tu fais tes devoirs.",
+            "Il faut que tu fasses tes devoirs.",
+            "Il faut que tu fera tes devoirs."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Comment exprimer l’obligation en français ?",
+          "choices": ["Il faut que", "Peut-être", "J’aimerais bien", "Je veux"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel pronom relatif complète cette phrase ? 'Le livre ____ j’ai lu était passionnant.'",
+          "choices": ["Que", "Qui", "Dont", "Où"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle est la bonne traduction de 'I used to go' ?",
+          "choices": ["J’irais", "J’étais allé", "J’allais", "J’ai allé"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel est le contraire de 'triste' ?",
+          "choices": ["Heureux", "Méchant", "Sage", "Fatigué"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez avec le bon mot : 'Nous avons passé la soirée à ____ à la radio.'",
+          "choices": ["Regarder", "Écouter", "Lire", "Parler"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel article convient ? '____ enfants jouent dans le jardin.'",
+          "choices": ["Une", "Le", "Des", "La"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Comment traduit-on 'however' en français ?",
+          "choices": ["Ensuite", "Pourtant", "Enfin", "Avant"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot complète la phrase : 'Je ne peux pas venir ____ il pleut.'",
+          "choices": ["Parce que", "Si", "Quoique", "Pendant"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le passé composé de 'voir' est :",
+          "choices": ["Voit", "Vu", "Voyais", "Verras"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle est la traduction correcte de 'He went to school' ?",
+          "choices": ["Il va à l’école", "Il est allé à l’école", "Il allait à l’école", "Il ira à l’école"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est le superlatif de 'bon' ?",
+          "choices": ["Plus bon", "Le plus bon", "Le meilleur", "Bon meilleur"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel mot ne fait pas partie de la même catégorie ?",
+          "choices": ["Voiture", "Bateau", "Table", "Train"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Le verbe 'prendre' au futur simple à la première personne du singulier est :",
+          "choices": ["Je prendrais", "Je prendrai", "Je prends", "J’ai pris"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle est la bonne préposition dans la phrase : 'Je vais ____ Paris demain.'",
+          "choices": ["En", "À", "Au", "De"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot est un adjectif ?",
+          "choices": ["Manger", "Bleu", "Maison", "Toujours"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot ne fait pas partie de la catégorie des animaux ?",
+          "choices": ["Chat", "Chien", "Loup", "Forêt"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Je vais à la boulangerie pour acheter ______ pain.",
+          "choices": ["du"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons ______ amis français qui habitent à Lyon.",
+          "choices": ["des"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j’avais plus de temps, je ______ (voyager) davantage.",
+          "choices": ["voyagerais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est plus intelligente ______ son frère.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il faut que tu ______ (faire) attention en classe.",
+          "choices": ["fasses"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lorsque je ______ (être) petit, je jouais souvent dans le jardin.",
+          "choices": ["étais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle m’a demandé si je ______ (pouvoir) l’aider à déménager.",
+          "choices": ["pouvais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je veux que vous ______ (venir) à ma fête ce soir.",
+          "choices": ["veniez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Bien que le film ______ (être) intéressant, je me suis endormi.",
+          "choices": ["soit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est important que nous ______ (boire) assez d’eau.",
+          "choices": ["buvions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (avoir) une réunion importante demain matin.",
+          "choices": ["avons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Est-ce que tu ______ (savoir) où se trouve la bibliothèque ?",
+          "choices": ["sais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Après ______ (manger), nous irons faire une promenade.",
+          "choices": ["avoir mangé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il faut que vous ______ (prendre) vos médicaments tous les jours.",
+          "choices": ["preniez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j’avais su, je ______ (ne pas venir) hier.",
+          "choices": ["ne serais pas venu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avant de ______ (partir), pense à fermer la porte.",
+          "choices": ["partir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a oublié où elle ______ (mettre) ses clés.",
+          "choices": ["avait mis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’aimerais que tu ______ (être) plus ponctuel.",
+          "choices": ["sois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "En hiver, il ______ (faire) très froid dans le nord de la France.",
+          "choices": ["fait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons décidé de ______ (déménager) à Paris l’année prochaine.",
+          "choices": ["déménager"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "un boulanger", "rightId": 1 },
+              "right": { "word": "Lieu d’apprentissage", "rightId": 3 }
+            },
+            {
+              "left": { "word": "une pharmacie", "rightId": 2 },
+              "right": { "word": "Vend du pain", "rightId": 1 }
+            },
+            {
+              "left": { "word": "une école", "rightId": 3 },
+              "right": { "word": "Vend des livres", "rightId": 5 }
+            },
+            {
+              "left": { "word": "un avion", "rightId": 4 },
+              "right": { "word": "Vend des médicaments", "rightId": 2 }
+            },
+            {
+              "left": { "word": "une librairie", "rightId": 5 },
+              "right": { "word": "Moyen de transport aérien", "rightId": 4 }
+            },
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "un médecin", "rightId": 1 },
+              "right": { "word": "Sert les clients au restaurant", "rightId": 4 }
+            },
+            {
+              "left": { "word": "une banque", "rightId": 2 },
+              "right": { "word": "Soigne les patients", "rightId": 1 }
+            },
+            {
+              "left": { "word": "un ingénieur", "rightId": 3 },
+              "right": { "word": "Exposition d’objets d’art", "rightId": 5 }
+            },
+            {
+              "left": { "word": "un serveur", "rightId": 4 },
+              "right": { "word": "Garde l’argent", "rightId": 2 }
+            },
+            {
+              "left": { "word": "un musée", "rightId": 5 },
+              "right": { "word": "Conçoit des machines", "rightId": 3 }
+            },
+          ],
+        },
+  
+      ],
+    },
 ]

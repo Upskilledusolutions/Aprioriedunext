@@ -5209,9 +5209,178 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "Which of the following is the correct translation of 'I went to the park yesterday'?",
+        "choices": [
+          "Yo voy al parque ayer.",
+          "Yo fui al parque ayer.",
+          "Yo iré al parque ayer.",
+          "Yo va al parque ayer."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'We ate pizza last night' in Spanish?",
+        "choices": [
+          "Nosotros comemos pizza anoche.",
+          "Nosotros comimos pizza anoche.",
+          "Nosotros comeremos pizza anoche.",
+          "Nosotros comían pizza anoche."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct past tense form of the verb 'hablar' (to speak) for 'you' (tú)?",
+        "choices": [
+          "hablaste",
+          "habló",
+          "hablabas",
+          "hablé"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following sentences is correct?",
+        "choices": [
+          "Ellos fueron al cine el sábado pasado.",
+          "Ellos van al cine el sábado pasado.",
+          "Ellos irán al cine el sábado pasado.",
+          "Ellos van al cine el sábado pasado."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'She visited her grandmother last weekend' in Spanish?",
+        "choices": [
+          "Ella visita a su abuela el fin de semana pasado.",
+          "Ella visitó a su abuela el fin de semana pasado.",
+          "Ella visitará a su abuela el fin de semana pasado.",
+          "Ella visitaba a su abuela el fin de semana pasado."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct past tense form of the verb 'vivir' (to live) for 'we'?",
+        "choices": [
+          "vivimos",
+          "vivieron",
+          "vivíamos",
+          "vivisteis"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is the correct translation of 'They played soccer last Sunday'?",
+        "choices": [
+          "Ellos juegan fútbol el domingo pasado.",
+          "Ellos jugaron fútbol el domingo pasado.",
+          "Ellos jugarán fútbol el domingo pasado.",
+          "Ellos jugaban fútbol el domingo pasado."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I watched a movie last night' in Spanish?",
+        "choices": [
+          "Yo veo una película anoche.",
+          "Yo vi una película anoche.",
+          "Yo veré una película anoche.",
+          "Yo veía una película anoche."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct past tense form of the verb 'escribir' (to write) for 'he'?",
+        "choices": [
+          "escribió",
+          "escribiste",
+          "escribimos",
+          "escribieron"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following sentences is correct?",
+        "choices": [
+          "Nosotros bailamos en la fiesta anoche.",
+          "Nosotros bailamos en la fiesta anoche.",
+          "Nosotros bailaremos en la fiesta anoche.",
+          "Nosotros bailábamos en la fiesta anoche."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
       
       // 20 Fill in the Blanks
-
+      {
+        "question": "Ayer yo ______ pizza para la cena. (comer)",
+        "choices": ["comí"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El sábado pasado, tú ______ al cine con tus amigos. (ir)",
+        "choices": ["fuiste"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ a nuestros abuelos el fin de semana pasado. (visitar)",
+        "choices": ["visitamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ fútbol en el parque ayer por la tarde. (jugar)",
+        "choices": ["jugaron"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué ______ tú el viernes por la noche? (hacer)",
+        "choices": ["hiciste"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermana ______ un libro muy interesante la semana pasada. (leer)",
+        "choices": ["leyó"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ustedes ______ mucho para el examen de español. (estudiar)",
+        "choices": ["estudiaron"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______ una carta a mi amigo en México. (escribir)",
+        "choices": ["escribí"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Dónde ______ tú esos zapatos tan bonitos? (comprar)",
+        "choices": ["compraste"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis padres ______ a España el verano pasado. (viajar)",
+        "choices": ["viajaron"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Yo ______ (i have) comido en el restaurante ayer.",
         "choices": ["he","1","2","3"],

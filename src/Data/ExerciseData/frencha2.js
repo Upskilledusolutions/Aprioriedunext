@@ -1078,6 +1078,176 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "Which phrase is used to express a strong opinion in French?",
+        "choices": [
+          "Je pense que...",
+          "À mon avis...",
+          "Je suis sûr que...",
+          "Peut-être que..."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How would you say 'I think it’s a good idea' in French?",
+        "choices": [
+          "Je crois que c’est une bonne idée.",
+          "Je suis d’accord.",
+          "Je ne sais pas.",
+          "C’est possible."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a hypothetical statement?",
+        "choices": [
+          "Il fait beau aujourd’hui.",
+          "Si j’avais de l’argent, j’achèterais une voiture.",
+          "Je vais à l’école demain.",
+          "J’aime le chocolat."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Si j’étais riche, je voyagerais partout' mean?",
+        "choices": [
+          "If I were rich, I would travel everywhere.",
+          "I am rich and I travel everywhere.",
+          "I want to be rich to travel.",
+          "I was rich and I traveled everywhere."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is used to express uncertainty?",
+        "choices": [
+          "Je suis certain que...",
+          "Je ne suis pas sûr que...",
+          "Je pense que...",
+          "À mon avis..."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you say 'In my opinion, this movie is boring' in French?",
+        "choices": [
+          "À mon avis, ce film est ennuyeux.",
+          "Je crois que ce film est amusant.",
+          "Je suis sûr que ce film est intéressant.",
+          "Peut-être que ce film est ennuyeux."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a correct translation of 'If I had time, I would help you'?",
+        "choices": [
+          "Si j’ai le temps, je t’aiderai.",
+          "Si j’avais le temps, je t’aiderais.",
+          "Si j’aurais le temps, je t’aiderais.",
+          "Si j’avais le temps, je t’aiderai."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Je ne pense pas que ce soit une bonne idée' mean?",
+        "choices": [
+          "I think it’s a good idea.",
+          "I don’t think it’s a good idea.",
+          "Maybe it’s a good idea.",
+          "I’m sure it’s a good idea."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase is used to agree with someone’s opinion?",
+        "choices": [
+          "Je ne suis pas d’accord.",
+          "Je suis d’accord.",
+          "Peut-être.",
+          "Je ne sais pas."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you say 'What would you do if you won the lottery?' in French?",
+        "choices": [
+          "Que ferais-tu si tu gagnais à la loterie ?",
+          "Que fais-tu si tu gagnes à la loterie ?",
+          "Que feras-tu si tu gagnes à la loterie ?",
+          "Que fais-tu si tu gagnais à la loterie ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je pense que le cinéma français est ______ (the best).",
+        "choices": ["le meilleur"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "À mon avis, les vacances à la montagne sont ______ (more relaxing) que celles à la plage.",
+        "choices": ["plus relaxantes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si j’avais plus d’argent, je ______ (would travel) autour du monde.",
+        "choices": ["voyagerais"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je crois que les livres électroniques sont ______ (more practical) que les livres papier.",
+        "choices": ["plus pratiques"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si tu ______ (studied) plus, tu réussirais ton examen.",
+        "choices": ["étudiais"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Selon moi, la cuisine italienne est ______ (the most delicious).",
+        "choices": ["la plus délicieuse"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "S’il faisait beau, nous ______ (would go) à la plage.",
+        "choices": ["irions"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je trouve que les films d’action sont ______ (less interesting) que les films dramatiques.",
+        "choices": ["moins intéressants"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si nous ______ (had) plus de temps, nous visiterions Paris.",
+        "choices": ["avions"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "À mon avis, les transports en commun sont ______ (the most ecological).",
+        "choices": ["les plus écologiques"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
 
       {
         "question": "Je pense que ______ (c'est / il est / il y a) très important d'apprendre une langue étrangère.",
@@ -1262,8 +1432,177 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "Which of the following is the correct translation of 'I am going to the market'?",
+        "choices": [
+          "Je vais au marché.",
+          "Je suis au marché.",
+          "Je vais à le marché.",
+          "Je suis aller au marché."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct plural form of 'le chat'?",
+        "choices": [
+          "les chats",
+          "le chates",
+          "les chates",
+          "la chat"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following means 'the red car'?",
+        "choices": [
+          "le voiture rouge",
+          "la rouge voiture",
+          "la voiture rouge",
+          "le rouge voiture"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct translation for 'She is eating an apple.'",
+        "choices": [
+          "Elle mange une pomme.",
+          "Elle mange un pomme.",
+          "Elle est mange une pomme.",
+          "Elle mange une apple."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is the correct conjugation of 'aller' for 'nous'?",
+        "choices": [
+          "allons",
+          "allez",
+          "vont",
+          "vais"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct translation of 'the big house'?",
+        "choices": [
+          "le grand maison",
+          "la grande maison",
+          "la maison grand",
+          "le maison grande"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following means 'under the table'?",
+        "choices": [
+          "sous la table",
+          "sur la table",
+          "dans la table",
+          "à côté de la table"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct translation of 'They are reading a book.'?",
+        "choices": [
+          "Ils lisent un livre.",
+          "Ils lit un livre.",
+          "Ils sont lire un livre.",
+          "Ils lire un livre."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is the correct translation of 'the small dog'?",
+        "choices": [
+          "la petite chien",
+          "le chien petit",
+          "la chien petite",
+          "le petit chien"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What is the correct translation of 'We are going to the park.'?",
+        "choices": [
+          "Nous allons à le parc.",
+          "Nous sommes aller au parc.",
+          "Nous allons au parc.",
+          "Nous allons dans le parc."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
 
-
+      {
+        "question": "J’ai acheté ______ livre intéressant hier. (a)",
+        "choices": ["un"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous ______ (manger) une pizza ce soir.",
+        "choices": ["mangeons"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "C’est une ______ histoire. (intéressant)",
+        "choices": ["intéressante"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je vais ______ école à 8 heures. (to)",
+        "choices": ["à"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je ne ______ pas de frites. (manger)",
+        "choices": ["mange"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Les fleurs sont ______. (beau)",
+        "choices": ["belles"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elle habite ______ Paris. (in)",
+        "choices": ["à"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tu ______ (aller) à l’école à pied ?",
+        "choices": ["vas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Il y a ______ arbre dans le jardin. (a)",
+        "choices": ["un"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elle ne parle ______ à Paul. (no longer)",
+        "choices": ["plus"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Il ______ (to have) deux frères et une sœur.",
         "choices": ["a", "ont", "avons", "avez"],

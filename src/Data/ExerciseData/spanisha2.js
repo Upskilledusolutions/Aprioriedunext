@@ -1045,9 +1045,178 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "Which phrase is used to express a personal opinion in Spanish?",
+        "choices": [
+          "Creo que",
+          "Es posible que",
+          "Tal vez",
+          "Nunca"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How would you say 'I think it’s a good idea' in Spanish?",
+        "choices": [
+          "Pienso que es una buena idea",
+          "Tal vez es una buena idea",
+          "Es imposible que sea una buena idea",
+          "Nunca es una buena idea"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a hypothetical statement?",
+        "choices": [
+          "Voy al cine mañana",
+          "Si tuviera dinero, viajaría por el mundo",
+          "Me gusta el helado",
+          "Estoy cansado"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Si yo fuera rico, compraría una casa grande' mean in English?",
+        "choices": [
+          "If I were rich, I would buy a big house",
+          "I am rich and I have a big house",
+          "I want to buy a big house",
+          "I don’t like big houses"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is used to express doubt or uncertainty?",
+        "choices": [
+          "Estoy seguro de que",
+          "Tal vez",
+          "Creo que",
+          "Siempre"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you say 'In my opinion, the movie was boring' in Spanish?",
+        "choices": [
+          "En mi opinión, la película fue aburrida",
+          "Creo que la película fue interesante",
+          "Tal vez la película fue aburrida",
+          "Nunca vi la película"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a correct way to express a hypothetical situation?",
+        "choices": [
+          "Si tengo tiempo, voy al parque",
+          "Si tuviera tiempo, iría al parque",
+          "Voy al parque porque tengo tiempo",
+          "No tengo tiempo para ir al parque"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Creo que es importante estudiar' mean in English?",
+        "choices": [
+          "I think it’s important to study",
+          "I don’t think it’s important to study",
+          "Maybe it’s important to study",
+          "It’s impossible to study"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is used to agree with someone’s opinion?",
+        "choices": [
+          "Estoy de acuerdo",
+          "No estoy de acuerdo",
+          "Tal vez",
+          "Nunca"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How would you say 'If I were you, I would call her' in Spanish?",
+        "choices": [
+          "Si yo fuera tú, la llamaría",
+          "Si yo soy tú, la llamo",
+          "Yo la llamo porque soy tú",
+          "Nunca la llamo"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
       
       // 20 Fill in the Blanks
-
+      {
+        "question": "Creo que este libro es muy ______. (interesting)",
+        "choices": ["interesante"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En mi ______, la película fue aburrida. (opinion)",
+        "choices": ["opinión"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pienso que el profesor es muy ______. (strict)",
+        "choices": ["estricto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "No estoy de ______ contigo. (agreement)",
+        "choices": ["acuerdo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(I think) ______ que deberíamos ir al cine.",
+        "choices": ["Creo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si ______ sol, iríamos a la playa. (it were sunny)",
+        "choices": ["hiciera"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si ______ más joven, aprendería a bailar salsa. (I were)",
+        "choices": ["fuera"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué ______ si ganaras la lotería? (would you do)",
+        "choices": ["harías"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si ______ frío, cierra la ventana. (you feel cold)",
+        "choices": ["tienes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si ______ más temprano, no llegarías tarde. (you left)",
+        "choices": ["salieras"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Creo que las redes sociales son útiles, pero también ______.",
         "choices": ["dañinas"],
@@ -1261,9 +1430,178 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "Which of the following is the correct translation of 'I am hungry' in Spanish?",
+        "choices": [
+          "Estoy cansado",
+          "Tengo hambre",
+          "Estoy feliz",
+          "Tengo sed"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct conjugation of the verb 'ser' for 'nosotros'?",
+        "choices": [
+          "soy",
+          "eres",
+          "somos",
+          "son"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following means 'the book' in Spanish?",
+        "choices": [
+          "el libro",
+          "la mesa",
+          "el cuaderno",
+          "la silla"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'they are going to the park' in Spanish?",
+        "choices": [
+          "Ellos van al parque.",
+          "Ellos están en el parque.",
+          "Ellos van a la parque.",
+          "Ellos van al cine."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct translation of 'She has two brothers' in Spanish?",
+        "choices": [
+          "Ella tiene dos hermanas.",
+          "Ella tiene dos hermanos.",
+          "Ella tiene dos perros.",
+          "Ella tiene dos hijos."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is the correct plural form of 'la casa'?",
+        "choices": [
+          "las casas",
+          "los casas",
+          "la casas",
+          "el casas"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct translation of 'We are studying Spanish' in Spanish?",
+        "choices": [
+          "Estamos estudiando español.",
+          "Estamos estudiar español.",
+          "Estamos estudiamos español.",
+          "Estamos estudio español."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following means 'the red car' in Spanish?",
+        "choices": [
+          "el coche rojo",
+          "la coche rojo",
+          "el coche roja",
+          "la coche roja"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct translation of 'I want to eat pizza' in Spanish?",
+        "choices": [
+          "Quiero comer pizza.",
+          "Quiero beber pizza.",
+          "Quiero comer pollo.",
+          "Quiero beber agua."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is the correct translation of 'the big dog' in Spanish?",
+        "choices": [
+          "el perro grande",
+          "la perro grande",
+          "el perro pequeño",
+          "la perro pequeño"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
       
       // 20 Fill in the Blanks
-
+      {
+        "question": "Yo ______ (to speak) español muy bien.",
+        "choices": ["hablo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (to eat) pizza los viernes.",
+        "choices": ["comemos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (to live) en Madrid.",
+        "choices": ["viven"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (to study) mucho para los exámenes.",
+        "choices": ["estudias"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ustedes ______ (to drink) café por la mañana.",
+        "choices": ["beben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella ______ (to be) muy inteligente.",
+        "choices": ["es"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (to be) en la biblioteca ahora.",
+        "choices": ["estamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El libro ______ (to be) sobre la mesa.",
+        "choices": ["está"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (to be) de México, ¿verdad?",
+        "choices": ["eres"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (to be) cansados después del trabajo.",
+        "choices": ["están"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Yo ______ (comer) en un restaurante famoso el fin de semana pasado.",
         "choices": ["comí"],

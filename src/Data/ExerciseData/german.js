@@ -5201,8 +5201,178 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "Which auxiliary verb is used with 'haben' to form the Perfekt tense for most verbs?",
+        "choices": [
+          "sein",
+          "haben",
+          "werden",
+          "können"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct Perfekt form of the verb 'gehen'?",
+        "choices": [
+          "gegangen",
+          "geging",
+          "gegingt",
+          "gehen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which sentence is correct in Perfekt tense?",
+        "choices": [
+          "Ich habe ein Buch lesen.",
+          "Ich habe ein Buch gelesen.",
+          "Ich bin ein Buch lesen.",
+          "Ich bin ein Buch gelesen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the past participle of the verb 'essen'?",
+        "choices": [
+          "essen",
+          "geesst",
+          "gegessen",
+          "essen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which auxiliary verb is used with 'sein' to form the Perfekt tense for verbs indicating movement?",
+        "choices": [
+          "haben",
+          "sein",
+          "werden",
+          "müssen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct Perfekt form of the sentence: 'Wir (spielen) Fußball.'?",
+        "choices": [
+          "Wir haben Fußball gespielt.",
+          "Wir sind Fußball gespielt.",
+          "Wir haben Fußball spielen.",
+          "Wir sind Fußball spielen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following verbs uses 'sein' as the auxiliary verb in Perfekt tense?",
+        "choices": [
+          "lesen",
+          "schwimmen",
+          "bleiben",
+          "machen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the past participle of the verb 'trinken'?",
+        "choices": [
+          "getrunken",
+          "trinken",
+          "getrinkt",
+          "trank"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which sentence is correct in Perfekt tense?",
+        "choices": [
+          "Sie hat den Film gesehen.",
+          "Sie ist den Film gesehen.",
+          "Sie hat den Film sehen.",
+          "Sie ist den Film sehen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct Perfekt form of the sentence: 'Er (fahren) nach Berlin.'?",
+        "choices": [
+          "Er ist nach Berlin gefahren.",
+          "Er hat nach Berlin gefahren.",
+          "Er ist nach Berlin fahren.",
+          "Er hat nach Berlin fahren."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       // 20 Fill in the Blanks
+      {
+        "question": "Gestern ______ ich ins Kino. (went)",
+        "choices": ["ging"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ gestern Abend Pizza. (ate)",
+        "choices": ["aßen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ______ letzte Woche in Berlin. (was)",
+        "choices": ["war"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ meinen Freund gestern angerufen. (called)",
+        "choices": ["rief"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ den ganzen Tag Fußball. (played)",
+        "choices": ["spielte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ am Wochenende im Park spazieren. (walked)",
+        "choices": ["gingen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ______ das Buch in einer Woche. (read)",
+        "choices": ["las"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ gestern sehr müde. (was)",
+        "choices": ["war"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ den Film nicht. (saw)",
+        "choices": ["sah"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ letztes Jahr nach Spanien. (traveled)",
+        "choices": ["reisten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Ich ______ (haben) gestern Fußball gespielt.",
         "choices": ["habe", "hast", "hat", "habt"],
