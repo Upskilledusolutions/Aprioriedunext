@@ -412,20 +412,20 @@ export const quiz = [
           type: "MatchTheFollowing",
           "pairs": [
             {
-              "left": { "word": "Gentil(le)", "rightId": 1 },
-              "right": { "word": "Hardworking", "rightId": 2 }
+              "left": { "word": "Gentil", "rightId": 1 },
+              "right": { "word": "Serious", "rightId": 2 }
             },
             {
-              "left": { "word": "Sérieux(se)", "rightId": 2 },
+              "left": { "word": "Sérieux", "rightId": 2 },
               "right": { "word": "Talkative", "rightId": 3 }
             },
             {
-              "left": { "word": "Bavard(e)", "rightId": 3 },
+              "left": { "word": "Bavard", "rightId": 3 },
               "right": { "word": "Funny", "rightId": 5 }
             },
             {
-              "left": { "word": "Paresseux(se)", "rightId": 4 },
-              "right": { "word": "Friendly", "rightId": 1 }
+              "left": { "word": "Paresseux", "rightId": 4 },
+              "right": { "word": "Kind", "rightId": 1 }
             },
             {
               "left": { "word": "Sympathique", "rightId": 5 },
@@ -445,19 +445,19 @@ export const quiz = [
             },
             {
               "left": { "word": "Petit(e)", "rightId": 2 },
-              "right": { "word": "Handsome / Beautiful", "rightId": 5 }
+              "right": { "word": "Beautiful", "rightId": 5 }
             },
             {
               "left": { "word": "Mince", "rightId": 3 },
-              "right": { "word": "Slim", "rightId": 3 }
-            },
-            {
-              "left": { "word": "Gros(se)", "rightId": 4 },
               "right": { "word": "Tall", "rightId": 1 }
             },
             {
-              "left": { "word": "Beau / Belle", "rightId": 5 },
-              "right": { "word": "Short", "rightId": 2 }
+              "left": { "word": "Gros(se)", "rightId": 4 },
+              "right": { "word": "Thin", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Beau", "rightId": 5 },
+              "right": { "word": "Small", "rightId": 2 }
             },
            
           ],
@@ -570,6 +570,588 @@ export const quiz = [
             {
               "left": { "word": "Sortir la poubelle", "rightId": 5 },
               "right": { "word": "To vacuum", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
+    {
+      quiz: '2',
+      name: 'French B1 Practice Test - 2',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Hier, nous ______ (manger) au restaurant.",
+          "choices": ["mangeions", "avons mangé", "mangions", "mangerons"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quand j’étais petit, je ______ (jouer) souvent dans le jardin.",
+          "choices": ["ai joué", "jouerai", "jouais", "jouerais"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Il ______ (pleuvoir) quand je suis sorti de la maison.",
+          "choices": ["a plu", "pleuvait", "pleut", "pleuvera"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Pendant qu’il ______ (regarder) la télévision, quelqu’un a frappé à la porte.",
+          "choices": ["regardait", "a regardé", "regardera", "regarde"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’année dernière, nous ______ (partir) en Italie.",
+          "choices": ["partions", "sommes partis", "partons", "partirez"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Avant d’embarquer, nous devons montrer notre ______.",
+          "choices": ["billet", "valise", "carte d’embarquement", "guide touristique"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel moyen de transport utilise-t-on pour traverser l’Atlantique ?",
+          "choices": ["Une voiture", "Un avion", "Un vélo", "Un train"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Nous avons réservé une chambre dans un bel ______ au bord de la mer.",
+          "choices": ["aéroport", "hôtel", "musée", "marché"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Pour un voyage à l’étranger, il est important d’avoir un ______ valide.",
+          "choices": ["permis de conduire", "passeport", "ticket de bus", "plan de métro"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quand on part en vacances, on met ses vêtements dans une ______.",
+          "choices": ["table", "serviette", "valise", "assiette"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Ce restaurant est ______ que celui d’hier.",
+          "choices": ["meilleur", "plus bon", "bon", "le meilleur"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon frère est ______ que moi, il mesure 1m85.",
+          "choices": ["grand", "plus grand", "le plus grand", "très grand"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "C’est la ville la ______ de toute la région.",
+          "choices": ["plus belle", "belle", "mieux", "meilleure"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marie court ______ vite que son frère.",
+          "choices": ["plus", "le plus", "mieux", "aussi"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce film est ______ intéressant que le précédent.",
+          "choices": ["moins", "le plus", "aussi", "plus"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Le serveur nous apporte la ______ avant de commander.",
+          "choices": ["carte", "cuillère", "note", "serviette"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour le dessert, je vais prendre une ______ aux pommes.",
+          "choices": ["soupe", "salade", "tarte", "viande"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Un plat typique en France, c’est le ______.",
+          "choices": ["sushi", "croissant", "steak-frites", "burrito"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Un végétarien ne mange pas de ______.",
+          "choices": ["légumes", "viande", "fruits", "fromage"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quand on est au restaurant et que l’on veut payer, on demande ______.",
+          "choices": ["la carte", "le serveur", "l’addition", "le pourboire"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+          {
+            "question": "Quand j'étais petit, je ______ (aller) souvent chez ma grand-mère.",
+            "choices": ["allais"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Hier soir, nous ______ (regarder) un film quand le téléphone a sonné.",
+            "choices": ["regardions"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "L’année dernière, nous ______ (visiter) Paris et nous avons adoré.",
+            "choices": ["avons visité"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Pendant que tu ______ (faire) la cuisine, je lisais un livre.",
+            "choices": ["faisais"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Il ______ (pleuvoir) beaucoup, alors nous sommes restés à la maison.",
+            "choices": ["pleuvait"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Nous avons réservé une chambre d’hôtel avec une belle ______ sur la mer.",
+            "choices": ["vue"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "J’ai oublié mon ______ à la maison, alors je n’ai pas pu prendre de photos.",
+            "choices": ["appareil photo"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Avant d’embarquer dans l’avion, il faut passer par le contrôle de ______.",
+            "choices": ["sécurité"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Pour aller en Espagne, j’ai pris un vol au départ de l’______ Charles de Gaulle.",
+            "choices": ["aéroport"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Nous avons loué une ______ pour visiter la campagne plus facilement.",
+            "choices": ["voiture"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mon frère est ______ (grand) que moi, il mesure 1m85.",
+            "choices": ["plus grand"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ce restaurant est ______ (bon) que celui d’hier soir, la nourriture est délicieuse !",
+            "choices": ["meilleur"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La Tour Eiffel est ______ (haut) monument de Paris.",
+            "choices": ["le plus haut"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Marie parle espagnol ______ (bien) que son frère.",
+            "choices": ["mieux"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ce film est ______ que celui que nous avons vu la semaine dernière. (intéressant)",
+            "choices": ["plus intéressant"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Comme entrée, je vais prendre une ______ de légumes.",
+            "choices": ["soupe"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Je préfère le chocolat noir ______ le chocolat au lait.",
+            "choices": ["à"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Pour le dessert, j’aimerais une ______ aux fraises.",
+            "choices": ["tarte"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Le serveur nous a conseillé de goûter au ______ du chef.",
+            "choices": ["plat"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Je ne mange pas de viande, je suis ______.",
+            "choices": ["végétarien"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Vous rangez votre chambre souvent.",
+          "choices": ["Vous", "rangez", "votre", "chambre", "souvent"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Quand j'étais enfant, je jouais dans le jardin.",
+          "choices": ["Quand", "j'étais", "enfant,", "je", "jouais", "dans", "le", "jardin"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Hier soir, nous avons regardé un bon film.",
+          "choices": ["Hier", "soir,", "nous", "avons", "regardé", "un", "bon", "film"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il pleuvait quand je suis sorti de chez moi.",
+          "choices": ["Il", "pleuvait", "quand", "je", "suis", "sorti", "de", "chez", "moi"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "L’année dernière, nous sommes allés en Italie.",
+          "choices": ["L’année", "dernière,", "nous", "sommes", "allés", "en", "Italie"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pendant qu’il lisait, son téléphone a sonné.",
+          "choices": ["Pendant", "qu’il", "lisait,", "son", "téléphone", "a", "sonné"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous avons réservé une chambre avec vue sur la mer.",
+          "choices": ["Nous", "avons", "réservé", "une", "chambre", "avec", "vue", "sur", "la", "mer"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Avant d’embarquer, il faut montrer son passeport.",
+          "choices": ["Avant", "d’embarquer,", "il", "faut", "montrer", "son", "passeport"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous avons pris l’avion pour aller en Espagne.",
+          "choices": ["Nous", "avons", "pris", "l’avion", "pour", "aller", "en", "Espagne"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J’adore visiter les musées pendant mes voyages.",
+          "choices": ["J’adore", "visiter", "les", "musées", "pendant", "mes", "voyages"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il faut passer le contrôle de sécurité à l’aéroport.",
+          "choices": ["Il", "faut", "passer", "le", "contrôle", "de", "sécurité", "à", "l’aéroport"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ce restaurant est meilleur que celui d’hier.",
+          "choices": ["Ce", "restaurant", "est", "meilleur", "que", "celui", "d’hier"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mon frère est plus grand que moi.",
+          "choices": ["Mon", "frère", "est", "plus", "grand", "que", "moi"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "La Tour Eiffel est le plus haut monument.",
+          "choices": ["La", "Tour", "Eiffel", "est", "le", "plus", "haut", "monument"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Marie parle espagnol mieux que son frère.",
+          "choices": ["Marie", "parle", "espagnol", "mieux", "que", "son", "frère"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ce film est plus intéressant que le dernier.",
+          "choices": ["Ce", "film", "est", "plus", "intéressant", "que", "le", "dernier"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Comme entrée, je vais prendre une soupe chaude.",
+          "choices": ["Comme", "entrée,", "je", "vais", "prendre", "une", "soupe", "chaude"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je préfère le chocolat noir au chocolat au lait.",
+          "choices": ["Je", "préfère", "le", "chocolat", "noir", "au", "chocolat", "au", "lait"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pour le dessert, j’aimerais une tarte aux fraises.",
+          "choices": ["Pour", "le", "dessert,", "j’aimerais", "une", "tarte", "aux", "fraises"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Le serveur nous a conseillé un plat délicieux.",
+          "choices": ["Le", "serveur", "nous", "a", "conseillé", "un", "plat", "délicieux"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je ne mange pas de viande, je suis végétarien.",
+          "choices": ["Je", "ne", "mange", "pas", "de", "viande,", "je", "suis", "végétarien"],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je suis allé au marché hier.", "rightId": 1 },
+              "right": { "word": "It was raining when we went out.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Quand j'étais petit, je jouais au foot.", "rightId": 2 },
+              "right": { "word": "She was reading a book when you arrived.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il pleuvait quand nous sommes sortis.", "rightId": 3 },
+              "right": { "word": "We watched a movie on Saturday night.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous avons vu un film samedi soir.", "rightId": 4 },
+              "right": { "word": "I went to the market yesterday.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Elle lisait un livre quand tu es arrivé.", "rightId": 5 },
+              "right": { "word": "When I was little, I played soccer.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Pendant que je dormais, mon téléphone a sonné.", "rightId": 1 },
+              "right": { "word": "Last year, I visited Paris.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il a fini ses devoirs avant de sortir.", "rightId": 2 },
+              "right": { "word": "While I was sleeping, my phone rang.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Nous dînions quand il a commencé à pleuvoir.", "rightId": 3 },
+              "right": { "word": "Every summer, we used to go to the beach.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Tous les étés, nous allions à la plage.", "rightId": 4 },
+              "right": { "word": "We were having dinner when it started raining.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "L'année dernière, j'ai visité Paris.", "rightId": 5 },
+              "right": { "word": "He finished his homework before going out.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Un billet aller-retour", "rightId": 1 },
+              "right": { "word": "A youth hostel", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Une auberge de jeunesse", "rightId": 2 },
+              "right": { "word": "To board the plane", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Embarquer dans l'avion", "rightId": 3 },
+              "right": { "word": "To go through customs", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Une réservation annulée", "rightId": 4 },
+              "right": { "word": "A round-trip ticket", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Passer la douane", "rightId": 5 },
+              "right": { "word": "A canceled reservation", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Un vol retardé", "rightId": 1 },
+              "right": { "word": "A travel guidebook", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Une chambre avec vue", "rightId": 2 },
+              "right": { "word": "A currency exchange office", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Faire une valise", "rightId": 3 },
+              "right": { "word": "To pack a suitcase", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Un guide touristique", "rightId": 4 },
+              "right": { "word": "A delayed flight", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Un bureau de change", "rightId": 5 },
+              "right": { "word": "A room with a view", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ce film est plus intéressant que l’autre.", "rightId": 1 },
+              "right": { "word": "This hotel is the cheapest in town.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Marie est la plus intelligente de la classe.", "rightId": 2 },
+              "right": { "word": "This restaurant is as good as yesterday’s one.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il court plus vite que moi.", "rightId": 3 },
+              "right": { "word": "He runs faster than me.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Cet hôtel est le moins cher de la ville.", "rightId": 4 },
+              "right": { "word": "This movie is more interesting than the other.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ce restaurant est aussi bon que celui d’hier.", "rightId": 5 },
+              "right": { "word": "Marie is the smartest in the class.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Cette robe est plus belle que l’autre.", "rightId": 1 },
+              "right": { "word": "This is the best book I have read.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "C’est le meilleur livre que j’ai lu.", "rightId": 2 },
+              "right": { "word": "This store is as expensive as that one.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Son appartement est moins grand que le mien.", "rightId": 3 },
+              "right": { "word": "Today, it is hotter than yesterday.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Aujourd’hui, il fait plus chaud qu’hier.", "rightId": 4 },
+              "right": { "word": "This dress is more beautiful than the other one.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ce magasin est aussi cher que celui-là.", "rightId": 5 },
+              "right": { "word": "His apartment is smaller than mine.", "rightId": 3 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Un plat principal", "rightId": 1 },
+              "right": { "word": "A bottle of sparkling water", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Une addition, s'il vous plaît.", "rightId": 2 },
+              "right": { "word": "A friendly waiter", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Je préfère les fruits aux bonbons.", "rightId": 3 },
+              "right": { "word": "I prefer fruits over candies.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Une bouteille d’eau gazeuse", "rightId": 4 },
+              "right": { "word": "A main course", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Un serveur amical", "rightId": 5 },
+              "right": { "word": "The bill, please.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je voudrais un café sans sucre.", "rightId": 1 },
+              "right": { "word": "The bread is crunchier here.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Le pain est plus croustillant ici.", "rightId": 2 },
+              "right": { "word": "For dessert, I will have a tart.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Cette pizza est meilleure que celle d’hier.", "rightId": 3 },
+              "right": { "word": "I am allergic to nuts.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Je suis allergique aux noix.", "rightId": 4 },
+              "right": { "word": "I would like a coffee without sugar.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Comme dessert, je prendrai une tarte.", "rightId": 5 },
+              "right": { "word": "This pizza is better than yesterday’s one.", "rightId": 3 }
             },
            
           ],
