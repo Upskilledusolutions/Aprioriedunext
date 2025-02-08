@@ -637,4 +637,682 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '2',
+      name: 'German A2 Practice Test - 2',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "Wenn ich reich wäre, ______ ich eine Weltreise machen.",
+          "choices": [
+            "mache",
+            "würde machen",
+            "machte",
+            "gemacht"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wenn du mehr üben würdest, ______ du besser Deutsch sprechen.",
+          "choices": [
+            "wirst",
+            "würdest",
+            "würdest können",
+            "können würdest"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Wenn er mehr Zeit ______, würde er öfter Sport treiben.",
+          "choices": [
+            "hätte",
+            "hat",
+            "haben",
+            "hätte gehabt"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn wir heute frei hätten, ______ wir an den Strand fahren.",
+          "choices": [
+            "würden",
+            "wäre",
+            "fahren",
+            "hätten"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn du einen Wunsch frei ______, was würdest du dir wünschen?",
+          "choices": [
+            "hast",
+            "haben",
+            "hättest",
+            "hattest"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Könnten Sie mir bitte sagen, wo die nächste U-Bahn-Station ______?",
+          "choices": [
+            "ist",
+            "wäre",
+            "sein würde",
+            "war"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Entschuldigung, ______ ich hier sitzen?",
+          "choices": [
+            "darf",
+            "dürfte",
+            "können",
+            "müsste"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wenn ich mehr Geld ______, würde ich ein größeres Auto kaufen.",
+          "choices": [
+            "hätte",
+            "haben",
+            "hat",
+            "hätte gehabt"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ gerne ein Glas Wasser, bitte.",
+          "choices": [
+            "hätte",
+            "habe",
+            "hatte",
+            "hättest"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Würden Sie mir bitte helfen, das Gepäck ______?",
+          "choices": [
+            "tragen",
+            "trägst",
+            "trug",
+            "getragen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich denke, dass Deutsch eine ______ Sprache ist.",
+          "choices": [
+            "schwer",
+            "schwierige",
+            "schwierig",
+            "schwierigste"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Meiner Meinung nach ______ mehr Menschen recyceln.",
+          "choices": [
+            "sollten",
+            "sollen",
+            "würde",
+            "könnte"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich glaube, dass Sport sehr wichtig für die Gesundheit ______.",
+          "choices": [
+            "ist",
+            "wäre",
+            "seien",
+            "wäre gewesen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich bin überzeugt, dass wir weniger Plastik ______ sollten.",
+          "choices": [
+            "benutzt",
+            "benutzen",
+            "benutzt haben",
+            "benutzte"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wenn es nach mir ginge, ______ es weniger Autos in der Stadt.",
+          "choices": [
+            "gäbe",
+            "gebe",
+            "geben",
+            "gegeben"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich finde, dass jeder Mensch eine gute Bildung ______ sollte.",
+          "choices": [
+            "bekommen",
+            "bekommt",
+            "bekommen sollte",
+            "bekommen haben"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Ich bin nicht sicher, ob Online-Lernen besser als Präsenzunterricht ______.",
+          "choices": [
+            "ist",
+            "sei",
+            "wäre",
+            "wäre gewesen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Meiner Meinung nach ______ wir mehr Radwege in der Stadt haben.",
+          "choices": [
+            "sollten",
+            "müssen",
+            "haben",
+            "gehabt haben"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich denke, dass soziale Medien sowohl gut als auch schlecht ______ können.",
+          "choices": [
+            "ist",
+            "sein",
+            "seien",
+            "gewesen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Ich bin der Ansicht, dass Umweltverschmutzung ein großes Problem ______.",
+          "choices": [
+            "ist",
+            "sei",
+            "ist gewesen",
+            "gewesen wäre"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Wenn ich mehr Zeit hätte, ______ ich mehr Bücher. (lesen)",
+          "choices": ["würde lesen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn du fleißiger ______, würdest du bessere Noten bekommen. (sein)",
+          "choices": ["wärst"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ ins Kino, wenn ich nicht so müde wäre. (gehen)",
+          "choices": ["würde gehen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn es nicht regnen würde, ______ wir ein Picknick. (machen)",
+          "choices": ["würden machen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn du mir helfen ______, wäre ich dir sehr dankbar. (können)",
+          "choices": ["könntest"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Könnten Sie mir bitte sagen, wo der nächste Bahnhof ______? (sein)",
+          "choices": ["ist"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ gerne eine Tasse Kaffee, wenn es möglich wäre. (nehmen)",
+          "choices": ["würde nehmen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn ich ein Auto ______, könnte ich dich fahren. (haben)",
+          "choices": ["hätte"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Entschuldigung, ______ ich das Fenster öffnen? (dürfen)",
+          "choices": ["dürfte"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn ich reicher ______, würde ich um die Welt reisen. (sein)",
+          "choices": ["wäre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich denke, dass Deutsch eine schöne Sprache ______. (sein)",
+          "choices": ["ist"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Meiner Meinung nach ______ mehr Menschen recyceln. (sollen)",
+          "choices": ["sollten"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn du mich fragst, ______ ich, dass Sport wichtig ist. (glauben)",
+          "choices": ["glaube"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich bin der Meinung, dass wir mehr Zeit für Hobbys ______ sollten. (haben)",
+          "choices": ["haben"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn es nach mir ginge, ______ es weniger Autos in der Stadt. (geben)",
+          "choices": ["gäbe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich finde, dass jeder Mensch eine gute Bildung ______ sollte. (bekommen)",
+          "choices": ["bekommen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich bin nicht sicher, ob Online-Lernen besser als Präsenzunterricht ______. (sein)",
+          "choices": ["ist"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich bin der Ansicht, dass Sport wichtig für die Gesundheit ______. (sein)",
+          "choices": ["ist"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Meiner Meinung nach ______ wir strengere Umweltgesetze. (brauchen)",
+          "choices": ["brauchen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich bin überzeugt, dass soziale Medien sowohl gut als auch schlecht ______ können. (sein)",
+          "choices": ["sein"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Ich würde ein Auto kaufen, wenn ich Geld hätte.",
+          "choices": ["Ich", "würde", "ein", "Auto", "kaufen,", "wenn", "ich", "Geld", "hätte"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wenn es nicht regnen würde, gingen wir spazieren.",
+          "choices": ["Wenn", "es", "nicht", "regnen", "würde,", "gingen", "wir", "spazieren"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Er würde reisen, wenn er mehr Zeit hätte.",
+          "choices": ["Er", "würde", "reisen,", "wenn", "er", "mehr", "Zeit", "hätte"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wenn du lernst, würdest du die Prüfung bestehen.",
+          "choices": ["Wenn", "du", "lernst,", "würdest", "du", "die", "Prüfung", "bestehen"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich wäre glücklich, wenn du hier wärst.",
+          "choices": ["Ich", "wäre", "glücklich,", "wenn", "du", "hier", "wärst"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Könnten Sie mir bitte helfen, die Tür zu öffnen?",
+          "choices": ["Könnten", "Sie", "mir", "bitte", "helfen,", "die", "Tür", "zu", "öffnen?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich hätte gerne einen Kaffee mit Milch.",
+          "choices": ["Ich", "hätte", "gerne", "einen", "Kaffee", "mit", "Milch"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wenn ich du wäre, würde ich warten.",
+          "choices": ["Wenn", "ich", "du", "wäre,", "würde", "ich", "warten"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Dürfte ich das Fenster bitte öffnen?",
+          "choices": ["Dürfte", "ich", "das", "Fenster", "bitte", "öffnen?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Würden Sie mir bitte die Rechnung bringen?",
+          "choices": ["Würden", "Sie", "mir", "bitte", "die", "Rechnung", "bringen?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich denke, dass Deutsch eine schöne Sprache ist.",
+          "choices": ["Ich", "denke,", "dass", "Deutsch", "eine", "schöne", "Sprache", "ist"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Meiner Meinung nach ist Sport sehr wichtig.",
+          "choices": ["Meiner", "Meinung", "nach", "ist", "Sport", "sehr", "wichtig"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich glaube, dass wir mehr lesen sollten.",
+          "choices": ["Ich", "glaube,", "dass", "wir", "mehr", "lesen", "sollten"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wenn ich könnte, würde ich in Berlin leben.",
+          "choices": ["Wenn", "ich", "könnte,", "würde", "ich", "in", "Berlin", "leben"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich finde, dass Technologie unser Leben verbessert.",
+          "choices": ["Ich", "finde,", "dass", "Technologie", "unser", "Leben", "verbessert"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich bin der Meinung, dass Bücher besser als Filme sind.",
+          "choices": ["Ich", "bin", "der", "Meinung,", "dass", "Bücher", "besser", "als", "Filme", "sind"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Meiner Meinung nach sollten wir weniger Fleisch essen.",
+          "choices": ["Meiner", "Meinung", "nach", "sollten", "wir", "weniger", "Fleisch", "essen"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich denke, dass Umweltverschmutzung ein großes Problem ist.",
+          "choices": ["Ich", "denke,", "dass", "Umweltverschmutzung", "ein", "großes", "Problem", "ist"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich finde, dass Online-Unterricht sehr praktisch ist.",
+          "choices": ["Ich", "finde,", "dass", "Online-Unterricht", "sehr", "praktisch", "ist"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich glaube, dass alle Menschen gleich behandelt werden sollten.",
+          "choices": ["Ich", "glaube,", "dass", "alle", "Menschen", "gleich", "behandelt", "werden", "sollten"],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Wenn ich Zeit hätte, würde ich reisen.", "rightId": 1 },
+              "right": { "word": "If she studied harder, she would have better grades.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Er würde helfen, wenn er könnte.", "rightId": 2 },
+              "right": { "word": "I would buy the book if it were cheaper.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Wenn es nicht regnen würde, könnten wir gehen.", "rightId": 3 },
+              "right": { "word": "He would help if he could.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Ich würde das Buch kaufen, wenn es billiger wäre.", "rightId": 4 },
+              "right": { "word": "If I had time, I would travel.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Wenn sie fleißiger lernen würde, hätte sie bessere Noten.", "rightId": 5 },
+              "right": { "word": "If it didn’t rain, we could go.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Wenn du früher aufstehst, verpasst du den Bus nicht.", "rightId": 1 },
+              "right": { "word": "He wouldn’t be tired if he went to bed earlier.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Ich wäre glücklich, wenn ich eine Katze hätte.", "rightId": 2 },
+              "right": { "word": "If you wake up earlier, you won’t miss the bus.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Wenn wir mehr Geld hätten, würden wir ein Haus kaufen.", "rightId": 3 },
+              "right": { "word": "If you help me, I will finish faster.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Er wäre nicht müde, wenn er früher schlafen würde.", "rightId": 4 },
+              "right": { "word": "If we had more money, we would buy a house.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Wenn du mir hilfst, bin ich schneller fertig.", "rightId": 5 },
+              "right": { "word": "I would be happy if I had a cat.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Könnten Sie mir bitte helfen?", "rightId": 1 },
+              "right": { "word": "If I were rich, I would travel the world.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Wenn ich reich wäre, würde ich eine Weltreise machen.", "rightId": 2 },
+              "right": { "word": "I would like a coffee, please.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Ich hätte gerne einen Kaffee, bitte.", "rightId": 3 },
+              "right": { "word": "Excuse me, could you show me the way?", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Wenn ich mehr Zeit hätte, würde ich ein neues Hobby lernen.", "rightId": 4 },
+              "right": { "word": "Could you please help me?", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Entschuldigung, könnten Sie mir den Weg zeigen?", "rightId": 5 },
+              "right": { "word": "If I had more time, I would learn a new hobby.", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ich würde es schätzen, wenn Sie mir eine E-Mail schicken könnten.", "rightId": 1 },
+              "right": { "word": "Would it be possible to reschedule the meeting?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Wenn es möglich wäre, hätte ich gerne eine Fensterplatz.", "rightId": 2 },
+              "right": { "word": "Would you have a recommendation for a good restaurant?", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Dürfte ich bitte das Salz haben?", "rightId": 3 },
+              "right": { "word": "Could I have the salt, please?", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Wäre es möglich, das Meeting zu verschieben?", "rightId": 4 },
+              "right": { "word": "I would appreciate it if you could send me an email.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Hätten Sie eine Empfehlung für ein gutes Restaurant?", "rightId": 5 },
+              "right": { "word": "If it were possible, I would like a window seat.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ich denke, dass Sport wichtig für die Gesundheit ist.", "rightId": 1 },
+              "right": { "word": "In my opinion, reading is a good pastime.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Meiner Meinung nach ist Lesen eine gute Freizeitbeschäftigung.", "rightId": 2 },
+              "right": { "word": "I'm not sure if that is the best solution.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Ich glaube, dass Reisen eine gute Erfahrung ist.", "rightId": 3 },
+              "right": { "word": "It could be interesting to learn a new language.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Es könnte interessant sein, eine neue Sprache zu lernen.", "rightId": 4 },
+              "right": { "word": "I think that sports are important for health.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ich bin mir nicht sicher, ob das die beste Lösung ist.", "rightId": 5 },
+              "right": { "word": "I believe that traveling is a great experience.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Manche Menschen glauben, dass Fernsehen Zeitverschwendung ist.", "rightId": 1 },
+              "right": { "word": "I have the impression that he is not interested.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Ich vermute, dass er bald ankommt.", "rightId": 2 },
+              "right": { "word": "Some people believe that watching TV is a waste of time.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Für mich ist Musik eine Möglichkeit zu entspannen.", "rightId": 3 },
+              "right": { "word": "I could imagine living in another country.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Ich habe den Eindruck, dass er nicht interessiert ist.", "rightId": 4 },
+              "right": { "word": "For me, music is a way to relax.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Ich könnte mir vorstellen, in einem anderen Land zu leben.", "rightId": 5 },
+              "right": { "word": "I assume that he will arrive soon.", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ich finde, dass Technologie unser Leben verbessert.", "rightId": 1 },
+              "right": { "word": "There are arguments for and against.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Manche Leute sagen, dass Fast Food ungesund ist.", "rightId": 2 },
+              "right": { "word": "We should use public transportation more.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Ich bin der Meinung, dass Umweltschutz wichtig ist.", "rightId": 3 },
+              "right": { "word": "In my opinion, environmental protection is important.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Es gibt Argumente dafür und dagegen.", "rightId": 4 },
+              "right": { "word": "I think that technology improves our lives.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Wir sollten mehr öffentliche Verkehrsmittel nutzen.", "rightId": 5 },
+              "right": { "word": "Some people say that fast food is unhealthy.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ich stimme zu, dass soziale Medien nützlich sein können.", "rightId": 1 },
+              "right": { "word": "Some people believe that pets are good for health.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Einige Menschen glauben, dass Haustiere gut für die Gesundheit sind.", "rightId": 2 },
+              "right": { "word": "Working from home has advantages and disadvantages.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Bildung ist wichtiger als Geld.", "rightId": 3 },
+              "right": { "word": "Is it better to live in a city or in the countryside?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Ist es besser, in einer Stadt oder auf dem Land zu leben?", "rightId": 4 },
+              "right": { "word": "I agree that social media can be useful.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Die Arbeit von zu Hause aus hat Vor- und Nachteile.", "rightId": 5 },
+              "right": { "word": "Education is more important than money.", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]

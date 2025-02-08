@@ -1269,4 +1269,681 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '3',
+      name: 'French A2 Practice Test - 3',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Que fait-on avant un examen pour bien se préparer ?",
+          "choices": [
+            "Manger un gâteau",
+            "Réviser ses leçons",
+            "Aller au cinéma",
+            "Regarder la télévision"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel objet utilise-t-on pour écrire dans un cahier ?",
+          "choices": [
+            "Une gomme",
+            "Un stylo",
+            "Un surligneur",
+            "Un cahier"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot signifie 'résumer une leçon' ?",
+          "choices": [
+            "Synthétiser",
+            "Copier",
+            "Effacer",
+            "Oublier"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est le synonyme de 'examen' ?",
+          "choices": [
+            "Évaluation",
+            "Vacances",
+            "Réunion",
+            "Récréation"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que doit-on faire pour mémoriser une leçon plus facilement ?",
+          "choices": [
+            "Prendre des notes",
+            "Dormir toute la journée",
+            "Fermer son cahier",
+            "Regarder un film"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel moyen de transport utilise des rails ?",
+          "choices": [
+            "Le train",
+            "L’avion",
+            "Le bus",
+            "La voiture"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel document est nécessaire pour prendre un avion ?",
+          "choices": [
+            "Une carte bancaire",
+            "Un stylo",
+            "Un billet d’avion",
+            "Un passeport"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel mot désigne l’endroit où on attend le train ?",
+          "choices": [
+            "La gare",
+            "L’aéroport",
+            "L’hôtel",
+            "Le métro"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Comment appelle-t-on un voyage en mer ?",
+          "choices": [
+            "Une croisière",
+            "Un vol",
+            "Une randonnée",
+            "Une course"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si je veux louer une voiture, où dois-je aller ?",
+          "choices": [
+            "À une agence de location",
+            "À une station de métro",
+            "À un cinéma",
+            "À une gare routière"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : Nous ______ un film ce soir.",
+          "choices": [
+            "Regardons",
+            "Allons regarder",
+            "Regardé",
+            "Regarde"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase est au futur proche ?",
+          "choices": [
+            "Elle mange une pomme.",
+            "Il va partir en voyage.",
+            "Ils sont à la maison.",
+            "Nous avons faim."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment forme-t-on le futur proche ?",
+          "choices": [
+            "Sujet + avoir + verbe",
+            "Sujet + être + verbe",
+            "Sujet + aller + infinitif",
+            "Sujet + verbe conjugué au passé"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Complétez la phrase : Tu ______ au marché demain.",
+          "choices": [
+            "Vas aller",
+            "Vas",
+            "Va",
+            "Allons"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase est incorrecte ?",
+          "choices": [
+            "Nous allons visiter Paris.",
+            "Ils vont prendre le train.",
+            "Elle va étudier hier.",
+            "Tu vas cuisiner ce soir."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel est le verbe correctement conjugué au présent ?",
+          "choices": [
+            "Nous faisons nos devoirs.",
+            "Ils fait leurs exercices.",
+            "Tu faisons ton sac.",
+            "Je fait un gâteau."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est le bon choix pour compléter la phrase ? Nous ______ une promenade cet après-midi.",
+          "choices": [
+            "Prenons",
+            "Faisons",
+            "Fait",
+            "Aller"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase est au présent ?",
+          "choices": [
+            "Je vais partir en vacances.",
+            "Tu manges une pomme.",
+            "Il va aller au supermarché.",
+            "Nous allons dormir tôt."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : Ils ______ un film en ce moment.",
+          "choices": [
+            "Vont voir",
+            "Regardent",
+            "Allons voir",
+            "Regardons"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "Elle va mangent une pizza.",
+            "Nous vas au parc.",
+            "Ils prennent un café.",
+            "Tu aller à l’école."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+        {
+          "question": "Je dois ______ mes leçons avant l'examen. (revise)",
+          "choices": ["réviser"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le professeur a préparé un ______ avec toutes les notions importantes. (summary)",
+          "choices": ["résumé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avant l'examen, il est utile de faire des ______. (exercices)",
+          "choices": ["exercices"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'utilise des ______ pour souligner les mots importants dans mes notes. (highlighters)",
+          "choices": ["surligneurs"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous allons faire une ______ pour tester nos connaissances. (assessment)",
+          "choices": ["évaluation"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour aller à Paris, je prends le ______. (train)",
+          "choices": ["train"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'achète mon ______ d'avion en ligne. (ticket)",
+          "choices": ["billet"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le ______ décolle à 15 heures. (flight)",
+          "choices": ["vol"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À la gare, je dois valider mon ______ avant de monter dans le train. (billet)",
+          "choices": ["ticket"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous allons voyager en ______ pour visiter la ville. (metro)",
+          "choices": ["métro"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Demain, je ______ au cinéma avec mes amis. (aller)",
+          "choices": ["vais aller"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ le train pour aller à Marseille. (prendre)",
+          "choices": ["allons prendre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Est-ce que tu ______ le musée ce week-end ? (visiter)",
+          "choices": ["vas visiter"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ en vacances la semaine prochaine. (partir)",
+          "choices": ["vont partir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marie ______ pour son examen de français demain. (étudier)",
+          "choices": ["va étudier"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'______ un examen de français demain. (avoir)",
+          "choices": ["ai"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ en train de lire un livre. (être)",
+          "choices": ["est"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ nos devoirs tous les jours. (faire)",
+          "choices": ["faisons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ à l’école à 8 heures du matin. (aller)",
+          "choices": ["allez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ le bus pour aller au travail. (prendre)",
+          "choices": ["prennent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Quand révises-tu tes leçons pour l'examen ?",
+          "choices": ["Quand", "révises-tu", "tes", "leçons", "pour", "l'examen", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Quel matériel utilises-tu pour réviser ?",
+          "choices": ["Quel", "matériel", "utilises-tu", "pour", "réviser", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pourquoi est-il important de réviser ?",
+          "choices": ["Pourquoi", "est-il", "important", "de", "réviser", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Comment organises-tu tes notes de cours ?",
+          "choices": ["Comment", "organises-tu", "tes", "notes", "de", "cours", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Préfères-tu réviser seul ou avec des amis ?",
+          "choices": ["Préfères-tu", "réviser", "seul", "ou", "avec", "des", "amis", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Quel moyen de transport préfères-tu utiliser ?",
+          "choices": ["Quel", "moyen", "de", "transport", "préfères-tu", "utiliser", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Comment vas-tu à l’école tous les jours ?",
+          "choices": ["Comment", "vas-tu", "à", "l’école", "tous", "les", "jours", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Où achètes-tu ton billet de train ?",
+          "choices": ["Où", "achètes-tu", "ton", "billet", "de", "train", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Quels documents sont nécessaires pour voyager ?",
+          "choices": ["Quels", "documents", "sont", "nécessaires", "pour", "voyager", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "À quelle heure part ton vol demain ?",
+          "choices": ["À", "quelle", "heure", "part", "ton", "vol", "demain", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Que vas-tu faire ce week-end ?",
+          "choices": ["Que", "vas-tu", "faire", "ce", "week-end", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Où allons-nous voyager pendant les vacances ?",
+          "choices": ["Où", "allons-nous", "voyager", "pendant", "les", "vacances", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Quand va-t-il commencer son nouveau travail ?",
+          "choices": ["Quand", "va-t-il", "commencer", "son", "nouveau", "travail", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "À quelle heure vas-tu arriver ?",
+          "choices": ["À", "quelle", "heure", "vas-tu", "arriver", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Que vont-ils apprendre à l’école demain ?",
+          "choices": ["Que", "vont-ils", "apprendre", "à", "l’école", "demain", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Quel temps utilise-t-on pour une habitude ?",
+          "choices": ["Quel", "temps", "utilise-t-on", "pour", "une", "habitude", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Comment forme-t-on le futur proche ?",
+          "choices": ["Comment", "forme-t-on", "le", "futur", "proche", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Quelle est la différence entre \"aller\" et \"venir\" ?",
+          "choices": ["Quelle", "est", "la", "différence", "entre", "\"aller\"", "et", "\"venir\"", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pourquoi utilise-t-on l’imparfait en français ?",
+          "choices": ["Pourquoi", "utilise-t-on", "l’imparfait", "en", "français", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Quand utilise-t-on le passé composé ?",
+          "choices": ["Quand", "utilise-t-on", "le", "passé", "composé", "?"],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je révise mes notes avant l’examen.", "rightId": 1 },
+              "right": { "word": "We do grammar exercises.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Ce livre m’aide à mieux comprendre la leçon.", "rightId": 2 },
+              "right": { "word": "You take notes during the class.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Nous faisons des exercices de grammaire.", "rightId": 3 },
+              "right": { "word": "This book helps me understand the lesson.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Il préfère réviser avec ses amis.", "rightId": 4 },
+              "right": { "word": "I review my notes before the exam.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Tu prends des notes pendant le cours.", "rightId": 5 },
+              "right": { "word": "He prefers to revise with his friends.", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Elle utilise des fiches pour mémoriser.", "rightId": 1 },
+              "right": { "word": "We must redo the grammar test.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Nous devons refaire le test de grammaire.", "rightId": 2 },
+              "right": { "word": "She uses flashcards to memorize.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ils étudient ensemble à la bibliothèque.", "rightId": 3 },
+              "right": { "word": "You reread the important chapters.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "J’écris un résumé de chaque leçon.", "rightId": 4 },
+              "right": { "word": "They study together at the library.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Vous relisez les chapitres importants.", "rightId": 5 },
+              "right": { "word": "I write a summary of each lesson.", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je prends le train pour aller à Paris.", "rightId": 1 },
+              "right": { "word": "We wait for the bus at the stop.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Nous attendons le bus à l’arrêt.", "rightId": 2 },
+              "right": { "word": "He often travels by plane.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Il voyage souvent en avion.", "rightId": 3 },
+              "right": { "word": "You buy a metro ticket.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Elle loue une voiture pour le week-end.", "rightId": 4 },
+              "right": { "word": "I take the train to go to Paris.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Tu achètes un billet de métro.", "rightId": 5 },
+              "right": { "word": "She rents a car for the weekend.", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il préfère marcher au lieu de conduire.", "rightId": 1 },
+              "right": { "word": "I use a bicycle to get around.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous partons en vacances en bateau.", "rightId": 2 },
+              "right": { "word": "You check in your luggage at the airport.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Elles prennent le tramway pour aller en ville.", "rightId": 3 },
+              "right": { "word": "They take the tram to go downtown.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "J’utilise un vélo pour me déplacer.", "rightId": 4 },
+              "right": { "word": "He prefers to walk instead of driving.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Vous enregistrez vos bagages à l’aéroport.", "rightId": 5 },
+              "right": { "word": "We go on vacation by boat.", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je vais étudier ce soir.", "rightId": 1 },
+              "right": { "word": "You are going to learn a new language.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous allons partir en vacances demain.", "rightId": 2 },
+              "right": { "word": "They are going to go shopping on Saturday.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il va acheter une nouvelle voiture.", "rightId": 3 },
+              "right": { "word": "He is going to buy a new car.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Tu vas apprendre une nouvelle langue.", "rightId": 4 },
+              "right": { "word": "I am going to study tonight.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Elles vont faire du shopping samedi.", "rightId": 5 },
+              "right": { "word": "We are going to leave for vacation tomorrow.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Vous allez regarder un film ce soir.", "rightId": 1 },
+              "right": { "word": "She is going to bake a cake for the birthday.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Elle va préparer un gâteau pour l’anniversaire.", "rightId": 2 },
+              "right": { "word": "I am going to finish my homework after dinner.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Nous allons visiter un musée demain matin.", "rightId": 3 },
+              "right": { "word": "They are going to organize a party this weekend.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Ils vont organiser une fête ce week-end.", "rightId": 4 },
+              "right": { "word": "You are going to watch a movie tonight.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Je vais finir mes devoirs après le dîner.", "rightId": 5 },
+              "right": { "word": "We are going to visit a museum tomorrow morning.", "rightId": 3 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Quand utilise-t-on l’imparfait ?", "rightId": 1 },
+              "right": { "word": "How is the passé composé formed?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Le futur proche est formé avec 'aller'.", "rightId": 2 },
+              "right": { "word": "They are doing an exercise on adjectives.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Nous révisons les conjugaisons des verbes.", "rightId": 3 },
+              "right": { "word": "We review the verb conjugations.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Comment se forme le passé composé ?", "rightId": 4 },
+              "right": { "word": "When do we use the imperfect tense?", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ils font un exercice sur les adjectifs.", "rightId": 5 },
+              "right": { "word": "The near future is formed with 'aller'.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Quel est le participe passé de 'prendre' ?", "rightId": 1 },
+              "right": { "word": "Why do we use the subjunctive?", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Pourquoi utilise-t-on le subjonctif ?", "rightId": 2 },
+              "right": { "word": "We are taking a test on past tenses.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Vous devez apprendre les exceptions des verbes.", "rightId": 3 },
+              "right": { "word": "I need to review my conjugation mistakes.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Je dois réviser mes erreurs en conjugaison.", "rightId": 4 },
+              "right": { "word": "What is the past participle of 'prendre'?", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Nous faisons un test sur les temps du passé.", "rightId": 5 },
+              "right": { "word": "You must learn the exceptions of verbs.", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]
