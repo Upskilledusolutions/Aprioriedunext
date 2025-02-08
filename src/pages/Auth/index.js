@@ -44,9 +44,10 @@ export default function Login() {
     // { "userId": "linguafranca201", "password": "ChatSouris2649", "name": "", "trial": true, "type": "french", "next":[] }, //using
     // { "userId": "linguafranca213", "password": "YeuxVerts1049", "name": "", "trial": true, "type": "french", "next":[] }, //using
     { "userId": "linguafranca107", "password": "AuRevoir7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using
-    { "userId": "linguafranca1", "password": "AuInconnu7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using
+    { "userId": "linguafranca1", "password": "AuInconnu7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using 
     { "userId": "quixoticlengua103", "password": "BuenosDias8387", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua109", "password": "PorFavor29369", "name": "", "trial": false, "type": "spanish", "next":[] }, 
+    { "userId": "quixoticlengua109", "password": "PorFavor9263", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua113", "password": "AdiosAmigo1137", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua127", "password": "ComoEstas7832", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua191", "password": "HastaLuego5241", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
