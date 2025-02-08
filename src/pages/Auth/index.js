@@ -16,7 +16,7 @@ export default function Login() {
 
   const dispatch = useDispatch();
   const router = useRouter();
-
+  
   // Simulated user database
   const usersDB = [
     { userId: 'mastertrainer1', password: 'Chocolat@1474', name: '', "trial": false, type: 'all', "next":[] },
@@ -41,8 +41,8 @@ export default function Login() {
     { "userId": "linguafranca189", "password": "PasEncore4186", "name": "","trial": true, "type": "french", "next":[] }, //using
     { "userId": "linguafranca97", "password": "CavaToi9325", "name": "", "trial": false, "type": "french", "next":[] }, //using
     { "userId": "linguafranca101", "password": "DeRien4872", "name": "", "trial": false, "type": "french", "next":[] }, //using
-    { "userId": "linguafranca201", "password": "ChatSouris2649", "name": "", "trial": true, "type": "french", "next":[] }, //using
-    { "userId": "linguafranca213", "password": "YeuxVerts1049", "name": "", "trial": true, "type": "french", "next":[] }, //using
+    // { "userId": "linguafranca201", "password": "ChatSouris2649", "name": "", "trial": true, "type": "french", "next":[] }, //using
+    // { "userId": "linguafranca213", "password": "YeuxVerts1049", "name": "", "trial": true, "type": "french", "next":[] }, //using
     { "userId": "linguafranca107", "password": "AuRevoir7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using
     { "userId": "linguafranca1", "password": "AuInconnu7339", "name": "", "trial": false, "type": "french", "next":["frencha2", "spanish", "spanisha2", "german", "germana2"] }, //using
     { "userId": "quixoticlengua103", "password": "BuenosDias8387", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
@@ -51,17 +51,17 @@ export default function Login() {
     { "userId": "quixoticlengua127", "password": "ComoEstas7832", "name": "", "trial": false, "type": "spanish", "next":[] },
     { "userId": "quixoticlengua191", "password": "HastaLuego5241", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
     { "userId": "quixoticlengua137", "password": "TeQuiero8974", "name": "", "trial": false, "type": "spanish", "next":[] }, //using
-    { "userId": "quixoticlengua139", "password": "LoSiento6138", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
-    { "userId": "sprachmeister157", "password": "DankeSchon16479", "name": "", "trial": true, "type": "german", "next":[] }, //using
-    { "userId": "sprachmeister211", "password": "BitteSehr8271", "name": "", "trial": true, "type": "german", "next":[] }, //using
+    // { "userId": "quixoticlengua139", "password": "LoSiento6138", "name": "", "trial": true, "type": "spanish", "next":[] }, //using
+    // { "userId": "sprachmeister157", "password": "DankeSchon16479", "name": "", "trial": true, "type": "german", "next":[] }, //using
+    // { "userId": "sprachmeister211", "password": "BitteSehr8271", "name": "", "trial": true, "type": "german", "next":[] }, //using
     { "userId": "sprachmeister167", "password": "WieGehts3149", "name": "", "trial": false, "type": "german", "next":[] },
     { "userId": "sprachmeister173", "password": "TschussMein3975", "name": "", "trial": false, "type": "german", "next":[] },
     { "userId": "sprachmeister179", "password": "AufWiedersehen5932", "name": "", "trial": false, "type": "german", "next":[] },
     { "userId": "sprachmeister181", "password": "GuteReise4819", "name": "", "trial": false, "type": "german", "next":[] },
     { "userId": "sprachmeister191", "password": "AllesKlar4287", "name": "", "trial": false, "type": "german", "next":[] },
     { "userId": "sprachmeister193", "password": "Entschuldigung6724", "name": "", "trial": false, "type": "german", "next":[] },
-    { "userId": "sprachmeister313", "password": "MirGehts9642", "name": "","trial": true, "type": "german", "next":[] }, //using
-    { "userId": "stellungvor503", "password": "MeerEsfluss7293", "name": "","trial": true, "type": "germana2", "next":[] }, //using
+    // { "userId": "sprachmeister313", "password": "MirGehts9642", "name": "","trial": true, "type": "german", "next":[] }, //using
+    // { "userId": "stellungvor503", "password": "MeerEsfluss7293", "name": "","trial": true, "type": "germana2", "next":[] }, //using
     { "userId": "sprachmeister197", "password": "GutenAbend8351", "name": "", "trial": false, "type": "german" , "next": ["frencha2", "frenchb1", "spanish"]},
     { "userId": "sprachmeister201", "password": "GutenAbend8351", "name": "", "trial": false, "type": "germana2", "next":[] },
     {"userId": "linguaitaliana298", "password": "Buonasera9216", "name": "", "trial": false, "type": "italian", "next":[]  },
@@ -69,10 +69,10 @@ export default function Login() {
     {"userId": "nederlands729", "password": "Goedenavond8927", "name": "", "trial": false, "type": "dutch", "next":[] },
 
     //New
-    {"userId": "linguafranca223", "password": "SaphirChimere9397", "name": "", "trial": true, "type": "french", "next":[] }, //using
+    // {"userId": "linguafranca223", "password": "SaphirChimere9397", "name": "", "trial": true, "type": "french", "next":[] }, //using
     {"userId": "linguafranca227", "password": "SereniteLegende8835", "name": "", "trial": true, "type": "french", "next":[] }, //using
-    {"userId": "linguafranca229", "password": "InconnuSaphir2727", "name": "", "trial": true, "type": "french", "next":[] },
-    {"userId": "linguafranca233", "password": "MelancolieSolitude9465", "name": "", "trial": true, "type": "french", "next":[] },
+    {"userId": "linguafranca229", "password": "InconnuSaphir2727", "name": "", "trial": true, "type": "french", "next":[] }, //using
+    {"userId": "linguafranca233", "password": "MelancolieSolitude9465", "name": "", "trial": true, "type": "french", "next":[] }, //using
     {"userId": "linguafranca239", "password": "LegendeInconnu1182", "name": "", "trial": true, "type": "french", "next":[] },
 
     {"userId": "lumieresaison503", "password": "ReverieChimere5755", "name": "", "trial": true, "type": "frencha2", "next":[] },
@@ -93,7 +93,7 @@ export default function Login() {
     {"userId": "valleestudiar569", "password": "VarillaMetalica1480", "name": "", "trial": true, "type": "spanisha2", "next":[] },
     {"userId": "valleestudiar571", "password": "CadenaDeoro3816", "name": "", "trial": true, "type": "spanisha2", "next":[] },
 
-    {"userId": "sprachmeister271", "password": "KleinerFehler9265", "name": "", "trial": true, "type": "german", "next":[] },
+    {"userId": "sprachmeister271", "password": "KleinerFehler9265", "name": "", "trial": true, "type": "german", "next":[] }, //using
     {"userId": "sprachmeister277", "password": "WeibesLicht7823", "name": "", "trial": true, "type": "german", "next":[] },
     {"userId": "sprachmeister281", "password": "FliebenderFluss4916", "name": "", "trial": true, "type": "german", "next":[] },
     {"userId": "sprachmeister283", "password": "TagNacht4816", "name": "", "trial": true, "type": "german", "next":[] },
