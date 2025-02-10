@@ -11,7 +11,10 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
         <thead>
           <tr>
             {headings.map((heading, index) => (
-              <th key={index}>{heading === 'using' ? 'issued' : heading === 'trial' ? 'Full access' : heading}</th>
+              <th key={index}>{heading === 'using' ?
+                 'issued' : heading === 'trial' ?
+                 'Full access' : heading === 'type' ?
+                 'Course' : heading}</th>
             ))}
           </tr>
         </thead>
