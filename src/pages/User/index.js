@@ -106,7 +106,7 @@ export default function Index() {
       </Head>
       <main>
         <div>
-        {loading && <div className={styles.loader}><LoadingSpinner/></div>}
+        {/* {loading && <div className={styles.loader}><LoadingSpinner/></div>} */}
         <div className={styles.container}>
           <div className={styles.headcont}>
             <div className={styles.mainheading}>Welcome {user?.name}!</div>
