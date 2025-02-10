@@ -20,7 +20,7 @@ export default function RightSide({
   let sect = section.replace(/^'|'$/g, ''); // Clean up section name
 
   const headings = {
-    'Auth': ["userId", "password", "using","trial", "type", "next"],
+    'Auth': ["userId", "password", "using", "active", "trial", "type", "next"],
     'Lessons': ["id", "name", "level", "pdf", "video", "desc"],
     'Conversations': ["id", "title", "url", "youtube", "desc"],
     'Exercises': ["quiz", "name", "level", "topic", "questions"],
@@ -43,6 +43,30 @@ export default function RightSide({
     setIsCreatingNew(true)
     setFormData(null)
   };
+
+  // Filter the data based on the search term.
+  // This filter checks if any field in the row (from the specified headings) includes the search term.
+  const filteredData = searchTerm === ''
+    ? data
+    : data.filter(item =>
+        headings[sect].some(heading => {
+          const value = item[heading];
+          if (value === undefined || value === null) return false;
+
+          // Handle different data types:
+          if (typeof value === 'string') {
+            return value.toLowerCase().includes(searchTerm.toLowerCase());
+          } else if (typeof value === 'boolean') {
+            // Convert boolean to a string representation ("yes" or "no")
+            return (value ? 'yes' : 'no').includes(searchTerm.toLowerCase());
+          } else if (Array.isArray(value)) {
+            return value.join(' ').toLowerCase().includes(searchTerm.toLowerCase());
+          } else {
+            // Fallback for numbers or objects
+            return String(value).toLowerCase().includes(searchTerm.toLowerCase());
+          }
+        })
+      );
 
   return (
     <div className={styles.right}>
@@ -71,7 +95,7 @@ export default function RightSide({
       {/* Table Section */}
       <Table
         URL={URL}
-        data={data}
+        data={filteredData}
         section={sect}
         headings={headings[sect]}
         onEdit={onEdit}

@@ -1,11 +1,49 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
-import { useSelector } from 'react-redux'; // To access authentication status from Redux
+import { useDispatch, useSelector } from 'react-redux'; // To access authentication status from Redux
 import styles from "../../styles/quiz/quizpage.module.css";
+import { useRouter } from 'next/router'; // Import useRouter for redirection
+import LoadingSpinner from '../../../components/loader';
+import { logout } from '../../Store'
 
 export default function Index() {
   const { user } = useSelector((state) => state.auth);
+  const dispatch = useDispatch();
+  const router = useRouter();
+  const [loading, setLoading] = useState(true);
+  const URL = process.env.NEXT_PUBLIC_BACKENDURL
+
+  useEffect(() => {
+    const checkUserStatus = async () => {
+      if (!user) {
+        router.push('/Auth'); // Redirect if no user found
+        return;
+      }
+
+      try {
+        const response = await fetch(`${URL}/api/check-status`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ userId: user.userId }),
+        });
+
+        const data = await response.json();
+        if (!data.user.active) {
+          dispatch(logout()); // Log out the user if inactive
+          router.push('/Auth'); // Redirect to login page
+        }
+      } catch (error) {
+        console.error("Error checking user status:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    checkUserStatus();
+  }, [user, router, dispatch]);
 
   const cards = [
         {
@@ -67,6 +105,8 @@ export default function Index() {
         <link rel="icon" href="/logo/newlogo1.png" />
       </Head>
       <main>
+        <div>
+        {loading && <div className={styles.loader}><LoadingSpinner/></div>}
         <div className={styles.container}>
           <div className={styles.headcont}>
             <div className={styles.mainheading}>Welcome {user?.name}!</div>
@@ -100,6 +140,7 @@ export default function Index() {
                   </Link>
               </div>}
           </div>
+        </div>
         </div>
       </main>
     </>

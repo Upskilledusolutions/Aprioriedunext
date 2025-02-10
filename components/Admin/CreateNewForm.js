@@ -23,11 +23,18 @@ const CreateNewForm = ({ URL, refreshData, section, headings, language,  setShow
     }));
   };
 
+  const handleactiveCheckboxChange = (e) => {
+    setFormData((prevData) => ({
+      ...prevData,
+      active: e.target.checked, // Set boolean value
+    }));
+  };
+
     // Handle checkbox (boolean) change
     const handleCheckboxChange = (e) => {
       setFormData((prevData) => ({
         ...prevData,
-        trial: e.target.checked, // Set boolean value
+        trial: !e.target.checked, // Set boolean value
       }));
     };
 
@@ -116,7 +123,7 @@ const removeNext = (index) => {
                 heading === 'desc' || heading === 'questions' || heading === 'readingText' ? styles.fullWidth : ''
               }`}
             >
-              <label htmlFor={heading}>{heading}</label>
+              <label htmlFor={heading}>{heading === 'using' ? 'issued' : heading === 'trial' ? 'Full access' : heading}</label>
               {heading === 'id' ? (
                 <input
                   type="text"
@@ -153,7 +160,7 @@ const removeNext = (index) => {
                   type="checkbox"
                   id={heading}
                   name={heading}
-                  checked={formData.trial || false}
+                  checked={!formData.trial || false}
                   onChange={handleCheckboxChange}
                 />
                 <span className={styles.slider}></span>
@@ -166,6 +173,17 @@ const removeNext = (index) => {
                   name={heading}
                   checked={formData.using || false}
                   onChange={handleusingCheckboxChange}
+                />
+                <span className={styles.slider}></span>
+              </label>
+              ) : heading === 'active' ? (
+                <label className={styles.switch}>
+                <input
+                  type="checkbox"
+                  id={heading}
+                  name={heading}
+                  checked={formData.active || false}
+                  onChange={handleactiveCheckboxChange}
                 />
                 <span className={styles.slider}></span>
               </label>
