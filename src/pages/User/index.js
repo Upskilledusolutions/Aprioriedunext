@@ -16,11 +16,6 @@ export default function Index() {
 
   useEffect(() => {
     const checkUserStatus = async () => {
-      if (!user) {
-        router.push('/Auth'); // Redirect if no user found
-        return;
-      }
-
       try {
         const response = await fetch(`${URL}/api/check-status`, {
           method: "POST",
@@ -31,7 +26,7 @@ export default function Index() {
         });
 
         const data = await response.json();
-        if (!data.user.active) {
+        if (!data?.user?.active) {
           dispatch(logout()); // Log out the user if inactive
           router.push('/Auth'); // Redirect to login page
         }
