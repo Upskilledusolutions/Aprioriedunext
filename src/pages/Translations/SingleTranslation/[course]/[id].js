@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { cards } from '../../../../Data/Routes/Translations'
 import { useRouter } from 'next/router';
+import TranslationComponent from '../../../../../components/TranslationComp';
 
 export default function Index() {
   const [isClient, setIsClient] = useState(false); // Client-side state to prevent hydration issues
@@ -37,6 +38,8 @@ export default function Index() {
   }
 
   return (
-    <div>{somedata.heading}</div>
+    <div>
+        <TranslationComponent />
+    </div>
   );
 }
