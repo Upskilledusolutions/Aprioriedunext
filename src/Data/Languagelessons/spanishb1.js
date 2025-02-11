@@ -35,6 +35,7 @@ export const data = [{
     name:'Spanish Lesson 5 (B1)',
     level:'Intermediate',
     pdf:'https://drive.google.com/file/d/1tolxsMS9Yat1K9BGXNKMHqN9Id8tHTea/preview',
+    video:'https://www.youtube.com/embed/iM4IDNkuggg?si=nTObdYLjScVBokSg',
     desc:'Spanish Foundation Lesson 5 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning Spanish. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 ]

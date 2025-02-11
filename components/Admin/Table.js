@@ -38,7 +38,7 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
                 <td>
                   <button
                     className={styles.editButton}
-                    onClick={() => [onEdit(item), setIsCreatingNew(false)]}
+                    onClick={() => [onEdit(item), setIsCreatingNew(false), window.scrollTo({ top: 0, behavior: "smooth" })]}
                   >
                     <IoCreateOutline />
                   </button>

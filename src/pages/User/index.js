@@ -1,44 +1,11 @@
 import Link from 'next/link';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Head from 'next/head';
-import { useDispatch, useSelector } from 'react-redux'; // To access authentication status from Redux
+import { useSelector } from 'react-redux'; // To access authentication status from Redux
 import styles from "../../styles/quiz/quizpage.module.css";
-import { useRouter } from 'next/router'; // Import useRouter for redirection
-import LoadingSpinner from '../../../components/loader';
-import { logout } from '../../Store'
 
 export default function Index() {
   const { user } = useSelector((state) => state.auth);
-  const dispatch = useDispatch();
-  const router = useRouter();
-  const [loading, setLoading] = useState(true);
-  const URL = process.env.NEXT_PUBLIC_BACKENDURL
-
-  useEffect(() => {
-    const checkUserStatus = async () => {
-      try {
-        const response = await fetch(`${URL}/api/check-status`, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ userId: user.userId }),
-        });
-
-        const data = await response.json();
-        if (!data?.user?.active) {
-          dispatch(logout()); // Log out the user if inactive
-          router.push('/Auth'); // Redirect to login page
-        }
-      } catch (error) {
-        console.error("Error checking user status:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    checkUserStatus();
-  }, [user, router, dispatch]);
 
   const cards = [
         {
@@ -83,8 +50,14 @@ export default function Index() {
           "text": "Activities to improve writing skills through structured tasks.",
           "link": "WritingPractice"
         },
+        // {
+        //   "id": "8",
+        //   "heading": "Translation",
+        //   "text": "Activities to improve writing skills through structured tasks.",
+        //   "link": "Translations"
+        // },
         {
-          "id": "8",
+          "id": "9",
           "heading": "Practice Test",
           "text": "Quizzes to test and assess language proficiency and knowledge.",
           "link": "TestPrep"

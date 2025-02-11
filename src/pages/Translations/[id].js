@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
-import { cards } from '../../Data/Routes/Lessons';
+import { cards } from '../../Data/Routes/Translations';
 import styles from '../../styles/quiz/quizpage.module.css';
 import Link from 'next/link';
 import { IoPlayCircleSharp } from 'react-icons/io5';
@@ -23,14 +23,14 @@ export default function Lessons() {
 
     if (somedata) {
       // Dynamically import the lesson data
-      import(`../../Data/Languagelessons/${somedata.data}`)
+      import(`../../Data/Translationsdata/${somedata.data}`)
         // .then((module) => setLessonData(module.data))
         .then((module) => {
           let data = module.data;
           
           // Check condition and slice convoData
           if (somedata?.data === 'frenchb1' && (user?.type === 'frenchb1' || user?.next?.includes('frenchb1'))) {
-            data = data.slice(0, 15); // Slice to only include first 5 entries
+            data = data.slice(0, 10); // Slice to only include first 5 entries
           }
           
           setLessonData(data); // Set the sliced or full data
@@ -63,7 +63,7 @@ export default function Lessons() {
               lessonData.map((data, index) => (
                 <div key={data.id} className={styles.card1}>
                   {user.trial && data.id < 3 || user.type === 'all' || !user.trial ? (
-                    <Link href={`SingleLesson/${somedata.link2}/${data.id}`} className={styles.link}>
+                    <Link href={`SingleTranslation/${somedata.link2}/${data.id}`} className={styles.link}>
                       <div className={styles.cardflex5}>
                         <div className={styles.info}>
                           <div className={styles.name}>{data.name}</div>

@@ -30,7 +30,7 @@ export default function FrenchQuizes() {
           
           // Check condition and slice convoData
           if (somedata?.data === 'frenchb1' && (user?.type === 'frenchb1' || user?.next?.includes('frenchb1'))) {
-            data = data.slice(0, 10); // Slice to only include first 5 entries
+            data = data.slice(0, 15); // Slice to only include first 5 entries
           }
           
           setexerciseData(data); // Set the sliced or full data
