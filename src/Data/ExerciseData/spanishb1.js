@@ -1544,4 +1544,293 @@ export const quiz = [
         
       ]
     },
+    {
+      quiz: '6',
+      name: 'Spanish Exercise - 6 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        
+        // 20 MCQs
+        {
+          "question": "En la oración 'María le dio un regalo a su hermano', ¿qué función cumple 'le'?",
+          "choices": ["Objeto directo", "Objeto indirecto", "Sujeto", "Reflexivo"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál es el pronombre correcto para reemplazar 'a Juan' en 'Veo a Juan'?",
+          "choices": ["lo", "le", "la", "nos"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "En la oración 'Te vi en el cine', el pronombre 'te' funciona como:",
+          "choices": ["Objeto directo", "Objeto indirecto", "Reflexivo", "Sujeto"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cuando aparecen ambos pronombres en una oración, el indirecto debe colocarse:",
+          "choices": ["Después del directo", "Antes del directo", "Al final de la oración", "Entre el sujeto y el verbo"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué sucede al combinar 'le/les' con 'lo/la/los/las'?",
+          "choices": ["Se mantienen igual", "'le/les' se cambia a 'se'", "Se elimina el pronombre indirecto", "Se invierten los pronombres"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "En 'El camarero nos trajo el menú', ¿qué función cumple 'nos'?",
+          "choices": ["Objeto directo", "Objeto indirecto", "Sujeto", "Reflexivo"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál es la forma correcta para reemplazar 'a ellos' como objeto indirecto?",
+          "choices": ["los", "les", "se", "los"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "En 'Se lo di a mi hermano', ¿qué papel cumple 'se'?",
+          "choices": ["Reflexivo", "Sustituto de 'le/les'", "Objeto directo", "Sujeto"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si reemplazamos 'a Marta' en 'Vi a Marta', el pronombre correcto es:",
+          "choices": ["la", "le", "lo", "se"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál de las siguientes oraciones utiliza correctamente un pronombre de objeto indirecto?",
+          "choices": ["Te vi en la fiesta.", "Le llamé por teléfono a mi amigo.", "Lo encontré en la biblioteca.", "La comí rápidamente."],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué significa 'centro comercial'?",
+          "choices": ["Boutique", "Centro de convenciones", "Centro de compras", "Calle comercial"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "'Vestido' se traduce al inglés como:",
+          "choices": ["Shirt", "Dress", "Pants", "Skirt"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué palabra se usa para 'fitting room'?",
+          "choices": ["Escaparate", "Probador", "Factura", "Confección"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "El término 'descuento' se refiere a:",
+          "choices": ["Aumento de precio", "Reducción en el precio", "Accesorio de moda", "Tipo de pago"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Qué es un 'bolso' en inglés?",
+          "choices": ["Shoe", "Bag/Purse", "Hat", "Shirt"],
+          "correctAnswer": 2
+        },
+        {
+          "question": "La palabra 'moda' se relaciona con:",
+          "choices": ["Tendencias de vestimenta", "Accesorio de cocina", "Tipo de zapato", "Centro comercial"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se dice 'size' en español?",
+          "choices": ["Zapato", "Camisa", "Talla", "Oferta"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "El 'escaparate' de una tienda es:",
+          "choices": ["Caja registradora", "Sala de probadores", "Vitrina de exhibición", "Almacén"],
+          "correctAnswer": 3
+        },
+        {
+          "question": "'Rebaja' se refiere a:",
+          "choices": ["Oferta o descuento especial", "Prenda de ropa", "Tienda de moda", "Accesorio"],
+          "correctAnswer": 1
+        },
+        {
+          "question": "La 'confección' se relaciona con:",
+          "choices": ["Fabricación y costura", "Tipo de descuento", "Modelo de zapato", "Evento de moda"],
+          "correctAnswer": 1
+        },
+        
+        // 20 Fill in the Blanks
+  
+          {
+            "question": "Carlos ______ envió una carta a su abuela.",
+            "choices": ["le"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Vi a Luis en el parque y ______ saludé con entusiasmo.",
+            "choices": ["lo"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La profesora ______ explicó la lección a los estudiantes.",
+            "choices": ["les"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ana ______ invitó a cenar a sus amigos el sábado pasado.",
+            "choices": ["los"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "¿Tú ______ diste la tarea a Juan?",
+            "choices": ["le"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Nosotros ______ dimos un regalo sorpresa a nuestro jefe.",
+            "choices": ["le"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El camarero ______ trajo el menú a nosotros.",
+            "choices": ["nos"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Yo ______ encontré en la librería ayer (refiriéndome a mi amigo).",
+            "choices": ["lo"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El jefe ______ mandó un correo a todos los empleados.",
+            "choices": ["les"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Marta ______ mostró la nueva colección de moda a sus colegas.",
+            "choices": ["les"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Compré un hermoso ______ en la tienda, perfecto para la fiesta.",
+            "choices": ["vestido"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El ______ de mi barrio tiene muchas tiendas de marcas internacionales.",
+            "choices": ["centro comercial"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "En el ______ puedes probarte la ropa antes de comprarla.",
+            "choices": ["probador"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mi hermana compró una nueva ______ que resalta su personalidad.",
+            "choices": ["camisa"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Necesito encontrar la ______ correcta para mis nuevos zapatos.",
+            "choices": ["talla"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ese elegante ______ complementa cualquier atuendo sofisticado.",
+            "choices": ["bolso"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La tienda ofrece un gran ______ en todas las prendas esta semana.",
+            "choices": ["descuento"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La ______ de hoy combina estilos clásicos y modernos de vestir.",
+            "choices": ["moda"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El diseñador se enorgullece de la alta ______ de sus creaciones.",
+            "choices": ["confección"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "El desfile culminó en la ______, mostrando las últimas tendencias.",
+            "choices": ["pasarela"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+  
+        {
+          "question": "Empareja las palabras singulares y plurales.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Vestido", "rightId": 1 },
+              "right": { "word": "Lugar con muchas tiendas (mall)", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Centro comercial", "rightId": 2 },
+              "right": { "word": "Objeto indirecto (for him/her)", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Le (pron.)", "rightId": 3 },
+              "right": { "word": "Medida de ropa (size)", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Probador", "rightId": 4 },
+              "right": { "word": "Prenda femenina (dress)", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Talla", "rightId": 5 },
+              "right": { "word": "Lugar para probar ropa", "rightId": 4 }
+            },
+           
+          ]
+        },
+        {
+          "question": "Empareja las palabras singulares y plurales.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            
+            {
+              "left": { "word": "Descuento", "rightId": 6 },
+              "right": { "word": "Pista de desfile", "rightId": 7 }
+            },
+            {
+              "left": { "word": "Pasarela", "rightId": 7 },
+              "right": { "word": "Objeto directo plural (them)", "rightId": 8 }
+            },
+            {
+              "left": { "word": "Los (pron.)", "rightId": 8 },
+              "right": { "word": "Sustituto de le/les", "rightId": 10 }
+            },
+            {
+              "left": { "word": "Bolso", "rightId": 9 },
+              "right": { "word": "Reducción de precio", "rightId": 6 }
+            },
+            {
+              "left": { "word": "Se (pron.)", "rightId": 10 },
+              "right": { "word": "Accesorio para llevar objetos (bag)", "rightId": 9 }
+            }
+          ]
+        }
+        
+      ]
+    },
 ]
