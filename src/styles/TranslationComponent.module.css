@@ -2,16 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 80px 0;
+  background: linear-gradient(rgb(227, 80, 61) 0%,  rgb(119, 21, 8) 100%);
 }
 
 .card {
   background: white;
-  padding: 25px;
+  padding: 25px 2vw 35px;
   border-radius: 12px;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
   width: 80vw;
   transition: transform 0.3s ease;
+}
+
+.headingtext{
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
 }
 
 .initialText {
@@ -26,12 +33,16 @@
   width: 98%;
   height: 120px;
   padding: 12px;
-  border-radius: 8px;
-  border: 2px solid #ccc;
+  border: 1px solid #ccc;
   font-size: 16px;
   outline: none;
   resize: none;
   transition: border-color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.textarea::placeholder{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .textarea:focus {
@@ -52,7 +63,7 @@
 }
 
 .button:hover {
-  background: var(--darkorange);
+  background: #d84e2b;
 }
 
 .translatedText {
@@ -64,4 +75,81 @@
   padding: 10px;
   border-radius: 8px;
   box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 8px;
+  width: 80vw;
+  padding: 20px 2vw 30px;
+  position: absolute;
+  top: 5vh;
+  height: 80vh;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  animation: slideDown 0.3s ease-out;
+  background: linear-gradient(rgb(227, 80, 61) 0%,  rgb(119, 21, 8) 100%);
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.content {
+  padding: 20px 2vw;
+  border: 1px solid rgb(179, 179, 179);
+  background-color: white;
+  margin-top: 20px;
+  white-space: pre-wrap; /* Preserves newlines and spacing */
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: inset 0px 3px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: scroll;
+  height: 65vh;
+}
+
+.content::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+.content::-webkit-scrollbar-thumb {
+  background: rgb(207, 82, 66);
+}
+
+/* Handle on hover */
+.content::-webkit-scrollbar-thumb:hover {
+  background: rgb(208, 53, 32);
 }

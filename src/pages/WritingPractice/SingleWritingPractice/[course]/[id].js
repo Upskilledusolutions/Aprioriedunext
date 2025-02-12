@@ -149,8 +149,6 @@ const ChatGPTComponent = () => {
     setInput('');
   };
 
-  console.log(lesson[id-1].firstsent[(Math.floor(messages.length / 3))+1])
-
   return (
     <div className={styles.background}>
     <div className={styles.container}>

@@ -1,7 +1,7 @@
 .heading{
     background-color: rgb(227, 80, 61);
     padding: 15px 5vw;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 600;
     color: white
 }
@@ -23,12 +23,12 @@
     background-color: rgb(227, 80, 61);
     color: white;
     margin: 0;
-    padding: 15px 2vw;
+    padding: 15px 1vw;
     border-top: 1px solid white;
 }
 .leftlist li{
     list-style: none;
-    font-size: 16px;
+    font-size: 12px;
     padding: 20px 10px;
     border-bottom: 1px solid rgb(227, 80, 61);
 }
@@ -38,7 +38,7 @@
 }
 .leftlist .user{
   list-style: none;
-  font-size: 16px;
+  font-size: 12px;
   padding: 20px 11px;
   border-bottom: 1px solid rgb(227, 80, 61);
 }
@@ -49,7 +49,7 @@ border-bottom: 1px solid white;
 .heading2{
     font-weight: 600;
     padding-bottom: 10px;
-    font-size: 22px;
+    font-size: 18px;
     border-bottom: 1px solid white;
 }
 .flexing{

@@ -111,6 +111,27 @@ export const youdata = [
       title: "German Conversation 16 (A2)",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
+    {
+      id: '17',
+      url: "/youtube/GmCA217.png",
+      youtube: "https://www.youtube.com/embed/BVP18-VRo2M?si=z0M8Njiq67XRDmp1",
+      title: "German Conversation 17 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '18',
+      url: "/youtube/GmCA218.png",
+      youtube: "https://www.youtube.com/embed/awLW3nIOFJU?si=GuDRL3ov3mvR7qWE",
+      title: "German Conversation 18 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
+    {
+      id: '19',
+      url: "/youtube/GmCA219.png",
+      youtube: "https://www.youtube.com/embed/InEvaz1lQj4?si=RRwwNS5Gh1KYKVhM",
+      title: "German Conversation 19 (A2)",
+      desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
+    },
   ];
   
   

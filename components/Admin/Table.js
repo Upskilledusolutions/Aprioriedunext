@@ -4,7 +4,6 @@ import { MdDeleteOutline } from "react-icons/md";
 import styles from '@/styles/RightSide.module.css';
 
 const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNew }) => {
-  console.log(data)
   return (
     <div className={styles.tableContainer}>
       <table className={styles.table}>
@@ -30,7 +29,7 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
                     heading === 'active' ? (item.active ? "✅ Yes" : "❌ No") :
                     heading === 'using' ? (item.using ? "✅ Yes" : "❌ No") :
                     heading === 'questions' || heading === 'firstsent' || heading === 'next' ? item[heading].length :
-                    typeof item[heading] === 'string' ? item[heading].slice(0, 25) :
+                    typeof item[heading] === 'string' ? item[heading].slice(0, 20) :
                     JSON.stringify(item[heading])
                   ) : 'N/A'}
                 </td>

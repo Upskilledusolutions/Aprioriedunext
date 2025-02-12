@@ -100,7 +100,7 @@ export default function Login() {
   //   {"userId": "sprachmeister283", "password": "TagNacht4816", "name": "", "trial": true, "type": "german", "next":[] },
   //   {"userId": "sprachmeister293", "password": "GutenAbend0619", "name": "", "trial": true, "type": "german", "next":[] },
 
-  //   {"userId": "stellungvor577", "password": "LangsameBrise6825", "name": "", "trial": true, "type": "germana2", "next":[] },
+  //   {"userId": "stellungvor577", "password": "LangsameBrise6825", "name": "", "trial": true, "type": "germana2", "next":[] }, //using
   //   {"userId": "stellungvor587", "password": "BlauerHimmel1693", "name": "", "trial": true, "type": "germana2", "next":[] },
   //   {"userId": "stellungvor593", "password": "HohesGebaude5915", "name": "", "trial": true, "type": "germana2", "next":[] },
   //   {"userId": "stellungvor599", "password": "MetallStab6926", "name": "", "trial": true, "type": "germana2", "next":[] },
