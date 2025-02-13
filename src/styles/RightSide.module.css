@@ -13,6 +13,26 @@
   cursor: pointer;
 }
 
+.filterContainer{
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filterContainer label{
+  font-size: 18px;
+}
+
+.filterContainer select{
+  padding: 5px;
+outline: none;
+}
+
+.filterContainer select:focus{
+  outline: none;
+}
+
 .addButton:hover {
   background-color: #0056b3;
 }
@@ -294,7 +314,7 @@ font-size: 14px;
 
 /* When checkbox is checked */
 input:checked + .slider {
-  background-color: var(--blue);
+  background-color: #4caf50;
 }
 
 /* Move knob to right when checked */

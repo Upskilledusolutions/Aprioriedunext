@@ -1,11 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { IoCreateOutline } from "react-icons/io5";
 import { MdDeleteOutline } from "react-icons/md";
 import styles from '@/styles/RightSide.module.css';
 
 const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNew }) => {
+  const [filter, setFilter] = useState('all');
+
+  const filteredData = data.filter(item => {
+    if (filter === 'issued') return item.using;
+    if (filter === 'active') return item.active;
+    if (filter === 'fullAccess') return !item.trial;
+    return true;
+  });
   return (
     <div className={styles.tableContainer}>
+      <div className={styles.filterContainer}>
+        <label>Filter: </label>
+        <select value={filter} onChange={(e) => setFilter(e.target.value)}>
+          <option value="all">All</option>
+          <option value="issued">Issued</option>
+          <option value="active">Active</option>
+          <option value="fullAccess">Full Access</option>
+        </select>
+      </div>
       <table className={styles.table}>
         <thead>
           <tr>
@@ -18,8 +35,8 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
           </tr>
         </thead>
         <tbody>
-          {data.length > 0 ? (
-            data.sort((a, b) => new Date(a.updatedAt) - new Date(b.updatedAt)).map((item, index) => (
+          {filteredData.length > 0 ? (
+            filteredData.sort((a, b) => new Date(a.updatedAt) - new Date(b.updatedAt)).map((item, index) => (
               <tr key={index}>
                 {headings.map((heading, idx) => (
                   <td key={idx}>
