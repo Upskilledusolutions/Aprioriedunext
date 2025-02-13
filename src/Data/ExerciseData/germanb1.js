@@ -923,4 +923,313 @@ export const quiz = [
   
       ],
     },
+    {
+      quiz: '4',
+      name: 'German Exercise - 4 (B1)',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Welches Wort ist die richtige Steigerung von „langsam“?",
+          "choices": ["langsamer", "am langsamsten", "langsamste", "langsam"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie bildet man den Superlativ von „teuer“?",
+          "choices": ["teureren", "am teuersten", "teuerer", "teuersten"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welches Wort passt? „Dieser Film ist ______ als der letzte.“",
+          "choices": ["spannend", "spannender", "am spannendsten", "spannendes"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "„Mein Bruder ist ______ als ich.“",
+          "choices": ["klein", "kleiner", "am kleinsten", "kleinste"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "„Dieses Buch ist ______ in der Bibliothek.“",
+          "choices": ["teuerer", "teuersten", "am teuersten", "teurer"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "„Sie fährt ______ als ihr Bruder.“",
+          "choices": ["am schnellsten", "schneller", "schnell", "die schnellste"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welches Adjektiv steigert sich unregelmäßig?",
+          "choices": ["schön", "teuer", "gut", "klein"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Welche Steigerungsform ist richtig? „Diese Prüfung ist ______ als die vorige.“",
+          "choices": ["schwieriger", "am schwieriger", "die schwierigste", "schwierig"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "„Er ist ______ in der Klasse.“",
+          "choices": ["der klügste", "kluger", "klügster", "klüger"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welches Wort ist die richtige Steigerung von „hoch“?",
+          "choices": ["höhsten", "höher", "am höchst", "hochesten"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was isst man oft zum Frühstück?",
+          "choices": ["Suppe", "Brot", "Nudeln", "Steak"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welches Getränk ist schwarz und macht wach?",
+          "choices": ["Milch", "Wasser", "Kaffee", "Saft"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Was gehört nicht zu den Milchprodukten?",
+          "choices": ["Butter", "Käse", "Joghurt", "Fisch"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Welches Essen ist typischerweise süß?",
+          "choices": ["Käse", "Schokolade", "Brot", "Reis"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was enthält viel Vitamin C?",
+          "choices": ["Orangen", "Kartoffeln", "Reis", "Wurst"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welches Getränk ist aus Trauben gemacht?",
+          "choices": ["Bier", "Wein", "Kaffee", "Cola"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welches Essen enthält am meisten Eiweiß?",
+          "choices": ["Fisch", "Apfel", "Butter", "Zucker"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welches Getränk ist oft kohlensäurehaltig?",
+          "choices": ["Tee", "Wasser", "Limonade", "Milch"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Was isst ein Vegetarier nicht?",
+          "choices": ["Fleisch", "Gemüse", "Brot", "Obst"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welches Lebensmittel ist ein Grundnahrungsmittel in Deutschland?",
+          "choices": ["Reis", "Brot", "Nudeln", "Pizza"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+       
+        {
+          "question": "Letztes Jahr ______ (reisen) wir nach Deutschland.",
+          "choices": ["reisten"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mein Auto ist ______ (fast) als deins.",
+          "choices": ["schneller"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Heute ist das Wetter ______ (cold) als gestern.",
+          "choices": ["kälter"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich finde diesen Film ______ (exciting) als den letzten.",
+          "choices": ["spannender"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mein Bruder ist ______ (tall) als ich.",
+          "choices": ["größer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dieses Restaurant ist ______ (good) in der Stadt.",
+          "choices": ["am besten"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dieses Haus ist ______ (expensive) als unser altes Haus.",
+          "choices": ["teurer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Der Test war ______ (difficult) als ich erwartet habe.",
+          "choices": ["schwieriger"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sie ist ______ (hardworking) in der Klasse.",
+          "choices": ["am fleißigsten"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Englisch ist für mich ______ (easy) als Deutsch.",
+          "choices": ["einfacher"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Das ist das ______ (beautiful) Geschenk, das ich je bekommen habe!",
+          "choices": ["schönste"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Zum Frühstück esse ich gerne ______ (bread).",
+          "choices": ["Brot"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich trinke morgens immer ______ (coffee).",
+          "choices": ["Kaffee"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(orange juice) ______ enthält viel Vitamin C.",
+          "choices": ["Orangensaft"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mein Lieblingsessen ist ______ (pizza).",
+          "choices": ["Pizza"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich esse oft ______ (vegetables), weil es gesund ist.",
+          "choices": ["Gemüse"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich trinke lieber ______ (tea) als Cola.",
+          "choices": ["Tee"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mein Bruder isst gerne ______ (chocolate).",
+          "choices": ["Schokolade"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "In Deutschland isst man oft ______ (bread) zum Frühstück.",
+          "choices": ["Brot"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich trinke am liebsten ______ (water) mit Zitrone.",
+          "choices": ["Wasser"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Zum Nachtisch gibt es immer ______ (ice cream).",
+          "choices": ["Eis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "größer als", "rightId": 1 },
+                "right": { "word": "the best", "rightId": 5 }
+              },
+              {
+                "left": { "word": "am schönsten", "rightId": 2 },
+                "right": { "word": "prefer over", "rightId": 4 }
+              },
+              {
+                "left": { "word": "teurer als", "rightId": 3 },
+                "right": { "word": "the most beautiful", "rightId": 2 }
+              },
+              {
+                "left": { "word": "lieber als", "rightId": 4 },
+                "right": { "word": "more expensive than", "rightId": 3 }
+              },
+              {
+                "left": { "word": "am besten", "rightId": 5 },
+                "right": { "word": "bigger than", "rightId": 1 }
+              },
+            ],
+          },
+
+          {
+            "question": "Match the Words.",
+            type: "MatchTheFollowing",
+            "pairs": [
+              {
+                "left": { "word": "das Getränk", "rightId": 1 },
+                "right": { "word": "the dairy products", "rightId": 3 }
+              },
+              {
+                "left": { "word": "die Gewürze", "rightId": 2 },
+                "right": { "word": "the juice", "rightId": 4 }
+              },
+              {
+                "left": { "word": "die Milchprodukte", "rightId": 3 },
+                "right": { "word": "the spices", "rightId": 2 }
+              },
+              {
+                "left": { "word": "der Saft", "rightId": 4 },
+                "right": { "word": "the fish", "rightId": 5 }
+              },
+              {
+                "left": { "word": "der Fisch", "rightId": 5 },
+                "right": { "word": "the beverage", "rightId": 1 }
+              },
+            ],
+          },
+  
+      ],
+    },
 ]

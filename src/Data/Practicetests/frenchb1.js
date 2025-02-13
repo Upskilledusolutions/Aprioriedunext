@@ -1158,4 +1158,612 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '3',
+      name: 'French B1 Practice Test - 3',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Quel est le futur simple du verbe \"avoir\" pour \"nous\" ?",
+          "choices": ["aurons", "avons", "auront", "avais"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Comment conjuguer le verbe \"être\" au futur simple avec \"tu\" ?",
+          "choices": ["seras", "es", "étais", "serais"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase est correcte au futur simple ?",
+          "choices": [
+            "Demain, je vais partir en vacances.",
+            "Demain, je partirai en vacances.",
+            "Demain, je pars en vacances.",
+            "Demain, je partirais en vacances."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est le radical du verbe \"faire\" au futur simple ?",
+          "choices": ["fais-", "fera-", "fer-", "ferait-"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle est la bonne conjugaison du verbe \"aller\" au futur simple pour \"ils\" ?",
+          "choices": ["iront", "vont", "iraient", "allait"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel mot désigne un document nécessaire pour travailler légalement ?",
+          "choices": ["Un diplôme", "Un permis de travail", "Un CV", "Un entretien"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment appelle-t-on une période de formation en entreprise ?",
+          "choices": ["Un stage", "Un cours", "Un concours", "Une réunion"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "Je vais à mon bureau avec mon cartable.",
+            "Je vais à mon bureau avec mon ordinateur portable.",
+            "Je vais à mon bureau avec ma trousse.",
+            "Je vais à mon bureau avec ma valise."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot désigne une personne qui cherche un emploi ?",
+          "choices": ["Un candidat", "Un professeur", "Un collègue", "Un employeur"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est le moyen de transport le plus rapide pour aller d’un pays à l’autre ?",
+          "choices": ["Le train", "L’avion", "Le bus", "Le bateau"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : \"Je montre mon dessin à ma sœur. Je ______ montre mon dessin.\"",
+          "choices": ["lui", "la", "le", "leur"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Choisissez la bonne réponse : \"Il adore ses chaussures. Il ______ met tous les jours.\"",
+          "choices": ["les", "leur", "lui", "en"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "Je parle à mon frère. Je le parle.",
+            "Je parle à mon frère. Je lui parle.",
+            "Je parle à mon frère. Je leur parle.",
+            "Je parle à mon frère. Je l'parle."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : \"Tu donnes ce livre à Paul ? Oui, je ______ donne.\"",
+          "choices": ["le", "lui", "leur", "en"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel pronom peut remplacer \"mes amis\" dans la phrase \"J’écris à mes amis\" ?",
+          "choices": ["le", "lui", "les", "leur"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "J’achète une chemise au supermarché.",
+            "J’achète une chemise à la boulangerie.",
+            "J’achète une chemise dans un magasin de vêtements.",
+            "J’achète une chemise à la pharmacie."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel accessoire porte-t-on pour se protéger du soleil ?",
+          "choices": ["Une écharpe", "Un chapeau", "Une ceinture", "Un manteau"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment s’appelle l’endroit où l’on peut essayer des vêtements ?",
+          "choices": ["La caisse", "La cabine d’essayage", "L'étagère", "Le rayon"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "J’essaie un pantalon mais il est trop court.",
+            "J’essaie un pantalon mais il est trop large.",
+            "J’essaie un pantalon mais il est trop cher.",
+            "Toutes les réponses sont correctes."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Si un vêtement est trop grand, que peut-on faire ?",
+          "choices": ["Le donner", "L’échanger", "Le jeter", "L’ignorer"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+          {
+            "question": "Quand j'étais petit, je ______ (aller) souvent chez ma grand-mère.",
+            "choices": ["allais"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Demain, nous ______ (aller) à la plage s'il fait beau.",
+            "choices": ["irons"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "L'année prochaine, elle ______ (étudier) en Espagne.",
+            "choices": ["étudiera"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Après son diplôme, il ______ (chercher) un travail.",
+            "choices": ["cherchera"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Tu ______ (devoir) faire plus d'efforts pour réussir.",
+            "choices": ["devras"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ils ______ (partir) en vacances en août.",
+            "choices": ["partiront"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Après mon stage, je veux travailler comme ______ (engineer).",
+            "choices": ["ingénieur"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Pour être avocat, il faut faire des études de ______.",
+            "choices": ["droit"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "L'entreprise m'a envoyé un ______ pour confirmer mon embauche.",
+            "choices": ["contrat"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Quand on voyage en avion, il faut toujours avoir son ______ (passport).",
+            "choices": ["passeport"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Je prends toujours une ______ (notebook) pour noter mes cours.",
+            "choices": ["cahier"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "J'adore ce film ! Je ______ ai regardé hier soir.",
+            "choices": ["l'"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ma mère téléphone souvent à ma sœur. Elle ______ appelle tous les jours.",
+            "choices": ["lui"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Je vais offrir ce cadeau à mes amis. Je ______ donnerai demain.",
+            "choices": ["leur"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Tu as pris mon livre ? Non, je ne ______ ai pas pris.",
+            "choices": ["l'"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Il aime les croissants, alors il ______ mange tous les matins.",
+            "choices": ["en"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "J'ai acheté une nouvelle ______ (jacket) pour l'hiver.",
+            "choices": ["veste"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "À la caisse, je paie avec ma ______ (map) bancaire.",
+            "choices": ["carte"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Pendant les soldes, les prix sont ______ (reduced) qu'avant.",
+            "choices": ["réduits"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Pour essayer un vêtement, on va dans une ______ (cabin) d’essayage.",
+            "choices": ["cabine"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Cette robe est trop grande. Je vais la ______ (return).",
+            "choices": ["retourner"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Demain, nous visiterons Paris et ses monuments.",
+          "choices": ["Demain,", "nous", "visiterons", "Paris", "et", "ses", "monuments."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu apprendras le français avec plus de facilité.",
+          "choices": ["Tu", "apprendras", "le", "français", "avec", "plus", "de", "facilité."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il écrira une lettre à son ami demain.",
+          "choices": ["Il", "écrira", "une", "lettre", "à", "son", "ami", "demain."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous aurons beaucoup de travail la semaine prochaine.",
+          "choices": ["Nous", "aurons", "beaucoup", "de", "travail", "la", "semaine", "prochaine."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ils partiront en vacances en Espagne cet été.",
+          "choices": ["Ils", "partiront", "en", "vacances", "en", "Espagne", "cet", "été."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle enverra son CV à plusieurs entreprises.",
+          "choices": ["Elle", "enverra", "son", "CV", "à", "plusieurs", "entreprises."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mon frère commencera un nouveau travail lundi prochain.",
+          "choices": ["Mon", "frère", "commencera", "un", "nouveau", "travail", "lundi", "prochain."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous assisterons à une conférence sur l'économie.",
+          "choices": ["Nous", "assisterons", "à", "une", "conférence", "sur", "l'économie."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu réserveras une chambre dans cet hôtel.",
+          "choices": ["Tu", "réserveras", "une", "chambre", "dans", "cet", "hôtel."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ils voyageront en train pour leur prochain voyage.",
+          "choices": ["Ils", "voyageront", "en", "train", "pour", "leur", "prochain", "voyage."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je lui prête mon livre de français.",
+          "choices": ["Je", "lui", "prête", "mon", "livre", "de", "français."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle leur raconte une histoire intéressante.",
+          "choices": ["Elle", "leur", "raconte", "une", "histoire", "intéressante."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu me donnes ton adresse par email.",
+          "choices": ["Tu", "me", "donnes", "ton", "adresse", "par", "email."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il nous apporte des cadeaux d’Italie.",
+          "choices": ["Il", "nous", "apporte", "des", "cadeaux", "d’Italie."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Vous lui envoyez un message important.",
+          "choices": ["Vous", "lui", "envoyez", "un", "message", "important."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J’achète une robe élégante pour la soirée.",
+          "choices": ["J’achète", "une", "robe", "élégante", "pour", "la", "soirée."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous essayons plusieurs chaussures avant de choisir.",
+          "choices": ["Nous", "essayons", "plusieurs", "chaussures", "avant", "de", "choisir."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle cherche un sac à main noir.",
+          "choices": ["Elle", "cherche", "un", "sac", "à", "main", "noir."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Vous comparez les prix avant d’acheter.",
+          "choices": ["Vous", "comparez", "les", "prix", "avant", "d’acheter."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ils choisissent un costume pour le mariage.",
+          "choices": ["Ils", "choisissent", "un", "costume", "pour", "le", "mariage."],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Demain, je partirai en voyage.", "rightId": 1 },
+              "right": { "word": "You will finish your project next week.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Tu finiras ton projet la semaine prochaine.", "rightId": 2 },
+              "right": { "word": "They will pass their final exam.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il achètera une nouvelle voiture.", "rightId": 3 },
+              "right": { "word": "We will go to the beach this summer.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous irons à la plage cet été.", "rightId": 4 },
+              "right": { "word": "Tomorrow, I will go on a trip.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Elles réussiront leur examen final.", "rightId": 5 },
+              "right": { "word": "He will buy a new car.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Vous apprendrez une nouvelle langue.", "rightId": 1 },
+              "right": { "word": "We will take the train to go to Lyon.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "On visitera le musée demain matin.", "rightId": 2 },
+              "right": { "word": "You will learn a new language.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "J’aurai beaucoup de travail lundi.", "rightId": 3 },
+              "right": { "word": "The weather will be nice this weekend.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Il fera beau ce week-end.", "rightId": 4 },
+              "right": { "word": "I will have a lot of work on Monday.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Nous prendrons le train pour aller à Lyon.", "rightId": 5 },
+              "right": { "word": "We will visit the museum tomorrow morning.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "le bureau", "rightId": 1 },
+              "right": { "word": "a job interview", "rightId": 2 }
+            },
+            {
+              "left": { "word": "un entretien d’embauche", "rightId": 2 },
+              "right": { "word": "a diploma", "rightId": 3 }
+            },
+            {
+              "left": { "word": "un diplôme", "rightId": 3 },
+              "right": { "word": "a colleague", "rightId": 5 }
+            },
+            {
+              "left": { "word": "un voyage d’affaires", "rightId": 4 },
+              "right": { "word": "the office", "rightId": 1 }
+            },
+            {
+              "left": { "word": "un collègue", "rightId": 5 },
+              "right": { "word": "a business trip", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "une réunion", "rightId": 1 },
+              "right": { "word": "an internship", "rightId": 4 }
+            },
+            {
+              "left": { "word": "une lettre de motivation", "rightId": 2 },
+              "right": { "word": "an employee", "rightId": 5 }
+            },
+            {
+              "left": { "word": "un patron", "rightId": 3 },
+              "right": { "word": "a meeting", "rightId": 1 }
+            },
+            {
+              "left": { "word": "un stage", "rightId": 4 },
+              "right": { "word": "a boss", "rightId": 3 }
+            },
+            {
+              "left": { "word": "un employé", "rightId": 5 },
+              "right": { "word": "a cover letter", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je donne ce livre à Marie.", "rightId": 1 },
+              "right": { "word": "You write him a letter.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Nous regardons le film.", "rightId": 2 },
+              "right": { "word": "They buy them.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Elle parle à ses amis.", "rightId": 3 },
+              "right": { "word": "She talks to them.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Tu écris une lettre à Paul.", "rightId": 4 },
+              "right": { "word": "I give her this book.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ils achètent les billets.", "rightId": 5 },
+              "right": { "word": "We watch it.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je téléphone à ma sœur.", "rightId": 1 },
+              "right": { "word": "You invite them.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Vous invitez vos amis.", "rightId": 2 },
+              "right": { "word": "We lend him our car.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il répond au professeur.", "rightId": 3 },
+              "right": { "word": "We listen to it.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "On écoute la musique.", "rightId": 4 },
+              "right": { "word": "I call her.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Nous prêtons notre voiture à Julien.", "rightId": 5 },
+              "right": { "word": "He answers him.", "rightId": 3 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "un magasin de vêtements", "rightId": 1 },
+              "right": { "word": "a discounted price", "rightId": 4 }
+            },
+            {
+              "left": { "word": "une cabine d’essayage", "rightId": 2 },
+              "right": { "word": "a handbagr", "rightId": 5 }
+            },
+            {
+              "left": { "word": "une paire de chaussures", "rightId": 3 },
+              "right": { "word": "a pair of shoes", "rightId": 3 }
+            },
+            {
+              "left": { "word": "un prix réduit", "rightId": 4 },
+              "right": { "word": "a clothing store", "rightId": 1 }
+            },
+            {
+              "left": { "word": "un sac à main", "rightId": 5 },
+              "right": { "word": "a fitting room", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "une carte de fidélité", "rightId": 1 },
+              "right": { "word": "discounted pants", "rightId": 2 }
+            },
+            {
+              "left": { "word": "un pantalon en solde", "rightId": 2 },
+              "right": { "word": "a fashion model", "rightId": 5 }
+            },
+            {
+              "left": { "word": "une boutique de luxe", "rightId": 3 },
+              "right": { "word": "a receipt", "rightId": 4 }
+            },
+            {
+              "left": { "word": "un reçu", "rightId": 4 },
+              "right": { "word": "a loyalty card", "rightId": 1 }
+            },
+            {
+              "left": { "word": "un mannequin", "rightId": 5 },
+              "right": { "word": "a luxury boutique", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]
