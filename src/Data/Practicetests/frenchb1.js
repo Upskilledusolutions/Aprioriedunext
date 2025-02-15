@@ -704,12 +704,6 @@ export const quiz = [
         },
 
           {
-            "question": "Quand j'étais petit, je ______ (aller) souvent chez ma grand-mère.",
-            "choices": ["allais"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
             "question": "Hier soir, nous ______ (regarder) un film quand le téléphone a sonné.",
             "choices": ["regardions"],
             "type": "FillInTheBlanks",
@@ -1311,12 +1305,6 @@ export const quiz = [
         },
 
           {
-            "question": "Quand j'étais petit, je ______ (aller) souvent chez ma grand-mère.",
-            "choices": ["allais"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
             "question": "Demain, nous ______ (aller) à la plage s'il fait beau.",
             "choices": ["irons"],
             "type": "FillInTheBlanks",
@@ -1760,6 +1748,583 @@ export const quiz = [
             {
               "left": { "word": "un mannequin", "rightId": 5 },
               "right": { "word": "a luxury boutique", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
+    {
+      quiz: '4',
+      name: 'French B1 Practice Test - 4',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Quelle phrase est correcte à l'impératif ?",
+          "choices": ["Tu écoute bien.", "Écoute bien.", "Écoutons bien.", "Vous écoutent bien."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel verbe est correctement conjugué à l'impératif ?",
+          "choices": ["Mangeons les légumes !", "Mangezons les légumes !", "Tu mange les légumes !", "Mangons les légumes !"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase utilise correctement la négation à l’impératif ?",
+          "choices": ["Ne regardons pas la télé !", "Ne regardes pas la télé !", "N’écoutes pas la télé !", "Vous ne regardons pas la télé !"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": ["Va chez le médecin.", "Aller chez le médecin.", "Vas chez le médecin.", "Allons chez le médecin."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est l'impératif correct pour 'nous' ?",
+          "choices": ["Parlons doucement.", "Parlez doucement.", "Tu parle doucement.", "Nous parlons doucement."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel moyen de transport fonctionne sous terre ?",
+          "choices": ["Le tramway", "L’avion", "Le métro", "Le bateau"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Comment appelle-t-on le bâtiment où l’on prend le train ?",
+          "choices": ["L’aéroport", "La gare", "L’embarcadère", "L’autoroute"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Où peut-on voir des œuvres d’art célèbres ?",
+          "choices": ["Au musée", "À la mairie", "À la gare", "Au marché"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel transport est utilisé pour traverser l'océan ?",
+          "choices": ["Le bateau", "La moto", "Le tram", "Le vélo"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle structure est un point de repère dans une ville ?",
+          "choices": ["Un supermarché", "Une cathédrale", "Une station-service", "Une épicerie"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : En ______ (manger), il parle avec ses amis.",
+          "choices": ["mangeant", "manger", "mangé", "manges"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel verbe est au gérondif ?",
+          "choices": ["Regardé", "Regardant", "Regarde", "Regarder"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": ["Je suis content d’aller en vacances.", "Je suis content d’allant en vacances.", "Je suis content allée en vacances.", "Je suis content en allant en vacances."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez : Elle apprend le français en ______ des films.",
+          "choices": ["regardant", "regarder", "regardé", "regardes"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": ["Avant de partir, vérifie tes affaires.", "Avant partant, vérifie tes affaires.", "Avant de partir, vérifies tes affaires.", "Avant partir, vérifie tes affaires."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est un instrument de musique à cordes ?",
+          "choices": ["La batterie", "Le violon", "La flûte", "Le tambour"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Dans quel sport utilise-t-on un ballon rond ?",
+          "choices": ["Le football", "Le tennis", "L’escrime", "La natation"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Comment appelle-t-on l’art de peindre ?",
+          "choices": ["La sculpture", "La danse", "La peinture", "Le dessin"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel sport se pratique dans l'eau ?",
+          "choices": ["L’athlétisme", "La natation", "Le judo", "Le cyclisme"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est un loisir littéraire ?",
+          "choices": ["Le théâtre", "La musique", "La lecture", "Le cinéma"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+          {
+            "question": "(Écouter) ______ bien les consignes avant de commencer.",
+            "choices": ["Écoute"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ne ______ (parler) pas trop fort dans la bibliothèque.",
+            "choices": ["parle"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "(Prendre) ______ cette rue et tourne à gauche.",
+            "choices": ["Prends"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "(Aller) ______ chez le médecin si tu es malade.",
+            "choices": ["Va"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ne ______ (manger) pas trop de sucreries !",
+            "choices": ["mange"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Je prends le ______ pour aller à l’aéroport.",
+            "choices": ["taxi"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Il y a un grand ______ au centre de la ville où les trains arrivent et partent.",
+            "choices": ["gare"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Le ______ est un moyen de transport souterrain très utilisé en ville.",
+            "choices": ["métro"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La ______ est un bâtiment où l'on peut voir des œuvres d’art célèbres.",
+            "choices": ["musée"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Les touristes adorent visiter la ______ de la ville pour voir les anciennes constructions.",
+            "choices": ["cathédrale"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "En ______ (marcher), tu peux admirer le paysage.",
+            "choices": ["marchant"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Elle a réussi à ______ (trouver) un bon emploi.",
+            "choices": ["trouver"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Je préfère ______ (écouter) de la musique en travaillant.",
+            "choices": ["écouter"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Il apprend le français en ______ (regarder) des films sous-titrés.",
+            "choices": ["regardant"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Avant de ______ (partir), vérifie tes documents.",
+            "choices": ["partir"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Le ______ est un instrument de musique à cordes souvent utilisé dans les orchestres.",
+            "choices": ["violon"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "J’aime jouer au ______, un sport avec un ballon et deux paniers.",
+            "choices": ["basket"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "La ______ est un art où on peint sur une toile.",
+            "choices": ["peinture"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Le ______ est un loisir qui consiste à lire des histoires dans des livres.",
+            "choices": ["lecture"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Elle fait de la ______, un sport qui se pratique dans l’eau.",
+            "choices": ["natation"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Fermez la porte avant de sortir maintenant.",
+          "choices": ["Fermez", "la", "porte", "avant", "de", "sortir", "maintenant."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Écoute attentivement et réponds aux questions posées.",
+          "choices": ["Écoute", "attentivement", "et", "réponds", "aux", "questions", "posées."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ne parle pas si tu es fatigué.",
+          "choices": ["Ne", "parle", "pas", "si", "tu", "es", "fatigué."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Allons au parc pour faire du sport.",
+          "choices": ["Allons", "au", "parc", "pour", "faire", "du", "sport."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "N'oubliez pas d'apporter vos documents importants.",
+          "choices": ["N'oubliez", "pas", "d'apporter", "vos", "documents", "importants."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Le métro passe souvent dans cette grande ville.",
+          "choices": ["Le", "métro", "passe", "souvent", "dans", "cette", "grande", "ville."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous attendons le bus devant la gare centrale.",
+          "choices": ["Nous", "attendons", "le", "bus", "devant", "la", "gare", "centrale."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Prends un taxi pour aller à l'aéroport.",
+          "choices": ["Prends", "un", "taxi", "pour", "aller", "à", "l'aéroport."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "La cathédrale se trouve près du grand musée.",
+          "choices": ["La", "cathédrale", "se", "trouve", "près", "du", "grand", "musée."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il y a beaucoup de ponts dans Paris.",
+          "choices": ["Il", "y", "a", "beaucoup", "de", "ponts", "dans", "Paris."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il apprend le français en regardant des films.",
+          "choices": ["Il", "apprend", "le", "français", "en", "regardant", "des", "films."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "En écoutant bien, tu comprendras plus vite.",
+          "choices": ["En", "écoutant", "bien,", "tu", "comprendras", "plus", "vite."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Avant de partir, prépare bien ta valise.",
+          "choices": ["Avant", "de", "partir,", "prépare", "bien", "ta", "valise."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle continue d’écrire malgré la fatigue extrême.",
+          "choices": ["Elle", "continue", "d’écrire", "malgré", "la", "fatigue", "extrême."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous adorons voyager et découvrir de nouvelles cultures.",
+          "choices": ["Nous", "adorons", "voyager", "et", "découvrir", "de", "nouvelles", "cultures."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "La peinture célèbre représente un paysage très coloré.",
+          "choices": ["La", "peinture", "célèbre", "représente", "un", "paysage", "très", "coloré."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il joue du piano depuis son enfance passionnée.",
+          "choices": ["Il", "joue", "du", "piano", "depuis", "son", "enfance", "passionnée."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mon frère adore le football et le tennis.",
+          "choices": ["Mon", "frère", "adore", "le", "football", "et", "le", "tennis."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous visitons une galerie d'art chaque mois.",
+          "choices": ["Nous", "visitons", "une", "galerie", "d'art", "chaque", "mois."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Le théâtre est une passion de ma sœur.",
+          "choices": ["Le", "théâtre", "est", "une", "passion", "de", "ma", "sœur."],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Fermez la fenêtre.", "rightId": 1 },
+              "right": { "word": "Let's go to the park!", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Écoute bien le professeur.", "rightId": 2 },
+              "right": { "word": "Bring your book.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Ne cours pas ici.", "rightId": 3 },
+              "right": { "word": "Listen to the teacher carefully.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Allons au parc !", "rightId": 4 },
+              "right": { "word": "Close the window.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Apportez votre livre.", "rightId": 5 },
+              "right": { "word": "Don't run here.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ne parle pas trop fort.", "rightId": 1 },
+              "right": { "word": "Eat your vegetables.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Regardez le tableau.", "rightId": 2 },
+              "right": { "word": "Don't speak too loudly.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Fais attention en traversant.", "rightId": 3 },
+              "right": { "word": "Write your answer here.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Écris ta réponse ici.", "rightId": 4 },
+              "right": { "word": "Be careful when crossing.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Mangez vos légumes.", "rightId": 5 },
+              "right": { "word": "Look at the board.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "la gare", "rightId": 1 },
+              "right": { "word": "the bridge", "rightId": 2 }
+            },
+            {
+              "left": { "word": "le pont", "rightId": 2 },
+              "right": { "word": "the airport", "rightId": 3 }
+            },
+            {
+              "left": { "word": "l'aéroport", "rightId": 3 },
+              "right": { "word": "the avenue", "rightId": 5 }
+            },
+            {
+              "left": { "word": "le musée", "rightId": 4 },
+              "right": { "word": "the train station", "rightId": 1 }
+            },
+            {
+              "left": { "word": "l'avenue", "rightId": 5 },
+              "right": { "word": "the museum", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "le taxi", "rightId": 1 },
+              "right": { "word": "the square", "rightId": 4 }
+            },
+            {
+              "left": { "word": "le métro", "rightId": 2 },
+              "right": { "word": "the hotel", "rightId": 5 }
+            },
+            {
+              "left": { "word": "la cathédrale", "rightId": 3 },
+              "right": { "word": "the taxi", "rightId": 1 }
+            },
+            {
+              "left": { "word": "la place", "rightId": 4 },
+              "right": { "word": "the cathedral", "rightId": 3 }
+            },
+            {
+              "left": { "word": "l'hôtel", "rightId": 5 },
+              "right": { "word": "the subway", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il apprend le français...", "rightId": 1 },
+              "right": { "word": "tu comprendras mieux.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Elle continue...", "rightId": 2 },
+              "right": { "word": "à parler en public.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Avant de partir...", "rightId": 3 },
+              "right": { "word": "prépare ta valise.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "En écoutant bien...", "rightId": 4 },
+              "right": { "word": "en regardant des films.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Il a réussi...", "rightId": 5 },
+              "right": { "word": "à gagner le concours.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Nous aimons...", "rightId": 1 },
+              "right": { "word": "il a trouvé un portefeuille.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "En marchant dans la rue...", "rightId": 2 },
+              "right": { "word": "frappe à la porte.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Elle hésite...", "rightId": 3 },
+              "right": { "word": "à vivre en France.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Il s'est habitué...", "rightId": 4 },
+              "right": { "word": "voyager pendant les vacances.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Avant d'entrer...", "rightId": 5 },
+              "right": { "word": "d'écrire son roman.", "rightId": 3 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Jouer du piano", "rightId": 1 },
+              "right": { "word": "Littérature", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Faire du tennis", "rightId": 2 },
+              "right": { "word": "Chant", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Peindre un tableau", "rightId": 3 },
+              "right": { "word": "Peinture", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Lire un roman", "rightId": 4 },
+              "right": { "word": "Musique", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Chanter une chanson", "rightId": 5 },
+              "right": { "word": "Sport", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Regarder un film", "rightId": 1 },
+              "right": { "word": "Arts martiaux", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Pratiquer le judo", "rightId": 2 },
+              "right": { "word": "Danse", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Visiter une galerie", "rightId": 3 },
+              "right": { "word": "Poésie", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Écrire un poème", "rightId": 4 },
+              "right": { "word": "Cinéma", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Danser le ballet", "rightId": 5 },
+              "right": { "word": "Exposition", "rightId": 3 }
             },
            
           ],

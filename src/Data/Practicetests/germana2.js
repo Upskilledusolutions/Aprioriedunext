@@ -1315,4 +1315,582 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '3',
+      name: 'German A2 Practice Test - 3',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "Welches Verkehrsmittel fährt auf der Schiene?",
+          "choices": ["Auto", "Fahrrad", "Zug", "Boot"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Was benutzt man, um über das Meer zu reisen?",
+          "choices": ["Flugzeug", "Schiff", "U-Bahn", "Bus"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welches Verkehrsmittel hat zwei Räder?",
+          "choices": ["Bus", "Straßenbahn", "Fahrrad", "Zug"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Wo kauft man eine Fahrkarte für den Zug?",
+          "choices": ["Im Kino", "Am Bahnhof", "Im Supermarkt", "Im Krankenhaus"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was braucht man, um ins Flugzeug zu steigen?",
+          "choices": ["Einen Fahrschein", "Eine Eintrittskarte", "Einen Pass", "Ein Flugticket"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Wähle die richtige Form: 'Morgen ______ wir ins Kino gehen.'",
+          "choices": ["gehen", "werden", "wird", "werdet"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wähle die richtige Form: 'Er ______ bald eine neue Wohnung finden.'",
+          "choices": ["werde", "wird", "wirst", "werden"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Satzstruktur ist korrekt für die Zukunft?",
+          "choices": ["Ich werde ein Buch lesen.", "Ich lesen werde ein Buch.", "Ich werde lesen ein Buch.", "Werde ich ein Buch lesen."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "'Ihr ______ nächsten Sommer nach Italien reisen.'",
+          "choices": ["werdet", "wirst", "werden", "wird"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welche Zeitform drückt eine Handlung in der Zukunft aus?",
+          "choices": ["Perfekt", "Präteritum", "Präsens", "Futur"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "'Ich ______ jeden Morgen um 7 Uhr auf.'",
+          "choices": ["stehe", "stehen", "steht", "standen"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "'Wenn ich reich wäre, ______ ich eine Weltreise machen.'",
+          "choices": ["werde", "würde", "wird", "würden"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "'Sie ______ sehr gut Deutsch.'",
+          "choices": ["spreche", "sprichst", "sprechen", "spricht"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "'Wenn es morgen regnen würde, ______ wir zu Hause bleiben.'",
+          "choices": ["wird", "werden", "würden", "werde"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "'Peter ______ jeden Tag zur Arbeit.'",
+          "choices": ["geht", "gehen", "gehe", "gehts"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welche Aktivität ist eine Sportart?",
+          "choices": ["Malen", "Kochen", "Schwimmen", "Lesen"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "'Am Wochenende ______ wir oft ins Theater.'",
+          "choices": ["gehe", "gehen", "geht", "gehst"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Zeitangabe bedeutet 'in the evening'?",
+          "choices": ["Am Morgen", "Am Abend", "In der Nacht", "Am Mittag"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was sagt man, wenn man höflich um etwas bittet?",
+          "choices": ["Danke!", "Tschüss!", "Entschuldigung!", "Könnten Sie mir bitte helfen?"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Was ist ein typisches Hobby?",
+          "choices": ["Schlafen", "Staubsaugen", "Musik hören", "Arbeiten"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+        {
+          "question": "Ich fahre mit dem ______ (train) zur Arbeit.",
+          "choices": ["Zug"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Das ______ (airplane) fliegt nach Berlin um 10 Uhr.",
+          "choices": ["Flugzeug"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir müssen den ______ (bus) nehmen, weil unser Auto kaputt ist.",
+          "choices": ["Bus"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Am Wochenende mache ich eine Reise mit dem ______ (ship).",
+          "choices": ["Schiff"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Der ______ (tram) fährt alle 10 Minuten durch die Stadt.",
+          "choices": ["Straßenbahn"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Morgen ______ (will) wir ins Kino gehen.",
+          "choices": ["werden"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sie ______ (will) nächste Woche nach Deutschland reisen.",
+          "choices": ["wird"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ (will) später eine E-Mail schreiben.",
+          "choices": ["werde"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ihr ______ (will) im Sommer einen Urlaub machen.",
+          "choices": ["werdet"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Peter und Anna ______ (will) eine neue Wohnung suchen.",
+          "choices": ["werden"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ (stand/get up) jeden Morgen um 7 Uhr auf.",
+          "choices": ["stehe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn ich mehr Geld hätte, ______ (would) ich eine Weltreise machen.",
+          "choices": ["würde"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Er ______ (plays) oft Fußball mit seinen Freunden.",
+          "choices": ["spielt"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wenn es morgen regnen würde, ______ (would) wir zu Hause bleiben.",
+          "choices": ["würden"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Du ______ (can) sehr gut Deutsch sprechen.",
+          "choices": ["kannst"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "In meiner Freizeit ______ (read) ich gerne Bücher.",
+          "choices": ["lese"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Am Wochenende ______ (go) wir oft ins Theater.",
+          "choices": ["gehen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Er spielt zweimal pro Woche ______ (guitar).",
+          "choices": ["Gitarre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Entschuldigung, könnten Sie mir bitte den ______ (way) zeigen?",
+          "choices": ["Weg"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vielen Dank für Ihre ______ (help)!",
+          "choices": ["Hilfe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Ich fahre jeden Tag mit dem Bus.",
+          "choices": ["Ich", "fahre", "jeden", "Tag", "mit", "dem", "Bus."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Das Flugzeug fliegt nach Berlin um zehn.",
+          "choices": ["Das", "Flugzeug", "fliegt", "nach", "Berlin", "um", "zehn."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wir nehmen die Straßenbahn in die Stadt.",
+          "choices": ["Wir", "nehmen", "die", "Straßenbahn", "in", "die", "Stadt."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Am Wochenende reisen wir mit dem Zug.",
+          "choices": ["Am", "Wochenende", "reisen", "wir", "mit", "dem", "Zug."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mein Fahrrad ist sehr schnell und bequem.",
+          "choices": ["Mein", "Fahrrad", "ist", "sehr", "schnell", "und", "bequem."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Morgen werden wir ins Kino gehen.",
+          "choices": ["Morgen", "werden", "wir", "ins", "Kino", "gehen."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Er wird bald eine neue Wohnung finden.",
+          "choices": ["Er", "wird", "bald", "eine", "neue", "Wohnung", "finden."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Sie wird im Sommer nach Spanien reisen.",
+          "choices": ["Sie", "wird", "im", "Sommer", "nach", "Spanien", "reisen."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wir werden nächste Woche eine Party machen.",
+          "choices": ["Wir", "werden", "nächste", "Woche", "eine", "Party", "machen."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Du wirst später deine Hausaufgaben machen.",
+          "choices": ["Du", "wirst", "später", "deine", "Hausaufgaben", "machen."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich stehe jeden Morgen um sieben auf.",
+          "choices": ["Ich", "stehe", "jeden", "Morgen", "um", "sieben", "auf."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wenn es regnet, bleiben wir zu Hause.",
+          "choices": ["Wenn", "es", "regnet,", "bleiben", "wir", "zu", "Hause."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Er spielt oft Fußball mit seinen Freunden.",
+          "choices": ["Er", "spielt", "oft", "Fußball", "mit", "seinen", "Freunden."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wenn ich Zeit hätte, würde ich reisen.",
+          "choices": ["Wenn", "ich", "Zeit", "hätte,", "würde", "ich", "reisen."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Sie arbeitet jeden Tag im Supermarkt.",
+          "choices": ["Sie", "arbeitet", "jeden", "Tag", "im", "Supermarkt."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Am Wochenende gehe ich oft schwimmen.",
+          "choices": ["Am", "Wochenende", "gehe", "ich", "oft", "schwimmen."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "In meiner Freizeit lese ich gerne Bücher.",
+          "choices": ["In", "meiner", "Freizeit", "lese", "ich", "gerne", "Bücher."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Er spielt jeden Tag Gitarre im Park.",
+          "choices": ["Er", "spielt", "jeden", "Tag", "Gitarre", "im", "Park."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Entschuldigung, könnten Sie mir bitte helfen?",
+          "choices": ["Entschuldigung,", "könnten", "Sie", "mir", "bitte", "helfen?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Vielen Dank für Ihre schnelle Antwort!",
+          "choices": ["Vielen", "Dank", "für", "Ihre", "schnelle", "Antwort!"],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Zug", "rightId": 1 },
+              "right": { "word": "Ein Auto mit Fahrer, das man bezahlt.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Fahrrad", "rightId": 2 },
+              "right": { "word": "Fliegt über den Ozean zu anderen Ländern.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Bus", "rightId": 3 },
+              "right": { "word": "Hat zwei Räder und ist umweltfreundlich.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Flugzeug", "rightId": 4 },
+              "right": { "word": "Fährt auf Schienen und ist sehr schnell.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Taxi", "rightId": 5 },
+              "right": { "word": "Fährt in der Stadt mit vielen Passagieren.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Schiff", "rightId": 1 },
+              "right": { "word": "Ein privates Fahrzeug für Straßen.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Motorrad", "rightId": 2 },
+              "right": { "word": "Fährt auf dem Wasser, oft für Reisen.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "U-Bahn", "rightId": 3 },
+              "right": { "word": "Fährt auf Schienen in der Stadt.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Auto", "rightId": 4 },
+              "right": { "word": "Fährt unter der Erde durch die Stadt..", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Straßenbahn", "rightId": 5 },
+              "right": { "word": "Hat zwei Räder und fährt sehr schnell.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Morgen werde ich", "rightId": 1 },
+              "right": { "word": "deine Freunde in Berlin besuchen.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Nächste Woche wirst du", "rightId": 2 },
+              "right": { "word": "eine lange Reise nach Frankreich machen.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Im Sommer wird er", "rightId": 3 },
+              "right": { "word": "eine neue Sprache lernen.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Bald werden wir", "rightId": 4 },
+              "right": { "word": "ein neues Auto kaufen.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Sie wird", "rightId": 5 },
+              "right": { "word": "einen großen Kuchen backen.", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ihr werdet", "rightId": 1 },
+              "right": { "word": "eine schwierige Prüfung schreiben.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Er wird bald", "rightId": 2 },
+              "right": { "word": "im Park Fußball spielen.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Ich werde später", "rightId": 3 },
+              "right": { "word": "mein Zimmer aufräumen.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Du wirst bald", "rightId": 4 },
+              "right": { "word": "am Wochenende eine Party haben.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Wir werden", "rightId": 5 },
+              "right": { "word": "eine schöne Wohnung finden.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Wenn es regnet,", "rightId": 1 },
+              "right": { "word": "würde ich ein großes Haus kaufen.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Wenn ich mehr Geld hätte,", "rightId": 2 },
+              "right": { "word": "fahren wir ans Meer.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Wenn du müde bist,", "rightId": 3 },
+              "right": { "word": "besucht er seine Familie.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Wenn er Zeit hat,", "rightId": 4 },
+              "right": { "word": "bleibe ich lieber zu Hause.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Wenn wir Urlaub haben,", "rightId": 5 },
+              "right": { "word": "solltest du früher ins Bett gehen.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Wenn sie Hunger hat,", "rightId": 1 },
+              "right": { "word": "gehen wir draußen spazieren.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Wenn ihr schneller arbeitet,", "rightId": 2 },
+              "right": { "word": "macht sie sich ein Sandwich.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Wenn du krank bist,", "rightId": 3 },
+              "right": { "word": "bekomme ich eine gute Note.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Wenn die Sonne scheint,", "rightId": 4 },
+              "right": { "word": "solltest du einen Arzt besuchen.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Wenn ich viel lerne,", "rightId": 5 },
+              "right": { "word": "seid ihr früher fertig.", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Musik hören", "rightId": 1 },
+              "right": { "word": "Mit Farben auf Papier oder Leinwand zeichnen.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Schwimmen gehen", "rightId": 2 },
+              "right": { "word": "Ein Instrument mit Saiten benutzen.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Lesen", "rightId": 3 },
+              "right": { "word": "Ein Buch oder eine Zeitung anschauen.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Malen", "rightId": 4 },
+              "right": { "word": "Einen Song mit Kopfhörern genießen.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Gitarre spielen", "rightId": 5 },
+              "right": { "word": "Ins Wasser springen und sich bewegen.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Joggen", "rightId": 1 },
+              "right": { "word": "Sich zur Musik bewegen.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Tanzen", "rightId": 2 },
+              "right": { "word": "Eine nette Verabschiedung sagen.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Entschuldigung, können Sie helfen?", "rightId": 3 },
+              "right": { "word": "Sich freundlich bedanken.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Vielen Dank für Ihre Hilfe!", "rightId": 4 },
+              "right": { "word": "Schnell laufen als Sport.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ich wünsche Ihnen einen schönen Tag!", "rightId": 5 },
+              "right": { "word": "Höflich um Unterstützung bitten.", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]

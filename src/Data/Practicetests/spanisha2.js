@@ -1140,4 +1140,582 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '3',
+      name: 'Spanish A2 Practice Test - 3',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "¿Qué haces por la mañana?",
+          "choices": ["Me duermo", "Me levanto", "Me acuesto", "Me ducho en la noche"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de estos es un pasatiempo común?",
+          "choices": ["Caminar en el parque", "Ir a trabajar", "Limpiar la casa", "Comprar comida"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál de estas frases es una expresión de tiempo?",
+          "choices": ["El mes pasado", "Por favor", "Muchas gracias", "Lo siento"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se dice ‘Have a nice day’ en español?",
+          "choices": ["Buenas noches", "Hasta luego", "Que tengas un buen día", "Perdón"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Cómo responderías educadamente cuando alguien te da algo?",
+          "choices": ["Gracias", "Adiós", "Hola", "Sí, por favor"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál de estos es un medio de transporte terrestre?",
+          "choices": ["Avión", "Barco", "Tren", "Helicóptero"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Dónde esperas antes de abordar un avión?",
+          "choices": ["En la parada de autobús", "En la estación de tren", "En la puerta de embarque", "En el taxi"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Qué documento necesitas para viajar a otro país?",
+          "choices": ["Una licencia de conducir", "Un pasaporte", "Un boleto de autobús", "Un recibo"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de estos es un medio de transporte acuático?",
+          "choices": ["Motocicleta", "Submarino", "Tranvía", "Teleférico"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Dónde compras un billete de metro?",
+          "choices": ["En una librería", "En una taquilla", "En un restaurante", "En una farmacia"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de estas frases está en futuro próximo?",
+          "choices": ["Yo estudié español ayer.", "Voy a estudiar español mañana.", "Estudio español ahora mismo.", "Estudiaba español cuando era niño."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de estas frases usa el futuro próximo correctamente?",
+          "choices": ["Vamos a viajar a México el próximo verano.", "Viajaríamos a México el próximo verano.", "Viajamos a México el próximo verano.", "Hemos viajado a México el próximo verano."],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cómo se dice ‘She is going to buy a car’ en español?",
+          "choices": ["Ella compra un coche.", "Ella compró un coche.", "Ella va a comprar un coche.", "Ella compraría un coche."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Cuál de estas frases usa el futuro próximo?",
+          "choices": ["Iré al cine mañana.", "Voy al cine ahora.", "Voy a ir al cine mañana.", "Iba al cine cada fin de semana."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Cuál es la forma correcta del futuro próximo?",
+          "choices": ["Voy a comí pizza.", "Voy a comer pizza.", "Voy como pizza.", "Voy a comiendo pizza."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de estas frases está en presente?",
+          "choices": ["Ella estudió en la universidad.", "Ella estudia en la universidad.", "Ella estudiará en la universidad.", "Ella estudiaba en la universidad."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de estas frases está en pretérito?",
+          "choices": ["Yo como una manzana.", "Yo comí una manzana.", "Yo comeré una manzana.", "Yo comía una manzana."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál es la forma correcta del condicional?",
+          "choices": ["Yo iré a España.", "Yo fui a España.", "Yo iría a España.", "Yo voy a España."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "¿Cuál de estas frases usa ‘ser’ correctamente?",
+          "choices": ["Madrid está en España.", "Madrid es una ciudad bonita.", "Madrid está frío hoy.", "Madrid está lejos de aquí."],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de estas frases usa ‘estar’ correctamente?",
+          "choices": ["La fiesta es en mi casa.", "El coche es en la calle.", "Mi hermano está enfermo.", "El cielo es azul hoy."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+        {
+          "question": "Todas las mañanas, yo ______ (I get up) a las siete en punto.",
+          "choices": ["me levanto"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Después de la cena, me gusta ______ (to read) un libro antes de dormir.",
+          "choices": ["leer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mi pasatiempo favorito es ______ (to paint) cuadros de paisajes.",
+          "choices": ["pintar"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Podrías ______ (to help) con esta tarea, por favor?",
+          "choices": ["ayudar"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lo siento, pero ahora no puedo. ¿Podemos hablar ______ (later)?",
+          "choices": ["más tarde"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Voy a la escuela en ______ (bus) todos los días.",
+          "choices": ["autobús"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Para viajar a otro país, necesitas un ______ (passport).",
+          "choices": ["pasaporte"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "El tren sale del andén número ______ (three).",
+          "choices": ["tres"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cuando llegamos al aeropuerto, tenemos que ______ (to check in) el equipaje.",
+          "choices": ["facturar"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si hay tráfico, es mejor tomar el ______ (subway) en lugar de un taxi.",
+          "choices": ["metro"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mañana, nosotros ______ (we are going to) visitar a nuestros abuelos.",
+          "choices": ["vamos a"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Esta noche, yo ______ (I am going to have dinner) en un restaurante italiano.",
+          "choices": ["voy a cenar"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tú ______ (you are going to study) mucho para el examen de matemáticas.",
+          "choices": ["vas a estudiar"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mis amigos y yo ______ (we are going to travel) a España el próximo verano.",
+          "choices": ["vamos a viajar"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ella ______ (she is going to buy) una bicicleta nueva el próximo mes.",
+          "choices": ["va a comprar"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Hoy ______ (is) un día muy bonito, el sol brilla.",
+          "choices": ["es"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ayer ______ (I visited) a mis abuelos en el campo.",
+          "choices": ["visité"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si tuviera más tiempo, ______ (I would learn) otro idioma.",
+          "choices": ["aprendería"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ahora mismo, mis hermanos ______ (are) en la escuela.",
+          "choices": ["están"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La fiesta ______ (is) en mi casa el sábado a las ocho.",
+          "choices": ["es"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Todas las mañanas, me levanto a las siete en punto.",
+          "choices": ["Todas", "las", "mañanas,", "me", "levanto", "a", "las", "siete", "en", "punto."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Me gusta escuchar música mientras hago ejercicio.",
+          "choices": ["Me", "gusta", "escuchar", "música", "mientras", "hago", "ejercicio."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ayer fui al cine con mis amigos después de la escuela.",
+          "choices": ["Ayer", "fui", "al", "cine", "con", "mis", "amigos", "después", "de", "la", "escuela."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Disculpe, ¿puede decirme dónde está la estación de autobuses?",
+          "choices": ["Disculpe,", "¿puede", "decirme", "dónde", "está", "la", "estación", "de", "autobuses?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Muchas gracias por ayudarme con la tarea.",
+          "choices": ["Muchas", "gracias", "por", "ayudarme", "con", "la", "tarea."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tomo el autobús para ir al trabajo todos los días.",
+          "choices": ["Tomo", "el", "autobús", "para", "ir", "al", "trabajo", "todos", "los", "días."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Para viajar a otro país, necesitas un pasaporte.",
+          "choices": ["Para", "viajar", "a", "otro", "país,", "necesitas", "un", "pasaporte."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "El tren sale a las tres y media desde la estación central.",
+          "choices": ["El", "tren", "sale", "a", "las", "tres", "y", "media", "desde", "la", "estación", "central."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Prefiero viajar en avión porque es más rápido que el coche.",
+          "choices": ["Prefiero", "viajar", "en", "avión", "porque", "es", "más", "rápido", "que", "el", "coche."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Vamos a comprar los billetes de metro en la taquilla.",
+          "choices": ["Vamos", "a", "comprar", "los", "billetes", "de", "metro", "en", "la", "taquilla."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Este fin de semana, voy a visitar a mis abuelos.",
+          "choices": ["Este", "fin", "de", "semana,", "voy", "a", "visitar", "a", "mis", "abuelos."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mañana, vamos a tener una reunión en la oficina.",
+          "choices": ["Mañana,", "vamos", "a", "tener", "una", "reunión", "en", "la", "oficina."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ella va a estudiar para su examen de español esta noche.",
+          "choices": ["Ella", "va", "a", "estudiar", "para", "su", "examen", "de", "español", "esta", "noche."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mis amigos y yo vamos a viajar a la playa el próximo verano.",
+          "choices": ["Mis", "amigos", "y", "yo", "vamos", "a", "viajar", "a", "la", "playa", "el", "próximo", "verano."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "¿Vas a comprar ese libro o prefieres otro?",
+          "choices": ["¿Vas", "a", "comprar", "ese", "libro", "o", "prefieres", "otro?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Hoy hace buen tiempo y el cielo está despejado.",
+          "choices": ["Hoy", "hace", "buen", "tiempo", "y", "el", "cielo", "está", "despejado."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ayer visité el museo y comí en un restaurante típico.",
+          "choices": ["Ayer", "visité", "el", "museo", "y", "comí", "en", "un", "restaurante", "típico."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Si tuviera más dinero, viajaría por todo el mundo.",
+          "choices": ["Si", "tuviera", "más", "dinero,", "viajaría", "por", "todo", "el", "mundo."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Madrid es la capital de España y está en el centro del país.",
+          "choices": ["Madrid", "es", "la", "capital", "de", "España", "y", "está", "en", "el", "centro", "del", "país."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mi hermana está cansada porque trabajó muchas horas ayer.",
+          "choices": ["Mi", "hermana", "está", "cansada", "porque", "trabajó", "muchas", "horas", "ayer."],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Me levanto temprano", "rightId": 1 },
+              "right": { "word": "I have breakfast at eight", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Hago ejercicio", "rightId": 2 },
+              "right": { "word": "I have dinner with my family", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Desayuno a las ocho", "rightId": 3 },
+              "right": { "word": "I exercise", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Voy al trabajo", "rightId": 4 },
+              "right": { "word": "I wake up early", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ceno con mi familia", "rightId": 5 },
+              "right": { "word": "I go to work", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Toco la guitarra", "rightId": 1 },
+              "right": { "word": "I watch a movie", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Veo una película", "rightId": 2 },
+              "right": { "word": "I play the guitar", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Gracias por su ayuda", "rightId": 3 },
+              "right": { "word": "See you later", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Perdón, ¿puede repetir?", "rightId": 4 },
+              "right": { "word": "Thank you for your help", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Hasta luego", "rightId": 5 },
+              "right": { "word": "Thank you for your help", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Tren", "rightId": 1 },
+              "right": { "word": "Bus", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Autobús", "rightId": 2 },
+              "right": { "word": "Airplane", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Avión", "rightId": 3 },
+              "right": { "word": "Bicycle", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Barco", "rightId": 4 },
+              "right": { "word": "Train", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Bicicleta", "rightId": 5 },
+              "right": { "word": "Boat", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Metro", "rightId": 1 },
+              "right": { "word": "Ticket", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Taxi", "rightId": 2 },
+              "right": { "word": "Suitcase", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Aeropuerto", "rightId": 3 },
+              "right": { "word": "Airport", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Billete", "rightId": 4 },
+              "right": { "word": "Subway", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Maleta", "rightId": 5 },
+              "right": { "word": "Taxi", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Voy a estudiar español", "rightId": 1 },
+              "right": { "word": "She is going to travel to France", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Ella va a viajar a Francia", "rightId": 2 },
+              "right": { "word": "They are going to watch a movie", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Nosotros vamos a cenar fuera", "rightId": 3 },
+              "right": { "word": "You are going to buy a car", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Tú vas a comprar un coche", "rightId": 4 },
+              "right": { "word": "I am going to study Spanish", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ellos van a ver una película", "rightId": 5 },
+              "right": { "word": "We are going to have dinner out", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Mi hermano va a jugar al fútbol", "rightId": 1 },
+              "right": { "word": "We are going to visit our friends", "rightId": 4 }
+            },
+            {
+              "left": { "word": "¿Vas a ir al concierto?", "rightId": 2 },
+              "right": { "word": "My brother is going to play soccer", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Mañana voy a trabajar temprano", "rightId": 3 },
+              "right": { "word": "My mother is going to make dinner", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Vamos a visitar a nuestros amigos", "rightId": 4 },
+              "right": { "word": "Tomorrow I am going to work early", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Mi madre va a hacer la cena", "rightId": 5 },
+              "right": { "word": "Are you going to go to the concert?", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Hoy hace frío", "rightId": 1 },
+              "right": { "word": "Madrid is the capital of Spain", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Ayer fuimos al parque", "rightId": 2 },
+              "right": { "word": "She is tired", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Si tuviera dinero, viajaría", "rightId": 3 },
+              "right": { "word": "If I had money, I would travel", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Madrid es la capital de España", "rightId": 4 },
+              "right": { "word": "Today it is cold", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Ella está cansada", "rightId": 5 },
+              "right": { "word": "Yesterday we went to the park", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Comí una pizza anoche", "rightId": 1 },
+              "right": { "word": "We always drink coffee", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Nosotros siempre tomamos café", "rightId": 2 },
+              "right": { "word": "My friend would come to the party", "rightId": 5 }
+            },
+            {
+              "left": { "word": "¿Dónde está el baño?", "rightId": 3 },
+              "right": { "word": "Tomorrow I am going to call my mother", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Mañana voy a llamar a mi madre", "rightId": 4 },
+              "right": { "word": "I ate a pizza last night", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Mi amigo vendría a la fiesta", "rightId": 5 },
+              "right": { "word": "Where is the bathroom?", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]

@@ -42,7 +42,7 @@ export default function RightSide({
     setShowForm(true); // Show the form when "Create New" is clicked
     setIsCreatingNew(true)
     setFormData(null)
-  };
+  }
 
   // Filter the data based on the search term.
   // This filter checks if any field in the row (from the specified headings) includes the search term.
@@ -96,7 +96,7 @@ export default function RightSide({
       <Table
         URL={URL}
         data={filteredData}
-        section={sect}
+        section={section}
         headings={headings[sect]}
         onEdit={onEdit}
         onDelete={onDelete}
