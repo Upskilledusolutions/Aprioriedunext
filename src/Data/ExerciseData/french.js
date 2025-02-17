@@ -5240,64 +5240,234 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "Which sentence is in Futur Proche?",
+        "choices": [
+          "Je mangerai une pizza ce soir.",
+          "Je vais manger une pizza ce soir.",
+          "J’ai mangé une pizza hier.",
+          "Je mange une pizza maintenant."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct Futur Simple form of voir (to see) for 'tu'?",
+        "choices": [
+          "Tu vois",
+          "Tu verras",
+          "Tu verrons",
+          "Tu voyais"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following sentences is in Futur Simple?",
+        "choices": [
+          "Il va aller au cinéma.",
+          "Il ira au cinéma.",
+          "Il allait au cinéma.",
+          "Il est allé au cinéma."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the future tense of devoir (to have to) for 'nous'?",
+        "choices": [
+          "Nous devrons",
+          "Nous devrions",
+          "Nous devons",
+          "Nous devoirons"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the Futur Proche form of 'elle (partir)'?",
+        "choices": [
+          "Elle partira",
+          "Elle part",
+          "Elle va partir",
+          "Elle partirait"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which verb takes an irregular stem in Futur Simple?",
+        "choices": [
+          "Donner",
+          "Finir",
+          "Pouvoir",
+          "Chanter"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct Futur Simple form of envoyer (to send) for 'je'?",
+        "choices": [
+          "J’envoie",
+          "J’envoyais",
+          "J’enverrai",
+          "J’envoyerai"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct sentence in Futur Proche:",
+        "choices": [
+          "Nous irons au parc demain.",
+          "Nous allons aller au parc demain.",
+          "Nous allions au parc demain.",
+          "Nous avons été au parc demain."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is an example of Futur Simple?",
+        "choices": [
+          "Je vais travailler demain.",
+          "Je travaillerai demain.",
+          "J’ai travaillé demain.",
+          "Je travaille demain."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which form is correct in Futur Simple for 'vous (prendre)'?",
+        "choices": [
+          "Vous prenez",
+          "Vous prendriez",
+          "Vous prendrez",
+          "Vous preniez"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
      
       {
         "question": "La semaine prochaine, nous ______ (partir) en vacances.",
-        "choices": ["partirons","1","2","3"],
+        "choices": ["partirons"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Demain, elle ______ (faire) ses devoirs tôt.",
-        "choices": ["fera","1","2","3"],
+        "choices": ["fera"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Je ______ (acheter) une nouvelle voiture l’année prochaine.",
-        "choices": ["achèterai","1","2","3"],
+        "choices": ["achèterai"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Ils ______ (être) en retard pour la réunion demain.",
-        "choices": ["seront","1","2","3"],
+        "choices": ["seront"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Nous ______ (déménager) à Paris dans deux ans.",
-        "choices": ["déménagerons","1","2","3"],
+        "choices": ["déménagerons"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Tu ______ (aller) à l'université après tes études?",
-        "choices": ["iras","1","2","3"],
+        "choices": ["iras"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Il ______ (venir) avec nous au cinéma ce soir.",
-        "choices": ["viendra","1","2","3"],
+        "choices": ["viendra"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Vous ______ (avoir) une réunion avec le directeur demain.",
-        "choices": ["aurez","1","2","3"],
+        "choices": ["aurez"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Elles ______ (finir) le projet avant la fin de la semaine.",
-        "choices": ["finiront","1","2","3"],
+        "choices": ["finiront"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
       {
         "question": "Nous ______ (recevoir) une réponse bientôt.",
-        "choices": ["recevrons","1","2","3"],
+        "choices": ["recevrons"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Demain, il ______ (manger) chez ses parents.",
+        "choices": ["mangera"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous ______ (aller) en Espagne cet été.",
+        "choices": ["allons aller"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Est-ce que tu ______ (pouvoir) venir à ma fête samedi prochain ?",
+        "choices": ["pourras"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je ______ (devenir) médecin dans cinq ans.",
+        "choices": ["deviendrai"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elles ______ (voir) le nouveau film la semaine prochaine.",
+        "choices": ["verront"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ce soir, je ______ (aller) au restaurant avec mes amis.",
+        "choices": ["vais aller"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vous ______ (prendre) l’avion pour vos vacances en août.",
+        "choices": ["prendrez"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "L’année prochaine, nous ______ (vivre) en Italie.",
+        "choices": ["vivrons"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Dans dix minutes, elle ______ (appeler) son frère.",
+        "choices": ["va appeler"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ils ______ (réussir) leur examen s’ils étudient bien.",
+        "choices": ["réussiront"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -5422,6 +5592,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "What is the French festival that celebrates the arrival of the Beaujolais Nouveau wine?",
+        "choices": [
+          "La Fête du Vin",
+          "La Fête du Beaujolais Nouveau",
+          "La Semaine du Vin",
+          "Le Festival de la Vigne"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which region in France is famous for its lavender fields and hosts festivals related to it?",
+        "choices": [
+          "Normandie",
+          "Bretagne",
+          "Provence",
+          "Alsace"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What do people traditionally eat on La Chandeleur?",
+        "choices": [
+          "Baguette",
+          "Crêpes",
+          "Fromage",
+          "Soupe à l'oignon"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What type of parade is famous during the Nice Carnival?",
+        "choices": [
+          "Flower Parade",
+          "Military Parade",
+          "Car Parade",
+          "Light Parade"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the main theme of the Fête des Lumières in Lyon?",
+        "choices": [
+          "Music performances",
+          "Light displays",
+          "Wine tasting",
+          "Costume contest"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What do people traditionally throw during the Dunkirk Carnival?",
+        "choices": [
+          "Chocolates",
+          "Fish",
+          "Confetti",
+          "Coins"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which French festival is known for its giant puppet performances?",
+        "choices": [
+          "La Fête de la Musique",
+          "Le Carnaval de Dunkerque",
+          "La Fête de la Lumière",
+          "Le Festival de Marionnettes de Charleville-Mézières"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What special pastry is eaten during the Epiphany in France?",
+        "choices": [
+          "Tarte Tatin",
+          "Galette des Rois",
+          "Profiteroles",
+          "Mille-feuille"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "In which month is the Cannes Film Festival held?",
+        "choices": [
+          "March",
+          "April",
+          "May",
+          "June"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What color are the fireworks traditionally seen on Bastille Day?",
+        "choices": [
+          "Red, blue, and white",
+          "Green and yellow",
+          "Purple and gold",
+          "Silver and pink"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
      
       {
         "question": "La ______ (gastronomy) française est reconnue dans le monde entier.",
@@ -5480,6 +5760,66 @@ export const quiz = [
       {
         "question": "Le ______ (Fat Tuesday) est une fête célébrée avant le Carême.",
         "choices": ["Mardi Gras", "Noël", "Fête de la musique", "Fête nationale"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le Festival de Cannes est un festival célèbre de ______ (cinema).",
+        "choices": ["cinéma"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pendant la Fête de la Musique, on peut écouter des concerts dans les ______ (streets).",
+        "choices": ["rues"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "À Noël, les Français mangent souvent une bûche de ______ (Yule log).",
+        "choices": ["Noël"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En France, la fête nationale a lieu le ______ (14th July).",
+        "choices": ["14 juillet"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le Carnaval de Nice est connu pour ses magnifiques ______ (floats).",
+        "choices": ["chars"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La Fête du Travail en France est célébrée avec du muguet, une ______ (flower).",
+        "choices": ["fleur"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pendant la Chandeleur, les Français préparent des ______ (crêpes).",
+        "choices": ["crêpes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La Toussaint est une fête où les familles visitent les ______ (cemeteries).",
+        "choices": ["cimetières"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "À Pâques, les enfants cherchent des œufs en ______ (chocolate).",
+        "choices": ["chocolat"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le Tour de France est une compétition célèbre de ______ (cycling).",
+        "choices": ["cyclisme"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -5604,6 +5944,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 4
       },
+      {
+        "question": "Which pronoun is appropriate to use with a close friend?",
+        "choices": [
+          "Vous",
+          "Tu",
+          "Monsieur",
+          "Madame"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "In which situation would you use 'vous' instead of 'tu'?",
+        "choices": [
+          "Speaking to a child",
+          "Speaking to a shopkeeper",
+          "Speaking to a sibling",
+          "Speaking to a classmate"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase is considered formal?",
+        "choices": [
+          "Ça roule ?",
+          "Je vous remercie.",
+          "Salut, ça va ?",
+          "Merci bien !"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence is appropriate in a formal setting?",
+        "choices": [
+          "Salut, ça va ?",
+          "Je vous remercie pour votre aide.",
+          "T’as vu ça ?",
+          "Trop cool, merci !"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which expression is informal?",
+        "choices": [
+          "Excusez-moi",
+          "Merci beaucoup",
+          "Je te remercie",
+          "Pardon, Madame"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How would you formally ask someone how they are?",
+        "choices": [
+          "Comment tu vas ?",
+          "Comment ça va ?",
+          "Ça va ?",
+          "Comment allez-vous ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "When addressing a teacher, which form should you use?",
+        "choices": [
+          "Tu",
+          "Toi",
+          "Vous",
+          "T’"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the formal way to say goodbye?",
+        "choices": [
+          "Ciao",
+          "À bientôt",
+          "Au revoir, Madame",
+          "Salut"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which word is informal when greeting someone?",
+        "choices": [
+          "Salut",
+          "Bonjour",
+          "Bonsoir",
+          "Enchanté"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct way to start a formal letter?",
+        "choices": [
+          "Coucou",
+          "Salut",
+          "Cher Monsieur / Chère Madame",
+          "Allô"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
      
       {
         "question": "Quand je parle à un ami, je dis : “Comment ______-tu (are you going) ?”",
@@ -5662,6 +6112,66 @@ export const quiz = [
       {
         "question": "À la fin d’un email formel, je termine par “Je vous prie d’agréer, Monsieur, l’expression de mes salutations ______.”",
         "choices": ["distinguées","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quand je parle à un ami, je lui dis : “Salut, comment ______ (are you) ?”",
+        "choices": ["vas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Avec mon professeur, je dois utiliser le mot ______ (you) pour être poli.",
+        "choices": ["vous"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si je parle à un serveur dans un restaurant, je dis : “S’il ______ plaît.”",
+        "choices": ["vous"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En entrant dans un magasin, je dis toujours : “______ (Hello), Madame.”",
+        "choices": ["Bonjour"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pour demander poliment une direction, je dis : “Excusez-______.”",
+        "choices": ["moi"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quand je parle à ma mère, je dis : “Merci ______ !”",
+        "choices": ["beaucoup"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Lors d’un entretien d’embauche, je dis : “Je vous remercie pour ______ temps.”",
+        "choices": ["votre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "À un enfant, je dis : “Donne-______ la main.”",
+        "choices": ["moi"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Dans une réunion formelle, je dis : “Je vous remercie pour ______ aide.”",
+        "choices": ["votre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Lors d’un repas avec des amis, je dis : “______ (thank you) beaucoup pour le dîner.”",
+        "choices": ["Merci"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -5786,6 +6296,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "What do you say when the person you are calling is not available?",
+        "choices": [
+          "Il est occupé.",
+          "Il est parti.",
+          "Il n'est pas là.",
+          "Il ne répond pas."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you politely ask who is calling?",
+        "choices": [
+          "Qui es-tu ?",
+          "Qui est à l’appareil ?",
+          "Vous êtes qui ?",
+          "Pourquoi tu appelles ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What phrase can be used to request someone to repeat what they said?",
+        "choices": [
+          "Pouvez-vous répéter, s’il vous plaît ?",
+          "Quoi ?",
+          "Je ne comprends pas.",
+          "Parlez plus fort !"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you inform someone that you are calling the wrong number?",
+        "choices": [
+          "C’est une erreur.",
+          "Mauvais numéro.",
+          "Désolé, j’ai fait une erreur.",
+          "Ce n’est pas correct."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What phrase can be used to introduce yourself on the phone?",
+        "choices": [
+          "Moi, c’est [nom].",
+          "Ici [nom].",
+          "Salut, c’est moi !",
+          "Vous me connaissez ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you ask someone to hold the line?",
+        "choices": [
+          "Ne raccrochez pas.",
+          "Attendez-moi.",
+          "Restez là.",
+          "Vous êtes encore là ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is a polite way to ask someone to call you back?",
+        "choices": [
+          "Peux-tu me rappeler ?",
+          "Rappelle-moi vite !",
+          "Merci de me rappeler.",
+          "Fais-moi un retour."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What do you say when you don't understand the person well on the phone?",
+        "choices": [
+          "Il y a un problème ?",
+          "Je ne vous entends pas bien.",
+          "Parlez plus doucement.",
+          "Vous êtes en ligne ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you confirm if you are speaking to the right person?",
+        "choices": [
+          "Vous êtes bien [nom] ?",
+          "C’est qui ?",
+          "Tu es qui ?",
+          "On se connaît ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What do you say when you need to leave a message?",
+        "choices": [
+          "Je veux laisser un message.",
+          "Passe-lui ceci.",
+          "Note ça.",
+          "Tu peux lui dire ça ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
      
       {
         "question": "Pour dire que je vais passer l’appel, je dis : “Je vous ______ (the pass).”",
@@ -5844,6 +6464,66 @@ export const quiz = [
       {
         "question": "Pour conclure un appel formel, je dis : “Je vous souhaite une bonne ______ (daytime).”",
         "choices": ["journée", "1", "2", "3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si la ligne est mauvaise, je dis : “Je ne vous ______ pas bien.” (hear)",
+        "choices": ["entends"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quand quelqu’un me demande d’attendre, il dit : “Ne ______ pas.” (hang up)",
+        "choices": ["raccrochez"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pour demander un rappel, je dis : “Pouvez-vous me ______ plus tard ?” (call back)",
+        "choices": ["rappeler"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quand je me présente au téléphone, je dis : “______ [nom] à l’appareil.” (Here)",
+        "choices": ["Ici"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quand quelqu’un décroche, il dit souvent : “______ ?” (Hello)",
+        "choices": ["Allô"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pour confirmer si je parle à la bonne personne, je demande : “Vous êtes bien ______ ?” (name)",
+        "choices": ["nom"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pour prendre un message, je dis : “Voulez-vous laisser un ______ ?” (message)",
+        "choices": ["message"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si la communication est coupée, on dit : “La ligne a été ______ .” (cut)",
+        "choices": ["coupée"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Avant de raccrocher, je dis : “Bonne ______ !” (day)",
+        "choices": ["journée"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si la personne n'est pas disponible, je dis : “Il/elle est ______ .” (absent)",
+        "choices": ["absent"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -5968,6 +6648,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 4
       },
+      {
+        "question": "What is the correct way to address someone in a formal email?",
+        "choices": [
+          "Salut",
+          "Cher ami",
+          "Monsieur/Madame",
+          "Mon cher"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase would you use to politely ask for a reply in a letter?",
+        "choices": [
+          "Répondez vite",
+          "Merci de répondre dès que possible",
+          "Réponds-moi",
+          "Dis-moi ce que tu en penses"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I am writing to you' in a formal context?",
+        "choices": [
+          "Je t'écris",
+          "Je vous écris",
+          "Je te parle",
+          "Je suis écrit"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which word means 'confirmation' in a formal letter?",
+        "choices": [
+          "Réponse",
+          "Confirmation",
+          "Accord",
+          "Acceptation"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the polite way to close a formal email in French?",
+        "choices": [
+          "À bientôt",
+          "Bien à vous",
+          "Bisous",
+          "Merci"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you formally ask for permission in French?",
+        "choices": [
+          "Pouvons-nous",
+          "Avez-vous la gentillesse de",
+          "Veuillez",
+          "Je voudrais"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these expressions is formal and suitable for an email subject?",
+        "choices": [
+          "Informations importantes",
+          "À propos",
+          "Salut à tous",
+          "Infos rapides"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following words would you use to say 'attached' in a formal email?",
+        "choices": [
+          "Ci-joint",
+          "À côté",
+          "Voici",
+          "Là-bas"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct translation for 'I remain at your disposal' in a formal letter?",
+        "choices": [
+          "Je reste à votre service",
+          "Je reste chez vous",
+          "Je suis là pour vous",
+          "Je veux vous aider"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you express 'I look forward to your reply' in French in a formal context?",
+        "choices": [
+          "En attendant votre réponse",
+          "J'attends de vos nouvelles",
+          "J'espère que vous répondrez vite",
+          "À très bientôt"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
      
       {
         "question": "Je vous ______ (pray) de bien vouloir examiner ma demande.",
@@ -6026,6 +6816,66 @@ export const quiz = [
       {
         "question": "Je vous serais reconnaissant(e) de bien vouloir me ______ (provide) des renseignements supplémentaires.",
         "choices": ["fournir", "donner", "envoyer", "offrir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je vous prie de bien vouloir ______ (accept) cette demande.",
+        "choices": ["accepter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(As requested) ______, veuillez trouver ci-joint le document.",
+        "choices": ["Comme demandé"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je vous ______ (ask) de bien vouloir m’envoyer des informations supplémentaires.",
+        "choices": ["demande"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Please confirm) ______ la réception de ce message.",
+        "choices": ["Veuillez confirmer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je vous écris ______ (in response) à votre courriel du 5 janvier.",
+        "choices": ["en réponse"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(I remain) ______ à votre disposition pour toute information complémentaire.",
+        "choices": ["Je reste"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vous trouverez ci-joint ______ (the requested) document.",
+        "choices": ["le document demandé"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous vous ______ (thank) pour votre attention.",
+        "choices": ["remercions"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je vous prie de ______ (accept) mes salutations distinguées.",
+        "choices": ["accepter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous vous ______ (would be grateful) si vous pouviez traiter cette demande rapidement.",
+        "choices": ["serions reconnaissants"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
