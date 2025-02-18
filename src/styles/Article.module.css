@@ -46,7 +46,7 @@
   
   .textarea {
     width: 98%;
-    height: 150px;
+    height: 350px;
     padding: 12px;
     border: 1px solid #ccc;
     font-size: 16px;
@@ -81,3 +81,14 @@
     background: rgb(208, 53, 32);
   }
   
+  @media screen and (max-width: 720px){
+    .container{
+      padding-top: 40px;
+    }
+    .textarea {
+      width: 92%;
+    }
+    .card {
+      width: 90vw;
+    }
+  }

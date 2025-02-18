@@ -1,10 +1,10 @@
 export const cards = [
     {
-      type: 'French',
-      heading: 'French Translations (B2)',
+      type: 'french',
+      heading: 'French Translations (B1)',
       text: 'Dive into the vibrant world of Multiple language-speaking countries with this course.',
-      link: 'FrenchTranslations',
-      data: 'frenchb2',
-      link2: 'FrenchTranslation'
+      link: 'FrenchTranslationsb1',
+      data: 'frenchb1',
+      link2: 'FrenchTranslationb1'
     },   
   ];

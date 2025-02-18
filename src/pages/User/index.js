@@ -64,6 +64,12 @@ export default function Index() {
         },
         {
           "id": "10",
+          "heading": "Speaking Tasks",
+          "text": "Activities to improve writing skills through structured tasks.",
+          "link": "SpeakingTasks"
+        },
+        {
+          "id": "11",
           "heading": "Practice Test",
           "text": "Quizzes to test and assess language proficiency and knowledge.",
           "link": "TestPrep"

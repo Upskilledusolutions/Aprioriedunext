@@ -43,7 +43,7 @@ export default function Index() {
   console.log(lesson[id-1].level)
   return (
     <div className={styles.container} style={{ textAlign: "center", padding: "20px" }}>
-      <h2 className={styles.selectheading}>French Writing Tasks</h2>
+      <h2 className={styles.selectheading}>{lesson[id-1].name}</h2>
       
       <div style={{ marginBottom: "20px" }}>
         <button 

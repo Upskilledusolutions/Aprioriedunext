@@ -1,0 +1,154 @@
+ 
+  /* Container */
+  .container {
+    width: 80vw;
+    margin: 0px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px 2vw;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0 5vw;
+  }
+  
+  .h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Question Section */
+  .questionContainer {
+    margin-bottom: 20px;
+    width: 31vw;
+    padding: 10px 2vw 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .questionContainer p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .questionButtons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .button {
+    padding: 5px 10px;
+    font-size: 12px;
+    border: 1px solid var(--blue);
+    border-radius: 20px;
+    cursor: pointer;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+    transition: 0.3s;
+  }
+
+    
+  /* Icon styling */
+  .icon {
+    font-size: 12px;
+  }
+  
+  .button:disabled {
+    background-color: #bdc3c7;
+  }
+  
+  .button:hover:not(:disabled) {
+    background-color: var(--blue);
+    color: white;
+  }
+  
+  .button.recording {
+    background-color: #e74c3c;
+  }
+  
+  .button.recording:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Audio Player */
+  .audio {
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 10px;
+    background: none;
+    background-color: white;
+  }
+
+  .audiosource{
+    background: none;
+    background-color: white;
+  }
+  
+  /* Submit Button */
+  .submitBtn {
+    width: 100%;
+    background-color: var(--blue);
+    font-size: 1.2rem;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #95a5a6;
+  }
+  
+  .submit-btn:hover:not(:disabled) {
+    background-color: #27ae60;
+  }
+  
+  .recording-icon {
+    font-size: 1.3rem;
+    color: #e74c3c;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .button {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  
+    .question-buttons {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  @media screen and (max-width: 720px){
+    .questionContainer {
+      width: 100%;
+      padding: 10px 5vw 30px;
+    }
+    .audio{
+      width: 100%;
+    }
+  }
+  

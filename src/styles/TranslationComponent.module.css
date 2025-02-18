@@ -153,3 +153,15 @@
 .content::-webkit-scrollbar-thumb:hover {
   background: rgb(208, 53, 32);
 }
+
+@media screen and (max-width: 720px){
+  .container{
+    padding-top: 40px;
+  }
+  .textarea {
+    width: 92%;
+  }
+  .card {
+    width: 90vw;
+  }
+}

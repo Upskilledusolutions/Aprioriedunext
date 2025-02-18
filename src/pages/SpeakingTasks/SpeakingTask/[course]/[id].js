@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { cards } from '../../../../Data/Routes/Translations'
-import { useRouter } from 'next/router';
-import TranslationComponent from '../../../../../components/TranslationComp';
+import React, { useEffect, useState } from "react";
+import { cards } from "../../../../Data/Routes/SpeakingTask";
+import { useRouter } from "next/router";
+import styles from "../../../../styles/Article.module.css";
+import Listen from "../../../../../components/QuestionContent/SpeakingTaskcomp";
 
 export default function Index() {
   const [isClient, setIsClient] = useState(false); // Client-side state to prevent hydration issues
   const [lesson, setLesson] = useState(null);
 
- const router = useRouter();
+  const router = useRouter();
   const { course, id } = router.query;
 
   // Find lesson metadata based on `id`
@@ -19,12 +20,12 @@ export default function Index() {
 
     if (somedata) {
       // Dynamically import lesson data
-      import(`../../../../Data/Translationsdata/${somedata.data}`)
+      import(`../../../../Data/SpeakingTaskdata/${somedata.data}`)
         .then((module) => {
           setLesson(module.data);
         })
         .catch((error) => {
-          console.error('Error loading lesson data:', error);
+          console.error("Error loading lesson data:", error);
         });
     }
   }, [somedata]);
@@ -38,8 +39,8 @@ export default function Index() {
   }
 
   return (
-    <div>
-        <TranslationComponent frenchText={lesson[id-1].french} englishText={lesson[id-1].english}/>
+    <div className={styles.container}>
+      <Listen name={lesson[id - 1].name} questions={lesson[id-1]?.Questions}/>
     </div>
   );
 }
