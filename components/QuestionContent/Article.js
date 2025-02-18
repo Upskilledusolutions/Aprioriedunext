@@ -1,18 +1,29 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
 import styles from "../../src/styles/Article.module.css";
+import { useSelector } from "react-redux";
 
-const ArticleWriting = ({ lesson }) => {
-  const [article, setArticle] = useState("");
-  const form = useRef();
+const ArticleWriting = ({ lesson, name }) => {
+  const { user } = useSelector((state) => state.auth); // Get the user from Redux
+  const [article, setArticle] = useState(""); // State to track the article content
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    // Prepare form data to send
+    const emailData = {
+      user: user ? user.name : "Anonymous",  // Assuming user has a 'name' property
+      article: article,
+      lesson: lesson, // Include formatted lesson
+      subject: name // Assuming the 'name' prop is the subject
+    };
+
+    // Send email using emailjs
     emailjs
-      .sendForm("service_h543lm1", "template_e0enqfn", form.current, "WHP4fLLjX31i21JPb")
+      .send("service_ku47jo7", "template_alm1bl4", emailData, "gda7QFd6-p_NsoIVt")
       .then(() => {
         alert("Your article has been submitted successfully!");
-        setArticle("");
+        setArticle(""); // Clear the article input after submission
       })
       .catch((error) => {
         alert("Error submitting the article. Please try again.");
@@ -22,9 +33,13 @@ const ArticleWriting = ({ lesson }) => {
   return (
     <div>
       <div className={styles.card}>
-      <h3>Article Writing Task</h3>
-      <p><strong>Question:</strong> {lesson}</p>
-        <form ref={form} onSubmit={sendEmail}>
+        {/* Render the lesson with formatting */}
+        <div className={styles.questiontop}>        
+          <div dangerouslySetInnerHTML={{ __html: lesson }} className={styles.lessonContent} />
+        </div>
+
+        <form onSubmit={sendEmail}>
+          {/* The article textarea input */}
           <textarea
             className={styles.textarea}
             name="article"
@@ -33,6 +48,11 @@ const ArticleWriting = ({ lesson }) => {
             onChange={(e) => setArticle(e.target.value)}
             required
           />
+          
+          {/* Hidden input to pass the lesson to emailjs */}
+          <input type="hidden" name="lesson" value={lesson} />
+          <input type="hidden" name="subject" value={name} />
+
           <button type="submit" className={styles.button}>Submit</button>
         </form>
       </div>

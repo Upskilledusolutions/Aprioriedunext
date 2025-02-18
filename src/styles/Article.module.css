@@ -7,6 +7,16 @@
     background: linear-gradient(rgb(227, 80, 61) 0%, rgb(119, 21, 8) 100%);
   }
 
+  .lessonContent {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }  
+
+  .questiontop{
+    text-align: left;
+  }
+
   .selectheading{
     color: white;
   }

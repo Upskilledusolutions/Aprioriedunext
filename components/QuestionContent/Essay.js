@@ -1,18 +1,37 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
 import styles from "../../src/styles/Article.module.css";
+import { useSelector } from "react-redux";
 
-const EssayWriting = ({ lesson }) => {
-  const [essay, setEssay] = useState("");
-  const form = useRef();
+const ArticleWriting = ({ lesson, name }) => {
+  const { user } = useSelector((state) => state.auth); // Get the user from Redux
+  const [article, setArticle] = useState(""); // State to track the article content
+
+  // Function to format user input (Convert **bold** or __bold__ to <b>bold</b>)
+  const formatTextForEmail = (text) => {
+    return text
+      .replace(/\n/g, "<br>") // Convert new lines to <br>
+      .replace(/\*\*(.*?)\*\*/g, "<b>$1</b>") // Convert **bold** to <b>bold</b>
+      .replace(/__(.*?)__/g, "<b>$1</b>"); // Convert __bold__ to <b>bold</b>
+  };
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    // Prepare email data with formatted article
+    const emailData = {
+      user: user ? user.name : "Anonymous", // Assuming user has a 'name' property
+      article: formatTextForEmail(article), // Convert formatting before sending
+      lesson: lesson, // Keep lesson with HTML formatting
+      subject: name // Assuming the 'name' prop is the subject
+    };
+
+    // Send email using emailjs
     emailjs
-      .sendForm("service_h543lm1", "template_e0enqfn", form.current, "WHP4fLLjX31i21JPb")
+      .send("service_ku47jo7", "template_alm1bl4", emailData, "gda7QFd6-p_NsoIVt")
       .then(() => {
         alert("Your essay has been submitted successfully!");
-        setEssay("");
+        setArticle(""); // Clear the essay input after submission
       })
       .catch((error) => {
         alert("Error submitting the essay. Please try again.");
@@ -22,17 +41,26 @@ const EssayWriting = ({ lesson }) => {
   return (
     <div>
       <div className={styles.card}>
-      <h3>Essay Writing Task</h3>
-      <p><strong>Question:</strong> {lesson}</p>
-        <form ref={form} onSubmit={sendEmail}>
+        {/* Render the lesson with formatting */}
+        <div className={styles.questiontop}>        
+          <div dangerouslySetInnerHTML={{ __html: lesson }} className={styles.lessonContent} />
+        </div>
+
+        <form onSubmit={sendEmail}>
+          {/* The essay textarea input */}
           <textarea
             className={styles.textarea}
-            name="essay"
+            name="article"
             placeholder="Start writing here..."
-            value={essay}
-            onChange={(e) => setEssay(e.target.value)}
+            value={article}
+            onChange={(e) => setArticle(e.target.value)}
             required
           />
+          
+          {/* Hidden input to pass the lesson to emailjs */}
+          <input type="hidden" name="lesson" value={lesson} />
+          <input type="hidden" name="subject" value={name} />
+
           <button type="submit" className={styles.button}>Submit</button>
         </form>
       </div>
@@ -40,4 +68,4 @@ const EssayWriting = ({ lesson }) => {
   );
 };
 
-export default EssayWriting;
+export default ArticleWriting;

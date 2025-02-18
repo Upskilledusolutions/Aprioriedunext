@@ -50,14 +50,20 @@ export default function Index() {
           "text": "Activities to improve writing skills through structured tasks.",
           "link": "WritingPractice"
         },
-        // {
-        //   "id": "8",
-        //   "heading": "Translation",
-        //   "text": "Activities to improve writing skills through structured tasks.",
-        //   "link": "Translations"
-        // },
+        {
+          "id": "8",
+          "heading": "Translation",
+          "text": "Activities to improve writing skills through structured tasks.",
+          "link": "Translations"
+        },
         {
           "id": "9",
+          "heading": "Writing Tasks",
+          "text": "Activities to improve writing skills through structured tasks.",
+          "link": "Writingtasks"
+        },
+        {
+          "id": "10",
           "heading": "Practice Test",
           "text": "Quizzes to test and assess language proficiency and knowledge.",
           "link": "TestPrep"

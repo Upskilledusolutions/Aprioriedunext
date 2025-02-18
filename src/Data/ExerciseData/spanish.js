@@ -5565,6 +5565,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "¿Dónde (you will live) en el futuro?",
+        "choices": [
+          "Viviré",
+          "Vivirás",
+          "Vivirá",
+          "Viviremos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Ellos (will work) en una empresa internacional el próximo año.",
+        "choices": [
+          "Trabajaremos",
+          "Trabajarán",
+          "Trabajarás",
+          "Trabajará"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuándo (we will visit) a nuestros primos?",
+        "choices": [
+          "Visitaremos",
+          "Visitarán",
+          "Visitará",
+          "Visitaré"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "María (will write) un libro en el futuro.",
+        "choices": [
+          "Escribirá",
+          "Escribiré",
+          "Escribiremos",
+          "Escribirán"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué (you will say) en la reunión de mañana?",
+        "choices": [
+          "Dirás",
+          "Diré",
+          "Diremos",
+          "Dirán"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El próximo verano, mi familia (will stay) en un hotel de lujo.",
+        "choices": [
+          "Quedaremos",
+          "Quedará",
+          "Quedarán",
+          "Quedaré"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Mañana, yo (will run) en el parque por la mañana.",
+        "choices": [
+          "Correrás",
+          "Correré",
+          "Correremos",
+          "Correrán"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuándo (they will return) de su viaje a España?",
+        "choices": [
+          "Volveré",
+          "Volverán",
+          "Volveremos",
+          "Volverás"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Nosotros (will have to) estudiar mucho para el examen final.",
+        "choices": [
+          "Tendremos que",
+          "Tendrás que",
+          "Tendrá que",
+          "Tendrán que"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El próximo mes, tú (will move) a una nueva casa.",
+        "choices": [
+          "Mudaremos",
+          "Mudará",
+          "Mudarás",
+          "Mudaré"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
       
       // 20 Fill in the Blanks
 
@@ -5625,6 +5735,66 @@ export const quiz = [
       {
         "question": "Nosotros ______(we will see) una película esta noche.",
         "choices": ["veremos","1","2","3"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis amigos ______ (will arrive) a la fiesta a las 8 p.m.",
+        "choices": ["llegarán"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (will call) a tu madre esta noche.",
+        "choices": ["llamarás"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (will meet) en la plaza mañana por la tarde.",
+        "choices": ["nos encontraremos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El profesor ______ (will correct) los exámenes la próxima semana.",
+        "choices": ["corregirá"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ustedes ______ (will finish) el proyecto el próximo viernes.",
+        "choices": ["terminarán"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mañana, mi hermana ______ (will wake up) temprano para ir a la universidad.",
+        "choices": ["se despertará"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______ (will drink) un café después del almuerzo.",
+        "choices": ["beberé"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿A qué hora ______ (you will leave) para el aeropuerto?",
+        "choices": ["saldrás"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Pedro y Juan ______ (will sell) su coche viejo pronto.",
+        "choices": ["venderán"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En el futuro, nosotros ______ (will be) felices con nuestras decisiones.",
+        "choices": ["seremos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -5753,6 +5923,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 4
       },
+      {
+        "question": "What is the name of the Spanish national dish made of rice, seafood, and saffron?",
+        "choices": [
+          "Tortilla Española",
+          "Gazpacho",
+          "Paella",
+          "Churros"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the traditional Christmas lottery in Spain called?",
+        "choices": [
+          "El Gordo",
+          "La Navidad",
+          "El Premio",
+          "La Suerte"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What do Spanish people traditionally eat 12 of on New Year’s Eve for good luck?",
+        "choices": [
+          "Olives",
+          "Grapes",
+          "Almonds",
+          "Cherries"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which famous Spanish festival involves people dressing up as devils and jumping over babies?",
+        "choices": [
+          "La Tomatina",
+          "El Colacho",
+          "Las Fallas",
+          "San Fermín"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Flamenco is a traditional music and dance style from which region of Spain?",
+        "choices": [
+          "Galicia",
+          "Cataluña",
+          "Andalucía",
+          "Valencia"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the traditional Spanish cold tomato soup called?",
+        "choices": [
+          "Paella",
+          "Fabada",
+          "Gazpacho",
+          "Empanada"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What color is traditionally associated with the Spanish bullfighting matador’s cape?",
+        "choices": [
+          "Green",
+          "Blue",
+          "Red",
+          "Yellow"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which Spanish holiday celebrates the arrival of the Three Kings on January 6th?",
+        "choices": [
+          "Día de la Hispanidad",
+          "Día de los Reyes Magos",
+          "Día de Todos los Santos",
+          "Día de la Constitución"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the name of the Spanish festival where people build human towers?",
+        "choices": [
+          "Feria de Abril",
+          "San Fermín",
+          "La Mercè",
+          "Castells"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What traditional Spanish pastry is often dipped in hot chocolate?",
+        "choices": [
+          "Tarta de Santiago",
+          "Churros",
+          "Rosquillas",
+          "Polvorones"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
       
       // 20 Fill in the Blanks
 
@@ -5816,6 +6096,67 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
+      {
+        "question": "La paella es un plato típico de la región de ______.",
+        "choices": ["Valencia"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En Nochevieja, los españoles comen doce ______ para tener buena suerte en el nuevo año.",
+        "choices": ["uvas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El flamenco es un baile y música tradicionales de la región de ______.",
+        "choices": ["Andalucía"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En España, el Día de los Reyes Magos se celebra el ______ (6 January).",
+        "choices": ["6 de enero"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En la Feria de Abril de Sevilla, muchas personas bailan ______.",
+        "choices": ["flamenco"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La Sagrada Familia es una famosa basílica situada en la ciudad de ______.",
+        "choices": ["Barcelona"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La bebida tradicional española hecha con vino tinto y fruta se llama ______.",
+        "choices": ["sangría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La Semana Santa es una celebración religiosa que tiene lugar antes de ______.",
+        "choices": ["Pascua"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Durante la fiesta de Las Fallas, las grandes esculturas de cartón se ______.",
+        "choices": ["queman"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En el festival de La Tomatina, la gente se lanza ______ unos a otros.",
+        "choices": ["tomates"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -5940,6 +6281,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "In Spanish, which pronoun is used for formal speech?",
+        "choices": [
+          "Tú",
+          "Usted",
+          "Vosotros",
+          "Ellos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following phrases is considered formal in Spanish?",
+        "choices": [
+          "¿Qué tal?",
+          "Hola, amigo",
+          "¿Cómo está usted?",
+          "Oye, ¿qué pasa?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "When addressing a professor, which form should be used?",
+        "choices": [
+          "Tú",
+          "Vos",
+          "Usted",
+          "Ellos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which of the following situations requires informal speech?",
+        "choices": [
+          "Talking to your boss",
+          "Speaking with a stranger",
+          "Talking to a friend",
+          "Addressing a government official"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase is informal in Spanish?",
+        "choices": [
+          "Disculpe, ¿me puede ayudar?",
+          "Oye, ¿tienes un minuto?",
+          "¿Podría decirme la hora?",
+          "Con permiso, ¿puedo pasar?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'How are you?' in a formal way?",
+        "choices": [
+          "¿Cómo estás?",
+          "¿Qué tal?",
+          "¿Cómo está usted?",
+          "¿Cómo van las cosas?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "In Spain, which pronoun is used for informal plural 'you'?",
+        "choices": [
+          "Vosotros",
+          "Ustedes",
+          "Tú",
+          "Ellos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When talking to an elder, which phrase is appropriate?",
+        "choices": [
+          "¿Qué onda?",
+          "¿Cómo le va?",
+          "¿Cómo te va?",
+          "Todo bien, ¿y tú?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "If you are addressing two people formally in Latin America, which pronoun should you use?",
+        "choices": [
+          "Vosotros",
+          "Ustedes",
+          "Tú",
+          "Nosotros"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of these verbs is conjugated in the formal 'usted' form?",
+        "choices": [
+          "Hablas",
+          "Comes",
+          "Escribe",
+          "Dices"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
       
       // 20 Fill in the Blanks
 
@@ -6003,6 +6454,67 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
+      {
+        "question": "Cuando hablas con tu jefe, es mejor usar la forma ______ (formal/informal).",
+        "choices": ["formal"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si hablo con un niño pequeño, uso la palabra ______ (tú/usted).",
+        "choices": ["tú"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En España, 'vosotros' se usa para hablar con un grupo de personas de manera ______ (formal/informal).",
+        "choices": ["informal"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En América Latina, en situaciones formales se usa el pronombre ______ en vez de 'vosotros'.",
+        "choices": ["ustedes", "vosotros"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En una carta formal en español, se empieza con 'Estimado ______ (señor/tú)'.",
+        "choices": ["señor"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Cuando hablas con un desconocido en la calle, es educado decir 'Disculpe, ¿me puede ______ (ayudar)?'",
+        "choices": ["ayudar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En un restaurante, es más adecuado decir '¿Me trae la cuenta, por ______ (favor/tú)?'",
+        "choices": ["favor"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para preguntar la hora de manera formal, puedes decir '¿______ (Podría/Puedes) decirme la hora?'",
+        "choices": ["Podría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La forma correcta y formal para despedirse es '______ (Atentamente/Chao)'.",
+        "choices": ["Atentamente"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si hablas con tu profesor, debes decir '¿Cómo está ______ (usted/tú) hoy?'",
+        "choices": ["usted"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+
       {
         "question": "Empareja las palabras singulares y plurales.",
         "type": "MatchTheFollowing",
@@ -6176,9 +6688,178 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 4
       },
+      {
+        "question": "How do you answer the phone in Spanish formally?",
+        "choices": [
+          "¿Quién eres?",
+          "¿Diga?",
+          "Hola, ¿cómo estás?",
+          "¿Dónde estás?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does '¿Puedo hablar con María?' mean?",
+        "choices": [
+          "Can I help María?",
+          "Can I talk to María?",
+          "Do you know María?",
+          "Do you like María?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'Just a moment, please' in Spanish?",
+        "choices": [
+          "Un momento, por favor",
+          "Espera aquí",
+          "Adiós",
+          "Lo siento"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a polite way to ask who is calling?",
+        "choices": [
+          "¿Quién eres?",
+          "¿De parte de quién?",
+          "¿Cómo te llamas?",
+          "¿Dónde estás?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is a common informal way to answer the phone in Spanish?",
+        "choices": [
+          "¿Sí?",
+          "¿Qué pasa?",
+          "Hola",
+          "All of the above"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "What does 'No puedo hablar ahora' mean?",
+        "choices": [
+          "I can talk now",
+          "I can’t talk right now",
+          "Call me later",
+          "Can you call now?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I will call you later' in Spanish?",
+        "choices": [
+          "Te llamo luego",
+          "Llamas después",
+          "Te llamas luego",
+          "Llamar luego"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Se ha cortado la llamada' mean?",
+        "choices": [
+          "The call has been disconnected",
+          "I lost my phone",
+          "The signal is good",
+          "I called someone"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If someone asks, '¿Puedo dejar un mensaje?', what are they asking?",
+        "choices": [
+          "Can I leave a message?",
+          "Can I take your phone?",
+          "Can I hang up?",
+          "Can I answer the call?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say 'The line is busy' in Spanish?",
+        "choices": [
+          "No hay señal",
+          "La línea está ocupada",
+          "No puedo oírte",
+          "Me escuchas"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
       
       // 20 Fill in the Blanks
-
+      {
+        "question": "Formal: Disculpe, ¿______ (could) hablar con el señor López?",
+        "choices": ["podría"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: Hola, ¿cómo ______ (to be) tú?",
+        "choices": ["estás"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: Lo siento, pero la señora Pérez no ______ (to be) disponible.",
+        "choices": ["está"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ¿Me ______ (to call) después, por favor?",
+        "choices": ["llamas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: ¿Me puede ______ (to pass) con el gerente, por favor?",
+        "choices": ["pasar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: No te ______ (to hear) bien, hay mala señal.",
+        "choices": ["escucho"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: Lo siento, pero en este momento no ______ (to be able) atender la llamada.",
+        "choices": ["puedo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ¿A qué hora me ______ (to call) mañana?",
+        "choices": ["llamas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Formal: Su llamada ha sido ______ (cut off) por un problema de señal.",
+        "choices": ["cortada"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Informal: ¡Oye! Se ______ (to cut off) la llamada.",
+        "choices": ["cortó"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
         "question": "Formal: ¿Usted ______ (could) pasarme con el señor García?",
         "choices": ["podría", "Hola", "me llamo", "tú"],
@@ -6362,6 +7043,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "What is a polite way to introduce yourself in a formal letter?",
+        "choices": [
+          "Me llamo Juan",
+          "Soy Juan",
+          "Mi nombre es Juan Pérez y le escribo para...",
+          "Hola, soy Juan"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct word for 'signature' in Spanish?",
+        "choices": [
+          "Cuerpo",
+          "Firma",
+          "Carta",
+          "Documento"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I am writing to request information' formally?",
+        "choices": [
+          "Le escribo para pedir información",
+          "Estoy escribiendo para preguntar",
+          "Te mando un mensaje para saber",
+          "Quiero saber más"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the proper way to say 'Dear Mr. López' in a formal letter?",
+        "choices": [
+          "Querido López",
+          "Hola Sr. López",
+          "Estimado Sr. López",
+          "Buenas tardes, López"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase would NOT be appropriate for a formal closing?",
+        "choices": [
+          "Un cordial saludo",
+          "Saludos cordiales",
+          "Hasta luego",
+          "Atentamente"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you formally say 'Please let me know' in an email?",
+        "choices": [
+          "Házmelo saber",
+          "Por favor dime",
+          "Le agradecería que me informara",
+          "Cuéntame"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'Le adjunto' mean in a formal email?",
+        "choices": [
+          "I attach",
+          "I explain",
+          "I write",
+          "I respond"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the formal way to say 'I would appreciate your help'?",
+        "choices": [
+          "Me gustaría tu ayuda",
+          "Te agradecería tu ayuda",
+          "Le agradecería su ayuda",
+          "Quiero que me ayudes"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct Spanish translation for 'I hope this email finds you well'?",
+        "choices": [
+          "Espero que estés bien",
+          "Espero que este correo le encuentre bien",
+          "Ojalá que todo esté bien",
+          "Quiero que estés bien"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence would be most appropriate in a formal letter?",
+        "choices": [
+          "¿Cómo estás?",
+          "Espero que me ayudes con esto.",
+          "Le escribo para informarle sobre el evento.",
+          "Nos vemos pronto."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
       
       // 20 Fill in the Blanks
 
@@ -6422,6 +7213,66 @@ export const quiz = [
       {
         "question": "(Closing) Muchas gracias por su ______ (attention) y quedo a su disposición.",
         "choices": ["atención", "tiempo", "respuesta", "interés"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "(Dear) ______ Señora González, le escribo en relación a su solicitud.",
+        "choices": ["Estimada"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me dirijo a usted con el ______ (purpose) de solicitar más información.",
+        "choices": ["propósito"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le ______ (attach) el documento que solicitó en su último correo.",
+        "choices": ["adjunto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Agradezco de antemano su ______ (kind) atención.",
+        "choices": ["amable"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si necesita más información, no dude en ______ (contact) conmigo.",
+        "choices": ["contactarme"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le ruego me ______ (send) más detalles sobre la oferta de empleo.",
+        "choices": ["envíe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El ______ (main) objetivo de este correo es aclarar algunos puntos.",
+        "choices": ["principal"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quisiera expresar mi ______ (gratitude) por su ayuda.",
+        "choices": ["gratitud"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me gustaría concertar una ______ (meeting) para discutir este tema.",
+        "choices": ["reunión"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Le envío un cordial ______ (greeting) y quedo atento a su respuesta.",
+        "choices": ["saludo"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

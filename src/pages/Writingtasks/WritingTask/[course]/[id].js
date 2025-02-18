@@ -78,7 +78,7 @@ export default function Index() {
         </button>
       </div>
 
-      {view === "article" ? <Article lesson={lesson[id-1].articleQuestions} /> : <Essay lesson={lesson[id-1].essayQuestions} />}
+      {view === "article" ? <Article lesson={lesson[id-1].articleQuestions} name={lesson[id-1].name}/> : <Essay lesson={lesson[id-1].essayQuestions} name={lesson[id-1].name}/>}
     </div>
   );
 }

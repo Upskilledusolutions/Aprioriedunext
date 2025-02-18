@@ -2414,44 +2414,16 @@ export const quiz = [
   "type": "MatchTheFollowing",
 "pairs": [
     {
-      "left": { "word": "Hund", "rightId": 1 },
-      "right": { "word": "Table", "rightId": 7 }
-
-    },
-    {
-      "left": { "word": "Schwester", "rightId": 2 },
-      "right": { "word": "School", "rightId": 9 }
-
-    },
-    {
-      "left": { "word": "Haus", "rightId": 3 },
-      "right": { "word": "Chair", "rightId": 8 }
-      
-    },
-    {
-      "left": { "word": "Buch", "rightId": 4 },
-      "right": { "word": "Friend", "rightId": 10 }
-      
-    },
-    {
-      "left": { "word": "Fenster", "rightId": 5 },
-      "right": { "word": "Family", "rightId": 1 }
-
-    },
-    {
       "left": { "word": "Familie", "rightId": 6 },
-      "right": { "word": "Window", "rightId": 2 }
-      
+      "right": { "word": "Friend", "rightId": 10 }
     },
     {
       "left": { "word": "Freund", "rightId": 7 },
-      "right": { "word": "Book", "rightId": 4 }
-      
+      "right": { "word": "Chair", "rightId": 8 }
     },
     {
       "left": { "word": "Stuhl", "rightId": 8 },
-      "right": { "word": "House", "rightId": 3 }
-      
+      "right": { "word": "School", "rightId": 9 }
     },
     {
       "left": { "word": "Schule", "rightId": 9 },
@@ -2460,8 +2432,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Tisch", "rightId": 10 },
-      "right": { "word": "Dog", "rightId": 5 }
-      
+      "right": { "word": "Table", "rightId": 7 }
     }
   ]
 
@@ -2472,42 +2443,74 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Die Küche", "rightId": 1 },
-      "right": { "word": "The chair", "rightId": 7 }
-
+      "right": { "word": "The lamp", "rightId": 5 }
     },
     {
       "left": { "word": "Das Wohnzimmer", "rightId": 2 },
-      "right": { "word": "The bathroom", "rightId": 9 }
-
+      "right": { "word": "The bedroom", "rightId": 3 }
+      
     },
     {
       "left": { "word": "Das Schlafzimmer", "rightId": 3 },
-      "right": { "word": "The TV", "rightId": 8 }
-      
+      "right": { "word": "The table", "rightId": 4 }
     },
     {
       "left": { "word": "Der Tisch", "rightId": 4 },
-      "right": { "word": "The wall", "rightId": 10 }
-      
+      "right": { "word": "The living room", "rightId": 2 }
     },
     {
       "left": { "word": "Die Lampe", "rightId": 5 },
       "right": { "word": "The kitchen", "rightId": 1 }
 
     },
+   
+  ]
+
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Hund", "rightId": 1 },
+      "right": { "word": "Dog", "rightId": 5 }
+    },
+    {
+      "left": { "word": "Schwester", "rightId": 2 },
+"right": { "word": "Book", "rightId": 4 }
+    },
+    {
+      "left": { "word": "Haus", "rightId": 3 },
+      "right": { "word": "Window", "rightId": 2 }
+    },
+    {
+      "left": { "word": "Buch", "rightId": 4 },
+      "right": { "word": "House", "rightId": 3 }
+    },
+    {
+      "left": { "word": "Fenster", "rightId": 5 },
+      "right": { "word": "Family", "rightId": 1 }
+
+    },
+    
+  ]
+
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Der Teppich", "rightId": 6 },
-      "right": { "word": "The living room", "rightId": 2 }
-      
+      "right": { "word": "The wall", "rightId": 10 }
     },
     {
       "left": { "word": "Der Stuhl", "rightId": 7 },
-      "right": { "word": "The table", "rightId": 4 }
-      
+      "right": { "word": "The bathroom", "rightId": 9 }
     },
     {
       "left": { "word": "Der Fernseher", "rightId": 8 },
-      "right": { "word": "The bedroom", "rightId": 3 }
+      "right": { "word": "The chair", "rightId": 7 }
       
     },
     {
@@ -2517,8 +2520,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Die Wand", "rightId": 10 },
-      "right": { "word": "The lamp", "rightId": 5 }
-      
+      "right": { "word": "The TV", "rightId": 8 }
     }
   ]
 
@@ -2901,53 +2903,49 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Nationalität", "rightId": 1 },
-      "right": { "word": "Doctor", "rightId": 7 }
-
+      "right": { "word": "Teacher", "rightId": 2 }
     },
     {
       "left": { "word": "Lehrer", "rightId": 2 },
-      "right": { "word": "Italian", "rightId": 9 }
-
+      "right": { "word": "Sad", "rightId": 3 }
     },
     {
       "left": { "word": "traurig", "rightId": 3 },
-      "right": { "word": "Happy", "rightId": 8 }
-      
+      "right": { "word": "Doctor", "rightId": 4 }
     },
     {
       "left": { "word": "Ärztin", "rightId": 4 },
-      "right": { "word": "Canadian", "rightId": 10 }
-      
+      "right": { "word": "Spanish", "rightId": 5 }
     },
     {
       "left": { "word": "Spanier", "rightId": 5 },
-      "right": { "word": "English", "rightId": 6 }
-
+      "right": { "word": "German", "rightId": 1 }
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Engländer", "rightId": 6 },
-      "right": { "word": "Spanish", "rightId": 5 }
-      
+      "right": { "word": "Happy", "rightId": 8 }
     },
     {
       "left": { "word": "Arzt", "rightId": 7 },
-      "right": { "word": "German", "rightId": 1 }
-      
+      "right": { "word": "Italian", "rightId": 9 }
     },
     {
       "left": { "word": "Glücklich", "rightId": 8 },
-      "right": { "word": "Sad", "rightId": 3 }
-      
+      "right": { "word": "English", "rightId": 6 }
     },
     {
       "left": { "word": "Italiener", "rightId": 9 },
-      "right": { "word": "Teacher", "rightId": 2 }
-      
+      "right": { "word": "Canadian", "rightId": 10 }
     },
     {
       "left": { "word": "Kanadier", "rightId": 10 },
-      "right": { "word": "Doctor", "rightId": 4 }
-      
+      "right": { "word": "Doctor", "rightId": 7 }
     }
   ]
 },
@@ -2977,9 +2975,15 @@ export const quiz = [
     },
     {
       "left": { "word": "Sunny", "rightId": 5 },
-      "right": { "word": "Kalt", "rightId": 6 }
+      "right": { "word": "Regnerisch", "rightId": 2 }
 
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Cold", "rightId": 6 },
       "right": { "word": "Heiß", "rightId": 7 }
@@ -3002,7 +3006,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Spring", "rightId": 10 },
-      "right": { "word": "Regnerisch", "rightId": 2 }
+      "right": { "word": "Kalt", "rightId": 6 }
       
     }
   ]
@@ -3264,18 +3268,16 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Der Bleistift", "rightId": 1 },
-      "right": { "word": "Thank you", "rightId": 8 }
-
+      "right": { "word": "Window", "rightId": 4 }
+      
     },
     {
       "left": { "word": "Das Heft", "rightId": 2 },
-      "right": { "word": "Good morning", "rightId": 9 }
-
+      "right": { "word": "Student", "rightId": 5 }
     },
     {
       "left": { "word": "Die Lehrerin", "rightId": 3 },
-      "right": { "word": "Please", "rightId": 7 }
-      
+      "right": { "word": "Notebook", "rightId": 2 }
     },
     {
       "left": { "word": "Die Tafel", "rightId": 4 },
@@ -3287,15 +3289,19 @@ export const quiz = [
       "right": { "word": "Pencil", "rightId": 1 }
 
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Die Klasse", "rightId": 6 },
-      "right": { "word": "Student", "rightId": 5 }
-      
+      "right": { "word": "Please", "rightId": 7 }
     },
     {
       "left": { "word": "Bitte", "rightId": 7 },
-      "right": { "word": "Window", "rightId": 4 }
-      
+      "right": { "word": "Good morning", "rightId": 9 }
     },
     {
       "left": { "word": "Danke", "rightId": 8 },
@@ -3304,8 +3310,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Guten Morgen", "rightId": 9 },
-      "right": { "word": "Notebook", "rightId": 2 }
-      
+      "right": { "word": "Thank you", "rightId": 8 }
     },
     {
       "left": { "word": "Entschuldigung", "rightId": 10 },
@@ -3692,18 +3697,15 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Geburtstag", "rightId": 1 },
-      "right": { "word": "School", "rightId": 8 }
-
+      "right": { "word": "Brother", "rightId": 4 }
     },
     {
       "left": { "word": "Löwe", "rightId": 2 },
-      "right": { "word": "Student", "rightId": 9 }
-
+      "right": { "word": "We have", "rightId": 5 }
     },
     {
       "left": { "word": "Schreiben", "rightId": 3 },
-      "right": { "word": "To have", "rightId": 7 }
-      
+      "right": { "word": "Leo", "rightId": 2 }
     },
     {
       "left": { "word": "Bruder", "rightId": 4 },
@@ -3715,14 +3717,21 @@ export const quiz = [
       "right": { "word": "Birthday", "rightId": 1 }
 
     },
+   
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Mutter", "rightId": 6 },
-      "right": { "word": "We have", "rightId": 5 }
+      "right": { "word": "School", "rightId": 8 }
       
     },
     {
       "left": { "word": "Sprechen", "rightId": 7 },
-      "right": { "word": "Brother", "rightId": 4 }
+      "right": { "word": "Student", "rightId": 9 }
       
     },
     {
@@ -3732,7 +3741,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Schüler", "rightId": 9 },
-      "right": { "word": "Leo", "rightId": 2 }
+      "right": { "word": "To have", "rightId": 7 }
       
     },
     {
@@ -3742,62 +3751,6 @@ export const quiz = [
     }
   ]
 },
-{
-  "question": "Ordne die Singular- und Pluralwörter zu.",
-  "type": "MatchTheFollowing",
-"pairs": [
-    {
-      "left": { "word": "Musik hören", "rightId": 1 },
-      "right": { "word": "Travel", "rightId": 6 }
-
-    },
-    {
-      "left": { "word": "Joggen", "rightId": 2 },
-      "right": { "word": "To swim", "rightId": 5 }
-
-    },
-    {
-      "left": { "word": "Filme sehen", "rightId": 3 },
-      "right": { "word": "Read books", "rightId": 10 }
-      
-    },
-    {
-      "left": { "word": "Klavier spielen", "rightId": 4 },
-      "right": { "word": "Watch films", "rightId": 3 }
-      
-    },
-    {
-      "left": { "word": "Schwimmen", "rightId": 5 },
-      "right": { "word": "Listen to music", "rightId": 1 }
-
-    },
-    {
-      "left": { "word": "Reisen", "rightId": 6 },
-      "right": { "word": "Jog", "rightId": 2 }
-      
-    },
-    {
-      "left": { "word": "Spazieren gehen", "rightId": 7 },
-      "right": { "word": "Play the piano", "rightId": 4 }
-      
-    },
-    {
-      "left": { "word": "In den Bergen wandern", "rightId": 8 },
-      "right": { "word": "Play football", "rightId": 9 }
-      
-    },
-    {
-      "left": { "word": "Fußball spielen", "rightId": 9 },
-      "right": { "word": "Hiking in the mountains", "rightId": 8 }
-      
-    },
-    {
-      "left": { "word": "Bücher lesen", "rightId": 10 },
-      "right": { "word": "Go for a stroll", "rightId": 7 }
-      
-    }
-  ]
-}
     ]
   },
   {
@@ -4084,6 +4037,12 @@ export const quiz = [
       "right": { "word": "She is always friendly.", "rightId": 3 }
 
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Ich lese manchmal Bücher.", "rightId": 6 },
       "right": { "word": "We are going to Berlin soon.", "rightId": 10 }
@@ -4368,8 +4327,7 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Ich mag Pizza.", "rightId": 1 },
-      "right": { "word": "He prefers tea.", "rightId": 7 }
-
+      "right": { "word": "He loves music.", "rightId": 4 }
     },
     {
       "left": { "word": "Wir mögen Fußball spielen.", "rightId": 2 },
@@ -4378,8 +4336,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Sie mag Schokolade nicht.", "rightId": 3 },
-      "right": { "word": "You love traveling.", "rightId": 8 }
-      
+      "right": { "word": "I like pizza.", "rightId": 1 }
     },
     {
       "left": { "word": "Er liebt Musik.", "rightId": 4 },
@@ -4391,6 +4348,12 @@ export const quiz = [
       "right": { "word": "She doesn’t like chocolate.", "rightId": 3 }
 
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Sie mögen den Winter nicht.", "rightId": 6 },
       "right": { "word": "We prefer eating pasta.", "rightId": 10 }
@@ -4408,13 +4371,11 @@ export const quiz = [
     },
     {
       "left": { "word": "Ich mag nicht schwimmen.", "rightId": 9 },
-      "right": { "word": "He loves music.", "rightId": 4 }
-      
+      "right": { "word": "He prefers tea.", "rightId": 7 }
     },
     {
       "left": { "word": "Wir essen lieber Pasta.", "rightId": 10 },
-      "right": { "word": "I like pizza.", "rightId": 1 }
-      
+      "right": { "word": "You love traveling.", "rightId": 8 }
     }
   ]
 }
@@ -4685,12 +4646,11 @@ export const quiz = [
     },
     {
       "left": { "word": "Ich suche das Restaurant.", "rightId": 3 },
-      "right": { "word": "It is across from the supermarket.", "rightId": 10 }
-      
+      "right": { "word": "Where is the post office?", "rightId": 1 }
     },
     {
       "left": { "word": "Biegen Sie an der Ampel links ab.", "rightId": 4 },
-      "right": { "word": "We like playing football.", "rightId": 7 }
+      "right": { "word": "Turn left at the traffic light.", "rightId": 4 }
       
     },
     {
@@ -4698,6 +4658,12 @@ export const quiz = [
       "right": { "word": "I am looking for the restaurant.", "rightId": 3 }
 
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Es ist neben der Bank.", "rightId": 6 },
       "right": { "word": "How do I get to the train station?", "rightId": 8 }
@@ -4705,13 +4671,11 @@ export const quiz = [
     },
     {
       "left": { "word": "Wie komme ich zum Bahnhof?", "rightId": 7 },
-      "right": { "word": "Where is the post office?", "rightId": 1 }
-      
+      "right": { "word": "It is across from the supermarket.", "rightId": 10 }
     },
     {
       "left": { "word": "Biegen Sie an der nächsten Ecke rechts ab.", "rightId": 8 },
-      "right": { "word": "Turn left at the traffic light.", "rightId": 4 }
-      
+      "right": { "word": "We like playing football.", "rightId": 7 }
     },
     {
       "left": { "word": "Gehen Sie zum Park.", "rightId": 9 },
@@ -5092,19 +5056,23 @@ export const quiz = [
     },
     {
       "left": { "word": "Ich möchte den Termin ändern.", "rightId": 3 },
-      "right": { "word": "The appointment works well.", "rightId": 10 }
-      
+      "right": { "word": "Can I make an appointment?", "rightId": 1 }
     },
     {
       "left": { "word": "Ich habe einen Termin um 14 Uhr.", "rightId": 4 },
-      "right": { "word": "Should we meet at 10 o'clock?", "rightId": 7 }
-      
+      "right": { "word": "I have an appointment at 2 PM.", "rightId": 4 }
     },
     {
       "left": { "word": "Haben Sie morgen Zeit?", "rightId": 5 },
       "right": { "word": "I would like to change the appointment.", "rightId": 3 }
 
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Können wir das Meeting verschieben?", "rightId": 6 },
       "right": { "word": "Does Friday work for you?", "rightId": 8 }
@@ -5112,13 +5080,11 @@ export const quiz = [
     },
     {
       "left": { "word": "Sollen wir uns um 10 Uhr treffen?", "rightId": 7 },
-      "right": { "word": "Can I make an appointment?", "rightId": 1 }
-      
+      "right": { "word": "The appointment works well.", "rightId": 10 }
     },
     {
       "left": { "word": "Passt Ihnen der Freitag?", "rightId": 8 },
-      "right": { "word": "I have an appointment at 2 PM.", "rightId": 4 }
-      
+      "right": { "word": "Should we meet at 10 o'clock?", "rightId": 7 }
     },
     {
       "left": { "word": "Ich schicke Ihnen eine E-Mail.", "rightId": 9 },
@@ -5439,8 +5405,7 @@ export const quiz = [
 "pairs": [
     {
       "left": { "word": "Ich habe ein Buch gelesen.", "rightId": 1 },
-      "right": { "word": "He has done his homework.", "rightId": 7 }
-
+      "right": { "word": "We have gone to the park.", "rightId": 3 }
     },
     {
       "left": { "word": "Er hat Fußball gespielt.", "rightId": 2 },
@@ -5454,14 +5419,18 @@ export const quiz = [
     },
     {
       "left": { "word": "Sie hat ihre Freundin besucht.", "rightId": 4 },
-      "right": { "word": "I have cooked dinner.", "rightId": 6 }
-      
+      "right": { "word": "He has played football.", "rightId": 2 }
     },
     {
       "left": { "word": "Wir haben einen Film geschaut.", "rightId": 5 },
-      "right": { "word": "I have come home late.", "rightId": 9 }
-
+      "right": { "word": "I have read a book.", "rightId": 1 }
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Ich habe das Abendessen gekocht.", "rightId": 6 },
       "right": { "word": "Does Friday work for you?", "rightId": 8 }
@@ -5474,18 +5443,15 @@ export const quiz = [
     },
     {
       "left": { "word": "Sie haben das Haus geputzt.", "rightId": 8 },
-      "right": { "word": "I have read a book.", "rightId": 1 }
-      
+      "right": { "word": "He has done his homework.", "rightId": 7 }
     },
     {
       "left": { "word": "Ich bin spät nach Hause gekommen.", "rightId": 9 },
-      "right": { "word": "He has played football.", "rightId": 2 }
-      
+      "right": { "word": "I have come home late.", "rightId": 9 }
     },
     {
       "left": { "word": "Sie ist nach Berlin geflogen.", "rightId": 10 },
-      "right": { "word": "We have gone to the park.", "rightId": 3 }
-      
+      "right": { "word": "I have cooked dinner.", "rightId": 6 }
     }
   ]
 }
@@ -5578,6 +5544,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 4
       },
+      {
+        "question": "What does the sentence 'Wir werden bald umziehen' mean?",
+        "choices": [
+          "We moved soon.",
+          "We are moving soon.",
+          "We will move soon.",
+          "We had moved soon."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which sentence correctly uses the future tense?",
+        "choices": [
+          "Ich werde morgen das Buch lese.",
+          "Ich werde das Buch morgen lesen.",
+          "Ich das Buch werde morgen lesen.",
+          "Ich werde lesen das Buch morgen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct conjugation of 'werden' for 'du'?",
+        "choices": [
+          "wirst",
+          "werde",
+          "werden",
+          "wird"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is NOT a future time expression?",
+        "choices": [
+          "nächste Woche",
+          "gestern",
+          "in zwei Monaten",
+          "bald"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Sie wird nächstes Jahr nach Deutschland reisen' mean?",
+        "choices": [
+          "She traveled to Germany next year.",
+          "She will travel to Germany next year.",
+          "She is traveling to Germany next year.",
+          "She had traveled to Germany next year."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I will study more next year' in German?",
+        "choices": [
+          "Ich werde mehr nächstes Jahr studieren.",
+          "Ich werde nächstes Jahr mehr studieren.",
+          "Ich nächstes Jahr werde mehr studieren.",
+          "Ich mehr nächstes Jahr werde studieren."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which verb form should be in the blank? 'Ihr ______ morgen eine Prüfung schreiben.'",
+        "choices": [
+          "werde",
+          "wird",
+          "werdet",
+          "werden"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'Ich werde eine neue Sprache lernen' mean?",
+        "choices": [
+          "I have learned a new language.",
+          "I will learn a new language.",
+          "I learn a new language.",
+          "I had learned a new language."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which form of 'werden' fits in the sentence? 'Meine Eltern ______ bald ein neues Auto kaufen.'",
+        "choices": [
+          "werde",
+          "wirst",
+          "wird",
+          "werden"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "How do you correctly form a question in the future tense?",
+        "choices": [
+          "Wirst du morgen ins Kino gehen?",
+          "Morgen wirst du ins Kino gehen?",
+          "Gehst du wirst morgen ins Kino?",
+          "Kino wirst du morgen gehen?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       // 20 Fill in the Blanks
       {
@@ -5641,13 +5717,73 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "Ich ______ (werden) bald ein neues Hobby ausprobieren.",
+        "choices": ["werde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ (werden) nächsten Sommer nach Italien reisen.",
+        "choices": ["wirst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (werden) in zwei Tagen umziehen.",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Eltern ______ (werden) ein neues Haus bauen.",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ______ (werden) bald eine große Prüfung schreiben.",
+        "choices": ["werdet"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ (werden) seine Freunde nächste Woche besuchen.",
+        "choices": ["wird"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ______ (werden) in der Zukunft als Ärztin arbeiten.",
+        "choices": ["wird"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Schwester ______ (werden) eine Katze adoptieren.",
+        "choices": ["wird"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mein Freund ______ (werden) bald ein neues Handy kaufen.",
+        "choices": ["wird"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (werden) nächsten Monat einen Deutschkurs machen.",
+        "choices": ["werde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
   "question": "Ordne die Singular- und Pluralwörter zu.",
   "type": "MatchTheFollowing",
 "pairs": [
     {
       "left": { "word": "Ich werde morgen arbeiten.", "rightId": 1 },
-      "right": { "word": "They will buy a house.", "rightId": 7 }
-
+      "right": { "word": "He will become a teacher.", "rightId": 2 }
+      
     },
     {
       "left": { "word": "Er wird Lehrer werden.", "rightId": 2 },
@@ -5661,14 +5797,18 @@ export const quiz = [
     },
     {
       "left": { "word": "Sie wird nach Berlin fahren.", "rightId": 4 },
-      "right": { "word": "We will go to the park.", "rightId": 6 }
-      
+      "right": { "word": "I will work tomorrow.", "rightId": 1 }
     },
     {
       "left": { "word": "Ich werde einen Kaffee trinken.", "rightId": 5 },
-      "right": { "word": "He will buy a car.", "rightId": 9 }
-
+      "right": { "word": "We will visit our friends.", "rightId": 3 }
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Wir werden in den Park gehen.", "rightId": 6 },
       "right": { "word": "Will you go to the cinema?", "rightId": 8 }
@@ -5681,18 +5821,15 @@ export const quiz = [
     },
     {
       "left": { "word": "Wirst du ins Kino gehen?", "rightId": 8 },
-      "right": { "word": "I will work tomorrow.", "rightId": 1 }
-      
+      "right": { "word": "He will buy a car.", "rightId": 9 }
     },
     {
       "left": { "word": "Er wird ein Auto kaufen.", "rightId": 9 },
-      "right": { "word": "He will become a teacher.", "rightId": 2 }
-      
+      "right": { "word": "They will buy a house.", "rightId": 7 }
     },
     {
       "left": { "word": "Ich werde kochen.", "rightId": 10 },
-      "right": { "word": "We will visit our friends.", "rightId": 3 }
-      
+      "right": { "word": "We will go to the park.", "rightId": 6 }
     }
   ]
 }
@@ -5765,6 +5902,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "What is the name of the German festival where children receive a cone filled with sweets and school supplies?",
+        "choices": [
+          "Karneval",
+          "Schultüte",
+          "Silvester",
+          "Nikolaustag"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which city is famous for its historic Christmas market, Christkindlesmarkt?",
+        "choices": [
+          "Cologne",
+          "Nuremberg",
+          "Dresden",
+          "Berlin"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the traditional German dish made of fermented cabbage called?",
+        "choices": [
+          "Bratwurst",
+          "Pretzel",
+          "Sauerkraut",
+          "Kartoffelsalat"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "On which date do Germans celebrate Nikolaustag (St. Nicholas Day)?",
+        "choices": [
+          "December 24th",
+          "December 6th",
+          "January 1st",
+          "November 11th"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the name of the German tradition where a wooden maypole is decorated and danced around in May?",
+        "choices": [
+          "Fasching",
+          "Weihnachtsmarkt",
+          "Maibaumfest",
+          "Erntedankfest"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the traditional German meat dish made from marinated beef called?",
+        "choices": [
+          "Rouladen",
+          "Sauerbraten",
+          "Schnitzel",
+          "Bratwurst"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "In which month does the famous Oktoberfest actually begin?",
+        "choices": [
+          "September",
+          "October",
+          "November",
+          "August"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the name of the German cake made with apples and often served with whipped cream?",
+        "choices": [
+          "Schwarzwälder Kirschtorte",
+          "Apfelstrudel",
+          "Lebkuchen",
+          "Stollen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What type of beverage is Apfelschorle?",
+        "choices": [
+          "Apple juice with sparkling water",
+          "Apple-flavored beer",
+          "Apple milkshake",
+          "Apple wine"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What do Germans traditionally do at midnight on New Year's Eve (Silvester)?",
+        "choices": [
+          "Sing Christmas carols",
+          "Watch fireworks",
+          "Exchange gifts",
+          "Eat gingerbread"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
 
       // 20 Fill in the Blanks
       {
@@ -5828,6 +6075,94 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "The German festival of lights celebrated with lantern processions in November is called ______.",
+        "choices": ["St. Martin’s Day"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Germans commonly greet each other with a handshake and say ______, which means 'hello.'",
+        "choices": ["Guten Tag"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The fairy tales collected by the Brothers ______, such as Cinderella and Hansel & Gretel, are famous worldwide.",
+        "choices": ["Grimm"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A popular German sausage often eaten with mustard is called ______.",
+        "choices": ["Bratwurst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The traditional German Christmas Eve dinner often includes ______, a type of fish.",
+        "choices": ["Carp"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Germans bake a special Easter bread called ______, which is often shaped like a lamb.",
+        "choices": ["Osterbrot"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The German word for 'cheers' when drinking beer is ______.",
+        "choices": ["Prost"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The Autobahn in Germany is famous for having sections without a ______ limit.",
+        "choices": ["Speed"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "On December 31st, Germans celebrate the holiday called ______ to welcome the New Year.",
+        "choices": ["Silvester"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The German tradition of watching the British comedy sketch ______ on New Year’s Eve is very popular.",
+        "choices": ["Dinner for One"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
+    {
+      "left": { "word": "Die deutsche Sprache", "rightId": 6 },
+      "right": { "word": "Carnival", "rightId": 8 }
+      
+    },
+    {
+      "left": { "word": "Die Schwarzwälder Kirschtorte", "rightId": 7 },
+      "right": { "word": "Classical music", "rightId": 10 }
+      
+    },
+    {
+      "left": { "word": "Der Karneval", "rightId": 8 },
+      "right": { "word": "Black Forest cake", "rightId": 7 }
+    },
+    {
+      "left": { "word": "Das Brot", "rightId": 9 },
+      "right": { "word": "German language", "rightId": 6 }
+    },
+    {
+      "left": { "word": "Die klassische Musik", "rightId": 10 },
+      "right": { "word": "German bread", "rightId": 9 }
+    }
+  ]
+},
+{
   "question": "Ordne die Singular- und Pluralwörter zu.",
   "type": "MatchTheFollowing",
 "pairs": [
@@ -5843,44 +6178,16 @@ export const quiz = [
     },
     {
       "left": { "word": "Der Tag der Deutschen Einheit", "rightId": 3 },
-      "right": { "word": "Black Forest cake", "rightId": 7 }
-      
+      "right": { "word": "Traditional clothing", "rightId": 2 }
     },
     {
       "left": { "word": "Die Brezel", "rightId": 4 },
-      "right": { "word": "German language", "rightId": 6 }
-      
+      "right": { "word": "Oktoberfest", "rightId": 1 }
     },
     {
       "left": { "word": "Der Weihnachtsmarkt", "rightId": 5 },
-      "right": { "word": "German bread", "rightId": 9 }
-
-    },
-    {
-      "left": { "word": "Die deutsche Sprache", "rightId": 6 },
-      "right": { "word": "Carnival", "rightId": 8 }
-      
-    },
-    {
-      "left": { "word": "Die Schwarzwälder Kirschtorte", "rightId": 7 },
-      "right": { "word": "Classical music", "rightId": 10 }
-      
-    },
-    {
-      "left": { "word": "Der Karneval", "rightId": 8 },
       "right": { "word": "German Unity Day", "rightId": 3 }
-      
     },
-    {
-      "left": { "word": "Das Brot", "rightId": 9 },
-      "right": { "word": "Traditional clothing", "rightId": 2 }
-      
-    },
-    {
-      "left": { "word": "Die klassische Musik", "rightId": 10 },
-      "right": { "word": "Oktoberfest", "rightId": 1 }
-      
-    }
   ]
 }
     ]
@@ -5952,6 +6259,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "Which of the following pronouns is used for formal speech?",
+        "choices": [
+          "du",
+          "Sie",
+          "ihr",
+          "er"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "In which situation would you use informal speech?",
+        "choices": [
+          "Talking to a customer",
+          "Talking to your grandmother",
+          "Talking to a police officer",
+          "Talking to your professor"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct informal version of 'Where do you live?'?",
+        "choices": [
+          "Wo wohnen Sie?",
+          "Wo wohnst du?",
+          "Wo wohnen ihr?",
+          "Wo wohnen du?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following is a polite way to address a stranger?",
+        "choices": [
+          "Hallo, du!",
+          "Hey, was machst du?",
+          "Entschuldigung, können Sie mir helfen?",
+          "Na, wie geht's?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the appropriate informal greeting among friends?",
+        "choices": [
+          "Guten Morgen",
+          "Hallo",
+          "Sehr geehrte Damen und Herren",
+          "Auf Wiedersehen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you formally ask 'May I help you?' in German?",
+        "choices": [
+          "Darf ich Ihnen helfen?",
+          "Darf ich dir helfen?",
+          "Darf ich euch helfen?",
+          "Kann ich helfen?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In an email to a professor, which salutation is appropriate?",
+        "choices": [
+          "Lieber Hans",
+          "Hallo Leute",
+          "Sehr geehrter Herr Schmidt",
+          "Hi Herr Schmidt"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which sentence is informal?",
+        "choices": [
+          "Wie heißen Sie?",
+          "Wie heißt du?",
+          "Haben Sie einen Moment?",
+          "Könnten Sie mir bitte helfen?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "If you are speaking to a group of friends, which pronoun would you use?",
+        "choices": [
+          "Sie",
+          "Ihr",
+          "Er",
+          "Ich"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is an informal way to say 'Please' in German?",
+        "choices": [
+          "Bitte schön",
+          "Sei so nett",
+          "Könnten Sie bitte",
+          "Bitte"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
 
       // 20 Fill in the Blanks
       {
@@ -6015,6 +6432,66 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "The pronoun used in formal speech is ______.",
+        "choices": ["Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The informal version of 'Excuse me' is ______.",
+        "choices": ["Entschuldige"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The phrase 'Goodbye' in a formal setting is ______.",
+        "choices": ["Auf Wiedersehen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The verb form for 'du' in 'you have' is ______.",
+        "choices": ["hast"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The informal way to ask 'How are you?' is 'Wie geht es ______?'",
+        "choices": ["dir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When addressing multiple people informally, the correct pronoun is ______.",
+        "choices": ["ihr"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The polite way to say 'Can you help me?' formally is 'Können ______ mir helfen?'",
+        "choices": ["Sie"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In a formal business email, you should start with 'Sehr ______ Damen und Herren'.",
+        "choices": ["geehrte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The phrase 'See you soon' in informal speech is 'Bis ______'.",
+        "choices": ["bald"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The correct verb conjugation for 'Sie sind' in informal speech is 'du ______'.",
+        "choices": ["bist"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
   "question": "Ordne die Singular- und Pluralwörter zu.",
   "type": "MatchTheFollowing",
 "pairs": [
@@ -6030,19 +6507,22 @@ export const quiz = [
     },
     {
       "left": { "word": "Wie geht’s?", "rightId": 3 },
-      "right": { "word": "May I help you? (formal)", "rightId": 9 }
-      
+      "right": { "word": "My name is Mrs. Müller.", "rightId": 4 }
     },
     {
       "left": { "word": "Ich heiße Frau Müller.", "rightId": 4 },
-      "right": { "word": "Goodbye (formal)", "rightId": 6 }
-      
+      "right": { "word": "How are you? (formal)", "rightId": 2 }
     },
     {
       "left": { "word": "Tschüss", "rightId": 5 },
-      "right": { "word": "Excuse me (formal)", "rightId": 7 }
-
+      "right": { "word": "How’s it going?", "rightId": 3 }
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Auf Wiedersehen", "rightId": 6 },
       "right": { "word": "Sorry", "rightId": 8 }
@@ -6050,13 +6530,11 @@ export const quiz = [
     },
     {
       "left": { "word": "Entschuldigen Sie", "rightId": 7 },
-      "right": { "word": "How are you? (formal)", "rightId": 2 }
-      
+      "right": { "word": "Goodbye (formal)", "rightId": 6 }
     },
     {
       "left": { "word": "Entschuldigung", "rightId": 8 },
-      "right": { "word": "How’s it going?", "rightId": 3 }
-      
+      "right": { "word": "Excuse me (formal)", "rightId": 7 }
     },
     {
       "left": { "word": "Darf ich Ihnen helfen?", "rightId": 9 },
@@ -6065,8 +6543,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Kann ich dir helfen?", "rightId": 10 },
-      "right": { "word": "My name is Mrs. Müller.", "rightId": 4 }
-      
+      "right": { "word": "May I help you? (formal)", "rightId": 9 }
     }
   ]
 }
@@ -6139,6 +6616,226 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "What is the informal way to answer a phone call in German?",
+        "choices": [
+          "Guten Tag",
+          "Hallo",
+          "Auf Wiederhören",
+          "Entschuldigung"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you ask, 'Who is speaking, please?' in German?",
+        "choices": [
+          "Wer spricht da, bitte?",
+          "Wo ist dein Name?",
+          "Kann ich deinen Namen wissen?",
+          "Wer bist du?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Ich kann Sie schlecht hören' mean?",
+        "choices": [
+          "I can hear you well.",
+          "I cannot hear you well.",
+          "I do not want to talk.",
+          "I do not understand you."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase would you use to say 'I’ll call you later'?",
+        "choices": [
+          "Ich rufe später an.",
+          "Ich telefoniere nie.",
+          "Ich warte auf deinen Anruf.",
+          "Ich melde mich morgen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What phrase means 'The line is busy'?",
+        "choices": [
+          "Die Nummer ist falsch.",
+          "Die Leitung ist besetzt.",
+          "Das Handy ist kaputt.",
+          "Es gibt kein Signal."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say, 'Can I leave a message?' in German?",
+        "choices": [
+          "Kann ich eine Nachricht schicken?",
+          "Kann ich eine Nachricht hinterlassen?",
+          "Kann ich eine E-Mail senden?",
+          "Kann ich einen Brief schreiben?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Bleiben Sie dran' mean?",
+        "choices": [
+          "Hang up the call.",
+          "Hold the line.",
+          "Call me later.",
+          "Speak louder."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you ask, 'What time should I call back?' in German?",
+        "choices": [
+          "Wann soll ich zurückrufen?",
+          "Wie spät ist es?",
+          "Kann ich später anrufen?",
+          "Wann rufst du mich an?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is commonly used to check if someone is available?",
+        "choices": [
+          "Können Sie bitte helfen?",
+          "Ist Herr Schmidt da?",
+          "Wer ist am Telefon?",
+          "Ist das deine Nummer?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Die Verbindung ist schlecht' mean?",
+        "choices": [
+          "The call was too long.",
+          "The connection is bad.",
+          "The phone is switched off.",
+          "The network is good."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the informal way to answer a phone call in German?",
+        "choices": [
+          "Guten Tag",
+          "Hallo",
+          "Auf Wiederhören",
+          "Entschuldigung"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you ask, 'Who is speaking, please?' in German?",
+        "choices": [
+          "Wer spricht da, bitte?",
+          "Wo ist dein Name?",
+          "Kann ich deinen Namen wissen?",
+          "Wer bist du?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Ich kann Sie schlecht hören' mean?",
+        "choices": [
+          "I can hear you well.",
+          "I cannot hear you well.",
+          "I do not want to talk.",
+          "I do not understand you."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase would you use to say 'I’ll call you later'?",
+        "choices": [
+          "Ich rufe später an.",
+          "Ich telefoniere nie.",
+          "Ich warte auf deinen Anruf.",
+          "Ich melde mich morgen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What phrase means 'The line is busy'?",
+        "choices": [
+          "Die Nummer ist falsch.",
+          "Die Leitung ist besetzt.",
+          "Das Handy ist kaputt.",
+          "Es gibt kein Signal."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say, 'Can I leave a message?' in German?",
+        "choices": [
+          "Kann ich eine Nachricht schicken?",
+          "Kann ich eine Nachricht hinterlassen?",
+          "Kann ich eine E-Mail senden?",
+          "Kann ich einen Brief schreiben?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Bleiben Sie dran' mean?",
+        "choices": [
+          "Hang up the call.",
+          "Hold the line.",
+          "Call me later.",
+          "Speak louder."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you ask, 'What time should I call back?' in German?",
+        "choices": [
+          "Wann soll ich zurückrufen?",
+          "Wie spät ist es?",
+          "Kann ich später anrufen?",
+          "Wann rufst du mich an?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase is commonly used to check if someone is available?",
+        "choices": [
+          "Können Sie bitte helfen?",
+          "Ist Herr Schmidt da?",
+          "Wer ist am Telefon?",
+          "Ist das deine Nummer?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'Die Verbindung ist schlecht' mean?",
+        "choices": [
+          "The call was too long.",
+          "The connection is bad.",
+          "The phone is switched off.",
+          "The network is good."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
 
       // 20 Fill in the Blanks
       {
@@ -6202,6 +6899,66 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "If you can’t hear someone well, you say: Ich kann Sie ______ hören.",
+        "choices": ["schlecht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When you introduce yourself on the phone, you say: Hallo, mein ______ ist [your name].",
+        "choices": ["[Name]"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If you need to ask someone to wait a moment, you say: Bitte ______ Sie einen Moment.",
+        "choices": ["warten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The formal phrase for saying goodbye on the phone is Auf ______.",
+        "choices": ["Wiederhören"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If you want to call a friend later, you say: Ich ______ dich später an.",
+        "choices": ["rufe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When you want to confirm a phone number, you ask: Ist Ihre Nummer ______?",
+        "choices": ["richtig"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If you want to leave a message, you say: Ich möchte eine ______ hinterlassen.",
+        "choices": ["Nachricht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To say 'Sorry, I dialed the wrong number', you say: Entschuldigung, ich habe die falsche ______ gewählt.",
+        "choices": ["Nummer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "If the call is not clear, you say: Die ______ ist schlecht.",
+        "choices": ["Verbindung"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When you ask if someone can repeat something, you say: Können Sie das bitte noch einmal ______?",
+        "choices": ["wiederholen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
   "question": "Ordne die Singular- und Pluralwörter zu.",
   "type": "MatchTheFollowing",
 "pairs": [
@@ -6217,19 +6974,22 @@ export const quiz = [
     },
     {
       "left": { "word": "Einen Moment, bitte.", "rightId": 3 },
-      "right": { "word": "I can’t hear you well.", "rightId": 9 }
-      
+      "right": { "word": "I’ll call back later.", "rightId": 4 }
     },
     {
       "left": { "word": "Ich rufe später zurück.", "rightId": 4 },
-      "right": { "word": "Please hold on.", "rightId": 6 }
-      
+      "right": { "word": "One moment, please.", "rightId": 3 }
     },
     {
       "left": { "word": "Entschuldigung, falsche Nummer.", "rightId": 5 },
-      "right": { "word": "Would you like to leave a message?", "rightId": 7 }
-
+      "right": { "word": "Can I speak to Mr. Müller, please?", "rightId": 2 }
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Bleiben Sie dran, bitte.", "rightId": 6 },
       "right": { "word": "Could you please repeat that?", "rightId": 8 }
@@ -6237,13 +6997,11 @@ export const quiz = [
     },
     {
       "left": { "word": "Möchten Sie eine Nachricht hinterlassen?", "rightId": 7 },
-      "right": { "word": "Can I speak to Mr. Müller, please?", "rightId": 2 }
-      
+      "right": { "word": "Please hold on.", "rightId": 6 }
     },
     {
       "left": { "word": "Können Sie das bitte wiederholen?", "rightId": 8 },
-      "right": { "word": "One moment, please.", "rightId": 3 }
-      
+      "right": { "word": "Would you like to leave a message?", "rightId": 7 }
     },
     {
       "left": { "word": "Ich höre Sie schlecht.", "rightId": 9 },
@@ -6252,8 +7010,7 @@ export const quiz = [
     },
     {
       "left": { "word": "Vielen Dank für den Anruf.", "rightId": 10 },
-      "right": { "word": "I’ll call back later.", "rightId": 4 }
-      
+      "right": { "word": "I can’t hear you well.", "rightId": 9 }
     }
   ]
 }
@@ -6326,6 +7083,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "Which phrase is the most formal way to apologize in a letter?",
+        "choices": [
+          "Es tut mir leid",
+          "Entschuldigung",
+          "Ich entschuldige mich für…",
+          "Sorry"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the appropriate way to politely request a response?",
+        "choices": [
+          "Bitte schreiben Sie mir bald zurück.",
+          "Schreib mir bitte schnell zurück.",
+          "Ich hoffe, Sie antworten sofort.",
+          "Kannst du mir schnell schreiben?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "In a formal email, how do you express gratitude at the end?",
+        "choices": [
+          "Danke schön",
+          "Mit freundlichen Grüßen",
+          "Vielen Dank für Ihre Hilfe.",
+          "Bis bald"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the best way to formally introduce yourself in an email?",
+        "choices": [
+          "Ich bin Max und ich schreibe dir…",
+          "Mein Name ist Max Müller und ich schreibe Ihnen…",
+          "Hallo, ich heiße Max und wollte sagen…",
+          "Hey, ich bin Max."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you politely remind someone of an agreement in formal writing?",
+        "choices": [
+          "Sie haben mir gesagt…",
+          "Wie besprochen, möchte ich erinnern…",
+          "Ich erinnere Sie höflich daran, dass…",
+          "Du hast gesagt, dass…"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you formally ask if a meeting time is suitable?",
+        "choices": [
+          "Passt dir die Zeit?",
+          "Ist die Zeit für Sie in Ordnung?",
+          "Treffen wir uns um 10 Uhr?",
+          "Lass uns um 10 treffen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase is the most formal way to express an urgent request?",
+        "choices": [
+          "Bitte schnell machen",
+          "Es wäre dringend",
+          "Ich wäre Ihnen sehr dankbar, wenn Sie dies umgehend erledigen könnten.",
+          "Können Sie das sofort tun?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you formally state that you have attached a document?",
+        "choices": [
+          "Hier ist das Dokument.",
+          "Ich habe das Dokument angehängt.",
+          "Im Anhang finden Sie das Dokument.",
+          "Schau dir bitte das Dokument an."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you politely decline an offer in formal writing?",
+        "choices": [
+          "Nein, das geht nicht.",
+          "Ich kann nicht, sorry.",
+          "Leider muss ich Ihr Angebot ablehnen.",
+          "Vielleicht ein anderes Mal."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct way to request an alternative appointment in a formal email?",
+        "choices": [
+          "Können wir einen anderen Termin haben?",
+          "Hast du eine andere Zeit?",
+          "Wäre es möglich, einen alternativen Termin zu vereinbaren?",
+          "Ich kann dann nicht, geht es später?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
 
       // 20 Fill in the Blanks
       {
@@ -6389,13 +7256,72 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
+        "question": "A formal letter starts with ______.",
+        "choices": ["Sehr"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A polite way to ask for confirmation is ______.",
+        "choices": ["Bestätigen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To request a document, you write ______.",
+        "choices": ["Senden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A formal apology starts with ______.",
+        "choices": ["Entschuldige"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To thank someone formally, you say ______.",
+        "choices": ["Danke"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When referring to a past conversation, write ______.",
+        "choices": ["Bezugnehmend"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "To remind someone politely, write ______.",
+        "choices": ["Erinnere"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "The phrase for 'Do not hesitate to ask' is ______.",
+        "choices": ["Zögern"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A polite way to expect a reply is ______.",
+        "choices": ["Freue"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "When closing formally, write ______.",
+        "choices": ["Grüßen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
   "question": "Ordne die Singular- und Pluralwörter zu.",
   "type": "MatchTheFollowing",
 "pairs": [
     {
       "left": { "word": "Sehr geehrte Damen und Herren", "rightId": 1 },
-      "right": { "word": "Sorry, wrong number.", "rightId": 9 }
-
+      "right": { "word": "I hope you are well", "rightId": 3 }
     },
     {
       "left": { "word": "Mit freundlichen Grüßen", "rightId": 2 },
@@ -6409,14 +7335,18 @@ export const quiz = [
     },
     {
       "left": { "word": "Vielen Dank für Ihre Nachricht", "rightId": 4 },
-      "right": { "word": "Please hold on.", "rightId": 8 }
-      
+      "right": { "word": "Thank you for your message", "rightId": 4 }
     },
     {
       "left": { "word": "Könnten Sie mir bitte sagen, ob...", "rightId": 5 },
-      "right": { "word": "Would you ", "rightId": 7 }
-
+      "right": { "word": "Sincerely", "rightId": 2 }
     },
+  ]
+},
+{
+  "question": "Ordne die Singular- und Pluralwörter zu.",
+  "type": "MatchTheFollowing",
+"pairs": [
     {
       "left": { "word": "Liebe Grüße", "rightId": 6 },
       "right": { "word": "Best regards", "rightId": 6 }
@@ -6429,18 +7359,15 @@ export const quiz = [
     },
     {
       "left": { "word": "Vielen Dank im Voraus", "rightId": 8 },
-      "right": { "word": "I hope you are well", "rightId": 3 }
-      
+      "right": { "word": "Would you ", "rightId": 7 }
     },
     {
       "left": { "word": "Bitte lassen Sie mich wissen, wenn...", "rightId": 9 },
-      "right": { "word": "Sincerely", "rightId": 2 }
-      
+      "right": { "word": "Please hold on.", "rightId": 8 }
     },
     {
       "left": { "word": "Ich freue mich auf Ihre Antwort", "rightId": 10 },
-      "right": { "word": "Thank you for your message", "rightId": 4 }
-      
+      "right": { "word": "Sorry, wrong number.", "rightId": 9 }
     }
   ]
 }

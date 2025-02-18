@@ -779,7 +779,7 @@ export const quiz = [
       },
       {
         "question": "What is \"eighty\" in French?",
-        "choices": ["quinze", "cinq", "soixante", "trois"],
+        "choices": ["quinze", "quatre-vingts", "soixante", "trois"],
         "type": "MCQs",
         "correctAnswer": 2
       },
@@ -1762,8 +1762,8 @@ export const quiz = [
         "correctAnswer": 1
       },
       {
-        "question": "Complete the sentence: ______ la salade est délicieuse. (The salad is delicious.)",
-        "choices": ["de"],
+        "question": "Complete the sentence: ______ salade est délicieuse. (The salad is delicious.)",
+        "choices": ["la"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
