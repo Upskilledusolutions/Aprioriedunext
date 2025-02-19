@@ -1848,6 +1848,176 @@ export const quiz = [
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
+      {
+        "question": "Nous allons ______ (to wait) à la gare avant le départ du train.",
+        "choices": ["attendre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elle va ______ (to check) ses bagages à l’aéroport.",
+        "choices": ["enregistrer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tu vas ______ (to arrive) en retard si tu ne te dépêches pas.",
+        "choices": ["arriver"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ils vont ______ (to visit) la Tour Eiffel demain matin.",
+        "choices": ["visiter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous allons ______ (to buy) des billets pour le voyage en train.",
+        "choices": ["acheter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vous allez ______ (to reserve) une chambre d’hôtel à Lyon.",
+        "choices": ["réserver"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je vais ______ (to take) un café avant le vol.",
+        "choices": ["prendre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Marc et Sophie vont ______ (to choose) des sièges côté fenêtre.",
+        "choices": ["choisir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Il va ______ (to get on) dans le bus à la prochaine station.",
+        "choices": ["monter"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tu vas ______ (to leave) en vacances la semaine prochaine.",
+        "choices": ["partir"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the French word for airport?",
+        "choices": [
+          "un avion",
+          "un vol",
+          "un aéroport",
+          "un voyage"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say 'I am going to take a taxi'?",
+        "choices": [
+          "Je vais prendre un taxi.",
+          "Je prends un taxi.",
+          "Je vais aller en taxi.",
+          "Je vais voyager en taxi."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following means 'to board a plane'?",
+        "choices": [
+          "atterrir",
+          "embarquer",
+          "réserver",
+          "descendre"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'une valise' mean?",
+        "choices": [
+          "A train ticket",
+          "A passport",
+          "A suitcase",
+          "A destination"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which phrase correctly expresses 'We are going to rent a car' in French?",
+        "choices": [
+          "Nous allons conduire une voiture.",
+          "Nous allons acheter une voiture.",
+          "Nous allons louer une voiture.",
+          "Nous allons prendre une voiture."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'un quai' refer to?",
+        "choices": [
+          "A train station",
+          "A ticket counter",
+          "A railway platform",
+          "A baggage claim"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct future proche sentence:",
+        "choices": [
+          "Tu prends le bus demain.",
+          "Tu vas prendre le bus demain.",
+          "Tu as pris le bus demain.",
+          "Tu prenais le bus demain."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'round-trip ticket' in French?",
+        "choices": [
+          "un billet simple",
+          "un billet aller-retour",
+          "un billet d’avion",
+          "une réservation"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the conjugation of 'aller' for 'we' (Nous)?",
+        "choices": [
+          "allons",
+          "vais",
+          "va",
+          "allez"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these means 'a passport'?",
+        "choices": [
+          "une valise",
+          "une carte d’embarquement",
+          "un passeport",
+          "un billet"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
 
       {
         "question": "Match the Words.",
@@ -1981,7 +2151,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
-
+      {
+        "question": "What is the French word for ‘sweater’?",
+        "choices": [
+          "Un pantalon",
+          "Un pull",
+          "Une veste",
+          "Une écharpe"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say ‘Can I try this on?’ in French?",
+        "choices": [
+          "Puis-je essayer ça ?",
+          "Combien ça coûte ?",
+          "Où est la caisse ?",
+          "Vous avez ma taille ?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which adjective correctly matches ‘une veste’?",
+        "choices": [
+          "bleu",
+          "bleus",
+          "bleue",
+          "bleues"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does ‘une écharpe en laine’ mean?",
+        "choices": [
+          "A woolen scarf",
+          "A leather belt",
+          "A silk tie",
+          "A cotton shirt"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which phrase means ‘I am just looking’ in French?",
+        "choices": [
+          "Je voudrais acheter ceci.",
+          "Je ne veux rien acheter.",
+          "C’est trop cher.",
+          "Je regarde seulement."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Choose the correct plural form of ‘un pantalon noir’.",
+        "choices": [
+          "des pantalons noirs",
+          "des pantalons noires",
+          "des pantalons noir",
+          "des pantalons noire"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which adjective is irregular in feminine form?",
+        "choices": [
+          "joli",
+          "nouveau",
+          "grand",
+          "vert"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does ‘C’est à la mode’ mean?",
+        "choices": [
+          "It’s expensive.",
+          "It’s trendy.",
+          "It’s too big.",
+          "It’s on sale."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct way to say ‘a new dress’ in French?",
+        "choices": [
+          "un nouveau robe",
+          "une nouveau robe",
+          "une nouvelle robe",
+          "un nouvelle robe"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which sentence is grammatically correct?",
+        "choices": [
+          "J’ai acheté une chemise blancs.",
+          "Elle porte des chaussures élégante.",
+          "Paul a un manteau chaud.",
+          "Nous avons des vestes noir."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
 
       {
         "question": "Je voudrais acheter ______ (une/un) chemise verte.",
@@ -2040,6 +2319,66 @@ export const quiz = [
       {
         "question": "Il a acheté un pull ______ (chaud/chauds) pour l’hiver.",
         "choices": ["chaud", "chauds","1","2"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je cherche ______ robe d’été.",
+        "choices": ["une"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ces chaussures sont très ______.",
+        "choices": ["confortables"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ce jean est trop ______ pour moi.",
+        "choices": ["serré"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ils ont acheté des vestes ______ pour l’hiver.",
+        "choices": ["chaudes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "J’adore cette jupe, elle est vraiment ______.",
+        "choices": ["belle"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Avez-vous cette chemise en taille ______ ?",
+        "choices": ["petite"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Marie porte une écharpe ______ aujourd’hui.",
+        "choices": ["longue"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous voulons acheter des pantalons ______.",
+        "choices": ["noirs"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ce manteau est en ______ (cotton).",
+        "choices": ["coton"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elle préfère une robe ______ (elegant) pour le mariage.",
+        "choices": ["élégante"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2166,7 +2505,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 4
       },
-
+      {
+        "question": "What is the French word for 'to collect'?",
+        "choices": [
+          "peindre",
+          "collectionner",
+          "dessiner",
+          "cuisiner"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'I love playing the guitar' in French?",
+        "choices": [
+          "J’adore faire du vélo.",
+          "J’aime chanter.",
+          "J’adore jouer de la guitare.",
+          "J’aime cuisiner."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'faire de la randonnée' mean?",
+        "choices": [
+          "to go hiking",
+          "to play chess",
+          "to draw",
+          "to sing"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Choose the correct translation: 'They (feminine) play board games.'",
+        "choices": [
+          "Elles jouent aux échecs.",
+          "Elles jouent aux jeux de société.",
+          "Elles jouent à la musique.",
+          "Elles jouent aux films."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the French for 'to paint'?",
+        "choices": [
+          "dessiner",
+          "peindre",
+          "jouer",
+          "regarder"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Choose the correct conjugation of 'choisir' for 'nous':",
+        "choices": [
+          "choisis",
+          "choisissent",
+          "choisissons",
+          "choisit"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Select the correct -re verb conjugation: 'Tu ______ (attendre) le bus chaque matin.'",
+        "choices": [
+          "attends",
+          "attend",
+          "attendez",
+          "attendons"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these sentences is grammatically correct?",
+        "choices": [
+          "Il vendons des journaux.",
+          "Elles vendent des vêtements en ligne.",
+          "Vous vend des chaussures.",
+          "Je vendent mon vélo."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct plural form of 'Elle finit son livre'?",
+        "choices": [
+          "Elles finissons leur livre.",
+          "Elles finissent leur livre.",
+          "Elles finit leur livre.",
+          "Elles finisses leur livre."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Choose the correct conjugation of 'réussir' for 'vous':",
+        "choices": [
+          "réussit",
+          "réussis",
+          "réussissez",
+          "réussissons"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
 
       {
         "question": "Je ______ (chosen) un nouveau passe-temps pendant mes vacances.",
@@ -2225,6 +2673,66 @@ export const quiz = [
       {
         "question": "Nous ______ (let's think) à nos prochaines vacances d'été.",
         "choices": ["réfléchissons", "réfléchis", "réfléchissent", "réfléchissez"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je ______ (complete) mon puzzle avant d’aller me coucher.",
+        "choices": ["complète"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous ______ (reflect) sur notre avenir professionnel.",
+        "choices": ["réfléchissons"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Il ______ (hear) souvent cette chanson à la radio.",
+        "choices": ["entend"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vous ______ (sell) des livres rares dans votre boutique.",
+        "choices": ["vendez"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tu ______ (lose) toujours tes clés !",
+        "choices": ["perds"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elles ______ (blush) quand elles parlent à leur professeur.",
+        "choices": ["rougissent"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous ______ (choose) un bon restaurant pour dîner.",
+        "choices": ["choisissons"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ils ______ (answer) rapidement aux questions de l’examen.",
+        "choices": ["répondent"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je ______ (wait) mon ami devant le café.",
+        "choices": ["attends"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elle ______ (succeed) à tous ses tests cette année.",
+        "choices": ["réussit"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2361,6 +2869,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "What does 'le poignet' mean in English?",
+        "choices": [
+          "The wrist",
+          "The ankle",
+          "The knee",
+          "The elbow"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the English translation of 'un rhume'?",
+        "choices": [
+          "A fever",
+          "A cold",
+          "A headache",
+          "A cough"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Choose the correct translation: 'Elle doit prendre son médicament.'",
+        "choices": [
+          "She can take her medicine.",
+          "She must take her medicine.",
+          "She wants to take her medicine.",
+          "She may take her medicine."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'la cheville' refer to?",
+        "choices": [
+          "The wrist",
+          "The ankle",
+          "The knee",
+          "The elbow"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'to have a headache' in French?",
+        "choices": [
+          "Avoir une fièvre",
+          "Avoir une grippe",
+          "Avoir mal à la tête",
+          "Avoir mal au dos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "Nous devons faire du sport pour être en bonne santé.",
+          "Nous doivent faire du sport pour être en bonne santé.",
+          "Nous dois faire du sport pour être en bonne santé.",
+          "Nous devons faisons du sport pour être en bonne santé."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'Il ne peut pas marcher' mean?",
+        "choices": [
+          "He cannot walk.",
+          "He must walk.",
+          "He will walk.",
+          "He should walk."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct conjugation of 'pouvoir' for 'tu'?",
+        "choices": [
+          "Peut",
+          "Peux",
+          "Pouvez",
+          "Peuvent"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Translate: 'You must rest when you are sick.'",
+        "choices": [
+          "Vous pouvez vous reposer quand vous êtes malade.",
+          "Vous devez vous reposer quand vous êtes malade.",
+          "Tu peux te reposer quand tu es malade.",
+          "Il peut se reposer quand il est malade."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "Elles peuvent aller à la pharmacie.",
+          "Elles peux aller à la pharmacie.",
+          "Elles peut aller à la pharmacie.",
+          "Elles pouvez aller à la pharmacie."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
 
       {
@@ -2420,6 +3038,66 @@ export const quiz = [
       {
         "question": "Je ______ (devoir) consulter un spécialiste pour mon mal de dos.",
         "choices": ["dois", "devons", "devez", "doivent"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je ______ (pouvoir) nager sans problème.",
+        "choices": ["peux"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous ______ (devoir) aller chez le dentiste demain.",
+        "choices": ["devons"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elle ______ (pouvoir) soulever cette boîte lourde.",
+        "choices": ["peut"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vous ______ (devoir) dormir au moins huit heures par nuit.",
+        "choices": ["devez"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ils ______ (pouvoir) venir à l'hôpital avec nous.",
+        "choices": ["peuvent"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tu ______ (devoir) prendre rendez-vous avec un spécialiste.",
+        "choices": ["dois"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Marc ______ (pouvoir) parler plusieurs langues.",
+        "choices": ["peut"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous ______ (devoir) éviter les aliments trop gras.",
+        "choices": ["devons"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Les enfants ______ (pouvoir) courir dans le jardin.",
+        "choices": ["peuvent"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je ______ (devoir) suivre les conseils de mon médecin.",
+        "choices": ["dois"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2597,6 +3275,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "How do you say 'It's 8:45 AM' in French?",
+        "choices": [
+          "Il est huit heures quarante-cinq.",
+          "Il est neuf heures moins le quart.",
+          "Il est huit heures et quart.",
+          "Il est neuf heures et quart."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following sentences correctly uses passé composé?",
+        "choices": [
+          "Elle va au marché hier.",
+          "Elle est allée au marché hier.",
+          "Elle ira au marché hier.",
+          "Elle allait au marché hier."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct translation for 'We finished our homework yesterday'?",
+        "choices": [
+          "Nous finissons nos devoirs hier.",
+          "Nous avons fini nos devoirs hier.",
+          "Nous finirons nos devoirs hier.",
+          "Nous finissions nos devoirs hier."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which sentence is grammatically correct in passé composé?",
+        "choices": [
+          "Je suis allé à la plage l'été dernier.",
+          "Je vais aller à la plage l'été dernier.",
+          "J’allais à la plage l’été dernier.",
+          "J’aller à la plage l’été dernier."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following means 'It's noon' in French?",
+        "choices": [
+          "Il est minuit.",
+          "Il est midi.",
+          "Il est douze heures du soir.",
+          "Il est midi moins le quart."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you correctly say 'We went to Paris last summer' in French?",
+        "choices": [
+          "Nous allons à Paris l’été dernier.",
+          "Nous allions à Paris l’été dernier.",
+          "Nous sommes allés à Paris l’été dernier.",
+          "Nous irions à Paris l’été dernier."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which sentence correctly uses passé composé with 'avoir'?",
+        "choices": [
+          "J’ai mange une pomme.",
+          "J’ai mangé une pomme.",
+          "J’ai manger une pomme.",
+          "Je mange une pomme."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct translation of 'It’s 10:15 PM'?",
+        "choices": [
+          "Il est dix heures quinze du matin.",
+          "Il est vingt-deux heures quinze.",
+          "Il est dix heures quinze de l’après-midi.",
+          "Il est vingt heures quinze."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following correctly expresses passé composé?",
+        "choices": [
+          "Ils ont joué au football hier soir.",
+          "Ils jouent au football hier soir.",
+          "Ils joueront au football hier soir.",
+          "Ils jouaient au football hier soir."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which is the correct way to say 'She left at 6:00 AM' in French?",
+        "choices": [
+          "Elle a parti à six heures du matin.",
+          "Elle est partie à six heures du matin.",
+          "Elle partir à six heures du matin.",
+          "Elle part à six heures du matin."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
 
 
       {
@@ -2656,6 +3444,66 @@ export const quiz = [
       {
         "question": "Nous ______ (visiter) le musée ce matin à 10h.",
         "choices": ["avons visité", "visitions", "visiterons", "visitons"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hier soir, nous ______ (regarder) un film au cinéma.",
+        "choices": ["avons regardé"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ils ______ (aller) en vacances en France l’été dernier.",
+        "choices": ["sont allés"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "À 8 heures, elle ______ (prendre) son petit-déjeuner.",
+        "choices": ["a pris"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nous ______ (faire) une promenade après le dîner.",
+        "choices": ["avons fait"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hier, j’______ (avoir) un rendez-vous chez le médecin.",
+        "choices": ["ai eu"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Elles ______ (arriver) à l’aéroport à 14h00.",
+        "choices": ["sont arrivées"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vous ______ (étudier) le français pendant deux heures hier.",
+        "choices": ["avez étudié"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Il ______ (pleuvoir) toute la journée.",
+        "choices": ["a plu"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Je ______ (lire) un livre très intéressant le week-end dernier.",
+        "choices": ["ai lu"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La réunion ______ (commencer) à 9h30 ce matin.",
+        "choices": ["a commencé"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2783,6 +3631,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 3
         },
+        {
+          "question": "Quel instrument fait partie d’un orchestre symphonique ?",
+          "choices": [
+            "La guitare électrique",
+            "Le violon",
+            "Le saxophone",
+            "La batterie"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Un 'vernissage' est un événement lié à _______.",
+          "choices": [
+            "La mode",
+            "La peinture",
+            "Le sport",
+            "La danse"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot désigne une œuvre sculptée en trois dimensions ?",
+          "choices": [
+            "Une peinture",
+            "Une galerie",
+            "Une sculpture",
+            "Une exposition"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Lequel de ces mots est associé à la musique ?",
+          "choices": [
+            "Un tableau",
+            "Une partition",
+            "Un pinceau",
+            "Une exposition"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le Festival de Cannes est célèbre pour célébrer _______.",
+          "choices": [
+            "La musique classique",
+            "Le cinéma",
+            "La sculpture",
+            "La danse contemporaine"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Choisissez la bonne réponse : 'Il a donné son billet à Marie.' → 'Il ______ a donné son billet.'",
+          "choices": [
+            "lui",
+            "leur",
+            "nous",
+            "te"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez : 'Elle a prêté sa guitare à ses amis.' → 'Elle ______ a prêté sa guitare.'",
+          "choices": [
+            "lui",
+            "leur",
+            "nous",
+            "te"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Je vais ______ expliquer les règles du concours.",
+          "choices": [
+            "lui",
+            "leur",
+            "me",
+            "te"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu veux bien ______ prêter ton pinceau ?",
+          "choices": [
+            "nous",
+            "leur",
+            "me",
+            "lui"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Les musiciens ______ jouent une nouvelle chanson.",
+          "choices": [
+            "nous",
+            "leur",
+            "me",
+            "lui"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
 
 
         {
@@ -2845,7 +3803,66 @@ export const quiz = [
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
-
+        {
+          "question": "Il joue du ______ (piano) avec talent.",
+          "choices": ["piano"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce ______ (show) de danse était impressionnant !",
+          "choices": ["spectacle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle admire beaucoup ce ______ (painter) du XXe siècle.",
+          "choices": ["peintre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons assisté à un grand ______ (festival) de jazz.",
+          "choices": ["festival"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le musée présente une nouvelle ______ (exhibition) d’art moderne.",
+          "choices": ["exposition"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon frère joue de la ______ (guitar) depuis cinq ans.",
+          "choices": ["guitare"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’adore écouter des ______ (songs) françaises.",
+          "choices": ["chansons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La sculpture est faite en ______ (marble).",
+          "choices": ["marbre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’orchestre a donné un superbe ______ (concert).",
+          "choices": ["concert"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il m’a prêté son ______ (violin) pour la répétition.",
+          "choices": ["violon"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
         {
           "question": "Match the Words.",
           type: "MatchTheFollowing",
@@ -2974,6 +3991,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 3
         },
+        {
+          "question": "What is traditionally eaten on La Chandeleur in France?",
+          "choices": [
+            "Macarons",
+            "Crêpes",
+            "Madeleines",
+            "Éclairs"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is a traditional dish eaten on Epiphany?",
+          "choices": [
+            "Tarte Tatin",
+            "Galette des Rois",
+            "Profiteroles",
+            "Croissants"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the main ingredient in a 'bûche de Noël'?",
+          "choices": [
+            "Bread",
+            "Rice",
+            "Chocolate",
+            "Cheese"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the traditional French celebration for the start of a new year called?",
+          "choices": [
+            "Pâques",
+            "Fête de la Musique",
+            "Réveillon",
+            "Carnaval"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is commonly served as an appetizer at a French Christmas dinner?",
+          "choices": [
+            "Foie gras",
+            "Croissant",
+            "Baguette",
+            "Tarte aux fraises"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following correctly uses a superlative?",
+          "choices": [
+            "Cette fête est la plus belle de toutes.",
+            "Cette fête est belle que l’autre.",
+            "Cette fête est aussi belle que l’autre.",
+            "Cette fête est le plus belle de toutes."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of these statements is correct?",
+          "choices": [
+            "Ce gâteau est le moins sucré de tous.",
+            "Ce gâteau est le plus sucré que les autres.",
+            "Ce gâteau est plus sucré que.",
+            "Ce gâteau est sucré plus que les autres."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of these is an important part of a French wedding celebration?",
+          "choices": [
+            "Le muguet",
+            "La pièce montée",
+            "Le poisson d'avril",
+            "Le sapin de Noël"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What do the French traditionally eat on Mardi Gras?",
+          "choices": [
+            "Chocolat chaud",
+            "Escargots",
+            "Crêpes and beignets",
+            "Ratatouille"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is grammatically correct?",
+          "choices": [
+            "La tarte est la moins bonne que le gâteau.",
+            "La tarte est plus bonne que le gâteau.",
+            "La tarte est meilleure que le gâteau.",
+            "La tarte est bon que le gâteau."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
 
 
        {
@@ -3036,6 +4163,66 @@ export const quiz = [
     "type": "FillInTheBlanks",
     "correctAnswer": 1
   },
+    {
+      "question": "Le Carnaval de Nice est l’un des carnavals ______ célèbres de France.",
+      "choices": ["les plus"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "À Pâques, les enfants cherchent des œufs en ______ dans le jardin.",
+      "choices": ["chocolat"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "La Fête nationale en France est ______ grande célébration de l’été.",
+      "choices": ["la plus"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "La bûche de Noël est un dessert ______ populaire en France à Noël.",
+      "choices": ["très"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Cette crêpe est ______ sucrée que celle que j’ai mangée hier.",
+      "choices": ["moins"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Le Mont-Saint-Michel est l’un des endroits ______ visités de France.",
+      "choices": ["les plus"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Les feux d’artifice du 14 juillet sont ______ spectaculaires de l’année.",
+      "choices": ["les plus"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Cette galette des rois est ______ croustillante que celle de l’année dernière.",
+      "choices": ["moins"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "Le vin de Bordeaux est considéré comme l’un des ______ vins du monde.",
+      "choices": ["meilleurs"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
+    {
+      "question": "La Tour Eiffel est ______ monument le plus visité de France.",
+      "choices": ["le"],
+      "type": "FillInTheBlanks",
+      "correctAnswer": 1
+    },
 
         {
           "question": "Match the Words.",
@@ -3190,6 +4377,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 1
         },
+        {
+          "question": "What does 'la biodiversité' mean in English?",
+          "choices": [
+            "Air pollution",
+            "Biodiversity",
+            "Recycling",
+            "Climate change"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following is an example of 'énergies renouvelables'?",
+          "choices": [
+            "Le charbon",
+            "Le pétrole",
+            "L’énergie éolienne",
+            "Le gaz naturel"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the French word for 'deforestation'?",
+          "choices": [
+            "Le reboisement",
+            "La pollution",
+            "La déforestation",
+            "L’empreinte carbone"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is correct?",
+          "choices": [
+            "Si nous recyclons, nous produirons plus de déchets.",
+            "Si nous plantons plus d’arbres, nous aurons plus d’oxygène.",
+            "Si nous utilisons plus de plastique, nous réduirons la pollution.",
+            "Si nous détruisons les forêts, nous protégerons la biodiversité."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'carbon footprint' in French?",
+          "choices": [
+            "L’empreinte écologique",
+            "L’empreinte carbone",
+            "L’énergie fossile",
+            "Le développement durable"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which action helps reduce pollution?",
+          "choices": [
+            "Utiliser les transports en commun",
+            "Jeter des déchets dans la nature",
+            "Augmenter la consommation de plastique",
+            "Couper plus d’arbres"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is 'une espèce menacée'?",
+          "choices": [
+            "A protected animal",
+            "A threatened species",
+            "A domestic animal",
+            "A plant"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the opposite of 'polluer' in French?",
+          "choices": [
+            "Protéger",
+            "Détruire",
+            "Abîmer",
+            "Contaminer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "If we use less fossil fuel, what will happen?",
+          "choices": [
+            "La pollution augmentera.",
+            "L’environnement sera protégé.",
+            "La température augmentera.",
+            "Les glaciers fondront plus vite."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is correct?",
+          "choices": [
+            "Si nous économisons l’eau, nous en manquerons plus vite.",
+            "Si nous réduisons la pollution, la qualité de l’air s’améliorera.",
+            "Si nous jetons les déchets partout, la planète sera plus propre.",
+            "Si nous utilisons plus de voitures, il y aura moins d’émissions."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
 
 
         {
@@ -3249,6 +4546,66 @@ export const quiz = [
         {
           "question": "La pollution diminuera si tout le monde ______ (takes) les transports en commun.",
           "choices": ["prend", "prenons", "prendront"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous ______ (réduire) la pollution, nous protégerons la nature.",
+          "choices": ["réduisons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La planète sera plus propre si nous ______ (recycler) les déchets.",
+          "choices": ["recyclons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous utilisons l’énergie solaire, nous ______ (diminuer) l’usage des combustibles fossiles.",
+          "choices": ["diminuerons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si les gens plantent plus d’arbres, la faune ______ (avoir) un meilleur habitat.",
+          "choices": ["aura"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous gaspillons l’eau, il n’y ______ (avoir) plus assez pour tout le monde.",
+          "choices": ["aura"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous arrêtons la déforestation, les animaux ______ (survivre) mieux.",
+          "choices": ["survivront"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si les voitures électriques deviennent populaires, la pollution de l’air ______ (réduire).",
+          "choices": ["réduira"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si on protège la biodiversité, les espèces en danger ne ______ (disparaître) pas.",
+          "choices": ["disparaîtront"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La température mondiale ______ (augmenter) si nous continuons à brûler des énergies fossiles.",
+          "choices": ["augmentera"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous utilisons plus d’énergies renouvelables, nous ______ (protéger) la planète.",
+          "choices": ["protégerons"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -3376,7 +4733,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 1
         },
-
+        {
+          "question": "What is the French word for 'internship'?",
+          "choices": [
+            "un poste",
+            "un stage",
+            "une réunion",
+            "un congé"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following means 'to apply for a job' in French?",
+          "choices": [
+            "postuler",
+            "signer",
+            "convoquer",
+            "travailler"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say 'salary' in French?",
+          "choices": [
+            "un congé",
+            "un bureau",
+            "un salaire",
+            "une réunion"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does 'une augmentation' mean in the workplace?",
+          "choices": [
+            "A job promotion",
+            "A salary increase",
+            "A contract termination",
+            "A paid leave"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is FORMAL?",
+          "choices": [
+            "Salut, tu peux me donner un coup de main ?",
+            "Pourriez-vous m’envoyer les documents ?",
+            "Tu veux venir à la réunion ?",
+            "On se voit plus tard ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the meaning of 'être licencié' in a workplace?",
+          "choices": [
+            "To get promoted",
+            "To sign a contract",
+            "To be fired",
+            "To start a new job"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the informal way of saying 'Bonjour' in French?",
+          "choices": [
+            "Salut",
+            "Au revoir",
+            "Coucou",
+            "a & c"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "What does 'un entretien d’embauche' refer to?",
+          "choices": [
+            "A business trip",
+            "A work meeting",
+            "A job interview",
+            "A salary negotiation"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is INFORMAL?",
+          "choices": [
+            "Je vous prie de bien vouloir accepter mes excuses.",
+            "Désolé, j’ai oublié !",
+            "Pourriez-vous me rappeler plus tard ?",
+            "J’aimerais obtenir des informations."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'travailler à temps partiel' mean?",
+          "choices": [
+            "To work full-time",
+            "To work part-time",
+            "To work overtime",
+            "To be on a business trip"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
 
         {
           "question": "Il cherche un ______ (job) dans une entreprise internationale.",
@@ -3435,6 +4901,66 @@ export const quiz = [
         {
           "question": "Je voudrais savoir si vous pouvez venir à l’______ (interview).",
           "choices": ["entretien", "entretien", "réunion", "emploi"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il a signé un ______ (contract) avec son entreprise hier.",
+          "choices": ["contrat"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Notre ______ (office) est situé au centre-ville.",
+          "choices": ["bureau"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle veut trouver un ______ (job position) avant la fin de l’année.",
+          "choices": ["poste"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un ______ (client) important vient nous rendre visite demain.",
+          "choices": ["client"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour obtenir une promotion, il faut beaucoup ______ (to work).",
+          "choices": ["travailler"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je dois préparer une ______ (presentation) pour la réunion de demain.",
+          "choices": ["présentation"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pendant le ______ (meeting), nous avons discuté des objectifs de l’entreprise.",
+          "choices": ["réunion"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Son patron lui a donné une ______ (task) très difficile à réaliser.",
+          "choices": ["tâche"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’ai un ______ (interview) demain pour un nouveau poste.",
+          "choices": ["entretien"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pouvez-vous me répondre avant la fin de la ______ (day) ?",
+          "choices": ["journée"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -3562,6 +5088,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 2
         },
+        {
+          "question": "What is the French word for 'computer'?",
+          "choices": [
+            "Un écran",
+            "Un ordinateur",
+            "Une tablette",
+            "Un fichier"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'to connect' in French?",
+          "choices": [
+            "Se déconnecter",
+            "Envoyer",
+            "Se connecter",
+            "Télécharger"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "C’est un site web ______ permet d’apprendre le français.",
+          "choices": [
+            "que",
+            "où",
+            "dont",
+            "qui"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Le fichier ______ j’ai enregistré contient des photos de vacances.",
+          "choices": [
+            "où",
+            "que",
+            "dont",
+            "qui"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the French term for 'email'?",
+          "choices": [
+            "Un lien",
+            "Un mail",
+            "Un écran",
+            "Une touche"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "J’ai trouvé une vidéo ______ je voulais te montrer.",
+          "choices": [
+            "où",
+            "qui",
+            "dont",
+            "que"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Nous avons visité une entreprise ______ développe des logiciels.",
+          "choices": [
+            "où",
+            "qui",
+            "dont",
+            "que"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'naviguer sur Internet' mean in English?",
+          "choices": [
+            "To send an email",
+            "To download a file",
+            "To browse the Internet",
+            "To turn off the computer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "L’ordinateur ______ j’utilise est très rapide.",
+          "choices": [
+            "où",
+            "qui",
+            "que",
+            "dont"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of these means 'a file' in French?",
+          "choices": [
+            "Un réseau",
+            "Un disque dur",
+            "Un fichier",
+            "Une clé USB"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
 
         {
           "question": "C’est le document ______ (that) j’ai téléchargé hier.",
@@ -3620,6 +5256,66 @@ export const quiz = [
         {
           "question": "L’ordinateur ______ (who) fonctionne le mieux est sur mon bureau.",
           "choices": ["qui", "où", "que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’ai besoin d’un ______ (keyboard) pour taper mon texte.",
+          "choices": ["clavier"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le site web ______ (that) tu as recommandé est très intéressant.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C’est un programme ______ (which) analyse les virus sur l’ordinateur.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La connexion Internet ______ (of which) je parle est très rapide.",
+          "choices": ["dont"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous utilisons un moteur de recherche ______ (where) on trouve beaucoup d’informations.",
+          "choices": ["où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’écran ______ (that) je regarde est très grand.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le réseau social ______ (where) nous partageons nos photos est populaire.",
+          "choices": ["où"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je vais acheter une nouvelle ______ (printer) pour imprimer mes documents.",
+          "choices": ["imprimante"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "C’est un site web ______ (which) propose des cours gratuits.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu as installé une application ______ (that) je voulais essayer.",
+          "choices": ["que"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -3747,6 +5443,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 2
         },
+        {
+          "question": "What type of film is about the future and advanced technology?",
+          "choices": [
+            "Un documentaire",
+            "Un film d’horreur",
+            "Un film de science-fiction",
+            "Un film historique"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of these is a form of digital media?",
+          "choices": [
+            "Une revue",
+            "Un magazine papier",
+            "Les réseaux sociaux",
+            "Un journal imprimé"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the French word for 'newspaper'?",
+          "choices": [
+            "Un journal",
+            "Un roman",
+            "Une bande dessinée",
+            "Une revue"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What do you call a book that tells someone’s life story?",
+          "choices": [
+            "Un roman",
+            "Un conte",
+            "Une biographie",
+            "Un poème"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of these is an example of visual media?",
+          "choices": [
+            "La radio",
+            "Un podcast",
+            "Un film",
+            "Un livre"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say 'The movie was directed by a famous filmmaker'?",
+          "choices": [
+            "Le film a dirigé par un cinéaste célèbre.",
+            "Le film a été dirigé par un cinéaste célèbre.",
+            "Un cinéaste célèbre a été dirigé par le film.",
+            "Le film dirige par un cinéaste célèbre."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le roman _____ (être, traduire) en plusieurs langues.",
+          "choices": [
+            "est traduit",
+            "traduit",
+            "a traduit",
+            "sont traduits"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La nouvelle émission de radio a été _____ (annoncer) hier.",
+          "choices": [
+            "annonce",
+            "annoncée",
+            "annoncé",
+            "annonçons"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Les films étrangers sont souvent _____ (doubler) en français.",
+          "choices": [
+            "double",
+            "doublé",
+            "doublée",
+            "doublés"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Les informations sont _____ (diffuser) sur Internet et à la télévision.",
+          "choices": [
+            "diffusée",
+            "diffusé",
+            "diffusées",
+            "diffuser"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
 
         {
           "question": "Les informations sont diffusées à la télévision et à la ______ (radio).",
@@ -3805,6 +5611,66 @@ export const quiz = [
         {
           "question": "Les magazines numériques sont souvent ______ (télécharger) sur les tablettes.",
           "choices": ["téléchargés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un ______ (thriller) est un genre de film qui crée du suspense.",
+          "choices": ["thriller"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les critiques de films sont publiées dans les ______ (newspapers).",
+          "choices": ["journaux"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le dernier livre de cet auteur ______ (was published) la semaine dernière.",
+          "choices": ["a été publié"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La pièce de théâtre est ______ (performed) par des acteurs talentueux.",
+          "choices": ["interprétée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce reportage a été ______ (filmed) dans une région isolée.",
+          "choices": ["filmé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un documentaire intéressant a été ______ (broadcast) à la télévision hier soir.",
+          "choices": ["diffusé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le film d’animation a été ______ (directed) par un célèbre cinéaste.",
+          "choices": ["réalisé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les affiches du film sont ______ (displayed) dans toute la ville.",
+          "choices": ["affichées"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cette série télévisée est ______ (produced) par une grande société.",
+          "choices": ["produite"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’histoire du film est ______ (inspired) d’un fait réel.",
+          "choices": ["inspirée"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -3942,6 +5808,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 2
         },
+        {
+          "question": "What is the French word for 'homelessness'?",
+          "choices": [
+            "l’égalité",
+            "la pauvreté",
+            "le sans-abrisme",
+            "le bénévolat"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Who is responsible for teaching students?",
+          "choices": [
+            "le maire",
+            "l’enseignant",
+            "le policier",
+            "l’avocat"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'bénévole' mean in English?",
+          "choices": [
+            "Volunteer",
+            "Lawyer",
+            "Mayor",
+            "Worker"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say 'charity' in French?",
+          "choices": [
+            "la charité",
+            "le chômage",
+            "l'éducation",
+            "la pauvreté"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the French word for 'social justice'?",
+          "choices": [
+            "la justice sociale",
+            "le problème social",
+            "la citoyenneté",
+            "l’inégalité"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez : Les citoyens ______ (voter, futur simple) pour le nouveau maire la semaine prochaine.",
+          "choices": [
+            "votera",
+            "voteront",
+            "votent",
+            "voterait"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is in the passé composé?",
+          "choices": [
+            "Les citoyens parlent de l’avenir.",
+            "Le maire a annoncé une nouvelle loi.",
+            "Nous allons voter demain.",
+            "Les professeurs enseignaient avec passion."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez : Avant, les citoyens ______ (participer, imparfait) activement aux débats publics.",
+          "choices": [
+            "participaient",
+            "participent",
+            "ont participé",
+            "vont participer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez : Les organisations caritatives ______ (recevoir, présent) beaucoup de dons.",
+          "choices": [
+            "recevaient",
+            "ont reçu",
+            "reçoivent",
+            "recevraient"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence is in the futur proche?",
+          "choices": [
+            "Nous allons organiser une collecte de fonds.",
+            "Ils ont collecté des vêtements.",
+            "Les citoyens débattaient des problèmes sociaux.",
+            "Le maire discute des lois."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
 
         {
           "question": "Le ______ (mayor) est responsable des décisions importantes de la ville.",
@@ -4000,6 +5976,66 @@ export const quiz = [
         {
           "question": "Pendant son mandat, le maire ______ (lancer, passé composé) plusieurs projets écologiques.",
           "choices": ["a lancé", "lançait", "lance", "va lancer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le ______ (volunteer) travaille gratuitement pour aider les autres.",
+          "choices": ["bénévole"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’organisation humanitaire ______ (aider, présent) les familles en difficulté.",
+          "choices": ["aide"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Hier, nous ______ (récolter, passé composé) des fonds pour une association caritative.",
+          "choices": ["avons récolté"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les citoyens ______ (proposer, imparfait) souvent des solutions aux problèmes locaux.",
+          "choices": ["proposaient"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’égalité des chances est un ______ (important societal issue) pour notre société.",
+          "choices": ["problème social important"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avant, les gens ______ (faire, imparfait) plus de bénévolat dans leur quartier.",
+          "choices": ["faisaient"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La mairie ______ (organiser, futur proche) une réunion sur le logement social.",
+          "choices": ["va organiser"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les policiers ______ (assurer, présent) la sécurité de la ville.",
+          "choices": ["assurent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les jeunes ______ (lutter, présent) contre le changement climatique.",
+          "choices": ["luttent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le maire ______ (annoncer, passé composé) un nouveau projet pour les écoles.",
+          "choices": ["a annoncé"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -4127,6 +6163,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 2
         },
+        {
+          "question": "How do you say 'to buy' in French?",
+          "choices": [
+            "vendre",
+            "acheter",
+            "chercher",
+            "payer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'une boulangerie' refer to?",
+          "choices": [
+            "A butcher shop",
+            "A pastry shop",
+            "A bakery",
+            "A supermarket"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which word means 'ticket' in French?",
+          "choices": [
+            "le billet",
+            "la valise",
+            "le passeport",
+            "la gare"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which preposition is used with 'aller' to indicate a city?",
+          "choices": [
+            "à",
+            "de",
+            "en",
+            "au"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence is correct?",
+          "choices": [
+            "J’ai acheté un pomme.",
+            "J’ai acheté une pomme.",
+            "J’ai acheté des pomme.",
+            "J’ai acheté de pomme."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'I am hungry' in French?",
+          "choices": [
+            "J’ai faim.",
+            "Je suis faim.",
+            "J’ai soif.",
+            "Je mange faim."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which adjective correctly agrees with 'une voiture' (a car)?",
+          "choices": [
+            "rapide",
+            "rapidee",
+            "rapids",
+            "rapides"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct article for 'hôtel' in 'Je vais ___ hôtel'?",
+          "choices": [
+            "le",
+            "la",
+            "un",
+            "l’"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Which word means 'to travel' in French?",
+          "choices": [
+            "voyager",
+            "travailler",
+            "visiter",
+            "partir"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence is grammatically correct?",
+          "choices": [
+            "Nous mange une pizza.",
+            "Nous mangeons une pizza.",
+            "Nous mangons une pizza.",
+            "Nous mangons des pizzas."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
 
         {
           "question": "Je ______ (manger, présent) des fruits frais tous les matins.",
@@ -4185,6 +6331,66 @@ export const quiz = [
         {
           "question": "Les enfants ______ (jouer, futur proche) avec leurs cousins dans le parc demain.",
           "choices": ["vont jouer","","",""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (prendre, présent) le bus tous les matins pour aller au travail.",
+          "choices": ["prends"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (aller, passé composé) au supermarché pour acheter des légumes.",
+          "choices": ["sommes allés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (choisir, présent) toujours des vêtements à la mode.",
+          "choices": ["choisit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Demain, je ______ (visiter, futur proche) un musée avec mes amis.",
+          "choices": ["vais visiter"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les touristes ______ (descendre, passé composé) du train à Paris.",
+          "choices": ["sont descendus"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans mon café, je mets du sucre et ______ (article défini) lait.",
+          "choices": ["du"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons commandé ______ (article indéfini) dessert après le repas.",
+          "choices": ["un"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est plus ______ (adjectif) que sa sœur.",
+          "choices": ["grande"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Est-ce que tu pars ______ (préposition) vacances cet été ?",
+          "choices": ["en"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils vont au restaurant et commandent ______ (article partitif) poisson.",
+          "choices": ["du"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -4312,6 +6518,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 2
         },
+        {
+          "question": "How do you ask for a table for two in French?",
+          "choices": [
+            "Une table pour deux, s’il vous plaît.",
+            "Je voudrais une addition.",
+            "Où est la gare ?",
+            "Je prends un café."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What would you say to ask if a store is open?",
+          "choices": [
+            "Combien ça coûte ?",
+            "Puis-je avoir le menu ?",
+            "Le magasin est fermé ?",
+            "Je voudrais acheter une robe."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which phrase means 'I am just looking'?",
+          "choices": [
+            "Je prends un café.",
+            "Je regarde seulement.",
+            "L’addition, s’il vous plaît.",
+            "Je veux acheter."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "If you want to pay with a card, what do you ask?",
+          "choices": [
+            "Où est la caisse ?",
+            "Acceptez-vous la carte bancaire ?",
+            "Puis-je avoir une réduction ?",
+            "Combien de temps faut-il ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'un rabais' mean in English?",
+          "choices": [
+            "A receipt",
+            "A discount",
+            "A table",
+            "A menu"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'Can I try this on?' in French?",
+          "choices": [
+            "Où est la cabine d’essayage ?",
+            "Puis-je commander ?",
+            "Puis-je l’essayer ?",
+            "Combien coûte-t-il ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is 'un pourboire' in a restaurant?",
+          "choices": [
+            "A drink",
+            "A plate",
+            "A tip",
+            "A bill"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which phrase means 'I would like to return this item'?",
+          "choices": [
+            "Où est le menu ?",
+            "C’est trop cher.",
+            "Je veux acheter cet article.",
+            "Je voudrais retourner cet article."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "What do you say if you want your steak well done?",
+          "choices": [
+            "Bleu",
+            "Saignant",
+            "Bien cuit",
+            "À point"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "If you ask 'Est-ce que vous avez des promotions ?', what are you asking?",
+          "choices": [
+            "If the store is open",
+            "If they have discounts",
+            "If they accept credit cards",
+            "If they have a reservation"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
 
         {
           "question": "Bonjour, je voudrais ______ (un/une) baguette et du beurre, s’il vous plaît.",
@@ -4370,6 +6686,66 @@ export const quiz = [
         {
           "question": "Pouvez-vous me ______ (donner) une carte des vins, s’il vous plaît ?",
           "choices": ["donner", "donnez", "donné", "donnons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je voudrais acheter une ______ (jupe/robe) pour l’été.",
+          "choices": ["robe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À la boulangerie, je prends un pain au chocolat et une ______ (baguette/baguettes).",
+          "choices": ["baguette"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’addition, s’il vous plaît ! Je voudrais payer ______ (avec/en) carte bancaire.",
+          "choices": ["avec"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Excusez-moi, où est la ______ (caisse/table) pour payer ?",
+          "choices": ["caisse"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le restaurant est complet, nous devons faire une ______ (réservation/commande).",
+          "choices": ["réservation"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour aller au supermarché, prenez la première rue à ______ (gauche/droite).",
+          "choices": ["gauche"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Combien ______ (coûter) cette chemise en solde ?",
+          "choices": ["coûte"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous allons au marché pour acheter des ______ (fruits/légumes).",
+          "choices": ["fruits"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je voudrais essayer ce pantalon. Où sont les cabines d’______ (essayage/paiement) ?",
+          "choices": ["essayage"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pouvez-vous me recommander un bon ______ (restaurant/marché) dans le quartier ?",
+          "choices": ["restaurant"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },

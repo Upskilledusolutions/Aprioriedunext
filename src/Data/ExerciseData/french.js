@@ -2416,8 +2416,8 @@ export const quiz = [
     "correctAnswer": 1
   },
   {
-    "question": "En hiver, il neige ______. (In winter, it snows.)",
-    "choices": ["beaucoup", "très peu", "modérément", "rarement"],
+    "question": "En hiver, il ______. (In winter, it snows.)",
+    "choices": ["neige", "très peu", "modérément", "rarement"],
     "type": "FillInTheBlanks",
     "correctAnswer": 1
   },

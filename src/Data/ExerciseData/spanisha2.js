@@ -1785,6 +1785,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "What does 'andén' mean in English?",
+        "choices": [
+          "Train station",
+          "Platform",
+          "Airplane",
+          "Road"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the Spanish word for 'luggage'?",
+        "choices": [
+          "Maleta",
+          "Billete",
+          "Viaje",
+          "Pasaporte"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these words means 'highway' in Spanish?",
+        "choices": [
+          "Avión",
+          "Carretera",
+          "Barco",
+          "Andén"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'one-way ticket' in Spanish?",
+        "choices": [
+          "Billete de ida y vuelta",
+          "Billete de solo ida",
+          "Billete de regreso",
+          "Billete de tren"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which word means 'to board' in Spanish?",
+        "choices": [
+          "Alquilar",
+          "Facturar",
+          "Abordar",
+          "Llegar"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How would you say 'I am going to travel to Spain' in Spanish?",
+        "choices": [
+          "Voy a viajar a España.",
+          "Va a viajar a España.",
+          "Vamos a viajar a España.",
+          "Vas a viajar a España."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does 'retraso' mean in English?",
+        "choices": [
+          "Departure",
+          "Delay",
+          "Arrival",
+          "Luggage"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase correctly translates 'You (informal) are going to take a taxi'?",
+        "choices": [
+          "Tú va a tomar un taxi.",
+          "Tú vas a tomar un taxi.",
+          "Tú van a tomar un taxi.",
+          "Tú vamos a tomar un taxi."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does 'despegar' mean in English?",
+        "choices": [
+          "To land",
+          "To board",
+          "To take off",
+          "To travel"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does 'aduana' mean in English?",
+        "choices": [
+          "Train",
+          "Customs",
+          "Passport",
+          "Travel"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
       
       // 20 Fill in the Blanks
 
@@ -1845,6 +1955,66 @@ export const quiz = [
       {
         "question": "Vamos a esperar la ______ (exit) antes de abordar el avión.",
         "choices": ["salida", "", "", ""],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vamos a ______ (buy) los billetes para el tren.",
+        "choices": ["comprar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi familia y yo vamos a viajar en ______ (plane) a México.",
+        "choices": ["avión"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos van a esperar en la ______ (platform) hasta que llegue el tren.",
+        "choices": ["andén"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú vas a tomar un ______ (taxi) para llegar al hotel.",
+        "choices": ["taxi"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis amigos van a alquilar un ______ (car) para recorrer la ciudad.",
+        "choices": ["coche"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros vamos a hacer la ______ (suitcase) antes de viajar.",
+        "choices": ["maleta"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo voy a la ______ (airport) temprano para no perder el vuelo.",
+        "choices": ["aeropuerto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El vuelo va a ______ (take off) a las 10 de la mañana.",
+        "choices": ["despegar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos van a pasar por la ______ (customs) después de aterrizar.",
+        "choices": ["aduana"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Vas a ______ (arrive) tarde al aeropuerto?",
+        "choices": ["llegar"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -1971,6 +2141,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "What is the Spanish word for 'gloves'?",
+        "choices": [
+          "Bufanda",
+          "Guantes",
+          "Sombrero",
+          "Zapatos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say 'scarf' in Spanish?",
+        "choices": [
+          "Bufanda",
+          "Chaleco",
+          "Cinturón",
+          "Botas"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the plural form of 'vestido' (dress)?",
+        "choices": [
+          "Vestidas",
+          "Vestidos",
+          "Vestides",
+          "Vestidas"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase means 'Can I try this on?'",
+        "choices": [
+          "¿Me lo puedo probar?",
+          "¿Puedo comprar esto?",
+          "¿Me puede ayudar?",
+          "¿Cuánto cuesta esto?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct adjective to describe 'los pantalones negros' (the black pants)?",
+        "choices": [
+          "Negra",
+          "Negro",
+          "Negros",
+          "Negras"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct plural form of 'blusa' (blouse)?",
+        "choices": [
+          "Blusos",
+          "Blusas",
+          "Bluses",
+          "Blusás"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase means 'The dress is beautiful'?",
+        "choices": [
+          "La vestido es bonita",
+          "El vestido es bonito",
+          "El vestido es bonitas",
+          "La vestido es bonitos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How would you say 'I'm looking for a cheap jacket'?",
+        "choices": [
+          "Busco un abrigo caro",
+          "Busco una chaqueta barata",
+          "Necesito un abrigo negro",
+          "Quiero comprar un vestido azul"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which phrase would you use to ask if a store accepts credit cards?",
+        "choices": [
+          "¿Aceptan tarjetas de crédito?",
+          "¿Puedo probar esto?",
+          "¿Dónde está el baño?",
+          "¿Me puede ayudar?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the Spanish word for 'belt'?",
+        "choices": [
+          "Bufanda",
+          "Cinturón",
+          "Guantes",
+          "Zapatos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
       
       // 20 Fill in the Blanks
 
@@ -2031,6 +2311,66 @@ export const quiz = [
       {
         "question": "¿Dónde está el probador para estas ______ (blouses)?",
         "choices": ["blusas", "falda", "pantalones cortos", "zapatillas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Necesito comprar un par de ______ (socks) para mi hijo.",
+        "choices": ["calcetines"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En invierno, me gusta usar un ______ (coat) grueso.",
+        "choices": ["abrigo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Dónde puedo encontrar unas ______ (sandals) cómodas?",
+        "choices": ["sandalias"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella lleva un vestido azul y unos ______ (heels) elegantes.",
+        "choices": ["tacones"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En esta tienda hay muchas ______ (jackets) en oferta.",
+        "choices": ["chaquetas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Prefiero los ______ (jeans) ajustados en lugar de los anchos.",
+        "choices": ["vaqueros"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos buscan un ______ (suit) para la boda de su primo.",
+        "choices": ["traje"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En verano, me gusta usar ______ (shorts) y camisetas.",
+        "choices": ["pantalones cortos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Esta ______ (skirt) combina bien con la blusa roja.",
+        "choices": ["falda"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Necesitamos comprar más ______ (t-shirts) para el viaje.",
+        "choices": ["camisetas"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2157,6 +2497,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "¿Cuál de las siguientes actividades es un pasatiempo creativo?",
+        "choices": [
+          "Escribir cuentos",
+          "Dormir temprano",
+          "Ir al trabajo",
+          "Lavar los platos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de estas actividades es un pasatiempo al aire libre?",
+        "choices": [
+          "Pintar cuadros",
+          "Cocinar en casa",
+          "Hacer senderismo",
+          "Escuchar música"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cómo se dice 'They eat dinner at 8 PM' en español?",
+        "choices": [
+          "Ellos comer a las 8 PM",
+          "Ellos comen a las 8 PM",
+          "Ellos come a las 8 PM",
+          "Ellos comemos a las 8 PM"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la conjugación correcta del verbo 'vivir' en la segunda persona del plural (vosotros) en presente?",
+        "choices": [
+          "Vivimos",
+          "Vivís",
+          "Viven",
+          "Vives"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué verbo significa 'to write' en español?",
+        "choices": [
+          "Bailar",
+          "Leer",
+          "Escribir",
+          "Pintar"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cómo se dice 'I enjoy painting in my free time' en español?",
+        "choices": [
+          "Me disfruta pintar en mi tiempo libre",
+          "Me disfruta pintar en mi rato libre",
+          "Disfruto pintar en mi tiempo libre",
+          "Disfruto pintando en mi tiempo libre"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál de las siguientes actividades se relaciona con un pasatiempo musical?",
+        "choices": [
+          "Cantar en un coro",
+          "Ver televisión",
+          "Cocinar una paella",
+          "Jugar al fútbol"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es la conjugación correcta del verbo 'comer' en la tercera persona del plural en presente?",
+        "choices": [
+          "Come",
+          "Comemos",
+          "Coméis",
+          "Comen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "¿Cómo se dice 'We live in a small apartment' en español?",
+        "choices": [
+          "Vivimos en un apartamento pequeño",
+          "Vivo en un apartamento pequeño",
+          "Viven en un apartamento pequeño",
+          "Vives en un apartamento pequeño"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de estas palabras se usa para hablar de pasatiempos en español?",
+        "choices": [
+          "Diversión",
+          "Rutina",
+          "Obligación",
+          "Trabajo"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
       
       // 20 Fill in the Blanks
 
@@ -2217,6 +2667,66 @@ export const quiz = [
       {
         "question": "A Marta le gusta ______ (to watch) películas en su tiempo libre.",
         "choices": ["ver", "cantar", "bailar", "leer"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A mis amigos y a mí nos gusta ______ (to watch) series en Netflix.",
+        "choices": ["ver"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Todos los días, yo ______ (to eat) en la cafetería del trabajo.",
+        "choices": ["como"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis abuelos ______ (to live) en una casa en el campo.",
+        "choices": ["viven"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A mi hermano le gusta ______ (to play) videojuegos en su tiempo libre.",
+        "choices": ["jugar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Tú ______ (to write) cartas a tus amigos?",
+        "choices": ["escribes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (to run) en el parque cada mañana.",
+        "choices": ["corremos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella ______ (to read) novelas de misterio los fines de semana.",
+        "choices": ["lee"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los niños ______ (to draw) en la escuela con lápices de colores.",
+        "choices": ["dibujan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En mi tiempo libre, me gusta ______ (to learn) nuevos idiomas.",
+        "choices": ["aprender"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis primos ______ (to eat) mucha fruta en el verano.",
+        "choices": ["comen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2343,6 +2853,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },    
+      {
+        "question": "¿Qué parte del cuerpo utilizas para oler?",
+        "choices": [
+          "Boca",
+          "Nariz",
+          "Ojos",
+          "Orejas"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si tienes tos, ¿qué deberías hacer?",
+        "choices": [
+          "Beber mucha agua",
+          "Comer más dulces",
+          "Correr mucho",
+          "No hacer nada"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de estas opciones NO es una parte del cuerpo?",
+        "choices": [
+          "Brazo",
+          "Estómago",
+          "Zapato",
+          "Pierna"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál es el órgano principal del sistema circulatorio?",
+        "choices": [
+          "Hígado",
+          "Pulmones",
+          "Corazón",
+          "Riñón"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué debes hacer para mantener los dientes sanos?",
+        "choices": [
+          "Comer muchos dulces",
+          "No cepillarte los dientes",
+          "Cepillarte los dientes tres veces al día",
+          "Tomar refrescos frecuentemente"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Si tienes una fractura en el brazo, ¿qué necesitas?",
+        "choices": [
+          "Un yeso",
+          "Una aspirina",
+          "Un masaje",
+          "Una ducha"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de las siguientes opciones expresa posibilidad?",
+        "choices": [
+          "Deber",
+          "Poder",
+          "Comer",
+          "Sentir"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué órgano es responsable de la digestión?",
+        "choices": [
+          "Corazón",
+          "Estómago",
+          "Pulmones",
+          "Huesos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué parte del cuerpo usas para escuchar?",
+        "choices": [
+          "Ojos",
+          "Nariz",
+          "Orejas",
+          "Boca"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Si te sientes muy cansado, ¿qué debes hacer?",
+        "choices": [
+          "Dormir y descansar",
+          "Seguir trabajando sin parar",
+          "Comer comida chatarra",
+          "Evitar el agua"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
       
       // 20 Fill in the Blanks
 
@@ -2403,6 +3023,66 @@ export const quiz = [
       {
         "question": "Ellos no ______ (poder, deber) practicar deportes por su lesión.",
         "choices": ["pueden", "poder", "deber", "practicar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si te duele la cabeza, ______ tomar un analgésico.",
+        "choices": ["debes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Cuando tienes gripe, no ______ salir de casa.",
+        "choices": ["puedes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermana no ______ comer mariscos porque tiene alergia.",
+        "choices": ["puede"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para tener una vida saludable, ______ hacer ejercicio regularmente.",
+        "choices": ["debes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿______ ayudarme a encontrar una farmacia cerca?",
+        "choices": ["¿Puedes?"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "No ______ beber alcohol si estás tomando antibióticos.",
+        "choices": ["debes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los niños pequeños no ______ tomar café.",
+        "choices": ["pueden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si estás enfermo, ______ ir al médico lo antes posible.",
+        "choices": ["debes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ descansar bien antes de un examen importante.",
+        "choices": ["debemos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si estás resfriado, no ______ compartir tu vaso con otras personas.",
+        "choices": ["debes"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2529,6 +3209,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "¿Qué expresión usamos para preguntar la hora en español?",
+        "choices": [
+          "¿Cómo estás?",
+          "¿Qué hora es?",
+          "¿Cuántos años tienes?",
+          "¿Dónde estás?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si son las 12:30 PM, ¿cómo se dice en español?",
+        "choices": [
+          "Son las doce y treinta de la mañana",
+          "Son las doce y media de la tarde",
+          "Es mediodía y media",
+          "Son las doce y media de la mañana"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la forma correcta del verbo en pretérito perfecto? \"Nosotros __________ (visitar) Madrid varias veces.\"",
+        "choices": [
+          "Hemos visitado",
+          "Visitamos",
+          "Visitábamos",
+          "Visitemos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de las siguientes opciones es correcta? \"Él __________ (levantarse) temprano esta mañana.\"",
+        "choices": [
+          "Se levanta",
+          "Se ha levantado",
+          "Se levantó",
+          "Se levantaba"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se dice \"It's 10:15 PM\" en español?",
+        "choices": [
+          "Son las diez y cuarto de la noche",
+          "Son las diez y quince de la tarde",
+          "Son las diez y cuarto de la mañana",
+          "Son las diez menos cuarto de la noche"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué opción completa correctamente la frase? \"Mi hermano __________ (ver) esa película varias veces.\"",
+        "choices": [
+          "Ha visto",
+          "Vio",
+          "Veía",
+          "Ve"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es la forma correcta del verbo en pretérito perfecto? \"Mis amigos __________ (volver) de su viaje.\"",
+        "choices": [
+          "Han vuelto",
+          "Volvieron",
+          "Volverán",
+          "Volvían"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es la forma correcta de decir \"quarter past eight\" en español?",
+        "choices": [
+          "Son las ocho y media",
+          "Son las ocho y cuarto",
+          "Son las nueve menos cuarto",
+          "Son las ocho menos cuarto"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué tiempo verbal se usa en la siguiente frase? \"Hoy he comido paella.\"",
+        "choices": [
+          "Presente",
+          "Pretérito perfecto",
+          "Pretérito indefinido",
+          "Futuro"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se dice \"We have studied a lot\" en español?",
+        "choices": [
+          "Nosotros estudiamos mucho",
+          "Nosotros hemos estudiado mucho",
+          "Nosotros estudiábamos mucho",
+          "Nosotros estudiamos muchas veces"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
       
       // 20 Fill in the Blanks
 
@@ -2589,6 +3379,66 @@ export const quiz = [
       {
         "question": "Marta ______ (terminar) su tarea hace media hora.",
         "choices": ["ha terminado", "terminó", "termina", "terminaba"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ellos ______ (terminar) el proyecto hoy por la mañana.",
+        "choices": ["han terminado"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿A qué hora ______ (salir) tú de casa esta mañana?",
+        "choices": ["has salido"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros nunca ______ (estar) en Francia.",
+        "choices": ["hemos estado"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Juan y Marta ______ (ver) esa serie muchas veces.",
+        "choices": ["han visto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______ (desayunar) en casa antes de salir al trabajo.",
+        "choices": ["he desayunado"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Tú ya ______ (hacer) la tarea de español?",
+        "choices": ["has hecho"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mis padres ______ (viajar) a Italia este año.",
+        "choices": ["han viajado"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Esta semana yo ______ (leer) dos libros interesantes.",
+        "choices": ["he leído"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ana ______ (comprar) un coche nuevo recientemente.",
+        "choices": ["ha comprado"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hoy nosotros ______ (visitar) a nuestros abuelos.",
+        "choices": ["hemos visitado"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2715,6 +3565,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "What is the Spanish word for \"sculpture\"?",
+        "choices": [
+          "Pintura",
+          "Canción",
+          "Escultura",
+          "Exposición"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What does \"concierto\" mean?",
+        "choices": [
+          "Concert",
+          "Exhibition",
+          "Painting",
+          "Theater"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of these is an example of a cultural event?",
+        "choices": [
+          "Exposición de arte",
+          "Supermercado",
+          "Biblioteca",
+          "Farmacia"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Le envié un correo\" mean?",
+        "choices": [
+          "I sent him/her an email",
+          "He/she sent me an email",
+          "They sent us an email",
+          "We sent them an email"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the correct indirect object pronoun for \"a ella\"?",
+        "choices": [
+          "Me",
+          "Te",
+          "Le",
+          "Nos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Which word means \"painting\" in Spanish?",
+        "choices": [
+          "Pintura",
+          "Escultura",
+          "Teatro",
+          "Concierto"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "\"Te presto mi libro\" means:",
+        "choices": [
+          "I lend you my book",
+          "You lend me your book",
+          "He lends me his book",
+          "They lend us their book"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which verb is commonly used with indirect object pronouns?",
+        "choices": [
+          "Comer",
+          "Gustar",
+          "Nadar",
+          "Dormir"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "If you want to say \"I wrote her a letter\" in Spanish, which sentence is correct?",
+        "choices": [
+          "Le escribí una carta",
+          "Me escribí una carta",
+          "Te escribí una carta",
+          "Nos escribí una carta"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What is the Spanish word for \"tradition\"?",
+        "choices": [
+          "Música",
+          "Feria",
+          "Tradición",
+          "Escultura"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
       
       // 20 Fill in the Blanks
 
@@ -2775,6 +3735,66 @@ export const quiz = [
       {
         "question": "Los niños les ______ (pedir) a sus padres permiso para ir al museo.",
         "choices": ["pidieron", "pedían", "pedirán", "pedido"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Vamos al ______ (concert) este fin de semana.",
+        "choices": ["concierto"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Les ______ (give) un regalo a mis padres por su aniversario.",
+        "choices": ["di"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ayer vi una hermosa ______ (painting) en la galería de arte.",
+        "choices": ["pintura"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Siempre me ______ (tell) historias interesantes sobre su vida.",
+        "choices": ["contaba"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El museo tiene una nueva ______ (exhibition) de arte moderno.",
+        "choices": ["exposición"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La profesora nos ______ (explain) la historia del arte en clase.",
+        "choices": ["explicó"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Juan y María me ______ (send) una invitación para la feria cultural.",
+        "choices": ["enviaron"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La banda nos ______ (play) una canción especial en el concierto.",
+        "choices": ["tocaron"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Le ______ (bring) el libro a tu hermano?",
+        "choices": ["trajiste"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A los niños les ______ (love) escuchar cuentos sobre artistas famosos.",
+        "choices": ["encanta"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2901,6 +3921,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "¿Qué comida típica se come en España en la noche de San Juan?",
+        "choices": [
+          "Churros",
+          "Sardinas asadas",
+          "Empanadas",
+          "Tamales"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es el postre tradicional que se come el 6 de enero en España?",
+        "choices": [
+          "Tarta de Santiago",
+          "Turrón",
+          "Roscón de Reyes",
+          "Flan"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cómo se llama la fiesta española en la que la gente corre delante de los toros?",
+        "choices": [
+          "Feria de Abril",
+          "La Tomatina",
+          "San Fermín",
+          "Día de los Muertos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué se suele comer en Argentina durante la Navidad?",
+        "choices": [
+          "Asado",
+          "Tacos",
+          "Sopa de ajo",
+          "Pulpo a la gallega"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de estas celebraciones NO es típica de España?",
+        "choices": [
+          "La Semana Santa",
+          "El Carnaval de Cádiz",
+          "El Día de Acción de Gracias",
+          "La Feria de Málaga"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál es la forma comparativa de “bueno” en español?",
+        "choices": [
+          "Más bueno",
+          "Mejor",
+          "Menos bueno",
+          "Buenísimo"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se dice \"the most interesting\" en español?",
+        "choices": [
+          "Más interesante",
+          "Lo más interesante",
+          "El más interesante",
+          "Interesantísimo"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué palabra se usa para comparar dos cosas de manera negativa?",
+        "choices": [
+          "Menos",
+          "Más",
+          "Mejor",
+          "Tanto"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se dice “the worst” en español?",
+        "choices": [
+          "Peor",
+          "Más malo",
+          "El peor",
+          "Malo"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál es la forma superlativa de “rápido”?",
+        "choices": [
+          "Más rápido",
+          "Rapidísimo",
+          "El más rápido",
+          "Rápidísimo"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
       
       // 20 Fill in the Blanks
 
@@ -2961,6 +4091,66 @@ export const quiz = [
       {
         "question": "En Cataluña, el 23 de abril se celebra el día de Sant Jordi regalando libros y ______ (roses).",
         "choices": ["Rosas", "Fuegos artificiales", "Pavo", "Tomatina"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En la noche del 31 de diciembre, en España, se comen 12 ______ para celebrar el año nuevo.",
+        "choices": ["uvas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Durante la Semana Santa, las personas llevan ______ y caminan en procesiones.",
+        "choices": ["velas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En México, el 6 de enero los niños reciben regalos de los ______ Magos.",
+        "choices": ["Reyes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El plato típico de Valencia es la ______.",
+        "choices": ["paella"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En las fiestas de cumpleaños, es común soplar las ______ del pastel.",
+        "choices": ["velas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En la Feria de Abril de Sevilla, muchas mujeres llevan ______ de flamenca.",
+        "choices": ["vestidos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En España, el ______ es un embutido muy popular en celebraciones.",
+        "choices": ["chorizo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para la Nochevieja, muchas personas brindan con una copa de ______.",
+        "choices": ["cava"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ es una sopa fría hecha con tomate, pepino y pimiento, típica del verano en España.",
+        "choices": ["gazpacho"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La expresión comparativa de “más alto que” significa en inglés “______ than”.",
+        "choices": ["taller"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -3087,6 +4277,116 @@ export const quiz = [
         "choices": ["León", "Ballena", "Gato", "Águila"],
         "correctAnswer": 2
       },
+      {
+        "question": "¿Cómo se dice \"pollution\" en español?",
+        "choices": [
+          "Reciclaje",
+          "Basura",
+          "Contaminación",
+          "Energía"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué animal es un símbolo de la protección del medio ambiente?",
+        "choices": [
+          "Tigre",
+          "Águila",
+          "Oso panda",
+          "Perro"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál de los siguientes es un recurso natural?",
+        "choices": [
+          "Plástico",
+          "Petróleo",
+          "Vidrio",
+          "Papel reciclado"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si hace sol mañana, ______ a la playa.",
+        "choices": [
+          "vamos",
+          "iremos",
+          "iríamos",
+          "íbamos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué tipo de energía proviene del viento?",
+        "choices": [
+          "Energía solar",
+          "Energía eólica",
+          "Energía geotérmica",
+          "Energía nuclear"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si la temperatura sigue aumentando, los glaciares ______.",
+        "choices": [
+          "derretirán",
+          "derriten",
+          "derretían",
+          "derretirían"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es una forma efectiva de reducir la contaminación del aire?",
+        "choices": [
+          "Usar más coches",
+          "Plantar más árboles",
+          "Quemar basura",
+          "Usar más plásticos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Si reciclamos más, ______ menos basura en los océanos.",
+        "choices": [
+          "habrá",
+          "habría",
+          "hubo",
+          "hay"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué ecosistema se encuentra en las regiones polares?",
+        "choices": [
+          "Desierto",
+          "Selva",
+          "Tundra",
+          "Sabana"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Si no llueve durante mucho tiempo, habrá una ______.",
+        "choices": [
+          "Tormenta",
+          "Sequía",
+          "Inundación",
+          "Nieve"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
       
       // 20 Fill in the Blanks
 
@@ -3147,6 +4447,66 @@ export const quiz = [
       {
         "question": "Si no reciclamos, habrá más ______ (trash) en los océanos.",
         "choices": ["basura", "basura", "basura", "basura"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (nature) es importante para la vida en el planeta.",
+        "choices": ["naturaleza"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si no usamos tanta electricidad, podemos reducir el consumo de ______ (energy).",
+        "choices": ["energía"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El ______ (air) contaminado es malo para la salud.",
+        "choices": ["aire"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si protegemos los océanos, los ______ (fish) tendrán un mejor hábitat.",
+        "choices": ["peces"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En otoño, las ______ (leaves) de los árboles cambian de color.",
+        "choices": ["hojas"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si seguimos talando árboles, habrá menos ______ (forests) en el mundo.",
+        "choices": ["bosques"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El ______ (plastic) es un material difícil de descomponer.",
+        "choices": ["plástico"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Si hace frío mañana, me pondré un ______ (coat).",
+        "choices": ["abrigo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El ______ (ice) de los polos se está derritiendo debido al calentamiento global.",
+        "choices": ["hielo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para ayudar al medio ambiente, es importante usar menos ______ (water).",
+        "choices": ["agua"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -3283,6 +4643,117 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "¿Quién trabaja en un restaurante y sirve comida a los clientes?",
+        "choices": [
+          "Carpintero",
+          "Camarero",
+          "Abogado",
+          "Contador"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se dice 'boss' en español?",
+        "choices": [
+          "Empleado",
+          "Gerente",
+          "Cliente",
+          "Secretario"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de las siguientes opciones es una profesión en el área de tecnología?",
+        "choices": [
+          "Arquitecto",
+          "Programador",
+          "Enfermero",
+          "Cocinero"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cómo se dirige formalmente a un profesor en español?",
+        "choices": [
+          "Tú eres un buen maestro.",
+          "Usted es un buen maestro.",
+          "Ellos son buenos maestros.",
+          "Nosotros somos buenos maestros."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué verbo se usa con 'usted' en la oración: \"¿______ usted español?\"",
+        "choices": [
+          "Hablas",
+          "Habla",
+          "Hablamos",
+          "Hablan"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué profesión trabaja en una construcción?",
+        "choices": [
+          "Médico",
+          "Ingeniero",
+          "Maestro",
+          "Cajero"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es el plural de 'cliente'?",
+        "choices": [
+          "Clientes",
+          "Clientos",
+          "Clientas",
+          "Clientos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál es la forma correcta para dirigirse a un cliente en un correo formal?",
+        "choices": [
+          "Hola, ¿qué tal?",
+          "Estimado/a señor/a,",
+          "¿Qué pasa?",
+          "Oye, necesito hablar contigo."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué profesión diseña casas y edificios?",
+        "choices": [
+          "Carpintero",
+          "Ingeniero",
+          "Arquitecto",
+          "Chef"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué forma verbal es más adecuada en una carta formal?",
+        "choices": [
+          "Te escribo para informarte...",
+          "Le escribo para informarle...",
+          "Escribo para decirte...",
+          "Oye, tengo que decirte..."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      
       
       // 20 Fill in the Blanks
 
@@ -3343,6 +4814,66 @@ export const quiz = [
       {
         "question": "Nosotros ______ (tener) una reunión con el gerente a las 3 PM.",
         "choices": ["tenemos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi hermano es ______ (engineer) y trabaja en una empresa de software.",
+        "choices": ["ingeniero"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿A qué hora ______ (open) la oficina por la mañana?",
+        "choices": ["abre"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (work) en una empresa de tecnología.",
+        "choices": ["trabajamos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Podría ______ (send) el informe por correo electrónico, por favor?",
+        "choices": ["enviar"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El gerente ______ (have) una reunión con los empleados.",
+        "choices": ["tiene"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ella es ______ (lawyer) y trabaja en un bufete de abogados.",
+        "choices": ["abogada"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Yo ______ (write) un correo a mi jefe cada mañana.",
+        "choices": ["escribo"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tú ______ (have) que llegar temprano a la oficina.",
+        "choices": ["tienes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿______ (can) usted ayudarme con este documento?",
+        "choices": ["Puede"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los empleados siempre ______ (greet) a sus clientes con cortesía.",
+        "choices": ["saludan"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -3519,6 +5050,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "¿Qué significa ‘descargar’ en tecnología?",
+        "choices": [
+          "Subir un archivo a internet",
+          "Borrar un archivo",
+          "Guardar un archivo desde internet en un dispositivo",
+          "Apagar un ordenador"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué función tiene una ‘nube’ en el mundo digital?",
+        "choices": [
+          "Almacenar archivos en internet",
+          "Enviar correos electrónicos",
+          "Crear redes sociales",
+          "Mejorar la velocidad de internet"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Para qué sirve un ‘motor de búsqueda’?",
+        "choices": [
+          "Enviar correos",
+          "Encontrar información en internet",
+          "Reproducir videos",
+          "Crear documentos"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de las siguientes opciones describe mejor una ‘contraseña segura’?",
+        "choices": [
+          "12345",
+          "MiNombre",
+          "P@ssw0rd_2024!",
+          "abcde"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál de estos dispositivos no necesita conexión a internet para funcionar?",
+        "choices": [
+          "Teléfono inteligente",
+          "Computadora portátil",
+          "Impresora tradicional",
+          "Tablet"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Escoge la opción correcta: \"No quiero usar mi computadora, ____ mi teléfono está funcionando bien.\"",
+        "choices": [
+          "porque",
+          "aunque",
+          "sino",
+          "además"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Completa la frase: \"María tiene una tableta, _____ no la usa mucho.\"",
+        "choices": [
+          "por eso",
+          "aunque",
+          "porque",
+          "además"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es la mejor opción para conectar estas ideas? \"El internet es muy útil. _____, a veces puede ser peligroso.\"",
+        "choices": [
+          "Por eso",
+          "Sin embargo",
+          "También",
+          "Mientras"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de estas opciones es un ejemplo de una red social?",
+        "choices": [
+          "Google Drive",
+          "Facebook",
+          "Wikipedia",
+          "Microsoft Word"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué palabra usarías para unir estas frases?: \"Me gusta la tecnología. _____, no entiendo cómo funciona todo.\"",
+        "choices": [
+          "Pero",
+          "O",
+          "Aunque",
+          "Además"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
       
       // 20 Fill in the Blanks
 
@@ -3579,6 +5220,66 @@ export const quiz = [
       {
         "question": "Necesito buscar información ______ (después, antes) de comenzar el trabajo.",
         "choices": ["antes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Para abrir mi correo, necesito escribir mi usuario y mi ________.",
+        "choices": ["contraseña"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La computadora se apaga sola ______ no tiene batería.",
+        "choices": ["porque"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Puedes enviarme el archivo ______ WhatsApp o por correo electrónico.",
+        "choices": ["por"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Tengo que actualizar mi sistema, ______ no puedo usar el programa.",
+        "choices": ["así que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Antes de descargar la aplicación, debes leer los ______ de uso.",
+        "choices": ["términos"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mi teléfono se dañó, ______ ahora uso la computadora para comunicarme.",
+        "choices": ["por eso"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "No puedo enviar el mensaje ______ no tengo conexión a internet.",
+        "choices": ["porque"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "A veces prefiero usar la tableta, _______ es más fácil de transportar.",
+        "choices": ["ya que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Google es un famoso _______ de búsqueda.",
+        "choices": ["motor"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La videollamada se cortó _______ la señal era muy mala.",
+        "choices": ["porque"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -3705,6 +5406,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "¿Cuál de los siguientes es un género de película?",
+        "choices": [
+          "Ficción científica",
+          "Revista",
+          "Periódico",
+          "Noticia"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué tipo de medio es la radio?",
+        "choices": [
+          "Impreso",
+          "Audiovisual",
+          "Digital",
+          "Ninguna de las anteriores"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Quién es el protagonista en una obra de teatro?",
+        "choices": [
+          "El director",
+          "El personaje principal",
+          "El público",
+          "El guionista"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué es un documental?",
+        "choices": [
+          "Una película basada en hechos reales",
+          "Una novela de terror",
+          "Un programa de comedia",
+          "Una serie de ficción"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se llama el conjunto de películas de una misma historia?",
+        "choices": [
+          "Saga",
+          "Revista",
+          "Noticiero",
+          "Poema"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué tipo de texto es una noticia en un periódico?",
+        "choices": [
+          "Literario",
+          "Informativo",
+          "Científico",
+          "Publicitario"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de los siguientes es un sinónimo de \"película\"?",
+        "choices": [
+          "Novela",
+          "Cine",
+          "Filme",
+          "Serie"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Qué función tienen las cláusulas de relativo?",
+        "choices": [
+          "Expresar tiempo",
+          "Conectar oraciones y dar información adicional",
+          "Indicar una acción futura",
+          "Ninguna de las anteriores"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de las siguientes opciones es una obra literaria?",
+        "choices": [
+          "El Quijote",
+          "Netflix",
+          "Spotify",
+          "Instagram"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cómo se llama la persona que escribe libros?",
+        "choices": [
+          "Director",
+          "Lector",
+          "Autor",
+          "Actor"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
       
       // 20 Fill in the Blanks
 
@@ -3764,6 +5575,66 @@ export const quiz = [
       },
       {
         "question": "El periódico ______ (que/quien) me suscribí es muy popular.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La serie ______ vimos anoche fue emocionante.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El director ______ ganó el premio es muy talentoso.",
+        "choices": ["quien"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La película ______ recomendaron es de acción.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Me gusta el autor ______ escribió ese libro.",
+        "choices": ["quien"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La novela ______ estoy leyendo es muy larga.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La actriz ______ protagonizó la película es famosa.",
+        "choices": ["quien"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El programa de televisión ______ veo cada semana es educativo.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La noticia ______ publicaron en el periódico era falsa.",
+        "choices": ["que"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El escritor ______ conocí en la feria del libro es argentino.",
+        "choices": ["quien"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "El documental ______ vimos en la escuela trata sobre la naturaleza.",
         "choices": ["que"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
@@ -3891,6 +5762,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "¿Qué significa 'beneficencia'?",
+        "choices": [
+          "Un impuesto",
+          "Una organización de ayuda",
+          "Un tipo de trabajo",
+          "Una empresa privada"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de estas opciones es un problema social?",
+        "choices": [
+          "La solidaridad",
+          "La pobreza",
+          "La educación",
+          "La cooperación"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de estas frases está en pasado?",
+        "choices": [
+          "Ayudaré a mi comunidad",
+          "Estoy ayudando a mi comunidad",
+          "Ayer ayudé a mi comunidad",
+          "Ayudo a mi comunidad todos los días"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Quién suele trabajar en una ONG?",
+        "choices": [
+          "Científicos",
+          "Voluntarios",
+          "Empresarios",
+          "Artistas"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué tenso se usa para hablar de hábitos en el pasado?",
+        "choices": [
+          "Pretérito perfecto",
+          "Pretérito imperfecto",
+          "Futuro",
+          "Presente"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál de las siguientes no es una profesión relacionada con el servicio comunitario?",
+        "choices": [
+          "Bombero",
+          "Abogado",
+          "Carpintero",
+          "Trabajador social"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál de estas frases está en condicional?",
+        "choices": [
+          "Me gustaría ser voluntario",
+          "Ayudo en el comedor social",
+          "He trabajado en una ONG",
+          "Trabajamos en la comunidad"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué problema social afecta a muchas comunidades?",
+        "choices": [
+          "La solidaridad",
+          "La desigualdad",
+          "La cooperación",
+          "El voluntariado"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué forma verbal está en pretérito perfecto?",
+        "choices": [
+          "He donado ropa a la beneficencia",
+          "Donaré ropa a la beneficencia",
+          "Donaba ropa a la beneficencia",
+          "Dono ropa a la beneficencia"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Cuál de estas palabras describe a alguien que trabaja sin recibir pago?",
+        "choices": [
+          "Empleado",
+          "Voluntario",
+          "Cliente",
+          "Jefe"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
       
       // 20 Fill in the Blanks
 
@@ -3951,6 +5932,66 @@ export const quiz = [
       {
         "question": "El gobierno ______ (trabajar) en una campaña para mejorar la salud pública.",
         "choices": ["trabaja"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La ______ (solidarity) es importante para ayudar a los más necesitados.",
+        "choices": ["solidaridad"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Muchas personas ______ (collaborate) en campañas de ayuda humanitaria.",
+        "choices": ["colaboran"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La organización sin ánimo de lucro ______ (donates) alimentos a los pobres.",
+        "choices": ["dona"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Es necesario que todos ______ (contribute) al bienestar social.",
+        "choices": ["contribuyan"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En mi barrio, hay un grupo de ______ (volunteers) que ayuda a los ancianos.",
+        "choices": ["voluntarios"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "En el futuro, yo ______ (will work) en una ONG para ayudar a la comunidad.",
+        "choices": ["trabajaré"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "La pobreza es un ______ (problem) que afecta a muchas personas en el mundo.",
+        "choices": ["problema"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ayer ______ (visited) un centro de acogida para personas sin hogar.",
+        "choices": ["visité"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Los ciudadanos deben respetar y seguir las ______ (laws) de su país.",
+        "choices": ["leyes"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nosotros ______ (will help) en la organización de un evento solidario la próxima semana.",
+        "choices": ["ayudaremos"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },

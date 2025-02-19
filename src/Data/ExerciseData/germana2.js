@@ -1811,6 +1811,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 3
       },
+      {
+        "question": "Welches Verkehrsmittel fährt unter der Erde?",
+        "choices": [
+          "Die U-Bahn",
+          "Der Bus",
+          "Das Flugzeug",
+          "Der Zug"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welches Verkehrsmittel wird durch Muskelkraft angetrieben?",
+        "choices": [
+          "Der Bus",
+          "Das Fahrrad",
+          "Das Flugzeug",
+          "Der Zug"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches Reisedokument braucht man oft innerhalb der EU?",
+        "choices": [
+          "Das Visum",
+          "Der Fahrplan",
+          "Der Personalausweis",
+          "Die Fahrkarte"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Mit welchem Verkehrsmittel fährt man meistens im Linienverkehr in der Stadt?",
+        "choices": [
+          "Der Zug",
+          "Das Flugzeug",
+          "Die Straßenbahn",
+          "Das Schiff"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Verkehrsmittel kann man mieten, um die Stadt zu erkunden?",
+        "choices": [
+          "Der Zug",
+          "Das Flugzeug",
+          "Das Fahrrad",
+          "Der Bus"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Verkehrsmittel bringt dich über einen Fluss?",
+        "choices": [
+          "Die U-Bahn",
+          "Das Taxi",
+          "Die Fähre",
+          "Der Bus"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welcher Ort ist für den Flugverkehr zuständig?",
+        "choices": [
+          "Der Bahnhof",
+          "Der Hafen",
+          "Der Flughafen",
+          "Die Haltestelle"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Wort beschreibt den Vorgang, wenn man im Voraus ein Hotelzimmer reserviert?",
+        "choices": [
+          "Packen",
+          "Buchen",
+          "Einsteigen",
+          "Fliegen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was bedeutet „Ankunft“?",
+        "choices": [
+          "Die Abfahrt",
+          "Das Gepäck",
+          "Das Eintreffen am Zielort",
+          "Der Flug"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Ticket kauft man für öffentliche Verkehrsmittel?",
+        "choices": [
+          "Der Reisepass",
+          "Der Fahrplan",
+          "Die Fahrkarte",
+          "Das Gepäck"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
 
       // 20 Fill in the Blanks
       {
@@ -1870,6 +1980,66 @@ export const quiz = [
       {
         "question": "Du ______ den Fahrplan überprüfen, bevor du gehst. (Hint: werden)",
         "choices": ["wirst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Nächste Woche ______ ich mit der U-Bahn zur Arbeit fahren. (Hint: werden)",
+        "choices": ["werde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ ein neues Fahrrad kaufen, um umweltfreundlich zu reisen. (Hint: werden)",
+        "choices": ["wirst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ bald eine Reise nach Italien buchen. (Hint: werden)",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ morgen seinen Reisepass erneuern. (Hint: werden)",
+        "choices": ["wird"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ______ später das Schiff für eine Kreuzfahrt besteigen. (Hint: werden)",
+        "choices": ["werdet"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Züge ______ pünktlich ankommen. (Hint: werden)",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ morgen meinen Flug online einchecken. (Hint: werden)",
+        "choices": ["werde"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ im Hotel übernachten und uns ausruhen. (Hint: werden)",
+        "choices": ["werden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ eine Fahrkarte am Automaten kaufen. (Hint: werden)",
+        "choices": ["wirst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Meine Freunde ______ im Sommer eine Busreise machen. (Hint: werden)",
+        "choices": ["werden"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2006,69 +2176,238 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "Was bedeutet „Schuhe“ auf Englisch?",
+        "choices": [
+          "Shirt",
+          "Shoes",
+          "Socks",
+          "Shorts"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie fragt man nach dem Preis eines Produkts im Geschäft?",
+        "choices": [
+          "Wie spät ist es?",
+          "Was kostet das?",
+          "Wo ist das?",
+          "Wie heißt das?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches Adjektiv passt zu „Rock“?",
+        "choices": [
+          "Kleines",
+          "Kleine",
+          "Kleiner",
+          "Kleinen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie sagt man „I like this dress“ auf Deutsch?",
+        "choices": [
+          "Ich liebe dieses Kleid",
+          "Ich mag dieses Kleid",
+          "Ich habe dieses Kleid",
+          "Ich trage dieses Kleid"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was ist der Plural von „Schuh“?",
+        "choices": [
+          "Schuhes",
+          "Schuhe",
+          "Schuhs",
+          "Schuhen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was bedeutet „Rabatt“ auf Englisch?",
+        "choices": [
+          "Price",
+          "Discount",
+          "Receipt",
+          "Cash"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches Adjektiv passt zu „das Hemd“ im Akkusativ?",
+        "choices": [
+          "Das blau Hemd",
+          "Das blauen Hemd",
+          "Das blaue Hemd",
+          "Das blauer Hemd"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Wort gehört nicht zu Kleidung?",
+        "choices": [
+          "Pullover",
+          "Hose",
+          "Schal",
+          "Suppe"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 4
+      },
+      {
+        "question": "Wie sagt man „Can I try this on?“ auf Deutsch?",
+        "choices": [
+          "Kann ich das probieren?",
+          "Kann ich das bezahlen?",
+          "Kann ich das anprobieren?",
+          "Kann ich das kaufen?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welches Wort beschreibt Kleidung, die nicht teuer ist?",
+        "choices": [
+          "Teuer",
+          "Billig",
+          "Elegant",
+          "Schön"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
 
       // 20 Fill in the Blanks
       {
         "question": "Ich möchte ein ______ (jacket) kaufen.",
         "choices": ["Jacke", "Kleidung", "Kleid", "Schuhe"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
         "question": "Hast du ______ (clothes) für den Sommer gekauft?",
         "choices": ["Kleider", "Kleid", "Hosen", "Schuhe"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
         "question": "Der ______ (dress) ist zu teuer für mich.",
         "choices": ["Kleid", "Jacke", "T-Shirt", "Pullover"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
         "question": "Ich brauche noch ______ (shoes) für die Party.",
         "choices": ["Schuhe", "Kleidung", "Socken", "Mantel"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
         "question": "Welche ______ (shirt) gefällt dir am besten?",
         "choices": ["Hemd", "Kleid", "Pullover", "T-Shirt"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
         "question": "Die ______ (jeans) passen mir nicht.",
         "choices": ["Jeans", "Kleidung", "Hose", "Jacke"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
         "question": "Wir gehen ______ (shopping) im Zentrum.",
         "choices": ["Einkaufen", "Reisen", "Arbeiten", "Essen"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
         "question": "Ich habe keine ______ (money) mehr für neue Kleidung.",
         "choices": ["Geld", "Kleider", "Schuhe", "Taschen"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
         "question": "______ (where) kann ich das kaufen?",
         "choices": ["Wo", "Wie", "Was", "Warum"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
         "question": "Das ______ (coat) ist warm genug für den Winter.",
         "choices": ["Mantel", "Hemd", "Pullover", "T-Shirt"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
-
+      {
+        "question": "Ich brauche eine neue ______ (bag) für die Schule.",
+        "choices": ["Tasche"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der ______ (sweater) ist sehr warm im Winter.",
+        "choices": ["Pullover"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Hast du schon die ______ (shoes) für die Party gekauft?",
+        "choices": ["Schuhe"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich finde das ______ (shirt) sehr schön.",
+        "choices": ["Hemd"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die ______ (jacket) ist mir zu klein.",
+        "choices": ["Jacke"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich möchte mit ______ (card) bezahlen.",
+        "choices": ["Karte"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Preis für den Mantel ist zu ______ (high).",
+        "choices": ["hoch"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Das T-Shirt ist sehr ______ (cheap).",
+        "choices": ["billig"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir gehen morgen in die Stadt, um ______ (clothing) zu kaufen.",
+        "choices": ["Kleidung"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Schuhe passen mir nicht, sie sind zu ______ (big).",
+        "choices": ["groß"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
       {
   "question": "Ordne die Singular- und Pluralwörter zu.",
   "type": "MatchTheFollowing",
@@ -2201,6 +2540,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "Welche Aktivität macht man mit einem Fahrrad?",
+        "choices": [
+          "Schwimmen",
+          "Radfahren",
+          "Singen",
+          "Tanzen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was macht man, wenn man Bücher liebt?",
+        "choices": [
+          "Wandern",
+          "Malen",
+          "Lesen",
+          "Kochen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Welche der folgenden Aktivitäten braucht eine Kamera?",
+        "choices": [
+          "Fotografieren",
+          "Schwimmen",
+          "Reiten",
+          "Joggen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welche Aktivität ist ein Teamsport?",
+        "choices": [
+          "Schach spielen",
+          "Fußball spielen",
+          "Lesen",
+          "Zeichnen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Was kann man mit einem Musikinstrument tun?",
+        "choices": [
+          "Reiten",
+          "Spielen",
+          "Wandern",
+          "Malen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche Aktivität ist am besten für die Entspannung?",
+        "choices": [
+          "Joggen",
+          "Meditieren",
+          "Klettern",
+          "Tennis spielen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Wie sagt man „I like to hike“ auf Deutsch?",
+        "choices": [
+          "Ich spiele gern.",
+          "Ich tanze gern.",
+          "Ich wandere gern.",
+          "Ich male gern."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Was braucht man für das Schwimmen?",
+        "choices": [
+          "Ein Fahrrad",
+          "Einen Ball",
+          "Wasser",
+          "Ein Buch"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wie sagt man auf Deutsch: „He plays chess“?",
+        "choices": [
+          "Er spielt Schach.",
+          "Er spielst Schach.",
+          "Er spiele Schach.",
+          "Er spielen Schach."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welche der folgenden Tätigkeiten kann man drinnen machen?",
+        "choices": [
+          "Surfen",
+          "Skifahren",
+          "Malen",
+          "Wandern"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
 
       // 20 Fill in the Blanks
       {
@@ -2260,6 +2709,66 @@ export const quiz = [
       {
         "question": "Ihr ______ (reparieren) Autos als Hobby.",
         "choices": ["repariert", "reparieren", "reparierst", "repariertest"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ (spielen) oft mit seinen Freunden Fußball.",
+        "choices": ["spielt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ______ (wandern) gerne am Wochenende in den Bergen.",
+        "choices": ["wandern"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (zeichnen) gern, weil ich kreativ bin.",
+        "choices": ["zeichne"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ (tanzen) sehr gut!",
+        "choices": ["tanzt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ______ (spielen) jeden Abend Schach.",
+        "choices": ["spielt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (malen) ein großes Bild für den Kunstunterricht.",
+        "choices": ["malen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ______ (wandern) durch den Wald, um die Natur zu genießen.",
+        "choices": ["wandern"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mein Vater ______ (kochen) sehr gerne italienisches Essen.",
+        "choices": ["kocht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Junge ______ (spielen) den ganzen Tag mit seinem Hund.",
+        "choices": ["spielt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (reisen) im Sommer durch Europa.",
+        "choices": ["reisen"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2396,6 +2905,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 2
       },
+      {
+        "question": "What does \"die Schulter\" mean?",
+        "choices": [
+          "Shoulder",
+          "Knee",
+          "Elbow",
+          "Wrist"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"I can swim\" in German?",
+        "choices": [
+          "Ich muss schwimmen.",
+          "Ich kann schwimmen.",
+          "Ich darf schwimmen.",
+          "Ich soll schwimmen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the German word for \"throat\"?",
+        "choices": [
+          "das Bein",
+          "der Hals",
+          "der Arm",
+          "die Lippe"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which modal verb is used to express ability?",
+        "choices": [
+          "können",
+          "müssen",
+          "sollen",
+          "dürfen"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"die Lunge\" mean?",
+        "choices": [
+          "Liver",
+          "Heart",
+          "Lungs",
+          "Stomach"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "What is the correct \"können\" form for wir?",
+        "choices": [
+          "kann",
+          "kannst",
+          "können",
+          "könnt"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 3
+      },
+      {
+        "question": "How do you say \"He must take medicine\" in German?",
+        "choices": [
+          "Er kann Medizin nehmen.",
+          "Er muss Medizin nehmen.",
+          "Er soll Medizin nehmen.",
+          "Er darf Medizin nehmen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"das Knie\" mean?",
+        "choices": [
+          "Hand",
+          "Knee",
+          "Foot",
+          "Head"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "How do you say \"I must drink more water\" in German?",
+        "choices": [
+          "Ich kann mehr Wasser trinken.",
+          "Ich muss mehr Wasser trinken.",
+          "Ich darf mehr Wasser trinken.",
+          "Ich soll mehr Wasser trinken."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct \"müssen\" form for sie (plural)?",
+        "choices": [
+          "müssen",
+          "musst",
+          "müsst",
+          "muss"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       // 20 Fill in the Blanks
       {
@@ -2455,6 +3074,66 @@ export const quiz = [
       {
         "question": "Du ______ (können) Deutsch sprechen, um mit dem Arzt zu kommunizieren.",
         "choices": ["kannst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Mein Bruder ______ (müssen) heute ins Krankenhaus gehen.",
+        "choices": ["muss"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (können) nicht laufen, weil mein Bein verletzt ist.",
+        "choices": ["kann"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Du ______ (müssen) eine Pause machen, wenn du müde bist.",
+        "choices": ["musst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir ______ (können) nächste Woche zum Zahnarzt gehen.",
+        "choices": ["können"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Arzt sagt, dass sie mehr Gemüse essen ______ (müssen).",
+        "choices": ["muss"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Er ______ (können) mit der rechten Hand schreiben.",
+        "choices": ["kann"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ihr ______ (müssen) pünktlich zur Untersuchung kommen.",
+        "choices": ["müsst"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Kinder ______ (können) im Park spielen, wenn es sonnig ist.",
+        "choices": ["können"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie ______ (müssen) regelmäßig Sport treiben, um gesund zu bleiben.",
+        "choices": ["müssen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich ______ (können) nicht zur Arbeit gehen, weil ich krank bin.",
+        "choices": ["kann"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
@@ -2591,6 +3270,116 @@ export const quiz = [
         "type": "MCQs",
         "correctAnswer": 1
       },
+      {
+        "question": "What does \"Es ist halb acht\" mean?",
+        "choices": [
+          "It is 7:30",
+          "It is 8:30",
+          "It is 7:00",
+          "It is 8:00"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which of the following is a correct sentence in the Perfekt tense?",
+        "choices": [
+          "Ich bin nach Hause gelaufen.",
+          "Ich laufe nach Hause.",
+          "Ich bin nach Hause laufen.",
+          "Ich hatte nach Hause gelaufen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"She has slept well\" in German?",
+        "choices": [
+          "Sie schläft gut.",
+          "Sie hat gut geschlafen.",
+          "Sie geschlafen gut hat.",
+          "Sie hatte gut schlafen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "Which of the following means \"The train arrived at 6 o’clock\"?",
+        "choices": [
+          "Der Zug hat um sechs Uhr ankommen.",
+          "Der Zug ist um sechs Uhr angekommen.",
+          "Der Zug haben um sechs Uhr angekommen.",
+          "Der Zug ist um sechs Uhr kommen an."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What is the correct past form of \"Ich sehe den Film\"?",
+        "choices": [
+          "Ich habe den Film gesehen.",
+          "Ich sehe den Film gehabt.",
+          "Ich hat den Film gesehen.",
+          "Ich habe sehen den Film."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Choose the correct translation for \"They wrote an email\".",
+        "choices": [
+          "Sie haben eine E-Mail geschrieben.",
+          "Sie hat eine E-Mail geschrieben.",
+          "Sie haben eine E-Mail schreiben.",
+          "Sie hat eine E-Mail schreiben."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "What does \"Wann beginnt die Schule?\" mean?",
+        "choices": [
+          "When does school start?",
+          "What subject is in school?",
+          "How is school going?",
+          "What time does school end?"
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "How do you say \"He read the book\" in German?",
+        "choices": [
+          "Er hat das Buch gelesen.",
+          "Er ist das Buch gelesen.",
+          "Er hat das Buch lesen.",
+          "Er hatte das Buch gelesen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Which sentence correctly uses Perfekt with a sein verb?",
+        "choices": [
+          "Ich habe im Park gespielt.",
+          "Ich bin nach Hause gegangen.",
+          "Ich habe nach Hause gegangen.",
+          "Ich ist ins Kino gegangen."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 2
+      },
+      {
+        "question": "What does \"Ich bin gestern spät ins Bett gegangen\" mean?",
+        "choices": [
+          "I went to bed late yesterday.",
+          "I go to bed late every day.",
+          "I will go to bed late tomorrow.",
+          "I never go to bed late."
+        ],
+        "type": "MCQs",
+        "correctAnswer": 1
+      },
 
       // 20 Fill in the Blanks
 
@@ -2651,6 +3440,66 @@ export const quiz = [
       {
         "question": "Um wie viel Uhr seid ______ (gehen) ihr ins Bett?",
         "choices": ["gegangen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Gestern ______ (haben) wir einen schönen Tag.",
+        "choices": ["hatten"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich bin um sechs Uhr ______ (aufstehen).",
+        "choices": ["aufgestanden"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Letzte Woche haben wir einen Ausflug ______ (machen).",
+        "choices": ["gemacht"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wann bist du nach Hause ______ (kommen)?",
+        "choices": ["gekommen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Sie hat eine Tasse Kaffee ______ (trinken).",
+        "choices": ["getrunken"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wir haben in Berlin zwei Tage ______ (bleiben).",
+        "choices": ["geblieben"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe gestern meine Hausaufgaben ______ (vergessen).",
+        "choices": ["vergessen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Die Kinder haben im Garten ______ (spielen).",
+        "choices": ["gespielt"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Der Film hat um acht Uhr ______ (beginnen).",
+        "choices": ["begonnen"],
+        "type": "FillInTheBlanks",
+        "correctAnswer": 1
+      },
+      {
+        "question": "Ich habe mit meinen Freunden am Abend ______ (telefonieren).",
+        "choices": ["telefoniert"],
         "type": "FillInTheBlanks",
         "correctAnswer": 1
       },
