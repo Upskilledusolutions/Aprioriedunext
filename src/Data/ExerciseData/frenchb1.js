@@ -66,6 +66,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 3
         },
+        {
+          "question": "Which sentence correctly uses a reflexive verb in the present tense for 'to wash oneself'?",
+          "choices": [
+            "Je lave.",
+            "Je me lave.",
+            "Je te lave.",
+            "Je lave moi-même."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following adjectives best describes a person who is optimistic?",
+          "choices": [
+            "pessimiste",
+            "optimiste",
+            "timide",
+            "sérieux"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Choose the correct reflexive construction for 'to get dressed' in French.",
+          "choices": [
+            "Je m'habille.",
+            "Je habille.",
+            "Je te habille.",
+            "Je s'habille."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Identify the sentence that is in the present tense.",
+          "choices": [
+            "Il se levait tôt.",
+            "Il se lève tôt.",
+            "Il se lèvera tôt.",
+            "Il s'est levé tôt."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of these adjectives would you use to describe someone with a friendly personality?",
+          "choices": [
+            "réservé",
+            "arrogant",
+            "amical",
+            "fatigué"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Select the sentence that correctly uses a reflexive pronoun with the verb 'se coucher' (to go to bed) in the present tense.",
+          "choices": [
+            "Tu coucher.",
+            "Tu te couches.",
+            "Tu te couches.",
+            "Tu te couchons."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence correctly describes a person with a slender physique?",
+          "choices": [
+            "Il est gros.",
+            "Il est musclé.",
+            "Il est mince.",
+            "Il est petit."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Choose the correct form of the reflexive verb 'to enjoy oneself' in French for 'nous.'",
+          "choices": [
+            "Nous nous amuse.",
+            "Nous nous amusons.",
+            "Nous amusons.",
+            "Nous nous amuser."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which adjective would best describe someone who is both creative and imaginative?",
+          "choices": [
+            "créatif",
+            "ennuyeux",
+            "sérieux",
+            "timide"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence is correct for 'She wakes up at 6 AM' using a reflexive verb in French?",
+          "choices": [
+            "Elle se lève à 6 heures.",
+            "Elle lève à 6 heures.",
+            "Elle se lèvera à 6 heures.",
+            "Elle se levait à 6 heures."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
 
             {
               "question": "Je ______ (se lever) à 7 heures du matin chaque jour.",
@@ -124,6 +234,66 @@ export const quiz = [
             {
               "question": "Il est grand et ______ (brun), avec des yeux verts magnifiques.",
               "choices": ["brun"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Je ______ (se réveiller) à 7 heures tous les matins.",
+              "choices": ["me réveille"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Tu ______ (s'habiller) rapidement pour l'école.",
+              "choices": ["t'habilles"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Il ______ (se doucher) après le sport.",
+              "choices": ["se douche"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Nous ______ (se coucher) tôt le soir.",
+              "choices": ["nous nous couchons"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Vous ______ (se maquiller) avant de sortir.",
+              "choices": ["vous vous maquillez"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Ils ______ (se coiffer) avant d'aller au travail.",
+              "choices": ["se coiffent"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Marie ______ (être) très charmante et souriante.",
+              "choices": ["est"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Marc ______ (avoir) des yeux bleus et des cheveux bruns.",
+              "choices": ["a"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Nous ______ (être) toujours optimistes malgré les difficultés.",
+              "choices": ["sommes"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Tu ______ (se reposer) après une longue journée de travail.",
+              "choices": ["te reposes"],
               "type": "FillInTheBlanks",
               "correctAnswer": 1
             },
@@ -261,6 +431,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 3
         },
+        {
+          "question": "Which of the following is the correct imperfect form of 'manger' for 'nous'?",
+          "choices": [
+            "mangions",
+            "mangeons",
+            "mangiez",
+            "mangeaient"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which French word means 'to sweep'?",
+          "choices": [
+            "balayer",
+            "essuyer",
+            "dépoussiérer",
+            "ranger"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of these is the correct imperfect form of 'lire' for 'elle'?",
+          "choices": [
+            "lisait",
+            "lit",
+            "lisiez",
+            "lisions"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 'passer l’aspirateur' mean?",
+          "choices": [
+            "to dust",
+            "to vacuum",
+            "to mop",
+            "to clean"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Choose the correct imperfect form of 'être' for 'vous':",
+          "choices": [
+            "étiez",
+            "étions",
+            "étaient",
+            "étais"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which phrase means 'to do the laundry'?",
+          "choices": [
+            "faire la lessive",
+            "laver la vaisselle",
+            "repasser les vêtements",
+            "balayer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct imperfect form of 'voir' for 'tu'?",
+          "choices": [
+            "voyais",
+            "voyait",
+            "voyions",
+            "voyiez"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the French word for 'to dust'?",
+          "choices": [
+            "dépoussiérer",
+            "nettoyer",
+            "balayer",
+            "laver"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly uses the imperfect tense?",
+          "choices": [
+            "Quand il faisait beau, nous allions à la plage.",
+            "Quand il fait beau, nous allions à la plage.",
+            "Quand il faisait beau, nous allons à la plage.",
+            "Quand il fait beau, nous allons à la plage."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which phrase means 'to tidy up the room'?",
+          "choices": [
+            "ranger la chambre",
+            "mettre la table",
+            "nettoyer le salon",
+            "préparer le repas"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
 
             {
               "question": "Quand j'étais jeune, je ______ (jouer) au cricket tous les soirs.",
@@ -319,6 +599,66 @@ export const quiz = [
             {
               "question": "Pendant les vacances, nous ______ (se promener) au bord de la mer.",
               "choices": ["nous promenions"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Quand tu ______ (faire) du sport le matin, tu te sentais en forme.",
+              "choices": ["faisais"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Elle ______ (nettoyer) sa chambre tous les samedis.",
+              "choices": ["nettoyait"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Nous ______ (regarder) la télévision pendant que nos parents discutaient.",
+              "choices": ["regardions"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Vous ______ (préparer) le petit-déjeuner ensemble chaque dimanche.",
+              "choices": ["prépariez"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Il ______ (balayer) le sol de la cuisine après le dîner.",
+              "choices": ["balayait"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Elles ______ (passer) l’aspirateur dans le salon l’après-midi.",
+              "choices": ["passaient"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Quand j’étais enfant, je ______ (aider) mes parents avec les tâches ménagères.",
+              "choices": ["aidais"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Tu ______ (nettoyer) la salle de bains pendant que je faisais la cuisine.",
+              "choices": ["nettoyais"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Ils ______ (faire) le ménage ensemble chaque week-end.",
+              "choices": ["faisaient"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Chaque dimanche, ma mère ______ (laver) le linge de la maison.",
+              "choices": ["lavait"],
               "type": "FillInTheBlanks",
               "correctAnswer": 1
             },
@@ -461,6 +801,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 3
         },
+        {
+          "question": "Quel adverbe indique généralement une habitude dans le passé ?",
+          "choices": [
+            "soudain",
+            "brusquement",
+            "toujours",
+            "immédiatement"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Pour décrire une action ponctuelle qui interrompt une situation en cours, quel temps est utilisé ?",
+          "choices": [
+            "le futur",
+            "le passé composé",
+            "l'imparfait",
+            "le conditionnel"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Dans la phrase suivante : 'Pendant que nous ______ (se promener) dans le parc, il a commencé à pleuvoir', quel temps convient pour le verbe entre parenthèses ?",
+          "choices": [
+            "nous nous promenions",
+            "nous nous sommes promenés",
+            "nous promenions",
+            "nous sommes promenés"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lequel des indicateurs temporels est typiquement associé au passé composé ?",
+          "choices": [
+            "toujours",
+            "souvent",
+            "tout à coup",
+            "d'habitude"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel temps utilise-t-on pour décrire une action habituelle dans le passé ?",
+          "choices": [
+            "le passé composé",
+            "l'imparfait",
+            "le futur",
+            "le conditionnel"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot désigne un voyage organisé qui couvre plusieurs villes en France ?",
+          "choices": [
+            "excursion",
+            "circuit",
+            "séjour",
+            "randonnée"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel document est indispensable pour voyager à l'étranger ?",
+          "choices": [
+            "passeport",
+            "carte d'identité",
+            "visa",
+            "billet"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel terme décrit le lieu où l'on séjourne pendant les vacances ?",
+          "choices": [
+            "hébergement",
+            "destination",
+            "excursion",
+            "itinéraire"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel mot français signifie 'to book' (faire une réservation) dans le contexte du voyage ?",
+          "choices": [
+            "réserver",
+            "annuler",
+            "confirmer",
+            "organiser"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Choisissez la phrase correctement construite :",
+          "choices": [
+            "Quand nous avons voyagé, il faisait souvent beau.",
+            "Pendant nos vacances, nous étions réserver un hôtel.",
+            "Hier, nous avons voyagé quand il pleuvait.",
+            "L'année dernière, nous visitions un château célèbre."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
 
             {
               "question": "L'année dernière, je ______ (aller) en France pour mes vacances.",
@@ -519,6 +969,66 @@ export const quiz = [
             {
               "question": "L'été dernier, nous ______ (passer) nos vacances en Provence.",
               "choices": ["avons passé"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "L'été dernier, nous ______ (visiter) plusieurs îles en Méditerranée.",
+              "choices": ["avons visité"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Quand j'étais enfant, je ______ (rêver) de devenir explorateur.",
+              "choices": ["rêvais"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Pendant nos vacances, nous ______ (se promener) sur la plage chaque matin.",
+              "choices": ["nous nous promenions"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Hier, je ______ (réserver) une chambre d'hôtel pour mon séjour à Nice.",
+              "choices": ["ai réservé"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Pendant mon voyage en Italie, je ______ (découvrir) de nombreux monuments historiques.",
+              "choices": ["ai découvert"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Quand nous étions en vacances, nous ______ (se détendre) souvent au bord de la piscine.",
+              "choices": ["nous nous détendions"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "L'année dernière, ils ______ (faire) une croisière dans les Caraïbes.",
+              "choices": ["ont fait"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Quand j'étais en voyage, je ______ (prendre) toujours mon appareil photo.",
+              "choices": ["prenais"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Pendant nos vacances à la montagne, il ______ (neiger) souvent en soirée.",
+              "choices": ["neigeait"],
+              "type": "FillInTheBlanks",
+              "correctAnswer": 1
+            },
+            {
+              "question": "Après avoir séjourné dans un bel hôtel, nous ______ (se reposer) pendant tout le weekend.",
+              "choices": ["nous nous sommes reposés"],
               "type": "FillInTheBlanks",
               "correctAnswer": 1
             },
@@ -661,6 +1171,116 @@ export const quiz = [
           "type": "MCQs",
           "correctAnswer": 3
         },
+        {
+          "question": "Which sentence correctly compares two restaurants by indicating that one is tastier than the other?",
+          "choices": [
+            "Ce restaurant est plus bon que l’autre.",
+            "Ce restaurant est meilleur que l’autre.",
+            "Ce restaurant est le plus bon que l’autre.",
+            "Ce restaurant est moins bon que l’autre."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence correctly uses the superlative to describe the best meal?",
+          "choices": [
+            "C'est la plus bonne repas que j'ai mangé.",
+            "C'est le meilleur repas que j'ai mangé.",
+            "C'est le plus bon repas que j'ai mangé.",
+            "C'est la meilleur repas que j'ai mangé."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence correctly compares the portion sizes offered by two restaurants?",
+          "choices": [
+            "Le restaurant A offre moins généreux portions que le restaurant B.",
+            "Le restaurant A offre des portions plus généreux que le restaurant B.",
+            "Le restaurant A offre des portions plus généreuses que le restaurant B.",
+            "Le restaurant A offre des portions le plus généreuses que le restaurant B."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence correctly expresses that a curry is as spicy as another?",
+          "choices": [
+            "Ce curry est aussi épicé que le précédent.",
+            "Ce curry est plus épicé que le précédent.",
+            "Ce curry est moins épicé que le précédent.",
+            "Ce curry est le plus épicé que le précédent."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly indicates that a salad is less good than a sandwich?",
+          "choices": [
+            "Cette salade est moins bonne que le sandwich.",
+            "Cette salade est moins bon que le sandwich.",
+            "Cette salade est plus bonne que le sandwich.",
+            "Cette salade est plus bon que le sandwich."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly uses the superlative form to describe a dish?",
+          "choices": [
+            "C'est la moins savoureux plat du menu.",
+            "C'est le plat le plus savoureux du menu.",
+            "C'est le plus savoureux plat du menu.",
+            "C'est la plat le plus savoureux du menu."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence correctly compares the level of service in two restaurants?",
+          "choices": [
+            "Le service dans ce restaurant est meilleur que dans l'autre.",
+            "Le service dans ce restaurant est plus bon que dans l'autre.",
+            "Le service dans ce restaurant est le meilleur que dans l'autre.",
+            "Le service dans ce restaurant est moins bon que dans l'autre."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly indicates that one restaurant is as expensive as another?",
+          "choices": [
+            "Ce restaurant est aussi cher que l'autre.",
+            "Ce restaurant est plus cher que l'autre.",
+            "Ce restaurant est moins cher que l'autre.",
+            "Ce restaurant est le plus cher que l'autre."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly compares the ambiance of two eateries?",
+          "choices": [
+            "L'ambiance de ce café est plus calme que celle du restaurant.",
+            "L'ambiance de ce café est plus calme que l'ambiance du restaurant.",
+            "L'ambiance de ce café est calme que celle du restaurant.",
+            "L'ambiance de ce café est moins calme que celle du restaurant."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly uses the superlative to express the best dining experience?",
+          "choices": [
+            "C'est l'expérience la plus agréable que j'aie eue.",
+            "C'est l'expérience la plus agréable que j'ai eue.",
+            "C'est l'expérience la plus agréablement que j'ai eue.",
+            "C'est l'expérience le plus agréable que j'aie eue."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
 
         {
           "question": "Je pense que la pizza est ______ (better) bonne que les pâtes.",
@@ -719,6 +1339,66 @@ export const quiz = [
         {
           "question": "Ce restaurant est ______ (the most) populaire du quartier.",
           "choices": ["le plus"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce gâteau est ______ (better) que le gâteau au chocolat.",
+          "choices": ["meilleur"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cette pizza est ______ (as tasty as) celle que j'ai mangée hier.",
+          "choices": ["aussi bonne"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le chef a préparé le plat ______ (most delicious) du menu.",
+          "choices": ["le plus délicieux"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons trouvé ce restaurant ______ (as cozy as) le café du coin.",
+          "choices": ["aussi chaleureux"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le service dans ce restaurant est ______ (less efficient) que dans celui-ci.",
+          "choices": ["moins efficace"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'aime manger des ______ (fresh vegetables) au marché local.",
+          "choices": ["légumes frais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je préfère la cuisine ______ (traditional) dans ce pays.",
+          "choices": ["traditionnelle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons dégusté un ______ (exquisite) dessert qui était absolument délicieux.",
+          "choices": ["exquis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cette tarte est ______ (more appetizing) que celle du pâtissier d'en face.",
+          "choices": ["plus appétissante"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils commandent toujours le plat ______ (most popular) du menu quand ils dînent ici.",
+          "choices": ["le plus populaire"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -846,6 +1526,116 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Quel est le futur simple de « finir » pour « tu » ?",
+          "choices": [
+            "finis",
+            "finiras",
+            "finira",
+            "finirons"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Dans la phrase : « Elle ______ (étudier) à l'étranger l'année prochaine, » quelle est la forme correcte du verbe au futur simple ?",
+          "choices": [
+            "étudiera",
+            "étudie",
+            "étudié",
+            "étudierait"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est le futur simple de « voyager » pour « nous » ?",
+          "choices": [
+            "voyagerons",
+            "voyagera",
+            "voyageons",
+            "voyageront"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : « Ils ______ (travailler) sur un projet international l'été prochain. »",
+          "choices": [
+            "travailleront",
+            "travaillent",
+            "travaillerai",
+            "travailleras"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel verbe signifie « to study » dans le contexte des études ?",
+          "choices": [
+            "voyager",
+            "travailler",
+            "étudier",
+            "explorer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Choisissez le mot approprié pour « job » en français dans un contexte formel :",
+          "choices": [
+            "emploi",
+            "travail",
+            "boulot",
+            "métier"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est le futur simple de « aller » pour « vous » ?",
+          "choices": [
+            "irez",
+            "allez",
+            "allerez",
+            "alleront"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans quel contexte utilise-t-on le futur simple en français ?",
+          "choices": [
+            "pour décrire une habitude passée",
+            "pour exprimer une action future",
+            "pour exprimer une opinion",
+            "pour donner un ordre"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Lequel des mots suivants n'est pas lié aux voyages ?",
+          "choices": [
+            "aéroport",
+            "gare",
+            "bibliothèque",
+            "hôtel"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel est le futur simple du verbe « prendre » pour « je » ?",
+          "choices": [
+            "prendrai",
+            "prends",
+            "prendreai",
+            "prendra"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
           "question": "L’année prochaine, je ______ (partir) en vacances en France.",
           "choices": ["partirai", "partiras", "partira", "partirons"],
           "type": "FillInTheBlanks",
@@ -902,6 +1692,66 @@ export const quiz = [
         {
           "question": "Elle ______ (préparer) son projet de recherche pour la conférence.",
           "choices": ["prépare", "préparera", "préparerai", "prépares"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'année prochaine, je ______ (finir) mes études universitaires.",
+          "choices": ["finirai"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Demain, tu ______ (partir) en voyage d'affaires.",
+          "choices": ["partiras"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (travailler) sur un nouveau projet de recherche cet été.",
+          "choices": ["travaillerons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ (recevoir) une promotion s'il continue de bien travailler.",
+          "choices": ["recevra"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (étudier) le français pendant vos vacances en France.",
+          "choices": ["étudierez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (visiter) plusieurs musées lors de leur séjour à Paris.",
+          "choices": ["visiteront"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (prendre) un vol direct pour New York la semaine prochaine.",
+          "choices": ["prendra"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le directeur ______ (annoncer) les résultats du projet demain.",
+          "choices": ["annoncera"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (apprendre) beaucoup de choses lors de mon stage cet été.",
+          "choices": ["apprendrai"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (choisir) une carrière dans le domaine de l'informatique, n'est-ce pas ?",
+          "choices": ["choisiras"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1044,6 +1894,116 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Dans la phrase « J’ai acheté le livre », quel pronom remplace « le livre » ?",
+          "choices": [
+            "le",
+            "la",
+            "lui",
+            "leur"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans la phrase « Marie donne un cadeau à son ami », quel pronom remplace « à son ami » ?",
+          "choices": [
+            "le",
+            "la",
+            "lui",
+            "leur"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Pour remplacer « les vêtements » dans la phrase « J’admire les vêtements », quel pronom doit être utilisé ?",
+          "choices": [
+            "les",
+            "lui",
+            "en",
+            "y"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans la phrase « Elle montre la robe à sa mère », quel pronom remplace « à sa mère » ?",
+          "choices": [
+            "la",
+            "lui",
+            "leur",
+            "en"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel adjectif décrit un style vestimentaire original et audacieux ?",
+          "choices": [
+            "démodé",
+            "extravagant",
+            "banal",
+            "classique"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel pronom remplace correctement « les sacs » dans la phrase « Elle vend les sacs » ?",
+          "choices": [
+            "les",
+            "lui",
+            "en",
+            "leur"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans la phrase « Tu offres le parfum à ton amie », quel pronom remplace « à ton amie » ?",
+          "choices": [
+            "lui",
+            "la",
+            "en",
+            "y"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans la phrase « Il admire la robe rouge », quel pronom remplace « la robe rouge » ?",
+          "choices": [
+            "le",
+            "la",
+            "lui",
+            "en"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel terme désigne l’achat de produits via Internet ?",
+          "choices": [
+            "le shopping",
+            "l’e-commerce",
+            "le négoce",
+            "le troc"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Dans la phrase « Il envoie une lettre à sa sœur », quel pronom remplace « à sa sœur » ?",
+          "choices": [
+            "la",
+            "lui",
+            "les",
+            "en"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           "question": "Je veux acheter ______ (une/une robe) pour la fête.",
           "choices": ["une", "une robe"],
           "type": "FillInTheBlanks",
@@ -1100,6 +2060,66 @@ export const quiz = [
         {
           "question": "Cette jupe, je la trouve très ______ (jolie/joli).",
           "choices": ["jolie", "joli"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je cherche ______ (un/une) accessoire pour compléter ma tenue.",
+          "choices": ["un"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle adore ______ (cette/cet) robe; elle est vraiment tendance.",
+          "choices": ["cette"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons acheté ______ (ces/cette) vestes en solde.",
+          "choices": ["ces"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (la/lui) donne mon avis à la vendeuse sur ce nouveau style.",
+          "choices": ["lui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (le/la) as vu dans la vitrine, n'est-ce pas ?",
+          "choices": ["la"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (lui/les) offrons nos compliments au designer.",
+          "choices": ["lui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "(Ce/Cette) ______ pantalon est à la mode cette saison.",
+          "choices": ["Ce"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il adore ______ (ce/cet) accessoire, il le trouve unique.",
+          "choices": ["cet"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le vendeur ______ (nous/leur) montre les nouveautés du magasin.",
+          "choices": ["nous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Après avoir essayé ______ (les/leur) manteaux, elles ont choisi le plus confortable.",
+          "choices": ["les"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1227,6 +2247,116 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Which of the following sentences is in the imperative mood?",
+          "choices": [
+            "Va à la gare.",
+            "Je vais à la gare.",
+            "Il va à la gare.",
+            "Nous allons à la gare."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the correct imperative form of the verb 'attendre' for 'tu'?",
+          "choices": [
+            "Attends",
+            "Attendez",
+            "Attendre",
+            "Attend"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following is the correct imperative form of 'être' for giving advice?",
+          "choices": [
+            "Sois",
+            "Être",
+            "Es",
+            "Est"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which vocabulary word best describes a 'station de métro'?",
+          "choices": [
+            "A bus stop",
+            "A metro station",
+            "A train station",
+            "An airport terminal"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "How do you say 'Turn left' in French using the imperative mood?",
+          "choices": [
+            "Tournez à gauche.",
+            "Tournes à gauche.",
+            "Tournez à droite.",
+            "Tournez à la gauche."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Choose the correct formal command to instruct someone to 'Take the exit.'",
+          "choices": [
+            "Prenez la sortie.",
+            "Prends la sortie.",
+            "Tu prends la sortie.",
+            "Vous prenez la sortie."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which city landmark is referred to by the word 'mairie'?",
+          "choices": [
+            "The museum",
+            "The city hall",
+            "The train station",
+            "The library"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Identify the correct imperative command using a reflexive verb to ask someone to stop:",
+          "choices": [
+            "Arrête-toi devant le parc.",
+            "Tu arrêtes devant le parc.",
+            "Vous arrêtez devant le parc.",
+            "Il arrête devant le parc."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the French term for 'bus ticket'?",
+          "choices": [
+            "Un billet de bus",
+            "Un ticket de bus",
+            "Un passe de bus",
+            "Un laissez-passer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you say 'Don't forget your ticket' informally in French using the negative imperative?",
+          "choices": [
+            "N'oublie pas ton billet!",
+            "N'oubliez pas ton billet!",
+            "N'oublie pas votre billet!",
+            "N'oubliez pas votre billet!"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
           "question": "Complétez la phrase : Pour aller à la gare, tourne à ______ à la rue principale.",
           "choices": ["gauche", "droite", "tout droit", "derrière"],
           "type": "FillInTheBlanks",
@@ -1285,6 +2415,66 @@ export const quiz = [
           "choices": ["Allez", "Tournez", "Montez", "Sortez"],
           "type": "FillInTheBlanks",
           "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : ______ à gauche au feu, puis continue tout droit.",
+          "choices": ["Tourne"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______ ton ticket avant de monter dans le bus.",
+          "choices": ["Prends"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______ prudent en traversant la rue.",
+          "choices": ["Sois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______-toi devant le musée pour admirer l'architecture.",
+          "choices": ["Arrête-toi"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______ au feu rouge avant de traverser la rue.",
+          "choices": ["Attends"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : Après le métro, ______ vers la mairie en suivant les indications.",
+          "choices": ["Va"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______ dans le taxi pour aller à l'aéroport rapidement.",
+          "choices": ["Monte"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______ bien le panneau pour ne pas manquer la sortie.",
+          "choices": ["Regarde"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______ votre itinéraire en ville en consultant la carte.",
+          "choices": ["Vérifiez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complétez la phrase : ______ dans le bon sens à la prochaine intersection.",
+          "choices": ["Continue"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
         },
 
         {
@@ -1410,6 +2600,116 @@ export const quiz = [
           "correctAnswer": 3
         },
         {
+          "question": "Quel verbe est correctement utilisé avec 'jouer' lorsqu'on parle d'un instrument de musique?",
+          "choices": [
+            "à jouer",
+            "de jouer",
+            "en jouant",
+            "jouer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est le verbe correct pour exprimer une activité artistique comme la peinture?",
+          "choices": [
+            "à peindre",
+            "de peindre",
+            "en peignant",
+            "peindre"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel est le bon préfixe avec 'jouer' lorsqu'on parle d'un sport collectif?",
+          "choices": [
+            "de jouer",
+            "en jouant",
+            "à jouer",
+            "jouer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle est la bonne manière d'exprimer une action en cours?",
+          "choices": [
+            "en pratiquant",
+            "à pratiquer",
+            "pratique",
+            "de pratiquer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle est une forme d'art impliquant la création de formes tridimensionnelles?",
+          "choices": [
+            "peinture",
+            "dessin",
+            "sculpture",
+            "photographie"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel mot correspond à une activité artistique utilisant un crayon ou un pinceau?",
+          "choices": [
+            "dessin",
+            "peinture",
+            "sculpture",
+            "photographie"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel sport est principalement joué avec un ballon au pied?",
+          "choices": [
+            "basketball",
+            "football",
+            "tennis",
+            "volleyball"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle activité consiste à marcher dans la nature pour le plaisir?",
+          "choices": [
+            "randonnée",
+            "cyclisme",
+            "équitation",
+            "canoë"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle activité sportive se pratique principalement dans l'eau?",
+          "choices": [
+            "athlétisme",
+            "escalade",
+            "ski",
+            "natation"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Quel verbe est utilisé pour parler d'activités de loisirs comme du sport ou de la musique?",
+          "choices": [
+            "faire",
+            "jouer",
+            "aller",
+            "écouter"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
           "question": "J'adore ______ (paint) des tableaux modernes.",
           "choices": ["peindre"],
           "type": "FillInTheBlanks",
@@ -1466,6 +2766,66 @@ export const quiz = [
         {
           "question": "Nous aimons ______ (create) des sculptures en argile.",
           "choices": ["créer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il a arrêté ______ au football après sa blessure. (Hint: to play)",
+          "choices": ["de jouer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle a commencé ______ le violon dès son enfance. (Hint: to play)",
+          "choices": ["à jouer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils se sont améliorés ______ en jouant au tennis. (Hint: by practicing)",
+          "choices": ["en pratiquant"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour oublier ses soucis, elle se détend ______ en peignant. (Hint: by painting)",
+          "choices": ["en peignant"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour exprimer ses émotions, il aime ______ de la poésie. (Hint: to write)",
+          "choices": ["écrire"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il adore ______ pendant l’été à la plage. (Hint: to swim)",
+          "choices": ["nager"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons décidé ______ le festival de théâtre cet automne. (Hint: to attend)",
+          "choices": ["d’assister à"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Après ______ ses devoirs, il joue de la guitare. (Hint: to finish)",
+          "choices": ["avoir fini"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour s’exprimer artistiquement, elle aime ______ le ballet. (Hint: to dance)",
+          "choices": ["danser"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ont l’habitude ______ le chant classique le weekend. (Hint: to practice)",
+          "choices": ["de pratiquer"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1608,6 +2968,71 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
+          "question": "Quel pronom relatif complète correctement la phrase : « La femme _____ parle est mon professeur. »",
+          "choices": ["que", "qui", "dont", "où"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment dit-on “cousin” en français quand il s'agit d'un homme ?",
+          "choices": ["Cousine", "Cousin", "Frère", "Oncle"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel pronom relatif est utilisé pour remplacer un complément d'objet direct ?",
+          "choices": ["Qui", "Que", "Dont", "Où"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Dans la phrase « Le frère _____ je t'ai parlé vient d'arriver », quel est le rôle du pronom relatif ?",
+          "choices": ["Sujet", "Complément d'objet direct", "Complément d'objet indirect", "Adverbe"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que signifie « la belle-mère » en anglais ?",
+          "choices": ["Sister-in-law", "Mother-in-law", "Stepmother", "Aunt"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel pronom relatif convient pour compléter : « Le père _____ travaille ici est très strict. »",
+          "choices": ["que", "qui", "dont", "lequel"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Laquelle des phrases suivantes est correcte ?",
+          "choices": [
+            "La sœur que parle est très gentille.",
+            "La sœur qui parle est très gentille.",
+            "La sœur dont parle est très gentille.",
+            "La sœur laquelle parle est très gentille."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment traduit-on “uncle” en français ?",
+          "choices": ["Oncle", "Beau-frère", "Frère", "Cousin"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel pronom relatif remplace correctement « la personne » dans la phrase : « La personne _____ j'admire est célèbre. »",
+          "choices": ["que", "qui", "dont", "où"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Que signifie « le demi-frère » en anglais ?",
+          "choices": ["Half-brother", "Stepbrother", "Cousin", "Nephew"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
           "question": "Mon frère, ______ habite à Paris, est professeur.",
           "choices": ["qui", "que", "dont", "lequel"],
           "type": "FillInTheBlanks",
@@ -1664,6 +3089,66 @@ export const quiz = [
         {
           "question": "Voici l'ami ______ je t'ai parlé hier.",
           "choices": ["dont", "qui", "que", "auquel"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon oncle, ______ adore cuisiner, prépare souvent de bons plats.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La femme ______ j'ai vue hier est la mère de mon ami.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les enfants, ______ jouent dans le jardin, sont les neveux de ma sœur.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L'homme ______ tu as rencontré au café est mon beau-père.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ma sœur, ______ habite à Bordeaux, travaille dans une banque.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le cousin ______ j'ai rencontré lors des vacances est très drôle.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ma grand-mère, ______ raconte souvent des histoires, est très sage.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le frère ______ j'ai rencontré est très sympathique.",
+          "choices": ["que"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ma fille, ______ adore lire, a gagné un concours de poésie.",
+          "choices": ["qui"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les parents ______ nous connaissons organisent souvent des réunions de famille.",
+          "choices": ["que"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1797,6 +3282,81 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
+          "question": "Quel est le terme pour une blessure grave nécessitant des points de suture ?",
+          "choices": ["Une coupure", "Une brûlure", "Une fracture", "Une égratignure"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Comment exprimer la politesse en français avec le conditionnel ?",
+          "choices": [
+            "Tu me donnes un médicament.",
+            "Tu me donnerais un médicament ?",
+            "Donne-moi un médicament.",
+            "Je prends un médicament."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase est correcte pour demander de l'aide poliment ?",
+          "choices": [
+            "Peux-tu m'aider ?",
+            "Tu dois m’aider.",
+            "Pourrais-tu m'aider ?",
+            "Aide-moi."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel mot désigne un professionnel qui s'occupe des patients dans un hôpital ?",
+          "choices": ["Un pharmacien", "Un chirurgien", "Un dentiste", "Un architecte"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si vous aviez une forte fièvre, vous ______ voir un médecin.",
+          "choices": ["allez", "iriez", "irez", "êtes allé"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel terme désigne un problème médical grave nécessitant une intervention rapide ?",
+          "choices": ["Une consultation", "Une urgence", "Un traitement", "Une ordonnance"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si j'étais vous, je ______ immédiatement une ambulance.",
+          "choices": ["appelle", "appellerais", "appelais", "appelerais"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel mot correspond à une inflammation de la gorge ?",
+          "choices": ["Une angine", "Une allergie", "Une grippe", "Une infection"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Comment traduit-on « He would take some medicine » en français ?",
+          "choices": [
+            "Il prendra des médicaments.",
+            "Il a pris des médicaments.",
+            "Il prendrait des médicaments.",
+            "Il prend des médicaments."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Si vous aviez un accident, que feriez-vous ?",
+          "choices": ["J'appelle mes amis.", "Je dors.", "J'irais aux urgences.", "Je bois un café."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
           "question": "En cas d'urgence, je devrais appeler le ______ (ambulance).",
           "choices": ["ambulance"],
           "type": "FillInTheBlanks",
@@ -1853,6 +3413,66 @@ export const quiz = [
         {
           "question": "Elle est tombée et elle a une ______ (blessure) à la tête.",
           "choices": ["blessure"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j'avais mal à la tête, je ______ (prendre - conditionnel) un antidouleur.",
+          "choices": ["prendrais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j'étais médecin, je ______ (soigner - conditionnel) les patients avec attention.",
+          "choices": ["soignerais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "En cas de crise cardiaque, il faut appeler le numéro d'______ (urgence).",
+          "choices": ["urgence"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vous aviez de la fièvre, vous ______ (rester - conditionnel) au lit.",
+          "choices": ["resteriez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'ai une toux forte, je dois prendre un ______ (sirop).",
+          "choices": ["sirop"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Excusez-moi, pourriez-vous m'indiquer où se trouve l’______ (hôpital) le plus proche ?",
+          "choices": ["hôpital"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Après un accident, il est essentiel de vérifier le ______ (pouls) de la victime.",
+          "choices": ["pouls"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j'étais infirmière, je ______ (travailler - conditionnel) dans un hôpital.",
+          "choices": ["travaillerais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’ai une fracture, donc je dois porter un ______ (plâtre).",
+          "choices": ["plâtre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour calmer une douleur, on peut appliquer une ______ (pommade).",
+          "choices": ["pommade"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -1974,6 +3594,96 @@ export const quiz = [
           "correctAnswer": 3
         },
         {
+          "question": "Quel adverbe de quantité signifie 'not enough' ?",
+          "choices": ["Beaucoup", "Trop", "Peu", "Assez"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "\"Il a ______ de travail à faire avant les vacances.\" Quel adverbe convient ?",
+          "choices": ["assez", "trop", "beaucoup", "peu"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "Il mange peu de légumes.",
+            "Il mange peu légumes.",
+            "Il mange des peu légumes.",
+            "Il mange un peu légumes."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "\"Elle boit ______ de café tous les matins.\"",
+          "choices": ["trop", "peu", "beaucoup", "assez"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel mot signifie 'une somme d'argent empruntée à une banque' ?",
+          "choices": ["un prêt", "une épargne", "un dépôt", "un découvert"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un 'compte courant' est utilisé principalement pour…",
+          "choices": [
+            "investir en bourse",
+            "recevoir son salaire et payer des dépenses courantes",
+            "épargner de l'argent à long terme",
+            "acheter des actions"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que signifie 'faire faillite' ?",
+          "choices": [
+            "Avoir beaucoup d’argent",
+            "Ne plus pouvoir rembourser ses dettes",
+            "Investir dans un nouveau projet",
+            "Payer toutes ses dettes"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est le rôle d’un conseiller financier ?",
+          "choices": [
+            "Retirer de l'argent des comptes des clients",
+            "Guider les clients pour gérer leur argent et investissements",
+            "Collecter les taxes pour le gouvernement",
+            "Travailler uniquement avec les grandes entreprises"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Le 'taux d’intérêt' est…",
+          "choices": [
+            "La somme d’argent économisée chaque mois",
+            "Le pourcentage ajouté à un prêt ou un dépôt",
+            "La quantité d’argent qu’une banque peut prêter",
+            "Un type de compte bancaire"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel document officiel doit-on souvent présenter pour obtenir un prêt ?",
+          "choices": [
+            "Une carte bancaire",
+            "Une carte de fidélité",
+            "Un justificatif de revenus",
+            "Un ticket de caisse"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
           "question": "Quel adverbe complète : “Il dépense ________ d’argent en vêtements” ?",
           "choices": ["trop", "assez", "peu", "beaucoup"],
           "type": "MCQs",
@@ -2036,6 +3746,66 @@ export const quiz = [
         {
           "question": "Je vais échanger des roupies contre des ______ (euros) à la banque.",
           "choices": ["euros", "dollars", "livres", "yens"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il y a ______ (too many) frais bancaires sur mon compte.",
+          "choices": ["trop de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle dépense ______ (a lot of) son salaire en shopping.",
+          "choices": ["beaucoup de"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour acheter cette maison, nous devons emprunter ______ (enough) d’argent.",
+          "choices": ["assez d’"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons mis ______ (a little) d’argent de côté pour les vacances.",
+          "choices": ["un peu d’"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avant d’ouvrir un compte, il faut remplir ______ (several) formulaires.",
+          "choices": ["plusieurs"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il faut épargner ______ (more) pour l’avenir.",
+          "choices": ["plus"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Après avoir payé toutes ses dettes, il lui reste ______ (very little) sur son compte.",
+          "choices": ["très peu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La banque m’a accordé un prêt avec un ______ (low) taux d’intérêt.",
+          "choices": ["bas"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Chaque mois, je transfère une partie de mon salaire sur mon compte ______ (savings).",
+          "choices": ["épargne"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avant de voyager, il est conseillé de vérifier le ______ (exchange rate) de la devise locale.",
+          "choices": ["taux de change"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -2163,6 +3933,96 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
+          "question": "Quelle est la voix passive de 'On a publié cet article hier' ?",
+          "choices": [
+            "Cet article a publié hier.",
+            "Cet article est publié hier.",
+            "Cet article a été publié hier.",
+            "Cet article était publié hier."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Comment forme-t-on la voix passive en français ?",
+          "choices": [
+            "En ajoutant 'être' à l’infinitif du verbe",
+            "En conjuguant 'être' et en ajoutant le participe passé",
+            "En utilisant uniquement le participe passé",
+            "En changeant l’ordre des mots sans modifier le verbe"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "\"Les informations sont diffusées chaque matin.\" Quelle est la voix active de cette phrase ?",
+          "choices": [
+            "Chaque matin, on diffuse les informations.",
+            "Chaque matin, les informations diffusaient.",
+            "Chaque matin, les informations sont diffusées.",
+            "Chaque matin, il diffuse les informations."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel verbe auxiliaire est utilisé pour former la voix passive ?",
+          "choices": ["Avoir", "Être", "Faire", "Aller"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "\"Le reportage sera présenté par la journaliste.\" Quelle est la voix active ?",
+          "choices": [
+            "La journaliste présentera le reportage.",
+            "Le reportage présente la journaliste.",
+            "Le reportage est présenté par la journaliste.",
+            "La journaliste est présentée par le reportage."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Comment appelle-t-on une personne qui rédige des articles pour un journal ?",
+          "choices": ["Un animateur", "Un éditeur", "Un rédacteur", "Un chroniqueur"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel mot désigne un journal publié chaque jour ?",
+          "choices": ["Une revue", "Un magazine", "Un hebdomadaire", "Un quotidien"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Comment nomme-t-on une émission de télévision consacrée à l’actualité ?",
+          "choices": ["Un débat", "Un documentaire", "Un journal télévisé", "Une publicité"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel est le terme pour désigner une personne qui enquête et rapporte des faits dans les médias ?",
+          "choices": [
+            "Un présentateur",
+            "Un correspondant",
+            "Un journaliste",
+            "Un rédacteur en chef"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle phrase est incorrecte ?",
+          "choices": [
+            "La vérité doit être dite.",
+            "L’article a été écrit hier.",
+            "L’information était diffusée aujourd’hui.",
+            "Le reportage sera publié demain."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
           "question": "Les nouvelles sont ______ (publier) chaque matin dans le journal local.",
           "choices": ["publiées"],
           "type": "FillInTheBlanks",
@@ -2219,6 +4079,66 @@ export const quiz = [
         {
           "question": "Les images du tremblement de terre ont été ______ (montrer) sur toutes les chaînes d’information.",
           "choices": ["montrées"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce reportage sera ______ (présenter) demain à la télévision.",
+          "choices": ["présenté"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les invités ont été ______ (interviewer) après l’émission.",
+          "choices": ["interviewés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La nouvelle loi a été ______ (annoncer) hier soir.",
+          "choices": ["annoncée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les fausses nouvelles doivent être ______ (combattre) par les médias.",
+          "choices": ["combattues"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’information a été ______ (divulguer) par un journaliste anonyme.",
+          "choices": ["divulguée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce documentaire est ______ (produire) par une grande chaîne.",
+          "choices": ["produit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La photo a été ______ (prendre) par un reporter sur place.",
+          "choices": ["prise"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les résultats du sondage seront ______ (publier) dans le journal de demain.",
+          "choices": ["publiés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le discours du président a été ______ (enregistrer) avant d’être diffusé.",
+          "choices": ["enregistré"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La vérité est toujours ______ (révéler) tôt ou tard.",
+          "choices": ["révélée"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -2346,6 +4266,116 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Which of the following expressions requires the subjunctive?",
+          "choices": [
+            "Je pense que",
+            "Je crois que",
+            "Il est possible que",
+            "Il est sûr que"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence correctly uses the subjunctive?",
+          "choices": [
+            "J’espère que tu viens demain.",
+            "Je veux que tu sois prudent.",
+            "Il pense que nous avons raison.",
+            "Nous savons que vous êtes ici."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "The verb 'aller' in the subjunctive for 'nous' is:",
+          "choices": [
+            "allions",
+            "allons",
+            "irions",
+            "alliez"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which of the following requires the subjunctive?",
+          "choices": [
+            "Je suis certain que",
+            "Il est probable que",
+            "Je doute que",
+            "Il paraît que"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which verb form is correct in the sentence: 'Il est important que vous _______ la vérité.'",
+          "choices": [
+            "sachiez",
+            "savez",
+            "savez",
+            "saviez"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does 'l'Assemblée nationale' refer to in French politics?",
+          "choices": [
+            "The President's cabinet",
+            "The upper house of Parliament",
+            "The lower house of Parliament",
+            "A political party"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of the following is not a political party in France?",
+          "choices": [
+            "La République en Marche",
+            "Le Front Populaire",
+            "Les Républicains",
+            "Le Parti Travailliste"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Who is the head of state in France?",
+          "choices": [
+            "The Prime Minister",
+            "The President",
+            "The Senate President",
+            "The Mayor of Paris"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "The French Senate is located in:",
+          "choices": [
+            "L'Élysée",
+            "L’Hôtel de Ville",
+            "Le Palais du Luxembourg",
+            "Le Panthéon"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What does the term 'scrutin proportionnel' refer to in elections?",
+          "choices": [
+            "A voting system where each voter has two votes",
+            "A system where seats are allocated based on the percentage of votes received",
+            "A voting system where the President is elected directly by the people",
+            "A referendum process"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           "question": "Il faut que tu ______ (faire) tes devoirs avant de sortir.",
           "choices": ["fasses", "ferez", "faisiez", "faire"],
           "type": "FillInTheBlanks",
@@ -2402,6 +4432,66 @@ export const quiz = [
         {
           "question": "Il est dommage que vous ______ (ne pas pouvoir) participer à la réunion.",
           "choices": ["ne puissiez", "ne pouvez", "ne pouviez", "ne pouvoir"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est possible que nous ______ (venir) plus tard.",
+          "choices": ["venions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il faut que tu ______ (prendre) une décision rapidement.",
+          "choices": ["prennes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ne crois pas que cela ______ (être) une bonne idée.",
+          "choices": ["soit"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est nécessaire que nous ______ (faire) des efforts pour résoudre ce problème.",
+          "choices": ["fassions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Bien que vous ______ (savoir) la réponse, vous devez écouter les autres.",
+          "choices": ["sachiez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour que la loi soit adoptée, l’Assemblée nationale et le Sénat doivent l’______ (approuver).",
+          "choices": ["approuver"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le Président de la République est élu au suffrage ______ (universel).",
+          "choices": ["universel"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La France est une ______ (République / Monarchie), avec un président élu.",
+          "choices": ["République"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le gouvernement est dirigé par le ______ (Premier ministre).",
+          "choices": ["Premier ministre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un citoyen a le droit de ______ (voter) aux élections présidentielles à partir de 18 ans.",
+          "choices": ["voter"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -2558,6 +4648,116 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
+          "question": "Which sentence correctly uses a hypothetical past (si + plus-que-parfait + conditionnel passé)?",
+          "choices": [
+            "Si j'ai du temps, je serais allé à la conférence.",
+            "Si j'avais eu du temps, je serais allé à la conférence.",
+            "Si j'ai eu du temps, j'irais à la conférence.",
+            "Si j'avais du temps, j'irai à la conférence."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does 'embaucher quelqu'un' mean?",
+          "choices": [
+            "To fire someone",
+            "To train someone",
+            "To hire someone",
+            "To promote someone"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Choose the correct verb form: 'Si nous ______ (savoir) la réponse, nous aurions pu aider.'",
+          "choices": [
+            "savons",
+            "savions",
+            "aurions su",
+            "avions su"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "What does 'un débouché professionnel' refer to?",
+          "choices": [
+            "A professional opportunity",
+            "A job interview",
+            "A career setback",
+            "A resignation"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Complete the sentence: 'Si tu avais fait un stage, tu ______ plus de compétences.'",
+          "choices": [
+            "aurais eu",
+            "as eu",
+            "auras",
+            "avais"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which phrase means 'to pass an exam' in French?",
+          "choices": [
+            "Réussir un examen",
+            "Manquer un examen",
+            "Rater un examen",
+            "Échouer un examen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "If someone says 'Il est en période d’essai', what does it mean?",
+          "choices": [
+            "He is on trial for a crime",
+            "He is in a probationary period at work",
+            "He is on vacation",
+            "He has received a promotion"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Choose the correct verb form: 'Si vous ______ (faire) plus d’efforts, vous auriez réussi.'",
+          "choices": [
+            "faites",
+            "faisiez",
+            "feriez",
+            "avez fait"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is 'une formation continue'?",
+          "choices": [
+            "A full-time job",
+            "A vocational training",
+            "A professional development course",
+            "A temporary job"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence correctly expresses a hypothetical present?",
+          "choices": [
+            "Si elle aurait du temps, elle apprendrait l’anglais.",
+            "Si elle avait du temps, elle apprendrait l’anglais.",
+            "Si elle a du temps, elle apprendrait l’anglais.",
+            "Si elle aura du temps, elle apprendrait l’anglais."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           "question": "Si j'______ (avoir) de bonnes notes, j'irai dans une université prestigieuse.",
           "choices": ["avais", "", "", ""],
           "type": "FillInTheBlanks",
@@ -2614,6 +4814,66 @@ export const quiz = [
         {
           "question": "Si elle ______ (postuler) à cette entreprise, elle serait embauchée.",
           "choices": ["postulait", "", "", ""],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si je ______ (réussir) mon diplôme, je pourrais postuler à ce poste.",
+          "choices": ["réussissais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vous ______ (parler) couramment anglais, vous auriez plus d’opportunités.",
+          "choices": ["parliez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous ______ (avoir) plus d'expérience, nous serions embauchés plus facilement.",
+          "choices": ["avions"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si elle ______ (prendre) un congé sabbatique, elle voyagerait à travers le monde.",
+          "choices": ["prenait"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si tu ______ (vouloir) une promotion, tu devrais travailler plus dur.",
+          "choices": ["voulais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si j'______ (choisir) une autre carrière, je serais peut-être plus heureux.",
+          "choices": ["choisissais"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si on ______ (ne pas faire) d’études, on aura moins de chances de réussir.",
+          "choices": ["ne fait pas"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si vous ______ (trouver) un stage intéressant, postulez rapidement !",
+          "choices": ["trouvez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si les entreprises ______ (offrir) plus de stages, les étudiants auraient plus d’expérience.",
+          "choices": ["offraient"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Si nous ______ (étudier) davantage, nous comprendrions mieux le sujet.",
+          "choices": ["étudiions"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -2740,6 +5000,116 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
+          "question": "Which sentence correctly follows the past participle agreement rule?",
+          "choices": [
+            "Marie a mangées les pommes.",
+            "Marie a mangé les pommes.",
+            "Marie a mangée les pommes.",
+            "Marie a mangé la pomme."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What is the correct past participle agreement for 'Elles sont _____ (descendre) du train'?",
+          "choices": [
+            "descendu",
+            "descendues",
+            "descendue",
+            "descendus"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "In the sentence 'Nous avons _____ (écrire) une lettre,' which form of the verb fits?",
+          "choices": [
+            "écris",
+            "écrites",
+            "écrit",
+            "écrite"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of the following art movements was founded by André Breton?",
+          "choices": [
+            "Impressionism",
+            "Surrealism",
+            "Cubism",
+            "Dadaism"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which past participle agreement is correct for 'Les garçons ont _____ (rentrer) tard'?",
+          "choices": [
+            "rentrés",
+            "rentrée",
+            "rentré",
+            "rentrées"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is the past participle of 'mourir' when used with 'être'?",
+          "choices": [
+            "mort",
+            "morte",
+            "morts",
+            "all of the above (depending on subject agreement)"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Who is considered a pioneer of the Cubist movement?",
+          "choices": [
+            "Claude Monet",
+            "Pablo Picasso",
+            "Edgar Degas",
+            "Salvador Dalí"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence correctly reflects past participle agreement?",
+          "choices": [
+            "Elles ont terminé leur travail.",
+            "Elles ont terminées leur travail.",
+            "Elles ont terminée leur travail.",
+            "Elles ont terminé leur travails."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "The art movement characterized by vibrant colors and non-realistic depictions is:",
+          "choices": [
+            "Baroque",
+            "Fauvism",
+            "Rococo",
+            "Realism"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which past participle is correct in 'Les fleurs que j’ai _____ (acheter) sont belles'?",
+          "choices": [
+            "acheté",
+            "achetés",
+            "achetée",
+            "achetées"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
           "question": "Elle a ______ (manger) une pomme.",
           "choices": ["mangé"],
           "type": "FillInTheBlanks",
@@ -2796,6 +5166,66 @@ export const quiz = [
         {
           "question": "Il a ______ (lire) un livre intéressant.",
           "choices": ["lu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons ______ (découvrir) un nouveau musée d’art moderne.",
+          "choices": ["découvert"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est ______ (rester) à Paris tout l’été.",
+          "choices": ["restée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ont ______ (comprendre) la leçon de grammaire.",
+          "choices": ["compris"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "La peinture impressionniste se caractérise par l’utilisation de ______ (couleur) vives.",
+          "choices": ["couleurs"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’ai ______ (ouvrir) un livre sur l’art abstrait.",
+          "choices": ["ouvert"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous avez ______ (recevoir) une invitation au vernissage.",
+          "choices": ["reçu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les artistes du surréalisme ont souvent ______ (représenter) des images de rêves.",
+          "choices": ["représenté"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous sommes ______ (monter) au dernier étage du musée.",
+          "choices": ["montés"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il a ______ (mettre) une sculpture en exposition.",
+          "choices": ["mis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "L’art baroque est souvent associé à des œuvres très ______ (décorer).",
+          "choices": ["décorées"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -2922,6 +5352,116 @@ export const quiz = [
           "correctAnswer": 2
         },
         {
+          "question": "Which of the following is an appropriate closing phrase in a formal letter?",
+          "choices": [
+            "À plus tard",
+            "Veuillez agréer, Monsieur/Madame, l’expression de mes salutations distinguées",
+            "Salut",
+            "À demain"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "In business correspondence, how would you formally request a document?",
+          "choices": [
+            "Tu peux me donner le document ?",
+            "Pouvez-vous me faire parvenir le document, s’il vous plaît ?",
+            "Passe-moi le document.",
+            "J’ai besoin du document tout de suite."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which term refers to an official business agreement?",
+          "choices": [
+            "Note",
+            "Rapport",
+            "Contrat",
+            "Message"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "What is the formal way to introduce the subject of a letter?",
+          "choices": [
+            "Je veux vous dire que…",
+            "J’espère que vous allez bien.",
+            "Je me permets de vous écrire au sujet de…",
+            "Ça va ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which phrase is often used to politely ask for an update in a business setting?",
+          "choices": [
+            "Où est ma réponse ?",
+            "Pouvez-vous me tenir informé de l’évolution de la situation ?",
+            "Rappelle-moi quand tu veux.",
+            "Je veux une réponse maintenant."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "In an official letter, how do you formally address a company representative?",
+          "choices": [
+            "Salut",
+            "Cher collègue",
+            "Monsieur/Madame",
+            "Hey"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which of these words is commonly used in formal business emails?",
+          "choices": [
+            "Cordialement",
+            "Bisous",
+            "À bientôt",
+            "Salut"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How do you formally decline an offer in a business email?",
+          "choices": [
+            "Désolé, je ne veux pas.",
+            "Je suis désolé, mais je ne peux pas accepter votre proposition.",
+            "Non, ça ne me plaît pas.",
+            "On verra plus tard."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which phrase would you use to confirm receipt of an email?",
+          "choices": [
+            "J’ai bien reçu votre email.",
+            "Je n’ai pas encore lu votre email.",
+            "Il faut que je vérifie mon courrier.",
+            "Je vous écris pour autre chose."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What is a formal way to express urgency in a letter?",
+          "choices": [
+            "C’est urgent, répondez vite !",
+            "Je vous serais reconnaissant de bien vouloir répondre dans les plus brefs délais.",
+            "J’ai besoin d’une réponse immédiate.",
+            "Allez, dépêchez-vous."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
           "question": "Lettre officielle: '______ Monsieur, Je vous écris pour vous informer de…'",
           "choices": ["Cher", "Monsieur/Madame", "Salut", "Madame"],
           "type": "FillInTheBlanks",
@@ -2978,6 +5518,66 @@ export const quiz = [
         {
           "question": "Official communication: 'Nous vous ______ de nous informer de la situation actuelle.'",
           "choices": ["prions", "remercions", "demandons", "invitons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans une lettre formelle, on commence souvent par « ______ Monsieur/Madame, » pour s’adresser au destinataire.",
+          "choices": ["Cher"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour demander une action officielle, on peut écrire : « Je vous prie de bien vouloir ______ à ma demande. »",
+          "choices": ["répondre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lorsqu’on joint un document à une lettre, on écrit : « Veuillez trouver ci-______ le document demandé. »",
+          "choices": ["joint"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Une entreprise envoie une ______ pour réclamer un paiement.",
+          "choices": ["facture"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "À la fin d’un courrier formel, on utilise souvent la formule : « Dans l’attente de votre ______, veuillez agréer mes salutations distinguées. »",
+          "choices": ["réponse"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour exprimer une demande polie, on peut écrire : « Nous vous serions reconnaissants de bien vouloir nous ______ votre réponse dès que possible. »",
+          "choices": ["envoyer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "En contexte professionnel, un « ______ » est un rendez-vous prévu à l’avance pour discuter d’un sujet précis.",
+          "choices": ["entretien"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lorsqu’on exprime des excuses dans une lettre officielle, on utilise souvent la phrase : « Nous vous ______ pour tout inconvénient causé. »",
+          "choices": ["présentons nos excuses"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Un courrier officiel adressé à plusieurs personnes peut commencer par « À l’attention de ______. »",
+          "choices": ["Messieurs/Dames"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour indiquer la réception d’un document officiel, on écrit : « Nous accusons ______ de votre courrier en date du 10 février. »",
+          "choices": ["réception"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -3104,6 +5704,116 @@ export const quiz = [
           "correctAnswer": 3
         },
         {
+          "question": "Quelle formule de politesse est correcte pour une lettre formelle ?",
+          "choices": [
+            "Bisous, à bientôt !",
+            "Cordialement,",
+            "Salut, comment ça va ?",
+            "À plus tard"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment commence-t-on une lettre officielle ?",
+          "choices": [
+            "Cher ami,",
+            "Madame, Monsieur,",
+            "Salut,",
+            "À mon cher collègue,"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle est la meilleure façon de demander une information dans une lettre formelle ?",
+          "choices": [
+            "Je veux savoir…",
+            "Pourriez-vous me renseigner sur… ?",
+            "Dis-moi ce que tu sais…",
+            "Envoie-moi les détails…"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle est la structure correcte d’une lettre de motivation ?",
+          "choices": [
+            "Introduction - Développement - Conclusion",
+            "Conclusion - Introduction - Développement",
+            "Développement - Conclusion - Introduction",
+            "Pas d’ordre spécifique"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle est la traduction correcte de « invoice » en français ?",
+          "choices": [
+            "Facture",
+            "Salaire",
+            "Bon de commande",
+            "Reçu"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel terme signifie « rendez-vous professionnel » ?",
+          "choices": [
+            "Réunion",
+            "Séance",
+            "Conférence",
+            "Dîner"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quelle est la meilleure façon de refuser une offre poliment ?",
+          "choices": [
+            "Non merci.",
+            "Je suis désolé(e), mais je ne peux pas accepter.",
+            "Pas possible.",
+            "Ça ne m'intéresse pas."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel est le synonyme de « employeur » ?",
+          "choices": [
+            "Patron",
+            "Ouvrier",
+            "Client",
+            "Partenaire"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel mot désigne une augmentation de salaire ?",
+          "choices": [
+            "Promotion",
+            "Prime",
+            "Revalorisation",
+            "Avancement"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Que signifie « postuler » ?",
+          "choices": [
+            "Accepter un travail",
+            "Refuser une offre",
+            "Envoyer une candidature",
+            "Démissionner"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
           "question": "Les voyageurs vont ______ Paris. (to)",
           "choices": ["à", "a"],
           "type": "FillInTheBlanks",
@@ -3160,6 +5870,66 @@ export const quiz = [
         {
           "question": "Nous vivons ______ Paris depuis trois ans. (in)",
           "choices": ["à", "a"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Veuillez trouver ci-joint ______ document demandé.",
+          "choices": ["le"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous accusons réception de votre ______ et nous vous remercions.",
+          "choices": ["courrier"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je me permets de vous contacter afin de ______ des informations supplémentaires.",
+          "choices": ["demander"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Dans l’attente de votre réponse, je vous prie d’agréer, Madame, Monsieur, mes salutations ______.",
+          "choices": ["distinguées"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous vous remercions pour votre ______ rapide à notre demande.",
+          "choices": ["réponse"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le service ______ s’occupe des paiements et des factures.",
+          "choices": ["comptabilité"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je souhaiterais prendre ______ avec le directeur au plus tôt.",
+          "choices": ["rendez-vous"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il a obtenu une ______ importante après plusieurs années dans l’entreprise.",
+          "choices": ["promotion"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous restons à votre ______ pour toute information complémentaire.",
+          "choices": ["disposition"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Merci de bien vouloir nous ______ votre confirmation avant vendredi.",
+          "choices": ["envoyer"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },

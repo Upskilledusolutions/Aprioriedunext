@@ -329,15 +329,18 @@ const Quiz = () => {
                     <td>{data.chosenanswer}</td>
                     <td>{data.rightanswer}</td>
                   </tr>)}
-                {filteredQuestions[activeQuestion].type === 'FillInTheBlanks' && report
-        .filter((data, i) => i % 2 !== 0) // Filter for odd indices
-        .map((data, i) => (
-          <tr key={i}>
-            <td>{i + 1}</td>
-            <td>{data.chosenanswer}</td>
-            <td>{data.rightanswer}</td>
-          </tr>
-        ))}
+                  {filteredQuestions[activeQuestion].type === 'FillInTheBlanks' &&
+                     Array.from({ length: filteredQuestions.length }).map((_, i) => {
+                      const data = report[i]; // Ensure we don't exceed report length
+                        return data ? (
+                          <tr key={i}>
+                          <td>{i + 1}</td>
+                          <td>{data.chosenanswer}</td>
+                          <td>{data.rightanswer}</td>
+                          </tr>
+                        ) : null; // Avoid rendering empty rows if report is shorter
+                      })
+                  }
                   </table>}
 
               

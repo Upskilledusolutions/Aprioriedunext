@@ -46,7 +46,6 @@ export default function FrenchQuizes() {
 
   const subject = somedata.subject
   let completedQuizzes1 = completedQuizzes.filter(data=> data.language == subject)
-
   return (
     <>
       <Head>
@@ -65,7 +64,8 @@ export default function FrenchQuizes() {
             {exerciseData?.map((data, index) => {
              const completedData = completedQuizzes1.find(quiz => quiz.exercise.toString() === data.quiz);
              // Determine if all required question types are completed
-             const isCompleted = completedData && completedData.questionTypes.length
+             const isCompleted = completedData && completedData.questionTypes.length > 2
+             console.log(isCompleted)
              const completedStyles = isCompleted ? styles.completed : ''; // Add completed styles
               return (
                 <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
