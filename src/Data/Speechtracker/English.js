@@ -1,68 +1,326 @@
 export const data = [
     {
-        id: '1',
-        name: 'English Speaking Practice 1 (A1)',
-        level: 'Beginner',
-        readingText: "Farming is one of the oldest professions in the world. Farmers wake up early in the morning, even before the sun rises, to begin their work. They take care of the animals on the farm, such as cows, chickens, and sheep. Farmers also grow crops like wheat, rice, and vegetables. These crops provide food for people all over the world."
+      "id": "1",
+      "name": "English Speaking Practice 1 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "The cat drinks warm milk.",
+        "A dog barks at strangers.",
+        "The sun shines over hills.",
+        "Birds sing sweet morning songs.",
+        "Children laugh in the park.",
+        "Leaves fall during autumn breeze.",
+        "Gentle rain cleans the streets.",
+        "A boat sails on calm water.",
+        "Stars sparkle in dark skies.",
+        "Wind whispers through silent trees."
+      ]
     },
     {
-        id: '2',
-        name: 'English Speaking Practice 2 (A1)',
-        level: 'Beginner',
-        readingText: "The weather can change rapidly in the mountains. It is important to be prepared for different conditions. In the summer, the days are warm and sunny, but it can get cold in the evenings. In the winter, snow covers the ground, and the temperatures can drop below freezing. Always carry extra clothing and supplies when hiking in the mountains."
+      "id": "2",
+      "name": "English Speaking Practice 2 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "A bird lands on branch.",
+        "The little child draws with crayons.",
+        "I ride my shiny blue bicycle.",
+        "Books open new worlds daily.",
+        "Coffee warms me on cool mornings.",
+        "A rainbow appears after rain.",
+        "Trees sway under soft wind.",
+        "The clock ticks in silence.",
+        "Music fills the quiet room.",
+        "Clouds drift across blue sky."
+      ]
     },
     {
-        id: '3',
-        name: 'English Speaking Practice 3 (A1)',
-        level: 'Intermediate',
-        readingText: "In the modern world, technology plays an essential role in everyday life. We use computers and smartphones to communicate, shop, and access information. The internet has opened up new opportunities for education, business, and entertainment. However, it's important to use technology responsibly and balance it with offline activities for a healthy lifestyle."
+      "id": "3",
+      "name": "English Speaking Practice 3 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Dogs run in the yard.",
+        "Sunflowers bloom under bright sun.",
+        "Snow covers the quiet field.",
+        "Kids play with colorful kites.",
+        "I enjoy fresh orange juice.",
+        "The bird chirps at sunrise.",
+        "Paper boats sail on puddles.",
+        "Mice scurry under old tables.",
+        "A bell rings in town.",
+        "Waves crash on sandy shores."
+      ]
     },
     {
-        id: '4',
-        name: 'English Speaking Practice 4 (A1)',
-        level: 'Intermediate',
-        readingText: "Healthy eating is crucial for maintaining a strong body and mind. A balanced diet includes a variety of foods from different food groups, such as fruits, vegetables, proteins, and grains. It's also important to drink plenty of water and limit the consumption of processed foods and sugary drinks. Regular physical activity combined with healthy eating can prevent many health issues."
+      "id": "4",
+      "name": "English Speaking Practice 4 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "The frog jumps over logs.",
+        "Stars twinkle on clear nights.",
+        "Rainbows arc across the sky.",
+        "Butterflies flutter near bright flowers.",
+        "The clock shows ten o'clock.",
+        "Ice melts in warm hands.",
+        "Music soothes the tired soul.",
+        "Balloons float in bright air.",
+        "A book opens new ideas.",
+        "He writes a simple letter."
+      ]
     },
     {
-        id: '5',
-        name: 'English Speaking Practice 5 (A1)',
-        level: 'Advanced',
-        readingText: "Climate change is one of the most pressing challenges of our time. The Earth’s temperature is rising due to human activities such as deforestation and burning fossil fuels. This leads to more frequent extreme weather events, such as floods, heatwaves, and droughts. Governments, businesses, and individuals must work together to reduce carbon emissions and protect the planet for future generations."
+      "id": "5",
+      "name": "English Speaking Practice 5 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Morning dew glistens on grass.",
+        "Clouds gather before the storm.",
+        "The river flows steadily onward.",
+        "A bee buzzes around flowers.",
+        "Mountains rise above green valleys.",
+        "A clock ticks in silence.",
+        "Winter brings cold, clear air.",
+        "Sunlight streams through tall trees.",
+        "A whisper floats on wind.",
+        "He smiles at kind strangers."
+      ]
     },
     {
-        id: '6',
-        name: 'English Speaking Practice 6 (A1)',
-        level: 'Advanced',
-        readingText: "The field of artificial intelligence (AI) has made tremendous advancements in recent years. AI technologies are being used in various industries, including healthcare, finance, and transportation. Machine learning algorithms allow computers to learn from data and make decisions without human intervention. While AI offers many benefits, ethical concerns about privacy, security, and job displacement remain significant."
+      "id": "6",
+      "name": "English Speaking Practice 6 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "The baby giggles with joy.",
+        "A kitten purrs on lap.",
+        "Leaves rustle in cool breeze.",
+        "The car stops at lights.",
+        "Birds build nests in trees.",
+        "Rain pours on city streets.",
+        "He cooks dinner every night.",
+        "A train whistles in distance.",
+        "The lamp lights the room.",
+        "Large clouds drift lazily above."
+      ]
     },
     {
-        id: '7',
-        name: 'English Speaking Practice 7 (A1)',
-        level: 'Beginner',
-        readingText: "In a small village, there was a young boy named Tim. Tim loved to explore the forest near his home. Every day after school, he would pack a lunch and head to the woods. He saw many animals, including rabbits, squirrels, and birds. One day, he found a hidden pond and decided to visit it every day to enjoy the peace and beauty of nature."
+      "id": "7",
+      "name": "English Speaking Practice 7 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Dogs bark at passing cars.",
+        "The moon glows softly tonight.",
+        "Leaves scatter on wet pavement.",
+        "He reads a short story.",
+        "Kids jump rope in sunshine.",
+        "A plane flies high above.",
+        "The river sparkles under moonlight.",
+        "Wind rustles the tall grass.",
+        "He writes a neat poem.",
+        "Stars illuminate the quiet night."
+      ]
     },
     {
-        id: '8',
-        name: 'English Speaking Practice 8 (A1)',
-        level: 'Beginner',
-        readingText: "Many people enjoy going to the beach during the summer. The warm sun, the sound of the waves, and the fresh air create a perfect environment for relaxation. People like to swim, play beach volleyball, or simply lie on the sand and read a book. Beaches are also popular for family picnics and barbecues, where everyone can enjoy a meal together by the sea."
+      "id": "8",
+      "name": "English Speaking Practice 8 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "The flower blooms in spring.",
+        "A gentle breeze cools faces.",
+        "Children run along the beach.",
+        "He sips tea at noon.",
+        "Clouds form shapes in sky.",
+        "A candle flickers in darkness.",
+        "Music energizes the busy crowd.",
+        "The book inspires bright ideas.",
+        "He sketches a quiet scene.",
+        "The clock ticks steadily onward."
+      ]
     },
     {
-        id: '9',
-        name: 'English Speaking Practice 9 (A1)',
-        level: 'Intermediate',
-        readingText: "The concept of time has fascinated humans for centuries. From the earliest civilizations, people have developed ways to measure and keep track of time. The invention of clocks and calendars has allowed societies to organize their lives around schedules. Today, we use technology to measure time with great precision, from atomic clocks to GPS systems."
+      "id": "9",
+      "name": "English Speaking Practice 9 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Birds migrate during winter days.",
+        "The farmer tills his field.",
+        "A child draws a rainbow.",
+        "The moon hides behind clouds.",
+        "Bells ring in small towns.",
+        "A ship sails the ocean.",
+        "Cows graze in open fields.",
+        "He writes clear, short notes.",
+        "A lamp glows at dusk.",
+        "The forest whispers hidden tales."
+      ]
     },
     {
-        id: '10',
-        name: 'English Speaking Practice 10 (A1)',
-        level: 'Intermediate',
-        readingText: "Traveling allows people to experience new cultures and meet new people. It broadens the mind and helps individuals develop a better understanding of the world. Whether visiting a nearby city or traveling to a distant country, the experience can be life-changing. Traveling exposes us to different languages, customs, and perspectives, making us more open-minded and adaptable."
+      "id": "10",
+      "name": "English Speaking Practice 10 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Rainbows appear after gentle rain.",
+        "The dog chases a ball.",
+        "Grass grows under bright sun.",
+        "A child skips down sidewalk.",
+        "Balloons float above the crowd.",
+        "Fireflies glow in summer night.",
+        "Music relaxes the busy mind.",
+        "The river sparkles under sunlight.",
+        "A star guides lost travelers.",
+        "The wind carries soft whispers."
+      ]
     },
     {
-        id: '11',
-        name: 'English Speaking Practice 11 (A1)',
-        level: 'Intermediate',
-        readingText: "Le temps peut changer rapidement en montagne. Il est important de se préparer à différentes conditions. En été, les journées sont chaudes et ensoleillées, mais il peut faire froid le soir. En hiver, la neige recouvre le sol et les températures peuvent descendre en dessous de zéro. Emportez toujours des vêtements et des fournitures supplémentaires lorsque vous faites une randonnée en montagne."
+      "id": "11",
+      "name": "English Speaking Practice 11 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "The bird sings a melody.",
+        "A frog leaps over water.",
+        "She paints a bright picture.",
+        "He climbs a tall ladder.",
+        "The clock chimes every hour.",
+        "Waves crash against rocky shores.",
+        "Snowflakes drift in silent air.",
+        "A smile brightens a face.",
+        "Trees shelter the wandering deer.",
+        "The river flows calmly onward."
+      ]
+    },
+    {
+      "id": "12",
+      "name": "English Speaking Practice 12 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "A lamp lights a dark room.",
+        "Wind rustles through green meadows.",
+        "The train whistles on tracks.",
+        "Berries ripen in sunny orchards.",
+        "The child hugs his teddy.",
+        "Clouds cover the blue sky.",
+        "The river meanders through valleys.",
+        "A boat drifts on still water.",
+        "He plants roses in spring.",
+        "Stars blink in the night."
+      ]
+    },
+    {
+      "id": "13",
+      "name": "English Speaking Practice 13 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "My friend smiles at me.",
+        "Birds fly over the river.",
+        "The sun warms the earth.",
+        "Young children draw colorful pictures.",
+        "A clock ticks every second.",
+        "Waves crash on sandy beach.",
+        "Fire burns in the fireplace.",
+        "Snow blankets the silent town.",
+        "The garden smells very sweet.",
+        "I read a short story."
+      ]
+    },
+    {
+      "id": "14",
+      "name": "English Speaking Practice 14 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "My pen writes neat letters.",
+        "The clock chimes at noon.",
+        "A bird builds a small nest.",
+        "The sky turns soft pink.",
+        "Waves ripple on a pond.",
+        "A smile brightens a day.",
+        "Rain drops patter on windows.",
+        "The book opens new worlds.",
+        "I walk on soft grass.",
+        "Music flows in quiet rooms."
+      ]
+    },
+    {
+      "id": "15",
+      "name": "English Speaking Practice 15 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "The rainbows brighten gray skies.",
+        "Dogs sleep under warm blankets.",
+        "A river carves deep valleys.",
+        "The chef cooks tasty meals.",
+        "A bell rings every morning.",
+        "Frogs leap across green ponds.",
+        "Stars guide sailors at night.",
+        "The baby sleeps soundly tonight.",
+        "Leaves dance in crisp wind.",
+        "Fire crackles in the fireplace."
+      ]
+    },
+    {
+      "id": "16",
+      "name": "English Speaking Practice 16 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "The rainbow arches after rain.",
+        "A boat drifts on water.",
+        "Birds gather around a feeder.",
+        "Young children sing happy little songs.",
+        "The ice melts in sunlight.",
+        "A tree grows by water.",
+        "The wind rustles dry leaves.",
+        "Books teach us new ideas.",
+        "The fire glows in embers.",
+        "Night falls over quiet towns."
+      ]
+    },
+    {
+      "id": "17",
+      "name": "English Speaking Practice 17 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "The clock ticks on slowly.",
+        "A rainbow appears after shower.",
+        "He writes a simple note.",
+        "Birds chirp in the morning.",
+        "The river flows through forests.",
+        "Stars shine on dark evenings.",
+        "A smile comforts a stranger.",
+        "The dog fetches a bright ball.",
+        "Wind whistles past open windows.",
+        "Leaves flutter during cool afternoons."
+      ]
+    },
+    {
+      "id": "18",
+      "name": "English Speaking Practice 18 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Morning light dances on water.",
+        "A squirrel jumps on branches.",
+        "He rides his red skateboard.",
+        "The wind blows soft whispers.",
+        "Rain drips on the window.",
+        "A butterfly flutters near flowers.",
+        "The street lights shine brightly.",
+        "I write poems every day.",
+        "Clouds pass over quiet hills.",
+        "Night falls with silent grace."
+      ]
+    },
+    {
+      "id": "19",
+      "name": "English Speaking Practice 19 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "The bird soars above mountains.",
+        "A river cuts through rocks.",
+        "He strolls in the park.",
+        "Sunset colors paint the sky.",
+        "Children laugh during summer games.",
+        "Dry leaves crunch underfoot softly.",
+        "A clock signals the hour.",
+        "The night sky glows gently.",
+        "Waves lap against the shore.",
+        "He finds peace in nature."
+      ]
     }
-];
+  ]
+  

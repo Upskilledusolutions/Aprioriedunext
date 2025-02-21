@@ -28,6 +28,7 @@ export const data = [
     name:'German Lesson 4 (B1)',
     level:'Intermediate',
     pdf:'https://drive.google.com/file/d/1oHYyQwbpfTdjDKTQxrSbi1aIv7VKr33j/preview',
+    video:'https://www.youtube.com/embed/O_3hsZwsoDs?si=82plvZisaJlI2yOJ',
     desc:'German Foundation Lesson 4 by Upskilledu Solutions is designed for beginners who are just starting their journey in learning German. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 ]

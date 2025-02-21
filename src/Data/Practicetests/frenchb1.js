@@ -2331,4 +2331,596 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '5',
+      name: 'French B1 Practice Test - 5',
+      level: 'Intermediate',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "J’ai un ami ___ habite à Lyon.",
+          "choices": ["qui", "que", "lequel", "dont"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le livre ___ j’ai acheté est très intéressant.",
+          "choices": ["qui", "que", "dont", "lequel"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "C’est la voiture ___ fait beaucoup de bruit.",
+          "choices": ["qui", "que", "dont", "lequel"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le film ___ nous avons vu était génial.",
+          "choices": ["qui", "que", "dont", "lequel"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase est correcte ?",
+          "choices": [
+            "L'homme que travaille ici est mon frère.",
+            "L'homme qui travaille ici est mon frère.",
+            "L'homme dont travaille ici est mon frère.",
+            "L'homme lequel travaille ici est mon frère."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment appelle-t-on le fils de mon frère ?",
+          "choices": ["Mon cousin", "Mon neveu", "Mon oncle", "Mon beau-frère"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Mon père s'est remarié, sa nouvelle femme est ma...",
+          "choices": ["belle-mère", "cousine", "tante", "grand-mère"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon frère s'est marié. Sa femme est ma...",
+          "choices": ["belle-sœur", "nièce", "belle-fille", "tante"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Le père de mon mari est mon...",
+          "choices": ["oncle", "beau-père", "cousin", "frère"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Mon frère et moi avons les mêmes parents, il est mon...",
+          "choices": ["cousin", "demi-frère", "frère", "beau-frère"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle phrase est correcte pour demander poliment ?",
+          "choices": ["Je veux un café.", "J’aurais un café.", "Je voudrais un café.", "J’aimerai un café."],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quelle est la bonne phrase pour exprimer une demande polie ?",
+          "choices": ["Peux", "Pouvez", "Pourrais", "Pourriez"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Complétez la phrase : Si j’avais du temps, je ___ en vacances.",
+          "choices": ["partirai", "partirais", "pars", "partir"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quelle phrase exprime une demande polie ?",
+          "choices": [
+            "Passe-moi le sel.",
+            "Peux-tu me passer le sel ?",
+            "Pourriez-vous me passer le sel ?",
+            "Passe-moi du sel maintenant."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Nous ___ réserver une table pour deux ce soir, s'il vous plaît.",
+          "choices": ["voudrons", "voudrions", "voulons", "voudrait"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que prenez-vous si vous avez mal à la tête ?",
+          "choices": ["Un pansement", "Un sirop", "Un comprimé", "Un plâtre"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Où allez-vous si vous êtes gravement malade ?",
+          "choices": ["À l’école", "À l’hôpital", "À la boulangerie", "À la piscine"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Comment appelle-t-on une personne qui soigne les patients ?",
+          "choices": ["Un pharmacien", "Un médecin", "Un dentiste", "Un professeur"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que faites-vous en cas d’urgence médicale ?",
+          "choices": [
+            "Vous dormez",
+            "Vous appelez un ami",
+            "Vous appelez une ambulance",
+            "Vous regardez la télévision"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel est le numéro d’urgence en France ?",
+          "choices": ["999", "112", "911", "118"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+
+          {
+            "question": "C'est l'homme ______ (who) a réparé ma voiture.",
+            "choices": ["qui"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Voici le livre ______ (that) j'ai acheté hier.",
+            "choices": ["que"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Elle cherche une robe ______ (that) soit élégante et confortable.",
+            "choices": ["qui"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "J'ai un ami ______ (who) habite à Paris.",
+            "choices": ["qui"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Le film ______ (that) nous avons regardé hier était fascinant.",
+            "choices": ["que"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mon frère aîné est marié et il a une ______ (wife) adorable.",
+            "choices": ["femme"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Ma cousine a eu un bébé hier, c’est un ______ (boy).",
+            "choices": ["garçon"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mon oncle est divorcé, mais il est toujours en bonne ______ (relationship).",
+            "choices": ["relation"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Mon grand-père est veuf, sa ______ (wife) est décédée il y a cinq ans.",
+            "choices": ["femme"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Les parents doivent donner beaucoup d’______ (love) à leurs enfants.",
+            "choices": ["amour"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "(Could you) ______-vous m’indiquer où se trouve la gare, s’il vous plaît ?",
+            "choices": ["Pourriez"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "J’______ (would like) bien un café, s’il vous plaît.",
+            "choices": ["aimerais"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Si vous aviez du temps, ______-vous (could you) m’aider à déménager ?",
+            "choices": ["pourriez"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "(Could you) ______-vous m’expliquer ce problème plus lentement ?",
+            "choices": ["Pourriez"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Nous ______ (would like) réserver une table pour deux ce soir.",
+            "choices": ["voudrions"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "J’ai une ______ (fever) terrible, je dois voir un médecin.",
+            "choices": ["fièvre"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Si vous avez une urgence, appelez le ______ (ambulance).",
+            "choices": ["ambulance"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Elle a une ______ (injury) au bras après sa chute.",
+            "choices": ["blessure"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Il faut aller à la ______ (pharmacy) pour acheter des médicaments.",
+            "choices": ["pharmacie"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+          {
+            "question": "Si vous avez mal à la tête, prenez un ______ (paracetamol).",
+            "choices": ["paracétamol"],
+            "type": "FillInTheBlanks",
+            "correctAnswer": 1
+          },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "J'ai un ami qui habite à Marseille.",
+          "choices": ["J'ai", "un", "ami", "qui", "habite", "à", "Marseille."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Voici le chat qui dort sur le canapé.",
+          "choices": ["Voici", "le", "chat", "qui", "dort", "sur", "le", "canapé."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Le livre que j’ai lu était passionnant.",
+          "choices": ["Le", "livre", "que", "j’ai", "lu", "était", "passionnant."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "C'est une ville qui attire beaucoup de touristes.",
+          "choices": ["C'est", "une", "ville", "qui", "attire", "beaucoup", "de", "touristes."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Le film que nous avons regardé était drôle.",
+          "choices": ["Le", "film", "que", "nous", "avons", "regardé", "était", "drôle."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mon cousin habite en Espagne avec sa femme.",
+          "choices": ["Mon", "cousin", "habite", "en", "Espagne", "avec", "sa", "femme."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ma belle-sœur travaille dans une grande entreprise.",
+          "choices": ["Ma", "belle-sœur", "travaille", "dans", "une", "grande", "entreprise."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mon grand-père raconte toujours des histoires intéressantes.",
+          "choices": ["Mon", "grand-père", "raconte", "toujours", "des", "histoires", "intéressantes."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Le mari de ma sœur est mon beau-frère.",
+          "choices": ["Le", "mari", "de", "ma", "sœur", "est", "mon", "beau-frère."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mon neveu va commencer l’école cette année.",
+          "choices": ["Mon", "neveu", "va", "commencer", "l’école", "cette", "année."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Pourriez-vous me prêter votre stylo, s’il vous plaît ?",
+          "choices": ["Pourriez-vous", "me", "prêter", "votre", "stylo,", "s’il", "vous", "plaît", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J’aimerais commander un café et un croissant.",
+          "choices": ["J’aimerais", "commander", "un", "café", "et", "un", "croissant."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Si j’avais du temps, je voyagerais plus souvent.",
+          "choices": ["Si", "j’avais", "du", "temps,", "je", "voyagerais", "plus", "souvent."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Voudriez-vous m’accompagner au musée demain ?",
+          "choices": ["Voudriez-vous", "m’accompagner", "au", "musée", "demain", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous aimerions réserver une table pour ce soir.",
+          "choices": ["Nous", "aimerions", "réserver", "une", "table", "pour", "ce", "soir."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il faut aller à la pharmacie pour des médicaments.",
+          "choices": ["Il", "faut", "aller", "à", "la", "pharmacie", "pour", "des", "médicaments."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J’ai une fièvre et je me sens fatigué.",
+          "choices": ["J’ai", "une", "fièvre", "et", "je", "me", "sens", "fatigué."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle a eu une blessure au genou.",
+          "choices": ["Elle", "a", "eu", "une", "blessure", "au", "genou."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "En cas d’urgence, appelez une ambulance rapidement.",
+          "choices": ["En", "cas", "d’urgence,", "appelez", "une", "ambulance", "rapidement."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Le médecin m’a donné un traitement efficace.",
+          "choices": ["Le", "médecin", "m’a", "donné", "un", "traitement", "efficace."],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "L’homme qui", "rightId": 1 },
+              "right": { "word": "tu lis est très intéressant.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Le film que", "rightId": 2 },
+              "right": { "word": "parle trois langues.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "La voiture qui", "rightId": 3 },
+              "right": { "word": "nous avons regardé était ennuyeux.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Le livre que", "rightId": 4 },
+              "right": { "word": "habite dans cette maison.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "La fille qui", "rightId": 5 },
+              "right": { "word": "est garée devant chez moi.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Le chat qui", "rightId": 1 },
+              "right": { "word": "m’a inspiré se passe en France.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Le professeur que", "rightId": 2 },
+              "right": { "word": "dort sur le canapé est à ma sœur.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "La musique que", "rightId": 3 },
+              "right": { "word": "j’ai préparé est au chocolat.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Le gâteau que", "rightId": 4 },
+              "right": { "word": "j’écoute est relaxante.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "L’histoire qui", "rightId": 5 },
+              "right": { "word": "nous avons eu était très gentil.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Père", "rightId": 1 },
+              "right": { "word": "L’épouse de mon père", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Mère", "rightId": 2 },
+              "right": { "word": "Le fils de mes parents", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Frère", "rightId": 3 },
+              "right": { "word": "Le frère de mon père ou de ma mère", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Sœur", "rightId": 4 },
+              "right": { "word": "Le mari de ma mère", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Oncle", "rightId": 5 },
+              "right": { "word": "La fille de mes parents", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Tante", "rightId": 1 },
+              "right": { "word": "Le père de mon père ou de ma mère", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Cousin", "rightId": 2 },
+              "right": { "word": "La mère de mon père ou de ma mère", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Cousine", "rightId": 3 },
+              "right": { "word": "La sœur de mon père ou de ma mère", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Grand-père", "rightId": 4 },
+              "right": { "word": "La fille de mon oncle ou ma tante", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Grand-mère", "rightId": 5 },
+              "right": { "word": "Le fils de mon oncle ou ma tante", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Pourriez-vous m’aider, s’il vous plaît ?", "rightId": 1 },
+              "right": { "word": "Could you repeat the question?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "J’aimerais un café, s’il vous plaît.", "rightId": 2 },
+              "right": { "word": "We would like to book a table.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Voudriez-vous venir avec nous ?", "rightId": 3 },
+              "right": { "word": "Would you like to come with us?", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Pourriez-vous répéter la question ?", "rightId": 4 },
+              "right": { "word": "Could you help me, please?", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Nous aimerions réserver une table.", "rightId": 5 },
+              "right": { "word": "I would like a coffee, please.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Si vous aviez du temps, vous viendriez.", "rightId": 1 },
+              "right": { "word": "I would like to buy a train ticket.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "J’aimerais acheter un billet de train.", "rightId": 2 },
+              "right": { "word": "We would like to order now.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Voudriez-vous un dessert après le repas ?", "rightId": 3 },
+              "right": { "word": "Could you explain this problem to me?", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Pourriez-vous m’expliquer ce problème ?", "rightId": 4 },
+              "right": { "word": "If you had time, you would come.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Nous voudrions commander maintenant.", "rightId": 5 },
+              "right": { "word": "Would you like a dessert after the meal?", "rightId": 3 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Fièvre", "rightId": 1 },
+              "right": { "word": "Où on achète des médicaments", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Ambulance", "rightId": 2 },
+              "right": { "word": "Personne qui soigne les malades", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Blessure", "rightId": 3 },
+              "right": { "word": "Une coupure ou une plaie", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Pharmacie", "rightId": 4 },
+              "right": { "word": "Une température corporelle élevée", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Médecin", "rightId": 5 },
+              "right": { "word": "Un véhicule d’urgence", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Hôpital", "rightId": 1 },
+              "right": { "word": "Personne qui aide le médecin", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Infirmier", "rightId": 2 },
+              "right": { "word": "Situation nécessitant une action rapide", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Paracétamol", "rightId": 3 },
+              "right": { "word": "Prescription écrite d’un médecin", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Ordonnance", "rightId": 4 },
+              "right": { "word": "Lieu où on soigne les patients", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Urgence", "rightId": 5 },
+              "right": { "word": "Un médicament contre la douleur", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]

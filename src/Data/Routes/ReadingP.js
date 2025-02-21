@@ -36,7 +36,7 @@
         text: 'Dive into the vibrant world of German-speaking countries with this course.',
         link: 'GermanReading',
         data: 'German',
-        link2: 'GermanReadingPageB1',
+        link2: 'GermanReadingPage',
         code: 'de-DE',
         subject: 'GermanRP'
       },
@@ -81,14 +81,24 @@
         subject: 'GermanA2RP'
       },
       {
-        type: 'englishb1',
-        heading: 'English Speaking Practice (B1)',
+        type: 'germanb1',
+        heading: 'German Speaking Practice (B1)',
+        text: 'Dive into the vibrant world of German-speaking countries with this course.',
+        link: 'GermanReadingB1',
+        data: 'Germanb1',
+        link2: 'GermanReadingPageB1',
+        code: 'de-DE',
+        subject: 'GermanB1RP'
+      },
+      {
+        type: 'englisha2',
+        heading: 'English Speaking Practice (A2)',
         text: 'Dive into the vibrant world of English-speaking countries with this course.',
-        link: 'EnglishReadingB1',
-        data: 'englishb1',
-        link2: 'EnglishReadingPageB1',
+        link: 'EnglishReadingA2',
+        data: 'englisha2',
+        link2: 'EnglishReadingPageA2',
         code: 'en-US',
-        subject: 'EnglishB1RP'
+        subject: 'EnglishA2RP'
       },
       {
         type: 'frenchb1',

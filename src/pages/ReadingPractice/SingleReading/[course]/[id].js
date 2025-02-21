@@ -37,7 +37,7 @@ export default function Index() {
     return <div>Loading lesson data...</div>;
   }
 
-  console.log(lesson[id-1])
+  console.log(course)
 
   return (
     <div>

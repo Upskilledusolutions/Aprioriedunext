@@ -1,146 +1,410 @@
 export const data = [
     {
-        id: '1',
-        name: 'French Speaking Practice 1 (B1)',
-        level: 'Intermediate',
-        readingText: "Bonjour, je m'appelle Marc et je travaille comme ingénieur dans une grande entreprise. J'ai 28 ans et je vis à Toulouse, une ville agréable du sud de la France. J'adore ma profession, mais je suis aussi passionné par la photographie. Durant mon temps libre, j'aime explorer de nouveaux endroits et capturer des moments uniques à travers mon appareil photo. Le week-end, je retrouve souvent mes amis pour discuter autour d'un café ou aller au cinéma."
+      "id": "1",
+      "name": "French Speaking Practice 1 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le chat noir traverse la rue animée.",
+        "La pluie fine tombe sur le trottoir.",
+        "Les enfants jouent dans le parc central.",
+        "Ma sœur lit un livre vraiment passionnant.",
+        "Nous dînons ensemble chaque soir de semaine.",
+        "Le vent frais caresse mon visage doucement.",
+        "Les fleurs colorées ornent le jardin public.",
+        "L'oiseau chante gaiement sur une branche verte.",
+        "La route sinueuse mène vers notre destination.",
+        "Un sourire chaleureux illumine ma journée entière."
+      ]
     },
     {
-        id: '2',
-        name: 'French Speaking Practice 2 (B1)',
-        level: 'Intermediate',
-        readingText: "Chaque matin, je commence ma journée par une bonne tasse de café et un petit déjeuner équilibré. Ensuite, je prends mon vélo et je me rends au travail. J'apprécie beaucoup cette routine, car elle me permet de démarrer la journée en pleine forme. À midi, je déjeune avec mes collègues dans un restaurant près du bureau, et après le travail, je vais souvent courir dans le parc pour me détendre. Cela m’aide à évacuer le stress de la journée."
+      "id": "2",
+      "name": "French Speaking Practice 2 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le soleil radieux réchauffe la terre humide.",
+        "Une brise légère caresse les arbres verts.",
+        "Le marché animé offre fruits et légumes frais.",
+        "Mon ami prépare un délicieux gâteau maison.",
+        "La musique jazz envoûtante emplit l'air nocturne.",
+        "Une étoile brillante guide mon chemin obscur.",
+        "Le vent d'automne agite les feuilles dorées.",
+        "La ville historique révèle ses secrets anciens.",
+        "Le train rapide relie les villes lointaines.",
+        "Un livre captivant ouvre l'esprit curieux rapidement."
+      ]
     },
     {
-        id: '3',
-        name: 'French Speaking Practice 3 (B1)',
-        level: 'Intermediate',
-        readingText: "Ma famille est assez nombreuse. J'ai deux sœurs et un frère. Mes parents habitent à Lyon, et nous nous réunissons tous les dimanches pour passer du temps ensemble. J'adore ces moments passés en famille. Nous mangeons souvent des plats traditionnels, comme le gratin dauphinois ou la quenelle. Ces repas sont l'occasion de discuter et de rire ensemble, ce qui renforce nos liens familiaux."
+      "id": "3",
+      "name": "French Speaking Practice 3 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "La mer calme reflète un ciel azur.",
+        "Un bateau blanc vogue sur l'eau claire.",
+        "Les vagues légères bercent l'âme des marins.",
+        "Le phare ancien guide les navires perdus.",
+        "Un sourire sincère réchauffe un cœur froid.",
+        "La nuit étoilée inspire de belles pensées.",
+        "Une vieille lanterne éclaire le chemin mystérieux.",
+        "Le vent nocturne murmure des histoires anciennes.",
+        "Les rues pavées conservent l'âme du passé.",
+        "Un café fumant réveille l'esprit endormi doucement."
+      ]
     },
     {
-        id: '4',
-        name: 'French Speaking Practice 4 (B1)',
-        level: 'Intermediate',
-        readingText: "J’ai une passion pour le sport, en particulier pour le football. Depuis mon enfance, j’ai joué dans plusieurs équipes, et cela fait maintenant dix ans que je m’entraîne régulièrement avec mon club local. Le football me permet de rester en forme, mais aussi de renforcer mon esprit d’équipe. Lors des matchs, l’excitation est toujours présente, mais c’est surtout le travail collectif qui m’apporte une grande satisfaction."
+      "id": "4",
+      "name": "French Speaking Practice 4 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "La bibliothèque ancienne recèle des trésors secrets.",
+        "Les étudiants étudient avec passion et rigueur.",
+        "Un professeur explique des concepts compliqués clairement.",
+        "La salle de classe respire une ambiance studieuse.",
+        "Les livres ouverts invitent à la réflexion.",
+        "Un tableau interactif modernise réellement l'enseignement quotidien.",
+        "Les étudiants discutent des idées nouvelles passionnément.",
+        "La cafétéria offre des repas équilibrés variés.",
+        "Un projet collaboratif stimule la créativité collective.",
+        "Les discussions animées enrichissent les esprits ouverts."
+      ]
     },
     {
-        id: '5',
-        name: 'French Speaking Practice 5 (B1)',
-        level: 'Intermediate',
-        readingText: "L’automne est ma saison préférée. J’aime me promener dans les forêts où les feuilles des arbres changent de couleur, passant du vert au rouge et à l’orange. Les températures sont fraîches mais agréables, ce qui rend les promenades encore plus plaisantes. En plus, c’est la saison des champignons, et chaque année, je pars avec mes amis en forêt pour en récolter. C’est toujours une activité amusante et enrichissante."
+      "id": "5",
+      "name": "French Speaking Practice 5 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "La forêt dense abrite une faune variée.",
+        "Un ruisseau clair serpente entre les arbres.",
+        "Les montagnes majestueuses dominent l'horizon lointain sereinement.",
+        "La brume matinale enveloppe les vallées tranquilles.",
+        "Un sentier fleuri mène vers un lac paisible.",
+        "Les randonneurs admirent vraiment le paysage splendide.",
+        "Le soleil couchant colore les montagnes lointaines.",
+        "Une cascade brillante illumine la vallée étroite.",
+        "Les oiseaux migrateurs volent vers l'infini bleu.",
+        "La nature inspire des rêves toujours vivants."
+      ]
     },
     {
-        id: '6',
-        name: 'French Speaking Practice 6 (B1)',
-        level: 'Intermediate',
-        readingText: "Je travaille dans une école primaire où j’enseigne le français à des enfants de 7 à 10 ans. Mon métier est très enrichissant, mais il n’est pas toujours facile. Chaque jour, je fais de mon mieux pour rendre les leçons intéressantes et pour aider mes élèves à progresser. Parfois, cela peut être difficile, car chaque enfant a sa propre manière d'apprendre. Cependant, je suis très fier de voir mes élèves réussir et s’épanouir au fil de l’année."
+      "id": "6",
+      "name": "French Speaking Practice 6 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le marché local regorge d'épices délicieusement variées.",
+        "Une boutique charmante vend des souvenirs uniques.",
+        "Les commerçants souriants accueillent les visiteurs curieux.",
+        "Un artisan crée des objets artisanaux modernes.",
+        "La vitrine éclaire des produits authentiquement frais.",
+        "Les clients explorent le marché avec enthousiasme.",
+        "Un parfum exotique frais émane d'un étal.",
+        "La foule se presse dans les ruelles animées.",
+        "Un artiste de rue joue un air entraînant.",
+        "Les vitrines colorées reflètent l'énergie vibrante locale."
+      ]
     },
     {
-        id: '7',
-        name: 'French Speaking Practice 7 (B1)',
-        level: 'Intermediate',
-        readingText: "J’aime beaucoup la cuisine et j’adore essayer de nouvelles recettes. Mon plat préféré est le couscous, mais je suis aussi passionné par les cuisines du monde entier. Je passe souvent du temps à chercher des recettes en ligne, et j’aime beaucoup partager ces découvertes avec mes amis. Lors de nos soirées, nous cuisinons ensemble, ce qui crée toujours une atmosphère chaleureuse et conviviale."
+      "id": "7",
+      "name": "French Speaking Practice 7 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le festival de musique illumine la ville.",
+        "Des artistes talentueux jouent des mélodies envoûtantes.",
+        "La scène vibrante accueille des performances uniques.",
+        "Les spectateurs applaudissent avec passion et énergie.",
+        "Un feu d'artifice éclaire le ciel nocturne.",
+        "Les rues se transforment en scènes animées.",
+        "Un groupe de danseurs émerveille les spectateurs.",
+        "Les lumières scintillent sur la scène festive.",
+        "La musique rythmée unit la foule présente.",
+        "Un souvenir inoubliable marque cette nuit magique."
+      ]
     },
     {
-        id: '8',
-        name: 'French Speaking Practice 8 (B1)',
-        level: 'Intermediate',
-        readingText: "Je trouve qu’il est important de voyager pour découvrir de nouvelles cultures et élargir ses horizons. L'année dernière, j’ai eu l’opportunité de partir en Asie pour un mois. Ce voyage m'a permis de découvrir des paysages magnifiques et de rencontrer des personnes incroyables. En plus de la beauté des lieux, ce sont les échanges avec les habitants qui m’ont le plus marqué. Chaque voyage me permet d'apprendre des choses nouvelles sur le monde et sur moi-même."
+      "id": "8",
+      "name": "French Speaking Practice 8 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le pont ancien traverse la rivière tranquille.",
+        "Les bateaux voguent paisiblement sous le ciel.",
+        "La brume légère enveloppe le vieux port.",
+        "Un pêcheur expérimenté lance sa ligne patiemment.",
+        "Les mouettes volent autour du port animé.",
+        "La mer scintille sous les rayons dorés.",
+        "Un phare guide les navires vers la sécurité.",
+        "Les vagues douces caressent le quai en silence.",
+        "La nuit calme révèle des étoiles brillantes.",
+        "Un doux murmure accompagne le port serein."
+      ]
     },
     {
-        id: '9',
-        name: 'French Speaking Practice 9 (B1)',
-        level: 'Intermediate',
-        readingText: "Le week-end dernier, j’ai participé à une course de 10 kilomètres dans ma ville. C’était une expérience incroyable, bien que difficile. La foule était enthousiaste, et cela m’a beaucoup motivé. J’avais un peu d’appréhension au départ, mais une fois lancé, j’ai trouvé mon rythme et j’ai terminé la course en un temps raisonnable. Cet événement m’a rappelé l'importance de rester actif et de toujours se fixer de nouveaux défis."
+      "id": "9",
+      "name": "French Speaking Practice 9 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le parc urbain offre des espaces verts.",
+        "Les joggeurs parcourent le sentier ombragé rapidement.",
+        "Une fontaine moderne orne joliment le centre-ville.",
+        "Les bancs publics invitent à la détente.",
+        "Un cycliste rapide passe devant l'arbre ancien.",
+        "Les enfants rient dans le parc coloré.",
+        "La nature urbaine offre un répit charmant.",
+        "Un étang paisible reflète le ciel clair.",
+        "Les fleurs de saison embellissent les allées.",
+        "Le soleil couchant colore magnifiquement l'horizon urbain."
+      ]
     },
     {
-        id: '10',
-        name: 'French Speaking Practice 10 (B1)',
-        level: 'Intermediate',
-        readingText: "L’une de mes passions est la lecture. J’ai toujours aimé plonger dans des livres qui m’ouvrent de nouveaux horizons. Récemment, j’ai lu un roman de Victor Hugo, et j’ai été captivé par son écriture profonde et ses personnages complexes. Lire me permet de m’évader et de réfléchir sur des sujets qui m’intéressent. Je suis convaincu que la lecture est un excellent moyen d’enrichir son esprit et de développer son imaginaire."
+      "id": "10",
+      "name": "French Speaking Practice 10 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "La bibliothèque municipale regorge de savoirs anciens.",
+        "Les étudiants consultent divers ouvrages de référence.",
+        "Un silence studieux règne dans le hall.",
+        "La technologie moderne transforme radicalement l'apprentissage quotidien.",
+        "Les discussions intellectuelles enrichissent la pensée collective.",
+        "Un professeur passionné motive ses étudiants brillants.",
+        "La recherche académique ouvre de nouvelles perspectives.",
+        "Un débat animé éclaire des points complexes.",
+        "Les idées novatrices émergent lors de discussions.",
+        "L'esprit critique favorise grandement l'évolution intellectuelle constante."
+      ]
     },
     {
-        id: '11',
-        name: 'French Speaking Practice 11 (B1)',
-        level: 'Intermediate',
-        readingText: "Pendant mes vacances, j’aime me détendre en voyageant. L’été dernier, j’ai passé deux semaines en Grèce avec des amis. Nous avons exploré les îles, visité des sites archéologiques et profité des plages magnifiques. Chaque jour, nous partions à l’aventure et découvrions de nouveaux endroits. Ces vacances m’ont permis de me ressourcer, tout en me permettant de découvrir une culture différente de la mienne."
+      "id": "11",
+      "name": "French Speaking Practice 11 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Les nuages denses annoncent une pluie prochaine.",
+        "Le ciel change rapidement ses teintes variées.",
+        "Une averse soudaine rafraîchit agréablement l'atmosphère urbaine.",
+        "Les parapluies colorés ornent les rues bondées.",
+        "Un arc-en-ciel apparaît après la tempête violente.",
+        "La ville s'illumine malgré le ciel sombre.",
+        "Les passants rient sous leurs parapluies colorés.",
+        "Une promenade sous la pluie est vivifiante.",
+        "Le vent humide porte les gouttes scintillantes.",
+        "Les rues brillent après une averse intense."
+      ]
     },
     {
-        id: '12',
-        name: 'French Speaking Practice 12 (B1)',
-        level: 'Intermediate',
-        readingText: "Je suis une personne très organisée. Chaque semaine, je planifie mes tâches et je m’assure de respecter mes délais. Cela m’aide à être productif et à éviter le stress de dernière minute. J’utilise des applications pour gérer mon emploi du temps et je suis toujours prêt à relever de nouveaux défis. Cette organisation m'a permis de réaliser de nombreux projets personnels et professionnels."
+      "id": "12",
+      "name": "French Speaking Practice 12 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le café aromatique réveille mes sens matinaux.",
+        "Une tasse chaude apaise doucement l'esprit fatigué.",
+        "Le barista sourit en servant le café parfait.",
+        "La machine à expresso murmure une mélodie rassurante.",
+        "Les arômes se mêlent dans la tasse fumante.",
+        "Un croissant doré accompagne le café délicieux.",
+        "Les clients discutent autour d'une table conviviale.",
+        "La lumière douce filtre dans le café charmant.",
+        "Un journal frais repose sur la table.",
+        "La pause-café stimule vivement la créativité instantanément."
+      ]
     },
     {
-        id: '13',
-        name: 'French Speaking Practice 13 (B1)',
-        level: 'Intermediate',
-        readingText: "L’une de mes principales préoccupations ces derniers temps est de préserver l’environnement. J’essaie de réduire ma consommation de plastique, de recycler et d’utiliser les transports publics autant que possible. Je pense que chaque petit geste compte et qu’il est important d'agir maintenant pour protéger notre planète. Au-delà de mes actions personnelles, je parle souvent de ces enjeux avec mes amis pour sensibiliser les autres."
+      "id": "13",
+      "name": "French Speaking Practice 13 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le vent d'hiver réchauffe malgré le froid.",
+        "Un manteau épais protège contre la neige.",
+        "Les flocons tombent sur les toits endormis.",
+        "Les rues brillent après un hiver rigoureux.",
+        "Une cheminée crépite dans la maison accueillante.",
+        "Les enfants jouent dans la neige fraîchement tombée.",
+        "Un chocolat chaud réchauffe les mains gelées.",
+        "La ville s'illumine pendant les longues nuits.",
+        "Les flambeaux éclairent les ruelles étroites nocturnes.",
+        "Un souvenir d'hiver réchauffe profondément l'âme solennelle."
+      ]
     },
     {
-        id: '14',
-        name: 'French Speaking Practice 14 (B1)',
-        level: 'Intermediate',
-        readingText: "Le mois dernier, j’ai eu la chance de visiter Paris avec ma famille. Nous avons exploré les musées, les monuments historiques, et bien sûr, nous avons pris des photos devant la Tour Eiffel. C’était une expérience inoubliable. J’ai particulièrement apprécié la visite du musée du Louvre, où j’ai découvert des œuvres d'art incroyables. Ce voyage m’a permis de mieux comprendre la richesse culturelle de la capitale française."
+      "id": "14",
+      "name": "French Speaking Practice 14 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le vent du matin apporte des espoirs nouveaux.",
+        "Les oiseaux chantent gaiement dans le ciel clair.",
+        "Un rayon de soleil perce les nuages gris.",
+        "La ville s'éveille avec énergie et sourire.",
+        "Les arbres frémissent sous la brise légère.",
+        "Une mélodie douce traverse l'air tout tranquille.",
+        "Le sourire d'un inconnu sincère rassure l'âme.",
+        "La journée commence avec des rêves intenses.",
+        "Un chemin pavé mène sûrement vers l'inconnu.",
+        "Les heures passent avec douceur et sérénité."
+      ]
     },
     {
-        id: '15',
-        name: 'French Speaking Practice 15 (B1)',
-        level: 'Intermediate',
-        readingText: "Je suis un grand amateur de musique. J’ai toujours aimé écouter différents genres musicaux, de la pop à la musique classique. Récemment, je me suis inscrit à un cours de guitare pour apprendre à jouer. C’est un vrai défi, mais j’aime beaucoup progresser petit à petit. La musique me permet de m’évader et d’exprimer mes émotions d’une manière différente."
+      "id": "15",
+      "name": "French Speaking Practice 15 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le vent printanier emplit l'air de fraîcheur.",
+        "Les fleurs épanouies colorent les jardins joyeux.",
+        "Un papillon délicat vole près des pivoines.",
+        "Le soleil radieux illumine les rues animées.",
+        "Une mélodie entrainante réchauffe chaleureusement l'atmosphère conviviale.",
+        "Les rires contagieux animent les cafés bondés.",
+        "Un peintre talentueux capture des instants magiques.",
+        "La créativité fleurit toujours dans l'esprit innovant.",
+        "Les idées nouvelles émergent avec chaque discussion.",
+        "Le progrès se mesure par l'innovation collective."
+      ]
     },
     {
-        id: '16',
-        name: 'French Speaking Practice 16 (B1)',
-        level: 'Intermediate',
-        readingText: "Je suis très attaché à mes racines. Mes grands-parents vivent dans un petit village à la campagne, et j’y vais chaque été pour passer du temps avec eux. Ces moments sont très précieux pour moi. Ils me rappellent l'importance de la famille et des traditions. J’aime aider mes grands-parents dans leur jardin et écouter leurs histoires sur leur jeunesse."
+      "id": "16",
+      "name": "French Speaking Practice 16 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "La campagne verdoyante s'étend à perte de vue.",
+        "Les champs dorés brillent sous le soleil d'été.",
+        "Une ferme rustique produit du fromage artisanal.",
+        "Les agriculteurs cultivent avec soin leurs récoltes.",
+        "Le vent frais agite les blés dorés.",
+        "Les oiseaux migrateurs traversent le ciel azuré.",
+        "Un fermier souriant répare son vieux tracteur.",
+        "La nature authentique inspire des poèmes sincères.",
+        "Les saisons se succèdent avec beauté infinie.",
+        "La vie rurale charme les âmes fatiguées."
+      ]
     },
     {
-        id: '17',
-        name: 'French Speaking Practice 17 (B1)',
-        level: 'Intermediate',
-        readingText: "Il y a quelques mois, j’ai déménagé dans un nouvel appartement. Au début, cela a été un peu difficile de m’adapter, mais aujourd’hui je me sens très bien ici. J’ai décoré mon intérieur avec des objets que j’aime et qui me rappellent de bons souvenirs. Mon appartement est petit mais très confortable. Il est situé dans un quartier calme, ce qui est idéal pour se détendre après une longue journée de travail."
+      "id": "17",
+      "name": "French Speaking Practice 17 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le soir calme révèle un ciel scintillant.",
+        "Les lampadaires éclairent magnifiquement les rues silencieuses.",
+        "Un restaurant animé sert des plats délicieux.",
+        "Les amis se retrouvent autour d'un dîner convivial.",
+        "Une conversation animée éclaire les visages souriants.",
+        "Le chef crée des recettes originales chaque soir.",
+        "Les rires sincères résonnent dans la salle bondée.",
+        "Un vin rouge sublime le repas exquis.",
+        "Les musiciens improvisent des airs entraînants spontanément.",
+        "La nuit se pare d'une élégance rare."
+      ]
     },
     {
-        id: '18',
-        name: 'French Speaking Practice 18 (B1)',
-        level: 'Intermediate',
-        readingText: "J’ai récemment commencé un nouveau travail dans une entreprise internationale. C’est une expérience passionnante, mais il y a aussi des défis à relever, car je dois m’adapter à de nouvelles méthodes de travail et collaborer avec des collègues venus de différents pays. Malgré les difficultés, cette expérience m'apporte énormément et je suis impatient de voir ce que l’avenir me réserve."
+      "id": "18",
+      "name": "French Speaking Practice 18 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le musée contemporain expose des œuvres inspirantes.",
+        "Les visiteurs admirent les peintures vibrantes et audacieuses.",
+        "Un sculpteur talentueux façonne la pierre brute.",
+        "La galerie moderne reflète parfaitement l'art innovant.",
+        "Les sculptures abstraites intriguent les esprits curieux.",
+        "Une exposition temporaire captive les amateurs d'art.",
+        "Les œuvres d'art suscitent des émotions profondes.",
+        "Un guide passionné explique les techniques artistiques.",
+        "La lumière douce met en valeur chaque tableau.",
+        "L'ambiance du musée inspire la créativité collective."
+      ]
     },
     {
-        id: '19',
-        name: 'French Speaking Practice 19 (B1)',
-        level: 'Intermediate',
-        readingText: "Lorsque j'étais plus jeune, j'avais l'habitude de partir en vacances avec mes parents chaque année. Nous allions souvent à la mer, mais parfois, nous choisissions la montagne pour explorer de nouveaux horizons. Ces vacances étaient l'occasion de passer du temps en famille, de découvrir de nouveaux paysages et de goûter à des plats typiques des régions que nous visitions. Aujourd'hui encore, ces souvenirs me rendent nostalgique."
+      "id": "19",
+      "name": "French Speaking Practice 19 (B1)",
+      "level": "Intermediate",
+      "readingText": [
+        "Le jardin botanique regorge de plantes rares.",
+        "Les serres abritent des espèces tropicales exotiques.",
+        "Un sentier fleuri serpente parmi les arbustes.",
+        "Les allées ombragées invitent à la promenade.",
+        "Une fontaine ancienne embellit le parc verdoyant.",
+        "Les oiseaux colorés chantent dans les arbres feuillus.",
+        "Un chemin sinueux mène vers un rocher imposant.",
+        "La nature inspire une paix intérieure profonde.",
+        "Les saisons transforment le jardin en spectacle.",
+        "Un après-midi ensoleillé égaie tous les promeneurs."
+      ]
     },
     {
-        id: '20',
-        name: 'French Speaking Practice 20 (B1)',
-        level: 'Intermediate',
-        readingText: "À l'école primaire, j'adorais les cours d'art plastique. J'aimais dessiner et peindre des paysages imaginaires, remplis de couleurs vives et de formes étranges. Mon professeur nous encourageait à exprimer notre créativité sans crainte de faire des erreurs. Chaque vendredi, nous exposions nos œuvres sur le mur de la classe, et je ressentais toujours une grande fierté en voyant mon dessin affiché. Aujourd'hui encore, j'aime prendre du temps pour dessiner lorsque j'en ai l'occasion."
-    },
-    {
-        id: '21',
-        name: 'French Speaking Practice 21 (B1)',
-        level: 'Intermediate',
-        readingText: "Quand j'étais enfant, j'avais un chien qui s'appelait Max. C'était un adorable labrador noir, toujours plein d'énergie et prêt à jouer. Chaque matin, avant de partir à l'école, je lui donnais à manger et lui faisais un câlin. Après les cours, nous allions au parc où il courait après son jouet préféré. Max était bien plus qu'un simple animal de compagnie ; il était mon meilleur ami. Même s'il n'est plus là aujourd'hui, je garde de merveilleux souvenirs de nos moments passés ensemble."
-    },
-    {
-        id: '22',
-        name: 'French Speaking Practice 22 (B1)',
-        level: 'Intermediate',
-        readingText: "Les dimanches en famille étaient toujours très spéciaux. Nous nous réunissions chez mes grands-parents pour un grand repas. Ma grand-mère préparait ses fameuses tartes aux pommes, dont l'odeur embaumait toute la maison. Pendant que les adultes discutaient, mes cousins et moi jouions dans le jardin. Nous organisions des courses, construisions des cabanes et inventions des histoires incroyables. Ces moments de partage étaient précieux, et je les chéris encore aujourd'hui."
-    },
-    {
-        id: '23',
-        name: 'French Speaking Practice 23 (B1)',
-        level: 'Intermediate',
-        readingText: "Pendant mon adolescence, j'ai commencé à m'intéresser à la musique. J'ai appris à jouer de la guitare en regardant des tutoriels en ligne et en pratiquant tous les jours. Au début, c'était difficile, mais avec le temps, j'ai réussi à jouer mes chansons préférées. Un jour, j'ai même eu l'occasion de jouer devant mes amis lors d'une fête. J'étais nerveux, mais après quelques notes, j'ai pris confiance en moi. Depuis, la musique fait partie de ma vie et me permet de m'évader du quotidien."
-    },
-    {
-        id: '24',
-        name: 'French Speaking Practice 24 (B1)',
-        level: 'Intermediate',
-        readingText: "Un été, j'ai eu l'occasion de partir en échange scolaire en Espagne. C'était ma première expérience loin de ma famille, et au début, j'étais un peu inquiet. Mais très vite, j'ai découvert une nouvelle culture, une nouvelle langue et des gens formidables. Ma famille d'accueil était très gentille et m'a fait découvrir des spécialités locales comme la paella. Grâce à cette expérience, j'ai pris confiance en moi et j'ai compris l'importance d'être ouvert aux autres cultures."
-    }
+        "id": "20",
+        "name": "French Speaking Practice 20 (B1)",
+        "level": "Intermediate",
+        "readingText": [
+          "La bibliothèque moderne offre des livres captivants.",
+          "Les étudiants discutent d'idées lors du séminaire.",
+          "Une grande exposition d'art transforme le centre-ville.",
+          "Le marché nocturne réunit de nombreux visiteurs.",
+          "Un festival de musique anime le quartier animé.",
+          "La brise marine apporte un air vivifiant.",
+          "Les rues historiques gardent des secrets anciens toujours.",
+          "Une pluie légère nettoie les pavés usés.",
+          "Les cafés animés proposent des plats savoureux.",
+          "Un doux souvenir d'enfance réchauffe mon cœur."
+        ]
+      },
+      {
+        "id": "21",
+        "name": "French Speaking Practice 21 (B1)",
+        "level": "Intermediate",
+        "readingText": [
+          "La galerie d'art expose des peintures originales.",
+          "Un sculpteur talentueux façonne la pierre brute.",
+          "Les rues animées vibrent au rythme urbain.",
+          "Le vieux pont relie deux quartiers charmants.",
+          "Une fontaine ornée égaye la place centrale.",
+          "Les habitants savourent un repas convivial ensemble.",
+          "Le tramway moderne circule dans les rues anciennes.",
+          "Une soirée culturelle réunit de jeunes talents.",
+          "Les étoiles brillent au-dessus du vieux port.",
+          "Un parfum d'été enivre les passants curieux."
+        ]
+      },
+      {
+        "id": "22",
+        "name": "French Speaking Practice 22 (B1)",
+        "level": "Intermediate",
+        "readingText": [
+          "La rivière scintillante traverse le paysage vallonné.",
+          "Les cygnes glissent sur l'eau paisible doucement.",
+          "Un banc solitaire attend des conversations amicales.",
+          "Les arbres centenaires protègent la vieille forêt.",
+          "Une allée ombragée invite à une promenade.",
+          "Le soleil couchant peint le ciel en or.",
+          "Les murmures de la ville bercent la nuit.",
+          "Une mélodie ancienne résonne dans le couloir.",
+          "Les passants admirent l'architecture des édifices historiques.",
+          "Un café chaleureux rassemble des esprits créatifs."
+        ]
+      },
+      {
+        "id": "23",
+        "name": "French Speaking Practice 23 (B1)",
+        "level": "Intermediate",
+        "readingText": [
+          "Le festival de théâtre anime la ville.",
+          "Les acteurs passionnés livrent une performance vibrante.",
+          "Une scène dramatique captive le public attentif.",
+          "Le rideau s'ouvre sur un nouveau récit.",
+          "Les spectateurs applaudissent avec force et émotion.",
+          "Une troupe talentueuse surprend la salle comble.",
+          "Le décor élaboré enrichit chaque scène vivante.",
+          "Une lumière tamisée crée une ambiance mystérieuse.",
+          "Les voix résonnent, portées par l'émotion sincère.",
+          "Un final surprenant conclut le spectacle réussi."
+        ]
+      },
+      {
+        "id": "24",
+        "name": "French Speaking Practice 24 (B1)",
+        "level": "Intermediate",
+        "readingText": [
+          "La cuisine française ravit les gourmets exigeants.",
+          "Un chef renommé crée des plats savoureux.",
+          "Les arômes subtils éveillent des sensations délicieuses.",
+          "La table dressée invite à un festin élégant.",
+          "Un dessert exquis complète le repas raffiné.",
+          "Les convives savourent chaque bouchée avec joie.",
+          "Un vin rouge accompagne parfaitement la cuisine raffinée.",
+          "Les ustensiles brillants décorent la salle à manger.",
+          "La musique douce accompagne l'ambiance gastronomique unique.",
+          "Un moment convivial se partage autour du repas."
+        ]
+      }
 ];

@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
-import styles from '../../src/styles/quiz/speechtracker.module.css';
+import styles from "../../src/styles/quiz/speechtracker.module.css";
 import { HiSpeakerWave } from "react-icons/hi2";
 import { HiSpeakerXMark } from "react-icons/hi2";
 import { MdHearing, MdHearingDisabled } from "react-icons/md";
 import { useDispatch } from "react-redux";
 import { addFinishedQuiz } from "@/Store";
 
-// Function to calculate the similarity percentage between two words
+// ---------- Utility Functions ----------
 const getSimilarity = (word1, word2) => {
   let longer = word1;
   let shorter = word2;
@@ -14,73 +14,77 @@ const getSimilarity = (word1, word2) => {
     longer = word2;
     shorter = word1;
   }
-
   const longerLength = longer.length;
-  if (longerLength === 0) {
-    return 1.0; // both words are empty
-  }
-
+  if (longerLength === 0) return 1.0;
   return (longerLength - editDistance(longer, shorter)) / parseFloat(longerLength);
 };
 
-// Function to calculate the edit distance (Levenshtein distance)
 const editDistance = (s1, s2) => {
   const l1 = s1.length;
   const l2 = s2.length;
   const dp = Array(l1 + 1).fill(null).map(() => Array(l2 + 1).fill(0));
-
   for (let i = 0; i <= l1; i++) dp[i][0] = i;
   for (let j = 0; j <= l2; j++) dp[0][j] = j;
-
   for (let i = 1; i <= l1; i++) {
     for (let j = 1; j <= l2; j++) {
       const cost = s1[i - 1] === s2[j - 1] ? 0 : 1;
       dp[i][j] = Math.min(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1] + cost);
     }
   }
-
   return dp[l1][l2];
 };
 
-
-
-const SpeechTracker = ({ id, subject, data, code }) => {
-  const [spokenWords, setSpokenWords] = useState(""); // Final recognized words
-  const [interimWords, setInterimWords] = useState(""); // Interim (live) recognized words
+// ---------- Sub-Component: LineSpeechTracker ----------
+// This component handles one line's speech tracking and controls.
+const LineSpeechTracker = ({ 
+  line, 
+  lineIndex, 
+  code, 
+  isActive, 
+  onLineComplete 
+}) => {
+  const [spokenWords, setSpokenWords] = useState("");
+  const [interimWords, setInterimWords] = useState("");
   const [isListening, setIsListening] = useState(false);
-  const [isReading, setIsReading] = useState(false); // Tracks whether speech synthesis is active
+  const [isReading, setIsReading] = useState(false);
   const [error, setError] = useState(null);
-  const [lastBoldIndex, setLastBoldIndex] = useState(-1); // Tracks the last correctly bolded word
-  const [isModalOpen, setIsModalOpen] = useState(false); // Modal state
-  const [speed, setSpeed] = useState(0.75); // Speed state (1 is normal speed)
-  const [totalDuration, setTotalDuration] = useState(0); // Total speech duration in seconds
-  const [currentTime, setCurrentTime] = useState(0); // Current speech time
-  const [isStop, setIsstop] = useState(false) 
-  const recognitionRef = useRef(null);
-  const utteranceRef = useRef(null); // Added a reference for the current utterance
-  const intervalRef = useRef(null); // Reference for interval to track speech progress
-  const dispatch = useDispatch();
+  const [lastBoldIndex, setLastBoldIndex] = useState(-1);
+  const [speed, setSpeed] = useState(0.75);
+  const [totalDuration, setTotalDuration] = useState(0);
+  const [currentTime, setCurrentTime] = useState(0);
+  const [isStop, setIsStop] = useState(false);
 
+  const recognitionRef = useRef(null);
+  const utteranceRef = useRef(null);
+  const intervalRef = useRef(null);
+
+  // Only allow recording if this line is active.
   const toggleListening = () => {
+    if (!isActive) return;
     setIsListening((prev) => !prev);
   };
+
+  // If this line loses active status, force-stop its recorder.
+  useEffect(() => {
+    if (!isActive && isListening) {
+      setIsListening(false);
+      if (recognitionRef.current) recognitionRef.current.stop();
+    }
+  }, [isActive, isListening]);
 
   useEffect(() => {
     if (!("webkitSpeechRecognition" in window)) {
       setError("Speech Recognition is not supported in this browser.");
       return;
     }
-
     const recognition = new window.webkitSpeechRecognition();
     recognitionRef.current = recognition;
     recognition.lang = code;
     recognition.interimResults = true;
     recognition.continuous = true;
-
     recognition.onresult = (event) => {
       let interimTranscription = "";
       let finalTranscription = "";
-
       for (let i = event.resultIndex; i < event.results.length; i++) {
         const transcript = event.results[i][0].transcript.trim();
         if (event.results[i].isFinal) {
@@ -89,110 +93,99 @@ const SpeechTracker = ({ id, subject, data, code }) => {
           interimTranscription += transcript + " ";
         }
       }
-
       setSpokenWords((prev) => `${prev} ${finalTranscription}`.trim());
       setInterimWords(interimTranscription.trim());
     };
-
     recognition.onerror = (event) => {
       setError("Speech Recognition Error: " + event.error);
     };
-
-    if (isListening) {
-      recognition.start();
-    } else {
-      recognition.stop();
-    }
-
+    if (isListening && isActive) recognition.start();
+    else recognition.stop();
     return () => recognition.stop();
-  }, [isListening]);
+  }, [isListening, code, isActive]);
 
+  // Highlight words as the user speaks.
   const highlightWords = () => {
-    const spokenArray = (spokenWords + " " + interimWords).toLowerCase().split(/\s+/);
-    const paragraphArray = data.split(" ");
+    const spokenArray = (spokenWords + " " + interimWords)
+      .toLowerCase()
+      .split(/\s+/);
+    const words = line.split(" ");
     let nextBoldIndex = lastBoldIndex + 1;
-
-    return paragraphArray.map((word, index) => {
+    return words.map((word, index) => {
       const cleanedWord = word.replace(/[.,?!]/g, "").toLowerCase();
-
-      // Compare spoken words with a similarity threshold of 60%
-      const isSimilar = spokenArray.some(spokenWord => getSimilarity(spokenWord, cleanedWord) >= 0.4);
+      // Only if the current word is the next expected word and there's a match.
+      const isSimilar = spokenArray.some((sw) => getSimilarity(sw, cleanedWord) >= 0.4);
       if (index === nextBoldIndex && isSimilar) {
         setLastBoldIndex(index);
-        nextBoldIndex += 1;
+        nextBoldIndex++;
       }
-
-      if (index <= lastBoldIndex) {
-        return <strong key={index} className={styles.highlighted}>{word} </strong>;
-      }
-
-      return <span key={index} className={styles.word}>{word} </span>;
+      return index <= lastBoldIndex ? (
+        <strong key={index} className={styles.highlighted}>
+          {word}{" "}
+        </strong>
+      ) : (
+        <span key={index} className={styles.word}>
+          {word}{" "}
+        </span>
+      );
     });
   };
 
+  // When all words in this line are highlighted, stop recording and notify parent.
   useEffect(() => {
-    if (lastBoldIndex >= data.split(" ").length - 1) {
-      setIsModalOpen(true);
-      dispatch(addFinishedQuiz({questionType:"MCQs",exercise:id,language:subject}));
+    const wordCount = line.split(" ").length;
+    if (lastBoldIndex >= wordCount - 1 && isListening) {
+      setIsListening(false);
+      if (recognitionRef.current) recognitionRef.current.stop();
+      onLineComplete(lineIndex);
     }
-  }, [lastBoldIndex, data]);
+  }, [lastBoldIndex, line, lineIndex, isListening, onLineComplete]);
 
   const resetProgress = () => {
     setSpokenWords("");
     setInterimWords("");
     setIsListening(false);
     setLastBoldIndex(-1);
-    setIsModalOpen(false);
     setCurrentTime(0);
-    if (utteranceRef.current) {
-      window.speechSynthesis.cancel(); // Cancel speech if active
-    }
-    clearInterval(intervalRef.current); // Clear interval when speech is stopped
+    if (utteranceRef.current) window.speechSynthesis.cancel();
+    clearInterval(intervalRef.current);
   };
 
-  const closeModal = () => {
-    resetProgress();
-  };
-
+  // Read aloud functionality for this line.
   const toggleReadAloud = () => {
     if (isReading) {
-      window.speechSynthesis.cancel(); // Stop ongoing speech
+      window.speechSynthesis.cancel();
       setIsReading(false);
-      clearInterval(intervalRef.current); // Clear interval when speech is stopped
+      clearInterval(intervalRef.current);
     } else {
       if ("speechSynthesis" in window) {
-        const chunkSize = 100; // Set chunk size (in characters) - can be adjusted
-        const chunks = splitTextIntoChunks(data, chunkSize);
+        const chunkSize = 100;
+        const chunks = splitTextIntoChunks(line, chunkSize);
         let currentChunkIndex = 0;
-        const totalTime = chunks.join(" ").length / 10; // Approximate duration in seconds
+        const totalTime = chunks.join(" ").length / 10;
         setTotalDuration(totalTime);
-
         const speakNextChunk = () => {
           if (currentChunkIndex < chunks.length) {
             const utterance = new SpeechSynthesisUtterance(chunks[currentChunkIndex]);
             utterance.lang = code;
             utterance.rate = speed;
             utteranceRef.current = utterance;
-
             utterance.onend = () => {
-              currentChunkIndex += 1;
-              speakNextChunk(); // Recursively call to speak the next chunk
+              currentChunkIndex++;
+              speakNextChunk();
             };
-
             if (!window.speechSynthesis.speaking) {
               window.speechSynthesis.speak(utterance);
             }
           } else {
-            setIsReading(false); // Reset reading state when all chunks are read
-            clearInterval(intervalRef.current); // Clear interval when speech ends
+            setIsReading(false);
+            clearInterval(intervalRef.current);
           }
         };
-
         setIsReading(true);
-        speakNextChunk(); // Start the first chunk
-
+        speakNextChunk();
         intervalRef.current = setInterval(() => {
-          setCurrentTime((prevTime) => Math.min(prevTime + 1, totalTime)); // Update time every second
+          setCurrentTime((prev) => Math.min(prev + 1, totalTime));
         }, 1000);
       } else {
         setError("Speech Synthesis is not supported in this browser.");
@@ -210,120 +203,153 @@ const SpeechTracker = ({ id, subject, data, code }) => {
 
   const increaseSpeed = () => {
     setIsReading(false);
-    if (utteranceRef.current) {
-      window.speechSynthesis.cancel(); // Stop current speech
-    }
-    setSpeed((prev) => Math.min(prev + 0.1, 2)); // Max speed 2
+    if (utteranceRef.current) window.speechSynthesis.cancel();
+    setSpeed((prev) => Math.min(prev + 0.1, 2));
   };
 
   const decreaseSpeed = () => {
     setIsReading(false);
-    if (utteranceRef.current) {
-      window.speechSynthesis.cancel(); // Stop current speech
-    }
-    setSpeed((prev) => Math.max(prev - 0.1, 0.5)); // Min speed 0.5
+    if (utteranceRef.current) window.speechSynthesis.cancel();
+    setSpeed((prev) => Math.max(prev - 0.1, 0.5));
   };
 
-  // Handle slider interaction
   const handleSliderChange = (e) => {
     const newTime = e.target.value;
     setCurrentTime(newTime);
-
     if (utteranceRef.current) {
-      const charIndex = Math.floor((newTime / totalDuration) * data.length);
-      utteranceRef.current.text = data.slice(charIndex);
+      const charIndex = Math.floor((newTime / totalDuration) * line.length);
+      utteranceRef.current.text = line.slice(charIndex);
     }
   };
 
   useEffect(() => {
-    // Cleanup function to stop the speech if the page is navigated away
     return () => {
-      if (window.speechSynthesis) {
-        window.speechSynthesis.cancel(); // Cancel any ongoing speech
-      }
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
     };
-  }, []); // Empty dependency array to run only on component unmount
+  }, []);
+
+  return (
+    <div className={styles.lineTrackerContainer}>
+      <p className={styles.paragraph}>{highlightWords()}</p>
+      <div className={styles.flex}>
+        <div className={styles.btnsflex}>
+          {isActive && (isListening ? <MdHearing className={styles.hrbtns} /> : <MdHearingDisabled className={styles.hrbtns} />)}
+          {isActive && (
+            <>
+              {isListening ? (
+                <>
+                  <button
+                    className={styles.toggleButton}
+                    onClick={() => {
+                      setIsListening(false);
+                      setIsStop(true);
+                    }}
+                  >
+                    Stop Speaking
+                  </button>
+                  <button
+                    className={styles.toggleButton}
+                    onClick={() => {
+                      resetProgress();
+                      setIsListening(true);
+                    }}
+                  >
+                    Restart
+                  </button>
+                </>
+              ) : isStop ? (
+                <>
+                  <button
+                    className={styles.toggleButton}
+                    onClick={() => {
+                      setIsListening(true);
+                      setIsStop(false);
+                    }}
+                  >
+                    Resume Speaking
+                  </button>
+                  <button className={styles.toggleButton} onClick={resetProgress}>
+                    Restart
+                  </button>
+                </>
+              ) : (
+                <button
+                  className={styles.toggleButton}
+                  onClick={() => {
+                    setIsListening(true);
+                    setIsStop(false);
+                  }}
+                >
+                  Start Speaking
+                </button>
+              )}
+            </>
+          )}
+        </div>
+        <div className={styles.flexbuttons}>
+          {isActive && (
+            <>
+              <button className={styles.readAloudButton} onClick={toggleReadAloud}>
+                {isReading ? <HiSpeakerXMark /> : <HiSpeakerWave />}
+              </button>
+              <div className={styles.speedControls}>
+                <button onClick={decreaseSpeed}>-</button>
+                <span>{speed.toFixed(2)}x</span>
+                <button onClick={increaseSpeed}>+</button>
+              </div>
+            </>
+          )}
+        </div>
+      </div>
+      {error && <p className={styles.errorMessage}>{error}</p>}
+    </div>
+  );
+};
+
+// ---------- Main Component: SpeechTracker ----------
+// Expects data to be an array of lines. Only the active line’s recorder is enabled.
+const SpeechTracker = ({ id, subject, data, code }) => {
+  const [activeLineIndex, setActiveLineIndex] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const dispatch = useDispatch();
+
+  // When an active line completes, advance to the next line (or show modal if done).
+  const handleLineComplete = (lineIndex) => {
+    if (lineIndex === activeLineIndex) {
+      const nextLine = activeLineIndex + 1;
+      if (nextLine < data.length) {
+        setActiveLineIndex(nextLine);
+      } else {
+        dispatch(addFinishedQuiz({ questionType: "MCQs", exercise: id, language: subject }));
+        setIsModalOpen(true);
+      }
+    }
+  };
+
+  // Reset progress when the modal is closed.
+  const closeModal = () => {
+    setActiveLineIndex(0);
+    setIsModalOpen(false);
+  };
 
   return (
     <div className={styles.speechTrackerContainer}>
       <h1 className={styles.heading}>Speech Tracker</h1>
-      <p className={styles.paragraph}>{highlightWords()}</p>
-      <div className={styles.flex}>
-        <div className={styles.btnsflex}>
-          {isListening ? <MdHearing className={styles.hrbtns}/> : <MdHearingDisabled className={styles.hrbtns}/>}
-    {isListening ? (
-      <>
-        <button
-          className={`${styles.toggleButton}`}
-          onClick={() => {
-            setIsListening(false);
-            setIsstop(true);
-          }}
-        >
-          Stop
-        </button>
-        <button
-          className={styles.toggleButton}
-          onClick={() => {
-            resetProgress();
-            setIsListening(true);
-          }}
-        >
-          Restart
-        </button>
-      </>
-    ) : isStop ? (
-      <>
-        <button
-          className={`${styles.toggleButton}`}
-          onClick={() => {
-            setIsListening(true);
-            setIsstop(false);
-          }}
-        >
-          Resume
-        </button>
-        <button
-          className={styles.toggleButton}
-          onClick={resetProgress}
-        >
-          Restart
-        </button>
-      </>
-    ) : (
-      <button
-        className={`${styles.toggleButton}`}
-        onClick={() => {
-          setIsListening(true);
-          setIsstop(false);
-        }}
-      >
-        Start Speaking
-      </button>
-    )}
-    </div>
-  <div className={styles.flexbuttons}>
-    <button
-      className={styles.readAloudButton}
-      onClick={toggleReadAloud}
-    >
-      {isReading ? <HiSpeakerXMark /> : <HiSpeakerWave />}
-    </button>
-    <div className={styles.speedControls}>
-      <button onClick={decreaseSpeed}>-</button>
-      <span>{speed.toFixed(2)}x</span>
-      <button onClick={increaseSpeed}>+</button>
-    </div>
-    </div>
-  </div>
-
-      {error && <p className={styles.errorMessage}>{error}</p>}
-
+      {data.map((line, index) => (
+        <LineSpeechTracker
+          key={index}
+          line={line}
+          lineIndex={index}
+          code={code}
+          isActive={index === activeLineIndex}
+          onLineComplete={handleLineComplete}
+        />
+      ))}
       {isModalOpen && (
         <div className={styles.modal}>
           <div className={styles.modalContent}>
             <h2>Well Done!</h2>
-            <p>You have successfully completed the paragraph.</p>
+            <p>You have successfully completed all lines.</p>
             <button className={styles.closeModalButton} onClick={closeModal}>
               Close
             </button>

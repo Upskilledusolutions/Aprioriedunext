@@ -1,116 +1,326 @@
 export const data = [
     {
-        id: '1',
-        name: 'German Speaking Practice 1 (A1)',
-        level: 'Beginner',
-        readingText: "Hallo, Ich bin ein deutscher Student. Ich bin 25 Jahre alt und wohne in Berlin, Deutschland. Ich studiere Biologie an der Universität. In meiner Freizeit lese ich gerne Bücher, höre Musik und koche. Ich habe einen Bruder, der Lucas heißt. Er ist jünger als ich. Ich liebe es, neue Leute kennenzulernen und neue Kulturen zu entdecken. Schön, Sie kennenzulernen!"
+      "id": "1",
+      "name": "German Speaking Practice 1 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Hund rennt im Park.",
+        "Die Katze schläft auf Sofa.",
+        "Das Kind spielt im Garten.",
+        "Der Vogel singt am Morgen.",
+        "Die Blume duftet im Frühling.",
+        "Der Regen fällt sanft nieder.",
+        "Die Sonne scheint hell heute.",
+        "Das Buch liegt auf dem Tisch.",
+        "Der Fisch schwimmt im Wasser.",
+        "Die Maus läuft in der Küche."
+      ]
     },
     {
-        id: '2',
-        name: 'German Speaking Practice 2 (A1)',
-        level: 'Beginner',
-        readingText: "Jeden Morgen wache ich um 7 Uhr auf. Ich dusche, ziehe mich an und frühstücke. Danach gehe ich zu Fuß zur Schule. Nach dem Unterricht gehe ich nach Hause, mache meine Hausaufgaben und sehe fern. Am Abend esse ich mit meiner Familie zu Abend und gehe um 22 Uhr ins Bett."
+      "id": "2",
+      "name": "German Speaking Practice 2 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Junge isst einen Apfel.",
+        "Das Mädchen malt bunte Bilder.",
+        "Die Biene sammelt süßen Nektar.",
+        "Der Bus fährt pünktlich los.",
+        "Die Uhr zeigt zwölf Uhr.",
+        "Das Auto parkt vor dem Haus.",
+        "Der Lehrer erklärt die Stunde.",
+        "Das Fenster öffnet sich leise.",
+        "Der Baum wächst im Wald.",
+        "Die Wolken ziehen am Himmel."
+      ]
     },
     {
-        id: '3',
-        name: 'German Speaking Practice 3 (A1)',
-        level: 'Beginner',
-        readingText: "In meiner Familie gibt es vier Personen: meinen Vater, meine Mutter, meinen Bruder und mich. Mein Vater arbeitet im Büro, und meine Mutter ist Lehrerin. Mein Bruder heißt Peter und ist 10 Jahre alt. Wir verbringen gerne Zeit zusammen am Wochenende."
+      "id": "3",
+      "name": "German Speaking Practice 3 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Die Sonne geht langsam auf.",
+        "Der Mond leuchtet in der Nacht.",
+        "Ein Vogel baut ein Nest.",
+        "Der Wind weht sanft heute.",
+        "Die Blätter fallen im Herbst.",
+        "Das Wasser sprudelt am Bach.",
+        "Ein Frosch quakt im Teich.",
+        "Die Wolken schweben über dem Berg.",
+        "Das Gras ist frisch gemäht.",
+        "Die Katze jagt einen Schmetterling."
+      ]
     },
     {
-        id: '4',
-        name: 'German Speaking Practice 4 (A1)',
-        level: 'Beginner',
-        readingText: "Ich spiele gerne Fußball mit meinen Freunden. In meiner Freizeit spiele ich auch Klavier. Am Wochenende gehe ich in den Park, um ein Buch zu lesen oder zu zeichnen. Mein Lieblingshobby ist es, Filme mit meiner Familie anzusehen."
+      "id": "4",
+      "name": "German Speaking Practice 4 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Kaffee ist sehr heiß.",
+        "Die Milch ist kalt heute.",
+        "Das Brot ist frisch gebacken.",
+        "Der Käse schmeckt wunderbar lecker.",
+        "Das Wasser ist klar und rein.",
+        "Die Suppe duftet köstlich sehr.",
+        "Ein Ei liegt auf dem Teller.",
+        "Das Obst ist bunt gemischt.",
+        "Die Suppe wärmt im Winter.",
+        "Der Tee duftet mild heute."
+      ]
     },
     {
-        id: '5',
-        name: 'German Speaking Practice 5 (A1)',
-        level: 'Beginner',
-        readingText: "Im Sommer ist es sehr heiß und sonnig. Ich gehe gerne an den Strand. Im Winter ist es kalt, und es schneit manchmal. Ich trage einen Mantel und trinke heiße Schokolade. Ich mag auch den Frühling, weil die Blumen anfangen zu blühen."
+      "id": "5",
+      "name": "German Speaking Practice 5 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Regenbogen zeigt bunte Farben.",
+        "Das Eis schmilzt im Sommer.",
+        "Der Schnee bedeckt stille Wege.",
+        "Ein Blitz erhellt dunkle Wolken.",
+        "Der Sturm pfeift durch Bäume.",
+        "Das Gewitter kracht laut draußen.",
+        "Der Morgen bringt neue Hoffnung.",
+        "Die Nacht ist still und ruhig.",
+        "Ein Stern blinkt im Dunkeln.",
+        "Das Licht glüht am Abend."
+      ]
     },
     {
-        id: '6',
-        name: 'German Speaking Practice 6 (A1)',
-        level: 'Beginner',
-        readingText: "Ich gehe auf eine kleine Schule in der Nähe meines Hauses. Meine Lieblingsfächer sind Mathematik und Deutsch. Ich habe viele Freunde in meiner Klasse. Die Lehrer sind sehr nett und erklären die Lektionen gut."
+      "id": "6",
+      "name": "German Speaking Practice 6 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Bus hält an Haltestelle.",
+        "Die Straße ist breit heute.",
+        "Das Haus steht sehr stabil.",
+        "Der Garten blüht im Sommer.",
+        "Die Katze schnurrt leise dort.",
+        "Der Vogel fliegt über Felder.",
+        "Das Schiff segelt auf dem Meer.",
+        "Die Brücke verbindet zwei Städte.",
+        "Der Zug fährt schnell vorbei.",
+        "Die Ampel wechselt alle Minuten."
+      ]
     },
     {
-        id: '7',
-        name: 'German Speaking Practice 7 (A1)',
-        level: 'Beginner',
-        readingText: "Ich gehe gerne mit meiner Mutter auf den Markt. Wir kaufen Obst, Gemüse und Brot. Manchmal gehe ich ins Einkaufszentrum, um Kleidung zu kaufen. Ich liebe es, neue Schuhe oder eine Tasche auszuwählen."
+      "id": "7",
+      "name": "German Speaking Practice 7 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Brief kommt per Post.",
+        "Die Zeitung liegt auf dem Tisch.",
+        "Das Radio spielt leise Musik.",
+        "Die Lampe leuchtet im Zimmer.",
+        "Der Computer summt leise vor sich.",
+        "Das Telefon klingelt sehr laut.",
+        "Der Stift schreibt auf Papier.",
+        "Das Fenster zeigt frische Luft.",
+        "Die Tür öffnet sich langsam.",
+        "Der Schlüssel passt ins Schloss."
+      ]
     },
     {
-        id: '8',
-        name: 'German Speaking Practice 8 (A1)',
-        level: 'Beginner',
-        readingText: "In den Ferien reise ich mit meiner Familie. Wir besuchen verschiedene Städte in Deutschland, wie München oder Hamburg. Ich entdecke gerne neue Orte und mache Fotos von berühmten Sehenswürdigkeiten."
+      "id": "8",
+      "name": "German Speaking Practice 8 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Kuchen duftet wunderbar frisch.",
+        "Die Torte ist süß und lecker.",
+        "Der Saft ist kalt und frisch.",
+        "Das Wasser schmeckt sehr rein.",
+        "Die Suppe kocht auf dem Herd.",
+        "Der Reis dampft im Topf.",
+        "Die Gabel liegt neben dem Messer.",
+        "Das Brot ist warm und weich.",
+        "Der Tee schmeckt mild und gut.",
+        "Die Milch fließt in der Tasse."
+      ]
     },
     {
-        id: '9',
-        name: 'German Speaking Practice 9 (A1)',
-        level: 'Beginner',
-        readingText: "Ich liebe es, Pfannkuchen und Brezeln zu essen. Mein Lieblingsgericht ist Pizza. Ich trinke oft Orangensaft oder Wasser. Am Wochenende backen wir zu Hause einen Schokoladenkuchen."
+      "id": "9",
+      "name": "German Speaking Practice 9 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Die Blätter rascheln im Wind.",
+        "Der Herbst bringt bunte Farben.",
+        "Der Baum verliert seine Blätter.",
+        "Das Laub bedeckt den Boden.",
+        "Der Wind weht stark heute.",
+        "Die Vögel fliegen in Schwärmen.",
+        "Die Äpfel fallen vom Baum.",
+        "Der Regen nässt die Erde.",
+        "Die Sonne bricht durch Wolken.",
+        "Der Morgen duftet nach Kaffee."
+      ]
     },
     {
-        id: '10',
-        name: 'German Speaking Practice 10 (A1)',
-        level: 'Beginner',
-        readingText: "Mein Lieblingsfest ist Weihnachten. Wir schmücken einen Baum mit Lichtern und Kugeln. Meine Familie bereitet ein großes Abendessen mit Truthahn und Desserts vor. Wir tauschen Geschenke aus und verbringen Zeit zusammen."
+      "id": "10",
+      "name": "German Speaking Practice 10 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Fußball rollt über Rasen.",
+        "Das Spiel beginnt um acht.",
+        "Der Spieler läuft sehr schnell.",
+        "Der Ball fliegt ins Tor.",
+        "Die Menge jubelt laut heute.",
+        "Die Mannschaft spielt mit Herz.",
+        "Der Trainer ruft taktisch an.",
+        "Der Sieg bringt viel Freude.",
+        "Das Stadion bebt vor Jubel.",
+        "Die Fans singen lautstark mit."
+      ]
     },
     {
-        id: '11',
-        name: 'German Speaking Practice 11 (A1)',
-        level: 'Beginner',
-        readingText: "Ich gehe gerne mit meiner Mutter auf den Markt. Wir kaufen Obst, Gemüse und manchmal Blumen. Die Verkäufer sind immer freundlich und lächeln. Ich wähle oft rote Äpfel und Bananen. Nach dem Einkaufen trinken wir einen frischen Orangensaft. Auf den Markt zu gehen, ist eine Aktivität, die ich sehr mag."
+      "id": "11",
+      "name": "German Speaking Practice 11 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Briefkasten steht vor Haus.",
+        "Die Post kommt jeden Morgen.",
+        "Der Verkäufer lächelt freundlich immer.",
+        "Das Geschäft öffnet früh heute.",
+        "Die Straße ist sauber und leer.",
+        "Der Marktplatz pulsiert am Mittag.",
+        "Die Schilder leuchten in Rot.",
+        "Der Laden verkauft frische Waren.",
+        "Die Rechnung stimmt immer exakt.",
+        "Der Kunde zahlt mit Bargeld."
+      ]
     },
     {
-        id: '12',
-        name: 'German Speaking Practice 12 (A1)',
-        level: 'Beginner',
-        readingText: "Ich habe zwei beste Freunde. Sie heißen Sophie und Julian. Wir spielen oft nach der Schule im Park. Am Wochenende schauen wir Filme oder spielen Brettspiele. Sie sind sehr lustig und nett."
+      "id": "12",
+      "name": "German Speaking Practice 12 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Die Straße führt zum Park.",
+        "Der Fluss fließt sehr ruhig.",
+        "Die Brücke spannt sich weit.",
+        "Das Boot gleitet über Wasser.",
+        "Der Hafen ist stets belebt.",
+        "Die Möwen kreischen am Strand.",
+        "Das Schiff ankert im Hafen.",
+        "Der Leuchtturm strahlt in der Nacht.",
+        "Die Wellen rauschen am Ufer.",
+        "Der Sand ist weich und gold."
+      ]
     },
     {
-        id: '13',
-        name: 'German Speaking Practice 13 (A1)',
-        level: 'Beginner',
-        readingText: "Um zur Schule zu gehen, nehme ich den Bus. Manchmal gehe ich zu Fuß, wenn das Wetter schön ist. Um eine andere Stadt zu besuchen, fährt meine Familie mit dem Auto oder dem Zug. Ich schaue gerne aus dem Fenster während der Fahrt."
+      "id": "13",
+      "name": "German Speaking Practice 13 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Vogel baut sein Nest.",
+        "Die Eule ruht am Baum.",
+        "Der Fuchs schleicht durch Felder.",
+        "Die Ziege springt über den Zaun.",
+        "Das Kaninchen hoppelt im Gras.",
+        "Der Bär schläft in der Höhle.",
+        "Die Maus rennt unter dem Stuhl.",
+        "Das Pferd galoppiert auf der Weide.",
+        "Der Hahn kräht im Morgen.",
+        "Die Ente schwimmt im Teich."
+      ]
     },
     {
-        id: '14',
-        name: 'German Speaking Practice 14 (A1)',
-        level: 'Beginner',
-        readingText: "Ich wohne in einem Haus mit meiner Familie. Es gibt drei Schlafzimmer, eine Küche, ein Wohnzimmer und ein Badezimmer. Mein Zimmer ist klein, aber gemütlich. Ich habe einen Schreibtisch, ein Bett und ein Regal für meine Bücher."
+      "id": "14",
+      "name": "German Speaking Practice 14 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Künstler malt farbige Bilder.",
+        "Die Sängerin singt eine Ballade.",
+        "Der Tänzer dreht sich elegant.",
+        "Die Bühne leuchtet in Neon.",
+        "Das Mikrofon fängt den Ton.",
+        "Die Noten fliegen auf Papier.",
+        "Der Rhythmus bewegt die Herzen.",
+        "Die Melodie klingt wunderbar sanft.",
+        "Der Takt stimmt zum Tanz.",
+        "Das Lied endet leise plötzlich."
+      ]
     },
     {
-        id: '15',
-        name: 'German Speaking Practice 15 (A1)',
-        level: 'Beginner',
-        readingText: "Mein Vater arbeitet in einer Bank, und meine Mutter ist Ärztin. Sie stehen früh auf und kommen abends nach Hause. Ich möchte Lehrer werden. Ich liebe es, anderen beim Lernen zu helfen."
+      "id": "15",
+      "name": "German Speaking Practice 15 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Die Schule beginnt um acht.",
+        "Der Lehrer schreibt an der Tafel.",
+        "Die Schüler lauschen dem Unterricht.",
+        "Das Klassenzimmer ist hell heute.",
+        "Der Rucksack liegt neben dem Stuhl.",
+        "Die Pause dauert zehn Minuten.",
+        "Das Heft liegt auf dem Schreibtisch.",
+        "Die Tafel ist sauber heute.",
+        "Der Stift schreibt glatt immer.",
+        "Das Buch öffnet neue Welten."
+      ]
     },
     {
-        id: '16',
-        name: 'German Speaking Practice 16 (A1)',
-        level: 'Beginner',
-        readingText: "In den Sommerferien gehen wir an den Strand. Ich spiele gerne im Sand und schwimme im Meer. Im Winter besuchen wir die Berge, um Ski zu fahren. Die Ferien sind meine Lieblingszeit."
+      "id": "16",
+      "name": "German Speaking Practice 16 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Arzt untersucht den Patienten.",
+        "Die Krankenschwester lächelt sehr freundlich.",
+        "Das Medikament hilft schnell wieder.",
+        "Der OP-Saal ist steril heute.",
+        "Der Patient ruht im Zimmer.",
+        "Die Spritze piekst nur leicht.",
+        "Das Rezept liegt auf Papier.",
+        "Die Klinik öffnet morgen früh.",
+        "Der Termin endet pünktlich heute.",
+        "Die Pflegekraft hilft jedem Tag."
+      ]
     },
     {
-        id: '17',
-        name: 'German Speaking Practice 17 (A1)',
-        level: 'Beginner',
-        readingText: "Meine Lieblingsfarbe ist Blau. Im Sommer trage ich gerne Jeans und ein T-Shirt. Im Winter ziehe ich einen Pullover und einen warmen Mantel an. Ich habe auch einen roten Hut für kalte Tage."
+      "id": "17",
+      "name": "German Speaking Practice 17 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Computer startet ganz schnell.",
+        "Das Internet verbindet viele Leute.",
+        "Die Software läuft ohne Fehler.",
+        "Der Bildschirm zeigt bunte Bilder.",
+        "Die Tastatur tippt leise Worte.",
+        "Die Maus klickt ohne Geräusche.",
+        "Der Drucker druckt bunte Seiten.",
+        "Die Festplatte speichert viele Daten.",
+        "Das Kabel ist lang und dünn.",
+        "Der Router sendet starkes Signal."
+      ]
     },
     {
-        id: '18',
-        name: 'German Speaking Practice 18 (A1)',
-        level: 'Beginner',
-        readingText: "Ich habe einen Hund, der Max heißt. Er ist sehr süß und spielt viel. Ich füttere ihn und gehe jeden Tag mit ihm spazieren. Ich hätte gerne eines Tages auch eine Katze."
+      "id": "18",
+      "name": "German Speaking Practice 18 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Adler kreist hoch oben.",
+        "Die Eule jagt in der Nacht.",
+        "Der Fuchs schleicht durch den Wald.",
+        "Das Reh springt über den Bach.",
+        "Die Bienen summen im Garten.",
+        "Der Schmetterling tanzt im Licht.",
+        "Die Ameise krabbelt auf einem Blatt.",
+        "Das Eichhörnchen sammelt Nüsse flink.",
+        "Der Igel rollt sich zusammen.",
+        "Die Libelle schwebt über Wasser."
+      ]
     },
     {
-        id: '19',
-        name: 'German Speaking Practice 19 (A1)',
-        level: 'Beginner',
-        readingText: "Mein Lieblingsspielzeug ist ein Fußball. Mein Lieblingsfilm ist ‘Der König der Löwen’. Ich lese auch gerne Abenteuergeschichten. Mein Lieblingsort ist der Park in der Nähe meines Hauses."
+      "id": "19",
+      "name": "German Speaking Practice 19 (A1)",
+      "level": "Beginner",
+      "readingText": [
+        "Der Morgen ist frisch und klar.",
+        "Das Licht bricht durch Wolken.",
+        "Die Stadt erwacht langsam heute.",
+        "Der Markt öffnet früh täglich.",
+        "Die Menschen lächeln freundlich oft.",
+        "Das Auto fährt leise vorbei.",
+        "Der Zug pfeift in Ferne.",
+        "Die Blumen blühen farbenfroh heute.",
+        "Das Fenster zeigt klare Sicht.",
+        "Der Abend kommt still heran."
+      ]
     }
-];
+  ]
+  
