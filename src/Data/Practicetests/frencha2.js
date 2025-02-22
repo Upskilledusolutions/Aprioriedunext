@@ -1946,4 +1946,681 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '4',
+      name: 'French A2 Practice Test - 4',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Quelle phrase utiliseriez-vous pour demander le prix d’un vêtement en magasin ?",
+          "choices": [
+            "Où est la caisse ?",
+            "Combien coûte cette robe ?",
+            "Je voudrais essayer cette chemise.",
+            "Avez-vous d'autres couleurs ?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Que portez-vous en hiver pour couvrir vos mains ?",
+          "choices": [
+            "Une écharpe",
+            "Un chapeau",
+            "Des gants",
+            "Des chaussures"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Si un vêtement est trop petit, que pouvez-vous dire ?",
+          "choices": [
+            "Avez-vous une taille plus grande ?",
+            "Avez-vous ce modèle en bleu ?",
+            "Puis-je payer en espèces ?",
+            "Ce manteau est trop cher."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Où payez-vous après vos achats dans un magasin ?",
+          "choices": [
+            "À l'entrée",
+            "À la cabine d'essayage",
+            "À la caisse",
+            "Au rayon vêtements"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel vêtement portez-vous sur la tête en été pour vous protéger du soleil ?",
+          "choices": [
+            "Un bonnet",
+            "Un chapeau",
+            "Une écharpe",
+            "Un pantalon"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Complétez la phrase : \"Cette robe est très ________.\"",
+          "choices": [
+            "joli",
+            "jolie",
+            "jolies",
+            "beau"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Les pantalons de mon frère sont ________.",
+          "choices": [
+            "grande",
+            "grands",
+            "grandes",
+            "gros"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Cette chemise est trop ________ pour moi. Je préfère une couleur plus foncée.",
+          "choices": [
+            "légers",
+            "claire",
+            "clairs",
+            "foncé"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Mes chaussures sont ________ que les tiennes.",
+          "choices": [
+            "confortables",
+            "confortable",
+            "confortablent",
+            "confortabilité"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les robes de ma sœur sont très ________.",
+          "choices": [
+            "élégante",
+            "élégant",
+            "élégants",
+            "élégantes"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Quel passe-temps nécessite un vélo ?",
+          "choices": [
+            "La natation",
+            "La peinture",
+            "Le cyclisme",
+            "La photographie"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Quel instrument de musique a des touches blanches et noires ?",
+          "choices": [
+            "La guitare",
+            "Le piano",
+            "Le violon",
+            "La batterie"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Si vous aimez \"la lecture\", qu’aimez-vous faire ?",
+          "choices": [
+            "Lire des livres",
+            "Regarder des films",
+            "Écouter de la musique",
+            "Jouer au football"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quel hobby se pratique généralement dans une piscine ?",
+          "choices": [
+            "Le ski",
+            "La natation",
+            "Le basket",
+            "Le dessin"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Quel passe-temps est associé à la danse et à la musique ?",
+          "choices": [
+            "La randonnée",
+            "La photographie",
+            "Le théâtre",
+            "Le ballet"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Complétez la phrase : \"Nous ________ toujours nos devoirs avant le dîner.\" (finir)",
+          "choices": [
+            "finissons",
+            "finissent",
+            "finis",
+            "finit"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ________ une nouvelle veste pour l'hiver ? (choisir)",
+          "choices": [
+            "choisis",
+            "choisisons",
+            "choisissent",
+            "choisisait"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ________ souvent les escaliers au lieu de l'ascenseur. (prendre)",
+          "choices": [
+            "prends",
+            "prend",
+            "prenons",
+            "prennent"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Complétez la phrase : \"Vous ________ votre repas au restaurant ?\" (manger)",
+          "choices": [
+            "mange",
+            "mangeons",
+            "mangez",
+            "mangons"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Nous ________ toujours avant de parler. (réfléchir)",
+          "choices": [
+            "réfléchissons",
+            "réfléchit",
+            "réfléchis",
+            "réfléchissent"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+
+        {
+          "question": "Je voudrais acheter un ______ noir. (I would like to buy a black coat.)",
+          "choices": ["manteau"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Combien coûte cette ______ en soie ? (How much does this silk scarf cost?)",
+          "choices": ["écharpe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je porte des ______ en cuir pour protéger mes mains en hiver. (I wear leather gloves to protect my hands in winter.)",
+          "choices": ["gants"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ce pantalon est trop grand. Avez-vous une taille ______ ? (These pants are too big. Do you have a smaller size?)",
+          "choices": ["plus petite"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'aime beaucoup cette robe, mais je préfère la même en ______. (I really like this dress, but I prefer the same one in blue.)",
+          "choices": ["bleu"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ma sœur a une voiture ______. (My sister has a red car.)",
+          "choices": ["rouge"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon frère est ______, mais ma sœur est intelligente. (My brother is funny, but my sister is smart.)",
+          "choices": ["drôle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Cette maison est ______ et ancienne. (This house is beautiful and old.)",
+          "choices": ["belle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Les étudiants sont ______ après l’examen. (The students are tired after the exam.)",
+          "choices": ["fatigués"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J'aime les histoires ______, mais mon ami préfère les histoires ennuyeuses. (I like interesting stories, but my friend prefers boring ones.)",
+          "choices": ["intéressantes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon passe-temps préféré est de ______ des romans policiers. (My favorite hobby is reading detective novels.)",
+          "choices": ["lire"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "J’adore ______ du piano pendant mon temps libre. (I love playing the piano in my free time.)",
+          "choices": ["jouer"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous aimons ______ dans les montagnes le week-end. (We like hiking in the mountains on weekends.)",
+          "choices": ["faire de la randonnée"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quand il pleut, je préfère rester à la maison et ______ un film. (When it rains, I prefer staying home and watching a movie.)",
+          "choices": ["regarder"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ma sœur prend des cours de peinture parce qu'elle aime ______. (My sister takes painting classes because she loves drawing.)",
+          "choices": ["dessiner"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ toujours avant de répondre. (We always think before answering.)",
+          "choices": ["réfléchissons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ souvent du chocolat ? (Do you often eat chocolate?)",
+          "choices": ["mangez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ toujours les escaliers au lieu de l'ascenseur. (She always takes the stairs instead of the elevator.)",
+          "choices": ["prend"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ à 18h après le travail. (They finish at 6 PM after work.)",
+          "choices": ["finissent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ un bon livre en ce moment ? (Are you choosing a good book right now?)",
+          "choices": ["choisis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Je voudrais acheter un manteau pour l’hiver.",
+          "choices": ["Je", "voudrais", "acheter", "un", "manteau", "pour", "l’hiver."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Combien coûte cette chemise en coton bleu ?",
+          "choices": ["Combien", "coûte", "cette", "chemise", "en", "coton", "bleu", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Avez-vous ces chaussures en taille quarante ?",
+          "choices": ["Avez-vous", "ces", "chaussures", "en", "taille", "quarante", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Cette écharpe est en laine et très chaude.",
+          "choices": ["Cette", "écharpe", "est", "en", "laine", "et", "très", "chaude."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J’aimerais essayer ce pantalon noir, s’il vous plaît.",
+          "choices": ["J’aimerais", "essayer", "ce", "pantalon", "noir,", "s’il", "vous", "plaît."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ma sœur porte une robe rouge élégante.",
+          "choices": ["Ma", "sœur", "porte", "une", "robe", "rouge", "élégante."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Les chaussures noires sont plus belles que les marron.",
+          "choices": ["Les", "chaussures", "noires", "sont", "plus", "belles", "que", "les", "marron."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mon frère a un pull vert foncé.",
+          "choices": ["Mon", "frère", "a", "un", "pull", "vert", "foncé."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Les nouvelles jupes sont légères et confortables.",
+          "choices": ["Les", "nouvelles", "jupes", "sont", "légères", "et", "confortables."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J’aime les vêtements simples et modernes aussi.",
+          "choices": ["J’aime", "les", "vêtements", "simples", "et", "modernes", "aussi."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mon passe-temps préféré est de lire des romans.",
+          "choices": ["Mon", "passe-temps", "préféré", "est", "de", "lire", "des", "romans."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "J’adore jouer du piano et de la guitare.",
+          "choices": ["J’adore", "jouer", "du", "piano", "et", "de", "la", "guitare."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous faisons du vélo chaque dimanche matin.",
+          "choices": ["Nous", "faisons", "du", "vélo", "chaque", "dimanche", "matin."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il apprend la photographie avec un bon appareil.",
+          "choices": ["Il", "apprend", "la", "photographie", "avec", "un", "bon", "appareil."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ma sœur aime danser et faire du yoga.",
+          "choices": ["Ma", "sœur", "aime", "danser", "et", "faire", "du", "yoga."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous finissons nos devoirs avant de sortir.",
+          "choices": ["Nous", "finissons", "nos", "devoirs", "avant", "de", "sortir."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu choisis toujours les vêtements très colorés.",
+          "choices": ["Tu", "choisis", "toujours", "les", "vêtements", "très", "colorés."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ils vendent des fruits frais au marché.",
+          "choices": ["Ils", "vendent", "des", "fruits", "frais", "au", "marché."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Vous réfléchissez bien avant de prendre une décision.",
+          "choices": ["Vous", "réfléchissez", "bien", "avant", "de", "prendre", "une", "décision."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle attend le bus devant la boulangerie.",
+          "choices": ["Elle", "attend", "le", "bus", "devant", "la", "boulangerie."],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "un pantalon", "rightId": 1 },
+              "right": { "word": "Dress", "rightId": 3 }
+            },
+            {
+              "left": { "word": "une chemise", "rightId": 2 },
+              "right": { "word": "Shoes", "rightId": 5 }
+            },
+            {
+              "left": { "word": "une robe", "rightId": 3 },
+              "right": { "word": "Shirt", "rightId": 2 }
+            },
+            {
+              "left": { "word": "un manteau", "rightId": 4 },
+              "right": { "word": "Pants", "rightId": 1 }
+            },
+            {
+              "left": { "word": "des chaussures", "rightId": 5 },
+              "right": { "word": "Coat", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "une écharpe", "rightId": 1 },
+              "right": { "word": "Gloves", "rightId": 2 }
+            },
+            {
+              "left": { "word": "des gants", "rightId": 2 },
+              "right": { "word": "Scarf", "rightId": 1 }
+            },
+            {
+              "left": { "word": "un chapeau", "rightId": 3 },
+              "right": { "word": "Jacket", "rightId": 5 }
+            },
+            {
+              "left": { "word": "un sac à main", "rightId": 4 },
+              "right": { "word": "Hat", "rightId": 3 }
+            },
+            {
+              "left": { "word": "un pull", "rightId": 5 },
+              "right": { "word": "Handbag", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "rouges", "rightId": 1 },
+              "right": { "word": "un pull chaud", "rightId": 2 }
+            },
+            {
+              "left": { "word": "froid", "rightId": 2 },
+              "right": { "word": "une robe élégante", "rightId": 3 }
+            },
+            {
+              "left": { "word": "belles", "rightId": 3 },
+              "right": { "word": "des cheveux blonds", "rightId": 5 }
+            },
+            {
+              "left": { "word": "longue", "rightId": 4 },
+              "right": { "word": "des chaussures noires", "rightId": 1 }
+            },
+            {
+              "left": { "word": "courts", "rightId": 5 },
+              "right": { "word": "une jupe rouge", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "joli", "rightId": 1 },
+              "right": { "word": "un chapeau rond", "rightId": 4 }
+            },
+            {
+              "left": { "word": "doux", "rightId": 2 },
+              "right": { "word": "une fille sportive", "rightId": 5 }
+            },
+            {
+              "left": { "word": "large", "rightId": 3 },
+              "right": { "word": "une chemise bleue", "rightId": 3 }
+            },
+            {
+              "left": { "word": "petit", "rightId": 4 },
+              "right": { "word": "un sac en cuir", "rightId": 1 }
+            },
+            {
+              "left": { "word": "mince", "rightId": 5 },
+              "right": { "word": "une écharpe en laine", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Playing guitar", "rightId": 1 },
+              "right": { "word": "Peindre des tableaux", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Reading books", "rightId": 2 },
+              "right": { "word": "Faire de la peinture", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Cycling", "rightId": 3 },
+              "right": { "word": "Faire du vélo", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Painting", "rightId": 4 },
+              "right": { "word": "Jouer de la guitare", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Running", "rightId": 5 },
+              "right": { "word": "Lire des romans", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Swimming", "rightId": 1 },
+              "right": { "word": "Regarder des films", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Watching movies", "rightId": 2 },
+              "right": { "word": "Jouer aux échecs", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Cooking", "rightId": 3 },
+              "right": { "word": "Voyager à l’étranger", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Traveling", "rightId": 4 },
+              "right": { "word": "Faire de la natation", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Playing chess", "rightId": 5 },
+              "right": { "word": "Cuisiner de bons plats", "rightId": 3 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "finir", "rightId": 1 },
+              "right": { "word": "choisis", "rightId": 4 }
+            },
+            {
+              "left": { "word": "attendre", "rightId": 2 },
+              "right": { "word": "réfléchis", "rightId": 5 }
+            },
+            {
+              "left": { "word": "vendre", "rightId": 3 },
+              "right": { "word": "vends", "rightId": 3 }
+            },
+            {
+              "left": { "word": "choisir", "rightId": 4 },
+              "right": { "word": "finis", "rightId": 1 }
+            },
+            {
+              "left": { "word": "réfléchir", "rightId": 5 },
+              "right": { "word": "attends", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "répondre", "rightId": 1 },
+              "right": { "word": "grandis", "rightId": 2 }
+            },
+            {
+              "left": { "word": "grandir", "rightId": 2 },
+              "right": { "word": "descends", "rightId": 5 }
+            },
+            {
+              "left": { "word": "entendre", "rightId": 3 },
+              "right": { "word": "punis", "rightId": 4 }
+            },
+            {
+              "left": { "word": "punir", "rightId": 4 },
+              "right": { "word": "réponds", "rightId": 1 }
+            },
+            {
+              "left": { "word": "descendre", "rightId": 5 },
+              "right": { "word": "entends", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]
