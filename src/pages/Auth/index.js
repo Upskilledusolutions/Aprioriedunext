@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { useRouter } from 'next/router'; // To access the router for navigation
 import { motion } from 'framer-motion';
-import { login, mergeMongoAndLocalData } from '../../Store';
+import { login } from '../../Store';
+import { useCookies } from 'react-cookie';
 import styles from '../../styles/Login.module.css';
 import LoadingSpinner from '../../../components/loader';
 
@@ -16,6 +17,7 @@ export default function Login() {
 
   const dispatch = useDispatch();
   const router = useRouter();
+  const [cookies, setCookie] = useCookies(['user']);
 
   // Helper function to merge quizzes from MongoDB and localStorage
   const mergeQuizzes = (mongoData, localData) => {
@@ -90,6 +92,18 @@ export default function Login() {
           active: data.user.active,
           completedQuizzes: mergedQuizzes
          }));
+
+        // Set the cookie using react-cookie
+        setCookie('user', JSON.stringify({
+        userId: data?.user?.userId,
+        name,
+        trial: data?.user?.trial,
+        type: data?.user?.type,
+        next: data.user.next,
+        active: data.user.active,
+        }), { path: '/', maxAge: 6 * 3600 });
+
+        console.log("Cookie", cookies)
 
          localStorage.setItem('completedQuizzes', JSON.stringify(mergedQuizzes));
 
@@ -179,3 +193,4 @@ export default function Login() {
     </div>
   );
 }
+

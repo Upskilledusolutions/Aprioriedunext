@@ -8,6 +8,8 @@ const AuthInitializer = () => {
 
   useEffect(() => {
     const storedUser = Cookies.get('user');
+    console.log('storedUser', Cookies.get('user')); // Debug log
+    
     if (storedUser) {
       // Parse the cookie and set the user in the Redux store
       dispatch(setUserFromCookies(JSON.parse(storedUser)));
