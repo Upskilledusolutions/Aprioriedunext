@@ -3,14 +3,15 @@ import styles from '../../../../styles/WritingP.module.css';
 import { cards } from '../../../../Data/Routes/WritingPractice';
 import { IoSend } from "react-icons/io5";
 import { MdContentCopy } from "react-icons/md";
-import { useDispatch } from "react-redux";
-import { addFinishedQuiz } from "@/Store";
+import { useDispatch, useSelector } from "react-redux";
+import { addFinishedQuiz, updateCompletedQuizzes } from "@/Store";
 import { useRouter } from 'next/router';
 import Image from 'next/image';
 
 // Import virtual keyboard and its CSS
 import Keyboard from 'react-simple-keyboard';
 import 'react-simple-keyboard/build/css/index.css';
+import { addSingleFinishedQuizToServer } from '../../../../helperfunction/Finishedquiz';
 
 const ChatGPTComponent = () => {
   // States & Refs
@@ -21,6 +22,7 @@ const ChatGPTComponent = () => {
   const [selectedTopic, setSelectedTopic] = useState('French');
   const [messages, setMessages] = useState([]);
   const dispatch = useDispatch();
+  const { user } = useSelector((state) => state.auth);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const chatMessagesRef = useRef(null);
@@ -30,6 +32,25 @@ const ChatGPTComponent = () => {
   const [keyboardVisible, setKeyboardVisible] = useState(true);
   const [capsLock, setCapsLock] = useState(false);
   const keyboardRef = useRef(null);
+
+        const handleAddQuiz = async ({ questionType, quizId, subject }) => {
+          // Update Redux state and localStorage
+          dispatch(addFinishedQuiz({questionType, exercise:quizId, language:subject}));
+          dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
+      
+          // Send the new finished quiz to the backend as a single object
+          try {
+            const result = await addSingleFinishedQuizToServer({
+              userId: user.userId,
+              questionType,
+              exercise: quizId,
+              language: subject,
+            });
+            console.log("Finished quiz updated on server:", result);
+          } catch (error) {
+            console.error("Error updating finished quiz on server:", error);
+          }
+        };
 
   // Language-specific keyboard layouts
   const languageLayouts = {
@@ -261,7 +282,7 @@ const ChatGPTComponent = () => {
 
   const handleSubmit = async () => {
     if (!lesson[id - 1].firstsent[(Math.floor(messages.length / 3)) + 1]) {
-      dispatch(addFinishedQuiz({ questionType: "MCQs", exercise: id, language: somedata.subject }));
+      handleAddQuiz({questionType: "MCQs", quizId: id, subject: somedata.subject})
     }
     if (!input.trim()) return;
 

@@ -1135,4 +1135,116 @@ export const data = [
       ],
     ]
   },
+  {
+    id:'19',
+    name:'German Listening Assignment 19 (A1)',
+    level:'Beginner',
+    "audios": [
+      "/Sounds/GermanA1/German19.mp3",
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Was möchte die Frau tun?",
+          "choices": [
+            "Ein Konto eröffnen",
+            "Ein Darlehen aufnehmen",
+            "Eine Versicherung abschließen",
+            "Ein Sparkonto eröffnen"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Welche Art von Konto möchte die Frau eröffnen?",
+          "choices": [
+            "Ein Girokonto",
+            "Ein Sparkonto",
+            "Ein Festgeldkonto",
+            "Ein Kreditkonto"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Was fragt der Mann, nachdem die Frau ihr Konto eröffnen möchte?",
+          "choices": [
+            "Welche Art von Konto?",
+            "Ob sie einen Ausweis hat",
+            "Ob sie Geld einzahlen will",
+            "Ob sie eine Karte benötigt"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Welches Dokument zeigt die Frau dem Mann vor?",
+          "choices": [
+            "Reisepass",
+            "Personalausweis",
+            "Führerschein",
+            "Studentenausweis"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Welche Karte wünscht sich die Frau?",
+          "choices": [
+            "Premium-Karte",
+            "Klassische Karte",
+            "Geldkarte",
+            "Kreditkarte"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Möchte die Frau Online-Zugriff für ihr Konto?",
+          "choices": [
+            "Ja",
+            "Nein",
+            "Vielleicht",
+            "Nicht erwähnt"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Was gibt der Mann der Frau während des Gesprächs?",
+          "choices": [
+            "Ein Formular",
+            "Einen Stift",
+            "Eine Broschüre",
+            "Einen Schlüssel"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Wann wird das Konto laut dem Mann aktiv sein?",
+          "choices": [
+            "Sofort",
+            "In 24 Stunden",
+            "In einer Woche",
+            "Nach 48 Stunden"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie endet das Gespräch?",
+          "choices": [
+            "Mit einem Hinweis auf weitere Bankdienstleistungen",
+            "Mit einem Wunsch für einen schönen Tag",
+            "Mit einer Terminvereinbarung",
+            "Mit der Bitte um eine Bewertung"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was beschreibt am besten den Inhalt des Gesprächs?",
+          "choices": [
+            "Ein Bankgeschäft",
+            "Ein Bewerbungsgespräch",
+            "Ein medizinisches Gespräch",
+            "Ein Kundendienstgespräch im Einzelhandel"
+          ],
+          "correctAnswer": 0
+        }
+      ],
+    ]
+  },
 ]

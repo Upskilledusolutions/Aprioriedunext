@@ -4,7 +4,7 @@ export const data = [
     name: 'German Reading Assignment 1 (A1)',
     level: 'Beginner',
     Title: '',
-    readingText: "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt. Er lag auf seinem panzerartigen, harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten braunen Bauch, auf dessen Höhe sich die Bettdecke, zum völligen Niedergleiten bereit, kaum noch erhalten konnte. Seine vielen, im Vergleich zu seinem sonstigen Umfang kläglich dünnen Beine flimmerten ihm hilflos vor den Augen. \nWhen Gregor Samsa woke up one morning from restless dreams, he found himself transformed in his bed into a monstrous vermin. He lay on his armour-like, hard back and, if he lifted his head a little, he could see his domed brown belly at its height the blanket, ready to slide down completely, could barely hold up. His many legs, pitifully thin compared to his usual size, flickered helplessly in front of his eyes.",
+    readingText: "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt. Er lag auf seinem panzerartigen, harten Rücken und sah, wenn er den Kopf ein wenig hob, seinen gewölbten braunen Bauch, auf dessen Höhe sich die Bettdecke, zum völligen Niedergleiten bereit, kaum noch erhalten konnte. Seine vielen, im Vergleich zu seinem sonstigen Umfang kläglich dünnen Beine flimmerten ihm hilflos vor den Augen.",
     questions: [
       {
         "question": "Was geschah mit Gregor Samsa, als er eines Morgens erwachte?",

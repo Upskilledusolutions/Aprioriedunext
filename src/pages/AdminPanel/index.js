@@ -3,6 +3,7 @@ import Left from '../../../components/Admin/left';
 import styles from '@/styles/Admin.module.css';
 import RightSide from '../../../components/Admin/RightSide';
 import LoadingSpinner from '../../../components/loader';
+import Link from 'next/link';
 
 export default function Index() {
   const [selection, setSelection] = useState({ section: null, language: null });
@@ -71,7 +72,7 @@ export default function Index() {
     <div>
       {loading && <div className={styles.loader}><LoadingSpinner /></div>}
     <div className={styles.bigcontainer}>
-      <div className={styles.heading}>Admin Dashboard</div>
+      <div className={styles.heading}><div>Admin Dashboard</div><Link href={'/Payment/Receipt'} className={styles.headbutton}>Create Receipt</Link></div>
       <div className={styles.container}>
         <Left onLanguageSelect={handleLanguageSelection} />
         <div className={styles.righttext}>

@@ -7,8 +7,22 @@ import Ourgallery from '../../components/home/Ourgallery'
 import Testimonials from '../../components/home/testimonials'
 import Events from "../../components/home/Events"
 import dynamic from "next/dynamic";
+import { useDispatch } from 'react-redux'
+import { setFinishedQuizzesFromLocalStorage } from '@/Store'
+import { useEffect } from 'react'
 
-const Home = () => {
+const Home = () => {  
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const stored = localStorage.getItem('completedQuizzes');
+      if (stored) {
+        dispatch(setFinishedQuizzesFromLocalStorage(JSON.parse(stored)));
+      }
+    }
+  }, [dispatch]);
 
   return (
     <>

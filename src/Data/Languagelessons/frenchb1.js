@@ -59,6 +59,7 @@ export const data = [{
     name:'French Lesson 8 (B1)',
     level:'Intermediate',
     pdf:'https://drive.google.com/file/d/11lT3iT6w6pbh9oQ9rk5CFgb2USG_9frS/preview',
+    video:'https://www.youtube.com/embed/VQMKH9TJ9YY?si=mdEOFpNIA3pFaKZs',
     desc:'French Foundation Lesson 8 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {
@@ -66,6 +67,7 @@ export const data = [{
     name:'French Lesson 9 (B1)',
     level:'Intermediate',
     pdf:'https://drive.google.com/file/d/1A8ZtMFL9Kf4JPzGtiDc0aoLlXZKLB7Qv/preview',
+    video:'https://www.youtube.com/embed/S4JKlQU2YhM?si=hJGgoEMUpoaU7-nS',
     desc:'French Foundation Lesson 9 by Upskilledu Solutions is designed for Intermediate who are just starting their journey in learning French. This foundational lesson introduces key vocabulary, essential phrases, and basic grammar concepts to help learners build a strong base in the language.',
 },
 {

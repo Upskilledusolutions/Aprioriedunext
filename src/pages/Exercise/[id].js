@@ -15,6 +15,7 @@ export default function FrenchQuizes() {
   const [exerciseData, setexerciseData] = useState(null)
   const router = useRouter();
   const { id } = router.query; // Get the dynamic `id` from the route
+  console.log(user)
 
   const somedata = cards.find((data) => data.link === id);
 

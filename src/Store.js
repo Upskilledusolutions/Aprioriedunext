@@ -1,69 +1,146 @@
 import { configureStore, createSlice } from '@reduxjs/toolkit';
 import Cookies from 'js-cookie';
 
-// Auth slice
+// --- Auth Slice ---
 const authSlice = createSlice({
   name: 'auth',
   initialState: {
     isAuthenticated: false,
-    user: null,
+    user: null, // later you can include more user info (like completedQuizzes) here if needed
   },
   reducers: {
     login: (state, action) => {
       state.isAuthenticated = true;
       state.user = action.payload;
-// Set cookie with 1-day expiration
-Cookies.set("user", JSON.stringify(action.payload), { expires: 6/24 });
+      // Set cookie with 1-day expiration (6/24 day)
+      Cookies.set("user", JSON.stringify(action.payload), { expires: 6 / 24 });
     },
     logout: (state) => {
       state.isAuthenticated = false;
-      state.user = {};
-      state.user.type = '';
+      state.user = null;
       Cookies.remove('user');
     },
     setUserFromCookies: (state, action) => {
       state.isAuthenticated = true;
       state.user = action.payload;
     },
+    updateCompletedQuizzes: (state, action) => {
+      // The payload should be a quiz object containing:
+      // { exercise, language, questionTypes } where questionTypes can be a string or an array
+      if (state.user) {
+        const newQuiz = action.payload;
+        // Coerce exercise and language to strings for comparison
+        const newExercise = String(newQuiz.exercise);
+        const newLanguage = String(newQuiz.language);
+        // Normalize questionTypes so that it's an array
+        const newTypes = Array.isArray(newQuiz.questionTypes)
+          ? newQuiz.questionTypes
+          : [newQuiz.questionTypes];
+
+        // Ensure completedQuizzes exists on user
+        if (!state.user.completedQuizzes) {
+          state.user.completedQuizzes = [];
+        }
+
+        // Find an existing quiz entry with the same exercise and language
+        const existingQuiz = state.user.completedQuizzes.find(
+          quiz =>
+            String(quiz.exercise) === newExercise &&
+            String(quiz.language) === newLanguage
+        );
+
+        if (existingQuiz) {
+          // Merge new question types into the existing entry
+          newTypes.forEach(qt => {
+            if (!existingQuiz.questionTypes.includes(qt)) {
+              existingQuiz.questionTypes.push(qt);
+            }
+          });
+        } else {
+          // If no matching entry exists, add the new quiz object
+          state.user.completedQuizzes.push({
+            exercise: newQuiz.exercise,
+            language: newQuiz.language,
+            questionTypes: newTypes,
+          });
+        }
+      }
+    },
   },
 });
 
+// --- FinishedQuizzes Slice ---
 const finishedQuizzesSlice = createSlice({
   name: 'finishedQuizzes',
   initialState: {
-    completedQuizzes: typeof window !== "undefined" && localStorage.getItem('completedQuizzes')
-      ? JSON.parse(localStorage.getItem('completedQuizzes'))
-      : [], // Initialize from localStorage if available
+    completedQuizzes:
+      typeof window !== "undefined" && localStorage.getItem('completedQuizzes')
+        ? JSON.parse(localStorage.getItem('completedQuizzes'))
+        : [],
   },
   reducers: {
     addFinishedQuiz: (state, action) => {
       const { questionType, exercise, language } = action.payload;
-
-      // Find the existing entry for the same exercise and language
+      // Find existing entry for same exercise & language
       const existingEntry = state.completedQuizzes.find(
         quiz => quiz.exercise === exercise && quiz.language === language
       );
 
       if (existingEntry) {
-        // Check if the questionType already exists in questionTypes array
+        // Add the question type if it's not already present
         if (!existingEntry.questionTypes.includes(questionType)) {
-          // Add the new question type if it doesn't already exist
           existingEntry.questionTypes.push(questionType);
         }
       } else {
-        // If the entry does not exist, create a new one with the questionType array
+        // Create a new quiz entry
         state.completedQuizzes.push({ 
           exercise, 
           language, 
           questionTypes: [questionType] 
         });
       }
-
-      // Update localStorage
+      // Persist updated data to localStorage
       localStorage.setItem('completedQuizzes', JSON.stringify(state.completedQuizzes));
     },
+
+    // In case you want to simply replace state from a payload:
     setFinishedQuizzesFromLocalStorage: (state, action) => {
       state.completedQuizzes = action.payload;
+    },
+
+    // Merge MongoDB data with the existing localStorage data
+    mergeMongoAndLocalData: (state, action) => {
+      // MongoDB data passed from your fetched user info (assumed to be an array)
+      const mongoData = action.payload || [];
+      // Data stored in localStorage
+      const localData = typeof window !== "undefined" && localStorage.getItem('completedQuizzes')
+        ? JSON.parse(localStorage.getItem('completedQuizzes'))
+        : [];
+
+      // Start with MongoDB data as the base
+      let mergedData = [...mongoData];
+
+      // Merge in any quizzes from localStorage that are missing in the MongoDB data
+      localData.forEach(localQuiz => {
+        const found = mergedData.find(
+          quiz => quiz.exercise === localQuiz.exercise && quiz.language === localQuiz.language
+        );
+        if (found) {
+          // If quiz exists, add any missing question types
+          localQuiz.questionTypes.forEach(qType => {
+            if (!found.questionTypes.includes(qType)) {
+              found.questionTypes.push(qType);
+            }
+          });
+        } else {
+          // If not found, simply add the local quiz to the merged array
+          mergedData.push(localQuiz);
+        }
+      });
+
+      // Update the state and localStorage with the merged data
+      state.completedQuizzes = mergedData;
+      localStorage.setItem('completedQuizzes', JSON.stringify(mergedData));
     },
   },
 });
@@ -681,12 +758,12 @@ const exercisesSlice = createSlice({
 });
 
 // Exporting the actions from the slices
-export const { login, logout, setUserFromCookies } = authSlice.actions;
+export const { login, logout, setUserFromCookies, updateCompletedQuizzes } = authSlice.actions;
 export const { unlockPage } = unlockedPagesSlice.actions;
 export const { unlockLesson } = lessonsSlice.actions;
 export const { unlockAssignments } = AssignmentsSlice.actions;
 export const { unlockExercise } = exercisesSlice.actions;
-export const { addFinishedQuiz, setFinishedQuizzesFromLocalStorage } = finishedQuizzesSlice.actions;
+export const { addFinishedQuiz, setFinishedQuizzesFromLocalStorage, mergeMongoAndLocalData } = finishedQuizzesSlice.actions;
 
 // Configure the store with the slices
 export const store = configureStore({

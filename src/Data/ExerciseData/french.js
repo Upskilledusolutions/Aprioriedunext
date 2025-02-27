@@ -889,7 +889,7 @@ export const quiz = [
         "question": "Elle a ______ (two) chats et un chien.",
         "choices": ["deux"],
         "type": "FillInTheBlanks",
-        "correctAnswer": 2
+        "correctAnswer": 1
       }, 
       {
         "question": "(Our) ______ maison est grande.",

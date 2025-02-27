@@ -4,7 +4,7 @@ export const data = [
         name:'German Reading Assignment 1 (A2)',
         level:'Beginner',
         Title:'',
-        readingText: "Die deutsche Sprache wird von über 130 Millionen Menschen weltweit gesprochen. Sie ist eine der meistgelernten Sprachen der Welt und hat eine reiche Geschichte. Deutschland ist bekannt für seine Dichter und Denker, darunter Goethe, Schiller und Kant. Die deutsche Grammatik mag kompliziert sein, doch ihre Präzision ist beeindruckend. \nThe German language is spoken by over 130 million people worldwide. It is one of the most learned languages in the world and has a rich history. Germany is known for its poets and thinkers, including Goethe, Schiller, and Kant. German grammar may be complex, but its precision is impressive.",
+        readingText: "Die deutsche Sprache wird von über 130 Millionen Menschen weltweit gesprochen. Sie ist eine der meistgelernten Sprachen der Welt und hat eine reiche Geschichte. Deutschland ist bekannt für seine Dichter und Denker, darunter Goethe, Schiller und Kant. Die deutsche Grammatik mag kompliziert sein, doch ihre Präzision ist beeindruckend.",
         questions: [
           {
             "question": "Was ist die Anzahl der Menschen, die die deutsche Sprache weltweit sprechen?",
@@ -63,7 +63,7 @@ export const data = [
       name:'German Reading Assignment 2 (A2)',
       level:'Beginner',
       Title:'',
-      readingText: "Deutschland hat eine vielfältige Landschaft, von den Alpen im Süden bis zu den Nord- und Ostseestränden im Norden. Es gibt viele Nationalparks und Naturschutzgebiete, die Wanderer und Naturliebhaber anziehen. Der Schwarzwald und die Sächsische Schweiz sind besonders beliebt bei Touristen. \nGermany has a diverse landscape, from the Alps in the south to the North and Baltic Sea beaches in the north. There are many national parks and nature reserves that attract hikers and nature lovers. The Black Forest and Saxon Switzerland are particularly popular with tourists.",
+      readingText: "Deutschland hat eine vielfältige Landschaft, von den Alpen im Süden bis zu den Nord- und Ostseestränden im Norden. Es gibt viele Nationalparks und Naturschutzgebiete, die Wanderer und Naturliebhaber anziehen. Der Schwarzwald und die Sächsische Schweiz sind besonders beliebt bei Touristen.",
       questions: [
         {
           "question": "Was beschreibt der Text?",
@@ -122,7 +122,7 @@ export const data = [
     name:'German Reading Assignment 3 (A2)',
     level:'Beginner',
     Title:'',
-    readingText: "Die deutsche Küche ist vielfältig und regional unterschiedlich. Bratwurst, Sauerkraut und Brezeln sind weltbekannte Spezialitäten. In Bayern trinkt man gerne Bier, während in anderen Regionen Wein beliebter ist. Weihnachtsmärkte sind berühmt für ihre kulinarischen Köstlichkeiten wie Lebkuchen und Glühwein. \nGerman cuisine is diverse and varies by region. Bratwurst, sauerkraut, and pretzels are world-famous specialties. In Bavaria, people enjoy drinking beer, while in other regions, wine is more popular. Christmas markets are famous for their culinary delights, such as gingerbread and mulled wine.",
+    readingText: "Die deutsche Küche ist vielfältig und regional unterschiedlich. Bratwurst, Sauerkraut und Brezeln sind weltbekannte Spezialitäten. In Bayern trinkt man gerne Bier, während in anderen Regionen Wein beliebter ist. Weihnachtsmärkte sind berühmt für ihre kulinarischen Köstlichkeiten wie Lebkuchen und Glühwein.",
     questions: [
       {
         "question": "Wie wird die deutsche Küche beschrieben?",
@@ -181,7 +181,7 @@ export const data = [
   name:'German Reading Assignment 4 (A2)',
   level:'Beginner',
   Title:'Mein Lieblingsessen',
-  readingText: "Mein Lieblingsessen ist Pizza. Ich esse sie sehr gerne, besonders am Wochenende. Es gibt viele verschiedene Sorten, aber meine Lieblingspizza ist die Margherita. Sie besteht aus Tomatensauce, Mozzarella und frischem Basilikum. Manchmal esse ich auch eine Pizza mit Pilzen oder Schinken. Ich bestelle immer bei einem kleinen italienischen Restaurant in meiner Nähe. Die Pizzen dort sind sehr lecker und der Teig ist immer schön knusprig. Meistens esse ich die Pizza zusammen mit meiner Familie oder mit Freunden. Zum Trinken nehme ich oft Cola oder Wasser. Es ist eine tolle Gelegenheit, Zeit mit den Menschen zu verbringen, die ich mag. Wenn ich zu Hause bin, versuche ich manchmal, selbst Pizza zu machen, aber sie schmeckt nie so gut wie die aus dem Restaurant. \nMy favorite food is pizza. I really enjoy eating them, especially on weekends. There are many different types, but my favorite pizza is the Margherita. It consists of tomato sauce, mozzarella and fresh basil. Sometimes I also eat a pizza with mushrooms or ham. I always order from a small Italian restaurant near me. The pizzas there are very tasty and the dough is always nice and crispy. I usually eat pizza with my family or friends. I often take cola or water to drink. It's a great opportunity to spend time with the people I like. When I'm at home, I sometimes try to make pizza myself, but it never tastes as good as the one from the restaurant.",
+  readingText: "Mein Lieblingsessen ist Pizza. Ich esse sie sehr gerne, besonders am Wochenende. Es gibt viele verschiedene Sorten, aber meine Lieblingspizza ist die Margherita. Sie besteht aus Tomatensauce, Mozzarella und frischem Basilikum. Manchmal esse ich auch eine Pizza mit Pilzen oder Schinken. Ich bestelle immer bei einem kleinen italienischen Restaurant in meiner Nähe. Die Pizzen dort sind sehr lecker und der Teig ist immer schön knusprig. Meistens esse ich die Pizza zusammen mit meiner Familie oder mit Freunden. Zum Trinken nehme ich oft Cola oder Wasser. Es ist eine tolle Gelegenheit, Zeit mit den Menschen zu verbringen, die ich mag. Wenn ich zu Hause bin, versuche ich manchmal, selbst Pizza zu machen, aber sie schmeckt nie so gut wie die aus dem Restaurant.",
   questions: [
     {
       "question": "Was ist das Lieblingsessen des Autors?",
@@ -240,7 +240,7 @@ export const data = [
   name:'German Reading Assignment 5 (A2)',
   level:'Beginner',
   Title:'Der Sommerurlaub',
-  readingText: "Letzten Sommer war ich mit meiner Familie in den Bergen. Wir haben in einer kleinen Hütte in einem Dorf gewohnt. Jeden Tag sind wir wandern gegangen und haben die frische Luft genossen. Das Wetter war meistens sonnig, aber es gab auch einige Regenstunden. An den freien Tagen haben wir in einem See schwimmen gegangen. Es war wunderbar, sich nach einer langen Wanderung im kalten Wasser abzukühlen. Am Abend haben wir gemeinsam gekocht und gegrillt. Die Aussicht von der Hütte war beeindruckend – wir konnten die grünen Hügel und die verschneiten Gipfel sehen. Ich habe viele Fotos gemacht, um mich an diese schöne Zeit zu erinnern. Der Urlaub war nicht nur erholsam, sondern auch sehr gesund, weil wir viel draußen waren und uns bewegt haben. Ich hoffe, dass wir im nächsten Sommer wieder in die Berge fahren können. \nLast summer I was in the mountains with my family. We lived in a small hut in a village. Every day we went hiking and enjoyed the fresh air. The weather was mostly sunny, but there were also a few hours of rain. On our days off we went swimming in a lake. It was wonderful to cool off in the cold water after a long hike. In the evening we cooked and grilled together. The view from the hut was impressive – we could see the green hills and snowy peaks. I took lots of photos to remember this beautiful time. The vacation was not only relaxing, but also very healthy because we spent a lot of time outside and exercised. I hope we can go to the mountains again next summer.",
+  readingText: "Letzten Sommer war ich mit meiner Familie in den Bergen. Wir haben in einer kleinen Hütte in einem Dorf gewohnt. Jeden Tag sind wir wandern gegangen und haben die frische Luft genossen. Das Wetter war meistens sonnig, aber es gab auch einige Regenstunden. An den freien Tagen haben wir in einem See schwimmen gegangen. Es war wunderbar, sich nach einer langen Wanderung im kalten Wasser abzukühlen. Am Abend haben wir gemeinsam gekocht und gegrillt. Die Aussicht von der Hütte war beeindruckend – wir konnten die grünen Hügel und die verschneiten Gipfel sehen. Ich habe viele Fotos gemacht, um mich an diese schöne Zeit zu erinnern. Der Urlaub war nicht nur erholsam, sondern auch sehr gesund, weil wir viel draußen waren und uns bewegt haben. Ich hoffe, dass wir im nächsten Sommer wieder in die Berge fahren können.",
   questions: [
     {
       "question": "Wohin ist die Person letzten Sommer gereist?",
@@ -299,7 +299,7 @@ export const data = [
   name:'German Reading Assignment 6 (A2)',
   level:'Beginner',
   Title:'Mein Haustier',
-  readingText: "Ich habe einen Hund namens Max. Er ist ein Labrador und sehr freundlich. Max ist fünf Jahre alt und liebt es, im Park zu spielen. Jeden Morgen gehe ich mit ihm spazieren, und manchmal laufen wir auch im Wald. Max liebt es, im Gras zu rennen und nach Stöcken zu suchen. Wenn er einen Stock findet, bringt er ihn mir, und ich werfe ihn wieder. Es macht ihm immer großen Spaß. Zu Hause schläft Max oft auf seinem Lieblingsplatz, einem großen Kissen in der Ecke des Wohnzimmers. Er ist sehr brav, aber manchmal ist er auch ein wenig frech, besonders wenn es um Essen geht. Max ist für mich wie ein Familienmitglied. Er bringt viel Freude in mein Leben, und ich freue mich immer, ihn zu sehen, wenn ich nach Hause komme. \nI have a dog named Max. He is a Labrador and very friendly. Max is five years old and loves playing in the park. I go for a walk with him every morning, and sometimes we run in the forest. Max loves running in the grass and looking for sticks. When he finds a stick, he brings it to me and I throw it again. He always has a lot of fun. At home, Max often sleeps on his favorite place, a large pillow in the corner of the living room. He is very well-behaved, but sometimes he is also a little cheeky, especially when it comes to food. Max is like a family member to me. He brings a lot of joy into my life and I am always happy to see him when I come home.",
+  readingText: "Ich habe einen Hund namens Max. Er ist ein Labrador und sehr freundlich. Max ist fünf Jahre alt und liebt es, im Park zu spielen. Jeden Morgen gehe ich mit ihm spazieren, und manchmal laufen wir auch im Wald. Max liebt es, im Gras zu rennen und nach Stöcken zu suchen. Wenn er einen Stock findet, bringt er ihn mir, und ich werfe ihn wieder. Es macht ihm immer großen Spaß. Zu Hause schläft Max oft auf seinem Lieblingsplatz, einem großen Kissen in der Ecke des Wohnzimmers. Er ist sehr brav, aber manchmal ist er auch ein wenig frech, besonders wenn es um Essen geht. Max ist für mich wie ein Familienmitglied. Er bringt viel Freude in mein Leben, und ich freue mich immer, ihn zu sehen, wenn ich nach Hause komme.",
   questions: [
     {
       "question": "Wie heißt der Hund?",
@@ -358,7 +358,7 @@ export const data = [
   name:'German Reading Assignment 7 (A2)',
   level:'Beginner',
   Title:'Der Weg zur Arbeit',
-  readingText: "Ich fahre jeden Tag mit dem Fahrrad zur Arbeit. Es dauert etwa 20 Minuten, bis ich im Büro bin. Ich wohne in einem ruhigen Stadtteil, und die Fahrt ist immer sehr angenehm. Morgens, wenn ich losfahre, ist die Luft noch kühl, und es ist noch nicht so viel Verkehr auf den Straßen. Ich fahre durch einen kleinen Park, und es macht Spaß, die Natur zu sehen. In der Mittagspause gehe ich oft zu Fuß in die Nähe des Flusses, um eine Pause zu machen und frische Luft zu schnappen. Obwohl ich das Fahrradfahren genieße, ist es im Winter manchmal schwierig, wenn es regnet oder schneit. Dann fahre ich mit dem Bus. Aber in den meisten Monaten ist das Fahrrad meine bevorzugte Möglichkeit, zur Arbeit zu kommen. \nI ride my bike to work every day. It takes me about 20 minutes to get to the office. I live in a quiet part of town and the journey is always very pleasant. When I leave in the morning, the air is still cool and there isn't that much traffic on the roads. I'm driving through a small park and it's fun to see nature. During my lunch break, I often walk near the river to take a break and get some fresh air. Although I enjoy cycling, it is sometimes difficult in winter when it rains or snows. Then I'll take the bus. But most months, cycling is my preferred way to get to work.",
+  readingText: "Ich fahre jeden Tag mit dem Fahrrad zur Arbeit. Es dauert etwa 20 Minuten, bis ich im Büro bin. Ich wohne in einem ruhigen Stadtteil, und die Fahrt ist immer sehr angenehm. Morgens, wenn ich losfahre, ist die Luft noch kühl, und es ist noch nicht so viel Verkehr auf den Straßen. Ich fahre durch einen kleinen Park, und es macht Spaß, die Natur zu sehen. In der Mittagspause gehe ich oft zu Fuß in die Nähe des Flusses, um eine Pause zu machen und frische Luft zu schnappen. Obwohl ich das Fahrradfahren genieße, ist es im Winter manchmal schwierig, wenn es regnet oder schneit. Dann fahre ich mit dem Bus. Aber in den meisten Monaten ist das Fahrrad meine bevorzugte Möglichkeit, zur Arbeit zu kommen.",
   questions: [
     {
       "question": "Wie fährt die Person zur Arbeit?",
@@ -417,7 +417,7 @@ export const data = [
   name:'German Reading Assignment 8 (A2)',
   level:'Beginner',
   Title:'Mein Freund Peter',
-  readingText: "Peter ist mein bester Freund. Wir kennen uns schon seit der Schulzeit, und obwohl wir jetzt in verschiedenen Städten wohnen, bleiben wir immer in Kontakt. Peter ist sehr lustig und hat immer eine gute Geschichte zu erzählen. Er ist auch sehr hilfsbereit und kommt immer, wenn ich ihn brauche. Vor kurzem hat er mir geholfen, mein Auto zu reparieren, als es kaputt ging. In seiner Freizeit spielt Peter gern Gitarre und hört Musik. Wir haben oft zusammen Musik gehört, als wir noch in der Schule waren. Heute gehen wir gelegentlich ins Kino oder essen zusammen. Peter hat auch eine Familie, die er sehr liebt. Er ist verheiratet und hat zwei Kinder. Es ist schön, Zeit mit ihm zu verbringen, weil er immer gute Laune hat und unser Treffen nie langweilig wird. \nPeter is my best friend. We've known each other since school, and even though we live in different cities now, we always stay in touch. Peter is very funny and always has a good story to tell. He is also very helpful and always comes when I need him. Recently he helped me fix my car when it broke down. In his free time, Peter enjoys playing the guitar and listening to music. We often listened to music together when we were at school. Nowadays we occasionally go to the cinema or eat together. Peter also has a family that he loves very much. He is married and has two children. It's nice to spend time with him because he's always in a good mood and our meetings are never boring.",
+  readingText: "Peter ist mein bester Freund. Wir kennen uns schon seit der Schulzeit, und obwohl wir jetzt in verschiedenen Städten wohnen, bleiben wir immer in Kontakt. Peter ist sehr lustig und hat immer eine gute Geschichte zu erzählen. Er ist auch sehr hilfsbereit und kommt immer, wenn ich ihn brauche. Vor kurzem hat er mir geholfen, mein Auto zu reparieren, als es kaputt ging. In seiner Freizeit spielt Peter gern Gitarre und hört Musik. Wir haben oft zusammen Musik gehört, als wir noch in der Schule waren. Heute gehen wir gelegentlich ins Kino oder essen zusammen. Peter hat auch eine Familie, die er sehr liebt. Er ist verheiratet und hat zwei Kinder. Es ist schön, Zeit mit ihm zu verbringen, weil er immer gute Laune hat und unser Treffen nie langweilig wird.",
   questions: [
     {
       "question": "Wie lange kennen sich Peter und der Erzähler?",
@@ -471,4 +471,903 @@ export const data = [
     }
     ],
 },
+{
+  "id": "9",
+  "name": "German Reading Assignment 9 (A2)",
+  "level": "Beginner",
+  "Title": "Ein Tag im Park",
+  "readingText": "Letzten Sonntag bin ich mit meiner Familie in den Park gegangen. Das Wetter war sonnig und angenehm warm. Wir haben ein Picknick gemacht und verschiedene Spiele gespielt. Mein Bruder spielte Fußball, während meine Schwester im Schatten las. Ich traf mich mit Freunden, um Frisbee zu spielen, und wir lachten viel zusammen. Danach spazierten wir durch den Park und bewunderten die Blumen und Bäume. Am Nachmittag saßen wir auf einer Decke und unterhielten uns über unsere Erlebnisse. Es war ein entspannter und fröhlicher Tag, der uns allen viel Freude bereitete. Als der Abend nahte, kehrten wir glücklich nach Hause zurück.",
+  "questions": [
+    {
+      "question": "Wann ging die Familie in den Park?",
+      "choices": [
+        "Letzten Sonntag",
+        "Letzten Montag",
+        "Am Samstag",
+        "Am Freitag"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie war das Wetter im Park?",
+      "choices": [
+        "Regnerisch",
+        "Sonnig und warm",
+        "Kalt",
+        "Windig"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was machte der Bruder?",
+      "choices": [
+        "Fußball spielen",
+        "Lesen",
+        "Schlafen",
+        "Musik hören"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was tat die Schwester?",
+      "choices": [
+        "Am Telefon sprechen",
+        "Im Schatten lesen",
+        "Videospiele spielen",
+        "Einen Brief schreiben"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Mit wem traf sich der Erzähler?",
+      "choices": [
+        "Mit Nachbarn",
+        "Mit Lehrern",
+        "Mit Freunden",
+        "Mit Kollegen"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Welche Sportart wurde zusätzlich gespielt?",
+      "choices": [
+        "Basketball",
+        "Frisbee",
+        "Tennis",
+        "Schwimmen"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was bewunderten sie während ihres Spaziergangs?",
+      "choices": [
+        "Den Spielplatz",
+        "Die Blumen und Bäume",
+        "Das Auto",
+        "Die Wolken"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was machten sie am Nachmittag im Park?",
+      "choices": [
+        "Schliefen",
+        "Fernsehen",
+        "Saßen auf einer Decke und unterhielten sich",
+        "Einkaufen gehen"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Wie fühlte sich die Familie am Ende des Tages?",
+      "choices": [
+        "Glücklich",
+        "Traurig",
+        "Müde",
+        "Wütend"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was war ein wichtiger Teil ihres Picknicks?",
+      "choices": [
+        "Essen und Spiele",
+        "Arbeiten",
+        "Lesen",
+        "Schlafen"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "10",
+  "name": "German Reading Assignment 10 (A2)",
+  "level": "Beginner",
+  "Title": "Meine neue Schule",
+  "readingText": "Letzte Woche habe ich meine neue Schule besucht. Die Schule ist modern und hat viele helle Klassenzimmer. Die Lehrer sind freundlich und erklären den Unterricht gut. In meinem neuen Klassenzimmer hängen bunte Poster und Lernmaterialien. Während der ersten Woche habe ich viele neue Freunde gefunden. In den Pausen spielen wir zusammen im Schulhof und unterhalten uns über unsere Hobbys. Ich freue mich sehr über den Schulwechsel, da ich dort viel Neues lernen kann. Jeden Tag gehe ich mit großer Motivation in die Schule und freue mich auf den Unterricht.",
+  "questions": [
+    {
+      "question": "Wann besuchte der Erzähler die neue Schule?",
+      "choices": [
+        "Letzte Woche",
+        "Letzten Monat",
+        "Vor einem Jahr",
+        "Am Wochenende"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie wird die Schule beschrieben?",
+      "choices": [
+        "Alt und dunkel",
+        "Modern und hell",
+        "Klein und leer",
+        "Groß und laut"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie sind die Lehrer der Schule?",
+      "choices": [
+        "Unfreundlich",
+        "Streng",
+        "Freundlich",
+        "Vergesslich"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Was hängt im neuen Klassenzimmer?",
+      "choices": [
+        "Bunte Poster",
+        "Uhren",
+        "Sportgeräte",
+        "Computerspiele"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was fand der Erzähler in der ersten Woche?",
+      "choices": [
+        "Neue Freunde",
+        "Alte Bekannte",
+        "Keine Freunde",
+        "Nur Lehrer"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wo spielen die Schüler in den Pausen?",
+      "choices": [
+        "Im Schulhof",
+        "Im Klassenraum",
+        "Im Büro",
+        "Im Labor"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Worüber unterhalten sich die Schüler in den Pausen?",
+      "choices": [
+        "Über Hausaufgaben",
+        "Über Hobbys",
+        "Über Filme",
+        "Über das Wetter"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Warum freut sich der Erzähler über den Schulwechsel?",
+      "choices": [
+        "Weil er mehr Freizeit hat",
+        "Weil er viel Neues lernen kann",
+        "Weil er seine Freunde nicht mehr sieht",
+        "Weil die Schule weiter weg ist"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie fühlt sich der Erzähler jeden Tag in der Schule?",
+      "choices": [
+        "Motiviert",
+        "Traurig",
+        "Ängstlich",
+        "Wütend"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Welches Merkmal hebt das Klassenzimmer hervor?",
+      "choices": [
+        "Viele Computerlabore",
+        "Helle Klassenzimmer",
+        "Viele Sportplätze",
+        "Große Bibliothek"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+},
+{
+  "id": "11",
+  "name": "German Reading Assignment 11 (A2)",
+  "level": "Beginner",
+  "Title": "Das Wochenende am See",
+  "readingText": "Am vergangenen Wochenende bin ich an einen wunderschönen See gefahren. Das Wasser war klar und die Umgebung sehr ruhig. Ich mietete ein kleines Boot und fuhr auf dem See. Während der Fahrt sah ich viele Fische und genoss die frische Luft. Am Ufer machte ich ein leckeres Mittagessen und entspannte mich in der Sonne. Der Tag am See war erholsam und bot mir die Möglichkeit, dem Alltag zu entfliehen. Ich fühlte mich voller Energie und Zufriedenheit, als ich am Abend nach Hause zurückkehrte.",
+  "questions": [
+    {
+      "question": "Wohin fuhr der Erzähler am Wochenende?",
+      "choices": [
+        "In die Berge",
+        "An einen See",
+        "In die Stadt",
+        "Zum Meer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie war das Wasser des Sees?",
+      "choices": [
+        "Trüb",
+        "Klar",
+        "Schmutzig",
+        "Sauer"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was mietete der Erzähler?",
+      "choices": [
+        "Ein Fahrrad",
+        "Ein Boot",
+        "Ein Auto",
+        "Ein Segelboot"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was sah der Erzähler während der Bootsfahrt?",
+      "choices": [
+        "Viele Vögel",
+        "Viele Fische",
+        "Viele Boote",
+        "Viele Menschen"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was machte der Erzähler am Ufer?",
+      "choices": [
+        "Er baute ein Haus",
+        "Er machte Mittagessen",
+        "Er schlief",
+        "Er las ein Buch"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie fühlte sich der Erzähler am Ende des Tages?",
+      "choices": [
+        "Müde",
+        "Energiegeladen",
+        "Ängstlich",
+        "Verärgert"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was bot der Tag am See dem Erzähler?",
+      "choices": [
+        "Stress",
+        "Erholung",
+        "Lärm",
+        "Kälte"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was genoss der Erzähler während der Bootsfahrt?",
+      "choices": [
+        "Die Landschaft",
+        "Die Geschwindigkeit",
+        "Die Musik",
+        "Das Essen"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie war die Umgebung des Sees?",
+      "choices": [
+        "Sehr laut",
+        "Sehr chaotisch",
+        "Sehr ruhig",
+        "Sehr überfüllt"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Was bewirkte der Tag am See für den Erzähler?",
+      "choices": [
+        "Er ermüdete ihn",
+        "Er inspirierte ihn",
+        "Er machte ihn traurig",
+        "Er machte ihn wütend"
+      ],
+      "correctAnswer": 1
+    }
+  ]
+},
+{
+  "id": "12",
+  "name": "German Reading Assignment 12 (A2)",
+  "level": "Beginner",
+  "Title": "Mein Museumsbesuch",
+  "readingText": "Vor kurzem habe ich ein Museum besucht, das sich mit moderner Kunst beschäftigt. Die Ausstellungen waren sehr interessant und vielfältig. Besonders beeindruckte mich ein Gemälde mit leuchtenden Farben. Der Museumsführer erklärte die Hintergründe der Kunstwerke und deren Bedeutung. Ich lernte viel über verschiedene Künstler und ihre Techniken. Der Besuch war lehrreich und inspirierend zugleich. Am Ende des Tages verließ ich das Museum voller neuer Eindrücke und Ideen, die mich noch lange beschäftigen werden.",
+  "questions": [
+    {
+      "question": "Was besuchte der Erzähler?",
+      "choices": [
+        "Eine Bibliothek",
+        "Ein Museum",
+        "Einen Park",
+        "Eine Schule"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Womit beschäftigt sich das Museum?",
+      "choices": [
+        "Moderne Kunst",
+        "Geschichte",
+        "Wissenschaft",
+        "Technologie"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was beeindruckte den Erzähler besonders?",
+      "choices": [
+        "Eine Skulptur",
+        "Ein Gemälde",
+        "Ein Video",
+        "Ein Foto"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie wurde das Gemälde beschrieben?",
+      "choices": [
+        "In gedeckten Farben",
+        "In leuchtenden Farben",
+        "In dunklen Farben",
+        "In Pastellfarben"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was erklärte der Museumsführer?",
+      "choices": [
+        "Die Geschichte der Schule",
+        "Die Hintergründe der Kunstwerke",
+        "Die Pflanzen im Museum",
+        "Die Uhrzeit des Besuchs"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was lernte der Erzähler im Museum?",
+      "choices": [
+        "Über Tiere",
+        "Über Künstler und Techniken",
+        "Über Sportarten",
+        "Über Musik"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie war der Museumsbesuch insgesamt?",
+      "choices": [
+        "Langweilig",
+        "Lehrreich und inspirierend",
+        "Verwirrend",
+        "Laut und chaotisch"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Welche Wirkung hatte der Besuch auf den Erzähler?",
+      "choices": [
+        "Er war enttäuscht",
+        "Er war voller neuer Eindrücke",
+        "Er war verwirrt",
+        "Er war müde"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Über welches Thema wurde informiert?",
+      "choices": [
+        "Kunst und Techniken",
+        "Mathematik",
+        "Sport",
+        "Geschichte"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was nahm der Erzähler mit?",
+      "choices": [
+        "Neue Eindrücke und Ideen",
+        "Nur ein Souvenir",
+        "Keine Erinnerung",
+        "Nur ein Foto"
+      ],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "13",
+  "name": "German Reading Assignment 13 (A2)",
+  "level": "Beginner",
+  "Title": "Spaziergang im Wald",
+  "readingText": "Letzten Herbst machte ich einen langen Spaziergang im Wald. Die Bäume waren in wunderschönen Farben, von Rot über Gelb bis Orange. Es war sehr ruhig und friedlich, und ich genoss die frische, klare Luft. Während meines Spaziergangs sammelte ich einige bunte Blätter und fotografierte die malerische Landschaft. Ich hörte das Rascheln der Blätter unter meinen Füßen und das Zwitschern der Vögel. Der Wald bot mir eine willkommene Auszeit vom hektischen Stadtleben. Am Ende des Tages kehrte ich mit vielen positiven Erinnerungen und neuer Inspiration zurück.",
+  "questions": [
+    {
+      "question": "Wann machte der Erzähler den Spaziergang?",
+      "choices": [
+        "Im Sommer",
+        "Im Herbst",
+        "Im Winter",
+        "Im Frühling"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie wurden die Farben der Bäume beschrieben?",
+      "choices": [
+        "Langweilig",
+        "Wunderschön",
+        "Verblasst",
+        "Dunkel"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was sammelte der Erzähler?",
+      "choices": [
+        "Steine",
+        "Bunte Blätter",
+        "Blumen",
+        "Zweige"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was fotografierte der Erzähler?",
+      "choices": [
+        "Die Wolken",
+        "Die Landschaft",
+        "Die Tiere",
+        "Die Häuser"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was hörte der Erzähler während des Spaziergangs?",
+      "choices": [
+        "Verkehrslärm",
+        "Das Rascheln der Blätter",
+        "Musik",
+        "Hundegebell"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was bot der Wald dem Erzähler?",
+      "choices": [
+        "Eine Auszeit vom Stadtleben",
+        "Ein Abenteuer im Dschungel",
+        "Eine Fahrstunde",
+        "Ein Einkaufserlebnis"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie war die Luft im Wald?",
+      "choices": [
+        "Dreckig",
+        "Frisch und klar",
+        "Schwer",
+        "Staubig"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was tat der Erzähler mit den gesammelten Blättern?",
+      "choices": [
+        "Er warf sie weg",
+        "Er bewahrte sie als Erinnerung auf",
+        "Er verschenkte sie",
+        "Er aß sie"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie fühlte sich der Erzähler nach dem Spaziergang?",
+      "choices": [
+        "Müde",
+        "Positiv und inspiriert",
+        "Ängstlich",
+        "Verärgert"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was war ein zentrales Thema des Textes?",
+      "choices": [
+        "Der Verkehr",
+        "Der Stress",
+        "Die Natur",
+        "Die Technologie"
+      ],
+      "correctAnswer": 2
+    }
+  ]
+},
+{
+  "id": "14",
+  "name": "German Reading Assignment 14 (A2)",
+  "level": "Beginner",
+  "Title": "Ein Ausflug in den Zoo",
+  "readingText": "Letzten Samstag habe ich den Zoo besucht. Der Zoo war groß und voller exotischer Tiere. Ich sah Elefanten, Giraffen, Affen und viele bunte Vögel. Die Tiere waren gut gepflegt und es gab informative Schilder, die ihre Lebensräume erklärten. Besonders beeindruckend war der Löwenbereich, wo ich den majestätischen König der Tiere beobachten konnte. Während des Besuchs lernte ich viel über die Natur und die Bedeutung des Artenschutzes. Es war ein spannender Tag, der mir viele schöne Erinnerungen beschert hat. Am Ende des Tages verließ ich den Zoo mit einem Lächeln und dem Wunsch, bald wiederzukommen.",
+  "questions": [
+    {
+      "question": "Wann hat der Erzähler den Zoo besucht?",
+      "choices": ["Letzten Samstag", "Letzten Sonntag", "Letzten Freitag", "Letzten Montag"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Welche Tiere hat der Erzähler gesehen?",
+      "choices": ["Nur Hunde", "Elefanten, Giraffen, Affen und bunte Vögel", "Nur Fische", "Nur Vögel"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie waren die Tiere gepflegt?",
+      "choices": ["Schlecht", "Gut", "Vernachlässigt", "Verletzt"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was beeindruckte den Erzähler im Löwenbereich?",
+      "choices": ["Den majestätischen Löwen", "Die Fütterungszeiten", "Die Geschichte des Zoos", "Die Größe der Gehege"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was lernte der Erzähler im Zoo?",
+      "choices": ["Über Technik", "Über Natur und Artenschutz", "Über Musik", "Über Sport"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Wie fühlte sich der Erzähler nach dem Besuch?",
+      "choices": ["Traurig", "Glücklich", "Wütend", "Ängstlich"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was bot der Zoo zur Information an?",
+      "choices": ["Informationsschilder", "Video-Präsentationen", "Führungen", "Keine Informationen"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Welche Tiere wurden besonders erwähnt?",
+      "choices": ["Löwen", "Katzen", "Fische", "Kühe"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie war der Tag im Zoo insgesamt?",
+      "choices": ["Spannend", "Langweilig", "Anstrengend", "Uninteressant"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was wünscht sich der Erzähler am Ende?",
+      "choices": ["Wiederzukommen", "Nicht mehr zurückzukehren", "Schneller zu gehen", "Mehr zu schlafen"],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "15",
+  "name": "German Reading Assignment 15 (A2)",
+  "level": "Beginner",
+  "Title": "Ein Abend im Restaurant",
+  "readingText": "Am Freitagabend habe ich ein neues Restaurant in der Stadt ausprobiert. Das Ambiente war modern und gemütlich. Ich bestellte ein traditionelles Gericht, das sehr lecker war. Der Kellner war freundlich und empfahl dazu einen erfrischenden Saft. Während des Essens unterhielt ich mich mit einem Freund, und wir lachten viel. Die Speisekarte bot eine Vielzahl an Gerichten, von Pasta bis zu lokalen Spezialitäten. Nach dem Essen machte ich noch einen kleinen Spaziergang durch die belebten Straßen der Stadt. Es war ein gelungener Abend, der mir viel Freude bereitete.",
+  "questions": [
+    {
+      "question": "Wann fand der Restaurantbesuch statt?",
+      "choices": ["Am Freitagabend", "Am Samstagabend", "Am Sonntagabend", "Am Montagabend"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie war das Ambiente des Restaurants?",
+      "choices": ["Modern und gemütlich", "Alt und laut", "Dunkel und unfreundlich", "Klein und einfach"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was bestellte der Erzähler?",
+      "choices": ["Ein traditionelles Gericht", "Nur Salat", "Nur Dessert", "Nur Getränke"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie war der Geschmack des Gerichts?",
+      "choices": ["Sehr lecker", "Fad", "Zu scharf", "Zu salzig"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was empfahl der Kellner?",
+      "choices": ["Einen erfrischenden Saft", "Ein Bier", "Wasser", "Kein Getränk"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Mit wem unterhielt sich der Erzähler?",
+      "choices": ["Mit einem Freund", "Mit einem Kollegen", "Mit der Familie", "Mit dem Kellner"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was bot die Speisekarte an?",
+      "choices": ["Viele Gerichte von Pasta bis zu Spezialitäten", "Nur Pasta", "Nur Salate", "Nur Desserts"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was machte der Erzähler nach dem Essen?",
+      "choices": ["Einen Spaziergang durch die Stadt", "Fuhr direkt nach Hause", "Rief ein Taxi", "Ging einkaufen"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie fühlte sich der Erzähler am Abend?",
+      "choices": ["Freudig", "Traurig", "Ängstlich", "Wütend"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was war ein besonderes Merkmal des Restaurants?",
+      "choices": ["Das moderne Ambiente", "Die laute Musik", "Die langen Wartezeiten", "Das schlechte Essen"],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "16",
+  "name": "German Reading Assignment 16 (A2)",
+  "level": "Beginner",
+  "Title": "Mein Tag im Freizeitpark",
+  "readingText": "Letzten Sommer besuchte ich einen großen Freizeitpark. Der Park war voller aufregender Fahrgeschäfte und bunter Attraktionen. Ich fuhr mit der Achterbahn, was mir einen Adrenalinschub gab, und genoss die entspannte Bootsfahrt. Auch die Shows und Paraden waren beeindruckend. Zusammen mit meiner Familie probierte ich verschiedene Snacks und Souvenirs. Die Atmosphäre war fröhlich und bunt. Es war ein Tag voller Spaß und Abenteuer, an den ich mich noch lange erinnern werde. Am Ende des Tages kehrten wir erschöpft, aber glücklich nach Hause zurück.",
+  "questions": [
+    {
+      "question": "Wann besuchte der Erzähler den Freizeitpark?",
+      "choices": ["Letzten Sommer", "Letzten Winter", "Letzten Frühling", "Letzten Herbst"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie wird der Freizeitpark beschrieben?",
+      "choices": ["Groß und aufregend", "Klein und ruhig", "Langweilig", "Unordentlich"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Welche Fahrgeschäfte wurden erwähnt?",
+      "choices": ["Achterbahn und Bootsfahrt", "Karussell", "Traktorfahrten", "Bahnfahrten"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was gab der Erzähler beim Achterbahnfahren?",
+      "choices": ["Einen Adrenalinschub", "Angst", "Langweile", "Übelkeit"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was unternahm der Erzähler noch im Park?",
+      "choices": ["Nahm an Shows und Paraden teil", "Ging spazieren", "Machte ein Nickerchen", "Besuchte ein Museum"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Mit wem besuchte der Erzähler den Park?",
+      "choices": ["Mit der Familie", "Allein", "Mit Kollegen", "Mit Nachbarn"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was probierte der Erzähler im Park?",
+      "choices": ["Verschiedene Snacks und Souvenirs", "Nur Wasser", "Nur Eis", "Nur Getränke"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie war die Atmosphäre im Freizeitpark?",
+      "choices": ["Fröhlich und bunt", "Traurig", "Düster", "Störend"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie erinnert sich der Erzähler an den Tag?",
+      "choices": ["Mit Spaß und Abenteuer", "Mit Angst", "Mit Müdigkeit", "Mit Stress"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie endete der Tag im Freizeitpark?",
+      "choices": ["Glücklich und erschöpft", "Mit Enttäuschung", "Mit Streit", "Mit Verwirrung"],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "17",
+  "name": "German Reading Assignment 17 (A2)",
+  "level": "Beginner",
+  "Title": "Ein Spaziergang am Fluss",
+  "readingText": "An einem klaren Morgen machte ich einen langen Spaziergang am Flussufer. Das Wasser floss ruhig und spiegelte den blauen Himmel wider. Entlang des Weges blühten bunte Blumen, und die Vögel sangen fröhlich. Ich begegnete einigen Joggern und genoss die frische Luft. Während ich spazierte, dachte ich über das Leben nach und fand innere Ruhe. Es war eine wunderbare Gelegenheit, den Alltagsstress zu vergessen und die Natur zu genießen. Der Spaziergang am Fluss war für mich ein Moment der Entspannung und Inspiration.",
+  "questions": [
+    {
+      "question": "Wann machte der Erzähler den Spaziergang?",
+      "choices": ["An einem klaren Morgen", "Am Abend", "In der Nacht", "Am Nachmittag"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wo fand der Spaziergang statt?",
+      "choices": ["Am Flussufer", "Im Park", "Im Wald", "In der Stadt"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie wurde das Wasser des Flusses beschrieben?",
+      "choices": ["Ruhig und klar", "Stürmisch", "Schmutzig", "Kalt"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was blühte entlang des Weges?",
+      "choices": ["Bunte Blumen", "Keine Blumen", "Nur Bäume", "Gräser"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was hörte der Erzähler während des Spaziergangs?",
+      "choices": ["Vogelgesang", "Autolärm", "Menschen, die rufen", "Musik"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wen begegnete der Erzähler?",
+      "choices": ["Einige Jogger", "Wenige Menschen", "Nur Tiere", "Niemandem"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Worüber dachte der Erzähler während des Spaziergangs?",
+      "choices": ["Über das Leben", "Über den Sport", "Über die Arbeit", "Über den Urlaub"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was bot der Spaziergang dem Erzähler?",
+      "choices": ["Entspannung und Inspiration", "Langeweile", "Stress", "Verwirrung"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was vergaß der Erzähler während des Spaziergangs?",
+      "choices": ["Den Alltagsstress", "Die Sorgen", "Die Zeit", "Die Musik"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie fühlte sich der Erzähler danach?",
+      "choices": ["Erholt", "Müde", "Enttäuscht", "Verärgert"],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "18",
+  "name": "German Reading Assignment 18 (A2)",
+  "level": "Beginner",
+  "Title": "Ein Tag im Büro",
+  "readingText": "Letzte Woche hatte ich einen besonders geschäftigen Tag im Büro. Ich arbeitete an verschiedenen Projekten und nahm an zahlreichen Meetings teil. Obwohl der Tag sehr voll war, organisierte ich meine Aufgaben gut und konnte alles rechtzeitig erledigen. Meine Kollegen unterstützten sich gegenseitig, und die Arbeitsatmosphäre war produktiv und freundlich. In der Mittagspause aßen wir gemeinsam in der Kantine und unterhielten uns über das kommende Wochenende. Trotz des stressigen Arbeitstages fühlte ich mich am Abend zufrieden und stolz auf unsere Teamleistung. Es war ein Tag, der sowohl herausfordernd als auch erfüllend war.",
+  "questions": [
+    {
+      "question": "Wann hatte der Erzähler einen geschäftigen Tag im Büro?",
+      "choices": ["Letzte Woche", "Letzten Monat", "Vor einem Jahr", "Am Wochenende"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Woran arbeitete der Erzähler?",
+      "choices": ["An verschiedenen Projekten", "An einem Buch", "An einem Film", "An einem Gemälde"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was nahm der Erzähler während des Tages wahr?",
+      "choices": ["Zahlreiche Meetings", "Keine Meetings", "Nur Telefonate", "Nur E-Mails"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie organisierte der Erzähler seine Aufgaben?",
+      "choices": ["Sehr gut", "Schlecht", "Kaotisch", "Unaufmerksam"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie unterstützten sich die Kollegen?",
+      "choices": ["Sie unterstützten sich gegenseitig", "Sie ignorierten einander", "Sie stritten", "Sie arbeiteten allein"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wo aßen sie in der Mittagspause?",
+      "choices": ["In der Kantine", "In einem Restaurant", "Im Büro", "Draußen"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Worüber unterhielten sie sich in der Pause?",
+      "choices": ["Über das kommende Wochenende", "Über Politik", "Über Sport", "Über das Wetter"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie fühlte sich der Erzähler am Abend?",
+      "choices": ["Zufrieden und stolz", "Traurig", "Wütend", "Erschöpft"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was beschreibt der Text als herausfordernd, aber erfüllend?",
+      "choices": ["Der Tag im Büro", "Der Tag im Park", "Der Besuch im Zoo", "Der Abend im Restaurant"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie war die Arbeitsatmosphäre?",
+      "choices": ["Produktiv und freundlich", "Stressig", "Kalt", "Chaotisch"],
+      "correctAnswer": 0
+    }
+  ]
+},
+{
+  "id": "19",
+  "name": "German Reading Assignment 19 (A2)",
+  "level": "Beginner",
+  "Title": "Mein Lieblingshobby: Fotografieren",
+  "readingText": "Seit meiner Kindheit habe ich eine große Leidenschaft für die Fotografie. Ich liebe es, besondere Momente einzufangen und Augenblicke festzuhalten. Oft gehe ich mit meiner Kamera in die Natur oder besuche interessante Veranstaltungen, um inspirierende Bilder zu machen. Meine Fotos zeigen häufig Landschaften, Tiere und Porträts. Jedes Bild erzählt eine eigene Geschichte. Durch die Fotografie habe ich gelernt, die Welt aus verschiedenen Perspektiven zu betrachten. Es ist ein Hobby, das mir viel Freude bereitet und mich kreativ fordert. Ich probiere gerne neue Techniken aus und freue mich immer über gelungene Aufnahmen.",
+  "questions": [
+    {
+      "question": "Seit wann hat der Erzähler eine Leidenschaft für Fotografie?",
+      "choices": ["Seit seiner Kindheit", "Seit gestern", "Seit der Schulzeit", "Seit dem letzten Jahr"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was liebt der Erzähler an der Fotografie?",
+      "choices": [ "Filme zu schauen", "Bücher zu lesen", "Momente einzufangen", "Musik zu hören"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Wohin geht der Erzähler oft, um Fotos zu machen?",
+      "choices": [ "Ins Kino", "In die Natur", "Ins Museum", "In den Zoo"],
+      "correctAnswer": 1
+    },
+    {
+      "question": "Was zeigen seine Fotos häufig?",
+      "choices": [ "Nur Tiere", "Nur Gebäude", "Landschaften, Tiere und Porträts", "Nur Texte"],
+      "correctAnswer": 2
+    },
+    {
+      "question": "Was erzählt jedes seiner Bilder?",
+      "choices": ["Eine eigene Geschichte", "Eine Zahlenfolge", "Ein Gedicht", "Ein Lied"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was hat der Erzähler durch Fotografie gelernt?",
+      "choices": ["Die Welt aus verschiedenen Perspektiven zu sehen", "Zu kochen", "Zu tanzen", "Zu singen"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Wie beschreibt der Erzähler sein Hobby?",
+      "choices": ["Freude und kreative Herausforderung", "Langeweile", "Stress", "Angst"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was freut den Erzähler besonders?",
+      "choices": ["Neue Techniken auszuprobieren", "Fernzusehen", "Spazierengehen", "Schlafen"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was hält der Erzähler mit seinen Fotos fest?",
+      "choices": ["Besondere Augenblicke", "Nur Landschaften", "Nur Tiere", "Nur Freunde"],
+      "correctAnswer": 0
+    },
+    {
+      "question": "Was ist das Ziel seines Hobbys?",
+      "choices": ["Momente festzuhalten", "Geld zu verdienen", "Schnell zu laufen", "Sich zu entspannen"],
+      "correctAnswer": 0
+    }
+  ]
+}
 ]

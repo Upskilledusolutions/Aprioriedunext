@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import styles from "../../src/styles/quiz/reading.module.css"
-import { useDispatch } from "react-redux";
-import { addFinishedQuiz } from "@/Store";
+import { useDispatch, useSelector } from "react-redux";
+import { addFinishedQuiz, updateCompletedQuizzes } from "@/Store";
 import Modal from "react-modal"; 
+import { addSingleFinishedQuizToServer } from "../../src/helperfunction/Finishedquiz";
 
 const ReadingAssignment = ({ id, subject, readingText, questions, Title }) => {
   const [selectedAnswers, setSelectedAnswers] = useState(Array(questions?.length).fill(null));
@@ -10,6 +11,7 @@ const ReadingAssignment = ({ id, subject, readingText, questions, Title }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(600); // 5 minutes in seconds
+  const { user } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -33,13 +35,32 @@ const ReadingAssignment = ({ id, subject, readingText, questions, Title }) => {
     setSelectedAnswers(updatedAnswers);
   };
 
+    const handleAddQuiz = async ({ questionType, quizId, subject }) => {
+      // Update Redux state and localStorage
+      dispatch(addFinishedQuiz({questionType, exercise:quizId, language:subject}));
+      dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
+  
+      // Send the new finished quiz to the backend as a single object
+      try {
+        const result = await addSingleFinishedQuizToServer({
+          userId: user.userId,
+          questionType,
+          exercise: quizId,
+          language: subject,
+        });
+        console.log("Finished quiz updated on server:", result);
+      } catch (error) {
+        console.error("Error updating finished quiz on server:", error);
+      }
+    };
+
   const handleSubmit = () => {
     const calculatedScore = questions.reduce((total, question, index) => {
       return total + (selectedAnswers[index] === question.correctAnswer ? 1 : 0);
     }, 0);
     setScore(calculatedScore);
     setIsModalOpen(true);
-    dispatch(addFinishedQuiz({questionType:"MCQs",exercise:id,language:subject}));
+    handleAddQuiz({questionType: "MCQs", quizId: id, subject})
   };
 
   const closeModal = () => {

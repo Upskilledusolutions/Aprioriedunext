@@ -17,6 +17,8 @@ const ReferralForm = () => {
     gender: '',
     age: '',
     course: '',
+    language: '',
+    level: '',
     type: 'Free Version'
   });
 
@@ -49,6 +51,8 @@ const ReferralForm = () => {
       newErrors.age = 'Age must be a positive number';
     }
     if (!formData.course) newErrors.course = 'Please select a course';
+    if (!formData.language) newErrors.language = 'Please select a language';
+    if (!formData.level) newErrors.level = 'Please select a level';
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -83,6 +87,8 @@ const ReferralForm = () => {
             gender: '',
             age: '',
             course: '',
+            language: '',
+            level: '',
             type: 'Free Version',
           });
           setErrors({});
@@ -265,6 +271,48 @@ const ReferralForm = () => {
               value={formData.type}
               onChange={handleChange}
             />
+          </div>
+
+          <div className={styles.row}>
+          <div className={styles.formGroup}>
+            <label className={styles.label} htmlFor="language">Language <span className={styles.span}>*</span></label>
+            <select
+              id="language"
+              name="language"
+              required
+              value={formData.language}
+              onChange={handleChange}
+              className={errors.language ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
+            >
+              <option value="">Select a language</option>
+              <option value="French">French</option>
+              <option value="Spanish">Spanish</option>
+              <option value="German">German</option>
+            </select>
+            {errors.language && <span className={styles.errorText}>{errors.language}</span>}
+          </div>
+
+          {/* Level Dropdown */}
+          <div className={styles.formGroup}>
+            <label className={styles.label} htmlFor="level">Level <span className={styles.span}>*</span></label>
+            <select
+              id="level"
+              name="level"
+              required
+              value={formData.level}
+              onChange={handleChange}
+              className={errors.level ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
+            >
+              <option value="">Select a level</option>
+              <option value="A1">A1</option>
+              <option value="A2">A2</option>
+              <option value="B1">B1</option>
+              <option value="B2">B2</option>
+              <option value="C1">C1</option>
+              <option value="C2">C2</option>
+            </select>
+            {errors.level && <span className={styles.errorText}>{errors.level}</span>}
+          </div>
           </div>
 
           <div className={styles.row1}>

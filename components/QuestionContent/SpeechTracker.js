@@ -3,8 +3,9 @@ import styles from "../../src/styles/quiz/speechtracker.module.css";
 import { HiSpeakerWave } from "react-icons/hi2";
 import { HiSpeakerXMark } from "react-icons/hi2";
 import { MdHearing, MdHearingDisabled } from "react-icons/md";
-import { useDispatch } from "react-redux";
-import { addFinishedQuiz } from "@/Store";
+import { useDispatch, useSelector } from "react-redux";
+import { addFinishedQuiz, updateCompletedQuizzes } from "@/Store";
+import { addSingleFinishedQuizToServer } from "../../src/helperfunction/Finishedquiz";
 
 // ---------- Utility Functions ----------
 const getSimilarity = (word1, word2) => {
@@ -311,16 +312,36 @@ const LineSpeechTracker = ({
 const SpeechTracker = ({ id, subject, data, code }) => {
   const [activeLineIndex, setActiveLineIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const { user } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
 
   // When an active line completes, advance to the next line (or show modal if done).
+      const handleAddQuiz = async ({ questionType, quizId, subject }) => {
+        // Update Redux state and localStorage
+        dispatch(addFinishedQuiz({questionType, exercise:quizId, language:subject}));
+        dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
+    
+        // Send the new finished quiz to the backend as a single object
+        try {
+          const result = await addSingleFinishedQuizToServer({
+            userId: user.userId,
+            questionType,
+            exercise: quizId,
+            language: subject,
+          });
+          console.log("Finished quiz updated on server:", result);
+        } catch (error) {
+          console.error("Error updating finished quiz on server:", error);
+        }
+      };
+
   const handleLineComplete = (lineIndex) => {
     if (lineIndex === activeLineIndex) {
       const nextLine = activeLineIndex + 1;
       if (nextLine < data.length) {
         setActiveLineIndex(nextLine);
       } else {
-        dispatch(addFinishedQuiz({ questionType: "MCQs", exercise: id, language: subject }));
+        handleAddQuiz({questionType: "MCQs", quizId: id, subject})
         setIsModalOpen(true);
       }
     }

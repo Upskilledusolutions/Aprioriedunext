@@ -6,6 +6,10 @@
   display: flex;
   justify-content: space-between;
 }
+.width strong{
+  width: 150px;
+  display: inline-block;
+}
 .tic{
   width: 2.5vw;
   height: auto;
@@ -86,5 +90,8 @@
     }
     .receiptDetails{
         width: 100%;
+    }
+    .width strong{
+      width: 100px;
     }
   }

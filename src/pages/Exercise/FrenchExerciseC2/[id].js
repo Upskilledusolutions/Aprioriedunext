@@ -10,8 +10,9 @@ import MCQComponent from '../../../../components/QuestionContent/MCQ';
 import FillInTheBlanksComponent from '../../../../components/QuestionContent/FillInTheBlanks';
 import MatchTheFollowingGame from "../../../../components/QuestionContent/MatchtheFollowing";
 import { useDispatch, useSelector } from "react-redux";
-import { unlockExercise, addFinishedQuiz } from "@/Store";
+import { unlockExercise, addFinishedQuiz, updateCompletedQuizzes } from "@/Store";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
+import { addSingleFinishedQuizToServer } from "../../../helperfunction/Finishedquiz";
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -33,7 +34,7 @@ const Quiz = () => {
   const [fematch, setFematch] = useState(false)
   const [finished, setFinished] = useState([]);
   const [showerror, setShowerror] = useState(false)
-
+  const { user } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
   const unlockedPages = useSelector((state) => state.unlockedExercises.unlockedExercisesFrenchC1);
   const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
@@ -58,6 +59,25 @@ const Quiz = () => {
     router.reload();
   };
 
+    const handleAddQuiz = async ({ questionType, quizId, subject }) => {
+      // Update Redux state and localStorage
+      dispatch(addFinishedQuiz({ questionType, exercise: quizId, language: subject }));
+      dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
+  
+      // Send the new finished quiz to the backend as a single object
+      try {
+        const result = await addSingleFinishedQuizToServer({
+          userId: user.userId,
+          questionType,
+          exercise: quizId,
+          language: subject,
+        });
+        console.log("Finished quiz updated on server:", result);
+      } catch (error) {
+        console.error("Error updating finished quiz on server:", error);
+      }
+    };
+
   const onClickNext = () => {
     setTime(25);
     setSelectedAnswerIndex(null);
@@ -80,10 +100,10 @@ const Quiz = () => {
       setSelectedOption(null);
       setSelectedAnswer("");
       if (questionType === 'MCQs') {setFemcq(true)
-        dispatch(addFinishedQuiz({questionType:questionType,exercise:quizId,language:subject}));
+        handleAddQuiz({questionType, quizId, subject})
       }
       if (questionType === 'FillInTheBlanks') {setFefill(true)
-        dispatch(addFinishedQuiz({questionType:questionType,exercise:quizId,language:subject}));
+        handleAddQuiz({questionType, quizId, subject})
       }
     }
 
@@ -259,7 +279,7 @@ const Quiz = () => {
                     onNext={onClickNext}
                     onResult={({ isCorrect, correctMatches }) => {
                       setFematch(true)
-                      dispatch(addFinishedQuiz({questionType:questionType,exercise:quizId,language:subject}));
+                      handleAddQuiz({questionType, quizId, subject})
                       setResult(prev => ({
                         correctAnswers: correctMatches+prev.correctAnswers,
                         wrong: 10 - correctMatches

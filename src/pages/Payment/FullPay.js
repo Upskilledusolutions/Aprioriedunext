@@ -22,6 +22,9 @@ const ReferralForm = () => {
     gender: '',
     age: '',
     course: '',
+    language: '',
+    level: '',
+    duration: 'Select a Course'
   });
 
   const [errors, setErrors] = useState({});
@@ -52,6 +55,8 @@ const ReferralForm = () => {
       newErrors.age = 'Age must be a positive number';
     }
     if (!formData.course) newErrors.course = 'Please select a course';
+    if (!formData.language) newErrors.language = 'Please select a language';
+    if (!formData.level) newErrors.level = 'Please select a level';
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -76,31 +81,40 @@ const ReferralForm = () => {
     // Set amount based on course selection
     if (name === "course") {
       let amount = "";
+      let duration = "";
       switch (value) {
         case "OSA - Self study package":
           amount = "6000";
+          duration = "6 months";
           break;
         case "Online Classes for Adults":
           amount = "12000";
+          duration = "6 months";
           break;
         case "Online Classes for Children":
           amount = "9000";
+          duration = "3 months";
           break;
-        case "OSA - Self study package + Doubt sessions":
+        case "OSA -Self study package + Doubt sessions":
           amount = "9000";
+          duration = "6 months";
           break;
         case "Workshop":
           amount = "250";
+          duration = "";
           break;
         case "Contests and Events":
           amount = "500";
+          duration = "";
           break;
         default:
           amount = "";
+          duration = "";
       }
       setFormData({
         ...formData,
         [name]: value,
+        duration: duration,
         amount: amount, // Update amount dynamically
         receipt: createReceipt(),
       });
@@ -134,10 +148,13 @@ const ReferralForm = () => {
             source: '',
             receipt: '',
             amount: '',
+            duration: '',
             sourcename: '',
             gender: '',
             age: '',
             course: '',
+            language: '',
+            level: '',
             type: 'Full Version', // Reset type explicitly
           });
           setErrors({});
@@ -341,7 +358,7 @@ const ReferralForm = () => {
             onChange={handleChange}
           />
 
-<div className={styles.formGroup}>
+          <div className={styles.formGroup}>
               <label className={styles.label} htmlFor="course">Course <span className={styles.span}>*</span></label>
               <select
                 id="course"
@@ -363,7 +380,49 @@ const ReferralForm = () => {
             </div>
           </div>
 
-        <div className={styles.row1}>
+          <div className={styles.row}>
+          <div className={styles.formGroup}>
+            <label className={styles.label} htmlFor="language">Language <span className={styles.span}>*</span></label>
+            <select
+              id="language"
+              name="language"
+              required
+              value={formData.language}
+              onChange={handleChange}
+              className={errors.language ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
+            >
+              <option value="">Select a language</option>
+              <option value="French">French</option>
+              <option value="Spanish">Spanish</option>
+              <option value="German">German</option>
+            </select>
+            {errors.language && <span className={styles.errorText}>{errors.language}</span>}
+          </div>
+
+          {/* Level Dropdown */}
+          <div className={styles.formGroup}>
+            <label className={styles.label} htmlFor="level">Level <span className={styles.span}>*</span></label>
+            <select
+              id="level"
+              name="level"
+              required
+              value={formData.level}
+              onChange={handleChange}
+              className={errors.level ? `${styles.errorInput} ${styles.input}` : `${styles.input}`}
+            >
+              <option value="">Select a level</option>
+              <option value="A1">A1</option>
+              <option value="A2">A2</option>
+              <option value="B1">B1</option>
+              <option value="B2">B2</option>
+              <option value="C1">C1</option>
+              <option value="C2">C2</option>
+            </select>
+            {errors.level && <span className={styles.errorText}>{errors.level}</span>}
+          </div>
+          </div>
+
+        <div className={styles.row}>
           <div className={styles.formGroup}>
             <label className={styles.label}>Amount</label>
             <input
@@ -371,6 +430,19 @@ const ReferralForm = () => {
               id="amount"
               name="amount"
               value={formData.amount}
+              readOnly
+              onChange={handleChange}
+              className={styles.input}
+            />
+          </div>
+
+          <div className={styles.formGroup}>
+            <label className={styles.label}>Duration</label>
+            <input
+              type="text"
+              id="duration"
+              name="duration"
+              value={formData.duration}
               readOnly
               onChange={handleChange}
               className={styles.input}

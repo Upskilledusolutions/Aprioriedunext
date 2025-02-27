@@ -3,8 +3,7 @@ import { useRouter } from 'next/router';
 
 const PaymentPage = () => {
   const router = useRouter();
-  const { name, email, phone, trialUserId, amount, receipt, course } = router.query;
-  console.log(name)
+  const { name, email, phone, trialUserId, amount, receipt, course, language, level, duration } = router.query;
 
   useEffect(() => {
     const initiatePayment = async () => {
@@ -13,6 +12,9 @@ const PaymentPage = () => {
         email: email || '',
         phone: phone || '',
         trialUserId: trialUserId || '',
+        language: language || '',
+        level: level || '',
+        duration: duration || '',
         amount: amount || 0,
       };
 

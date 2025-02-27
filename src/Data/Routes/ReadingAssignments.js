@@ -36,6 +36,15 @@ export const cards = [
       subject: 'FrenchA2RA'
     },
     {
+      type: 'frenchb1',
+      heading: 'French Beginner (B1)',
+      text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
+      link: 'FrenchReadingB1',
+      data: 'FrenchB1',
+      link2: 'FrenchReadingAssignmentB1',
+      subject: 'FrenchB1RA'
+    },
+    {
         type: 'spanish',
         heading: 'Spanish Beginner (A1)',
         text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
@@ -54,6 +63,15 @@ export const cards = [
         subject: 'SpanishA2RA'
       },
       {
+        type: 'spanishb1',
+        heading: 'Spanish Beginner (B1)',
+        text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
+        link: 'SpanishReadingB1',
+        data: 'Spanishb1',
+        link2: 'SpanishReadingAssignmentB1',
+        subject: 'SpanishB1RA'
+      },
+      {
         type: 'german',
         heading: 'German Beginner (A1)',
         text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
@@ -70,6 +88,15 @@ export const cards = [
         data: 'Germana2',
         link2: 'GermanReadingAssignmentA2',
         subject: 'GermanA2RA'
+      },
+      {
+        type: 'germanb1',
+        heading: 'German Beginner (B1)',
+        text: 'Master the language of art, culture, and diplomacy with our French Reading Assignments.',
+        link: 'GermanReadingB1',
+        data: 'Germanb1',
+        link2: 'GermanReadingAssignmentB1',
+        subject: 'GermanB1RA'
       },
       // {
       //   type: 'germanb1',
