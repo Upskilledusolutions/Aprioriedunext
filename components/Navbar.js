@@ -30,6 +30,8 @@ export default function Navbar() {
    // Access the authenticated user from Redux store
    const { isAuthenticated, user } = useSelector((state) => state.auth);
 
+   console.log(user)
+
    const toggleDropdown = () => {
     setDropdownVisible(!isDropdownVisible);
   };

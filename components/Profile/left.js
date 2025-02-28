@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from '../../src/styles/Admin.module.css';
 import { FaChevronDown } from 'react-icons/fa'; // Arrow down icon
 
-const DropdownSection = ({ sectionName, languages, isActive, onClick, onLanguageSelect, text }) => {
+const DropdownSection = ({ sectionName, language, isActive, onClick, onLanguageSelect, text }) => {
   return (
     <li onClick={() => onClick(sectionName)}>
       <div className={styles.flexing}>
@@ -10,7 +10,7 @@ const DropdownSection = ({ sectionName, languages, isActive, onClick, onLanguage
         <FaChevronDown className={`${styles.dropdownIcon} ${isActive ? styles.open : ''}`} />
       </div>
       <ul className={isActive ? styles.dropdownMenu : styles.dropdownMenu1}>
-        {languages.map((language, index) => (
+        {language.map((language, index) => (
           <li 
             key={index} 
             onClick={() => onLanguageSelect(sectionName, language)} // Pass both sectionName and language
@@ -23,9 +23,10 @@ const DropdownSection = ({ sectionName, languages, isActive, onClick, onLanguage
   );
 };
 
-export default function Left({ onLanguageSelect }) {
+export default function Left({ user, onLanguageSelect }) {
   const [activeSection, setActiveSection] = useState(null); // Track selected section
   const [isOpen, setIsOpen] = useState(false); // Toggle dropdown visibility
+  const [language, setLanguage] = useState([])
 
   const handleSectionClick = (section) => {
     if (activeSection === section) {
@@ -36,17 +37,38 @@ export default function Left({ onLanguageSelect }) {
     }
   };
 
-  const languages = ['FrenchA1', 'FrenchA2', 'FrenchB1', 'FrenchB2', 'SpanishA1','SpanishA2', 'GermanA1', 'GermanA2', 'ItalianA1', 'RussianA1', 'DutchA1', 'KoreanA1', 'JapaneseA1', 'DanishA1'];
+  const languages = {'french':'FrenchA1', 'frencha2': 'FrenchA2', 'frenchb1': 'FrenchB1', 'frenchb2': 'FrenchB2', 'frenchc1': 'FrenchC1', 'frenchc2': 'FrenchC2', 'spanish' :'SpanishA1','spanisha2': 'SpanishA2', 'spanishb1': 'SpanishB1', 'spanishb2': 'SpanishB2', 'spanishc1': 'SpanishC1', 'spanishc2': 'SpanishC2', 'germana1':'GermanA1', 'germana2':'GermanA2', 'germanb1':'GermanB1', 'germanb2':'GermanB2', 'germanc1':'GermanC1', 'germanc2':'GermanC2'}
+
+  useEffect(() => {
+    if (user) {
+      // If the user type is "all", use all language values.
+      if (user.type === 'all') {
+        setLanguage(Object.values(languages));
+      } else {
+        // Otherwise, combine user.type with user.next (ensuring user.next is an array)
+        const allowedKeys = [user.type, ...((Array.isArray(user.next) && user.next) || [])];
+        
+        // Filter languages to only include those keys that are in allowedKeys.
+        const filteredLanguages = Object.keys(languages)
+          .filter(key => allowedKeys.includes(key))
+          .map(key => languages[key]);
+          
+        setLanguage(filteredLanguages);
+      }
+    }
+  }, [user]);
+
+  console.log(language)
 
   return (
     <ul className={styles.leftlist}>
-      <div className={styles.heading2}>Sections</div>
+      <div className={styles.heading2}>Statistics</div>
 
       {/* Reusable DropdownSection Component */}
       <DropdownSection
         sectionName="Exercises"
         text="Exercises"
-        languages={languages}
+        language={language}
         isActive={activeSection === 'Exercises' && isOpen}
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
@@ -54,7 +76,7 @@ export default function Left({ onLanguageSelect }) {
       <DropdownSection
         sectionName="Reading"
         text="Reading Assignments"
-        languages={languages}
+        language={language}
         isActive={activeSection === 'Reading' && isOpen}
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
@@ -62,7 +84,7 @@ export default function Left({ onLanguageSelect }) {
       <DropdownSection
         sectionName="Listening"
         text="Lessons Assignments"
-        languages={languages}
+        language={language}
         isActive={activeSection === 'Listening' && isOpen}
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
@@ -70,7 +92,7 @@ export default function Left({ onLanguageSelect }) {
       <DropdownSection
         sectionName="ReadingP"
         text="Reading Practice"
-        languages={languages}
+        language={language}
         isActive={activeSection === 'ReadingP' && isOpen}
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
@@ -78,7 +100,7 @@ export default function Left({ onLanguageSelect }) {
       <DropdownSection
         sectionName="Writing"
         text="Writing"
-        languages={languages}
+        language={language}
         isActive={activeSection === 'Writing' && isOpen}
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
@@ -86,7 +108,7 @@ export default function Left({ onLanguageSelect }) {
       <DropdownSection
         sectionName="PracticeTest"
         text="Practice Test"
-        languages={languages}
+        language={language}
         isActive={activeSection === 'PracticeTest' && isOpen}
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection

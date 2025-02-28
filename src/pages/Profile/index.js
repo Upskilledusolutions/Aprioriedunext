@@ -19,9 +19,10 @@ export default function index() {
         <div>
         {loading && <div className={styles.loader}><LoadingSpinner /></div>}
         <div className={styles.bigcontainer}>
-          <div className={styles.heading}><div>{user?.name}'s Profile</div><Link href={'/Payment/Receipt'} className={styles.headbutton}>Create Receipt</Link></div>
+          <div className={styles.heading}><div>{user?.name}'s Profile</div>
+          </div>
           <div className={styles.container}>
-            <Left />
+            <Left user={user}/>
             <div className={styles.righttext}>
               {selection.section && selection.language ? (
                 <RightSide
