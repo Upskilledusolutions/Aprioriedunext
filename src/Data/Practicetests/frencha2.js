@@ -2623,4 +2623,681 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '5',
+      name: 'French A2 Practice Test - 5',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        {
+          "question": "Which word means “arm”?",
+          "choices": [
+            "jambe",
+            "bras",
+            "pied",
+            "oreille"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which term refers to “leg”?",
+          "choices": [
+            "bras",
+            "jambe",
+            "doigt",
+            "nez"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which word means “eye”?",
+          "choices": [
+            "œil",
+            "bouche",
+            "oreille",
+            "tête"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which term means “tooth”?",
+          "choices": [
+            "doigt",
+            "dent",
+            "cheveu",
+            "peau"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "What does “peau” mean?",
+          "choices": [
+            "hair",
+            "nail",
+            "skin",
+            "bone"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence correctly uses “pouvoir” in the present tense?",
+          "choices": [
+            "Je peut venir.",
+            "Tu peux venir.",
+            "Il peux venir.",
+            "Nous peut venir."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence correctly uses “devoir” in the present tense?",
+          "choices": [
+            "Elle dois étudier.",
+            "Elles doivent étudier.",
+            "Tu doit étudier.",
+            "Nous dois étudier."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "In the sentence “Nous ______ partir tôt,” which form of “devoir” is correct?",
+          "choices": [
+            "dois",
+            "doit",
+            "devons",
+            "devez"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which sentence correctly expresses ability using “pouvoir”?",
+          "choices": [
+            "Ils peut jouer au football.",
+            "Ils peuvent jouer au football.",
+            "Ils peut jouers au football.",
+            "Ils peux jouer au football."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence uses both modal verbs correctly?",
+          "choices": [
+            "Tu dois étudier et tu peux sortir.",
+            "Tu doit étudier et tu peux sortir.",
+            "Tu dois étudier et tu peut sortir.",
+            "Tu doit étudier et tu peut sortir."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "What does “midi” refer to?",
+          "choices": [
+            "midnight",
+            "noon",
+            "early morning",
+            "evening"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which expression means “quarter past” in French?",
+          "choices": [
+            "et quart",
+            "et demi",
+            "moins le quart",
+            "et dix"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "How is “3:30” correctly expressed in French?",
+          "choices": [
+            "trois heures et demie",
+            "trois heures et quart",
+            "trois heures moins le quart",
+            "trois heures trente"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which term means “timetable” or “schedule”?",
+          "choices": [
+            "l’agenda",
+            "la montre",
+            "l’horloge",
+            "emploi du temps"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "“Il est minuit” means what time?",
+          "choices": [
+            "12:00 noon",
+            "12:00 AM",
+            "12:00 PM",
+            "1:00 AM"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence is correctly written in the passé composé?",
+          "choices": [
+            "J'ai mangé une pomme.",
+            "Je mange une pomme.",
+            "J'ai manger une pomme.",
+            "Je mangé une pomme."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly uses the passé composé with the verb “aller”?",
+          "choices": [
+            "Il a allé au marché.",
+            "Il est allé au marché.",
+            "Il a aller au marché.",
+            "Il allé au marché."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which auxiliary verb is used with the majority of French verbs in the passé composé?",
+          "choices": [
+            "être",
+            "avoir",
+            "both avoir and être",
+            "neither"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "For reflexive verbs in the passé composé, which auxiliary is used?",
+          "choices": [
+            "avoir",
+            "être",
+            "both",
+            "none"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which of the following sentences is incorrect in the passé composé?",
+          "choices": [
+            "Nous avons vu un film.",
+            "Vous avez parlé français.",
+            "Ils sont partis à l’heure.",
+            "Elle est pris son sac."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+
+        {
+          "question": "Je me sens mal; j’ai mal à la ______.",
+          "choices": ["tête"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pour soigner sa toux, il prend du sirop contre la ______.",
+          "choices": ["toux"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le médecin examine le ______ de l’enfant pour vérifier son pouls.",
+          "choices": ["cœur"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quand elle a de la fièvre, elle se plaint de douleurs au ______.",
+          "choices": ["ventre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il faut consulter un ______ si les symptômes persistent.",
+          "choices": ["médecin"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ aller chez le dentiste demain.",
+          "choices": ["dois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ parler français en classe.",
+          "choices": ["dois"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ étudier pour réussir l’examen.",
+          "choices": ["devons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Est-ce que je ______ emprunter ton livre ?",
+          "choices": ["peux"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elles ______ finir leurs devoirs avant de sortir.",
+          "choices": ["doivent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il est ______ heures du matin. ",
+          "choices": ["sept"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le train part à ______ heures et demie. ",
+          "choices": ["neuf"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mon rendez-vous est à ______ heures. ",
+          "choices": ["quatorze"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous avons cours de français à ______ heures. ",
+          "choices": ["dix"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle se réveille à ______ heures pour aller au travail. ",
+          "choices": ["six"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Hier, j’______ une pizza délicieuse. (manger)",
+          "choices": ["ai mangé"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ au cinéma samedi soir. (aller)",
+          "choices": ["es allé(e)"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il ______ ses devoirs avant de sortir. (finir)",
+          "choices": ["a fini"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ le musée pendant nos vacances. (visiter)",
+          "choices": ["avons visité"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elles ______ le bus pour aller en ville. (prendre)",
+          "choices": ["ont pris"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Elle se plaint d'une douleur aiguë à la tête.",
+          "choices": ["Elle", "se", "plaint", "d'une", "douleur", "aiguë", "à", "la", "tête."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il a une forte fièvre et mal au ventre.",
+          "choices": ["Il", "a", "une", "forte", "fièvre", "et", "mal", "au", "ventre."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Le médecin examine soigneusement les yeux et le nez.",
+          "choices": ["Le", "médecin", "examine", "soigneusement", "les", "yeux", "et", "le", "nez."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle ressent une douleur persistante dans son dos.",
+          "choices": ["Elle", "ressent", "une", "douleur", "persistante", "dans", "son", "dos."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il se blesse au bras lors d'un accident.",
+          "choices": ["Il", "se", "blesse", "au", "bras", "lors", "d'un", "accident."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Je dois finir mes devoirs avant de sortir ce soir.",
+          "choices": ["Je", "dois", "finir", "mes", "devoirs", "avant", "de", "sortir", "ce", "soir."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu peux parler français couramment en classe aujourd'hui.",
+          "choices": ["Tu", "peux", "parler", "français", "couramment", "en", "classe", "aujourd'hui."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous devons étudier chaque jour pour progresser rapidement.",
+          "choices": ["Nous", "devons", "étudier", "chaque", "jour", "pour", "progresser", "rapidement."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il peut comprendre les instructions simples en français.",
+          "choices": ["Il", "peut", "comprendre", "les", "instructions", "simples", "en", "français."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elles doivent arriver à l'heure pour le rendez-vous.",
+          "choices": ["Elles", "doivent", "arriver", "à", "l'heure", "pour", "le", "rendez-vous."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il est sept heures précises pour le petit déjeuner.",
+          "choices": ["Il", "est", "sept", "heures", "précises", "pour", "le", "petit", "déjeuner."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Le train part à neuf heures et demie demain.",
+          "choices": ["Le", "train", "part", "à", "neuf", "heures", "et", "demie", "demain."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous avons cours de français tous les mardis.",
+          "choices": ["Nous", "avons", "cours", "de", "français", "tous", "les", "mardis."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mon rendez-vous est fixé à quatorze heures précises.",
+          "choices": ["Mon", "rendez-vous", "est", "fixé", "à", "quatorze", "heures", "précises."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elle se réveille à six heures chaque matin.",
+          "choices": ["Elle", "se", "réveille", "à", "six", "heures", "chaque", "matin."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Hier, j'ai mangé une pizza délicieuse pour dîner.",
+          "choices": ["Hier,", "j'ai", "mangé", "une", "pizza", "délicieuse", "pour", "dîner."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Tu es allé(e) au cinéma samedi soir hier.",
+          "choices": ["Tu", "es", "allé(e)", "au", "cinéma", "samedi", "soir", "hier."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Il a fini ses devoirs avant de sortir ce soir.",
+          "choices": ["Il", "a", "fini", "ses", "devoirs", "avant", "de", "sortir", "ce", "soir."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Nous avons visité le musée pendant nos dernières vacances.",
+          "choices": ["Nous", "avons", "visité", "le", "musée", "pendant", "nos", "dernières", "vacances."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Elles ont pris le bus pour se rendre en ville.",
+          "choices": ["Elles", "ont", "pris", "le", "bus", "pour", "se", "rendre", "en", "ville."],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "la migraine", "rightId": 1 },
+              "right": { "word": "the cough", "rightId": 3 }
+            },
+            {
+              "left": { "word": "la douleur", "rightId": 2 },
+              "right": { "word": "the rash", "rightId": 5 }
+            },
+            {
+              "left": { "word": "la grippe", "rightId": 3 },
+              "right": { "word": "the fever", "rightId": 2 }
+            },
+            {
+              "left": { "word": "la fièvre", "rightId": 4 },
+              "right": { "word": "the pain", "rightId": 1 }
+            },
+            {
+              "left": { "word": "la toux", "rightId": 5 },
+              "right": { "word": "the dizziness", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "les vertiges", "rightId": 1 },
+              "right": { "word": "the fatigue", "rightId": 2 }
+            },
+            {
+              "left": { "word": "la fatigue", "rightId": 2 },
+              "right": { "word": "the infection", "rightId": 1 }
+            },
+            {
+              "left": { "word": "l'infection", "rightId": 3 },
+              "right": { "word": "the migraine", "rightId": 5 }
+            },
+            {
+              "left": { "word": "le rhume", "rightId": 4 },
+              "right": { "word": "the cold", "rightId": 3 }
+            },
+            {
+              "left": { "word": "l'éruption", "rightId": 5 },
+              "right": { "word": "the flu", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Je peux venir ce soir.", "rightId": 1 },
+              "right": { "word": "You must finish your work.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Tu dois finir ton travail.", "rightId": 2 },
+              "right": { "word": "He can choose a book.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Il peut choisir un livre.", "rightId": 3 },
+              "right": { "word": "You (plural/formal) can take the train.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Nous devons étudier pour l'examen.", "rightId": 4 },
+              "right": { "word": "I can come tonight.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Vous pouvez prendre le train.", "rightId": 5 },
+              "right": { "word": "We must study for the exam.", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Elles doivent se lever tôt.", "rightId": 1 },
+              "right": { "word": "He must call his mother.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Je dois faire mes courses.", "rightId": 2 },
+              "right": { "word": "We can start now.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Tu peux m'aider aujourd'hui.", "rightId": 3 },
+              "right": { "word": "You can help me today.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Il doit téléphoner à sa mère.", "rightId": 4 },
+              "right": { "word": "They (feminine) must get up early.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Nous pouvons commencer maintenant.", "rightId": 5 },
+              "right": { "word": "I must do my shopping.", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il est midi.", "rightId": 1 },
+              "right": { "word": "It is eight o'clock.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Il est minuit.", "rightId": 2 },
+              "right": { "word": "It is quarter to three.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il est une heure et demie.", "rightId": 3 },
+              "right": { "word": "It is one-thirty.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Il est vingt heures.", "rightId": 4 },
+              "right": { "word": "It is noon.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Il est trois heures moins le quart.", "rightId": 5 },
+              "right": { "word": "It is midnight.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Il est sept heures pile.", "rightId": 1 },
+              "right": { "word": "It is ten o'clock in the morning.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Il est dix heures du matin.", "rightId": 2 },
+              "right": { "word": "It is four in the afternoon.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il est cinq heures et demie.", "rightId": 3 },
+              "right": { "word": "It is ten to eleven.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Il est onze heures moins dix.", "rightId": 4 },
+              "right": { "word": "It is seven o'clock sharp.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Il est quatre heures du soir.", "rightId": 5 },
+              "right": { "word": "It is five-thirty.", "rightId": 3 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "J'ai rapidement terminé mes devoirs.", "rightId": 1 },
+              "right": { "word": "She perfectly understood the lesson.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Tu as soigneusement préparé le dîner.", "rightId": 2 },
+              "right": { "word": "We joyfully celebrated the birthday.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Il a courageusement affronté ses peurs.", "rightId": 3 },
+              "right": { "word": "He bravely faced his fears.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Elle a parfaitement compris la leçon.", "rightId": 4 },
+              "right": { "word": "I quickly finished my homework.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Nous avons joyeusement célébré l'anniversaire.", "rightId": 5 },
+              "right": { "word": "You carefully prepared the dinner.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          type: "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Vous avez clairement expliqué les instructions.", "rightId": 1 },
+              "right": { "word": "They definitely lost the match.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Ils ont définitivement perdu le match.", "rightId": 2 },
+              "right": { "word": "You finally finished your project.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Elles ont entièrement réussi l'examen.", "rightId": 3 },
+              "right": { "word": "I delicately painted the wall.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "J'ai délicatement peint le mur.", "rightId": 4 },
+              "right": { "word": "You clearly explained the instructions.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Tu as enfin terminé ton projet.", "rightId": 5 },
+              "right": { "word": "They completely passed the exam.", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]

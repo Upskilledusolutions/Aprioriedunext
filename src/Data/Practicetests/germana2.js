@@ -1893,4 +1893,682 @@ export const quiz = [
         },
       ],
     },
+    {
+      quiz: '4',
+      name: 'German A2 Practice Test - 4',
+      level: 'Easy',
+      topic: 'Mixed',
+      questions: [
+        // 7 MCQs
+        {
+          "question": "Wie nennt man ein Kleidungsstück, das man auf dem Kopf trägt?",
+          "choices": [
+            "Handschuhe",
+            "Mütze",
+            "Schal",
+            "Hose"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welches Kleidungsstück trägt man an den Füßen?",
+          "choices": [
+            "Pullover",
+            "Socken",
+            "Rock",
+            "Schal"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Frage stellt man im Geschäft, wenn man bezahlen möchte?",
+          "choices": [
+            "Wo ist die Umkleidekabine?",
+            "Haben Sie das in Größe M?",
+            "Kann ich mit Karte zahlen?",
+            "Wann öffnet der Laden?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Was ist kein Kleidungsstück?",
+          "choices": [
+            "Hemd",
+            "Hose",
+            "Tasche",
+            "Schal"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Was sagt man, wenn man etwas im Geschäft anprobieren möchte?",
+          "choices": [
+            "Kann ich das probieren?",
+            "Kann ich das anprobieren?",
+            "Kann ich das versuchen?",
+            "Kann ich das bestellen?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Ich kaufe einen ________ Pullover. (warm)",
+          "choices": [
+            "warme",
+            "warmen",
+            "warmes",
+            "warmer"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Sie trägt eine ________ Jacke. (rot)",
+          "choices": [
+            "rote",
+            "roten",
+            "rotes",
+            "roter"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir wohnen in einem ________ Haus. (groß)",
+          "choices": [
+            "großes",
+            "großer",
+            "großem",
+            "großen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Das ist ein ________ Kleid. (schön)",
+          "choices": [
+            "schöne",
+            "schöner",
+            "schönes",
+            "schönen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Der ________ Tisch steht in der Küche. (neu)",
+          "choices": [
+            "neuer",
+            "neues",
+            "neue",
+            "neuen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Welche Aktivität gehört nicht zu den Hobbys?",
+          "choices": [
+            "Schwimmen",
+            "Einkaufen",
+            "Wandern",
+            "Lesen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Welche Sportart spielt man mit einem Schläger?",
+          "choices": [
+            "Fußball",
+            "Tennis",
+            "Schwimmen",
+            "Laufen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Was macht man mit einer Kamera?",
+          "choices": [
+            "Musik hören",
+            "Filme schauen",
+            "Fotos machen",
+            "Lesen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Welche Freizeitaktivität ist entspannend?",
+          "choices": [
+            "Lesen",
+            "Joggen",
+            "Klettern",
+            "Tanzen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Was kann man in seiner Freizeit nicht machen?",
+          "choices": [
+            "Gitarre spielen",
+            "Hausaufgaben machen",
+            "Radfahren",
+            "Kochen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wir ________ oft Fußball im Park. (spielen)",
+          "choices": [
+            "spielt",
+            "spielst",
+            "spielen",
+            "spieltet"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Ich ________ gern in den Bergen. (wandern)",
+          "choices": [
+            "wander",
+            "wandere",
+            "wandert",
+            "wanderen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Ihr ________ Karten am Wochenende. (spielen)",
+          "choices": [
+            "spielt",
+            "spielen",
+            "spielst",
+            "spielest"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Meine Schwester ________ sehr gut. (malen)",
+          "choices": [
+            "malt",
+            "malst",
+            "male",
+            "malen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Er ________ jeden Tag im Park. (wandern)",
+          "choices": [
+            "wander",
+            "wandere",
+            "wandert",
+            "wanderen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+
+        {
+          "question": "Ich brauche eine neue ______ für den Winter. (jacket)",
+          "choices": ["Jacke"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Können Sie mir bitte diese ______ in Größe 40 zeigen? (shoes)",
+          "choices": ["Schuhe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Diese ______ passt mir nicht, sie ist zu eng. (pants)",
+          "choices": ["Hose"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wie viel kostet dieses ______? (shirt)",
+          "choices": ["Hemd"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich möchte diese ______ anprobieren. (dress)",
+          "choices": ["Kleid"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich kaufe einen ______ Pullover. (warm)",
+          "choices": ["warmen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sie trägt eine ______ Bluse. (schön)",
+          "choices": ["schöne"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir suchen ein ______ Hotel für das Wochenende. (günstig)",
+          "choices": ["günstiges"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich esse gern in einem ______ Restaurant. (italienisch)",
+          "choices": ["italienischen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Der ______ Mantel gefällt mir sehr. (blau)",
+          "choices": ["blaue"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "In meiner Freizeit gehe ich oft ______. (swimming)",
+          "choices": ["schwimmen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich interessiere mich für ______. (photography)",
+          "choices": ["Fotografie"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Am Wochenende spiele ich gern ______. (guitar)",
+          "choices": ["Gitarre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Meine Lieblingssportart ist ______. (cycling)",
+          "choices": ["Radfahren"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich lese gerne ______ in meiner Freizeit. (books)",
+          "choices": ["Bücher"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Er ______ jeden Tag im Park. (wandern)",
+          "choices": ["wandert"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir ______ oft Brettspiele mit Freunden. (spielen)",
+          "choices": ["spielen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ich ______ gerne in den Bergen. (wandern)",
+          "choices": ["wandere"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ihr ______ Fußball im Verein. (spielen)",
+          "choices": ["spielt"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Meine Schwester ______ gerne in ihrer Freizeit. (malen)",
+          "choices": ["malt"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+       
+  
+        // 2 Jumbled Words
+        
+        {
+          "question": "Ich kaufe eine blaue Jacke im Einkaufszentrum.",
+          "choices": ["Ich", "kaufe", "eine", "blaue", "Jacke", "im", "Einkaufszentrum."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Der Pullover kostet fünfzig Euro im Modegeschäft.",
+          "choices": ["Der", "Pullover", "kostet", "fünfzig", "Euro", "im", "Modegeschäft."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Hast du diese Schuhe in Größe 42?",
+          "choices": ["Hast", "du", "diese", "Schuhe", "in", "Größe", "42", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich brauche eine warme Mütze für den Winter.",
+          "choices": ["Ich", "brauche", "eine", "warme", "Mütze", "für", "den", "Winter."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Können Sie mir den Preis für das Hemd sagen?",
+          "choices": ["Können", "Sie", "mir", "den", "Preis", "für", "das", "Hemd", "sagen", "?"],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Sie trägt eine schöne rote Bluse zur Party.",
+          "choices": ["Sie", "trägt", "eine", "schöne", "rote", "Bluse", "zur", "Party."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich sehe einen kleinen Hund im Garten.",
+          "choices": ["Ich", "sehe", "einen", "kleinen", "Hund", "im", "Garten."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wir wohnen in einem alten gelben Haus.",
+          "choices": ["Wir", "wohnen", "in", "einem", "alten", "gelben", "Haus."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Er hat eine teure schwarze Lederjacke gekauft.",
+          "choices": ["Er", "hat", "eine", "teure", "schwarze", "Lederjacke", "gekauft."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Das ist ein leckeres frisches Brot vom Bäcker.",
+          "choices": ["Das", "ist", "ein", "leckeres", "frisches", "Brot", "vom", "Bäcker."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Mein Hobby ist Schwimmen, weil es entspannend ist.",
+          "choices": ["Mein", "Hobby", "ist", "Schwimmen,", "weil", "es", "entspannend", "ist."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Am Wochenende gehe ich oft mit Freunden wandern.",
+          "choices": ["Am", "Wochenende", "gehe", "ich", "oft", "mit", "Freunden", "wandern."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich interessiere mich sehr für klassische Musik.",
+          "choices": ["Ich", "interessiere", "mich", "sehr", "für", "klassische", "Musik."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Er spielt leidenschaftlich gern Schach im Park.",
+          "choices": ["Er", "spielt", "leidenschaftlich", "gern", "Schach", "im", "Park."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wir lernen gerne neue Sprachen in unserer Freizeit.",
+          "choices": ["Wir", "lernen", "gerne", "neue", "Sprachen", "in", "unserer", "Freizeit."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ich spiele jeden Abend Klavier mit meiner Schwester.",
+          "choices": ["Ich", "spiele", "jeden", "Abend", "Klavier", "mit", "meiner", "Schwester."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Wir wandern oft durch die Berge im Herbst.",
+          "choices": ["Wir", "wandern", "oft", "durch", "die", "Berge", "im", "Herbst."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Meine Freunde malen schöne Bilder mit Wasserfarben.",
+          "choices": ["Meine", "Freunde", "malen", "schöne", "Bilder", "mit", "Wasserfarben."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Ihr spielt Fußball nach der Schule im Park.",
+          "choices": ["Ihr", "spielt", "Fußball", "nach", "der", "Schule", "im", "Park."],
+          "type": "JumbledWords"
+        },
+        {
+          "question": "Am Wochenende wandere ich mit meiner Familie im Wald.",
+          "choices": ["Am", "Wochenende", "wandere", "ich", "mit", "meiner", "Familie", "im", "Wald."],
+          "type": "JumbledWords"
+        },
+
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Hut", "rightId": 1 },
+              "right": { "word": "Hier bezahlt man im Geschäft.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Schuhe", "rightId": 2 },
+              "right": { "word": "Ein Kleidungsstück für Frauen, meist knielang.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Schal", "rightId": 3 },
+              "right": { "word": "Trägt man an den Füßen zum Laufen.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Rock", "rightId": 4 },
+              "right": { "word": "Schützt den Kopf vor Sonne und Regen.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Kasse", "rightId": 5 },
+              "right": { "word": "Wärmt den Hals im Winter.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Mütze", "rightId": 1 },
+              "right": { "word": "Wärmen die Hände im Winter.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Hose", "rightId": 2 },
+              "right": { "word": "Eine warme Kopfbedeckung für kaltes Wetter.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Rabatt", "rightId": 3 },
+              "right": { "word": "Ein Ort, um Kleidung vor dem Kauf anzuprobieren.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Handschuhe", "rightId": 4 },
+              "right": { "word": "Ein Preisnachlass auf ein Produkt.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Umkleidekabine", "rightId": 5 },
+              "right": { "word": "Wird an den Beinen getragen, meist mit zwei Beinen.", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "ein warmer", "rightId": 1 },
+              "right": { "word": "Tasche", "rightId": 2 }
+            },
+            {
+              "left": { "word": "eine kleine", "rightId": 2 },
+              "right": { "word": "Sofa", "rightId": 3 }
+            },
+            {
+              "left": { "word": "ein bequemes", "rightId": 3 },
+              "right": { "word": "Hund", "rightId": 5 }
+            },
+            {
+              "left": { "word": "eine schnelle", "rightId": 4 },
+              "right": { "word": "Mantel", "rightId": 1 }
+            },
+            {
+              "left": { "word": "ein süßer", "rightId": 5 },
+              "right": { "word": "Bahn", "rightId": 4 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "ein kaltes", "rightId": 1 },
+              "right": { "word": "Brille", "rightId": 4 }
+            },
+            {
+              "left": { "word": "eine große", "rightId": 2 },
+              "right": { "word": "Film", "rightId": 5 }
+            },
+            {
+              "left": { "word": "ein teures", "rightId": 3 },
+              "right": { "word": "Auto", "rightId": 3 }
+            },
+            {
+              "left": { "word": "eine dunkle", "rightId": 4 },
+              "right": { "word": "Getränk", "rightId": 1 }
+            },
+            {
+              "left": { "word": "ein lustiger", "rightId": 5 },
+              "right": { "word": "Stadt", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Gärtnern", "rightId": 1 },
+              "right": { "word": "Mit einer Kamera Bilder machen.", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Fotografieren", "rightId": 2 },
+              "right": { "word": "Mit dem Fahrrad fahren.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Tanzen", "rightId": 3 },
+              "right": { "word": "Ein strategisches Brettspiel mit König und Dame.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Schach spielen", "rightId": 4 },
+              "right": { "word": "Pflanzen anbauen und pflegen.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Radfahren", "rightId": 5 },
+              "right": { "word": "Sich zur Musik bewegen.", "rightId": 3 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Nähen", "rightId": 1 },
+              "right": { "word": "Auf Berge oder Wände steigen.", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Zeichnen", "rightId": 2 },
+              "right": { "word": "Kleidung oder Stoffe mit Nadel und Faden bearbeiten.", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Kochen", "rightId": 3 },
+              "right": { "word": "Geschichten oder Texte verfassen.", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Klettern", "rightId": 4 },
+              "right": { "word": "Essen zubereiten und neue Rezepte ausprobieren.", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Schreiben", "rightId": 5 },
+              "right": { "word": "Mit Stiften oder Kohle Bilder anfertigen.", "rightId": 2 }
+            },
+           
+          ],
+        },
+
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Ich", "rightId": 1 },
+              "right": { "word": "bastelt", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Du", "rightId": 2 },
+              "right": { "word": "tanzt", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Er", "rightId": 3 },
+              "right": { "word": "wandert", "rightId": 3 }
+            },
+            {
+              "left": { "word": "Sie (singular)", "rightId": 4 },
+              "right": { "word": "male", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Es", "rightId": 5 },
+              "right": { "word": "spielst", "rightId": 2 }
+            },
+           
+          ],
+        },
+  
+        {
+          "question": "Match the Words.",
+          "type": "MatchTheFollowing",
+          "pairs": [
+            {
+              "left": { "word": "Wir", "rightId": 1 },
+              "right": { "word": "lauft", "rightId": 2 }
+            },
+            {
+              "left": { "word": "Ihr", "rightId": 2 },
+              "right": { "word": "schnurrt", "rightId": 5 }
+            },
+            {
+              "left": { "word": "Sie (plural)", "rightId": 3 },
+              "right": { "word": "rennt", "rightId": 4 }
+            },
+            {
+              "left": { "word": "Der Hund", "rightId": 4 },
+              "right": { "word": "reisen", "rightId": 1 }
+            },
+            {
+              "left": { "word": "Die Katze", "rightId": 5 },
+              "right": { "word": "singen", "rightId": 3 }
+            },
+           
+          ],
+        },
+      ],
+    },
 ]
