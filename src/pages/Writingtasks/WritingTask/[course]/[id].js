@@ -39,8 +39,7 @@ export default function Index() {
   if (!lesson) {
     return <div>Loading lesson data...</div>;
   }
-
-  console.log(lesson[id-1].level)
+  
   return (
     <div className={styles.container} style={{ textAlign: "center", padding: "20px" }}>
       <h2 className={styles.selectheading}>{lesson[id-1].name}</h2>
@@ -59,7 +58,7 @@ export default function Index() {
             fontWeight: "bold"
           }}
         >
-          Article
+          Report
         </button>
         <button 
           onClick={() => setView("essay")} 

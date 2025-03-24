@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from '../../src/styles/Admin.module.css';
+import styles from '../../src/styles/Profile.module.css';
 import { FaChevronDown } from 'react-icons/fa'; // Arrow down icon
 
 const DropdownSection = ({ sectionName, language, isActive, onClick, onLanguageSelect, text }) => {
@@ -26,7 +26,7 @@ const DropdownSection = ({ sectionName, language, isActive, onClick, onLanguageS
 export default function Left({ user, onLanguageSelect }) {
   const [activeSection, setActiveSection] = useState(null); // Track selected section
   const [isOpen, setIsOpen] = useState(false); // Toggle dropdown visibility
-  const [language, setLanguage] = useState([])
+  const [language, setLanguage] = useState(user?.type ? [user.type] : []);
 
   const handleSectionClick = (section) => {
     if (activeSection === section) {
@@ -37,7 +37,7 @@ export default function Left({ user, onLanguageSelect }) {
     }
   };
 
-  const languages = {'french':'FrenchA1', 'frencha2': 'FrenchA2', 'frenchb1': 'FrenchB1', 'frenchb2': 'FrenchB2', 'frenchc1': 'FrenchC1', 'frenchc2': 'FrenchC2', 'spanish' :'SpanishA1','spanisha2': 'SpanishA2', 'spanishb1': 'SpanishB1', 'spanishb2': 'SpanishB2', 'spanishc1': 'SpanishC1', 'spanishc2': 'SpanishC2', 'germana1':'GermanA1', 'germana2':'GermanA2', 'germanb1':'GermanB1', 'germanb2':'GermanB2', 'germanc1':'GermanC1', 'germanc2':'GermanC2'}
+  const languages = {'french':'French A1', 'frencha2': 'French A2', 'frenchb1': 'French B1', 'frenchb2': 'French B2', 'spanish' :'Spanish A1','spanish a2': 'Spanish A2', 'spanish b1': 'Spanish B1', 'germana1':'German A1', 'germana2':'German A2', 'germanb1':'German B1', 'germanb2':'German B2'}
 
   useEffect(() => {
     if (user) {
@@ -58,14 +58,28 @@ export default function Left({ user, onLanguageSelect }) {
     }
   }, [user]);
 
-  console.log(language)
-
   return (
     <ul className={styles.leftlist}>
       <div className={styles.heading2}>Statistics</div>
 
       {/* Reusable DropdownSection Component */}
       <DropdownSection
+        sectionName="Total"
+        text="Total Progress"
+        language={language}
+        isActive={activeSection === 'Total' && isOpen}
+        onClick={handleSectionClick}
+        onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
+      />
+        <DropdownSection
+        sectionName="Leader"
+        text="Leadersboard"
+        language={language}
+        isActive={activeSection === 'Leader' && isOpen}
+        onClick={handleSectionClick}
+        onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
+      />
+      {/* <DropdownSection
         sectionName="Exercises"
         text="Exercises"
         language={language}
@@ -83,7 +97,7 @@ export default function Left({ user, onLanguageSelect }) {
       />
       <DropdownSection
         sectionName="Listening"
-        text="Lessons Assignments"
+        text="Listening Assignments"
         language={language}
         isActive={activeSection === 'Listening' && isOpen}
         onClick={handleSectionClick}
@@ -112,7 +126,7 @@ export default function Left({ user, onLanguageSelect }) {
         isActive={activeSection === 'PracticeTest' && isOpen}
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
-      />
+      /> */}
     </ul>
   );
 }

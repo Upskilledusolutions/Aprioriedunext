@@ -1,0 +1,44 @@
+.page {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-bottom: 20px;
+  align-items: stretch; /* Ensure children are equal height */
+}
+
+.left, 
+.right {
+  flex: 1;
+  margin: 10px;
+}
+
+.bottomSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: stretch; /* Make all bottom section children equal height */
+}
+
+.graphContainer {
+  display: flex;
+  flex-direction: column;
+  width: 64vw;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.statsContainer {
+display: grid;
+grid-template-columns: 1fr;
+}
+
+.belowcontainer {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+}

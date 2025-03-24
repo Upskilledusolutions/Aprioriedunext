@@ -27,6 +27,15 @@ export const cards = [
       subject: 'FrenchB1'
     },
     {
+      type: 'frenchb2',
+      heading: 'French Intermediate (B2)',
+      text: 'Master the language of art, culture, and diplomacy with our French exercise.',
+      link: 'FrenchExercisesB2',
+      data:'frenchb2',
+      link2: 'FrenchExerciseB2',
+      subject: 'FrenchB2'
+    },
+    {
       type: 'frenchc1',
       heading: 'French Advanced (C1)',
       text: 'Master the language of art, culture, and diplomacy with our French exercise.',

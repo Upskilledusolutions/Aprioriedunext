@@ -13,7 +13,11 @@ const ReferralForm = () => {
     course: '',
     language: '',
     level: '',
-    amount: '',
+    scholarship: '',
+    rate: '',
+    quantity: '',
+    subtotal: '',
+    total: '',
     type: 'Free Version'
   });
 
@@ -36,7 +40,7 @@ const ReferralForm = () => {
     if (!formData.duration) newErrors.duration = 'Duration is required';
     if (!formData.course) newErrors.course = 'Please select a course';
     if (!formData.language) newErrors.language = 'Please select a language';
-    if (!formData.level) newErrors.level = 'Please select a level';
+    // Additional validations for new fields can be added if required
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -129,31 +133,45 @@ const ReferralForm = () => {
       doc.line(10, 130, 200, 130);
       doc.setFontSize(10);
 
-      const courseLabels = ['Language', 'Level', 'Duration', 'Scholarship'];
-      // Use duration from state; scholarship left empty for now
-      const courseValues = [formData.language, formData.level, formData.duration, ''];
+      // Build an array of course details conditionally
+      const courseDetails = [
+        { label: 'Language', value: formData.language },
+        // Conditionally include Level if provided
+        ...(formData.level ? [{ label: 'Level', value: formData.level }] : []),
+        { label: 'Duration', value: formData.duration },
+        { label: 'Scholarship', value: formData.scholarship }
+      ];
+
       const courseStartY = 137;
       const courseLineHeight = 8;
       const boxWidth = 50;
       const boxHeight = 6;
 
-      courseLabels.forEach((label, index) => {
+      courseDetails.forEach((item, index) => {
         const yPos = courseStartY + index * courseLineHeight;
         doc.setFont('Helvetica', 'bold');
-        doc.text(`${label}:`, labelX, yPos);
-        // Draw a border (if desired)
+        doc.text(`${item.label}:`, labelX, yPos);
+        // Draw a border if desired
         doc.rect(valueX, yPos - 4, boxWidth, boxHeight);
         doc.setFont('Helvetica', 'normal');
-        doc.text(`${courseValues[index]}`, valueX + 2, yPos);
+        doc.text(`${item.value}`, valueX + 2, yPos);
       });
 
-      // Table of Products (example)
-      const columns = ['ID', 'Course', 'Rate', 'Qty', 'SubTotal', 'Total'];
+      // Table of Products
+      const columns = ['ID', 'Course', 'Rate', 'Qty', 'Scholarship', 'SubTotal', 'Total'];
       const products = [
-        { id: '1', product: formData.course, rate: formData.amount, qty: '1', subtotal: formData.amount, total: formData.amount },
+        { 
+          id: '1', 
+          product: formData.course, 
+          rate: formData.rate, 
+          qty: formData.quantity, 
+          scholarship: formData.scholarship, 
+          subtotal: formData.subtotal, 
+          total: formData.total 
+        },
       ];
       const data = products.map(item => [
-        item.id, item.product, item.rate, item.qty, item.subtotal, item.total
+        item.id, item.product, item.rate, item.qty, item.scholarship, item.subtotal, item.total
       ]);
 
       const headerColor = [0, 51, 102];
@@ -166,12 +184,13 @@ const ReferralForm = () => {
         theme: 'grid',
         margin: { horizontal: 10 },
         columnStyles: {
-          0: { cellWidth: 20 },
-          1: { cellWidth: 50 },
-          2: { cellWidth: 30 },
-          3: { cellWidth: 20 },
-          4: { cellWidth: 30 },
-          5: { cellWidth: 30 },
+          0: { cellWidth: 15 },  // ID
+          1: { cellWidth: 50 },  // Course
+          2: { cellWidth: 20 },  // Rate
+          3: { cellWidth: 15 },  // Qty
+          4: { cellWidth: 30 },  // Scholarship
+          5: { cellWidth: 25 },  // SubTotal
+          6: { cellWidth: 25 }   // Total
         },
         headStyles: {
           fillColor: headerColor,
@@ -183,13 +202,11 @@ const ReferralForm = () => {
         },
       });
 
-      // Totals Calculation
+      // Totals Calculation (if needed, you may recalc subtotal/total based on rate & quantity)
       let currentY = doc.autoTable.previous.finalY + 10;
-      const subtotal = products.reduce((acc, item) => acc + Number(item.subtotal), 0);
-      const total = products.reduce((acc, item) => acc + Number(item.total), 0);
-      doc.text(`Sub Total: Rs ${subtotal}`, 130, currentY);
+      doc.text(`Sub Total: Rs ${formData.subtotal}`, 130, currentY);
       currentY += 5;
-      doc.text(`Grand Total: Rs ${total}`, 130, currentY);
+      doc.text(`Grand Total: Rs ${formData.total}`, 130, currentY);
 
       // Save the PDF
       doc.save('Payment_Receipt.pdf');
@@ -203,7 +220,11 @@ const ReferralForm = () => {
         course: '',
         language: '',
         level: '',
-        amount: '',
+        scholarship: '',
+        rate: '',
+        quantity: '',
+        subtotal: '',
+        total: '',
         type: 'Free Version'
       });
       setErrors({});
@@ -289,7 +310,7 @@ const ReferralForm = () => {
           <div className={styles.row}>
             <div className={styles.formGroup}>
               <label className={styles.label} htmlFor="language">
-                Language <span className={styles.span}>*</span>
+                Course <span className={styles.span}>*</span>
               </label>
               <select
                 id="language"
@@ -299,10 +320,18 @@ const ReferralForm = () => {
                 onChange={handleChange}
                 className={errors.language ? `${styles.errorInput} ${styles.input}` : styles.input}
               >
-                <option value="">Select a language</option>
+                <option value="">Select a Course</option>
+                <option value="English">English</option>
+                <option value="English Aptitude">English Aptitude</option>
                 <option value="French">French</option>
                 <option value="Spanish">Spanish</option>
                 <option value="German">German</option>
+                <option value="Math Aptitude">Math Aptitude</option>
+                <option value="Reading CLub">Reading CLub</option>
+                <option value="Writing CLub">Writing CLub</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Contest and Event">Contest and Event</option>
+                <option value="Olympiad">Olympiad</option>
               </select>
               {errors.language && <span className={styles.errorText}>{errors.language}</span>}
             </div>
@@ -314,10 +343,9 @@ const ReferralForm = () => {
               <select
                 id="level"
                 name="level"
-                required
                 value={formData.level}
                 onChange={handleChange}
-                className={errors.level ? `${styles.errorInput} ${styles.input}` : styles.input}
+                className={styles.input}
               >
                 <option value="">Select a level</option>
                 <option value="A1">A1</option>
@@ -327,14 +355,13 @@ const ReferralForm = () => {
                 <option value="C1">C1</option>
                 <option value="C2">C2</option>
               </select>
-              {errors.level && <span className={styles.errorText}>{errors.level}</span>}
             </div>
           </div>
 
           <div className={styles.row}>
             <div className={styles.formGroup}>
               <label className={styles.label} htmlFor="course">
-                Course <span className={styles.span}>*</span>
+                Category <span className={styles.span}>*</span>
               </label>
               <select
                 id="course"
@@ -344,25 +371,86 @@ const ReferralForm = () => {
                 onChange={handleChange}
                 className={errors.course ? `${styles.errorInput} ${styles.input}` : styles.input}
               >
-                <option value="">Select a course</option>
+                <option value="">Select a Category</option>
                 <option value="Self study package">Self study package</option>
                 <option value="Online Classes for Adults">Online Classes for Adults</option>
                 <option value="Online Classes for Children">Online Classes for Children</option>
                 <option value="Self study package + Doubt sessions">Self study package + Doubt sessions</option>
-                <option value="Workshop">Workshop</option>
-                <option value="Contests and Events">Contests and Events</option>
+                <option value="Single workshop">Single workshop</option>
+                <option value="Monthly Package">Monthly Package</option>
               </select>
               {errors.course && <span className={styles.errorText}>{errors.course}</span>}
             </div>
-
+            
             <div className={styles.formGroup}>
-              <label className={styles.label}>Amount <span className={styles.span}>*</span></label>
+              <label className={styles.label} htmlFor="scholarship">
+                Scholarship
+              </label>
               <input
                 type="text"
-                id="amount"
-                name="amount"
-                required
-                value={formData.amount}
+                id="scholarship"
+                name="scholarship"
+                value={formData.scholarship}
+                onChange={handleChange}
+                className={styles.input}
+              />
+            </div>
+          </div>
+          
+          <div className={styles.row}>
+            <div className={styles.formGroup}>
+              <label className={styles.label} htmlFor="rate">
+                Rate
+              </label>
+              <input
+                type="text"
+                id="rate"
+                name="rate"
+                value={formData.rate}
+                onChange={handleChange}
+                className={styles.input}
+              />
+            </div>
+
+            <div className={styles.formGroup}>
+              <label className={styles.label} htmlFor="quantity">
+                Quantity
+              </label>
+              <input
+                type="text"
+                id="quantity"
+                name="quantity"
+                value={formData.quantity}
+                onChange={handleChange}
+                className={styles.input}
+              />
+            </div>
+          </div>
+          
+          <div className={styles.row}>
+            <div className={styles.formGroup}>
+              <label className={styles.label} htmlFor="subtotal">
+                Subtotal Amount
+              </label>
+              <input
+                type="text"
+                id="subtotal"
+                name="subtotal"
+                value={formData.subtotal}
+                onChange={handleChange}
+                className={styles.input}
+              />
+            </div>
+
+            <div className={styles.formGroup}>
+              <label className={styles.label} htmlFor="total">
+                Total Amount
+              </label>
+              <input
+                type="text"
+                id="total"
+                name="total"
+                value={formData.total}
                 onChange={handleChange}
                 className={styles.input}
               />

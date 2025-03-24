@@ -48,6 +48,14 @@ export const cards = [
       link2: 'FrenchlessonB1'
     },
     {
+      type: 'frenchb2',
+      heading: 'French Intermediate (B2)',
+      text: 'Master the language of art, culture, and diplomacy with our French lessons.',
+      link: 'FrenchlessonsB2',
+      data: 'frenchb2',
+      link2: 'FrenchlessonB2'
+    },
+    {
       type: 'frenchc1',
       heading: 'French Advanced (C1)',
       text: 'Master the language of art, culture, and diplomacy with our French lessons.',

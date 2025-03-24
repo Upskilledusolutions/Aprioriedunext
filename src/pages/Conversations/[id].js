@@ -25,13 +25,7 @@ export default function FrenchQuizes() {
       import(`../../Data/Conversationdata/${somedata.data}`)
       // .then((module) => setconvoData(module.youdata))
         .then((module) => {
-          let data = module.youdata;
-          
-          // Check condition and slice convoData
-          if (somedata?.data === 'frenchb1' && (user?.type === 'frenchb1' || user?.next?.includes('frenchb1'))) {
-            data = data.slice(0, 15); // Slice to only include first 5 entries
-          }
-          
+          let data = module.youdata;          
           setconvoData(data); // Set the sliced or full data
         })
         .catch((error) => console.error('Error loading lesson data:', error));

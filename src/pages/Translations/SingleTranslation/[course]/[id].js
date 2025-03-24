@@ -39,7 +39,7 @@ export default function Index() {
 
   return (
     <div>
-        <TranslationComponent frenchText={lesson[id-1].french} englishText={lesson[id-1].english}/>
+        <TranslationComponent heading={somedata.heading} frenchText={lesson[id-1].french} englishText={lesson[id-1].english}/>
     </div>
   );
 }

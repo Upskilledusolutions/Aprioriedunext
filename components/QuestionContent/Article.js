@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import emailjs from '@emailjs/browser';
 import styles from "../../src/styles/Article.module.css";
 import { useSelector } from "react-redux";
+import Image from "next/image";
 
 const ArticleWriting = ({ lesson, name }) => {
   const { user } = useSelector((state) => state.auth); // Get the user from Redux
@@ -34,7 +35,10 @@ const ArticleWriting = ({ lesson, name }) => {
     <div>
       <div className={styles.card}>
         {/* Render the lesson with formatting */}
-        <div className={styles.questiontop}>        
+        <div className={styles.questiontop}>     
+          <div>
+            <Image src={'/Article/1.jpg'} width={400} height={400} className={styles.img} alt="image"/>
+          </div>   
           <div dangerouslySetInnerHTML={{ __html: lesson }} className={styles.lessonContent} />
         </div>
 

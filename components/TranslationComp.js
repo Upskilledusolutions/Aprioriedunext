@@ -1,8 +1,9 @@
 import { useState } from "react";
+import { FaSyncAlt, FaCopy, FaTrashAlt, FaExchangeAlt } from "react-icons/fa";
 import styles from "../src/styles/TranslationComponent.module.css";
-import TranslationModal from './TranslationModal'
+import TranslationModal from "./TranslationModal";
 
-export default function TranslationComponent({frenchText, englishText}) {
+export default function TranslationComponent({ heading, frenchText, englishText }) {
   const [inputText, setInputText] = useState("");
   const [translatedText, setTranslatedText] = useState("");
   const [isFrenchToEnglish, setIsFrenchToEnglish] = useState(true);
@@ -15,8 +16,6 @@ export default function TranslationComponent({frenchText, englishText}) {
     if (inputText.trim() === "") return;
 
     setLoading(true);
-
-    // Capture current translation direction and the user's translation
     const currentDirection = isFrenchToEnglish;
     const studentTranslation = inputText;
     const userMessage = { role: "user", content: studentTranslation };
@@ -26,9 +25,7 @@ export default function TranslationComponent({frenchText, englishText}) {
     try {
       const response = await fetch("/api/openai", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           model: "gpt-4o-mini",
           messages: [
@@ -43,7 +40,6 @@ export default function TranslationComponent({frenchText, englishText}) {
           ],
         }),
       });
-
       const data = await response.json();
       const botMessage = {
         role: "assistant",
@@ -51,8 +47,6 @@ export default function TranslationComponent({frenchText, englishText}) {
       };
 
       setMessages((prev) => [...prev, botMessage]);
-
-      // Set and show the modal with the AI response
       setAiResponse(botMessage.content);
       setShowModal(true);
     } catch (error) {
@@ -66,17 +60,37 @@ export default function TranslationComponent({frenchText, englishText}) {
       setShowModal(true);
     }
 
-    // Save translation and toggle the direction for the next round
     setTranslatedText(studentTranslation);
     setInputText("");
     setIsFrenchToEnglish(!currentDirection);
     setLoading(false);
   };
 
+  const handleClear = () => {
+    setInputText("");
+  };
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(aiResponse);
+  };
+
+  const swapLanguages = () => {
+    setIsFrenchToEnglish((prev) => !prev);
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.card}>
-        <div className={styles.headingtext}>Translations</div>
+        <div className={styles.header}>
+          <h2 className={styles.title}>{heading}</h2>
+          <button className={styles.swapBtn} onClick={swapLanguages}>
+          <h2 className={styles.rightside}>
+            {isFrenchToEnglish ? "French" : "English"} 
+              <FaExchangeAlt className={styles.swapIcon} /> 
+            {isFrenchToEnglish ? "English" : "French"}
+          </h2>
+          </button>
+        </div>
         <p className={styles.initialText}>
           {isFrenchToEnglish ? frenchText : englishText}
         </p>
@@ -86,20 +100,28 @@ export default function TranslationComponent({frenchText, englishText}) {
           onChange={(e) => setInputText(e.target.value)}
           placeholder={
             isFrenchToEnglish
-              ? "Translate to English..."
-              : "Traduisez en français..."
+              ? "Please translate the above text to english..."
+              : "Please translate the above text to French..."
           }
         ></textarea>
-        <button
-          className={styles.button}
-          onClick={handleSubmit}
-          disabled={loading}
-        >
-          {loading ? "Loading..." : "Submit"}
-        </button>
+        <div className={styles.buttonGroup}>
+          <button
+            className={styles.button}
+            onClick={handleSubmit}
+            disabled={loading}
+          >
+            {loading ? "Loading..." : "Submit"}
+          </button>
+          <button className={styles.buttonAlt} onClick={handleClear}>
+            <FaTrashAlt className={styles.icon} /> Clear
+          </button>
+          <button className={styles.buttonAlt} onClick={handleCopy}>
+            <FaCopy className={styles.icon} /> Copy Response
+          </button>
+        </div>
       </div>
 
-      {/* The modal pop-up displaying the AI response */}
+      {/* Modal displaying the AI response */}
       <TranslationModal
         isOpen={showModal}
         onClose={() => setShowModal(false)}
