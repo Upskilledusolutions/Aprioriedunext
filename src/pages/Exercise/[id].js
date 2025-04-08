@@ -7,17 +7,35 @@ import Link from 'next/link';
 import { FaLock } from 'react-icons/fa'; // Import a lock icon
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
 import { useRouter } from 'next/router';
+import { Getperformance } from '@/helperfunction/Getperformance';
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
   const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
   const [isClient, setIsClient] = useState(false);
   const [exerciseData, setexerciseData] = useState(null)
+  const [userData, setUserData] = useState(null);
   const router = useRouter();
   const { id } = router.query; // Get the dynamic `id` from the route
-  console.log(user)
 
   const somedata = cards.find((data) => data.link === id);
+
+  useEffect(() => {
+    const fetchUserData = async () => {
+      try {
+        const data = await Getperformance(user.userId);
+        setUserData(data);
+      } catch (err) {
+        console.error(err);
+        setError("Failed to load user data");
+      }
+    };
+
+    fetchUserData();
+  }, [user.userId]);
+
+  let newcompletedexercise = userData?.completedExercises.filter(data => data.language == somedata.subject)
+  console.log("new", newcompletedexercise)
 
   useEffect(() => {
     setIsClient(true); // Set to true when client-side is ready
@@ -57,10 +75,16 @@ export default function FrenchQuizes() {
 
           <div className={styles.cards1}>
             {exerciseData?.map((data, index) => {
-             const completedData = completedQuizzes1.find(quiz => quiz.exercise.toString() === data.quiz);
+             const completedData = newcompletedexercise?.filter(quiz => quiz.exercise.toString() === data.quiz);
              // Determine if all required question types are completed
-             const isCompleted = completedData && completedData.questionTypes.length > 2
-             console.log(isCompleted)
+             const isCompleted = completedData && completedData.length > 2
+
+                          // Get scores for each question type
+             const mcqScore = completedData?.find(type => type.questionTypes == "MCQs")?.score || 'N/A';
+             const fillScore = completedData?.find(type => type.questionTypes == "FillInTheBlanks")?.score || 'N/A';
+             const matchScore = completedData?.find(type => type.questionTypes == "MatchTheFollowing")?.score || 'N/A';
+
+             console.log(completedData)
              const completedStyles = isCompleted ? styles.completed : ''; // Add completed styles
               return (
                 <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
@@ -72,7 +96,7 @@ export default function FrenchQuizes() {
                       {[...Array(3)].map((_, index) => (
                         <div
                           key={index}
-                          className={`${styles.box} ${index < completedData?.questionTypes.length ? styles.filled : ""}`}
+                          className={`${styles.box} ${index < completedData?.length ? styles.filled : ""}`}
                         />
                       ))}
                       </div>
@@ -81,6 +105,9 @@ export default function FrenchQuizes() {
                       <div className={styles.name}>{data.name}</div>
                       <div className={styles.level}>Level: {data.level}</div>
                       <div className={styles.topic}>Topic: {data.topic}</div>
+                      <div className={styles.score}>Multiple Choice Questions Scrore: {mcqScore}</div>
+                      <div className={styles.score}>Fill in the Blanks Scrore: {fillScore}</div>
+                      <div className={styles.score}>Match the Following Scrore: {matchScore}</div>
                     </div>
                   </Link>: <div className={styles.locked2}>
                 <div className={styles.lockOverlay3}>

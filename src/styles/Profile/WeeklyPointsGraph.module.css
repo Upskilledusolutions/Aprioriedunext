@@ -13,3 +13,8 @@
   position: relative;
   height: 80%;
 }
+@media screen and (max-width: 720px){
+  .chartContainer {
+    width: 84vw;
+  }
+}

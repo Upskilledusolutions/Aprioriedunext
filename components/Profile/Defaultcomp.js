@@ -6,20 +6,20 @@ import StatCard from './StatCard';
 import { FaMedal, FaTrophy, FaCrown, FaChartLine, FaStar } from 'react-icons/fa';
 import styles from '../../src/styles/Profile/ProfilePage.module.css';
 
-const Defaultcomp = ({lesson, sections}) => {
+const Defaultcomp = ({lesson, sections, filteredObject, group, userData, userRank, streak, thisWeeksScores, weeklyBest, weeklyAverage, monthlyBest, monthlyAverage, totalScores}) => {
   return (
     <div className={styles.page}>
       <div className={styles.topSection}>
         <div className={styles.left}>
-          <SemicircleProgress progress={75} lesson={lesson} sections={sections}/>
+          <SemicircleProgress progress={75} lesson={lesson} sections={sections} filteredObject={filteredObject}/>
         </div>
         <div className={styles.right}>
-          <ExerciseProgress lesson={lesson} sections={sections}/>
+          <ExerciseProgress lesson={lesson} sections={sections} filteredObject={filteredObject} group={group}/>
         </div>
       </div>
       <div className={styles.bottomSection}>
         <div className={styles.graphContainer}>
-          <WeeklyPointsGraph />
+          <WeeklyPointsGraph thisWeeksScores={thisWeeksScores}/>
           <div className={styles.belowcontainer}>
             <StatCard 
               title="Best Score" 
@@ -28,9 +28,9 @@ const Defaultcomp = ({lesson, sections}) => {
               Icon={FaCrown} 
               iconColor="#f44336"  // Red icon container
               weeklyLabel="Weekly Best"
-              weeklyValue="1250"
+              weeklyValue={weeklyBest}
               monthlyLabel="Monthly Best"
-              monthlyValue="1350"
+              monthlyValue={monthlyBest}
             />
             <StatCard 
               title="Avg Score" 
@@ -39,31 +39,31 @@ const Defaultcomp = ({lesson, sections}) => {
               Icon={FaChartLine} 
               iconColor="#3f51b5"  // Indigo icon container
               weeklyLabel="Weekly Avg"
-              weeklyValue="1100"
+              weeklyValue={weeklyAverage}
               monthlyLabel="Monthly Avg"
-              monthlyValue="1200"
+              monthlyValue={monthlyAverage}
             />
           </div>
         </div>
         <div className={styles.statsContainer}>
           <StatCard 
             title="Total Points" 
-            value="1250" 
+            value={userData?.totalScore}
             description="Overall score" 
             Icon={FaStar} 
             iconColor="#2196f3"
           />
           <StatCard 
             title="Rank" 
-            value="12" 
+            value={userRank ? userRank : totalScores.length+1} 
             description="Your current rank" 
             Icon={FaMedal} 
             iconColor="#ff9800"
           />
           <StatCard 
             title="Achievements" 
-            value="15" 
-            description="Badges earned" 
+            value={streak} 
+            description="Days streak" 
             Icon={FaTrophy} 
             iconColor="#9c27b0"  // Purple icon container
           />

@@ -5,6 +5,7 @@ import { addFinishedQuiz, updateCompletedQuizzes } from "@/Store";
 import Modal from "react-modal";
 import { useRouter } from 'next/router';
 import { addSingleFinishedQuizToServer } from "../../src/helperfunction/Finishedquiz";
+import { sendQuizdata } from "../../src/helperfunction/SendQuizdata";
 
 const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) => {
   const [selectedAnswers, setSelectedAnswers] = useState([]);
@@ -12,6 +13,7 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
   const [currentQuestions, setCurrentQuestions] = useState([]);
   const [isEndModalOpen, setIsEndModalOpen] = useState(false);
   const [isStartModalOpen, setIsStartModalOpen] = useState(true);
+  const [isReportModalOpen, setIsReportModalOpen] = useState(false);
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(null); // Timer starts as null
   const audioRef = useRef(null);
@@ -68,24 +70,31 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
     }
   };
 
-      const handleAddQuiz = async ({ questionType, quizId, subject }) => {
-        // Update Redux state and localStorage
-        dispatch(addFinishedQuiz({questionType, exercise:quizId, language:subject}));
-        dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
-    
-        // Send the new finished quiz to the backend as a single object
-        try {
-          const result = await addSingleFinishedQuizToServer({
-            userId: user.userId,
-            questionType,
-            exercise: quizId,
-            language: subject,
-          });
-          console.log("Finished quiz updated on server:", result);
-        } catch (error) {
-          console.error("Error updating finished quiz on server:", error);
-        }
-      };
+  const handleAddQuiz = async ({ questionType, quizId, subject, scorenow }) => {
+    // Update Redux state and localStorage
+    dispatch(addFinishedQuiz({questionType, exercise:quizId, language:subject}));
+    dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
+
+    // Send the new finished quiz to the backend as a single object
+    try {
+      const result = await addSingleFinishedQuizToServer({
+        userId: user.userId,
+        questionType,
+        exercise: quizId,
+        language: subject,
+      });
+      const add = await sendQuizdata({
+        userId: user.userId,
+        questionTypes: questionType,
+        exercise: quizId,
+        language: subject,
+        points: scorenow*10,
+      });
+      console.log("Finished quiz updated on server:", result, add);
+    } catch (error) {
+      console.error("Error updating finished quiz on server:", error);
+    }
+  };
 
   const handleSubmit = () => {
     if (audioRef.current) {
@@ -108,7 +117,7 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
     }, 0);
     setScore(totalScore);
     setIsEndModalOpen(true);
-    handleAddQuiz({questionType: "MCQs", quizId: id, subject})
+    handleAddQuiz({questionType: "MCQs", quizId: id, subject, scorenow: totalScore});
   };
 
   const startAssignment = async () => {
@@ -127,6 +136,7 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
   const restartQuiz = () => {
     setSelectedAnswers([]);
     setIsEndModalOpen(false);
+    setIsReportModalOpen(false);
     setScore(0);
     setCurrentAudioIndex(0);
     setTimeLeft(null);
@@ -135,7 +145,48 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
     if (audioRef.current) {
         audioRef.current.currentTime = 0; // Reset audio to the beginning
         audioRef.current.pause(); // Pause it initially
+    }
+  };
+
+  // Open the report modal on top of the current modal
+  const openReportModal = () => {
+    setIsReportModalOpen(true);
+  };
+
+  // Helper function to render report rows
+  const renderReportRows = () => {
+    return questionsPerAudio.flat().map((question, index) => {
+      // Calculate which audio this question belongs to
+      let questionCounter = 0;
+      let audioIndex = 0;
+      
+      for (let i = 0; i < questionsPerAudio.length; i++) {
+        if (index < questionCounter + questionsPerAudio[i].length) {
+          audioIndex = i;
+          break;
+        }
+        questionCounter += questionsPerAudio[i].length;
       }
+      
+      const questionIndexInAudio = index - questionCounter;
+      const audioQuestions = questionsPerAudio[audioIndex];
+      const questionData = audioQuestions[questionIndexInAudio];
+      
+      // If no answer selected, show "No answer"
+      const selectedAnswer = selectedAnswers[questionIndexInAudio];
+      const selectedText = selectedAnswer !== null && audioIndex === currentAudioIndex
+        ? questionData.choices[selectedAnswer]
+        : "No answer";
+      const correctText = questionData.choices[questionData.correctAnswer];
+      
+      return (
+        <tr key={index}>
+          <td>{index + 1}</td>
+          <td>{selectedText}</td>
+          <td>{correctText}</td>
+        </tr>
+      );
+    });
   };
 
   return (
@@ -215,9 +266,38 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
           <p>
             You scored <b>{score}</b> out of <b>{questionsPerAudio.flat().length}</b>!
           </p>
-          <button className={styles.closeButton} onClick={restartQuiz}>
-            Restart
-          </button>
+          <div className={styles.btncont}>
+            <button className={styles.closeButton} onClick={restartQuiz}>
+              Restart
+            </button>
+            <button className={styles.closeButton} onClick={openReportModal}>
+              Show Report
+            </button>
+          </div>
+        </div>
+      </Modal>
+
+      {/* Report Modal */}
+      <Modal
+        isOpen={isReportModalOpen}
+        onRequestClose={() => setIsReportModalOpen(false)}
+        className={styles.reportModal}
+        overlayClassName={styles.reportOverlay}
+        ariaHideApp={false}
+      >
+        <div className={styles.reportContent}>
+          <h2>Quiz Report</h2>
+          <table className={styles.reportTable}>
+            <thead>
+              <tr>
+                <th>S.No</th>
+                <th>Selected Answer</th>
+                <th>Correct Answer</th>
+              </tr>
+            </thead>
+            <tbody>{renderReportRows()}</tbody>
+          </table>
+          <button className={styles.closeButton} onClick={() => setIsReportModalOpen(false)}>Close Report</button>
         </div>
       </Modal>
     </div>

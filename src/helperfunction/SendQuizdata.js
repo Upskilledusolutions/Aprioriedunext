@@ -1,6 +1,7 @@
 // src/helperfunction/Finishedquiz.js
 export const sendQuizdata = async ({ userId, questionTypes, exercise, language, points }) => {
     // Ensure questionTypes is always an array
+    const URL = process.env.NEXT_PUBLIC_BACKENDURL
     const data = {
       userId,
       points: Number(points),
@@ -10,7 +11,8 @@ export const sendQuizdata = async ({ userId, questionTypes, exercise, language, 
     };
   
     try {
-      const response = await fetch('http://localhost:5000/api/updateScore', {
+      console.log("Hi")
+      const response = await fetch(`${URL}/api/updateScore`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

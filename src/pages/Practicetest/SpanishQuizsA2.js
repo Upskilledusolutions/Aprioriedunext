@@ -1,15 +1,36 @@
-import Head from 'next/head'
-import React from 'react'
-import styles from '../../styles/quiz/quizpage.module.css'
-import Image from 'next/image'
+import Head from 'next/head';
+import React, { useEffect, useState } from 'react';
+import styles from '../../styles/quiz/quizpage.module.css';
+import Image from 'next/image';
 import { quiz } from "../../Data/Practicetests/spanisha2"; // Importing the quiz data
 import Link from 'next/link';
 import { FaLock } from 'react-icons/fa'; // Import a lock icon
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
+import { Getperformance } from '@/helperfunction/Getperformance';
 
 export default function FrenchQuizes() {
+  const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
+  const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
+  const [userData, setUserData] = useState(null);
+  const subject = "SpanishA2PT"
+  let completedQuizzes1 = completedQuizzes.filter(data=> data.language == subject)
 
-  const { isAuthenticated } = useSelector((state) => state.auth); // Access authentication status
+  useEffect(() => {
+    const fetchUserData = async () => {
+      try {
+        const data = await Getperformance(user.userId);
+        setUserData(data);
+      } catch (err) {
+        console.error(err);
+        setError("Failed to load user data");
+      }
+    };
+
+    fetchUserData();
+  }, [user.userId]);
+
+  let newcompletedexercise = userData?.completedExercises.filter(data => data.language == subject)
+  console.log("new", newcompletedexercise)
 
   return (
     <>
@@ -21,14 +42,18 @@ export default function FrenchQuizes() {
       </Head>
       <main>
         <div className={styles.container}>
-          <div className={styles.headcont}><div className={styles.mainheading}>Spanish A2 Practice Test</div></div>
+          <div className={styles.headcont}>
+            <div className={styles.mainheading}>Spanish A2 Practice Test</div>
+          </div>
 
           <div className={styles.cards1}>
             {quiz.map((data, index) => {
+              const completedData = newcompletedexercise?.filter(quiz => quiz.exercise.toString() === data.quiz);
+              const completedStyles = completedData?.length > 0 ? styles.completed : ''; // Add completed styles
               // Determine if the quiz should be locked
               const isLocked = !isAuthenticated && index > 1;
               return (
-                <div key={data.quiz} className={`${styles.card1} ${isLocked ? styles.locked : ''}`}>
+                <div key={data.quiz} className={`${styles.card1} ${completedStyles} ${isLocked ? styles.locked : ''}`}>
                   <Link href={`SpanishQuizA2/${data.quiz}`} className={styles.link}>
                     <div className={styles.imgcont}>
                       <Image className={styles.img5} src={'/assests/1.png'} width={500} height={500} alt="img" />
@@ -37,6 +62,7 @@ export default function FrenchQuizes() {
                       <div className={styles.name}>{data.name}</div>
                       <div className={styles.level}>Level: {data.level}</div>
                       <div className={styles.topic}>Topic: {data.topic}</div>
+                      <div className={styles.score}>Score: {completedData && completedData.length > 0 ? completedData[0].score : "N/A"}</div>
                     </div>
                   </Link>
                   {isLocked && (
@@ -51,5 +77,5 @@ export default function FrenchQuizes() {
         </div>
       </main>
     </>
-  )
+  );
 }

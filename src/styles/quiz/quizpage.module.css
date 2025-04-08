@@ -8,6 +8,17 @@
   gap: 5px;
   margin-bottom: 20px;
 }
+.score{
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: 600;
+  width: 93%;
+  border-radius: 10px;
+  box-shadow: rgba(106, 176, 0, 0.2) 3px 3px 5px;
+  padding: 8px 10px;
+  margin-top: 20px;
+  background-color: white;
+}
 .loader{
   position: fixed;
   top: 0;

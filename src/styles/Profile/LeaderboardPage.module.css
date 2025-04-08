@@ -10,5 +10,17 @@
   }
   .rightside{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  @media screen and (max-width: 720px){
+    .topSection{
+      flex-direction: column;
+      width: 100%;
+    }
+    .page{
+      padding: 15px 2vw 0;
+    }
   }
   

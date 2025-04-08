@@ -1,17 +1,11 @@
 .big {
-  border: 1px solid rgb(232, 232, 232);
-  box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 8.6px;
   display: flex;
-  border-radius: 20px;
   padding: 30px 10px;
   width: 30vw;
   gap: 2vw;
 }
 
 .new {
-  border: 1px solid rgb(232, 232, 232);
-  box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 8.6px;
-  border-radius: 20px;
   padding: 30px 10px;
   margin-top: 30px;
 }
@@ -36,6 +30,10 @@
 @media (max-width: 600px) {
   .container {
     width: 80vw;
+  }
+  .big{
+    flex-direction: column;
+    width: 100%;
   }
 }
 

@@ -13,9 +13,8 @@
  */
 export async function addSingleFinishedQuizToServer({ userId, questionType, exercise, language }) {
     const URL = process.env.NEXT_PUBLIC_BACKENDURL; // Ensure this is set in your environment
-  console.log("first")
     try {
-      const response = await fetch(`http://localhost:5000/api/completed-quizzes`, {
+      const response = await fetch(`${URL}/api/completed-quizzes`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -28,7 +27,7 @@ export async function addSingleFinishedQuizToServer({ userId, questionType, exer
       });
   
       const data = await response.json();
-      console.log("Success")
+      console.log(data)
       if (!response.ok) {
         throw new Error(data.message || "Failed to update finished quiz");
       }

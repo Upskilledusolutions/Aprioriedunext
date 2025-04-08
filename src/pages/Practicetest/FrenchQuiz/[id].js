@@ -9,13 +9,13 @@ import { RxCross1 } from "react-icons/rx";
 import Head from "next/head";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // For toggling icons
 import { useDispatch, useSelector } from "react-redux";
-import { unlockExercise, addFinishedQuiz } from "@/Store";
+import { unlockExercise, addFinishedQuiz, updateCompletedQuizzes } from "@/Store";
 import MCQComponent from '../../../../components/QuestionContent/MCQ'
 import FillInTheBlanksComponent from '../../../../components/QuestionContent/FillInTheBlanks'
 import JumbledWordsComponent from '../../../../components/QuestionContent/ReorderParagraph'
-import ClickCorrectWordsComponent from '../../../../components/QuestionContent/HighlightIncorrectWords'
-import DragAndDropComponent from '../../../../components/QuestionContent/SelectMissingWords'
 import MatchTheFollowingGame from "../../../../components/QuestionContent/MatchtheFollowing";
+import { addSingleFinishedQuizToServer } from "@/helperfunction/Finishedquiz";
+import { sendQuizdata } from "@/helperfunction/SendQuizdata";
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -30,6 +30,7 @@ const Quiz = () => {
  const [isSubmitted, setIsSubmitted] = useState(false);
  const dispatch = useDispatch();
  const subject = 'FrenchPT';
+ const { user } = useSelector((state) => state.auth);
 
   const router = useRouter();
   const { id } = router.query; // Get the dynamic route parameter
@@ -42,6 +43,35 @@ const Quiz = () => {
 
   const reloadPage = () => {
     router.reload();
+  };
+
+  const handleAddQuiz = async ({ questionType, quizId, subject, scorenow }) => {
+    // Update Redux state and localStorage
+    dispatch(addFinishedQuiz({ questionType, exercise: quizId, language: subject }));
+    dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
+
+    // Send the new finished quiz to the backend as a single object
+    try {
+      const result = await addSingleFinishedQuizToServer({
+        userId: user.userId,
+        questionType,
+        exercise: quizId,
+        language: subject,
+      });
+      
+      // Add this code to send quiz data with points
+      const add = await sendQuizdata({
+        userId: user.userId,
+        questionTypes: questionType,
+        exercise: quizId,
+        language: subject,
+        points: scorenow, // Calculate points based on correct answers
+      });
+      
+      console.log("Finished quiz updated on server:", result, add);
+    } catch (error) {
+      console.error("Error updating finished quiz on server:", error);
+    }
   };
 
   const onClickNext = () => {
@@ -66,6 +96,7 @@ const Quiz = () => {
       setSelectedOption(null);
       setSelectedAnswer("");
       dispatch(addFinishedQuiz({questionType:"MCQs",exercise:quizId,language:subject}));
+      handleAddQuiz({questionType:"MCQs", quizId, subject, scorenow: (result.correctAnswers + 1) * 10})
     }
   };
 

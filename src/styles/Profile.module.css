@@ -51,6 +51,7 @@
 .leftlist .user{
   list-style: none;
   font-size: 12px;
+  font-weight: 600;
   padding: 20px 11px;
   border-bottom: 1px solid rgb(227, 80, 61);
 }
@@ -155,4 +156,24 @@ border-bottom: 1px solid white;
     border-radius: 10px;
     padding: 10px 1vw;
     box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 8.6px;
+  }
+  @media screen and (max-width: 720px){
+    .container{
+      flex-direction: column;
+    }
+    .heading{
+      font-size: 18px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .heading2{
+      padding-left: 2vw;
+    }
+    .flex1{
+      padding: 10px 5vw;
+    }
+    .score span{
+      font-size: 14px;
+    }
   }

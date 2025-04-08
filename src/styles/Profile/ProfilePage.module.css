@@ -13,6 +13,9 @@
 
 .left, 
 .right {
+  border: 1px solid rgb(232, 232, 232);
+  box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 8.6px;
+  border-radius: 20px;
   flex: 1;
   margin: 10px;
 }
@@ -41,4 +44,23 @@ grid-template-columns: 1fr;
   display: flex;
   gap: 20px;
   align-items: stretch;
+}
+
+@media screen and (max-width: 720px){
+  .topSection {
+    flex-direction: column;
+    width: 100%;
+  }
+  .belowcontainer {
+    flex-direction: column;
+  }
+  .page{
+    padding: 10px 2vw;
+  }
+  .left{
+    margin: 0;
+  }
+  .right{
+    margin: 0;
+  }
 }

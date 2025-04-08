@@ -65,20 +65,21 @@ export default function Left({ user, onLanguageSelect }) {
       {/* Reusable DropdownSection Component */}
       <DropdownSection
         sectionName="Total"
-        text="Total Progress"
+        text="Progress Report"
         language={language}
         isActive={activeSection === 'Total' && isOpen}
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
       />
-        <DropdownSection
+      <div className={styles.user} onClick={() => onLanguageSelect("Leader")}>Leadersboard</div>
+        {/* <DropdownSection
         sectionName="Leader"
         text="Leadersboard"
         language={language}
         isActive={activeSection === 'Leader' && isOpen}
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
-      />
+      /> */}
       {/* <DropdownSection
         sectionName="Exercises"
         text="Exercises"

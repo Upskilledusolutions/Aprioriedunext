@@ -13,6 +13,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { unlockExercise, addFinishedQuiz, updateCompletedQuizzes } from "@/Store";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { addSingleFinishedQuizToServer } from "../../../helperfunction/Finishedquiz";
+import { sendQuizdata } from "../../../helperfunction/SendQuizdata";
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
@@ -59,24 +60,34 @@ const Quiz = () => {
     router.reload();
   };
 
-    const handleAddQuiz = async ({ questionType, quizId, subject }) => {
-      // Update Redux state and localStorage
-      dispatch(addFinishedQuiz({ questionType, exercise: quizId, language: subject }));
-      dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
-  
-      // Send the new finished quiz to the backend as a single object
-      try {
-        const result = await addSingleFinishedQuizToServer({
-          userId: user.userId,
-          questionType,
-          exercise: quizId,
-          language: subject,
-        });
-        console.log("Finished quiz updated on server:", result);
-      } catch (error) {
-        console.error("Error updating finished quiz on server:", error);
-      }
-    };
+  const handleAddQuiz = async ({ questionType, quizId, subject, scorenow }) => {
+    // Update Redux state and localStorage
+    dispatch(addFinishedQuiz({ questionType, exercise: quizId, language: subject }));
+    dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
+
+    // Send the new finished quiz to the backend as a single object
+    try {
+      const result = await addSingleFinishedQuizToServer({
+        userId: user.userId,
+        questionType,
+        exercise: quizId,
+        language: subject,
+      });
+      
+      // Add this code to send quiz data with points
+      const add = await sendQuizdata({
+        userId: user.userId,
+        questionTypes: questionType,
+        exercise: quizId,
+        language: subject,
+        points: scorenow || result.correctAnswers * 10, // Calculate points based on correct answers
+      });
+      
+      console.log("Finished quiz updated on server:", result, add);
+    } catch (error) {
+      console.error("Error updating finished quiz on server:", error);
+    }
+  };
 
   const onClickNext = () => {
     setTime(25);
@@ -100,10 +111,13 @@ const Quiz = () => {
       setSelectedOption(null);
       setSelectedAnswer("");
       if (questionType === 'MCQs') {setFemcq(true)
-        handleAddQuiz({questionType, quizId, subject})
+        handleAddQuiz({questionType, quizId, subject, scorenow: (result.correctAnswers + 1) * 10})
       }
       if (questionType === 'FillInTheBlanks') {setFefill(true)
-        handleAddQuiz({questionType, quizId, subject})
+        handleAddQuiz({questionType, quizId, subject, scorenow: (result.correctAnswers + 1) * 10})
+      }
+      if (questionType === 'MatchTheFollowing') {
+        handleAddQuiz({questionType, quizId, subject, scorenow: result.correctAnswers * 10})
       }
     }
 
@@ -279,7 +293,6 @@ const Quiz = () => {
                     onNext={onClickNext}
                     onResult={({ isCorrect, correctMatches }) => {
                       setFematch(true)
-                      handleAddQuiz({questionType, quizId, subject})
                       setResult(prev => ({
                         correctAnswers: correctMatches+prev.correctAnswers,
                         wrong: 10 - correctMatches

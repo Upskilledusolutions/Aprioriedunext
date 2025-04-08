@@ -12,6 +12,7 @@ import Image from 'next/image';
 import Keyboard from 'react-simple-keyboard';
 import 'react-simple-keyboard/build/css/index.css';
 import { addSingleFinishedQuizToServer } from '../../../../helperfunction/Finishedquiz';
+import { sendQuizdata } from '../../../../helperfunction/SendQuizdata';
 
 const ChatGPTComponent = () => {
   // States & Refs
@@ -46,7 +47,17 @@ const ChatGPTComponent = () => {
               exercise: quizId,
               language: subject,
             });
-            console.log("Finished quiz updated on server:", result);
+            
+            // Add this code to send quiz data with points
+            const add = await sendQuizdata({
+              userId: user.userId,
+              questionTypes: questionType,
+              exercise: quizId,
+              language: subject,
+              points: 100, // Set score to 100 points
+            });
+            
+            console.log("Finished quiz updated on server:", result, add);
           } catch (error) {
             console.error("Error updating finished quiz on server:", error);
           }

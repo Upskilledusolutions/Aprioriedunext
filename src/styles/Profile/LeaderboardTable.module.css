@@ -8,7 +8,7 @@
     background-color: rgb(80, 173, 213);
     margin-bottom: 20px;
     color: white;
-    height: 800px;
+    height: 100%;
     overflow-y: scroll;
   }
   .container::-webkit-scrollbar {
@@ -71,16 +71,21 @@
     gap: 10px;
   }
   .up{
-    color: rgb(0, 176, 0);
+    color: rgb(224, 0, 0);
     font-size: 20px;
   }
   .down{
-    color: rgb(224, 0, 0);
+    color: rgb(0, 176, 0);
     transform: rotate(180deg);
     font-size: 20px;
   }
   .points{
     font-size: 20px;
     font-weight: 600;
+  }
+  @media screen and (max-width: 720px){
+    .container{
+      width: 88vw;
+    }
   }
   

@@ -1,29 +1,30 @@
 import React from 'react';
 import styles from '../../src/styles/Profile/SemicircleProgress.module.css';
 
-const FullCircleProgress = ({lesson, sections}) => { 
-  let progress = 75;
+const FullCircleProgress = ({lesson, sections, filteredObject}) => { 
+   // Get lengths of each language array
+  // Calculate total count of all unique exercises
+  const totalExercisesCount = Object.values(filteredObject).reduce((sum, exercises) => sum + exercises.length, 0);
+  let progress;
   const strokeWidth = 25;
   const viewWidth = 200;
   const viewHeight = 200; // full circle, so height equals width
   const radius = (viewWidth - strokeWidth) / 2;
   const circumference = 2 * Math.PI * radius;
-  const safeProgress = Math.min(Math.max(progress, 0), 100);
-  const dashOffset = circumference - (safeProgress / 100) * circumference;
-
-  console.log(lesson)
+  // const safeProgress = Math.min(Math.max(progress, 0), 100)
 
   const totalLength = sections.reduce((sum, section) => {
     const sectionData = lesson[section];
     return sum + (Array.isArray(sectionData) ? sectionData.length : 0);
   }, 0);
+  const dashOffset = circumference - ((totalExercisesCount/totalLength)*100 / 100) * circumference;
 
   return (
     <div>
       <div className={styles.big}>
         <div>
           <div className={styles.heading}>Total Progress</div>
-          <div className={styles.small}>60/{totalLength} Exercises completed</div>
+          <div className={styles.small}>{totalExercisesCount}/{totalLength} Exercises completed</div>
         </div>
         <div className={styles.container}>
           <svg width="100%" height="100%" viewBox={`0 0 ${viewWidth} ${viewHeight}`}>
@@ -50,7 +51,7 @@ const FullCircleProgress = ({lesson, sections}) => {
               transform={`rotate(-90 ${viewWidth / 2} ${viewHeight / 2})`}
             />
           </svg>
-          <div className={styles.text}>{safeProgress}%</div>
+          <div className={styles.text}>{Math.floor((totalExercisesCount/totalLength)*100)}%</div>
         </div>
       </div>
     </div>

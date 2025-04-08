@@ -2,14 +2,20 @@
 import React from 'react';
 import styles from '../../src/styles/Profile/ExerciseProgress.module.css';
 
-const ExerciseProgress = ({lesson, sections}) => {
+const ExerciseProgress = ({lesson, sections = [], filteredObject = {}, group = []}) => {
+      // Get lengths of each language array
+      const lengthsObject = Object.fromEntries(
+        Object.entries(filteredObject).map(([key, value]) => [key, value.length])
+      );
+
+      console.log()
   const progressData = [
-    { label: 'Exercises', progress: lesson[sections[0]]?.length },
-    { label: 'Reading Assignment', progress: lesson[sections[1]]?.length },
-    { label: 'Listening Assignment', progress: lesson[sections[2]]?.length },
-    { label: 'Reading Practice', progress: lesson[sections[3]]?.length },
-    { label: 'Writing Practice', progress: lesson[sections[4]]?.length },
-    { label: 'Practice Test', progress: lesson[sections[5]]?.length },
+    { label: 'Exercises', progress: lesson[sections[0]]?.length, finished: lengthsObject[group[0]] || 0},
+    { label: 'Reading Assignment', progress: lesson[sections[1]]?.length, finished: lengthsObject[group[1]] || 0},
+    { label: 'Listening Assignment', progress: lesson[sections[2]]?.length, finished:lengthsObject[group[2]] || 0},
+    { label: 'Speaking Practice', progress: lesson[sections[3]]?.length, finished: lengthsObject[group[3]] || 0},
+    { label: 'Writing Practice', progress: lesson[sections[4]]?.length, finished: lengthsObject[group[4]] || 0},
+    { label: 'Practice Test', progress: lesson[sections[5]]?.length, finished: lengthsObject[group[5]] || 0},
   ];
 
   return (
@@ -21,10 +27,10 @@ const ExerciseProgress = ({lesson, sections}) => {
           <div className={styles.progressBar}>
             <div
               className={styles.progressFill}
-              style={{ width: `${item.progress}%` }}
+              style={{ width: `${(item.finished/item.progress)*100 || 0}%` }}
             ></div>
           </div>
-          <div className={styles.percentage}>{item.progress}%</div>
+          <div className={styles.percentage}>{Math.floor((item.finished/item.progress)*100) || 0}%</div>
         </div>
       ))}
     </div>

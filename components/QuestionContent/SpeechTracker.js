@@ -6,6 +6,8 @@ import { MdHearing, MdHearingDisabled } from "react-icons/md";
 import { useDispatch, useSelector } from "react-redux";
 import { addFinishedQuiz, updateCompletedQuizzes } from "@/Store";
 import { addSingleFinishedQuizToServer } from "../../src/helperfunction/Finishedquiz";
+import Modal from "react-modal";
+import { sendQuizdata } from "../../src/helperfunction/SendQuizdata";
 
 // ---------- Utility Functions ----------
 const getSimilarity = (word1, word2) => {
@@ -308,7 +310,7 @@ const LineSpeechTracker = ({
 };
 
 // ---------- Main Component: SpeechTracker ----------
-// Expects data to be an array of lines. Only the active line’s recorder is enabled.
+// Expects data to be an array of lines. Only the active line's recorder is enabled.
 const SpeechTracker = ({ id, subject, data, code }) => {
   const [activeLineIndex, setActiveLineIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -316,24 +318,45 @@ const SpeechTracker = ({ id, subject, data, code }) => {
   const dispatch = useDispatch();
 
   // When an active line completes, advance to the next line (or show modal if done).
-      const handleAddQuiz = async ({ questionType, quizId, subject }) => {
-        // Update Redux state and localStorage
-        dispatch(addFinishedQuiz({questionType, exercise:quizId, language:subject}));
-        dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
-    
-        // Send the new finished quiz to the backend as a single object
-        try {
-          const result = await addSingleFinishedQuizToServer({
-            userId: user.userId,
-            questionType,
-            exercise: quizId,
-            language: subject,
-          });
-          console.log("Finished quiz updated on server:", result);
-        } catch (error) {
-          console.error("Error updating finished quiz on server:", error);
-        }
-      };
+  const handleAddQuiz = async ({ questionType, quizId, subject }) => {
+    // Update Redux state and localStorage
+    dispatch(addFinishedQuiz({questionType, exercise:quizId, language:subject}));
+    dispatch(updateCompletedQuizzes({ exercise: quizId, language: subject, questionTypes: questionType }));
+
+    // Send the new finished quiz to the backend as a single object
+    try {
+      // First, try to update the quiz data
+      let result;
+      try {
+        result = await addSingleFinishedQuizToServer({
+          userId: user.userId,
+          questionType,
+          exercise: quizId,
+          language: subject,
+        });
+        console.log("Finished quiz updated on server:", result);
+      } catch (error) {
+        console.error("Error with addSingleFinishedQuizToServer:", error.message);
+        // Continue with the next operation even if this one fails
+      }
+      
+      // Then, try to send the quiz data with points
+      try {
+        const add = await sendQuizdata({
+          userId: user.userId,
+          questionTypes: questionType,
+          exercise: quizId,
+          language: subject,
+          points: 100, // Set score to 100 points
+        });
+        console.log("Quiz points data sent successfully:", add);
+      } catch (error) {
+        console.error("Error with sendQuizdata:", error.message);
+      }
+    } catch (error) {
+      console.error("General error in handleAddQuiz:", error);
+    }
+  };
 
   const handleLineComplete = (lineIndex) => {
     if (lineIndex === activeLineIndex) {
@@ -341,14 +364,20 @@ const SpeechTracker = ({ id, subject, data, code }) => {
       if (nextLine < data.length) {
         setActiveLineIndex(nextLine);
       } else {
-        handleAddQuiz({questionType: "MCQs", quizId: id, subject})
+        // Make sure we're using the correct question type
+        // Try "Speaking" instead of "MCQs" to match the exercise type
+        handleAddQuiz({questionType: "Speaking", quizId: id, subject});
         setIsModalOpen(true);
       }
     }
   };
 
-  // Reset progress when the modal is closed.
+  // Reset progress when the modal is closed or restarted
   const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const restartQuiz = () => {
     setActiveLineIndex(0);
     setIsModalOpen(false);
   };
@@ -366,17 +395,28 @@ const SpeechTracker = ({ id, subject, data, code }) => {
           onLineComplete={handleLineComplete}
         />
       ))}
-      {isModalOpen && (
-        <div className={styles.modal}>
-          <div className={styles.modalContent}>
-            <h2>Well Done!</h2>
-            <p>You have successfully completed all lines.</p>
-            <button className={styles.closeModalButton} onClick={closeModal}>
+      
+      {/* Updated Modal with styling similar to other components */}
+      <Modal
+        isOpen={isModalOpen}
+        onRequestClose={closeModal}
+        className={styles.modal}
+        overlayClassName={styles.overlay}
+        ariaHideApp={false}
+      >
+        <div className={styles.modalContent}>
+          <h2>Well Done!</h2>
+          <p>You have successfully completed all lines.</p>
+          <div className={styles.btncont}>
+            <button className={styles.closeButton} onClick={restartQuiz}>
+              Restart
+            </button>
+            <button className={styles.closeButton} onClick={closeModal}>
               Close
             </button>
           </div>
         </div>
-      )}
+      </Modal>
     </div>
   );
 };

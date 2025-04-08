@@ -14,13 +14,20 @@ import {
 // Register the necessary Chart.js components
 ChartJS.register(PointElement, LineElement, CategoryScale, LinearScale, Tooltip, Legend);
 
-const WeeklyPointsGraph = () => {
+const WeeklyPointsGraph = ({thisWeeksScores}) => {
   const data = {
-    labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+    labels: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
     datasets: [
       {
         label: 'Weekly Points',
-        data: [20, 45, 30, 60, 80, 55, 70],
+        data: [
+          thisWeeksScores.Sunday || 0,
+          thisWeeksScores.Monday || 0, 
+          thisWeeksScores.Tuesday || 0, 
+          thisWeeksScores.Wednesday || 0, 
+          thisWeeksScores.Thursday || 0, 
+          thisWeeksScores.Friday || 0, 
+          thisWeeksScores.Saturday || 0],
         fill: true, // Fill the area under the line
         backgroundColor: '#2196f3', // Translucent blue fill
         borderColor: '#2196f3',

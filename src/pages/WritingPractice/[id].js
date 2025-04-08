@@ -7,15 +7,31 @@ import { IoPlayCircleSharp } from "react-icons/io5";
 import { useSelector } from 'react-redux'; 
 import { FaLock } from 'react-icons/fa';
 import { useRouter } from 'next/router';
+import { Getperformance } from '@/helperfunction/Getperformance';
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
   const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
   const [isClient, setIsClient] = useState(false);
+  const [userData, setUserData] = useState(null);
   const [Writing, setWriting] = useState(null)
 
  const router = useRouter();
   const { id } = router.query; // Get the dynamic `id` from the route
+
+  useEffect(() => {
+    const fetchUserData = async () => {
+      try {
+        const data = await Getperformance(user.userId);
+        setUserData(data);
+      } catch (err) {
+        console.error(err);
+        setError("Failed to load user data");
+      }
+    };
+
+    fetchUserData();
+  }, [user.userId]);
 
   const somedata = cards.find((data) => data.link === id);
 
@@ -29,6 +45,8 @@ export default function FrenchQuizes() {
         .catch((error) => console.error('Error loading lesson data:', error));
     }
   }, [somedata]);
+
+  let newcompletedexercise = userData?.completedExercises.filter(data => data.language == somedata?.subject)
 
   if (!isClient || !somedata) {
     // Optionally return a loader or handle invalid `id`
@@ -54,7 +72,7 @@ export default function FrenchQuizes() {
 
           <div className={styles.cards1}>
             {Writing?.map((data, index) => {
-              const completedData = completedQuizzes1.find(quiz => quiz.exercise.toString() === data.id);
+              const completedData = newcompletedexercise?.find(quiz => quiz.exercise.toString() === data.id);
               const completedStyles = completedData ? styles.completed : ''; // Add completed styles
               return (
                 <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
@@ -69,6 +87,7 @@ export default function FrenchQuizes() {
                     <div className={styles.info}>
                       <div className={styles.name}>{data.name}</div>
                       <div className={styles.level}>Level: {data.level}</div>
+                      <div className={styles.score}>Scrore: {completedData?.score ? completedData?.score : "N/A"}</div>
                     </div>
                     <div className={styles.imgcont}>
                       {/* <Image  src={'/assests/1.png'} width={500} height={500} alt="img" /> */}

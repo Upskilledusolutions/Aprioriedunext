@@ -1,7 +1,8 @@
 // src/helperfunction/getUserData.js
 export const Getperformance = async (userId) => {
+  const URL = process.env.NEXT_PUBLIC_BACKENDURL
     try {
-      const response = await fetch(`http://localhost:5000/api/${userId}/performance`, {
+      const response = await fetch(`${URL}/api/${userId}/performance`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
