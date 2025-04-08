@@ -9,33 +9,47 @@ import { FaLock } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 import { Getperformance } from '@/helperfunction/Getperformance';
 
-export default function FrenchQuizes() {
+export default function ReadingAssignments() {
   const { user } = useSelector((state) => state.auth); // Access authentication status
-  const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
-  const [isClient, setIsClient] = useState(false);
   const [userData, setUserData] = useState(null);
-  const [reading, setReading] = useState(null)
+  const [reading, setReading] = useState(null);
+  const [isClient, setIsClient] = useState(false);
 
   const router = useRouter();
   const { id } = router.query; // Get the dynamic `id` from the route
 
   const somedata = cards.find((data) => data.link === id);
 
+  // Function to fetch user performance
+  const fetchUserData = async () => {
+    try {
+      const data = await Getperformance(user.userId);
+      setUserData(data);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  // Fetch user data on initial load and when the route changes
   useEffect(() => {
-    const fetchUserData = async () => {
-      try {
-        const data = await Getperformance(user.userId);
-        setUserData(data);
-      } catch (err) {
-        console.error(err);
-        setError("Failed to load user data");
-      }
+    if (user?.userId) {
+      fetchUserData();
+    }
+  }, [user?.userId]);
+
+  // Listen for route changes and re-fetch data
+  useEffect(() => {
+    const handleRouteChange = () => {
+      fetchUserData();
     };
 
-    fetchUserData();
-  }, [user.userId]);
+    router.events.on('routeChangeComplete', handleRouteChange);
 
-  let newcompletedexercise = userData?.completedExercises.filter(data => data.language == somedata.subject)
+    // Cleanup the event listener on unmount
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
 
   useEffect(() => {
     setIsClient(true); // Set to true when client-side is ready
@@ -49,12 +63,13 @@ export default function FrenchQuizes() {
   }, [somedata]);
 
   if (!isClient || !somedata) {
-    // Optionally return a loader or handle invalid `id`
     return <div>Loading...</div>;
   }
 
-  const subject = somedata.subject
-  let completedQuizzes1 = completedQuizzes.filter(data=> data.language == subject)
+  const newcompletedexercise = userData?.completedExercises.filter(
+    (data) => data.language === somedata.subject
+  );
+
   return (
     <>
       <Head>

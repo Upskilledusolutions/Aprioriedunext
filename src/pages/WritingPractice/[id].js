@@ -1,37 +1,54 @@
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
 import styles from '../../styles/quiz/quizpage.module.css';
-import { cards } from '../../Data/Routes/WritingPractice'
+import { cards } from '../../Data/Routes/WritingPractice';
 import Link from 'next/link';
 import { IoPlayCircleSharp } from "react-icons/io5";
-import { useSelector } from 'react-redux'; 
+import { useSelector } from 'react-redux';
 import { FaLock } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 import { Getperformance } from '@/helperfunction/Getperformance';
 
 export default function FrenchQuizes() {
   const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
-  const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
+  const completedQuizzes = useSelector((state) => state.finishedQuizzes.completedQuizzes);
   const [isClient, setIsClient] = useState(false);
   const [userData, setUserData] = useState(null);
-  const [Writing, setWriting] = useState(null)
+  const [Writing, setWriting] = useState(null);
 
- const router = useRouter();
+  const router = useRouter();
   const { id } = router.query; // Get the dynamic `id` from the route
 
+  // Function to fetch user performance
+  const fetchUserData = async () => {
+    try {
+      const data = await Getperformance(user.userId);
+      setUserData(data);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  // Fetch user data on initial load and when the route changes
   useEffect(() => {
-    const fetchUserData = async () => {
-      try {
-        const data = await Getperformance(user.userId);
-        setUserData(data);
-      } catch (err) {
-        console.error(err);
-        setError("Failed to load user data");
-      }
+    if (user?.userId) {
+      fetchUserData();
+    }
+  }, [user?.userId]);
+
+  // Listen for route changes and re-fetch data
+  useEffect(() => {
+    const handleRouteChange = () => {
+      fetchUserData();
     };
 
-    fetchUserData();
-  }, [user.userId]);
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    // Cleanup the event listener on unmount
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
 
   const somedata = cards.find((data) => data.link === id);
 
@@ -46,15 +63,17 @@ export default function FrenchQuizes() {
     }
   }, [somedata]);
 
-  let newcompletedexercise = userData?.completedExercises.filter(data => data.language == somedata?.subject)
+  let newcompletedexercise = userData?.completedExercises.filter(
+    (data) => data.language === somedata?.subject
+  );
 
   if (!isClient || !somedata) {
     // Optionally return a loader or handle invalid `id`
     return <div>Loading...</div>;
   }
 
-  const subject = somedata.subject
-  let completedQuizzes1 = completedQuizzes.filter(data=> data.language == subject)
+  const subject = somedata.subject;
+  let completedQuizzes1 = completedQuizzes.filter((data) => data.language === subject);
 
   return (
     <>
@@ -72,55 +91,51 @@ export default function FrenchQuizes() {
 
           <div className={styles.cards1}>
             {Writing?.map((data, index) => {
-              const completedData = newcompletedexercise?.find(quiz => quiz.exercise.toString() === data.id);
+              const completedData = newcompletedexercise?.find(
+                (quiz) => quiz.exercise.toString() === data.id
+              );
               const completedStyles = completedData ? styles.completed : ''; // Add completed styles
               return (
                 <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
-                  {user.trial && data.id < 3 || user.type === 'all' || !user.trial ?
-                   <Link href={`SingleWritingPractice/${somedata.link2}/${data.id}`} className={styles.link}>
-                  {/* {isLocked && (
-                    <div className={styles.lockOverlay1}>
-                      <FaLock className={styles.lockIcon1} />
+                  {user.trial && data.id < 3 || user.type === 'all' || !user.trial ? (
+                    <Link
+                      href={`SingleWritingPractice/${somedata.link2}/${data.id}`}
+                      className={styles.link}
+                    >
+                      <div className={styles.cardflex5}>
+                        <div className={styles.info}>
+                          <div className={styles.name}>{data.name}</div>
+                          <div className={styles.level}>Level: {data.level}</div>
+                          <div className={styles.score}>
+                            Score: {completedData?.score ? completedData?.score : 'N/A'}
+                          </div>
+                        </div>
+                        <div className={styles.imgcont}>
+                          <IoPlayCircleSharp className={styles.img6} />
+                        </div>
+                      </div>
+                    </Link>
+                  ) : (
+                    <div className={styles.locked2}>
+                      <div className={styles.lockOverlay3}>
+                        <FaLock />
+                        <p>Locked</p>
+                      </div>
+                      <div className={styles.cardflex5}>
+                        <div className={styles.info}>
+                          <div className={styles.name}>{data.name}</div>
+                          <div className={styles.level}>Level: {data.level}</div>
+                        </div>
+                        <div className={styles.imgcont}>
+                          <IoPlayCircleSharp className={styles.img6} />
+                        </div>
+                      </div>
                     </div>
-                  )} */}
-                  <div className={styles.cardflex5}>
-                    <div className={styles.info}>
-                      <div className={styles.name}>{data.name}</div>
-                      <div className={styles.level}>Level: {data.level}</div>
-                      <div className={styles.score}>Scrore: {completedData?.score ? completedData?.score : "N/A"}</div>
-                    </div>
-                    <div className={styles.imgcont}>
-                      {/* <Image  src={'/assests/1.png'} width={500} height={500} alt="img" /> */}
-                      <IoPlayCircleSharp className={styles.img6}/>
-                    </div>
-                    </div>
-                  </Link>:<div className={styles.locked2}>
-                <div className={styles.lockOverlay3}>
-                  <FaLock />
-                  <p>Locked</p>
-                </div>
-                  {/* {isLocked && (
-                    <div className={styles.lockOverlay1}>
-                      <FaLock className={styles.lockIcon1} />
-                    </div>
-                  )} */}
-                  <div className={styles.cardflex5}>
-                    <div className={styles.info}>
-                      <div className={styles.name}>{data.name}</div>
-                      <div className={styles.level}>Level: {data.level}</div>
-                    </div>
-                    <div className={styles.imgcont}>
-                      {/* <Image  src={'/assests/1.png'} width={500} height={500} alt="img" /> */}
-                      <IoPlayCircleSharp className={styles.img6}/>
-                    </div>
-                    </div>
-                  </div>}
-
+                  )}
                 </div>
               );
             })}
           </div>
-
         </div>
       </main>
     </>

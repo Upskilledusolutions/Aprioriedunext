@@ -20,19 +20,36 @@ export default function FrenchQuizes() {
 
   const somedata = cards.find((data) => data.link === id);
 
-  useEffect(() => {
-    const fetchUserData = async () => {
-      try {
-        const data = await Getperformance(user.userId);
-        setUserData(data);
-      } catch (err) {
-        console.error(err);
-        setError("Failed to load user data");
-      }
-    };
+// Function to fetch user performance
+const fetchUserData = async () => {
+  try {
+    const data = await Getperformance(user.userId);
+    setUserData(data);
+  } catch (err) {
+    console.error(err);
+  }
+};
 
+// Fetch user data on initial load and when the route changes
+useEffect(() => {
+  if (user?.userId) {
     fetchUserData();
-  }, [user.userId]);
+  }
+}, [user?.userId]);
+
+// Listen for route changes and re-fetch data
+useEffect(() => {
+  const handleRouteChange = () => {
+    fetchUserData();
+  };
+
+  router.events.on('routeChangeComplete', handleRouteChange);
+
+  // Cleanup the event listener on unmount
+  return () => {
+    router.events.off('routeChangeComplete', handleRouteChange);
+  };
+}, [router.events]);
 
   let newcompletedexercise = userData?.completedExercises.filter(data => data.language == somedata.subject)
   console.log("new", newcompletedexercise)
