@@ -7,31 +7,52 @@ import Link from 'next/link';
 import { FaLock } from 'react-icons/fa'; // Import a lock icon
 import { useSelector } from 'react-redux'; // To access authentication status from Redux
 import { useRouter } from 'next/router';
+import { Getperformance } from '@/helperfunction/Getperformance';
 
-export async function getServerSideProps(context) {
-  const { id } = context.params;
-
-  // Fetch data from your backend or API
-  const response = await fetch(`http://localhost:5000/api/mastertrainer1/performance`);
-  const userData = await response.json();
-
-  return {
-    props: {
-      userData, // Pass the fetched data as props
-    },
-  };
-}
-
-export default function FrenchQuizes({ userData }) {
-  // Use the `userData` prop directly
-  const { user } = useSelector((state) => state.auth); // Access authentication status
+export default function FrenchQuizes() {
+  const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
   const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
   const [isClient, setIsClient] = useState(false);
-  const [exerciseData, setExerciseData] = useState(null);
+  const [exerciseData, setexerciseData] = useState(null)
+  const [userData, setUserData] = useState(null);
   const router = useRouter();
   const { id } = router.query; // Get the dynamic `id` from the route
-  console.log(userData)
+
   const somedata = cards.find((data) => data.link === id);
+
+// Function to fetch user performance
+  const fetchUserData = async () => {
+    try {
+      const data = await Getperformance(user.userId);
+      setUserData(data);
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  // Fetch user data on initial load and when the route changes
+  useEffect(() => {
+    if (user?.userId) {
+      fetchUserData();
+    }
+  }, [user?.userId]);
+
+  // Listen for route changes and re-fetch data
+  useEffect(() => {
+    const handleRouteChange = () => {
+      fetchUserData();
+    };
+
+    router.events.on('routeChangeComplete', handleRouteChange);
+
+    // Cleanup the event listener on unmount
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
+
+  let newcompletedexercise = userData?.completedExercises.filter(data => data.language == somedata.subject)
+  console.log("new", newcompletedexercise)
 
   useEffect(() => {
     setIsClient(true); // Set to true when client-side is ready
@@ -39,9 +60,10 @@ export default function FrenchQuizes({ userData }) {
     if (somedata) {
       // Dynamically import the lesson data
       import(`../../Data/ExerciseData/${somedata.data}`)
+        // .then((module) => setexerciseData(module.quiz))
         .then((module) => {
           let data = module.quiz;          
-          setExerciseData(data); // Set the sliced or full data
+          setexerciseData(data); // Set the sliced or full data
         })
         .catch((error) => console.error('Error loading lesson data:', error));
     }
@@ -53,8 +75,7 @@ export default function FrenchQuizes({ userData }) {
   }
 
   const subject = somedata.subject
-  let newcompletedexercise = userData?.completedExercises.filter(data => data.language == somedata.subject);
-  let completedQuizzes1 = completedQuizzes.filter(data=> data.language == subject);
+  let completedQuizzes1 = completedQuizzes.filter(data=> data.language == subject)
   return (
     <>
       <Head>
@@ -79,6 +100,8 @@ export default function FrenchQuizes({ userData }) {
              const mcqScore = completedData?.find(type => type.questionTypes == "MCQs")?.score || 'N/A';
              const fillScore = completedData?.find(type => type.questionTypes == "FillInTheBlanks")?.score || 'N/A';
              const matchScore = completedData?.find(type => type.questionTypes == "MatchTheFollowing")?.score || 'N/A';
+
+             console.log(completedData)
              const completedStyles = isCompleted ? styles.completed : ''; // Add completed styles
               return (
                 <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
@@ -117,6 +140,11 @@ export default function FrenchQuizes({ userData }) {
                       <div className={styles.topic}>Topic: {data.topic}</div>
                     </div>
                   </div>}
+                  {/* {user.trial && data.id < 3 || user.type === 'all' || !user.trial && (
+                    <div className={styles.lockOverlay}>
+                      <FaLock className={styles.lockIcon} />
+                    </div>
+                  )} */}
                 </div>
               );
             })}
