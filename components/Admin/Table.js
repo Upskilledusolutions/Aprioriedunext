@@ -51,6 +51,7 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
           {currentdata.length > 0 ? (
             currentdata
               .sort((a, b) => new Date(a.updatedAt) - new Date(b.updatedAt))
+              .reverse()
               .map((item, index) => (
                 <tr key={index}>
                   {headings.map((heading, idx) => (

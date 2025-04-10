@@ -31,7 +31,7 @@ const LeaderboardTable = ({totalScores}) => {
                index === 2 ? (<>🥉</>) : (
                 <span>#{index + 1}</span>
               )}{" "}
-              {data.userId}
+              {data.name ? data.name : data.userId }
             </div>
             <span>
               {data.change === 'up' ? (

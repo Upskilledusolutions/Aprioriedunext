@@ -71,7 +71,7 @@ export default function Left({ user, onLanguageSelect }) {
         onClick={handleSectionClick}
         onLanguageSelect={onLanguageSelect} // Pass the function to handle language selection
       />
-      <div className={styles.user} onClick={() => onLanguageSelect("Leader")}>Leadersboard</div>
+      <div className={styles.user} onClick={() => onLanguageSelect("Leader")}>Leaderboard</div>
         {/* <DropdownSection
         sectionName="Leader"
         text="Leadersboard"
