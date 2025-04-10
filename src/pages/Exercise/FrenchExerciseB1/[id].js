@@ -111,10 +111,10 @@ const Quiz = () => {
       setSelectedOption(null);
       setSelectedAnswer("");
       if (questionType === 'MCQs') {setFemcq(true)
-        handleAddQuiz({questionType, quizId, subject, scorenow: (result.correctAnswers + 1) * 10})
+        handleAddQuiz({questionType, quizId, subject, scorenow: (result.correctAnswers ) * 10})
       }
       if (questionType === 'FillInTheBlanks') {setFefill(true)
-        handleAddQuiz({questionType, quizId, subject, scorenow: (result.correctAnswers + 1) * 10})
+        handleAddQuiz({questionType, quizId, subject, scorenow: (result.correctAnswers ) * 10})
       }
       if (questionType === 'MatchTheFollowing') {
         handleAddQuiz({questionType, quizId, subject, scorenow: result.correctAnswers * 10})

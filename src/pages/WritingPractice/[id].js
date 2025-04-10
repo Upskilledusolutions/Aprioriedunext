@@ -7,48 +7,35 @@ import { IoPlayCircleSharp } from "react-icons/io5";
 import { useSelector } from 'react-redux';
 import { FaLock } from 'react-icons/fa';
 import { useRouter } from 'next/router';
-import { Getperformance } from '@/helperfunction/Getperformance';
 
-export default function FrenchQuizes() {
-  const { isAuthenticated, user } = useSelector((state) => state.auth); // Access authentication status
-  const completedQuizzes = useSelector((state) => state.finishedQuizzes.completedQuizzes);
+export async function getServerSideProps(context) {
+  const { userId } = context.query; // Get userId from query parameters
+
+  if (!userId) {
+    return {
+      notFound: true, // Return 404 if userId is not provided
+    };
+  }
+
+  // Use the API URL from the environment variable
+  const apiUrl = process.env.NEXT_PUBLIC_BACKENDURL;
+  const response = await fetch(`${apiUrl}/api/${userId}/performance`);
+  const userData = await response.json();
+
+  return {
+    props: {
+      userData, // Pass the fetched data as props
+    },
+  };
+}
+
+export default function WritingPractice({ userData }) {
+  const { user } = useSelector((state) => state.auth); // Access authentication status
   const [isClient, setIsClient] = useState(false);
-  const [userData, setUserData] = useState(null);
-  const [Writing, setWriting] = useState(null);
+  const [writingData, setWritingData] = useState(null);
 
   const router = useRouter();
   const { id } = router.query; // Get the dynamic `id` from the route
-
-  // Function to fetch user performance
-  const fetchUserData = async () => {
-    try {
-      const data = await Getperformance(user.userId);
-      setUserData(data);
-    } catch (err) {
-      console.error(err);
-    }
-  };
-
-  // Fetch user data on initial load and when the route changes
-  useEffect(() => {
-    if (user?.userId) {
-      fetchUserData();
-    }
-  }, [user?.userId]);
-
-  // Listen for route changes and re-fetch data
-  useEffect(() => {
-    const handleRouteChange = () => {
-      fetchUserData();
-    };
-
-    router.events.on('routeChangeComplete', handleRouteChange);
-
-    // Cleanup the event listener on unmount
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-    };
-  }, [router.events]);
 
   const somedata = cards.find((data) => data.link === id);
 
@@ -58,22 +45,18 @@ export default function FrenchQuizes() {
     if (somedata) {
       // Dynamically import the lesson data
       import(`../../Data/WritingPractice/${somedata.data}`)
-        .then((module) => setWriting(module.data))
+        .then((module) => setWritingData(module.data))
         .catch((error) => console.error('Error loading lesson data:', error));
     }
   }, [somedata]);
 
-  let newcompletedexercise = userData?.completedExercises.filter(
-    (data) => data.language === somedata?.subject
-  );
-
   if (!isClient || !somedata) {
-    // Optionally return a loader or handle invalid `id`
     return <div>Loading...</div>;
   }
 
-  const subject = somedata.subject;
-  let completedQuizzes1 = completedQuizzes.filter((data) => data.language === subject);
+  const newcompletedexercise = userData?.completedExercises.filter(
+    (data) => data.language === somedata.subject
+  );
 
   return (
     <>
@@ -90,7 +73,7 @@ export default function FrenchQuizes() {
           </div>
 
           <div className={styles.cards1}>
-            {Writing?.map((data, index) => {
+            {writingData?.map((data, index) => {
               const completedData = newcompletedexercise?.find(
                 (quiz) => quiz.exercise.toString() === data.id
               );
@@ -99,7 +82,7 @@ export default function FrenchQuizes() {
                 <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
                   {user.trial && data.id < 3 || user.type === 'all' || !user.trial ? (
                     <Link
-                      href={`SingleWritingPractice/${somedata.link2}/${data.id}`}
+                      href={`SingleWritingPractice/${somedata.link2}/${data.id}?userId=${user.userId}`}
                       className={styles.link}
                     >
                       <div className={styles.cardflex5}>

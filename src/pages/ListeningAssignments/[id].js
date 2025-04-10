@@ -4,55 +4,41 @@ import styles from '../../styles/quiz/quizpage.module.css';
 import { cards } from '../../Data/Routes/ListeningAssignments';
 import Link from 'next/link';
 import { IoPlayCircleSharp } from "react-icons/io5";
-import { useSelector } from 'react-redux'; 
+import { useSelector } from 'react-redux'; // To access authentication status from Redux
 import { FaLock } from 'react-icons/fa';
 import { useRouter } from 'next/router';
-import { Getperformance } from '@/helperfunction/Getperformance';
 
-export default function ListeningAssignments() {
+export async function getServerSideProps(context) {
+  const { userId } = context.query; // Get userId from query parameters
+
+  if (!userId) {
+    return {
+      notFound: true, // Return 404 if userId is not provided
+    };
+  }
+
+  // Use the API URL from the environment variable
+  const apiUrl = process.env.NEXT_PUBLIC_BACKENDURL;
+  const response = await fetch(`${apiUrl}/api/${userId}/performance`);
+  const userData = await response.json();
+
+  return {
+    props: {
+      userData, // Pass the fetched data as props
+    },
+  };
+}
+
+export default function ListeningAssignments({ userData }) {
   const { user } = useSelector((state) => state.auth); // Access authentication status
-  const completedQuizzes = useSelector(state => state.finishedQuizzes.completedQuizzes);
+  const completedQuizzes = useSelector((state) => state.finishedQuizzes.completedQuizzes);
   const [isClient, setIsClient] = useState(false);
-  const [userData, setUserData] = useState(null);
   const [reading, setReading] = useState(null);
 
   const router = useRouter();
   const { id } = router.query; // Get the dynamic `id` from the route
 
-  // Function to fetch user performance
-  const fetchUserData = async () => {
-    try {
-      const data = await Getperformance(user.userId);
-      setUserData(data);
-    } catch (err) {
-      console.error(err);
-    }
-  };
-
-  // Fetch user data on initial load and when the route changes
-  useEffect(() => {
-    if (user?.userId) {
-      fetchUserData();
-    }
-  }, [user?.userId]);
-
-  // Listen for route changes and re-fetch data
-  useEffect(() => {
-    const handleRouteChange = () => {
-      fetchUserData();
-    };
-
-    router.events.on('routeChangeComplete', handleRouteChange);
-
-    // Cleanup the event listener on unmount
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-    };
-  }, [router.events]);
-
   const somedata = cards.find((data) => data.link === id);
-
-  let newcompletedexercise = userData?.completedExercises.filter(data => data.language === somedata?.subject);
 
   useEffect(() => {
     setIsClient(true); // Set to true when client-side is ready
@@ -66,12 +52,12 @@ export default function ListeningAssignments() {
   }, [somedata]);
 
   if (!isClient || !somedata) {
-    // Optionally return a loader or handle invalid `id`
     return <div>Loading...</div>;
   }
 
-  const subject = somedata.subject;
-  let completedQuizzes1 = completedQuizzes.filter(data => data.language === subject);
+  const newcompletedexercise = userData?.completedExercises.filter(
+    (data) => data.language === somedata.subject
+  );
 
   return (
     <>
@@ -89,17 +75,24 @@ export default function ListeningAssignments() {
 
           <div className={styles.cards1}>
             {reading?.map((data, index) => {
-              const completedData = newcompletedexercise?.find(quiz => quiz.exercise.toString() === data.id);
+              const completedData = newcompletedexercise?.find(
+                (quiz) => quiz.exercise.toString() === data.id
+              );
               const completedStyles = completedData ? styles.completed : ''; // Add completed styles
               return (
                 <div key={data.quiz} className={`${styles.card1} ${completedStyles}`}>
                   {user.trial && data.id < 3 || user.type === 'all' || !user.trial ? (
-                    <Link href={`SingleListeningAssignment/${somedata.link2}/${data.id}`} className={styles.link}>
+                    <Link
+                      href={`SingleListeningAssignment/${somedata.link2}/${data.id}?userId=${user.userId}`}
+                      className={styles.link}
+                    >
                       <div className={styles.cardflex5}>
                         <div className={styles.info}>
                           <div className={styles.name}>{data.name}</div>
                           <div className={styles.level}>Level: {data.level}</div>
-                          <div className={styles.score}>Score: {completedData?.score ? completedData?.score : "N/A"}</div>
+                          <div className={styles.score}>
+                            Score: {completedData?.score ? completedData?.score : 'N/A'}
+                          </div>
                         </div>
                         <div className={styles.imgcont}>
                           <IoPlayCircleSharp className={styles.img6} />

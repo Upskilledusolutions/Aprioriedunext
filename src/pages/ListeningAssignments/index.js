@@ -65,7 +65,7 @@ export default function Index() {
                 <div className={styles.cardheading}>{card.heading}</div>
                 <div className={styles.cardtext}>{card.text}</div>
                 {!isCardLocked(card.type) ? (
-                  <Link href={`ListeningAssignments/${card.link}`} className={styles.btn}>
+                  <Link href={`ListeningAssignments/${card.link}?userId=${user.userId}`} className={styles.btn}>
                     Start Learning
                   </Link>
                 ) : (
