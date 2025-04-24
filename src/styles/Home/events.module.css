@@ -6,10 +6,9 @@
   margin: 100px auto 50px;
 }
 .title{
-  font-size: 30px;
+  font-size: 2.5rem;
   font-weight: 700;
     padding-bottom: 10px;
-  border-bottom:3px solid black ;
   display: inline;
 }
 .cards{

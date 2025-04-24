@@ -1,11 +1,12 @@
 .container{
   display: flex;
-  padding: 20px 10vw 0px;
-  gap: 7vw;
+  justify-content: center;
+  width: 100vw;
+  padding: 20px 0vw 50px;
   position: relative;
 }
 .courses{
-  width: 78vw;
+  width: 90vw;
   padding-bottom: 30px;
 }
 .topsection{
@@ -16,10 +17,8 @@
   text-align: center;
 }
 .title{
-  font-size: 30px;
-  font-weight: 700;
-  padding-bottom: 10px;
-  border-bottom:3px solid black ;
+  font-size: 2.5rem;
+  margin-bottom: 0;
 }
 .headingtext{
   margin-top: 20px;
@@ -200,10 +199,13 @@ bottom: 0;
 .card1{
   border: 1px solid rgb(206, 206, 206);
   overflow: hidden;
-  width: 17vw;
+  padding: 15px 1vw;
+  width: 20vw;
   height: 320px;
   transition: 0.3s;
-  background-color: white;
+  background-color: #ff9d1d;
+  border-radius: 10px;
+  color: white;
 }
 .card1:hover{
   box-shadow: rgba(0, 0, 0, 0.2) 8px 8px 10px;
@@ -218,11 +220,11 @@ bottom: 0;
 }
 .heading1{
   font-size: 20px;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 .headingtext1{
   font-size: 15px;
-  font-weight: 300;
 }
 @media screen and (max-width: 720px){
   .card1{
