@@ -31,7 +31,7 @@ const Event = ({params}) => {
     {
       id: 3,
       title: "Young Poet Award 2023",
-      date: "TBD",
+      date: "21st May 2023",
       url: "/events/YoungPoetAward1.jpg",
       des: "Get ready to unleash your inner wordsmith and shine on the poetic stage! Upskilledu is thrilled to announce the upcoming Young Poet Awards, a prestigious event dedicated to celebrating the talent and creativity of young poets from across the globe. While the dates for this exciting event are yet to be decided, we're already buzzing with anticipation for the poetic brilliance that awaits. Whether you're a seasoned poet or just beginning to explore the world of verse, the Young Poet Awards provide a unique opportunity to showcase your talent, connect with fellow poets, and gain recognition for your work. Open to poets of the age group, the Young Poet Awards welcome submissions in a variety of styles and themes, from heartfelt sonnets to powerful spoken word pieces. Whether you find inspiration in nature, love, social justice, or the human experience, there's a place for your voice in this vibrant community of young poets. Our esteemed panel of judges, comprised of renowned poets and literary experts, will evaluate each submission based on its originality, creativity, and emotional impact, with prizes awarded to the most outstanding entries."
     },

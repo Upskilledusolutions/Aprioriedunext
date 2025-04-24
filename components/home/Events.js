@@ -21,7 +21,7 @@ export default function Events() {
     {
       id: 3,
       title: "Young Poet Award 2023",
-      date: "TBD",
+      date: "21st May 2023",
       url: "/events/YoungPoetAward1.jpg",
     },
   ];
