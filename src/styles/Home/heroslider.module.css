@@ -1,5 +1,5 @@
  .margintop{
-  height: 600px;
+  height: auto;
  } 
  .topic{
     font-size: 42px;
@@ -126,24 +126,25 @@
       gap: 2vw;
     }
     .margintop{
-      height: 400px;
+      height: 300px;
      } 
      .img{
-      height: 350px;
+      height: 300px;
+      object-position: 30% center;
     }
     .swiper{
-      height: 350px;
+      height: 300px;
     }
     .sliderbigcont{
-      height: 330px;
+      height: 280px;
     }
     .slidecontainer{
-      height: 310px;
+      height: 260px;
     }
     .pos{
       width: 80vw;
       padding: 0 10vw;
-      height: 450px;
+      height: 400px;
       gap: 10px;
     }
     .one{
@@ -154,6 +155,6 @@
       margin-bottom: 20px;
     }
     .three{
-      font-size: 16px;
+      font-size: 14px;
     }
   }

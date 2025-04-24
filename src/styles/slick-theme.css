@@ -216,10 +216,10 @@
     display: block;
 }
 .slick-prev{
-    margin-left: -5vw;
+    margin-left: -10vw;
 }
 .slick-next{
-    margin-right: -5vw;
+    margin-right: -10vw;
     overflow-y: hidden;
 }
 }

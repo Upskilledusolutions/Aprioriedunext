@@ -1,0 +1,306 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 8% 80px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .sectionOne {
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  }
+  
+  .sectionTwo {
+    background: linear-gradient(135deg, #14a5ff, #00527d);
+  }
+  
+  .sectionThree {
+    background: linear-gradient(135deg, #ffa82f, #ff6f43);
+  }
+  
+  .text {
+    flex: 1;
+  }
+  
+  .text h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .text p {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.6;
+  }
+  
+  .features {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image .img {
+    width: 27vw;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  .image .img1 {
+    width: 35vw;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  
+  .challengeGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .challengeCard {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+  }
+
+  .challengeCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  .challengeCard h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .challengeCard p {
+    font-size: 1rem;
+    color: #555;
+  }
+  .gif {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .sectionFour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progressPoints {
+    margin-top: 1rem;
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .progressPoints li {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 0.5rem;
+    padding: 15px;
+    background-color: white;
+  }
+  
+  .gif {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .text1{
+    text-align: center;
+    padding: 0 10%;
+  }
+
+  .progressPoints li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ff9d1d;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .progressPoints{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 3%;
+  }
+
+  .text1 h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text1 p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  .img5{
+    width: 20vw;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  .imgcon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+/* Existing styles remain unchanged */
+
+/* Media Queries for Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    /* Stack sections vertically */
+    .section {
+      flex-direction: column;
+      padding: 20px 5%;
+    }
+  
+    /* Center-align text and images */
+    .text, .text1 {
+      text-align: center;
+      padding: 0;
+    }
+  
+    .text h2, .text1 h2 {
+      font-size: 2rem;
+    }
+  
+    .text p, .text1 p {
+      font-size: 1rem;
+      line-height: 1.4;
+    }
+  
+    /* Adjust image sizes */
+    .image .img, .image .img1, .gif {
+      width: 90%;
+      max-width: 300px;
+      height: auto;
+    }
+  
+    /* Adjust challenge grid layout */
+    .challengeGrid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  
+    /* Adjust challenge card styles */
+    .challengeCard {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+  
+    /* Adjust progress points grid */
+    .progressPoints {
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+  
+    .progressPoints li {
+      font-size: 1rem;
+      padding: 10px;
+    }
+  
+    /* Adjust section padding */
+    .sectionFour {
+      flex-direction: column;
+      padding: 20px;
+      gap: 1rem;
+    }
+  
+    /* Adjust image container */
+    .imgcon {
+      padding: 10px 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .text h2, .text1 h2 {
+      font-size: 1.8rem;
+    }
+  
+    .text p, .text1 p {
+      font-size: 0.9rem;
+    }
+  
+    .gif {
+      max-width: 250px;
+    }
+  
+    .progressPoints li {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .challengeCard h3 {
+      font-size: 1rem;
+    }
+  
+    .challengeCard p {
+      font-size: 0.9rem;
+    }
+
+    .sectionTwo{
+        margin-bottom: 50px;
+    }
+
+    .img1{
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .progressPoints{
+        padding-left: 0;
+    }
+    .img5{
+        height: 300px;
+        width: 100%;
+    }
+  }

@@ -10,6 +10,7 @@ import dynamic from "next/dynamic";
 import { useDispatch } from 'react-redux'
 import { setFinishedQuizzesFromLocalStorage } from '@/Store'
 import { useEffect } from 'react'
+import Gamified from '../../components/home/Gamified'
 
 const Home = () => {  
 
@@ -51,6 +52,7 @@ const Home = () => {
       <main>
         <>
           <HeroSlider />
+          <Gamified />
           <Fromsection />
           <Testimonials />
           {/* <Ourgallery /> */}
