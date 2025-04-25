@@ -27,7 +27,7 @@ export default function Gamified() {
               <p>Expand your vocabulary with fun word games and quizzes.</p>
             </div>
             <div className={styles.challengeCard}>
-              <h3>Grammar Mastery</h3>
+              <h3>Grammatical Accuracy</h3>
               <p>Master grammar rules through interactive exercises.</p>
             </div>
             <div className={styles.challengeCard}>
@@ -59,7 +59,7 @@ export default function Gamified() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2>Keep Track of Your Progress From Anywhere</h2>
+          <h2>Keep Track of Your Progress</h2>
           <p>
             Stay motivated by tracking your progress in real-time. Monitor your
             points, completed exercises, and lessons as you advance through your
@@ -81,7 +81,7 @@ export default function Gamified() {
               <br />
               and challenge.
             </li>
-            <li>
+            {/* <li>
             <div className={styles.imgcon}>
               <Image
                 src="/illustrations/ap1.jpeg"
@@ -93,7 +93,7 @@ export default function Gamified() {
               </div>
               Track your daily, weekly, and monthly progress with detailed
               stats.
-            </li>
+            </li> */}
             <li>
             <div className={styles.imgcon}>
               <Image
@@ -108,7 +108,7 @@ export default function Gamified() {
               <br />
               to stay motivated.
             </li>
-            <li>
+            {/* <li>
             <div className={styles.imgcon}>
               <Image
                 src="/illustrations/ap3.png"
@@ -121,7 +121,7 @@ export default function Gamified() {
               Access your progress dashboard
               <br />
               anytime, anywhere.
-            </li>
+            </li> */}
           </ul>
         </motion.div>
         <motion.div
@@ -154,7 +154,7 @@ export default function Gamified() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2>Revolutionizing Language Learning Through Gamification</h2>
+          <h2>Revolutionizing Language Learning through Gamification</h2>
           <p>
             Our platform combines cutting-edge technology with proven teaching
             methods. Immerse yourself in interactive lessons, track your

@@ -1,29 +1,38 @@
-import Head from 'next/head'
-import styles from '../../styles/Languageclub/languageclub.module.css'
-import Image from 'next/image'
-import Reveal from '../../../components/Reveal'
-import Link from 'next/link'
+import Head from 'next/head';
+import styles from '../../styles/Languageclub/languageclub.module.css';
+import Image from 'next/image';
+import Reveal from '../../../components/Reveal';
+import Link from 'next/link';
 
 const index = () => {
-
   const data = [
     {
       id: 1,
-      title: "Readers' Salon",
-      date: "Sat, 26th Nov 2023 ",
-      url: "/events/Podcast Insta.jpg",
+      title: "Spelling Bee",
+      date: "12th April 2025",
+      url: "/events/spellbee.jpeg",
+      des: "The Spelling Bee event, held on April 12th, 2025, was an exhilarating competition that brought together language enthusiasts and aspiring wordsmiths. Participants from diverse age groups showcased their spelling prowess in a series of challenging rounds designed to test their vocabulary, memory, and composure under pressure. The event was a celebration of linguistic excellence, with contestants spelling increasingly complex words as the competition progressed. The audience was captivated by the participants' determination and quick thinking, cheering them on with every correct answer. The Spelling Bee not only highlighted the importance of language skills but also fostered a spirit of healthy competition and camaraderie among the participants. It was an unforgettable day filled with learning, excitement, and the joy of mastering the art of spelling."
     },
     {
       id: 2,
-      title: "Halloween Party",
-      date: "31st Oct 2023",
-      url: "/events/October 31,2023.jpg",
+      title: "Readers' Salon",
+      date: "Sat, 26th Nov 2023 ",
+      url: "/events/Podcast Insta.jpg",
+      des: "Readers' Salon, hosted by Dominic Biswas on Saturday, November 26th, 2023, was an engaging and intellectually stimulating gathering that brought together avid readers from diverse backgrounds to discuss their ever-growing to be read (TBR) lists. Held as an online meet was perfect for an evening of literary exploration. Attendees shared their TBR lists, revealing a fascinating array of genres, authors, and themes. From classic literature to contemporary fiction, from historical biographies to science fiction thrillers, the diversity of reading preferences showcased the rich tapestry of interests within the group."
     },
     {
       id: 3,
+      title: "Halloween Party",
+      date: "31st Oct 2023",
+      url: "/events/October 31,2023.jpg",
+      des: "The Halloween event held on October 31st, 2023, by our book club was an unforgettable evening of spooky delights and literary revelry. Hosted by our enthusiastic book club members, the event brought together readers and book lovers in a celebration of all things eerie and enchanting. The venue was transformed into a hauntingly beautiful space, with dimly lit candles casting eerie shadows on the walls adorned with cobwebs and jack-o'-lanterns."
+    },
+    {
+      id: 4,
       title: "Young Poet Award 2023",
       date: "21st May 2023",
       url: "/events/YoungPoetAward1.jpg",
+      des: "Get ready to unleash your inner wordsmith and shine on the poetic stage! Upskilledu is thrilled to announce the upcoming Young Poet Awards, a prestigious event dedicated to celebrating the talent and creativity of young poets from across the globe. Whether you're a seasoned poet or just beginning to explore the world of verse, the Young Poet Awards provide a unique opportunity to showcase your talent, connect with fellow poets, and gain recognition for your work."
     },
   ];
 
@@ -36,53 +45,137 @@ const index = () => {
         <link rel="icon" href="/logo/newlogo1.png" />
       </Head>
       <main>
-      <div>      
-      <Reveal>
-      <div className={styles.bigicontainer}>
-      {/* <div className={styles.bigcontainer}>
-      <div className={styles.text10}>
-        <div className={`${styles.top55}`}>Events</div>
-        <div className={`${styles.middle56} ${styles.text12}`}>Our events are designed to enhance the learning experience and outcomes of our learners and educators, as well as to provide them with opportunities to network, collaborate, and grow.</div>
-        <div className={`${styles.bottom55} ${styles.text13}`}></div>
-      </div>
-      <div className={styles.imgcont10}>
-        <Image className={styles.img10} width={2400} height={1600} src={"/illustrations/4.png"} alt="image"/>
-      </div>
-      </div> */}
+        <div>
+          <Reveal>
+            <div className={styles.bigicontainer}>
+              <div className={styles.headcont}>
+                <div className={styles.mainheading}>Events</div>
+              </div>
+            </div>
+          </Reveal>
 
-<div className={styles.headcont}><div className={styles.mainheading}>Events</div></div>
-      </div>
-    </Reveal>
-      {/* <div className={styles.topcontainer}>
-        <div className={styles.tint}/>
-        <Image className={styles.img} src={'/content/25.jpg'} width={2400} height={1400} alt="img"/>
-          <div className={styles.textcontainer}>
-          <Reveal>
-            <div className={styles.heading1}>Events</div>
-          </Reveal>
-          <Reveal>
-            <div className={styles.text1}>Our events are designed to enhance the learning experience and outcomes of our learners and educators, as well as to provide them with opportunities to network, collaborate, and grow.</div>
-          </Reveal>
+          {/* Event Cards Section */}
+          <div className={styles.eventscards5}>
+            {data.map((data) => (
+              <Reveal key={data.id}>
+                <Link href={`/Event/${data.id}`} className={styles.eventcard5}>
+                  <div className={styles.eventcardimgcontainer2}>
+                    <Image
+                      className={styles.eventcardimg}
+                      src={data.url}
+                      width={400}
+                      height={400}
+                      alt="image"
+                    />
+                  </div>
+                  <div>
+                    <div className={styles.eventtopic1}>{data.title}</div>
+                    <div className={styles.eventtext1}>Date - {data.date}</div>
+                    <div className={styles.eventdes}>
+                      {data.des.slice(0, 150)}...
+                    </div>
+                  </div>
+                </Link>
+              </Reveal>
+            ))}
           </div>
-      </div> */}
-      <div className={styles.eventscards1}>
-      {data.map((data) => (
-        <Reveal>
-        <Link href={`/Event/${data.id}`} className={styles.eventcard}>
-          <div className={styles.eventcardimgcontainer}>
-            <Image className={styles.eventcardimg} src={data.url} width={400} height={400} alt="image"/>
+
+          {/* New Section 1: Why Our Events Stand Out */}
+          <div className={styles.bigcontainer8}>
+            <div className={styles.left8}>
+              <h2 className={styles.heading8}>Why Our Events Stand Out</h2>
+              <p className={styles.text8}>
+                Our events are designed to provide a unique blend of learning
+                and fun. From interactive workshops to cultural celebrations,
+                every event is crafted to enhance your language skills while
+                immersing you in the culture of the language you're learning.
+                Whether it's a spelling bee, a poetry competition, or a
+                Halloween party, our events are memorable experiences that
+                foster community and growth.
+              </p>
+            </div>
+            <div className={styles.imgcont10}>
+              <Image
+                className={styles.img12}
+                src="/illustrations/5 (1).png"
+                width={500}
+                height={400}
+                alt="Why Our Events Stand Out"
+              />
+            </div>
           </div>
-          <div className={styles.eventtopic}>Date - {data.date}</div>
-          <div className={styles.eventtext}>{data.title}</div>
-        </Link>
-      </Reveal>
-      ))}
-      </div>
+
+          {/* New Section 2: Types of Events We Organize */}
+{/* New Section 2: Types of Events We Organize */}
+<div className={styles.bigcontainer9}>
+  <h2 className={styles.heading9}>Types of Events We Organize</h2>
+  <div className={styles.cardsContainer9}>
+    {/* Card 1: Language Workshops */}
+    <div className={styles.card9}>
+      <Image
+        className={styles.cardImage9}
+        src="/illustrations/5 (2).png"
+        width={300}
+        height={200}
+        alt="Language Workshops"
+      />
+      <h3 className={styles.cardTitle}>Language Workshops</h3>
+      <p className={styles.cardText}>
+        Interactive sessions to improve your speaking and writing skills.
+      </p>
     </div>
+
+    {/* Card 2: Cultural Celebrations */}
+    <div className={styles.card9}>
+      <Image
+        className={styles.cardImage9}
+        src="/illustrations/5 (3).png"
+        width={300}
+        height={200}
+        alt="Cultural Celebrations"
+      />
+      <h3 className={styles.cardTitle}>Cultural Celebrations</h3>
+      <p className={styles.cardText}>
+        Experience the traditions and festivals of different cultures.
+      </p>
+    </div>
+
+    {/* Card 3: Competitions */}
+    <div className={styles.card9}>
+      <Image
+        className={styles.cardImage9}
+        src="/illustrations/5 (4).png"
+        width={300}
+        height={200}
+        alt="Competitions"
+      />
+      <h3 className={styles.cardTitle}>Competitions</h3>
+      <p className={styles.cardText}>
+        Spelling bees, debates, and poetry contests to challenge your skills.
+      </p>
+    </div>
+
+    {/* Card 4: Book Clubs */}
+    <div className={styles.card9}>
+      <Image
+        className={styles.cardImage9}
+        src="/illustrations/5 (5).png"
+        width={300}
+        height={200}
+        alt="Book Clubs"
+      />
+      <h3 className={styles.cardTitle}>Book Clubs</h3>
+      <p className={styles.cardText}>
+        Engage in discussions about literature and language.
+      </p>
+    </div>
+  </div>
+</div>
+
+        </div>
       </main>
     </>
+  );
+};
 
-  )
-}
-
-export default index
+export default index;

@@ -56,7 +56,7 @@ const Home = () => {
           <Fromsection />
           <Testimonials />
           {/* <Ourgallery /> */}
-          <Events />
+          {/* <Events /> */}
           <Newsletter />
         </>
       </main>

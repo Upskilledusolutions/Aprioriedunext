@@ -109,26 +109,24 @@ export default function LanguageClub() {
       </div>
     </Reveal>
 
-      <div className={styles.cards23}>
-
-      {data.map(data=><div className={styles.cardcontainer23}>
-        <div className={styles.card23}>
-          <div className={styles.imgcontainer23}>
-            <div className={styles.img23}>
-              <Image className={styles.img23} src={data.url} width={400} height={400} alt="image"/>
-            </div>
-            <div>
-            <div className={styles.name23}>{data.name}</div>
-            <div className={styles.boldtext23}>{data.course}</div>
-            </div>
-          </div>
-          <div>
-            <div className={styles.description23}>{data.desc}</div>
-          </div>
+    <div className={styles.cards23}>
+  {data.map((data) => (
+    <div className={styles.cardcontainer25} key={data.id}>
+        <Image
+          className={styles.img25}
+          src={data.url}
+          width={150}
+          height={150}
+          alt="image"
+        />
+        <div className={styles.content25}>
+          <div className={styles.name25}>{data.name}</div>
+          <div className={styles.boldtext25}>{data.course}</div>
+          <div className={styles.description25}>{data.desc}</div>
         </div>
-        </div>)}
-
-      </div>
+    </div>
+  ))}
+</div>
     </div></main>
     </>
 

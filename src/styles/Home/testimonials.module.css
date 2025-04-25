@@ -1,8 +1,8 @@
 .slidercontainer{
-  padding: 50px 0vw;
+  padding: 50px 0vw 80px;
   margin-left: 0vw;
   position: relative;
-  background-color: var(--blue);
+  background: linear-gradient(135deg, #ffa82f, #ff6f43);
 }
 .background{
   position: absolute;

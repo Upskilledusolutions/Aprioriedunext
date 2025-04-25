@@ -8,18 +8,24 @@ export default function Events() {
   const data = [
     {
       id: 1,
+      title: "Spelling Bee",
+      date: "12th April 2025",
+      url: "/events/spellbee.jpeg",
+    },
+    {
+      id: 2,
       title: "Readers' Salon",
       date: "Sat, 26th Nov 2023 ",
       url: "/events/Podcast Insta.jpg",
     },
     {
-      id: 2,
+      id: 3,
       title: "Halloween Party",
       date: "31st Oct 2023",
       url: "/events/October 31,2023.jpg",
     },
     {
-      id: 3,
+      id: 4,
       title: "Young Poet Award 2023",
       date: "21st May 2023",
       url: "/events/YoungPoetAward1.jpg",
@@ -31,7 +37,7 @@ export default function Events() {
       <Reveal>
       <div className={styles.titlecont}><div className={styles.title}>EVENTS</div></div>
       <div className={styles.cards}>
-      {data.map((data) => (
+      {data.splice(0,3).map((data) => (
         <Reveal>
         <Link href={`/Event/${data.id}`} className={styles.card}>
           <div className={styles.imgcontainer}>
