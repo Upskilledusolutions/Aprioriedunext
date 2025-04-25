@@ -14,7 +14,7 @@ export default function Gamified() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2>Learn Faster With Interactive Language Challenges</h2>
+          <h2>Learn faster with interactive language challenges</h2>
           <p>
             Take your learning to the next level with interactive challenges.
             Compete with friends, improve your skills, and make learning
@@ -59,7 +59,7 @@ export default function Gamified() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2>Keep Track of Your Progress</h2>
+          <h2>Keep track of your progress</h2>
           <p>
             Stay motivated by tracking your progress in real-time. Monitor your
             points, completed exercises, and lessons as you advance through your
@@ -154,7 +154,7 @@ export default function Gamified() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2>Revolutionizing Language Learning through Gamification</h2>
+          <h2>Revolutionizing language learning through gamification</h2>
           <p>
             Our platform combines cutting-edge technology with proven teaching
             methods. Immerse yourself in interactive lessons, track your

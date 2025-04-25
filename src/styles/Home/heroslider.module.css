@@ -101,7 +101,7 @@
     background-color: rgba(0, 0, 0, 0.45);
     z-index: 1000;
     width: 60%;
-    height: 800px;
+    height: 750px;
     padding: 0 20vw;
   }
   .one{
@@ -109,7 +109,7 @@
   }
   .two{
     font-size: 48px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .three{
     font-size: 18px;
