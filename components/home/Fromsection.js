@@ -30,7 +30,7 @@ export default function Fromsection() {
               <Image className={styles.img1} src={"/content/25 (1).jpg"} width={300} height={300} alt="image"/>
               <div className={styles.text3}>
                 <div className={styles.heading1}>Language Club</div>
-                <div className={styles.headingtext1}>learn, practice, and enjoy different languages with other enthusiasts.</div>
+                <div className={styles.headingtext1}>Learn, practice, and enjoy different languages with other enthusiasts.</div>
               </div>
               {/* <div className={styles.extratext}>
                 Practice speaking and writing different languages with others.

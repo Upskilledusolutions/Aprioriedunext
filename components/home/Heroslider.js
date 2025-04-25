@@ -27,17 +27,17 @@ export default function EventsSlider() {
 
   const data = [
     {
-      url: "/illustrations/27 (3).jpg",
+      url: "/hero/7.jpg",
       one: "",
       two: "India's First Ever\n Gamified Language Learning \n Platform",
     },
     {
-      url: "/illustrations/27 (1).jpg",
+      url: "/hero/8.jpg",
       one: "",
       two: "India's First Ever\n Gamified Language Learning \n Platform",
     },
     {
-      url: "/illustrations/27 (2).jpg",
+      url: "/hero/9.jpg",
       one: "",
       two: "India's First Ever\n Gamified Language Learning \n Platform",
     },
