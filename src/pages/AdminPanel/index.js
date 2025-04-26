@@ -72,7 +72,7 @@ export default function Index() {
     <div>
       {loading && <div className={styles.loader}><LoadingSpinner /></div>}
     <div className={styles.bigcontainer}>
-      <div className={styles.heading}><div>Admin Dashboard</div><Link href={'/Payment/Receipt'} className={styles.headbutton}>Create Receipt</Link></div>
+      <div className={styles.heading}><div>Admin Dashboard</div><div className={styles.gap}><Link href={'/Payment/Payslip'} className={styles.headbutton}>Create Pay Slip</Link><Link href={'/Payment/Receipt'} className={styles.headbutton}>Create Receipt</Link></div></div>
       <div className={styles.container}>
         <Left onLanguageSelect={handleLanguageSelection} />
         <div className={styles.righttext}>
