@@ -4,16 +4,16 @@ export const data = [
     "name": "German Speaking Practice 1 (B1)",
     "level": "Intermediate",
     "readingText": [
-      "Der Hund läuft schnell über den belebten Platz.",
-      "Die Katze jagt flink einen kleinen Vogel draußen.",
-      "Ein Mädchen liest ein spannendes Buch im Park.",
-      "Der Lehrer erklärt geduldig schwierige Grammatikregeln im Unterricht.",
-      "Die Schüler diskutieren aktiv über interessante Themen gemeinsam.",
-      "Ein Freund hilft mir bei schwierigen Hausaufgaben regelmäßig.",
-      "Die Familie plant einen entspannten Ausflug am Wochenende.",
-      "Das Restaurant serviert köstliche Gerichte in angenehmer Atmosphäre.",
-      "Der Bus fährt regelmäßig zu den verschiedenen Stadtteilen.",
-      "Ein Künstler malt beeindruckende Bilder in lebendigen Farben."
+"Mein Name ist Anna Becker und ich habe gerade meinen Abschluss in Biologie gemacht.",
+  "Ich komme aus Mumbai und habe an der Universität Chemie studiert und begeistert gearbeitet.",
+  "Während meines Studiums habe ich als Mentor gearbeitet und wichtige internationale Erfahrungen gesammelt.",
+  "In meiner Freizeit spiele ich gerne Basketball und engagiere mich in sozialen Projekten.",
+  "Ich spreche fließend Englisch und habe Grundkenntnisse in Spanisch sowie sehr gute Deutschkenntnisse.",
+  "Meine Stärken sind Teamarbeit, Organisation und analytisches Denken, die mich beruflich immer weiterbringen.",
+  "Zurzeit suche ich ein Praktikum im Bereich Umwelttechnik oder Forschung und innovative Entwicklungen.",
+  "Ich freue mich darauf, mit Ihnen zusammenzuarbeiten und mein Wissen gerne aktiv einzubringen.",
+  "Ich habe während des Studiums an mehreren Projekten teilgenommen und erfolgreich Verantwortung übernommen.",
+  "Nach meinem Abschluss plane ich, im Ausland zu arbeiten und interkulturelle Kompetenzen zu erweitern."
     ]
   },
   {
@@ -21,16 +21,16 @@ export const data = [
     "name": "German Speaking Practice 2 (B1)",
     "level": "Intermediate",
     "readingText": [
-      "Der Regen fiel gestern heftig auf die Straßen.",
-      "Ein starker Wind wehte durch die alten Bäume.",
-      "Die Sonne scheint hell an diesem kühlen Morgen.",
-      "Ein Tourist erkundet heute neugierig die historischen Stadtmauern.",
-      "Die Bibliothek bietet viele interessante Bücher zur Auswahl.",
-      "Ein modernes Museum zeigt jeden Tag beeindruckende Ausstellungen.",
-      "Die Studenten diskutieren lebhaft über wichtige aktuelle Forschungsergebnisse.",
-      "Ein erfahrener Fahrradfahrer trägt stets einen roten Helm.",
-      "Die Nachbarn feiern heute fröhlich das jährliche Straßenfest.",
-      "Ein Musiker spielt abends sanfte Melodien im Park."
+      "Jeden Morgen trinke ich vor dem Frühstück eine Tasse schwarzen Kaffee und lese Nachrichten.",
+  "Nachdem ich zur Universität gefahren bin, besuche ich meistens drei Seminare pro Tag.",
+  "Zwischen den Vorlesungen esse ich einen belegten Vollkornbrot und trinke frisches Leitungswasser.",
+  "Am Nachmittag lerne ich in der Bibliothek für meine Prüfungen und mache Karteikarten.",
+  "Nach dem Studium koche ich oft gesundes Gemüse mit Vollkornreis oder Quinoa zum Abendessen.",
+  "Abends gehe ich regelmäßig joggen, um mich fit zu halten und den Kopf freizubekommen.",
+  "Am Wochenende treffe ich mich mit Freunden im Park und wir spielen Basketball zusammen.",
+  "Vor dem Schlafengehen lese ich jeden Abend ein wissenschaftliches Buch zur persönlichen Weiterbildung.",
+  "Jeden Sonntag plane ich meine Woche, schreibe To-Do-Listen und setze mir realistische Ziele.",
+  "Während der Mittagspause telefoniere ich mit meiner Familie und esse einen grünen Salat."
     ]
   },
   {

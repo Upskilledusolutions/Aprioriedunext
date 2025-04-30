@@ -4,16 +4,16 @@ export const data = [
       name:'German Writing Practice 1 (B1)',
       level:'Beginner',
       firstsent: [
-        "Wo warst du letztes Jahr im Urlaub?",
-        "Was hast du im Urlaub gemacht?",
-        "Erinnerst du dich an deine Kindheit?",
-        "Was ist Ihre schönste Kindheitserinnerung?",
-        "Wo haben Sie Ihren letzten Urlaub verbracht?",
-        "Wann waren Sie zum ersten Mal in Paris?",
-        "Welches bedeutsame Ereignis haben Sie erlebt?",
-        "Was hast du an deinem letzten Geburtstag gemacht?",
-        "Sind Sie jemals in ein anderes Land gereist?",
-        "Welche Spiele hast du als Kind gespielt?"
+  "Wie heißt du und was hast du studiert?",
+  "Woher kommst du und wo wohnst du jetzt?",
+  "Stell bitte kurz deine Familie vor.",
+  "Wen möchtest du deinen Kommiliton*innen als Nächstes vorstellen?",
+  "Was machst du in deiner Freizeit – und was dein Freund/meine Freundin?",
+  "Wie würdest du deinen besten Freund bzw. deine beste Freundin beschreiben?",
+  "Was sind deine beruflichen Ziele nach dem Studium – und die Ziele einer Person, die du bewunderst?",
+  "Wie begrüßt du jemanden formell – und wie informell?",
+  "Wie fragst du nach dem Befinden einer neuen Bekannten – und wie antwortest du höflich?",
+  "Stell dir vor, du präsentierst zwei Kommiliton*innen einander. Wie formulierst du das?"
       ]
     },
     {
@@ -21,16 +21,16 @@ export const data = [
       name:'German Writing Practice 2 (B1)',
       level:'Beginner',
       firstsent: [
-        "Was wirst du morgen machen?",
-        "Wo siehst du dich in fünf Jahren?",
-        "Was sind deine Ambitionen für die Zukunft?",
-        "Was sind deine Pläne für die Ferien?",
-        "Möchtest du ins Ausland reisen?",
-        "Wann beabsichtigst du, dein Studium abzuschließen?",
-        "Welchen Beruf möchtest du ergreifen?",
-        "Warum möchtest du im Ausland leben?",
-        "Wenn du könntest, welchen Beruf würdest du wählen?",
-        "Wie stellst du dir deine Zukunft vor?"
+        "Wann stehst du normalerweise auf?",
+        "Was isst du gewöhnlich zum Frühstück?",
+        "Wie kommst du zur Universität und wie lange dauert die Fahrt?",
+        "Wie verbringst du deine Mittagspause?",
+        "Welche Hausarbeit machst du am liebsten und warum?",
+        "Wie organisierst du dein Lernen für Prüfungen?",
+        "Treibst du regelmäßig Sport? Wenn ja, welchen und wie oft?",
+        "Was machst du abends, um dich zu entspannen?",
+        "Wie planst du deinen nächsten Tag am Abend zuvor?",
+        "Welche Gewohnheit möchtest du in Zukunft ändern oder neu etablieren?"
       ]
     },
     {

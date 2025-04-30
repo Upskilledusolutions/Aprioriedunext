@@ -90,6 +90,15 @@ export const cards = [
       subject: 'GermanA2LA'
     },
     {
+      type: 'germanb1',
+      heading: 'German Beginner (B1)',
+      text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',
+      link: 'GermanListeningB1',
+      data: 'Germanb1',
+      link2: 'GermanListeningAssignmentB1',
+      subject: 'GermanB1LA'
+    },
+    {
       type: 'germanc1',
       heading: 'German Advanced (C1)',
       text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',

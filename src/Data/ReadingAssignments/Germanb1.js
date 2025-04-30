@@ -3,220 +3,221 @@ export const data = [
     "id": "1",
     "name": "German Reading Assignment 1 (B1)",
     "level": "Intermediate",
-    "Title": "Die Auswirkungen der Digitalisierung in Deutschland",
-    "readingText": "Die Digitalisierung verändert die deutsche Gesellschaft in rasantem Tempo. Moderne Technologien revolutionieren Arbeitsprozesse, Bildungswege und den Alltag. Unternehmen setzen verstärkt auf digitale Tools, um wettbewerbsfähig zu bleiben, während öffentliche Institutionen den digitalen Wandel vorantreiben. Gleichzeitig stellen Datenschutz und die digitale Kluft neue Herausforderungen dar. Auch im Bildungsbereich gewinnen E-Learning und virtuelle Klassenzimmer an Bedeutung, was neue Lernmethoden ermöglicht. Trotz dieser Fortschritte bleibt die Frage, wie man alle Bürger gleichermaßen in diesen Wandel einbinden kann, um Chancengleichheit zu gewährleisten.",
+    "Title": "Das Bauhaus – Eine Revolution in Kunst und Design",
+    "readingText": "1921 gründete der Architekt Walter Gropius in Weimar die Kunstschule Bauhaus. Ziel war, Architektur, Kunst und Handwerk zu verbinden und neue, funktionale Formen zu schaffen. Die Schüler lernten Malerei, Bildhauerei, Innenarchitektur und Möbelgestaltung – immer mit dem Fokus auf Minimalismus und Zweckmäßigkeit. 1925 zog das Bauhaus nach Dessau, wo Gropius ein neues Schulgebäude entwarf. Dort entstanden berühmte Entwürfe für Häuser, Lampen und Textilien. Viele Dozenten und Absolventen wirkten später weltweit und prägten die moderne Architektur bis heute. 1933 musste das Bauhaus in Berlin auf Druck der Nationalsozialisten schließen, doch sein Einfluss lebt weiter: In Museen, Städten und Schulen auf der ganzen Welt erinnert man sich an diese wegweisende Verbindung von Kunst, Handwerk und Industrie.",
     "questions": [
       {
-        "question": "Welche Veränderung wird durch die Digitalisierung besonders hervorgehoben?",
+        "question": "Wer gründete 1921 das Bauhaus?",
         "choices": [
-          "Traditionelle Arbeitsmethoden bleiben unverändert",
-          "Die Einführung virtueller Klassenzimmer",
-          "Die Reduzierung von Bürokratie",
-          "Der Rückgang der Internetnutzung"
+          "Ludwig Mies van der Rohe",
+          "Walter Gropius",
+          "Paul Klee",
+          "Wassily Kandinsky"
         ],
         "correctAnswer": 1
       },
       {
-        "question": "Was stellt eine neue Herausforderung dar?",
+        "question": "In welcher Stadt begann das Bauhaus seinen Betrieb?",
         "choices": [
-          "Erhöhte Datenschutzbedenken",
-          "Ein Rückgang des digitalen Fortschritts",
-          "Mehr manuelle Arbeitsprozesse",
-          "Die Abschaffung des Internets"
-        ],
-        "correctAnswer": 0
-      },
-      {
-        "question": "Wie reagieren Unternehmen auf den digitalen Wandel?",
-        "choices": [
-          "Sie ignorieren digitale Tools",
-          "Sie setzen verstärkt auf digitale Technologien",
-          "Sie kehren zu traditionellen Methoden zurück",
-          "Sie reduzieren ihre IT-Investitionen"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Welcher Bereich profitiert vom E-Learning?",
-        "choices": [
-          "Der Einzelhandel",
-          "Der Bildungsbereich",
-          "Die Landwirtschaft",
-          "Das verarbeitende Gewerbe"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Was wird als zentral für Chancengleichheit gesehen?",
-        "choices": [
-          "Die Abschaffung der digitalen Medien",
-          "Die gleichmäßige Einbindung aller Bürger in den digitalen Wandel",
-          "Die Konzentration auf traditionelle Bildung",
-          "Die Reduzierung digitaler Infrastruktur"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Welche Technologie wird im Text als zunehmend wichtig erwähnt?",
-        "choices": [
-          "Dampfmaschinen",
-          "Virtuelle Klassenzimmer",
-          "Mechanische Schreibmaschinen",
-          "Analogtelefone"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Welche Frage bleibt offen angesichts des digitalen Wandels?",
-        "choices": [
-          "Wie man digitale Tools abschafft",
-          "Wie man alle Bürger einbindet",
-          "Wie man Internetzugang reduziert",
-          "Wie man manuelle Prozesse wieder einführt"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Welcher Sektor erfährt laut Text signifikante Veränderungen?",
-        "choices": [
-          "Die Modeindustrie",
-          "Der öffentliche Sektor",
-          "Die traditionelle Landwirtschaft",
-          "Der Bausektor"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Was ist ein zentrales Thema im Text?",
-        "choices": [
-          "Die Abschaffung digitaler Medien",
-          "Der digitale Wandel und seine Herausforderungen",
-          "Die Rückkehr zur Analogtechnik",
-          "Die Stabilität alter Arbeitsprozesse"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Wie verändert die Digitalisierung die Arbeitswelt?",
-        "choices": [
-          "Sie führt zu einer Rückkehr zu manuellen Prozessen",
-          "Sie revolutioniert Arbeitsprozesse durch digitale Tools",
-          "Sie verlangsamt den Arbeitsablauf",
-          "Sie eliminiert die Notwendigkeit für Weiterbildung"
-        ],
-        "correctAnswer": 1
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "name": "German Reading Assignment 2 (B1)",
-    "level": "Intermediate",
-    "Title": "Die Bedeutung erneuerbarer Energien in Deutschland",
-    "readingText": "Deutschland investiert verstärkt in erneuerbare Energien, um die Umwelt zu schützen und die Energieversorgung zu sichern. Windkraft, Solarenergie und Biomasse gewinnen immer mehr an Bedeutung, da sie dazu beitragen, fossile Brennstoffe zu ersetzen und die CO2-Emissionen zu senken. Politische Förderprogramme und technologische Innovationen spielen hierbei eine zentrale Rolle. Trotz einiger Herausforderungen wie schwankender Energieerzeugung und Infrastrukturengpässen zeigt sich, dass die Umstellung auf erneuerbare Energien ein wesentlicher Schritt in Richtung nachhaltiger Entwicklung ist.",
-    "questions": [
-      {
-        "question": "Welche Energiequelle wird in Deutschland besonders gefördert?",
-        "choices": [
-          "Öl",
-          "Windenergie",
-          "Kernenergie",
-          "Erdgas"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Warum investiert Deutschland in erneuerbare Energien?",
-        "choices": [
-          "Um traditionelle Energieträger zu stärken",
-          "Um den Klimawandel zu bekämpfen",
-          "Um die Preise zu erhöhen",
-          "Um den Export zu reduzieren"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Welche Herausforderung besteht beim Ausbau erneuerbarer Energien?",
-        "choices": [
-          "Die stabile Energieversorgung",
-          "Schwankende Energieerzeugung",
-          "Erhöhte CO2-Emissionen",
-          "Mangel an erneuerbaren Ressourcen"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Was ist ein Vorteil erneuerbarer Energien?",
-        "choices": [
-          "Hohe Umweltbelastung",
-          "Unerschöpfliche Energiequelle",
-          "Hohe Kosten im Vergleich",
-          "Abhängigkeit von fossilen Brennstoffen"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Welche Technologie wird zur Nutzung von Solarenergie eingesetzt?",
-        "choices": [
-          "Thermische Kraftwerke",
-          "Photovoltaik",
-          "Windturbinen",
-          "Wasserkraftwerke"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Wie unterstützt die Politik den Ausbau erneuerbarer Energien?",
-        "choices": [
-          "Mit Steuererhöhungen",
-          "Mit Subventionen für fossile Brennstoffe",
-          "Mit Förderprogrammen",
-          "Mit Importbeschränkungen"
+          "Dessau",
+          "Berlin",
+          "Weimar",
+          "München"
         ],
         "correctAnswer": 2
       },
       {
-        "question": "Was trägt zur Energieeffizienz bei?",
+        "question": "Welches Konzept stand im Zentrum der Bauhaus-Lehre?",
         "choices": [
-          "Modernisierung der Infrastruktur",
-          "Veraltete Technologien",
-          "Erhöhter Energieverbrauch",
-          "Mangel an Innovation"
+          "Historismus und Ornament",
+          "Funktionalität und Minimalismus",
+          "Romantik und Gefühl",
+          "Barocke Opulenz"
         ],
-        "correctAnswer": 0
+        "correctAnswer": 1
       },
       {
-        "question": "Wie wird die Versorgungssicherheit gewährleistet?",
+        "question": "1925 verlegte die Schule ihren Standort nach …",
         "choices": [
-          "Durch den Ausbau von Speichersystemen",
-          "Durch den Verzicht auf erneuerbare Energien",
-          "Durch die Reduktion der Netzkapazitäten",
-          "Durch Importe aus dem Ausland"
+          "München",
+          "Hamburg",
+          "Köln",
+          "Dessau"
         ],
-        "correctAnswer": 0
+        "correctAnswer": 3
       },
       {
-        "question": "Was ist eine mögliche negative Folge des Ausbaus?",
+        "question": "Welcher Bereich gehörte nicht zum Unterrichtsprogramm?",
         "choices": [
-          "Landschaftsveränderungen",
-          "Verbesserung der Umwelt",
-          "Erhöhung der Biodiversität",
-          "Reduzierung des Energieverbrauchs"
+          "Möbelgestaltung",
+          "Innenarchitektur",
+          "Textilkunst",
+          "Musikkomposition"
         ],
-        "correctAnswer": 0
+        "correctAnswer": 3
       },
       {
-        "question": "Welcher Sektor profitiert direkt von erneuerbaren Energien?",
+        "question": "Warum schloss das Bauhaus 1933 endgültig?",
         "choices": [
-          "Der Energiesektor",
-          "Der Finanzsektor",
-          "Die Landwirtschaft",
-          "Die Textilindustrie"
+          "Finanzielle Probleme",
+          "Interner Streit unter Dozenten",
+          "Druck der Nationalsozialisten",
+          "Umzug nach Amerika"
         ],
-        "correctAnswer": 0
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches Merkmal kennzeichnete die Bauhaus-Entwürfe?",
+        "choices": [
+          "Überladene Verzierungen",
+          "Funktionalität und klare Linien",
+          "Rustikale Materialien",
+          "Traditionalistische Formen"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie wirkte sich das Bauhaus nach 1933 aus?",
+        "choices": [
+          "Es geriet in völlige Vergessenheit.",
+          "Es beeinflusste die moderne Architektur weltweit.",
+          "Es änderte seinen Namen in „Neue Schule“.",
+          "Es wurde in Japan neu eröffnet."
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welcher Aspekt wurde im Text besonders hervorgehoben?",
+        "choices": [
+          "Die Musikfakultät",
+          "Der Einfluss auf das Handwerk",
+          "Die geheimen Rituale",
+          "Die Verbindung mit der Industrie"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Wo erinnert man sich heute an das Bauhaus?",
+        "choices": [
+          "Nur in Deutschland",
+          "In Museen und Städten weltweit",
+          "Ausschließlich in Weimar",
+          "Nur in Architekturbüros"
+        ],
+        "correctAnswer": 1
       }
     ]
   },
+  
+  {
+    "id": "2",
+    "name": "German Reading Assignment 2 (B1)",
+    "level": "Intermediate",
+    "Title": "Die Brüder Grimm - Pioniere der Germanistik und Volkskunde",
+    "readingText": "Jacob und Wilhelm Grimm, geboren Anfang des 19. Jahrhunderts in Hanau, gelten als Pioniere der Germanistik und Volkskunde. Ihr Hauptwerk, die „Kinder- und Hausmärchen“, erschien erstmals 1812 und versammelt über zweihundert Erzählungen, die sie auf Feldforschungen in ganz Deutschland sammelten. Die Märchen spiegeln die Lebenswelt und Moralvorstellungen des bäuerlichen Milieus wider und verbanden ursprüngliche Volksüberlieferung mit literarischem Feinschliff. Berühmte Geschichten wie „Rotkäppchen“, „Hänsel und Gretel“ oder „Schneewittchen“ haben längst den Sprung in unzählige Sprachen und Kulturen geschafft. Die Brüder Grimm legten zudem wertvolle Grundlagen für die moderne Sprachwissenschaft: Ihre Arbeit an der deutschen Grammatik und dem großen Wörterbuch prägte die Forschung bis weit ins 20. Jahrhundert hinein. Heute erinnert man in Museen, Gedenkstätten und Festivals an das vielseitige Erbe der Grimms.",
+    "questions": [
+      {
+        "question": "Wo wurden Jacob und Wilhelm Grimm geboren?",
+        "choices": [
+          "Berlin",
+          "München",
+          "Hanau",
+          "Leipzig"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "In welchem Jahr erschien die erste Ausgabe der „Kinder- und Hausmärchen“?",
+        "choices": [
+          "1805",
+          "1812",
+          "1825",
+          "1837"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Wie viele Erzählungen enthält die ursprüngliche Sammlung ungefähr?",
+        "choices": [
+          "etwa 50",
+          "etwa 100",
+          "über 200",
+          "über 300"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welche der folgenden Geschichten gehört NICHT zu den Grimm’schen Märchen?",
+        "choices": [
+          "Rotkäppchen",
+          "Hänsel und Gretel",
+          "Aschenputtel",
+          "Schneewittchen"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welches Ziel verfolgten die Brüder Grimm mit ihren Märchensammlungen?",
+        "choices": [
+          "reine Unterhaltung ohne wissenschaftlichen Anspruch",
+          "literarisches Schreiben im Barockstil",
+          "Bewahrung der Volksüberlieferung",
+          "Übersetzung aus dem Englischen"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Neben den Märchen erstellten die Brüder Grimm auch grundlegende Werke zu…",
+        "choices": [
+          "französischer Literatur",
+          "deutscher Grammatik und Wörterbuch",
+          "italienischer Oper",
+          "antiker Philosophie"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Welche Arbeitsmethode nutzten sie, um ihre Sammlung zu vervollständigen?",
+        "choices": [
+          "Archivarbeit in Bibliotheken",
+          "Interviews mit Zeitzeugen",
+          "Feldforschung in Dörfern",
+          "Experimente im Labor"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Welcher Bereich der Wissenschaft profitierte besonders von ihrer Arbeit?",
+        "choices": [
+          "Biologie",
+          "Chemie",
+          "Linguistik",
+          "Astronomie"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Woran erinnert heute in Deutschland an das Erbe der Brüder Grimm?",
+        "choices": [
+          "nur wissenschaftliche Publikationen",
+          "Museen, Gedenkstätten und Festivals",
+          "nationale Feiertage",
+          "Universitätsabschlüsse"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Was zeichnet den Erzählstil der Grimm’schen Märchen aus?",
+        "choices": [
+          "komplexe psychologische Analysen",
+          "barocke Prachtentfaltung",
+          "Moralische Lehre und einfache Sprache",
+          "strenge Prosagedichte"
+        ],
+        "correctAnswer": 2
+      }
+    ]
+  },  
   {
     "id": "3",
     "name": "German Reading Assignment 3 (B1)",

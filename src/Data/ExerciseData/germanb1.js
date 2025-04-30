@@ -6,243 +6,243 @@ export const quiz = [
       topic: 'Mixed',
       questions: [
         {
-          "question": "Welches reflexive Verb bedeutet „sich entspannen“?",
-          "choices": ["sich freuen", "sich beeilen", "sich erholen", "sich ärgern"],
-          "type": "MCQs",
-          "correctAnswer": 3
-        },
-        {
-          "question": "Welches Verb ist reflexiv?",
-          "choices": ["gehen", "schlafen", "sich interessieren", "kaufen"],
-          "type": "MCQs",
-          "correctAnswer": 3
-        },
-        {
-          "question": "Welche Antwort ist richtig? „Ich ____ mich über die gute Nachricht.“",
-          "choices": ["ärgere", "freue", "entspanne", "beschwere"],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Was ist das Gegenteil von „schüchtern“?",
-          "choices": ["selbstbewusst", "klug", "fleißig", "faul"],
+          "question": "Ich ___ (sich waschen) jeden Morgen.",
+          "choices": ["wasche mich", "wasche dich", "wäscht sich", "waschen uns"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "Was ist das Gegenteil von „geduldig“?",
-          "choices": ["egoistisch", "freundlich", "ungeduldig", "klug"],
-          "type": "MCQs",
-          "correctAnswer": 3
-        },
-        {
-          "question": "Welches Adjektiv beschreibt eine freundliche Person?",
-          "choices": ["ehrlich", "geduldig", "egoistisch", "schüchtern"],
+          "question": "Du ___ (sich freuen) auf das Wochenende.",
+          "choices": ["freuet euch", "freust dich", "freue mich", "freut sich"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Welches Wort bedeutet „hardworking“?",
-          "choices": ["faul", "klug", "fleißig", "großzügig"],
+          "question": "Er ___ (sich interessieren) sehr für Musik.",
+          "choices": ["interessiere mich", "interessiert sich", "interessierst dich", "interessieren uns"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Wir ___ (sich setzen) auf den Stuhl.",
+          "choices": ["setzt euch", "setze mich", "setzen uns", "setzt sich"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "Welche Form ist richtig? „Er ____ sich auf die Prüfung vor.“",
-          "choices": ["bereitet", "bereiten", "vorbereitet", "bereite"],
+          "question": "Ihr ___ (sich vorstellen) das Projekt?",
+          "choices": ["stellt euch vor", "stelle mich vor", "stellt sich vor", "stellt uns vor"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "Welche Form ist richtig? „Ihr ____ euch im Park.“",
-          "choices": ["treffen", "triffst", "trifft", "trefft"],
-          "type": "MCQs",
-          "correctAnswer": 4
-        },
-        {
-          "question": "Welche Antwort ist korrekt? „Sie ____ sich oft in der Bibliothek.“",
-          "choices": ["siehst", "sieht", "sehen", "treffen"],
+          "question": "Sie (Pl.) ___ (sich treffen) jeden Freitag.",
+          "choices": ["trifft sich", "trefft euch", "treffen sich", "treffen uns"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "Was bedeutet „egoistisch“?",
-          "choices": ["generous", "selfish", "shy", "lazy"],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Welche Antwort ist korrekt? „Ich ____ mich im Spiegel.“",
-          "choices": ["anschauen", "ansehe", "ansiehst", "ansieht"],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Was ist das Gegenteil von „fleißig“?",
-          "choices": ["faul", "großzügig", "ehrlich", "klug"],
+          "question": "Ich ___ (sich verabreden) heute mit meinem Freund.",
+          "choices": ["verabrede mich", "verabredet sich", "verabredest dich", "verabreden uns"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "Welche Antwort ist richtig? „Er ____ sich die Haare.“",
-          "choices": ["wäscht", "wasche", "wäschst", "waschen"],
-          "type": "MCQs",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Welche Antwort ist korrekt? „Sie ____ sich oft über Politik.“",
-          "choices": ["unterhalten", "unterhält", "unterhältst", "unterhalte"],
+          "question": "Du ___ (sich erinnern) an den Namen?",
+          "choices": ["erinnert euch", "erinnerst dich", "erinnere mich", "erinnern uns"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Was bedeutet „schüchtern“?",
-          "choices": ["lazy", "shy", "honest", "friendly"],
+          "question": "Er ___ (sich beruhigen), bevor er spricht.",
+          "choices": ["beruhige mich", "beruhigt sich", "beruhigst dich", "beruhigen uns"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Welche Antwort ist richtig? „Ich ____ mich auf die Reise.“",
-          "choices": ["freuen", "freue", "freust", "freut"],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Was bedeutet „selbstbewusst“?",
-          "choices": ["patient", "hardworking", "confident", "lazy"],
+          "question": "Wir ___ (sich umziehen) nach der Arbeit.",
+          "choices": ["ziehst dich um", "zieht sich um", "ziehen uns um", "ziehen sich um"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "Welches Verb ist reflexiv?",
-          "choices": ["laufen", "sich kämmen", "trinken", "schlafen"],
+          "question": "Susanne ist sehr ____.",
+          "choices": ["großzügig", "großzügiger", "großzügige", "großzügiges"],
           "type": "MCQs",
-          "correctAnswer": 2
+          "correctAnswer": 1
         },
         {
-          "question": "Welche Antwort ist richtig? „Ich ____ mich nicht so oft.“",
-          "choices": ["kämme", "kämmt", "kämmst", "kämmen"],
+          "question": "Ich finde ihn ____.",
+          "choices": ["sympathisch", "sympathischer", "sympathische", "sympathisches"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sie wirkt etwas ____.",
+          "choices": ["schüchtern", "schüchterne", "schüchterner", "schüchternes"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Er ist immer ____.",
+          "choices": ["pünktlich", "pünktliche", "pünktlicher", "pünktlichste"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Meine Tante ist sehr ____.",
+          "choices": ["kreativ", "kreativer", "kreative", "kreatives"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Er ist ein ____ Mensch.",
+          "choices": ["zuverlässiger", "zuverlässig", "zuverlässige", "zuverlässiges"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Das Kind ist ____ als du.",
+          "choices": ["nervöser", "nervös", "nervösen", "nervöseste"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sie hat eine ____ Figur.",
+          "choices": ["schlanke", "schlank", "schlankes", "schlanken"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Er hat ____ Haut.",
+          "choices": ["helle", "heller", "helles", "hellen"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Wir sind sehr ____ über das Ergebnis.",
+          "choices": ["zufrieden", "zufriedener", "zufriedene", "zufriedenes"],
           "type": "MCQs",
           "correctAnswer": 1
         },
        
         {
-          "question": "Ich ______ mich jeden Morgen um 7 Uhr. (aufstehen)",
-          "choices": ["stehe"],
+          "question": "Ich ______ (sich erinnern) immer an meine Kindheit.",
+          "choices": ["erinnere mich"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Du ______ dich über die schlechte Note. (ärgern)",
-          "choices": ["ärgerst"],
+          "question": "Du ______ (sich beeilen), sonst verpassen wir den Zug.",
+          "choices": ["beeilst dich"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Mein Bruder ______ sich sehr für Musik. (interessieren)",
-          "choices": ["interessiert"],
+          "question": "Er ______ (sich freuen) auf das Konzert.",
+          "choices": ["freut sich"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ihr ______ euch immer über Fußball. (unterhalten)",
-          "choices": ["unterhaltet"],
+          "question": "Wir ______ (sich entspannen) am Wochenende gerne.",
+          "choices": ["entspannen uns"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Wir ______ uns auf die Reise nach Deutschland. (freuen)",
-          "choices": ["freuen"],
+          "question": "Ihr ______ (sich kämmen) nie vor der Arbeit?",
+          "choices": ["kämmt euch"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Warum ______ du dich so schlecht? (fühlen)",
-          "choices": ["fühlst"],
+          "question": "Sie (Einzahl) ______ (sich vorstellen) ihren neuen Kollegen.",
+          "choices": ["stellt sich"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Meine Eltern ______ sich über meine Noten. (freuen)",
-          "choices": ["freuen"],
+          "question": "Ich ______ (sich ärgern) oft über den Verkehr.",
+          "choices": ["ärgere mich"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Er ______ sich im Spiegel. (ansehen)",
-          "choices": ["sieht"],
+          "question": "Du ______ (sich interessieren) für deutsche Literatur?",
+          "choices": ["interessierst dich"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Sie ______ sich oft in der Bibliothek. (treffen)",
-          "choices": ["treffen"],
+          "question": "Er ______ (sich umziehen), bevor er zur Party geht.",
+          "choices": ["zieht sich um"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ich ______ mich auf den Test nicht gut vorbereitet. (haben)",
-          "choices": ["habe"],
+          "question": "Wir ______ (sich verletzen) manchmal beim Sport.",
+          "choices": ["verletzen uns"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Kannst du dich bitte ______? (beeilen)",
-          "choices": ["beeilen"],
+          "question": "Maria ist sehr ______ (groß).",
+          "choices": ["groß"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Sie ______ sich sehr über das Geschenk. (freuen)",
-          "choices": ["freut"],
+          "question": "Thomas hat ______ (lockig) Haare.",
+          "choices": ["lockige"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ihr ______ euch auf das Konzert. (freuen)",
-          "choices": ["freut"],
+          "question": "Sie ist eine ______ (ehrlich) Person.",
+          "choices": ["ehrliche"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ich ______ mich für Geschichte. (interessieren)",
-          "choices": ["interessiere"],
+          "question": "Er ist immer ______ (pünktlich).",
+          "choices": ["pünktlich"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Sie ______ sich jeden Tag die Haare. (waschen)",
-          "choices": ["waschen"],
+          "question": "Meine Schwester ist sehr ______ (sportlich).",
+          "choices": ["sportlich"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Wir ______ uns in der Stadt. (verlieren)",
-          "choices": ["verlieren"],
+          "question": "Er wirkt auf andere eher ______ (schüchtern).",
+          "choices": ["schüchtern"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ich ______ mich nicht so oft. (kämmen)",
-          "choices": ["kämme"],
+          "question": "Anna ist sehr ______ (großzügig).",
+          "choices": ["großzügig"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Er ______ sich mit seinen Kollegen. (streiten)",
-          "choices": ["streitet"],
+          "question": "Peter ist sehr ______ (fleißig).",
+          "choices": ["fleißig"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Maria ______ sich für Mode. (interessieren)",
-          "choices": ["interessiert"],
+          "question": "Sie ist sehr ______ (sympathisch).",
+          "choices": ["sympathisch"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Warum ______ du dich so? (beschweren)",
-          "choices": ["beschwerst"],
+          "question": "Sie hat eine ______ (schlank) Figur.",
+          "choices": ["schlanke"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
@@ -309,243 +309,343 @@ export const quiz = [
       topic: 'Mixed',
       questions: [
         {
-          "question": "What time do you usually wake up?",
-          "choices": ["Um 6 Uhr", "Um 7 Uhr", "Um 8 Uhr", "Um 9 Uhr"],
+          "question": "Which sentence correctly places a time expression at the beginning with the verb second?",
+          "choices": [
+            "Ich gehe morgen ins Kino.",
+            "Morgen gehe ich ins Kino.",
+            "Morgen ich gehe ins Kino.",
+            "Ich morgen gehe ins Kino."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence correctly uses “jeden Tag” at the beginning?",
+          "choices": [
+            "Jeden Tag macht er Sport.",
+            "Er macht jeden Tag Sport.",
+            "Sport macht er jeden Tag.",
+            "Macht er jeden Tag Sport?"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly orders time expression, verb, subject for “On Monday I wash the dishes”?",
+          "choices": [
+            "Am Montag spüle ich.",
+            "Am Montag spüle ich das Geschirr ab.",
+            "Spüle ich am Montag das Geschirr ab.",
+            "Ich spüle am Montag das Geschirr ab."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Which sentence correctly uses the separable verb “aufstehen” with a time expression?",
+          "choices": [
+            "Morgens stehe ich früh auf.",
+            "Ich stehe morgens früh auf.",
+            "Morgens ich stehe früh auf.",
+            "Stehe Morgens ich auf."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Identify the correct sentence: “I always vacuum in the evening.”",
+          "choices": [
+            "Ich staubsauge immer abends.",
+            "Immer staubsauge ich abends.",
+            "Abends staubsauge ich immer.",
+            "Staubsauge ich abends immer?"
+          ],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "How often do you clean the house?",
-          "choices": ["Täglich", "Jeden Tag", "Jeden Samstag", "Jeden Monat"],
+          "question": "Choose the correct sentence: “On Fridays we do the laundry.”",
+          "choices": [
+            "Freitags waschen wir die Wäsche.",
+            "Wir waschen freitags die Wäsche.",
+            "Die Wäsche waschen wir freitags.",
+            "Waschen wir freitags die Wäsche?"
+          ],
           "type": "MCQs",
-          "correctAnswer": 4
+          "correctAnswer": 1
         },
         {
-          "question": "What is the German word for 'to wash'?",
-          "choices": ["Waschen", "Putzen", "Kochen", "Fahren"],
+          "question": "Which sentence is correct? “Tomorrow I have to clean the bathroom.”",
+          "choices": [
+            "Morgen muss ich das Bad putzen.",
+            "Ich muss morgen das Bad putzen.",
+            "Morgen muss putzen ich das Bad.",
+            "Putzen ich morgen das Bad muss."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which is the correct German for “At 6 PM, he makes dinner”?",
+          "choices": [
+            "Um 18 Uhr macht er das Abendessen.",
+            "Er macht um 18 Uhr das Abendessen.",
+            "Abendessen macht er um 18 Uhr.",
+            "Er Abendessen macht um 18 Uhr."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which sentence correctly uses “Mittwochs” and the separable verb for “takes out the trash”?",
+          "choices": [
+            "Mittwochs bringt sie den Müll raus.",
+            "Sie bringt mittwochs den Müll raus.",
+            "Sie mittwochs bringt den Müll raus.",
+            "Mittwochs sie bringt den Müll raus."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Choose the correct word order: “Later I iron my clothes.”",
+          "choices": [
+            "Später bügle ich meine Kleidung.",
+            "Ich bügle später meine Kleidung.",
+            "Später ich bügle meine Kleidung.",
+            "Meine Kleidung bügle ich später."
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Which verb means “to vacuum”?",
+          "choices": [
+            "spülen",
+            "staubsaugen",
+            "kehren",
+            "aufräumen"
+          ],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "When do you usually go to work?",
-          "choices": ["Jeden Morgen", "Jeden Sonntag", "Jeden Tag", "Am Abend"],
+          "question": "What is the German for “to do the laundry”?",
+          "choices": [
+            "bügeln",
+            "abwaschen",
+            "Wäsche waschen",
+            "sauber machen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "How do you say “to make the bed” in German?",
+          "choices": [
+            "das Bett machen",
+            "das Bett putzen",
+            "die Bettdecke ändern",
+            "Bett bauen"
+          ],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "What is the correct word order for: 'Ich _______ immer am Morgen.' (trinken)",
-          "choices": ["Ich trinke immer am Morgen.", "Ich immer trinke am Morgen.", "Immer trinke ich am Morgen.", "Trinke ich immer am Morgen."],
-          "type": "MCQs",
-          "correctAnswer": 1
-        },
-        {
-          "question": "How do you say 'I cook every Sunday' in German?",
-          "choices": ["Ich koche jeden Sonntag.", "Jeden Sonntag koche ich.", "Ich jeden Sonntag koche.", "Koche ich jeden Sonntag."],
-          "type": "MCQs",
-          "correctAnswer": 1
-        },
-        {
-          "question": "What do you usually do in the afternoon?",
-          "choices": ["Ich gehe spazieren.", "Ich lese ein Buch.", "Ich arbeite.", "Alle oben genannten."],
-          "type": "MCQs",
-          "correctAnswer": 4
-        },
-        {
-          "question": "What is the German word for 'vacuuming'?",
-          "choices": ["Staubsaugen", "Waschen", "Kochen", "Feuern"],
-          "type": "MCQs",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Which of these activities is typically done at night?",
-          "choices": ["Lesen", "Schlafen", "Kochen", "Staubsaugen"],
+          "question": "Which verb best completes: “Jeden Morgen ____ ich eine Tasse Tee.”",
+          "choices": [
+            "koche",
+            "trinke",
+            "esse",
+            "backe"
+          ],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "What is the word order in the sentence: 'Ich ___________ immer nach der Arbeit spazieren.' (gehen)",
-          "choices": ["Ich gehe immer nach der Arbeit spazieren.", "Ich nach der Arbeit gehe immer spazieren.", "Immer gehe ich nach der Arbeit spazieren.", "Nach der Arbeit gehe ich immer spazieren."],
+          "question": "Which of the following is NOT a household chore?",
+          "choices": [
+            "staubsaugen",
+            "kochen",
+            "lesen",
+            "gießen"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Which word means “to dust”?",
+          "choices": [
+            "Staub wischen",
+            "wischen",
+            "wachen",
+            "drücken"
+          ],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "Which sentence is correct for 'I always drink coffee in the morning'?",
-          "choices": ["Ich immer trinke Kaffee am Morgen.", "Ich trinke immer Kaffee am Morgen.", "Am Morgen trinke ich Kaffee immer.", "Ich trinke Kaffee am Morgen immer."],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "What time does 'Er geht um 8 Uhr zur Arbeit' mean?",
-          "choices": ["He goes to work at 6 AM.", "He goes to work at 8 AM.", "He goes to work at 7 AM.", "He goes to work at 9 AM."],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "How do you say 'We do the housework on Saturday'?",
-          "choices": ["Wir machen das Hausarbeit am Samstag.", "Wir machen das Hausarbeit jeden Samstag.", "Wir machen Samstag das Hausarbeit.", "Wir am Samstag das Hausarbeit machen."],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Which sentence correctly expresses a daily activity?",
-          "choices": ["Ich esse jeden Tag Mittagessen.", "Ich essen jeden Tag Mittagessen.", "Jeden Tag esse ich Mittagessen.", "Alle oben genannten."],
-          "type": "MCQs",
-          "correctAnswer": 4
-        },
-        {
-          "question": "What is the German word for 'garden'?",
-          "choices": ["Garten", "Park", "Küche", "Wohnzimmer"],
+          "question": "What does “einkaufen gehen” mean?",
+          "choices": [
+            "to go shopping",
+            "to bake",
+            "to clean",
+            "to fix"
+          ],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "How often do you clean the dishes in German?",
-          "choices": ["Jeden Tag", "Einmal pro Woche", "Jeden Monat", "Jeden Abend"],
-          "type": "MCQs",
-          "correctAnswer": 1
-        },
-        {
-          "question": "What is the word for 'to iron' in German?",
-          "choices": ["Bügeln", "Waschen", "Feuern", "Kochen"],
-          "type": "MCQs",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Which of these sentences uses correct word order?",
-          "choices": ["Ich arbeite am Montag.", "Am Montag arbeite ich.", "Ich am Montag arbeite.", "Alle oben genannten."],
-          "type": "MCQs",
-          "correctAnswer": 4
-        },
-        {
-          "question": "What is the proper word order for: 'Ich _______ am Abend mit Freunden.' (treffen)",
-          "choices": ["Ich treffe am Abend mit Freunden.", "Am Abend treffe ich mit Freunden.", "Mit Freunden treffe ich am Abend.", "Am Abend mit Freunden treffe ich."],
+          "question": "Which verb means “to cook”?",
+          "choices": [
+            "essen",
+            "kochen",
+            "braten",
+            "backen"
+          ],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "What does 'Wir kochen immer nach der Arbeit' mean?",
-          "choices": ["We cook before work.", "We cook after work.", "We cook every morning.", "We cook on the weekend."],
+          "question": "Which phrase means “to tidy up the room”?",
+          "choices": [
+            "das Zimmer putzen",
+            "das Zimmer aufräumen",
+            "das Zimmer bauen",
+            "das Zimmer waschen"
+          ],
           "type": "MCQs",
           "correctAnswer": 2
+        },
+        {
+          "question": "Which verb best completes: “Am Abend ____ ich oft ein Bad.”",
+          "choices": [
+            "nehme",
+            "mache",
+            "gehe",
+            "bringe"
+          ],
+          "type": "MCQs",
+          "correctAnswer": 1
         },
        
         {
-          "question": "Ich ______ um 7 Uhr auf. (aufstehen)",
-          "choices": ["stehe"],
+          "question": "Gestern Abend ______ ich oft fern.",
+          "choices": ["sehe"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Wir ______ jeden Samstag das Haus. (putzen)",
-          "choices": ["putzen"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Er ______ nach der Arbeit in den Supermarkt. (gehen)",
-          "choices": ["geht"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Sie ______ jeden Morgen um 8 Uhr zur Arbeit. (fahren)",
-          "choices": ["fährt"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Wir ______ oft abends fern. (sehen)",
-          "choices": ["sehen"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Am Sonntag ______ wir in den Park. (gehen)",
-          "choices": ["gehen"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Du ______ den Tisch immer um 13 Uhr. (decken)",
-          "choices": ["deckst"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Ich ______ nach dem Mittagessen ein Nickerchen. (machen)",
-          "choices": ["mache"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Jeden Tag ______ er um 6 Uhr aus dem Haus. (gehen)",
-          "choices": ["geht"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "(spielen) ______ wir heute Abend eine Runde Tischtennis? ",
-          "choices": ["Spielen"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Er ______ jeden Tag nach der Schule seine Hausaufgaben. (machen)",
-          "choices": ["macht"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Wir ______ am Wochenende oft im Garten. (arbeiten)",
-          "choices": ["arbeiten"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Sie ______ nie spät ins Bett. (gehen)",
-          "choices": ["geht"],
-          "type": "FillInTheBlanks",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Ich ______ jeden Freitag meine Wäsche. (waschen)",
+          "question": "Am Samstag ______ ich die Wäsche.",
           "choices": ["wasche"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Wir ______ immer nach der Arbeit spazieren. (gehen)",
-          "choices": ["gehen"],
+          "question": "Jeden Morgen ______ er sein Bett.",
+          "choices": ["macht"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Am Montag ______ ich mit der Arbeit. (beginnen)",
-          "choices": ["beginne"],
+          "question": "Mittags ______ wir zusammen.",
+          "choices": ["essen"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Er ______ jeden Morgen eine Tasse Kaffee. (trinken)",
-          "choices": ["trinkt"],
+          "question": "Abends ______ ich meistens Hausaufgaben.",
+          "choices": ["mache"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Sie ______ jeden Samstag das Auto. (waschen)",
-          "choices": ["wäscht"],
+          "question": "Ich ______ jeden Tag den Boden.",
+          "choices": ["fege"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "Ich ______ heute Nachmittag meine E-Mails. (lesen)",
+          "question": "Am Abend ______ meine Mutter das Abendessen.",
+          "choices": ["kocht"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Jeden Donnerstag ______ ich den Müll raus.",
+          "choices": ["bringe"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Um 7 Uhr ______ sie zur Arbeit.",
+          "choices": ["geht"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Danach ______ ich das Geschirr ab.",
+          "choices": ["spüle"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Jeden Abend ______ sie das Badezimmer.",
+          "choices": ["putzt"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vormittags ______ er joggen.",
+          "choices": ["geht"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Am Wochenende ______ ich gern Musik.",
+          "choices": ["höre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Morgens ______ ich Kaffee.",
+          "choices": ["trinke"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nach der Arbeit ______ ich oft ein Buch.",
           "choices": ["lese"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },
         {
-          "question": "(essen) ______ wir heute Abend Pizza zum Abendessen? ",
-          "choices": ["essen"],
+          "question": "Jeden Abend ______ wir zusammen fern.",
+          "choices": ["sehen"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Jeden Tag ______ ich meine Pflanzen.",
+          "choices": ["gieße"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Am Morgen ______ ich die Zeitung.",
+          "choices": ["lese"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Am Nachmittag ______ ich die Wäsche.",
+          "choices": ["wasche"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Letzten Monat ______ wir das Wohnzimmer gestrichen.",
+          "choices": ["haben"],
           "type": "FillInTheBlanks",
           "correctAnswer": 1
         },

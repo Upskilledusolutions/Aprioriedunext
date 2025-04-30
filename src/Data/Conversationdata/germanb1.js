@@ -1,15 +1,15 @@
 export const youdata = [
     {
       id: '1',
-      url: "/youtube/GmC1.png",
-      youtube: "https://www.youtube.com/embed/95aAEwblFsk?si=LVOevtDukjIbNqsF",
+      url: "/youtube/GmC102.png",
+      youtube: "https://www.youtube.com/embed/re4ef5EDf14?si=5YYBnhEycycKGV1U",
       title: "German Conversation 1 (B1)",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
     {
       id: '2',
-      url: "/youtube/GmC2.png",
-      youtube: "https://www.youtube.com/embed/cmCYZ1b4_E4?si=EiKs2JEu4d8840o6",
+      url: "/youtube/GmC101.png",
+      youtube: "https://www.youtube.com/embed/xjXwl0sr8Hs?si=infhiHwun60PHbVO",
       title: "German Conversation 2 (B1)",
       desc: "Welcome to our first German conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two German speakers.",
     },
