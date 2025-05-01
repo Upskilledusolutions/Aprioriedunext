@@ -50,14 +50,24 @@ export default function Login() {
     setLoading(true)
 
     try {
-      const response = await fetch(`${URL}/api/login`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ userId, password }),
-      });
-      setLoading(false)
+    // Fetch IP address and location
+    const locationResponse = await fetch('https://ipinfo.io/json?token=f865848db16a1a');
+    const locationData = await locationResponse.json();
+
+    const ipAddress = locationData.ip || 'Unknown';
+    const location = locationData.city
+      ? `${locationData.city}, ${locationData.region}, ${locationData.country}`
+      : 'Unknown';
+
+    // Send login request to the backend
+    const response = await fetch(`${URL}/api/login`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ userId, password, ipAddress, location }),
+    });
+    setLoading(false);
 
       const data = await response.json();
       if (data.success) {

@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { IoCreateOutline } from "react-icons/io5";
+import { IoCreateOutline, IoInformationOutline } from "react-icons/io5";
 import { MdDeleteOutline } from "react-icons/md";
 import styles from '@/styles/RightSide.module.css';
 
 const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNew }) => {
   const [filter, setFilter] = useState('all');
   const [currentdata, setCurrentdata] = useState(data);
+  const [showModal, setShowModal] = useState(false);
+  const [modalData, setModalData] = useState([]);
 
   useEffect(() => {
     if (section === 'Auth') {
@@ -20,6 +22,11 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
       setCurrentdata(data);
     }
   }, [data, section, filter]); // Dependencies ensure effect runs when data, section, or filter changes
+
+  const handleInfoClick = (loginHistory) => {
+    setModalData(loginHistory);
+    setShowModal(true);
+  };
 
   return (
     <div className={styles.tableContainer}>
@@ -83,6 +90,12 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
                     >
                       <MdDeleteOutline />
                     </button>
+                    <button
+                      className={styles.infoButton}
+                      onClick={() => handleInfoClick(item.loginHistory)}
+                    >
+                      <IoInformationOutline />
+                    </button>
                   </td>
                 </tr>
               ))
@@ -93,6 +106,34 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
           )}
         </tbody>
       </table>
+
+      {/* Modal */}
+      {showModal && (
+        <div className={styles.modalOverlay}>
+          <div className={styles.modal}>
+            <h2>Login History</h2>
+            {modalData?.length > 0 ? (
+              <ul>
+                {modalData.map((entry, index) => (
+                  <li key={index}>
+                    <strong>IP:</strong> {entry.ip} <br />
+                    <strong>Location:</strong> {entry.location} <br />
+                    <strong>Timestamp:</strong> {new Date(entry.timestamp).toLocaleString()}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p>No login history available.</p>
+            )}
+            <button
+              className={styles.closeButton}
+              onClick={() => setShowModal(false)}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
