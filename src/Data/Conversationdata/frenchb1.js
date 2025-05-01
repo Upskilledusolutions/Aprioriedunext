@@ -1,8 +1,8 @@
 export const youdata = [
   {
     id: '1',
-    url: "/youtube/FreC1.png",
-    youtube: "https://www.youtube.com/embed/pdcglhiHstI?si=JWd4W7HeVEs8E8st",
+    url: "/youtube/FreB101.png",
+    youtube: "https://www.youtube.com/embed/pqe5hBGi1Jk?si=gMxyzSFXKyAJ5VWG",
     title: "French Conversation 1 (B1)",
     desc: "Welcome to our first French conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two French speakers.",
   },

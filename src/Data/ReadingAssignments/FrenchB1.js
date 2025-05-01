@@ -1,63 +1,113 @@
 export const data = [
-    {
-        id:'1',
-        name:'French Reading Assignment 1 (B1)',
-        level:'Intermediate',
-        Title:'La Révolution Française',
-        readingText: "La Révolution française de 1789 a été un moment crucial dans l’histoire de la France et du monde entier. Ce mouvement a bouleversé l’ordre social, politique et économique en renversant la monarchie absolue de Louis XVI. Les idées des Lumières, telles que l'égalité, la liberté et la fraternité, ont inspiré des millions de personnes à lutter pour leurs droits. La prise de la Bastille, un symbole du pouvoir royal, a marqué le début de cette révolution. Après plusieurs années de guerre civile et de tensions internes, la France a vu la naissance d’une république qui a modifié le cours de l'histoire européenne. ",
-        questions: [
-          {
-            "question": "Quand a eu lieu la Révolution française ?",
-            "choices": ["1789", "1799", "1801", "1700"],
-            "correctAnswer": 0
-          },
-          {
-            "question": "Qui était le roi de la France avant la Révolution ?",
-            "choices": ["Napoléon Bonaparte", "Louis XVI", "François Ier", "Charlemagne"],
-            "correctAnswer": 1
-          },
-          {
-            "question": "Quelles idées ont inspiré la Révolution française ?",
-            "choices": ["La guerre et la violence", "L'égalité, la liberté et la fraternité", "La monarchie et la soumission", "La prospérité économique"],
-            "correctAnswer": 1
-          },
-          {
-            "question": "Quel événement a marqué le début de la Révolution française ?",
-            "choices": ["La Déclaration des droits de l’homme", "La prise de la Bastille", "La fuite de Louis XVI", "L'abolition des privilèges"],
-            "correctAnswer": 1
-          },
-          {
-            "question": "Quel symbole a été pris d'assaut lors de la Révolution ?",
-            "choices": ["Le Louvre", "La Bastille", "La Tour Eiffel", "Notre-Dame"],
-            "correctAnswer": 1
-          },
-          {
-            "question": "Que voulait renverser la Révolution française ?",
-            "choices": ["La démocratie", "La monarchie absolue", "Le gouvernement républicain", "L'ordre social"],
-            "correctAnswer": 1
-          },
-          {
-            "question": "Quel type de gouvernement est né après la Révolution ?",
-            "choices": ["Une monarchie constitutionnelle", "Une république", "Un empire", "Une dictature"],
-            "correctAnswer": 1
-          },
-          {
-            "question": "Quel événement a été un tournant dans l’histoire de l’Europe ?",
-            "choices": ["La prise de la Bastille", "La guerre civile", "La naissance de la république française", "L’exécution de Louis XVI"],
-            "correctAnswer": 2
-          },
-          {
-            "question": "Quel était l’objectif des idées des Lumières pendant la Révolution ?",
-            "choices": ["De maintenir l'ordre monarchique", "De promouvoir l'égalité et la liberté", "D'établir un empire", "De renverser la république"],
-            "correctAnswer": 1
-          },
-          {
-            "question": "Quelle était la principale cause de la Révolution française ?",
-            "choices": ["L'invasion étrangère", "Le désir de plus de richesses", "L'injustice sociale, politique et économique", "La volonté d'une guerre d'expansion"],
-            "correctAnswer": 2
-          }
-          ],
-    },
+  {
+    "id": "1",
+    "name": "French Reading Assignment 1 (B1)",
+    "level": "Intermediate",
+    "Title": "Le château de Versailles : miroir de la culture française",
+    "readingText": "Le château de Versailles, symbole du pouvoir absolu de Louis XIV, se trouve à une vingtaine de kilomètres de Paris. Construit au XVIIᵉ siècle, il reflète le goût pour l’art baroque et classique : la Galerie des Glaces, avec ses miroirs et ses dorures, émerveille par son éclat. Les vastes jardins dessinés par André Le Nôtre comprennent des bosquets, des bassins et des statues, où se promenaient les poètes et les écrivains des salons littéraires du XVIIIᵉ siècle. Molière y joua plusieurs de ses comédies sous le regard du Roi-Soleil, mêlant théâtre et politique. Après la Révolution de 1789, le domaine devint musée national ; aujourd’hui, des chefs-d’œuvre de la peinture et de la sculpture y sont exposés. Chaque été, le spectacle des Grandes Eaux musicales rappelle l’alliance de la musique, de la danse et de l’architecture. Ainsi, Versailles demeure un lieu où l’histoire, la littérature et l’art se rejoignent pour célébrer la culture française.",
+    "questions": [
+      {
+        "question": "À quelle distance de Paris se situe Versailles ?",
+        "choices": [
+          "5 km",
+          "20 km",
+          "50 km",
+          "100 km"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quel roi fit construire Versailles ?",
+        "choices": [
+          "Louis XII",
+          "Louis XIV",
+          "Louis XVI",
+          "Louis XV"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quel style artistique caractérise la Galerie des Glaces ?",
+        "choices": [
+          "Gothique",
+          "Renaissance",
+          "Baroque et classique",
+          "Moderne"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Qui a dessiné les jardins de Versailles ?",
+        "choices": [
+          "Le Louvre",
+          "Le Nôtre",
+          "Le Corbusier",
+          "Le Brun"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quel dramaturge joua ses pièces à Versailles ?",
+        "choices": [
+          "Racine",
+          "Corneille",
+          "Molière",
+          "Hugo"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "En quelle année la Révolution transforma-t-elle Versailles en musée ?",
+        "choices": [
+          "1661",
+          "1789",
+          "1830",
+          "1919"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Que retrouve-t-on aujourd’hui à l’intérieur du château ?",
+        "choices": [
+          "Un centre commercial",
+          "Des œuvres d’art",
+          "Une université",
+          "Un cinéma"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quel événement d’été célèbre l’alliance musique, danse et architecture ?",
+        "choices": [
+          "Les Nuits blanches",
+          "Les Journées du patrimoine",
+          "Les Grandes Eaux musicales",
+          "La Fête de la Musique"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Le paragraphe souligne l’importance de Versailles dans :",
+        "choices": [
+          "la mode française",
+          "la culture française",
+          "l’industrie du luxe",
+          "la gastronomie"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quelle activité littéraire avait lieu dans les jardins ?",
+        "choices": [
+          "Des salons littéraires",
+          "Des cours de peinture",
+          "Des compétitions équestres",
+          "Des marchés aux fleurs"
+        ],
+        "correctAnswer": 0
+      }
+    ]
+  },
     {
       "id": "2",
       "name": "French Reading Assignment 2 (B1)",

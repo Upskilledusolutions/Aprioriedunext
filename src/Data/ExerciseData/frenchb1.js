@@ -7,297 +7,246 @@ export const quiz = [
       questions: [
 
         {
-          "question": "Comment dit-on 'He wakes up early' en français ?",
-          "choices": ["Il se promène tôt", "Il se réveille tôt", "Il se prépare tôt", "Il se repose tôt"],
+          "question": "Nous nous _______ toujours avant le petit-déjeuner.",
+          "choices": ["lavons", "nous lavons", "lavent", "se laver"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Quelle est la traduction de 'She is intelligent and kind'?",
-          "choices": ["Elle est intelligente et gentille", "Elle est gentille et travailleuse", "Elle est sociable et sérieuse", "Elle est fatiguée et timide"],
+          "question": "Elle est très _______; elle rit beaucoup.",
+          "choices": ["timide", "drôle", "paresseuse", "sérieuse"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "Tu _______ les cheveux chaque soir ?",
+          "choices": ["te brosses", "brosse", "te brosser", "se brosser"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "Lequel de ces verbes est un verbe réfléchi ?",
-          "choices": ["écouter", "se lever", "manger", "lire"],
+          "question": "Ils _______ souvent après le travail.",
+          "choices": ["se promène", "se promènent", "promenons", "promènent"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Choisissez l’adjectif qui décrit une personne 'timide' en français :",
-          "choices": ["sociable", "sérieux", "réservé", "bavard"],
+          "question": "Vous _______ du café maintenant ?",
+          "choices": ["buvez", "buvons", "buves", "boivent"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marie est très _______; elle ne parle pas beaucoup.",
+          "choices": ["bavarde", "sportive", "timide", "drôle"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "Comment exprimer 'I relax in the evening' ?",
-          "choices": ["Je me réveille le soir", "Je me repose le soir", "Je m’habille le soir", "Je me prépare le soir"],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Quel mot décrit une personne toujours prête à aider les autres ?",
-          "choices": ["gentille", "timide", "bavarde", "fatiguée"],
+          "question": "Je _______ toujours tard le vendredi soir.",
+          "choices": ["me couche", "couche", "couchez", "se couche"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "Quel adjectif décrit une personne très sérieuse et organisée ?",
-          "choices": ["travailleur", "sociable", "aimable", "paresseux"],
-          "type": "MCQs",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Comment dit-on 'They are interested in music'?",
-          "choices": ["Ils se reposent en musique", "Ils s’intéressent à la musique", "Ils écoutent la musique", "Ils s’amusent avec la musique"],
+          "question": "Tu as les yeux _______ ?",
+          "choices": ["vert", "verts", "verte", "vertes"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Quelle phrase est correcte pour décrire une femme aux cheveux longs ?",
-          "choices": ["Elle a les cheveux courts", "Elle a les cheveux longs", "Elle a les cheveux bruns", "Elle a les cheveux roux"],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Quel est le contraire de 'fatigué' ?",
-          "choices": ["triste", "heureux", "énergique", "sérieux"],
+          "question": "Nous sommes _______ ; nous faisons du jogging.",
+          "choices": ["sportif", "sportives", "sportifs", "sportive"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "Which sentence correctly uses a reflexive verb in the present tense for 'to wash oneself'?",
-          "choices": [
-            "Je lave.",
-            "Je me lave.",
-            "Je te lave.",
-            "Je lave moi-même."
-          ],
+          "question": "Ils _______ de la musique en travaillant.",
+          "choices": ["écouter", "écoutent", "écoutons", "écoute"],
           "type": "MCQs",
           "correctAnswer": 2
         },
         {
-          "question": "Which of the following adjectives best describes a person who is optimistic?",
-          "choices": [
-            "pessimiste",
-            "optimiste",
-            "timide",
-            "sérieux"
-          ],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Choose the correct reflexive construction for 'to get dressed' in French.",
-          "choices": [
-            "Je m'habille.",
-            "Je habille.",
-            "Je te habille.",
-            "Je s'habille."
-          ],
-          "type": "MCQs",
-          "correctAnswer": 1
-        },
-        {
-          "question": "Identify the sentence that is in the present tense.",
-          "choices": [
-            "Il se levait tôt.",
-            "Il se lève tôt.",
-            "Il se lèvera tôt.",
-            "Il s'est levé tôt."
-          ],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Which of these adjectives would you use to describe someone with a friendly personality?",
-          "choices": [
-            "réservé",
-            "arrogant",
-            "amical",
-            "fatigué"
-          ],
+          "question": "Vous _______ le miroir avant de sortir ?",
+          "choices": ["regardez", "vous regardez", "regardez-vous", "regardent"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "Select the sentence that correctly uses a reflexive pronoun with the verb 'se coucher' (to go to bed) in the present tense.",
-          "choices": [
-            "Tu coucher.",
-            "Tu te couches.",
-            "Tu te couches.",
-            "Tu te couchons."
-          ],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Which sentence correctly describes a person with a slender physique?",
-          "choices": [
-            "Il est gros.",
-            "Il est musclé.",
-            "Il est mince.",
-            "Il est petit."
-          ],
-          "type": "MCQs",
-          "correctAnswer": 3
-        },
-        {
-          "question": "Choose the correct form of the reflexive verb 'to enjoy oneself' in French for 'nous.'",
-          "choices": [
-            "Nous nous amuse.",
-            "Nous nous amusons.",
-            "Nous amusons.",
-            "Nous nous amuser."
-          ],
-          "type": "MCQs",
-          "correctAnswer": 2
-        },
-        {
-          "question": "Which adjective would best describe someone who is both creative and imaginative?",
-          "choices": [
-            "créatif",
-            "ennuyeux",
-            "sérieux",
-            "timide"
-          ],
+          "question": "Il est très _______; il aide toujours tout le monde.",
+          "choices": ["généreux", "méchant", "paresseux", "timide"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "Which sentence is correct for 'She wakes up at 6 AM' using a reflexive verb in French?",
-          "choices": [
-            "Elle se lève à 6 heures.",
-            "Elle lève à 6 heures.",
-            "Elle se lèvera à 6 heures.",
-            "Elle se levait à 6 heures."
-          ],
+          "question": "Tu _______ ton livre chaque soir ?",
+          "choices": ["perds", "te perds", "perds-tu", "perdre"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Nous _______ les mains avant de manger.",
+          "choices": ["se lavons", "lavons", "nous lavons", "lavent"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Elle _______ du thé le matin.",
+          "choices": ["boit", "bois", "boivent", "boire"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Il _______ toujours en avance.",
+          "choices": ["est", "a", "être", "sont"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous êtes très _______ aujourd’hui : vos cheveux sont bien coiffés.",
+          "choices": ["coquettes", "coquets", "coquet", "coquette"],
+          "type": "MCQs",
+          "correctAnswer": 4
+        },
+        {
+          "question": "Je _______ un peu avant une présentation importante.",
+          "choices": ["me stresse", "stresse", "te stresses", "stresses"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mes amis _______ parfois au café après les cours.",
+          "choices": ["se retrouvent", "retrouvons", "retrouvent", "se retrouver"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle est un peu _______ ; elle ne finit jamais ses devoirs.",
+          "choices": ["paresseuse", "paresseux", "paresse", "paresseusement"],
           "type": "MCQs",
           "correctAnswer": 1
         },
 
-            {
-              "question": "Je ______ (se lever) à 7 heures du matin chaque jour.",
-              "choices": ["me lève"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Elle ______ (s’appeler) Marie, et elle est très gentille.",
-              "choices": ["s’appelle"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Nous ______ (se promener) dans le parc après le déjeuner.",
-              "choices": ["nous promenons"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Ils ______ (se préparer) pour le dîner ce soir.",
-              "choices": ["se préparent"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Vous ______ (se laver) les mains avant de manger, n’est-ce pas ?",
-              "choices": ["vous lavez"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Paul ______ (être) un homme très travailleur et intelligent.",
-              "choices": ["est"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Sophie est vraiment ______ (adorable), toujours prête à aider les autres.",
-              "choices": ["adorable"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Mes amis ______ (avoir) beaucoup d’énergie et aiment les activités sportives.",
-              "choices": ["ont"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Tu ______ (s’habiller) élégamment pour aller à la fête ?",
-              "choices": ["t’habilles"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Il est grand et ______ (brun), avec des yeux verts magnifiques.",
-              "choices": ["brun"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Je ______ (se réveiller) à 7 heures tous les matins.",
-              "choices": ["me réveille"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Tu ______ (s'habiller) rapidement pour l'école.",
-              "choices": ["t'habilles"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Il ______ (se doucher) après le sport.",
-              "choices": ["se douche"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Nous ______ (se coucher) tôt le soir.",
-              "choices": ["nous nous couchons"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Vous ______ (se maquiller) avant de sortir.",
-              "choices": ["vous vous maquillez"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Ils ______ (se coiffer) avant d'aller au travail.",
-              "choices": ["se coiffent"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Marie ______ (être) très charmante et souriante.",
-              "choices": ["est"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Marc ______ (avoir) des yeux bleus et des cheveux bruns.",
-              "choices": ["a"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Nous ______ (être) toujours optimistes malgré les difficultés.",
-              "choices": ["sommes"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-            {
-              "question": "Tu ______ (se reposer) après une longue journée de travail.",
-              "choices": ["te reposes"],
-              "type": "FillInTheBlanks",
-              "correctAnswer": 1
-            },
-
+        {
+          "question": "Chaque matin, je ______ (se réveiller) à sept heures.",
+          "choices": ["me réveille"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Sophie ______ (se laver) le visage avant le petit-déjeuner.",
+          "choices": ["se lave"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (se promener) dans le jardin après le déjeuner.",
+          "choices": ["nous promenons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (se dépêcher) pour arriver à l’heure ?",
+          "choices": ["te dépêches"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marc et Julie ______ (se reposer) après une longue journée.",
+          "choices": ["se reposent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (se brosser) les dents trois fois par jour.",
+          "choices": ["vous brossez"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Le chat ______ (se cacher) sous le canapé quand il a peur.",
+          "choices": ["se cache"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (avoir) les yeux.",
+          "choices": ["ai"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (être) très avec ses amis.",
+          "choices": ["est"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (avoir) les cheveux.",
+          "choices": ["avons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (se souvenir) de notre voyage à Nice ?",
+          "choices": ["te souviens"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (se disputer) souvent, ils sont très.",
+          "choices": ["se disputent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vous ______ (être) avec vos professeurs.",
+          "choices": ["êtes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Je ______ (se coucher) tôt le dimanche soir.",
+          "choices": ["me couche"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elle ______ (se maquiller) avant de sortir, elle est très.",
+          "choices": ["se maquille"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (être), nous jouons au football.",
+          "choices": ["sommes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mes parents ______ (se lever) vers six heures.",
+          "choices": ["se lèvent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tu ______ (se regarder) dans le miroir chaque matin.",
+          "choices": ["te regardes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ils ______ (se préparer) pour la fête, ils sont.",
+          "choices": ["se préparent"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nous ______ (avoir) les jambes.",
+          "choices": ["avons"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
         {
           "question": "Match the Words.",
           type: "MatchTheFollowing",

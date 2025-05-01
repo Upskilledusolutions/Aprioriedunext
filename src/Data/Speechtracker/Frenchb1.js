@@ -4,16 +4,16 @@ export const data = [
       "name": "French Speaking Practice 1 (B1)",
       "level": "Intermediate",
       "readingText": [
-        "Le chat noir traverse la rue animée.",
-        "La pluie fine tombe sur le trottoir.",
-        "Les enfants jouent dans le parc central.",
-        "Ma sœur lit un livre vraiment passionnant.",
-        "Nous dînons ensemble chaque soir de semaine.",
-        "Le vent frais caresse mon visage doucement.",
-        "Les fleurs colorées ornent le jardin public.",
-        "L'oiseau chante gaiement sur une branche verte.",
-        "La route sinueuse mène vers notre destination.",
-        "Un sourire chaleureux illumine ma journée entière."
+        "Je me considère comme une personne curieuse et passionnée par l’apprentissage constant.",
+        "Mes amis disent que je suis fiable, timide au début, mais très sociable ensuite.",
+        "Mon frère travaille dur chaque jour et se montre toujours prêt à aider.",
+        "Ma sœur est créative, optimiste et aime partager ses idées avec tout le monde.",
+        "Je m’entends très bien avec mes collègues car je suis patient et toujours respectueux.",
+        "Mon meilleur ami possède un sens de l’humour incroyable et apporte de la joie.",
+        "Ma collègue est ambitieuse mais parfois trop perfectionniste dans ses projets professionnels.",
+        "Je me décris comme curieux, déterminé et toujours ouvert aux nouvelles expériences de vie.",
+        "Mes parents pensent que je suis généreux et doté d’une grande capacité d’écoute attentive.",
+        "Notre professeur décrit souvent les étudiants travailleurs comme sérieux, motivés et très organisés."
       ]
     },
     {

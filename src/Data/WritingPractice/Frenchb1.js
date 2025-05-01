@@ -4,16 +4,16 @@ export const data = [
       name:'French Writing Practice 1 (B1)',
       level:'Beginner',
       firstsent: [
-        "Où es-tu allé en vacances l'année dernière?",
-        "Qu'as-tu fait pendant les vacances?",
-        "Te souviens-tu de ton enfance?",
-        "Quel est ton meilleur souvenir d'enfance?",
-        "Où as-tu passé tes dernières vacances?",
-        "Quand as-tu visité Paris pour la première fois?",
-        "Quel événement marquant as-tu vécu?",
-        "Qu'as-tu fait pendant ton dernier anniversaire?",
-        "As-tu déjà voyagé dans un autre pays?",
-        "Quels jeux jouais-tu quand tu étais enfant?"
+        "Comment vous décririez-vous en trois adjectifs ?",
+        "Quelles qualités appréciez-vous chez vos amis proches ?",
+        "Comment votre meilleur ami réagit-il face au stress ?",
+        "Comment gérez-vous un désaccord avec un collègue ?",
+        "Parlez d’un membre de votre famille et de sa personnalité.",
+        "Comment vous sentez-vous quand vous devez prendre la parole en public ?",
+        "Comment vos professeurs vous décrivent-ils généralement ?",
+        "Quels traits de caractère admirez-vous chez les autres ?",
+        "Comment vous exprimez-vous lorsque vous êtes très motivé ?",
+        "Comment votre groupe d’amis se décrirait-il selon vous ?"
       ]
     },
     {

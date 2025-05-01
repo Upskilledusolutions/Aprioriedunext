@@ -36,6 +36,15 @@ export const cards = [
       subject: 'FrenchA2LA'
     },
     {
+      type: 'frenchb1',
+      heading: 'French Intermediate (B1)',
+      text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
+      link: 'FrenchListeningB1',
+      data: 'Frenchb1',
+      link2: 'FrenchListeningAssignmentB1',
+      subject: 'FrenchB1LA'
+    },
+    {
       type: 'frenchc1',
       heading: 'French Advanced (C1)',
       text: 'Master the language of art, culture, and diplomacy with our French Listening Assignments.',
@@ -91,7 +100,7 @@ export const cards = [
     },
     {
       type: 'germanb1',
-      heading: 'German Beginner (B1)',
+      heading: 'German Intermediate (B1)',
       text: 'Master the language of art, culture, and diplomacy with our German Listening Assignments.',
       link: 'GermanListeningB1',
       data: 'Germanb1',

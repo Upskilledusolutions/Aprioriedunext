@@ -10,16 +10,16 @@ const Payslip = () => {
     department: "IT Services",
     dateOfJoining: "2024-03-01",
     pan: "DEEPG7563D",
-    daysPayable: "31",
+    daysPayable: "30",
     unpaidLeave: "0",
     leavesTaken: "0",
-    payslipMonth: "2025-03",
+    payslipMonth: "2025-04",
     grossSalary: "",
-    basic: "20000",
-    hra: "5000",              // ← added HRA field
-    specialAllowance: "2000",
+    basic: "14000",
+    hra: "7000",              // ← added HRA field
+    specialAllowance: "7000",
     bonus: "0",
-    incomeTax: "100",
+    incomeTax: "0",
     otherDeductions: "0",
     daysLOP: "0",
     bankName: "State Bank of India",
@@ -70,7 +70,7 @@ const Payslip = () => {
     // Employee Details
     const leftX = 40, rightX = w/2 + 10, labelW = 100, lh = 18;
     const leftDetails = [
-      ["Date", new Date().toLocaleDateString("en-GB")],
+      ["Date", "2025-04-07"],
       ["Name", formData.name],
       ["Designation", formData.designation],
       ["Department", formData.department],
@@ -117,11 +117,15 @@ const Payslip = () => {
     ];
 
     let totalE = 0;
-    const earningsRows = earnings.map(([label, amount]) => {
-      totalE += parseFloat(amount || 0);
-      return [label, amount !== "0" ? formatAmount(amount) : ""];
-    });
-    earningsRows.push(["Total Earnings", formatAmount(totalE)]);
+   // Earnings
+const earningsRows = earnings.map(([label, amount]) => {
+    totalE += parseFloat(amount || 0);
+    return [
+      label,
+      amount !== "0" ? formatAmount(amount) : "-",    // ← show "-" when zero
+    ];
+  });
+  earningsRows.push(["Total Earnings", formatAmount(totalE)]);
 
     doc.autoTable({
       startY: y + 10,
@@ -150,10 +154,13 @@ const Payslip = () => {
 
     let totalD = 0;
     const deductionsRows = deductions.map(([label, amount]) => {
-      totalD += parseFloat(amount || 0);
-      return [label, amount !== "0" ? formatAmount(amount) : ""];
-    });
-    deductionsRows.push(["Total Deductions", formatAmount(totalD)]);
+        totalD += parseFloat(amount || 0);
+        return [
+          label,
+          amount !== "0" ? formatAmount(amount) : "-",    // ← show "-" when zero
+        ];
+      });
+      deductionsRows.push(["Total Deductions", formatAmount(totalD)]);
 
     doc.autoTable({
       startY: y + 10,
@@ -183,7 +190,7 @@ const Payslip = () => {
     doc.text("Authorised Signatory (HR Department)", w/2, y+12, { align:"center" });
     doc.text("For more details, visit www.upskilleduonline.com", w/2, y+24, { align:"center" });
 
-    doc.save(`Payslip-${formData.name}-${formData.payslipMonth}.pdf`);
+    doc.save(`Salary-Slip-${formData.name}-${formData.payslipMonth}.pdf`);
   };
 
   return (
