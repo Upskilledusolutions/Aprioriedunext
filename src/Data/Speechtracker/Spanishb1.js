@@ -21,16 +21,16 @@ export const data = [
       "name": "Spanish Speaking Practice 2 (B1)",
       "level": "Intermediate",
       "readingText": [
-        "El ingeniero diseñó un puente sobre el río.",
-        "La artista pintó un mural vibrante en la ciudad.",
-        "Nuestros vecinos organizaron un concierto en el parque.",
-        "El científico investigó nuevas soluciones para el medio ambiente.",
-        "La reunión empezó a tiempo en la sala principal.",
-        "Mis primos visitaron el castillo durante sus vacaciones familiares.",
-        "El chef innovador creó platos exquisitos en el restaurante.",
-        "La novela que leí me inspiró a escribir poemas.",
-        "La conferencia abordó desafíos globales en la economía actual.",
-        "El grupo musical tocó canciones populares en el festival."
+        "Hoy me siento agradecido por haber conocido a tantas personas tan interesantes.",
+        "Mi mejor amiga siempre me apoya cuando enfrento problemas difíciles en mi vida.",
+        "Somos un grupo de compañeros que comparten sueños y objetivos profesionales similares.",
+        "A veces siento que él no comprende mis preocupaciones ni mis motivaciones personales.",
+        "Nosotros celebramos juntos cada logro importante para fortalecer nuestra amistad y confianza mutua.",
+        "Creo que tú necesitas expresar tus emociones con mayor claridad y sinceridad ante otros.",
+        "Mi familia valora muchísimo el respeto, la honestidad y el apoyo entre sus miembros.",
+        "Cada mañana me levanto temprano para prepararme y ayudar a mis hermanos pequeños.",
+        "A ella le entusiasma participar en debates sobre cultura, historia y arte modernos.",
+        "Ellos esperan que yo comparta mis ideas innovadoras y contribuya activamente al proyecto."
       ]
     },
     {

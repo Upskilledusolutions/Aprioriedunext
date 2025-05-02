@@ -110,6 +110,118 @@ export const data = [
         }
       ]
     ]
+  },
+  {
+    "id": "2",
+    "name": "French Listening Assignment 2 (B1)",
+    "level": "Intermediate",
+    "audios": [
+      "/Sounds/FrenchB1/French02.mp3"
+    ],
+    "questionsPerAudio": [
+      [
+        {
+          "question": "Quelles spécialités Sophie étudie-t-elle à l’université ?",
+          "choices": [
+            "Informatique et intelligence artificielle",
+            "Biologie moléculaire et écologie marine",
+            "Chimie organique et biotechnologie",
+            "Physique théorique et astrophysique"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "En quoi Pierre se spécialise-t-il ?",
+          "choices": [
+            "Écologie marine et biologie végétale",
+            "Informatique et intelligence artificielle",
+            "Génie civil et architecture",
+            "Histoire de l’art et muséologie"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Avec quel type de laboratoire Pierre a-t-il récemment collaboré ?",
+          "choices": [
+            "Laboratoire de biologie marine",
+            "Laboratoire de vision par ordinateur",
+            "Laboratoire de génétique humaine",
+            "Laboratoire de nanotechnologies"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quels langages de programmation Pierre apprend-il principalement ?",
+          "choices": [
+            "R, Matlab et SAS",
+            "HTML, CSS et JavaScript",
+            "Python, Java et C++",
+            "Swift, Kotlin et Dart"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Dans ses recherches, Sophie analyse la salinité, la température et …",
+          "choices": [
+            "la biodiversité microbienne",
+            "la concentration en CO₂",
+            "la composition minérale",
+            "la turbidité de l’eau"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Quel module en biologie marine est le préféré de Sophie ?",
+          "choices": [
+            "Physiologie des coraux bleus tropicaux",
+            "Génétique humaine",
+            "Microbiologie clinique",
+            "Biologie cellulaire animale"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "question": "Pour optimiser des processus industriels, Pierre analyse principalement …",
+          "choices": [
+            "des simulations climatiques",
+            "des données massives",
+            "des images satellites",
+            "des échantillons chimiques"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "Quels cours de mathématiques Pierre juge-t-il essentiels pour ses projets ?",
+          "choices": [
+            "Géométrie euclidienne et topologie",
+            "Calcul différentiel et intégral",
+            "Algèbre linéaire et statistiques",
+            "Théorie des nombres et cryptographie"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "question": "Pourquoi Sophie utilise-t-elle la statistique dans ses travaux ?",
+          "choices": [
+            "Pour modéliser des systèmes informatiques",
+            "Pour analyser ses résultats expérimentaux",
+            "Pour programmer des algorithmes d’IA",
+            "Pour dessiner des cartes géographiques"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "question": "À la fin du dialogue, Sophie se sent inspirée pour …",
+          "choices": [
+            "changer de spécialisation universitaire",
+            "approfondir ses connaissances interdisciplinaires",
+            "voyager à l’étranger l’été prochain",
+            "créer une start-up technologique"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    ]
   }
   
 ]

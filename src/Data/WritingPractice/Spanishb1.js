@@ -4,16 +4,16 @@ export const data = [
     name: 'Spanish Writing Practice 1 (B1)',
     level: 'Beginner',
     firstsent: [
-      "¿A dónde fuiste de vacaciones el año pasado?",
-      "¿Qué hiciste durante las vacaciones?",
-      "¿Te acuerdas de tu infancia?",
-      "¿Cuál es tu mejor recuerdo de la infancia?",
-      "¿Dónde pasaste tus últimas vacaciones?",
-      "¿Cuándo visitaste Madrid por primera vez?",
-      "¿Qué evento importante has vivido?",
-      "¿Qué hiciste en tu último cumpleaños?",
-      "¿Has viajado alguna vez a otro país?",
-      "¿Qué juegos jugabas cuando eras niño?"
+      "¿Cómo te describirías físicamente y cuál es tu rasgo más característico?",
+      "¿Qué cualidades valoras más en un amigo y por qué?",
+      "¿Cómo reacciones cuando alguien te critica y cómo quisieras mejorar esa reacción?",
+      "Describe a tu mejor amigo en tres adjetivos y explica uno de ellos.",
+      "¿Qué haces para motivar a tus compañeros de trabajo o estudio?",
+      "¿En qué situaciones te sientes más inseguro y cómo lo enfrentas?",
+      "¿Cómo ayuda tu familia a que te desarrolles como persona?",
+      "¿Qué actividad disfrutas hacer solo y cuál prefieres compartir con otros?",
+      "¿Cómo describirías la personalidad de tu profesor favorito?",
+      "¿Qué aspiras a mejorar de ti mismo este año y cómo planeas lograrlo?"
     ]
   },
   {

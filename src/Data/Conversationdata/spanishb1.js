@@ -1,8 +1,8 @@
 export const youdata = [
   {
     id: '1',
-    url: "/youtube/SpC1.png",
-    youtube: "https://www.youtube.com/embed/XgEsW1KFXZs?si=YNzJWIwmo3-XsETi",
+    url: "/youtube/SpB101.png",
+    youtube: "https://www.youtube.com/embed/gLanSlhYs_o?si=9iBmGuTZBofRrta6",
     title: "Spanish Conversation 1 (B1)",
     desc: "Welcome to our first Spanish conversation video! 🎉 In this episode, we dive into a simple and practical conversation between two Spanish speakers.",
   },

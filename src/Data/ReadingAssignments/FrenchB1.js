@@ -1,222 +1,222 @@
 export const data = [
   {
     "id": "1",
-    "name": "French Reading Assignment 1 (B1)",
+    "name": "Spanish Reading Assignment 1 (B1)",
     "level": "Intermediate",
-    "Title": "Le château de Versailles : miroir de la culture française",
-    "readingText": "Le château de Versailles, symbole du pouvoir absolu de Louis XIV, se trouve à une vingtaine de kilomètres de Paris. Construit au XVIIᵉ siècle, il reflète le goût pour l’art baroque et classique : la Galerie des Glaces, avec ses miroirs et ses dorures, émerveille par son éclat. Les vastes jardins dessinés par André Le Nôtre comprennent des bosquets, des bassins et des statues, où se promenaient les poètes et les écrivains des salons littéraires du XVIIIᵉ siècle. Molière y joua plusieurs de ses comédies sous le regard du Roi-Soleil, mêlant théâtre et politique. Après la Révolution de 1789, le domaine devint musée national ; aujourd’hui, des chefs-d’œuvre de la peinture et de la sculpture y sont exposés. Chaque été, le spectacle des Grandes Eaux musicales rappelle l’alliance de la musique, de la danse et de l’architecture. Ainsi, Versailles demeure un lieu où l’histoire, la littérature et l’art se rejoignent pour célébrer la culture française.",
+    "Title": "Don Quijote de la Mancha",
+    "readingText": "La novela Don Quijote de la Mancha, escrita por Miguel de Cervantes en el siglo XVII, es una obra maestra de la literatura española. El protagonista, Alonso Quijano, un hidalgo de La Mancha, decide convertirse en caballero andante bajo el nombre de Don Quijote. Acompañado por su fiel escudero, Sancho Panza, recorre los paisajes de España en busca de aventuras. Cervantes combina humor y crítica social para reflexionar sobre la realidad y la fantasía. Además, Don Quijote influyó profundamente en el Siglo de Oro español y en la pintura barroca: artistas como Diego Velázquez pintaron escenas inspiradas en la novela. Hoy en día, la obra simboliza el valor de los ideales y la imaginación en la cultura española.",
     "questions": [
       {
-        "question": "À quelle distance de Paris se situe Versailles ?",
+        "question": "¿Quién es el autor de Don Quijote de la Mancha?",
         "choices": [
-          "5 km",
-          "20 km",
-          "50 km",
-          "100 km"
+          "Diego Velázquez",
+          "Miguel de Cervantes",
+          "Francisco de Quevedo",
+          "Lope de Vega"
         ],
         "correctAnswer": 1
       },
       {
-        "question": "Quel roi fit construire Versailles ?",
+        "question": "¿En qué siglo se publicó originalmente la novela?",
         "choices": [
-          "Louis XII",
-          "Louis XIV",
-          "Louis XVI",
-          "Louis XV"
+          "XIV",
+          "XV",
+          "XVI",
+          "XVII"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "¿Cuál es el verdadero nombre de Don Quijote?",
+        "choices": [
+          "Sancho Panza",
+          "Alonso Quijano",
+          "Miguel de Cervantes",
+          "Rodrigo Díaz"
         ],
         "correctAnswer": 1
       },
       {
-        "question": "Quel style artistique caractérise la Galerie des Glaces ?",
+        "question": "¿Qué rol cumple Sancho Panza en la historia?",
         "choices": [
-          "Gothique",
-          "Renaissance",
-          "Baroque et classique",
-          "Moderne"
+          "Enemigo",
+          "Autor",
+          "Escudero",
+          "Rey"
         ],
         "correctAnswer": 2
       },
       {
-        "question": "Qui a dessiné les jardins de Versailles ?",
+        "question": "¿Qué mezcla Cervantes en su obra para reflexionar sobre la realidad?",
+        "choices": [
+          "Géneros periodísticos",
+          "Humor y crítica social",
+          "Música y danza",
+          "Ciencia y tecnología"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué movimiento artístico influyó la novela?",
+        "choices": [
+          "Impresionismo",
+          "Barroco",
+          "Modernismo",
+          "Romanticismo"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿Qué pintor barroco creó escenas inspiradas en Don Quijote?",
+        "choices": [
+          "Pablo Picasso",
+          "Francisco Goya",
+          "Diego Velázquez",
+          "Salvador Dalí"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Qué simboliza hoy en día la obra en la cultura española?",
+        "choices": [
+          "La importancia de la ciencia",
+          "El valor de los ideales y la imaginación",
+          "La guerra y la conquista",
+          "La moda y el diseño"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "¿De qué región de España es originario Alonso Quijano?",
+        "choices": [
+          "Andalucía",
+          "Cataluña",
+          "La Mancha",
+          "Galicia"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "¿Cuál es uno de los temas principales de la novela?",
+        "choices": [
+          "La colonización de América",
+          "El mundo de la farándula",
+          "La confrontación entre realidad y fantasía",
+          "La economía del siglo XX"
+        ],
+        "correctAnswer": 2
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "French Reading Assignment 2 (B1)",
+    "level": "Intermediate",
+    "Title": "L’atelier des Impressionnistes",
+    "readingText": "À la fin du XIXᵉ siècle, le quartier de Montmartre à Paris est devenu le lieu de rassemblement favori de nombreux artistes. Chaque matin, Camille Pissarro, Claude Monet et Pierre-Auguste Renoir se retrouvaient dans un petit café près du Moulin de la Galette pour discuter de leurs toiles et de la lumière changeante sur la ville. Ils quittaient ensuite le café pour peindre « sur le motif », c’est-à-dire directement en plein air, afin de capturer l’atmosphère d’un instant précis. Cette nouvelle approche, qu’on appellera bientôt l’« impressionnisme », déplaça les regards hors des ateliers sombres vers les espaces lumineux de la rue, des jardins et des fleuves. Les critiques traditionnels furent d’abord sceptiques, mais la fraîcheur et l’énergie des couleurs séduisirent bientôt les collectionneurs. Aujourd’hui encore, le Musée d’Orsay conserve de nombreux chefs-d’œuvre impressionnistes, rappelant l’audace et la modernité de ces pionniers de l’art en France.",
+    "questions": [
+      {
+        "question": "Où se trouvaient principalement les ateliers des artistes impressionnistes à la fin du XIXᵉ siècle ?",
         "choices": [
           "Le Louvre",
-          "Le Nôtre",
-          "Le Corbusier",
-          "Le Brun"
+          "Montmartre",
+          "Saint-Germain-des-Prés",
+          "La Défense"
         ],
         "correctAnswer": 1
       },
       {
-        "question": "Quel dramaturge joua ses pièces à Versailles ?",
+        "question": "Quel était le rendez-vous matinal des peintres comme Monet et Renoir ?",
         "choices": [
-          "Racine",
-          "Corneille",
-          "Molière",
-          "Hugo"
+          "La galerie d’art du Louvre",
+          "Un petit café près du Moulin de la Galette",
+          "Le salon de la princesse",
+          "Les bords de la Seine"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Que signifie « peindre sur le motif » ?",
+        "choices": [
+          "Copier un motif décoratif",
+          "Dessiner des motifs floraux",
+          "Peindre directement en plein air",
+          "Peindre uniquement en atelier"
         ],
         "correctAnswer": 2
       },
       {
-        "question": "En quelle année la Révolution transforma-t-elle Versailles en musée ?",
+        "question": "Quelle innovation artistique caractérise l’impressionnisme ?",
         "choices": [
-          "1661",
-          "1789",
-          "1830",
-          "1919"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Que retrouve-t-on aujourd’hui à l’intérieur du château ?",
-        "choices": [
-          "Un centre commercial",
-          "Des œuvres d’art",
-          "Une université",
-          "Un cinéma"
-        ],
-        "correctAnswer": 1
-      },
-      {
-        "question": "Quel événement d’été célèbre l’alliance musique, danse et architecture ?",
-        "choices": [
-          "Les Nuits blanches",
-          "Les Journées du patrimoine",
-          "Les Grandes Eaux musicales",
-          "La Fête de la Musique"
+          "L’usage de la sculpture",
+          "Le travail au fusain",
+          "L’accent mis sur la lumière et la couleur",
+          "La peinture en noir et blanc"
         ],
         "correctAnswer": 2
       },
       {
-        "question": "Le paragraphe souligne l’importance de Versailles dans :",
+        "question": "Comment les critiques traditionnels ont-ils réagi au début ?",
         "choices": [
-          "la mode française",
-          "la culture française",
-          "l’industrie du luxe",
-          "la gastronomie"
+          "Ils ont immédiatement adoré",
+          "Ils sont restés indifférents",
+          "Ils ont été sceptiques",
+          "Ils ont interdit ces peintures"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Qui étaient parmi les fondateurs de l’impressionnisme mentionnés dans le texte ?",
+        "choices": [
+          "Van Gogh et Gauguin",
+          "Pissarro, Monet et Renoir",
+          "Delacroix et Ingres",
+          "Cézanne et Seurat"
         ],
         "correctAnswer": 1
       },
       {
-        "question": "Quelle activité littéraire avait lieu dans les jardins ?",
+        "question": "Quel musée conserve aujourd’hui de nombreux tableaux impressionnistes ?",
         "choices": [
-          "Des salons littéraires",
-          "Des cours de peinture",
-          "Des compétitions équestres",
-          "Des marchés aux fleurs"
+          "Le Centre Pompidou",
+          "Le Palais de Tokyo",
+          "Le Musée d’Orsay",
+          "Le Musée du Quai Branly"
+        ],
+        "correctAnswer": 2
+      },
+      {
+        "question": "Quelle atmosphère les impressionnistes cherchaient-ils à capturer ?",
+        "choices": [
+          "La vie nocturne parisienne",
+          "L’instant précis et la lumière du jour",
+          "Les portraits officiels",
+          "Les monuments historiques"
+        ],
+        "correctAnswer": 1
+      },
+      {
+        "question": "Quel élément n’est pas cité comme lieu de peinture en plein air ?",
+        "choices": [
+          "La rue",
+          "Les jardins",
+          "Les fleuves",
+          "Les musées"
+        ],
+        "correctAnswer": 3
+      },
+      {
+        "question": "Quel mot du texte évoque l’esprit de nouveauté des impressionnistes ?",
+        "choices": [
+          "Moderne",
+          "Traditionnel",
+          "Sombre",
+          "Méticuleux"
         ],
         "correctAnswer": 0
       }
     ]
   },
-    {
-      "id": "2",
-      "name": "French Reading Assignment 2 (B1)",
-      "level": "Intermediate",
-      "Title": "La Vie à la Campagne",
-      "readingText": "La vie à la campagne offre un contraste saisissant avec l'agitation des grandes villes. Dans ces vastes espaces ruraux, la tranquillité règne et la proximité avec la nature apaise l'esprit. Les champs verdoyants, les forêts centenaires et les rivières sinueuses créent un décor idéal pour se ressourcer. Les habitants, fiers de leurs traditions, partagent souvent des récits passionnants sur l'histoire de leur région et la richesse de leur patrimoine. Les marchés locaux, débordant de produits frais et authentiques, témoignent de la vitalité de l'agriculture traditionnelle. Vivre à la campagne, malgré l'éloignement des grands services, permet d'apprécier la douceur des saisons et la simplicité des relations humaines. Cette expérience, moins rapide mais pleine de charme, invite à savourer les petites joies du quotidien.",
-      "questions": [
-        {
-          "question": "Quel est le principal avantage de la vie à la campagne selon le texte ?",
-          "choices": [
-            "L'accès aux services modernes",
-            "Les activités nocturnes intenses",
-            "La proximité avec la nature",
-            "La vie trépidante"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "question": "Que montrent les champs, forêts et rivières décrits dans le texte ?",
-          "choices": [
-            "Un signe de déclin économique",
-            "Une zone industrielle en expansion",
-            "Un manque d'activités culturelles",
-            "Un cadre idéal pour se ressourcer"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "question": "Que partagent souvent les habitants de la campagne ?",
-          "choices": [
-            "Des conseils financiers avisés",
-            "Des récits passionnants sur l'histoire de leur région",
-            "Des plaintes sur le manque d'infrastructures",
-            "Des informations politiques modernes"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "question": "Que regorgent principalement les marchés locaux ?",
-          "choices": [
-            "Des produits frais et authentiques",
-            "Des gadgets électroniques importés",
-            "Des produits industriels standardisés",
-            "Des vêtements de marque internationaux"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "question": "Quel inconvénient de la vie rurale est mentionné dans le texte ?",
-          "choices": [
-            "La pollution ambiante",
-            "Le bruit constant",
-            "L'éloignement des grands services",
-            "Le manque de verdure"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "question": "Que permet la vie à la campagne selon l'auteur ?",
-          "choices": [
-            "Un rythme de vie accéléré",
-            "Un accès facile aux divertissements",
-            "Une vie dépourvue de traditions",
-            "Une appréciation plus profonde des petites joies quotidiennes"
-          ],
-          "correctAnswer": 3
-        },
-        {
-          "question": "Comment sont décrites les relations humaines dans cet environnement rural ?",
-          "choices": [
-            "Détachées et superficielles",
-            "Enrichissantes et simples",
-            "Éphémères et impersonnelles",
-            "Conflitualisées et distantes"
-          ],
-          "correctAnswer": 1
-        },
-        {
-          "question": "Que symbolise le mode de vie à la campagne dans le texte ?",
-          "choices": [
-            "La modernité effrénée",
-            "La course contre le temps",
-            "La douceur des saisons",
-            "L'urbanisation galopante"
-          ],
-          "correctAnswer": 2
-        },
-        {
-          "question": "Quel sentiment la vie rurale procure-t-elle selon le passage ?",
-          "choices": [
-            "La tranquillité",
-            "L'agitation incessante",
-            "L'isolement complet",
-            "L'ennui profond"
-          ],
-          "correctAnswer": 0
-        },
-        {
-          "question": "Qu'est-ce qui caractérise l'expérience de vivre à la campagne ?",
-          "choices": [
-            "Une vie monotone",
-            "Un quotidien stressant",
-            "Un accès illimité à la technologie",
-            "Un mode de vie moins rapide et plein de charme"
-          ],
-          "correctAnswer": 3
-        }
-      ]
-    },
     {
       "id": "3",
       "name": "French Reading Assignment 3 (B1)",

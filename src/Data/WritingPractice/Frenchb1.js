@@ -21,16 +21,16 @@ export const data = [
       name:'French Writing Practice 2 (B1)',
       level:'Beginner',
       firstsent:[
-        "Que feras-tu demain?",
-        "Où te vois-tu dans cinq ans?",
-        "Quelles sont tes ambitions pour l'avenir?",
-        "Quels sont tes projets pour les vacances?",
-        "Est-ce que tu aimerais voyager à l'étranger?",
-        "Quand comptes-tu finir tes études?",
-        "Quel travail aimerais-tu faire?",
-        "Pourquoi voudrais-tu vivre à l'étranger?",
-        "Si tu pouvais, quel métier ferais-tu?",
-        "Comment imagines-tu ton futur?"
+"À quelle heure te lèves-tu en semaine, et pourquoi ?",
+  "Comment organises-tu ta matinée avant de commencer tes études ?",
+  "Quel moyen de transport utilises-tu pour aller à l’université, et combien de temps cela prend-il ?",
+  "Que fais-tu généralement pendant ta pause déjeuner à la cantine ?",
+  "Comment gères-tu ton emploi du temps entre cours et travail personnel l’après-midi ?",
+  "Quel type d’exercice physique pratiques-tu après les cours, et à quelle fréquence ?",
+  "Comment organises-tu ta soirée pour être productif·ve et te détendre ?",
+  "Quelles tâches ménagères réalises-tu avant de te coucher, et dans quel ordre ?",
+  "Comment maintiens-tu un équilibre entre vie sociale et études le week-end ?",
+  "Quelle est ta routine matinale idéale pendant les périodes de partiels ?"
       ]
     },
     {

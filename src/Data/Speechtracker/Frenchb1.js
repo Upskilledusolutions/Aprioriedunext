@@ -21,16 +21,16 @@ export const data = [
       "name": "French Speaking Practice 2 (B1)",
       "level": "Intermediate",
       "readingText": [
-        "Le soleil radieux réchauffe la terre humide.",
-        "Une brise légère caresse les arbres verts.",
-        "Le marché animé offre fruits et légumes frais.",
-        "Mon ami prépare un délicieux gâteau maison.",
-        "La musique jazz envoûtante emplit l'air nocturne.",
-        "Une étoile brillante guide mon chemin obscur.",
-        "Le vent d'automne agite les feuilles dorées.",
-        "La ville historique révèle ses secrets anciens.",
-        "Le train rapide relie les villes lointaines.",
-        "Un livre captivant ouvre l'esprit curieux rapidement."
+        "Le matin, je me réveille à sept heures pour préparer mon petit-déjeuner équilibré.",
+        "Après la douche, je consulte mes e-mails universitaires avant d’aller en cours.",
+        "Je déjeune avec mes amis à la cafétéria entre deux séances de révision.",
+        "Ensuite, je participe à un atelier de recherche bibliographique à la bibliothèque universitaire.",
+        "Chaque après-midi, j’étudie le français en ligne pendant deux heures intensives quotidiennes.",
+        "Après les cours, je fais du sport au campus pour rester en bonne santé.",
+        "Le soir, je prépare un dîner simple avant de participer au club de lecture.",
+        "Avant de me coucher, je médite pendant quinze minutes pour calmer mon esprit fatigué.",
+        "Chaque week-end, j’organise mes notes et je planifie mes objectifs académiques de la semaine.",
+        "Je passe du temps avec ma famille par appel vidéo après une journée remplie."
       ]
     },
     {

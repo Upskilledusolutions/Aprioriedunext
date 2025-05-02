@@ -8,248 +8,248 @@ export const quiz = [
         
         // 20 MCQs
         {
-            "question": "¿Cómo se dice \"to get dressed\" en español?",
-            "choices": ["acostarse", "vestirse", "levantarse", "ducharse"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué palabra describe a una persona que no dice mentiras?",
-            "choices": ["guapo", "honesto", "flojo", "rápido"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cuál es el adjetivo para \"friendly\" en español?",
-            "choices": ["generoso", "honesto", "amistoso", "alto"],
-            "type": "MCQs",
-            "correctAnswer": 3
-          },
-          {
-            "question": "¿Cómo se dice \"to worry\" en español?",
-            "choices": ["acostarse", "preocuparse", "levantarse", "divertirse"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué adjetivo describe a alguien con cabello rubio?",
-            "choices": ["moreno", "rubio", "delgado", "rápido"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cómo se dice \"caring\" en español?",
-            "choices": ["amistoso", "cariñoso", "trabajador", "bello"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cómo se conjuga el verbo reflexivo ducharse para \"yo\"?",
-            "choices": ["me ducho", "te duchas", "nos duchamos", "se duchan"],
-            "type": "MCQs",
-            "correctAnswer": 1
-          },
-          {
-            "question": "¿Cuál es el antónimo de \"alto\"?",
-            "choices": ["grande", "delgado", "bajo", "guapo"],
-            "type": "MCQs",
-            "correctAnswer": 3
-          },
-          {
-            "question": "¿Cómo se dice \"to have fun\" en español?",
-            "choices": ["divertirse", "acostarse", "vestirse", "quejarse"],
-            "type": "MCQs",
-            "correctAnswer": 1
-          },
-          {
-            "question": "¿Cuál es el adjetivo que describe a una persona que trabaja mucho?",
-            "choices": ["trabajador", "flojo", "bello", "amable"],
-            "type": "MCQs",
-            "correctAnswer": 1
-          },
-          {
-            "question": "¿Qué significa \"preocuparse\"?",
-            "choices": ["to get ready", "to worry", "to get dressed", "to wake up"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cuál es el sinónimo de \"hermoso\"?",
-            "choices": ["amistoso", "bello", "inteligente", "sabio"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué palabra describe a alguien con cabello oscuro?",
-            "choices": ["rubio", "moreno", "bello", "corto"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cómo se conjuga el verbo levantarse para \"ellos\"?",
-            "choices": ["nos levantamos", "se levantan", "te levantas", "me levanto"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué significa \"simpático\"?",
-            "choices": ["smart", "nice", "handsome", "lazy"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Cómo se dice \"intelligent\" en español?",
-            "choices": ["honesto", "simpático", "inteligente", "generoso"],
-            "type": "MCQs",
-            "correctAnswer": 3
-          },
-          {
-            "question": "¿Cuál es el opuesto de \"delgado\"?",
-            "choices": ["amistoso", "simpático", "generoso", "gordo"],
-            "type": "MCQs",
-            "correctAnswer": 4
-          },
-          {
-            "question": "¿Qué verbo describe \"to lie down\"?",
-            "choices": ["divertirse", "acostarse", "levantarse", "ducharse"],
-            "type": "MCQs",
-            "correctAnswer": 2
-          },
-          {
-            "question": "¿Qué palabra describe a alguien muy bueno escuchando?",
-            "choices": ["simpático", "amistoso", "cariñoso", "sabio"],
-            "type": "MCQs",
-            "correctAnswer": 4
-          },
-          {
-            "question": "¿Qué significa \"leal\"?",
-            "choices": ["loyal", "honest", "hard-working", "intelligent"],
-            "type": "MCQs",
-            "correctAnswer": 1
-          },
+          "question": "¿Cómo se conjuga “levantarse” para “nosotros” en presente?",
+          "choices": ["nos levantamos", "os levantáis", "se levantan", "me levanto"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "“Ellos _____ pronto porque tienen clase.”",
+          "choices": ["se despiertan", "despiertan", "nos despertamos", "despertáis"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Señala el pronombre reflexivo correcto: “Tú _____ ves en el espejo.”",
+          "choices": ["te", "me", "se", "nos"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál es el antónimo de “extrovertido”?",
+          "choices": ["tímido", "amable", "generoso", "trabajador"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "“María _____ el abrigo al entrar.” (quitarse)",
+          "choices": ["me quita", "te quitas", "se quita", "nos quitamos"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "Elige la forma correcta de “vestirse” para “vosotros”:",
+          "choices": ["os vestís", "se visten", "te vistes", "me visto"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué adjetivo completa mejor? “Juan es muy _____; siempre ayuda sin pedir nada a cambio.”",
+          "choices": ["egoísta", "generoso", "impaciente", "desordenado"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "“Yo nunca _____ tarde los sábados.” (acostarse)",
+          "choices": ["me acuesto", "se acuesta", "te acuestas", "nos acostamos"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Señala la opción con un adjetivo de descripción física:",
+          "choices": ["bajo", "amable", "impaciente", "ordenado"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "“Nosotros _____ rápido cuando hace frío.” (ducharse)",
+          "choices": ["nos duchamos", "os ducháis", "se duchan", "me ducho"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Cuál es el antónimo de “perezoso”?",
+          "choices": ["trabajador", "egoísta", "tímido", "desordenado"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "“Tú _____ los dientes después de comer.” (cepillarse)",
+          "choices": ["te cepillas", "me cepillo", "se cepilla", "nos cepillamos"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "¿Qué forma de “sentirse” corresponde a “ella”?",
+          "choices": ["se siente", "me siento", "te sientes", "nos sentimos"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Señala el adjetivo que indica “con mucho orden”:",
+          "choices": ["desordenado", "ordenado", "impaciente", "perezoso"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "“Ellos _____ al cine todos los viernes.” (divertirse)",
+          "choices": ["se divierten", "nos divertimos", "te diviertes", "os divertís"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elige el adjetivo: “Laura es muy _____; nunca pierde la paciencia.”",
+          "choices": ["impaciente", "paciente", "egoísta", "desordenado"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "“Yo _____ la ropa antes de salir.” (poner)",
+          "choices": ["pongo", "me pongo", "te pones", "se pone"],
+          "type": "MCQs",
+          "correctAnswer": 2
+        },
+        {
+          "question": "¿Cuál de estos NO es un verbo reflexivo?",
+          "choices": ["levantarse", "ducharse", "correr", "vestirse"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
+        {
+          "question": "“Él _____ de la mano de su madre.” (separarse)",
+          "choices": ["se separa", "me separo", "te separas", "nos separamos"],
+          "type": "MCQs",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Elige el adjetivo de personalidad:",
+          "choices": ["moreno", "alto", "extrovertido", "rubio"],
+          "type": "MCQs",
+          "correctAnswer": 3
+        },
         
         // 20 Fill in the Blanks
   
         {
-            "question": "Yo siempre ______ (to get up) temprano para ir al trabajo.",
-            "choices": ["levantarse"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Ellos se ______ (to get dressed) rápidamente para la fiesta.",
-            "choices": ["visten"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Nosotros nos ______ (to take a shower) después de hacer ejercicio.",
-            "choices": ["duchamos"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "María se ______ (to comb her hair) antes de salir.",
-            "choices": ["peina"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "¿Tú te ______ (to go to bed) temprano los fines de semana?",
-            "choices": ["acuestas"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Me gusta la gente que es ______ (kind).",
-            "choices": ["amable"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Juan es muy ______ (intelligent) y resuelve problemas rápidamente.",
-            "choices": ["inteligente"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "La actriz es ______ (beautiful) y talentosa.",
-            "choices": ["bella"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Mis amigos siempre son ______ (loyal) en cualquier situación.",
-            "choices": ["leales"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Él tiene el cabello ______ (short) y ojos verdes.",
-            "choices": ["corto"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Tú siempre te ______ (to worry) por los exámenes, ¿verdad?",
-            "choices": ["preocupas"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Nosotros nos ______ (to have fun) mucho en las vacaciones.",
-            "choices": ["divertimos"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Cuando está cansado, él se ______ (to go to bed) temprano.",
-            "choices": ["acuesta"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Mi abuela es muy ______ (wise) y siempre da buenos consejos.",
-            "choices": ["sabia"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Mi primo es ______ (tall) y delgado.",
-            "choices": ["alto"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Yo no me ______ (to remember) de dónde dejé las llaves.",
-            "choices": ["acuerdo"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Ellos se ______ (to complain) del tráfico todos los días.",
-            "choices": ["quejan"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "La clase ______ (to start) a las ocho en punto.",
-            "choices": ["comienza"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Nosotros ______ (to be) responsables en nuestro trabajo.",
-            "choices": ["somos"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
-          {
-            "question": "Tú te ______ (to feel) mejor después de hablar con tu amigo.",
-            "choices": ["sientes"],
-            "type": "FillInTheBlanks",
-            "correctAnswer": 1
-          },
+          "question": "Yo ______ a las seis de la mañana. (levantarse)",
+          "choices": ["me levanto"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tú siempre ______ antes de salir de casa. (peinarse)",
+          "choices": ["te peinas"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Él ______ el abrigo cuando entra en la oficina. (quitarse)",
+          "choices": ["se quita"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Nosotros ______ rápidamente para llegar a tiempo. (vestirse)",
+          "choices": ["nos vestimos"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Vosotros ______ cada noche antes de dormir. (ducharse)",
+          "choices": ["os ducháis"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ellos ______ con entusiasmo en las fiestas. (divertirse)",
+          "choices": ["se divierten"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "María y Ana ______ por las mañanas con café caliente. (despertarse)",
+          "choices": ["se despiertan"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Yo no ______ nervioso en público. (sentirse)",
+          "choices": ["me siento"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Tú ______ cartas a tus amigos los fines de semana. (escribir)",
+          "choices": ["escribes"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Lucía ______ tarde los domingos. (acostarse)",
+          "choices": ["se acuesta"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Carlos es muy ______; siempre ayuda a los demás.",
+          "choices": ["generoso"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mi hermana es bastante ______ y no habla mucho con desconocidos.",
+          "choices": ["tímido"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marcos es muy ______; hace deporte todos los días y está en forma.",
+          "choices": ["atlético"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Laura tiene el pelo rubio y los ojos azules; es muy ______.",
+          "choices": ["rubia"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Pedro es ______ y nunca comparte sus cosas.",
+          "choices": ["egoísta"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Ana es muy ______; siempre encuentra solución a los problemas.",
+          "choices": ["ingeniosa"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Mi primo es alto y ______; mide casi dos metros.",
+          "choices": ["alto"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Marta es muy ______; se enoja con facilidad.",
+          "choices": ["irritable"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Este niño es muy ______; siempre está sonriente y alegre.",
+          "choices": ["alegre"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
+        {
+          "question": "Julio es ______: nunca llega tarde a ninguna cita.",
+          "choices": ["puntual"],
+          "type": "FillInTheBlanks",
+          "correctAnswer": 1
+        },
   
         {
           "question": "Empareja las palabras singulares y plurales.",
