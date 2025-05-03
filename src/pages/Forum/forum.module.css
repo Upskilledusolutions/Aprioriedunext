@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr 300px;
+    height: 100vh;
+    gap: 16px;
+    padding: 16px;
+    background-color: rgb(227, 80, 61);
+  }
+
+/* General Container */
+.forumContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px 5vw;
+  background: linear-gradient(135deg, #ffaf3f, #ff4f1a);
+  font-family: 'Poppins', sans-serif;
+  min-height: 75vh;
+}
+
+/* Left Navigation */
+.leftNav {
+  flex: 1;
+  background-color: rgb(255, 222, 169);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Main Content */
+.mainContent {
+  flex: 2;
+  background-color: rgb(198, 121, 111);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  background-color: rgb(255, 222, 169);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Buttons */
+.button {
+  background-color: var(--blue);
+  background-color: rgb(255, 148, 134);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .forumContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .leftNav, .mainContent, .sidebar {
+    flex: none;
+    width: 100%;
+  }
+}

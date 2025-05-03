@@ -72,6 +72,7 @@ left: 0;
   font-size: 1rem;
   transition: background-color 0.3s ease;
   text-decoration: none;
+  text-align: left;
 }
 .logoutButton1 {
   border: none;

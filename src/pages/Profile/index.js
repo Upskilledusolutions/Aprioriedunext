@@ -259,8 +259,6 @@ export default function index() {
     return daysOfWeek[date.getDay()];
   };
 
-  console.log(thisWeeksScores)
-
     return (
         <div>
         {loading && <div className={styles.loader}><LoadingSpinner /></div>}

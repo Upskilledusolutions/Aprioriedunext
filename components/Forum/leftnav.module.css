@@ -1,0 +1,94 @@
+/* Navigation Container */
+.nav {
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  height: 91%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Profile Section */
+.profileSection {
+  margin-bottom: 20px;
+}
+
+.greeting {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.addQuestionButton {
+  background-color: #ffffff;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Navigation List */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border-bottom: 1px solid black;
+}
+
+.item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateX(5px);
+}
+
+.searchBarContainer {
+    margin-bottom: 50px;
+  }
+  
+  .searchBar {
+    width: 90%;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+  }
+  
+  .searchBar:focus {
+    border-color: none;
+  }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 15px;
+  }
+
+  .greeting {
+    font-size: 1rem;
+  }
+
+  .addQuestionButton {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .item {
+    font-size: 0.9rem;
+  }
+}

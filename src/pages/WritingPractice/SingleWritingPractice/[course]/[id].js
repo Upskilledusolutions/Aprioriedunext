@@ -310,7 +310,7 @@ const ChatGPTComponent = () => {
           messages: [
             {
               role: 'system',
-              content: `You are a ${selectedTopic} instructor helping a native English speaker improve their ${selectedTopic} skills. Provide feedback on grammar and vocabulary for: ${lesson[id - 1].firstsent[Math.floor(messages.length / 2)]}.`,
+              content: `You are a ${selectedTopic} instructor helping a native English speaker improve their ${selectedTopic} skills. Provide feedback on grammar and vocabulary in english so that the student can understand, for: ${lesson[id - 1].firstsent[Math.floor(messages.length / 2)]}.`,
             },
             ...messages,
             userMessage,
