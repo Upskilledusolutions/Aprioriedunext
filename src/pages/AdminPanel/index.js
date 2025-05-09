@@ -68,6 +68,8 @@ export default function Index() {
     setSelection({ section, language });
   };
 
+  console.log(allCollections)
+
   return (
     <div>
       {loading && <div className={styles.loader}><LoadingSpinner /></div>}

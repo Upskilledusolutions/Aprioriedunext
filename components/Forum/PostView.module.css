@@ -5,7 +5,28 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    height: 90%;
+    overflow-y: scroll;
   }
+  /* width */
+  .main::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.main::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.main::-webkit-scrollbar-thumb {
+  background: #812f2f;
+}
+
+/* Handle on hover */
+.main::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
   .header {
     display: flex;
     flex-direction: column;
@@ -22,7 +43,10 @@
   }
   .content {
     font-size: 16px;
-    line-height: 1.5;
+  }
+  .content p{
+    margin: 0;
+    margin-bottom: 15px;
   }
   .actions {
     display: flex;
@@ -33,5 +57,59 @@
     border: none;
     cursor: pointer;
     font-weight: 500;
+  }
+  .containing{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .replySection {
+    margin-top: 20px;
+  }
+  
+  .replyInput {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .replyInput:focus {
+    outline: none;
+    border-bottom: 1px solid #812f2f;
+  }
+  
+  .replyButton {
+    padding: 10px 15px;
+    background-color: #323232;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .replyButton:hover {
+    background-color: black;
+  }
+  
+  .replyList {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .replyItem {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .usernameb{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #888;
   }
   

@@ -32,7 +32,7 @@ export default function QuestionModal({ isOpen, onClose, onSubmit }) {
             />
           </div>
           <div className={styles.formGroup}>
-            <label htmlFor="question">Question</label>
+            <label htmlFor="question">Description</label>
             <textarea
               id="question"
               value={question}

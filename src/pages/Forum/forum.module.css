@@ -15,7 +15,7 @@
   padding: 30px 5vw;
   background: linear-gradient(135deg, #ffaf3f, #ff4f1a);
   font-family: 'Poppins', sans-serif;
-  min-height: 75vh;
+  height: 75vh;
 }
 
 /* Left Navigation */
@@ -60,15 +60,109 @@
   background-color: #005bb5;
 }
 
+.navbar {
+  display: none;
+}
+.closeButton{
+  display: none;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .forumContainer {
     flex-direction: column;
     gap: 20px;
+    height: auto;
   }
 
   .leftNav, .mainContent, .sidebar {
     flex: none;
     width: 100%;
   }
+  /* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
 }
+
+.navbarButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbarButton:hover {
+  background-color: #0056b3;
+}
+
+/* LeftNav */
+.leftNav {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Hidden by default */
+  width: 300px;
+  height: 100%;
+  background-color: rgb(255, 222, 169);
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  transition: left 0.3s ease-in-out;
+  z-index: 1000;
+  border-radius: 0;
+}
+
+.showLeftNav {
+  left: 0; /* Slide in */
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Hidden by default */
+  width: 300px;
+  height: 100%;
+  background-color: rgb(255, 222, 169);
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.showSidebar {
+  right: 0; /* Slide in */
+}
+
+/* Main Content */
+.mainContent {
+  padding: 0;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Close Button */
+.closeButton {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 10px 20px;
+  background-color: #ff4f4f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background-color: #cc0000;
+}
+}
+

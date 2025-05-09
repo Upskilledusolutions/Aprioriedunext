@@ -143,7 +143,7 @@ export default function Navbar() {
               <div className={styles.dropdownMenu}>
                 <Link href={'/Profile'} className={styles.logoutButton} onClick={toggleDropdown}>Profile</Link>
                 <Link href={'/User'} className={styles.logoutButton} onClick={toggleDropdown}>Courses</Link>
-                {/* <Link href={'/Forum'} className={styles.logoutButton} onClick={toggleDropdown}>Discussion Forum</Link> */}
+                <Link href={'/Forum'} className={styles.logoutButton} onClick={toggleDropdown}>Forum</Link>
                 {/* <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Readnow'>Lessons</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Exercise'>Exercises</Link>
                 <Link className={styles.logoutButton1} onClick={toggleDropdown} href='/Conversations'>Conversations</Link>

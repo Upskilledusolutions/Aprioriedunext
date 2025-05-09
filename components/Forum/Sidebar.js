@@ -1,20 +1,30 @@
 import React from 'react';
-import QuestionCard from './QuestionCard';
 import styles from './Sidebar.module.css';
 
-const questions = [
-  'Why is the sky blue?',
-  'What causes rainbows?',
-  'How do planes stay in the air?',
-  'Is time travel possible?'
-];
+export default function Sidebar({ questions, onSelectPost, setShowSidebar }) {
+  const handleSelectPost = (post) => {
+    onSelectPost(post);
 
-export default function Sidebar() {
+    // Check if the screen width is mobile-sized
+    if (window.innerWidth <= 768) {
+      setShowSidebar(false); // Close the sidebar on mobile view
+    }
+  };
+
   return (
     <aside className={styles.sidebar}>
-      {questions.map((q, idx) => (
-        <QuestionCard key={idx} question={q} />
-      ))}
+      {questions
+        .reverse()
+        .slice(0, 10)
+        .map((q) => (
+          <div
+            key={q._id}
+            className={styles.card}
+            onClick={() => handleSelectPost(q)}
+          >
+            <p className={styles.text}>{q.topic}</p>
+          </div>
+        ))}
     </aside>
   );
 }

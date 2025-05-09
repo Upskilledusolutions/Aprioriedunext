@@ -87,3 +87,9 @@
 .submitButton:hover, .closeButton:hover {
   background: #000000;
 }
+
+@media screen and (max-width: 768px) {
+  .modal {
+    width: 80%;
+  }
+}
