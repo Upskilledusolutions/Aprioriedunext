@@ -65,7 +65,7 @@ export default function Login() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ userId, password, ipAddress, location }),
+      body: JSON.stringify({ name, userId, password, ipAddress, location }),
     });
     setLoading(false);
 
