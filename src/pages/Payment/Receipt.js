@@ -223,62 +223,64 @@ const ReferralForm = () => {
       currentY += 5;
       doc.text(`Grand Total: Rs ${formData.total}`, 130, currentY);
 
-      if(showTerms) {doc.addPage();
-      doc.addImage(imgData, "PNG", 175, 10, 20, 20);
-      doc.setFont("Helvetica", "bold");
-      doc.setFontSize(22);
-      doc.text("Upskilledu Solutions", 10, 18);
-      doc.setFontSize(10);
-      doc.setFont("Helvetica", "normal");
-      doc.text("Address: E - 200, Lajpat Nagar 1,", 10, 30);
-      doc.text("New Delhi - 110024,", 10, 35);
-      doc.text("Delhi, India", 10, 40);
-      doc.text("Email: info@upskilleduonline.com", 10, 45);
-      doc.text("Phone: +91 97171 89650/ 659", 10, 50);
-      doc.setFont("Helvetica", "bold");
-      doc.setFontSize(16);
-      doc.text("Terms and Conditions", 10, 65);
-
-      const termsContent = [
-        {
-          title: "Introduction",
-          content:
-            "Welcome to Upskilledu Solutions LLP, an Ed Tech platform offering language courses in Asian and European\n\nlanguages. By accessing or using our website, you agree to comply with and be bound by the following terms and\n\nconditions.",
-        },
-        {
-          title: "User Accounts",
-          content:
-            "Registration: To access certain features, you must create an account. You are responsible for maintaining the\n\nconfidentiality of your account information.\n\nEligibility: You must be at least 18 years old or have parental consent to use this platform.",
-        },
-        {
-          title: "Course Enrollment",
-          content:
-            "Access: Upon enrollment, you gain access to the course materials for a specified duration.\n\nUsage: Course materials are for personal use only and cannot be shared or redistributed.",
-        },
-        {
-          title: "Payment Terms",
-          content:
-            "Fees: All course fees must be paid in full at the time of enrollment.\n\nPayment Gateway: We use secure payment gateways. By providing your payment information, you authorize\n\nus to charge the applicable fees.\n\nNO REFUNDS POLICY: We do NOT ISSUE REFUNDS since clients and visitors are allowed to avail of a\n\nFREE TRIAL before making the payment.",
-        },
-      ];
-
-      let yPosition = 75;
-      termsContent.forEach((section) => {
-        doc.setFontSize(14);
+      if (showTerms) {
+        doc.addPage();
+        doc.addImage(imgData, "PNG", 175, 10, 20, 20);
         doc.setFont("Helvetica", "bold");
-        doc.text(section.title, 10, yPosition);
-        yPosition += 10;
-
+        doc.setFontSize(22);
+        doc.text("Upskilledu Solutions", 10, 18);
         doc.setFontSize(10);
         doc.setFont("Helvetica", "normal");
-        const lines = doc.splitTextToSize(section.content, 190);
-        doc.text(lines, 14, yPosition);
-        yPosition += lines.length * 6;
-        if (yPosition > 270) {
-          doc.addPage();
-          yPosition = 20;
-        }
-      });}
+        doc.text("Address: E - 200, Lajpat Nagar 1,", 10, 30);
+        doc.text("New Delhi - 110024,", 10, 35);
+        doc.text("Delhi, India", 10, 40);
+        doc.text("Email: info@upskilleduonline.com", 10, 45);
+        doc.text("Phone: +91 97171 89650/ 659", 10, 50);
+        doc.setFont("Helvetica", "bold");
+        doc.setFontSize(16);
+        doc.text("Terms and Conditions", 10, 65);
+
+        const termsContent = [
+          {
+            title: "Introduction",
+            content:
+              "Welcome to Upskilledu Solutions LLP, an Ed Tech platform offering language courses in Asian and European\n\nlanguages. By accessing or using our website, you agree to comply with and be bound by the following terms and\n\nconditions.",
+          },
+          {
+            title: "User Accounts",
+            content:
+              "Registration: To access certain features, you must create an account. You are responsible for maintaining the\n\nconfidentiality of your account information.\n\nEligibility: You must be at least 18 years old or have parental consent to use this platform.",
+          },
+          {
+            title: "Course Enrollment",
+            content:
+              "Access: Upon enrollment, you gain access to the course materials for a specified duration.\n\nUsage: Course materials are for personal use only and cannot be shared or redistributed.",
+          },
+          {
+            title: "Payment Terms",
+            content:
+              "Fees: All course fees must be paid in full at the time of enrollment.\n\nPayment Gateway: We use secure payment gateways. By providing your payment information, you authorize\n\nus to charge the applicable fees.\n\nNO REFUNDS POLICY: We do NOT ISSUE REFUNDS since clients and visitors are allowed to avail of a\n\nFREE TRIAL before making the payment.",
+          },
+        ];
+
+        let yPosition = 75;
+        termsContent.forEach((section) => {
+          doc.setFontSize(14);
+          doc.setFont("Helvetica", "bold");
+          doc.text(section.title, 10, yPosition);
+          yPosition += 10;
+
+          doc.setFontSize(10);
+          doc.setFont("Helvetica", "normal");
+          const lines = doc.splitTextToSize(section.content, 190);
+          doc.text(lines, 14, yPosition);
+          yPosition += lines.length * 6;
+          if (yPosition > 270) {
+            doc.addPage();
+            yPosition = 20;
+          }
+        });
+      }
 
       // Save the PDF
       doc.save("Payment_Receipt.pdf");
@@ -429,7 +431,24 @@ const ReferralForm = () => {
               >
                 <option value="">Select a Course</option>
                 <option value="English">English</option>
-                <option value="English Aptitude">English Aptitude</option>
+                <option value="English Aptitude - 3 months">
+                  English Aptitude - 3 months
+                </option>
+                <option value="English Aptitude - 6 months">
+                  English Aptitude - 6 months
+                </option>
+                <option value="English Aptitude - 12 months">
+                  English Aptitude - 12 months
+                </option>
+                <option value="SAT - 3 months">
+                  SAT - 3 months
+                </option>
+                <option value="SAT - 6 months">
+                  SAT - 6 months
+                </option>
+                <option value="SAT - 12 months">
+                  SAT - 12 months
+                </option>
                 <option value="French">French</option>
                 <option value="Spanish">Spanish</option>
                 <option value="German">German</option>
@@ -457,6 +476,8 @@ const ReferralForm = () => {
                 className={styles.input}
               >
                 <option value="">Select a level</option>
+                <option value="Foundation">Foundation</option>
+                <option value="Advanced">Advanced</option>
                 <option value="A1">A1</option>
                 <option value="A2">A2</option>
                 <option value="B1">B1</option>
@@ -486,6 +507,9 @@ const ReferralForm = () => {
               >
                 <option value="">Select a Category</option>
                 <option value="Self study package">Self study package</option>
+                <option value="Online">
+                  Online
+                </option>
                 <option value="Online Classes for Adults">
                   Online Classes for Adults
                 </option>
@@ -576,21 +600,20 @@ const ReferralForm = () => {
                 className={styles.input}
               />
             </div>
-
           </div>
           <label className={styles.label} htmlFor="terms">
-                Print Terms and Conditions
-              </label>
+            Print Terms and Conditions
+          </label>
           <label className={styles.switch}>
-              <input
-                type="checkbox"
-                id='terms'
-                name='terms'
-                checked={showTerms}
-                onChange={()=>setShowTerms(!showTerms)}
-              />
-              <span className={styles.slider}></span>
-            </label>
+            <input
+              type="checkbox"
+              id="terms"
+              name="terms"
+              checked={showTerms}
+              onChange={() => setShowTerms(!showTerms)}
+            />
+            <span className={styles.slider}></span>
+          </label>
 
           <button type="submit" className={styles.submitButton}>
             Submit
