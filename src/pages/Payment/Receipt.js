@@ -431,24 +431,8 @@ const ReferralForm = () => {
               >
                 <option value="">Select a Course</option>
                 <option value="English">English</option>
-                <option value="English Aptitude">
-                  English Aptitude
-                </option>
-                <option value="English Aptitude">
-                  English Aptitude
-                </option>
-                <option value="English Aptitude">
-                  English Aptitude
-                </option>
-                <option value="SAT">
-                  SAT
-                </option>
-                <option value="SAT">
-                  SAT
-                </option>
-                <option value="SAT">
-                  SAT
-                </option>
+                <option value="English Aptitude">English Aptitude</option>
+                <option value="SAT">SAT</option>
                 <option value="French">French</option>
                 <option value="Spanish">Spanish</option>
                 <option value="German">German</option>
