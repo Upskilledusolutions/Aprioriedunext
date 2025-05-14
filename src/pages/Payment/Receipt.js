@@ -136,7 +136,7 @@ const ReferralForm = () => {
 
       // Build an array of course details conditionally
       const courseDetails = [
-        { label: "Language", value: formData.language },
+        { label: "Course", value: formData.language },
         // Conditionally include Level if provided
         ...(formData.level ? [{ label: "Level", value: formData.level }] : []),
         { label: "Duration", value: formData.duration },
@@ -161,7 +161,7 @@ const ReferralForm = () => {
       // Table of Products
       const columns = [
         "ID",
-        "Course",
+        "Mode/ Category",
         "Rate",
         "Qty",
         "Scholarship",
