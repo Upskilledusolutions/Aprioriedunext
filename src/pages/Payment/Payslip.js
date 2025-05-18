@@ -5,25 +5,25 @@ import styles from "@/styles/Payslip.module.css";
 
 const Payslip = () => {
   const [formData, setFormData] = useState({
-    name: "Pushkar Gaur",
-    designation: "Full Stack Developer",
-    department: "IT Services",
-    dateOfJoining: "2024-03-01",
-    pan: "DEEPG7563D",
-    daysPayable: "30",
-    unpaidLeave: "0",
-    leavesTaken: "0",
+    name: "",
+    designation: "",
+    department: "",
+    dateOfJoining: "",
+    pan: "",
+    daysPayable: "",
+    unpaidLeave: "",
+    leavesTaken: "",
     payslipMonth: "2025-04",
     grossSalary: "",
-    basic: "14000",
-    hra: "7000",              // ← added HRA field
-    specialAllowance: "7000",
+    basic: "",
+    hra: "",              // ← added HRA field
+    specialAllowance: "",
     bonus: "0",
     incomeTax: "0",
     otherDeductions: "0",
     daysLOP: "0",
-    bankName: "State Bank of India",
-    bankAccountNo: "32233834637",
+    bankName: "",
+    bankAccountNo: "",
   });
 
   const handleChange = e => {
