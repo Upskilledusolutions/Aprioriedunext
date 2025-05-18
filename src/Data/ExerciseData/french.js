@@ -13,9 +13,9 @@ export const quiz = [
       },
       {
         "question": "What is the conjugated verb form of 'être' for the pronoun 'nous'?",
-        "choices": ["êtes", "sommes", "est", "sont"],
+        "choices": ["êtes", "est",  "sommes", "sont"],
         "type": "MCQs",
-        "correctAnswer": 2
+        "correctAnswer": 3
       },
       {
         "question": "What does 'Il est' mean?",
