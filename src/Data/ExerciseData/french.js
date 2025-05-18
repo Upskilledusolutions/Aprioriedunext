@@ -7,9 +7,9 @@ export const quiz = [
     questions: [
       {
         "question": "What is the French pronoun for 'I'?",
-        "choices": ["Tu", "Il", "Je", "Nous"],
+        "choices": ["Je","Tu", "Il", "Nous"],
         "type": "MCQs",
-        "correctAnswer": 3
+        "correctAnswer": 1
       },
       {
         "question": "What is the conjugated verb form of 'être' for the pronoun 'nous'?",
