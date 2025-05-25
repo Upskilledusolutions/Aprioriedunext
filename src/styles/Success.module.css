@@ -12,7 +12,7 @@
 }
 .tic{
   width: 2.5vw;
-  height: auto;
+  height: 100%;
 }
 .container {
     text-align: center;
@@ -24,6 +24,11 @@
     width: 35vw;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   
   .title {
