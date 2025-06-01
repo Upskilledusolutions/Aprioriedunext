@@ -4,6 +4,7 @@ import Image from 'next/image';
 import styles from './singlepage.module.css';
 import Link from 'next/link';
 import { useState } from 'react';
+import { useSelector } from 'react-redux';
 
 const contests = [
   {
@@ -34,7 +35,8 @@ const contestRulesText = [
 const SingleContestPage = () => {
   const router = useRouter();
   const { id } = router.query;
-      const [showModal, setShowModal] = useState(false);
+  const { user } = useSelector((state) => state.auth);
+  const [showModal, setShowModal] = useState(false);
 
   const contest = contests.find((item) => item.id === parseInt(id));
 
@@ -77,6 +79,9 @@ const SingleContestPage = () => {
             <button className={styles.registerButton}>Register Now</button>
             </Link>
             <button className={styles.rulesButton} onClick={() => setShowModal(true)} aria-label="Show Contest Rules" >Contest Rules</button>
+            {!user?.name && <Link href={'/Auth'}>
+            <button className={styles.registerButton}>Login</button>
+            </Link>}
           </div>
         </div>
                 {showModal && (
