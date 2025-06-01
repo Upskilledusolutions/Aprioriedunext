@@ -33,7 +33,7 @@ const ReferralForm = () => {
     age: '',
     contest: '',
     subcategory: '',
-    amount: '1000',
+    amount: '1',
     validTill: '25 June 2025',
   };
 
