@@ -20,6 +20,7 @@ export default function Index() {
       try {
         const response = await fetch(`${URL}/api/${selection.section}/${selection.language}`);
         const data = await response.json();
+        console.log(data)
         setAllCollections(data);
       } catch (error) {
         console.error('Error fetching lessons:', error);
@@ -67,8 +68,6 @@ export default function Index() {
   const handleLanguageSelection = (section, language) => {
     setSelection({ section, language });
   };
-
-  console.log(allCollections)
 
   return (
     <div>

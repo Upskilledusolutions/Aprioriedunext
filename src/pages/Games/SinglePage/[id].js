@@ -27,7 +27,8 @@ const contestRulesText = [
   "iv. In case there is a tie for the top spot, a tie-breaker will be conducted online through zoom and the judge's decision will be final in this matter.",
   "v. The iPAD will be sent to a verified address after we receive a confirmation of the receipt of the certificate for the winners.",
   "vi. The winners of the contest will be mentioned on social media and they will be required to provide identification and other necessary details. Failure to do so will automatically disqualify them from receiving the prizes.",
-  "vii. No refunds will be issued for any reason whatsoever."
+  "vii. No refunds will be issued for any reason whatsoever.",
+  "viii. The contest is open to participants from all across the world but the Winner will be the highest ranking contestant (through a tie breaker, if required) from residents of India only."
 ];
 
 const SingleContestPage = () => {

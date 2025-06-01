@@ -4,8 +4,8 @@ import { BiUpArrowAlt, BiDownArrowAlt } from "react-icons/bi";
 import { FaCrown } from "react-icons/fa6";
 
 const LeaderboardTable = ({totalScores}) => {
-  const filteredScores = totalScores.filter((data) => data.name);
-  // Sort the filtered scores by totalScore in descending order
+const filteredScores = totalScores.filter((data) => data.active && data.name);
+  console.log(totalScores)
   const sortedScores = [...filteredScores].sort((a, b) => b.performance.totalScore - a.performance.totalScore);
   return (
     <div className={styles.container}>

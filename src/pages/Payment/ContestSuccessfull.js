@@ -9,6 +9,7 @@ import Image from 'next/image';
 const SuccessPage = () => {
   const router = useRouter();
   const emailSentRef = useRef(false);
+  const langauge = { "French A1": "french", "French A2": "frencha2", "Spanish A1": "spanish", "Spanish A2" : "spanisha2", "German A1" : "german", "German A2" : "germana2" }
   const URL = process.env.NEXT_PUBLIC_BACKENDURL
   const {
     name,
@@ -83,6 +84,37 @@ useEffect(() => {
     userId,
     password,
   };
+
+const fetchLessons = async () => {
+  try {
+    const response = await fetch(`${URL}/api/Auth/Users`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        active: true,
+        name: name,
+        next: [],
+        password: password,
+        questions: [],
+        trial: false,
+        type: langauge[subcategory],
+        userId: userId,
+        using: true
+      })
+    });
+
+    const data = await response.json();
+    console.log('Response:', data);
+  } catch (error) {
+    console.error('Error fetching lessons:', error);
+  }
+};
+
+fetchLessons();
+
+alert(`Your credentials are:\nName: ${name} \nUser ID: ${userId}\nPassword: ${password}\nPlease check your email for details.`);
 
   // Save to backend
   saveRegistration(registrationData);

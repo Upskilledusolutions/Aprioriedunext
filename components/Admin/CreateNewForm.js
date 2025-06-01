@@ -61,7 +61,7 @@ const CreateNewForm = ({ URL, refreshData, section, headings, language,  setShow
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       });
-
+      console.log("response" , formData)
       if (!response.ok) {
         throw new Error(`Failed to ${initialData ? 'update' : 'create'}: ${response.statusText}`);
       }

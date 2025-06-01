@@ -133,7 +133,7 @@ const ReferralForm = () => {
           {/* Row 1: Name & Phone */}
           <div className={styles.row}>
             <div className={styles.formGroup}>
-              <label>Name <span className={styles.span}>*</span></label>
+              <label>First Name <span className={styles.span}>*</span></label>
               <input name="name" value={formData.name} onChange={handleChange} className={errors.name ? styles.errorInput : styles.input} />
               {errors.name && <div className={styles.errorText}>{errors.name}</div>}
             </div>

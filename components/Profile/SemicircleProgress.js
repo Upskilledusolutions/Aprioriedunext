@@ -51,7 +51,7 @@ const FullCircleProgress = ({lesson, sections, filteredObject}) => {
               transform={`rotate(-90 ${viewWidth / 2} ${viewHeight / 2})`}
             />
           </svg>
-          <div className={styles.text}>{Math.floor((totalExercisesCount/totalLength)*100)}%</div>
+          <div className={styles.text}>{Math.floor((totalExercisesCount/totalLength)*100) || 0}%</div>
         </div>
       </div>
     </div>
