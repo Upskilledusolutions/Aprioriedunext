@@ -31,9 +31,27 @@ const SuccessPage = () => {
 const generateCredentials = () => {
   const rand = () => Math.floor(1000 + Math.random() * 9000); // 4-digit number
   const clean = (str) => str.replace(/\s+/g, ''); // Remove all spaces
+const langWords = [
+  "bonjour", "gracias", "danke", "amigo", "freund", "paris",
+  "hola", "schnell", "maison", "schule", "livre", "perro",
+  "katze", "école", "vino", "brot", "fromage", "sol", "mond", "merci"
+];
 
-  const userId = `${clean(subcategory)}${clean(name)}${rand()}`;
-  const password = `${clean(name)}${clean(subcategory)}${rand()}`;
+const specialChars = "!@#$%^&*_-+=?";
+
+function generatePassword() {
+  const getRandomItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+  const word1 = getRandomItem(langWords);
+  const word2 = getRandomItem(langWords);
+  const special = getRandomItem(specialChars);
+  const number = Math.floor(1000 + Math.random() * 9000); // ensures 4 digits
+
+  return `${word1}${word2}${special}${number}`;
+}
+
+  const userId = `${clean(name)}${rand()}`;
+  const password =  generatePassword();
 
   return { userId, password };
 };
@@ -101,6 +119,7 @@ const fetchLessons = async () => {
         trial: false,
         type: langauge[subcategory],
         userId: userId,
+        contest: true,
         using: true
       })
     });
@@ -143,6 +162,7 @@ alert(`Your credentials are:\nName: ${name} \nUser ID: ${userId}\nPassword: ${pa
       console.error('Failed to send credentials email', err);
     });
 }, [email, name, contest, subcategory, validTill]);
+
 
   const downloadReceipt = () => {
     const doc = new jsPDF();

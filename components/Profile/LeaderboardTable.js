@@ -2,9 +2,14 @@ import React from 'react';
 import styles from '../../src/styles/Profile/LeaderboardTable.module.css';
 import { BiUpArrowAlt, BiDownArrowAlt } from "react-icons/bi";
 import { FaCrown } from "react-icons/fa6";
+import { useSelector } from 'react-redux';
 
 const LeaderboardTable = ({totalScores}) => {
-const filteredScores = totalScores.filter((data) => data.active && data.name);
+const {user} = useSelector((state) => state.auth);
+console.log("Total Scores:", user);
+const filteredScores = user.contest
+  ? totalScores.filter(data => data.active && data.name && data.contest === user.contest)
+  : totalScores.filter(data => data.active && data.name);
   const sortedScores = [...filteredScores].sort((a, b) => b.performance.totalScore - a.performance.totalScore);
   return (
     <div className={styles.container}>
