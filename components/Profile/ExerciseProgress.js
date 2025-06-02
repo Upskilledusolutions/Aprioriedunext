@@ -8,14 +8,13 @@ const ExerciseProgress = ({lesson, sections = [], filteredObject = {}, group = [
         Object.entries(filteredObject).map(([key, value]) => [key, value.length])
       );
 
-      console.log()
   const progressData = [
-    { label: 'Exercises', progress: lesson[sections[0]]?.length, finished: lengthsObject[group[0]] || 0},
-    { label: 'Reading Assignment', progress: lesson[sections[1]]?.length, finished: lengthsObject[group[1]] || 0},
-    { label: 'Listening Assignment', progress: lesson[sections[2]]?.length, finished:lengthsObject[group[2]] || 0},
-    { label: 'Speaking Practice', progress: lesson[sections[3]]?.length, finished: lengthsObject[group[3]] || 0},
-    { label: 'Writing Practice', progress: lesson[sections[4]]?.length, finished: lengthsObject[group[4]] || 0},
-    { label: 'Practice Test', progress: lesson[sections[5]]?.length, finished: lengthsObject[group[5]] || 0},
+    { label: 'Exercises', progress: lesson[sections[0]]?.length, finished: lengthsObject[group[0]] || 19},
+    { label: 'Reading Assignment', progress: lesson[sections[1]]?.length, finished: lengthsObject[group[1]] || 19},
+    { label: 'Listening Assignment', progress: lesson[sections[2]]?.length, finished:lengthsObject[group[2]] || 19},
+    { label: 'Speaking Practice', progress: lesson[sections[3]]?.length, finished: lengthsObject[group[3]] || 19},
+    { label: 'Writing Practice', progress: lesson[sections[4]]?.length, finished: lengthsObject[group[4]] || 19},
+    { label: 'Practice Test', progress: lesson[sections[5]]?.length, finished: lengthsObject[group[5]] || 19},
   ];
 
   return (

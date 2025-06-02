@@ -15,7 +15,7 @@ const FullCircleProgress = ({lesson, sections, filteredObject}) => {
 
   const totalLength = sections.reduce((sum, section) => {
     const sectionData = lesson[section];
-    return sum + (Array.isArray(sectionData) ? sectionData.length : 0);
+    return sum + (Array.isArray(sectionData) ? sectionData.length : 19);
   }, 0);
   const dashOffset = circumference - ((totalExercisesCount/totalLength)*100 / 100) * circumference;
 
