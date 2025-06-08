@@ -15,7 +15,8 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
   const [isStartModalOpen, setIsStartModalOpen] = useState(true);
   const [isReportModalOpen, setIsReportModalOpen] = useState(false);
   const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(null); // Timer starts as null
+  const [timeLeft, setTimeLeft] = useState(null); 
+  const [initialTime, setInitialTime] = useState(null);
   const audioRef = useRef(null);
   const { user } = useSelector((state) => state.auth);
   const router = useRouter();
@@ -122,7 +123,8 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
 
   const startAssignment = async () => {
     const totalDuration = await calculateTotalAudioDuration();
-    setTimeLeft(totalDuration); // Start timer with total duration
+    setTimeLeft(totalDuration); 
+    setInitialTime(totalDuration);
     setIsStartModalOpen(false);
     if (audioRef.current) {
         audioRef.current.play();
@@ -152,6 +154,11 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
   const openReportModal = () => {
     setIsReportModalOpen(true);
   };
+
+  const progressPercentage =
+    initialTime && timeLeft !== null
+      ? Math.round(((initialTime - timeLeft) / initialTime) * 100)
+      : 0;
 
   // Helper function to render report rows
   const renderReportRows = () => {
@@ -192,7 +199,7 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
   return (
     <div className={styles.readingassignment}>
       {/* Timer Section */}
-      <div className={styles.timer}>Time Left: {timeLeft !== null ? formatTime(timeLeft) : "--:--"}</div>
+      {/* <div className={styles.timer}>Time Left: {timeLeft !== null ? formatTime(timeLeft) : "--:--"}</div> */}
 
       {/* Audio Section */}
       <div className={styles.audioSection}>
@@ -206,6 +213,12 @@ const ReadingAssignmentWithAudio = ({ id, subject, audios, questionsPerAudio }) 
 
       {/* Questions Section */}
       <div className={styles.questionssection1}>
+              <div className={styles.progressBar}>
+        <div
+          className={styles.progressFill}
+          style={{ width: `${progressPercentage}%` }}
+        ></div>
+      </div>
         {/* <h2>Questions for Audio {currentAudioIndex + 1}</h2> */}
         {currentQuestions.map((question, index) => (
           <div key={index} className={styles.question}>

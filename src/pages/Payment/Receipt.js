@@ -433,6 +433,7 @@ const ReferralForm = () => {
                 <option value="English">English</option>
                 <option value="English Aptitude">English Aptitude</option>
                 <option value="SAT">SAT</option>
+                <option value="ACS">ACS</option>
                 <option value="French">French</option>
                 <option value="Spanish">Spanish</option>
                 <option value="German">German</option>
@@ -462,6 +463,9 @@ const ReferralForm = () => {
                 <option value="">Select a level</option>
                 <option value="Foundation">Foundation</option>
                 <option value="Advanced">Advanced</option>
+                <option value="Standard">Standard</option>
+                <option value="Premium">Premium</option>
+                <option value="Elite">Elite</option>
                 <option value="A1">A1</option>
                 <option value="A2">A2</option>
                 <option value="B1">B1</option>

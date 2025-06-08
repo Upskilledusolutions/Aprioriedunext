@@ -6,5 +6,5 @@ export const cards = [
       link: 'Frenchwritingtasksb1',
       data: 'frenchb1',
       link2: 'Frenchwritingtaskb1'
-    },   
+    },    
   ];

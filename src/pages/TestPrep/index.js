@@ -53,6 +53,12 @@ export default function Index() {
       text: 'Get ready to put your German skills to the test with our exciting range of quizzes.',
       link: '/Practicetest/GermanQuizsA2',
     },
+        {
+      type: 'readingclub',
+      heading: 'Reading Club Practice Test',
+      text: 'Get ready to put your German skills to the test with our exciting range of quizzes.',
+      link: '/Practicetest/ReadingClub',
+    },
     // {
     //   type: 'italian',
     //   heading: 'Italian Language',
