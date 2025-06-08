@@ -27,7 +27,7 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
     setModalData(loginHistory);
     setShowModal(true);
   };
-
+  console.log(currentdata, "currentdataupdatedAt");
   return (
     <div className={styles.tableContainer}>
       {section === 'Auth' && (
@@ -48,7 +48,8 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
               <th key={index}>
                 {heading === 'using' ? 'Issued' : 
                  heading === 'trial' ? 'Full Access' : 
-                 heading === 'type' ? 'Course' : 
+                 heading === 'type' ? 'Course' :
+                 heading === 'contest' ? 'Contest' : 
                  heading}
               </th>
             ))}
@@ -67,6 +68,7 @@ const Table = ({ URL, data, section, headings, onDelete, onEdit, setIsCreatingNe
                         heading === 'trial' ? (!item.trial ? "✅ Yes" : "❌ No") :
                         heading === 'using' ? (item.using ? "✅ Yes" : "❌ No") :
                         heading === 'active' ? (item.active ? "✅ Yes" : "❌ No") :
+                        heading === 'contest' ? (item.contest ? "✅ Yes" : "❌ No") :
                         heading === 'questions' || heading === 'firstsent' || heading === 'next' ? item[heading].length :
                         typeof item[heading] === 'string' ? item[heading].slice(0, 20) :
                         JSON.stringify(item[heading])

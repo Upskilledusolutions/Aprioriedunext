@@ -20,7 +20,7 @@ export default function RightSide({
   let sect = section.replace(/^'|'$/g, ''); // Clean up section name
 
   const headings = {
-    'Auth': ["name","userId", "password", "using", "active", "trial", "type", "next"],
+    'Auth': ["name","userId", "password", "using", "active", "trial", "type", "contest", "next"],
     'Lessons': ["id", "name", "level", "pdf", "video", "desc"],
     'Conversations': ["id", "title", "url", "youtube", "desc"],
     'Exercises': ["quiz", "name", "level", "topic", "questions"],

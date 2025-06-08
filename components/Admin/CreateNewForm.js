@@ -8,7 +8,7 @@ const CreateNewForm = ({ URL, refreshData, section, headings, language,  setShow
 
   useEffect(() => {
     if (isCreatingNew) {
-      setFormData({ questions: [], trial: false, next: [] }); // Clear formData for a new entry
+      setFormData({ questions: [], trial: false, contest: false, next: [] }); // Clear formData for a new entry
     } else if (initialData) {
       setFormData(initialData); // Populate form for editing
     }
@@ -38,6 +38,13 @@ const CreateNewForm = ({ URL, refreshData, section, headings, language,  setShow
       }));
     };
 
+    const handlecontestCheckboxChange = (e) => {
+       setFormData((prevData) => ({
+        ...prevData,
+        contest: e.target.checked, // Set boolean value
+      }));
+    };
+
         // Handle checkbox (boolean) change
         const handleusingCheckboxChange = (e) => {
           setFormData((prevData) => ({
@@ -61,7 +68,6 @@ const CreateNewForm = ({ URL, refreshData, section, headings, language,  setShow
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       });
-      console.log("response" , formData)
       if (!response.ok) {
         throw new Error(`Failed to ${initialData ? 'update' : 'create'}: ${response.statusText}`);
       }
@@ -165,7 +171,18 @@ const removeNext = (index) => {
                 />
                 <span className={styles.slider}></span>
               </label>
-              ): heading === 'using' ? (
+              ) : heading === 'contest' ? (
+                <label className={styles.switch}>
+                <input
+                  type="checkbox"
+                  id={heading}
+                  name={heading}
+                  checked={formData.contest || false}
+                  onChange={handlecontestCheckboxChange}
+                />
+                <span className={styles.slider}></span>
+              </label>
+              ) : heading === 'using' ? (
                 <label className={styles.switch}>
                 <input
                   type="checkbox"
