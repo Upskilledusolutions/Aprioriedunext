@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from '../../src/styles/MatchTheFollowing.module.css';
 
-const MatchTheFollowingGame = ({ questionData, onNext, onResult, number }) => {
+const MatchTheFollowingGame = ({ questionData, onNext, onResult, questionlength }) => {
+        const [currentIndex, setCurrentIndex] = useState(0);
     const [availablePairs, setAvailablePairs] = useState([]);
     const [selectedLeftItem, setSelectedLeftItem] = useState(null);
     const [selectedRightItem, setSelectedRightItem] = useState(null);
@@ -13,7 +14,8 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult, number }) => {
     const leftRefs = useRef({});
     const rightRefs = useRef({});
     const svgContainerRef = useRef(null);
-    console.log(number)
+
+    console.log(questionlength)
 
     useEffect(() => {
         if (questionData) {
@@ -25,7 +27,7 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult, number }) => {
             setSelectedRightItem(null);
             setShowResults(false); // Reset results view when new question data comes
         }
-    }, [questionData]);
+    }, [questionData, currentIndex]);
 
     const handleLeftClick = (item) => {
         setSelectedLeftItem(item);
@@ -57,6 +59,7 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult, number }) => {
     };
 
     const handleShowResults = () => {
+        setCurrentIndex(prev => prev + 1);
         onNext();
     };
 
@@ -132,13 +135,21 @@ const MatchTheFollowingGame = ({ questionData, onNext, onResult, number }) => {
                 </svg>
             </div>
 
-            {!isSubmitted ? (
-                <button onClick={handleSubmit} className={styles.submitButton}>
-                    Submit
-                </button>
+          {!isSubmitted ? (
+                // If not submitted, show "Next" button if not at final question, otherwise "Submit"
+                currentIndex < questionlength - 1 ? (
+                    <button onClick={handleSubmit} className={styles.submitButton}>
+                        Show Match
+                    </button>
+                ) : (
+                    <button onClick={handleSubmit} className={styles.submitButton}>
+                        Submit
+                    </button>
+                )
             ) : (
+                // After submission, show "Results" button
                 <button onClick={handleShowResults} className={styles.resultButton}>
-                    Results
+                    Next
                 </button>
             )}
 

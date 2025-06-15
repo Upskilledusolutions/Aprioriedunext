@@ -291,6 +291,7 @@ const Quiz = () => {
                   <MatchTheFollowingGame
                     questionData={filteredQuestions[activeQuestion]}
                     onNext={onClickNext}
+                    questionlength={filteredQuestions.length}
                     onResult={({ isCorrect, correctMatches }) => {
                       setFematch(true)
                       setResult(prev => ({
