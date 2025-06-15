@@ -1,13 +1,12 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import styles from '../../src/styles/Profileright.module.css'
 import Defaultcomp from './Defaultcomp'
 import Leaderboard from './Leaderboard'
 
-
-function Right({selection, lesson, sections, filteredObject, group, userData, totalScores, userRank, streak, thisWeeksScores, weeklyBest, weeklyAverage, monthlyBest, monthlyAverage}) {
+const Right = forwardRef(function Right(props, ref) { const { selection, lesson, sections, filteredObject, group, userData, totalScores, userRank, streak, thisWeeksScores, weeklyBest, weeklyAverage, monthlyBest, monthlyAverage} = props;
 
   return (
-    <div className={styles.container}>
+    <div ref={ref} className={styles.container}>
         {selection.section !== 'Leader' ? 
           <Defaultcomp 
           lesson={lesson} 
@@ -30,7 +29,7 @@ function Right({selection, lesson, sections, filteredObject, group, userData, to
           totalScores={totalScores}/>
         }
     </div>
-  )
-}
+  );
+});
 
-export default Right
+export default Right;

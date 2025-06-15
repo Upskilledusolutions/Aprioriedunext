@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import Left from '../../../components/Profile/left';
 import styles from '@/styles/Profile.module.css';
 import LoadingSpinner from '../../../components/loader';
@@ -6,6 +6,8 @@ import {cards} from '../../helperfunction/fetchalldatajson'
 import { useSelector } from 'react-redux';
 import Right from '../../../components/Profile/Right';
 import { Getperformance } from '@/helperfunction/Getperformance';
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 
 const languages = {'french':'French A1', 'frencha2': 'French A2', 'frenchb1': 'French B1', 'frenchb2': 'French B2', 'spanish' :'Spanish A1','spanisha2': 'Spanish A2', 'spanish b1': 'Spanish B1', 'germana1':'German A1', 'germana2':'German A2', 'germanb1':'German B1', 'germanb2':'German B2'}
 
@@ -112,6 +114,7 @@ export default function index() {
       const card = cards.find(c => c.code === key);
       const sections = useMemo(() => (["Exercises", "Reading", "Listening", "ReadingP", "Writing", "PracticeTest"]), []);
       const [filteredObject, setFilteredObject] = useState({});
+       const sectionRef = useRef();
 
       useEffect(() => {
         const fetchUserData = async () => {
@@ -259,20 +262,55 @@ export default function index() {
     return daysOfWeek[date.getDay()];
   };
 
+const handleDownload = async () => {
+  // Get the element to capture
+  const input = sectionRef.current;
+
+  // Capture the content as a canvas using html2canvas
+  const canvas = await html2canvas(input, { scale: 2 });
+  const imgData = canvas.toDataURL('image/png');
+
+  // Path for your logo image
+  const logoPath = "/newlogo1.png"; // Ensure this path is correct
+
+  // Create a new PDF document: A4 size, portrait, in millimeters
+  const pdf = new jsPDF('p', 'mm', 'a4');
+
+  // Add the logo at the top left (for example at x=10, y=10 with width=40, height=40)
+  pdf.addImage(logoPath, "PNG", 10, 10, 15, 15);
+
+  // Calculate dimensions for the captured content:
+  const imgProps = pdf.getImageProperties(imgData);
+  const pdfWidth = 210; // A4 width in mm
+  const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+
+  // Set an offset to make sure the content is added below the logo. For instance, offset y by 60 mm.
+  const yOffset = 30;
+  pdf.addImage(imgData, 'PNG', 0, yOffset, pdfWidth, pdfHeight);
+
+  // Save the generated PDF
+  pdf.save('section.pdf');
+};
+
     return (
         <div>
         {loading && <div className={styles.loader}><LoadingSpinner /></div>}
         <div className={styles.bigcontainer}>
           <div className={styles.heading}>
             <div>{user?.name}'s Profile</div>
-            {selection?.language && <div className={styles.flex1}>
+            <div className={styles.flex11}> 
+              {selection?.language &&<button  className={styles.flex12} onClick={handleDownload}>Download Report</button>}
+             {selection?.language && <div className={styles.flex1}>
              <div className={styles.score}>Language: <span>{selection.language}</span></div>
             </div>}
+            </div>
+           
           </div>
           <div className={styles.container}>
             <Left onLanguageSelect={handleLanguageSelection} user={user}/>
             <div className={styles.righttext}>
               <Right 
+              ref={sectionRef}
               selection={selection} 
               lesson={lesson} 
               sections={sections} 
