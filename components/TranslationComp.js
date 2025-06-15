@@ -3,7 +3,12 @@ import { FaSyncAlt, FaCopy, FaTrashAlt, FaExchangeAlt } from "react-icons/fa";
 import styles from "../src/styles/TranslationComponent.module.css";
 import TranslationModal from "./TranslationModal";
 
-export default function TranslationComponent({ heading, frenchText, englishText }) {
+export default function TranslationComponent({
+  heading,
+  frenchText,
+  englishText,
+}) {
+    const extractedLanguage = heading ? heading.split(" ")[0] : "French"; 
   const [inputText, setInputText] = useState("");
   const [translatedText, setTranslatedText] = useState("");
   const [isFrenchToEnglish, setIsFrenchToEnglish] = useState(true);
@@ -31,9 +36,11 @@ export default function TranslationComponent({ heading, frenchText, englishText 
           messages: [
             {
               role: "system",
-              content: `You are a French instructor. The ${
-                currentDirection ? "French" : "English"
-              } paragraph is: ${currentDirection ? frenchText : englishText}. The student's translation is: ${studentTranslation}. Please provide your remarks, point out any errors, and give a percentage of correctness.`,
+              content: `You are a ${extractedLanguage} instructor. The ${
+                currentDirection ? extractedLanguage : "English"
+              } paragraph is: ${
+                currentDirection ? frenchText : englishText
+              }. The student's translation is: ${studentTranslation}. Please provide your remarks, point out any errors, and give a percentage of correctness.`,
             },
             ...messages,
             userMessage,
@@ -84,11 +91,11 @@ export default function TranslationComponent({ heading, frenchText, englishText 
         <div className={styles.header}>
           <h2 className={styles.title}>{heading}</h2>
           <button className={styles.swapBtn} onClick={swapLanguages}>
-          <h2 className={styles.rightside}>
-            {isFrenchToEnglish ? "French" : "English"} 
-              <FaExchangeAlt className={styles.swapIcon} /> 
-            {isFrenchToEnglish ? "English" : "French"}
-          </h2>
+            <h2 className={styles.rightside}>
+              {isFrenchToEnglish ? extractedLanguage : "English"}
+              <FaExchangeAlt className={styles.swapIcon} />
+              {isFrenchToEnglish ? "English" : extractedLanguage}
+            </h2>
           </button>
         </div>
         <p className={styles.initialText}>

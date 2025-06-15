@@ -46,7 +46,7 @@ grid-template-columns: 1fr;
   align-items: stretch;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1120px){
   .topSection {
     flex-direction: column;
     width: 100%;

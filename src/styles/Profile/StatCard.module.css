@@ -89,7 +89,7 @@
   font-weight: bold;
   color: #4caf50;
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1120px){
   .card{
     width: 81vw;
   }
