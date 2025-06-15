@@ -29,11 +29,11 @@ const StatCard = ({
         <div className={styles.extraRow}>
           <div className={styles.extraItem}>
             <span className={styles.extraLabel}>{weeklyLabel}</span>
-            <span className={styles.extraValue}>{weeklyValue}</span>
+            <span className={styles.extraValue}>{Math.floor(weeklyValue)}</span>
           </div>
           <div className={styles.extraItem}>
             <span className={styles.extraLabel}>{monthlyLabel}</span>
-            <span className={styles.extraValue}>{monthlyValue}</span>
+            <span className={styles.extraValue}>{Math.floor(monthlyValue)}</span>
           </div>
         </div>
       )}
