@@ -7,6 +7,7 @@ import { FaMedal, FaTrophy, FaCrown, FaChartLine, FaStar } from 'react-icons/fa'
 import styles from '../../src/styles/Profile/ProfilePage.module.css';
 
 const Defaultcomp = ({lesson, sections, filteredObject, group, userData, userRank, streak, thisWeeksScores, weeklyBest, weeklyAverage, monthlyBest, monthlyAverage, totalScores}) => {
+  console.log(monthlyBest, weeklyBest)
   return (
     <div className={styles.page}>
       <div className={styles.topSection}>
@@ -30,7 +31,7 @@ const Defaultcomp = ({lesson, sections, filteredObject, group, userData, userRan
               weeklyLabel="Weekly Best"
               weeklyValue={weeklyBest}
               monthlyLabel="Monthly Best"
-              monthlyValue={monthlyBest}
+              monthlyValue={weeklyBest > monthlyBest ? weeklyBest : monthlyBest} 
             />
             <StatCard 
               title="Avg Score" 
