@@ -947,7 +947,7 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "Mi hermano es __________ que yo.",
+          "question": "Mi hermano es ______ que yo.",
           "choices": ["Alto", "Más alto", "El más alto", "Menos más alto"],
           "type": "MCQs",
           "correctAnswer": 2
@@ -959,19 +959,19 @@ export const quiz = [
           "correctAnswer": 1
         },
         {
-          "question": "El Amazonas es el río __________ del mundo.",
+          "question": "El Amazonas es el río ______ del mundo.",
           "choices": ["Más largo", "Largo", "Tan largo", "Largo más"],
           "type": "MCQs",
           "correctAnswer": 1
         },
         {
-          "question": "La comida india es __________ picante que la comida italiana.",
+          "question": "La comida india es ______ picante que la comida italiana.",
           "choices": ["Tanto", "Tan", "Más", "Muy"],
           "type": "MCQs",
           "correctAnswer": 3
         },
         {
-          "question": "Este coche es __________ caro que el otro.",
+          "question": "Este coche es ______ caro que el otro.",
           "choices": ["Tan", "Menos", "Más", "Mucho"],
           "type": "MCQs",
           "correctAnswer": 3
@@ -1555,101 +1555,121 @@ export const quiz = [
         {
           "question": "En la oración 'María le dio un regalo a su hermano', ¿qué función cumple 'le'?",
           "choices": ["Objeto directo", "Objeto indirecto", "Sujeto", "Reflexivo"],
+              "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "¿Cuál es el pronombre correcto para reemplazar 'a Juan' en 'Veo a Juan'?",
           "choices": ["lo", "le", "la", "nos"],
+              "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "En la oración 'Te vi en el cine', el pronombre 'te' funciona como:",
           "choices": ["Objeto directo", "Objeto indirecto", "Reflexivo", "Sujeto"],
+              "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "Cuando aparecen ambos pronombres en una oración, el indirecto debe colocarse:",
+              "type": "MCQs",
           "choices": ["Después del directo", "Antes del directo", "Al final de la oración", "Entre el sujeto y el verbo"],
           "correctAnswer": 2
         },
         {
           "question": "¿Qué sucede al combinar 'le/les' con 'lo/la/los/las'?",
+              "type": "MCQs",
           "choices": ["Se mantienen igual", "'le/les' se cambia a 'se'", "Se elimina el pronombre indirecto", "Se invierten los pronombres"],
           "correctAnswer": 2
         },
         {
           "question": "En 'El camarero nos trajo el menú', ¿qué función cumple 'nos'?",
           "choices": ["Objeto directo", "Objeto indirecto", "Sujeto", "Reflexivo"],
+              "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "¿Cuál es la forma correcta para reemplazar 'a ellos' como objeto indirecto?",
           "choices": ["los", "les", "se", "los"],
+              "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "En 'Se lo di a mi hermano', ¿qué papel cumple 'se'?",
           "choices": ["Reflexivo", "Sustituto de 'le/les'", "Objeto directo", "Sujeto"],
+              "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "Si reemplazamos 'a Marta' en 'Vi a Marta', el pronombre correcto es:",
           "choices": ["la", "le", "lo", "se"],
+              "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "¿Cuál de las siguientes oraciones utiliza correctamente un pronombre de objeto indirecto?",
+              "type": "MCQs",
           "choices": ["Te vi en la fiesta.", "Le llamé por teléfono a mi amigo.", "Lo encontré en la biblioteca.", "La comí rápidamente."],
           "correctAnswer": 2
         },
         {
           "question": "¿Qué significa 'centro comercial'?",
           "choices": ["Boutique", "Centro de convenciones", "Centro de compras", "Calle comercial"],
+              "type": "MCQs",
           "correctAnswer": 3
         },
         {
           "question": "'Vestido' se traduce al inglés como:",
           "choices": ["Shirt", "Dress", "Pants", "Skirt"],
+              "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "¿Qué palabra se usa para 'fitting room'?",
           "choices": ["Escaparate", "Probador", "Factura", "Confección"],
+              "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "El término 'descuento' se refiere a:",
           "choices": ["Aumento de precio", "Reducción en el precio", "Accesorio de moda", "Tipo de pago"],
+              "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "¿Qué es un 'bolso' en inglés?",
           "choices": ["Shoe", "Bag/Purse", "Hat", "Shirt"],
+              "type": "MCQs",
           "correctAnswer": 2
         },
         {
           "question": "La palabra 'moda' se relaciona con:",
+              "type": "MCQs",
           "choices": ["Tendencias de vestimenta", "Accesorio de cocina", "Tipo de zapato", "Centro comercial"],
           "correctAnswer": 1
         },
         {
           "question": "¿Cómo se dice 'size' en español?",
           "choices": ["Zapato", "Camisa", "Talla", "Oferta"],
+              "type": "MCQs",
           "correctAnswer": 3
         },
         {
           "question": "El 'escaparate' de una tienda es:",
           "choices": ["Caja registradora", "Sala de probadores", "Vitrina de exhibición", "Almacén"],
+              "type": "MCQs",
           "correctAnswer": 3
         },
         {
           "question": "'Rebaja' se refiere a:",
           "choices": ["Oferta o descuento especial", "Prenda de ropa", "Tienda de moda", "Accesorio"],
+              "type": "MCQs",
           "correctAnswer": 1
         },
         {
           "question": "La 'confección' se relaciona con:",
           "choices": ["Fabricación y costura", "Tipo de descuento", "Modelo de zapato", "Evento de moda"],
+              "type": "MCQs",
           "correctAnswer": 1
         },
         
@@ -1833,4 +1853,5 @@ export const quiz = [
         
       ]
     },
+      
 ]
