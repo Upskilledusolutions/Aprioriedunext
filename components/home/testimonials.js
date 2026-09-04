@@ -6,18 +6,13 @@ import styles from "../../src/styles/Home/testimonials.module.css"
 
 function Testimonials() {
   const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    dots: true, infinite: true, speed: 500, slidesToShow: 3, slidesToScroll: 1,
     responsive: [
       { breakpoint: 1024, settings: { slidesToShow: 3, slidesToScroll: 1, infinite: true, dots: true } },
       { breakpoint: 600, settings: { slidesToShow: 1, slidesToScroll: 1, initialSlide: 1 } },
       { breakpoint: 480, settings: { slidesToShow: 1, slidesToScroll: 1 } }
     ]
   };
-
   const data = [
     { id:'1', url:"/profileimg/6 (10).png", name:'Dyumna', course:'SPANISH (A1 & A2)' },
     { id:'2', url:"/profileimg/6 (9).png", name:'Nipun', course:'SPANISH (A1 & A2)' },
@@ -32,31 +27,23 @@ function Testimonials() {
     { id:'7', url:"/profileimg/10 (9).jpg", name:'Anoushka', course:'FRENCH (A1 & A2)' },
     { id:'8', url:"/profileimg/10 (10).jpeg", name:'Deepshikha', course:'GERMAN (A1)' }
   ];
-
   return (
     <div className={styles.slidercontainer}>
-      <Reveal>
-        <div className={styles.heading}><div className={styles.heading1}>TESTIMONIALS</div></div>
-      </Reveal>
+      <Reveal><div className={styles.heading}><div className={styles.heading1}>TESTIMONIALS</div></div></Reveal>
       <Slider className={styles.slider} {...settings}>
-        {data.map(data => (
-          <div className={styles.cardcontainer} key={data.id}>
-            <div className={styles.card}>
-              <div className={styles.imgcontainer}>
-                <div className={styles.img}>
-                  <Image className={styles.img} src={data.url} width={400} height={400} alt={data.name} />
-                </div>
-                <div className={styles.info}>
-                  <div className={styles.name}>{data.name}</div>
-                  <div className={styles.boldtext}>{data.course}</div>
-                </div>
+        {data.map(data => <div className={styles.cardcontainer} key={data.id}>
+          <div className={styles.card} style={{ height: '160px' }}>
+            <div className={styles.imgcontainer} style={{ marginBottom: 0 }}>
+              <Image className={styles.img} src={data.url} width={400} height={400} alt={data.name} />
+              <div className={styles.info}>
+                <div className={styles.name}>{data.name}</div>
+                <div className={styles.boldtext}>{data.course}</div>
               </div>
             </div>
           </div>
-        ))}
+        </div>)}
       </Slider>
     </div>
   );
 }
-
 export default Testimonials;
