@@ -5,18 +5,48 @@ body{
   padding: 0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  color: var(--text);
+  background: var(--surface);
 }
 :root {
-  --blue:rgb(227, 80, 61) ;
+  --blue:rgb(227, 80, 61);
   --darkblue: rgb(0, 0, 37);
   --orange: #003b93;
   --darkorange:rgb(190, 51, 0);
   --lightorange:rgb(255, 106, 0);
+  --text: #172033;
+  --muted: #667085;
+  --surface: #f7f9fc;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --heading-weight: 700;
+  --body-weight: 400;
 }
 
-input[type="radio"] {
-  accent-color: rgb(227, 80, 61); /* Changed input color to orange */
+*, *::before, *::after { box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text);
+  font-weight: var(--heading-weight);
+  letter-spacing: -0.025em;
+  line-height: 1.12;
+  margin-top: 0;
 }
+
+h1 { font-size: clamp(34px, 5vw, 56px); margin-bottom: 16px; }
+h2 { font-size: clamp(25px, 3vw, 34px); margin-bottom: 12px; }
+h3 { font-size: clamp(20px, 2.4vw, 26px); margin-bottom: 10px; }
+
+p, li, label, input, textarea, select, button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p { line-height: 1.65; }
+a { transition: color .2s ease, background-color .2s ease, box-shadow .2s ease, transform .2s ease; }
+button { font-weight: 600; }
+
+input[type="radio"] { accent-color: var(--blue); }
 
 .button-swiper{
   width: 97vw;
@@ -42,22 +72,11 @@ input[type="radio"] {
   font-size: 15px !important;
   font-weight: 600 !important;
 }
-.swiper-controller{
-  position: relative;
-}
-.button-Arrangement{
-  position: absolute;
-  left: 1vw;
-  top: 50%;
-}
-.vertical-timeline-element-date{
-  color: black;
-} 
+.swiper-controller{ position: relative; }
+.button-Arrangement{ position: absolute; left: 1vw; top: 50%; }
+.vertical-timeline-element-date{ color: black; }
+
 @media screen and (max-width: 768px){
-  .swiper-button-next,.swiper-button-prev{
-    padding: 15px;
-  }
-  .swiper-button-next:after, .swiper-button-prev:after{
-    font-size: 30px !important;
-  }
+  .swiper-button-next,.swiper-button-prev{ padding: 15px; }
+  .swiper-button-next:after, .swiper-button-prev:after{ font-size: 30px !important; }
 }
