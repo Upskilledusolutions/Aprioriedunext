@@ -16,7 +16,7 @@ export default function Fromsection() {
           <div className={styles.card1}>
             <Image className={styles.img1} src={"/content/reading.jpg"} width={300} height={300} alt="image"/>
             <div className={styles.text3}>
-              <div className={styles.heading1}>Reading Club</div>
+              <div className={styles.heading1}>Reading Skills</div>
               <div className={styles.headingtext1}>Read, understand, interpret, and evaluate written texts.</div>
             </div>
           </div>
@@ -25,7 +25,7 @@ export default function Fromsection() {
           <div className={styles.card1}>
               <Image className={styles.img1} src={"/content/25 (1).jpg"} width={300} height={300} alt="image"/>
               <div className={styles.text3}>
-                <div className={styles.heading1}>Language Club</div>
+                <div className={styles.heading1}>Language Skills</div>
                 <div className={styles.headingtext1}>Learn, practice, and enjoy different languages with other enthusiasts.</div>
               </div>
             </div>
@@ -34,7 +34,7 @@ export default function Fromsection() {
           <div className={styles.card1}>
             <Image className={styles.img1} src={"/content/writing.jpeg"} width={300} height={300} alt="image"/>
             <div className={styles.text3}>
-              <div className={styles.heading1}>Writing Club</div>
+              <div className={styles.heading1}>Writing Skills</div>
               <div className={styles.headingtext1}>Enable your Writing skills to create clear and effective written communication.</div>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function Fromsection() {
           <div className={styles.card1}>
               <Image className={styles.img1} src={"/content/25 (2).jpg"} width={300} height={300} alt="image"/>
               <div className={styles.text3}>
-                <div className={styles.heading1}>Reasoning</div>
+                <div className={styles.heading1}>Reasoning Skills</div>
                 <div className={styles.headingtext1}>Build quantitative and verbal reasoning skills for deeper academic thinking.</div>
               </div>
             </div>
