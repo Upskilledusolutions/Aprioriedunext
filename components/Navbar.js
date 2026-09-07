@@ -31,12 +31,12 @@ export default function Navbar() {
           <div className={styles.options}>
             <div onClick={() => setDrop(!drop)} onMouseEnter={() => setDrop(true)} onMouseLeave={() => setDrop(false)} className={`${styles.link} ${styles.li} ${styles.ul} ${styles.hovereffect} ${styles.activity}`}>Courses <span><IoIosArrowUp className={styles.span}/></span></div>
             <div onMouseEnter={() => setDrop(true)} onMouseLeave={() => setDrop(false)} className={drop ? `${styles.show}` : `${styles.hide}`}>
-              <Link className={styles.linked} onClick={clickfn} href='/ReadingClub'>Reading Club</Link>
-              <Link className={styles.linked} onClick={clickfn} href='/LanguageClub'>Language Club</Link>
-              <Link className={styles.linked} onClick={clickfn} href='/WritingClub'>Writing Club</Link>
-              <Link className={styles.linked} onClick={clickfn} href='/Reasoning'>Reasoning</Link>
-              <Link className={styles.linked} onClick={clickfn} href='/Reasoning/Quantitative'>↳ Quantitative</Link>
-              <Link className={styles.linked} onClick={clickfn} href='/Reasoning/Verbal'>↳ Verbal</Link>
+              <Link className={styles.linked} onClick={clickfn} href='/ReadingClub'>Reading Skills</Link>
+              <Link className={styles.linked} onClick={clickfn} href='/LanguageClub'>Language Skills</Link>
+              <Link className={styles.linked} onClick={clickfn} href='/WritingClub'>Writing Skills</Link>
+              <Link className={styles.linked} onClick={clickfn} href='/Reasoning'>Reasoning Skills</Link>
+              <Link className={styles.linked} onClick={clickfn} href='/Reasoning/Quantitative'>↳ Quantitative Skills</Link>
+              <Link className={styles.linked} onClick={clickfn} href='/Reasoning/Verbal'>↳ Verbal Skills</Link>
             </div>
           </div>
           <Link onClick={clickfn2} href='/QuizTime' className={styles.link}>Free Quizzes</Link><Link onClick={clickfn2} href='/Eventspage' className={styles.link}>Events</Link><Link onClick={clickfn2} href='/games' className={styles.link}>Games</Link><Link onClick={clickfn2} href='/Testimonials' className={styles.link}>Testimonials</Link><Link onClick={clickfn2} href='/About' className={styles.link}>About</Link><Link onClick={clickfn2} href='/ContactUs' className={styles.link}>Contact Us</Link>
