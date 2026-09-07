@@ -1,84 +1,123 @@
 # Product Architecture
 
-## Goal
+**Purpose:** Permanent architectural reference for Apriori Edu Next / Upskilleduonline.
 
-The application should support two products under one account:
+**Status:** Living reference. Update this document only when an architectural decision is verified or deliberately approved.
 
-1. **Foreign Languages** — the existing product.
-2. **Reasoning & Academic Skills** — the new product.
+**Last updated:** 2026-09-07
 
-The safest approach is to share identity/authentication while keeping the learning experiences and product-specific data logically separate.
+## 1. Product vision
 
-## Target architecture
+The application should support two products under one learner account:
 
-```text
-                    ONE USER ACCOUNT
-                          │
-                    ONE LOGIN SYSTEM
-                          │
-                 PRODUCT SELECTION
-                    /            \
-                   /              \
-        FOREIGN LANGUAGES     REASONING & ACADEMIC SKILLS
-              │                         │
-        Language Dashboard        Reasoning Dashboard
-              │                         │
-       Language Curriculum       Quantitative + Verbal
-              │                         │
-      Language Progress         Reasoning Progress
-      Language Points           Reasoning Points
-      Language Streaks          Reasoning Streaks
-      Language Leaderboard      Reasoning Leaderboard
-```
+1. **Foreign Languages** — the existing product and its current learning experience.
+2. **Reasoning & Academic Skills** — the new academic-skills product.
 
-## Existing architecture observations
+The core principle is:
 
-The current application uses Redux for client-side state, `js-cookie`/`react-cookie` for the user cookie, and an `AuthInitializer` component to restore the user from the cookie. The main application wrapper provides Redux, cookies, authentication initialization and the common layout.
+> **Shared identity + separate product modules.**
 
-The existing login page sends credentials to the backend `/api/login` endpoint using the `NEXT_PUBLIC_BACKENDURL` environment variable. After successful login it stores user information in Redux and a `user` cookie, and currently redirects to `/`.
+The two products should feel like parts of one platform while keeping their curriculum, dashboards, learning records, progress and gamification logically separate.
 
-The existing navigation also exposes the logged-in user's Profile, Courses (`/User`) and Forum.
-
-## Important architectural finding
-
-The current `/User` page is effectively the existing language-learning dashboard. It displays language activities directly after login/navigation. Therefore, the desired new product-selection experience should **not simply replace `/User`**.
-
-Instead, we should introduce a product-selection step/page and then route the learner into the selected product's dashboard.
-
-## Recommended future routing concept
-
-The exact route names can be chosen during implementation, but the concept should be:
+## 2. Target architecture
 
 ```text
-/authentication
-      ↓
-/product-selection
-      ├── /languages
-      │      └── existing language experience
-      │
-      └── /reasoning
-             ├── Quantitative
-             ├── Verbal
-             └── Reasoning profile
+                         ONE USER ACCOUNT
+                                │
+                         ONE LOGIN SYSTEM
+                                │
+                        PRODUCT SELECTION
+                           /            \
+                          /              \
+             FOREIGN LANGUAGES      REASONING & ACADEMIC SKILLS
+                    │                         │
+            Language Dashboard        Reasoning Dashboard
+                    │                         │
+             Language Curriculum       Quantitative + Verbal
+                    │                         │
+          Language Progress         Reasoning Progress
+          Language Points           Reasoning Points
+          Language Streaks          Reasoning Streaks
+          Language Leaderboard      Reasoning Leaderboard
 ```
 
-The existing language routes should be preserved as much as possible. We should avoid renaming or moving large numbers of existing pages unless there is a demonstrated need.
+A learner must be able to use both products without creating a second account or logging out.
 
-## Shared systems
+## 3. Existing Foreign Languages product
 
-### Authentication
+Foreign Languages is existing project functionality and must be protected during Reasoning development.
 
-Use the existing authentication system rather than creating a second login system for Reasoning & Academic Skills.
+The current authenticated `/User` page is effectively the existing language-learning dashboard. It should **not** simply be replaced by the Reasoning dashboard or renamed without a specific implementation decision.
 
-### User identity
+Existing language routes, learning records, progress, scores, streaks, leaderboard behavior, payments and admin functionality should be preserved unless a change is explicitly required and tested.
 
-A learner should have one account/user ID. Product selection determines which product experience is active.
+## 4. Authentication and identity
 
-### Common application shell
+The current application uses a shared authentication flow:
 
-Some common UI and infrastructure can be shared where this does not create product coupling.
+- Next.js/React frontend.
+- Redux for client-side authentication state.
+- A `user` browser cookie.
+- `AuthInitializer` to restore the user when the application starts.
+- Login through the separate backend `/api/login` endpoint.
+- Backend base URL supplied through `NEXT_PUBLIC_BACKENDURL`.
 
-## Separate systems
+Reasoning should use the existing identity/authentication infrastructure rather than creating a second login system.
+
+The selected product changes the learner's experience, **not the underlying user identity**.
+
+## 5. Product selection
+
+The desired high-level journey is:
+
+```text
+LOGIN
+  ↓
+PRODUCT SELECTION
+  ├── Foreign Languages
+  │      ↓
+  │  Language Dashboard
+  │
+  └── Reasoning & Academic Skills
+         ↓
+     Reasoning Dashboard
+         ├── Quantitative
+         └── Verbal
+```
+
+The exact route names may change during implementation, but the separation of the two product experiences should remain.
+
+## 6. Reasoning & Academic Skills architecture
+
+Reasoning is an academic-skills product, not a conventional test-preparation product.
+
+Its core proposition is:
+
+> **Build reasoning skills, not test-prep skills.**
+
+The Reasoning dashboard is the entry point to two academically distinct tracks:
+
+### Quantitative
+
+1. Foundation Quantitative & Reasoning
+2. Advanced Problem Solving
+3. Mathematical Thinking
+4. Math Olympiad
+5. Proof & Advanced Mathematics
+6. Mathematical Research
+
+### Verbal
+
+1. Foundation Verbal & Reasoning
+2. Critical Reading & Argument
+3. Analytical & Scholarly Writing
+4. Essay Competitions
+5. Research Skills
+6. Research Writing & Publication
+
+Quantitative and Verbal progress should remain identifiable by track. They may contribute to a common Reasoning academic profile later.
+
+## 7. Product-specific separation
 
 Each product should have its own logical namespace for:
 
@@ -86,52 +125,121 @@ Each product should have its own logical namespace for:
 - course navigation
 - dashboard
 - progress
+- completed learning activities
 - achievements
 - points
 - streaks
 - leaderboard
 - product-specific learning records
 
-For example:
+Conceptually:
 
 ```text
 User 123
 │
 ├── Foreign Languages
-│   ├── French progress
-│   ├── Spanish progress
-│   ├── Language points
-│   └── Language leaderboard position
+│   ├── language curriculum
+│   ├── language progress
+│   ├── language points
+│   ├── language streaks
+│   └── language leaderboard
 │
 └── Reasoning & Academic Skills
     ├── Quantitative progress
     ├── Verbal progress
-    ├── Reasoning points
-    └── Reasoning leaderboard position
+    ├── reasoning points
+    ├── reasoning streaks
+    └── reasoning leaderboard
 ```
 
-These numbers must not be accidentally added together to produce one combined learning score.
+**Do not combine Foreign Languages and Reasoning scores into one product score.**
 
-## Current implementation risk
+## 8. Frontend state
 
-The current Redux store contains language-specific unlocked pages/lessons and completed quiz data, while backend performance endpoints provide scores and progress. The current Profile page also calculates streaks, weekly/monthly statistics and leaderboard rank. These systems were designed around the existing language product.
+The current Redux store contains language-oriented state, including unlocked pages/lessons and completed quiz information. Existing browser `localStorage` also contains language-oriented learning data.
 
-Therefore, they should **not be reused unchanged for Reasoning**. We should create a product-aware structure or isolated Reasoning state while preserving the existing language behavior.
+These systems should not be reused unchanged for Reasoning.
 
-## Backend dependency
+Preferred direction:
 
-The frontend calls a separate backend through `NEXT_PUBLIC_BACKENDURL`. The backend source is not part of this repository, so the final database/API design cannot be declared complete until that backend is inspected.
+- keep existing language state stable;
+- introduce product-aware or isolated Reasoning state;
+- use explicit namespaces for browser storage if browser persistence is required;
+- avoid generic keys that can collide between products.
 
-Any change that requires new Reasoning data to be stored permanently will probably require backend work.
+The exact state architecture should be chosen after the relevant code has been audited.
 
-## Design rule
+## 9. Backend dependency
 
-Prefer this pattern:
+The frontend communicates with a separate backend through `NEXT_PUBLIC_BACKENDURL`. The backend source is not currently part of this repository.
 
-**shared identity + separate product modules**
+Therefore:
 
-rather than:
+- frontend-only prototypes can be developed independently;
+- permanent Reasoning progress requires backend/API support;
+- database schema and API contracts must not be invented prematurely;
+- backend work must be identified before a feature is described as fully persistent or production-complete.
 
-**one giant mixed learning system**.
+## 10. Security and authorization
 
-This makes it possible to continue improving Foreign Languages and Reasoning & Academic Skills at the same time with less risk of one product breaking the other.
+Frontend route protection is not sufficient for sensitive data.
+
+The backend must enforce authentication and authorization for protected data and operations.
+
+No passwords, API keys, private credentials or other secrets may be placed in this repository or documentation.
+
+## 11. Architectural implementation strategy
+
+Prefer incremental additions over large rewrites.
+
+```text
+existing Foreign Languages product
+             │
+             ├── remains stable
+             │
+             └── shared authentication / identity
+                              │
+                              ↓
+                    new product modules
+                              │
+                    ┌─────────┴─────────┐
+                    ↓                   ↓
+             Foreign Languages     Reasoning
+                                  /          \
+                         Quantitative       Verbal
+```
+
+A change to shared code must be assessed for its effect on the existing language product before implementation.
+
+## 12. Architecture decisions that are intentionally not final
+
+The following remain **To Be Verified** until the relevant implementation/backend is inspected:
+
+- final product-selection route and redirect behavior;
+- final Reasoning Redux/state structure;
+- final Reasoning API endpoints;
+- final database schema;
+- final persistent progress model;
+- final achievements, points, streak and leaderboard implementation for Reasoning;
+- whether and how the common Reasoning academic profile aggregates Quantitative and Verbal achievements.
+
+Do not treat these as settled merely because a prototype currently displays them.
+
+## 13. Priority order
+
+When architectural decisions conflict, use:
+
+**Safety → Separation → Simplicity → Reuse → Scalability**
+
+## 14. Definition of a successful two-product architecture
+
+The architecture is successful when:
+
+1. One learner account works across both products.
+2. Login/logout remain reliable.
+3. Foreign Languages continues to work independently.
+4. Reasoning has its own dashboard and curriculum structure.
+5. Quantitative and Verbal remain distinguishable within Reasoning.
+6. Product-specific progress and gamification do not leak across products.
+7. Permanent Reasoning data is backed by verified backend support when required.
+8. Future development can add either product without unnecessarily destabilizing the other.
