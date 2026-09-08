@@ -15,7 +15,7 @@ export default function VerbalModule() {
   useEffect(() => {
     if (!router.isReady) return;
     if (!isAuthenticated || !user?.userId) router.replace({ pathname: "/Auth", query: { redirect: router.asPath } });
-    else setCompleted(Boolean(readReasoningProgress(user.userId).verbal?.completedModules?.[module?.id]));
+    else if (module) setCompleted(Boolean(readReasoningProgress(user.userId).verbal?.completedModules?.[module.id]));
   }, [router.isReady, router, isAuthenticated, user, module?.id]);
 
   if (!router.isReady || !isAuthenticated || !user?.userId) return null;
@@ -38,7 +38,7 @@ export default function VerbalModule() {
           <h2>Learn</h2><p style={{ lineHeight: 1.75, color: "var(--muted)" }}>{module.lesson}</p>
           <h2 style={{ marginTop: 28 }}>Worked example</h2><p style={{ lineHeight: 1.75, color: "var(--muted)" }}>{module.example}</p>
           <h2 style={{ marginTop: 28 }}>Try it yourself</h2><p style={{ lineHeight: 1.75, color: "var(--muted)" }}>{module.practice}</p>
-          <div style={{ marginTop: 30, padding: 18, borderRadius: 12, background: "rgba(0,59,147,.07)" }}><strong>Learning goal:</strong> Explain the evidence or reasoning that supports your response.</div>
+          <div style={{ marginTop: 30, padding: 18, borderRadius: 12, background: "rgba(0,59,147,.07)" }}><strong>Learning goal:</strong> Explain your reasoning, not just your final answer.</div>
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 28 }}>
             <Link href="/Reasoning/Verbal/Dashboard/Stage1" style={{ padding: "12px 18px", borderRadius: 10, border: "1px solid var(--border)", color: "var(--text)", textDecoration: "none", fontWeight: 800 }}>Back to modules</Link>
             {!completed && <button type="button" onClick={markComplete} style={{ padding: "12px 18px", border: 0, borderRadius: 10, background: "var(--blue)", color: "#fff", fontWeight: 800 }}>Mark module complete</button>}
