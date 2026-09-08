@@ -37,8 +37,10 @@ The broader nine-level curriculum, all six stages, backend persistence, and gami
 | Stage 1 module activity completion indicators | Built and verified |
 | Activity → module/stage navigation | Built and verified |
 | Module-to-module navigation | Built and verified |
+| Explore/Extend presentation | Built and verified |
+| Stage 1 practice depth extension | Implemented, pending verification |
 | Reasoning activity player | Built for pilot |
-| Reasoning Question Bank | Built for frontend pilot |
+| Reasoning Question Bank | Built for frontend pilot + Stage 1 extension set |
 | Per-question timing | Built for frontend pilot |
 | Reasoning frontend progress | Built for pilot |
 | Backend persistence | Not complete |
@@ -62,25 +64,34 @@ The broader nine-level curriculum, all six stages, backend persistence, and gami
 - Do not claim permanent backend persistence until the separate backend is inspected.
 - Prefer small, isolated additions over rewrites.
 
-## This session: verified and documented
+## This session: verified prior work and implemented next build
 
-The previous Stage 1 navigation build was verified by the project owner before this documentation update:
+The project owner verified the previous Explore/Extend presentation before this update. The next development set has now been implemented:
 
-1. Quantitative Stage 1 modules navigate correctly between Previous, Next and Stage 1.
-2. Verbal Stage 1 modules navigate correctly between Previous, Next and Stage 1.
-3. Completed activities return naturally to their module and Stage 1.
-4. Existing activity completion, scores and progress remain intact.
-5. Quantitative and Verbal functionality remains working.
-6. Foreign Languages remains unaffected.
+1. Added a reusable Stage 1 extension question set without changing the original stable Question Bank IDs.
+2. Added additional practice for Number Sense.
+3. Added additional practice for Quantitative Relationships.
+4. Added additional practice for Vocabulary in Context.
+5. Added additional practice for Basic Argument.
+6. Added additional questions to Patterns, Main Idea, Logic, Multi-Step Reasoning, Inference and Comparing Perspectives.
+7. Increased selected existing activities from three to four questions.
+8. Added dedicated activity entries for previously under-covered Stage 1 modules.
+9. Corrected Stage 1 module-to-activity mappings so practice matches the lesson focus more directly.
+10. Updated the activity player to load both the original Question Bank questions and the new Stage 1 extension questions.
+11. Changed activity parent-module routing to derive the correct Stage 1 module from `activityIds` instead of relying on a hardcoded activity-name map.
+12. Preserved authentication, progress storage, timing, scoring and Foreign Languages isolation.
+
+This latest build is **implemented but pending owner verification**.
 
 ## Next build set
 
-### Level 1 Stage 1 learning clarity and depth
+### Immediate verification
 
-- Make Explore and Extend visibly distinct on the Stage 1 experience so learners understand the intended progression.
-- Increase Question Bank depth and variety where it adds meaningful repetition rather than simply adding duplicate questions.
-- Keep difficulty incremental within each half and keep Extend harder while remaining anchored to the same grade.
-- Ensure practice coverage remains meaningful across all ten Stage 1 modules.
+- Verify the new Stage 1 activities open and contain the expected additional questions.
+- Verify Number Sense and Quantitative Relationships now have direct practice.
+- Verify Vocabulary in Context and Basic Argument now have directly relevant practice.
+- Verify the activity player still scores, times, explains and completes activities correctly.
+- Verify activity → module return navigation is still correct after the routing change.
 
 ### After Stage 1 is sufficiently deep
 
@@ -109,6 +120,7 @@ Before permanent Reasoning persistence or gamification, inspect the separate bac
 - `docs/CHANGELOG.md`
 - `src/Data/Reasoning/activities.js`
 - `src/Data/Reasoning/questionBank.js`
+- `src/Data/Reasoning/questionBankStage1Extensions.js`
 - `src/Data/Reasoning/stage1Modules.js`
 - `src/pages/Reasoning/Quantitative/Dashboard/Stage1/index.js`
 - `src/pages/Reasoning/Quantitative/Dashboard/Stage1/[moduleId].js`
