@@ -1,25 +1,72 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { getActivityById } from "../../../Data/Reasoning/activities";
-import { getQuestionById } from "../../../Data/Reasoning/questionBank";
+import { getQuestionById, getDefaultTimeSeconds } from "../../../Data/Reasoning/questionBank";
 import { completeReasoningActivity } from "../../../utils/reasoningProgress";
 
 export default function ReasoningActivity() {
   const router = useRouter();
   const activity = getActivityById(router.query.activityId);
-  const [selected, setSelected] = useState("");
-  const [submitted, setSubmitted] = useState(false);
+  const questions = useMemo(() => activity ? activity.questionIds.map(getQuestionById).filter(Boolean) : [], [activity]);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [answers, setAnswers] = useState({});
+  const [submitted, setSubmitted] = useState({});
+  const [expired, setExpired] = useState({});
+  const [remaining, setRemaining] = useState(0);
+  const [completed, setCompleted] = useState(false);
+
+  const question = questions[currentIndex];
+  const isAnswered = question ? Object.prototype.hasOwnProperty.call(submitted, question.id) : false;
+  const isExpired = question ? Boolean(expired[question.id]) : false;
+  const selected = question ? answers[question.id] || "" : "";
+  const correct = question ? selected === question.answer : false;
+  const timeLimit = question ? (question.timePerQuestion ?? getDefaultTimeSeconds({ levelId: question.levelId, difficulty: question.difficulty, questionType: question.questionType })) : 0;
+
+  useEffect(() => {
+    if (!question || isAnswered || isExpired) return undefined;
+    setRemaining(timeLimit);
+    const timer = window.setInterval(() => {
+      setRemaining((value) => {
+        if (value <= 1) {
+          window.clearInterval(timer);
+          setExpired((current) => ({ ...current, [question.id]: true }));
+          return 0;
+        }
+        return value - 1;
+      });
+    }, 1000);
+    return () => window.clearInterval(timer);
+  }, [question?.id, timeLimit, isAnswered, isExpired]);
 
   if (!router.isReady) return null;
-  if (!activity) return <main style={{ padding: 40 }}>Activity not found.</main>;
+  if (!activity || !questions.length) return <main style={{ padding: 40 }}>Activity not found.</main>;
 
-  const question = getQuestionById(activity.questionIds[0]);
-  const correct = selected === question.answer;
+  const answeredCount = Object.keys(submitted).length;
+  const handledCount = new Set([...Object.keys(submitted), ...Object.keys(expired)]).size;
+  const score = questions.length ? Math.round((questions.reduce((total, item) => total + (submitted[item.id] === item.answer ? 1 : 0), 0) / questions.length) * 100) : 0;
+  const progressPercent = Math.round((handledCount / questions.length) * 100);
+
+  function choose(option) {
+    if (!isAnswered && !isExpired) setAnswers((current) => ({ ...current, [question.id]: option }));
+  }
 
   function submit() {
-    setSubmitted(true);
+    if (!selected || isAnswered || isExpired) return;
+    setSubmitted((current) => ({ ...current, [question.id]: selected }));
+  }
+
+  function next() {
+    if (currentIndex < questions.length - 1) setCurrentIndex((index) => index + 1);
+  }
+
+  function previous() {
+    if (currentIndex > 0) setCurrentIndex((index) => index - 1);
+  }
+
+  function finish() {
+    if (handledCount < questions.length || completed) return;
     if (typeof window !== "undefined") {
       let userId = "guest";
       try {
@@ -29,8 +76,9 @@ export default function ReasoningActivity() {
       } catch (error) {
         // Guest progress remains available if the auth object is unavailable.
       }
-      completeReasoningActivity(userId, activity.track, activity.id, correct ? 100 : 0);
+      completeReasoningActivity(userId, activity.track, activity.id, score);
     }
+    setCompleted(true);
   }
 
   return (
@@ -45,19 +93,36 @@ export default function ReasoningActivity() {
             <p style={{ color: "var(--muted)", lineHeight: 1.7, fontSize: 18 }}>{activity.description}</p>
           </div>
 
-          <section style={{ marginTop: 30, padding: 28, borderRadius: 18, background: "var(--card)", border: "1px solid var(--border)" }}>
-            <div style={{ fontSize: 13, color: "var(--muted)", marginBottom: 10 }}>Time per question: {question.timeSeconds} seconds</div>
-            <h2 style={{ fontSize: 24, lineHeight: 1.4 }}>{question.question}</h2>
-            <div style={{ display: "grid", gap: 12, marginTop: 22 }}>
-              {question.options.map((option) => (
-                <button key={option} type="button" onClick={() => !submitted && setSelected(option)} style={{ textAlign: "left", padding: "15px 18px", borderRadius: 12, border: `2px solid ${selected === option ? "var(--blue)" : "var(--border)"}`, background: selected === option ? "rgba(0,59,147,.07)" : "var(--card)", color: "var(--text)", cursor: submitted ? "default" : "pointer", fontSize: 16 }}>
-                  {option}
-                </button>
-              ))}
+          {!completed ? <section style={{ marginTop: 30, padding: 28, borderRadius: 18, background: "var(--card)", border: "1px solid var(--border)" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", gap: 16, flexWrap: "wrap", color: "var(--muted)", fontSize: 14, fontWeight: 700 }}>
+              <span>Question {currentIndex + 1} of {questions.length}</span>
+              <span>{answeredCount} answered · {questions.length - handledCount} remaining</span>
+              <span>Score: {score}%</span>
             </div>
-            <button type="button" disabled={!selected || submitted} onClick={submit} style={{ marginTop: 24, padding: "13px 20px", border: 0, borderRadius: 10, background: "var(--blue)", color: "#fff", fontWeight: 800, cursor: selected && !submitted ? "pointer" : "not-allowed", opacity: selected && !submitted ? 1 : .55 }}>Check answer</button>
-            {submitted && <div style={{ marginTop: 22, padding: 18, borderRadius: 12, background: "rgba(0,59,147,.07)" }}><strong>{correct ? "Correct." : `Not quite. The answer is ${question.answer}.`}</strong><p style={{ marginBottom: 0, lineHeight: 1.6 }}>{question.explanation}</p></div>}
-          </section>
+            <div style={{ height: 8, background: "var(--border)", borderRadius: 99, marginTop: 14, overflow: "hidden" }}><div style={{ width: `${progressPercent}%`, height: "100%", background: "var(--blue)", transition: "width .2s" }} /></div>
+            <div style={{ marginTop: 18, padding: "10px 14px", borderRadius: 10, background: remaining <= 10 && !isAnswered && !isExpired ? "rgba(200,0,0,.08)" : "rgba(0,59,147,.07)", fontWeight: 800 }}>
+              {isExpired ? "Time expired" : isAnswered ? "Answer recorded" : `Time left: ${remaining}s`}
+            </div>
+            <h2 style={{ fontSize: 24, lineHeight: 1.4, marginTop: 24 }}>{question.question}</h2>
+            <div style={{ display: "grid", gap: 12, marginTop: 22 }}>
+              {question.options.map((option) => {
+                const isCorrectOption = submitted[question.id] && option === question.answer;
+                const isWrongSelection = submitted[question.id] && option === selected && option !== question.answer;
+                return <button key={option} type="button" onClick={() => choose(option)} style={{ textAlign: "left", padding: "15px 18px", borderRadius: 12, border: `2px solid ${isCorrectOption ? "var(--blue)" : selected === option ? "var(--blue)" : "var(--border)"}`, background: isCorrectOption ? "rgba(0,59,147,.10)" : isWrongSelection ? "rgba(200,0,0,.08)" : selected === option ? "rgba(0,59,147,.07)" : "var(--card)", color: "var(--text)", cursor: isAnswered || isExpired ? "default" : "pointer", fontSize: 16 }}>{option}</button>;
+              })}
+            </div>
+            {!isAnswered && !isExpired && <button type="button" disabled={!selected} onClick={submit} style={{ marginTop: 24, padding: "13px 20px", border: 0, borderRadius: 10, background: "var(--blue)", color: "#fff", fontWeight: 800, cursor: selected ? "pointer" : "not-allowed", opacity: selected ? 1 : .55 }}>Check answer</button>}
+            {(isAnswered || isExpired) && <div style={{ marginTop: 22, padding: 18, borderRadius: 12, background: "rgba(0,59,147,.07)" }}><strong>{isExpired ? `Time expired. The answer is ${question.answer}.` : correct ? "Correct." : `Not quite. The answer is ${question.answer}.`}</strong><p style={{ marginBottom: 0, lineHeight: 1.6 }}>{question.explanation}</p></div>}
+            <div style={{ display: "flex", justifyContent: "space-between", gap: 12, marginTop: 28 }}>
+              <button type="button" onClick={previous} disabled={currentIndex === 0} style={{ padding: "12px 18px", borderRadius: 10, border: "1px solid var(--border)", background: "var(--card)", color: "var(--text)", opacity: currentIndex === 0 ? .45 : 1 }}>Previous</button>
+              {currentIndex < questions.length - 1 ? <button type="button" onClick={next} disabled={!isAnswered && !isExpired} style={{ padding: "12px 18px", borderRadius: 10, border: 0, background: "var(--blue)", color: "#fff", fontWeight: 800, opacity: !isAnswered && !isExpired ? .5 : 1 }}>Next</button> : <button type="button" onClick={finish} disabled={handledCount < questions.length} style={{ padding: "12px 18px", borderRadius: 10, border: 0, background: "var(--blue)", color: "#fff", fontWeight: 800, opacity: handledCount < questions.length ? .5 : 1 }}>Complete activity</button>}
+            </div>
+          </section> : <section style={{ marginTop: 30, padding: 32, borderRadius: 18, background: "var(--card)", border: "1px solid var(--border)", textAlign: "center" }}>
+            <div style={{ color: "var(--blue)", fontWeight: 800, textTransform: "uppercase", letterSpacing: ".08em", fontSize: 13 }}>Activity complete</div>
+            <h2 style={{ fontSize: 34, margin: "10px 0" }}>Score: {score}%</h2>
+            <p style={{ color: "var(--muted)", lineHeight: 1.6 }}>Your Level 1 {activity.half} activity has been recorded in Reasoning progress.</p>
+            <Link href={`/Reasoning/${activity.track === "quantitative" ? "Quantitative" : "Verbal"}`} style={{ display: "inline-block", marginTop: 14, padding: "12px 18px", borderRadius: 10, background: "var(--blue)", color: "#fff", textDecoration: "none", fontWeight: 800 }}>Back to {activity.track === "quantitative" ? "Quantitative" : "Verbal"}</Link>
+          </section>}
         </div>
       </main>
     </>
