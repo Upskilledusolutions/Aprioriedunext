@@ -2,6 +2,28 @@
 
 This file records important project and architecture changes in simple language.
 
+## 2026-09-08
+
+### Reasoning Stage 1 lesson integration
+
+- Verified the Reasoning learning flow after the duplicate Module 1 route fix.
+- Removed the duplicate Quantitative and Verbal Module 1 routes that were serving older question-only pages.
+- Kept the reusable `[moduleId].js` lesson routes as the canonical module experience.
+- Added explicit `activityIds` to Stage 1 module data.
+- Connected Quantitative and Verbal Stage 1 modules to relevant Reasoning practice activities.
+- Added Practice activities sections to the module lesson pages.
+- Added start/review activity controls and completion/score display where available.
+- Preserved the existing shared authentication and Reasoning-only progress model.
+- Preserved Foreign Languages unchanged.
+- Updated the Reasoning development status and Batch 2 implementation documentation.
+
+### Next build direction
+
+- Increase Stage 1 Question Bank depth and variety.
+- Improve activity completion/results navigation back to module/stage context.
+- Improve module-to-module navigation and Explore/Extend progression visibility.
+- Then build Stage 2 using the same reusable architecture.
+
 ## 2026-09-04
 
 ### Documentation and architecture audit
