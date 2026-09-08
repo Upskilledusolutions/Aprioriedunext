@@ -32,16 +32,28 @@ Completed with Explore/Extend learning, activities, scoring and progress.
 Completed with five modules per track, interactive activities, question depth and module/activity navigation. Final live end-to-end verification remains a project-owner verification step.
 
 ### Stage 3 — Mathematical Thinking / Analytical & Scholarly Writing
-Completed with five Explore and five Extend modules per track, interactive activities and question sets.
+Curriculum/module structure is implemented with five Explore and five Extend modules per track. **Important: the current `questionBankStage3.js` was found to be empty during deployment/code review, so Stage 3 must not yet be treated as fully interactive or launch-verified.** This is a resume item for the next build session.
 
 ### Stage 4 — Math Olympiad / Essay Competitions
-Completed with five Explore and five Extend modules per track, interactive activities, timing, feedback, scoring and completion.
+Curriculum, dashboards, module pages and dedicated activity/question layer are implemented with Explore and Extend structure. **Known follow-up items:** create/verify a complete Stage 4 question bank with distinct questions, ensure each Extend module has its own activity, fix the final-question scoring state issue in the dedicated Stage 4 activity player, and connect Stage 4 from the main Quantitative/Verbal track dashboards where required.
 
 ### Stage 5 — Proof & Advanced Mathematics / Research Skills
-Completed with five Explore and five Extend modules per track, learning content, interactive activities, timing, feedback, scoring and completion.
+Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. The current question bank contains four generated question entries per activity, but content quality should be improved later because variants currently repeat the same core stem/options. The Stage 5 activity player also has known robustness follow-ups: final-question score calculation should include the latest answer reliably, and timeout on the final question should complete the activity rather than remain on the last question.
 
 ### Stage 6 — Mathematical Research / Research Writing & Publication
-Completed with five Explore and five Extend modules per track, learning content, interactive activities, timing, feedback, scoring and completion.
+Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. The current question bank contains four generated question entries per activity, but content quality should be improved later because variants currently repeat the same core stem/options. The Stage 6 activity player has the same known robustness follow-ups as Stage 5: reliable final-answer scoring and correct completion when the final question times out.
+
+## Deployment status / next-session resume point
+
+A Vercel deployment was attempted from GitHub `main` at commit `1c5d587`. The build reached Next.js compilation and failed because four Stage 5/6 module pages referenced `../../../../../../Data/Reasoning/...`, which was one directory too high.
+
+Those import paths have since been corrected on GitHub `main` to `../../../../../Data/Reasoning/...` in the relevant Stage 5 and Stage 6 module pages. The latest known correction commits include the Stage 6 fixes. The Vercel log showing the failure is therefore from the older commit and should not be used as evidence that the corrected code still fails.
+
+**Current blocker:** Vercel subsequently reported `Resource is limited - try again in 24 hours (more than 100, code: "api-deployments-free-per-day")`. This is a Vercel Free-plan deployment-rate limit, not a code/build error. Do not repeatedly redeploy while the limit is active.
+
+**Next session:** wait for the Vercel deployment limit to reset, then make one deployment attempt using the latest `main` commit. If it fails, capture the new build log and fix the actual reported error before making further deployment attempts.
+
+The earlier Vercel log also contained duplicate Stage 1 page warnings and npm/Browserslist/webpack warnings. These were warnings, not the cause of the failed build. The actual failure was the four Stage 5/6 `Module not found` errors described above.
 
 ## Remaining curriculum work
 
