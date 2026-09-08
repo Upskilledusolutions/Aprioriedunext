@@ -1,0 +1,25 @@
+const MC="multiple_choice";
+const items=[
+["Q-L1-S6-EXP-research-questions","What makes a mathematical research question useful?","It is focused enough to investigate but open enough to require reasoning","It has no conditions","It can be answered by guessing","It is unrelated to mathematics"],
+["Q-L1-S6-EXP-exploration-conjecture","What is the role of exploration?","It helps reveal patterns and generate conjectures","It proves every claim automatically","It replaces definitions","It prevents testing"],
+["Q-L1-S6-EXP-mathematical-modeling","Why state assumptions in a mathematical model?","So readers know what the model includes and excludes","To make the model longer","To avoid interpretation","To guarantee the model is perfect"],
+["Q-L1-S6-EXP-proof-generalization","What turns an observed pattern into a mathematical result?","A precise statement supported by a general proof","A larger list of examples","A stronger opinion","A diagram alone"],
+["Q-L1-S6-EXP-mathematical-communication","What should a mathematical investigation communicate?","Question, method, evidence, result and conclusion","Only the final number","Only failed attempts","Only definitions"],
+["Q-L1-S6-EXT-independent-investigation","What is important when planning an independent investigation?","A manageable question, method, evidence and standard for conclusions","Maximum difficulty","No plan","Only a title"],
+["Q-L1-S6-EXT-advanced-conjectures","How can a conjecture become stronger?","Test boundaries and identify the conditions under which it holds","Avoid exceptions","Remove conditions","Use fewer examples"],
+["Q-L1-S6-EXT-model-analysis","What is sensitivity analysis concerned with?","How changes in assumptions or inputs affect conclusions","How attractive a model looks","Whether a model has a title","How long the formula is"],
+["Q-L1-S6-EXT-research-proof","What should be separated in a research investigation?","Observation, conjecture and established result","Numbers and letters","Title and subtitle","Question and page number"],
+["Q-L1-S6-EXT-research-project","What makes a mathematical research project coherent?","Its question, method, reasoning and conclusion connect clearly","It has many pages","It contains only examples","It avoids limitations"],
+["V-L1-S6-EXP-question-design","What makes a strong academic research question?","It is focused, significant and answerable through evidence","It is extremely broad","It requires only yes or no","It has no context"],
+["V-L1-S6-EXP-literature-search","What is a purpose of a literature search?","To understand what is already known and identify relevant scholarship","To collect random quotations","To avoid existing research","To prove an idea before searching"],
+["V-L1-S6-EXP-literature-synthesis","What does a literature synthesis do?","Explains meaningful relationships among sources","Lists sources without connection","Copies abstracts","Uses one source only"],
+["V-L1-S6-EXP-research-methods","How should a research method be chosen?","It should fit the research question and evidence needed","Always choose a survey","Choose the longest method","Choose the easiest method regardless of question"],
+["V-L1-S6-EXP-academic-writing","What is a strong research paragraph likely to include?","A claim, evidence, synthesis and analysis","Only quotations","Only a conclusion","Only background facts"],
+["V-L1-S6-EXT-advanced-literature-review","What does an advanced literature review examine?","Frameworks, methods, findings, disagreements and gaps","Only publication dates","Only titles","Only the author's biography"],
+["V-L1-S6-EXT-method-design","What should a research method make transparent?","How the question will lead to evidence and analysis","Only the final conclusion","Only the topic","Nothing about procedures"],
+["V-L1-S6-EXT-scholarly-analysis","Why consider alternative explanations?","They help test how strongly the evidence supports a conclusion","They always disprove the study","They replace evidence","They make conclusions impossible"],
+["V-L1-S6-EXT-research-paper","What connects the sections of a strong research paper?","A sustained relationship to the research question","The same sentence repeated","A long bibliography alone","Unrelated topics"],
+["V-L1-S6-EXT-publication-readiness","What is important before scholarly publication?","Clear claims, accurate attribution, rigorous revision and transparent limitations","Removing citations","Hiding limitations","Making every claim absolute"]
+];
+export const STAGE6_QUESTION_BANK=items.flatMap(([activityId,q,a,b,c])=>[1,2,3,4].map((n,i)=>({id:`${activityId}-Q${n}`,activityId,levelId:"L1",stageId:"S6",track:activityId.startsWith("Q-")?"quantitative":"verbal",difficulty:i<2?"core":i===2?"stretch":"advanced",questionType:MC,question:q,options:[a,b,c,"None of these"],answer:a,explanation:`The best answer is: ${a}. This reflects the central reasoning skill of the activity.`,timePerQuestion:i<2?60:70})));
+export function getStage6QuestionsForActivity(activityId){return STAGE6_QUESTION_BANK.filter(q=>q.activityId===activityId);}
