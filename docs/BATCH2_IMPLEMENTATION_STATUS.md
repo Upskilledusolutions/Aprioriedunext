@@ -27,6 +27,8 @@ Batch 2 builds the Level 1 Reasoning learning experience without changing the Fo
 - Added Level 1 activity/progress reflection to the Quantitative and Verbal Stage 1 dashboards.
 - Kept Quantitative and Verbal progress separate.
 - Kept Reasoning progress separate from Foreign Languages progress.
+- Protected Reasoning learning routes behind the existing shared authentication system.
+- Unauthenticated users are routed to `/Auth` when entering Quantitative/Verbal learning or opening a Reasoning activity directly.
 
 ## Files changed
 
@@ -36,6 +38,18 @@ Batch 2 builds the Level 1 Reasoning learning experience without changing the Fo
 - `src/pages/Reasoning/Quantitative/Dashboard/Stage1/index.js`
 - `src/pages/Reasoning/Verbal/Dashboard/Stage1/index.js`
 - `docs/BATCH2_IMPLEMENTATION_STATUS.md`
+
+## Authentication verification
+
+The authentication protection added after the initial Batch 2 implementation was verified by the project owner on the deployed site.
+
+Verified behavior:
+
+- Public Reasoning discovery remains accessible.
+- Entering the Quantitative or Verbal learning experience while logged out redirects to Auth/Login.
+- Direct access to a Reasoning activity while logged out is blocked and redirects to Auth/Login.
+- Logged-in Reasoning learning continues to work.
+- Existing Foreign Languages authentication/learning behavior remains unaffected during the verification.
 
 ## Intentionally not implemented yet
 
@@ -50,22 +64,6 @@ Batch 2 builds the Level 1 Reasoning learning experience without changing the Fo
 
 This is a frontend implementation using the existing Reasoning local progress namespace. It must not be described as permanent backend persistence until the separate backend has been inspected and integrated.
 
-## User verification
+## Next verification cycle
 
-After Vercel finishes deploying the latest `main` commit, verify the Reasoning Level 1 Stage 1 flows on the Vercel deployment URL first. Then verify the production/live site once that deployment is confirmed.
-
-Minimum checks:
-
-1. Quantitative → Level 1 → Stage 1 shows the expanded activities.
-2. Verbal → Level 1 → Stage 1 shows the expanded activities.
-3. An activity contains multiple questions.
-4. Previous/Next navigation works.
-5. The question number and total are correct.
-6. The timer counts down and resets for each question.
-7. Allowing a timer to reach zero marks that question as expired and reveals the answer/explanation.
-8. Answers show feedback/explanations.
-9. The activity cannot be completed until every question is answered or expired.
-10. The final score is displayed on completion.
-11. Returning to the relevant track dashboard shows the activity as completed with its score.
-12. Quantitative completion does not change Verbal progress, and Verbal completion does not change Quantitative progress.
-13. Existing Foreign Languages login, dashboard and learning flow remain unaffected.
+The next development set expands the actual Level 1 Stage 1 learning content by replacing the remaining placeholder-style module entries with reusable lesson content while preserving the existing activity/question architecture. This is frontend-only and does not change the approved curriculum architecture or the Foreign Languages product.
