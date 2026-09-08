@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { useEffect, useMemo, useState } from "react";
 import { useSelector } from "react-redux";
 import { getActivityById } from "../../../Data/Reasoning/activities";
+import { getStage1Module } from "../../../Data/Reasoning/stage1Modules";
 import { getQuestionById, getDefaultTimeSeconds } from "../../../Data/Reasoning/questionBank";
 import { completeReasoningActivity } from "../../../utils/reasoningProgress";
 
@@ -19,6 +20,11 @@ export default function ReasoningActivity() {
 
   const activity = getActivityById(router.query.activityId);
   const questions = useMemo(() => activity ? activity.questionIds.map(getQuestionById).filter(Boolean) : [], [activity]);
+  const module = useMemo(() => activity ? getStage1Module(activity.track, activity.track === "quantitative" ? ({
+    "arithmetic-reasoning": "Module1", "number-patterns": "Module2", "logic-puzzles": "Module3", "shape-measurement": "Module4", "multi-step-reasoning": "Module5"
+  }[activity.moduleId] || null) : ({
+    "main-idea": "Module1", "sequencing": "Module2", "evidence-and-claims": activity.half === "explore" ? "Module3" : "Module3", "perspectives": "Module5", "inference": "Module5"
+  }[activity.moduleId] || null)) : null, [activity]);
   const question = questions[currentIndex];
   const isAnswered = question ? Object.prototype.hasOwnProperty.call(submitted, question.id) : false;
   const isExpired = question ? Boolean(expired[question.id]) : false;
@@ -54,74 +60,27 @@ export default function ReasoningActivity() {
   const handledCount = new Set([...Object.keys(submitted), ...Object.keys(expired)]).size;
   const score = questions.length ? Math.round((questions.reduce((total, item) => total + (submitted[item.id] === item.answer ? 1 : 0), 0) / questions.length) * 100) : 0;
   const progressPercent = Math.round((handledCount / questions.length) * 100);
+  const trackName = activity.track === "quantitative" ? "Quantitative" : "Verbal";
+  const moduleHref = module ? `/Reasoning/${trackName}/Dashboard/Stage1/${module.id}` : `/Reasoning/${trackName}/Dashboard/Stage1`;
 
-  function choose(option) {
-    if (!isAnswered && !isExpired) setAnswers((current) => ({ ...current, [question.id]: option }));
-  }
+  function choose(option) { if (!isAnswered && !isExpired) setAnswers((current) => ({ ...current, [question.id]: option })); }
+  function submit() { if (!selected || isAnswered || isExpired) return; setSubmitted((current) => ({ ...current, [question.id]: selected })); }
+  function next() { if (currentIndex < questions.length - 1) setCurrentIndex((index) => index + 1); }
+  function previous() { if (currentIndex > 0) setCurrentIndex((index) => index - 1); }
+  function finish() { if (handledCount < questions.length || completed) return; completeReasoningActivity(user.userId, activity.track, activity.id, score); setCompleted(true); }
 
-  function submit() {
-    if (!selected || isAnswered || isExpired) return;
-    setSubmitted((current) => ({ ...current, [question.id]: selected }));
-  }
-
-  function next() {
-    if (currentIndex < questions.length - 1) setCurrentIndex((index) => index + 1);
-  }
-
-  function previous() {
-    if (currentIndex > 0) setCurrentIndex((index) => index - 1);
-  }
-
-  function finish() {
-    if (handledCount < questions.length || completed) return;
-    completeReasoningActivity(user.userId, activity.track, activity.id, score);
-    setCompleted(true);
-  }
-
-  return (
-    <>
-      <Head><title>{activity.title} | Reasoning</title></Head>
-      <main style={{ minHeight: "80vh", padding: "48px 20px 80px", background: "var(--surface)" }}>
-        <div style={{ maxWidth: 850, margin: "0 auto" }}>
-          <Link href={`/Reasoning/${activity.track === "quantitative" ? "Quantitative" : "Verbal"}`} style={{ color: "var(--muted)", textDecoration: "none", fontWeight: 600 }}>← Back to {activity.track === "quantitative" ? "Quantitative" : "Verbal"}</Link>
-          <div style={{ marginTop: 32 }}>
-            <div style={{ color: "var(--blue)", fontWeight: 800, textTransform: "uppercase", letterSpacing: ".08em", fontSize: 13 }}>{activity.half} · Level 1 · Stage 1</div>
-            <h1 style={{ fontSize: "clamp(34px,5vw,52px)", margin: "12px 0" }}>{activity.title}</h1>
-            <p style={{ color: "var(--muted)", lineHeight: 1.7, fontSize: 18 }}>{activity.description}</p>
-          </div>
-
-          {!completed ? <section style={{ marginTop: 30, padding: 28, borderRadius: 18, background: "var(--card)", border: "1px solid var(--border)" }}>
-            <div style={{ display: "flex", justifyContent: "space-between", gap: 16, flexWrap: "wrap", color: "var(--muted)", fontSize: 14, fontWeight: 700 }}>
-              <span>Question {currentIndex + 1} of {questions.length}</span>
-              <span>{answeredCount} answered · {questions.length - handledCount} remaining</span>
-              <span>Score: {score}%</span>
-            </div>
-            <div style={{ height: 8, background: "var(--border)", borderRadius: 99, marginTop: 14, overflow: "hidden" }}><div style={{ width: `${progressPercent}%`, height: "100%", background: "var(--blue)", transition: "width .2s" }} /></div>
-            <div style={{ marginTop: 18, padding: "10px 14px", borderRadius: 10, background: remaining <= 10 && !isAnswered && !isExpired ? "rgba(200,0,0,.08)" : "rgba(0,59,147,.07)", fontWeight: 800 }}>
-              {isExpired ? "Time expired" : isAnswered ? "Answer recorded" : `Time left: ${remaining}s`}
-            </div>
-            <h2 style={{ fontSize: 24, lineHeight: 1.4, marginTop: 24 }}>{question.question}</h2>
-            <div style={{ display: "grid", gap: 12, marginTop: 22 }}>
-              {question.options.map((option) => {
-                const isCorrectOption = submitted[question.id] && option === question.answer;
-                const isWrongSelection = submitted[question.id] && option === selected && option !== question.answer;
-                return <button key={option} type="button" onClick={() => choose(option)} style={{ textAlign: "left", padding: "15px 18px", borderRadius: 12, border: `2px solid ${isCorrectOption ? "var(--blue)" : selected === option ? "var(--blue)" : "var(--border)"}`, background: isCorrectOption ? "rgba(0,59,147,.10)" : isWrongSelection ? "rgba(200,0,0,.08)" : selected === option ? "rgba(0,59,147,.07)" : "var(--card)", color: "var(--text)", cursor: isAnswered || isExpired ? "default" : "pointer", fontSize: 16 }}>{option}</button>;
-              })}
-            </div>
-            {!isAnswered && !isExpired && <button type="button" disabled={!selected} onClick={submit} style={{ marginTop: 24, padding: "13px 20px", border: 0, borderRadius: 10, background: "var(--blue)", color: "#fff", fontWeight: 800, cursor: selected ? "pointer" : "not-allowed", opacity: selected ? 1 : .55 }}>Check answer</button>}
-            {(isAnswered || isExpired) && <div style={{ marginTop: 22, padding: 18, borderRadius: 12, background: "rgba(0,59,147,.07)" }}><strong>{isExpired ? `Time expired. The answer is ${question.answer}.` : correct ? "Correct." : `Not quite. The answer is ${question.answer}.`}</strong><p style={{ marginBottom: 0, lineHeight: 1.6 }}>{question.explanation}</p></div>}
-            <div style={{ display: "flex", justifyContent: "space-between", gap: 12, marginTop: 28 }}>
-              <button type="button" onClick={previous} disabled={currentIndex === 0} style={{ padding: "12px 18px", borderRadius: 10, border: "1px solid var(--border)", background: "var(--card)", color: "var(--text)", opacity: currentIndex === 0 ? .45 : 1 }}>Previous</button>
-              {currentIndex < questions.length - 1 ? <button type="button" onClick={next} disabled={!isAnswered && !isExpired} style={{ padding: "12px 18px", borderRadius: 10, border: 0, background: "var(--blue)", color: "#fff", fontWeight: 800, opacity: !isAnswered && !isExpired ? .5 : 1 }}>Next</button> : <button type="button" onClick={finish} disabled={handledCount < questions.length} style={{ padding: "12px 18px", borderRadius: 10, border: 0, background: "var(--blue)", color: "#fff", fontWeight: 800, opacity: handledCount < questions.length ? .5 : 1 }}>Complete activity</button>}
-            </div>
-          </section> : <section style={{ marginTop: 30, padding: 32, borderRadius: 18, background: "var(--card)", border: "1px solid var(--border)", textAlign: "center" }}>
-            <div style={{ color: "var(--blue)", fontWeight: 800, textTransform: "uppercase", letterSpacing: ".08em", fontSize: 13 }}>Activity complete</div>
-            <h2 style={{ fontSize: 34, margin: "10px 0" }}>Score: {score}%</h2>
-            <p style={{ color: "var(--muted)", lineHeight: 1.6 }}>Your Level 1 {activity.half} activity has been recorded in Reasoning progress.</p>
-            <Link href={`/Reasoning/${activity.track === "quantitative" ? "Quantitative" : "Verbal"}`} style={{ display: "inline-block", marginTop: 14, padding: "12px 18px", borderRadius: 10, background: "var(--blue)", color: "#fff", textDecoration: "none", fontWeight: 800 }}>Back to {activity.track === "quantitative" ? "Quantitative" : "Verbal"}</Link>
-          </section>}
-        </div>
-      </main>
-    </>
-  );
+  return <><Head><title>{activity.title} | Reasoning</title></Head><main style={{ minHeight:"80vh",padding:"48px 20px 80px",background:"var(--surface)" }}><div style={{ maxWidth:850,margin:"0 auto" }}>
+    <Link href={moduleHref} style={{ color:"var(--muted)",textDecoration:"none",fontWeight:600 }}>← Back to {module ? module.title : `${trackName} Stage 1`}</Link>
+    <div style={{ marginTop:32 }}><div style={{ color:"var(--blue)",fontWeight:800,textTransform:"uppercase",letterSpacing:".08em",fontSize:13 }}>{activity.half} · Level 1 · Stage 1</div><h1 style={{ fontSize:"clamp(34px,5vw,52px)",margin:"12px 0" }}>{activity.title}</h1><p style={{ color:"var(--muted)",lineHeight:1.7,fontSize:18 }}>{activity.description}</p></div>
+    {!completed ? <section style={{ marginTop:30,padding:28,borderRadius:18,background:"var(--card)",border:"1px solid var(--border)" }}>
+      <div style={{ display:"flex",justifyContent:"space-between",gap:16,flexWrap:"wrap",color:"var(--muted)",fontSize:14,fontWeight:700 }}><span>Question {currentIndex+1} of {questions.length}</span><span>{answeredCount} answered · {questions.length-handledCount} remaining</span><span>Score: {score}%</span></div>
+      <div style={{ height:8,background:"var(--border)",borderRadius:99,marginTop:14,overflow:"hidden" }}><div style={{ width:`${progressPercent}%`,height:"100%",background:"var(--blue)",transition:"width .2s" }}/></div>
+      <div style={{ marginTop:18,padding:"10px 14px",borderRadius:10,background:remaining<=10&&!isAnswered&&!isExpired?"rgba(200,0,0,.08)":"rgba(0,59,147,.07)",fontWeight:800 }}>{isExpired?"Time expired":isAnswered?"Answer recorded":`Time left: ${remaining}s`}</div>
+      <h2 style={{ fontSize:24,lineHeight:1.4,marginTop:24 }}>{question.question}</h2>
+      <div style={{ display:"grid",gap:12,marginTop:22 }}>{question.options.map((option)=>{const isCorrectOption=submitted[question.id]&&option===question.answer;const isWrongSelection=submitted[question.id]&&option===selected&&option!==question.answer;return <button key={option} type="button" onClick={()=>choose(option)} style={{ textAlign:"left",padding:"15px 18px",borderRadius:12,border:`2px solid ${isCorrectOption?"var(--blue)":selected===option?"var(--blue)":"var(--border)"}`,background:isCorrectOption?"rgba(0,59,147,.10)":isWrongSelection?"rgba(200,0,0,.08)":selected===option?"rgba(0,59,147,.07)":"var(--card)",color:"var(--text)",cursor:isAnswered||isExpired?"default":"pointer",fontSize:16 }}>{option}</button>})}</div>
+      {!isAnswered&&!isExpired&&<button type="button" disabled={!selected} onClick={submit} style={{ marginTop:24,padding:"13px 20px",border:0,borderRadius:10,background:"var(--blue)",color:"#fff",fontWeight:800,cursor:selected?"pointer":"not-allowed",opacity:selected?1:.55 }}>Check answer</button>}
+      {(isAnswered||isExpired)&&<div style={{ marginTop:22,padding:18,borderRadius:12,background:"rgba(0,59,147,.07)" }}><strong>{isExpired?`Time expired. The answer is ${question.answer}.`:correct?"Correct.":`Not quite. The answer is ${question.answer}.`}</strong><p style={{ marginBottom:0,lineHeight:1.6 }}>{question.explanation}</p></div>}
+      <div style={{ display:"flex",justifyContent:"space-between",gap:12,marginTop:28 }}><button type="button" onClick={previous} disabled={currentIndex===0} style={{ padding:"12px 18px",borderRadius:10,border:"1px solid var(--border)",background:"var(--card)",color:"var(--text)",opacity:currentIndex===0?.45:1 }}>Previous</button>{currentIndex<questions.length-1?<button type="button" onClick={next} disabled={!isAnswered&&!isExpired} style={{ padding:"12px 18px",borderRadius:10,border:0,background:"var(--blue)",color:"#fff",fontWeight:800,opacity:!isAnswered&&!isExpired?.5:1 }}>Next</button>:<button type="button" onClick={finish} disabled={handledCount<questions.length} style={{ padding:"12px 18px",borderRadius:10,border:0,background:"var(--blue)",color:"#fff",fontWeight:800,opacity:handledCount<questions.length?.5:1 }}>Complete activity</button>}</div>
+    </section> : <section style={{ marginTop:30,padding:32,borderRadius:18,background:"var(--card)",border:"1px solid var(--border)",textAlign:"center" }}><div style={{ color:"var(--blue)",fontWeight:800,textTransform:"uppercase",letterSpacing:".08em",fontSize:13 }}>Activity complete</div><h2 style={{ fontSize:34,margin:"10px 0" }}>Score: {score}%</h2><p style={{ color:"var(--muted)",lineHeight:1.6 }}>Your Level 1 {activity.half} activity has been recorded in Reasoning progress.</p><div style={{ display:"flex",justifyContent:"center",gap:12,flexWrap:"wrap",marginTop:18 }}><Link href={moduleHref} style={{ display:"inline-block",padding:"12px 18px",borderRadius:10,background:"var(--blue)",color:"#fff",textDecoration:"none",fontWeight:800 }}>Back to {module ? module.title : `${trackName} Stage 1`}</Link><Link href={`/Reasoning/${trackName}/Dashboard/Stage1`} style={{ display:"inline-block",padding:"12px 18px",borderRadius:10,border:"1px solid var(--border)",color:"var(--text)",textDecoration:"none",fontWeight:800 }}>Back to Stage 1</Link></div></section>}
+  </div></main></>;
 }
