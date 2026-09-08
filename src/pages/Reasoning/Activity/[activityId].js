@@ -2,14 +2,14 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useMemo, useState } from "react";
+import { useSelector } from "react-redux";
 import { getActivityById } from "../../../Data/Reasoning/activities";
 import { getQuestionById, getDefaultTimeSeconds } from "../../../Data/Reasoning/questionBank";
 import { completeReasoningActivity } from "../../../utils/reasoningProgress";
 
 export default function ReasoningActivity() {
   const router = useRouter();
-  const activity = getActivityById(router.query.activityId);
-  const questions = useMemo(() => activity ? activity.questionIds.map(getQuestionById).filter(Boolean) : [], [activity]);
+  const { user, isAuthenticated } = useSelector((state) => state.auth);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState({});
@@ -17,12 +17,19 @@ export default function ReasoningActivity() {
   const [remaining, setRemaining] = useState(0);
   const [completed, setCompleted] = useState(false);
 
+  const activity = getActivityById(router.query.activityId);
+  const questions = useMemo(() => activity ? activity.questionIds.map(getQuestionById).filter(Boolean) : [], [activity]);
   const question = questions[currentIndex];
   const isAnswered = question ? Object.prototype.hasOwnProperty.call(submitted, question.id) : false;
   const isExpired = question ? Boolean(expired[question.id]) : false;
   const selected = question ? answers[question.id] || "" : "";
   const correct = question ? selected === question.answer : false;
   const timeLimit = question ? (question.timePerQuestion ?? getDefaultTimeSeconds({ levelId: question.levelId, difficulty: question.difficulty, questionType: question.questionType })) : 0;
+
+  useEffect(() => {
+    if (!router.isReady) return;
+    if (!isAuthenticated || !user?.userId) router.replace({ pathname: "/Auth", query: { redirect: router.asPath } });
+  }, [router.isReady, router, isAuthenticated, user]);
 
   useEffect(() => {
     if (!question || isAnswered || isExpired) return undefined;
@@ -40,7 +47,7 @@ export default function ReasoningActivity() {
     return () => window.clearInterval(timer);
   }, [question?.id, timeLimit, isAnswered, isExpired]);
 
-  if (!router.isReady) return null;
+  if (!router.isReady || !isAuthenticated || !user?.userId) return null;
   if (!activity || !questions.length) return <main style={{ padding: 40 }}>Activity not found.</main>;
 
   const answeredCount = Object.keys(submitted).length;
@@ -67,17 +74,7 @@ export default function ReasoningActivity() {
 
   function finish() {
     if (handledCount < questions.length || completed) return;
-    if (typeof window !== "undefined") {
-      let userId = "guest";
-      try {
-        const rawUser = window.localStorage.getItem("user");
-        const user = rawUser ? JSON.parse(rawUser) : null;
-        userId = user?.id || user?._id || user?.email || "guest";
-      } catch (error) {
-        // Guest progress remains available if the auth object is unavailable.
-      }
-      completeReasoningActivity(userId, activity.track, activity.id, score);
-    }
+    completeReasoningActivity(user.userId, activity.track, activity.id, score);
     setCompleted(true);
   }
 
