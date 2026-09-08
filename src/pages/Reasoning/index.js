@@ -26,7 +26,10 @@ const styles = {
 };
 
 export default function ReasoningDashboard() {
-  const { user } = useSelector((state) => state.auth);
+  const { user, isAuthenticated } = useSelector((state) => state.auth);
+  const canEnterReasoning = Boolean(isAuthenticated && user?.userId);
+  const quantitativeHref = canEnterReasoning ? "/Reasoning/Quantitative" : "/Auth";
+  const verbalHref = canEnterReasoning ? "/Reasoning/Verbal" : "/Auth";
 
   return (
     <>
@@ -51,14 +54,14 @@ export default function ReasoningDashboard() {
               <h2 style={styles.cardTitle}>Quantitative Track</h2>
               <p style={styles.text}>From foundational quantitative reasoning to Olympiad problem solving, proof and mathematical research.</p>
               <ul style={styles.list}><li>Foundation Quantitative & Reasoning</li><li>Advanced Problem Solving</li><li>Mathematical Thinking</li><li>Math Olympiad</li><li>Proof & Advanced Mathematics</li><li>Mathematical Research</li></ul>
-              <Link href="/Reasoning/Quantitative" style={styles.button}>Enter Quantitative Track</Link>
+              <Link href={quantitativeHref} style={styles.button}>Enter Quantitative Track</Link>
             </section>
             <section style={styles.card}>
               <div style={styles.icon}>Aa</div>
               <h2 style={styles.cardTitle}>Verbal Track</h2>
               <p style={styles.text}>Develop critical reading, argument, analytical writing, essay skills and research communication.</p>
               <ul style={styles.list}><li>Foundation Verbal & Reasoning</li><li>Critical Reading & Argument</li><li>Analytical & Scholarly Writing</li><li>Essay Competitions</li><li>Research Skills</li><li>Research Writing & Publication</li></ul>
-              <Link href="/Reasoning/Verbal" style={styles.button}>Enter Verbal Track</Link>
+              <Link href={verbalHref} style={styles.button}>Enter Verbal Track</Link>
             </section>
           </div>
           <div style={styles.note}><strong>Your academic profile will grow with you.</strong> Quantitative and Verbal progress will remain separate, while achievements and research work can contribute to a common academic profile as this product develops.</div>
