@@ -15,7 +15,7 @@ export default function QuantitativeModule() {
   useEffect(() => {
     if (!router.isReady) return;
     if (!isAuthenticated || !user?.userId) router.replace({ pathname: "/Auth", query: { redirect: router.asPath } });
-    else setCompleted(Boolean(readReasoningProgress(user.userId).quantitative?.completedModules?.[module?.id]));
+    else if (module) setCompleted(Boolean(readReasoningProgress(user.userId).quantitative?.completedModules?.[module.id]));
   }, [router.isReady, router, isAuthenticated, user, module?.id]);
 
   if (!router.isReady || !isAuthenticated || !user?.userId) return null;
