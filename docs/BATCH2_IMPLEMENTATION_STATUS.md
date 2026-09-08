@@ -6,62 +6,44 @@
 
 ## Scope implemented
 
-Batch 2 established the Level 1 Reasoning learning architecture and subsequent development has extended the same architecture through Stage 3 without changing the Foreign Languages product or introducing backend/database work.
+The Reasoning learning architecture now covers the complete Level 1 / Grade 3 six-stage curriculum structure for both Quantitative and Verbal tracks. The work preserves the existing shared authentication model and does not introduce backend/database work.
 
 ### Implemented
 
-- Expanded Quantitative and Verbal Level 1 Stage 1 activities.
-- Added multiple questions per Level 1 Stage 1 activity in the dedicated Reasoning Question Bank.
-- Preserved stable activity/question IDs and activity-specific metadata.
-- Standardized question timing around `timePerQuestion`.
-- Rebuilt the Reasoning activity player around multiple questions.
-- Added Previous/Next navigation, question numbering, answered/remaining tracking, live score/progress, explanations and per-question countdown/expiry.
-- Added explicit activity completion after questions are answered or expire.
-- Saved completion and score through the Reasoning-only frontend progress namespace.
-- Reflected activity/module progress in Quantitative and Verbal dashboards.
-- Kept Quantitative and Verbal progress separate.
-- Kept Reasoning progress separate from Foreign Languages.
-- Protected Reasoning learning routes behind the existing shared authentication system.
-- Removed duplicate Stage 1 Module 1 routes.
-- Added reusable Stage 1 lesson modules with Learn, Worked example, Try it yourself and Learning goal sections.
-- Connected lesson modules to relevant practice activities through reusable `activityIds` metadata.
-- Added Stage 2 curriculum, module pages, activity layer and expanded question depth.
-- Added Stage 3 curriculum foundation for both tracks.
-- Added the full Stage 3 Explore half for both tracks.
-- Added the full Stage 3 Extend half for both tracks.
-- Connected Stage 3 activities to the reusable activity player and Stage 3 module navigation.
+- Level 1 Stages 1–6 curriculum structures for Quantitative and Verbal.
+- Explore and Extend curriculum halves across Stages 1–6.
+- Reusable lesson/module structure with Learn, Worked example, Try it yourself and Learning goal sections.
+- Reusable activity/question architecture with multiple-choice questions, explanations, scoring, completion and per-question timing.
+- Dedicated dashboards and module pages for Stages 2–6.
+- Separate Quantitative and Verbal progress.
+- Reasoning progress separate from Foreign Languages.
+- Existing shared authentication retained for Reasoning learning routes.
 
 ## Current curriculum status
 
 ### Level 1 / Grade 3
 
-- **Stage 1 — Foundation:** implemented.
+- **Stage 1 — Foundation Quantitative & Reasoning / Foundation Verbal & Reasoning:** implemented.
 - **Stage 2 — Advanced Problem Solving / Critical Reading & Argument:** implemented; awaiting final project-owner live verification.
-- **Stage 3 — Mathematical Thinking / Analytical & Scholarly Writing:** full Explore + Extend structure implemented; awaiting final project-owner live verification.
-- **Stage 4 — Math Olympiad / Essay Competitions:** not yet built.
-- **Stage 5 — Proof & Advanced Mathematics / Research Skills:** not yet built.
-- **Stage 6 — Mathematical Research / Research Writing & Publication:** not yet built.
+- **Stage 3 — Mathematical Thinking / Analytical & Scholarly Writing:** implemented with full Explore + Extend; awaiting final project-owner live verification.
+- **Stage 4 — Math Olympiad / Essay Competitions:** implemented with full Explore + Extend.
+- **Stage 5 — Proof & Advanced Mathematics / Research Skills:** implemented with full Explore + Extend.
+- **Stage 6 — Mathematical Research / Research Writing & Publication:** implemented with full Explore + Extend.
 
-## Verified behavior
+## Remaining build
 
-The project owner has verified the core Stage 1 learning flow and authentication behavior. Stage 2 and Stage 3 are now ready for project-owner live verification.
+1. Extend the six-stage curriculum architecture to Levels 2–9 with grade-appropriate content and increasing difficulty.
+2. Complete final owner verification of the Level 1 pathway before launch readiness is claimed.
+3. Inspect and integrate the external backend before describing Reasoning progress as permanently persisted.
 
 ## Intentionally not implemented yet
 
 - Backend/database persistence for Reasoning.
 - Server-side timer configuration or authorized overrides.
 - Reasoning points, streaks, achievements and leaderboards.
-- Full Level 2–9 content.
+- Full Level 2–9 curriculum content.
 - Optional interactive/API learning resources.
 
 ## Important note
 
 The current Reasoning progress implementation is frontend/browser-storage based. It must not be described as permanent backend persistence until the separate backend has been inspected and integrated.
-
-## Next build set
-
-1. Complete Stage 4 for both tracks.
-2. Complete Stage 5 for both tracks.
-3. Complete Stage 6 for both tracks.
-4. Extend the completed six-stage Level 1 architecture to Levels 2–9 with grade-appropriate curriculum and increasing difficulty.
-5. Inspect and integrate the external backend before describing Reasoning progress as permanently persisted.
