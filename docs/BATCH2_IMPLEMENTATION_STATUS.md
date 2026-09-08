@@ -6,7 +6,7 @@
 
 ## Scope implemented
 
-Batch 2 built the Level 1 Reasoning learning experience without changing the Foreign Languages product or introducing backend/database work.
+Batch 2 established the Level 1 Reasoning learning architecture and subsequent development has extended the same architecture through Stage 3 without changing the Foreign Languages product or introducing backend/database work.
 
 ### Implemented
 
@@ -18,18 +18,33 @@ Batch 2 built the Level 1 Reasoning learning experience without changing the For
 - Added Previous/Next navigation, question numbering, answered/remaining tracking, live score/progress, explanations and per-question countdown/expiry.
 - Added explicit activity completion after questions are answered or expire.
 - Saved completion and score through the Reasoning-only frontend progress namespace.
-- Reflected activity/module progress in Quantitative and Verbal Stage 1 dashboards.
+- Reflected activity/module progress in Quantitative and Verbal dashboards.
 - Kept Quantitative and Verbal progress separate.
 - Kept Reasoning progress separate from Foreign Languages.
 - Protected Reasoning learning routes behind the existing shared authentication system.
-- Removed duplicate Module 1 routes that were causing the older question-only screen to appear instead of the intended lesson page.
+- Removed duplicate Stage 1 Module 1 routes.
 - Added reusable Stage 1 lesson modules with Learn, Worked example, Try it yourself and Learning goal sections.
 - Connected lesson modules to relevant practice activities through reusable `activityIds` metadata.
-- Added Practice activities sections to Quantitative and Verbal module lesson pages.
+- Added Stage 2 curriculum, module pages, activity layer and expanded question depth.
+- Added Stage 3 curriculum foundation for both tracks.
+- Added the full Stage 3 Explore half for both tracks.
+- Added the full Stage 3 Extend half for both tracks.
+- Connected Stage 3 activities to the reusable activity player and Stage 3 module navigation.
+
+## Current curriculum status
+
+### Level 1 / Grade 3
+
+- **Stage 1 — Foundation:** implemented.
+- **Stage 2 — Advanced Problem Solving / Critical Reading & Argument:** implemented; awaiting final project-owner live verification.
+- **Stage 3 — Mathematical Thinking / Analytical & Scholarly Writing:** full Explore + Extend structure implemented; awaiting final project-owner live verification.
+- **Stage 4 — Math Olympiad / Essay Competitions:** not yet built.
+- **Stage 5 — Proof & Advanced Mathematics / Research Skills:** not yet built.
+- **Stage 6 — Mathematical Research / Research Writing & Publication:** not yet built.
 
 ## Verified behavior
 
-The project owner has verified that the current live Reasoning flow works correctly through the Stage 1 modules and the intended lesson experience.
+The project owner has verified the core Stage 1 learning flow and authentication behavior. Stage 2 and Stage 3 are now ready for project-owner live verification.
 
 ## Intentionally not implemented yet
 
@@ -37,7 +52,6 @@ The project owner has verified that the current live Reasoning flow works correc
 - Server-side timer configuration or authorized overrides.
 - Reasoning points, streaks, achievements and leaderboards.
 - Full Level 2–9 content.
-- Full six-stage content for all levels.
 - Optional interactive/API learning resources.
 
 ## Important note
@@ -46,8 +60,8 @@ The current Reasoning progress implementation is frontend/browser-storage based.
 
 ## Next build set
 
-1. Increase Level 1 Stage 1 question depth and variety.
-2. Ensure each module has enough relevant practice for meaningful repetition.
-3. Improve activity completion/results navigation back to the relevant module and stage.
-4. Improve module-to-module navigation and Explore/Extend progression visibility.
-5. Then use the proven architecture for Stage 2.
+1. Complete Stage 4 for both tracks.
+2. Complete Stage 5 for both tracks.
+3. Complete Stage 6 for both tracks.
+4. Extend the completed six-stage Level 1 architecture to Levels 2–9 with grade-appropriate curriculum and increasing difficulty.
+5. Inspect and integrate the external backend before describing Reasoning progress as permanently persisted.
