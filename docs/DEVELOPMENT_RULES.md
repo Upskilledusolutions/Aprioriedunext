@@ -38,7 +38,72 @@ Keep separate:
 - streaks
 - leaderboards
 
-## 4. Inspect before modifying
+Within Reasoning, Quantitative and Verbal are independently selectable and independently reportable. Neither track should unlock, block, require or depend on the other.
+
+## 4. Reasoning grade-level and difficulty rules
+
+Reasoning uses nine additive levels:
+
+- Level 1 — Grade 3
+- Level 2 — Grade 4
+- Level 3 — Grade 5
+- Level 4 — Grade 6
+- Level 5 — Grade 7
+- Level 6 — Grade 8
+- Level 7 — Grade 9
+- Level 8 — Grade 10
+- Level 9 — Grades 11–12
+
+Each level is divided into two approximately equal curriculum halves:
+
+- **Explore 50%** — core concepts, ideas and applications for the selected grade.
+- **Extend 50%** — additional concepts, ideas, connections and applications anchored to the same grade.
+
+Difficulty must increase incrementally within both halves. The Extend half should generally be more challenging than Explore, but must remain appropriate to the selected level rather than simply becoming the next grade. This applies independently to Quantitative and Verbal.
+
+## 5. Reasoning Question Bank extensibility
+
+Reasoning must use a dedicated Question Bank/content model rather than reusing Foreign Languages exercise data unchanged.
+
+The Question Bank must be designed so that:
+
+- new question types can be added without an architectural rewrite;
+- new question sets can be added to any existing course, stage, module or topic;
+- existing progress reports and dashboards continue to work when new content is introduced;
+- stable activity/question identifiers and common progress metadata are used instead of hard-coded question-type lists;
+- question sets can carry grade, track, stage, module/topic, Explore/Extend, concept/skill and difficulty metadata;
+- explanations, worked examples, feedback and answer data can be attached where appropriate.
+
+A new question type may require its own rendering/interaction component, but adding that component must not require rewriting the overall curriculum, progress or dashboard architecture.
+
+## 6. Reasoning timer rules
+
+Every Reasoning question must support configurable time-per-question settings.
+
+- Default timing should be based on grade and difficulty, with question/activity type considered where appropriate.
+- Defaults should reflect reasonable average expected solving/response time.
+- Timing may be overridden at question-set/topic level.
+- Authorized front-end/back-end configuration may override timing where required.
+- The learner may be offered a choice of timing modes/settings where the final learning experience enables this.
+- The primary timer is per question, not only per section.
+- The model should remain extensible for a future section/set timer.
+
+Do not hard-code timer values into components when configuration/data can be used instead.
+
+## 7. Future-ready interactive content
+
+Reasoning content should support optional references to:
+
+- images
+- diagrams
+- visualizations
+- interactive components
+- generated visuals
+- API/data-driven resources
+
+These are separate from the Question Bank requirement. They should remain optional so standard content does not depend on external services.
+
+## 8. Inspect before modifying
 
 Never change a file simply because its name looks relevant.
 
@@ -51,7 +116,7 @@ First:
 5. Identify whether it is shared by both products.
 6. Explain the risk before making the change.
 
-## 5. Prefer small changes
+## 9. Prefer small changes
 
 Do not perform a large rewrite when a small addition or isolated module can achieve the same result.
 
@@ -71,7 +136,7 @@ over:
 rewrite entire application
 ```
 
-## 6. Every code change must be understandable
+## 10. Every code change must be understandable
 
 For every change, provide the non-technical owner with:
 
@@ -85,13 +150,13 @@ For every change, provide the non-technical owner with:
 - what to do if the test fails
 - how to roll back the change
 
-## 7. Backend changes require special attention
+## 11. Backend changes require special attention
 
 The frontend uses `NEXT_PUBLIC_BACKENDURL` to communicate with a separate backend. The backend is not part of this repository.
 
 If a feature requires permanent data storage, new API endpoints, database changes or server-side authorization, clearly identify that backend work before proceeding.
 
-## 8. Security
+## 12. Security
 
 Never place passwords, private keys, database credentials, API secrets or other confidential values in source code or documentation.
 
@@ -99,15 +164,15 @@ The `.gitignore` already excludes local environment files such as `.env*.local`;
 
 Frontend protection is not sufficient for sensitive data. The backend must enforce authorization.
 
-## 9. Do not expose secrets in documentation
+## 13. Do not expose secrets in documentation
 
 Documentation may describe the existence and purpose of an environment variable, but must never contain the secret value.
 
-## 10. Preserve existing progress
+## 14. Preserve existing progress
 
 Do not delete, reset or migrate existing learner progress unless a migration plan has been reviewed and tested.
 
-## 11. Product selection
+## 15. Product selection
 
 The desired experience is:
 
@@ -121,7 +186,7 @@ PRODUCT SELECTION
 
 The selected product controls the learning experience without changing the underlying user identity.
 
-## 12. Testing priority
+## 16. Testing priority
 
 When a shared change is made, test the existing Foreign Languages flow as well as the new Reasoning flow.
 
@@ -133,25 +198,31 @@ At minimum, verify:
 - existing language progress is unchanged
 - new Reasoning dashboard opens
 - Reasoning progress does not appear inside Language progress
+- Quantitative can be used without Verbal
+- Verbal can be used without Quantitative
+- selecting both tracks preserves separate progress
+- adding a new Question Bank set does not break existing reporting/dashboard behavior
+- per-question timing displays and resets correctly between questions
+- timer overrides work at the intended configuration level
 - switching products does not log the user out
 
-## 13. No premature technical decisions
+## 17. No premature technical decisions
 
 Do not invent a database schema, API contract or architecture just to fill documentation.
 
 If something has not been verified, label it as **To Be Verified**.
 
-## 14. Zero-cost development preference
+## 18. Zero-cost development preference
 
 During validation, prefer the existing infrastructure and free tiers. Do not add paid services unless there is a clear business or technical reason.
 
-## 15. AI development rule
+## 19. AI development rule
 
 The AI assistant must read the documentation in `/docs` before making architectural changes.
 
 If the code conflicts with the documentation, the AI should stop and explain the conflict before making a broad change.
 
-## 16. Priority order
+## 20. Priority order
 
 When making decisions, use this order:
 
