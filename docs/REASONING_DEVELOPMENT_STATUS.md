@@ -5,7 +5,7 @@
 
 ## Current status
 
-**Reasoning & Academic Skills is now in an early working-learning stage.** The shared account/authentication flow, Reasoning dashboard, independent Quantitative and Verbal tracks, Level 1 Stage 1 module lessons, reusable activity player, Question Bank, per-question timing, frontend progress, and lesson-to-activity connections are working.
+**Reasoning & Academic Skills is now in an early working-learning stage.** The shared account/authentication flow, Reasoning dashboard, independent Quantitative and Verbal tracks, Level 1 Stage 1 module lessons, reusable activity player, Question Bank, per-question timing, frontend progress, lesson-to-activity connections, and Stage 1 navigation are working.
 
 The broader nine-level curriculum, all six stages, backend persistence, and gamification remain incomplete.
 
@@ -23,7 +23,7 @@ The broader nine-level curriculum, all six stages, backend persistence, and gami
 - Module/activity completion is reflected in the Stage 1 experience.
 - Actual Reasoning learning entry and activities are protected by the existing authentication system.
 - Duplicate Module 1 routes that were causing the old question-only screen have been removed.
-- The project owner has verified the current Stage 1 Quantitative and Verbal learning flow, including module lessons and practice connections, is working correctly.
+- The project owner has verified the current Stage 1 Quantitative and Verbal learning flow, including module lessons, practice connections, activity navigation and module navigation.
 
 ## Current status by area
 
@@ -35,6 +35,8 @@ The broader nine-level curriculum, all six stages, backend persistence, and gami
 | Module lessons | Built for Stage 1 |
 | Lesson → activity connection | Built for Stage 1 |
 | Stage 1 module activity completion indicators | Built and verified |
+| Activity → module/stage navigation | Built and verified |
+| Module-to-module navigation | Built and verified |
 | Reasoning activity player | Built for pilot |
 | Reasoning Question Bank | Built for frontend pilot |
 | Per-question timing | Built for frontend pilot |
@@ -62,25 +64,23 @@ The broader nine-level curriculum, all six stages, backend persistence, and gami
 
 ## This session: verified and documented
 
-The previously implemented Stage 1 lesson-integration build was verified by the project owner before this documentation update:
+The previous Stage 1 navigation build was verified by the project owner before this documentation update:
 
-1. Quantitative Stage 1 module cards use the central Stage 1 lesson data.
-2. Verbal Stage 1 module cards use the central Stage 1 lesson data.
-3. Module cards show linked practice-activity completion counts.
-4. Module pages expose Learn, Worked Example, Try It Yourself and Learning Goal content.
-5. Module pages connect learners to relevant Explore/Extend activities.
-6. Activity start/review and completion/score display continue to work.
-7. Authentication and Reasoning-only progress remain preserved.
-8. Foreign Languages remains untouched.
+1. Quantitative Stage 1 modules navigate correctly between Previous, Next and Stage 1.
+2. Verbal Stage 1 modules navigate correctly between Previous, Next and Stage 1.
+3. Completed activities return naturally to their module and Stage 1.
+4. Existing activity completion, scores and progress remain intact.
+5. Quantitative and Verbal functionality remains working.
+6. Foreign Languages remains unaffected.
 
 ## Next build set
 
-### Level 1 Stage 1 depth and navigation
+### Level 1 Stage 1 learning clarity and depth
 
-- Improve activity completion/results navigation so learners return naturally to the relevant module and Stage 1 context.
-- Improve module-to-module navigation while preserving the existing hierarchy.
-- Make Explore vs Extend progression and labels clearer.
-- Expand Question Bank depth and variety where it adds meaningful learning value, while preserving stable IDs and timing metadata.
+- Make Explore and Extend visibly distinct on the Stage 1 experience so learners understand the intended progression.
+- Increase Question Bank depth and variety where it adds meaningful repetition rather than simply adding duplicate questions.
+- Keep difficulty incremental within each half and keep Extend harder while remaining anchored to the same grade.
+- Ensure practice coverage remains meaningful across all ten Stage 1 modules.
 
 ### After Stage 1 is sufficiently deep
 
@@ -110,7 +110,9 @@ Before permanent Reasoning persistence or gamification, inspect the separate bac
 - `src/Data/Reasoning/activities.js`
 - `src/Data/Reasoning/questionBank.js`
 - `src/Data/Reasoning/stage1Modules.js`
+- `src/pages/Reasoning/Quantitative/Dashboard/Stage1/index.js`
 - `src/pages/Reasoning/Quantitative/Dashboard/Stage1/[moduleId].js`
+- `src/pages/Reasoning/Verbal/Dashboard/Stage1/index.js`
 - `src/pages/Reasoning/Verbal/Dashboard/Stage1/[moduleId].js`
 - `src/pages/Reasoning/Activity/[activityId].js`
 - `src/utils/reasoningProgress.js`
