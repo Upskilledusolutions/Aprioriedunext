@@ -17,13 +17,32 @@ This file records important project and architecture changes in simple language.
 - Preserved the existing shared authentication and Reasoning-only progress model.
 - Preserved Foreign Languages unchanged.
 - The project owner verified the implemented Stage 1 module lesson and practice-activity flow before this changelog update.
-- Updated the Reasoning development status and Batch 2 implementation documentation.
+
+### Stage 1 navigation and Explore/Extend progression — verified
+
+- Added activity → module and activity → Stage 1 return navigation.
+- Added Previous/Next module navigation across the five Quantitative and five Verbal Stage 1 modules.
+- Made Explore and Extend visibly distinct in the Stage 1 activity areas.
+- Explained that Explore establishes the foundation and Extend increases reasoning challenge while staying within the same grade.
+- Preserved scores, completion state, timing, authentication and Foreign Languages isolation.
+- The project owner verified the navigation and Explore/Extend presentation before this entry.
+
+### Stage 1 question depth and module coverage — implemented, pending verification
+
+- Added a separate reusable extension question set so the original stable Question Bank IDs remain intact.
+- Added additional questions for Number Sense, Patterns, Quantitative Relationships, Vocabulary in Context, Basic Argument, Main Idea, Logic, Multi-Step Reasoning, Inference and Comparing Perspectives.
+- Added dedicated practice activities for previously under-covered Stage 1 modules.
+- Corrected Stage 1 module-to-activity mappings so Vocabulary in Context and Basic Argument have directly relevant activities.
+- Increased several existing activities from three to four questions without changing their original questions.
+- Updated the activity player to combine the original Question Bank with the new Stage 1 extension questions.
+- Updated activity parent-module routing to derive the correct Stage 1 module from the module's `activityIds`, avoiding hardcoded routing mismatches.
+- No backend, authentication architecture or Foreign Languages changes were made.
 
 ### Next build direction
 
-- Improve activity completion/results navigation back to module/stage context.
-- Improve module-to-module navigation and Explore/Extend progression visibility.
-- Expand Question Bank depth and variety where it adds meaningful learning value.
+- Verify the deeper Stage 1 practice coverage and question flow.
+- Fix any content or routing issue found during verification.
+- Continue deepening Stage 1 only where practice coverage is still thin.
 - Then build Stage 2 using the same reusable architecture.
 
 ## 2026-09-04
