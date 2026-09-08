@@ -17,12 +17,13 @@ The broader nine-level curriculum, all six stages, backend persistence, and gami
 - Level 1 Stage 1 has five Quantitative and five Verbal modules.
 - Each module has **Learn**, **Worked example**, **Try it yourself**, and **Learning goal** sections.
 - Modules can launch relevant shared practice activities through `activityIds`.
+- Quantitative and Verbal Stage 1 module cards use the central lesson data and show linked activity completion counts.
 - Reasoning activities support multiple questions, scoring, feedback, explanations, navigation and per-question timing.
 - Reasoning progress is stored separately by track in the frontend.
 - Module/activity completion is reflected in the Stage 1 experience.
 - Actual Reasoning learning entry and activities are protected by the existing authentication system.
 - Duplicate Module 1 routes that were causing the old question-only screen have been removed.
-- The project owner has verified the current live learning flow is working correctly.
+- The project owner has verified the current Stage 1 Quantitative and Verbal learning flow, including module lessons and practice connections, is working correctly.
 
 ## Current status by area
 
@@ -33,6 +34,7 @@ The broader nine-level curriculum, all six stages, backend persistence, and gami
 | Verbal Level 1 Stage 1 pilot | Built |
 | Module lessons | Built for Stage 1 |
 | Lesson → activity connection | Built for Stage 1 |
+| Stage 1 module activity completion indicators | Built and verified |
 | Reasoning activity player | Built for pilot |
 | Reasoning Question Bank | Built for frontend pilot |
 | Per-question timing | Built for frontend pilot |
@@ -58,29 +60,27 @@ The broader nine-level curriculum, all six stages, backend persistence, and gami
 - Do not claim permanent backend persistence until the separate backend is inspected.
 - Prefer small, isolated additions over rewrites.
 
-## This session: completed
+## This session: verified and documented
 
-The latest build set strengthened the Level 1 Stage 1 learning connection:
+The previously implemented Stage 1 lesson-integration build was verified by the project owner before this documentation update:
 
-1. Added explicit `activityIds` to Stage 1 module data.
-2. Connected Quantitative modules to relevant Explore/Extend practice activities.
-3. Connected Verbal modules to relevant Explore/Extend practice activities.
-4. Added a **Practice activities** section inside the Quantitative and Verbal module lesson pages.
-5. Added activity start/review controls and displayed completion/score when available.
-6. Preserved the shared Reasoning activity player rather than creating duplicate activity pages.
-7. Preserved Reasoning-only progress and existing authentication.
-8. Kept Foreign Languages untouched.
-9. Updated the Batch 2 implementation record with the verified lesson integration.
+1. Quantitative Stage 1 module cards use the central Stage 1 lesson data.
+2. Verbal Stage 1 module cards use the central Stage 1 lesson data.
+3. Module cards show linked practice-activity completion counts.
+4. Module pages expose Learn, Worked Example, Try It Yourself and Learning Goal content.
+5. Module pages connect learners to relevant Explore/Extend activities.
+6. Activity start/review and completion/score display continue to work.
+7. Authentication and Reasoning-only progress remain preserved.
+8. Foreign Languages remains untouched.
 
 ## Next build set
 
 ### Level 1 Stage 1 depth and navigation
 
-- Expand Question Bank coverage so each Stage 1 learning area has enough practice for meaningful repetition.
-- Increase question variety while preserving stable IDs and timing metadata.
-- Improve activity completion/results navigation so learners return naturally to the relevant module/stage.
+- Improve activity completion/results navigation so learners return naturally to the relevant module and Stage 1 context.
 - Improve module-to-module navigation while preserving the existing hierarchy.
-- Add clearer Explore vs Extend progression indicators.
+- Make Explore vs Extend progression and labels clearer.
+- Expand Question Bank depth and variety where it adds meaningful learning value, while preserving stable IDs and timing metadata.
 
 ### After Stage 1 is sufficiently deep
 
