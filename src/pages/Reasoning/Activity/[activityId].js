@@ -7,6 +7,7 @@ import { getActivityById } from "../../../Data/Reasoning/activities";
 import { STAGE1_MODULES } from "../../../Data/Reasoning/stage1Modules";
 import { STAGE2_MODULES } from "../../../Data/Reasoning/stage2Modules";
 import { STAGE3_MODULES } from "../../../Data/Reasoning/stage3Modules";
+import { STAGE4_MODULES } from "../../../Data/Reasoning/stage4Modules";
 import { STAGE5_MODULES } from "../../../Data/Reasoning/stage5Modules";
 import { STAGE6_MODULES } from "../../../Data/Reasoning/stage6Modules";
 import { getStage4ActivityById } from "../../../Data/Reasoning/stage4Activities";
@@ -17,6 +18,7 @@ import { getStage1ExtensionQuestionsForActivity } from "../../../Data/Reasoning/
 import { getStage2QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage2";
 import { getStage3QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage3";
 import { getStage4QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage4";
+import { getStage4ExtensionQuestionsForActivity } from "../../../Data/Reasoning/questionBankStage4Extensions";
 import { getStage5QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage5";
 import { getStage6QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage6";
 import { completeReasoningActivity } from "../../../utils/reasoningProgress";
@@ -30,8 +32,8 @@ export default function ReasoningActivity(){
  const [currentIndex,setCurrentIndex]=useState(0),[answers,setAnswers]=useState({}),[submitted,setSubmitted]=useState({}),[expired,setExpired]=useState({}),[remaining,setRemaining]=useState(0),[completed,setCompleted]=useState(false);
  const activity=useMemo(()=>{const id=router.query.activityId;return getActivityById(id)||getStage4ActivityById(id)||getStage5ActivityById(id)||getStage6ActivityById(id)},[router.query.activityId]);
  const stage=stageNumber(activity?.stageId);
- const questions=useMemo(()=>{if(!activity)return[];if(stage===4)return getStage4QuestionsForActivity(activity.id);if(stage===5)return getStage5QuestionsForActivity(activity.id);if(stage===6)return getStage6QuestionsForActivity(activity.id);return [...(activity.questionIds||[]).map(getQuestionById).filter(Boolean),...getStage1ExtensionQuestionsForActivity(activity.id),...getStage2QuestionsForActivity(activity.id),...getStage3QuestionsForActivity(activity.id)].filter((q,i,a)=>a.findIndex(x=>x.id===q.id)===i)},[activity,stage]);
- const moduleId=useMemo(()=>{if(!activity)return null;if(activity.moduleId)return activity.moduleId;if(stage===1)return findModuleId(STAGE1_MODULES,activity.id);if(stage===2)return findModuleId(STAGE2_MODULES,activity.id);if(stage===3)return findModuleId(STAGE3_MODULES,activity.id);if(stage===5)return findModuleId(STAGE5_MODULES,activity.id);if(stage===6)return findModuleId(STAGE6_MODULES,activity.id);return null},[activity,stage]);
+ const questions=useMemo(()=>{if(!activity)return[];if(stage===4)return [...getStage4QuestionsForActivity(activity.id),...getStage4ExtensionQuestionsForActivity(activity.id)];if(stage===5)return getStage5QuestionsForActivity(activity.id);if(stage===6)return getStage6QuestionsForActivity(activity.id);return [...(activity.questionIds||[]).map(getQuestionById).filter(Boolean),...getStage1ExtensionQuestionsForActivity(activity.id),...getStage2QuestionsForActivity(activity.id),...getStage3QuestionsForActivity(activity.id)].filter((q,i,a)=>a.findIndex(x=>x.id===q.id)===i)},[activity,stage]);
+ const moduleId=useMemo(()=>{if(!activity)return null;if(activity.moduleId)return activity.moduleId;if(stage===1)return findModuleId(STAGE1_MODULES,activity.id);if(stage===2)return findModuleId(STAGE2_MODULES,activity.id);if(stage===3)return findModuleId(STAGE3_MODULES,activity.id);if(stage===4)return findModuleId(STAGE4_MODULES,activity.id);if(stage===5)return findModuleId(STAGE5_MODULES,activity.id);if(stage===6)return findModuleId(STAGE6_MODULES,activity.id);return null},[activity,stage]);
  const trackName=activity?.track==="quantitative"?"Quantitative":"Verbal";
  const stageHref=activity?`/Reasoning/${trackName}/Dashboard/Stage${stage}`:"/Reasoning";
  const moduleHref=moduleId?`/Reasoning/${trackName}/Dashboard/Stage${stage}/${moduleId}`:stageHref;
