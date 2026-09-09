@@ -39,11 +39,12 @@ export default function ReasoningActivity(){
  const isAnswered=!!question&&Object.prototype.hasOwnProperty.call(submitted,question.id),isExpired=!!question&&Boolean(expired[question.id]);
  const selected=question?answers[question.id]||"":"";
  const timeLimit=question?(question.timePerQuestion??getDefaultTimeSeconds({levelId:question.levelId,difficulty:question.difficulty,questionType:question.questionType})):0;
+ const handledCount=new Set([...Object.keys(submitted),...Object.keys(expired)]).size;
  useEffect(()=>{if(router.isReady&&!isAuthenticated)router.replace({pathname:"/Auth",query:{redirect:router.asPath}})},[router.isReady,isAuthenticated,router]);
- useEffect(()=>{if(!question||isAnswered||isExpired)return;setRemaining(timeLimit);const timer=window.setInterval(()=>setRemaining(value=>{if(value<=1){window.clearInterval(timer);setExpired(current=>({...current,[question.id]:true}));if(currentIndex<questions.length-1)setCurrentIndex(index=>index+1);return 0}return value-1}),1000);return()=>window.clearInterval(timer)},[question?.id,timeLimit,isAnswered,isExpired,currentIndex,questions.length]);
+ useEffect(()=>{if(!question||isAnswered||isExpired||completed)return;setRemaining(timeLimit);const timer=window.setInterval(()=>setRemaining(value=>{if(value<=1){window.clearInterval(timer);setExpired(current=>{const next={...current,[question.id]:true};if(currentIndex===questions.length-1&&!completed){const finalScore=Math.round((questions.reduce((n,q)=>n+(submitted[q.id]===q.answer?1:0),0)/questions.length)*100);completeReasoningActivity(user.userId,activity.track,activity.id,finalScore);setCompleted(true)}return next});if(currentIndex<questions.length-1)setCurrentIndex(index=>index+1);return 0}return value-1}),1000);return()=>window.clearInterval(timer)},[question?.id,timeLimit,isAnswered,isExpired,currentIndex,questions.length,completed,user?.userId,activity?.id,activity?.track,submitted]);
  if(!router.isReady||!isAuthenticated||!user?.userId)return null;
  if(!activity||!questions.length)return <main style={{padding:40}}><h1>Activity content is not available.</h1><p>This activity is not correctly connected to its question bank.</p><Link href={stageHref}>Back to Stage</Link></main>;
- const answeredCount=Object.keys(submitted).length,handledCount=new Set([...Object.keys(submitted),...Object.keys(expired)]).size;
+ const answeredCount=Object.keys(submitted).length;
  const score=questions.length?Math.round((questions.reduce((n,q)=>n+(submitted[q.id]===q.answer?1:0),0)/questions.length)*100):0;
  function choose(option){if(!isAnswered&&!isExpired)setAnswers(a=>({...a,[question.id]:option}))}
  function submit(){if(selected&&!isAnswered&&!isExpired)setSubmitted(a=>({...a,[question.id]:selected}))}
