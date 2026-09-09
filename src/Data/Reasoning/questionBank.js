@@ -85,15 +85,15 @@ const questions = [
   },
   {
     id: "Q-L1-V-S1-EXP-ARG-002", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "evidence-and-claims", topicId: "claims", activityId: "V-L1-S1-EXP-evidence-and-claims", questionType: QUESTION_TYPES.multipleChoice, concept: "Identifying evidence", difficulty: 1, timePerQuestion: 60,
-    question: "Which detail would best support the claim that a character is helpful?", options: ["She has a bright red hat.", "She helps a younger student with books.", "She likes blue shoes with white laces.", "She sits beside the window during lunch."], answer: "She helps a younger student with books.", explanation: "The detail describes an action that directly shows helpful behaviour.",
+    question: "Which detail would best support the claim that a character is helpful?", options: ["She has a red hat.", "She carries books for a younger student.", "She likes blue shoes.", "She sits near a window."], answer: "She carries books for a younger student.", explanation: "The detail describes an action that directly shows helpful behaviour.",
   },
   {
     id: "Q-L1-V-S1-EXP-ARG-003", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "evidence-and-claims", topicId: "claims", activityId: "V-L1-S1-EXP-evidence-and-claims", questionType: QUESTION_TYPES.multipleChoice, concept: "Relevant evidence", difficulty: 2, timePerQuestion: 75,
-    question: "A student claims that the garden attracts birds. Which detail is strongest evidence?", options: ["The garden has a wooden bench.", "A bird feeder is used each day.", "The gardener waters the flowers before school each morning.", "The gardener wears gloves while planting flowers."], answer: "A bird feeder is used each day.", explanation: "A bird feeder directly relates to attracting and supporting birds.",
+    question: "A student claims that the garden attracts birds. Which detail is strongest evidence?", options: ["The garden has a wooden bench.", "A bird feeder is filled every morning.", "The garden has green leaves.", "The gardener wears gloves."], answer: "A bird feeder is filled every morning.", explanation: "A filled bird feeder directly relates to attracting birds.",
   },
   {
     id: "Q-L1-V-S1-EXP-MID-001", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "main-idea", topicId: "main-idea-and-details", activityId: "V-L1-S1-EXP-main-idea", questionType: QUESTION_TYPES.multipleChoice, concept: "Main idea", difficulty: 1, timePerQuestion: 60,
-    question: "Read: 'Bees visit many flowers. They collect nectar and carry pollen from one flower to another.' What is the main idea?", options: ["Bees are insects with six legs.", "Bees carry pollen.", "Flowers are colourful.", "Nectar attracts bees to flowers."], answer: "Bees carry pollen.", explanation: "The passage focuses on bees visiting flowers and carrying pollen from one flower to another.",
+    question: "Read: 'Bees visit many flowers. They collect nectar and carry pollen from one flower to another.' What is the main idea?", options: ["Bees are insects.", "Bees help flowers by carrying pollen.", "Flowers are colourful.", "Nectar is sweet."], answer: "Bees help flowers by carrying pollen.", explanation: "The passage focuses on what bees do at flowers and how they carry pollen.",
   },
   {
     id: "Q-L1-V-S1-EXP-MID-002", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "main-idea", topicId: "main-idea-and-details", activityId: "V-L1-S1-EXP-main-idea", questionType: QUESTION_TYPES.multipleChoice, concept: "Supporting details", difficulty: 1, timePerQuestion: 60,
@@ -101,19 +101,19 @@ const questions = [
   },
   {
     id: "Q-L1-V-S1-EXP-MID-003", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "main-idea", topicId: "main-idea-and-details", activityId: "V-L1-S1-EXP-main-idea", questionType: QUESTION_TYPES.multipleChoice, concept: "Main idea", difficulty: 2, timePerQuestion: 75,
-    question: "Read: 'Reusing a bottle reduces the number of new bottles we need. It can also reduce waste.' What is the main idea?", options: ["Bottles can be blue.", "Reusing bottles can reduce waste.", "New bottles are expensive.", "People often choose new bottles because they are convenient."], answer: "Reusing bottles can reduce waste.", explanation: "The passage emphasizes that reusing bottles reduces waste and can reduce the need for new bottles.",
+    question: "Read: 'Reusing a bottle reduces the number of new bottles we need. It can also reduce waste.' What is the main idea?", options: ["Bottles can be blue.", "Reusing bottles can reduce waste and the need for new bottles.", "New bottles are expensive.", "Everyone uses bottles."], answer: "Reusing bottles can reduce waste and the need for new bottles.", explanation: "Both sentences describe benefits of reusing bottles.",
   },
   {
     id: "Q-L1-V-S1-EXP-SEQ-001", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "sequencing", topicId: "sequence-and-structure", activityId: "V-L1-S1-EXP-sequencing", questionType: QUESTION_TYPES.multipleChoice, concept: "Sequence", difficulty: 1, timePerQuestion: 60,
-    question: "Which should happen first when planting a seed?", options: ["Water the soil.", "Watch the plant grow into a healthy plant.", "Pick the fruit when it is ready.", "Measure the plant after several weeks."], answer: "Water the soil.", explanation: "Watering the planted seed is an early step before the plant can grow.",
+    question: "Which should happen first when planting a seed?", options: ["Water the soil", "Watch the plant grow", "Pick the fruit", "Measure the tall plant"], answer: "Water the soil", explanation: "Watering the planted seed is an early step before the plant can grow.",
   },
   {
     id: "Q-L1-V-S1-EXP-SEQ-002", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "sequencing", topicId: "sequence-and-structure", activityId: "V-L1-S1-EXP-sequencing", questionType: QUESTION_TYPES.multipleChoice, concept: "Sequence clues", difficulty: 1, timePerQuestion: 60,
-    question: "Lina put on her shoes after she put on her socks. What happened first?", options: ["She put on socks.", "She put on shoes.", "She ran outside.", "We cannot tell."], answer: "She put on socks.", explanation: "The word 'after' tells us the socks came before the shoes.",
+    question: "Lina put on her shoes after she put on her socks. What happened first?", options: ["She put on her shoes.", "She put on her socks.", "She ran outside.", "We cannot tell."], answer: "She put on her socks.", explanation: "The word 'after' tells us the socks came before the shoes.",
   },
   {
     id: "Q-L1-V-S1-EXP-SEQ-003", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "sequencing", topicId: "sequence-and-structure", activityId: "V-L1-S1-EXP-sequencing", questionType: QUESTION_TYPES.multipleChoice, concept: "Sequence", difficulty: 2, timePerQuestion: 75,
-    question: "A story says: 'First, Ravi found the map. Next, he followed it. Finally, he reached the lake.' What happened second?", options: ["He found the map at the beginning.", "He followed the map.", "He reached the lake at the end.", "He lost the map on the way."], answer: "He followed the map.", explanation: "'Next' identifies the second event.",
+    question: "A story says: 'First, Ravi found the map. Next, he followed it. Finally, he reached the lake.' What happened second?", options: ["He found the map.", "He followed the map.", "He reached the lake.", "He lost the map."], answer: "He followed the map.", explanation: "'Next' identifies the second event.",
   },
   {
     id: "Q-L1-V-S1-EXT-ARG-001", track: "verbal", levelId: "L1", half: "extend", stageId: "S1", moduleId: "evidence-and-claims", topicId: "claims", activityId: "V-L1-S1-EXT-evidence-and-claims", questionType: QUESTION_TYPES.multipleChoice, concept: "Choosing relevant evidence", difficulty: 2, timePerQuestion: 75,
@@ -137,11 +137,11 @@ const questions = [
   },
   {
     id: "Q-L1-V-S1-EXT-INF-003", track: "verbal", levelId: "L1", half: "extend", stageId: "S1", moduleId: "inference", topicId: "inference", activityId: "V-L1-S1-EXT-inference", questionType: QUESTION_TYPES.multipleChoice, concept: "Evidence-based inference", difficulty: 3, timePerQuestion: 90,
-    question: "A plant near the window has dry soil and drooping leaves. Another plant is watered regularly and looks healthy. What is the best inference?", options: ["It may need more water.", "The first plant is made of plastic.", "The second plant is receiving enough water and appears healthy.", "The window makes every plant unhealthy."], answer: "It may need more water.", explanation: "Dry soil and drooping leaves provide evidence that lack of water may be affecting the plant.",
+    question: "A plant near the window has dry soil and drooping leaves. Another plant is watered regularly and looks healthy. What is the best inference?", options: ["The first plant may need more water.", "The first plant is made of plastic.", "The healthy plant never needs water.", "The window makes every plant unhealthy."], answer: "The first plant may need more water.", explanation: "Dry soil and drooping leaves provide evidence that lack of water may be affecting the plant.",
   },
   {
     id: "Q-L1-V-S1-EXT-PER-001", track: "verbal", levelId: "L1", half: "extend", stageId: "S1", moduleId: "perspectives", topicId: "compare-perspectives", activityId: "V-L1-S1-EXT-perspectives", questionType: QUESTION_TYPES.multipleChoice, concept: "Comparing perspectives", difficulty: 2, timePerQuestion: 75,
-    question: "Ava says, 'We should walk to school because it gives us exercise.' Ben says, 'We should take the bus because it is faster.' What do they disagree about?", options: ["Whether school exists.", "Which reason matters more to them.", "Whether walking to school is possible.", "What time school starts in the morning."], answer: "Which reason matters more to them.", explanation: "Ava values exercise, while Ben values speed.",
+    question: "Ava says, 'We should walk to school because it gives us exercise.' Ben says, 'We should take the bus because it is faster.' What do they disagree about?", options: ["Whether school exists", "Which reason is more important", "Whether walking is possible", "What time school starts"], answer: "Which reason is more important", explanation: "Ava values exercise, while Ben values speed.",
   },
   {
     id: "Q-L1-V-S1-EXT-PER-002", track: "verbal", levelId: "L1", half: "extend", stageId: "S1", moduleId: "perspectives", topicId: "compare-perspectives", activityId: "V-L1-S1-EXT-perspectives", questionType: QUESTION_TYPES.multipleChoice, concept: "Comparing reasons", difficulty: 2, timePerQuestion: 75,
@@ -149,7 +149,7 @@ const questions = [
   },
   {
     id: "Q-L1-V-S1-EXT-PER-003", track: "verbal", levelId: "L1", half: "extend", stageId: "S1", moduleId: "perspectives", topicId: "compare-perspectives", activityId: "V-L1-S1-EXT-perspectives", questionType: QUESTION_TYPES.multipleChoice, concept: "Perspective comparison", difficulty: 3, timePerQuestion: 90,
-    question: "Priya says the class garden should have more flowers for bees. Omar says it should have more vegetables for students to eat. What is the clearest comparison?", options: ["They want different benefits.", "They both want fewer plants.", "Only Priya gives a reason.", "They both want to decide how the same garden should be used for different purposes."], answer: "They want different benefits.", explanation: "Priya focuses on helping bees, while Omar focuses on producing food for students.",
+    question: "Priya says the class garden should have more flowers for bees. Omar says it should have more vegetables for students to eat. What is the clearest comparison?", options: ["They want different benefits from the same garden.", "They both want fewer plants.", "Only Priya gives a reason.", "They are discussing different schools."], answer: "They want different benefits from the same garden.", explanation: "Priya focuses on helping bees, while Omar focuses on producing food for students.",
   },
 ];
 
