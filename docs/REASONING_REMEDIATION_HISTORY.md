@@ -81,11 +81,12 @@ This document is the chronological remediation record for completed Level 1 Reas
 - Each activity follows Core → Core → Stretch → Advanced progression.
 - Timing is 60 seconds for Core questions and 75 seconds for Stretch/Advanced questions.
 - Stage 6 was committed directly to `main`: commit `3e49c5c4904d7f2a4b4c52cb451fdfb2f05aa5ba`.
+- **Stage 6 was verified by the project owner and is now recorded as verified complete.**
 - The shared activity player was preserved and continues to provide the common execution, scoring, timeout, completion and navigation behavior.
 
 ## Level 1 completion status
 
-Level 1 Reasoning remediation is now recorded through **Stage 6**, completing the six-stage Level 1 remediation sequence. Stage 5 was confirmed Ready on Vercel by the project owner before the Level 2 build began. Stage 6 deployment status is intentionally not asserted here unless separately confirmed.
+Level 1 Reasoning remediation is now recorded through **Stage 6**, completing the six-stage Level 1 remediation sequence. Stage 5 was confirmed Ready on Vercel by the project owner before the Level 2 build began. **Stage 6 has now also been verified by the project owner.**
 
 ## Acceptance standard
 
