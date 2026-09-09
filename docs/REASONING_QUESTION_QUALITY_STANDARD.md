@@ -99,14 +99,49 @@ Before a stage or level is considered complete, verify:
 
 ## 10. Validation strategy
 
-Automated prebuild validation should check structural and syntax requirements on every build.
+Automated prebuild validation is a **mandatory gate before every deployment-triggering commit**.
+
+At minimum, the affected change set must be checked for:
+
+- JavaScript/JSX syntax errors;
+- required files and expected file locations;
+- import/path resolution from the actual source file location;
+- project alias resolution such as `@/`;
+- route/module references and duplicate route hazards;
+- question-bank syntax and structural validity;
+- duplicate question IDs;
+- activity-to-question and module-to-activity mappings;
+- required stage/level structural integrity;
+- malformed questions and answer structure;
+- applicable answer-quality checks.
+
+A validation failure must be fixed before pushing the deployment-triggering commit whenever the failure is deterministic and within repository control. Vercel must not be used as the first mechanism for discovering known syntax, path, import or mapping errors.
 
 Assessment-quality auditing should inspect answer-length, capitalization, answer-position and related clue patterns. During remediation of existing content, these checks may operate as warnings so that content can be corrected stage by stage without unnecessarily blocking unrelated deployments. Once the current content has been normalized, the quality thresholds should be promoted to build-blocking checks for future content.
 
-## 11. Change discipline
+## 11. Deployment and build-rate protection
+
+Deployment attempts are a finite resource and must not be used as a debugging loop. The 2026-09-09 build-integrity incident demonstrated that syntax, path and inadequate-validation failures can consume substantial Vercel build-rate capacity.
+
+Therefore:
+
+- do not create speculative commits merely to see whether Vercel will compile them;
+- after a failed deployment, diagnose the failure category before making another deployment-triggering commit;
+- distinguish source-code failures from Vercel/platform/rate-limit failures;
+- verify that Vercel is evaluating the intended GitHub commit;
+- prefer one coherent, fully prevalidated commit over multiple speculative commits;
+- if a platform/rate-limit failure is confirmed, pause unnecessary deployment attempts rather than repeatedly rebuilding.
+
+## 12. Change discipline
 
 Question-quality remediation is performed **one stage at a time**. Each stage must be corrected and structurally validated before moving to the next stage.
 
 Do not combine a content-quality change with an architectural change.
 
 Do not modify Foreign Languages, authentication/account architecture or the shared Reasoning player as part of question-quality remediation.
+
+## 13. Verification boundary
+
+Build completion, deployment success and owner verification are separate states.
+
+A stage may be **build-complete** while remaining **pending owner verification**. Documentation must not mark such a stage as verified until the project owner has personally tested it and explicitly confirms verification.
