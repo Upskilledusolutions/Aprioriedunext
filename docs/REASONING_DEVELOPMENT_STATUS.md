@@ -38,10 +38,57 @@ Curriculum/module structure is implemented with five Explore and five Extend mod
 Curriculum, dashboards, module pages and dedicated activity/question layer are implemented with Explore and Extend structure. **Known follow-up items:** create/verify a complete Stage 4 question bank with distinct questions, ensure each Extend module has its own activity, fix the final-question scoring state issue in the dedicated Stage 4 activity player, and connect Stage 4 from the main Quantitative/Verbal track dashboards where required.
 
 ### Stage 5 — Proof & Advanced Mathematics / Research Skills
-Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. The current question bank contains four generated question entries per activity, but content quality should be improved later because variants currently repeat the same core stem/options. The Stage 5 activity player also has known robustness follow-ups: final-question score calculation should include the latest answer reliably, and timeout on the final question should complete the activity rather than remain on the last question.
+Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. **Question-quality work is NOT YET COMPLETE:** commit `6d71536` added four generated question entries per activity, but the implementation uses generic question templates rather than four genuinely distinct, activity-specific assessment questions. The current questions therefore may differ in wording while still repeating the same underlying pattern across activities. Stage 5 must not be treated as fully complete until each activity has four substantively different questions with Core → Core → Stretch → Advanced progression, direct alignment to the activity skill, and appropriate Quantitative or Verbal content. The Stage 5 activity player also has known robustness follow-ups: final-question score calculation should include the latest answer reliably, and timeout on the final question should complete the activity rather than remain on the last question.
 
 ### Stage 6 — Mathematical Research / Research Writing & Publication
-Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. The current question bank contains four generated question entries per activity, but content quality should be improved later because variants currently repeat the same core stem/options. The Stage 6 activity player has the same known robustness follow-ups as Stage 5: reliable final-answer scoring and correct completion when the final question times out.
+Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. **Question-quality work is NOT YET COMPLETE:** commit `6d71536` added four generated question entries per activity, but the implementation uses generic question templates rather than four genuinely distinct, activity-specific assessment questions. This is particularly visible in Quantitative Stage 6, where different activities can present essentially the same four question patterns. Stage 6 must not be treated as fully complete until each activity has four substantively different questions with Core → Core → Stretch → Advanced progression, direct alignment to the activity skill, and appropriate Quantitative or Verbal content. The Stage 6 activity player has the same known robustness follow-ups as Stage 5: reliable final-answer scoring and correct completion when the final question times out.
+
+## Stage 5–6 Question Quality — NOT YET COMPLETE
+
+The Stage 5–6 question-bank implementation was partially upgraded in commit `6d71536` (`Improve Stage 5-6 question variety`). The implementation now creates four question records per activity with stable activity-based IDs and a Core → Core → Stretch → Advanced difficulty progression. However, the current implementation uses generic question templates across activities rather than genuinely distinct, activity-specific assessment questions.
+
+This means the requirement that each activity contain four substantively different questions is **not yet complete**. The current questions may have different wording, but they do not adequately assess the specific skill of each activity and can appear repetitive across Stage 5 and Stage 6 activities, including Quantitative Stage 6.
+
+### Required completion standard
+
+For every Stage 5 and Stage 6 activity in both the Quantitative and Verbal tracks:
+
+- Provide four substantively different questions within the activity.
+- Preserve the Core → Core → Stretch → Advanced difficulty progression.
+- Ensure each question directly assesses the specific skill represented by that activity.
+- For Quantitative activities, use genuine mathematical/problem-solving contexts appropriate to the activity, including numbers, patterns, relationships, conditions, models, conjectures, proofs, or other relevant mathematical reasoning as appropriate.
+- For Verbal activities, use genuine verbal, reading, evidence, research, analytical, argument, synthesis, or communication contexts appropriate to the activity.
+- Do not reuse a generic question template across different activities merely by substituting the activity title.
+- Retain stable question IDs and the existing activity/question-bank relationships.
+- Preserve the existing question-bank retrieval and shared activity-player architecture.
+- Preserve timing, answer handling, scoring, completion, navigation, and progress behavior.
+- Do not change the Foreign Languages product, authentication/account architecture, or the overall Reasoning architecture.
+
+### Verification status
+
+**Stage 5–6 question quality: INCOMPLETE / NOT VERIFIED COMPLETE.**
+
+The implementation must not be marked complete until the actual live question bank is reviewed and representative Stage 5 and Stage 6 activities from both Quantitative and Verbal are confirmed to contain four genuinely different, activity-specific questions with the required difficulty progression and working player behavior.
+
+Known issue: commit `6d71536` removed literal duplicate question strings but replaced the previous activity-specific content with generic four-question templates. This should be treated as a partial implementation rather than completion of the Stage 5–6 question-quality requirement.
+
+## Outstanding Work — Stage 5–6 Question Bank
+
+Replace the generic Stage 5–6 question generators with actual activity-specific question sets while preserving the existing architecture.
+
+### Acceptance criteria
+
+1. Every Stage 5 and Stage 6 activity has four substantively different questions.
+2. Questions progress Core → Core → Stretch → Advanced.
+3. Questions directly assess the activity's stated skill rather than generic reasoning about the activity.
+4. Quantitative questions use appropriate mathematical/problem-solving contexts.
+5. Verbal questions use appropriate verbal/research/analytical contexts.
+6. Generic template repetition across activities is eliminated.
+7. Stable question IDs are retained.
+8. Existing question-bank retrieval and shared activity-player architecture remain intact.
+9. Timing, answer handling, scoring, completion, navigation, and progress remain functional.
+10. Representative activities from Stages 4, 5, and 6 are tested after implementation.
+11. The requirement is not marked complete until the live implementation has been verified.
 
 ## Deployment status / next-session resume point
 
@@ -72,3 +119,25 @@ The following remain separate from the current frontend curriculum build and sho
 - Optional interactive/API learning resources.
 
 The current Reasoning progress implementation is frontend/browser-storage based and must not be described as permanent backend persistence until the backend is inspected and integrated.
+
+## Source-of-Truth Principle
+
+For Stage 5–6 question quality, **“four questions exist” does not mean “four genuinely different questions exist.”** Question count, substantive variety, activity-specific alignment, and difficulty progression are separate acceptance criteria.
+
+The Stage 5–6 question-quality work associated with commit `6d71536` is therefore recorded as a partial implementation until the acceptance criteria above are satisfied and verified.
+
+## Existing Project Constraints
+
+The following remain unchanged unless explicitly approved in a separate scope:
+
+- Reasoning architecture.
+- Quantitative and Verbal independent tracks.
+- Six-stage curriculum structure.
+- 50% Explore / 50% Extend split.
+- Grade-appropriate incremental difficulty.
+- Dedicated Reasoning Question Bank and stable question IDs.
+- Shared activity player.
+- Existing timing, scoring, completion, navigation, and progress architecture.
+- One account working across both products.
+- Foreign Languages product.
+- Authentication/account architecture.
