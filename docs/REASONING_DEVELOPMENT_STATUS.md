@@ -37,7 +37,7 @@ Implemented with interactive questions and module/activity navigation. Question 
 **Question bank is present and populated.** The current `src/Data/Reasoning/questionBankStage3.js` contains substantive Quantitative and Verbal questions; the earlier documentation stating that this file was empty is stale and has been corrected. Stage 3 still requires the same systematic assessment-quality audit as the other stages before final launch verification.
 
 ### Stage 4 — Math Olympiad / Essay Competitions
-Curriculum, dashboards, module pages and dedicated activity/question layer are implemented with Explore and Extend structure. Question content and known player/dashboard follow-ups remain subject to the stage-by-stage quality and functional verification process.
+**Stage 4 question remediation completed in this build.** The question bank contains 80 questions: 40 Quantitative and 40 Verbal across 20 activities, with 10 Explore and 10 Extend activities. Every activity now maps all four questions. Four-question activities follow Core → Core → Stretch → Advanced progression, stable IDs are retained, and answer positions are balanced across the bank. The content was strengthened to use more contextual, reasoning-based distractors and to reduce structural assessment clues. Existing Stage 4 dashboards, module pages, activity routing and shared player architecture are preserved.
 
 ### Stage 5 — Proof & Advanced Mathematics / Research Skills
 Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. The substantive question-quality remediation remains part of the staged audit. Known player robustness follow-ups remain: reliable final-answer scoring and correct completion when the final question times out.
@@ -86,11 +86,11 @@ Assessment-quality auditing is being expanded to all existing stages. Existing c
 
 ## Deployment status / next-session resume point
 
-Do not repeatedly deploy while the Vercel Free-plan deployment-rate limit is active. When the limit resets, use the latest `main` commit and treat the new Vercel build log as the source of truth.
+The Stage 3 deployment was confirmed successful on commit `1a90523ddcdcbc502729ce1b1d6132911f608d40`. Stage 4 remediation is now committed to `main`; use the resulting Vercel deployment as the source of truth for build status.
 
 ## Remaining curriculum work
 
-- Complete the staged question-quality audit/remediation for Level 1 Stages 1–6.
+- Complete the staged question-quality audit/remediation for Level 1 Stages 1, 2, 5 and 6.
 - Complete final owner verification of Level 1 before launch readiness is claimed.
 - Extend the six-stage curriculum to Levels 2–9 with the same architecture and the same question-quality standard.
 - Inspect and integrate the external backend before describing Reasoning progress as permanently persisted.
