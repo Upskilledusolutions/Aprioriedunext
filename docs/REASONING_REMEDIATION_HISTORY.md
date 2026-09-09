@@ -4,7 +4,7 @@
 **Scope recorded here:** Level 1 Reasoning remediation and Level 2 build progress through the current work session  
 **Last updated:** 2026-09-09
 
-This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that must govern future deployments, and the current verification boundary.
+This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that must govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
 
 ## Architecture preserved throughout
 
@@ -62,13 +62,13 @@ This document is the chronological remediation record for completed and in-progr
 - Stage 4 activity question mappings were corrected so activities connect to their complete question sets: commit `0bcefb9b364b1bfcf198358bec79ad2446e9bbb0`.
 - Stage 4 question quality, difficulty progression and answer-position distribution were remediated: commit `34a71590b0b75fa2c22841ae3aa0c385f2b51540`.
 - Stage 4 remediation completion was previously recorded: commit `6a654430918f84aa814c017a3f9bdc6e1c2c6584`.
-- **Current boundary:** Stage 4 still requires final structural correction/verification because the current module configuration contains duplicate Extend activity references, and the latest Vercel status is blocked by the build-rate limit. Stage 4 is therefore not treated as fully verified in this record.
+- **Current boundary:** Stage 4 still requires final structural correction/verification. The current module configuration contains duplicate fifth Extend activity references: Quantitative repeats `Q-L1-S4-EXT-olympiad-reasoning`, while Verbal repeats `V-L1-S4-EXT-counterarguments`. The current Stage 4 activity file contains only four distinct Extend activities in each track, so the fifth module entries require proper resolution/removal/restoration rather than treating the count as complete.
 
 ## Build-integrity incident and permanent prevention rules — 2026-09-09
 
 Today’s remediation cycle exposed a process failure that must be treated as a project-level engineering rule rather than as isolated mistakes. More than half of today’s attempted changes/deployment attempts encountered build-blocking problems involving **syntax, import/path resolution, or insufficient prebuild validation** before a deployment could be successfully evaluated.
 
-Repeated failed deployment attempts also consumed a substantial portion of the available Vercel build-rate budget. The latest GitHub commit status reports a Vercel failure with a `build-rate-limit` target. Unnecessary deployment attempts therefore represent a material project risk as well as a development inefficiency.
+Repeated failed deployment attempts also consumed a substantial portion of the available Vercel build-rate budget. The latest GitHub commit status reports a Vercel failure with a `build-rate-limit` target. This is a platform/build-budget condition and must not be confused with source-code verification.
 
 The following safeguards are mandatory for all future Reasoning work:
 
@@ -89,6 +89,7 @@ The purpose of these rules is to reduce avoidable Vercel builds, protect the bui
 
 - Stage 5 retained the existing 20 activity groups and four-question structure: 10 Quantitative and 10 Verbal, split evenly between Explore and Extend.
 - The Stage 5 question bank was remediated while preserving the existing activity IDs and generated question IDs: commit `f85f844b103f83258a26eb997c84c8222bc26924`.
+- A separate Stage 5 question-bank build error was corrected: commit `1c5d5877eeea9d61d31fc8b8f2700750c87543a4`.
 - Each activity follows Core → Core → Stretch → Advanced progression.
 - Correct-answer positions were rotated deterministically so the bank does not systematically place the correct answer in the same option position.
 - Existing timing was retained: 55 seconds for Core questions and 65 seconds for Stretch/Advanced questions.
@@ -107,32 +108,49 @@ The purpose of these rules is to reduce avoidable Vercel builds, protect the bui
 - Stage 6 was committed directly to `main`: commit `3e49c5c4904d7f2a4b4c52cb451fdfb2f05aa5ba`.
 - The shared activity player was preserved and continues to provide the common execution, scoring, timeout, completion and navigation behavior.
 - **Build status:** Build work is complete.
-- **Verification status:** Pending verification by the project owner. Stage 6 must not be marked verified/complete until the owner confirms the deployed behavior.
+- **Verification status:** Pending verification by the project owner.
+- An earlier commit recorded Stage 6 as verified, but that historical record has been superseded. The current authoritative state is build-complete, owner verification pending. Stage 6 must not be marked owner-verified until the project owner explicitly confirms verification.
 
 ## Level 2 — current work completed to date
 
 Level 2 development has begun with Stage 1 and is being added without altering the Level 1 curriculum, shared account architecture or Foreign Languages product.
 
-### Level 2 Stage 1 validation/build fixes completed
+### Level 2 Stage 1 implementation sequence
+
+The Stage 1 build progressed through the following discrete implementation milestones:
+
+- Question bank added: `6bf53518aea6ea8630ed10988a319f9cf64a99c8`.
+- Activities added: `0eb546f70d98c06464d210294ac50de9f9d7e691`.
+- Modules added: `6b31af5dd85c9e98abc63684e65d0a8bd2057056`.
+- Activities connected to the shared Reasoning player: `127fee4dd36b6481cd75c180935fd4ff3de78a9a`.
+- Quantitative Stage 1 dashboard added: `79eded9dec4dc76592012ea907e62edf423a22c8`.
+- Quantitative Stage 1 module lessons added: `91afeedd8172dd9ac3dfe915d78781fdf2f46980`.
+- Verbal Stage 1 dashboard added: `8e451af1494ad7e5895eb64ef571e74a600cacd2`.
+- Verbal Stage 1 module lessons added: `82e98e073dc5c924c26f36b3099cddd9c7f47cb6`.
+- Quantitative dashboard Stage 1 entry added: `c776f4cf53bef31e33f11d818dc77ecc1f4c7455`.
+- Verbal dashboard Stage 1 entry added: `6ad8dd6a5566ff7d0cb8cc4f799a4c1e2110b733`.
+- Level 2 Stage 1 activity-to-module mappings corrected: `629f59be8432556fc7c00abde73270ad5f3ca923`.
+
+### Level 2 validation and import remediation
 
 - Level 2 Stage 1 files were added to the required prebuild validation set.
 - Level 2 Stage 1 question-bank syntax checking was added to the validator.
-- Existing project `@/` aliases are now recognized by validation when resolving imports.
-- The previous blanket deep-relative-import validation rule was removed because it produced false failures for valid repository paths.
-- Existing question-bank, duplicate-ID, malformed-question and answer-quality checks remain in the validation path.
-- The Verbal Level 2 Stage 1 module page import paths were corrected to use project aliases: commit `e8e4c1d9b9c2747f288487ca828425bb3457308b`.
-- The associated validator/prebuild remediation was committed as `f8dae4a1c4c0351669d8d419bf61950929db3a02`.
-- The latest Stage 4 mapping commit is `a0c549b91523862291e7ce4b09d23cef4741f0b9`.
+- Existing project `@/` aliases were added to validation import resolution.
+- The faulty blanket deep-relative-import validation rule was removed because it produced false failures for valid repository paths.
+- Existing question-bank, duplicate-ID, malformed-question and answer-quality checks were retained.
+- Project alias import fixes were applied to the Level 2 dashboards and module pages: `8b5994aea50365269eb328d2521f3caebb3a5d34`, `716c9bb88700828c4bc732c4ac807a1094790d45`, `99616929ed124141d9355f6cae08d01178c945d8`, and `e8e4c1d9b9c2747f288487ca828425bb3457308b`.
+- Associated prebuild/validator remediation was committed in `f8dae4a1c4c0351669d8d419bf61950929db3a02`.
+- Latest Level 1 Stage 4 mapping attempt is `a0c549b91523862291e7ce4b09d23cef4741f0b9`; it did not yet resolve the duplicate fifth Extend references.
 
-### Current Level 2 resume point
+### Level 2 current resume point
 
-**Tomorrow, resume from the Level 2 Stage 1 build with validation-first discipline.** Before any further deployment-triggering commit:
+**Tomorrow, resume from Level 2 Stage 1 with validation-first discipline.** Before any further deployment-triggering commit:
 
 1. run the complete prebuild validation against the exact Level 2 changes;
 2. verify all Level 2 imports/paths and route references against the repository structure;
 3. verify question-bank syntax, unique IDs, answer structure and activity mappings;
 4. verify that Vercel is evaluating the intended `main` commit before treating a deployment as a test;
-5. avoid speculative commits while the Vercel build-rate limit is active;
+5. avoid speculative commits while the build-rate limit is active;
 6. continue Level 2 Stage 1 implementation only after the above checks pass.
 
 **Stage 5 and Stage 6 are not to be recorded as owner-verified until the project owner has personally tested them. No Stage 5 or later documentation should be promoted to verified status without that explicit confirmation.**
