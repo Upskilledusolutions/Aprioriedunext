@@ -1,13 +1,13 @@
 export const REASONING_LEVELS = [
-  { id: "L1", level: 1, grade: "Grade 3", label: "Level 1 · Grade 3" },
-  { id: "L2", level: 2, grade: "Grade 4", label: "Level 2 · Grade 4" },
-  { id: "L3", level: 3, grade: "Grade 5", label: "Level 3 · Grade 5" },
-  { id: "L4", level: 4, grade: "Grade 6", label: "Level 4 · Grade 6" },
-  { id: "L5", level: 5, grade: "Grade 7", label: "Level 5 · Grade 7" },
-  { id: "L6", level: 6, grade: "Grade 8", label: "Level 6 · Grade 8" },
-  { id: "L7", level: 7, grade: "Grade 9", label: "Level 7 · Grade 9" },
-  { id: "L8", level: 8, grade: "Grade 10", label: "Level 8 · Grade 10" },
-  { id: "L9", level: 9, grade: "Grades 11–12", label: "Level 9 · Grades 11–12" },
+  { id: "L1", level: 1, label: "Level 1" },
+  { id: "L2", level: 2, label: "Level 2" },
+  { id: "L3", level: 3, label: "Level 3" },
+  { id: "L4", level: 4, label: "Level 4" },
+  { id: "L5", level: 5, label: "Level 5" },
+  { id: "L6", level: 6, label: "Level 6" },
+  { id: "L7", level: 7, label: "Level 7" },
+  { id: "L8", level: 8, label: "Level 8" },
+  { id: "L9", level: 9, label: "Level 9" },
 ];
 
 export const REASONING_STAGES = {
