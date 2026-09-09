@@ -19,20 +19,101 @@ import { getStage5QuestionsForActivity } from "../../../Data/Reasoning/questionB
 import { getStage6QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage6";
 import { completeReasoningActivity } from "../../../utils/reasoningProgress";
 
-const stageNumber=(stageId)=>Number(String(stageId||"").replace("S",""))||1;
+const stageNumber = (stageId) => Number(String(stageId || "").replace("S", "")) || 1;
 
-export default function ReasoningActivity(){
- const router=useRouter(); const {user,isAuthenticated}=useSelector((state)=>state.auth);
- const [currentIndex,setCurrentIndex]=useState(0); const [answers,setAnswers]=useState({}); const [submitted,setSubmitted]=useState({}); const [expired,setExpired]=useState({}); const [remaining,setRemaining]=useState(0); const [completed,setCompleted]=useState(false);
- const activity=useMemo(()=>{const id=router.query.activityId;return getActivityById(id)||getStage4ActivityById(id)||getStage5ActivityById(id)||getStage6ActivityById(id)},[router.query.activityId]);
- const questions=useMemo(()=>{if(!activity)return[];const stage=stageNumber(activity.stageId);if(stage===4)return getStage4QuestionsForActivity(activity.id);if(stage===5)return getStage5QuestionsForActivity(activity.id);if(stage===6)return getStage6QuestionsForActivity(activity.id);return [...activity.questionIds.map(getQuestionById).filter(Boolean),...getStage1ExtensionQuestionsForActivity(activity.id),...getStage2QuestionsForActivity(activity.id),...getStage3QuestionsForActivity(activity.id)].filter((q,i,a)=>a.findIndex(x=>x.id===q.id)===i)},[activity]);
- const moduleId=useMemo(()=>{if(!activity)return null;const stage=stageNumber(activity.stageId);const sources={1:STAGE1_MODULES,2:STAGE2_MODULES,3:STAGE3_MODULES};if(stage<=3)return(sources[stage]?.[activity.track]||[]).find(item=>item.activityIds?.includes(activity.id))?.id||activity.moduleId||null;return activity.moduleId||null},[activity]);
- const trackName=activity?.track==="quantitative"?"Quantitative":"Verbal"; const stageHref=activity?`/Reasoning/${trackName}/Dashboard/Stage${stageNumber(activity.stageId)}`:"/Reasoning"; const moduleHref=activity&&moduleId?`/Reasoning/${trackName}/Dashboard/Stage${stageNumber(activity.stageId)}/${moduleId}`:stageHref;
- const question=questions[currentIndex]; const isAnswered=question?Object.prototype.hasOwnProperty.call(submitted,question.id):false; const isExpired=question?Boolean(expired[question.id]):false; const selected=question?answers[question.id]||"":""; const timeLimit=question?(question.timePerQuestion??getDefaultTimeSeconds({levelId:question.levelId,difficulty:question.difficulty,questionType:question.questionType})):0;
- useEffect(()=>{if(router.isReady&&!isAuthenticated)router.replace({pathname:"/Auth",query:{redirect:router.asPath}})},[router.isReady,isAuthenticated,router]);
- useEffect(()=>{if(!question||isAnswered||isExpired)return;setRemaining(timeLimit);const timer=window.setInterval(()=>setRemaining(value=>{if(value<=1){window.clearInterval(timer);setExpired(current=>({...current,[question.id]:true}));if(currentIndex<questions.length-1)setCurrentIndex(index=>index+1);return 0}return value-1}),1000);return()=>window.clearInterval(timer)},[question?.id,timeLimit,isAnswered,isExpired,currentIndex,questions.length]);
- if(!router.isReady||!isAuthenticated||!user?.userId)return null; if(!activity||!questions.length)return <main style={{padding:40}}><h1>Activity content is not available.</h1><p>This activity is not correctly connected to its question bank.</p><Link href={stageHref}>Back to Stage</Link></main>;
- const answeredCount=Object.keys(submitted).length; const handledCount=new Set([...Object.keys(submitted),...Object.keys(expired)]).size; const score=questions.length?Math.round((questions.reduce((n,q)=>n+(submitted[q.id]===q.answer?1:0),0)/questions.length)*100):0;
- function choose(option){if(!isAnswered&&!isExpired)setAnswers(a=>({...a,[question.id]:option}))}; function submit(){if(selected&&!isAnswered&&!isExpired)setSubmitted(a=>({...a,[question.id]:selected}))}; function finish(finalSubmitted=submitted){const handled=new Set([...Object.keys(finalSubmitted),...Object.keys(expired)]);if(handled.size<questions.length||completed)return;const finalScore=Math.round((questions.reduce((n,q)=>n+(finalSubmitted[q.id]===q.answer?1:0),0)/questions.length)*100);completeReasoningActivity(user.userId,activity.track,activity.id,finalScore);setCompleted(true)}
- const stage=stageNumber(activity.stageId);
- return <><Head><title>{activity.title} | Reasoning</title></Head><main style={{minHeight:"80vh",padding:"48px 20px 80px",background:"var(--surface)"}}><div style={{maxWidth:850,margin:"0 auto"}}><Link href={moduleHref} style={{color:"var(--muted)",textDecoration:"none",fontWeight:600}}>← Back to {moduleId?"Module":`Stage ${stage}`}</Link><div style={{marginTop:32}}><div style={{color:"var(--blue)",fontWeight:800,textTransform:"uppercase",letterSpacing:".08em",fontSize:13}}>{activity.half} · Level {activity.levelId?.replace("L","")} · Stage {stage}</div><h1 style={{fontSize:"clamp(34px,5vw,52px)",margin:"12px 0"}}>{activity.title}</h1><p style={{color:"var(--muted)",lineHeight:1.7,fontSize:18}}>{activity.description}</p></div>{!completed?<section style={{marginTop:30,padding:28,borderRadius:18,background:"var(--card)",border:"1px solid var(--border)"}}><div style={{display:"flex",justifyContent:"space-between",gap:16,flexWrap:"wrap",color:"var(--muted)",fontSize:14,fontWeight:700}}><span>Question {currentIndex+1} of {questions.length}</span><span>{answeredCount} answered · {questions.length-handledCount} remaining</span><span>Score: {score}%</span></div><div style={{height:8,background:"var(--border)",borderRadius:99,marginTop:14,overflow:"hidden"}}><div style={{width:`${Math.round((handledCount/questions.length)*100)}%`,height:"100%",background:"var(--blue)"}}/></div><div style={{marginTop:18,padding:"10px 14px",borderRadius:10,background:"rgba(0,59,147,.07)",fontWeight:800}}>{isExpired?`Time expired. The answer is ${question.answer}.`:isAnswered?"Answer recorded":`Time left: ${remaining}s`}</div><h2 style={{fontSize:24,lineHeight:1.4,marginTop:24}}>{question.question}</h2><div style={{display:"grid",gap:12,marginTop:22}}>{question.options.map(option=><button key={option} type="button" onClick={()=>choose(option)} disabled={isAnswered||isExpired} style={{textAlign:"left",padding:"15px 18px",borderRadius:12,border:`2px solid ${isAnswered&&option===question.answer?"var(--blue)":selected===option?"var(--blue)":"var(--border)"}`,background:selected===option?"rgba(0,59,147,.07)":"var(--card)",color:"var(--text)",fontSize:16}}>{option}</button>)}</div>{!isAnswered&&!isExpired&&<button type="button" disabled={!selected} onClick={submit} style={{marginTop:24,padding:"13px 20px",border:0,borderRadius:10,background:"var(--blue)",color:"#fff",fontWeight:800,opacity:selected?1:.55}}>Check answer</button>}{(isAnswered||isExpired)&&<div style={{marginTop:22,padding:18,borderRadius:12,background:"rgba(0,59,147,.07)"}}><strong>{isExpired?`Time expired. The answer is ${question.answer}.`:selected===question.answer?"Correct.":`Not quite. The answer is ${question.answer}.`}</strong><p style={{marginBottom:0,lineHeight:1.6}}>{question.explanation}</p></div>}<div style={{display:"flex",justifyContent:"space-between",gap:12,marginTop:28}}><button type="button" onClick={()=>currentIndex>0&&setCurrentIndex(i=>i-1)} disabled={currentIndex===0} style={{padding:"12px 18px",borderRadius:10,border:"1px solid var(--border)",background:"var(--card)",color:"var(--text)"}}>Previous</button>{currentIndex<questions.length-1?<button type="button" onClick={()=>setCurrentIndex(i=>i+1)} disabled={!isAnswered&&!isExpired} style={{padding:"12px 18px",border:0,borderRadius:10,background:"var(--blue)",color:"#fff",fontWeight:800,opacity:(!isAnswered&&!isExpired)?.5:1}}>Next</button>:<button type="button" onClick={()=>finish()} disabled={handledCount<questions.length} style={{padding:"12px 18px",border:0,borderRadius:10,background:"var(--blue)",color:"#fff",fontWeight:800,opacity:handledCount<questions.length?.5:1}}>Complete activity</button>}</div></section>:<section style={{marginTop:30,padding:32,borderRadius:18,background:"var(--card)",border:"1px solid var(--border)",textAlign:"center"}}><div style={{color:"var(--blue)",fontWeight:800,textTransform:"uppercase",letterSpacing:".08em",fontSize:13}}>Activity complete</div><h2 style={{fontSize:34,margin:"10px 0"}}>Score: {score}%</h2><p style={{color:"var(--muted)",lineHeight:1.6}}>Your {trackName} activity has been recorded in Reasoning progress.</p><div style={{display:"flex",justifyContent:"center",gap:12,flexWrap:"wrap",marginTop:18}}><Link href={moduleHref} style={{padding:"12px 18px",borderRadius:10,background:"var(--blue)",color:"#fff",textDecoration:"none",fontWeight:800}}>Back to Module</Link><Link href={stageHref} style={{padding:"12px 18px",borderRadius:10,border:"1px solid var(--border)",color:"var(--text)",textDecoration:"none",fontWeight:800}}>Back to Stage</Link></div></section>}</div></main></>}
+export default function ReasoningActivity() {
+  const router = useRouter();
+  const { user, isAuthenticated } = useSelector((state) => state.auth);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [answers, setAnswers] = useState({});
+  const [submitted, setSubmitted] = useState({});
+  const [expired, setExpired] = useState({});
+  const [remaining, setRemaining] = useState(0);
+  const [completed, setCompleted] = useState(false);
+
+  const activity = useMemo(() => {
+    const id = router.query.activityId;
+    return getActivityById(id) || getStage4ActivityById(id) || getStage5ActivityById(id) || getStage6ActivityById(id);
+  }, [router.query.activityId]);
+
+  const questions = useMemo(() => {
+    if (!activity) return [];
+    const stage = stageNumber(activity.stageId);
+    if (stage === 4) return getStage4QuestionsForActivity(activity.id);
+    if (stage === 5) return getStage5QuestionsForActivity(activity.id);
+    if (stage === 6) return getStage6QuestionsForActivity(activity.id);
+    return [
+      ...activity.questionIds.map(getQuestionById).filter(Boolean),
+      ...getStage1ExtensionQuestionsForActivity(activity.id),
+      ...getStage2QuestionsForActivity(activity.id),
+      ...getStage3QuestionsForActivity(activity.id),
+    ].filter((question, index, all) => all.findIndex((item) => item.id === question.id) === index);
+  }, [activity]);
+
+  const moduleId = useMemo(() => {
+    if (!activity) return null;
+    const stage = stageNumber(activity.stageId);
+    const sources = { 1: STAGE1_MODULES, 2: STAGE2_MODULES, 3: STAGE3_MODULES };
+    if (stage <= 3) {
+      return (sources[stage]?.[activity.track] || []).find((item) => item.activityIds?.includes(activity.id))?.id || activity.moduleId || null;
+    }
+    return activity.moduleId || null;
+  }, [activity]);
+
+  const trackName = activity?.track === "quantitative" ? "Quantitative" : "Verbal";
+  const stageHref = activity ? `/Reasoning/${trackName}/Dashboard/Stage${stageNumber(activity.stageId)}` : "/Reasoning";
+  const moduleHref = activity && moduleId ? `/Reasoning/${trackName}/Dashboard/Stage${stageNumber(activity.stageId)}/${moduleId}` : stageHref;
+  const question = questions[currentIndex];
+  const isAnswered = question ? Object.prototype.hasOwnProperty.call(submitted, question.id) : false;
+  const isExpired = question ? Boolean(expired[question.id]) : false;
+  const selected = question ? answers[question.id] || "" : "";
+  const timeLimit = question ? question.timePerQuestion ?? getDefaultTimeSeconds({ levelId: question.levelId, difficulty: question.difficulty, questionType: question.questionType }) : 0;
+
+  useEffect(() => {
+    if (router.isReady && !isAuthenticated) router.replace({ pathname: "/Auth", query: { redirect: router.asPath } });
+  }, [router.isReady, isAuthenticated, router]);
+
+  useEffect(() => {
+    if (!question || isAnswered || isExpired) return;
+    setRemaining(timeLimit);
+    const timer = window.setInterval(() => {
+      setRemaining((value) => {
+        if (value <= 1) {
+          window.clearInterval(timer);
+          setExpired((current) => ({ ...current, [question.id]: true }));
+          if (currentIndex < questions.length - 1) setCurrentIndex((index) => index + 1);
+          return 0;
+        }
+        return value - 1;
+      });
+    }, 1000);
+    return () => window.clearInterval(timer);
+  }, [question?.id, timeLimit, isAnswered, isExpired, currentIndex, questions.length]);
+
+  if (!router.isReady || !isAuthenticated || !user?.userId) return null;
+  if (!activity || !questions.length) return <main style={{ padding: 40 }}><h1>Activity content is not available.</h1><p>This activity is not correctly connected to its question bank.</p><Link href={stageHref}>Back to Stage</Link></main>;
+
+  const answeredCount = Object.keys(submitted).length;
+  const handledCount = new Set([...Object.keys(submitted), ...Object.keys(expired)]).size;
+  const score = questions.length ? Math.round((questions.reduce((count, item) => count + (submitted[item.id] === item.answer ? 1 : 0), 0) / questions.length) * 100) : 0;
+
+  function choose(option) {
+    if (!isAnswered && !isExpired) setAnswers((current) => ({ ...current, [question.id]: option }));
+  }
+
+  function submit() {
+    if (selected && !isAnswered && !isExpired) setSubmitted((current) => ({ ...current, [question.id]: selected }));
+  }
+
+  function finish(finalSubmitted = submitted) {
+    const handled = new Set([...Object.keys(finalSubmitted), ...Object.keys(expired)]);
+    if (handled.size < questions.length || completed) return;
+    const finalScore = Math.round((questions.reduce((count, item) => count + (finalSubmitted[item.id] === item.answer ? 1 : 0), 0) / questions.length) * 100);
+    completeReasoningActivity(user.userId, activity.track, activity.id, finalScore);
+    setCompleted(true);
+  }
+
+  const stage = stageNumber(activity.stageId);
+
+  return <><Head><title>{activity.title} | Reasoning</title></Head><main style={{ minHeight: "80vh", padding: "48px 20px 80px", background: "var(--surface)" }}><div style={{ maxWidth: 850, margin: "0 auto" }}><Link href={moduleHref} style={{ color: "var(--muted)", textDecoration: "none", fontWeight: 600 }}>← Back to {moduleId ? "Module" : `Stage ${stage}`}</Link><div style={{ marginTop: 32 }}><div style={{ color: "var(--blue)", fontWeight: 800, textTransform: "uppercase", letterSpacing: ".08em", fontSize: 13 }}>{activity.half} · Level {activity.levelId?.replace("L", "")} · Stage {stage}</div><h1 style={{ fontSize: "clamp(34px,5vw,52px)", margin: "12px 0" }}>{activity.title}</h1><p style={{ color: "var(--muted)", lineHeight: 1.7, fontSize: 18 }}>{activity.description}</p></div>{!completed?<section style={{ marginTop: 30, padding: 28, borderRadius: 18, background: "var(--card)", border: "1px solid var(--border)" }}><div style={{ display: "flex", justifyContent: "space-between", gap: 16, flexWrap: "wrap", color: "var(--muted)", fontSize: 14, fontWeight: 700 }}><span>Question {currentIndex+1} of {questions.length}</span><span>{answeredCount} answered · {questions.length-handledCount} remaining</span><span>Score: {score}%</span></div><div style={{ height: 8, background: "var(--border)", borderRadius: 99, marginTop: 14, overflow: "hidden" }}><div style={{ width: `${Math.round((handledCount/questions.length)*100)}%`, height: "100%", background: "var(--blue)" }}/></div><div style={{ marginTop: 18, padding: "10px 14px", borderRadius: 10, background: "rgba(0,59,147,.07)", fontWeight: 800 }}>{isExpired?`Time expired. The answer is ${question.answer}.`:isAnswered?"Answer recorded":`Time left: ${remaining}s`}</div><h2 style={{ fontSize: 24, lineHeight: 1.4, marginTop: 24 }}>{question.question}</h2><div style={{ display: "grid", gap: 12, marginTop: 22 }}>{question.options.map((option)=><button key={option} type="button" onClick={()=>choose(option)} disabled={isAnswered||isExpired} style={{ textAlign:"left", padding:"15px 18px", borderRadius:12, border:`2px solid ${isAnswered&&option===question.answer?"var(--blue)":selected===option?"var(--blue)":"var(--border)"}`, background:selected===option?"rgba(0,59,147,.07)":"var(--card)", color:"var(--text)", fontSize:16 }}>{option}</button>)}</div>{!isAnswered&&!isExpired&&<button type="button" disabled={!selected} onClick={submit} style={{ marginTop:24, padding:"13px 20px", border:0, borderRadius:10, background:"var(--blue)", color:"#fff", fontWeight:800, opacity:selected?1:.55 }}>Check answer</button>}{(isAnswered||isExpired)&&<div style={{ marginTop:22, padding:18, borderRadius:12, background:"rgba(0,59,147,.07)" }}><strong>{isExpired?`Time expired. The answer is ${question.answer}.`:selected===question.answer?"Correct.":`Not quite. The answer is ${question.answer}.`}</strong><p style={{ marginBottom:0, lineHeight:1.6 }}>{question.explanation}</p></div>}<div style={{ display:"flex", justifyContent:"space-between", gap:12, marginTop:28 }}><button type="button" onClick={()=>currentIndex>0&&setCurrentIndex(i=>i-1)} disabled={currentIndex===0} style={{ padding:"12px 18px", borderRadius:10, border:"1px solid var(--border)", background:"var(--card)", color:"var(--text)" }}>Previous</button>{currentIndex<questions.length-1?<button type="button" onClick={()=>setCurrentIndex(i=>i+1)} disabled={!isAnswered&&!isExpired} style={{ padding:"12px 18px", border:0, borderRadius:10, background:"var(--blue)", color:"#fff", fontWeight:800, opacity:(!isAnswered&&!isExpired)?.5:1 }}>Next</button>:<button type="button" onClick={()=>finish()} disabled={handledCount<questions.length} style={{ padding:"12px 18px", border:0, borderRadius:10, background:"var(--blue)", color:"#fff", fontWeight:800, opacity:handledCount < questions.length ? 0.5 : 1 }}>Complete activity</button>}</div></section>:<section style={{ marginTop:30, padding:32, borderRadius:18, background:"var(--card)", border:"1px solid var(--border)", textAlign:"center" }}><div style={{ color:"var(--blue)", fontWeight:800, textTransform:"uppercase", letterSpacing:".08em", fontSize:13 }}>Activity complete</div><h2 style={{ fontSize:34, margin:"10px 0" }}>Score: {score}%</h2><p style={{ color:"var(--muted)", lineHeight:1.6 }}>Your {trackName} activity has been recorded in Reasoning progress.</p><div style={{ display:"flex", justifyContent:"center", gap:12, flexWrap:"wrap", marginTop:18 }}><Link href={moduleHref} style={{ padding:"12px 18px", borderRadius:10, background:"var(--blue)", color:"#fff", textDecoration:"none", fontWeight:800 }}>Back to Module</Link><Link href={stageHref} style={{ padding:"12px 18px", borderRadius:10, border:"1px solid var(--border)", color:"var(--text)", textDecoration:"none", fontWeight:800 }}>Back to Stage</Link></div></section>}</div></main></>;
+}
