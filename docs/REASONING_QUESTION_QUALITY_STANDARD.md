@@ -88,14 +88,15 @@ Before a stage or level is considered complete, verify:
 
 1. the question bank is present and non-empty;
 2. question/activity IDs map to real activities;
-3. Quantitative and Verbal content remain independent;
-4. Explore and Extend coverage is present where required;
-5. question counts match the intended activity structure;
-6. syntax and imports are valid;
-7. question IDs are unique;
-8. answer choices and correct answers are structurally valid;
-9. answer-length, capitalization and answer-position patterns have been audited;
-10. representative questions have been reviewed for substantive quality.
+3. module/activity mappings are distinct and intentional; duplicate references must be explicitly approved rather than accepted because the activity count is correct;
+4. Quantitative and Verbal content remain independent;
+5. Explore and Extend coverage is present where required;
+6. question counts match the intended activity structure;
+7. syntax and imports are valid;
+8. question IDs are unique;
+9. answer choices and correct answers are structurally valid;
+10. answer-length, capitalization and answer-position patterns have been audited;
+11. representative questions have been reviewed for substantive quality.
 
 ## 10. Validation strategy
 
@@ -110,7 +111,7 @@ At minimum, the affected change set must be checked for:
 - route/module references and duplicate route hazards;
 - question-bank syntax and structural validity;
 - duplicate question IDs;
-- activity-to-question and module-to-activity mappings;
+- activity-to-question and module-to-activity mappings, including duplicate references where distinct activities are required;
 - required stage/level structural integrity;
 - malformed questions and answer structure;
 - applicable answer-quality checks.
