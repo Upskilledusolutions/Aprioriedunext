@@ -1,17 +1,17 @@
 # Reasoning Remediation History
 
 **Project:** Apriori Edu Next / Upskilleduonline  
-**Scope recorded here:** Level 1 Reasoning remediation through Stage 4 only  
+**Scope recorded here:** Level 1 Reasoning remediation through Stage 6  
 **Last updated:** 2026-09-09
 
-This document is the chronological remediation record for the completed Level 1 work through Stage 4. It records the navigation/runtime fixes that preceded the question-quality work, so the relationship between the fixes and the current build is explicit.
+This document is the chronological remediation record for completed Level 1 Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, so the relationship between the fixes and the current build is explicit.
 
 ## Architecture preserved throughout
 
 - One shared account/authentication model continues to serve Reasoning and Foreign Languages.
 - Quantitative and Verbal remain independent Reasoning tracks.
 - The six-stage curriculum and 50% Explore / 50% Extend structure are preserved.
-- Reasoning uses its dedicated question banks and stable question IDs.
+- Reasoning uses dedicated question banks and stable question IDs.
 - The shared activity player remains the common execution layer for timing, scoring, feedback, completion, navigation and progress.
 - Reasoning progress remains separate from Foreign Languages progress.
 - No Foreign Languages architecture or content was changed as part of this remediation sequence.
@@ -48,7 +48,7 @@ This document is the chronological remediation record for the completed Level 1 
 ## Stage 3 — Mathematical Thinking / Analytical & Scholarly Writing
 
 - The Stage 3 question bank was restored and substantively populated for both tracks: commit `1a90523ddcdcbc502729ce1b1d6132911f608d40`.
-- Stage 3 remediation produced the working bank used by the current build while preserving stable IDs and the existing activity/player architecture.
+- Stage 3 remediation preserved stable IDs and the existing activity/player architecture while balancing answer positions and improving contextual distractors.
 
 ## Stage 4 — Math Olympiad / Essay Competitions
 
@@ -63,13 +63,31 @@ This document is the chronological remediation record for the completed Level 1 
 - Stage 4 question quality, difficulty progression and answer-position distribution were remediated: commit `34a71590b0b75fa2c22841ae3aa0c385f2b51540`.
 - Stage 4 remediation completion was recorded: commit `6a654430918f84aa814c017a3f9bdc6e1c2c6584`.
 
-## Current recorded endpoint
+## Stage 5 — Proof & Advanced Mathematics / Research Skills
 
-Stage 4 is the last stage recorded in this history. Its deployment work is complete in the repository, and the project owner has confirmed that the relevant Vercel deployments are showing **Ready**.
+- Stage 5 retained the existing 20 activity groups and four-question structure: 10 Quantitative and 10 Verbal, split evenly between Explore and Extend.
+- The Stage 5 question bank was remediated while preserving the existing activity IDs and generated question IDs: commit `f85f844b103f83258a26eb997c84c8222bc26924`.
+- Each activity follows Core → Core → Stretch → Advanced progression.
+- Correct-answer positions were rotated deterministically so the bank does not systematically place the correct answer in the same option position.
+- Existing timing was retained: 55 seconds for Core questions and 65 seconds for Stretch/Advanced questions.
+- The shared player, timing, scoring, timeout and completion architecture was preserved.
 
-**Stages after Stage 4 are intentionally not documented in this history yet.** Their remediation work will be recorded only after project-owner verification and explicit instruction to record it.
+## Stage 6 — Mathematical Research / Research Writing & Publication
 
-## Acceptance standard used through Stage 4
+- Stage 6 retains 20 activities: 10 Quantitative and 10 Verbal, with 50% Explore and 50% Extend.
+- The Stage 6 question bank contains four questions per activity, giving 80 questions across the stage.
+- Stage 6 content covers mathematical inquiry, conjecture, modelling, proof, independent investigation, research design, literature search and synthesis, scholarly analysis, research writing and publication readiness.
+- Correct-answer positions were rotated deterministically across the four-question activities to prevent systematic answer-position bias.
+- Each activity follows Core → Core → Stretch → Advanced progression.
+- Timing is 60 seconds for Core questions and 75 seconds for Stretch/Advanced questions.
+- Stage 6 was committed directly to `main`: commit `3e49c5c4904d7f2a4b4c52cb451fdfb2f05aa5ba`.
+- The shared activity player was preserved and continues to provide the common execution, scoring, timeout, completion and navigation behavior.
+
+## Level 1 completion status
+
+Level 1 Reasoning remediation is now recorded through **Stage 6**, completing the six-stage Level 1 remediation sequence. Stage 5 was confirmed Ready on Vercel by the project owner before the Level 2 build began. Stage 6 deployment status is intentionally not asserted here unless separately confirmed.
+
+## Acceptance standard
 
 A stage is not treated as remediated merely because the number of question records is correct. The content must also satisfy:
 
@@ -80,3 +98,7 @@ A stage is not treated as remediated merely because the number of question recor
 - plausible, reasoning-based distractors;
 - stable question IDs and correct activity mappings;
 - preserved navigation, timing, scoring, completion and progress architecture.
+
+## Next development scope
+
+Level 2 development begins with Stage 1. Level 2 is being added without altering the Level 1 curriculum, shared account architecture or Foreign Languages product.
