@@ -85,7 +85,7 @@ const questions = [
   },
   {
     id: "Q-L1-V-S1-EXP-ARG-002", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "evidence-and-claims", topicId: "claims", activityId: "V-L1-S1-EXP-evidence-and-claims", questionType: QUESTION_TYPES.multipleChoice, concept: "Identifying evidence", difficulty: 1, timePerQuestion: 60,
-    question: "Which detail would best support the claim that a character is helpful?", options: ["She has a red hat.", "She carries books for a younger student.", "She likes blue shoes.", "She sits near a window."], answer: "She carries books for a younger student.", explanation: "The detail describes an action that directly shows helpful behaviour.",
+    question: "Which detail would best support the claim that a character is helpful?", options: ["She has a red hat.", "She helps the younger student.", "She likes blue shoes.", "She sits near a classroom window."], answer: "She helps the younger student.", explanation: "The detail describes an action that directly shows helpful behaviour.",
   },
   {
     id: "Q-L1-V-S1-EXP-ARG-003", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "evidence-and-claims", topicId: "claims", activityId: "V-L1-S1-EXP-evidence-and-claims", questionType: QUESTION_TYPES.multipleChoice, concept: "Relevant evidence", difficulty: 2, timePerQuestion: 75,
@@ -101,11 +101,11 @@ const questions = [
   },
   {
     id: "Q-L1-V-S1-EXP-MID-003", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "main-idea", topicId: "main-idea-and-details", activityId: "V-L1-S1-EXP-main-idea", questionType: QUESTION_TYPES.multipleChoice, concept: "Main idea", difficulty: 2, timePerQuestion: 75,
-    question: "Read: 'Reusing a bottle reduces the number of new bottles we need. It can also reduce waste.' What is the main idea?", options: ["Bottles can be blue.", "Reusing bottles can reduce waste and the need for new bottles.", "New bottles are expensive.", "Everyone uses bottles."], answer: "Reusing bottles can reduce waste and the need for new bottles.", explanation: "Both sentences describe benefits of reusing bottles.",
+    question: "Read: 'Reusing a bottle reduces the number of new bottles we need. It can also reduce waste.' What is the main idea?", options: ["Bottles can be blue.", "Reusing bottles can reduce waste.", "New bottles are expensive.", "Everyone uses bottles."], answer: "Reusing bottles can reduce waste.", explanation: "Both sentences describe a benefit of reusing bottles, especially reducing waste and the need for new bottles.",
   },
   {
     id: "Q-L1-V-S1-EXP-SEQ-001", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "sequencing", topicId: "sequence-and-structure", activityId: "V-L1-S1-EXP-sequencing", questionType: QUESTION_TYPES.multipleChoice, concept: "Sequence", difficulty: 1, timePerQuestion: 60,
-    question: "Which should happen first when planting a seed?", options: ["Water the soil", "Watch the plant grow", "Pick the fruit", "Measure the tall plant"], answer: "Water the soil", explanation: "Watering the planted seed is an early step before the plant can grow.",
+    question: "Which should happen first when planting a seed?", options: ["Water the soil.", "Watch the plant grow.", "Pick the fruit.", "Measure the tall plant."], answer: "Water the soil.", explanation: "Watering the planted seed is an early step before the plant can grow.",
   },
   {
     id: "Q-L1-V-S1-EXP-SEQ-002", track: "verbal", levelId: "L1", half: "explore", stageId: "S1", moduleId: "sequencing", topicId: "sequence-and-structure", activityId: "V-L1-S1-EXP-sequencing", questionType: QUESTION_TYPES.multipleChoice, concept: "Sequence clues", difficulty: 1, timePerQuestion: 60,
