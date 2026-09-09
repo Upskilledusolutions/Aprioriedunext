@@ -12,7 +12,7 @@ import { STAGE6_MODULES } from "../../../Data/Reasoning/stage6Modules";
 import { getStage4ActivityById } from "../../../Data/Reasoning/stage4Activities";
 import { getStage5ActivityById } from "../../../Data/Reasoning/stage5Activities";
 import { getStage6ActivityById } from "../../../Data/Reasoning/stage6Activities";
-import { getQuestionById, getDefaultTimeSeconds } from "../../../Data/Reasoning/questionBank";
+import { getQuestionBank, getDefaultTimeSeconds } from "../../../Data/Reasoning/questionBank";
 import { getStage1ExtensionQuestionsForActivity } from "../../../Data/Reasoning/questionBankStage1Extensions";
 import { getStage2QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage2";
 import { getStage3QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage3";
@@ -23,6 +23,7 @@ import { completeReasoningActivity } from "../../../utils/reasoningProgress";
 
 const stageNumber=(stageId)=>Number(String(stageId||"").replace("S",""))||1;
 const findModuleId=(modules,activityId)=>Object.values(modules||{}).flat().find(m=>m.activityIds?.includes(activityId))?.id||null;
+const uniqueQuestions=(items)=>items.filter((q,i,a)=>q?.id&&a.findIndex(x=>x?.id===q.id)===i);
 
 export default function ReasoningActivity(){
  const router=useRouter();
@@ -30,7 +31,15 @@ export default function ReasoningActivity(){
  const [currentIndex,setCurrentIndex]=useState(0),[answers,setAnswers]=useState({}),[submitted,setSubmitted]=useState({}),[expired,setExpired]=useState({}),[remaining,setRemaining]=useState(0),[completed,setCompleted]=useState(false);
  const activity=useMemo(()=>{const id=router.query.activityId;return getActivityById(id)||getStage4ActivityById(id)||getStage5ActivityById(id)||getStage6ActivityById(id)},[router.query.activityId]);
  const stage=stageNumber(activity?.stageId);
- const questions=useMemo(()=>{if(!activity)return[];if(stage===4)return getStage4QuestionsForActivity(activity.id);if(stage===5)return getStage5QuestionsForActivity(activity.id);if(stage===6)return getStage6QuestionsForActivity(activity.id);return [...(activity.questionIds||[]).map(getQuestionById).filter(Boolean),...getStage1ExtensionQuestionsForActivity(activity.id),...getStage2QuestionsForActivity(activity.id),...getStage3QuestionsForActivity(activity.id)].filter((q,i,a)=>a.findIndex(x=>x.id===q.id)===i)},[activity,stage]);
+ const questions=useMemo(()=>{
+  if(!activity)return[];
+  if(stage===4)return uniqueQuestions(getStage4QuestionsForActivity(activity.id));
+  if(stage===5)return uniqueQuestions(getStage5QuestionsForActivity(activity.id));
+  if(stage===6)return uniqueQuestions(getStage6QuestionsForActivity(activity.id));
+  const bankQuestions=stage===1?getQuestionBank({activityId:activity.id}):stage===2?getStage2QuestionsForActivity(activity.id):getStage3QuestionsForActivity(activity.id);
+  const extensionQuestions=stage===1?getStage1ExtensionQuestionsForActivity(activity.id):[];
+  return uniqueQuestions([...bankQuestions,...extensionQuestions]);
+ },[activity,stage]);
  const moduleId=useMemo(()=>{if(!activity)return null;if(activity.moduleId)return activity.moduleId;if(stage===1)return findModuleId(STAGE1_MODULES,activity.id);if(stage===2)return findModuleId(STAGE2_MODULES,activity.id);if(stage===3)return findModuleId(STAGE3_MODULES,activity.id);if(stage===5)return findModuleId(STAGE5_MODULES,activity.id);if(stage===6)return findModuleId(STAGE6_MODULES,activity.id);return null},[activity,stage]);
  const trackName=activity?.track==="quantitative"?"Quantitative":"Verbal";
  const stageHref=activity?`/Reasoning/${trackName}/Dashboard/Stage${stage}`:"/Reasoning";
@@ -41,9 +50,11 @@ export default function ReasoningActivity(){
  const timeLimit=question?(question.timePerQuestion??getDefaultTimeSeconds({levelId:question.levelId,difficulty:question.difficulty,questionType:question.questionType})):0;
  const handledCount=new Set([...Object.keys(submitted),...Object.keys(expired)]).size;
  useEffect(()=>{if(router.isReady&&!isAuthenticated)router.replace({pathname:"/Auth",query:{redirect:router.asPath}})},[router.isReady,isAuthenticated,router]);
+ useEffect(()=>{if(currentIndex>=questions.length&&questions.length>0)setCurrentIndex(questions.length-1)},[currentIndex,questions.length]);
  useEffect(()=>{if(!question||isAnswered||isExpired||completed)return;setRemaining(timeLimit);const timer=window.setInterval(()=>setRemaining(value=>{if(value<=1){window.clearInterval(timer);setExpired(current=>{const next={...current,[question.id]:true};if(currentIndex===questions.length-1&&!completed){const finalScore=Math.round((questions.reduce((n,q)=>n+(submitted[q.id]===q.answer?1:0),0)/questions.length)*100);completeReasoningActivity(user.userId,activity.track,activity.id,finalScore);setCompleted(true)}return next});if(currentIndex<questions.length-1)setCurrentIndex(index=>index+1);return 0}return value-1}),1000);return()=>window.clearInterval(timer)},[question?.id,timeLimit,isAnswered,isExpired,currentIndex,questions.length,completed,user?.userId,activity?.id,activity?.track,submitted]);
  if(!router.isReady||!isAuthenticated||!user?.userId)return null;
- if(!activity||!questions.length)return <main style={{padding:40}}><h1>Activity content is not available.</h1><p>This activity is not correctly connected to its question bank.</p><Link href={stageHref}>Back to Stage</Link></main>;
+ if(!activity)return <main style={{padding:40}}><h1>Activity not found.</h1><p>This activity link is not valid.</p><Link href="/Reasoning">Back to Reasoning</Link></main>;
+ if(!questions.length)return <main style={{padding:40}}><h1>Activity content is not available.</h1><p>This activity is not correctly connected to its question bank.</p><Link href={stageHref}>Back to Stage</Link></main>;
  const answeredCount=Object.keys(submitted).length;
  const score=questions.length?Math.round((questions.reduce((n,q)=>n+(submitted[q.id]===q.answer?1:0),0)/questions.length)*100):0;
  function choose(option){if(!isAnswered&&!isExpired)setAnswers(a=>({...a,[question.id]:option}))}
