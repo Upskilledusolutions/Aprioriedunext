@@ -4,7 +4,7 @@ Last updated: 2026-09-09
 
 ## Current status
 
-Reasoning has progressed into a working-learning build for Level 1. The existing single-account authentication model is shared with Foreign Languages, while Reasoning progress is separately namespaced by track.
+Reasoning has progressed into a working-learning build for Level 1, with Level 2 Stage 1 development now underway. The existing single-account authentication model is shared with Foreign Languages, while Reasoning progress is separately namespaced by track.
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are not displayed to learners.
 
@@ -37,62 +37,63 @@ Implemented with interactive questions and module/activity navigation. Question 
 **Question bank is present and populated.** The current `src/Data/Reasoning/questionBankStage3.js` contains substantive Quantitative and Verbal questions; the earlier documentation stating that this file was empty is stale and has been corrected. Stage 3 still requires the same systematic assessment-quality audit as the other stages before final launch verification.
 
 ### Stage 4 — Math Olympiad / Essay Competitions
-**Stage 4 question remediation completed in this build.** The question bank contains 80 questions: 40 Quantitative and 40 Verbal across 20 activities, with 10 Explore and 10 Extend activities. Every activity now maps all four questions. Four-question activities follow Core → Core → Stretch → Advanced progression, stable IDs are retained, and answer positions are balanced across the bank. The content was strengthened to use more contextual, reasoning-based distractors and to reduce structural assessment clues. Existing Stage 4 dashboards, module pages, activity routing and shared player architecture are preserved.
+Stage 4 question remediation and navigation work have been implemented. However, the current module configuration still requires correction of duplicate Extend activity references, so Stage 4 is not treated as fully verified. The latest Vercel status also reports a build-rate-limit failure, which must not be confused with source-code verification.
 
 ### Stage 5 — Proof & Advanced Mathematics / Research Skills
-Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. The substantive question-quality remediation remains part of the staged audit. Known player robustness follow-ups remain: reliable final-answer scoring and correct completion when the final question times out.
+**Build complete; owner verification pending.** Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. Do not record Stage 5 as owner-verified until the project owner has personally verified the deployed behavior.
 
 ### Stage 6 — Mathematical Research / Research Writing & Publication
-Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. The substantive question-quality remediation remains part of the staged audit. Known player robustness follow-ups remain: reliable final-answer scoring and correct completion when the final question times out.
+**Build complete; owner verification pending.** Curriculum, dashboards, module pages, activities and question bank are implemented with Explore and Extend structure. Do not record Stage 6 as owner-verified until the project owner has personally verified the deployed behavior.
 
-## Reasoning Question Quality & Anti-Cheat Standard
+## Level 2 current build state
 
-The permanent standard is recorded in `docs/REASONING_QUESTION_QUALITY_STANDARD.md`.
+Level 2 development has begun with Stage 1 and is being added without altering the Level 1 curriculum, shared account architecture or Foreign Languages product.
 
-Every current and future stage/level must be checked for:
+Completed Level 2 Stage 1 work includes:
 
-- answer-length bias, with the longest option correct in approximately 30% of eligible text-only multiple-choice questions;
-- capitalization/formatting clues, including lower-case correct answers standing out from otherwise consistently formatted options;
-- answer-position bias;
-- grammatical or punctuation clues;
-- implausible or structurally weak distractors;
-- activity-specific alignment;
-- Core → Core → Stretch → Advanced progression where four-question activity sets are used;
-- stable IDs and correct activity mappings.
+- Level 2 Stage 1 files added to the required prebuild validation set.
+- Level 2 Stage 1 question-bank syntax checking added to the validator.
+- Existing project `@/` aliases recognized by validation when resolving imports.
+- The faulty blanket deep-relative-import validation rule removed because it produced false failures for valid repository paths.
+- Existing question-bank, duplicate-ID, malformed-question and answer-quality checks retained.
+- Verbal Level 2 Stage 1 module imports corrected to use project aliases in commit `e8e4c1d9b9c2747f288487ca828425bb3457308b`.
+- Associated prebuild/validator remediation committed in `f8dae4a1c4c0351669d8d419bf61950929db3a02`.
+- Latest Stage 4 mapping commit currently at `a0c549b91523862291e7ce4b09d23cef4741f0b9`.
 
-These checks improve assessment integrity without changing the Reasoning architecture.
+## Build-integrity safeguards — mandatory
 
-## Architecture protection rule
+Today’s development exposed repeated build-blocking failures caused by syntax errors, incorrect import/path assumptions and inadequate prebuild validation. These failures consumed a significant amount of the Vercel build-rate budget. This is now a permanent process requirement, not an optional best practice.
 
-A new level or stage changes curriculum content and difficulty, **not the underlying Reasoning architecture**, unless a separate architectural change is proposed and explicitly approved.
+Before any future deployment-triggering commit:
 
-Question-quality work must preserve:
+1. Run the complete prebuild validator against the affected files.
+2. Parse/check syntax before pushing.
+3. Resolve every import against the actual repository structure; validate `@/` aliases where used.
+4. Validate activity/module IDs against real source data and detect duplicate mappings.
+5. Validate question-bank structure, unique IDs and answer structure.
+6. Perform structural checks before content-quality checks.
+7. Group only coherent, already-validated changes into a deployment-triggering commit.
+8. Diagnose the actual Vercel failure before creating another build-triggering commit.
+9. Verify the exact GitHub commit that Vercel is deploying.
+10. Never treat a successful commit or deployment as owner verification.
 
-- Quantitative and Verbal independent tracks.
-- Six-stage curriculum structure.
-- 50% Explore / 50% Extend split.
-- Dedicated Reasoning Question Bank and stable question IDs.
-- Shared activity player.
-- Existing timing, scoring, completion, navigation and progress architecture.
-- One account working across both products.
-- Foreign Languages product.
-- Authentication/account architecture.
-
-## Current validation/deployment safeguards
-
-The Reasoning prebuild validator now checks required files, relative imports, duplicate route hazards, question-bank syntax and Stage 5–6 structural integrity before Next.js compilation.
-
-Assessment-quality auditing is being expanded to all existing stages. Existing content will be remediated one stage at a time; once the current content has been normalized, appropriate quality thresholds should become build-blocking for future content.
+The objective is to make each Vercel deployment a deliberate verification step and to stop using deployment attempts as the debugging loop.
 
 ## Deployment status / next-session resume point
 
-The Stage 3 deployment was confirmed successful on commit `1a90523ddcdcbc502729ce1b1d6132911f608d40`. Stage 4 remediation is now committed to `main`; use the resulting Vercel deployment as the source of truth for build status.
+GitHub `main` currently contains the latest Level 2 validation/import fixes and Stage 4 mapping commit. The Vercel build for the latest commit is currently affected by the reported build-rate-limit failure.
+
+**Tomorrow’s resume point:** continue from **Level 2 Stage 1**, using the validation-first workflow above. Do not create speculative deployment-triggering commits while the build-rate limit is active. First establish that the exact intended `main` commit can be evaluated, then continue the Level 2 Stage 1 implementation from the existing work.
+
+Stage 5 and Stage 6 are **build-complete but pending owner verification**. They must remain in that state until the project owner personally verifies them and explicitly asks for them to be recorded as verified.
 
 ## Remaining curriculum work
 
-- Complete the staged question-quality audit/remediation for Level 1 Stages 1, 2, 5 and 6.
-- Complete final owner verification of Level 1 before launch readiness is claimed.
-- Extend the six-stage curriculum to Levels 2–9 with the same architecture and the same question-quality standard.
+- Complete final structural correction and verification for Level 1 Stage 4.
+- Owner-verify Level 1 Stage 5.
+- Owner-verify Level 1 Stage 6.
+- Continue Level 2 Stage 1 development and verification.
+- Extend the six-stage curriculum to Levels 2–9 with the same architecture and question-quality standard.
 - Inspect and integrate the external backend before describing Reasoning progress as permanently persisted.
 
 ## Later-phase platform work
@@ -108,4 +109,4 @@ The following remain separate from the current frontend curriculum build and sho
 
 ## Source-of-Truth Principle
 
-Question count, substantive variety, activity-specific alignment, difficulty progression and assessment integrity are separate acceptance criteria. A question bank is not considered complete merely because it contains the required number of records.
+Question count, substantive variety, activity-specific alignment, difficulty progression and assessment integrity are separate acceptance criteria. A question bank is not considered complete merely because it contains the required number of records. Build success, deployment success and owner verification are also separate states.
