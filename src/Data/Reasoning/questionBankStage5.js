@@ -21,6 +21,17 @@ const questions=[
 ["V-L1-S5-EXT-research-proposals",[["Which proposal is most coherent?",["Focused question, rationale, evidence base and feasible method","Broad topic with no method","Title and conclusion only","Unrelated questions"],"Focused question, rationale, evidence base and feasible method"],["Why explain why a research question matters?",["It establishes purpose and significance","It guarantees the answer","It replaces evidence","It removes the method"],"It establishes purpose and significance"],["A method cannot collect evidence needed by the question. What should change?",["The method or question so they align","Only the title","The evidence","Nothing"],"The method or question so they align"],["What should a strong proposal let a reader understand?",["What will be studied, why and how evidence will be examined","The conclusion in advance","Only the title","Why feasibility is irrelevant"],"What will be studied, why and how evidence will be examined"]]],
 ["V-L1-S5-EXT-independent-inquiry",[["New evidence conflicts with an initial explanation. What should an independent researcher do?",["Reconsider the explanation and test alternatives","Protect the original idea","Ignore the evidence","Change the evidence"],"Reconsider the explanation and test alternatives"],["An unexpected pattern appears. What is the best next step?",["Record it, investigate it and consider revising the inquiry","Delete it","Pretend it was predicted","Change the data"],"Record it, investigate it and consider revising the inquiry"],["Which practice supports independent thinking?",["Compare competing explanations against the same evidence","Select only supporting evidence","Use one source","Avoid uncertainty"],"Compare competing explanations against the same evidence"],["When should a working conclusion be revised?",["When credible evidence materially changes the balance of support","Only when asked","Never","Whenever a result is inconvenient"],"When credible evidence materially changes the balance of support"]]]
 ];
-const makeQuestion=(activityId,raw,index)=>({id:`${activityId}-Q${index+1}`,activityId,levelId:"L1",stageId:"S5",track:activityId.startsWith("Q-")?"quantitative":"verbal",difficulty:index<2?"core":index===2?"stretch":"advanced",questionType:MULTIPLE_CHOICE,question:raw[0],options:raw[1],answer:raw[2],explanation:"The answer follows from the mathematical or research reasoning tested in this activity.",timePerQuestion:index<2?55:65});
+
+const makeQuestion=(activityId,raw,index)=>{
+ const sourceOptions=[...raw[1]];
+ const correct=raw[2];
+ const rotation=index%sourceOptions.length;
+ const options=sourceOptions.slice(rotation).concat(sourceOptions.slice(0,rotation));
+ const difficulty=index<2?"core":index===2?"stretch":"advanced";
+ const position=options.indexOf(correct);
+ const optionLabel=String.fromCharCode(65+position);
+ return {id:`${activityId}-Q${index+1}`,activityId,levelId:"L1",stageId:"S5",track:activityId.startsWith("Q-")?"quantitative":"verbal",difficulty,questionType:MULTIPLE_CHOICE,question:raw[0],options,answer:correct,explanation:`The correct choice is ${optionLabel} because it directly satisfies the condition or reasoning requirement in the question.`,timePerQuestion:index<2?55:65};
+};
+
 export const STAGE5_QUESTION_BANK=questions.flatMap(([activityId,items])=>items.map((item,index)=>makeQuestion(activityId,item,index)));
 export function getStage5QuestionsForActivity(activityId){return STAGE5_QUESTION_BANK.filter(q=>q.activityId===activityId);}
