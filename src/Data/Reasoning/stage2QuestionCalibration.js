@@ -26,12 +26,11 @@ function decorate(question) {
   const mode = modeForActivity[question.activityId] || "textReasoning";
   return {
     ...question,
-    targetGrade: 3,
     difficulty: normalizeDifficulty(question.difficulty),
     contentMode: mode,
     contentModeLabel: STAGE2_CONTENT_MODES[mode].label,
     contentModeDescription: STAGE2_CONTENT_MODES[mode].description,
-    calibrationStatus: "Calibrated for Level 1 / Grade 3 Stage 2 delivery",
+    calibrationStatus: "Calibrated for Level 1 Stage 2 delivery",
   };
 }
 
