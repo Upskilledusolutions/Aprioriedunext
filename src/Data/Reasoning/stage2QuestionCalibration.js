@@ -1,5 +1,7 @@
 import { STAGE2_QUESTIONS } from "./questionBankStage2";
 import { getStage2ExpandedQuestionsForActivity } from "./stage2QuestionExpansion";
+import { getStage2ElevatedComputationQuestions } from "./stage2ElevatedComputationBank";
+import { prepareReasoningQuestionSet } from "./reasoningOptionQuality";
 
 export const STAGE2_CONTENT_MODES = {
   computation: { label: "Computation", description: "You will need to calculate or manipulate numerical information." },
@@ -35,7 +37,13 @@ function decorate(question) {
 }
 
 export function getStage2CalibratedQuestions(activityId) {
-  const bankQuestions = STAGE2_QUESTIONS.filter((question) => question?.activityId === activityId);
-  const expandedQuestions = getStage2ExpandedQuestionsForActivity(activityId);
-  return [...bankQuestions, ...expandedQuestions].map(decorate);
+  const elevatedComputation = getStage2ElevatedComputationQuestions(activityId);
+  const sourceQuestions = elevatedComputation.length
+    ? elevatedComputation
+    : [
+        ...STAGE2_QUESTIONS.filter((question) => question?.activityId === activityId),
+        ...getStage2ExpandedQuestionsForActivity(activityId),
+      ];
+
+  return prepareReasoningQuestionSet(sourceQuestions.map(decorate));
 }
