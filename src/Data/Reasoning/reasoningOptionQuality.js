@@ -66,16 +66,14 @@ export function prepareReasoningOptions(question) {
   const normalized = options.map((option) => normalizePunctuation(normalizeCase(option), hasTerminalPunctuation));
   const correctedAnswer = normalized[correctIndex];
 
-  // Choose the final correct-answer position directly from the stable question ID.
-  // This removes the previous dependence on the source bank's answer-position bias.
   const targetPosition = stableSeed(correctedQuestion.id) % normalized.length;
   const offset = (correctIndex - targetPosition + normalized.length) % normalized.length;
   const ordered = rotate(normalized, offset);
 
-  // A length cue is only treated as a hard cue when the correct option is an
-  // isolated extreme AND is at least twice as long/short as the nearest option.
-  // Minor natural wording differences are not reliable answer signals and should
-  // not cause an otherwise valid calibrated question to fail the production build.
+  // Only flag an extreme, isolated length signal. A genuinely conspicuous cue
+  // requires both a large relative gap and a meaningful absolute gap. This keeps
+  // natural sentence-length variation from blocking otherwise valid reasoning
+  // questions while still rejecting options that make the answer obvious by size.
   const lengths = ordered.map((option) => option.length);
   const minLength = Math.min(...lengths);
   const maxLength = Math.max(...lengths);
@@ -86,8 +84,10 @@ export function prepareReasoningOptions(question) {
   const answerLength = correctedAnswer.length;
   const secondShortest = sortedLengths[1] ?? minLength;
   const secondLongest = sortedLengths[sortedLengths.length - 2] ?? maxLength;
-  const uniqueShortestCue = answerLength === minLength && shortestCount === 1 && secondShortest >= answerLength * 2;
-  const uniqueLongestCue = answerLength === maxLength && longestCount === 1 && answerLength >= secondLongest * 2;
+  const shortestGap = secondShortest - answerLength;
+  const longestGap = answerLength - secondLongest;
+  const uniqueShortestCue = answerLength === minLength && shortestCount === 1 && shortestGap >= 25 && secondShortest >= answerLength * 2.5;
+  const uniqueLongestCue = answerLength === maxLength && longestCount === 1 && longestGap >= 25 && answerLength >= secondLongest * 2.5;
   const lengthCue = uniqueShortestCue || uniqueLongestCue;
 
   return {
