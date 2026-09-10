@@ -1,4 +1,5 @@
 import { STAGE2_QUESTIONS } from "./questionBankStage2";
+import { getStage2ExpandedQuestionsForActivity } from "./stage2QuestionExpansion";
 
 export const STAGE2_CONTENT_MODES = {
   computation: { label: "Computation", description: "You will need to calculate or manipulate numerical information." },
@@ -21,19 +22,21 @@ const modeForActivity = {
 
 const normalizeDifficulty = (value) => ({ easy: 1, medium: 2, hard: 3 }[value] || (typeof value === "number" ? value : 1));
 
+function decorate(question) {
+  const mode = modeForActivity[question.activityId] || "textReasoning";
+  return {
+    ...question,
+    targetGrade: 3,
+    difficulty: normalizeDifficulty(question.difficulty),
+    contentMode: mode,
+    contentModeLabel: STAGE2_CONTENT_MODES[mode].label,
+    contentModeDescription: STAGE2_CONTENT_MODES[mode].description,
+    calibrationStatus: "Calibrated for Level 1 / Grade 3 Stage 2 delivery",
+  };
+}
+
 export function getStage2CalibratedQuestions(activityId) {
-  return STAGE2_QUESTIONS
-    .filter((question) => question?.activityId === activityId)
-    .map((question) => {
-      const mode = modeForActivity[question.activityId] || "textReasoning";
-      return {
-        ...question,
-        targetGrade: 3,
-        difficulty: normalizeDifficulty(question.difficulty),
-        contentMode: mode,
-        contentModeLabel: STAGE2_CONTENT_MODES[mode].label,
-        contentModeDescription: STAGE2_CONTENT_MODES[mode].description,
-        calibrationStatus: "Calibrated for Level 1 / Grade 3 Stage 2 delivery",
-      };
-    });
+  const bankQuestions = STAGE2_QUESTIONS.filter((question) => question?.activityId === activityId);
+  const expandedQuestions = getStage2ExpandedQuestionsForActivity(activityId);
+  return [...bankQuestions, ...expandedQuestions].map(decorate);
 }
