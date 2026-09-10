@@ -4,23 +4,23 @@ Last updated: 2026-09-10
 
 ## Current status
 
-Reasoning is in a systematic Level 1 re-audit and remediation cycle. Level 1 · Stage 1 is now implemented end-to-end and is ready for owner verification; it is not marked launch-verified until the owner tests the deployed learner paths.
+Reasoning is being developed through a focused stage-by-stage audit and remediation process. Level 1 · Stage 1 has been owner-verified after deployment. Level 1 · Stage 2 is now implemented and awaiting owner verification.
 
-The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign was made for the Stage 1 remediation.
+The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is being introduced for these stage remediations.
 
-**Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are not displayed to learners.
+**Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 2**). School-grade names are not displayed to learners.
 
 ## Mandatory quality requirements — 2026-09-10
 
 ### 1. Full Level 1 audit
 
-All Level 1 stages must be checked again, including stages that were historically marked implemented. The audit covers dashboard pages, module/lesson pages, activity mappings, question loading, imports/routes, client-side guards, Question Bank structure, stable IDs, grade/difficulty alignment, Explore/Extend progression, answers/explanations, timing, navigation, scoring, completion and progress behavior.
+Every Level 1 stage must be checked independently. The audit covers dashboard pages, module/lesson pages, activity mappings, question loading, imports/routes, client-side guards, Question Bank structure, stable IDs, grade/difficulty alignment, Explore/Extend progression, answers/explanations, timing, navigation, scoring, completion and progress behavior.
 
 A client-side error on a learner-facing page is a blocking defect for the affected stage.
 
 ### 2. Explicit content-mode labels
 
-Every Reasoning assessment question must carry a content-mode classification in the Question Bank and show the learner-facing label before or with the question.
+Every Reasoning assessment question must carry a content-mode classification and show the learner-facing label before or with the question.
 
 Approved labels:
 
@@ -38,9 +38,7 @@ The Level 1 audit identified a two-level mismatch:
 - Existing Quantitative text-based questions were generally around **Grade 5 / two levels above** the intended Level 1 demand.
 - Existing Verbal questions were also generally around **Grade 5 / two levels above** the intended Level 1 demand.
 
-Existing questions were retained. The overly advanced Quantitative text-based and Verbal sets are tagged for **Level 3 delivery**, preserving their stable question records. Easier computational questions are retained as below-Level-1 foundation content rather than deleted.
-
-New Level 1 Stage 1 replacement questions are calibrated to the intended Grade 3 demand.
+Existing questions are retained. Over-advanced Quantitative text-based and Verbal sets are tagged for **Level 3 delivery**, preserving their stable question records. Easier computational questions remain as below-Level-1 foundation material rather than being deleted.
 
 ### 4. Difficulty recalibration
 
@@ -48,48 +46,58 @@ Difficulty values must reflect actual reasoning demand at the assigned placement
 
 ### 5. Deployment-efficiency rule
 
-Related fixes should be grouped into the fewest coherent deployment-triggering commits that can be safely validated. The working sequence is:
+Related fixes should be grouped into the fewest coherent deployment-triggering commits that can be safely validated. The intended operating model for each stage is:
 
 ```text
-inspect → coherent stage-level changes → static/prebuild validation → one deployment → owner verification → next stage
+inspect → one coherent stage implementation → deployment → owner verification → targeted second fix only if needed → verify
 ```
 
-Vercel deployments are verification events, not the debugging loop.
+A third deployment is reserved only for a genuinely necessary post-deployment correction. Vercel deployments are verification events, not the debugging loop.
 
-## Stage 1 implementation completed
+## Stage 1 — owner verified
 
 ### Level 1 · Stage 1 — Foundation Quantitative & Reasoning / Foundation Verbal & Reasoning
 
-Approved Stage 1 remediation has been implemented in the repository.
+Stage 1 remediation was implemented and subsequently owner-verified after deployment.
 
-Implemented changes include:
+The remediation corrected activity/question mappings, added Grade-3-calibrated replacement questions without deleting original records, added content-mode presentation, recalibrated difficulty/placement, supplied replacements for uncovered activities, and preserved the multi-question activity experience with per-question timing, navigation, scoring, explanations and completion.
 
-1. Corrected Stage 1 Quantitative and Verbal activity-to-question mappings and track prefixes.
-2. Added Grade 3-calibrated Level 1 replacement questions while retaining the original Question Bank records.
-3. Added explicit content-mode labels and descriptions for Stage 1 assessment questions.
-4. Recalibrated computational content as below-Level-1 foundation material and marked the formerly over-advanced text-based Quantitative/Verbal content for Level 3 delivery.
-5. Added Grade 3-calibrated replacement content for the previously uncovered Stage 1 Quantitative Relationships, Logic Puzzles and Multi-Step Reasoning activities.
-6. Preserved multi-question activity behavior, per-question timing, Previous/Next navigation, answered/remaining state, score/progress display, explanations and completion tracking.
-7. Added missing-question/client-side fallback behavior so an invalid mapping produces a controlled learner-facing state rather than an unhandled client exception.
+Stage 1 is the reference implementation model for subsequent stage remediation.
 
-The Stage 1 corrective implementation is represented by:
+## Stage 2 — implementation complete, owner verification pending
 
-- `4421b58e3e204ce0a1d485d0775ef57b713f7c78` — initial Level 1 Stage 1 calibration/mapping/runtime remediation.
-- The follow-up corrective commit for the remaining uncovered Stage 1 activities and documentation synchronization is the next deployment in this remediation cycle.
+### Level 1 · Stage 2 — Advanced Problem Solving / Critical Reading & Argument
 
-### Stage 1 verification state
+Stage 2 has been audited and implemented using the same focused model.
 
-**Implementation complete; owner verification pending.** No Stage 1 launch-verification claim should be made until the deployed Quantitative and Verbal Stage 1 learner paths have been tested end-to-end.
+Implemented changes:
 
-Verification should confirm that every Stage 1 activity opens, all questions load, the correct content-mode label is shown, questions are grade-appropriate, answers/explanations work, timing is per question, navigation works, completion records correctly, and no client-side errors occur.
+1. Preserved the existing Stage 2 curriculum architecture, modules and stable question IDs.
+2. Added a Stage 2 calibration layer that assigns explicit content-mode labels and Grade-3 Level 1 calibration metadata at delivery time.
+3. Classified Quantitative Stage 2 activities as Computation or Computation + Reasoning according to their primary learner demand.
+4. Classified Verbal Stage 2 activities as Text-Based Reasoning.
+5. Normalized Stage 2 difficulty values for the activity player while retaining the intended Easy → Medium → Hard progression.
+6. Updated the shared activity player to use the Stage 2 calibration layer, so the learner sees the required content-mode label and description.
+7. Retained all four available Stage 2 questions per activity from the Question Bank; the player resolves the complete activity question set rather than limiting delivery to the shorter activity registry subset.
+8. Did not redesign the Question Bank, dashboard, progress architecture, authentication model or Foreign Languages product.
+
+Stage 2 implementation commits/deployments:
+
+- `ce0df99aaac07e6932929ded5129dbc4a999874d` — added the Stage 2 calibration layer.
+- `01360e35f13d6b80c7a33663117c01e9e99ee424` — wired Stage 2 calibration into the shared activity player.
+
+A documentation synchronization follows the implementation so the source-of-truth record matches the current state.
+
+### Stage 2 verification state
+
+**Implementation complete; owner verification pending.** Verify the deployed Level 1 Stage 2 Quantitative and Verbal paths end-to-end before Stage 2 is marked verified.
+
+Verification should confirm every Stage 2 activity opens, all four available questions load, the correct content-mode label appears, difficulty progression is sensible, answers/explanations work, timing is per question, Previous/Next works, completion and score work, progress records correctly, and no client-side errors occur.
 
 ## Level 1 remaining stages
 
-### Stage 2
-Previously implemented/remediated, but requires a fresh audit under the updated runtime, content-mode and difficulty standard.
-
 ### Stage 3
-Question bank and activities are present. Fresh audit required for runtime mappings, difficulty calibration and content-mode labels.
+Question bank and activities are present. Fresh audit required for runtime mappings, content-mode classification and difficulty calibration.
 
 ### Stage 4
 Previous remediation exists, but owner verification is pending. The known duplicate fifth Extend references remain a structural issue until resolved by a validated change.
@@ -100,7 +108,7 @@ Build work exists; owner verification is pending. Fresh audit required.
 ### Stage 6
 Build work exists; owner verification is pending. Fresh audit required.
 
-No Stage 2–6 work is being recorded as verified by historical deployment status alone.
+No Stage 3–6 work is being recorded as verified by historical deployment status alone.
 
 ## Level 2 status
 
@@ -120,9 +128,9 @@ Level 2 Stage 1 implementation exists in the repository but remains paused while
 
 These are implementation facts, not substitutes for current owner verification.
 
-## Remaining curriculum work after Stage 1 verification
+## Remaining curriculum work after Level 1 verification
 
-- Freshly audit and remediate Level 1 Stages 2–6 using the same runtime, content-mode and difficulty standard.
+- Freshly audit and remediate Level 1 Stages 3–6 using the same focused stage-level model.
 - Resolve the known Level 1 Stage 4 duplicate Extend references.
 - Resume Level 2 Stage 1 only after Level 1 is stable, then continue Levels 2–9.
 - Inspect and integrate the external backend before describing Reasoning progress as permanently persisted.
