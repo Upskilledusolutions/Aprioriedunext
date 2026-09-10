@@ -7,32 +7,57 @@
  */
 const punctuationPattern = /[.!?]+$/;
 
-// Surgical correction for the current Level 1 Stage 3 calibrated set.
-// The source set contains one accidental duplicate distractor (38 appears twice).
-// Correct it before the shared quality audit so the Stage 3 hard validator can
-// enforce the no-duplicate-options rule without introducing a generic content
-// mutation mechanism.
+// Surgical corrections for the current Level 1 Stage 3 calibrated set.
+// These are content-specific corrections for known source-set issues; they do
+// not introduce a generic answer-selection or content-generation mechanism.
 const STAGE3_OPTION_CORRECTIONS = {
   "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-generalizing-patterns-09": [
     ["38", "40"],
   ],
 };
 
+const STAGE3_VERBAL_LENGTH_REWRITES = {
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-07": [
+    [
+      "The result suggests some students may value additional morning time, although the small sample limits the claim",
+      "The result suggests later starts may help, but the small sample limits the claim",
+    ],
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-07": [
+    [
+      "It may provide useful evidence, but the claim should remain appropriately limited",
+      "It may be useful evidence, but the small sample limits the claim",
+    ],
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-04": [
+    [
+      "This result suggests the new schedule may improve punctuality because fewer students arrived late",
+      "The result suggests the new schedule may improve punctuality",
+    ],
+  ],
+};
+
 const applyKnownOptionCorrections = (question) => {
   const corrections = STAGE3_OPTION_CORRECTIONS[question?.id];
-  if (!corrections || !Array.isArray(question?.options)) return question;
+  const rewrites = STAGE3_VERBAL_LENGTH_REWRITES[question?.id];
+  if ((!corrections && !rewrites) || !Array.isArray(question?.options)) return question;
+
   let options = question.options.map((option) => String(option ?? ""));
-  for (const [from, to] of corrections) {
+  let answer = String(question.answer ?? "");
+
+  for (const [from, to] of [...(corrections || []), ...(rewrites || [])]) {
     let replaced = false;
     options = options.map((option) => {
       if (!replaced && option.trim() === from) {
         replaced = true;
+        if (answer.trim() === from) answer = to;
         return to;
       }
       return option;
     });
   }
-  return { ...question, options };
+
+  return { ...question, options, answer };
 };
 
 const normalizeCase = (value) => {
