@@ -4,15 +4,15 @@ Last updated: 2026-09-10
 
 ## Current status
 
-Reasoning is being developed through a focused stage-by-stage audit and remediation process. Level 1 · Stage 1 had previously been owner-verified after deployment; its new question-set expansion is now implemented and awaits re-verification. Level 1 · Stage 2 is implemented, including the new question-set expansion, and awaits owner verification.
+Reasoning is being developed through a focused stage-by-stage audit and remediation process. Level 1 · Stage 1 has now received a consolidated question-set and calibration remediation and is **ready for owner verification after deployment**. Level 1 · Stage 2 remains implemented but is not being changed or re-recorded in this Stage 1 remediation.
 
-The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is being introduced for these stage remediations.
+The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is being introduced for these curriculum remediations.
 
-**Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 2**). School-grade names are not displayed to learners.
+**Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are not displayed to learners.
 
-## Mandatory quality requirements — 2026-09-10
+## Mandatory quality requirements
 
-### 1. Full Level 1 audit
+### 1. Full stage audit
 
 Every Level 1 stage must be checked independently. The audit covers dashboard pages, module/lesson pages, activity mappings, question loading, imports/routes, client-side guards, Question Bank structure, stable IDs, grade/difficulty alignment, Explore/Extend progression, answers/explanations, timing, navigation, scoring, completion and progress behavior.
 
@@ -30,118 +30,101 @@ Approved labels:
 
 These labels describe the type of thinking, not the difficulty or Level/Stage.
 
-### 3. Level 1 content calibration correction
+### 3. Level 1 calibration correction
 
 The Level 1 audit identified a two-level mismatch:
 
-- Existing computational Quantitative questions were generally around **Grade 1 / two levels below** the intended Level 1 / Grade 3 demand.
-- Existing Quantitative text-based questions were generally around **Grade 5 / two levels above** the intended Level 1 demand.
-- Existing Verbal questions were also generally around **Grade 5 / two levels above** the intended Level 1 demand.
+- Existing computational Quantitative questions were generally around Grade 1 / two levels below the intended Level 1 / Grade 3 demand.
+- Existing Quantitative text-based questions were generally around Grade 5 / two levels above the intended Level 1 demand.
+- Existing Verbal questions were also generally around Grade 5 / two levels above the intended Level 1 demand.
 
-Existing questions are retained. Over-advanced Quantitative text-based and Verbal sets are tagged for **Level 3 delivery**, preserving their stable question records. Easier computational questions remain as below-Level-1 foundation material rather than being deleted.
+The over-advanced original records are retained with their stable IDs and are not deleted. They must not be delivered as Level 1 content merely because an activity is labelled Level 1. Level 1 delivery uses questions that are actually calibrated to the Level 1 / Grade 3 target.
 
 ### 4. Difficulty recalibration
 
 Difficulty values must reflect actual reasoning demand at the assigned placement. Recalibration considers prerequisites, reasoning steps, abstraction/generalization, vocabulary load, calculation load, inference/evidence demand, independence and transfer. Difficulty must rise incrementally within Explore and within Extend.
 
-### 5. Question-set quality and quantity standard — 2026-09-10
+### 5. Question-set quality and quantity standard
 
-For the active Level 1 stage build, each learner-facing activity is expanded to **10 distinct questions**. The same standard applies to subsequent stages and future levels unless a documented curriculum reason requires a different count.
+Every learner-facing activity is required to deliver **exactly 10 distinct, substantive questions**, unless a future documented curriculum exception explicitly requires another count.
 
-The expansion is not a quantity-only change. Additional questions must:
+Questions must test the same core concept and intended application, remain at the calibrated Level/grade demand, preserve Explore/Extend progression and content mode, use unique stable IDs, avoid duplicate/cosmetic variations, retain valid answers/explanations, and avoid unrelated architecture or product changes.
 
-- test the same core concept and intended application as the existing activity;
-- remain at the same calibrated Level/grade demand and preserve the intended difficulty progression;
-- preserve the activity's assigned content mode (Computation, Text-Based Reasoning, or Computation + Reasoning);
-- use new stable question IDs;
-- avoid duplicate or repeated prompts, answer patterns or merely cosmetic variations;
-- retain valid answer choices and explanations; and
-- avoid changing the curriculum architecture, navigation, progress model or unrelated features.
-
-The existing question records are retained; expansion adds substantive practice rather than replacing or deleting the original bank.
+This rule is now the reusable standard for subsequent stages and future levels.
 
 ### 6. Deployment-efficiency rule
 
-Related fixes should be grouped into the fewest coherent deployment-triggering commits that can be safely validated. The intended operating model for each stage is:
+Related fixes should be grouped into the fewest coherent deployment-triggering commits that can be safely validated.
 
 ```text
-inspect → one coherent stage implementation → deployment → owner verification → targeted second fix only if needed → verify
+inspect → one coherent stage implementation → deployment → owner verification → targeted second fix only if needed
 ```
 
-A third deployment is reserved only for a genuinely necessary post-deployment correction. Vercel deployments are verification events, not the debugging loop.
+Vercel deployments are verification events, not the debugging loop.
 
-## Stage 1 — expansion implemented; re-verification pending
+## Level 1 · Stage 1 — consolidated remediation implemented; owner verification pending
 
-### Level 1 · Stage 1 — Foundation Quantitative & Reasoning / Foundation Verbal & Reasoning
+### Scope
 
-The original Stage 1 remediation was implemented and owner-verified after deployment. The subsequent quality expansion now adds six substantive questions to activities that had four delivered questions, while activities already carrying the earlier corrective four-question replacement set receive only the number needed to reach exactly ten. This prevents accidental over-counting in the repaired Quantitative Relationships, Logic Puzzles and Multi-Step Reasoning activities.
+This remediation covers **both Quantitative and Verbal Stage 1**. It is intentionally limited to Stage 1 and does not change Stage 2, Levels 2–9, Foreign Languages, authentication, navigation architecture, progress architecture or the shared activity-player UI.
 
-Implemented expansion characteristics:
+### Exact 10-question delivery
 
-1. Every Stage 1 learner-facing activity now targets exactly 10 delivered questions.
-2. Computation activities retain Computation classification; text-based activities retain Text-Based Reasoning; Multi-Step Reasoning retains Computation + Reasoning.
-3. New questions use stable IDs and preserve Level 1 / Grade 3 calibration and the existing Explore/Extend difficulty progression.
-4. The original calibrated/replacement records remain intact; the expansion is additive.
-5. No architecture, navigation, authentication, progress or Foreign Languages changes were introduced.
-6. The existing shared activity player remains the delivery path.
+All Stage 1 learner-facing activities are now backed by an authoritative Stage 1 delivery set containing **exactly 10 questions per activity**.
 
-Stage 1 expansion implementation commit:
+Quantitative activities: Number Sense; Patterns — Explore; Patterns — Extend; Logic Puzzles; Quantitative Relationships; Shape & Measurement; Multi-Step Reasoning.
 
-- `55e25edb7235a97899069d94faa1149a1258ed35` — added the Stage 1 expansion question set.
-- `b958ef53eaddc8a4037b626ff89b1211f4d49e37` — wired the expanded set into the existing Stage 1 delivery path.
+Verbal activities: Main Idea; Vocabulary in Context; Evidence & Claims — Explore; Basic Argument; Sequencing; Evidence & Claims — Extend; Inference; Perspectives.
+
+The delivery layer no longer depends on combining partially overlapping calibration, expansion and replacement arrays to determine the learner-facing count. The Stage 1 calibration resolver supplies the exact 10-question set, and the previous replacement layer is prevented from appending additional questions.
+
+### Verbal recalibration
+
+The earlier Verbal Stage 1 questions were identified as approximately two levels above the Level 1 target. They remain preserved in the repository rather than being deleted, but they are not used as the Level 1 delivery set.
+
+Stage 1 now uses newly authored Verbal questions calibrated specifically for **Level 1 / Grade 3**. All are **Text-Based Reasoning**, vocabulary and passage demand are controlled for Grade 3, difficulty increases incrementally, and Explore/Extend remain distinct.
+
+### Quantitative recalibration
+
+Stage 1 Quantitative delivery is normalized to Level 1 / Grade 3 demand. Computation activities remain Computation; logic/relationship activities use Text-Based Reasoning where written conditions are primary; Multi-Step Reasoning remains Computation + Reasoning. Each activity is limited to exactly 10 delivered questions with incremental difficulty.
+
+### Stable IDs and quality
+
+New remediation questions use new stable IDs and include answers, explanations, timing and content-mode metadata. Existing records are preserved. The existing activity player remains the learner-facing delivery path; its navigation, scoring, completion and progress behavior are not being redesigned.
 
 ### Stage 1 verification state
 
-**Expansion implemented; owner re-verification pending.** Verify every Stage 1 activity opens and presents exactly 10 distinct questions, with the correct content-mode label, calibrated difficulty, answers/explanations, timing, Previous/Next behavior, scoring, completion and progress recording. The earlier Stage 1 owner verification remains valid for the pre-expansion implementation but does not substitute for verifying the expanded set.
+**Implemented; owner verification pending.**
 
-## Stage 2 — expansion implemented, owner verification pending
+After deployment is Ready, verify every Stage 1 activity and confirm: exactly 10 questions; no duplicates; Verbal questions are genuinely Level 1 / Grade 3; Quantitative questions are correctly calibrated; difficulty rises sensibly; the correct content-mode label appears; answers/explanations, per-question timing, Previous/Next, score, completion and progress all work; and there are no client-side errors.
 
-### Level 1 · Stage 2 — Advanced Problem Solving / Critical Reading & Argument
+Do **not** mark Stage 1 verified until the owner completes this check.
 
-Stage 2 has been audited and implemented using the same focused model.
+## Level 1 · Stage 2
 
-Implemented changes:
+Stage 2 had previously been implemented with its own calibration and question-set expansion. It remains **owner verification pending**. No Stage 2 changes are recorded by this Stage 1 remediation.
 
-1. Preserved the existing Stage 2 curriculum architecture, modules and stable question IDs.
-2. Added a Stage 2 calibration layer that assigns explicit content-mode labels and Grade-3 Level 1 calibration metadata at delivery time.
-3. Classified Quantitative Stage 2 activities as Computation or Computation + Reasoning according to their primary learner demand.
-4. Classified Verbal Stage 2 activities as Text-Based Reasoning.
-5. Normalized Stage 2 difficulty values for the activity player while retaining the intended Easy → Medium → Hard progression.
-6. Updated the shared activity player to use the Stage 2 calibration layer, so the learner sees the required content-mode label and description.
-7. Expanded every Stage 2 activity to exactly 10 delivered questions by adding six distinct questions to the existing four-question sets.
-8. Preserved the same conceptual application, Grade 3 / Level 1 calibration and difficulty progression while avoiding duplicate prompts.
-9. Did not redesign the Question Bank, dashboard, progress architecture, authentication model or Foreign Languages product.
-
-Stage 2 implementation commits/deployments:
-
-- `ce0df99aaac07e6932929ded5129dbc4a999874d` — added the Stage 2 calibration layer.
-- `01360e35f13d6b80c7a33663117c01e9e99ee424` — wired Stage 2 calibration into the shared activity player.
-- `549998edc32e22832923b53c6216f600ecf322d8` — added the Stage 2 expansion question set.
-- `09069cb58c7431e353955e693a5a5dd058fd52ef` — wired the expanded set into the existing Stage 2 calibration delivery path.
-
-### Stage 2 verification state
-
-**Expansion implemented; owner verification pending.** Verify every Stage 2 activity opens and presents exactly 10 distinct questions, the correct content-mode label appears, difficulty progression is sensible, answers/explanations work, timing is per question, Previous/Next works, completion and score work, progress records correctly, and no client-side errors occur.
+When Stage 2 is next remediated or verified, the same exact-10-question and actual-difficulty calibration rules apply.
 
 ## Level 1 remaining stages
 
 ### Stage 3
-Question bank and activities are present. Fresh audit required for runtime mappings, content-mode classification, question-set quantity/variety and difficulty calibration.
+Fresh audit required for runtime mappings, content-mode classification, question-set quantity/variety and difficulty calibration.
 
 ### Stage 4
-Previous remediation exists, but owner verification is pending. The known duplicate fifth Extend references remain a structural issue until resolved by a validated change. The 10-question quality standard must also be applied during the fresh audit.
+Previous remediation exists, but owner verification remains pending. Known structural issues must be resolved through a validated change. The exact-10-question standard also applies.
 
 ### Stage 5
-Build work exists; owner verification is pending. Fresh audit required, including the 10-question quality standard.
+Build work exists; owner verification remains pending. Fresh audit required, including the exact-10-question standard.
 
 ### Stage 6
-Build work exists; owner verification is pending. Fresh audit required, including the 10-question quality standard.
+Build work exists; owner verification remains pending. Fresh audit required, including the exact-10-question standard.
 
-No Stage 3–6 work is being recorded as verified by historical deployment status alone.
+No Stage 3–6 work is considered verified by historical deployment status alone.
 
 ## Level 2 status
 
-Level 2 Stage 1 implementation exists in the repository but remains paused while the Level 1 foundation is stabilized and verified. The 10-question standard will apply when Level 2 work resumes.
+Level 2 Stage 1 implementation exists in the repository but remains paused while the Level 1 foundation is stabilized and verified. The exact-10-question standard and actual difficulty calibration will apply when Level 2 work resumes.
 
 ## Completed / historical implementation foundations
 
@@ -159,23 +142,18 @@ These are implementation facts, not substitutes for current owner verification.
 
 ## Remaining curriculum work after Level 1 verification
 
-- Freshly audit and remediate Level 1 Stages 3–6 using the same focused stage-level model.
-- Apply the 10-question quality standard without lowering conceptual or difficulty quality.
-- Resolve the known Level 1 Stage 4 duplicate Extend references.
+- Freshly audit and remediate Level 1 Stages 2–6 using the same focused stage-level model.
+- Apply the exact-10-question quality standard without lowering conceptual or difficulty quality.
+- Resolve known Level 1 structural issues through validated changes.
 - Resume Level 2 Stage 1 only after Level 1 is stable, then continue Levels 2–9.
 - Inspect and integrate the external backend before describing Reasoning progress as permanently persisted.
 
 ## Later-phase platform work
 
-These remain separate from the current frontend curriculum build and should be implemented only after the relevant external backend is inspected:
-
-- Backend/database persistence for Reasoning.
-- Durable server-side authorization for Reasoning data and operations.
-- Server-side timer configuration or authorized overrides.
-- Reasoning points, streaks, achievements and leaderboards.
-- Broader account-level learning analytics and reporting.
-- Optional interactive/API learning resources.
+These remain separate from the current frontend curriculum build and should be implemented only after the relevant external backend is inspected: backend/database persistence; durable server-side authorization; server-side timer configuration; Reasoning points, streaks, achievements and leaderboards; broader account-level analytics; and optional interactive/API learning resources.
 
 ## Source-of-Truth Principle
 
-Question count, substantive variety, activity alignment, content-mode classification, difficulty progression, grade alignment, assessment integrity, runtime safety and deployment verification are separate acceptance criteria. A stage is not considered complete merely because it has the required number of question records or because a previous deployment succeeded.
+Question count, substantive variety, activity alignment, content-mode classification, difficulty progression, grade alignment, assessment integrity, runtime safety and deployment verification are separate acceptance criteria.
+
+A stage is not considered complete merely because it has the required number of question records or because a previous deployment succeeded.
