@@ -1,8 +1,8 @@
 const fs=require("fs");const path=require("path");const {spawnSync}=require("child_process");const root=path.join(__dirname,"..");const fail=[];const warn=[];const exists=p=>fs.existsSync(path.join(root,p));const read=p=>fs.readFileSync(path.join(root,p),"utf8");
-const required=["src/Data/Reasoning/curriculum.js","src/Data/Reasoning/questionBank.js","src/Data/Reasoning/questionBankStage1Extensions.js","src/Data/Reasoning/questionBankStage2.js","src/Data/Reasoning/questionBankStage3.js","src/Data/Reasoning/questionBankStage4.js","src/Data/Reasoning/questionBankStage5.js","src/Data/Reasoning/questionBankStage6.js","src/Data/Reasoning/level2Stage1Activities.js","src/Data/Reasoning/level2Stage1Modules.js","src/Data/Reasoning/questionBankLevel2Stage1.js","src/Data/Reasoning/stage3Modules.js","src/Data/Reasoning/stage4Modules.js","src/Data/Reasoning/stage4Activities.js","src/Data/Reasoning/stage5Modules.js","src/Data/Reasoning/stage5Activities.js","src/Data/Reasoning/stage6Modules.js","src/Data/Reasoning/stage6Activities.js"];
+const required=["src/Data/Reasoning/curriculum.js","src/Data/Reasoning/questionBank.js","src/Data/Reasoning/questionBankStage1Extensions.js","src/Data/Reasoning/questionBankStage2.js","src/Data/Reasoning/questionBankStage3.js","src/Data/Reasoning/stage3QuestionCalibration.js","src/Data/Reasoning/reasoningOptionQuality.js","src/Data/Reasoning/questionBankStage4.js","src/Data/Reasoning/questionBankStage5.js","src/Data/Reasoning/questionBankStage6.js","src/Data/Reasoning/level2Stage1Activities.js","src/Data/Reasoning/level2Stage1Modules.js","src/Data/Reasoning/questionBankLevel2Stage1.js","src/Data/Reasoning/stage1QuestionCalibration.js","src/Data/Reasoning/stage2QuestionCalibration.js","src/Data/Reasoning/stage3Modules.js","src/Data/Reasoning/stage4Modules.js","src/Data/Reasoning/stage4Activities.js","src/Data/Reasoning/stage5Modules.js","src/Data/Reasoning/stage5Activities.js","src/Data/Reasoning/stage6Modules.js","src/Data/Reasoning/stage6Activities.js"];
 required.forEach(p=>{if(!exists(p))fail.push(`Missing required Reasoning file: ${p}`)});
 function checkSyntax(p){const r=spawnSync(process.execPath,["--check",path.join(root,p)],{encoding:"utf8"});if(r.status!==0)fail.push(`JavaScript syntax error in ${p}: ${(r.stderr||r.stdout||"unknown error").replace(/\s+/g," ").trim()})`)}
-for(const p of ["src/Data/Reasoning/questionBank.js","src/Data/Reasoning/questionBankStage1Extensions.js","src/Data/Reasoning/questionBankStage2.js","src/Data/Reasoning/questionBankStage3.js","src/Data/Reasoning/questionBankStage4.js","src/Data/Reasoning/questionBankStage5.js","src/Data/Reasoning/questionBankStage6.js","src/Data/Reasoning/questionBankLevel2Stage1.js"]){if(exists(p))checkSyntax(p)}
+for(const p of ["src/Data/Reasoning/questionBank.js","src/Data/Reasoning/questionBankStage1Extensions.js","src/Data/Reasoning/questionBankStage2.js","src/Data/Reasoning/questionBankStage3.js","src/Data/Reasoning/stage3QuestionCalibration.js","src/Data/Reasoning/reasoningOptionQuality.js","src/Data/Reasoning/questionBankStage4.js","src/Data/Reasoning/questionBankStage5.js","src/Data/Reasoning/questionBankStage6.js","src/Data/Reasoning/questionBankLevel2Stage1.js"]){if(exists(p))checkSyntax(p)}
 function resolveImport(fromFile,imp){const base=imp.startsWith("@/")?path.join(root,"src",imp.slice(2)):path.resolve(path.dirname(fromFile),imp);return [base,`${base}.js`,`${base}.jsx`,`${base}.json`,path.join(base,"index.js"),path.join(base,"index.jsx")].some(fs.existsSync)}
 function scanImports(dir){if(!exists(dir))return;for(const name of fs.readdirSync(path.join(root,dir))){const rel=path.join(dir,name),full=path.join(root,rel);if(fs.statSync(full).isDirectory())scanImports(rel);else if(/\.(js|jsx)$/.test(name)){const text=read(rel),re=/\bfrom\s*["']([^"']+)["']/g;let m;while((m=re.exec(text)))if((m[1].startsWith(".")||m[1].startsWith("@/"))&&!resolveImport(full,m[1]))fail.push(`Unresolved import: ${rel} -> ${m[1]}`)}}}scanImports("src/pages/Reasoning");
 for(const track of ["Quantitative","Verbal"])for(const stage of [1,2,3,4,5,6]){const dir=`src/pages/Reasoning/${track}/Dashboard/Stage${stage}`;if(exists(`${dir}.js`)&&exists(`${dir}/index.js`))fail.push(`Duplicate Next.js route: ${dir}.js and ${dir}/index.js`)}
@@ -16,5 +16,40 @@ function textOnly(q){return q.options.every(o=>typeof o==="string"&&!/[0-9â‚¹$â‚
 const eligible=all.filter(textOnly);const longestCorrect=eligible.filter(q=>{const lens=q.options.map(o=>o.trim().length),max=Math.max(...lens);return q.answer.trim().length===max}).length;const longestRate=eligible.length?longestCorrect/eligible.length:0;if(eligible.length&&(longestRate<0.20||longestRate>0.40))warn.push(`Answer-length audit: longest option is correct in ${(longestRate*100).toFixed(1)}% of eligible text-only questions; target is approximately 30%.`);
 const caseIssues=eligible.filter(q=>{const starts=q.options.map(o=>o.trim()).filter(Boolean).map(o=>/^[a-z]/.test(o));return starts.some(Boolean)&&starts.some(v=>!v)});if(caseIssues.length)warn.push(`Capitalization audit: ${caseIssues.length} text-only questions have mixed lower/upper-case option starts and require review.`);
 const positionCounts=[0,0,0,0];for(const q of all){const i=q.options.indexOf(q.answer);if(i>=0)positionCounts[i]++}if(all.length){const max=Math.max(...positionCounts),min=Math.min(...positionCounts);if(max-min>Math.ceil(all.length*0.20))warn.push(`Answer-position audit: option positions are uneven (${positionCounts.join(", ")}); review for predictable answer placement.`)}
+
+// Stage 3 is delivered through its dedicated calibration layer, so the build
+// validator must audit the delivered set rather than only the legacy bank.
+const stage3CalibrationPath="src/Data/Reasoning/stage3QuestionCalibration.js";
+const stage3QualityPath="src/Data/Reasoning/reasoningOptionQuality.js";
+const activitiesPath="src/Data/Reasoning/activities.js";
+if(exists(stage3CalibrationPath)&&exists(stage3QualityPath)&&exists(activitiesPath)){
+  try{
+    const runtime=new Function(`${clean(read(stage3QualityPath))}\n${clean(read(stage3CalibrationPath))}\n${clean(read(activitiesPath))}\nreturn {getStage3CalibratedQuestions,REASONING_ACTIVITIES};`)();
+    const stage3Activities=(runtime.REASONING_ACTIVITIES||[]).filter(a=>a?.levelId==="L1"&&a?.stageId==="S3");
+    const quantActivities=stage3Activities.filter(a=>a.track==="quantitative");
+    const verbalActivities=stage3Activities.filter(a=>a.track==="verbal");
+    if(stage3Activities.length!==10)fail.push(`Stage 3 activity structure invalid: expected 10 Level 1 activities, found ${stage3Activities.length}.`);
+    if(quantActivities.length!==5||verbalActivities.length!==5)fail.push(`Stage 3 track structure invalid: expected 5 Quantitative and 5 Verbal activities, found ${quantActivities.length} Quantitative and ${verbalActivities.length} Verbal.`);
+    const delivered=[];
+    for(const activity of stage3Activities){
+      let questions=[];
+      try{questions=runtime.getStage3CalibratedQuestions(activity.id)||[]}catch(e){fail.push(`Stage 3 calibration failed for ${activity.id}: ${e.message}`);continue}
+      if(questions.length!==10)fail.push(`Stage 3 ${activity.id}: expected exactly 10 delivered questions, found ${questions.length}.`);
+      const qids=questions.map(q=>q.id);if(new Set(qids).size!==qids.length)fail.push(`Stage 3 ${activity.id}: duplicate delivered question IDs detected.`);
+      for(const q of questions){
+        if(!q.id||q.levelId!=="L1"||q.stageId!=="S3"||q.activityId!==activity.id)fail.push(`Stage 3 malformed mapping/metadata: ${q.id||"unknown"} -> ${activity.id}.`);
+        if(!["computation","computationReasoning","textReasoning"].includes(q.contentMode))fail.push(`Stage 3 ${q.id}: invalid content mode ${q.contentMode||"missing"}.`);
+        if(!q.contentModeLabel||!q.contentModeDescription)fail.push(`Stage 3 ${q.id}: missing learner-facing content-mode metadata.`);
+        if(!Array.isArray(q.options)||q.options.length!==4||new Set(q.options).size!==4||!q.options.includes(q.answer))fail.push(`Stage 3 ${q.id}: invalid or duplicate answer options after calibration.`);
+        if(q.optionQuality?.lengthCueDetected)fail.push(`Stage 3 ${q.id}: unique option-length cue remains after calibration.`);
+      }
+      delivered.push(...questions);
+    }
+    const deliveredIds=delivered.map(q=>q.id);if(delivered.length!==100)fail.push(`Stage 3 delivered question total invalid: expected 100, found ${delivered.length}.`);
+    if(new Set(deliveredIds).size!==deliveredIds.length)fail.push("Stage 3 delivered question IDs are not globally unique.");
+    const badHalf=stage3Activities.filter(a=>!a.id.includes("-EXP-")&&!a.id.includes("-EXT-"));if(badHalf.length)fail.push(`Stage 3 activities missing Explore/Extend ID convention: ${badHalf.map(a=>a.id).join(", ")}`);
+  }catch(e){fail.push(`Stage 3 calibration could not be evaluated by the prebuild validator: ${e.message}`)}
+}
+
 if(warn.length)console.warn("Reasoning assessment-quality audit warnings:\n- "+warn.join("\n- "));
-if(fail.length){console.error("Reasoning build validation failed:\n- "+fail.join("\n- "));process.exit(1)}console.log(`Reasoning build validation passed: required files, imports/routes, syntax, non-empty banks, question structure and stable IDs are valid. Assessment-quality audit reviewed ${eligible.length} text-only questions.`);
+if(fail.length){console.error("Reasoning build validation failed:\n- "+fail.join("\n- "));process.exit(1)}console.log(`Reasoning build validation passed: required files, imports/routes, syntax, non-empty banks, question structure, stable IDs and delivered Stage 3 calibration are valid. Assessment-quality audit reviewed ${eligible.length} text-only questions.`);

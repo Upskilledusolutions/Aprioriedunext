@@ -7,6 +7,34 @@
  */
 const punctuationPattern = /[.!?]+$/;
 
+// Surgical correction for the current Level 1 Stage 3 calibrated set.
+// The source set contains one accidental duplicate distractor (38 appears twice).
+// Correct it before the shared quality audit so the Stage 3 hard validator can
+// enforce the no-duplicate-options rule without introducing a generic content
+// mutation mechanism.
+const STAGE3_OPTION_CORRECTIONS = {
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-generalizing-patterns-09": [
+    ["38", "40"],
+  ],
+};
+
+const applyKnownOptionCorrections = (question) => {
+  const corrections = STAGE3_OPTION_CORRECTIONS[question?.id];
+  if (!corrections || !Array.isArray(question?.options)) return question;
+  let options = question.options.map((option) => String(option ?? ""));
+  for (const [from, to] of corrections) {
+    let replaced = false;
+    options = options.map((option) => {
+      if (!replaced && option.trim() === from) {
+        replaced = true;
+        return to;
+      }
+      return option;
+    });
+  }
+  return { ...question, options };
+};
+
 const normalizeCase = (value) => {
   const text = String(value ?? "").trim();
   if (!text) return text;
@@ -29,14 +57,15 @@ const stableSeed = (id = "") => [...String(id)].reduce((sum, char) => (sum * 31 
 export function prepareReasoningOptions(question) {
   if (!question || !Array.isArray(question.options) || question.options.length < 2) return question;
 
-  const options = question.options.map((option) => String(option ?? "").trim());
-  const correctIndex = options.findIndex((option) => option === String(question.answer ?? "").trim());
-  if (correctIndex < 0) return question;
+  const correctedQuestion = applyKnownOptionCorrections(question);
+  const options = correctedQuestion.options.map((option) => String(option ?? "").trim());
+  const correctIndex = options.findIndex((option) => option === String(correctedQuestion.answer ?? "").trim());
+  if (correctIndex < 0) return correctedQuestion;
 
   const hasTerminalPunctuation = options.some((option) => punctuationPattern.test(option));
   const normalized = options.map((option) => normalizePunctuation(normalizeCase(option), hasTerminalPunctuation));
   const correctedAnswer = normalized[correctIndex];
-  const ordered = rotate(normalized, stableSeed(question.id) % normalized.length);
+  const ordered = rotate(normalized, stableSeed(correctedQuestion.id) % normalized.length);
 
   const lengths = ordered.map((option) => option.length);
   const minLength = Math.min(...lengths);
@@ -47,7 +76,7 @@ export function prepareReasoningOptions(question) {
   const lengthCue = (answerLength === minLength && shortestCount === 1) || (answerLength === maxLength && longestCount === 1);
 
   return {
-    ...question,
+    ...correctedQuestion,
     options: ordered,
     answer: correctedAnswer,
     optionQuality: {
