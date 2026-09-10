@@ -17,7 +17,7 @@ import { getDefaultTimeSeconds } from "../../../Data/Reasoning/questionBank";
 import { getStage1CalibratedQuestions } from "../../../Data/Reasoning/stage1QuestionCalibration";
 import { getMissingStage1ReplacementQuestionsForActivity } from "../../../Data/Reasoning/stage1MissingReplacements";
 import { getStage2CalibratedQuestions } from "../../../Data/Reasoning/stage2QuestionCalibration";
-import { getStage3CalibratedQuestions } from "../../../Data/Reasoning/stage3QuestionCalibration";
+import { getStage3CalibratedQuestions } from "../../../Data/Reasoning/stage3CompleteCalibration";
 import { getStage4QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage4";
 import { getStage5QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage5";
 import { getStage6QuestionsForActivity } from "../../../Data/Reasoning/questionBankStage6";
