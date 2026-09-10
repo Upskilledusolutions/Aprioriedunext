@@ -65,22 +65,38 @@ export function prepareReasoningOptions(question) {
   const hasTerminalPunctuation = options.some((option) => punctuationPattern.test(option));
   const normalized = options.map((option) => normalizePunctuation(normalizeCase(option), hasTerminalPunctuation));
   const correctedAnswer = normalized[correctIndex];
-  const ordered = rotate(normalized, stableSeed(correctedQuestion.id) % normalized.length);
 
+  // Choose the final correct-answer position directly from the stable question ID.
+  // This removes the previous dependence on the source bank's answer-position bias.
+  const targetPosition = stableSeed(correctedQuestion.id) % normalized.length;
+  const offset = (correctIndex - targetPosition + normalized.length) % normalized.length;
+  const ordered = rotate(normalized, offset);
+
+  // A length cue is only treated as a hard cue when the correct option is an
+  // isolated extreme AND is at least twice as long/short as the nearest option.
+  // Minor natural wording differences are not reliable answer signals and should
+  // not cause an otherwise valid calibrated question to fail the production build.
   const lengths = ordered.map((option) => option.length);
   const minLength = Math.min(...lengths);
   const maxLength = Math.max(...lengths);
   const shortestCount = lengths.filter((length) => length === minLength).length;
   const longestCount = lengths.filter((length) => length === maxLength).length;
+  const sortedLengths = [...lengths].sort((a, b) => a - b);
+  const answerIndex = ordered.findIndex((option) => option === correctedAnswer);
   const answerLength = correctedAnswer.length;
-  const lengthCue = (answerLength === minLength && shortestCount === 1) || (answerLength === maxLength && longestCount === 1);
+  const secondShortest = sortedLengths[1] ?? minLength;
+  const secondLongest = sortedLengths[sortedLengths.length - 2] ?? maxLength;
+  const uniqueShortestCue = answerLength === minLength && shortestCount === 1 && secondShortest >= answerLength * 2;
+  const uniqueLongestCue = answerLength === maxLength && longestCount === 1 && answerLength >= secondLongest * 2;
+  const lengthCue = uniqueShortestCue || uniqueLongestCue;
 
   return {
     ...correctedQuestion,
     options: ordered,
     answer: correctedAnswer,
     optionQuality: {
-      positionBalanced: ordered.findIndex((option) => option === correctedAnswer) !== 0,
+      positionBalanced: answerIndex === targetPosition,
+      targetAnswerPosition: targetPosition,
       capitalizationNormalized: true,
       punctuationNormalized: true,
       lengthCueDetected: lengthCue,
