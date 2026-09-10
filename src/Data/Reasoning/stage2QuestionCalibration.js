@@ -36,6 +36,18 @@ function decorate(question) {
   };
 }
 
+function validateSet(activityId, questions) {
+  const ids = new Set();
+  const duplicateIds = questions.filter((question) => ids.has(question.id)).map((question) => question.id);
+  questions.forEach((question) => ids.add(question.id));
+  const invalidAnswers = questions.filter((question) => !question.options.includes(question.answer)).map((question) => question.id);
+  const duplicateOptions = questions.filter((question) => new Set(question.options).size !== question.options.length).map((question) => question.id);
+  if (questions.length !== 10 || duplicateIds.length || invalidAnswers.length || duplicateOptions.length) {
+    throw new Error(`Stage 2 question-set validation failed for ${activityId}: expected 10 unique valid questions.`);
+  }
+  return questions;
+}
+
 export function getStage2CalibratedQuestions(activityId) {
   const elevatedComputation = getStage2ElevatedComputationQuestions(activityId);
   const sourceQuestions = elevatedComputation.length
@@ -45,5 +57,6 @@ export function getStage2CalibratedQuestions(activityId) {
         ...getStage2ExpandedQuestionsForActivity(activityId),
       ];
 
-  return prepareReasoningQuestionSet(sourceQuestions.map(decorate));
+  const prepared = prepareReasoningQuestionSet(sourceQuestions.map(decorate));
+  return validateSet(activityId, prepared);
 }
