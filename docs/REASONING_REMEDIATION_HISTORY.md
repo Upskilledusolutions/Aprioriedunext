@@ -2,9 +2,9 @@
 
 **Project:** Apriori Edu Next / Upskilleduonline  
 **Scope recorded here:** Level 1 Reasoning remediation and Level 2 build progress through the current work session  
-**Last updated:** 2026-09-09
+**Last updated:** 2026-09-10
 
-This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that must govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
+This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
 
 ## Architecture preserved throughout
 
@@ -18,19 +18,37 @@ This document is the chronological remediation record for completed and in-progr
 
 ## Stage 1 — Foundation remediation
 
-### Navigation and activity flow
+### Historical navigation and activity flow
 
 - Quantitative Stage 1 module navigation was added: commit `1cdaf88db4c8e650f7f61798e259f7e9a9313ea3`.
-- Verbal Stage 1 module navigation was added: commit `20e75b7fa534f9c0cef979a0cced75c24cf9ff55`.
+- Verbal Stage 1 module navigation was added: commit `20e75b7fa534f0c9cef979a0cced75c24cf9ff55`.
 - Reasoning activity return navigation was improved: commit `230d0142c81d8219c443a1f63576d562622e5d02`.
 - Reasoning activity navigation styling was corrected: commit `76a7114334523daee95a5478317fba3cd86b93c3`.
 - Stage 1 navigation was subsequently verified/documented: commit `2e34ad0b5be4b2d3242410c02632dd1b6006800c`.
 
-### Question-quality remediation
+### Historical question-quality remediation
 
 - The Stage 1 question bank was restored before quality remediation: commit `ee7b073cb6ab6676e5dfb5944ce75495728a5631`.
 - Stage 1 choice-quality remediation was completed across the core and extension content: commits `282de52975a20ae7934574e09e16372b416009a6`, `7b6336f759f8340a75650caa790cbe3347a4a7fb`, `acdb54b66e906f4f23c2b232337a766654824987`, and `944341e4076fb63aec61e63d8ea2a7a35c36044f`.
 - The permanent Question Quality Standard was applied as the governing assessment-quality rule rather than changing the underlying Reasoning architecture.
+
+### 2026-09-10 current Stage 1 re-audit finding
+
+The earlier remediation record is **not being deleted**, but it is no longer treated as sufficient for current launch verification.
+
+Current source inspection found concrete Stage 1 activity/question mapping defects. Examples in `src/Data/Reasoning/activities.js` include Verbal Stage 1 activities referencing Question Bank IDs with the Quantitative `Q-L1-Q-...` prefix instead of the intended Verbal `Q-L1-V-...` records. The affected mappings include the final question in Main Idea & Details, all three Vocabulary in Context references shown in the current file, all three Basic Argument references shown in the current file, and the final questions in Inference and Comparing Perspectives. These unresolved references can cause missing-question/client-side runtime failures.
+
+The Stage 1 re-audit therefore must begin with runtime/mapping correctness, then apply content-mode labels and grade/difficulty calibration.
+
+### Mandatory Stage 1 recalibration
+
+- Computational Quantitative content currently operates approximately two levels below the intended Level 1 / Grade 3 demand; retain it as foundational material and recalibrate the Level 1 computational standard upward.
+- Quantitative Text-Based Reasoning content currently operates approximately two levels above Level 1; place the same question set two levels higher through Question Bank/activity metadata and mappings, without deleting the existing question records.
+- Verbal content currently operates approximately two levels above Level 1; place the same question set two levels higher through Question Bank/activity metadata and mappings, without deleting the existing question records.
+- Recalculate difficulty metadata to match the corrected placement and reasoning demand.
+- Add content-mode metadata and learner-facing labels for every Stage 1 assessment question.
+
+No architectural change is part of this correction.
 
 ## Shared activity/runtime remediation before Stage 4
 
@@ -40,15 +58,19 @@ This document is the chronological remediation record for completed and in-progr
 - Stage 4–6 shared activity navigation and scoring were completed: commit `2aacd55fa4e1e8691c9d597978192e83cd376516`.
 - Shared activity timeout/module-navigation behavior was finalized, including completion handling when the final question times out: commit `a4dcf59644ec76e869c0184dd46efdb72a472589`.
 
+These historical fixes remain valid unless a current audit identifies a regression.
+
 ## Stage 2 — Advanced Problem Solving / Critical Reading & Argument
 
 - Stage 2 question-quality remediation was completed: commit `229468c0257b6181dd949de8a62fcb017c2c118c`.
 - The remediation followed the permanent quality rules for answer-position balance, answer-length/structural clues, distractor quality, activity alignment and difficulty progression.
+- **Current status:** re-audit required under the 2026-09-10 runtime, content-mode and grade/difficulty calibration rules. No historical completion record is sufficient for current owner verification.
 
 ## Stage 3 — Mathematical Thinking / Analytical & Scholarly Writing
 
 - The Stage 3 question bank was restored and substantively populated for both tracks: commit `1a90523ddcdcbc502729ce1b1d6132911f608d40`.
 - Stage 3 remediation preserved stable IDs and the existing activity/player architecture while balancing answer positions and improving contextual distractors.
+- **Current status:** re-audit required for runtime mappings, content-mode labels and grade/difficulty calibration.
 
 ## Stage 4 — Math Olympiad / Essay Competitions
 
@@ -63,6 +85,7 @@ This document is the chronological remediation record for completed and in-progr
 - Stage 4 question quality, difficulty progression and answer-position distribution were remediated: commit `34a71590b0b75fa2c22841ae3aa0c385f2b51540`.
 - Stage 4 remediation completion was previously recorded: commit `6a654430918f84aa814c017a3f9bdc6e1c2c6584`.
 - **Current boundary:** Stage 4 still requires final structural correction/verification. The current module configuration contains duplicate fifth Extend activity references: Quantitative repeats `Q-L1-S4-EXT-olympiad-reasoning`, while Verbal repeats `V-L1-S4-EXT-counterarguments`. The current Stage 4 activity file contains only four distinct Extend activities in each track, so the fifth module entries require proper resolution/removal/restoration rather than treating the count as complete.
+- **Current status:** re-audit also required for content-mode labels and grade/difficulty calibration.
 
 ## Build-integrity incident and permanent prevention rules — 2026-09-09
 
@@ -83,8 +106,6 @@ The following safeguards are mandatory for all future Reasoning work:
 9. **Stage completion is never inferred from a successful commit alone.** Structural correctness, deployment readiness, runtime behavior and owner verification remain separate acceptance criteria.
 10. **These safeguards apply to every future Reasoning level and stage.** They are process controls intended specifically to prevent repetition of today’s syntax, path and validation failures.
 
-The purpose of these rules is to reduce avoidable Vercel builds, protect the build-rate budget, and make each deployment attempt a deliberate verification step rather than part of the debugging loop.
-
 ## Stage 5 — Proof & Advanced Mathematics / Research Skills
 
 - Stage 5 retained the existing 20 activity groups and four-question structure: 10 Quantitative and 10 Verbal, split evenly between Explore and Extend.
@@ -95,7 +116,7 @@ The purpose of these rules is to reduce avoidable Vercel builds, protect the bui
 - Existing timing was retained: 55 seconds for Core questions and 65 seconds for Stretch/Advanced questions.
 - The shared player, timing, scoring, timeout and completion architecture was preserved.
 - **Build status:** Build work is complete.
-- **Verification status:** Pending verification by the project owner. Stage 5 must not be marked verified/complete until the owner confirms the deployed behavior.
+- **Verification status:** Pending verification by the project owner, with current re-audit also required for runtime safety, content-mode labeling and grade/difficulty calibration.
 
 ## Stage 6 — Mathematical Research / Research Writing & Publication
 
@@ -108,8 +129,7 @@ The purpose of these rules is to reduce avoidable Vercel builds, protect the bui
 - Stage 6 was committed directly to `main`: commit `3e49c5c4904d7f2a4b4c52cb451fdfb2f05aa5ba`.
 - The shared activity player was preserved and continues to provide the common execution, scoring, timeout, completion and navigation behavior.
 - **Build status:** Build work is complete.
-- **Verification status:** Pending verification by the project owner.
-- An earlier commit recorded Stage 6 as verified, but that historical record has been superseded. The current authoritative state is build-complete, owner verification pending. Stage 6 must not be marked owner-verified until the project owner explicitly confirms verification.
+- **Verification status:** Pending verification by the project owner, with current re-audit also required for runtime safety, content-mode labeling and grade/difficulty calibration.
 
 ## Level 2 — current work completed to date
 
@@ -142,22 +162,13 @@ The Stage 1 build progressed through the following discrete implementation miles
 - Associated prebuild/validator remediation was committed in `f8dae4a1c4c0351669d8d419bf61950929db3a02`.
 - Latest Level 1 Stage 4 mapping attempt is `a0c549b91523862291e7ce4b09d23cef4741f0b9`; it did not yet resolve the duplicate fifth Extend references.
 
-### Level 2 current resume point
+### Current resume boundary
 
-**Tomorrow, resume from Level 2 Stage 1 with validation-first discipline.** Before any further deployment-triggering commit:
-
-1. run the complete prebuild validation against the exact Level 2 changes;
-2. verify all Level 2 imports/paths and route references against the repository structure;
-3. verify question-bank syntax, unique IDs, answer structure and activity mappings;
-4. verify that Vercel is evaluating the intended `main` commit before treating a deployment as a test;
-5. avoid speculative commits while the build-rate limit is active;
-6. continue Level 2 Stage 1 implementation only after the above checks pass.
-
-**Stage 5 and Stage 6 are not to be recorded as owner-verified until the project owner has personally tested them. No Stage 5 or later documentation should be promoted to verified status without that explicit confirmation.**
+Level 2 work is paused while Level 1 undergoes the new systematic runtime/content/difficulty audit. Existing Level 2 changes are preserved and will resume after the Level 1 foundation passes owner verification.
 
 ## Level 1 verification boundary
 
-Level 1 build work through Stage 6 exists, but verification status is deliberately separated from implementation status. A build being committed, or even reaching a successful deployment, does not by itself establish owner verification.
+Level 1 implementation history remains intact, but current verification status is deliberately reset to a re-audit boundary. A build being committed, or even reaching a successful deployment, does not by itself establish owner verification.
 
 ## Acceptance standard
 
@@ -169,6 +180,8 @@ A stage is not treated as remediated merely because the number of question recor
 - reduced answer-length and formatting/capitalization clues;
 - plausible, reasoning-based distractors;
 - stable question IDs and correct activity mappings;
+- correct content-mode classification and learner-facing label;
+- grade-appropriate placement and recalibrated difficulty;
 - preserved navigation, timing, scoring, completion and progress architecture;
 - successful prebuild structural validation before deployment;
 - successful deployment of the exact commit being verified;
@@ -176,4 +189,4 @@ A stage is not treated as remediated merely because the number of question recor
 
 ## Next development scope
 
-Level 2 Stage 1 is the active development scope. Continue without changing the Level 1 curriculum, shared account architecture or Foreign Languages product.
+**Pending owner approval:** Level 1 Stage 1 full remediation and calibration as one coherent, fully prevalidated deployment-triggering change set. No implementation should be recorded as completed until the owner verifies it.
