@@ -113,7 +113,7 @@ const STAGE3_MISSING_LENGTH_REWRITES = {
   "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-04": [
     [
       "Qualify the claims, explain the study's limitations and keep conclusions proportional to the evidence",
-      "Qualify the claims and keep them proportional to the study evidence",
+      "Qualify the claims and match conclusions to the evidence",
     ],
   ],
   "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-06": [
