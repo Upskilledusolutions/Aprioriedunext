@@ -2,6 +2,18 @@
 
 This file records important project and architecture changes in simple language.
 
+## 2026-09-18
+
+### Stage 1–3 re-audit and approved remediation roadmap
+
+- Re-audited the current learner-facing Reasoning experience for Level 1 Stages 1–3.
+- Confirmed that Verbal questions across Stages 1–3 can still expose the correct answer through conspicuous answer length, especially when the correct option is uniquely longest.
+- Confirmed that Stage 2 has both Explore and Extend data but its dashboard does not present them in the same separated Explore-first / Extend-second structure used by Stage 1.
+- Confirmed that Stage 3 has both Explore and Extend data, but its current learner-facing presentation treats modules as Explore and its individual module pages lack Previous/Next navigation.
+- Recorded the already-completed Stage 2 Previous/Next navigation commit: `ff9a16234066517269c642b6f81fa5356e1c418f`.
+- Approved the focused implementation order: Verbal answer-quality correction across Stages 1–3 → Stage 2 Explore/Extend presentation → Stage 2 owner verification → Stage 3 Explore/Extend presentation/navigation → Stage 3 owner verification → focused Stages 1–3 quick check.
+- No application-code changes were made in this documentation update, and Stages 1–3 remain UNVERIFIED.
+
 ## 2026-09-08
 
 ### Reasoning Stage 1 lesson integration — verified

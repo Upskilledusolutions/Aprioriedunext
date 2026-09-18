@@ -2,7 +2,7 @@
 
 **Project:** Apriori Edu Next / Upskilleduonline  
 **Scope recorded here:** Level 1 Reasoning remediation and Level 2 build progress through the current work session  
-**Last updated:** 2026-09-10
+**Last updated:** 2026-09-18
 
 This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
 
@@ -15,6 +15,25 @@ This document is the chronological remediation record for completed and in-progr
 - The shared activity player remains the common execution layer for timing, scoring, feedback, completion, navigation and progress.
 - Reasoning progress remains separate from Foreign Languages progress.
 - No Foreign Languages architecture or content was changed as part of this remediation sequence.
+
+## 2026-09-18 — Stages 1–3 re-audit and approved corrective roadmap
+
+The project owner approved a focused remediation sequence after rechecking the current Level 1 Stages 1–3 learner-facing experience.
+
+### Confirmed findings
+
+- **Verbal answer quality, Stages 1–3:** the correct answer can still be a conspicuously longest option in delivered Verbal questions. Existing option-quality handling does not reliably remove this content cue.
+- **Stage 2 presentation:** both Explore and Extend modules/activities exist in the data, but the Stage 2 dashboards do not present them as separate **Explore first → Extend** sections like Stage 1. Previous/Next module navigation was already added in `ff9a16234066517269c642b6f81fa5356e1c418f`.
+- **Stage 3 presentation/navigation:** both Explore and Extend content exists in the data, but the learner-facing dashboard/module presentation treats modules as Explore instead of exposing the two halves correctly, and Stage 3 individual module pages do not provide Previous/Next module navigation.
+
+### Approved implementation order
+
+1. Re-author the affected delivered Verbal questions across Stages 1–3 and add a reliable pre-deployment answer-quality check.
+2. Correct Stage 2 Explore/Extend dashboard presentation only; preserve existing data, IDs, player and progress architecture. Deploy and obtain owner verification.
+3. Correct Stage 3 Explore/Extend presentation and add Previous/Next module navigation. Deploy and obtain owner verification.
+4. Run the focused Stages 1–3 quick-check checkpoint after Stage 2 and Stage 3 have each been owner-verified.
+
+No Stage 1–3 stage is marked verified by this roadmap. The existing implementation/remediation history remains valid and is not to be repeated unless live verification exposes a specific defect.
 
 ## Stage 1 — Foundation remediation
 
@@ -164,7 +183,11 @@ The Stage 1 build progressed through the following discrete implementation miles
 
 ### Current resume boundary
 
-Level 2 work is paused while Level 1 undergoes the new systematic runtime/content/difficulty audit. Existing Level 2 changes are preserved and will resume after the Level 1 foundation passes owner verification.
+Level 2 work remains paused while the approved Level 1 Stages 1–3 corrective sequence and live owner-verification gate are completed. Existing Level 2 changes are preserved and will resume after the Level 1 foundation passes owner verification.
+
+### Current next action
+
+Implement the approved Stages 1–3 sequence in order: Verbal answer-quality correction → Stage 2 Explore/Extend presentation → Stage 2 owner verification → Stage 3 Explore/Extend presentation/navigation → Stage 3 owner verification → focused Stages 1–3 quick check.
 
 ## Level 1 verification boundary
 
@@ -189,4 +212,4 @@ A stage is not treated as remediated merely because the number of question recor
 
 ## Next development scope
 
-**Pending owner approval:** Level 1 Stage 1 full remediation and calibration as one coherent, fully prevalidated deployment-triggering change set. No implementation should be recorded as completed until the owner verifies it.
+**Approved — implementation pending:** complete the focused Stages 1–3 corrective sequence recorded on 2026-09-18. No new stage implementation proceeds beyond the existing verification boundary until Stages 1–3 pass live owner verification.
