@@ -1,6 +1,6 @@
 # Reasoning Level 1 Stages 1–3 Verification Record
 
-**Last updated:** 2026-09-10
+**Last updated:** 2026-09-18
 
 ## Purpose
 
@@ -14,6 +14,16 @@ Implementation and remediation work has been completed to the current build boun
 
 A successful GitHub commit, successful build, or Vercel deployment marked Ready proves build/deployment success only. It does not prove that every learner-facing activity is present, usable, correctly mapped, correctly calibrated, or free of runtime defects.
 
+## 2026-09-18 re-audit findings and approved correction sequence
+
+- The Verbal correct answer can still be conspicuously longest in delivered questions across Stages 1–3. This must be corrected at content level and protected by a pre-deployment quality check.
+- Stage 2 already contains Explore and Extend curriculum data, but its dashboard presentation does not separate the two halves as Stage 1 does. Previous/Next module navigation is already implemented in `ff9a16234066517269c642b6f81fa5356e1c418f`.
+- Stage 3 already contains Explore and Extend curriculum data, but the current learner-facing presentation hard-codes Explore treatment and its module pages lack Previous/Next navigation.
+
+**Approved order:** Verbal answer-quality correction → Stage 2 Explore/Extend presentation → Stage 2 live owner verification → Stage 3 Explore/Extend presentation/navigation → Stage 3 live owner verification → focused Stages 1–3 quick check.
+
+This record does not mark any stage verified.
+
 ## Stage 1 — Foundation
 
 ### Implementation/remediation recorded
@@ -24,6 +34,7 @@ A successful GitHub commit, successful build, or Vercel deployment marked Ready 
 - Stage 1 computational and Computation + Reasoning delivery was subsequently elevated two additional difficulty levels above the prior recalibrated baseline.
 - A dedicated elevated delivery bank was used for the affected computation activities, with exactly 10 questions per activity and substantive reasoning demand.
 - Learner-facing Grade labels were removed; grade remains internal calibration/reference data.
+- **Current re-audit finding:** delivered Verbal questions can still leave the correct answer as a conspicuously longest option. This remains a required corrective item before Stage 1 formal verification.
 
 ### Verification required
 
@@ -51,9 +62,13 @@ Verify on production:
 - The remediation addressed answer-position balance, answer-length/structural clues, distractor quality, activity alignment and difficulty progression.
 - Current project standards subsequently require a fresh runtime/content-mode/grade-difficulty audit rather than relying on the historical remediation record.
 
+### Current corrective item
+
+The Stage 2 dashboard must be changed to present the existing Explore and Extend content as separate **Explore first → Extend** sections, matching the Stage 1 learner-facing pattern. Existing module/activity data, IDs, player behavior, progress and the already-added Previous/Next navigation remain unchanged.
+
 ### Verification required
 
-Verify on production the complete Stage 2 Quantitative and Verbal experience, including mappings, exactly-10-question activity delivery, substantive question quality, content-mode labels, calibration, Explore/Extend progression, answers/explanations, timing, navigation, scoring, completion, progress and runtime errors.
+Verify on production the complete Stage 2 Quantitative and Verbal experience, including mappings, exactly-10-question activity delivery, substantive question quality, content-mode labels, calibration, Explore/Extend progression and presentation, answers/explanations, timing, navigation, scoring, completion, progress and runtime errors.
 
 **Status: UNVERIFIED.**
 
@@ -86,30 +101,32 @@ The Stage 3 failure sequence had previously caused five Verbal Explore activitie
 
 The latest Stage 3 deployment is Ready.
 
+### Current corrective item
+
+Stage 3 must expose the existing Explore and Extend curriculum correctly instead of treating the modules as Explore-only, and the individual module pages must gain Previous/Next module navigation. Question content is unchanged by this presentation fix unless the separate Verbal answer-quality audit identifies a specific content defect.
+
 ### Verification required
 
-Verify on production, especially the previously missing **Mathematical Justification** and the other Stage 3 Extend activities. Confirm complete activity visibility and usability, exactly 10 substantive questions per activity, correct mappings, content-mode labels, actual difficulty/progression, answers/explanations, timing, navigation, scoring, completion/progress and absence of client-side errors.
+Verify on production, especially the previously missing **Mathematical Justification** and the other Stage 3 Extend activities. Confirm complete activity visibility and usability, exactly 10 substantive questions per activity, correct mappings, Explore/Extend presentation, content-mode labels, actual difficulty/progression, answers/explanations, timing, Previous/Next navigation, scoring, completion/progress and absence of client-side errors.
 
 **Status: UNVERIFIED.**
 
 ## Resume rule
 
-When the next Reasoning build session starts, the first project-status statement must be:
+When the next Reasoning build session starts, remind the project owner that **Level 1 Stages 1–3 are implemented but unverified**.
 
-> **Level 1 Stages 1–3 are implemented but unverified. Verify Stages 1–3 on the live production website before starting new stage implementation.**
-
-Do not redo Stage 1–3 implementation merely because verification is pending. If live verification exposes a defect, make only the targeted fix required by the observed defect, then redeploy and reverify that affected stage.
+The approved corrective work already recorded in this document may proceed before that verification gate is complete. However, **no new stage implementation** proceeds beyond the Stages 1–3 boundary until the required live-production verification is completed. Do not redo completed Stage 1–3 work merely because verification is pending. If live verification exposes a defect after these corrections, make only the targeted fix required by the observed defect, then redeploy and reverify the affected stage.
 
 ## Deployment-efficiency rule carried forward
 
-For future stages:
+For each approved corrective deployment:
 
-1. Inspect the stage and its existing mappings/question bank first.
-2. Run repository/static validation before any deployment-triggering commit.
-3. Group related fixes into one coherent, prevalidated stage-level change whenever safe.
+1. Inspect the exact affected delivery/UI paths first.
+2. Run repository/static validation before the deployment-triggering commit.
+3. Group only the coherent approved fix into the deployment.
 4. Deploy once.
 5. Verify the exact deployed commit on Vercel.
-6. Perform live owner verification.
-7. Only then proceed to the next stage.
+6. Perform the required live owner verification.
+7. Proceed to the next approved corrective step only after verification.
 
 This record deliberately does not mark Stages 1–3 as verified.
