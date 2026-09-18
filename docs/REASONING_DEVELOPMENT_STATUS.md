@@ -1,6 +1,6 @@
 # Reasoning Development Status
 
-Last updated: 2026-09-10
+Last updated: 2026-09-18
 
 ## Current status
 
@@ -11,6 +11,17 @@ Reasoning is being developed through a focused stage-by-stage audit and remediat
 The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is introduced for curriculum remediations.
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
+
+## Verification cadence
+
+Owner verification is deliberately split into two levels:
+
+- **Quick check after every three live stages:** after Stages 1–3, again after Stages 4–6, and again after Stages 7–9 are live, perform a focused production check of navigation, module visibility, activity launch, core scoring/progress flow and obvious runtime errors. This is a checkpoint, not a substitute for the full quality audit.
+- **Comprehensive quality check after all nine stages are live:** once all nine stages are live, perform the full end-to-end quality audit across all stages, both tracks, modules, activities and question delivery against every acceptance criterion in this document.
+
+### Current verification note
+
+The project owner has performed a **quick functional check of Stage 1** and reported that it is functioning as expected. This was **not a comprehensive quality check**. The comprehensive quality check is intentionally deferred until all nine stages are live. Stages 1–3 therefore remain unverified for formal completion purposes until the required production verification checkpoint is completed.
 
 ## Mandatory quality requirements
 
@@ -125,7 +136,7 @@ The owner must verify Stage 3 on the live production website, including the prev
 
 ## Level 1 · Stages 1–3 verification boundary
 
-Stages 1, 2 and 3 are now explicitly grouped under a **live-production owner-verification gate**. Until the owner confirms all three stages are functioning correctly on production:
+Stages 1, 2 and 3 are now explicitly grouped under a **live-production owner-verification gate**. The Stage 1 quick check noted above does not complete this gate. Until the owner confirms all three stages are functioning correctly on production:
 
 - do not mark any of Stages 1–3 as verified;
 - do not record them as fully complete;
