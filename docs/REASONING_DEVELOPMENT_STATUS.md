@@ -221,3 +221,36 @@ These remain separate from the current frontend curriculum build and should be i
 Question count, substantive variety, activity alignment, content-mode classification, actual difficulty progression, grade alignment, assessment integrity, runtime safety and deployment verification are separate acceptance criteria.
 
 A stage is not considered complete merely because it has the required number of question records, because a commit exists, or because a Vercel deployment is Ready. **Owner live-production verification is a separate mandatory acceptance criterion.**
+
+## 2026-09-21 — Reasoning question-bank architecture foundation
+
+A new controlled question-content architecture was introduced around the existing Reasoning curriculum without changing the player or current Level/Stage/Module/Activity structure.
+
+### Audit result
+
+The repository currently contains:
+
+- a base Reasoning bank in `src/Data/Reasoning/questionBank.js`;
+- separate Stage 1 extension/remediation/Verbal and expansion banks;
+- dedicated Stage 2, Stage 3, Stage 4, Stage 5 and Stage 6 JavaScript banks;
+- Level 2 Stage 1 content;
+- separate elevated/calibration layers, including Stage 1, Stage 2 and Stage 3 delivery/calibration files;
+- explicit Activity mappings in `src/Data/Reasoning/activities.js` plus stage-specific Activity/Module files;
+- existing exact-10 and question-quality prebuild validation in `scripts/validateReasoningBuild.js`;
+- existing shared activity execution pages and Reasoning progress utilities.
+
+The current banks are JavaScript source pools rather than a dedicated human-editable Stage-document → canonical-record pipeline. Calibration is also currently distributed across stage-specific resolvers and remediation/elevated banks. There is no permanent canonical schema, editable Stage-bank format, synchronization/fingerprint drift gate, canonical provenance/lifecycle model, or round-trip test layer.
+
+### Implemented foundation
+
+- Added `src/Data/Reasoning/canonicalQuestionSchema.js` with the target canonical field contract and placement-aware validation primitives.
+- Added the permanent specification `docs/REASONING-HUMAN-EDITABLE-CANONICAL-QUESTION-BANK-SPEC.md`.
+- Added the operational workflow `docs/REASONING-QUESTION-BANK-CONTENT-MAINTENANCE.md`.
+- Added the human-editable Stage-bank directory contract under `content/Reasoning/question-banks/stages/` without copying or rewriting existing question content.
+- Updated the permanent product architecture document to show the new content layer inside the existing Reasoning hierarchy.
+
+### Current implementation boundary
+
+This commit defines the schema and authoring contract only. Existing JavaScript banks and calibration/delivery paths remain in place and are not silently switched to an unpopulated canonical bank. The next implementation step is the deterministic Stage-document synchronization layer, followed by drift detection and canonical validation tests.
+
+The existing Level 1 Stages 1–3 live-production verification gate remains unchanged and is independent of this architecture work. This architecture foundation does not mark any Reasoning stage verified or complete.

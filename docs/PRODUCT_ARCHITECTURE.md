@@ -360,3 +360,28 @@ The architecture is successful when:
 12. Product-specific progress and gamification do not leak across products.
 13. Permanent Reasoning data is backed by verified backend support when required.
 14. Future development can add either product without unnecessarily destabilizing the other.
+
+
+## 7A. Reasoning human-editable / canonical question architecture
+
+The existing Reasoning learning hierarchy remains unchanged. A controlled content layer is inserted between Activity ID resolution and calibration/delivery:
+
+```
+Level → Stage → Module → Activity ID
+                         ↓
+              Human-Editable Stage Bank
+                         ↓
+             Synchronization / Validation
+                         ↓
+                Canonical Question Records
+                         ↓
+                Calibration / Delivery
+                         ↓
+                 10-Question Set
+                         ↓
+                 Shared Activity Player
+```
+
+For migrated content, the human-editable Stage bank is the preferred editing surface and the canonical record is the validated runtime authority. Existing JavaScript question banks remain controlled source pools during the gradual migration. This layer does not replace the current player, module architecture, progress architecture or Activity IDs.
+
+The permanent specification is `docs/REASONING-HUMAN-EDITABLE-CANONICAL-QUESTION-BANK-SPEC.md`. Operational editing/release rules are defined in `docs/REASONING-QUESTION-BANK-CONTENT-MAINTENANCE.md`.
