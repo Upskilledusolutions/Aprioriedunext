@@ -167,6 +167,12 @@ The Question Bank should nevertheless allow an activity to optionally reference:
 
 These references must be optional so standard lessons and questions remain functional without external services. The integration mechanism should be added when needed rather than forcing an immediate API dependency.
 
+## Reasoning canonical content schema status
+
+The Reasoning frontend now has a canonical **content-record contract** in `src/Data/Reasoning/canonicalQuestionSchema.js`. This is an application/content schema, not a backend database schema. It governs the editable Stage-bank → canonical-record pipeline and does not establish a permanent persistence/API contract.
+
+Existing JavaScript Reasoning banks remain controlled source pools during migration. The canonical schema is not a runtime cutover by itself.
+
 ## Technical schema status
 
 A final database schema has **not** been approved yet.

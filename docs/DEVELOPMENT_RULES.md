@@ -243,7 +243,15 @@ Do not invent a database schema, API contract or architecture just to fill docum
 
 If something has not been verified, label it as **To Be Verified**.
 
-## 19. Zero-cost development preference
+## 19. Reasoning question-bank migration rule
+
+For migrated Reasoning content, use the human-editable Stage document as the preferred editing surface and the validated canonical record as the runtime authority. Existing JavaScript Reasoning banks remain controlled source pools until their content is deliberately migrated and verified.
+
+Do not interpret migration as a request to rewrite question content. A migration transformation may normalize representation while preserving Question IDs, meaning, answers, explanations, timing, difficulty, placement metadata and figures. Content-quality changes remain subject to the separate Reasoning Question Quality Standard.
+
+The migration sequence is infrastructure-first: schema → synchronization → drift/validation → round-trip → per-Stage migration → canonical runtime integration. The existing Level 1 Stages 1–3 live-production verification gate remains in force; architecture infrastructure must not be used to bypass it.
+
+## 20. Zero-cost development preference
 
 During validation, prefer the existing infrastructure and free tiers. Do not add paid services unless there is a clear business or technical reason.
 
