@@ -2,7 +2,7 @@
 
 **Project:** Apriori Edu Next / Upskilleduonline  
 **Scope recorded here:** Level 1 Reasoning remediation and Level 2 build progress through the current work session  
-**Last updated:** 2026-09-18
+**Last updated:** 2026-09-21
 
 This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
 
@@ -34,6 +34,24 @@ The project owner approved a focused remediation sequence after rechecking the c
 4. Run the focused Stages 1–3 quick-check checkpoint after Stage 2 and Stage 3 have each been owner-verified.
 
 No Stage 1–3 stage is marked verified by this roadmap. The existing implementation/remediation history remains valid and is not to be repeated unless live verification exposes a specific defect.
+
+## 2026-09-21 — Stages 1–3 Verbal answer-quality correction implemented
+
+The approved first corrective step has been implemented and source-level prevalidated.
+
+- Reauthored conspicuous correct-answer length cues in the actual delivered Level 1 Verbal sets for Stages 1–3.
+- Restored two Stage 2 Verbal questions that had incomplete two-option sets to four substantive options.
+- Corrected Stage 1 Verbal answer matching after case normalization so answers remain aligned with normalized options.
+- Extended `scripts/validateReasoningBuild.js` to preflight the actual Stage 1 and Stage 2 Verbal delivery paths and the existing Stage 3 authoritative path for exact-10 delivery, four unique options, valid answers/content-mode metadata and conspicuous length cues.
+- Preserved the existing Reasoning architecture, question IDs, shared activity player, progress model and Foreign Languages product.
+
+**Source-level verification:** all 23 Level 1 Verbal activities across Stages 1–3 return 10 questions; Stage 2 Verbal activities return four-option sets; no tested conspicuous length cue remains under the established project threshold.
+
+**Production/owner verification:** pending. This corrective step does not mark Stages 1–3 verified.
+
+### Next action
+
+Deploy the approved correction, verify the deployed commit on Vercel, then complete the required owner verification of the affected Stage 1–3 experience. After Stage 2 owner verification, proceed to the approved Stage 2 Explore/Extend presentation correction.
 
 ## Stage 1 — Foundation remediation
 
