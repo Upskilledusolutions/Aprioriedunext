@@ -14,6 +14,11 @@ export const REASONING_CONTENT_MODES = new Set([
   "textReasoning",
   "computationReasoning",
 ]);
+export const REASONING_QUESTION_TYPES = new Set([
+  "multiple_choice",
+  "short_answer",
+  "true_false",
+]);
 export const REASONING_STATUSES = new Set([
   "draft",
   "review",
@@ -67,6 +72,9 @@ export function assertCanonicalQuestion(question, context = {}) {
   }
   if (question.status !== undefined && !REASONING_STATUSES.has(question.status)) {
     errors.push(`Invalid status: ${question.status}`);
+  }
+  if (question.questionType !== undefined && !REASONING_QUESTION_TYPES.has(question.questionType)) {
+    errors.push(`Invalid questionType: ${question.questionType}`);
   }
 
   if (question.levelId !== undefined && !/^L[1-9]$/.test(question.levelId)) {
