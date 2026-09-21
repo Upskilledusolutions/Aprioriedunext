@@ -112,11 +112,27 @@ The document contains:
 
 - `schemaVersion`
 - `bankId`
-- `track`
 - `levelId`
 - `stageId`
 - `version`
+- `tracks[]` — normally `quantitative` and `verbal`
 - `questions[]`
+
+There is one editable document per **Level + Stage**, not one per track. This preserves the preferred one-document-per-Stage workflow while allowing the same Stage number to contain both Reasoning tracks. The `track` field remains mandatory on each individual question, and each question must resolve to the correct Activity.
+
+Example:
+
+```json
+{
+  "schemaVersion": "1.0",
+  "bankId": "reasoning-L1-S1",
+  "levelId": "L1",
+  "stageId": "S1",
+  "version": 1,
+  "tracks": ["quantitative", "verbal"],
+  "questions": []
+}
+```
 
 Each question is an explicit object using the canonical field names. The format is intentionally plain JSON so it can be edited without JavaScript knowledge, imported/exported deterministically, diffed in Git, and validated without adding a YAML dependency.
 
@@ -312,7 +328,59 @@ The normalized reconstructed representation must be semantically equivalent to t
 
 Round-trip validation is a build/test concern, not a learner-facing feature.
 
-## 15. Migration strategy
+## 15. Milestones, checkpoints and migration gates
+
+The architecture is implemented through controlled milestones rather than a runtime cutover:
+
+### Milestone M0 — Repository audit
+
+Confirm existing banks, schemas, Activity mappings, calibration/delivery paths, shared player expectations, remediation/expansion banks and documentation. **Completed 2026-09-21.**
+
+### Milestone M1 — Canonical architecture foundation
+
+Define the canonical schema, editable Stage document contract, stable-ID rules and architecture/source-of-truth documentation. **Completed 2026-09-21.**
+
+### Checkpoint C1 — Foundation integrity gate
+
+Before synchronization is introduced:
+
+- canonical schema syntax is included in the Reasoning prebuild validation;
+- current JavaScript banks remain untouched;
+- current Activity mappings remain authoritative;
+- current calibration/delivery remains the runtime path;
+- shared player and progress architecture remain unchanged.
+
+### Milestone M2 — Synchronization
+
+Build deterministic editable Stage JSON → canonical records generation. No existing learner-facing runtime path is switched as part of this milestone.
+
+### Checkpoint C2 — Synchronization integrity gate
+
+Require valid editable input, deterministic output, stable IDs, correct mapping, provenance/fingerprint generation and failed-release behavior for invalid input.
+
+### Milestone M3 — Drift detection and canonical validation
+
+Add stale-output detection, canonical validation and round-trip reconstruction tests.
+
+### Checkpoint C3 — Canonical integrity gate
+
+A migrated Stage cannot proceed to runtime integration unless synchronization, drift, mapping, schema, quality and round-trip checks all pass.
+
+### Milestone M4 — Per-Stage migration
+
+Migrate one existing Stage at a time, preserving existing Question IDs and legacy JavaScript source pools. The migrated Stage becomes canonical-runtime-authoritative only after its canonical delivery path is validated.
+
+### Checkpoint C4 — Runtime migration gate
+
+Calibration for a migrated Stage may consume canonical records only after the canonical path reproduces the required Activity delivery contract without changing the shared player contract. The legacy JavaScript bank remains preserved as a controlled fallback/source pool during verification.
+
+### Milestone M5 — Gradual legacy retirement
+
+Only after migrated content has been verified and historical dependencies are no longer required may legacy source pools be considered for retirement. Deletion is a separate deliberate decision, never an automatic consequence of migration.
+
+The existing Level 1 Stages 1–3 live-production verification gate remains independent. Architecture infrastructure may be developed without changing or implementing a new stage; **runtime migration of curriculum content and new stage implementation remain subject to the existing verification boundary.**
+
+## 16. Migration strategy
 
 Migration is gradual.
 
@@ -328,7 +396,7 @@ Phase 5: retain legacy JavaScript banks as controlled source pools until the mig
 
 No legacy bank is deleted merely because a canonical representation exists.
 
-## 16. Production safety
+## 17. Production safety
 
 A question-bank change is not production-ready until:
 
@@ -344,7 +412,7 @@ A question-bank change is not production-ready until:
 
 Failed validation must stop the release rather than producing partial canonical output.
 
-## 17. Current migration boundary
+## 18. Current migration boundary
 
 At introduction of this specification, existing Reasoning JavaScript banks remain the controlled source pools:
 
@@ -360,7 +428,7 @@ At introduction of this specification, existing Reasoning JavaScript banks remai
 
 No existing question content is rewritten by this architectural introduction.
 
-## 18. Source-of-truth hierarchy
+## 19. Source-of-truth hierarchy
 
 During migration:
 

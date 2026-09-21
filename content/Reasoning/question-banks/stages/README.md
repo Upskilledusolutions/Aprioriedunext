@@ -14,13 +14,15 @@ The document must contain:
 {
   "schemaVersion": "1.0",
   "bankId": "reasoning-L1-S1",
-  "track": "quantitative",
   "levelId": "L1",
   "stageId": "S1",
   "version": 1,
+  "tracks": ["quantitative", "verbal"],
   "questions": []
 }
 ```
+
+The document covers both tracks for the same Level + Stage. Each individual question carries its own `track` field.
 
 Each question object uses the canonical field names defined in:
 

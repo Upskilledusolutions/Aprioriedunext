@@ -16,6 +16,16 @@ This file records important project and architecture changes in simple language.
 
 ## 2026-09-21
 
+### Reasoning human-editable / canonical question-bank architecture foundation
+
+- Audited the existing Reasoning question banks, remediation/expansion/calibration layers, Activity mappings, shared player and prebuild validation.
+- Defined the permanent canonical question schema and human-editable Stage-document contract.
+- Added synchronization/drift/validation/round-trip milestones without switching existing runtime delivery.
+- Established explicit migration gates so existing JavaScript banks remain controlled source pools until a Stage is deliberately migrated and verified.
+- Updated architecture and operational documentation so question-bank infrastructure is tracked separately from the existing Level 1 Stages 1–3 live-production verification gate.
+- No existing Reasoning question content, Activity IDs, player behavior or progress architecture was changed.
+
+
 ### Level 1 Stages 1–3 Verbal answer-quality correction — implemented, production verification pending
 
 - Reauthored conspicuous correct-answer length cues across the actual delivered Verbal question sets in Stages 1–3.

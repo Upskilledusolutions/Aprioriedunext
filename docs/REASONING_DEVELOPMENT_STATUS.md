@@ -30,6 +30,25 @@ Owner verification is deliberately split into two levels:
 - **Quick check after every three live stages:** after Stages 1–3, again after Stages 4–6, and again after Stages 7–9 are live, perform a focused production check of navigation, module visibility, activity launch, core scoring/progress flow and obvious runtime errors. This is a checkpoint, not a substitute for the full quality audit.
 - **Comprehensive quality check after all nine stages are live:** once all nine stages are live, perform the full end-to-end quality audit across all stages, both tracks, modules, activities and question delivery against every acceptance criterion in this document.
 
+## Question-bank architecture milestones and gates
+
+The architecture roadmap is now tracked separately from curriculum-stage verification so the two workstreams cannot be confused.
+
+| Milestone / gate | State | Requirement before next step |
+|---|---|---|
+| M0 Repository audit | **Complete** | Current banks, mappings, calibration, player and documentation audited |
+| M1 Canonical schema + editable-bank contract | **Complete** | Schema and authoring rules documented; no runtime cutover |
+| C1 Foundation integrity | **Recorded** | Canonical schema must remain covered by prebuild validation; legacy runtime preserved |
+| M2 Editable → canonical synchronization | **Next** | Deterministic generation only; no runtime switch yet |
+| C2 Synchronization integrity | **Pending** | Mapping, provenance/fingerprint, stable IDs and fail-closed behavior |
+| M3 Drift + canonical validation + round-trip | **Pending** | Editable/canonical equivalence established |
+| C3 Canonical integrity | **Pending** | Full canonical path passes before any Stage migration |
+| M4 One-Stage migration | **Pending** | Preserve legacy JS source pool and existing Activity/player contracts |
+| C4 Runtime migration gate | **Pending** | Canonical delivery reproduces valid Activity sets before cutover |
+| M5 Gradual legacy retirement | **Pending** | Separate decision after migrated content is verified |
+
+**Important separation:** these architecture milestones do not change the existing Level 1 Stages 1–3 live-production verification gate. The architecture work may establish reusable infrastructure; new curriculum-stage implementation and runtime content migration remain subject to the existing stage-verification rules.
+
 ### Current verification note
 
 The project owner has performed a **quick functional check of Stage 1** and reported that it is functioning as expected. This was **not a comprehensive quality check**. The comprehensive quality check is intentionally deferred until all nine stages are live. Stages 1–3 therefore remain unverified for formal completion purposes until the required production verification checkpoint is completed.
@@ -251,6 +270,6 @@ The current banks are JavaScript source pools rather than a dedicated human-edit
 
 ### Current implementation boundary
 
-This commit defines the schema and authoring contract only. Existing JavaScript banks and calibration/delivery paths remain in place and are not silently switched to an unpopulated canonical bank. The next implementation step is the deterministic Stage-document synchronization layer, followed by drift detection and canonical validation tests.
+This commit defines the schema and authoring contract only. Existing JavaScript banks and calibration/delivery paths remain in place and are not silently switched to an unpopulated canonical bank. The next architectural implementation step is the deterministic Stage-document synchronization layer, followed by drift detection, canonical validation and round-trip tests. This is infrastructure work, not a new curriculum-stage implementation.
 
-The existing Level 1 Stages 1–3 live-production verification gate remains unchanged and is independent of this architecture work. This architecture foundation does not mark any Reasoning stage verified or complete.
+The existing Level 1 Stages 1–3 live-production verification gate remains unchanged and is independent of this architecture work. Architecture infrastructure may continue without changing a Stage or switching runtime delivery. No Stage content migration, new stage implementation or canonical runtime cutover should be treated as approval to bypass the existing live-verification gate. This architecture foundation does not mark any Reasoning stage verified or complete.

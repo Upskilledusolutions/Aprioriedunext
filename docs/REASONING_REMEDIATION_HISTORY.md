@@ -231,3 +231,25 @@ A stage is not treated as remediated merely because the number of question recor
 ## Next development scope
 
 **Approved — implementation pending:** complete the focused Stages 1–3 corrective sequence recorded on 2026-09-18. No new stage implementation proceeds beyond the existing verification boundary until Stages 1–3 pass live owner verification.
+
+
+## 2026-09-21 — Human-editable / canonical question-bank architecture foundation
+
+The question-bank architecture was audited and a controlled content layer was defined around the existing Reasoning runtime.
+
+### Audit conclusion
+
+The repository already contains extensive JavaScript Reasoning source pools, explicit Level/Stage/Module/Activity mappings, stage-specific calibration/delivery layers, remediation/expansion/elevated banks, shared Activity execution and substantial prebuild validation. The missing layer was a formal human-editable Stage document → canonical record pipeline with drift detection, provenance/lifecycle controls and round-trip validation.
+
+### Architecture milestones
+
+- **M0 — Repository audit:** complete.
+- **M1 — Canonical schema and human-editable contract:** complete.
+- **C1 — Foundation integrity:** recorded; the canonical schema is to remain inside prebuild validation and existing runtime paths remain unchanged.
+- **M2 — Deterministic synchronization:** next.
+- **C2 — Synchronization integrity:** pending.
+- **M3 — Drift detection, canonical validation and round-trip:** pending.
+- **M4 — Per-Stage migration:** pending and must preserve existing Question IDs, Activity mappings, player behavior and legacy JS source pools.
+- **C4 — Runtime migration gate:** pending; canonical delivery cannot replace the current path until validated against the existing Activity contract.
+
+This architecture work is intentionally separate from the Level 1 Stages 1–3 live-production verification gate. It does not mark Stages 1–3 verified and does not authorize a new curriculum-stage implementation. Existing JavaScript banks, calibration/delivery and the shared player remain the active runtime during migration.
