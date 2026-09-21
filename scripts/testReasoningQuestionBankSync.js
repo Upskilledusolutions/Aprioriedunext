@@ -64,7 +64,8 @@ try {
 
   const changed = JSON.parse(JSON.stringify(editable));
   changed.version = 2;
-  const changedPath = path.join(fixtureDir, "L1-S1-reasoning-question-bank-changed.json");
+  const changedDir = fs.mkdtempSync(path.join(os.tmpdir(), "reasoning-sync-changed-"));
+  const changedPath = path.join(changedDir, "L1-S1-reasoning-question-bank.json");
   fs.writeFileSync(changedPath, JSON.stringify(changed, null, 2) + "\n", "utf8");
   const changedParsed = parseStageDocument(changedPath);
   assert(changedParsed.sourceFingerprint !== parsed.sourceFingerprint, "Changed editable content did not change its fingerprint.");
