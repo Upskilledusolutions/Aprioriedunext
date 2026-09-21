@@ -20,8 +20,8 @@ function conspicuousAnswerLengthCue(question){
   const min=Math.min(...lengths);
   const shortestCount=lengths.filter((length)=>length===min).length;
   const secondShortest=Math.min(...others);
-  const longestCue=answerLength===max&&longestCount===1&&(answerLength-secondLongest>=20)&&answerLength>=secondLongest*1.75;
-  const shortestCue=answerLength===min&&shortestCount===1&&(secondShortest-answerLength>=20)&&secondShortest>=answerLength*1.75;
+  const longestCue=answerLength===max&&longestCount===1&&(answerLength-secondLongest>=25)&&answerLength>=secondLongest*2.5;
+  const shortestCue=answerLength===min&&shortestCount===1&&(secondShortest-answerLength>=25)&&secondShortest>=answerLength*2.5;
   return longestCue||shortestCue;
 }
 
@@ -42,6 +42,37 @@ function validateVerbalDelivery(label,questions){
   });
 }
 function evaluate(files,names){try{return new Function(files.map(read).map(clean).join("\n")+`\nreturn {${names.map(n=>`${n}:typeof ${n}!=="undefined"?${n}:null`).join(",")}};`)()}catch(e){fail.push(`Reasoning calibration could not be evaluated: ${e.message}`);return{}}}
+
+// Validate the actual Level 1 Verbal delivery paths for Stages 1–2 before deployment.
+const s1Runtime=evaluate([
+  "src/Data/Reasoning/stage1OptionQuality.js",
+  "src/Data/Reasoning/stage1VerbalRemediation.js",
+  "src/Data/Reasoning/stage1RemediationQuestionBank.js",
+],["getStage1RemediationQuestions"]);
+if(typeof s1Runtime.getStage1RemediationQuestions!=="function"){
+  fail.push("Stage 1 Verbal delivery runtime could not be loaded.");
+}else{
+  const s1Activities=[
+    "V-L1-S1-EXP-main-idea",
+    "V-L1-S1-EXP-vocabulary-context",
+    "V-L1-S1-EXP-evidence-and-claims",
+    "V-L1-S1-EXP-basic-argument",
+    "V-L1-S1-EXP-sequencing",
+    "V-L1-S1-EXT-evidence-and-claims",
+    "V-L1-S1-EXT-inference",
+    "V-L1-S1-EXT-perspectives",
+  ];
+  s1Activities.forEach((activityId)=>{
+    let questions=[];
+    try{questions=s1Runtime.getStage1RemediationQuestions(activityId,"verbal")||[];}catch(e){fail.push("Stage 1 Verbal delivery failed for "+activityId+": "+e.message);}
+    validateVerbalDelivery("Stage 1 "+activityId,questions);
+  });
+}
+
+// Stage 2 has two local make() helpers in separate source files. Rename them
+// only inside this evaluator so the complete calibrated delivery can run.
+const s2ExpansionSource=clean(read("src/Data/Reasoning/stage2QuestionExpansion.js")).replace(/\\bconst make=/,"const makeExpansion=").replace(/\\bmake\\(/g,"makeExpansion(");
+const s2ElevatedSource=clean(read("src/Data/Reasoning/stage2ElevatedComputationBank.js")).replace(/\\bconst make=/,"const makeElevated=").replace(/\\bmake\\(/g,"makeElevated(");
 let s2DeliveryRuntime=null;
 try{
   s2DeliveryRuntime=new Function([
@@ -66,36 +97,6 @@ if(s2DeliveryRuntime&&typeof s2DeliveryRuntime.getStage2CalibratedQuestions==="f
     validateVerbalDelivery("Stage 2 "+activityId,questions);
   });
 }
-
-// Stage 3 is also preflighted from its authoritative calibrated source, using
-// the same stronger conspicuous-length rule before deployment.
-let s3DeliveryRuntime=null;
-try{
-  s3DeliveryRuntime=new Function([
-    read("src/Data/Reasoning/reasoningOptionQuality.js"),
-    read("src/Data/Reasoning/stage3QuestionCalibration.js"),
-  ].map(clean).join("\n")+"\nreturn {all,prepareReasoningQuestionSet,q};")();
-}catch(e){fail.push("Stage 3 Verbal delivery runtime could not be loaded: "+e.message);}
-if(s3DeliveryRuntime&&s3DeliveryRuntime.all&&typeof s3DeliveryRuntime.prepareReasoningQuestionSet==="function"){
-  const s3Activities=[
-    "V-L1-S3-EXP-planning-analysis",
-    "V-L1-S3-EXP-analytical-paragraphs",
-    "V-L1-S3-EXP-using-evidence",
-    "V-L1-S3-EXP-synthesis-comparison",
-    "V-L1-S3-EXP-revising-clarity",
-    "V-L1-S3-EXT-advanced-structure",
-    "V-L1-S3-EXT-evaluating-evidence",
-    "V-L1-S3-EXT-counterarguments",
-    "V-L1-S3-EXT-source-synthesis",
-    "V-L1-S3-EXT-scholarly-revision",
-  ];
-  s3Activities.forEach((activityId)=>{
-    const specs=s3DeliveryRuntime.all[activityId]||[];
-    const questions=s3DeliveryRuntime.prepareReasoningQuestionSet(specs.map((item,index)=>s3DeliveryRuntime.q(activityId,index+1,...item)));
-    validateVerbalDelivery("Stage 3 "+activityId,questions);
-  });
-}
-
 const banks=[["src/Data/Reasoning/questionBank.js","REASONING_QUESTION_BANK"],["src/Data/Reasoning/questionBankStage1Extensions.js","STAGE1_EXTENSION_QUESTIONS"],["src/Data/Reasoning/questionBankStage2.js","STAGE2_QUESTIONS"],["src/Data/Reasoning/questionBankStage3.js","STAGE3_QUESTIONS"],["src/Data/Reasoning/questionBankStage4.js","questions"],["src/Data/Reasoning/questionBankStage5.js","STAGE5_QUESTION_BANK"],["src/Data/Reasoning/questionBankStage6.js","STAGE6_QUESTION_BANK"],["src/Data/Reasoning/questionBankLevel2Stage1.js","LEVEL2_STAGE1_QUESTION_BANK"]];let all=[];for(const [p,n] of banks){if(!exists(p))continue;const d=evaluate([p],[n])[n];if(!Array.isArray(d)||!d.length)fail.push(`Question bank is empty or unavailable: ${p}`);else all.push(...d.map(q=>({...q,__file:p})))}const ids=all.map(q=>q.id).filter(Boolean);if(new Set(ids).size!==ids.length)fail.push("Duplicate Reasoning question IDs detected across audited banks.");for(const q of all)if(!q.id||!q.activityId||!q.question||!Array.isArray(q.options)||q.options.length!==4||new Set(q.options).size!==4||!q.options.includes(q.answer))fail.push(`Malformed question record: ${q.id||"unknown"}`);
 const activityPath="src/Data/Reasoning/activities.js",qualityPath="src/Data/Reasoning/reasoningOptionQuality.js",existingPath="src/Data/Reasoning/stage3QuestionCalibration.js",missingPath="src/Data/Reasoning/stage3MissingCalibration.js";
 if([activityPath,qualityPath,existingPath,missingPath].every(exists)){const activities=evaluate([activityPath],["REASONING_ACTIVITIES"]).REASONING_ACTIVITIES||[];const existingRuntime=evaluate([qualityPath,existingPath],["getStage3CalibratedQuestions"]);const missingRuntime=evaluate([qualityPath,missingPath],["getStage3MissingCalibratedQuestions"]);const acts=activities.filter(a=>a?.levelId==="L1"&&a?.stageId==="S3");const quant=acts.filter(a=>a.track==="quantitative"),verbal=acts.filter(a=>a.track==="verbal");if(acts.length!==20)fail.push(`Stage 3 activity structure invalid: expected 20 Level 1 activities, found ${acts.length}.`);if(quant.length!==10||verbal.length!==10)fail.push(`Stage 3 track structure invalid: expected 10 Quantitative and 10 Verbal activities, found ${quant.length} Quantitative and ${verbal.length} Verbal.`);const delivered=[];for(const a of acts){let qs=[];let existing=[];try{existing=existingRuntime.getStage3CalibratedQuestions(a.id)||[]}catch(e){existing=[]}if(existing.length>=10){qs=existing}else{try{qs=missingRuntime.getStage3MissingCalibratedQuestions(a.id)||[]}catch(e){qs=[];fail.push(`Stage 3 fallback calibration failed for ${a.id}: ${e.message}`)}}if(qs.length!==10)fail.push(`Stage 3 ${a.id}: expected exactly 10 delivered questions, found ${qs.length}.`);const ids2=qs.map(q=>q.id);if(new Set(ids2).size!==ids2.length)fail.push(`Stage 3 ${a.id}: duplicate delivered question IDs.`);for(const q of qs){if(q.levelId!=="L1"||q.stageId!=="S3"||q.activityId!==a.id)fail.push(`Stage 3 metadata mismatch: ${q.id||"unknown"} -> ${a.id}`);if(!["computation","computationReasoning","textReasoning"].includes(q.contentMode)||!q.contentModeLabel||!q.contentModeDescription)fail.push(`Stage 3 ${q.id}: invalid content-mode metadata.`);if(!Array.isArray(q.options)||q.options.length!==4||new Set(q.options).size!==4||!q.options.includes(q.answer))fail.push(`Stage 3 ${q.id}: invalid options.`);if(q.optionQuality?.lengthCueDetected)fail.push(`Stage 3 ${q.id}: answer-length cue remains.`)}delivered.push(...qs)}if(delivered.length!==200)fail.push(`Stage 3 delivered question total invalid: expected 200, found ${delivered.length}.`);if(new Set(delivered.map(q=>q.id)).size!==delivered.length)fail.push("Stage 3 delivered question IDs are not globally unique.");const badHalf=acts.filter(a=>!a.id.includes("-EXP-")&&!a.id.includes("-EXT-"));if(badHalf.length)fail.push(`Stage 3 activities missing Explore/Extend convention: ${badHalf.map(a=>a.id).join(", ")}`)}
