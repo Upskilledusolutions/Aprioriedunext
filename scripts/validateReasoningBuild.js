@@ -71,8 +71,9 @@ if(typeof s1Runtime.getStage1RemediationQuestions!=="function"){
 
 // Stage 2 has two local make() helpers in separate source files. Rename them
 // only inside this evaluator so the complete calibrated delivery can run.
-const s2ExpansionSource=clean(read("src/Data/Reasoning/stage2QuestionExpansion.js")).replace(/\\bconst make=/,"const makeExpansion=").replace(/\\bmake\\(/g,"makeExpansion(");
-const s2ElevatedSource=clean(read("src/Data/Reasoning/stage2ElevatedComputationBank.js")).replace(/\\bconst make=/,"const makeElevated=").replace(/\\bmake\\(/g,"makeElevated(");
+const s2ExpansionSource=clean(read("src/Data/Reasoning/stage2QuestionExpansion.js")).replace("const make=","const makeExpansion=").replaceAll("make(","makeExpansion(");
+const s2ElevatedSource=clean(read("src/Data/Reasoning/stage2ElevatedComputationBank.js")).replace("const make=","const makeElevated=").replaceAll("make(","makeElevated(");
+if(s2ExpansionSource.includes("const make=")||s2ElevatedSource.includes("const make="))fail.push("Stage 2 validation source normalization failed: duplicate make helper remains.");
 let s2DeliveryRuntime=null;
 try{
   s2DeliveryRuntime=new Function([
