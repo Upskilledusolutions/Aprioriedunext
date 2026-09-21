@@ -253,3 +253,30 @@ The repository already contains extensive JavaScript Reasoning source pools, exp
 - **C4 — Runtime migration gate:** pending; canonical delivery cannot replace the current path until validated against the existing Activity contract.
 
 This architecture work is intentionally separate from the Level 1 Stages 1–3 live-production verification gate. It does not mark Stages 1–3 verified and does not authorize a new curriculum-stage implementation. Existing JavaScript banks, calibration/delivery and the shared player remain the active runtime during migration.
+
+
+## 2026-09-21 — Synchronization, drift and round-trip infrastructure validated
+
+The architecture foundation progressed through the next controlled milestones without changing learner-facing Reasoning content or the shared Activity Player.
+
+### M2 — deterministic synchronization
+
+- Added `scripts/syncReasoningQuestionBanks.js`.
+- Validates editable Stage documents against the canonical schema and current Activity mappings.
+- Generates deterministic canonical Stage records with source fingerprints and provenance.
+- Does not switch current runtime delivery.
+- Source-level synchronization test executed successfully against the current repository banks and mappings.
+
+### M3 — canonical validation, drift detection and round-trip
+
+- Added canonical-output validation to the synchronization layer.
+- Added `scripts/checkReasoningQuestionBankDrift.js` for stale canonical-output detection.
+- Added `scripts/testReasoningCanonicalRoundTrip.js`.
+- Verified generated canonical output, stable fingerprints, stale-output rejection and canonical → editable reconstruction against current repository sources.
+- The canonical round-trip test confirms semantic equivalence for Question IDs, placement and content fields used by the current schema.
+
+### Current boundary
+
+M0–M3 are infrastructure milestones. Existing JavaScript Reasoning banks, stage-specific calibration/delivery and the shared player remain the active learner-facing runtime. No Stage content has been migrated and no Stage has been marked verified by this work.
+
+The existing Level 1 Stages 1–3 live-production owner-verification gate remains in force. M4 migration is therefore a separate controlled step and must not be used to bypass that verification boundary.

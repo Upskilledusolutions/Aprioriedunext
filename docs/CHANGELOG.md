@@ -16,6 +16,17 @@ This file records important project and architecture changes in simple language.
 
 ## 2026-09-21
 
+### Reasoning question-bank M2/M3 infrastructure — implemented and source-validated
+
+- Implemented deterministic human-editable Stage JSON → canonical synchronization.
+- Added source fingerprint/provenance generation and fail-closed mapping/schema validation.
+- Added canonical-output validation, drift detection and canonical → editable round-trip testing.
+- Added the new synchronization/drift/round-trip scripts to Reasoning prebuild syntax validation and package scripts.
+- Source-level tests passed against the current repository's existing Activity mappings and JavaScript question banks.
+- No Reasoning question content was migrated; existing JavaScript banks, calibration/delivery and the shared Activity Player remain unchanged as the active runtime.
+- M4 per-Stage migration remains pending and is subject to the existing Reasoning live-verification gates.
+
+
 ### Reasoning human-editable / canonical question-bank architecture foundation
 
 - Audited the existing Reasoning question banks, remediation/expansion/calibration layers, Activity mappings, shared player and prebuild validation.

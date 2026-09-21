@@ -352,19 +352,19 @@ Before synchronization is introduced:
 
 ### Milestone M2 — Synchronization
 
-Build deterministic editable Stage JSON → canonical records generation. No existing learner-facing runtime path is switched as part of this milestone.
+Build deterministic editable Stage JSON → canonical records generation. **Completed 2026-09-21.** No existing learner-facing runtime path was switched.
 
 ### Checkpoint C2 — Synchronization integrity gate
 
-Require valid editable input, deterministic output, stable IDs, correct mapping, provenance/fingerprint generation and failed-release behavior for invalid input.
+**Passed at source level 2026-09-21.** Valid editable input, deterministic output, stable IDs, correct current Activity mapping, provenance/fingerprint generation and fail-closed validation were exercised against current repository sources.
 
 ### Milestone M3 — Drift detection and canonical validation
 
-Add stale-output detection, canonical validation and round-trip reconstruction tests.
+Add stale-output detection, canonical validation and round-trip reconstruction tests. **Completed 2026-09-21.**
 
 ### Checkpoint C3 — Canonical integrity gate
 
-A migrated Stage cannot proceed to runtime integration unless synchronization, drift, mapping, schema, quality and round-trip checks all pass.
+**Passed for infrastructure 2026-09-21.** Canonical output validation, stale-output rejection and canonical → editable round-trip reconstruction passed against current repository sources. No Stage content has yet been migrated or switched to canonical runtime.
 
 ### Milestone M4 — Per-Stage migration
 

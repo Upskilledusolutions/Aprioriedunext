@@ -39,11 +39,11 @@ The architecture roadmap is now tracked separately from curriculum-stage verific
 | M0 Repository audit | **Complete** | Current banks, mappings, calibration, player and documentation audited |
 | M1 Canonical schema + editable-bank contract | **Complete** | Schema and authoring rules documented; no runtime cutover |
 | C1 Foundation integrity | **Recorded** | Canonical schema must remain covered by prebuild validation; legacy runtime preserved |
-| M2 Editable → canonical synchronization | **Next** | Deterministic generation only; no runtime switch yet |
-| C2 Synchronization integrity | **Pending** | Mapping, provenance/fingerprint, stable IDs and fail-closed behavior |
-| M3 Drift + canonical validation + round-trip | **Pending** | Editable/canonical equivalence established |
-| C3 Canonical integrity | **Pending** | Full canonical path passes before any Stage migration |
-| M4 One-Stage migration | **Pending** | Preserve legacy JS source pool and existing Activity/player contracts |
+| M2 Editable → canonical synchronization | **Complete** | Deterministic generation implemented and source-tested; no runtime switch |
+| C2 Synchronization integrity | **Passed (source-level)** | Mapping, provenance/fingerprint, stable IDs and fail-closed behavior tested |
+| M3 Drift + canonical validation + round-trip | **Complete** | Canonical validation, stale-output rejection and round-trip test implemented |
+| C3 Canonical integrity | **Passed (infrastructure)** | Canonical path validated before any Stage migration |
+| M4 One-Stage migration | **Pending** | Begin only when a suitable existing Stage is approved for migration; preserve legacy JS source pool and Activity/player contracts |
 | C4 Runtime migration gate | **Pending** | Canonical delivery reproduces valid Activity sets before cutover |
 | M5 Gradual legacy retirement | **Pending** | Separate decision after migrated content is verified |
 
