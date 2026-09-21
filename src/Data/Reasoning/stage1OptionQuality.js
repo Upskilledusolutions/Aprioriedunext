@@ -95,7 +95,7 @@ export function prepareStage1VerbalQuestion(question){
   }
   const normalized=sameCase(sourceOptions);
   const options=seededShuffle(normalized,`${question.id}:${Date.now()}`);
-  const answerIndex=normalized.findIndex((option)=>option===stripPunctuation(sourceAnswer));
+  const answerIndex=normalized.findIndex((option)=>stripPunctuation(option).toLowerCase()===stripPunctuation(sourceAnswer).toLowerCase());
   const normalizedAnswer=answerIndex>=0?normalized[answerIndex]:stripPunctuation(sourceAnswer);
   const lengthRisk=normalized.some((option,index)=>{
     const length=option.length;
