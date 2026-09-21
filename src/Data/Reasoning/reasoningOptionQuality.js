@@ -10,6 +10,30 @@ const punctuationPattern = /[.!?]+$/;
 // Surgical corrections for the current Level 1 Stage 3 calibrated set.
 // These are content-specific corrections for known source-set issues; they do
 // not introduce a generic answer-selection or content-generation mechanism.
+const STAGE2_VERBAL_LENGTH_REWRITES={
+  "Q-L1-V-S2-EXP-AMX-006":[
+    ["The evidence directly relates reading practice to vocabulary growth.","The evidence links reading with vocabulary growth."]
+  ],
+  "Q-L1-V-S2-EXT-CAX-006":[
+    ["They focus on different possible benefits of outdoor lessons.","They focus on different benefits of outdoor lessons."]
+  ],
+  "Q-L1-V-S2-EXT-CAX-008":[
+    ["They agree on the change but give different reasons.","They agree on the change for different reasons."]
+  ],
+  "Q-L1-V-S2-EXT-EE-003":[
+    ["A measured comparison of regularly watered and less-watered plants","Measured results compare two watering groups."]
+  ],
+  "Q-L1-V-S2-EXT-EEX-004":[
+    ["Library records show many students borrow books each week.","Many students borrow books each week."]
+  ],
+  "Q-L1-V-S2-EXT-EEX-006":[
+    ["Daily practisers make fewer spelling errors over time.","Daily practice reduced spelling errors over time."]
+  ],
+  "Q-L1-V-S2-EXT-EEX-008":[
+    ["Bird counts are higher in the garden than nearby areas.","Bird counts are higher in the garden."]
+  ]
+};
+
 const STAGE3_OPTION_CORRECTIONS = {
   "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-generalizing-patterns-09": [
     ["38", "40"],
@@ -130,16 +154,90 @@ const STAGE3_MISSING_LENGTH_REWRITES = {
   ],
 };
 
+const STAGE3_ADDITIONAL_VERBAL_LENGTH_REWRITES={
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-06":[
+    ["Define the issue, compare benefits and costs, use evidence, and qualify the conclusion","Set criteria, compare evidence, then qualify the conclusion"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-03":[
+    ["Move the definition earlier so the evidence has a clear question to address","Move the definition earlier so the evidence has a clear focus"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-06":[
+    ["It answers the question using the reasoning developed rather than introducing a new argument","It answers the question using the developed reasoning"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-08":[
+    ["Present evidence, examine a limitation, compare alternatives, then state the conclusion with appropriate qualification","Use evidence, examine limits, compare options, then conclude"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-03":[
+    ["Use caution because recency does not by itself establish credibility","Use caution: recency alone does not establish credibility"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-04":[
+    ["Its relevance and transferability to the current question may be limited","Its relevance to this question may be limited"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-07":[
+    ["It identifies an association in the observed group, but it may not establish causation","It shows an association, but not necessarily causation"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-09":[
+    ["A finding's meaning and applicability can depend on who, where, and how it was studied","Context can affect a finding's meaning and applicability"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-07":[
+    ["The concern is plausible, but the larger study found only a small effect, so it may not outweigh the reported benefit","The concern is plausible, but the evidence shows only a small effect"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-02":[
+    ["Some purposeful practice may reinforce learning when the workload is manageable","Some purposeful practice may reinforce learning"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-04":[
+    ["The schedule could be adjusted, although transport capacity would still need to be checked","The schedule could be adjusted, but capacity still needs checking"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-06":[
+    ["Assess the evidence and explain whether it changes the overall conclusion","Assess whether the evidence changes the conclusion"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-08":[
+    ["It shows the writer understands where the opposing view has force and where its limits lie","It shows where the opposing view has force and limits"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-10":[
+    ["Does it answer the actual opposing reasoning and use evidence proportionate to the claim?","Does it address the opposing reasoning with proportionate evidence?"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-02":[
+    ["The effect may differ by age group or context, so the common finding needs qualification","The common finding may vary by age or context"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-05":[
+    ["Both support healthier meals, but one emphasizes nutrition while the other emphasizes affordability","Both support healthier meals but emphasize different priorities"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-07":[
+    ["The reader needs the writer's own interpretation of how the sources relate to the question","The writer must explain how the sources relate to the question"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-08":[
+    ["The apparent disagreement may reflect different time horizons rather than incompatible findings","Different time horizons may explain the apparent disagreement"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-09":[
+    ["It states an insight created by relating the sources rather than repeating either source alone","It states an insight created by relating the sources"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-03":[
+    ["Replace vague labels with precise descriptions of the relevant effect or evidence","Replace vague labels with precise descriptions"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-08":[
+    ["Precision, qualification, evidence use, logical structure, and clarity","Check precision, evidence, structure, and clarity"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-09":[
+    ["Therefore, the approach may be useful in similar settings, but broader evidence is needed before generalizing","Broader evidence is needed before generalizing"]
+  ],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-10":[
+    ["A precise argument is easier to evaluate than language that sounds complicated but hides the reasoning","Clear, precise reasoning is easier to evaluate"]
+  ]
+};
+
 const applyKnownOptionCorrections = (question) => {
   const corrections = STAGE3_OPTION_CORRECTIONS[question?.id];
   const rewrites = STAGE3_VERBAL_LENGTH_REWRITES[question?.id];
   const missingRewrites = STAGE3_MISSING_LENGTH_REWRITES[question?.id];
-  if ((!corrections && !rewrites && !missingRewrites) || !Array.isArray(question?.options)) return question;
+  const stage2Rewrites = STAGE2_VERBAL_LENGTH_REWRITES[question?.id];
+  const additionalStage3Rewrites = STAGE3_ADDITIONAL_VERBAL_LENGTH_REWRITES[question?.id];
+  if ((!corrections && !rewrites && !missingRewrites && !stage2Rewrites && !additionalStage3Rewrites) || !Array.isArray(question?.options)) return question;
 
   let options = question.options.map((option) => String(option ?? ""));
   let answer = String(question.answer ?? "");
 
-  for (const [from, to] of [...(corrections || []), ...(rewrites || []), ...(missingRewrites || [])]) {
+  for (const [from, to] of [...(corrections || []), ...(rewrites || []), ...(missingRewrites || []), ...(stage2Rewrites || []), ...(additionalStage3Rewrites || [])]) {
     let replaced = false;
     options = options.map((option) => {
       if (!replaced && option.trim() === from) {

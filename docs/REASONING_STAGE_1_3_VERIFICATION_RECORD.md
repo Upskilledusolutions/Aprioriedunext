@@ -1,6 +1,6 @@
 # Reasoning Level 1 Stages 1–3 Verification Record
 
-**Last updated:** 2026-09-18
+**Last updated:** 2026-09-21
 
 ## Purpose
 
@@ -23,6 +23,21 @@ A successful GitHub commit, successful build, or Vercel deployment marked Ready 
 **Approved order:** Verbal answer-quality correction → Stage 2 Explore/Extend presentation → Stage 2 live owner verification → Stage 3 Explore/Extend presentation/navigation → Stage 3 live owner verification → focused Stages 1–3 quick check.
 
 This record does not mark any stage verified.
+
+## 2026-09-21 corrective-step status
+
+The approved first step — **Verbal answer-quality correction across Stages 1–3** — has been implemented and source-level prevalidated.
+
+- Conspicuous correct-answer length cues were reauthored in the actual delivered Verbal sets.
+- Stage 2 incomplete two-option records were restored to four options.
+- Stage 1 answer matching was corrected after case normalization.
+- The prebuild validator now checks actual Stage 1–2 Verbal delivery and the existing Stage 3 authoritative delivery for exact-10 delivery, four-option integrity, valid answers/content-mode metadata and conspicuous length cues.
+
+**Current status:** implementation corrected; production deployment and owner verification are still pending. No stage is marked verified by this step.
+
+### Next action
+
+Verify the deployed correction on production. The next approved application-code change after Stage 2 owner verification is the Stage 2 Explore/Extend dashboard presentation correction.
 
 ## Stage 1 — Foundation
 

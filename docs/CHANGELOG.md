@@ -14,6 +14,19 @@ This file records important project and architecture changes in simple language.
 - Approved the focused implementation order: Verbal answer-quality correction across Stages 1–3 → Stage 2 Explore/Extend presentation → Stage 2 owner verification → Stage 3 Explore/Extend presentation/navigation → Stage 3 owner verification → focused Stages 1–3 quick check.
 - No application-code changes were made in this documentation update, and Stages 1–3 remain UNVERIFIED.
 
+## 2026-09-21
+
+### Level 1 Stages 1–3 Verbal answer-quality correction — implemented, production verification pending
+
+- Reauthored conspicuous correct-answer length cues across the actual delivered Verbal question sets in Stages 1–3.
+- Restored two incomplete Stage 2 Verbal question records to four-option sets.
+- Corrected Stage 1 answer matching after case normalization.
+- Added prebuild coverage for actual Level 1 Stage 1–2 Verbal delivery and retained the existing Stage 3 authoritative delivery validation, checking exact question counts, four-option integrity, valid answers/content modes and conspicuous length cues.
+- Preserved the existing Reasoning architecture, stable IDs, shared activity player/progress model and Foreign Languages isolation.
+- **Implementation status:** complete and source-level prevalidated.
+- **Production/owner verification:** pending; Stages 1–3 remain UNVERIFIED.
+- **Next step:** deploy and owner-verify the correction, then proceed to the approved Stage 2 Explore/Extend presentation correction.
+
 ## 2026-09-08
 
 ### Reasoning Stage 1 lesson integration — verified

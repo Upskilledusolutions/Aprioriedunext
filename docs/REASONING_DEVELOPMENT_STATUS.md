@@ -16,7 +16,7 @@ The existing single-account authentication model remains shared with Foreign Lan
 
 The project owner approved the following focused sequence. It records the next implementation work without reopening completed remediation:
 
-1. **Verbal answer-quality correction across Stages 1–3.** Audit the actual learner-delivered Verbal question sets; re-author questions where the correct option is an obvious length/character cue, especially a uniquely longest correct answer; preserve answer-position, case and punctuation controls; add a reliable pre-deployment quality check. One focused implementation/deployment.
+1. **Verbal answer-quality correction across Stages 1–3 — implementation completed/prevalidated.** The actual delivered Verbal sets were audited, conspicuous correct-answer length cues were reauthored, two incomplete Stage 2 option sets were restored to four choices, Stage 1 answer matching was corrected, and the prebuild gate was extended to check the actual Stage 1–3 Verbal delivery paths. Production deployment/owner verification remains pending.
 2. **Stage 2 learner-facing Explore/Extend structure.** Keep the existing Stage 2 modules, activities, IDs, question banks, progress and player unchanged. Present Explore first and Extend second, matching the Stage 1 model. Stage 2 Previous/Next module navigation is already implemented in `ff9a16234066517269c642b6f81fa5356e1c418f`. Implement this presentation correction, deploy, then obtain owner verification of Stage 2.
 3. **Stage 3 learner-facing Explore/Extend structure and navigation.** Expose the existing Explore and Extend content correctly, remove hard-coded Explore-only labels, and add Previous/Next module navigation. Do not change Stage 3 question content unless the separate answer-quality audit identifies a specific defect. Implement, deploy, then obtain owner verification of Stage 3.
 4. **Three-stage checkpoint.** After Stage 2 and Stage 3 have each been owner-verified, perform the focused Stages 1–3 quick check. The comprehensive quality audit remains deferred until all nine stages are live.
@@ -100,7 +100,7 @@ Stage 1 remediation covered Quantitative and Verbal delivery without changing th
 - Stage 1 computational content was then elevated two additional difficulty levels above the prior recalibrated baseline, using a dedicated elevated delivery bank with exactly 10 questions per affected activity and substantive reasoning demand.
 - Learner-facing Grade labels were removed while grade remains internal calibration data.
 - **New re-audit finding:** Verbal Stage 1 delivered questions can still leave the correct option as a conspicuously longest answer. This is a content-quality defect, not a reason to change the underlying architecture.
-- **Next action:** include Stage 1 in the approved Stages 1–3 Verbal answer-quality correction before formal owner verification.
+- **Completed corrective step:** Stage 1 is included in the Stages 1–3 Verbal answer-quality correction. Production deployment and owner verification remain pending.
 
 ### Stage 1 verification state
 
@@ -116,7 +116,7 @@ Stage 2 question-quality remediation was completed in commit `229468c0257b6181dd
 
 **New learner-facing finding:** the Stage 2 dashboard has Explore and Extend data, but does not present them in the same separated **Explore first → Extend** structure used by Stage 1. The issue is presentation, not a missing curriculum layer.
 
-**Next action:** apply the approved Stage 2 presentation correction without changing the underlying data, IDs, question bank, progress or shared activity player.
+**Next action:** after the current Verbal correction is deployed and Stage 2 is owner-verified, apply the approved Stage 2 presentation correction without changing the underlying data, IDs, question bank, progress or shared activity player.
 
 **UNVERIFIED — owner verification required.**
 
@@ -149,7 +149,7 @@ These changes resolved the build/calibration path that had previously caused the
 
 **New learner-facing finding:** Stage 3 data contains both Explore and Extend modules, but the current dashboard/module presentation hard-codes Explore treatment instead of exposing the two halves correctly. Stage 3 individual module pages also lack Previous/Next module navigation.
 
-**Next action:** apply the approved Stage 3 Explore/Extend presentation and Previous/Next correction without changing question content unless the separate Verbal answer-quality audit identifies a specific defect.
+**Next action:** after Stage 2 is owner-verified, apply the approved Stage 3 Explore/Extend presentation and Previous/Next correction without changing question content unless a separate live verification identifies a specific defect.
 
 **Verification state: UNVERIFIED — owner verification required.**
 
