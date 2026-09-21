@@ -25,7 +25,7 @@ const STAGE1_VERBAL_LENGTH_REWRITES={
   ],
   "V-L1-Q-S1-REMED-evidence-and-claims-02":[
     ["A student says the walk gives her time to notice birds and trees.","The walk lets her notice birds and trees."],
-    ["17 of 20 visitors said the route was easier after signs were added.","17 of 20 visitors found the route easier after signs were added."]
+    ["17 of 20 visitors said the route was easier after signs were added.","17 visitors said the new route was easier."]
   ],
   "V-L1-Q-S1-REMED-evidence-and-claims-03":[
     ["It collected 12 kg this month versus 5 kg last month.","Recycling rose from 5 kg to 12 kg."]
