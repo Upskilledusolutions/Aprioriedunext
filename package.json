@@ -9,7 +9,9 @@
     "start": "next start",
     "lint": "next lint",
     "reasoning:sync": "node scripts/syncReasoningQuestionBanks.js",
-    "reasoning:test-sync": "node scripts/testReasoningQuestionBankSync.js"
+    "reasoning:test-sync": "node scripts/testReasoningQuestionBankSync.js",
+    "reasoning:check-drift": "node scripts/checkReasoningQuestionBankDrift.js",
+    "reasoning:test-canonical": "node scripts/testReasoningCanonicalRoundTrip.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",

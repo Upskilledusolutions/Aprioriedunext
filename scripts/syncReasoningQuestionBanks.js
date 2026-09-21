@@ -180,6 +180,62 @@ function buildCanonical(stage) {
   };
 }
 
+function validateCanonicalDocument(document) {
+  const errors = [];
+  if (!document || typeof document !== "object" || Array.isArray(document)) return ["Canonical document must be an object."];
+  for (const field of ["schemaVersion","canonicalVersion","generatorVersion","bankId","levelId","stageId","version","sourceFingerprint","sourceFile","questions"]) {
+    if (document[field] === undefined || document[field] === null || document[field] === "") errors.push("Missing canonical document field: " + field);
+  }
+  if (document.schemaVersion !== "1.0") errors.push("Unsupported canonical schemaVersion: " + document.schemaVersion);
+  if (document.canonicalVersion !== "1.0") errors.push("Unsupported canonicalVersion: " + document.canonicalVersion);
+  if (!/^L[1-9]$/.test(document.levelId || "")) errors.push("Invalid canonical levelId: " + document.levelId);
+  if (!/^S[1-6]$/.test(document.stageId || "")) errors.push("Invalid canonical stageId: " + document.stageId);
+  if (!Number.isInteger(document.version) || document.version < 1) errors.push("Invalid canonical version.");
+  if (!/^[a-f0-9]{64}$/.test(document.sourceFingerprint || "")) errors.push("Invalid sourceFingerprint.");
+  if (!Array.isArray(document.questions)) { errors.push("Canonical questions must be an array."); return errors; }
+  const ids = new Set();
+  for (const question of document.questions) {
+    if (ids.has(question && question.id)) errors.push("Duplicate canonical Question ID: " + (question && question.id));
+    ids.add(question && question.id);
+    const activity = activityById.get(question && question.activityId);
+    if (!activity) { errors.push("Canonical question " + ((question && question.id) || "unknown") + " references unknown Activity ID: " + ((question && question.activityId) || "")); continue; }
+    const canonicalErrors = assertCanonicalQuestion(question, { levelId: document.levelId, stageId: document.stageId, track: question.track, half: question.half });
+    for (const error of canonicalErrors) errors.push("Canonical question " + (question.id || "unknown") + ": " + error);
+    for (const pair of [["track",activity.track],["levelId",activity.levelId],["stageId",activity.stageId],["half",activity.half],["moduleId",activity.moduleId]]) {
+      if (question[pair[0]] !== pair[1]) errors.push("Canonical Activity mapping mismatch for " + question.id + ": " + pair[0] + " expected " + pair[1] + ", found " + question[pair[0]]);
+    }
+  }
+  return errors;
+}
+
+function readCanonicalDocument(inputPath) {
+  let document;
+  try { document = JSON.parse(fs.readFileSync(inputPath, "utf8")); }
+  catch (error) { fail("Invalid canonical JSON in " + path.relative(root, inputPath) + ": " + error.message); }
+  const errors = validateCanonicalDocument(document);
+  if (errors.length) fail("Canonical validation failed for " + path.relative(root, inputPath) + ": " + errors.join(" | "));
+  return document;
+}
+
+function reconstructEditableStage(canonical) {
+  return {
+    schemaVersion: canonical.schemaVersion,
+    bankId: canonical.bankId,
+    levelId: canonical.levelId,
+    stageId: canonical.stageId,
+    version: canonical.version,
+    tracks: [...new Set(canonical.questions.map(function (question) { return question.track; }))].sort(),
+    questions: canonical.questions.slice().sort(function (a, b) { return a.id.localeCompare(b.id); }),
+  };
+}
+
+function checkStageDrift(editablePath, canonicalPath) {
+  const stage = parseStageDocument(editablePath);
+  if (!fs.existsSync(canonicalPath)) fail("Canonical output is missing for " + path.relative(root, editablePath) + ".");
+  const canonical = readCanonicalDocument(canonicalPath);
+  if (canonical.sourceFingerprint !== stage.sourceFingerprint) fail("Canonical drift detected for " + path.relative(root, editablePath) + ": editable fingerprint " + stage.sourceFingerprint + " does not match canonical fingerprint " + canonical.sourceFingerprint + ".");
+  return { stage: stage, canonical: canonical };
+}
 function syncStageFile(inputPath, outputDir) {
   const targetDir = outputDir || canonicalDir;
   const stage = parseStageDocument(inputPath);
@@ -232,4 +288,8 @@ module.exports = {
   buildCanonical: buildCanonical,
   syncStageFile: syncStageFile,
   discoverStageFiles: discoverStageFiles,
+  validateCanonicalDocument: validateCanonicalDocument,
+  readCanonicalDocument: readCanonicalDocument,
+  reconstructEditableStage: reconstructEditableStage,
+  checkStageDrift: checkStageDrift,
 };
