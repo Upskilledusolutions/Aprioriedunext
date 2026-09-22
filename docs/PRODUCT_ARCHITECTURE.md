@@ -275,7 +275,29 @@ Initial feature scope:
 
 Reasoning progress and gamification remain separately namespaced from Foreign Languages.
 
-Potential later additions include concept-level mastery indicators and other learner analytics, but these should not be required for the first dashboard release.
+**Required from Level 1 · Stage 1:** concept/skill mastery and learner analytics are part of the initial Reasoning product requirement. They must be functional from the first accepted Stage and expand cumulatively with every subsequent Stage and Level.
+
+## 8B. Reasoning mastery, analytics and profile access
+
+The Reasoning product maintains a cumulative learner record across verified Levels, Stages, Modules, Activities and Questions under the same shared user identity.
+
+Mastery and analytics are mandatory from Level 1 · Stage 1 onward. They should provide, at minimum:
+
+- overall Reasoning progress;
+- independent Quantitative and Verbal progress;
+- Level/Stage/Module/Activity completion;
+- question attempts/completions;
+- performance/accuracy;
+- concept/skill performance;
+- difficulty-band performance;
+- Explore/Extend performance;
+- response-time information where available;
+- strengths and areas needing improvement;
+- growth over time.
+
+The Reasoning profile is accessed from the login icon/name using the same general interaction pattern as Foreign Languages. This is a separate Reasoning profile/data view and must not replace or merge the Foreign Languages profile.
+
+Additional verified Stages and Levels append to the same cumulative Reasoning record; they do not reset earlier data.
 
 ## 9. Frontend state
 
@@ -312,6 +334,29 @@ Frontend route protection is not sufficient for sensitive data.
 The backend must enforce authentication and authorization for protected data and operations.
 
 No passwords, API keys, private credentials or other secrets may be placed in this repository or documentation.
+
+## 11A. Manual Reasoning Level access
+
+Level 1 is the initial Reasoning access level. Subsequent Levels are manually enabled for individual learners by an administrator using dedicated access identifiers analogous to the existing language-level administration model.
+
+Approved identifier pattern:
+
+```
+reasoningL2
+reasoningL3
+reasoningL4
+reasoningL5
+reasoningL6
+reasoningL7
+reasoningL8
+reasoningL9
+```
+
+Each identifier enables the corresponding Reasoning Level. Completion of the preceding Level does not itself change access; manual authorization remains the control point.
+
+Access authorization is separate from progress data. Enabling a Level must never erase previous Reasoning progress.
+
+The exact admin/backend storage and authorization implementation remains To Be Verified until the relevant code/backend is inspected.
 
 ## 12. Stage launch strategy
 
@@ -414,6 +459,9 @@ The architecture is successful when:
 12. Product-specific progress and gamification do not leak across products.
 13. Permanent Reasoning data is backed by verified backend support when required.
 14. Future development can add either product without unnecessarily destabilizing the other.
+15. Reasoning mastery and analytics function from Level 1 · Stage 1 and accumulate across later verified content.
+16. The Reasoning profile is accessible from the login icon/name without merging the Reasoning and Foreign Languages profile data.
+17. Administrators can manually enable subsequent Reasoning Levels without resetting cumulative learner records.
 
 
 ## 16A. Reasoning human-editable / canonical question architecture

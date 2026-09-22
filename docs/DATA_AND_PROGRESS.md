@@ -90,6 +90,51 @@ Neither track should unlock, block, require or depend on the other.
 
 Each track must feed its own detailed progress/reporting and leaderboard contribution directly. If both tracks are selected, their records remain separate even if a future Reasoning academic profile displays an aggregate view.
 
+## Reasoning profile access
+
+The Reasoning profile is reached from the login icon/name using the same general user-affordance pattern as Foreign Languages. The profile is a separate Reasoning view and must not replace the existing Foreign Languages profile.
+
+## Reasoning cumulative mastery and analytics
+
+Mastery and analytics are a mandatory Reasoning product capability from **Level 1 · Stage 1 onward**.
+
+The learner record must accumulate under the same Reasoning identity as new verified Stages and Levels are completed. Earlier results must remain available when later content is added.
+
+The initial analytics model should provide:
+
+- cumulative Reasoning progress;
+- separate Quantitative and Verbal progress;
+- Level/Stage/Module/Activity completion;
+- questions attempted/completed;
+- accuracy/performance;
+- performance by concept/skill;
+- performance by difficulty;
+- Explore versus Extend performance;
+- response time/per-question timing where available;
+- strengths and areas for improvement;
+- longitudinal growth.
+
+Analytics should be usable from Stage 1 and should expand with each later verified Stage and Level. Adding a new question set should add to the same reporting model rather than require a separate analytics system.
+
+## Manual Reasoning Level access
+
+Level 1 is the initial access level. Subsequent Reasoning Levels are manually enabled by an administrator using dedicated identifiers:
+
+```
+reasoningL2
+reasoningL3
+reasoningL4
+reasoningL5
+reasoningL6
+reasoningL7
+reasoningL8
+reasoningL9
+```
+
+Each identifier maps to the corresponding Reasoning Level. Manual access controls availability; it does not reset, replace or migrate previous Reasoning learning records. Completion of one Level does not automatically authorize the next Level unless a separate approved rule is introduced.
+
+The exact backend/admin persistence and authorization implementation remains To Be Verified until the external backend and current admin flow are audited.
+
 ## Reasoning grade-level progress model
 
 Reasoning uses nine grade levels:

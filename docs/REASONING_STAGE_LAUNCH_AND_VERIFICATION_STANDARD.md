@@ -18,20 +18,21 @@ Reasoning Skills has a standalone learner-facing product experience separate fro
 
 The Reasoning dashboard should provide a comparable level of usefulness to the existing language dashboard while remaining independently implemented and visually aligned with the current Reasoning pages. It should use a more refined professional aesthetic and a Reasoning-specific colour scheme.
 
-The first dashboard scope includes:
+The dashboard/profile scope includes:
 
 - Reasoning identity and navigation;
 - Quantitative and Verbal track selection;
 - level and stage progress;
 - Continue Learning / resume;
 - recent activity;
-- Reasoning progress report;
-- Reasoning leaderboard;
-- Reasoning milestones/achievements where supported.
+- cumulative Reasoning progress report;
+- cumulative Reasoning leaderboard;
+- **mastery and analytics from Level 1 · Stage 1 onward**;
+- milestones/achievements where supported.
 
-Reasoning progress, points, streaks, achievements and leaderboard data must remain logically separate from Foreign Languages. Quantitative and Verbal remain independently usable.
+Reasoning progress, mastery, analytics, points, streaks, achievements and leaderboard data must remain logically separate from Foreign Languages. Quantitative and Verbal remain independently usable.
 
-The dashboard should stay focused on learning. Additional features such as concept mastery indicators may be added later after the core experience is stable.
+Mastery and analytics are a required first-release capability for Stage 1. They must expand cumulatively as additional Stages and Levels are verified. They are not a later-phase enhancement.
 
 ## 3. Stage content model
 
@@ -123,6 +124,10 @@ For every learner-facing Activity:
 
 Implement only the UI/runtime changes required to expose the Stage completely.
 
+The Reasoning experience must also provide the standalone Reasoning dashboard/profile experience and expose the Reasoning profile entry through the login icon/name, using the shared learner identity without merging Reasoning and Foreign Languages data.
+
+Mastery and analytics must already be functional for the Stage being launched, beginning with Level 1 · Stage 1. The Stage's verified activity data must feed the cumulative Reasoning profile.
+
 The target pattern is:
 
 ```
@@ -192,7 +197,14 @@ At Stage level, verify:
 - no intended Activity is missing;
 - no unintended duplicate Activity is presented.
 
-Also verify the standalone Reasoning dashboard and its separation from the Foreign Languages dashboard when that dashboard is part of the approved release.
+Also verify:
+
+- the standalone Reasoning dashboard/profile;
+- the profile entry reached from the login icon/name;
+- cumulative Reasoning progress;
+- mastery and analytics generated from the Stage under verification;
+- separation from the Foreign Languages profile/data;
+- manual Level-access behavior where a Level is being released.
 
 ### Checkpoint 9 — Stage acceptance
 
@@ -205,6 +217,9 @@ mappings                    ✓
 question quality            ✓
 Explore/Extend exposure     ✓
 learner-facing navigation   ✓
+mastery/analytics           ✓
+profile access              ✓
+cumulative progress         ✓
 prebuild validation         ✓
 production deployment      ✓
 complete live verification ✓
@@ -222,6 +237,8 @@ The immediate restart point is:
 
 Stage 2 does not begin until Stage 1 has passed its Stage acceptance gate. The same rule applies sequentially thereafter.
 
+Completion of a Level is separate from access authorization to the next Level. The next Level is manually enabled using the approved Reasoning Level access identifier (for example, `reasoningL2`, `reasoningL3`) and must retain the same cumulative Reasoning record.
+
 Historical remediation is preserved. A live defect triggers only the targeted correction required by the observed defect.
 
 ## 6. Three-stage checkpoints
@@ -238,7 +255,7 @@ These checkpoints do not replace the per-Stage acceptance gate.
 
 ## 7. Nine-level final audit
 
-After all nine Levels are live, perform the comprehensive end-to-end quality audit across all Levels, Stages, tracks, Modules, Explore/Extend activities, question delivery, dashboard, progress report, leaderboard and runtime behavior.
+After all nine Levels are live, perform the comprehensive end-to-end quality audit across all Levels, Stages, tracks, Modules, Explore/Extend activities, question delivery, dashboard/profile, cumulative progress, mastery/analytics, leaderboard and runtime behavior.
 
 ## 8. Migration and runtime rules
 

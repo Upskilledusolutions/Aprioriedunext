@@ -251,7 +251,11 @@ For every Reasoning stage being remediated, additionally verify:
 - existing language dashboard still opens
 - existing language progress is unchanged
 - new Reasoning dashboard opens
+- Reasoning profile is reachable from the login icon/name
 - Reasoning progress does not appear inside Language progress
+- cumulative Reasoning mastery/analytics work from Level 1 · Stage 1 onward
+- new Stage activity data contributes to the existing cumulative analytics without resetting earlier data
+- manual Reasoning Level access identifiers (for example `reasoningL2`, `reasoningL3`) expose only the authorized Level
 - Quantitative can be used without Verbal
 - Verbal can be used without Quantitative
 - selecting both tracks preserves separate progress
@@ -278,13 +282,13 @@ The migration sequence is infrastructure-first, followed by controlled per-Stage
 
 During validation, prefer the existing infrastructure and free tiers. Do not add paid services unless there is a clear business or technical reason.
 
-## 20. AI development rule
+## 22. AI development rule
 
 The AI assistant must read the documentation in `/docs` before making architectural changes.
 
 If the code conflicts with the documentation, the AI should stop and explain the conflict before making a broad change.
 
-## 21. Deployment discipline
+## 23. Deployment discipline
 
 Do not use Vercel deployments as a debugging mechanism.
 
@@ -300,7 +304,7 @@ For each approved stage-level change set:
 
 If a deterministic source problem is found, fix it before creating another deployment. If the failure is a platform/rate-limit problem, do not spend additional deployment attempts on it.
 
-## 22. Priority order
+## 24. Priority order
 
 When making decisions, use this order:
 

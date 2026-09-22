@@ -243,7 +243,9 @@ These are implementation facts, not substitutes for current owner verification.
 
 ## Later-phase platform work
 
-These remain separate from the current frontend curriculum build and should be implemented only after the relevant external backend is inspected: backend/database persistence; durable server-side authorization; server-side timer configuration; Reasoning points, streaks, achievements and leaderboards; broader account-level analytics; and optional interactive/API learning resources.
+The following may require later backend/API implementation after the external backend is inspected: durable server-side storage/authorization details, server-side timer configuration, and optional interactive/API learning resources.
+
+**Not deferred:** Reasoning mastery/analytics, cumulative profile reporting, Reasoning leaderboard, Reasoning profile access and manual Level access behavior are approved product requirements beginning with Level 1 · Stage 1. Their exact backend persistence mechanism remains subject to backend inspection.
 
 ## Source-of-Truth Principle
 
@@ -259,7 +261,7 @@ The project owner approved a standalone Reasoning dashboard direction and a repe
 
 Reasoning receives its own learner-facing dashboard, separate from the Foreign Languages dashboard. It should provide comparable practical features to the language dashboard, while using a more refined professional aesthetic and Reasoning-specific colour scheme aligned with the existing Reasoning pages.
 
-The first dashboard scope includes track selection, level/stage progress, Continue Learning, recent activity, a Reasoning progress report and a Reasoning leaderboard, with milestones/achievements considered where supported. Reasoning and Foreign Languages records remain separately namespaced.
+The first dashboard scope includes track selection, level/stage progress, Continue Learning, recent activity, a cumulative Reasoning progress report, a cumulative Reasoning leaderboard, and mandatory mastery/analytics from Level 1 · Stage 1 onward. The Reasoning profile is reached from the login icon/name. Reasoning and Foreign Languages records remain separately namespaced.
 
 ### Launch process
 
