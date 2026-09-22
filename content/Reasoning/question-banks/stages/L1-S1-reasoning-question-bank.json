@@ -2830,7 +2830,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
@@ -2869,7 +2869,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
@@ -2908,7 +2908,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
@@ -2936,27 +2936,28 @@
       "question": "A paper bridge bent, so students changed its folds and tested it again. What is the passage mainly about?",
       "options": [
         "Paper is stronger than metal",
-        "Testing and improving a design can solve a problem",
+        "Testing improved the design",
         "Coins caused the bridge to bend",
         "Bridges should not be tested"
       ],
-      "answer": "Testing and improving a design can solve a problem",
+      "answer": "Testing improved the design",
       "explanation": "The sequence shows testing, changing and improving.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-main-idea-04"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-main-idea-04",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -2986,7 +2987,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
@@ -3025,7 +3026,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
@@ -3052,28 +3053,29 @@
       "contentModeDescription": "You will reason from written information, clues or concepts rather than primarily calculating.",
       "question": "A park added clear signs to a confusing path, and more families began using it. What is the passage mainly showing?",
       "options": [
-        "Clear signs can make a place easier to use",
+        "Signs made the path easier",
         "The path was removed",
         "Families dislike parks",
         "Signs work only indoors"
       ],
-      "answer": "Clear signs can make a place easier to use",
+      "answer": "Signs made the path easier",
       "explanation": "The new signs are connected with easier use of the park.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-main-idea-07"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-main-idea-07",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -3092,27 +3094,28 @@
       "question": "A weekly checklist helped a class remember which homework tasks were due. What is the best main idea?",
       "options": [
         "The checklist was used for games",
-        "A shared checklist helped students remember assignments",
+        "A checklist tracked homework",
         "Homework was cancelled",
         "The class stopped studying"
       ],
-      "answer": "A shared checklist helped students remember assignments",
+      "answer": "A checklist tracked homework",
       "explanation": "The checklist addressed the problem described.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-main-idea-08"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-main-idea-08",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -3142,7 +3145,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
@@ -3181,7 +3184,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "main-idea",
       "topicId": "main-idea-and-details",
@@ -3220,7 +3223,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "vocabulary-context",
       "topicId": "vocabulary",
@@ -3259,7 +3262,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "vocabulary-context",
       "topicId": "vocabulary",
@@ -3376,7 +3379,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "vocabulary-context",
       "topicId": "vocabulary",
@@ -3454,7 +3457,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "vocabulary-context",
       "topicId": "vocabulary",
@@ -3493,7 +3496,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "vocabulary-context",
       "topicId": "vocabulary",
@@ -3532,7 +3535,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "vocabulary-context",
       "topicId": "vocabulary",
@@ -3571,7 +3574,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "vocabulary-context",
       "topicId": "vocabulary",
@@ -3610,7 +3613,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
@@ -3649,7 +3652,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
@@ -3688,7 +3691,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
@@ -3727,7 +3730,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
@@ -3766,7 +3769,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
@@ -3805,7 +3808,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
@@ -3834,26 +3837,27 @@
       "options": [
         "It fits in a bag",
         "The bottle has a blue lid",
-        "One reusable bottle replaced daily disposables",
+        "One bottle replaced daily ones",
         "It was a gift"
       ],
-      "answer": "One reusable bottle replaced daily disposables",
+      "answer": "One bottle replaced daily ones",
       "explanation": "The evidence explains how disposable plastic use could fall.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-evidence-and-claims-07"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-evidence-and-claims-07",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -3883,7 +3887,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
@@ -3922,7 +3926,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
@@ -3961,7 +3965,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "evidence-and-claims",
       "topicId": "claims",
@@ -4000,7 +4004,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
@@ -4029,26 +4033,27 @@
       "options": [
         "Students like colors",
         "Shelves are wooden",
-        "Labels help students find materials faster",
+        "Labels help find materials",
         "Materials are expensive"
       ],
-      "answer": "Labels help students find materials faster",
+      "answer": "Labels help find materials",
       "explanation": "That statement gives the reason for the proposal.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-basic-argument-02"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-basic-argument-02",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -4067,27 +4072,28 @@
       "question": "A student wants herbs planted because the garden has unused space. What assumption connects the reason to the proposal?",
       "options": [
         "Students never visit gardens",
-        "The unused space can be used for growing herbs",
+        "The space is suitable for herbs",
         "Herbs are expensive",
         "The garden has no soil"
       ],
-      "answer": "The unused space can be used for growing herbs",
+      "answer": "The space is suitable for herbs",
       "explanation": "The argument depends on the space being suitable for planting.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-basic-argument-03"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-basic-argument-03",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -4117,7 +4123,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
@@ -4156,7 +4162,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
@@ -4195,7 +4201,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
@@ -4234,7 +4240,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
@@ -4261,28 +4267,29 @@
       "contentModeDescription": "You will reason from written information, clues or concepts rather than primarily calculating.",
       "question": "A student wants a quiet study area because noise makes concentration difficult. Which evidence strengthens the argument?",
       "options": [
-        "Survey results show noise harms concentration",
+        "A survey links noise and focus",
         "The desks are brown",
         "The school has a playground",
         "The room has windows"
       ],
-      "answer": "Survey results show noise harms concentration",
+      "answer": "A survey links noise and focus",
       "explanation": "The survey directly supports the stated problem.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-basic-argument-08"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-basic-argument-08",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -4303,25 +4310,26 @@
         "The group meets Tuesday",
         "Some books are thick",
         "Books have covers",
-        "Many students have books they already read"
+        "Students have finished books"
       ],
-      "answer": "Many students have books they already read",
+      "answer": "Students have finished books",
       "explanation": "This creates a reason for exchanging books.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-basic-argument-09"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-basic-argument-09",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -4351,7 +4359,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "basic-argument",
       "topicId": "argument",
@@ -4390,7 +4398,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "sequencing",
       "topicId": "sequence-and-structure",
@@ -4468,7 +4476,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "sequencing",
       "topicId": "sequence-and-structure",
@@ -4507,7 +4515,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "sequencing",
       "topicId": "sequence-and-structure",
@@ -4663,7 +4671,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "sequencing",
       "topicId": "sequence-and-structure",
@@ -4732,25 +4740,26 @@
         "To erase both drawings",
         "To make the paper heavier",
         "To avoid changing anything",
-        "To decide which version better meets the goal"
+        "To choose the better version"
       ],
-      "answer": "To decide which version better meets the goal",
+      "answer": "To choose the better version",
       "explanation": "Comparison helps evaluate the result of the change.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "sequencing",
       "topicId": "sequence-and-structure",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-sequencing-10"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-sequencing-10",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -4769,21 +4778,28 @@
       "question": "A student claims that reading every day can improve vocabulary. Which evidence is most relevant?",
       "options": [
         "The student has a blue backpack.",
-        "A class survey found that regular readers learned more new words.",
+        "Regular readers learned more new words.",
         "The library has large windows.",
         "The student prefers mystery stories."
       ],
-      "answer": "A class survey found that regular readers learned more new words.",
+      "answer": "Regular readers learned more new words.",
       "explanation": "Relevant evidence directly supports the claim about regular reading and vocabulary growth.",
       "contentMode": "textReasoning",
       "contentModeLabel": "Text-Based Reasoning",
       "contentModeDescription": "You will reason from written information, clues or concepts rather than primarily calculating.",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/questionBank.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/questionBank.js#Q-L1-V-S1-EXT-ARG-001"
+        "sourceReference": "src/Data/Reasoning/questionBank.js#Q-L1-V-S1-EXT-ARG-001",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -4803,20 +4819,27 @@
       "options": [
         "Trees are usually green.",
         "A tree has rough bark.",
-        "A shaded playground measured cooler temperatures than an unshaded area.",
+        "Shaded play areas were cooler.",
         "Some children like climbing trees."
       ],
-      "answer": "A shaded playground measured cooler temperatures than an unshaded area.",
+      "answer": "Shaded play areas were cooler.",
       "explanation": "The measurement directly compares temperatures and supports the claim.",
       "contentMode": "textReasoning",
       "contentModeLabel": "Text-Based Reasoning",
       "contentModeDescription": "You will reason from written information, clues or concepts rather than primarily calculating.",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/questionBank.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/questionBank.js#Q-L1-V-S1-EXT-ARG-002"
+        "sourceReference": "src/Data/Reasoning/questionBank.js#Q-L1-V-S1-EXT-ARG-002",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -4836,20 +4859,27 @@
       "options": [
         "The classroom has 20 chairs.",
         "Students reported that they enjoyed reading.",
-        "A class observation found fewer off-task behaviours during quiet reading time.",
+        "Quiet reading had fewer off-task behaviours.",
         "The books have colourful covers."
       ],
-      "answer": "A class observation found fewer off-task behaviours during quiet reading time.",
+      "answer": "Quiet reading had fewer off-task behaviours.",
       "explanation": "The observation directly measures behaviour related to focus.",
       "contentMode": "textReasoning",
       "contentModeLabel": "Text-Based Reasoning",
       "contentModeDescription": "You will reason from written information, clues or concepts rather than primarily calculating.",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/questionBank.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/questionBank.js#Q-L1-V-S1-EXT-ARG-003"
+        "sourceReference": "src/Data/Reasoning/questionBank.js#Q-L1-V-S1-EXT-ARG-003",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -4883,6 +4913,12 @@
       "provenance": {
         "migrationState": "editable-stage-bank",
         "sourceReference": "stage1-migration-authoring#V-L1-S1-EXT-ARG-004"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -4916,6 +4952,12 @@
       "provenance": {
         "migrationState": "editable-stage-bank",
         "sourceReference": "stage1-migration-authoring#V-L1-S1-EXT-ARG-005"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -4949,6 +4991,12 @@
       "provenance": {
         "migrationState": "editable-stage-bank",
         "sourceReference": "stage1-migration-authoring#V-L1-S1-EXT-ARG-006"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -4982,6 +5030,12 @@
       "provenance": {
         "migrationState": "editable-stage-bank",
         "sourceReference": "stage1-migration-authoring#V-L1-S1-EXT-ARG-007"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -5015,6 +5069,12 @@
       "provenance": {
         "migrationState": "editable-stage-bank",
         "sourceReference": "stage1-migration-authoring#V-L1-S1-EXT-ARG-008"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -5048,6 +5108,12 @@
       "provenance": {
         "migrationState": "editable-stage-bank",
         "sourceReference": "stage1-migration-authoring#V-L1-S1-EXT-ARG-009"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -5081,6 +5147,12 @@
       "provenance": {
         "migrationState": "editable-stage-bank",
         "sourceReference": "stage1-migration-authoring#V-L1-S1-EXT-ARG-010"
+      },
+      "optionQuality": {
+        "caseNormalized": true,
+        "punctuationNormalized": true,
+        "positionRandomized": true,
+        "lengthCueFlagged": false
       }
     },
     {
@@ -5110,7 +5182,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "inference",
       "topicId": "inference",
@@ -5188,7 +5260,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "inference",
       "topicId": "inference",
@@ -5305,7 +5377,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "inference",
       "topicId": "inference",
@@ -5344,7 +5416,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "inference",
       "topicId": "inference",
@@ -5383,7 +5455,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "inference",
       "topicId": "inference",
@@ -5422,7 +5494,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "inference",
       "topicId": "inference",
@@ -5461,7 +5533,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "inference",
       "topicId": "inference",
@@ -5500,7 +5572,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",
@@ -5528,27 +5600,28 @@
       "question": "One student values group work because classmates share ideas. Another values quiet work because it supports concentration. How do their views differ?",
       "options": [
         "They give the same reason",
-        "One values collaboration while the other values focused individual work",
+        "They value group work or quiet work",
         "Both reject learning",
         "One values sports while the other values music"
       ],
-      "answer": "One values collaboration while the other values focused individual work",
+      "answer": "They value group work or quiet work",
       "explanation": "Their reasons reveal different learning priorities.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-perspectives-02"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-perspectives-02",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -5578,7 +5651,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",
@@ -5608,25 +5681,26 @@
         "The teacher dislikes learning",
         "Printed notes cannot be read",
         "The student cannot write",
-        "They value different advantages of the same tool"
+        "They value different benefits"
       ],
-      "answer": "They value different advantages of the same tool",
+      "answer": "They value different benefits",
       "explanation": "Their reasons focus on different benefits.",
       "calibrationStatus": "Level 1 / Grade 3 recalibrated Stage 1 delivery",
       "optionQuality": {
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",
       "status": "review",
-      "version": 1,
+      "version": 2,
       "sourceBank": "src/Data/Reasoning/stage1VerbalRemediation.js",
       "provenance": {
         "migrationState": "editable-stage-bank",
-        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-perspectives-04"
+        "sourceReference": "src/Data/Reasoning/stage1VerbalRemediation.js#V-L1-Q-S1-REMED-perspectives-04",
+        "contentQualityPass": "stage1-answer-length-quality-2026-09-22"
       }
     },
     {
@@ -5656,7 +5730,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",
@@ -5695,7 +5769,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",
@@ -5734,7 +5808,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",
@@ -5773,7 +5847,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",
@@ -5812,7 +5886,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",
@@ -5851,7 +5925,7 @@
         "caseNormalized": true,
         "punctuationNormalized": true,
         "positionRandomized": true,
-        "lengthCueFlagged": true
+        "lengthCueFlagged": false
       },
       "moduleId": "perspectives",
       "topicId": "compare-perspectives",

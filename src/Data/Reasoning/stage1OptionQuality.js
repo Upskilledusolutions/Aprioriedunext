@@ -72,6 +72,48 @@ const STAGE1_VERBAL_LENGTH_REWRITES={
   ],
   "V-L1-Q-S1-REMED-perspectives-10":[
     ["They interpret the same behavior differently based on what they emphasize.","They interpret the same behavior differently."]
+  ],
+  "V-L1-Q-S1-REMED-main-idea-04":[
+    ["Testing improved the design","Testing improved the design"]
+  ],
+  "V-L1-Q-S1-REMED-main-idea-07":[
+    ["Signs made the path easier","Signs made the path easier"]
+  ],
+  "V-L1-Q-S1-REMED-main-idea-08":[
+    ["A checklist tracked homework","A checklist tracked homework"]
+  ],
+  "V-L1-Q-S1-REMED-evidence-and-claims-07":[
+    ["One bottle replaced daily ones","One bottle replaced daily ones"]
+  ],
+  "V-L1-Q-S1-REMED-basic-argument-02":[
+    ["Labels help find materials","Labels help find materials"]
+  ],
+  "V-L1-Q-S1-REMED-basic-argument-03":[
+    ["The space is suitable for herbs","The space is suitable for herbs"]
+  ],
+  "V-L1-Q-S1-REMED-basic-argument-08":[
+    ["A survey links noise and focus","A survey links noise and focus"]
+  ],
+  "V-L1-Q-S1-REMED-basic-argument-09":[
+    ["Students have finished books","Students have finished books"]
+  ],
+  "V-L1-Q-S1-REMED-sequencing-10":[
+    ["To choose the better version","To choose the better version"]
+  ],
+  "V-L1-Q-S1-REMED-perspectives-02":[
+    ["They value group work or quiet work","They value group work or quiet work"]
+  ],
+  "V-L1-Q-S1-REMED-perspectives-04":[
+    ["They value different benefits","They value different benefits"]
+  ],
+  "Q-L1-V-S1-EXT-ARG-001":[
+    ["Regular readers learned more new words.","Regular readers learned more new words."]
+  ],
+  "Q-L1-V-S1-EXT-ARG-002":[
+    ["Shaded play areas were cooler.","Shaded play areas were cooler."]
+  ],
+  "Q-L1-V-S1-EXT-ARG-003":[
+    ["Quiet reading had fewer off-task behaviours.","Quiet reading had fewer off-task behaviours."]
   ]
 }
 
@@ -97,12 +139,18 @@ export function prepareStage1VerbalQuestion(question){
   const options=seededShuffle(normalized,`${question.id}:${Date.now()}`);
   const answerIndex=normalized.findIndex((option)=>stripPunctuation(option).toLowerCase()===stripPunctuation(sourceAnswer).toLowerCase());
   const normalizedAnswer=answerIndex>=0?normalized[answerIndex]:stripPunctuation(sourceAnswer);
+  const LENGTH_CUE_MIN_GAP=18;
   const lengthRisk=normalized.some((option,index)=>{
-    const length=option.length;
+    if(index!==answerIndex)return false;
     const lengths=normalized.map((item)=>item.length);
+    const sorted=[...lengths].sort((a,b)=>a-b);
+    const length=option.length;
     const max=Math.max(...lengths); const min=Math.min(...lengths);
-    return index===answerIndex&&((length===max&&lengths.filter((x)=>x===max).length===1)||(length===min&&lengths.filter((x)=>x===min).length===1));
+    const maxUnique=length===max&&lengths.filter((value)=>value===max).length===1;
+    const minUnique=length===min&&lengths.filter((value)=>value===min).length===1;
+    const near=maxUnique?sorted[sorted.length-2]:sorted[1];
+    return (maxUnique||minUnique)&&Math.abs(length-near)>=LENGTH_CUE_MIN_GAP&&Math.max(length,near)>=18;
   });
-  if(lengthRisk&&typeof window!=="undefined"&&process.env.NODE_ENV!=="production")console.warn(`[Reasoning option-quality] ${question.id}: correct answer has a unique length extreme; re-author the option set before production release.`);
+  if(lengthRisk&&typeof window!=="undefined"&&process.env.NODE_ENV!=="production")console.warn(`[Reasoning option-quality] ${question.id}: correct answer has a conspicuous length cue; rebalance the option set before production release.`);
   return {...question,options,answer:normalizedAnswer,optionQuality:{caseNormalized:true,punctuationNormalized:true,positionRandomized:true,lengthCueFlagged:lengthRisk}};
 }
