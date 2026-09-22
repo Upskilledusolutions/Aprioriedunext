@@ -2,7 +2,7 @@
 
 **Project:** Apriori Edu Next / Upskilleduonline  
 **Scope recorded here:** Level 1 Reasoning remediation and Level 2 build progress through the current work session  
-**Last updated:** 2026-09-21
+**Last updated:** 2026-09-22
 
 This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
 
@@ -15,6 +15,16 @@ This document is the chronological remediation record for completed and in-progr
 - The shared activity player remains the common execution layer for timing, scoring, feedback, completion, navigation and progress.
 - Reasoning progress remains separate from Foreign Languages progress.
 - No Foreign Languages architecture or content was changed as part of this remediation sequence.
+
+## 2026-09-22 — Final Stage-launch standard supersedes the grouped Stages 1–3 gate
+
+The project owner approved a sequential per-Stage launch process documented in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`.
+
+The immediate restart point is **Level 1 · Stage 1**. Stage 1 must be migrated into the human-editable/canonical content path, reconciled module-by-module including Explore and Extend, exposed completely to learners, deployed, fully verified on production and accepted before Stage 2 begins.
+
+A Module may contain one or multiple Activities/question sets. Each Activity/question set remains a distinct stable Activity ID and the default delivery contract remains exactly 10 questions per Activity.
+
+The 2026-09-18 corrective findings remain historical remediation records. They are not deleted or repeated unless the new live verification process identifies a specific defect.
 
 ## 2026-09-18 — Stages 1–3 re-audit and approved corrective roadmap
 
@@ -203,9 +213,9 @@ The Stage 1 build progressed through the following discrete implementation miles
 
 Level 2 work remains paused while the approved Level 1 Stages 1–3 corrective sequence and live owner-verification gate are completed. Existing Level 2 changes are preserved and will resume after the Level 1 foundation passes owner verification.
 
-### Current next action
+### Historical next action
 
-Implement the approved Stages 1–3 sequence in order: Verbal answer-quality correction → Stage 2 Explore/Extend presentation → Stage 2 owner verification → Stage 3 Explore/Extend presentation/navigation → Stage 3 owner verification → focused Stages 1–3 quick check.
+The 2026-09-18 sequence was superseded on 2026-09-22 by the per-Stage launch standard. The current next action is to restart Level 1 · Stage 1 through migration, structural exposure, deployment and complete live verification.
 
 ## Level 1 verification boundary
 
@@ -246,13 +256,14 @@ The repository already contains extensive JavaScript Reasoning source pools, exp
 - **M0 — Repository audit:** complete.
 - **M1 — Canonical schema and human-editable contract:** complete.
 - **C1 — Foundation integrity:** recorded; the canonical schema is to remain inside prebuild validation and existing runtime paths remain unchanged.
-- **M2 — Deterministic synchronization:** next.
-- **C2 — Synchronization integrity:** pending.
-- **M3 — Drift detection, canonical validation and round-trip:** pending.
-- **M4 — Per-Stage migration:** pending and must preserve existing Question IDs, Activity mappings, player behavior and legacy JS source pools.
-- **C4 — Runtime migration gate:** pending; canonical delivery cannot replace the current path until validated against the existing Activity contract.
+- **M2 — Deterministic synchronization:** complete.
+- **C2 — Synchronization integrity:** passed at source level.
+- **M3 — Drift detection, canonical validation and round-trip:** complete.
+- **C3 — Canonical integrity:** passed for infrastructure.
+- **M4 — Per-Stage migration:** current next architecture step, beginning with Level 1 · Stage 1.
+- **C4 — Runtime migration gate:** pending per migrated Stage; the canonical path must reproduce the required Activity delivery contract before canonical runtime becomes authoritative.
 
-This architecture work is intentionally separate from the Level 1 Stages 1–3 live-production verification gate. It does not mark Stages 1–3 verified and does not authorize a new curriculum-stage implementation. Existing JavaScript banks, calibration/delivery and the shared player remain the active runtime during migration.
+Architecture infrastructure remains distinct from learner acceptance, but the approved operational process now executes migration and Stage acceptance together one Stage at a time. Existing JavaScript banks, calibration/delivery and the shared player remain the active runtime for non-migrated content.
 
 
 ## 2026-09-21 — Synchronization, drift and round-trip infrastructure validated
@@ -279,4 +290,4 @@ The architecture foundation progressed through the next controlled milestones wi
 
 M0–M3 are infrastructure milestones. Existing JavaScript Reasoning banks, stage-specific calibration/delivery and the shared player remain the active learner-facing runtime. No Stage content has been migrated and no Stage has been marked verified by this work.
 
-The existing Level 1 Stages 1–3 live-production owner-verification gate remains in force. M4 migration is therefore a separate controlled step and must not be used to bypass that verification boundary.
+M4 migration now begins with Level 1 · Stage 1 under the approved sequential Stage-launch standard. A Stage is not accepted until its complete learner-facing experience passes live owner verification.

@@ -4,7 +4,7 @@
 
 **Status:** Living reference. Update this document only when an architectural decision is verified or deliberately approved.
 
-**Last updated:** 2026-09-08
+**Last updated:** 2026-09-22
 
 ## 1. Product vision
 
@@ -197,6 +197,8 @@ The content model must be extensible so that a **new question type or new questi
 
 Progress and dashboard calculations should depend on stable activity/question identifiers and metadata rather than hard-coded lists of question types. Adding content should therefore automatically fit the existing reporting structure wherever the new activity type supplies the required progress metadata.
 
+A Module may contain one or multiple Activities/question sets. Each distinct question set is represented by a distinct stable Activity ID. The normal delivery contract is exactly 10 questions per Activity. A separate `setId` layer is not required for this model.
+
 The Question Bank should also be designed for optional future interactive content. An activity may eventually reference an optional image, diagram, interactive component, generated visual, API/data source or other learning resource. These additions must be optional so ordinary content continues to work without external services.
 
 ### Timing model
@@ -255,6 +257,26 @@ User 123
 
 Quantitative and Verbal must also remain independently usable and reportable. Neither track should unlock or depend on the other. If only one track is selected, that track must still provide a complete progress, dashboard and leaderboard experience. If both are selected, their detailed records remain separate while a future Reasoning academic profile may aggregate them at a higher level.
 
+## 8A. Standalone Reasoning dashboard
+
+Reasoning has its own standalone learner-facing dashboard. It is separate from the existing Foreign Languages dashboard and must not replace or destabilize the language dashboard.
+
+The Reasoning dashboard should provide comparable practical features to the language dashboard while using a more refined professional visual treatment and a colour scheme aligned with the current Reasoning pages.
+
+Initial feature scope:
+
+- Quantitative and Verbal track selection;
+- level/stage progress;
+- Continue Learning / resume;
+- recent activity;
+- Reasoning progress report;
+- Reasoning leaderboard;
+- milestones/achievements where supported.
+
+Reasoning progress and gamification remain separately namespaced from Foreign Languages.
+
+Potential later additions include concept-level mastery indicators and other learner analytics, but these should not be required for the first dashboard release.
+
 ## 9. Frontend state
 
 The current Redux store contains language-oriented state, including unlocked pages/lessons and completed quiz information. Existing browser `localStorage` also contains language-oriented learning data.
@@ -269,7 +291,7 @@ Preferred direction:
 - avoid generic keys that can collide between products;
 - identify Reasoning records by stable track/level/stage/module/activity/question identifiers so new content can be added without redesigning reporting state.
 
-The exact state architecture should be chosen after the relevant code has been audited.
+The exact state architecture should be chosen after the relevant code has been audited. The dashboard feature direction is approved; implementation details remain subject to code/backend verification.
 
 ## 10. Backend dependency
 
@@ -291,7 +313,39 @@ The backend must enforce authentication and authorization for protected data and
 
 No passwords, API keys, private credentials or other secrets may be placed in this repository or documentation.
 
-## 12. Architectural implementation strategy
+## 12. Stage launch strategy
+
+Reasoning curriculum is launched one Stage at a time using `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`.
+
+The required operational sequence is:
+
+```
+Stage audit
+  ↓
+Human-editable Stage source
+  ↓
+Canonical records
+  ↓
+Structural Module/Explore/Extend reconciliation
+  ↓
+Question-quality validation
+  ↓
+Learner-facing exposure
+  ↓
+Prebuild validation
+  ↓
+Production deployment
+  ↓
+Complete live verification
+  ↓
+Stage acceptance
+  ↓
+Next Stage
+```
+
+Every Module must be verified in production, including every Explore and Extend Activity. A Module may contain multiple Activities/question sets.
+
+## 13. Architectural implementation strategy
 
 Prefer incremental additions over large rewrites.
 
@@ -318,7 +372,7 @@ existing Foreign Languages product
 
 A change to shared code must be assessed for its effect on the existing language product before implementation.
 
-## 13. Architecture decisions that are intentionally not final
+## 14. Architecture decisions that are intentionally not final
 
 The following remain **To Be Verified** until the relevant implementation/backend is inspected:
 
@@ -336,13 +390,13 @@ The following remain **To Be Verified** until the relevant implementation/backen
 
 Do not treat these as settled merely because a prototype currently displays them.
 
-## 14. Priority order
+## 15. Priority order
 
 When architectural decisions conflict, use:
 
 **Safety → Separation → Simplicity → Reuse → Scalability**
 
-## 15. Definition of a successful two-product architecture
+## 16. Definition of a successful two-product architecture
 
 The architecture is successful when:
 
@@ -362,7 +416,7 @@ The architecture is successful when:
 14. Future development can add either product without unnecessarily destabilizing the other.
 
 
-## 7A. Reasoning human-editable / canonical question architecture
+## 16A. Reasoning human-editable / canonical question architecture
 
 The existing Reasoning learning hierarchy remains unchanged. A controlled content layer is inserted between Activity ID resolution and calibration/delivery:
 

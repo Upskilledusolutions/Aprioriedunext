@@ -1,27 +1,23 @@
 # Reasoning Development Status
 
-Last updated: 2026-09-18
+Last updated: 2026-09-22
 
 ## Current status
 
 Reasoning is being developed through a focused stage-by-stage audit and remediation process. **Level 1 Stages 1–3 have received implementation/remediation work, but all three remain UNVERIFIED by the project owner.** A successful build or Ready Vercel deployment does not count as owner verification.
 
-**Mandatory resume rule:** when work resumes after this documentation update, the first step is to remind the project owner that **Level 1 Stages 1–3 must be verified on the live production website before any new stage implementation proceeds.** Do not treat historical deployment success as verification.
+**New standard:** Reasoning work now follows the approved per-Stage launch and verification standard in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`. The immediate restart point is **Level 1 · Stage 1**. Stage 1 must be migrated, exposed completely, deployed and fully owner-verified before Stage 2 begins. Each later Stage follows the same sequential acceptance gate.
 
 The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is introduced for curriculum remediations.
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
 
-## Approved Level 1 Stages 1–3 corrective roadmap — 2026-09-18
+## Superseded Level 1 Stages 1–3 corrective roadmap — historical record
 
-The project owner approved the following focused sequence. It records the next implementation work without reopening completed remediation:
+The 2026-09-18 focused corrective sequence remains valid as remediation history, but its launch/verification order is superseded by the 2026-09-22 **Reasoning Stage Launch and Verification Standard**.
 
-1. **Verbal answer-quality correction across Stages 1–3 — implementation completed/prevalidated.** The actual delivered Verbal sets were audited, conspicuous correct-answer length cues were reauthored, two incomplete Stage 2 option sets were restored to four choices, Stage 1 answer matching was corrected, and the prebuild gate was extended to check the actual Stage 1–3 Verbal delivery paths. Production deployment/owner verification remains pending.
-2. **Stage 2 learner-facing Explore/Extend structure.** Keep the existing Stage 2 modules, activities, IDs, question banks, progress and player unchanged. Present Explore first and Extend second, matching the Stage 1 model. Stage 2 Previous/Next module navigation is already implemented in `ff9a16234066517269c642b6f81fa5356e1c418f`. Implement this presentation correction, deploy, then obtain owner verification of Stage 2.
-3. **Stage 3 learner-facing Explore/Extend structure and navigation.** Expose the existing Explore and Extend content correctly, remove hard-coded Explore-only labels, and add Previous/Next module navigation. Do not change Stage 3 question content unless the separate answer-quality audit identifies a specific defect. Implement, deploy, then obtain owner verification of Stage 3.
-4. **Three-stage checkpoint.** After Stage 2 and Stage 3 have each been owner-verified, perform the focused Stages 1–3 quick check. The comprehensive quality audit remains deferred until all nine stages are live.
+The approved current sequence is: restart with Level 1 · Stage 1, migrate the complete Stage into the human-editable/canonical content path, reconcile every Module including Explore and Extend, expose the complete learner-facing Stage, deploy, perform full live verification, accept Stage 1, then proceed to Stage 2 and continue sequentially.
 
-No stage is marked verified by this roadmap alone.
 
 ## Verification cadence
 
@@ -47,11 +43,11 @@ The architecture roadmap is now tracked separately from curriculum-stage verific
 | C4 Runtime migration gate | **Pending** | Canonical delivery reproduces valid Activity sets before cutover |
 | M5 Gradual legacy retirement | **Pending** | Separate decision after migrated content is verified |
 
-**Important separation:** these architecture milestones do not change the existing Level 1 Stages 1–3 live-production verification gate. The architecture work may establish reusable infrastructure; new curriculum-stage implementation and runtime content migration remain subject to the existing stage-verification rules.
+**Important separation:** architecture infrastructure and curriculum-stage acceptance are distinct, but the approved 2026-09-22 launch standard now joins them operationally at the per-Stage level: a Stage is migrated, structurally exposed, deployed and live-verified as one controlled sequence. Stage 2 begins only after Stage 1 acceptance; later Stages follow the same rule.
 
 ### Current verification note
 
-The project owner has performed a **quick functional check of Stage 1** and reported that it is functioning as expected. This was **not a comprehensive quality check**. The comprehensive quality check is intentionally deferred until all nine stages are live. Stages 1–3 therefore remain unverified for formal completion purposes until the required production verification checkpoint is completed.
+The project owner previously performed a **quick functional check of Stage 1**. That quick check remains historical evidence only and does not satisfy the new Stage acceptance gate. Stage 1 is being restarted for controlled migration and full live verification. The comprehensive quality check remains deferred until all nine stages are live.
 
 ## Mandatory quality requirements
 
@@ -97,7 +93,7 @@ inspect → one coherent stage implementation → deployment → owner verificat
 
 Vercel deployments are verification events, not the debugging loop. Before deployment, perform a repository-wide learner-facing label sweep and a stage-specific content/runtime sweep so that route-level omissions are caught before the deployment.
 
-## Level 1 · Stage 1 — implementation/remediation complete; owner verification pending
+## Level 1 · Stage 1 — restart point for controlled migration and full launch verification
 
 ### Scope
 
@@ -121,13 +117,11 @@ Stage 1 remediation covered Quantitative and Verbal delivery without changing th
 - **New re-audit finding:** Verbal Stage 1 delivered questions can still leave the correct option as a conspicuously longest answer. This is a content-quality defect, not a reason to change the underlying architecture.
 - **Completed corrective step:** Stage 1 is included in the Stages 1–3 Verbal answer-quality correction. Production deployment and owner verification remain pending.
 
-### Stage 1 verification state
+### Stage 1 current state
 
-**UNVERIFIED — owner verification required.**
+**Migration/launch sequence pending.**
 
-Live production verification must confirm: exactly 10 questions per activity; no missing or duplicated delivery; substantive two-level difficulty elevation; correct Computation vs Computation + Reasoning labels; valid answers/explanations/timing; Previous/Next and answered/unanswered behavior; scoring/completion/progress; no learner-facing Grade labels; and no client-side errors.
-
-Do not mark Stage 1 verified until the owner completes this live check.
+Stage 1 is the immediate restart point under the new standard. The full Stage 1 cycle must establish the human-editable source, canonical records, complete Module/Explore/Extend structure, question-quality compliance, learner-facing exposure, deployment and complete production verification before Stage 1 is accepted.
 
 ## Level 1 · Stage 2 — implementation/remediation complete; owner verification pending
 
@@ -174,21 +168,37 @@ These changes resolved the build/calibration path that had previously caused the
 
 The owner must verify Stage 3 on the live production website, including the previously missing Mathematical Justification and the other Stage 3 Extend activities, complete question delivery, correct Explore/Extend presentation, content-mode labels, difficulty/progression, answers/explanations, timing, navigation, scoring, completion/progress and absence of client-side errors. A Ready deployment establishes successful build/deployment, not live owner verification.
 
-## Level 1 · Stages 1–3 verification boundary
+## Level 1 sequential Stage-acceptance boundary
 
-Stages 1, 2 and 3 remain explicitly grouped under a **live-production owner-verification gate**. The Stage 1 quick check noted above does not complete this gate. The approved corrective work on these existing stages may proceed before the gate is completed; **no new stage implementation** proceeds beyond this boundary until the gate is completed. Until the owner confirms all three stages are functioning correctly on production:
+The previous grouped Stages 1–3 gate is superseded.
 
-- do not mark any of Stages 1–3 as verified;
-- do not record them as fully complete;
-- do not start new stage implementation on the assumption that the foundation is verified;
-- on the next build-session resume, first remind the owner that Stages 1–3 require verification;
-- preserve all implementation/remediation history and do not redo completed work unless live verification exposes a specific defect.
+The current rule is **one Stage at a time**:
+
+1. complete the approved Stage migration/launch workflow;
+2. obtain complete owner verification for that Stage;
+3. accept the Stage;
+4. only then begin the next Stage.
+
+The immediate sequence starts at Level 1 · Stage 1, then Stage 2, then Stage 3, and continues through later Levels. Historical remediation is preserved and is not repeated unless live verification identifies a specific defect.
+
 
 ## Reusable standard for all future stages and levels
 
 Before implementing each future stage, inspect its current computation and Computation + Reasoning bank against the calibrated baseline. Apply the same two-additional-level elevation where the current baseline is insufficient. Do not simply increment `difficulty` metadata. The actual question content must carry the increased demand.
 
 This rule must be applied consistently across Levels 1–9 and Stages 1–6. It is part of the source-of-truth acceptance criteria for every future computation remediation.
+
+## Level 1 · Stages 2–3 — queued under the sequential Stage-launch standard
+
+Stages 2 and 3 retain their historical remediation and identified learner-facing corrections. They are **not accepted** and will be handled after Stage 1 passes the new complete migration/launch gate.
+
+Their earlier findings remain relevant:
+
+- Stage 2 requires correct Explore-first → Extend presentation.
+- Stage 3 requires correct Explore/Extend presentation and Previous/Next module navigation.
+- Existing question content should not be changed unless live verification identifies a specific defect.
+
+Under the new process, both Stages 2 and 3 will receive the same full migration, structural reconciliation, prebuild validation, deployment and complete live verification as every other Stage.
 
 ## Level 1 · Stage 4–6 status
 
@@ -219,12 +229,12 @@ Level 2 Stage 1 implementation exists in the repository but remains paused while
 
 These are implementation facts, not substitutes for current owner verification.
 
-## Remaining curriculum work after the Stages 1–3 gate
+## Remaining curriculum work under the sequential Stage-launch standard
 
-- Complete the approved Stages 1–3 corrective sequence: Verbal answer-quality correction, Stage 2 Explore/Extend presentation, then Stage 3 Explore/Extend presentation and navigation.
-- Owner-verify Stage 2 after its deployment and Stage 3 after its deployment.
-- Perform the focused Stages 1–3 quick-check checkpoint.
-- Then freshly audit and remediate Level 1 Stages 4–6 using the same focused stage-level model.
+- Restart Level 1 · Stage 1 through the complete migration → exposure → deployment → live verification → acceptance sequence.
+- Proceed sequentially through Stage 2 and Stage 3 using the same standard.
+- Perform the focused Stages 1–3 checkpoint after all three are individually accepted.
+- Continue through Level 1 Stages 4–6 and then Levels 2–9 using the same per-Stage process.
 - Apply the exact-10-question quality standard without lowering conceptual or difficulty quality.
 - Apply the two-additional-level computation/Computation + Reasoning elevation wherever the existing recalibrated baseline is insufficient.
 - Resolve known Level 1 structural issues through validated changes.
@@ -240,6 +250,24 @@ These remain separate from the current frontend curriculum build and should be i
 Question count, substantive variety, activity alignment, content-mode classification, actual difficulty progression, grade alignment, assessment integrity, runtime safety and deployment verification are separate acceptance criteria.
 
 A stage is not considered complete merely because it has the required number of question records, because a commit exists, or because a Vercel deployment is Ready. **Owner live-production verification is a separate mandatory acceptance criterion.**
+
+## 2026-09-22 — Final Reasoning product and Stage-launch process approved
+
+The project owner approved a standalone Reasoning dashboard direction and a repeatable per-Stage launch process.
+
+### Product direction
+
+Reasoning receives its own learner-facing dashboard, separate from the Foreign Languages dashboard. It should provide comparable practical features to the language dashboard, while using a more refined professional aesthetic and Reasoning-specific colour scheme aligned with the existing Reasoning pages.
+
+The first dashboard scope includes track selection, level/stage progress, Continue Learning, recent activity, a Reasoning progress report and a Reasoning leaderboard, with milestones/achievements considered where supported. Reasoning and Foreign Languages records remain separately namespaced.
+
+### Launch process
+
+Every Stage now follows the sequence documented in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`: baseline audit → human-editable Stage source → canonical records → structural learner-facing reconciliation → question-quality validation → learner-facing exposure → pre-deployment validation → one coherent deployment → complete live production verification → Stage acceptance.
+
+A Module may contain multiple Activities/question sets, with exactly 10 questions per Activity.
+
+The immediate restart point is Level 1 · Stage 1. Stage 2 begins only after Stage 1 is fully accepted, and the same rule applies sequentially to every later Stage.
 
 ## 2026-09-21 — Reasoning question-bank architecture foundation
 

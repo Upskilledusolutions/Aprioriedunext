@@ -15,6 +15,8 @@ For non-migrated content, preserve the existing JavaScript source pool until tha
 
 Each editable Stage document represents one Level + Stage and may contain both Quantitative and Verbal questions. Every question retains an explicit `track`, `half`, `moduleId` and `activityId` mapping.
 
+A Module may contain one or multiple Activities/question sets. Each distinct question set is represented by a stable Activity ID and normally delivers exactly 10 questions. Do not add a separate `setId` layer unless explicitly approved.
+
 ## 3. Question lifecycle
 
 Use:
@@ -40,9 +42,13 @@ When changing a question:
 9. Review the canonical diff.
 10. Only then allow calibration/delivery to use the updated canonical record.
 
-## 5. Adding a question
+## 5. Adding a question or question set
 
-Assign a globally unique stable Question ID and complete all required placement/content metadata. The Activity must be an existing valid Activity ID unless a separate curriculum change is being implemented.
+Assign a globally unique stable Question ID and complete all required placement/content metadata.
+
+For a new question inside an existing Activity, keep the Activity ID.
+
+For a new question set within an existing Module, create or use a distinct approved Activity ID and map all questions to that Activity.
 
 Do not satisfy the 10-question requirement by duplicating or cosmetically varying an existing question.
 
@@ -82,7 +88,9 @@ Figures are part of the question record. Keep stable figure IDs, required alt te
 ## 10. Release workflow
 
 ```
-Edit
+Baseline / audit Stage
+  ↓
+Edit human-readable Stage source
   ↓
 Synchronize
   ↓
@@ -92,18 +100,24 @@ Drift check
   ↓
 Review canonical diff
   ↓
-Calibrate / build exact-10 set
+Reconcile every Module + Explore/Extend
+  ↓
+Calibrate / build exact-10 sets
   ↓
 Reasoning prebuild validation
   ↓
 Deploy exact commit
   ↓
-Live/owner verification when required
+Production verification of every Module and Activity
+  ↓
+Stage acceptance
 ```
 
-Related changes should be grouped into one coherent, prevalidated deployment-triggering commit.
+Related changes should be grouped into one coherent, prevalidated deployment-triggering commit. The complete operational standard is documented in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`.
 
 ## 11. Migration rule
 
-Migrate one Stage at a time. Preserve existing Question IDs and legacy source-bank provenance. Do not delete legacy JavaScript content merely because canonical records have been generated.
+Migrate one Stage at a time, starting with Level 1 · Stage 1 under the approved Stage-launch standard. Preserve existing Question IDs and legacy source-bank provenance. Do not delete legacy JavaScript content merely because canonical records have been generated.
+
+Do not proceed to the next Stage until the current Stage has passed complete production verification and Stage acceptance.
 

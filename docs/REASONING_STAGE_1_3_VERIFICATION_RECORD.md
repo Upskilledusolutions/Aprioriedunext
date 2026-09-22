@@ -1,6 +1,6 @@
 # Reasoning Level 1 Stages 1–3 Verification Record
 
-**Last updated:** 2026-09-21
+**Last updated:** 2026-09-22
 
 ## Purpose
 
@@ -35,9 +35,9 @@ The approved first step — **Verbal answer-quality correction across Stages 1�
 
 **Current status:** implementation corrected; production deployment and owner verification are still pending. No stage is marked verified by this step.
 
-### Next action
+### Historical next action
 
-Verify the deployed correction on production. The next approved application-code change after Stage 2 owner verification is the Stage 2 Explore/Extend dashboard presentation correction.
+The 2026-09-21 deployment verification remains historical. The approved current next implementation is the Level 1 · Stage 1 migration/launch cycle defined by the new Stage-launch standard.
 
 ## Stage 1 — Foundation
 
@@ -126,11 +126,13 @@ Verify on production, especially the previously missing **Mathematical Justifica
 
 **Status: UNVERIFIED.**
 
-## Resume rule
+## Superseded grouped-stage resume rule
 
-When the next Reasoning build session starts, remind the project owner that **Level 1 Stages 1–3 are implemented but unverified**.
+The previous grouped Stages 1–3 verification gate is superseded by the 2026-09-22 **Reasoning Stage Launch and Verification Standard**.
 
-The approved corrective work already recorded in this document may proceed before that verification gate is complete. However, **no new stage implementation** proceeds beyond the Stages 1–3 boundary until the required live-production verification is completed. Do not redo completed Stage 1–3 work merely because verification is pending. If live verification exposes a defect after these corrections, make only the targeted fix required by the observed defect, then redeploy and reverify the affected stage.
+The current restart point is **Level 1 · Stage 1**. Stage 1 must be migrated, structurally reconciled, fully exposed to learners, deployed and completely verified on production before Stage 2 begins. The same sequential acceptance rule applies to later Stages.
+
+Do not redo historical remediation merely because verification is pending. If live verification exposes a defect, make only the targeted fix required by the observed defect, then redeploy and reverify the affected Stage.
 
 ## Deployment-efficiency rule carried forward
 

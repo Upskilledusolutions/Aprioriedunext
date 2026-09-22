@@ -138,6 +138,23 @@ Each question is an explicit object using the canonical field names. The format 
 
 A human editor changes question content and approved metadata in this document. Runtime JavaScript files are not the preferred manual editing surface after a stage has migrated.
 
+## 5A. Modules and multiple question sets
+
+One Level + Stage editable document may contain any number of Modules for either track. A Module may contain **one or multiple Activities/question sets**.
+
+The Activity is the stable runtime unit for a question set:
+
+```
+Stage
+  → Module
+    → Activity / Question Set
+      → 10 delivered questions
+```
+
+Do not introduce a separate `setId` layer merely to support multiple question sets. Use distinct stable Activity IDs unless a future architectural decision explicitly requires a separate set abstraction.
+
+A Stage migration must preserve this structure in the editable source, canonical records and learner-facing Module presentation.
+
 ## 6. Level → Stage → Module → Activity → Question mapping
 
 The mapping is explicit.
@@ -369,6 +386,8 @@ Add stale-output detection, canonical validation and round-trip reconstruction t
 ### Milestone M4 — Per-Stage migration
 
 Migrate one existing Stage at a time, preserving existing Question IDs and legacy JavaScript source pools. The migrated Stage becomes canonical-runtime-authoritative only after its canonical delivery path is validated.
+
+M4 is executed together with the operational Stage-launch workflow: after migration, reconcile every Module including Explore and Extend, expose the complete learner-facing Stage, deploy the exact validated commit and complete live owner verification before accepting the Stage.
 
 ### Checkpoint C4 — Runtime migration gate
 

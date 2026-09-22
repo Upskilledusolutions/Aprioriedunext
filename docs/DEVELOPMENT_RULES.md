@@ -210,7 +210,30 @@ PRODUCT SELECTION
 
 The selected product controls the learning experience without changing the underlying user identity.
 
-## 17. Testing priority
+## 17. Reasoning Stage launch and verification
+
+For every Reasoning Stage, follow `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`.
+
+The standard is:
+
+1. baseline/audit the Stage;
+2. create/complete the one human-editable Level + Stage source;
+3. synchronize to canonical records;
+4. validate mappings, drift and question quality;
+5. reconcile every Module including Explore and Extend;
+6. expose the complete learner-facing Stage;
+7. run pre-deployment validation;
+8. make one coherent deployment-triggering commit;
+9. verify the exact Production deployment;
+10. verify every Module, Activity and both Explore/Extend halves on the live site;
+11. accept the Stage;
+12. only then proceed to the next Stage.
+
+A Module may contain multiple question sets. Represent each distinct set as a distinct Activity ID; retain the exact-10-per-Activity contract.
+
+A Ready Vercel deployment never substitutes for live Stage verification.
+
+## 18. Testing priority
 
 When a shared change is made, test the existing Foreign Languages flow as well as the new Reasoning flow.
 
@@ -237,21 +260,21 @@ For every Reasoning stage being remediated, additionally verify:
 - timer overrides work at the intended configuration level
 - switching products does not log the user out
 
-## 18. No premature technical decisions
+## 19. No premature technical decisions
 
 Do not invent a database schema, API contract or architecture just to fill documentation.
 
 If something has not been verified, label it as **To Be Verified**.
 
-## 19. Reasoning question-bank migration rule
+## 20. Reasoning question-bank migration rule
 
 For migrated Reasoning content, use the human-editable Stage document as the preferred editing surface and the validated canonical record as the runtime authority. Existing JavaScript Reasoning banks remain controlled source pools until their content is deliberately migrated and verified.
 
 Do not interpret migration as a request to rewrite question content. A migration transformation may normalize representation while preserving Question IDs, meaning, answers, explanations, timing, difficulty, placement metadata and figures. Content-quality changes remain subject to the separate Reasoning Question Quality Standard.
 
-The migration sequence is infrastructure-first: schema → synchronization → drift/validation → round-trip → per-Stage migration → canonical runtime integration. The existing Level 1 Stages 1–3 live-production verification gate remains in force; architecture infrastructure must not be used to bypass it.
+The migration sequence is infrastructure-first, followed by controlled per-Stage execution: schema → synchronization → drift/validation → round-trip → one-Stage migration → learner-facing reconciliation → deployment → complete production verification → Stage acceptance → next Stage. The old grouped Level 1 Stages 1–3 gate is superseded.
 
-## 20. Zero-cost development preference
+## 21. Zero-cost development preference
 
 During validation, prefer the existing infrastructure and free tiers. Do not add paid services unless there is a clear business or technical reason.
 
