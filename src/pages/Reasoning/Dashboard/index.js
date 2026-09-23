@@ -19,31 +19,15 @@ export default function ReasoningDashboard() {
   const router = useRouter();
   const { user, isAuthenticated } = useSelector((state) => state.auth);
   const [progress, setProgress] = useState(null);
-  const [reasoningAccess, setReasoningAccess] = useState(null);
-  const [accessError, setAccessError] = useState(false);
 
   useEffect(() => {
     if (!isAuthenticated && user === null) return;
     if (!user?.userId) router.replace("/Auth");
     else {
       setProgress(readReasoningProgress(user.userId));
-      const loadAccess = async () => {
-        try {
-          const response = await fetch(`${process.env.NEXT_PUBLIC_BACKENDURL}/api/reasoning/access/${encodeURIComponent(user.userId)}`, { credentials: "include" });
-          const data = await response.json();
-          if (!response.ok || !data.success) throw new Error("Unable to verify Reasoning access");
-          setReasoningAccess(data.reasoningAccess || []);
-        } catch (error) {
-          console.error("Error verifying Reasoning access:", error);
-          setAccessError(true);
-        }
-      };
-      loadAccess();
     }
   }, [isAuthenticated, user, router]);
 
-  if (accessError) return <main style={styles.page}><div style={styles.wrapper}><div style={styles.note}><strong>Unable to verify access.</strong><p>Please sign in again and try again.</p><Link href="/Auth" style={styles.button}>Sign in</Link></div></div></main>;
-  if (reasoningAccess === null) return <main style={styles.page}><div style={styles.wrapper}><div style={styles.note}>Verifying your Reasoning access…</div></div></main>;
 
   const quantitativePercent = getTrackPercent(progress, "quantitative", 5, STAGE1_MODULES.quantitative);
   const verbalPercent = getTrackPercent(progress, "verbal", 5, STAGE1_MODULES.verbal);
