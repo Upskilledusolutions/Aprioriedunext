@@ -101,7 +101,7 @@ export default function ReasoningAnalytics() {
             <div style={styles.card}><div style={styles.label}>Overall Stage 1 progress</div><div style={styles.value}>{analytics.overall.percent}%</div></div>
             <div style={styles.card}><div style={styles.label}>Modules completed</div><div style={styles.value}>{analytics.overall.completedModules} / {analytics.overall.totalModules}</div></div>
             <div style={styles.card}><div style={styles.label}>Activities completed</div><div style={styles.value}>{analytics.overall.activitiesCompleted} / {analytics.overall.activitiesTotal}</div></div>
-            <div style={styles.card}><div style={styles.label}>Question-level history</div><div style={styles.value}>Unavailable</div></div>
+            <div style={styles.card}><div style={styles.label}>Questions completed</div><div style={styles.value}>{analytics.overall.questionsCompleted}</div></div>
             <div style={styles.card}><div style={styles.label}>Average completed-activity score</div><div style={styles.value}>{percent(analytics.overall.averageActivityScore)}</div></div>
           </div>
 
@@ -157,7 +157,7 @@ export default function ReasoningAnalytics() {
 
           <section style={styles.section}>
             <h2 style={styles.sectionTitle}>Activity performance</h2>
-            <p style={styles.sectionText}>Activity scores are the persisted completion scores for finished activities. Question-level attempts and answers are not part of the current learner record.</p>
+            <p style={styles.sectionText}>Activity scores are the persisted completion scores for finished activities. Question-level attempts and answers are not part of the current learner record; completed-question totals are derived from activities whose completion record proves the full delivered set was completed.</p>
             <div style={styles.tableWrap}>
               <table style={styles.table}>
                 <thead><tr><th style={styles.th}>Track</th><th style={styles.th}>Activity</th><th style={styles.th}>Half</th><th style={styles.th}>Questions</th><th style={styles.th}>Score</th></tr></thead>
@@ -167,7 +167,7 @@ export default function ReasoningAnalytics() {
                       <td style={styles.td}>{item.track}</td>
                       <td style={styles.td}>{item.title}</td>
                       <td style={styles.td}>{item.half}</td>
-                      <td style={styles.td}>Not persisted</td>
+                      <td style={styles.td}>{item.completed ? item.questionCount : "—"}</td>
                       <td style={styles.td}>{item.score === null ? "Not completed" : `${item.score}%`}</td>
                     </tr>
                   ))}
@@ -192,7 +192,7 @@ export default function ReasoningAnalytics() {
           <section style={styles.section}>
             <h2 style={styles.sectionTitle}>Data not yet persisted</h2>
             <div style={styles.notice}>
-              Attempt-level question history, performance by question difficulty, per-question timing and growth over time are not stored by the current Reasoning progress record. They are therefore not fabricated or represented as learner analytics here. Permanent server-side persistence also remains a backend dependency documented by the project.
+              Attempt-level question history, performance by question difficulty, per-question response timing and growth over time are not stored by the current Reasoning progress record. They are therefore not fabricated or represented as learner analytics here. Permanent server-side persistence also remains a backend dependency documented by the project.
             </div>
           </section>
         </div>
