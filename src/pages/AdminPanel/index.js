@@ -45,7 +45,8 @@ export default function Index() {
 
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(`${URL}/api/${selection.section}/${selection.language}/${id}`, {\n        credentials: "include",
+      const response = await fetch(`${URL}/api/${selection.section}/${selection.language}/${id}`, {
+        credentials: "include",
         method: 'DELETE',
       });
 
