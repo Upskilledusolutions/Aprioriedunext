@@ -305,7 +305,7 @@ The backend transition following Level 1 · Stage 1 acceptance is implemented an
 - Authenticated status checks: `22d651851229ce1ef314d0e9c8d8f1981ff7f418`.
 - Consistent Auth model references: `d763b2edf8979738a6c65c27258b69c0f750c392`.
 - Duplicate Auth model registration removed: `8005d16ca76afda782e5ae9fb82b01284870e119`.
-- Final backend authorization + persistence deployment: `6c353c4529fe3b5c613deb3396f8a00b8d1ce500`.
+- Final backend authorization + persistence implementation commit: `6c353c4529fe3b5c613deb3396f8a00b8d1ce500`.
 
 ### Durable attempt persistence
 
@@ -320,7 +320,7 @@ The frontend Activity Player integration is commit `e22ccb1bc800f41689fc62a07c52
 
 ### Current deployment and verification state
 
-- Render Backend: **LIVE** on `6c353c4529fe3b5c613deb3396f8a00b8d1ce500`.
+- Backend Reasoning implementation commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is deployed in the live Render deployment chain. Later documentation-only commits may appear as the latest Render deployment without changing this implementation.
 - Vercel frontend: **READY** on `e22ccb1bc800f41689fc62a07c52b664783c3cfb`.
 - Owner verification of authorization, durable attempt capture and Reasoning/Foreign Languages separation: **PENDING**.
 - Level 1 · Stage 2: **BLOCKED** until the verification gate is complete.

@@ -10,7 +10,7 @@ Reasoning is being developed through a focused stage-by-stage audit and remediat
 
 The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is introduced for curriculum remediations.
 
-**Current backend transition:** after Stage 1 acceptance, the external `Upskilledusolutions/Backend` repository was audited. Server-recognized authentication, manual Reasoning Level authorization and durable question-attempt persistence are now implemented and deployed. Backend commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is LIVE on Render; frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is READY on Vercel. **Live authorization/capture verification remains pending.**
+**Current backend transition:** after Stage 1 acceptance, the external `Upskilledusolutions/Backend` repository was audited. Server-recognized authentication, manual Reasoning Level authorization and durable question-attempt persistence are now implemented and deployed. Backend Reasoning implementation commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is deployed in the live Render deployment chain. Later documentation-only commits may appear as the latest Render deployment without changing this implementation.; frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is READY on Vercel. **Live authorization/capture verification remains pending.**
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
 
@@ -358,7 +358,7 @@ The approved backend transition has now reached the implementation/deployment st
 3. Manual Reasoning Level access was implemented using `reasoningL1`–`reasoningL9`, separately from Foreign Languages `next`.
 4. The shared Activity Player was made dependent on the authenticated backend access response before rendering Reasoning questions.
 5. Durable Reasoning question-attempt persistence was implemented in the separate Reasoning data namespace.
-6. Backend commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is LIVE on Render.
+6. Backend Reasoning implementation commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is deployed in the live Render deployment chain. Later documentation-only commits may appear as the latest Render deployment without changing this implementation.
 7. Frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is READY on Vercel.
 
 ### Current gate

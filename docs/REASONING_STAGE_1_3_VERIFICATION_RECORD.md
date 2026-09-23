@@ -177,7 +177,7 @@ The shared frontend Activity Player sends the supported attempt data through `sr
 
 Implementation/deployment:
 
-- Backend `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` — Render **LIVE**.
+- - Backend Reasoning implementation commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is deployed in the live Render deployment chain. Later documentation-only commits may appear as the latest Render deployment without changing this implementation.
 - Frontend `e22ccb1bc800f41689fc62a07c52b664783c3cfb` — Vercel **READY**.
 
 ### Verification boundary

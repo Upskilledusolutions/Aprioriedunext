@@ -536,7 +536,7 @@ The shared Activity Player checks backend-authorized Level access before renderi
 
 The attempt store is a durable capture layer. The active question bank remains in the frontend repository, so the backend currently records correctness supplied by the player rather than independently recomputing answers. This is not the final authoritative grading engine.
 
-Backend commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is LIVE on Render. Frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is READY on Vercel.
+Backend Reasoning implementation commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is deployed in the live Render deployment chain. Later documentation-only commits may appear as the latest Render deployment without changing this implementation. Frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is READY on Vercel.
 
 ### Verification boundary
 

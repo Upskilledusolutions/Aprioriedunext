@@ -192,7 +192,7 @@ Manual Reasoning Level access and its authentication boundary are implemented an
 
 The durable question-attempt persistence foundation is also implemented and deployed:
 
-- Backend: `6c353c4529fe3b5c613deb3396f8a00b8d1ce500`
+- Backend implementation commit: `6c353c4529fe3b5c613deb3396f8a00b8d1ce500`
 - Frontend: `e22ccb1bc800f41689fc62a07c52b664783c3cfb`
 - Storage: separate `Reasoning.question_attempts` collection
 - APIs: `POST/GET /api/reasoning/attempts`
