@@ -193,11 +193,7 @@ function ActivityPerformanceBarChart({ title, data }) {
       </div>
 
       <div style={styles.barPlot}>
-        <div style={styles.barYAxis} aria-hidden="true">
-          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis100 }}>100%</span>
-          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis75 }}>75%</span>
-          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis50 }}>50%</span>
-        </div>
+        <div style={styles.barYAxis} aria-hidden="true" />
         <div style={styles.barStage}>
           <div style={styles.barGridArea}>
             <div style={styles.barItems}>
