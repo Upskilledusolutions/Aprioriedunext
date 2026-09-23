@@ -53,6 +53,7 @@ export default function Login() {
 
       const response = await fetch(`${URL}/api/login`, {
         method: "POST",
+        credentials: "include",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, userId, password, ipAddress, location }),
       });
@@ -79,6 +80,7 @@ export default function Login() {
             active: data.user.active,
             completedQuizzes: mergedQuizzes,
             contest: data.user.contest,
+            reasoningAccess: data.user.reasoningAccess || [],
           }));
 
           setCookie("user", JSON.stringify({
@@ -89,6 +91,7 @@ export default function Login() {
             next: data.user.next,
             active: data.user.active,
             contest: data.user.contest,
+            reasoningAccess: data.user.reasoningAccess || [],
           }), { path: "/", maxAge: 6 * 3600 });
 
           localStorage.setItem("completedQuizzes", JSON.stringify(mergedQuizzes));
