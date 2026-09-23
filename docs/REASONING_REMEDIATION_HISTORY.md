@@ -2,7 +2,7 @@
 
 **Project:** Apriori Edu Next / Upskilleduonline  
 **Scope recorded here:** Level 1 Reasoning remediation and Level 2 build progress through the current work session  
-**Last updated:** 2026-09-22
+**Last updated:** 2026-09-23
 
 This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
 
@@ -240,7 +240,7 @@ A stage is not treated as remediated merely because the number of question recor
 
 ## Next development scope
 
-**Approved — implementation pending:** complete the focused Stages 1–3 corrective sequence recorded on 2026-09-18. No new stage implementation proceeds beyond the existing verification boundary until Stages 1–3 pass live owner verification.
+**Historical — superseded implementation scope:** the focused Stages 1–3 corrective sequence recorded on 2026-09-18 has been completed for the applicable implemented corrections, with Stage 1 subsequently accepted. The current release gate is the backend authorization/persistence production verification documented below. No new curriculum-stage implementation begins until that gate is complete.
 
 
 ## 2026-09-21 — Human-editable / canonical question-bank architecture foundation
