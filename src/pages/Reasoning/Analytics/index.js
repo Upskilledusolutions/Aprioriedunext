@@ -27,8 +27,11 @@ const styles = {
   barItems: { height: "100%", display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 8 },
   barItem: { flex: "1 1 0", height: "100%", display: "flex", flexDirection: "column", justifyContent: "flex-end", alignItems: "center", minWidth: 0 },
   barValue: { marginBottom: 5, color: "#38506f", fontSize: 9, fontWeight: 850, lineHeight: 1 },
-  barTrack: { width: "min(28px,72%)", height: "calc(var(--bar-value) * 1%)", minHeight: 3, borderRadius: "7px 7px 2px 2px", background: "linear-gradient(180deg, var(--bar-top) 0%, var(--bar-bottom) 100%)", boxShadow: "inset 0 1px 0 rgba(255,255,255,.45), 0 5px 10px rgba(11,42,82,.10)" },
-  barDateRow: { display: "flex", justifyContent: "space-between", gap: 8, padding: "7px 7px 0", color: "#8492a6", fontSize: 9, fontWeight: 750 },
+  barTrack: { width: "min(28px,72%)", height: "calc(var(--bar-value) * 1%)", minHeight: 3, borderRadius: "7px 7px 2px 2px", display: "flex", flexDirection: "column", boxShadow: "inset 0 1px 0 rgba(255,255,255,.45), 0 5px 10px rgba(11,42,82,.10)", overflow: "hidden" },
+  barSegment: { width: "100%", flex: "0 0 auto" },
+  barLabelRow: { display: "flex", justifyContent: "space-between", gap: 8, height: 48, padding: "1px 7px 0", overflow: "visible" },
+  barLabelCell: { flex: "1 1 0", minWidth: 0, height: "100%", position: "relative" },
+  barActivityLabel: { position: "absolute", top: 0, left: "50%", transform: "rotate(-45deg)", transformOrigin: "left top", whiteSpace: "nowrap", color: "#7f8da1", fontSize: 7, lineHeight: 1.1, fontWeight: 500 },
   barEmpty: { display: "grid", placeItems: "center", flex: 1, minHeight: 118, borderBottom: "1px solid #ccd6e3", color: "#8a97a9", fontSize: 11, textAlign: "center" },
   barLegend: { display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 6, marginTop: 10, color: "#687890", fontSize: 9, fontWeight: 750 },
   legendSwatch: { display: "inline-block", width: 8, height: 8, borderRadius: 3, marginRight: 4, verticalAlign: "-1px" },
@@ -149,20 +152,35 @@ function ReasoningProgressPieChart({ progress }) {
 function activityScorePalette(score) {
   if (score === null || score === undefined) {
     return {
-      top: "#d7dee8",
-      bottom: "#edf1f5",
+      unavailable: true,
       background: "repeating-linear-gradient(135deg,#e9eef4 0 5px,#dce4ec 5px 10px)",
     };
   }
-  if (score <= 50) return { top: "#8ea6c3", bottom: "#6685aa" };
-  if (score <= 75) return { top: "#5b92ff", bottom: "#2f6bff" };
-  if (score <= 90) return { top: "#ffbe6b", bottom: "#e58b2c" };
-  return { top: "#0b2a52", bottom: "#06366f" };
+
+  const safeScore = Math.max(0, Math.min(100, Number(score) || 0));
+  const bands = [
+    { start: 0, end: 50, top: "#8ea6c3", bottom: "#6685aa" },
+    { start: 50, end: 75, top: "#5b92ff", bottom: "#2f6bff" },
+    { start: 75, end: 90, top: "#ffbe6b", bottom: "#e58b2c" },
+    { start: 90, end: 100, top: "#0b2a52", bottom: "#06366f" },
+  ];
+
+  return bands
+    .map((band) => {
+      const covered = Math.max(0, Math.min(safeScore, band.end) - band.start);
+      if (covered <= 0) return null;
+      return {
+        ...band,
+        height: safeScore === 0 ? 100 : (covered / safeScore) * 100,
+      };
+    })
+    .filter(Boolean)
+    .reverse();
 }
 
 function formatActivityLabel(title) {
-  const [name, mode] = title.split(": ");
-  return mode ? `${name} · ${mode}` : title;
+  const [name] = title.split(": ");
+  return name || title;
 }
 
 function ActivityPerformanceBarChart({ title, data }) {
@@ -189,13 +207,13 @@ function ActivityPerformanceBarChart({ title, data }) {
               {data.map((item) => {
                 const palette = activityScorePalette(item.score);
                 const hasScore = item.score !== null && item.score !== undefined;
-                const accessibleValue = hasScore ? `${item.score}%` : "Unavailable";
+                const accessibleValue = hasScore ? item.score + "%" : "Unavailable";
 
                 return (
                   <div
                     key={item.id}
                     style={styles.barItem}
-                    title={`${formatActivityLabel(item.title)} · ${accessibleValue}`}
+                    title={formatActivityLabel(item.title) + " · " + accessibleValue}
                   >
                     <span style={{ ...styles.barValue, color: hasScore ? "#38506f" : "#8794a6" }}>
                       {accessibleValue}
@@ -204,19 +222,32 @@ function ActivityPerformanceBarChart({ title, data }) {
                       style={{
                         ...styles.barTrack,
                         "--bar-value": hasScore ? item.score : 8,
-                        "--bar-top": palette.top,
-                        "--bar-bottom": palette.bottom,
-                        ...(palette.background ? { background: palette.background } : {}),
+                        ...(palette.unavailable ? { background: palette.background } : {}),
                       }}
-                    />
+                    >
+                      {hasScore
+                        ? palette.map((segment, index) => (
+                            <span
+                              key={segment.start + "-" + segment.end + "-" + index}
+                              style={{
+                                ...styles.barSegment,
+                                height: segment.height + "%",
+                                background: "linear-gradient(180deg," + segment.top + "," + segment.bottom + ")",
+                              }}
+                            />
+                          ))
+                        : null}
+                    </div>
                   </div>
                 );
               })}
             </div>
           </div>
-          <div style={styles.barDateRow}>
+          <div style={styles.barLabelRow}>
             {data.map((item) => (
-              <span key={item.id} title={item.title}>{formatActivityLabel(item.title)}</span>
+              <div key={item.id} style={styles.barLabelCell}>
+                <span style={styles.barActivityLabel} title={item.title}>{formatActivityLabel(item.title)}</span>
+              </div>
             ))}
           </div>
         </div>
