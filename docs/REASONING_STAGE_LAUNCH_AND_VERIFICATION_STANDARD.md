@@ -35,7 +35,7 @@ Reasoning progress, mastery, analytics, points, streaks, achievements and leader
 
 Mastery and analytics are a required first-release capability for Stage 1. They must expand cumulatively as additional Stages and Levels are verified. They are not a later-phase enhancement.
 
-The specific richer analytics dimensions that require durable question-attempt history are scheduled through a separate backend/data foundation step **after the backend foundation and manual Reasoning Level-access implementation/verification, and before Stage 2 implementation**. This sequencing does not defer the required Stage 1 analytics; it adds the persistence needed to make later question-level and historical analytics reliable.
+The specific richer analytics dimensions that require durable question-attempt history are now supported by the implemented backend persistence foundation. The foundation is deployed but still requires live authorization/capture verification before richer question-level and historical analytics are enabled and before Stage 2 implementation. This does not defer the required Stage 1 analytics; it establishes the durable data layer needed for reliable expansion.
 
 ## 3. Stage content model
 
@@ -242,7 +242,7 @@ Work proceeds one Stage at a time.
 
 The immediate restart point is:
 
-**Level 1 · Stage 1 → complete migration and launch verification → Stage 1 acceptance → backend foundation → manual Reasoning Level access → analytics persistence foundation → Level 1 · Stage 2.**
+**Level 1 · Stage 1 acceptance → backend foundation → manual Reasoning Level access (implemented/deployed) → durable question-attempt persistence (implemented/deployed) → live authorization/capture verification → richer analytics expansion → Level 1 · Stage 2.**
 
 The **manual Reasoning Level-access implementation** is the first Reasoning-specific backend feature after the backend foundation. The approved identifiers are `reasoningL1`–`reasoningL9`, and access is selective rather than progressive: any individual level may be assigned directly without prerequisite Level identifiers. The **analytics persistence foundation** is a separate backend/data task afterward. It must establish durable question-attempt storage using only fields the audited backend can support, verify capture and separation from Foreign Languages, and then enable the richer question-level/historical analytics. Stage 2 implementation does not begin until Stage 1 has passed its acceptance gate and both backend sequences are complete.
 
@@ -312,24 +312,30 @@ This standard does not redesign:
 
 It adds a consistent launch and verification process around the existing architecture.
 
-## 2026-09-23 — Backend authorization gate for manual Reasoning access
+## 2026-09-23 — Backend authorization and durable-attempt verification gate
 
-The manual Reasoning Level-access foundation has been implemented after the accepted Level 1 · Stage 1 gate, using dedicated `reasoningL1`–`reasoningL9` identifiers separate from Foreign Languages `next` access.
+The external `Upskilledusolutions/Backend` repository is now integrated into the Reasoning launch process.
 
-A deployment-ready access field and Admin editor do not by themselves establish secure authorization. The current backend has no effective authentication middleware, so the approved sequence now includes an explicit security gate:
+### Implemented and deployed
 
-```
-server-recognized authenticated identity
-        ↓
-server-side Reasoning access authorization
-        ↓
-manual Level access verification
-        ↓
-durable question-attempt persistence verification
-        ↓
-Level 1 · Stage 2
-```
+- Server-recognized authentication/session foundation.
+- Manual Level access using `reasoningL1`–`reasoningL9`.
+- Learner-scoped access reads and administrator-only access changes.
+- Activity-level backend authorization before Reasoning questions render.
+- Durable answered/timed-out question-attempt capture.
+- Learner-scoped attempt retrieval.
 
-Before a Reasoning Level is treated as securely released, verify that learners can read only their own access, cannot modify access, and authenticated administrators can assign/remove the approved Level identifiers. Preserve selective access, existing progress, shared account identity and Foreign Languages separation.
+Backend: `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` — Render **LIVE**.
 
-The exact authentication/session mechanism must be selected from an audit of the existing login/session flow; do not introduce an unrelated product-wide redesign. Stage 2 remains blocked until this authorization gate and the durable analytics persistence foundation are both verified.
+Frontend: `e22ccb1bc800f41689fc62a07c52b664783c3cfb` — Vercel **READY**.
+
+### Mandatory verification gate
+
+Deployment is not owner verification. Before Level 1 · Stage 2 begins, verify:
+
+- authorized and unauthorized Level access behavior;
+- learner versus administrator authorization;
+- answered/timed-out attempt persistence;
+- correct learner ownership and Reasoning/Foreign Languages separation.
+
+After this verification, expand the existing Reasoning Analytics experience using only recorded data.

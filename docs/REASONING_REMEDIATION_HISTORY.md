@@ -292,16 +292,37 @@ M0–M3 are infrastructure milestones. Existing JavaScript Reasoning banks, stag
 
 M4 migration now begins with Level 1 · Stage 1 under the approved sequential Stage-launch standard. A Stage is not accepted until its complete learner-facing experience passes live owner verification.
 
-## 2026-09-23 — Backend foundation and authorization remediation record
+## 2026-09-23 — Backend authentication, Reasoning authorization and durable-attempt persistence
 
-The external Backend repository was inspected after Level 1 · Stage 1 acceptance.
+The backend transition following Level 1 · Stage 1 acceptance is implemented and deployed.
 
-The first Reasoning access foundation was implemented in backend commit `6637acc69fd6e64b1e3a29a85c5d8ac4967b0d24` and frontend Admin commit `e14a8d2bf08a8b01bb243d4157023f5d1b357a5a`.
+### Authorization history
 
-The implementation adds dedicated `reasoningAccess` values (`reasoningL1`–`reasoningL9`) and an Admin editor field without reusing the language `next` field.
+- Initial Reasoning access foundation: `6637acc69fd6e64b1e3a29a85c5d8ac4967b0d24`.
+- Server-side session authentication: `ce120191659902405bb2805ad8c42283bf1c5604`.
+- Production-safe session cookie behavior: `e3d1f571d2cba0aa21c337a155982399178fb42f`.
+- Credentialed frontend/backend CORS: `2616b6787e9395ed1df93ef2afc025e0f07d6629`.
+- Authenticated status checks: `22d651851229ce1ef314d0e9c8d8f1981ff7f418`.
+- Consistent Auth model references: `d763b2edf8979738a6c65c27258b69c0f750c392`.
+- Duplicate Auth model registration removed: `8005d16ca76afda782e5ae9fb82b01284870e119`.
+- Final backend authorization + persistence deployment: `6c353c4529fe3b5c613deb3396f8a00b8d1ce500`.
 
-During the backend audit, a blocking security limitation was identified: the current `middlewares/auth.js` contains no effective authentication middleware, while legacy user-specific endpoints accept request-supplied `userId` values. Therefore this foundation must not be treated as secure access control yet.
+### Durable attempt persistence
 
-The approved remediation is to establish a server-recognized authenticated identity and enforce Reasoning Level authorization server-side before manual access is considered production-secure. The security change must preserve existing Foreign Languages authentication/data behavior and avoid unrelated redesign.
+The final backend deployment adds the `ReasoningQuestionAttempt` model and:
 
-This is an infrastructure/security gate, not a new curriculum-stage remediation. Level 1 · Stage 2 remains blocked until the access security gate and the subsequent durable Reasoning analytics persistence foundation are implemented and verified.
+```
+POST /api/reasoning/attempts
+GET  /api/reasoning/attempts
+```
+
+The frontend Activity Player integration is commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb`.
+
+### Current deployment and verification state
+
+- Render Backend: **LIVE** on `6c353c4529fe3b5c613deb3396f8a00b8d1ce500`.
+- Vercel frontend: **READY** on `e22ccb1bc800f41689fc62a07c52b664783c3cfb`.
+- Owner verification of authorization, durable attempt capture and Reasoning/Foreign Languages separation: **PENDING**.
+- Level 1 · Stage 2: **BLOCKED** until the verification gate is complete.
+
+For the cross-repository contract, use `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md`.

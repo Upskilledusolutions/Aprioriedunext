@@ -1,15 +1,20 @@
-## 2026-09-23 — Stage 1 profile/navigation verification and analytics scope
-
-- Confirmed that the authenticated name menu now exposes a Reasoning entry and that its production deployment completed successfully.
-- Owner quick-check confirmed the Stage 1 questions and modules appear functional.
-- Recorded remaining profile issue: current Reasoning Dashboard progress values incorrectly display 100% and require source-level correction.
-- Recorded remaining profile issue: approved Stage 1 mastery/analytics are not yet visible in the learner-facing Reasoning experience.
-- Approved authenticated navigation refinements: Reasoning Skills first in Courses → Reasoning Dashboard → Quantitative/Verbal; Profile label becomes Language Club while preserving `/Profile`; Reasoning Profile becomes Reasoning Analytics and routes directly to dedicated analytics; remove underlines from the authenticated name-menu controls.
-- Stage 1 remains unverified and not accepted pending correction and live verification.
-
 # Changelog
 
 This file records important project and architecture changes in simple language.
+
+## 2026-09-23 — Backend authorization and durable Reasoning attempt persistence
+
+- Confirmed the external `Upskilledusolutions/Backend` repository is the backend companion to the Reasoning frontend.
+- Implemented server-recognized authentication/session support using the existing shared Auth identity.
+- Implemented server-side Reasoning Level authorization using `reasoningL1`–`reasoningL9`, separate from Foreign Languages `next`.
+- Removed duplicate Auth model registration; the existing Auth model remains the shared user-model authority.
+- Added durable Reasoning question-attempt persistence in the separate `Reasoning.question_attempts` collection.
+- Added `POST /api/reasoning/attempts` and `GET /api/reasoning/attempts`.
+- Updated the shared Activity Player to record answered and timed-out questions using stable Reasoning metadata and response timing.
+- Backend commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is **LIVE** on Render.
+- Frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is **READY** on Vercel.
+- Added the backend integration contract at `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md`.
+- **Verification boundary:** implementation/deployment is complete; live owner verification of authorization, durable capture and Reasoning/Foreign Languages separation is still required before Level 1 · Stage 2.
 
 ## 2026-09-18
 

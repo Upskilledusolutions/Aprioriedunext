@@ -8,7 +8,7 @@ This record is the current verification boundary for Level 1 Stages 1–3. It su
 
 ## Critical status
 
-**Stages 1–3 are all UNVERIFIED.**
+**Level 1 · Stage 1 is ACCEPTED. Level 1 · Stages 2–3 remain UNVERIFIED.**
 
 Implementation and remediation work has been completed to the current build boundary, but none of these stages may be recorded as fully complete until the project owner verifies them on the live production website.
 
@@ -20,7 +20,7 @@ A successful GitHub commit, successful build, or Vercel deployment marked Ready 
 - Stage 2 already contains Explore and Extend curriculum data, but its dashboard presentation does not separate the two halves as Stage 1 does. Previous/Next module navigation is already implemented in `ff9a16234066517269c642b6f81fa5356e1c418f`.
 - Stage 3 already contains Explore and Extend curriculum data, but the current learner-facing presentation hard-codes Explore treatment and its module pages lack Previous/Next navigation.
 
-**Approved order:** Verbal answer-quality correction → Stage 2 Explore/Extend presentation → Stage 2 live owner verification → Stage 3 Explore/Extend presentation/navigation → Stage 3 live owner verification → focused Stages 1–3 quick check.
+**Current transition boundary:** Stage 1 is accepted. The project must complete the backend authorization and durable-attempt verification gates before beginning Stage 2 curriculum implementation.
 
 This record does not mark any stage verified.
 
@@ -148,17 +148,40 @@ For each approved corrective deployment:
 
 This record deliberately does not mark Stages 1–3 as verified.
 
-## 2026-09-23 — Backend transition and authorization boundary
+## 2026-09-23 — Backend authorization and durable-attempt persistence transition
 
-Level 1 · Stage 1 is accepted. The project has transitioned to the approved backend foundation sequence before Level 1 · Stage 2.
+Level 1 · Stage 1 is **ACCEPTED**. The project has completed the implementation/deployment portion of the approved backend transition before Level 1 · Stage 2.
 
-The external Backend repository was audited and a dedicated `reasoningAccess` field was implemented with identifiers `reasoningL1`–`reasoningL9`. The Admin user editor was also extended to manage the field.
+### Manual Level authorization
 
-This record does **not** mark manual Level access as verified. The backend audit identified that the existing authentication middleware is empty and that legacy user-specific requests rely on request-supplied `userId` values. The next required security work is therefore server-side authenticated identity and authorization for Reasoning Level access.
+The external Backend repository now provides:
 
-Stage 2 remains blocked until:
+- signed server sessions using the shared Auth identity;
+- learner-scoped Reasoning access reads;
+- administrator-only Reasoning access updates;
+- selective `reasoningL1`–`reasoningL9` access;
+- separation from Foreign Languages `next`.
 
-1. server-side Reasoning access authorization is implemented and verified;
-2. durable Reasoning question-attempt persistence is implemented and verified.
+### Durable attempt persistence
 
-No Stage 2 curriculum change is included in this transition record.
+The backend provides:
+
+- `POST /api/reasoning/attempts`
+- `GET /api/reasoning/attempts`
+- separate `Reasoning.question_attempts` storage;
+- answered and timed-out question capture;
+- server-derived learner ownership;
+- Level-access authorization before persistence.
+
+The shared frontend Activity Player sends the supported attempt data through `src/utils/reasoningAttempts.js`.
+
+Implementation/deployment:
+
+- Backend `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` — Render **LIVE**.
+- Frontend `e22ccb1bc800f41689fc62a07c52b664783c3cfb` — Vercel **READY**.
+
+### Verification boundary
+
+This record does **not** mark the backend authorization or durable persistence gates as fully verified. The owner must verify production authorization behavior, administrator access management, answered/timed-out capture, learner ownership and Reasoning/Foreign Languages separation.
+
+Level 1 · Stage 2 remains blocked until this verification is complete. No Stage 2 curriculum change is included in this transition record.

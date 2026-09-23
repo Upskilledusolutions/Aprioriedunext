@@ -176,9 +176,11 @@ For every change, provide the non-technical owner with:
 
 ## 12. Backend changes require special attention
 
-The frontend uses `NEXT_PUBLIC_BACKENDURL` to communicate with a separate backend. The backend is not part of this repository.
+The frontend uses `NEXT_PUBLIC_BACKENDURL` to communicate with the separate `Upskilledusolutions/Backend` repository.
 
-If a feature requires permanent data storage, new API endpoints, database changes or server-side authorization, clearly identify that backend work before proceeding.
+If a feature requires permanent data storage, new API endpoints, database changes or server-side authorization, inspect and update the backend contract before proceeding. For Reasoning, the current cross-repository contract is `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md`.
+
+Do not create duplicate Auth models, duplicate learner identities or undocumented Reasoning endpoints.
 
 ## 13. Security
 
@@ -267,6 +269,8 @@ For every Reasoning stage being remediated, additionally verify:
 ## 19. No premature technical decisions
 
 Do not invent a database schema, API contract or architecture just to fill documentation.
+
+When an implementation exists but live verification is pending, document the actual implemented contract and label the verification state separately. Do not describe an implemented feature as hypothetical.
 
 If something has not been verified, label it as **To Be Verified**.
 
