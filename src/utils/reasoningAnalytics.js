@@ -1,5 +1,6 @@
 import { STAGE1_MODULES } from "../Data/Reasoning/stage1Modules";
 import { getActivities } from "../Data/Reasoning/activities";
+import { getStage1CalibratedQuestions } from "../Data/Reasoning/stage1QuestionCalibration";
 
 const TRACKS = ["quantitative", "verbal"];
 const HALVES = ["explore", "extend"];
@@ -20,6 +21,7 @@ function summarizeActivities(activities, progress, track) {
   const items = activities.map((activity) => {
     const completed = completedActivities[activity.id] === true;
     const score = completed ? numericScore(scores[activity.id]) : null;
+    const questionCount = getStage1CalibratedQuestions({ track, activityId: activity.id }).length;
     return {
       id: activity.id,
       title: activity.title,
@@ -28,6 +30,7 @@ function summarizeActivities(activities, progress, track) {
       half: activity.half,
       completed,
       score,
+      questionCount,
     };
   });
 
@@ -118,6 +121,7 @@ export function getStage1ReasoningAnalytics(progress) {
       percent: totalModules ? Math.round((completedModules / totalModules) * 100) : 0,
       activitiesTotal: allActivities.length,
       activitiesCompleted: allActivities.filter((item) => item.completed).length,
+      questionsCompleted: allActivities.filter((item) => item.completed).reduce((sum, item) => sum + item.questionCount, 0),
       averageActivityScore: average(allActivities.map((item) => item.score)),
     },
     tracks,
