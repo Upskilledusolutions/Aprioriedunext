@@ -23,12 +23,11 @@ const styles = {
   barPlot: { display: "grid", gridTemplateColumns: "22px minmax(0,1fr)", gap: 9, flex: 1, minHeight: 0, marginTop: 12 },
   barYAxis: { position: "relative", minHeight: 118, color: "#93a0b2", fontSize: 9, fontWeight: 700 },
   barYAxisLabel: { position: "absolute", right: 0, transform: "translateY(-50%)" },
-  barYAxis100: { top: "12.5%" },
-  barYAxis75: { top: "37.5%" },
-  barYAxis50: { top: "62.5%" },
-  barYAxis25: { top: "87.5%" },
+  barYAxis100: { top: "87.5%" },
+  barYAxis75: { top: "62.5%" },
+  barYAxis50: { top: "25%" },
   barStage: { display: "flex", flexDirection: "column", minWidth: 0 },
-  barGridArea: { position: "relative", flex: 1, minHeight: 118, borderBottom: "1px solid #ccd6e3", background: "repeating-linear-gradient(to bottom, rgba(210,220,232,.38) 0, rgba(210,220,232,.38) 1px, transparent 1px, transparent 25%)", borderRadius: "8px 8px 0 0", padding: "0 7px" },
+  barGridArea: { position: "relative", flex: 1, minHeight: 118, borderBottom: "1px solid #ccd6e3", background: "linear-gradient(to bottom, transparent 0%, transparent 49.5%, rgba(210,220,232,.5) 49.5%, rgba(210,220,232,.5) 50.5%, transparent 50.5%, transparent 74.5%, rgba(210,220,232,.5) 74.5%, rgba(210,220,232,.5) 75.5%, transparent 75.5%, transparent 100%)", borderRadius: "8px 8px 0 0", padding: "0 7px" },
   barItems: { height: "100%", display: "flex", alignItems: "stretch", justifyContent: "space-between", gap: 8 },
   barItem: { flex: "1 1 0", height: "100%", position: "relative", minWidth: 0 },
   barValue: { position: "absolute", left: "50%", bottom: "calc(var(--bar-value) * 1% + 5px)", transform: "translateX(-50%)", margin: 0, color: "#38506f", fontSize: 9, fontWeight: 850, lineHeight: 1, whiteSpace: "nowrap" },
@@ -156,19 +155,13 @@ function ReasoningProgressPieChart({ progress }) {
 }
 
 function activityScorePalette(score) {
-  if (score === null || score === undefined) {
-    return {
-      unavailable: true,
-      background: "repeating-linear-gradient(135deg,#e9eef4 0 5px,#dce4ec 5px 10px)",
-    };
-  }
+  if (score === null || score === undefined) return [];
 
   const safeScore = Math.max(0, Math.min(100, Number(score) || 0));
   const bands = [
-    { start: 0, end: 50, top: "#8ea6c3", bottom: "#6685aa" },
+    { start: 0, end: 50, top: "#a7afb8", bottom: "#7f8995" },
     { start: 50, end: 75, top: "#5b92ff", bottom: "#2f6bff" },
-    { start: 75, end: 90, top: "#ffbe6b", bottom: "#e58b2c" },
-    { start: 90, end: 100, top: "#0b2a52", bottom: "#06366f" },
+    { start: 75, end: 100, top: "#ffbe6b", bottom: "#e58b2c" },
   ];
 
   return bands
@@ -201,10 +194,9 @@ function ActivityPerformanceBarChart({ title, data }) {
 
       <div style={styles.barPlot}>
         <div style={styles.barYAxis} aria-hidden="true">
-          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis100 }}>100</span>
-          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis75 }}>75</span>
-          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis50 }}>50</span>
-          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis25 }}>25</span>
+          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis50 }}>50%</span>
+          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis75 }}>75%</span>
+          <span style={{ ...styles.barYAxisLabel, ...styles.barYAxis100 }}>100%</span>
         </div>
         <div style={styles.barStage}>
           <div style={styles.barGridArea}>
@@ -217,32 +209,33 @@ function ActivityPerformanceBarChart({ title, data }) {
                 return (
                   <div
                     key={item.id}
-                    style={{ ...styles.barItem, "--bar-value": hasScore ? item.score : 8 }}
+                    style={{ ...styles.barItem, "--bar-value": hasScore ? item.score : 0 }}
                     title={formatActivityLabel(item.title) + " · " + accessibleValue}
                   >
-                    <span style={{ ...styles.barValue, color: hasScore ? "#38506f" : "#8794a6" }}>
+                    <span
+                      style={{
+                        ...styles.barValue,
+                        ...(hasScore ? {} : { bottom: "4px" }),
+                        color: hasScore ? "#38506f" : "#8794a6",
+                      }}
+                    >
                       {accessibleValue}
                     </span>
                     <div style={styles.barBarArea}>
-                      <div
-                        style={{
-                          ...styles.barTrack,
-                          ...(palette.unavailable ? { background: palette.background } : {}),
-                        }}
-                      >
-                        {hasScore
-                          ? palette.map((segment, index) => (
+                      {hasScore ? (
+                        <div style={styles.barTrack}>
+                          {palette.map((segment, index) => (
                             <span
                               key={segment.start + "-" + segment.end + "-" + index}
                               style={{
                                 ...styles.barSegment,
                                 height: segment.height + "%",
-                                  background: "linear-gradient(180deg," + segment.top + "," + segment.bottom + ")",
+                                background: "linear-gradient(180deg," + segment.top + "," + segment.bottom + ")",
                               }}
                             />
-                          ))
-                          : null}
-                      </div>
+                          ))}
+                        </div>
+                      ) : null}
                     </div>
                   </div>
                 );
@@ -260,10 +253,9 @@ function ActivityPerformanceBarChart({ title, data }) {
       </div>
 
       <div style={styles.barLegend} aria-label="Performance score ranges">
-        <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#8ea6c3,#6685aa)" }} />0–50%</span>
+        <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#a7afb8,#7f8995)" }} />0–50%</span>
         <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#5b92ff,#2f6bff)" }} />51–75%</span>
-        <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#ffbe6b,#e58b2c)" }} />76–90%</span>
-        <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#0b2a52,#06366f)" }} />91–100%</span>
+        <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#ffbe6b,#e58b2c)" }} />75–100%</span>
       </div>
     </section>
   );
