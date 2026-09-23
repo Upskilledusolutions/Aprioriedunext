@@ -12,10 +12,52 @@ const styles = {
   page: { minHeight: "80vh", padding: "48px 20px 80px", background: "var(--surface)" },
   wrapper: { maxWidth: 1180, margin: "0 auto" },
   back: { color: "var(--muted)", textDecoration: "none", fontWeight: 700 },
-  eyebrow: { margin: "28px 0 10px", color: "var(--blue)", fontWeight: 800, letterSpacing: ".08em", textTransform: "uppercase", fontSize: 13 },
-  title: { margin: 0, color: "var(--text)", fontSize: "clamp(34px, 5vw, 54px)", lineHeight: 1.07 },
-  intro: { maxWidth: 820, margin: "14px 0 0", color: "var(--muted)", fontSize: 18, lineHeight: 1.7 },
-  grid: { display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(210px,1fr))", gap: 14, marginTop: 30 },
+  eyebrow: { margin: "28px 0 8px", color: "#2f6bff", fontWeight: 800, letterSpacing: ".08em", textTransform: "uppercase", fontSize: 13 },
+  hero: { display: "flex", alignItems: "stretch", flexWrap: "wrap", gap: 24, marginTop: 6 },
+  heroCopy: { flex: "1 1 560px", minWidth: 0, padding: "6px 0 2px" },
+  intro: { maxWidth: 780, margin: "8px 0 0", color: "var(--muted)", fontSize: 18, lineHeight: 1.7 },
+  progressSidebar: {
+    flex: "0 1 310px",
+    minWidth: 270,
+    background: "linear-gradient(145deg, #ffffff 0%, #f7faff 100%)",
+    border: "1px solid #dbe4f0",
+    borderRadius: 22,
+    padding: "20px 20px 18px",
+    boxShadow: "0 16px 38px rgba(11,42,82,.11), 0 2px 8px rgba(11,42,82,.06)",
+    position: "relative",
+    overflow: "hidden",
+  },
+  progressEyebrow: { margin: 0, color: "#6a7890", fontSize: 11, fontWeight: 800, letterSpacing: ".11em", textTransform: "uppercase" },
+  progressHeading: { margin: "5px 0 0", color: "#0b2a52", fontSize: 18, lineHeight: 1.25, fontWeight: 850 },
+  progressMeta: { margin: "4px 0 0", color: "#6a7890", fontSize: 12, fontWeight: 700 },
+  progressVisual: { display: "grid", placeItems: "center", margin: "16px 0 14px", position: "relative" },
+  progressDisc: {
+    width: 184,
+    height: 184,
+    borderRadius: "50%",
+    background: "conic-gradient(from -90deg, #0b2a52 0deg, #2f6bff calc(var(--progress) * 3.6deg), #e9eef5 calc(var(--progress) * 3.6deg), #e9eef5 360deg)",
+    boxShadow: "inset 0 1px 0 rgba(255,255,255,.95), inset 0 -10px 22px rgba(11,42,82,.08), 0 14px 26px rgba(11,42,82,.13)",
+    position: "relative",
+    transform: "perspective(500px) rotateX(4deg)",
+  },
+  progressDiscInner: {
+    position: "absolute",
+    inset: 14,
+    borderRadius: "50%",
+    background: "#ffffff",
+    border: "1px solid #edf2f7",
+    boxShadow: "inset 0 2px 6px rgba(11,42,82,.05)",
+    display: "grid",
+    placeItems: "center",
+    textAlign: "center",
+  },
+  progressValue: { margin: 0, color: "#0b2a52", fontSize: 38, lineHeight: 1, fontWeight: 900, letterSpacing: "-.03em" },
+  progressValueLabel: { margin: "5px 0 0", color: "#718096", fontSize: 11, fontWeight: 800, textTransform: "uppercase", letterSpacing: ".08em" },
+  progressLegend: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginTop: 2 },
+  progressLegendItem: { display: "flex", alignItems: "center", gap: 8, color: "#506078", fontSize: 12, fontWeight: 700 },
+  progressSwatch: { width: 9, height: 9, borderRadius: "50%", flex: "0 0 auto" },
+  progressFootnote: { margin: "10px 0 0", color: "#7a879a", fontSize: 11, lineHeight: 1.5 },
+  grid: { display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(210px,1fr))", gap: 14, marginTop: 24 },
   card: { background: "var(--card)", border: "1px solid var(--border)", borderRadius: 16, padding: 20 },
   label: { color: "var(--muted)", fontSize: 13, fontWeight: 700 },
   value: { color: "var(--text)", fontSize: 28, fontWeight: 800, marginTop: 7 },
@@ -48,6 +90,43 @@ function safeAverage(values) {
 
 function formatSeconds(value) {
   return value === null || value === undefined ? "—" : `${value}s`;
+}
+
+function ReasoningProgressPieChart({ progress }) {
+  const safeProgress = Math.max(0, Math.min(100, Number(progress) || 0));
+  const remaining = Math.max(0, 100 - safeProgress);
+
+  return (
+    <aside
+      style={{ ...styles.progressSidebar, "--progress": safeProgress }}
+      aria-label={`Reasoning Skills progress: ${safeProgress}% complete for Level 1 Stage 1`}
+    >
+      <p style={styles.progressEyebrow}>Reasoning Skills</p>
+      <h2 style={styles.progressHeading}>Overall progress</h2>
+      <p style={styles.progressMeta}>Level 1 · Stage 1</p>
+      <div style={styles.progressVisual}>
+        <div style={styles.progressDisc} role="img" aria-label={`${safeProgress}% completed, ${remaining}% remaining`}>
+          <div style={styles.progressDiscInner}>
+            <div>
+              <p style={styles.progressValue}>{safeProgress}%</p>
+              <p style={styles.progressValueLabel}>Complete</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={styles.progressLegend} aria-hidden="true">
+        <div style={styles.progressLegendItem}>
+          <span style={{ ...styles.progressSwatch, background: "#2f6bff" }} />
+          <span>Completed {safeProgress}%</span>
+        </div>
+        <div style={styles.progressLegendItem}>
+          <span style={{ ...styles.progressSwatch, background: "#d7dee8" }} />
+          <span>Remaining {remaining}%</span>
+        </div>
+      </div>
+      <p style={styles.progressFootnote}>Completion is based on the existing Stage 1 activity and module progress record.</p>
+    </aside>
+  );
 }
 
 function normalizeAttempt(value) {
@@ -276,10 +355,15 @@ export default function ReasoningAnalytics() {
         <div style={styles.wrapper}>
           <Link href="/Reasoning/Dashboard" style={styles.back}>← Back to Reasoning Dashboard</Link>
           <p style={styles.eyebrow}>Reasoning Analytics · Cumulative learner record</p>
-          <h1 style={styles.title}>Your Reasoning learning record</h1>
-          <p style={styles.intro}>
-            This view combines the existing Reasoning progress record with persisted question-attempt history. Quantitative and Verbal performance remains separate, and only recorded data is used.
-          </p>
+
+          <div style={styles.hero}>
+            <div style={styles.heroCopy}>
+              <p style={styles.intro}>
+                This view combines the existing Reasoning progress record with persisted question-attempt history. Quantitative and Verbal performance remains separate, and only recorded data is used.
+              </p>
+            </div>
+            <ReasoningProgressPieChart progress={analytics.overall.percent} />
+          </div>
 
           <div style={styles.grid}>
             <div style={styles.card}><div style={styles.label}>Overall Stage 1 progress</div><div style={styles.value}>{analytics.overall.percent}%</div></div>
