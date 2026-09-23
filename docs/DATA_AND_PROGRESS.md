@@ -247,3 +247,36 @@ reasoning:*
 ```
 
 Reasoning storage should additionally distinguish track, level, stage, module/activity and question where required. The exact implementation should be decided after the backend and existing storage usage are fully audited.
+
+## 2026-09-23 backend access-foundation record
+
+The external Backend repository has been inspected. A dedicated `reasoningAccess` field has been added to the shared user record so Reasoning Level access is not stored in the Foreign Languages `next` field.
+
+Supported values are:
+
+```
+reasoningL1
+reasoningL2
+reasoningL3
+reasoningL4
+reasoningL5
+reasoningL6
+reasoningL7
+reasoningL8
+reasoningL9
+```
+
+The current backend foundation also exposes a dedicated Reasoning-access read endpoint, and the Admin user editor can assign the identifiers.
+
+The access data structure is **not yet considered secure authorization**. The existing backend authentication middleware is empty, and legacy requests currently rely on user-supplied `userId` values. Before manual access is treated as a production security boundary, the backend must establish a server-recognized authenticated identity/session/credential and enforce these rules:
+
+1. a learner may read only their own Reasoning access;
+2. a learner may not change Reasoning access;
+3. only an authenticated administrator may assign or remove Reasoning Level identifiers;
+4. access remains selective rather than progressive;
+5. existing Reasoning progress is never reset, replaced or migrated by access changes;
+6. the Foreign Languages `next` field remains separate.
+
+The exact authentication mechanism should be chosen during implementation after auditing the existing login/session flow and its frontend/backend compatibility. Avoid a broad authentication redesign unless it is required to provide the approved server-side security boundary.
+
+After authorization is implemented and verified, the next data step is durable Reasoning question-attempt persistence using only fields supported by the audited backend. Richer analytics follows that persistence foundation. Level 1 · Stage 2 remains blocked until both backend gates are complete.
