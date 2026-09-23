@@ -376,3 +376,25 @@ Approved navigation refinements for the next implementation:
 - Text underlines are removed from all links/buttons in the authenticated name-menu dropdown only.
 
 Stage 1 was subsequently completed and accepted by the project owner. The next approved implementation sequence is backend inspection/foundation → manual Reasoning Level access → analytics persistence foundation → Level 1 · Stage 2.
+
+### 2026-09-23 — Backend Reasoning access foundation and approved authorization gate
+
+The external backend repository `Upskilledusolutions/Backend` has now been inspected and authorized for write access through the existing GitHub workflow.
+
+The first backend foundation for manual Reasoning Level access has been implemented:
+
+- `reasoningAccess` is a dedicated user field and is separate from the existing Foreign Languages `next` field.
+- Valid identifiers are `reasoningL1` through `reasoningL9`.
+- New users default to `reasoningL1`.
+- A dedicated backend read endpoint exposes the Reasoning access list.
+- The authenticated Admin user editor has been extended to manage the Reasoning Level identifiers.
+
+Backend commit: `6637acc69fd6e64b1e3a29a85c5d8ac4967b0d24`.
+
+Frontend Admin editor commit: `e14a8d2bf08a8b01bb243d4157023f5d1b357a5a`.
+
+**Security boundary identified:** the existing backend does not currently enforce a server-side authenticated identity for these user-specific requests; `middlewares/auth.js` is empty and legacy endpoints identify users from request-supplied `userId` values. Therefore the new Reasoning access field is a data foundation, not yet a secure authorization system.
+
+**Approved next backend step:** implement secure server-recognized authentication/authorization for Reasoning Level access before relying on manual access control in production. The server must distinguish the authenticated learner from an administrator, allow a learner to read only their own Reasoning access, prevent learners from modifying access, and allow only an authenticated administrator to assign/remove `reasoningL1`–`reasoningL9`. The existing Foreign Languages authentication/data behavior must remain compatible, and `next` must remain reserved for language access.
+
+After this security gate is implemented and verified, proceed to durable Reasoning question-attempt persistence and richer analytics, then Level 1 · Stage 2. Do not begin Stage 2 curriculum implementation before those gates are complete.
