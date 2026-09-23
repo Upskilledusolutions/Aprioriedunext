@@ -58,6 +58,8 @@ At minimum, the analytics model should support:
 
 The learner should be able to distinguish detailed Quantitative and Verbal results and see the cumulative Reasoning picture.
 
+**Data-availability boundary:** Stage 1 must present all analytics that the current persisted learner record can support. Attempt-level question history, performance by question difficulty, per-question response timing and growth over time require durable server-side attempt persistence. These richer dimensions are scheduled to be enabled after Stage 1 acceptance and before Level 1 · Stage 2 implementation begins; they must not be fabricated from incomplete data.
+
 ## 5. Progressive analytics growth
 
 Every accepted Stage must contribute its verified data to the learner's cumulative Reasoning analytics.
@@ -79,6 +81,12 @@ cumulative analytics continues
 Earlier verified records must not be overwritten when a new Stage or Level is added.
 
 The analytics model should be designed so that adding a new Activity/question set does not require a redesign of the profile or reporting system.
+
+The agreed sequence for the richer historical analytics is:
+
+**Stage 1 owner verification → Stage 1 acceptance → backend inspection + durable question-attempt persistence → verify capture and Reasoning/Foreign Languages separation → expand analytics → Stage 2 implementation.**
+
+The system must begin accumulating this detailed history from the point at which the new persistence is activated. Unsupported historical values must not be reconstructed or estimated.
 
 ## 6. Progress report and leaderboard
 
@@ -146,10 +154,14 @@ Whenever a new Level is manually enabled for a learner, verify:
 
 The exact backend/admin storage and authorization implementation remains subject to code/backend audit before implementation; these product behaviors are approved requirements and must not be dropped because the current frontend does not yet expose them.
 
-## 10. Future analytics
+## 10. Analytics expansion after the persistence foundation
 
-Additional insights may be added as the Question Bank becomes richer, including:
+The richer historical/question-level analytics are scheduled after Stage 1 acceptance and before Level 1 · Stage 2 implementation. The first step is durable question-attempt persistence; once the new capture is verified, the same Reasoning Analytics experience can expand to:
 
+- attempt-level question history;
+- performance by question difficulty;
+- per-question response timing;
+- growth over time;
 - concept mastery trends;
 - difficulty-band progression;
 - time-efficiency trends;
@@ -157,7 +169,7 @@ Additional insights may be added as the Question Bank becomes richer, including:
 - cross-stage skill development;
 - longitudinal growth views.
 
-These extend the same cumulative Reasoning record rather than creating separate analytics systems.
+These extend the same cumulative Reasoning record rather than creating a separate analytics system. The implementation must use recorded data only and must not fabricate unsupported historical values.
 
 
 ## 11. Authenticated navigation labels

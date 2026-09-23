@@ -1,6 +1,6 @@
 # Reasoning Development Status
 
-Last updated: 2026-09-22
+Last updated: 2026-09-23
 
 ## Current status
 
@@ -9,6 +9,8 @@ Reasoning is being developed through a focused stage-by-stage audit and remediat
 **New standard:** Reasoning work now follows the approved per-Stage launch and verification standard in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`. The immediate restart point is **Level 1 · Stage 1**. Stage 1 must be migrated, exposed completely, deployed and fully owner-verified before Stage 2 begins. Each later Stage follows the same sequential acceptance gate.
 
 The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is introduced for curriculum remediations.
+
+**Agreed analytics sequencing:** after Level 1 · Stage 1 passes complete owner live verification and is accepted, and before Level 1 · Stage 2 implementation begins, the project will inspect the existing backend and establish durable server-side Reasoning question-attempt persistence needed for the richer historical analytics described below.
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
 
@@ -47,7 +49,7 @@ The architecture roadmap is now tracked separately from curriculum-stage verific
 
 ### Current verification note
 
-The project owner previously performed a **quick functional check of Stage 1**. That quick check remains historical evidence only and does not satisfy the new Stage acceptance gate. Stage 1 is being restarted for controlled migration and full live verification. The comprehensive quality check remains deferred until all nine stages are live.
+The project owner previously performed a **quick functional check of Stage 1**. That quick check remains historical evidence only and does not satisfy the new Stage acceptance gate. The corrected Stage 1 analytics/profile implementation is now deployed for the owner's complete live verification. Stage 1 remains UNVERIFIED until that verification is complete and explicitly accepted. The comprehensive quality check remains deferred until all nine stages are live.
 
 ## Mandatory quality requirements
 
@@ -172,12 +174,13 @@ The owner must verify Stage 3 on the live production website, including the prev
 
 The previous grouped Stages 1–3 gate is superseded.
 
-The current rule is **one Stage at a time**:
+The current rule is **one Stage at a time**, with the agreed analytics data-foundation gate between Stage 1 acceptance and Stage 2:
 
 1. complete the approved Stage migration/launch workflow;
 2. obtain complete owner verification for that Stage;
 3. accept the Stage;
-4. only then begin the next Stage.
+4. for the transition from Stage 1 to Stage 2, complete the backend analytics persistence foundation and verify data capture/separation;
+5. only then begin Stage 2.
 
 The immediate sequence starts at Level 1 · Stage 1, then Stage 2, then Stage 3, and continues through later Levels. Historical remediation is preserved and is not repeated unless live verification identifies a specific defect.
 
@@ -246,6 +249,19 @@ These are implementation facts, not substitutes for current owner verification.
 The following may require later backend/API implementation after the external backend is inspected: durable server-side storage/authorization details, server-side timer configuration, and optional interactive/API learning resources.
 
 **Not deferred:** Reasoning mastery/analytics, cumulative profile reporting, Reasoning leaderboard, Reasoning profile access and manual Level access behavior are approved product requirements beginning with Level 1 · Stage 1. Their exact backend persistence mechanism remains subject to backend inspection.
+
+## Advanced analytics data foundation — scheduled before Stage 2
+
+The current Stage 1 Analytics uses supported learner data and must not fabricate missing history. The project owner has agreed to implement the richer analytics data foundation **after Stage 1 passes owner live verification and Stage acceptance, and before Level 1 · Stage 2 implementation begins**.
+
+The work will:
+
+- inspect the existing backend/persistence before choosing storage changes;
+- add durable server-side storage for Reasoning question-attempt history, capturing only fields the audited backend can reliably support, including question/activity identity, correctness, difficulty/skill metadata, timestamp, response time and attempt sequence where applicable;
+- verify that the data is stored under the learner's Reasoning record and remains separate from Foreign Languages;
+- expand Reasoning Analytics to use the verified stored history for attempt-level question history, performance by difficulty, per-question response timing and growth over time.
+
+This is a backend/data foundation task, not a curriculum-stage implementation or curriculum/player redesign. Analytics can only use history collected from the point at which the new persistence is active; unsupported historical values will not be reconstructed or fabricated. Level 1 · Stage 2 content work begins only after the Stage 1 acceptance gate and this analytics-foundation sequence are completed.
 
 ## Source-of-Truth Principle
 

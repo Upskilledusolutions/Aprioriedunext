@@ -35,6 +35,8 @@ Reasoning progress, mastery, analytics, points, streaks, achievements and leader
 
 Mastery and analytics are a required first-release capability for Stage 1. They must expand cumulatively as additional Stages and Levels are verified. They are not a later-phase enhancement.
 
+The specific richer analytics dimensions that require durable question-attempt history are scheduled through a separate backend/data foundation step **after Stage 1 acceptance and before Stage 2 implementation**. This sequencing does not defer the required Stage 1 analytics; it adds the persistence needed to make later question-level and historical analytics reliable.
+
 ## 3. Stage content model
 
 One editable document represents one **Level + Stage** and can contain both Quantitative and Verbal questions.
@@ -240,9 +242,9 @@ Work proceeds one Stage at a time.
 
 The immediate restart point is:
 
-**Level 1 · Stage 1 → complete migration and launch verification → Stage 1 acceptance → Level 1 · Stage 2.**
+**Level 1 · Stage 1 → complete migration and launch verification → Stage 1 acceptance → analytics persistence foundation → Level 1 · Stage 2.**
 
-Stage 2 does not begin until Stage 1 has passed its Stage acceptance gate. The same rule applies sequentially thereafter.
+The **analytics persistence foundation** is a separate backend/data task, not a new curriculum Stage. It must inspect the existing backend, establish durable question-attempt storage using only fields the audited backend can support, verify capture and separation from Foreign Languages, and then enable the richer question-level/historical analytics. Stage 2 implementation does not begin until Stage 1 has passed its acceptance gate and this foundation sequence is complete. The same per-Stage rule applies sequentially thereafter.
 
 Completion of a Level is separate from access authorization to the next Level. The next Level is manually enabled using the approved Reasoning Level access identifier (for example, `reasoningL2`, `reasoningL3`) and must retain the same cumulative Reasoning record.
 
