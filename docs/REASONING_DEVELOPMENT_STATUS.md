@@ -271,22 +271,23 @@ The approved access identifiers are:
 
 Each identifier grants access to its corresponding Reasoning Level. Access is **selective, not progressive**: an administrator may assign `reasoningL4` directly without first assigning `reasoningL1`, `reasoningL2` or `reasoningL3`. Completion of an earlier Level does not automatically grant a later Level, and granting a later Level does not automatically imply access to earlier Levels unless those identifiers are separately assigned.
 
-The implementation must preserve the same learner identity and all previously recorded Reasoning progress. Exact storage and enforcement must be based on the audited external backend/admin flow rather than an invented frontend-only field.
+The implementation preserves the same learner identity and all previously recorded Reasoning progress. Storage and enforcement now use the audited external backend/admin flow rather than an invented frontend-only field.
 
-This access-control implementation and its live verification are a prerequisite to the subsequent analytics persistence foundation and Level 1 · Stage 2 implementation.
+Live authorization verification is still required before this access boundary is treated as fully verified.
 
-## Advanced analytics data foundation — scheduled after Level access and before Stage 2
+## Advanced analytics data foundation — current implementation and verification gate
 
-The current Stage 1 Analytics uses supported learner data and must not fabricate missing history. The project owner has agreed to implement the richer analytics data foundation **after Stage 1 passes owner live verification and Stage acceptance, and before Level 1 · Stage 2 implementation begins**.
+The durable question-attempt foundation has now been implemented in the external Backend repository and integrated with the shared Activity Player. It captures newly collected answered/timed-out question history without reconstructing unsupported historical values.
 
-The work will:
+Current state:
 
-- inspect the existing backend/persistence before choosing storage changes;
-- add durable server-side storage for Reasoning question-attempt history, capturing only fields the audited backend can reliably support, including question/activity identity, correctness, difficulty/skill metadata, timestamp, response time and attempt sequence where applicable;
-- verify that the data is stored under the learner's Reasoning record and remains separate from Foreign Languages;
-- expand Reasoning Analytics to use the verified stored history for attempt-level question history, performance by difficulty, per-question response timing and growth over time.
+- backend attempt model/API implemented and deployed;
+- frontend attempt capture implemented and deployed;
+- learner ownership is derived from the authenticated session;
+- Reasoning/Foreign Languages data stores remain separate;
+- live capture, ownership and separation verification is still pending.
 
-This is a backend/data foundation task, not a curriculum-stage implementation or curriculum/player redesign. Analytics can only use history collected from the point at which the new persistence is active; unsupported historical values will not be reconstructed or fabricated. Level 1 · Stage 2 content work begins only after the Stage 1 acceptance gate and this analytics-foundation sequence are completed.
+After that verification, expand Reasoning Analytics to use only the recorded attempt history for attempt-level history, performance by difficulty, response timing and growth over time. Level 1 · Stage 2 remains blocked until this verification gate is complete.
 
 ## Source-of-Truth Principle
 

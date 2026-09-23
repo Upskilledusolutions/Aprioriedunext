@@ -211,11 +211,11 @@ The Stage 1 build progressed through the following discrete implementation miles
 
 ### Current resume boundary
 
-Level 2 work remains paused while the approved Level 1 Stages 1–3 corrective sequence and live owner-verification gate are completed. Existing Level 2 changes are preserved and will resume after the Level 1 foundation passes owner verification.
+Level 2 work remains paused. Existing Level 2 changes are preserved and will resume only after the current Level 1 transition gates and sequential Stage-launch requirements permit it.
 
 ### Historical next action
 
-The 2026-09-18 sequence was superseded on 2026-09-22 by the per-Stage launch standard. The current next action is to restart Level 1 · Stage 1 through migration, structural exposure, deployment and complete live verification.
+The 2026-09-18 sequence was superseded on 2026-09-22 by the per-Stage launch standard. The current next action is production verification of the already deployed backend authorization/persistence foundations, followed by Reasoning Analytics expansion and only then the next approved curriculum-stage work.
 
 ## Level 1 verification boundary
 
@@ -290,7 +290,7 @@ The architecture foundation progressed through the next controlled milestones wi
 
 M0–M3 are infrastructure milestones. Existing JavaScript Reasoning banks, stage-specific calibration/delivery and the shared player remain the active learner-facing runtime. No Stage content has been migrated and no Stage has been marked verified by this work.
 
-M4 migration now begins with Level 1 · Stage 1 under the approved sequential Stage-launch standard. A Stage is not accepted until its complete learner-facing experience passes live owner verification.
+M4 per-Stage migration remains a separate architecture milestone. It is still pending and must not be confused with the accepted Stage 1 learner-verification record or the current backend authorization/persistence gate.
 
 ## 2026-09-23 — Backend authentication, Reasoning authorization and durable-attempt persistence
 

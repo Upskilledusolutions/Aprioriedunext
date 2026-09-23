@@ -370,9 +370,9 @@ Each identifier enables the corresponding Reasoning Level. **Access is selective
 
 Access authorization is separate from progress data. Enabling a Level must never erase previous Reasoning progress.
 
-**Implementation sequence:** after the backend inspection/foundation, manual Reasoning Level access is the first Reasoning-specific backend feature to implement and verify. The richer analytics persistence foundation follows it and must be completed before Level 1 · Stage 2 implementation.
+**Implementation sequence:** after backend inspection/foundation, manual Reasoning Level access is implemented first, followed by durable Reasoning question-attempt persistence. Both are now deployed; live authorization/capture verification remains the current gate before richer analytics expansion and Level 1 · Stage 2.
 
-The exact admin/backend storage and authorization implementation remains To Be Verified until the relevant code/backend is inspected.
+The admin/backend storage and authorization implementation has now been inspected and implemented. The remaining status is **implementation/deployment complete; live production verification pending**.
 
 ## 12. Stage launch strategy
 

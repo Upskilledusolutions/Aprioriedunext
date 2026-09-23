@@ -10,7 +10,7 @@ This record is the current verification boundary for Level 1 Stages 1–3. It su
 
 **Level 1 · Stage 1 is ACCEPTED. Level 1 · Stages 2–3 remain UNVERIFIED.**
 
-Implementation and remediation work has been completed to the current build boundary, but none of these stages may be recorded as fully complete until the project owner verifies them on the live production website.
+Implementation and remediation work has been completed to the current build boundary. Stage 1 is accepted; Stages 2–3 may not be recorded as fully complete until the project owner verifies them on the live production website.
 
 A successful GitHub commit, successful build, or Vercel deployment marked Ready proves build/deployment success only. It does not prove that every learner-facing activity is present, usable, correctly mapped, correctly calibrated, or free of runtime defects.
 
@@ -22,7 +22,7 @@ A successful GitHub commit, successful build, or Vercel deployment marked Ready 
 
 **Current transition boundary:** Stage 1 is accepted. The project must complete the backend authorization and durable-attempt verification gates before beginning Stage 2 curriculum implementation.
 
-This record does not mark any stage verified.
+This record does not mark Stages 2–3 as verified; Stage 1 acceptance is already recorded.
 
 ## 2026-09-21 corrective-step status
 
@@ -33,7 +33,7 @@ The approved first step — **Verbal answer-quality correction across Stages 1�
 - Stage 1 answer matching was corrected after case normalization.
 - The prebuild validator now checks actual Stage 1–2 Verbal delivery and the existing Stage 3 authoritative delivery for exact-10 delivery, four-option integrity, valid answers/content-mode metadata and conspicuous length cues.
 
-**Current status:** implementation corrected; production deployment and owner verification are still pending. No stage is marked verified by this step.
+**Current status:** the corrective implementation is complete. This corrective step does not change the already accepted Stage 1 status or the UNVERIFIED status of Stages 2–3.
 
 ### Historical next action
 
