@@ -145,4 +145,18 @@ The current ProtectedRoute checks user status through `/api/check-status`, but f
 
 ## Important implementation rule
 
-Do not change the existing language dashboard until the new product-selection architecture has been tested. The first implementation should add the smallest possible layer around the existing system.
+Do not change the existing language dashboard until the new product-selection architecture has been tested. The first implementation should add the smallest possible layer around the existing system.### Authenticated Courses page Reasoning entry path
+
+In addition to the primary **Reasoning Skills → Reasoning Dashboard** pathway in the Courses menu, the authenticated Courses page (`/User`) now provides a direct secondary entry path. The first two cards are:
+
+```text
+Courses page
+  ├── Quantitative Reasoning → /Reasoning/Quantitative
+  └── Verbal Reasoning → /Reasoning/Verbal
+```
+
+These direct cards open the respective tracks without passing through the general Reasoning Dashboard. They complement, rather than replace, the existing Reasoning Dashboard pathway.
+
+The project owner completed a quick live check confirming this direct Courses-page pathway is present and working in production. Comprehensive Stage 1 verification remains pending.
+
+
