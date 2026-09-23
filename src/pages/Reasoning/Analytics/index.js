@@ -13,7 +13,7 @@ const styles = {
   wrapper: { maxWidth: 1180, margin: "0 auto" },
   back: { color: "var(--muted)", textDecoration: "none", fontWeight: 700 },
   eyebrow: { margin: "28px 0 8px", color: "#2f6bff", fontWeight: 800, letterSpacing: ".08em", textTransform: "uppercase", fontSize: 13 },
-  hero: { display: "flex", alignItems: "stretch", flexWrap: "wrap", gap: 24, marginTop: 6 },
+  hero: { display: "grid", gridTemplateColumns: "minmax(270px,310px) minmax(0,1fr)", gap: 24, marginTop: 6, alignItems: "stretch" },
   heroCopy: { minWidth: 0, padding: "6px 0 2px", display: "flex", flexDirection: "column", height: "100%" },
   trackBarGrid: { display: "grid", gridTemplateColumns: "repeat(2,minmax(0,1fr))", gap: 14, marginTop: 18, flex: 1, minHeight: 0 },
   barPanel: { background: "rgba(255,255,255,.78)", border: "1px solid #dbe4f0", borderRadius: 18, padding: "16px 16px 13px", boxShadow: "0 10px 24px rgba(11,42,82,.07)", display: "flex", flexDirection: "column", minHeight: 220 },
@@ -447,6 +447,7 @@ export default function ReasoningAnalytics() {
           <p style={styles.eyebrow}>Reasoning Analytics · Cumulative learner record</p>
 
           <div style={styles.hero}>
+            <ReasoningProgressPieChart progress={analytics.overall.percent} />
             <div style={styles.heroCopy}>
               <p style={styles.intro}>
                 This view combines the existing Reasoning progress record with persisted question-attempt history. Quantitative and Verbal performance remains separate, and only recorded data is used.
@@ -456,7 +457,6 @@ export default function ReasoningAnalytics() {
                 <AccuracyBarChart title="Verbal" data={attemptAnalytics.verbalAccuracyByDate} topColor="#ffbe6b" bottomColor="#ef8a2f" />
               </div>
             </div>
-            <ReasoningProgressPieChart progress={analytics.overall.percent} />
           </div>
 
           <div style={styles.grid}>
