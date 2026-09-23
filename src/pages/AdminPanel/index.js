@@ -34,7 +34,7 @@ export default function Index() {
   const refreshData = async () => {
     setLoading(true)
     try {
-      const response = await fetch(`${URL}/api/${selection.section}/${selection.language}`);
+      const response = await fetch(`${URL}/api/${selection.section}/${selection.language}`, { credentials: "include" });
       const updatedData = await response.json();
       setAllCollections(updatedData);
     } catch (error) {
