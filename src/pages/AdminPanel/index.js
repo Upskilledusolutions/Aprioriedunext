@@ -4,14 +4,23 @@ import styles from '@/styles/Admin.module.css';
 import RightSide from '../../../components/Admin/RightSide';
 import LoadingSpinner from '../../../components/loader';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Index() {
+  const router = useRouter();
+  const [authorized, setAuthorized] = useState(null);
   const [selection, setSelection] = useState({ section: null, language: null });
   const [allCollections, setAllCollections] = useState([]);
   const [formData, setFormData] = useState(null); // Manage form data for edit
   const [showForm, setShowForm] = useState(false); // Manage form visibility
   const [ loading, setLoading ] = useState(false)
   const URL = process.env.NEXT_PUBLIC_BACKENDURL
+
+  useEffect(() => {
+    fetch(`${URL}/api/check-status`, { method: 'POST', credentials: 'include', headers: { 'Content-Type': 'application/json' } })
+      .then(async response => { const data = await response.json(); if (!response.ok || data?.user?.type !== 'all') throw new Error('Administrator access required'); setAuthorized(true); })
+      .catch(() => { setAuthorized(false); router.replace('/Auth'); });
+  }, [URL, router]);
 
   useEffect(() => {
     const fetchLessons = async () => {
@@ -69,6 +78,9 @@ export default function Index() {
   const handleLanguageSelection = (section, language) => {
     setSelection({ section, language });
   };
+
+  if (authorized === null) return <div className={styles.loader}>Checking administrator access...</div>;
+  if (!authorized) return null;
 
   return (
     <div>
