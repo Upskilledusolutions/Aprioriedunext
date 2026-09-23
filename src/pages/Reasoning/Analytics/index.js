@@ -1898,7 +1898,7 @@ export default function ReasoningAnalytics() {
             transition: none;
           }
         }
-      \`}</style>
+      `}</style>
     </>
   );
 }
