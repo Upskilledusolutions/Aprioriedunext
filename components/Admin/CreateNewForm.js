@@ -8,7 +8,7 @@ const CreateNewForm = ({ URL, refreshData, section, headings, language,  setShow
 
   useEffect(() => {
     if (isCreatingNew) {
-      setFormData({ questions: [], trial: false, contest: false, next: [] }); // Clear formData for a new entry
+      setFormData({ questions: [], trial: false, contest: false, next: [], reasoningAccess: ['reasoningL1'] }); // Clear formData for a new entry
     } else if (initialData) {
       setFormData(initialData); // Populate form for editing
     }
@@ -118,6 +118,22 @@ const removeNext = (index) => {
   setFormData({ ...formData, next: newNext });
 };
 
+  // Handle Reasoning Level access changes.
+  const handleReasoningAccessChange = (e, index) => {
+    const newAccess = [...(formData.reasoningAccess || [])];
+    newAccess[index] = e.target.value;
+    setFormData({ ...formData, reasoningAccess: newAccess });
+  };
+
+  const addReasoningAccess = () => {
+    setFormData({ ...formData, reasoningAccess: [...(formData.reasoningAccess || []), 'reasoningL1'] });
+  };
+
+  const removeReasoningAccess = (index) => {
+    const newAccess = (formData.reasoningAccess || []).filter((_, idx) => idx !== index);
+    setFormData({ ...formData, reasoningAccess: newAccess });
+  };
+
   return (
     <div className={styles.formContainer}>
       <form onSubmit={handleFormSubmit}>
@@ -224,7 +240,27 @@ const removeNext = (index) => {
                   )}
                   <button type="button" onClick={addFirstSent}>➕ Add Sentence</button>
                 </div>
-              ): heading === 'next' ? (
+              ): heading === 'reasoningAccess' ? (
+                <div className={styles.arrayInputContainer}>
+                  {(formData.reasoningAccess || []).map((item, idx) => (
+                    <div key={idx} className={styles.arrayInput}>
+                      <select
+                        name={'reasoningAccess-' + idx}
+                        value={item}
+                        onChange={(e) => handleReasoningAccessChange(e, idx)}
+                      >
+                        {Array.from({ length: 9 }, (_, levelIndex) => (
+                          <option key={levelIndex + 1} value={'reasoningL' + (levelIndex + 1)}>
+                            {'reasoningL' + (levelIndex + 1)}
+                          </option>
+                        ))}
+                      </select>
+                      <button type="button" onClick={() => removeReasoningAccess(idx)}>❌</button>
+                    </div>
+                  ))}
+                  <button type="button" onClick={addReasoningAccess}>➕ Add Reasoning Level</button>
+                </div>
+              ) : heading === 'next' ? (
                 <div className={styles.arrayInputContainer}>
                   {formData?.next?.map((item, idx) => (
                     <div key={idx} className={styles.arrayInput}>

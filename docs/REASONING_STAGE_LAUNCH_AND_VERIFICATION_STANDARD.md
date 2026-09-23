@@ -311,25 +311,3 @@ This standard does not redesign:
 - product account identity.
 
 It adds a consistent launch and verification process around the existing architecture.
-
-## 2026-09-23 — Backend authorization gate for manual Reasoning access
-
-The manual Reasoning Level-access foundation has been implemented after the accepted Level 1 · Stage 1 gate, using dedicated `reasoningL1`–`reasoningL9` identifiers separate from Foreign Languages `next` access.
-
-A deployment-ready access field and Admin editor do not by themselves establish secure authorization. The current backend has no effective authentication middleware, so the approved sequence now includes an explicit security gate:
-
-```
-server-recognized authenticated identity
-        ↓
-server-side Reasoning access authorization
-        ↓
-manual Level access verification
-        ↓
-durable question-attempt persistence verification
-        ↓
-Level 1 · Stage 2
-```
-
-Before a Reasoning Level is treated as securely released, verify that learners can read only their own access, cannot modify access, and authenticated administrators can assign/remove the approved Level identifiers. Preserve selective access, existing progress, shared account identity and Foreign Languages separation.
-
-The exact authentication/session mechanism must be selected from an audit of the existing login/session flow; do not introduce an unrelated product-wide redesign. Stage 2 remains blocked until this authorization gate and the durable analytics persistence foundation are both verified.

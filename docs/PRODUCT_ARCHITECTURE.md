@@ -503,27 +503,3 @@ Level → Stage → Module → Activity ID
 For migrated content, the human-editable Stage bank is the preferred editing surface and the canonical record is the validated runtime authority. Existing JavaScript question banks remain controlled source pools during the gradual migration. This layer does not replace the current player, module architecture, progress architecture or Activity IDs.
 
 The permanent specification is `docs/REASONING-HUMAN-EDITABLE-CANONICAL-QUESTION-BANK-SPEC.md`. Operational editing/release rules are defined in `docs/REASONING-QUESTION-BANK-CONTENT-MAINTENANCE.md`.
-
-## 2026-09-23 — Reasoning Level access security boundary
-
-The external Backend repository has now been integrated into the implementation sequence. The shared user model has a dedicated `reasoningAccess` field for `reasoningL1`–`reasoningL9`, independent of the Foreign Languages `next` field. The existing Admin user editor has been extended to expose this field.
-
-This does not yet satisfy the required authorization boundary because the current backend has no effective authentication middleware. The approved implementation gate is:
-
-```
-authenticated server identity
-        ↓
-Reasoning access authorization
-        ↓
-manual Level access
-        ↓
-durable question-attempt persistence
-        ↓
-richer Reasoning analytics
-        ↓
-Level 1 · Stage 2
-```
-
-The authorization layer must verify the caller server-side, restrict learners to their own access read, prevent learner-side access changes, and restrict access assignment/removal to an authenticated administrator. The design must preserve the shared account model and existing Foreign Languages behavior and must not reuse `next` for Reasoning access.
-
-The authentication/session mechanism remains an implementation detail to be selected after auditing the existing login flow and cross-application frontend/backend behavior. Do not claim Reasoning Level access is secure until the server-side authorization behavior has been tested on the deployed backend.

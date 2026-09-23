@@ -291,17 +291,3 @@ The architecture foundation progressed through the next controlled milestones wi
 M0–M3 are infrastructure milestones. Existing JavaScript Reasoning banks, stage-specific calibration/delivery and the shared player remain the active learner-facing runtime. No Stage content has been migrated and no Stage has been marked verified by this work.
 
 M4 migration now begins with Level 1 · Stage 1 under the approved sequential Stage-launch standard. A Stage is not accepted until its complete learner-facing experience passes live owner verification.
-
-## 2026-09-23 — Backend foundation and authorization remediation record
-
-The external Backend repository was inspected after Level 1 · Stage 1 acceptance.
-
-The first Reasoning access foundation was implemented in backend commit `6637acc69fd6e64b1e3a29a85c5d8ac4967b0d24` and frontend Admin commit `e14a8d2bf08a8b01bb243d4157023f5d1b357a5a`.
-
-The implementation adds dedicated `reasoningAccess` values (`reasoningL1`–`reasoningL9`) and an Admin editor field without reusing the language `next` field.
-
-During the backend audit, a blocking security limitation was identified: the current `middlewares/auth.js` contains no effective authentication middleware, while legacy user-specific endpoints accept request-supplied `userId` values. Therefore this foundation must not be treated as secure access control yet.
-
-The approved remediation is to establish a server-recognized authenticated identity and enforce Reasoning Level authorization server-side before manual access is considered production-secure. The security change must preserve existing Foreign Languages authentication/data behavior and avoid unrelated redesign.
-
-This is an infrastructure/security gate, not a new curriculum-stage remediation. Level 1 · Stage 2 remains blocked until the access security gate and the subsequent durable Reasoning analytics persistence foundation are implemented and verified.
