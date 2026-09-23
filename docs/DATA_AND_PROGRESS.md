@@ -134,9 +134,9 @@ reasoningL9
 
 Each identifier maps to the corresponding Reasoning Level. Manual access controls availability; it does not reset, replace or migrate previous Reasoning learning records. **Access is selective, not progressive**: `reasoningL4` may be assigned directly without `reasoningL1`, `reasoningL2` or `reasoningL3`. Completion of one Level does not automatically authorize another Level, and assignment of a later Level does not imply assignment of earlier Levels.
 
-The implementation order is: **backend inspection/foundation → manual Reasoning Level access implementation and verification → richer analytics persistence foundation → Level 1 · Stage 2**.
+The implementation order is now: **backend inspection/foundation → manual Reasoning Level access implementation/deployment → durable question-attempt persistence implementation/deployment → live authorization/capture verification → richer analytics expansion → Level 1 · Stage 2**.
 
-The exact backend/admin persistence and authorization implementation remains To Be Verified until the external backend and current admin flow are audited.
+The backend/admin access and attempt-persistence contracts have been audited and implemented. Live production verification remains a separate acceptance step.
 
 ## Reasoning grade-level progress model
 
@@ -248,35 +248,42 @@ reasoning:*
 
 Reasoning storage should additionally distinguish track, level, stage, module/activity and question where required. The exact implementation should be decided after the backend and existing storage usage are fully audited.
 
-## 2026-09-23 backend access-foundation record
+## 2026-09-23 backend authorization and durable question-attempt persistence record
 
-The external Backend repository has been inspected. A dedicated `reasoningAccess` field has been added to the shared user record so Reasoning Level access is not stored in the Foreign Languages `next` field.
+The external Backend repository is now the documented backend companion for Reasoning.
 
-Supported values are:
+### Authentication and Level access
+
+The server establishes learner identity from the signed HttpOnly `ups_auth_session` cookie and resolves the active learner from the existing Auth model. Reasoning access uses dedicated `reasoningL1`–`reasoningL9` values, separate from Foreign Languages `next`.
+
+Implemented rules:
+- a learner may read only their own Reasoning access;
+- an authenticated administrator may manage another learner's Reasoning access;
+- learners cannot modify Reasoning access;
+- access is selective rather than progressive;
+- changing access does not reset Reasoning records.
+
+### Durable question attempts
+
+The backend provides:
 
 ```
-reasoningL1
-reasoningL2
-reasoningL3
-reasoningL4
-reasoningL5
-reasoningL6
-reasoningL7
-reasoningL8
-reasoningL9
+POST /api/reasoning/attempts
+GET  /api/reasoning/attempts
 ```
 
-The current backend foundation also exposes a dedicated Reasoning-access read endpoint, and the Admin user editor can assign the identifiers.
+Attempts are stored in the separate `Reasoning` database namespace in the `question_attempts` collection.
 
-The access data structure is **not yet considered secure authorization**. The existing backend authentication middleware is empty, and legacy requests currently rely on user-supplied `userId` values. Before manual access is treated as a production security boundary, the backend must establish a server-recognized authenticated identity/session/credential and enforce these rules:
+The record captures the authenticated learner, activity-attempt ID, question ID, track, Level, Stage, Explore/Extend half, Activity/Module, available concept/question-type/content-mode/difficulty metadata, selected/correct response values, correctness for answered attempts, response status, time limit, response time and timestamps.
 
-1. a learner may read only their own Reasoning access;
-2. a learner may not change Reasoning access;
-3. only an authenticated administrator may assign or remove Reasoning Level identifiers;
-4. access remains selective rather than progressive;
-5. existing Reasoning progress is never reset, replaced or migrated by access changes;
-6. the Foreign Languages `next` field remains separate.
+POST derives ownership from the authenticated session rather than accepting a browser-supplied learner identity and requires access to the submitted Reasoning Level. GET is automatically scoped to the authenticated learner.
 
-The exact authentication mechanism should be chosen during implementation after auditing the existing login/session flow and its frontend/backend compatibility. Avoid a broad authentication redesign unless it is required to provide the approved server-side security boundary.
+This is a **durable capture foundation**, not the final authoritative grading service. Correctness is currently supplied by the active frontend Activity Player because the active Reasoning question banks remain in the frontend repository. Future authoritative grading may be introduced separately; analytics must not fabricate unsupported historical values.
 
-After authorization is implemented and verified, the next data step is durable Reasoning question-attempt persistence using only fields supported by the audited backend. Richer analytics follows that persistence foundation. Level 1 · Stage 2 remains blocked until both backend gates are complete.
+The frontend sends attempts through `src/utils/reasoningAttempts.js`. Existing browser Reasoning completion/progress storage remains in place and is not migrated or reset.
+
+### Verification boundary
+
+The implementations are deployed, but live owner verification of authorization, answered/timed-out capture, learner ownership and Reasoning/Foreign Languages separation is still required before richer analytics consume the new history.
+
+See `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md`.

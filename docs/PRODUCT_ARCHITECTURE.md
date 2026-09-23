@@ -504,26 +504,40 @@ For migrated content, the human-editable Stage bank is the preferred editing sur
 
 The permanent specification is `docs/REASONING-HUMAN-EDITABLE-CANONICAL-QUESTION-BANK-SPEC.md`. Operational editing/release rules are defined in `docs/REASONING-QUESTION-BANK-CONTENT-MAINTENANCE.md`.
 
-## 2026-09-23 — Reasoning Level access security boundary
+## 2026-09-23 — Reasoning authentication, Level access and durable-attempt architecture
 
-The external Backend repository has now been integrated into the implementation sequence. The shared user model has a dedicated `reasoningAccess` field for `reasoningL1`–`reasoningL9`, independent of the Foreign Languages `next` field. The existing Admin user editor has been extended to expose this field.
+The external `Upskilledusolutions/Backend` repository is the backend companion to this frontend repository and uses the existing shared Auth identity.
 
-This does not yet satisfy the required authorization boundary because the current backend has no effective authentication middleware. The approved implementation gate is:
+Current Reasoning backend contract:
 
 ```
-authenticated server identity
-        ↓
-Reasoning access authorization
-        ↓
-manual Level access
-        ↓
-durable question-attempt persistence
-        ↓
-richer Reasoning analytics
-        ↓
-Level 1 · Stage 2
+shared login
+    ↓
+ups_auth_session (signed HttpOnly session)
+    ↓
+server-recognized active learner
+    ├── reasoningAccess
+    │     └── reasoningL1 … reasoningL9
+    │
+    └── Reasoning.question_attempts
 ```
 
-The authorization layer must verify the caller server-side, restrict learners to their own access read, prevent learner-side access changes, and restrict access assignment/removal to an authenticated administrator. The design must preserve the shared account model and existing Foreign Languages behavior and must not reuse `next` for Reasoning access.
+Implemented access endpoints:
+- `GET /api/reasoning/access/:userId`
+- `PUT /api/reasoning/access/:userId`
 
-The authentication/session mechanism remains an implementation detail to be selected after auditing the existing login flow and cross-application frontend/backend behavior. Do not claim Reasoning Level access is secure until the server-side authorization behavior has been tested on the deployed backend.
+Implemented attempt endpoints:
+- `POST /api/reasoning/attempts`
+- `GET /api/reasoning/attempts`
+
+The shared Activity Player checks backend-authorized Level access before rendering questions and records answered/timed-out questions through the durable attempt endpoint.
+
+### Persistence boundary
+
+The attempt store is a durable capture layer. The active question bank remains in the frontend repository, so the backend currently records correctness supplied by the player rather than independently recomputing answers. This is not the final authoritative grading engine.
+
+Backend commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is LIVE on Render. Frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is READY on Vercel.
+
+### Verification boundary
+
+The authorization and durable-attempt implementations are deployed but not yet owner-verified end-to-end. Do not enable richer analytics or begin Level 1 · Stage 2 until the required production verification is complete.

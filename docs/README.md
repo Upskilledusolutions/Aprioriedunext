@@ -16,6 +16,8 @@ The documentation will be created and updated as the project is audited and deve
 - `DATA_AND_PROGRESS.md` — how user data, progress, achievements, points, streaks, and leaderboards are separated by product.
 - `DEVELOPMENT_RULES.md` — rules for safely developing the project without breaking the existing Foreign Languages product.
 - `CHANGELOG.md` — simple record of important changes made to the project.
+- `REASONING_*.md` — Reasoning-specific product, curriculum, data, quality and launch standards.
+- Cross-repository backend reference: `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md` — current Reasoning backend authorization, persistence API and deployment contract.
 
 ## Documentation principle
 

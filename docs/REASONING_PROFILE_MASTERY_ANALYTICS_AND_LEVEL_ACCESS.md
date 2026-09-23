@@ -84,9 +84,9 @@ The analytics model should be designed so that adding a new Activity/question se
 
 The agreed sequence for the richer historical analytics is:
 
-**Stage 1 owner verification → Stage 1 acceptance → backend inspection + durable question-attempt persistence → verify capture and Reasoning/Foreign Languages separation → expand analytics → Stage 2 implementation.**
+**Stage 1 owner verification → Stage 1 acceptance → backend inspection → manual Level authorization implementation/deployment → durable question-attempt persistence implementation/deployment → live authorization/capture/separation verification → expand analytics → Stage 2 implementation.**
 
-The system must begin accumulating this detailed history from the point at which the new persistence is activated. Unsupported historical values must not be reconstructed or estimated. The manual Reasoning Level-access implementation and verification must occur before this analytics-persistence work in the agreed transition sequence.
+The system begins accumulating detailed history from the point at which the new persistence is activated. Unsupported historical values are not reconstructed or estimated. Manual Level authorization has been implemented before this persistence foundation; live authorization/capture verification is now the remaining gate.
 
 ## 6. Progress report and leaderboard
 
@@ -153,7 +153,7 @@ Whenever a new Level is manually enabled for a learner, verify:
 - cumulative analytics include newly completed work;
 - Foreign Languages data remains separate.
 
-The exact backend/admin storage and authorization implementation remains subject to code/backend audit before implementation; these product behaviors are approved requirements and must not be dropped because the current frontend does not yet expose them.
+The backend/admin storage and authorization implementation has now been audited and implemented. These approved behaviors remain subject to live production verification.
 
 **Implementation order:** after the backend foundation is established, manual Reasoning Level access is implemented and verified first; richer analytics persistence is implemented afterward, before Level 1 · Stage 2 work begins.
 
@@ -186,18 +186,22 @@ The Reasoning Dashboard remains the separate entry point for choosing Quantitati
 
 All authenticated name-menu links/buttons must display without text underlines.
 
-## 2026-09-23 — Manual Level access implementation and security gate
+## 2026-09-23 — Manual Level access, authentication and durable-attempt persistence
 
-The backend foundation for manual Reasoning Level access is now implemented with a dedicated `reasoningAccess` user field containing validated `reasoningL1`–`reasoningL9` identifiers. The existing Admin user editor can manage this field, while Foreign Languages `next` access remains separate.
+Manual Reasoning Level access and its authentication boundary are implemented and deployed. `reasoningAccess` remains separate from Foreign Languages `next`.
 
-The implementation is **not yet fully verified as secure authorization** because the current backend has no effective authentication middleware. Before relying on manual Level access for learner release, implement a server-recognized authenticated identity/session/credential and enforce:
+The durable question-attempt persistence foundation is also implemented and deployed:
 
-- learner read access limited to the authenticated learner's own record;
-- no learner-side modification of Reasoning access;
-- administrator-only access assignment/removal;
-- selective Level assignment with no prerequisite dependency;
-- preservation of all existing Reasoning learning records.
+- Backend: `6c353c4529fe3b5c613deb3396f8a00b8d1ce500`
+- Frontend: `e22ccb1bc800f41689fc62a07c52b664783c3cfb`
+- Storage: separate `Reasoning.question_attempts` collection
+- APIs: `POST/GET /api/reasoning/attempts`
+- Capture: answered and timed-out questions from the shared Activity Player
+- Ownership: authenticated server session
+- Idempotency: learner + activity-attempt + question combination
 
-Do not reconstruct or alter historical analytics because of the authorization change.
+### Release verification gate
 
-After authorization verification, implement the durable question-attempt persistence foundation. Only newly collected, supported attempt history may feed the richer cumulative analytics; unsupported historical values must not be fabricated.
+The implementation is deployed but not yet fully verified through the production learner flow. The owner must verify authorization, administrator access management, durable answered/timed-out capture, correct learner ownership and Reasoning/Foreign Languages separation.
+
+Only recorded, supported data may be used for richer analytics. Unsupported historical values must not be reconstructed.

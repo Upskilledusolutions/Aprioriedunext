@@ -6,11 +6,11 @@ Last updated: 2026-09-23
 
 Reasoning is being developed through a focused stage-by-stage audit and remediation process. **Level 1 · Stage 1 has been accepted by the project owner after live verification. Level 1 Stages 2–3 remain UNVERIFIED by the project owner.** A successful build or Ready Vercel deployment does not count as owner verification.
 
-**New standard:** Reasoning work now follows the approved per-Stage launch and verification standard in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`. The immediate restart point is **Level 1 · Stage 1**. Stage 1 must be migrated, exposed completely, deployed and fully owner-verified before Stage 2 begins. Each later Stage follows the same sequential acceptance gate.
+**Current transition:** Level 1 · Stage 1 is accepted. The project is completing the required backend/access/persistence verification gate before Level 1 · Stage 2. The approved per-Stage launch and verification standard remains in force for Stage 2 and all later Stages.
 
 The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is introduced for curriculum remediations.
 
-**Agreed backend sequencing:** after Level 1 · Stage 1 passes complete owner live verification and is accepted, the project will inspect the existing backend and establish the required backend foundation. **Immediately after that backend foundation, the first Reasoning-specific backend feature to implement and verify is manual Reasoning Level access** using the approved `reasoningL1`–`reasoningL9` identifiers. The richer question-attempt persistence for advanced analytics follows this access-control step, and Level 1 · Stage 2 implementation begins only after these required backend steps are complete.
+**Current backend transition:** after Stage 1 acceptance, the external `Upskilledusolutions/Backend` repository was audited. Server-recognized authentication, manual Reasoning Level authorization and durable question-attempt persistence are now implemented and deployed. Backend commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is LIVE on Render; frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is READY on Vercel. **Live authorization/capture verification remains pending.**
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
 
@@ -18,7 +18,7 @@ The existing single-account authentication model remains shared with Foreign Lan
 
 The 2026-09-18 focused corrective sequence remains valid as remediation history, but its launch/verification order is superseded by the 2026-09-22 **Reasoning Stage Launch and Verification Standard**.
 
-The approved current sequence is: restart with Level 1 · Stage 1, migrate the complete Stage into the human-editable/canonical content path, reconcile every Module including Explore and Extend, expose the complete learner-facing Stage, deploy, perform full live verification, accept Stage 1, then proceed to Stage 2 and continue sequentially.
+That earlier sequence is retained only as historical process history. The current sequence after Stage 1 acceptance is: backend authorization implementation/deployment → durable question-attempt persistence implementation/deployment → live verification of authorization and capture/separation → richer Reasoning Analytics expansion → Level 1 · Stage 2.
 
 
 ## Verification cadence
@@ -346,55 +346,26 @@ This commit defines the schema and authoring contract only. Existing JavaScript 
 The existing Level 1 Stages 1–3 live-production verification gate remains unchanged and is independent of this architecture work. Architecture infrastructure may continue without changing a Stage or switching runtime delivery. No Stage content migration, new stage implementation or canonical runtime cutover should be treated as approval to bypass the existing live-verification gate. This architecture foundation does not mark any Reasoning stage verified or complete.
 
 
-## 2026-09-23 — Stage 1 owner acceptance and transition to backend foundation
+## 2026-09-23 — Backend authentication, Reasoning authorization and durable-attempt persistence
 
-The project owner has explicitly confirmed that the complete Level 1 · Stage 1 live-production verification was already performed earlier and should be treated as completed. Stage 1 is therefore **ACCEPTED**.
+Level 1 · Stage 1 is **ACCEPTED** after the owner-confirmed live verification.
 
-The accepted Stage 1 verification covered the documented production criteria across Quantitative and Verbal, including Modules, Explore/Extend Activities, question sets, interaction, explanations, timing, scoring, completion, progress, navigation, content-mode labels, difficulty, analytics/profile access, authenticated Courses/name-menu pathways and Foreign Languages separation.
+The approved backend transition has now reached the implementation/deployment stage:
 
-The project now moves to the required transition sequence. **No Level 1 · Stage 2 curriculum implementation begins yet.**
+1. The external `Upskilledusolutions/Backend` repository was inspected.
+2. Server-recognized authentication/session support was implemented.
+3. Manual Reasoning Level access was implemented using `reasoningL1`–`reasoningL9`, separately from Foreign Languages `next`.
+4. The shared Activity Player was made dependent on the authenticated backend access response before rendering Reasoning questions.
+5. Durable Reasoning question-attempt persistence was implemented in the separate Reasoning data namespace.
+6. Backend commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is LIVE on Render.
+7. Frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is READY on Vercel.
 
-1. Inspect the existing external backend and establish the required backend foundation.
-2. Implement and verify manual Reasoning Level access using `reasoningL1`–`reasoningL9`, with selective direct assignment and no prerequisite dependency.
-3. Implement and verify the durable Reasoning question-attempt analytics persistence foundation.
-4. Begin Level 1 · Stage 2 only after the above gates are complete.
+### Current gate
 
-## 2026-09-23 — Stage 1 live verification findings and next implementation scope
+Implementation and deployment are complete. The remaining mandatory gate is live owner verification of learner access authorization, administrator access management, durable answered/timed-out attempt capture, and correct learner ownership/separation from Foreign Languages.
 
-The owner quick-checked Level 1 · Stage 1 and reported that the questions and modules appear to function correctly. The required profile-access entry was then added to the authenticated name menu and deployed successfully.
+Only after that verification should richer question-level/historical Reasoning Analytics be enabled. Level 1 · Stage 2 remains blocked until this gate is complete.
 
-The live Reasoning profile/dashboard check identified two remaining Stage 1 product issues:
+### Architecture note
 
-- The current Reasoning Dashboard displays incorrect **100%** values for Overall Stage 1, Quantitative and Verbal rather than reflecting actual learner completion state. This requires source-level investigation and correction, not a visual workaround.
-- The dashboard currently presents Quantitative and Verbal track choices but does not expose the approved Reasoning mastery/analytics experience. Analytics are **mandatory from Level 1 · Stage 1** and are not deferred.
-
-Approved navigation refinements for the next implementation:
-
-- Reasoning Skills appears first in the authenticated Courses menu and opens the Reasoning Dashboard with Quantitative/Verbal track selection.
-- The authenticated name-menu label **Profile** becomes **Language Club** while retaining the existing `/Profile` navigation and Foreign Languages features.
-- The authenticated name-menu label **Reasoning Profile** becomes **Reasoning Analytics** and must open the dedicated Reasoning Analytics experience directly, not a Quantitative/Verbal track page.
-- Text underlines are removed from all links/buttons in the authenticated name-menu dropdown only.
-
-Stage 1 was subsequently completed and accepted by the project owner. The next approved implementation sequence is backend inspection/foundation → manual Reasoning Level access → analytics persistence foundation → Level 1 · Stage 2.
-
-### 2026-09-23 — Backend Reasoning access foundation and approved authorization gate
-
-The external backend repository `Upskilledusolutions/Backend` has now been inspected and authorized for write access through the existing GitHub workflow.
-
-The first backend foundation for manual Reasoning Level access has been implemented:
-
-- `reasoningAccess` is a dedicated user field and is separate from the existing Foreign Languages `next` field.
-- Valid identifiers are `reasoningL1` through `reasoningL9`.
-- New users default to `reasoningL1`.
-- A dedicated backend read endpoint exposes the Reasoning access list.
-- The authenticated Admin user editor has been extended to manage the Reasoning Level identifiers.
-
-Backend commit: `6637acc69fd6e64b1e3a29a85c5d8ac4967b0d24`.
-
-Frontend Admin editor commit: `e14a8d2bf08a8b01bb243d4157023f5d1b357a5a`.
-
-**Security boundary identified:** the existing backend does not currently enforce a server-side authenticated identity for these user-specific requests; `middlewares/auth.js` is empty and legacy endpoints identify users from request-supplied `userId` values. Therefore the new Reasoning access field is a data foundation, not yet a secure authorization system.
-
-**Approved next backend step:** implement secure server-recognized authentication/authorization for Reasoning Level access before relying on manual access control in production. The server must distinguish the authenticated learner from an administrator, allow a learner to read only their own Reasoning access, prevent learners from modifying access, and allow only an authenticated administrator to assign/remove `reasoningL1`–`reasoningL9`. The existing Foreign Languages authentication/data behavior must remain compatible, and `next` must remain reserved for language access.
-
-After this security gate is implemented and verified, proceed to durable Reasoning question-attempt persistence and richer analytics, then Level 1 · Stage 2. Do not begin Stage 2 curriculum implementation before those gates are complete.
+The human-editable/canonical Question Bank M4 migration remains a separate architecture workstream. It is not a prerequisite for interpreting the already accepted Stage 1 learner verification record and must not be used to reopen completed Stage 1 acceptance without a new observed defect.
