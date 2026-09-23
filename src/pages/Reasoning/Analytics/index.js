@@ -21,17 +21,18 @@ const styles = {
   barPanelTitle: { margin: 0, color: "#0b2a52", fontSize: 15, lineHeight: 1.25, fontWeight: 850 },
   barPanelSubtitle: { margin: "3px 0 0", color: "#7a879a", fontSize: 10, lineHeight: 1.35 },
   barPlot: { display: "grid", gridTemplateColumns: "22px minmax(0,1fr)", gap: 9, flex: 1, minHeight: 0, marginTop: 12 },
-  barYAxis: { display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "flex-end", paddingBottom: 18, color: "#93a0b2", fontSize: 9, fontWeight: 700 },
+  barYAxis: { display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "flex-end", paddingBottom: 0, paddingTop: 0, color: "#93a0b2", fontSize: 9, fontWeight: 700 },
   barStage: { display: "flex", flexDirection: "column", minWidth: 0 },
-  barGridArea: { position: "relative", flex: 1, minHeight: 118, borderBottom: "1px solid #ccd6e3", background: "repeating-linear-gradient(to bottom, rgba(210,220,232,.38) 0, rgba(210,220,232,.38) 1px, transparent 1px, transparent 25%)", borderRadius: "8px 8px 0 0", padding: "10px 7px 0" },
-  barItems: { height: "100%", display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 8 },
-  barItem: { flex: "1 1 0", height: "100%", display: "flex", flexDirection: "column", justifyContent: "flex-end", alignItems: "center", minWidth: 0 },
-  barValue: { marginBottom: 5, color: "#38506f", fontSize: 9, fontWeight: 850, lineHeight: 1 },
-  barTrack: { width: "min(28px,72%)", height: "calc(var(--bar-value) * 1%)", minHeight: 3, borderRadius: "7px 7px 2px 2px", display: "flex", flexDirection: "column", boxShadow: "inset 0 1px 0 rgba(255,255,255,.45), 0 5px 10px rgba(11,42,82,.10)", overflow: "hidden" },
+  barGridArea: { position: "relative", flex: 1, minHeight: 118, borderBottom: "1px solid #ccd6e3", background: "repeating-linear-gradient(to bottom, rgba(210,220,232,.38) 0, rgba(210,220,232,.38) 1px, transparent 1px, transparent 25%)", borderRadius: "8px 8px 0 0", padding: "0 7px" },
+  barItems: { height: "100%", display: "flex", alignItems: "stretch", justifyContent: "space-between", gap: 8 },
+  barItem: { flex: "1 1 0", height: "100%", position: "relative", minWidth: 0 },
+  barValue: { position: "absolute", left: "50%", bottom: "calc(var(--bar-value) * 1% + 5px)", transform: "translateX(-50%)", margin: 0, color: "#38506f", fontSize: 9, fontWeight: 850, lineHeight: 1, whiteSpace: "nowrap" },
+  barBarArea: { position: "absolute", inset: 0, display: "flex", alignItems: "flex-end", justifyContent: "center" },
+  barTrack: { width: "min(28px,72%)", height: "calc(var(--bar-value) * 1%)", minHeight: 0, borderRadius: "7px 7px 2px 2px", display: "flex", flexDirection: "column", boxShadow: "inset 0 1px 0 rgba(255,255,255,.45), 0 5px 10px rgba(11,42,82,.10)", overflow: "hidden" },
   barSegment: { width: "100%", flex: "0 0 auto" },
-  barLabelRow: { display: "flex", justifyContent: "space-between", gap: 8, height: 60, padding: "1px 7px 0", overflow: "visible" },
+  barLabelRow: { display: "flex", justifyContent: "space-between", gap: 8, height: 60, padding: "8px 7px 0", overflow: "visible" },
   barLabelCell: { flex: "1 1 0", minWidth: 0, height: "100%", position: "relative" },
-  barActivityLabel: { position: "absolute", bottom: 2, left: "18%", transform: "rotate(-45deg)", transformOrigin: "left bottom", whiteSpace: "nowrap", color: "#7f8da1", fontSize: 7, lineHeight: 1.1, fontWeight: 500 },
+  barActivityLabel: { position: "absolute", right: "calc(50% + 14px)", bottom: 8, transform: "rotate(-45deg)", transformOrigin: "right bottom", whiteSpace: "nowrap", color: "#7f8da1", fontSize: 7, lineHeight: 1.1, fontWeight: 500 },
   barEmpty: { display: "grid", placeItems: "center", flex: 1, minHeight: 118, borderBottom: "1px solid #ccd6e3", color: "#8a97a9", fontSize: 11, textAlign: "center" },
   barLegend: { display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 6, marginTop: 10, color: "#687890", fontSize: 9, fontWeight: 750 },
   legendSwatch: { display: "inline-block", width: 8, height: 8, borderRadius: 3, marginRight: 4, verticalAlign: "-1px" },
@@ -212,31 +213,32 @@ function ActivityPerformanceBarChart({ title, data }) {
                 return (
                   <div
                     key={item.id}
-                    style={styles.barItem}
+                    style={{ ...styles.barItem, "--bar-value": hasScore ? item.score : 8 }}
                     title={formatActivityLabel(item.title) + " · " + accessibleValue}
                   >
                     <span style={{ ...styles.barValue, color: hasScore ? "#38506f" : "#8794a6" }}>
                       {accessibleValue}
                     </span>
-                    <div
-                      style={{
-                        ...styles.barTrack,
-                        "--bar-value": hasScore ? item.score : 8,
-                        ...(palette.unavailable ? { background: palette.background } : {}),
-                      }}
-                    >
-                      {hasScore
-                        ? palette.map((segment, index) => (
+                    <div style={styles.barBarArea}>
+                      <div
+                        style={{
+                          ...styles.barTrack,
+                          ...(palette.unavailable ? { background: palette.background } : {}),
+                        }}
+                      >
+                        {hasScore
+                          ? palette.map((segment, index) => (
                             <span
                               key={segment.start + "-" + segment.end + "-" + index}
                               style={{
                                 ...styles.barSegment,
                                 height: segment.height + "%",
-                                background: "linear-gradient(180deg," + segment.top + "," + segment.bottom + ")",
+                                  background: "linear-gradient(180deg," + segment.top + "," + segment.bottom + ")",
                               }}
                             />
                           ))
-                        : null}
+                          : null}
+                      </div>
                     </div>
                   </div>
                 );
