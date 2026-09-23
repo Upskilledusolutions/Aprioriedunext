@@ -18,15 +18,15 @@ const styles = {
 export default function ReasoningDashboard() {
   const router = useRouter();
   const { user, isAuthenticated } = useSelector((state) => state.auth);
-  const [progress, setProgress] = useState(null);
+  const [progress, setProgress] = useState(null);\n  const [reasoningAccess, setReasoningAccess] = useState(null);\n  const [accessError, setAccessError] = useState(false);
 
   useEffect(() => {
     if (!isAuthenticated && user === null) return;
     if (!user?.userId) router.replace("/Auth");
-    else setProgress(readReasoningProgress(user.userId));
+    else {\n      setProgress(readReasoningProgress(user.userId));\n      const loadAccess = async () => {\n        try {\n          const response = await fetch(`${process.env.NEXT_PUBLIC_BACKENDURL}/api/reasoning/access/${encodeURIComponent(user.userId)}`, { credentials: "include" });\n          const data = await response.json();\n          if (!response.ok || !data.success) throw new Error("Unable to verify Reasoning access");\n          setReasoningAccess(data.reasoningAccess || []);\n        } catch (error) {\n          console.error("Error verifying Reasoning access:", error);\n          setAccessError(true);\n        }\n      };\n      loadAccess();\n    }
   }, [isAuthenticated, user, router]);
 
-  const quantitativePercent = getTrackPercent(progress, "quantitative", 5, STAGE1_MODULES.quantitative);
+  if (accessError) return <main style={styles.page}><div style={styles.wrapper}><div style={styles.note}><strong>Unable to verify access.</strong><p>Please sign in again and try again.</p><Link href="/Auth" style={styles.button}>Sign in</Link></div></div></main>;\n  if (reasoningAccess === null) return <main style={styles.page}><div style={styles.wrapper}><div style={styles.note}>Verifying your Reasoning access…</div></div></main>;\n\n  const quantitativePercent = getTrackPercent(progress, "quantitative", 5, STAGE1_MODULES.quantitative);
   const verbalPercent = getTrackPercent(progress, "verbal", 5, STAGE1_MODULES.verbal);
   const completed = getTotalReasoningCompleted(progress, 5, STAGE1_MODULES);
   const total = 10;
