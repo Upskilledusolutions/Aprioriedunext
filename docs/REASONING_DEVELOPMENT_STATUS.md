@@ -4,7 +4,7 @@ Last updated: 2026-09-23
 
 ## Current status
 
-Reasoning is being developed through a focused stage-by-stage audit and remediation process. **Level 1 Stages 1–3 have received implementation/remediation work, but all three remain UNVERIFIED by the project owner.** A successful build or Ready Vercel deployment does not count as owner verification.
+Reasoning is being developed through a focused stage-by-stage audit and remediation process. **Level 1 · Stage 1 has been accepted by the project owner after live verification. Level 1 Stages 2–3 remain UNVERIFIED by the project owner.** A successful build or Ready Vercel deployment does not count as owner verification.
 
 **New standard:** Reasoning work now follows the approved per-Stage launch and verification standard in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`. The immediate restart point is **Level 1 · Stage 1**. Stage 1 must be migrated, exposed completely, deployed and fully owner-verified before Stage 2 begins. Each later Stage follows the same sequential acceptance gate.
 
@@ -51,7 +51,7 @@ The architecture roadmap is now tracked separately from curriculum-stage verific
 
 The project owner has now completed a **quick live check** of the latest Stage 1 production changes. The previously identified authenticated Courses-menu issue has been corrected: the live Courses page now shows **Quantitative Reasoning** and **Verbal Reasoning** at the top, and each card opens its respective track directly. The existing **Reasoning Skills → Reasoning Dashboard** pathway remains unchanged.
 
-This quick check confirms the targeted navigation correction is live, but it does **not** satisfy the complete Stage 1 acceptance gate. Stage 1 remains **UNVERIFIED** pending complete owner verification against the full Stage 1 acceptance criteria. No backend/access or Stage 2 work begins before that acceptance gate is passed.
+The project owner has now explicitly confirmed that the previously completed live-production verification of Stage 1 should be treated as the complete verification record and has accepted Stage 1. Stage 1 is therefore **ACCEPTED**. The project now proceeds to the documented transition sequence: backend inspection/foundation → manual Reasoning Level access → analytics persistence foundation → Level 1 · Stage 2.
 ## Mandatory quality requirements
 
 ### 1. Full stage audit
@@ -122,9 +122,9 @@ Stage 1 remediation covered Quantitative and Verbal delivery without changing th
 
 ### Stage 1 current state
 
-**Implementation and production deployment completed; comprehensive owner verification pending.**
+**Implementation, production deployment, complete owner verification and Stage 1 acceptance completed.**
 
-Stage 1 is the immediate restart point under the new standard. The corrected Stage 1 implementation is deployed in production, and the owner has completed a quick live check, including confirmation of the direct Quantitative/Verbal Courses-page entry path. The full Stage 1 cycle still requires complete production verification against all acceptance criteria before Stage 1 is accepted.
+Stage 1 was deployed in production and the owner has confirmed that the complete live-production verification previously performed should be recorded as completed. Stage 1 is now accepted. No Stage 2 curriculum work begins until the required backend/access/analytics transition sequence is completed.
 
 ## Level 1 · Stage 2 — implementation/remediation complete; owner verification pending
 
@@ -346,6 +346,19 @@ This commit defines the schema and authoring contract only. Existing JavaScript 
 The existing Level 1 Stages 1–3 live-production verification gate remains unchanged and is independent of this architecture work. Architecture infrastructure may continue without changing a Stage or switching runtime delivery. No Stage content migration, new stage implementation or canonical runtime cutover should be treated as approval to bypass the existing live-verification gate. This architecture foundation does not mark any Reasoning stage verified or complete.
 
 
+## 2026-09-23 — Stage 1 owner acceptance and transition to backend foundation
+
+The project owner has explicitly confirmed that the complete Level 1 · Stage 1 live-production verification was already performed earlier and should be treated as completed. Stage 1 is therefore **ACCEPTED**.
+
+The accepted Stage 1 verification covered the documented production criteria across Quantitative and Verbal, including Modules, Explore/Extend Activities, question sets, interaction, explanations, timing, scoring, completion, progress, navigation, content-mode labels, difficulty, analytics/profile access, authenticated Courses/name-menu pathways and Foreign Languages separation.
+
+The project now moves to the required transition sequence. **No Level 1 · Stage 2 curriculum implementation begins yet.**
+
+1. Inspect the existing external backend and establish the required backend foundation.
+2. Implement and verify manual Reasoning Level access using `reasoningL1`–`reasoningL9`, with selective direct assignment and no prerequisite dependency.
+3. Implement and verify the durable Reasoning question-attempt analytics persistence foundation.
+4. Begin Level 1 · Stage 2 only after the above gates are complete.
+
 ## 2026-09-23 — Stage 1 live verification findings and next implementation scope
 
 The owner quick-checked Level 1 · Stage 1 and reported that the questions and modules appear to function correctly. The required profile-access entry was then added to the authenticated name menu and deployed successfully.
@@ -362,4 +375,4 @@ Approved navigation refinements for the next implementation:
 - The authenticated name-menu label **Reasoning Profile** becomes **Reasoning Analytics** and must open the dedicated Reasoning Analytics experience directly, not a Quantitative/Verbal track page.
 - Text underlines are removed from all links/buttons in the authenticated name-menu dropdown only.
 
-Stage 1 remains **UNVERIFIED / NOT ACCEPTED** until the corrected Reasoning analytics/profile experience is deployed and live-verified by the project owner.
+Stage 1 was subsequently completed and accepted by the project owner. The next approved implementation sequence is backend inspection/foundation → manual Reasoning Level access → analytics persistence foundation → Level 1 · Stage 2.
