@@ -174,6 +174,19 @@ Reasoning
 
 Quantitative and Verbal progress must remain independently identifiable throughout this hierarchy.
 
+### Authenticated navigation and profile naming
+
+After login, the authenticated Courses menu must place **Reasoning Skills first**. Selecting it opens the standalone **Reasoning Dashboard**, where Quantitative and Verbal are presented as independent track choices.
+
+The authenticated name/user menu uses these product-specific labels:
+
+- **Language Club** → existing `/Profile` route; existing Foreign Languages navigation and features remain unchanged.
+- **Reasoning Analytics** → dedicated Reasoning Analytics route; this must open the analytics experience directly and must not redirect to the Quantitative or Verbal track dashboards.
+
+All links/buttons in the authenticated name-menu dropdown must use no text underline.
+
+The Reasoning Dashboard and Reasoning Analytics are distinct responsibilities: the Dashboard is the Reasoning entry/track-selection experience; Analytics is the cumulative performance, mastery and reporting experience.
+
 ## 7. Reasoning Question Bank and extensibility
 
 Reasoning requires its own question/content bank rather than reusing the Foreign Languages exercise data unchanged.

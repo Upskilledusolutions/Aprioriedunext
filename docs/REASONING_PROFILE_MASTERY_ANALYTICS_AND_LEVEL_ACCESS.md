@@ -158,3 +158,15 @@ Additional insights may be added as the Question Bank becomes richer, including:
 - longitudinal growth views.
 
 These extend the same cumulative Reasoning record rather than creating separate analytics systems.
+
+
+## 11. Authenticated navigation labels
+
+The authenticated name/user menu uses a separate entry for each product experience:
+
+- **Language Club** — existing Foreign Languages profile entry. Retains the current `/Profile` route, navigation and features.
+- **Reasoning Analytics** — dedicated Reasoning analytics entry. Opens the Reasoning Analytics experience directly; it does not open the Quantitative or Verbal track-selection pages.
+
+The Reasoning Dashboard remains the separate entry point for choosing Quantitative or Verbal learning tracks.
+
+All authenticated name-menu links/buttons must display without text underlines.

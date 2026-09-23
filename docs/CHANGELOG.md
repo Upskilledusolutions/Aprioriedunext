@@ -1,3 +1,12 @@
+## 2026-09-23 — Stage 1 profile/navigation verification and analytics scope
+
+- Confirmed that the authenticated name menu now exposes a Reasoning entry and that its production deployment completed successfully.
+- Owner quick-check confirmed the Stage 1 questions and modules appear functional.
+- Recorded remaining profile issue: current Reasoning Dashboard progress values incorrectly display 100% and require source-level correction.
+- Recorded remaining profile issue: approved Stage 1 mastery/analytics are not yet visible in the learner-facing Reasoning experience.
+- Approved authenticated navigation refinements: Reasoning Skills first in Courses → Reasoning Dashboard → Quantitative/Verbal; Profile label becomes Language Club while preserving `/Profile`; Reasoning Profile becomes Reasoning Analytics and routes directly to dedicated analytics; remove underlines from the authenticated name-menu controls.
+- Stage 1 remains unverified and not accepted pending correction and live verification.
+
 # Changelog
 
 This file records important project and architecture changes in simple language.

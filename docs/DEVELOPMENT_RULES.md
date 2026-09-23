@@ -309,3 +309,16 @@ If a deterministic source problem is found, fix it before creating another deplo
 When making decisions, use this order:
 
 **Safety → Separation → Simplicity → Reuse → Scalability**
+
+
+## 25. Authenticated Reasoning navigation and profile menu
+
+The following are approved learner-facing requirements:
+
+- After login, Reasoning Skills appears as the **first item** in the Courses menu.
+- Selecting Reasoning Skills opens the Reasoning Dashboard with Quantitative and Verbal track choices.
+- The authenticated name menu labels the existing language profile entry **Language Club** while preserving its current `/Profile` route, navigation and features.
+- The authenticated name menu labels the Reasoning entry **Reasoning Analytics** and routes directly to the dedicated Reasoning Analytics experience, not to a Quantitative/Verbal selection page.
+- Remove text underlines from all links/buttons inside the authenticated name-menu dropdown only; do not change underline behaviour elsewhere in the site.
+
+For the next Reasoning Analytics implementation, do not create a placeholder or redirect-only page. Implement the actual Stage 1 analytics experience and fix the observed incorrect 100% progress state at its source. Preserve existing language functionality and Reasoning track independence.

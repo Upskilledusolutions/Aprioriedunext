@@ -303,3 +303,22 @@ The current banks are JavaScript source pools rather than a dedicated human-edit
 This commit defines the schema and authoring contract only. Existing JavaScript banks and calibration/delivery paths remain in place and are not silently switched to an unpopulated canonical bank. The next architectural implementation step is the deterministic Stage-document synchronization layer, followed by drift detection, canonical validation and round-trip tests. This is infrastructure work, not a new curriculum-stage implementation.
 
 The existing Level 1 Stages 1–3 live-production verification gate remains unchanged and is independent of this architecture work. Architecture infrastructure may continue without changing a Stage or switching runtime delivery. No Stage content migration, new stage implementation or canonical runtime cutover should be treated as approval to bypass the existing live-verification gate. This architecture foundation does not mark any Reasoning stage verified or complete.
+
+
+## 2026-09-23 — Stage 1 live verification findings and next implementation scope
+
+The owner quick-checked Level 1 · Stage 1 and reported that the questions and modules appear to function correctly. The required profile-access entry was then added to the authenticated name menu and deployed successfully.
+
+The live Reasoning profile/dashboard check identified two remaining Stage 1 product issues:
+
+- The current Reasoning Dashboard displays incorrect **100%** values for Overall Stage 1, Quantitative and Verbal rather than reflecting actual learner completion state. This requires source-level investigation and correction, not a visual workaround.
+- The dashboard currently presents Quantitative and Verbal track choices but does not expose the approved Reasoning mastery/analytics experience. Analytics are **mandatory from Level 1 · Stage 1** and are not deferred.
+
+Approved navigation refinements for the next implementation:
+
+- Reasoning Skills appears first in the authenticated Courses menu and opens the Reasoning Dashboard with Quantitative/Verbal track selection.
+- The authenticated name-menu label **Profile** becomes **Language Club** while retaining the existing `/Profile` navigation and Foreign Languages features.
+- The authenticated name-menu label **Reasoning Profile** becomes **Reasoning Analytics** and must open the dedicated Reasoning Analytics experience directly, not a Quantitative/Verbal track page.
+- Text underlines are removed from all links/buttons in the authenticated name-menu dropdown only.
+
+Stage 1 remains **UNVERIFIED / NOT ACCEPTED** until the corrected Reasoning analytics/profile experience is deployed and live-verified by the project owner.

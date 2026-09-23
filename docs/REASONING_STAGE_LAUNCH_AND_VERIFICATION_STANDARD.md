@@ -21,6 +21,7 @@ The Reasoning dashboard should provide a comparable level of usefulness to the e
 The dashboard/profile scope includes:
 
 - Reasoning identity and navigation;
+- authenticated Courses-menu access with Reasoning Skills first;
 - Quantitative and Verbal track selection;
 - level and stage progress;
 - Continue Learning / resume;
@@ -126,6 +127,8 @@ Implement only the UI/runtime changes required to expose the Stage completely.
 
 The Reasoning experience must also provide the standalone Reasoning dashboard/profile experience and expose the Reasoning profile entry through the login icon/name, using the shared learner identity without merging Reasoning and Foreign Languages data.
 
+The authenticated Courses menu must place **Reasoning Skills first** and open the Reasoning Dashboard, where Quantitative and Verbal are independently selectable. In the authenticated name menu, **Language Club** retains the existing Foreign Languages `/Profile` route/features, while **Reasoning Analytics** opens the dedicated Reasoning Analytics experience directly. Name-menu links/buttons must have no text underlines.
+
 Mastery and analytics must already be functional for the Stage being launched, beginning with Level 1 · Stage 1. The Stage's verified activity data must feed the cumulative Reasoning profile.
 
 The target pattern is:
@@ -200,7 +203,11 @@ At Stage level, verify:
 Also verify:
 
 - the standalone Reasoning dashboard/profile;
+- Reasoning Skills appears first in the authenticated Courses menu and opens the Reasoning Dashboard;
 - the profile entry reached from the login icon/name;
+- Language Club still opens the existing Foreign Languages profile/navigation;
+- Reasoning Analytics opens only the dedicated Reasoning Analytics experience;
+- authenticated name-menu links/buttons have no text underlines;
 - cumulative Reasoning progress;
 - mastery and analytics generated from the Stage under verification;
 - separation from the Foreign Languages profile/data;
