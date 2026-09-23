@@ -117,14 +117,14 @@ Stage 1 remediation covered Quantitative and Verbal delivery without changing th
 - Current re-audit identified concrete activity/question mapping defects and reset the launch-verification boundary.
 - Stage 1 computational content was then elevated two additional difficulty levels above the prior recalibrated baseline, using a dedicated elevated delivery bank with exactly 10 questions per affected activity and substantive reasoning demand.
 - Learner-facing Grade labels were removed while grade remains internal calibration data.
-- **New re-audit finding:** Verbal Stage 1 delivered questions can still leave the correct option as a conspicuously longest answer. This is a content-quality defect, not a reason to change the underlying architecture.
-- **Completed corrective step:** Stage 1 is included in the Stages 1–3 Verbal answer-quality correction. The corrected implementation is deployed in production. The owner has completed a quick live check; comprehensive Stage 1 verification and acceptance remain pending.
+- **Historical re-audit finding:** Verbal Stage 1 delivered questions previously exposed conspicuous answer-length cues. The corrective work was subsequently deployed and included in the owner-verified Stage 1 acceptance; this history does not reopen Stage 1 unless a new live defect is observed.
+- **Completed corrective step:** Stage 1 is included in the Stages 1–3 Verbal answer-quality correction. The corrected implementation was deployed in production and the owner subsequently completed the required live verification and accepted Stage 1.
 
 ### Stage 1 current state
 
 **Implementation, production deployment, complete owner verification and Stage 1 acceptance completed.**
 
-Stage 1 was deployed in production and the owner has confirmed that the complete live-production verification previously performed should be recorded as completed. Stage 1 is now accepted. No Stage 2 curriculum work begins until the required backend/access/analytics transition sequence is completed.
+Stage 1 was deployed in production and the owner has confirmed that the complete live-production verification previously performed should be recorded as completed. Stage 1 is now accepted. No Stage 2 curriculum work begins until the current backend authorization/persistence verification and Reasoning Analytics transition are completed.
 
 ## Level 1 · Stage 2 — implementation/remediation complete; owner verification pending
 
@@ -237,7 +237,7 @@ These are implementation facts, not substitutes for current owner verification.
 
 ## Remaining curriculum work under the sequential Stage-launch standard
 
-- Restart Level 1 · Stage 1 through the complete migration → exposure → deployment → live verification → acceptance sequence.
+- Complete the current production verification gate for backend Reasoning authorization and durable attempt capture/separation, then expand Reasoning Analytics before the next curriculum-stage implementation.
 - Proceed sequentially through Stage 2 and Stage 3 using the same standard.
 - Perform the focused Stages 1–3 checkpoint after all three are individually accepted.
 - Continue through Level 1 Stages 4–6 and then Levels 2–9 using the same per-Stage process.
