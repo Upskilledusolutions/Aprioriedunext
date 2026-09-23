@@ -185,3 +185,19 @@ The authenticated name/user menu uses a separate entry for each product experien
 The Reasoning Dashboard remains the separate entry point for choosing Quantitative or Verbal learning tracks.
 
 All authenticated name-menu links/buttons must display without text underlines.
+
+## 2026-09-23 — Manual Level access implementation and security gate
+
+The backend foundation for manual Reasoning Level access is now implemented with a dedicated `reasoningAccess` user field containing validated `reasoningL1`–`reasoningL9` identifiers. The existing Admin user editor can manage this field, while Foreign Languages `next` access remains separate.
+
+The implementation is **not yet fully verified as secure authorization** because the current backend has no effective authentication middleware. Before relying on manual Level access for learner release, implement a server-recognized authenticated identity/session/credential and enforce:
+
+- learner read access limited to the authenticated learner's own record;
+- no learner-side modification of Reasoning access;
+- administrator-only access assignment/removal;
+- selective Level assignment with no prerequisite dependency;
+- preservation of all existing Reasoning learning records.
+
+Do not reconstruct or alter historical analytics because of the authorization change.
+
+After authorization verification, implement the durable question-attempt persistence foundation. Only newly collected, supported attempt history may feed the richer cumulative analytics; unsupported historical values must not be fabricated.
