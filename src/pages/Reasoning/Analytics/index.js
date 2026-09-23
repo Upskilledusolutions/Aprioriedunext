@@ -30,6 +30,8 @@ const styles = {
   barTrack: { width: "min(28px,72%)", height: "calc(var(--bar-value) * 1%)", minHeight: 3, borderRadius: "7px 7px 2px 2px", background: "linear-gradient(180deg, var(--bar-top) 0%, var(--bar-bottom) 100%)", boxShadow: "inset 0 1px 0 rgba(255,255,255,.45), 0 5px 10px rgba(11,42,82,.10)" },
   barDateRow: { display: "flex", justifyContent: "space-between", gap: 8, padding: "7px 7px 0", color: "#8492a6", fontSize: 9, fontWeight: 750 },
   barEmpty: { display: "grid", placeItems: "center", flex: 1, minHeight: 118, borderBottom: "1px solid #ccd6e3", color: "#8a97a9", fontSize: 11, textAlign: "center" },
+  barLegend: { display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 6, marginTop: 10, color: "#687890", fontSize: 9, fontWeight: 750 },
+  legendSwatch: { display: "inline-block", width: 8, height: 8, borderRadius: 3, marginRight: 4, verticalAlign: "-1px" },
   intro: { maxWidth: 780, margin: "8px 0 0", color: "var(--muted)", fontSize: 18, lineHeight: 1.7 },
   progressSidebar: {
     flex: "0 1 310px",
@@ -144,51 +146,88 @@ function ReasoningProgressPieChart({ progress }) {
   );
 }
 
-function formatChartDate(value) {
-  const [year, month, day] = value.split("-");
-  return month && day ? `${month}/${day}` : value;
+function activityScorePalette(score) {
+  if (score === null || score === undefined) {
+    return {
+      top: "#d7dee8",
+      bottom: "#edf1f5",
+      background: "repeating-linear-gradient(135deg,#e9eef4 0 5px,#dce4ec 5px 10px)",
+    };
+  }
+  if (score <= 50) return { top: "#8ea6c3", bottom: "#6685aa" };
+  if (score <= 75) return { top: "#5b92ff", bottom: "#2f6bff" };
+  if (score <= 90) return { top: "#ffbe6b", bottom: "#e58b2c" };
+  return { top: "#0b2a52", bottom: "#06366f" };
 }
 
-function AccuracyBarChart({ title, data, topColor, bottomColor }) {
-  const visible = data.slice(-7);
+function formatActivityLabel(title) {
+  const [name, mode] = title.split(": ");
+  return mode ? `${name} · ${mode}` : title;
+}
 
+function ActivityPerformanceBarChart({ title, data }) {
   return (
-    <section style={styles.barPanel} aria-label={`${title} accuracy by recorded date`}>
+    <section style={styles.barPanel} aria-label={`${title} activity performance scores`}>
       <div style={styles.barPanelHeader}>
         <div>
           <h3 style={styles.barPanelTitle}>{title}</h3>
-          <p style={styles.barPanelSubtitle}>Accuracy · latest recorded dates</p>
+          <p style={styles.barPanelSubtitle}>Performance score (%) by activity · Unavailable = no recorded score</p>
         </div>
       </div>
 
-      {visible.length ? (
-        <div style={styles.barPlot}>
-          <div style={styles.barYAxis} aria-hidden="true">
-            <span>100</span>
-            <span>75</span>
-            <span>50</span>
-            <span>25</span>
-            <span>0</span>
-          </div>
-          <div style={styles.barStage}>
-            <div style={styles.barGridArea} role="img" aria-label={`${title} accuracy ranged from ${Math.min(...visible.map((item) => item.accuracy))}% to ${Math.max(...visible.map((item) => item.accuracy))}% across the latest recorded dates.`}>
-              <div style={styles.barItems}>
-                {visible.map((item) => (
-                  <div key={item.date} style={styles.barItem} title={`${formatChartDate(item.date)} · ${item.accuracy}% accuracy · ${item.answered} answered`}>
-                    <span style={styles.barValue}>{item.accuracy}%</span>
-                    <div style={{ ...styles.barTrack, "--bar-value": item.accuracy, "--bar-top": topColor, "--bar-bottom": bottomColor }} />
+      <div style={styles.barPlot}>
+        <div style={styles.barYAxis} aria-hidden="true">
+          <span>100</span>
+          <span>75</span>
+          <span>50</span>
+          <span>25</span>
+          <span>0</span>
+        </div>
+        <div style={styles.barStage}>
+          <div style={styles.barGridArea}>
+            <div style={styles.barItems}>
+              {data.map((item) => {
+                const palette = activityScorePalette(item.score);
+                const hasScore = item.score !== null && item.score !== undefined;
+                const accessibleValue = hasScore ? `${item.score}%` : "Unavailable";
+
+                return (
+                  <div
+                    key={item.id}
+                    style={styles.barItem}
+                    title={`${formatActivityLabel(item.title)} · ${accessibleValue}`}
+                  >
+                    <span style={{ ...styles.barValue, color: hasScore ? "#38506f" : "#8794a6" }}>
+                      {accessibleValue}
+                    </span>
+                    <div
+                      style={{
+                        ...styles.barTrack,
+                        "--bar-value": hasScore ? item.score : 8,
+                        "--bar-top": palette.top,
+                        "--bar-bottom": palette.bottom,
+                        ...(palette.background ? { background: palette.background } : {}),
+                      }}
+                    />
                   </div>
-                ))}
-              </div>
+                );
+              })}
             </div>
-            <div style={styles.barDateRow}>
-              {visible.map((item) => <span key={item.date}>{formatChartDate(item.date)}</span>)}
-            </div>
+          </div>
+          <div style={styles.barDateRow}>
+            {data.map((item) => (
+              <span key={item.id} title={item.title}>{formatActivityLabel(item.title)}</span>
+            ))}
           </div>
         </div>
-      ) : (
-        <div style={styles.barEmpty}>Recorded accuracy will appear after answered {title.toLowerCase()} exercises are saved.</div>
-      )}
+      </div>
+
+      <div style={styles.barLegend} aria-label="Performance score ranges">
+        <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#8ea6c3,#6685aa)" }} />0–50%</span>
+        <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#5b92ff,#2f6bff)" }} />51–75%</span>
+        <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#ffbe6b,#e58b2c)" }} />76–90%</span>
+        <span><i style={{ ...styles.legendSwatch, background: "linear-gradient(180deg,#0b2a52,#06366f)" }} />91–100%</span>
+      </div>
     </section>
   );
 }
@@ -450,8 +489,8 @@ export default function ReasoningAnalytics() {
             <ReasoningProgressPieChart progress={analytics.overall.percent} />
             <div style={styles.heroCopy}>
               <div style={styles.trackBarGrid}>
-                <AccuracyBarChart title="Quantitative" data={attemptAnalytics.quantitativeAccuracyByDate} topColor="#5b92ff" bottomColor="#2f6bff" />
-                <AccuracyBarChart title="Verbal" data={attemptAnalytics.verbalAccuracyByDate} topColor="#ffbe6b" bottomColor="#ef8a2f" />
+                <ActivityPerformanceBarChart title="Quantitative" data={analytics.tracks.quantitative.activityCompletion.items} />
+                <ActivityPerformanceBarChart title="Verbal" data={analytics.tracks.verbal.activityCompletion.items} />
               </div>
             </div>
           </div>
