@@ -65,6 +65,7 @@ const CreateNewForm = ({ URL, refreshData, section, headings, language,  setShow
 
       const response = await fetch(url, {
         method,
+        credentials: "include",
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       });
