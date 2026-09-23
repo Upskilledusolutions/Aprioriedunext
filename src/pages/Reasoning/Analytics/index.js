@@ -12,8 +12,8 @@ const styles = {
   page: { minHeight: "80vh", padding: "48px 20px 80px", background: "var(--surface)" },
   wrapper: { maxWidth: 1180, margin: "0 auto" },
   back: { color: "var(--muted)", textDecoration: "none", fontWeight: 700 },
-  eyebrow: { margin: "28px 0 8px", color: "#2f6bff", fontWeight: 800, letterSpacing: ".08em", textTransform: "uppercase", fontSize: 13 },
-  hero: { display: "grid", gridTemplateColumns: "minmax(270px,310px) minmax(0,1fr)", gap: 24, marginTop: 6, alignItems: "stretch" },
+  pageTitle: { margin: "12px 0 0", color: "#0b2a52", fontSize: "clamp(30px, 4.2vw, 44px)", lineHeight: 1.08, letterSpacing: "-.025em", fontWeight: 850 },
+  hero: { display: "grid", gridTemplateColumns: "minmax(270px,310px) minmax(0,1fr)", gap: 24, marginTop: 24, alignItems: "stretch" },
   heroCopy: { minWidth: 0, padding: "6px 0 2px", display: "flex", flexDirection: "column", height: "100%" },
   trackBarGrid: { display: "grid", gridTemplateColumns: "repeat(2,minmax(0,1fr))", gap: 14, marginTop: 18, flex: 1, minHeight: 0 },
   barPanel: { background: "rgba(255,255,255,.78)", border: "1px solid #dbe4f0", borderRadius: 18, padding: "16px 16px 13px", boxShadow: "0 10px 24px rgba(11,42,82,.07)", display: "flex", flexDirection: "column", minHeight: 220 },
@@ -72,11 +72,11 @@ const styles = {
   progressLegendItem: { display: "flex", alignItems: "center", gap: 8, color: "#506078", fontSize: 12, fontWeight: 700 },
   progressSwatch: { width: 9, height: 9, borderRadius: "50%", flex: "0 0 auto" },
   progressFootnote: { margin: "10px 0 0", color: "#7a879a", fontSize: 11, lineHeight: 1.5 },
-  grid: { display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(210px,1fr))", gap: 14, marginTop: 24 },
+  grid: { display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(210px,1fr))", gap: 14, marginTop: 36 },
   card: { background: "var(--card)", border: "1px solid var(--border)", borderRadius: 16, padding: 20 },
   label: { color: "var(--muted)", fontSize: 13, fontWeight: 700 },
   value: { color: "var(--text)", fontSize: 28, fontWeight: 800, marginTop: 7 },
-  section: { marginTop: 34 },
+  section: { marginTop: 36 },
   sectionTitle: { color: "var(--text)", margin: "0 0 6px", fontSize: 24 },
   sectionText: { color: "var(--muted)", lineHeight: 1.6, margin: "0 0 16px" },
   progress: { height: 9, borderRadius: 99, background: "#e7ecf3", overflow: "hidden", marginTop: 12 },
@@ -444,14 +444,11 @@ export default function ReasoningAnalytics() {
       <main style={styles.page}>
         <div style={styles.wrapper}>
           <Link href="/Reasoning/Dashboard" style={styles.back}>← Back to Reasoning Dashboard</Link>
-          <p style={styles.eyebrow}>Reasoning Analytics · Cumulative learner record</p>
+          <h1 style={styles.pageTitle}>Reasoning Analytics</h1>
 
           <div style={styles.hero}>
             <ReasoningProgressPieChart progress={analytics.overall.percent} />
             <div style={styles.heroCopy}>
-              <p style={styles.intro}>
-                This view combines the existing Reasoning progress record with persisted question-attempt history. Quantitative and Verbal performance remains separate, and only recorded data is used.
-              </p>
               <div style={styles.trackBarGrid}>
                 <AccuracyBarChart title="Quantitative" data={attemptAnalytics.quantitativeAccuracyByDate} topColor="#5b92ff" bottomColor="#2f6bff" />
                 <AccuracyBarChart title="Verbal" data={attemptAnalytics.verbalAccuracyByDate} topColor="#ffbe6b" bottomColor="#ef8a2f" />
