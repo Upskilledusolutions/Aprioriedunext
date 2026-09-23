@@ -6,11 +6,11 @@ Last updated: 2026-09-23
 
 Reasoning is being developed through a focused stage-by-stage audit and remediation process. **Level 1 · Stage 1 has been accepted by the project owner after live verification. Level 1 Stages 2–3 remain UNVERIFIED by the project owner.** A successful build or Ready Vercel deployment does not count as owner verification.
 
-**Current transition:** Level 1 · Stage 1 is accepted. The project is completing the required backend/access/persistence verification gate before Level 1 · Stage 2. The approved per-Stage launch and verification standard remains in force for Stage 2 and all later Stages.
+**Current transition:** Level 1 · Stage 1 is accepted. Backend/access/persistence implementation and live verification have been completed, the current analytics experience has been expanded and owner-checked, and the next step is the approved Reasoning Analytics visual refinement before Level 1 · Stage 2. The per-Stage launch and verification standard remains in force for Stage 2 and all later Stages.
 
 The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is introduced for curriculum remediations.
 
-**Current backend transition:** after Stage 1 acceptance, the external `Upskilledusolutions/Backend` repository was audited. Server-recognized authentication, manual Reasoning Level authorization and durable question-attempt persistence are now implemented and deployed. Backend Reasoning implementation commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is deployed in the live Render deployment chain. Later documentation-only commits may appear as the latest Render deployment without changing this implementation.; frontend commit `e22ccb1bc800f41689fc62a07c52b664783c3cfb` is READY on Vercel. **Live authorization/capture verification remains pending.**
+**Current backend/analytics transition:** server-recognized authentication, manual Reasoning Level authorization and durable question-attempt persistence are implemented and deployed. Live authorization, answered/timed-out capture, learner ownership and Reasoning/Foreign Languages separation have been checked by the project owner. The current Reasoning Analytics experience has been expanded from recorded attempt data and owner-checked as working. The approved visual-refinement pass now precedes Level 1 · Stage 2.
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
 
@@ -51,7 +51,7 @@ The architecture roadmap is now tracked separately from curriculum-stage verific
 
 The project owner has now completed a **quick live check** of the latest Stage 1 production changes. The previously identified authenticated Courses-menu issue has been corrected: the live Courses page now shows **Quantitative Reasoning** and **Verbal Reasoning** at the top, and each card opens its respective track directly. The existing **Reasoning Skills → Reasoning Dashboard** pathway remains unchanged.
 
-The project owner has now explicitly confirmed that the previously completed live-production verification of Stage 1 should be treated as the complete verification record and has accepted Stage 1. Stage 1 is therefore **ACCEPTED**. The project now proceeds to the documented transition sequence: backend inspection/foundation → manual Reasoning Level access → analytics persistence foundation → Level 1 · Stage 2.
+The project owner has now explicitly confirmed that the previously completed live-production verification of Stage 1 should be treated as the complete verification record and has accepted Stage 1. Stage 1 is therefore **ACCEPTED**. The backend authorization/persistence transition and current richer analytics expansion are now implemented, deployed and owner-checked. The next approved step is the Reasoning Analytics visual refinement, followed by Level 1 · Stage 2.
 ## Mandatory quality requirements
 
 ### 1. Full stage audit
@@ -285,9 +285,9 @@ Current state:
 - frontend attempt capture implemented and deployed;
 - learner ownership is derived from the authenticated session;
 - Reasoning/Foreign Languages data stores remain separate;
-- live capture, ownership and separation verification is still pending.
+- live capture, ownership and separation have been checked by the project owner.
 
-After that verification, expand Reasoning Analytics to use only the recorded attempt history for attempt-level history, performance by difficulty, response timing and growth over time. Level 1 · Stage 2 remains blocked until this verification gate is complete.
+Reasoning Analytics has now been expanded to use only recorded attempt history for attempt-level history, performance by difficulty, response timing and growth over time. The owner has confirmed the current analytics results are displaying correctly. Level 1 · Stage 2 remains sequenced after the approved visual-refinement pass.
 
 ## Source-of-Truth Principle
 
@@ -370,3 +370,18 @@ Only after that verification should richer question-level/historical Reasoning A
 ### Architecture note
 
 The human-editable/canonical Question Bank M4 migration remains a separate architecture workstream. It is not a prerequisite for interpreting the already accepted Stage 1 learner verification record and must not be used to reopen completed Stage 1 acceptance without a new observed defect.
+
+
+## 2026-09-23 — Reasoning Analytics visual refinement approved
+
+The current Reasoning Analytics data/features are working and have been owner-checked. Before Level 1 · Stage 2, the analytics interface will receive a focused presentation refinement without changing the underlying data model or analytics calculations.
+
+Required visual direction:
+- prominent **3D-styled overall Reasoning circular progress chart**;
+- dedicated Quantitative and Verbal circular progress charts;
+- appropriate bar and line visualizations for existing analytics dimensions;
+- selective depth, lighting, animation and other restrained 3D effects for premium presentation;
+- a distinctive Reasoning visual identity using navy/blue/orange with grey used sparingly;
+- clearly differentiated from the Foreign Languages Progress Report rather than reproducing its visual design.
+
+The refinement is a presentation-layer enhancement and must preserve data accuracy, performance, accessibility, responsive behavior, existing routes and the cumulative Reasoning analytics model. It is the next implementation step before Level 1 · Stage 2.

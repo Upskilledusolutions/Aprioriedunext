@@ -8,7 +8,7 @@
 
 This document defines the learner-facing Reasoning profile, cumulative progress/analytics requirements and controlled Level access model.
 
-These are required product features, not optional later enhancements.
+These are required product features, not optional later enhancements. The visual presentation is also a first-class product requirement because Reasoning Analytics is a primary product and marketing surface.
 
 ## 2. Standalone Reasoning profile
 
@@ -174,6 +174,21 @@ The richer historical/question-level analytics are scheduled after Stage 1 accep
 
 These extend the same cumulative Reasoning record rather than creating a separate analytics system. The implementation must use recorded data only and must not fabricate unsupported historical values.
 
+### 10A. Reasoning Analytics visual presentation standard
+
+The existing analytics features must be presented as a premium Reasoning-specific analytics experience before Level 1 · Stage 2. This is a **presentation-layer refinement**, not a change to the analytics model.
+
+Required visual elements:
+- prominent 3D-styled **overall Reasoning circular progress chart**;
+- distinct Quantitative and Verbal circular progress charts;
+- bar graphs for applicable comparisons such as Explore/Extend, difficulty, concept/skill and activity performance;
+- line graphs for applicable time-based views such as growth, accuracy and response-time trends;
+- selective 3D depth, layered lighting/shadows, animation and elevated visual treatment without reducing readability or performance;
+- a distinctive navy/blue/orange Reasoning palette with grey used sparingly;
+- visual identity clearly distinct from the Foreign Languages Progress Report.
+
+Charts must remain data-driven, responsive, accessible and consistent with the existing cumulative Reasoning analytics. No decorative visualization may imply data that is not recorded.
+
 
 ## 11. Authenticated navigation labels
 
@@ -202,6 +217,6 @@ The durable question-attempt persistence foundation is also implemented and depl
 
 ### Release verification gate
 
-The implementation is deployed but not yet fully verified through the production learner flow. The owner must verify authorization, administrator access management, durable answered/timed-out capture, correct learner ownership and Reasoning/Foreign Languages separation.
+The authorization/persistence implementation and current analytics expansion have been deployed and owner-checked through the production learner flow. Only recorded, supported data may be used for analytics. Unsupported historical values must not be reconstructed.
 
-Only recorded, supported data may be used for richer analytics. Unsupported historical values must not be reconstructed.
+The next approved implementation step is the visual refinement in Section 10A, followed by Level 1 · Stage 2.
