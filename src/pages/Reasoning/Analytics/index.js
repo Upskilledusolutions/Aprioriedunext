@@ -179,7 +179,7 @@ function TrackPanel({ title, track }) {
       <div style={{ ...styles.progress, marginTop: 2 }}><div style={{ ...styles.fill, width: `${track.percent}%` }} /></div>
       <div style={styles.row}><span>Modules completed</span><strong>{track.completedModules} / {track.totalModules}</strong></div>
       <div style={styles.row}><span>Activities completed</span><strong>{track.activityCompletion.completed} / {track.activityCompletion.total}</strong></div>
-      <div style={styles.row}><span>Questions completed</span><strong>{track.activityCompletion.questionsCompleted}</strong></div>
+      <div style={styles.row}><span>Questions completed</span><strong>{track.activityCompletion.items.filter((item) => item.completed).reduce((sum, item) => sum + item.questionCount, 0)}</strong></div>
       <div style={styles.row}><span>Average completed-activity score</span><strong>{percent(track.activityCompletion.averageScore)}</strong></div>
     </section>
   );
