@@ -100,21 +100,30 @@ export function completeReasoningModule(userId, track, moduleId, score) {
   return next;
 }
 
-export function getTrackCompletedCount(progress, track, totalModules) {
+export function getTrackCompletedCount(progress, track, totalModules, modules = null) {
+  if (Array.isArray(modules) && modules.length) {
+    const completedActivities = progress?.[track]?.completedActivities || {};
+    const completed = modules.filter((module) => {
+      const activityIds = Array.isArray(module?.activityIds) ? module.activityIds : [];
+      return activityIds.length > 0 && activityIds.every((activityId) => completedActivities[activityId] === true);
+    }).length;
+    return Math.min(completed, totalModules);
+  }
+
   const completed = Object.keys(progress?.[track]?.completedModules || {}).filter(
     (moduleId) => progress[track].completedModules[moduleId]
   ).length;
   return Math.min(completed, totalModules);
 }
 
-export function getTrackPercent(progress, track, totalModules) {
+export function getTrackPercent(progress, track, totalModules, modules = null) {
   if (!totalModules) return 0;
-  return Math.round((getTrackCompletedCount(progress, track, totalModules) / totalModules) * 100);
+  return Math.round((getTrackCompletedCount(progress, track, totalModules, modules) / totalModules) * 100);
 }
 
-export function getTotalReasoningCompleted(progress, totalModulesPerTrack) {
-  const quantitative = getTrackCompletedCount(progress, "quantitative", totalModulesPerTrack);
-  const verbal = getTrackCompletedCount(progress, "verbal", totalModulesPerTrack);
+export function getTotalReasoningCompleted(progress, totalModulesPerTrack, modulesByTrack = null) {
+  const quantitative = getTrackCompletedCount(progress, "quantitative", totalModulesPerTrack, modulesByTrack?.quantitative);
+  const verbal = getTrackCompletedCount(progress, "verbal", totalModulesPerTrack, modulesByTrack?.verbal);
   return quantitative + verbal;
 }
 
