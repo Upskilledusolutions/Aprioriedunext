@@ -118,13 +118,13 @@ Stage 1 remediation covered Quantitative and Verbal delivery without changing th
 - Stage 1 computational content was then elevated two additional difficulty levels above the prior recalibrated baseline, using a dedicated elevated delivery bank with exactly 10 questions per affected activity and substantive reasoning demand.
 - Learner-facing Grade labels were removed while grade remains internal calibration data.
 - **New re-audit finding:** Verbal Stage 1 delivered questions can still leave the correct option as a conspicuously longest answer. This is a content-quality defect, not a reason to change the underlying architecture.
-- **Completed corrective step:** Stage 1 is included in the Stages 1–3 Verbal answer-quality correction. Production deployment and owner verification remain pending.
+- **Completed corrective step:** Stage 1 is included in the Stages 1–3 Verbal answer-quality correction. The corrected implementation is deployed in production. The owner has completed a quick live check; comprehensive Stage 1 verification and acceptance remain pending.
 
 ### Stage 1 current state
 
-**Migration/launch sequence pending.**
+**Implementation and production deployment completed; comprehensive owner verification pending.**
 
-Stage 1 is the immediate restart point under the new standard. The full Stage 1 cycle must establish the human-editable source, canonical records, complete Module/Explore/Extend structure, question-quality compliance, learner-facing exposure, deployment and complete production verification before Stage 1 is accepted.
+Stage 1 is the immediate restart point under the new standard. The corrected Stage 1 implementation is deployed in production, and the owner has completed a quick live check, including confirmation of the direct Quantitative/Verbal Courses-page entry path. The full Stage 1 cycle still requires complete production verification against all acceptance criteria before Stage 1 is accepted.
 
 ## Level 1 · Stage 2 — implementation/remediation complete; owner verification pending
 
