@@ -18,7 +18,7 @@ export default function Index() {
       if (!selection.section || !selection.language) return;
       setLoading(true)
       try {
-        const response = await fetch(`${URL}/api/${selection.section}/${selection.language}`);
+        const response = await fetch(`${URL}/api/${selection.section}/${selection.language}`, { credentials: "include" });
         const data = await response.json();
         console.log(data)
         setAllCollections(data);
@@ -45,7 +45,7 @@ export default function Index() {
 
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(`${URL}/api/${selection.section}/${selection.language}/${id}`, {
+      const response = await fetch(`${URL}/api/${selection.section}/${selection.language}/${id}`, {\n        credentials: "include",
         method: 'DELETE',
       });
 
