@@ -979,7 +979,7 @@ export default function ReasoningAnalytics() {
         </div>
       </main>
 
-      <style jsx>{\`
+      <style jsx>{`
         .reasoning-analytics-page {
           min-height: 100vh;
           background:
