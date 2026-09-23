@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useRouter } from "next/router";
+import { STAGE1_MODULES } from "../../../Data/Reasoning/stage1Modules";
 import { getTotalReasoningCompleted, getTrackPercent, readReasoningProgress } from "../../../utils/reasoningProgress";
 
 const tracks = [
@@ -25,9 +26,9 @@ export default function ReasoningDashboard() {
     else setProgress(readReasoningProgress(user.userId));
   }, [isAuthenticated, user, router]);
 
-  const quantitativePercent = getTrackPercent(progress, "quantitative", 5);
-  const verbalPercent = getTrackPercent(progress, "verbal", 5);
-  const completed = getTotalReasoningCompleted(progress, 5);
+  const quantitativePercent = getTrackPercent(progress, "quantitative", 5, STAGE1_MODULES.quantitative);
+  const verbalPercent = getTrackPercent(progress, "verbal", 5, STAGE1_MODULES.verbal);
+  const completed = getTotalReasoningCompleted(progress, 5, STAGE1_MODULES);
   const total = 10;
   const overall = Math.round((completed / total) * 100);
   const continueTrack = quantitativePercent < 100 ? "Quantitative" : "Verbal";
