@@ -13,8 +13,23 @@ const styles = {
   wrapper: { maxWidth: 1180, margin: "0 auto" },
   back: { color: "var(--muted)", textDecoration: "none", fontWeight: 700 },
   eyebrow: { margin: "28px 0 8px", color: "#2f6bff", fontWeight: 800, letterSpacing: ".08em", textTransform: "uppercase", fontSize: 13 },
-  hero: { display: "flex", alignItems: "stretch", flexWrap: "wrap", gap: 24, marginTop: 6 },
-  heroCopy: { flex: "1 1 560px", minWidth: 0, padding: "6px 0 2px" },
+  hero: { display: "grid", gridTemplateColumns: "minmax(0,1fr) minmax(270px,310px)", gap: 24, marginTop: 6, alignItems: "stretch" },
+  heroCopy: { minWidth: 0, padding: "6px 0 2px", display: "flex", flexDirection: "column", height: "100%" },
+  trackBarGrid: { display: "grid", gridTemplateColumns: "repeat(2,minmax(0,1fr))", gap: 14, marginTop: 18, flex: 1, minHeight: 0 },
+  barPanel: { background: "rgba(255,255,255,.78)", border: "1px solid #dbe4f0", borderRadius: 18, padding: "16px 16px 13px", boxShadow: "0 10px 24px rgba(11,42,82,.07)", display: "flex", flexDirection: "column", minHeight: 220 },
+  barPanelHeader: { display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 10 },
+  barPanelTitle: { margin: 0, color: "#0b2a52", fontSize: 15, lineHeight: 1.25, fontWeight: 850 },
+  barPanelSubtitle: { margin: "3px 0 0", color: "#7a879a", fontSize: 10, lineHeight: 1.35 },
+  barPlot: { display: "grid", gridTemplateColumns: "22px minmax(0,1fr)", gap: 9, flex: 1, minHeight: 0, marginTop: 12 },
+  barYAxis: { display: "flex", flexDirection: "column", justifyContent: "space-between", alignItems: "flex-end", paddingBottom: 18, color: "#93a0b2", fontSize: 9, fontWeight: 700 },
+  barStage: { display: "flex", flexDirection: "column", minWidth: 0 },
+  barGridArea: { position: "relative", flex: 1, minHeight: 118, borderBottom: "1px solid #ccd6e3", background: "repeating-linear-gradient(to bottom, rgba(210,220,232,.38) 0, rgba(210,220,232,.38) 1px, transparent 1px, transparent 25%)", borderRadius: "8px 8px 0 0", padding: "10px 7px 0" },
+  barItems: { height: "100%", display: "flex", alignItems: "flex-end", justifyContent: "space-between", gap: 8 },
+  barItem: { flex: "1 1 0", height: "100%", display: "flex", flexDirection: "column", justifyContent: "flex-end", alignItems: "center", minWidth: 0 },
+  barValue: { marginBottom: 5, color: "#38506f", fontSize: 9, fontWeight: 850, lineHeight: 1 },
+  barTrack: { width: "min(28px,72%)", height: "calc(var(--bar-value) * 1%)", minHeight: 3, borderRadius: "7px 7px 2px 2px", background: "linear-gradient(180deg, var(--bar-top) 0%, var(--bar-bottom) 100%)", boxShadow: "inset 0 1px 0 rgba(255,255,255,.45), 0 5px 10px rgba(11,42,82,.10)" },
+  barDateRow: { display: "flex", justifyContent: "space-between", gap: 8, padding: "7px 7px 0", color: "#8492a6", fontSize: 9, fontWeight: 750 },
+  barEmpty: { display: "grid", placeItems: "center", flex: 1, minHeight: 118, borderBottom: "1px solid #ccd6e3", color: "#8a97a9", fontSize: 11, textAlign: "center" },
   intro: { maxWidth: 780, margin: "8px 0 0", color: "var(--muted)", fontSize: 18, lineHeight: 1.7 },
   progressSidebar: {
     flex: "0 1 310px",
@@ -129,6 +144,55 @@ function ReasoningProgressPieChart({ progress }) {
   );
 }
 
+function formatChartDate(value) {
+  const [year, month, day] = value.split("-");
+  return month && day ? `${month}/${day}` : value;
+}
+
+function AccuracyBarChart({ title, data, topColor, bottomColor }) {
+  const visible = data.slice(-7);
+
+  return (
+    <section style={styles.barPanel} aria-label={`${title} accuracy by recorded date`}>
+      <div style={styles.barPanelHeader}>
+        <div>
+          <h3 style={styles.barPanelTitle}>{title}</h3>
+          <p style={styles.barPanelSubtitle}>Accuracy · latest recorded dates</p>
+        </div>
+      </div>
+
+      {visible.length ? (
+        <div style={styles.barPlot}>
+          <div style={styles.barYAxis} aria-hidden="true">
+            <span>100</span>
+            <span>75</span>
+            <span>50</span>
+            <span>25</span>
+            <span>0</span>
+          </div>
+          <div style={styles.barStage}>
+            <div style={styles.barGridArea} role="img" aria-label={`${title} accuracy ranged from ${Math.min(...visible.map((item) => item.accuracy))}% to ${Math.max(...visible.map((item) => item.accuracy))}% across the latest recorded dates.`}>
+              <div style={styles.barItems}>
+                {visible.map((item) => (
+                  <div key={item.date} style={styles.barItem} title={`${formatChartDate(item.date)} · ${item.accuracy}% accuracy · ${item.answered} answered`}>
+                    <span style={styles.barValue}>{item.accuracy}%</span>
+                    <div style={{ ...styles.barTrack, "--bar-value": item.accuracy, "--bar-top": topColor, "--bar-bottom": bottomColor }} />
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div style={styles.barDateRow}>
+              {visible.map((item) => <span key={item.date}>{formatChartDate(item.date)}</span>)}
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div style={styles.barEmpty}>Recorded accuracy will appear after answered {title.toLowerCase()} exercises are saved.</div>
+      )}
+    </section>
+  );
+}
+
 function normalizeAttempt(value) {
   if (!value || typeof value !== "object") return null;
   const status = value.responseStatus === "answered" || value.responseStatus === "expired"
@@ -227,6 +291,30 @@ function getAttemptAnalytics(attempts) {
       averageResponseTime: safeAverage(item.times),
     }));
 
+  const accuracyByDate = (track) => {
+    const trackDates = new Map();
+    attempts.filter((attempt) => attempt.track === track).forEach((attempt) => {
+      if (!attempt.recordedAt) return;
+      const date = new Date(attempt.recordedAt);
+      if (Number.isNaN(date.getTime())) return;
+      const key = date.toISOString().slice(0, 10);
+      const current = trackDates.get(key) || { date: key, answered: 0, correct: 0 };
+      if (attempt.status === "answered" && typeof attempt.isCorrect === "boolean") {
+        current.answered += 1;
+        if (attempt.isCorrect) current.correct += 1;
+      }
+      trackDates.set(key, current);
+    });
+
+    return Array.from(trackDates.values())
+      .filter((item) => item.answered > 0)
+      .sort((a, b) => a.date.localeCompare(b.date))
+      .map((item) => ({
+        ...item,
+        accuracy: Math.round((item.correct / item.answered) * 100),
+      }));
+  };
+
   const conceptRows = byConcept.filter((item) => item.answered >= 2);
   const strengths = [...conceptRows].sort((a, b) => (b.accuracy ?? -1) - (a.accuracy ?? -1) || b.answered - a.answered).slice(0, 3);
   const improvementAreas = [...conceptRows].sort((a, b) => (a.accuracy ?? 101) - (b.accuracy ?? 101) || b.answered - a.answered).slice(0, 3);
@@ -245,6 +333,8 @@ function getAttemptAnalytics(attempts) {
     byActivity,
     byHalf,
     growth,
+    quantitativeAccuracyByDate: accuracyByDate("quantitative"),
+    verbalAccuracyByDate: accuracyByDate("verbal"),
     strengths,
     improvementAreas,
   };
@@ -361,6 +451,10 @@ export default function ReasoningAnalytics() {
               <p style={styles.intro}>
                 This view combines the existing Reasoning progress record with persisted question-attempt history. Quantitative and Verbal performance remains separate, and only recorded data is used.
               </p>
+              <div style={styles.trackBarGrid}>
+                <AccuracyBarChart title="Quantitative" data={attemptAnalytics.quantitativeAccuracyByDate} topColor="#5b92ff" bottomColor="#2f6bff" />
+                <AccuracyBarChart title="Verbal" data={attemptAnalytics.verbalAccuracyByDate} topColor="#ffbe6b" bottomColor="#ef8a2f" />
+              </div>
             </div>
             <ReasoningProgressPieChart progress={analytics.overall.percent} />
           </div>
