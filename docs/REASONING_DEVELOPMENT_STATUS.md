@@ -49,8 +49,9 @@ The architecture roadmap is now tracked separately from curriculum-stage verific
 
 ### Current verification note
 
-The project owner previously performed a **quick functional check of Stage 1**. That quick check remains historical evidence only and does not satisfy the new Stage acceptance gate. The corrected Stage 1 analytics/profile implementation is now deployed for the owner's complete live verification. Stage 1 remains UNVERIFIED until that verification is complete and explicitly accepted. The comprehensive quality check remains deferred until all nine stages are live.
+The project owner has now completed a **quick live check** of the latest Stage 1 production changes. The previously identified authenticated Courses-menu issue has been corrected: the live Courses page now shows **Quantitative Reasoning** and **Verbal Reasoning** at the top, and each card opens its respective track directly. The existing **Reasoning Skills → Reasoning Dashboard** pathway remains unchanged.
 
+This quick check confirms the targeted navigation correction is live, but it does **not** satisfy the complete Stage 1 acceptance gate. Stage 1 remains **UNVERIFIED** pending complete owner verification against the full Stage 1 acceptance criteria. No backend/access or Stage 2 work begins before that acceptance gate is passed.
 ## Mandatory quality requirements
 
 ### 1. Full stage audit
