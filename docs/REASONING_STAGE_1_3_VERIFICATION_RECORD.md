@@ -147,3 +147,18 @@ For each approved corrective deployment:
 7. Proceed to the next approved corrective step only after verification.
 
 This record deliberately does not mark Stages 1–3 as verified.
+
+## 2026-09-23 — Backend transition and authorization boundary
+
+Level 1 · Stage 1 is accepted. The project has transitioned to the approved backend foundation sequence before Level 1 · Stage 2.
+
+The external Backend repository was audited and a dedicated `reasoningAccess` field was implemented with identifiers `reasoningL1`–`reasoningL9`. The Admin user editor was also extended to manage the field.
+
+This record does **not** mark manual Level access as verified. The backend audit identified that the existing authentication middleware is empty and that legacy user-specific requests rely on request-supplied `userId` values. The next required security work is therefore server-side authenticated identity and authorization for Reasoning Level access.
+
+Stage 2 remains blocked until:
+
+1. server-side Reasoning access authorization is implemented and verified;
+2. durable Reasoning question-attempt persistence is implemented and verified.
+
+No Stage 2 curriculum change is included in this transition record.
