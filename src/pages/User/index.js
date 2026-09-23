@@ -9,6 +9,18 @@ export default function Index() {
 
   const cards = [
         {
+          "id": "reasoning-quantitative",
+          "heading": "Quantitative Reasoning",
+          "text": "Build quantitative and mathematical reasoning skills through structured practice.",
+          "link": "/Reasoning/Quantitative"
+        },
+        {
+          "id": "reasoning-verbal",
+          "heading": "Verbal Reasoning",
+          "text": "Build critical reading, verbal reasoning, and analytical skills through structured practice.",
+          "link": "/Reasoning/Verbal"
+        },
+        {
           "id": "1",
           "heading": "Lessons",
           "text": "Structured language lessons covering grammar, vocabulary, and usage.",
@@ -104,7 +116,7 @@ export default function Index() {
               >
                 <div className={styles.cardheading}>{card?.heading}</div>
                 <div className={styles.cardtext}>{card?.text}</div>
-                  <Link href={`/${card?.link}`} className={styles.btn}>
+                  <Link href={card?.link} className={styles.btn}>
                     Start Learning
                   </Link>
               </div>
