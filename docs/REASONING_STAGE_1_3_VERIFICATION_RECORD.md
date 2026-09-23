@@ -1,6 +1,6 @@
 # Reasoning Level 1 Stages 1–3 Verification Record
 
-**Last updated:** 2026-09-22
+**Last updated:** 2026-09-23
 
 ## Purpose
 
@@ -37,7 +37,7 @@ The approved first step — **Verbal answer-quality correction across Stages 1�
 
 ### Historical next action
 
-The 2026-09-21 deployment verification remains historical. The approved current next implementation is the Level 1 · Stage 1 migration/launch cycle defined by the new Stage-launch standard.
+The 2026-09-21 deployment verification remains historical. The current next step is production verification of the already deployed backend authorization/persistence foundations, followed by the approved Reasoning Analytics expansion and only then the next curriculum-stage work.
 
 ## Stage 1 — Foundation
 
@@ -49,7 +49,7 @@ The 2026-09-21 deployment verification remains historical. The approved current 
 - Stage 1 computational and Computation + Reasoning delivery was subsequently elevated two additional difficulty levels above the prior recalibrated baseline.
 - A dedicated elevated delivery bank was used for the affected computation activities, with exactly 10 questions per activity and substantive reasoning demand.
 - Learner-facing Grade labels were removed; grade remains internal calibration/reference data.
-- **Current re-audit finding:** delivered Verbal questions can still leave the correct answer as a conspicuously longest option. This remains a required corrective item before Stage 1 formal verification.
+- **Historical re-audit finding:** delivered Verbal questions previously exposed conspicuous answer-length cues. The corrective work was completed and included in the later owner-verified Stage 1 acceptance. This does not reopen Stage 1 absent a new live defect.
 
 ### Verification required
 
