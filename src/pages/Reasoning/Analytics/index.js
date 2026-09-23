@@ -99,7 +99,7 @@ function ReasoningProgressPieChart({ progress }) {
   return (
     <aside
       style={{ ...styles.progressSidebar, "--progress": safeProgress }}
-      aria-label={`Reasoning Skills progress: ${safeProgress}% complete for Level 1 Stage 1`}
+      aria-label={`Reasoning Skills progress: ${safeProgress}% complete for Level 1 · Stage 1`}
     >
       <p style={styles.progressEyebrow}>Reasoning Skills</p>
       <h2 style={styles.progressHeading}>Overall progress</h2>
