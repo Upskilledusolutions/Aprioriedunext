@@ -34,6 +34,7 @@ export default function ProtectedRoute({ children }) {
       try {
         const response = await fetch(`${URL}/api/check-status`, {
           method: "POST",
+          credentials: "include",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ userId: user.userId }),
         });
