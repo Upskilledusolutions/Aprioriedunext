@@ -86,7 +86,7 @@ The agreed sequence for the richer historical analytics is:
 
 **Stage 1 owner verification → Stage 1 acceptance → backend inspection + durable question-attempt persistence → verify capture and Reasoning/Foreign Languages separation → expand analytics → Stage 2 implementation.**
 
-The system must begin accumulating this detailed history from the point at which the new persistence is activated. Unsupported historical values must not be reconstructed or estimated.
+The system must begin accumulating this detailed history from the point at which the new persistence is activated. Unsupported historical values must not be reconstructed or estimated. The manual Reasoning Level-access implementation and verification must occur before this analytics-persistence work in the agreed transition sequence.
 
 ## 6. Progress report and leaderboard
 
@@ -102,9 +102,10 @@ Reasoning Levels beyond the currently authorized Level are manually unlocked by 
 
 The intended operational pattern is analogous to the existing language administration flow, where access entries identify a particular language level.
 
-For Reasoning, use dedicated access identifiers such as:
+For Reasoning, use dedicated access identifiers for every Level:
 
 ```
+reasoningL1
 reasoningL2
 reasoningL3
 reasoningL4
@@ -117,7 +118,7 @@ reasoningL9
 
 Each identifier corresponds to the matching Reasoning Level.
 
-Level 1 is the initial launch level. Completion of a Level does not automatically grant access to the next Level unless a separate approved rule is introduced. The administrator manually adds/enables the next Level access for the learner.
+Access is **selective, not progressive**. An administrator may directly assign `reasoningL4` without first assigning `reasoningL1`, `reasoningL2` or `reasoningL3`. Completion of one Level does not automatically authorize another Level. Earlier or later access must be granted separately according to the administrator's decision.
 
 The manual access operation must not modify or erase previous Reasoning progress.
 
@@ -153,6 +154,8 @@ Whenever a new Level is manually enabled for a learner, verify:
 - Foreign Languages data remains separate.
 
 The exact backend/admin storage and authorization implementation remains subject to code/backend audit before implementation; these product behaviors are approved requirements and must not be dropped because the current frontend does not yet expose them.
+
+**Implementation order:** after the backend foundation is established, manual Reasoning Level access is implemented and verified first; richer analytics persistence is implemented afterward, before Level 1 · Stage 2 work begins.
 
 ## 10. Analytics expansion after the persistence foundation
 

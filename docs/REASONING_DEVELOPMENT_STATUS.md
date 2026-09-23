@@ -10,7 +10,7 @@ Reasoning is being developed through a focused stage-by-stage audit and remediat
 
 The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is introduced for curriculum remediations.
 
-**Agreed analytics sequencing:** after Level 1 · Stage 1 passes complete owner live verification and is accepted, and before Level 1 · Stage 2 implementation begins, the project will inspect the existing backend and establish durable server-side Reasoning question-attempt persistence needed for the richer historical analytics described below.
+**Agreed backend sequencing:** after Level 1 · Stage 1 passes complete owner live verification and is accepted, the project will inspect the existing backend and establish the required backend foundation. **Immediately after that backend foundation, the first Reasoning-specific backend feature to implement and verify is manual Reasoning Level access** using the approved `reasoningL1`–`reasoningL9` identifiers. The richer question-attempt persistence for advanced analytics follows this access-control step, and Level 1 · Stage 2 implementation begins only after these required backend steps are complete.
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
 
@@ -174,13 +174,15 @@ The owner must verify Stage 3 on the live production website, including the prev
 
 The previous grouped Stages 1–3 gate is superseded.
 
-The current rule is **one Stage at a time**, with the agreed analytics data-foundation gate between Stage 1 acceptance and Stage 2:
+The current rule is **one Stage at a time**, with the agreed backend/access/analytics foundation gates between Stage 1 acceptance and Stage 2:
 
 1. complete the approved Stage migration/launch workflow;
 2. obtain complete owner verification for that Stage;
 3. accept the Stage;
-4. for the transition from Stage 1 to Stage 2, complete the backend analytics persistence foundation and verify data capture/separation;
-5. only then begin Stage 2.
+4. for the transition from Stage 1 to Stage 2, complete the backend inspection/foundation;
+5. immediately implement and verify manual Reasoning Level access using the approved level identifiers, with direct selective assignment supported and no prerequisite dependency between Levels;
+6. complete the durable analytics question-attempt persistence foundation and verify data capture/separation;
+7. only then begin Stage 2.
 
 The immediate sequence starts at Level 1 · Stage 1, then Stage 2, then Stage 3, and continues through later Levels. Historical remediation is preserved and is not repeated unless live verification identifies a specific defect.
 
@@ -246,11 +248,33 @@ These are implementation facts, not substitutes for current owner verification.
 
 ## Later-phase platform work
 
-The following may require later backend/API implementation after the external backend is inspected: durable server-side storage/authorization details, server-side timer configuration, and optional interactive/API learning resources.
+The following may require later backend/API implementation after the external backend is inspected: durable server-side storage/authorization details, server-side timer configuration, and optional interactive/API learning resources. The approved transition order is **backend inspection/foundation → manual Reasoning Level access → analytics persistence foundation**.
 
 **Not deferred:** Reasoning mastery/analytics, cumulative profile reporting, Reasoning leaderboard, Reasoning profile access and manual Level access behavior are approved product requirements beginning with Level 1 · Stage 1. Their exact backend persistence mechanism remains subject to backend inspection.
 
-## Advanced analytics data foundation — scheduled before Stage 2
+## Manual Reasoning Level access — first backend feature after the backend foundation
+
+The approved Reasoning access model is manual and level-specific. Once the existing backend has been inspected and the required backend foundation is established, this is the **first Reasoning-specific backend feature to implement and verify**, before the richer analytics persistence work and before Level 1 · Stage 2 begins.
+
+The approved access identifiers are:
+
+- `reasoningL1`
+- `reasoningL2`
+- `reasoningL3`
+- `reasoningL4`
+- `reasoningL5`
+- `reasoningL6`
+- `reasoningL7`
+- `reasoningL8`
+- `reasoningL9`
+
+Each identifier grants access to its corresponding Reasoning Level. Access is **selective, not progressive**: an administrator may assign `reasoningL4` directly without first assigning `reasoningL1`, `reasoningL2` or `reasoningL3`. Completion of an earlier Level does not automatically grant a later Level, and granting a later Level does not automatically imply access to earlier Levels unless those identifiers are separately assigned.
+
+The implementation must preserve the same learner identity and all previously recorded Reasoning progress. Exact storage and enforcement must be based on the audited external backend/admin flow rather than an invented frontend-only field.
+
+This access-control implementation and its live verification are a prerequisite to the subsequent analytics persistence foundation and Level 1 · Stage 2 implementation.
+
+## Advanced analytics data foundation — scheduled after Level access and before Stage 2
 
 The current Stage 1 Analytics uses supported learner data and must not fabricate missing history. The project owner has agreed to implement the richer analytics data foundation **after Stage 1 passes owner live verification and Stage acceptance, and before Level 1 · Stage 2 implementation begins**.
 

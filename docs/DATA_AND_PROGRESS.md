@@ -118,9 +118,10 @@ Analytics should be usable from Stage 1 and should expand with each later verifi
 
 ## Manual Reasoning Level access
 
-Level 1 is the initial access level. Subsequent Reasoning Levels are manually enabled by an administrator using dedicated identifiers:
+Reasoning Levels are manually enabled by an administrator using dedicated identifiers for every Level:
 
 ```
+reasoningL1
 reasoningL2
 reasoningL3
 reasoningL4
@@ -131,7 +132,9 @@ reasoningL8
 reasoningL9
 ```
 
-Each identifier maps to the corresponding Reasoning Level. Manual access controls availability; it does not reset, replace or migrate previous Reasoning learning records. Completion of one Level does not automatically authorize the next Level unless a separate approved rule is introduced.
+Each identifier maps to the corresponding Reasoning Level. Manual access controls availability; it does not reset, replace or migrate previous Reasoning learning records. **Access is selective, not progressive**: `reasoningL4` may be assigned directly without `reasoningL1`, `reasoningL2` or `reasoningL3`. Completion of one Level does not automatically authorize another Level, and assignment of a later Level does not imply assignment of earlier Levels.
+
+The implementation order is: **backend inspection/foundation → manual Reasoning Level access implementation and verification → richer analytics persistence foundation → Level 1 · Stage 2**.
 
 The exact backend/admin persistence and authorization implementation remains To Be Verified until the external backend and current admin flow are audited.
 

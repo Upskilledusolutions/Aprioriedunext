@@ -35,7 +35,7 @@ Reasoning progress, mastery, analytics, points, streaks, achievements and leader
 
 Mastery and analytics are a required first-release capability for Stage 1. They must expand cumulatively as additional Stages and Levels are verified. They are not a later-phase enhancement.
 
-The specific richer analytics dimensions that require durable question-attempt history are scheduled through a separate backend/data foundation step **after Stage 1 acceptance and before Stage 2 implementation**. This sequencing does not defer the required Stage 1 analytics; it adds the persistence needed to make later question-level and historical analytics reliable.
+The specific richer analytics dimensions that require durable question-attempt history are scheduled through a separate backend/data foundation step **after the backend foundation and manual Reasoning Level-access implementation/verification, and before Stage 2 implementation**. This sequencing does not defer the required Stage 1 analytics; it adds the persistence needed to make later question-level and historical analytics reliable.
 
 ## 3. Stage content model
 
@@ -242,9 +242,9 @@ Work proceeds one Stage at a time.
 
 The immediate restart point is:
 
-**Level 1 · Stage 1 → complete migration and launch verification → Stage 1 acceptance → analytics persistence foundation → Level 1 · Stage 2.**
+**Level 1 · Stage 1 → complete migration and launch verification → Stage 1 acceptance → backend foundation → manual Reasoning Level access → analytics persistence foundation → Level 1 · Stage 2.**
 
-The **analytics persistence foundation** is a separate backend/data task, not a new curriculum Stage. It must inspect the existing backend, establish durable question-attempt storage using only fields the audited backend can support, verify capture and separation from Foreign Languages, and then enable the richer question-level/historical analytics. Stage 2 implementation does not begin until Stage 1 has passed its acceptance gate and this foundation sequence is complete. The same per-Stage rule applies sequentially thereafter.
+The **manual Reasoning Level-access implementation** is the first Reasoning-specific backend feature after the backend foundation. The approved identifiers are `reasoningL1`–`reasoningL9`, and access is selective rather than progressive: any individual level may be assigned directly without prerequisite Level identifiers. The **analytics persistence foundation** is a separate backend/data task afterward. It must establish durable question-attempt storage using only fields the audited backend can support, verify capture and separation from Foreign Languages, and then enable the richer question-level/historical analytics. Stage 2 implementation does not begin until Stage 1 has passed its acceptance gate and both backend sequences are complete.
 
 Completion of a Level is separate from access authorization to the next Level. The next Level is manually enabled using the approved Reasoning Level access identifier (for example, `reasoningL2`, `reasoningL3`) and must retain the same cumulative Reasoning record.
 

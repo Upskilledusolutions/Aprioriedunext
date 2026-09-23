@@ -355,6 +355,7 @@ Level 1 is the initial Reasoning access level. Subsequent Levels are manually en
 Approved identifier pattern:
 
 ```
+reasoningL1
 reasoningL2
 reasoningL3
 reasoningL4
@@ -365,9 +366,11 @@ reasoningL8
 reasoningL9
 ```
 
-Each identifier enables the corresponding Reasoning Level. Completion of the preceding Level does not itself change access; manual authorization remains the control point.
+Each identifier enables the corresponding Reasoning Level. **Access is selective, not progressive:** an administrator may assign `reasoningL4` directly without first assigning `reasoningL1`, `reasoningL2` or `reasoningL3`. Completion of a preceding Level does not itself change access, and assigning a later Level does not automatically grant earlier Levels. Manual authorization remains the control point.
 
 Access authorization is separate from progress data. Enabling a Level must never erase previous Reasoning progress.
+
+**Implementation sequence:** after the backend inspection/foundation, manual Reasoning Level access is the first Reasoning-specific backend feature to implement and verify. The richer analytics persistence foundation follows it and must be completed before Level 1 · Stage 2 implementation.
 
 The exact admin/backend storage and authorization implementation remains To Be Verified until the relevant code/backend is inspected.
 
