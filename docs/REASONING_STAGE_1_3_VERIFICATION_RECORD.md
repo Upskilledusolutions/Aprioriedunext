@@ -16,9 +16,9 @@ A successful GitHub commit, successful build, or Vercel deployment marked Ready 
 
 ## 2026-09-28 — Universal Stage 1 structural blueprint
 
-The accepted **Level 1 · Stage 1** learner-facing experience is now the required one-to-one blueprint for every current and future Reasoning Stage/Level. For each track, every Stage must have **5 Modules, 8 Activities/question sets, 5 Explore, 3 Extend and 10 delivered questions per Activity**, with the same module-page, activity-page and shared-player behavior as Stage 1.
+The accepted **Level 1 · Stage 1** learner-facing experience is now the required one-to-one blueprint for UI, navigation, functionality and features across every current and future Reasoning Stage/Level. For each track, every Stage must have **at least 5 Explore Activities, at least 3 Extend Activities, at least 8 Activities in total and 10 delivered questions per Activity**; Module and Activity counts above these minimums remain Stage-specific.
 
-Current Level 1 structural inventories are reconciled against this rule as follows: S1 = 5 modules / 8 activities / 5 Explore / 3 Extend (**accepted reference**); S2 = 5 / 5 / 3 / 2; S3 = 10 / 10 / 5 / 5; S4 = 5 / 9 / 5 / 4; S5 = 10 / 10 / 5 / 5; S6 = 10 / 10 / 5 / 5. S2–S6 therefore require structural reconciliation before they can be accepted. Existing historical counts remain historical facts and are not to be treated as the current target.
+Current Level 1 structural inventories are reconciled against these minimums as follows: S1 = 5 modules / 8 activities / 5 Explore / 3 Extend (**accepted reference**); S2 = 5 / 5 / 3 / 2 (**below minimum**); S3 = 10 / 10 / 5 / 5 (**meets minimum**); S4 = 5 / 9 / 5 / 4 (**meets minimum**); S5 = 10 / 10 / 5 / 5 (**meets minimum**); S6 = 10 / 10 / 5 / 5 (**meets minimum**). Only S2 fails the current activity-count minimum. Existing historical counts remain valid historical facts and are not to be rewritten solely for documentation; the learner-facing structure and counts must be reconciled only where the applicable minimum or blueprint is not met.
 
 ## 2026-09-18 re-audit findings and approved correction sequence
 
@@ -85,7 +85,7 @@ Verify on production:
 
 ### Current corrective item
 
-The Stage 2 Explore-first → Extend-second dashboard/navigation correction is deployed, but Stage 2 still does not meet the universal Stage 1 structural contract. It must be reconciled to **5 Modules, 8 Activities per track, 5 Explore and 3 Extend**, with exactly 10 delivered questions per Activity, while preserving the Stage 1 module/activity/player presentation and navigation pattern.
+The Stage 2 Explore-first → Extend-second dashboard/navigation correction is deployed, but Stage 2 still falls below the minimum **5 Explore + 3 Extend** activity contract. Add/reconcile the required Extend activity while preserving the existing Stage 2 Module composition, and standardize its dashboard/module/activity/player presentation and navigation to the Stage 1 blueprint.
 
 ### Verification required
 
@@ -124,7 +124,7 @@ The latest Stage 3 deployment is Ready.
 
 ### Current corrective item
 
-Stage 3 must be reconciled to the universal Stage 1 structural contract: **5 Modules, 8 Activities per track, 5 Explore and 3 Extend**, plus Stage 1-equivalent module pages, Explore-first → Extend-second presentation and Previous/Next navigation. The existing 10-module/10-activity-per-track inventory is historical implementation and is not an accepted target.
+Stage 3 already meets the minimum activity-count contract with its existing 10/10 activity inventory and 5 Explore/5 Extend split. Its remaining requirement is Stage 1-equivalent dashboard/module/activity/player presentation, Explore-first → Extend-second presentation and Previous/Next navigation; the existing Stage-specific inventory should be preserved.
 
 ### Verification required
 

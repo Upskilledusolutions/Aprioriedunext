@@ -54,15 +54,15 @@ Reasoning uses nine additive levels:
 - Level 8 — Grade 10
 - Level 9 — Grades 11–12
 
-Each Stage follows the accepted Stage 1 structural blueprint independently for Quantitative and Verbal:
+Each Stage follows the accepted Stage 1 learner-facing UI, navigation, functionality and feature blueprint independently for Quantitative and Verbal.
 
-- 5 Modules;
-- 8 Activities/question sets per track;
-- 5 Explore Activities;
-- 3 Extend Activities;
+Content thresholds:
+- at least 5 Explore Activities;
+- at least 3 Extend Activities;
+- at least 8 Activities/question sets per track in total;
 - 10 delivered questions per Activity.
 
-Explore is presented first and Extend second. Difficulty must increase incrementally within both halves and across the Level. The Extend half should generally be more challenging than Explore, but must remain appropriate to the selected level rather than simply becoming the next grade. This applies independently to Quantitative and Verbal.
+Explore is presented first and Extend second. The number of Modules and any Activities above these minimums may vary by Stage, preserving the approved Stage-specific curriculum. Difficulty must increase incrementally within both halves and across the Level. The Extend half should generally be more challenging than Explore, but must remain appropriate to the selected level rather than simply becoming the next grade. This applies independently to Quantitative and Verbal.
 
 ### Mandatory 2026-09-10 calibration correction
 
@@ -332,4 +332,4 @@ For the next Reasoning Analytics implementation, do not create a placeholder or 
 
 ## Reasoning Stage structural invariant — 2026-09-28
 
-The accepted Level 1 · Stage 1 learner-facing experience is the required structural blueprint for every current and future Reasoning Stage/Level: **per track: 5 Modules → 8 Activities/question sets → 5 Explore + 3 Extend → 10 delivered questions per Activity.** Module-page layout, Explore/Extend presentation, Previous/Next behavior and shared Activity Player behavior must remain aligned with Stage 1. Existing inventories with different counts require explicit reconciliation before deployment/acceptance.
+The accepted Level 1 · Stage 1 learner-facing experience is the required structural blueprint for every current and future Reasoning Stage/Level: **per track: Stage-specific Modules → at least 8 Activities/question sets → at least 5 Explore + at least 3 Extend → 10 delivered questions per Activity.** Module-page layout, Explore/Extend presentation, Previous/Next behavior and shared Activity Player behavior must remain aligned with Stage 1. Existing inventories with different counts require explicit reconciliation before deployment/acceptance.

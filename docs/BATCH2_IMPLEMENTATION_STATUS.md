@@ -23,13 +23,17 @@ The Reasoning learning architecture now covers the complete Level 1 / Grade 3 si
 
 The accepted Level 1 · Stage 1 learner-facing experience is the structural blueprint for all Reasoning stages and future levels. For each track, every Stage must contain **5 Modules, 8 Activities/question sets, 5 Explore, 3 Extend and 10 delivered questions per Activity**, with the same dashboard/module/activity/player presentation and navigation pattern. The Stage 1–6 inventories recorded below are historical implementation status; where their counts differ from this blueprint they require reconciliation before acceptance and must not be described as complete merely because Explore + Extend are present.
 
+## Current structural standard — 2026-09-28
+
+The accepted Level 1 · Stage 1 learner-facing experience is the blueprint for UI, navigation, functionality and features across all Reasoning stages and future levels. For each track, every Stage must contain **at least 5 Explore Activities, at least 3 Extend Activities, at least 8 Activities/question sets in total and 10 delivered questions per Activity**. Module and Activity counts above those minimums remain Stage-specific. The Stage 1–6 inventories recorded below remain historical implementation status and should be preserved where they meet the minimums; only stages below the minimum or not matching the learner-facing blueprint require reconciliation.
+
 ## Current curriculum status
 
 ### Level 1 / Grade 3
 
 - **Stage 1 — Foundation Quantitative & Reasoning / Foundation Verbal & Reasoning:** implemented.
-- **Stage 2 — Advanced Problem Solving / Critical Reading & Argument:** implemented; awaiting final project-owner live verification.
-- **Stage 3 — Mathematical Thinking / Analytical & Scholarly Writing:** curriculum/module structure implemented with full Explore + Extend, but the current `src/Data/Reasoning/questionBankStage3.js` was found empty during code review. Stage 3 interactive question content therefore needs to be restored/populated before it is considered fully interactive.
+- **Stage 2 — Advanced Problem Solving / Critical Reading & Argument:** implemented, but its current 3 Explore / 2 Extend activity split is below the minimum contract. Add/reconcile content to at least 5 Explore and 3 Extend while standardizing the learner-facing experience to the Stage 1 blueprint.
+- **Stage 3 — Mathematical Thinking / Analytical & Scholarly Writing:** historical implementation with 10 activities per track and a 5 Explore / 5 Extend split meets the minimum activity-count contract. Separate question-delivery and learner-facing verification requirements remain.
 - **Stage 4 — Math Olympiad / Essay Competitions:** curriculum, dashboards, module pages and dedicated activity/question layer implemented with full Explore + Extend structure. Follow-up items remain for unique Extend activities, a complete distinct question bank, final-answer scoring robustness, and main track-dashboard links.
 - **Stage 5 — Proof & Advanced Mathematics / Research Skills:** historical implementation exists with full Explore + Extend structure, but its 10-per-track activity inventory does not match the current 8-per-track blueprint. It remains noncompliant pending structural reconciliation and the other documented quality/runtime checks.
 - **Stage 6 — Mathematical Research / Research Writing & Publication:** historical implementation exists with full Explore + Extend structure, but its 10-per-track activity inventory does not match the current 8-per-track blueprint. It remains noncompliant pending structural reconciliation and the other documented quality/runtime checks.

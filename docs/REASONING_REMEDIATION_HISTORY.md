@@ -12,6 +12,12 @@ The accepted **Level 1 · Stage 1** learner-facing experience is now the permane
 
 Counts recorded elsewhere in this historical remediation document describe what was implemented at the time and remain historical facts. They are **not** the current acceptance target. Any Stage/Level inventory that differs from the blueprint requires explicit reconciliation before it may be treated as complete or accepted.
 
+## 2026-09-28 — Structural blueprint clarified as UI/behaviour standard
+
+The accepted **Level 1 · Stage 1** learner-facing experience is the permanent UI/navigation/functionality/feature blueprint for all current and future Reasoning Levels and Stages. Per track, every Stage must contain **at least 5 Explore Activities, at least 3 Extend Activities, at least 8 Activities/question sets in total and 10 delivered questions per Activity**. Module and Activity counts above these minimums remain Stage-specific. Existing Level 1 Stage 4–6 combinations are preserved where they satisfy the thresholds.
+
+Counts recorded elsewhere in this historical remediation document remain historical facts and are not the current target where a later standard has changed.
+
 ## Architecture preserved throughout
 
 - One shared account/authentication model continues to serve Reasoning and Foreign Languages.

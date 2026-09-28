@@ -42,27 +42,28 @@ The specific richer analytics dimensions that require durable question-attempt h
 
 One editable document represents one **Level + Stage** and can contain both Quantitative and Verbal questions.
 
-Every Reasoning Stage uses the **Level 1 · Stage 1 learner-facing blueprint as a structural invariant**.
+Every Reasoning Stage follows the **Level 1 · Stage 1 learner-facing experience as the UI, navigation, functionality and feature blueprint**. The curriculum inventory itself remains stage-specific.
 
-**Per track, per Stage:**
-- exactly **5 Modules**;
-- exactly **8 learner-facing Activities/question sets** in total;
-- exactly **5 Explore Activities**;
-- exactly **3 Extend Activities**;
-- exactly **10 delivered questions per Activity**;
-- therefore **80 delivered questions per track per Stage**, or **160 across both tracks** when both tracks are fully populated.
+**Per track, per Stage — minimum content contract:**
+- at least **5 Explore Activities**;
+- at least **3 Extend Activities**;
+- therefore at least **8 learner-facing Activities/question sets** in total;
+- exactly **10 delivered questions per Activity**.
+
+The number of Modules and the total number of Activities beyond these minimums may vary by Stage and must preserve the approved curriculum for that Stage. Existing Stage 4–6 combinations remain valid where they satisfy the minimums.
 
 Within a Stage:
 
-**Stage → 5 Modules → 8 Activities/question sets per track → 10 questions per Activity**
+**Stage → Modules → Activities/question sets → 10 questions per Activity**
 
-The subject matter, lesson content, difficulty and question wording must progress appropriately for the Level and Stage, but the structural experience must remain one-to-one with the Stage 1 blueprint.
+The subject matter, lesson content, difficulty and question wording must progress appropriately for the Level and Stage. The learner-facing presentation and behaviour must remain aligned one-to-one with the Stage 1 blueprint.
 
-A Module may contain one or multiple Activities/question sets. The exact distribution of the 8 Activities across the 5 Modules may vary by track, provided the Stage-level totals and the learner-facing Stage 1 pattern are preserved. Each question set is represented by a distinct stable **Activity ID**; no additional `setId` layer is required unless a separately approved architecture decision introduces one.
+A Module may contain one or multiple Activities/question sets. Each question set is represented by a distinct stable **Activity ID**; no additional `setId` layer is required unless a separately approved architecture decision introduces one.
 
 Questions retain explicit track, level, stage, half, module and activity mappings.
 
-**Structural gate:** an existing Stage with more or fewer than 5 Modules, more or fewer than 8 Activities per track, or any Explore/Extend count other than 5/3 is **not compliant with the current Stage blueprint** and must be reconciled before learner acceptance. A Stage having both Explore and Extend content is not by itself sufficient.
+**Structural gate:** a Stage is noncompliant when either track has fewer than 5 Explore Activities or fewer than 3 Extend Activities. A Stage having both halves present is not sufficient; the minimum counts and the Stage 1 UI/navigation/functionality blueprint must both be satisfied.
+
 ## 4. Stage launch workflow
 
 Every Stage follows these checkpoints in order.
@@ -201,9 +202,9 @@ For every Activity/question set, verify:
 
 At Stage level, verify:
 
-- exactly 5 Modules are reachable;
-- exactly 8 learner-facing Activities/question sets exist for the track;
-- exactly 5 are Explore and exactly 3 are Extend;
+- the approved Stage-specific Module inventory is reachable;
+- at least 8 learner-facing Activities/question sets exist for the track;
+- at least 5 are Explore and at least 3 are Extend;
 - every intended Module is reachable;
 - Explore is exposed first;
 - Extend is exposed second;
@@ -312,7 +313,7 @@ Do not manually maintain two competing versions of migrated content.
 This standard does not redesign:
 
 - the six-stage curriculum;
-- the fixed Stage 1 structural blueprint of 5 Modules, 8 Activities per track, 5 Explore and 3 Extend;
+- the Stage 1 learner-facing UI, navigation, functionality and feature blueprint; Stage-specific Module and Activity counts may vary, subject to the minimum of 5 Explore and 3 Extend per track;
 - Quantitative/Verbal separation;
 - stable Activity IDs;
 - stable Question IDs;

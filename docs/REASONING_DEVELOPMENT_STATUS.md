@@ -10,7 +10,7 @@ Reasoning is being developed through a focused stage-by-stage audit and remediat
 
 The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is introduced for curriculum remediations.
 
-**Current structural rule:** the accepted Stage 1 learner-facing experience is the permanent blueprint for all current and future Reasoning Levels/Stages: **5 Modules, 8 Activities per track, 5 Explore, 3 Extend, 10 delivered questions per Activity**, with the same Stage 1 module/activity/player presentation and navigation behavior.
+**Current structural rule:** the accepted Stage 1 learner-facing experience is the permanent UI/navigation/functionality/feature blueprint for all current and future Reasoning Levels/Stages. Per track, each Stage must have **at least 5 Explore Activities, at least 3 Extend Activities, at least 8 Activities in total, and 10 delivered questions per Activity**. Module and Activity counts above those minimums remain Stage-specific.
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
 
@@ -18,17 +18,17 @@ The existing single-account authentication model remains shared with Foreign Lan
 
 The owner confirmed that **Level 1 · Stage 1 is the one-to-one learner-facing blueprint for every current and future Stage and Level**. This covers the Stage dashboard, all module pages, all activities/question sets and the shared Activity Player, including structural counts.
 
-| Current inventory | Modules / track | Activities / track | Explore | Extend | Blueprint status |
+| Current inventory | Modules / track | Activities / track | Explore | Extend | Structural status |
 |---|---:|---:|---:|---:|---|
 | L1-S1 | 5 | 8 | 5 | 3 | **Accepted reference** |
-| L1-S2 | 5 | 5 | 3 | 2 | **Needs reconciliation** |
-| L1-S3 | 10 | 10 | 5 | 5 | **Needs reconciliation** |
-| L1-S4 | 5 | 9 | 5 | 4 | **Needs reconciliation** |
-| L1-S5 | 10 | 10 | 5 | 5 | **Needs reconciliation** |
-| L1-S6 | 10 | 10 | 5 | 5 | **Needs reconciliation** |
-| L2-S1 | 6 | 10 (Q) / 8 (V) | 5 | 5 (Q) / 3 (V) | **Needs reconciliation** |
+| L1-S2 | 5 | 5 | 3 | 2 | **Below minimum — reconcile** |
+| L1-S3 | 10 | 10 | 5 | 5 | **Meets minimum** |
+| L1-S4 | 5 | 9 | 5 | 4 | **Meets minimum** |
+| L1-S5 | 10 | 10 | 5 | 5 | **Meets minimum** |
+| L1-S6 | 10 | 10 | 5 | 5 | **Meets minimum** |
+| L2-S1 | 6 | 10 (Q) / 8 (V) | 5 | 5 (Q) / 3 (V) | **Meets minimum; blueprint still governs UI** |
 
-The target is fixed at **5 Modules, 8 Activities per track, 5 Explore, 3 Extend and 10 delivered questions per Activity**. Historical remediation records may retain the counts that existed at the time, but those inventories must not be treated as the current accepted structure. Level 2 work remains paused until the applicable sequence permits reconciliation under this invariant.
+The target is **at least 5 Explore, at least 3 Extend and at least 8 Activities per track, with exactly 10 delivered questions per Activity**. Historical remediation records may retain the counts that existed at the time, but those inventories must be judged against these minimum thresholds plus the Stage 1 learner-facing UI/navigation/functionality/feature blueprint. Existing Stage 4–6 combinations remain preserved. Historical remediation records may retain the counts that existed at the time, but those inventories must not be treated as the current accepted structure. Level 2 work remains paused until the applicable sequence permits reconciliation under this invariant.
 
 ## Superseded Level 1 Stages 1–3 corrective roadmap — historical record
 

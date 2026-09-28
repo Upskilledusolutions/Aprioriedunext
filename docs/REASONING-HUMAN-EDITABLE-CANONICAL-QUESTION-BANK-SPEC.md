@@ -32,7 +32,7 @@ The following remain unchanged unless a separately approved architectural change
 - Reasoning tracks: Quantitative and Verbal.
 - Levels 1–9.
 - Six stages per track.
-- The fixed Stage structure: 5 Modules per track, 8 Activities/question sets per track, with 5 Explore and 3 Extend.
+- The Stage 1 learner-facing UI/navigation/functionality blueprint, with minimum content thresholds of 5 Explore and 3 Extend Activities per track.
 - Existing Module and Activity IDs.
 - Existing activity-to-module relationships.
 - Existing shared activity player.
@@ -140,29 +140,30 @@ A human editor changes question content and approved metadata in this document. 
 
 ## 5A. Modules and multiple question sets
 
-Every Level + Stage document follows the same structural blueprint as the accepted Level 1 · Stage 1 experience.
+Every Level + Stage document follows the **learner-facing Stage 1 blueprint** for layout, navigation, feature set and shared-player behaviour.
 
-For each track, the Stage contains:
-- exactly **5 Modules**;
-- exactly **8 Activities/question sets** in total;
-- exactly **5 Explore Activities**;
-- exactly **3 Extend Activities**;
+For each track, the Stage must contain:
+- at least **5 Explore Activities**;
+- at least **3 Extend Activities**;
+- at least **8 Activities/question sets** in total;
 - exactly **10 delivered questions per Activity**.
+
+The number of Modules and any Activities above these minimums remains Stage-specific and must preserve the approved curriculum inventory. Existing Stage 4–6 combinations are retained where they satisfy these thresholds.
 
 The Activity is the stable runtime unit for a question set:
 
 ```
 Stage
-  → 5 Modules
-    → 8 Activities / Question Sets
+  → Stage-specific Modules
+    → at least 8 Activities / Question Sets
       → 10 delivered questions each
 ```
 
-The exact distribution of the 8 Activities across the 5 Modules may vary by track, but the Stage-level totals and the learner-facing Explore-first → Extend-second pattern must remain consistent with Stage 1.
+The learner-facing order is Explore first → Extend second. Module pages, Previous/Next navigation, completion/progress behaviour and the shared Activity Player should follow the Stage 1 experience one-to-one.
 
 Do not introduce a separate `setId` layer merely to support multiple question sets. Use distinct stable Activity IDs unless a future architectural decision explicitly requires a separate set abstraction.
 
-A Stage migration must preserve this structure in the editable source, canonical records and learner-facing Module presentation. Existing content with different counts is historical/noncompliant inventory and requires explicit reconciliation before acceptance.
+A Stage migration must preserve the approved Stage-specific curriculum inventory while satisfying the minimum activity thresholds and the Stage 1 learner-facing blueprint. Existing content with fewer than 5 Explore or fewer than 3 Extend Activities requires reconciliation before acceptance.
 
 ## 6. Level → Stage → Module → Activity → Question mapping
 
