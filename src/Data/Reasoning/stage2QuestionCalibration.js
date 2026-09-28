@@ -20,6 +20,12 @@ const modeForActivity = {
   "V-L1-S2-EXP-assumptions-and-inference": "textReasoning",
   "V-L1-S2-EXT-comparing-arguments": "textReasoning",
   "V-L1-S2-EXT-evidence-evaluation": "textReasoning",
+  "Q-L1-S2-EXP-checking-solutions": "textReasoning",
+  "Q-L1-S2-EXP-problem-deconstruction": "textReasoning",
+  "Q-L1-S2-EXT-strategy-comparison": "textReasoning",
+  "V-L1-S2-EXP-purpose-and-cohesion": "textReasoning",
+  "V-L1-S2-EXP-claims-reasons-conclusions": "textReasoning",
+  "V-L1-S2-EXT-assumption-testing": "textReasoning",
 };
 
 const normalizeDifficulty = (value) => ({ easy: 1, medium: 2, hard: 3 }[value] || (typeof value === "number" ? value : 1));
