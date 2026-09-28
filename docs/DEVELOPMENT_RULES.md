@@ -54,12 +54,15 @@ Reasoning uses nine additive levels:
 - Level 8 — Grade 10
 - Level 9 — Grades 11–12
 
-Each level is divided into two approximately equal curriculum halves:
+Each Stage follows the accepted Stage 1 structural blueprint independently for Quantitative and Verbal:
 
-- **Explore 50%** — core concepts, ideas and applications for the selected grade.
-- **Extend 50%** — additional concepts, ideas, connections and applications anchored to the same grade.
+- 5 Modules;
+- 8 Activities/question sets per track;
+- 5 Explore Activities;
+- 3 Extend Activities;
+- 10 delivered questions per Activity.
 
-Difficulty must increase incrementally within both halves. The Extend half should generally be more challenging than Explore, but must remain appropriate to the selected level rather than simply becoming the next grade. This applies independently to Quantitative and Verbal.
+Explore is presented first and Extend second. Difficulty must increase incrementally within both halves and across the Level. The Extend half should generally be more challenging than Explore, but must remain appropriate to the selected level rather than simply becoming the next grade. This applies independently to Quantitative and Verbal.
 
 ### Mandatory 2026-09-10 calibration correction
 
@@ -326,3 +329,7 @@ The following are approved learner-facing requirements:
 - Remove text underlines from all links/buttons inside the authenticated name-menu dropdown only; do not change underline behaviour elsewhere in the site.
 
 For the next Reasoning Analytics implementation, do not create a placeholder or redirect-only page. Implement the actual Stage 1 analytics experience and fix the observed incorrect 100% progress state at its source. Preserve existing language functionality and Reasoning track independence.
+
+## Reasoning Stage structural invariant — 2026-09-28
+
+The accepted Level 1 · Stage 1 learner-facing experience is the required structural blueprint for every current and future Reasoning Stage/Level: **per track: 5 Modules → 8 Activities/question sets → 5 Explore + 3 Extend → 10 delivered questions per Activity.** Module-page layout, Explore/Extend presentation, Previous/Next behavior and shared Activity Player behavior must remain aligned with Stage 1. Existing inventories with different counts require explicit reconciliation before deployment/acceptance.

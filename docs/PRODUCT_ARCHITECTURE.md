@@ -134,12 +134,15 @@ The grade-level layer is additive; it does not replace the six-stage roadmap.
 | Level 8 | Grade 10 |
 | Level 9 | Grades 11–12 |
 
-Every level is divided into two approximately equal curriculum halves:
+Every Stage follows the accepted Stage 1 structural blueprint for each track:
 
-- **First 50% — Explore:** concepts, ideas, foundations and applications appropriate to the selected grade.
-- **Second 50% — Extend:** additional concepts, applications, connections and more challenging reasoning, still anchored to the selected grade.
+- **5 Modules** per Stage;
+- **8 Activities/question sets** per track;
+- **5 Explore Activities** presented first;
+- **3 Extend Activities** presented second;
+- **10 delivered questions per Activity**.
 
-Difficulty must increase incrementally **within both halves**. The progression should move from accessible concepts and applications toward increasingly demanding reasoning, abstraction, multi-step thinking and transfer/application. This applies independently to Quantitative and Verbal. The second half should generally be more challenging than the first half, while remaining appropriate to the level rather than simply becoming a next-grade curriculum.
+Across a Level, the Explore/Extend curriculum therefore follows this fixed activity pattern rather than a 50/50 split. Difficulty must increase incrementally **within both halves**. The progression should move from accessible concepts and applications toward increasingly demanding reasoning, abstraction, multi-step thinking and transfer/application. This applies independently to Quantitative and Verbal. The second half should generally be more challenging than the first half, while remaining appropriate to the level rather than simply becoming a next-grade curriculum.
 
 Conceptually:
 
@@ -226,6 +229,23 @@ Every question should support a configurable **time-per-question** value.
 - The timer should measure and display time **per question**, not only as one timer for an entire section.
 
 The architecture should allow future support for section/set-level timing without requiring the current per-question model to be discarded.
+
+## Stage structural blueprint
+
+The accepted **Level 1 · Stage 1** learner-facing experience is the permanent structural reference for all current and future Reasoning Levels and Stages.
+
+The blueprint applies to Quantitative and Verbal independently. Subject matter, lessons, examples and calibrated difficulty evolve by Level/Stage; the learner-facing structure does not.
+
+Every Stage must preserve:
+- 5 Modules;
+- 8 Activities/question sets per track;
+- 5 Explore + 3 Extend Activities;
+- 10 delivered questions per Activity;
+- Explore-first → Extend-second presentation;
+- Stage 1-equivalent module-page structure and Previous/Next behavior;
+- the shared Activity Player behavior and completion/progress flow.
+
+A Stage with different counts is an implementation discrepancy, not a valid alternative curriculum pattern.
 
 ## 8. Product-specific separation
 

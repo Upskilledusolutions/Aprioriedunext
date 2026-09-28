@@ -6,11 +6,17 @@
 
 This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
 
+## 2026-09-28 — Structural blueprint supersedes earlier activity-count designs
+
+The accepted **Level 1 · Stage 1** learner-facing experience is now the permanent structural blueprint for all current and future Reasoning Levels and Stages. Per track, every Stage must contain **5 Modules, 8 Activities/question sets, 5 Explore, 3 Extend and 10 delivered questions per Activity**, using the same dashboard/module/activity/player pattern.
+
+Counts recorded elsewhere in this historical remediation document describe what was implemented at the time and remain historical facts. They are **not** the current acceptance target. Any Stage/Level inventory that differs from the blueprint requires explicit reconciliation before it may be treated as complete or accepted.
+
 ## Architecture preserved throughout
 
 - One shared account/authentication model continues to serve Reasoning and Foreign Languages.
 - Quantitative and Verbal remain independent Reasoning tracks.
-- The six-stage curriculum and 50% Explore / 50% Extend structure are preserved.
+- The six-stage curriculum is preserved; the current structural invariant is 5 Modules, 8 Activities per track, 5 Explore and 3 Extend, based on the accepted Stage 1 blueprint.
 - Reasoning uses dedicated question banks and stable question IDs.
 - The shared activity player remains the common execution layer for timing, scoring, feedback, completion, navigation and progress.
 - Reasoning progress remains separate from Foreign Languages progress.
@@ -155,7 +161,7 @@ The following safeguards are mandatory for all future Reasoning work:
 
 ## Stage 5 — Proof & Advanced Mathematics / Research Skills
 
-- Stage 5 retained the existing 20 activity groups and four-question structure: 10 Quantitative and 10 Verbal, split evenly between Explore and Extend.
+- **Historical Stage 5 inventory:** 20 activity groups and four-question source structure existed at that time: 10 Quantitative and 10 Verbal, split evenly between Explore and Extend. This historical inventory is superseded by the current Stage 1 blueprint and requires structural reconciliation before acceptance.
 - The Stage 5 question bank was remediated while preserving the existing activity IDs and generated question IDs: commit `f85f844b103f83258a26eb997c84c8222bc26924`.
 - A separate Stage 5 question-bank build error was corrected: commit `1c5d5877eeea9d61d31fc8b8f2700750c87543a4`.
 - Each activity follows Core → Core → Stretch → Advanced progression.
@@ -167,8 +173,9 @@ The following safeguards are mandatory for all future Reasoning work:
 
 ## Stage 6 — Mathematical Research / Research Writing & Publication
 
-- Stage 6 retains 20 activities: 10 Quantitative and 10 Verbal, with 50% Explore and 50% Extend.
-- The Stage 6 question bank contains four questions per activity, giving 80 questions across the stage.
+- **Historical Stage 6 inventory:** 20 activities: 10 Quantitative and 10 Verbal, with 50% Explore and 50% Extend at the time of implementation.
+- The Stage 6 question bank historically contained four questions per activity, giving 80 questions across the stage.
+- This inventory is superseded by the current Stage 1 blueprint and requires structural reconciliation before acceptance.
 - Stage 6 content covers mathematical inquiry, conjecture, modelling, proof, independent investigation, research design, literature search and synthesis, scholarly analysis, research writing and publication readiness.
 - Correct-answer positions were rotated deterministically across the four-question activities to prevent systematic answer-position bias.
 - Each activity follows Core → Core → Stretch → Advanced progression.

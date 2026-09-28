@@ -154,12 +154,15 @@ Reasoning uses nine grade levels:
 | 8 | Grade 10 |
 | 9 | Grades 11–12 |
 
-Each level uses the same six-stage roadmap for its selected track and is divided into two approximately equal curriculum halves:
+Each Stage in every Level uses the accepted Stage 1 structural blueprint independently for Quantitative and Verbal:
 
-- **Explore 50%** — core concepts, ideas, foundations and applications for the level.
-- **Extend 50%** — additional concepts, applications, connections and more challenging reasoning for the same level.
+- **5 Modules** per Stage;
+- **8 Activities/question sets** per track;
+- **5 Explore Activities**;
+- **3 Extend Activities**;
+- **10 delivered questions per Activity**.
 
-Difficulty increases incrementally within both halves and across the level. Extend is generally more demanding than Explore but remains anchored to the selected grade rather than simply becoming the next grade. The same principle applies independently to Quantitative and Verbal.
+Explore is presented first and Extend second. Difficulty increases incrementally within both halves and across the Level; Extend is generally more demanding than Explore while remaining anchored to the selected Level. Extend is generally more demanding than Explore but remains anchored to the selected grade rather than simply becoming the next grade. The same principle applies independently to Quantitative and Verbal.
 
 ## Reasoning Question Bank
 

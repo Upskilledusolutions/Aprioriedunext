@@ -1,6 +1,6 @@
 # Reasoning Level 1 Stages 1–3 Verification Record
 
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-28
 
 ## Purpose
 
@@ -13,6 +13,12 @@ This record is the current verification boundary for Level 1 Stages 1–3. It su
 Implementation and remediation work has been completed to the current build boundary. Stage 1 is accepted; Stages 2–3 may not be recorded as fully complete until the project owner verifies them on the live production website.
 
 A successful GitHub commit, successful build, or Vercel deployment marked Ready proves build/deployment success only. It does not prove that every learner-facing activity is present, usable, correctly mapped, correctly calibrated, or free of runtime defects.
+
+## 2026-09-28 — Universal Stage 1 structural blueprint
+
+The accepted **Level 1 · Stage 1** learner-facing experience is now the required one-to-one blueprint for every current and future Reasoning Stage/Level. For each track, every Stage must have **5 Modules, 8 Activities/question sets, 5 Explore, 3 Extend and 10 delivered questions per Activity**, with the same module-page, activity-page and shared-player behavior as Stage 1.
+
+Current Level 1 structural inventories are reconciled against this rule as follows: S1 = 5 modules / 8 activities / 5 Explore / 3 Extend (**accepted reference**); S2 = 5 / 5 / 3 / 2; S3 = 10 / 10 / 5 / 5; S4 = 5 / 9 / 5 / 4; S5 = 10 / 10 / 5 / 5; S6 = 10 / 10 / 5 / 5. S2–S6 therefore require structural reconciliation before they can be accepted. Existing historical counts remain historical facts and are not to be treated as the current target.
 
 ## 2026-09-18 re-audit findings and approved correction sequence
 
@@ -79,7 +85,7 @@ Verify on production:
 
 ### Current corrective item
 
-The Stage 2 dashboard must be changed to present the existing Explore and Extend content as separate **Explore first → Extend** sections, matching the Stage 1 learner-facing pattern. Existing module/activity data, IDs, player behavior, progress and the already-added Previous/Next navigation remain unchanged.
+The Stage 2 Explore-first → Extend-second dashboard/navigation correction is deployed, but Stage 2 still does not meet the universal Stage 1 structural contract. It must be reconciled to **5 Modules, 8 Activities per track, 5 Explore and 3 Extend**, with exactly 10 delivered questions per Activity, while preserving the Stage 1 module/activity/player presentation and navigation pattern.
 
 ### Verification required
 
@@ -118,7 +124,7 @@ The latest Stage 3 deployment is Ready.
 
 ### Current corrective item
 
-Stage 3 must expose the existing Explore and Extend curriculum correctly instead of treating the modules as Explore-only, and the individual module pages must gain Previous/Next module navigation. Question content is unchanged by this presentation fix unless the separate Verbal answer-quality audit identifies a specific content defect.
+Stage 3 must be reconciled to the universal Stage 1 structural contract: **5 Modules, 8 Activities per track, 5 Explore and 3 Extend**, plus Stage 1-equivalent module pages, Explore-first → Extend-second presentation and Previous/Next navigation. The existing 10-module/10-activity-per-track inventory is historical implementation and is not an accepted target.
 
 ### Verification required
 

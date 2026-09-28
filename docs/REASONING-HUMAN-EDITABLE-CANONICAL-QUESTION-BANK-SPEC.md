@@ -32,7 +32,7 @@ The following remain unchanged unless a separately approved architectural change
 - Reasoning tracks: Quantitative and Verbal.
 - Levels 1–9.
 - Six stages per track.
-- Explore / Extend halves.
+- The fixed Stage structure: 5 Modules per track, 8 Activities/question sets per track, with 5 Explore and 3 Extend.
 - Existing Module and Activity IDs.
 - Existing activity-to-module relationships.
 - Existing shared activity player.
@@ -140,20 +140,29 @@ A human editor changes question content and approved metadata in this document. 
 
 ## 5A. Modules and multiple question sets
 
-One Level + Stage editable document may contain any number of Modules for either track. A Module may contain **one or multiple Activities/question sets**.
+Every Level + Stage document follows the same structural blueprint as the accepted Level 1 · Stage 1 experience.
+
+For each track, the Stage contains:
+- exactly **5 Modules**;
+- exactly **8 Activities/question sets** in total;
+- exactly **5 Explore Activities**;
+- exactly **3 Extend Activities**;
+- exactly **10 delivered questions per Activity**.
 
 The Activity is the stable runtime unit for a question set:
 
 ```
 Stage
-  → Module
-    → Activity / Question Set
-      → 10 delivered questions
+  → 5 Modules
+    → 8 Activities / Question Sets
+      → 10 delivered questions each
 ```
+
+The exact distribution of the 8 Activities across the 5 Modules may vary by track, but the Stage-level totals and the learner-facing Explore-first → Extend-second pattern must remain consistent with Stage 1.
 
 Do not introduce a separate `setId` layer merely to support multiple question sets. Use distinct stable Activity IDs unless a future architectural decision explicitly requires a separate set abstraction.
 
-A Stage migration must preserve this structure in the editable source, canonical records and learner-facing Module presentation.
+A Stage migration must preserve this structure in the editable source, canonical records and learner-facing Module presentation. Existing content with different counts is historical/noncompliant inventory and requires explicit reconciliation before acceptance.
 
 ## 6. Level → Stage → Module → Activity → Question mapping
 

@@ -19,6 +19,10 @@ The Reasoning learning architecture now covers the complete Level 1 / Grade 3 si
 - Reasoning progress separate from Foreign Languages.
 - Existing shared authentication retained for Reasoning learning routes.
 
+## Current structural standard — 2026-09-28
+
+The accepted Level 1 · Stage 1 learner-facing experience is the structural blueprint for all Reasoning stages and future levels. For each track, every Stage must contain **5 Modules, 8 Activities/question sets, 5 Explore, 3 Extend and 10 delivered questions per Activity**, with the same dashboard/module/activity/player presentation and navigation pattern. The Stage 1–6 inventories recorded below are historical implementation status; where their counts differ from this blueprint they require reconciliation before acceptance and must not be described as complete merely because Explore + Extend are present.
+
 ## Current curriculum status
 
 ### Level 1 / Grade 3
@@ -27,8 +31,8 @@ The Reasoning learning architecture now covers the complete Level 1 / Grade 3 si
 - **Stage 2 — Advanced Problem Solving / Critical Reading & Argument:** implemented; awaiting final project-owner live verification.
 - **Stage 3 — Mathematical Thinking / Analytical & Scholarly Writing:** curriculum/module structure implemented with full Explore + Extend, but the current `src/Data/Reasoning/questionBankStage3.js` was found empty during code review. Stage 3 interactive question content therefore needs to be restored/populated before it is considered fully interactive.
 - **Stage 4 — Math Olympiad / Essay Competitions:** curriculum, dashboards, module pages and dedicated activity/question layer implemented with full Explore + Extend structure. Follow-up items remain for unique Extend activities, a complete distinct question bank, final-answer scoring robustness, and main track-dashboard links.
-- **Stage 5 — Proof & Advanced Mathematics / Research Skills:** curriculum, dashboards, module pages, activities and question bank implemented with full Explore + Extend structure. Current question variants are functional but repetitive and should receive stronger distinct content later. Final-question scoring and final-question timeout handling also need robustness fixes.
-- **Stage 6 — Mathematical Research / Research Writing & Publication:** curriculum, dashboards, module pages, activities and question bank implemented with full Explore + Extend structure. Current question variants are functional but repetitive and should receive stronger distinct content later. Final-question scoring and final-question timeout handling also need robustness fixes.
+- **Stage 5 — Proof & Advanced Mathematics / Research Skills:** historical implementation exists with full Explore + Extend structure, but its 10-per-track activity inventory does not match the current 8-per-track blueprint. It remains noncompliant pending structural reconciliation and the other documented quality/runtime checks.
+- **Stage 6 — Mathematical Research / Research Writing & Publication:** historical implementation exists with full Explore + Extend structure, but its 10-per-track activity inventory does not match the current 8-per-track blueprint. It remains noncompliant pending structural reconciliation and the other documented quality/runtime checks.
 
 ## Deployment status / resume point
 

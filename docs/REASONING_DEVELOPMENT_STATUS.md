@@ -1,18 +1,34 @@
 # Reasoning Development Status
 
-Last updated: 2026-09-23
+Last updated: 2026-09-28
 
 ## Current status
 
 Reasoning is being developed through a focused stage-by-stage audit and remediation process. **Level 1 · Stage 1 has been accepted by the project owner after live verification. Level 1 Stages 2–3 remain UNVERIFIED by the project owner.** A successful build or Ready Vercel deployment does not count as owner verification.
 
-**Current transition:** Level 1 · Stage 1 is accepted. Backend/access/persistence implementation and live verification have been completed, the current analytics experience has been expanded and owner-checked, and the next step is the approved Reasoning Analytics visual refinement before Level 1 · Stage 2. The per-Stage launch and verification standard remains in force for Stage 2 and all later Stages.
+**Current transition:** Level 1 · Stage 1 is accepted. Backend/access/persistence implementation and live verification have been completed, and the current Reasoning Analytics experience has been expanded and owner-checked. Level 1 · Stage 2 presentation/navigation has also been corrected and its related deployments are green. The next gate is structural reconciliation of Stage 2 against the accepted Stage 1 blueprint before Stage 2 owner verification and any later Stage work.
 
 The existing single-account authentication model remains shared with Foreign Languages, while Reasoning progress remains separately namespaced by track. No architecture redesign is introduced for curriculum remediations.
 
-**Current backend/analytics transition:** server-recognized authentication, manual Reasoning Level authorization and durable question-attempt persistence are implemented and deployed. Live authorization, answered/timed-out capture, learner ownership and Reasoning/Foreign Languages separation have been checked by the project owner. The current Reasoning Analytics experience has been expanded from recorded attempt data and owner-checked as working. The approved visual-refinement pass now precedes Level 1 · Stage 2.
+**Current structural rule:** the accepted Stage 1 learner-facing experience is the permanent blueprint for all current and future Reasoning Levels/Stages: **5 Modules, 8 Activities per track, 5 Explore, 3 Extend, 10 delivered questions per Activity**, with the same Stage 1 module/activity/player presentation and navigation behavior.
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
+
+### 2026-09-28 — Stage 1 blueprint established as universal structural invariant
+
+The owner confirmed that **Level 1 · Stage 1 is the one-to-one learner-facing blueprint for every current and future Stage and Level**. This covers the Stage dashboard, all module pages, all activities/question sets and the shared Activity Player, including structural counts.
+
+| Current inventory | Modules / track | Activities / track | Explore | Extend | Blueprint status |
+|---|---:|---:|---:|---:|---|
+| L1-S1 | 5 | 8 | 5 | 3 | **Accepted reference** |
+| L1-S2 | 5 | 5 | 3 | 2 | **Needs reconciliation** |
+| L1-S3 | 10 | 10 | 5 | 5 | **Needs reconciliation** |
+| L1-S4 | 5 | 9 | 5 | 4 | **Needs reconciliation** |
+| L1-S5 | 10 | 10 | 5 | 5 | **Needs reconciliation** |
+| L1-S6 | 10 | 10 | 5 | 5 | **Needs reconciliation** |
+| L2-S1 | 6 | 10 (Q) / 8 (V) | 5 | 5 (Q) / 3 (V) | **Needs reconciliation** |
+
+The target is fixed at **5 Modules, 8 Activities per track, 5 Explore, 3 Extend and 10 delivered questions per Activity**. Historical remediation records may retain the counts that existed at the time, but those inventories must not be treated as the current accepted structure. Level 2 work remains paused until the applicable sequence permits reconciliation under this invariant.
 
 ## Superseded Level 1 Stages 1–3 corrective roadmap — historical record
 

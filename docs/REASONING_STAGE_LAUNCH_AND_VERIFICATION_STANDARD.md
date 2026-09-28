@@ -2,6 +2,7 @@
 
 **Status:** Approved operational source-of-truth standard  
 **Approved:** 2026-09-22  
+**Last updated:** 2026-09-28  
 **Applies to:** Reasoning Levels 1–9, Stages 1–6, Quantitative and Verbal
 
 ## 1. Purpose
@@ -41,25 +42,27 @@ The specific richer analytics dimensions that require durable question-attempt h
 
 One editable document represents one **Level + Stage** and can contain both Quantitative and Verbal questions.
 
+Every Reasoning Stage uses the **Level 1 · Stage 1 learner-facing blueprint as a structural invariant**.
+
+**Per track, per Stage:**
+- exactly **5 Modules**;
+- exactly **8 learner-facing Activities/question sets** in total;
+- exactly **5 Explore Activities**;
+- exactly **3 Extend Activities**;
+- exactly **10 delivered questions per Activity**;
+- therefore **80 delivered questions per track per Stage**, or **160 across both tracks** when both tracks are fully populated.
+
 Within a Stage:
 
-**Stage → Module → one or more Activities/question sets → 10 questions per Activity**
+**Stage → 5 Modules → 8 Activities/question sets per track → 10 questions per Activity**
 
-A Module may contain one question set or multiple question sets. Each question set is represented by a distinct stable **Activity ID**; no additional `setId` layer is required unless a separately approved architecture decision introduces one.
+The subject matter, lesson content, difficulty and question wording must progress appropriately for the Level and Stage, but the structural experience must remain one-to-one with the Stage 1 blueprint.
 
-Example:
-
-```
-Level 1 · Stage 1
-└── Module 3
-    ├── Activity 1 → 10 questions
-    ├── Activity 2 → 10 questions
-    ├── Activity 3 → 10 questions
-    └── Activity 4 → 10 questions
-```
+A Module may contain one or multiple Activities/question sets. The exact distribution of the 8 Activities across the 5 Modules may vary by track, provided the Stage-level totals and the learner-facing Stage 1 pattern are preserved. Each question set is represented by a distinct stable **Activity ID**; no additional `setId` layer is required unless a separately approved architecture decision introduces one.
 
 Questions retain explicit track, level, stage, half, module and activity mappings.
 
+**Structural gate:** an existing Stage with more or fewer than 5 Modules, more or fewer than 8 Activities per track, or any Explore/Extend count other than 5/3 is **not compliant with the current Stage blueprint** and must be reconciled before learner acceptance. A Stage having both Explore and Extend content is not by itself sufficient.
 ## 4. Stage launch workflow
 
 Every Stage follows these checkpoints in order.
@@ -97,8 +100,11 @@ Canonical records are generated output and must not be manually edited.
 
 Before deployment, compare the content records with the actual learner-facing curriculum structure.
 
-For every Module, confirm:
+For every Module and Stage, confirm:
 
+- exactly 5 Modules exist for the track;
+- exactly 8 learner-facing Activities/question sets exist for the track;
+- exactly 5 are Explore and exactly 3 are Extend;
 - all intended Explore activities exist;
 - all intended Extend activities exist;
 - each Activity ID resolves correctly;
@@ -195,9 +201,12 @@ For every Activity/question set, verify:
 
 At Stage level, verify:
 
+- exactly 5 Modules are reachable;
+- exactly 8 learner-facing Activities/question sets exist for the track;
+- exactly 5 are Explore and exactly 3 are Extend;
 - every intended Module is reachable;
-- Explore is exposed correctly;
-- Extend is exposed correctly;
+- Explore is exposed first;
+- Extend is exposed second;
 - module Previous/Next navigation works;
 - no intended Activity is missing;
 - no unintended duplicate Activity is presented.
@@ -303,6 +312,7 @@ Do not manually maintain two competing versions of migrated content.
 This standard does not redesign:
 
 - the six-stage curriculum;
+- the fixed Stage 1 structural blueprint of 5 Modules, 8 Activities per track, 5 Explore and 3 Extend;
 - Quantitative/Verbal separation;
 - stable Activity IDs;
 - stable Question IDs;
