@@ -14,9 +14,17 @@ The existing single-account authentication model remains shared with Foreign Lan
 
 **Learner-facing rule:** Reasoning displays Level and Stage labels only (for example, **Level 1 · Stage 1**). School-grade names are documentation-only reference data and must not be displayed to learners.
 
-### 2026-09-28 — Stage 1 blueprint established as universal structural invariant
+### 2026-09-28 — Stage 1 blueprint clarified as universal learner-facing standard
 
-The owner confirmed that **Level 1 · Stage 1 is the one-to-one learner-facing blueprint for every current and future Stage and Level**. This covers the Stage dashboard, all module pages, all activities/question sets and the shared Activity Player, including structural counts.
+The owner confirmed that **Level 1 · Stage 1 is the one-to-one learner-facing blueprint for UI, navigation, functionality and features across every current and future Reasoning Stage and Level**.
+
+The content contract is threshold-based, not identical-count based. For each track and Stage:
+- at least **5 Explore Activities**;
+- at least **3 Extend Activities**;
+- at least **8 Activities/question sets** in total;
+- exactly **10 delivered questions per Activity**.
+
+The number of Modules and any Activities above these minimums remain Stage-specific. Existing Level 1 Stage 4–6 combinations are preserved because they satisfy the thresholds. A Stage below the minimums or not aligned to the Stage 1 learner-facing blueprint requires reconciliation before acceptance.
 
 | Current inventory | Modules / track | Activities / track | Explore | Extend | Structural status |
 |---|---:|---:|---:|---:|---|
@@ -27,8 +35,6 @@ The owner confirmed that **Level 1 · Stage 1 is the one-to-one learner-facing b
 | L1-S5 | 10 | 10 | 5 | 5 | **Meets minimum** |
 | L1-S6 | 10 | 10 | 5 | 5 | **Meets minimum** |
 | L2-S1 | 6 | 10 (Q) / 8 (V) | 5 | 5 (Q) / 3 (V) | **Meets minimum; blueprint still governs UI** |
-
-The target is **at least 5 Explore, at least 3 Extend and at least 8 Activities per track, with exactly 10 delivered questions per Activity**. Historical remediation records may retain the counts that existed at the time, but those inventories must be judged against these minimum thresholds plus the Stage 1 learner-facing UI/navigation/functionality/feature blueprint. Existing Stage 4–6 combinations remain preserved. Historical remediation records may retain the counts that existed at the time, but those inventories must not be treated as the current accepted structure. Level 2 work remains paused until the applicable sequence permits reconciliation under this invariant.
 
 ## Superseded Level 1 Stages 1–3 corrective roadmap — historical record
 

@@ -15,11 +15,11 @@ For non-migrated content, preserve the existing JavaScript source pool until tha
 
 Each editable Stage document represents one Level + Stage and may contain both Quantitative and Verbal questions. Every question retains an explicit `track`, `half`, `moduleId` and `activityId` mapping.
 
-For each track, the Stage must contain exactly **5 Modules**, **8 Activities/question sets**, **5 Explore** and **3 Extend**, with **10 delivered questions per Activity**. The Stage 1 learner-facing UI and navigation pattern is the structural blueprint for every current and future Stage/Level.
+Every Stage must use the Stage 1 learner-facing UI, navigation, functionality and feature set as the blueprint. For each track, the Stage must contain at least **5 Explore**, at least **3 Extend**, at least **8 Activities/question sets** in total, and **10 delivered questions per Activity**.
 
-A Module may contain one or multiple Activities/question sets. The exact module-to-activity distribution may vary, but Stage-level totals must remain fixed. Each distinct question set is represented by a stable Activity ID. Do not add a separate `setId` layer unless explicitly approved.
+The number of Modules and any Activities above these minimums may remain Stage-specific. Preserve approved existing combinations, including the current Stage 4–6 combinations where they satisfy the thresholds. Each distinct question set is represented by a stable Activity ID. Do not add a separate `setId` layer unless explicitly approved.
 
-Existing Stages that do not meet these counts must be reconciled before deployment/acceptance; Explore + Extend presence alone does not satisfy the structural gate.
+A Stage with fewer than 5 Explore or fewer than 3 Extend Activities requires reconciliation before deployment/acceptance.
 
 ## 3. Question lifecycle
 

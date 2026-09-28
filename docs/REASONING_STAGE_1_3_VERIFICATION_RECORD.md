@@ -14,7 +14,7 @@ Implementation and remediation work has been completed to the current build boun
 
 A successful GitHub commit, successful build, or Vercel deployment marked Ready proves build/deployment success only. It does not prove that every learner-facing activity is present, usable, correctly mapped, correctly calibrated, or free of runtime defects.
 
-## 2026-09-28 — Universal Stage 1 structural blueprint
+## 2026-09-28 — Stage 1 blueprint clarified as universal learner-facing standard
 
 The accepted **Level 1 · Stage 1** learner-facing experience is now the required one-to-one blueprint for UI, navigation, functionality and features across every current and future Reasoning Stage/Level. For each track, every Stage must have **at least 5 Explore Activities, at least 3 Extend Activities, at least 8 Activities in total and 10 delivered questions per Activity**; Module and Activity counts above these minimums remain Stage-specific.
 

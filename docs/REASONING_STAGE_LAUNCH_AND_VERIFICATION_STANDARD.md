@@ -103,7 +103,7 @@ Before deployment, compare the content records with the actual learner-facing cu
 
 For every Module and Stage, confirm:
 
-- exactly 5 Modules exist for the track;
+- the approved Stage-specific Module inventory is intact;
 - exactly 8 learner-facing Activities/question sets exist for the track;
 - exactly 5 are Explore and exactly 3 are Extend;
 - all intended Explore activities exist;
@@ -313,7 +313,7 @@ Do not manually maintain two competing versions of migrated content.
 This standard does not redesign:
 
 - the six-stage curriculum;
-- the Stage 1 learner-facing UI, navigation, functionality and feature blueprint; Stage-specific Module and Activity counts may vary, subject to the minimum of 5 Explore and 3 Extend per track;
+- the Stage 1 learner-facing UI, navigation, functionality and feature blueprint; Stage-specific Module and Activity counts may vary, subject to the minimum of 5 Explore and 3 Extend Activities per track;
 - Quantitative/Verbal separation;
 - stable Activity IDs;
 - stable Question IDs;

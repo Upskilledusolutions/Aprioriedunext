@@ -6,12 +6,6 @@
 
 This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
 
-## 2026-09-28 — Structural blueprint supersedes earlier activity-count designs
-
-The accepted **Level 1 · Stage 1** learner-facing experience is now the permanent structural blueprint for all current and future Reasoning Levels and Stages. Per track, every Stage must contain **5 Modules, 8 Activities/question sets, 5 Explore, 3 Extend and 10 delivered questions per Activity**, using the same dashboard/module/activity/player pattern.
-
-Counts recorded elsewhere in this historical remediation document describe what was implemented at the time and remain historical facts. They are **not** the current acceptance target. Any Stage/Level inventory that differs from the blueprint requires explicit reconciliation before it may be treated as complete or accepted.
-
 ## 2026-09-28 — Structural blueprint clarified as UI/behaviour standard
 
 The accepted **Level 1 · Stage 1** learner-facing experience is the permanent UI/navigation/functionality/feature blueprint for all current and future Reasoning Levels and Stages. Per track, every Stage must contain **at least 5 Explore Activities, at least 3 Extend Activities, at least 8 Activities/question sets in total and 10 delivered questions per Activity**. Module and Activity counts above these minimums remain Stage-specific. Existing Level 1 Stage 4–6 combinations are preserved where they satisfy the thresholds.
@@ -22,7 +16,7 @@ Counts recorded elsewhere in this historical remediation document remain histori
 
 - One shared account/authentication model continues to serve Reasoning and Foreign Languages.
 - Quantitative and Verbal remain independent Reasoning tracks.
-- The six-stage curriculum is preserved; the current structural invariant is 5 Modules, 8 Activities per track, 5 Explore and 3 Extend, based on the accepted Stage 1 blueprint.
+- The six-stage curriculum is preserved; the current structural rule is the accepted Stage 1 learner-facing UI/navigation/functionality/feature blueprint plus minimum thresholds of 5 Explore and 3 Extend Activities per track and exactly 10 delivered questions per Activity.
 - Reasoning uses dedicated question banks and stable question IDs.
 - The shared activity player remains the common execution layer for timing, scoring, feedback, completion, navigation and progress.
 - Reasoning progress remains separate from Foreign Languages progress.
@@ -181,7 +175,7 @@ The following safeguards are mandatory for all future Reasoning work:
 
 - **Historical Stage 6 inventory:** 20 activities: 10 Quantitative and 10 Verbal, with 50% Explore and 50% Extend at the time of implementation.
 - The Stage 6 question bank historically contained four questions per activity, giving 80 questions across the stage.
-- This inventory is superseded by the current Stage 1 blueprint and requires structural reconciliation before acceptance.
+- This inventory remains a historical implementation record; it is retained because it satisfies the current minimum thresholds. Its learner-facing UI/navigation/functionality/feature presentation must still align with the Stage 1 blueprint before acceptance.
 - Stage 6 content covers mathematical inquiry, conjecture, modelling, proof, independent investigation, research design, literature search and synthesis, scholarly analysis, research writing and publication readiness.
 - Correct-answer positions were rotated deterministically across the four-question activities to prevent systematic answer-position bias.
 - Each activity follows Core → Core → Stretch → Advanced progression.
