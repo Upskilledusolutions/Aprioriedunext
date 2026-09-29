@@ -162,6 +162,17 @@ For every learner-facing Activity:
 - valid answers, explanations and timing;
 - stable IDs.
 
+**Mandatory answer-length clue audit and record:**
+- calculate the **unique-longest correct-answer rate** across the final learner-facing delivery set for the Level + Stage;
+- record numerator, denominator and percentage for the full Stage and separately for Quantitative and Verbal;
+- record tied-for-longest cases separately;
+- the **hard acceptance ceiling is below 50%**;
+- **below 30% is preferred**;
+- 50% or higher = **FAIL / remediation required** before release;
+- 30% to below 50% = below the hard ceiling but requires documented human review before release.
+
+The result must be retained in the Stage verification record. This audit is required independently for every Stage in every Level; do not copy a result from another Stage.
+
 ### Checkpoint 5 — Learner-facing implementation
 
 Implement only the UI/runtime changes required to expose the Stage completely.
