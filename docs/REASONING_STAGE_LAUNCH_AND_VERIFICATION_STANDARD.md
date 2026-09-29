@@ -314,7 +314,7 @@ This is a **one-time shared Analytics capability**. Future accepted Stages do no
 
 This Analytics gate is inserted before Stage 3 acceptance because it becomes the reusable reporting mechanism for all subsequent Stages.
 
-The current sequence is one Stage at a time. Level 1 · Stage 1 is accepted and Level 1 · Stage 2 is owner-approved after live quick-check. The reusable Analytics selector is also owner-quick-checked for Stages 1–2. Level 1 · Stage 3 remains the active Stage workstream and cannot be marked accepted until its deployment and complete live verification are complete.
+The current sequence is one Stage at a time. Level 1 · Stages 1–3 are recorded as accepted after owner live verification/quick-checks. The reusable Analytics selector is owner-quick-checked for Stages 1–3, and Stage 3 is released through the shared configuration. Level 1 · Stage 4 is the next active Stage workstream.
 
 The **manual Reasoning Level-access implementation** is the first Reasoning-specific backend feature after the backend foundation. The approved identifiers are `reasoningL1`–`reasoningL9`, and access is selective rather than progressive: any individual level may be assigned directly without prerequisite Level identifiers. The **analytics persistence foundation** is a separate backend/data task afterward. It must establish durable question-attempt storage using only fields the audited backend can support, verify capture and separation from Foreign Languages, and then enable the richer question-level/historical analytics. Stage 2 implementation does not begin until Stage 1 has passed its acceptance gate and both backend sequences are complete.
 
