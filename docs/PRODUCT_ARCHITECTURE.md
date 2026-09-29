@@ -527,7 +527,7 @@ Level → Stage → Module → Activity ID
 
 For migrated content, the human-editable Stage bank is the preferred editing surface and the canonical record is the validated runtime authority. Existing JavaScript question banks remain controlled source pools during the gradual migration. This layer does not replace the current player, module architecture, progress architecture or Activity IDs.
 
-The permanent specification is `docs/REASONING-HUMAN-EDITABLE-CANONICAL-QUESTION-BANK-SPEC.md`. Operational editing/release rules are defined in `docs/REASONING-QUESTION-BANK-CONTENT-MAINTENANCE.md`.
+The permanent specification, including content editing/maintenance rules, is `docs/REASONING-HUMAN-EDITABLE-CANONICAL-QUESTION-BANK-SPEC.md`.
 
 ## 2026-09-23 — Reasoning authentication, Level access and durable-attempt architecture
 

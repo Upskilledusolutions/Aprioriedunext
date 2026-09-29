@@ -87,9 +87,13 @@ Every Stage and Level uses the same implementation pattern. Stage-specific code 
 - Stage progress = completed Activities / total Activities in that Stage;
 - Explore and Extend both count;
 - cumulative track progress = completed Activities / total Activities in the currently released scope;
+- the Quantitative and Verbal track-dashboard progress bars must use this same cumulative Activity-based numerator and denominator and display a matching percentage/completed-total count;
+- the progress bars must not use completed-module counts, fixed denominators or per-Stage-only totals;
 - Module completion is a separate status and must not drive Stage/track percentages.
 
 This template must be reused for Levels 2–9. Do not create a new page architecture for a new Level merely because the curriculum content changes.
+
+Implementation is deliberately sequential within a Stage: complete and validate each checkpoint before moving to the next checkpoint. Do not bundle content, UI, validation and deployment work into one unvalidated implementation pass.
 
 ## 4. Stage launch workflow
 
@@ -252,6 +256,7 @@ Also verify:
 - Reasoning Analytics opens only the dedicated Reasoning Analytics experience;
 - authenticated name-menu links/buttons have no text underlines;
 - cumulative Reasoning progress;
+- Quantitative and Verbal track-dashboard progress bars show the same cumulative Activity-based percentage and completed/total count;
 - mastery and analytics generated from the Stage under verification;
 - separation from the Foreign Languages profile/data;
 - manual Level-access behavior where a Level is being released.
