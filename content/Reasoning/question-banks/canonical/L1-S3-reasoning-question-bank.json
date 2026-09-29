@@ -222,7 +222,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXP-connecting-representations",
-      "answer": "The table and calculation describe the same relationship",
+      "answer": "They show the same relationship",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "computationReasoning",
       "contentModeDescription": "Interpret the situation, calculate what is needed, and check that the result fits the conditions.",
@@ -237,7 +237,7 @@
         "The price must decrease after four notebooks",
         "The total is unrelated to the unit price",
         "The number 48 is a separate quantity",
-        "The table and calculation describe the same relationship"
+        "They show the same relationship"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -254,7 +254,7 @@
       "timePerQuestion": 90,
       "topicId": "representations",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXP-connecting-representations",
@@ -438,7 +438,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXP-explaining-thinking",
-      "answer": "The second gives the relationship producing the answer",
+      "answer": "The second shows how 36 is made",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -452,7 +452,7 @@
       "options": [
         "The first contains no arithmetic",
         "The first cannot be spoken aloud",
-        "The second gives the relationship producing the answer",
+        "The second shows how 36 is made",
         "The second uses more punctuation"
       ],
       "provenance": {
@@ -470,7 +470,7 @@
       "timePerQuestion": 75,
       "topicId": "mathematical-explanation",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXP-explaining-thinking",
@@ -546,7 +546,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXP-explaining-thinking",
-      "answer": "Each can be split into pairs, so combining them still forms pairs",
+      "answer": "Both numbers form pairs",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -559,7 +559,7 @@
       "moduleId": "explaining-mathematical-thinking",
       "options": [
         "Both numbers end with even digits",
-        "Each can be split into pairs, so combining them still forms pairs",
+        "Both numbers form pairs",
         "Even numbers are usually larger",
         "Adding always produces an even result"
       ],
@@ -578,7 +578,7 @@
       "timePerQuestion": 90,
       "topicId": "mathematical-explanation",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXP-explaining-thinking",
@@ -618,7 +618,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXP-explaining-thinking",
-      "answer": "5 × 8 counts the square units in the array, giving 40",
+      "answer": "5 × 8 gives the area",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "computationReasoning",
       "contentModeDescription": "Interpret the situation, calculate what is needed, and check that the result fits the conditions.",
@@ -633,7 +633,7 @@
         "40 is a round number",
         "The rectangle is not a square",
         "5 + 8 is 13",
-        "5 × 8 counts the square units in the array, giving 40"
+        "5 × 8 gives the area"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -650,7 +650,7 @@
       "timePerQuestion": 90,
       "topicId": "mathematical-explanation",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXP-explaining-thinking",
@@ -690,7 +690,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXP-explaining-thinking",
-      "answer": "Evidence is information used to support a conclusion",
+      "answer": "Evidence supports a conclusion",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -704,7 +704,7 @@
       "options": [
         "A conclusion is any number in a problem",
         "Evidence is only a final answer",
-        "Evidence is information used to support a conclusion",
+        "Evidence supports a conclusion",
         "Evidence and conclusions always mean the same thing"
       ],
       "provenance": {
@@ -722,7 +722,7 @@
       "timePerQuestion": 90,
       "topicId": "mathematical-explanation",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXP-generalizing-patterns",
@@ -1026,7 +1026,7 @@
       "levelId": "L1",
       "moduleId": "generalizing-patterns",
       "options": [
-        "38",
+        "40",
         "42",
         "34",
         "40"
@@ -1046,7 +1046,7 @@
       "timePerQuestion": 90,
       "topicId": "generalization",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXP-generalizing-patterns",
@@ -1734,7 +1734,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXP-representing-ideas",
-      "answer": "Whether the multiplication matches the number in each row",
+      "answer": "Check the multiplication against each row",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "computationReasoning",
       "contentModeDescription": "Interpret the situation, calculate what is needed, and check that the result fits the conditions.",
@@ -1747,7 +1747,7 @@
       "moduleId": "representing-mathematical-ideas",
       "options": [
         "Whether multiplication symbols are decorative",
-        "Whether the multiplication matches the number in each row",
+        "Check the multiplication against each row",
         "Whether the answer has two digits",
         "Whether the diagram should use fewer rows"
       ],
@@ -1766,7 +1766,7 @@
       "timePerQuestion": 90,
       "topicId": "representations",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXP-representing-ideas",
@@ -1950,7 +1950,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXT-cases-counterexamples",
-      "answer": "Systematically inspect the cases and record whether each satisfies the claim",
+      "answer": "Check all cases systematically",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -1965,7 +1965,7 @@
         "Check only 10",
         "Pick the largest number and stop",
         "Assume the pattern continues",
-        "Systematically inspect the cases and record whether each satisfies the claim"
+        "Check all cases systematically"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -1982,7 +1982,7 @@
       "timePerQuestion": 90,
       "topicId": "counterexamples",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXT-cases-counterexamples",
@@ -2094,7 +2094,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXT-cases-counterexamples",
-      "answer": "The claim must hold for every case, so one failing case makes it false as stated",
+      "answer": "One failing case disproves an all-claim",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -2109,7 +2109,7 @@
         "One case proves the claim in all other cases",
         "A counterexample is always the smallest case",
         "Universal claims do not need evidence",
-        "The claim must hold for every case, so one failing case makes it false as stated"
+        "One failing case disproves an all-claim"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -2126,7 +2126,7 @@
       "timePerQuestion": 90,
       "topicId": "counterexamples",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXT-cases-counterexamples",
@@ -2274,7 +2274,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXT-justifying-generalizations",
-      "answer": "The fourth term should be 24, so the claim fails there",
+      "answer": "The fourth term should be 24",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "computationReasoning",
       "contentModeDescription": "Interpret the situation, calculate what is needed, and check that the result fits the conditions.",
@@ -2287,7 +2287,7 @@
       "moduleId": "justifying-generalizations",
       "options": [
         "The claim cannot be tested",
-        "The fourth term should be 24, so the claim fails there",
+        "The fourth term should be 24",
         "The fourth term confirms doubling",
         "The first term must be removed"
       ],
@@ -2306,7 +2306,7 @@
       "timePerQuestion": 90,
       "topicId": "generalization",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXT-justifying-generalizations",
@@ -2490,7 +2490,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXT-justifying-generalizations",
-      "answer": "A new case tests whether the relationship extends beyond the original evidence",
+      "answer": "A new case tests the rule",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -2502,7 +2502,7 @@
       "levelId": "L1",
       "moduleId": "justifying-generalizations",
       "options": [
-        "A new case tests whether the relationship extends beyond the original evidence",
+        "A new case tests the rule",
         "An old case is always wrong",
         "New cases require no reasoning",
         "Repeating an example proves every future case"
@@ -2522,7 +2522,7 @@
       "timePerQuestion": 90,
       "topicId": "generalization",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXT-mathematical-justification",
@@ -2994,7 +2994,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXT-non-routine-representations",
-      "answer": "Two labeled rectangles and subtraction of their areas",
+      "answer": "Show both areas and subtract",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "computationReasoning",
       "contentModeDescription": "Interpret the situation, calculate what is needed, and check that the result fits the conditions.",
@@ -3006,7 +3006,7 @@
       "levelId": "L1",
       "moduleId": "non-routine-representations",
       "options": [
-        "Two labeled rectangles and subtraction of their areas",
+        "Show both areas and subtract",
         "One number with no units",
         "A list of four unrelated lengths",
         "A drawing without dimensions"
@@ -3026,7 +3026,7 @@
       "timePerQuestion": 90,
       "topicId": "representations",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXT-non-routine-representations",
@@ -3210,7 +3210,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXT-non-routine-representations",
-      "answer": "Choose the representation that exposes the relationship being tested",
+      "answer": "Choose the clearer relationship",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3225,7 +3225,7 @@
         "Always choose the longer representation",
         "Always choose a diagram",
         "Choose whichever has more numbers",
-        "Choose the representation that exposes the relationship being tested"
+        "Choose the clearer relationship"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -3242,7 +3242,7 @@
       "timePerQuestion": 90,
       "topicId": "representations",
       "track": "quantitative",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "Q-L1-S3-EXT-strategic-problem-solving",
@@ -3642,7 +3642,7 @@
     },
     {
       "activityId": "V-L1-S3-EXP-analytical-paragraphs",
-      "answer": "Explain what the result suggests about the claim",
+      "answer": "What the result suggests",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3654,7 +3654,7 @@
       "levelId": "L1",
       "moduleId": "analytical-paragraphs",
       "options": [
-        "Explain what the result suggests about the claim",
+        "What the result suggests",
         "Repeat the percentage twice",
         "Move to a new topic",
         "Add an unrelated quotation"
@@ -3674,11 +3674,11 @@
       "timePerQuestion": 75,
       "topicId": "paragraph-analysis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-analytical-paragraphs",
-      "answer": "Point, evidence, explanation, link to the question",
+      "answer": "Point, evidence, explanation, link",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3691,7 +3691,7 @@
       "moduleId": "analytical-paragraphs",
       "options": [
         "New claim, unrelated fact, title, evidence",
-        "Point, evidence, explanation, link to the question",
+        "Point, evidence, explanation, link",
         "Evidence, title, unrelated example, conclusion",
         "Quotation, quotation, quotation, no explanation"
       ],
@@ -3710,11 +3710,11 @@
       "timePerQuestion": 75,
       "topicId": "paragraph-analysis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-analytical-paragraphs",
-      "answer": "A study comparing reading habits with home book access",
+      "answer": "Reading habits and home access",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3728,7 +3728,7 @@
       "options": [
         "A description of a popular sport",
         "A list of library decorations",
-        "A study comparing reading habits with home book access",
+        "Reading habits and home access",
         "A statistic about school building size"
       ],
       "provenance": {
@@ -3746,11 +3746,11 @@
       "timePerQuestion": 90,
       "topicId": "paragraph-analysis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-analytical-paragraphs",
-      "answer": "The reader may not see how the evidence supports the point",
+      "answer": "The link to the point may be unclear",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3765,7 +3765,7 @@
         "Evidence automatically proves every claim",
         "Explanation makes evidence less reliable",
         "Paragraphs should contain only opinions",
-        "The reader may not see how the evidence supports the point"
+        "The link to the point may be unclear"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -3782,11 +3782,11 @@
       "timePerQuestion": 90,
       "topicId": "paragraph-analysis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-analytical-paragraphs",
-      "answer": "Add a sentence explaining how the point answers the question",
+      "answer": "Explain how the point answers the question",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3798,7 +3798,7 @@
       "levelId": "L1",
       "moduleId": "analytical-paragraphs",
       "options": [
-        "Add a sentence explaining how the point answers the question",
+        "Explain how the point answers the question",
         "Delete the evidence",
         "Add another unrelated example",
         "Make the paragraph longer without changing its purpose"
@@ -3818,11 +3818,11 @@
       "timePerQuestion": 90,
       "topicId": "paragraph-analysis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-analytical-paragraphs",
-      "answer": "The result suggests later starts may help, but the small sample limits the claim",
+      "answer": "Later starts may help",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3835,7 +3835,7 @@
       "moduleId": "analytical-paragraphs",
       "options": [
         "Later start times are always better",
-        "The result suggests later starts may help, but the small sample limits the claim",
+        "Later starts may help",
         "The survey had students in it",
         "The percentage was printed in the report"
       ],
@@ -3854,11 +3854,11 @@
       "timePerQuestion": 90,
       "topicId": "paragraph-analysis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-analytical-paragraphs",
-      "answer": "State the analytical point that the examples are meant to support",
+      "answer": "State the point the examples support",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3872,7 +3872,7 @@
       "options": [
         "Replace every example with a quotation",
         "Move the examples to the conclusion",
-        "State the analytical point that the examples are meant to support",
+        "State the point the examples support",
         "Add three more examples"
       ],
       "provenance": {
@@ -3890,11 +3890,11 @@
       "timePerQuestion": 90,
       "topicId": "paragraph-analysis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-analytical-paragraphs",
-      "answer": "It explains the significance of information for a claim or question",
+      "answer": "It explains the significance for the claim",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3909,7 +3909,7 @@
         "It contains more facts than other paragraphs",
         "It uses longer sentences",
         "It includes at least one quotation",
-        "It explains the significance of information for a claim or question"
+        "It explains the significance for the claim"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -3926,11 +3926,11 @@
       "timePerQuestion": 90,
       "topicId": "paragraph-analysis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-analytical-paragraphs",
-      "answer": "Explain both what the evidence supports and what it cannot establish",
+      "answer": "Explain both its support and its limits",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3943,7 +3943,7 @@
       "moduleId": "analytical-paragraphs",
       "options": [
         "Treat the evidence as proof of every claim",
-        "Explain both what the evidence supports and what it cannot establish",
+        "Explain both its support and its limits",
         "Hide the limitation",
         "Discard the evidence automatically"
       ],
@@ -3962,11 +3962,11 @@
       "timePerQuestion": 90,
       "topicId": "paragraph-analysis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "The question, position, and criteria for judging the issue",
+      "answer": "Question, position, and criteria",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -3979,7 +3979,7 @@
       "moduleId": "planning-analytical-writing",
       "options": [
         "A title with no stated purpose",
-        "The question, position, and criteria for judging the issue",
+        "Question, position, and criteria",
         "A conclusion before considering the issue",
         "Every fact about school clubs"
       ],
@@ -3998,11 +3998,11 @@
       "timePerQuestion": 75,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "State a position, give reasons, use evidence, and consider a limitation",
+      "answer": "Position, reasons, evidence, and a limitation",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4016,7 +4016,7 @@
       "options": [
         "Summarize unrelated articles",
         "Write several facts without taking a position",
-        "State a position, give reasons, use evidence, and consider a limitation",
+        "Position, reasons, evidence, and a limitation",
         "Describe the library building in detail"
       ],
       "provenance": {
@@ -4034,11 +4034,11 @@
       "timePerQuestion": 75,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "They keep the response focused on what must be answered",
+      "answer": "They keep the response focused",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4053,7 +4053,7 @@
         "They make every paragraph the same length",
         "They remove the need for evidence",
         "They guarantee that all readers agree",
-        "They keep the response focused on what must be answered"
+        "They keep the response focused"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -4070,11 +4070,11 @@
       "timePerQuestion": 75,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "Cost, practicality, and likely effect on students",
+      "answer": "Cost, practicality, and impact",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4086,7 +4086,7 @@
       "levelId": "L1",
       "moduleId": "planning-analytical-writing",
       "options": [
-        "Cost, practicality, and likely effect on students",
+        "Cost, practicality, and impact",
         "The number of letters in each option",
         "Which option has the nicer name",
         "Which option appears first"
@@ -4106,11 +4106,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "Rank the reasons and select the one most relevant to the question",
+      "answer": "Rank reasons by relevance",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4123,7 +4123,7 @@
       "moduleId": "planning-analytical-writing",
       "options": [
         "Use the first reason found",
-        "Rank the reasons and select the one most relevant to the question",
+        "Rank reasons by relevance",
         "Include all reasons without comparison",
         "Choose the longest reason"
       ],
@@ -4142,11 +4142,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "Set criteria, compare evidence, then qualify the conclusion",
+      "answer": "Compare evidence and qualify the conclusion",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4160,7 +4160,7 @@
       "options": [
         "Give a personal preference with no reasons",
         "Summarize one source and stop",
-        "Set criteria, compare evidence, then qualify the conclusion",
+        "Compare evidence and qualify the conclusion",
         "List homework subjects only"
       ],
       "provenance": {
@@ -4178,11 +4178,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "Define practical criteria such as time, cost, and reliability",
+      "answer": "Define criteria for practicality",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4197,7 +4197,7 @@
         "Choose the most interesting statistic",
         "Collect every fact available",
         "Decide that one option is always better",
-        "Define practical criteria such as time, cost, and reliability"
+        "Define criteria for practicality"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -4214,11 +4214,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "It gives each planned point a clear job in answering the question",
+      "answer": "It gives each point a clear purpose",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4230,7 +4230,7 @@
       "levelId": "L1",
       "moduleId": "planning-analytical-writing",
       "options": [
-        "It gives each planned point a clear job in answering the question",
+        "It gives each point a clear purpose",
         "It guarantees perfect grammar",
         "It replaces source reading",
         "It makes the conclusion unnecessary"
@@ -4250,11 +4250,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "A way to compare the evidence and explain which side is better supported",
+      "answer": "Compare the evidence and weigh support",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4267,7 +4267,7 @@
       "moduleId": "planning-analytical-writing",
       "options": [
         "A conclusion chosen before comparison",
-        "A way to compare the evidence and explain which side is better supported",
+        "Compare the evidence and weigh support",
         "Only evidence supporting the first opinion",
         "Every source in equal detail"
       ],
@@ -4286,11 +4286,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-planning-analysis",
-      "answer": "Each planned point connects to the question and has a reason or evidence to support it",
+      "answer": "Each point links to the question and support",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4305,7 +4305,7 @@
         "Every point has the same number of words",
         "The plan contains the most sources possible",
         "The conclusion is written before the reasoning",
-        "Each planned point connects to the question and has a reason or evidence to support it"
+        "Each point links to the question and support"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -4322,11 +4322,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-planning",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "Separate or reorder the ideas so each paragraph has a clear purpose",
+      "answer": "Give each paragraph a clear purpose",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4341,7 +4341,7 @@
         "Add more examples to the same paragraph",
         "Replace every word with a synonym",
         "Delete the topic sentence",
-        "Separate or reorder the ideas so each paragraph has a clear purpose"
+        "Give each paragraph a clear purpose"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -4358,11 +4358,11 @@
       "timePerQuestion": 75,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "Use more precise wording that matches the evidence",
+      "answer": "Match the wording to the evidence",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4374,7 +4374,7 @@
       "levelId": "L1",
       "moduleId": "revising-for-clarity",
       "options": [
-        "Use more precise wording that matches the evidence",
+        "Match the wording to the evidence",
         "Make the claim even more absolute",
         "Delete the evidence",
         "Add an unrelated statistic"
@@ -4394,11 +4394,11 @@
       "timePerQuestion": 75,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "A sentence interpreting what the evidence means for the claim",
+      "answer": "Interpret evidence for the claim",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4411,7 +4411,7 @@
       "moduleId": "revising-for-clarity",
       "options": [
         "A decorative heading",
-        "A sentence interpreting what the evidence means for the claim",
+        "Interpret evidence for the claim",
         "A longer quotation with no analysis",
         "A new topic"
       ],
@@ -4430,11 +4430,11 @@
       "timePerQuestion": 75,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "The result suggests the new schedule may improve punctuality",
+      "answer": "The result suggests better punctuality",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4448,7 +4448,7 @@
       "options": [
         "It is clearly better in every way",
         "This is good",
-        "The result suggests the new schedule may improve punctuality",
+        "The result suggests better punctuality",
         "This proves everything is better"
       ],
       "provenance": {
@@ -4466,11 +4466,11 @@
       "timePerQuestion": 90,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "Keep the clearest statement and use the space for evidence or analysis",
+      "answer": "Keep the clearest statement and add analysis",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4485,7 +4485,7 @@
         "Repeat the point a fourth time",
         "Remove the evidence instead",
         "Make all three sentences longer",
-        "Keep the clearest statement and use the space for evidence or analysis"
+        "Keep the clearest statement and add analysis"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -4502,11 +4502,11 @@
       "timePerQuestion": 90,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "Move the reason into the body if it is important, or remove it if it is not supported",
+      "answer": "Move or remove the unsupported reason",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4518,7 +4518,7 @@
       "levelId": "L1",
       "moduleId": "revising-for-clarity",
       "options": [
-        "Move the reason into the body if it is important, or remove it if it is not supported",
+        "Move or remove the unsupported reason",
         "Leave it because conclusions should add new claims",
         "Add another unrelated reason",
         "Delete the entire conclusion"
@@ -4538,11 +4538,11 @@
       "timePerQuestion": 90,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "Replace it with evidence that directly addresses the paragraph's claim",
+      "answer": "Use evidence that addresses the claim",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4555,7 +4555,7 @@
       "moduleId": "revising-for-clarity",
       "options": [
         "Remove the claim",
-        "Replace it with evidence that directly addresses the paragraph's claim",
+        "Use evidence that addresses the claim",
         "Keep it because credibility is enough",
         "Add two more irrelevant sources"
       ],
@@ -4574,11 +4574,11 @@
       "timePerQuestion": 90,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "Use qualified wording and explain the conditions under which the evidence supports the claim",
+      "answer": "Qualify the claim to fit mixed evidence",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4592,7 +4592,7 @@
       "options": [
         "Remove both sources",
         "Choose only the favorable source",
-        "Use qualified wording and explain the conditions under which the evidence supports the claim",
+        "Qualify the claim to fit mixed evidence",
         "Keep the absolute wording for confidence"
       ],
       "provenance": {
@@ -4610,11 +4610,11 @@
       "timePerQuestion": 90,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "Whether the structure, claims, evidence, and explanations form a coherent argument",
+      "answer": "Check whether reasoning forms a coherent argument",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4629,7 +4629,7 @@
         "Whether every sentence has the same length",
         "Whether the vocabulary is as difficult as possible",
         "Whether every paragraph has exactly four sentences",
-        "Whether the structure, claims, evidence, and explanations form a coherent argument"
+        "Check whether reasoning forms a coherent argument"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -4646,11 +4646,11 @@
       "timePerQuestion": 90,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-revising-clarity",
-      "answer": "Add the missing comparison or revise the topic sentence to match the paragraph's actual purpose",
+      "answer": "Add the comparison or revise the topic sentence",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4663,7 +4663,7 @@
       "moduleId": "revising-for-clarity",
       "options": [
         "Delete all explanation",
-        "Add the missing comparison or revise the topic sentence to match the paragraph's actual purpose",
+        "Add the comparison or revise the topic sentence",
         "Keep the mismatch because topic sentences are optional",
         "Add unrelated evidence"
       ],
@@ -4682,11 +4682,11 @@
       "timePerQuestion": 90,
       "topicId": "revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "Both support exercise, but they explain its benefit through different mechanisms",
+      "answer": "Both support exercise for different reasons",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4699,7 +4699,7 @@
       "moduleId": "synthesis-and-comparison",
       "options": [
         "The writers disagree because their examples differ",
-        "Both support exercise, but they explain its benefit through different mechanisms",
+        "Both support exercise for different reasons",
         "Both writers discuss exercise, so their ideas are identical",
         "Only one writer can be relevant"
       ],
@@ -4718,11 +4718,11 @@
       "timePerQuestion": 75,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "Synthesis explains a relationship among ideas and why it matters",
+      "answer": "It explains relationships among ideas",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4736,7 +4736,7 @@
       "options": [
         "Synthesis avoids comparison",
         "Synthesis repeats each source in full",
-        "Synthesis explains a relationship among ideas and why it matters",
+        "It explains relationships among ideas",
         "Synthesis uses more words"
       ],
       "provenance": {
@@ -4754,11 +4754,11 @@
       "timePerQuestion": 75,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "The sources identify a potential benefit and a practical trade-off",
+      "answer": "It shows a benefit and a trade-off",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4773,7 +4773,7 @@
         "Both sources prove the same claim",
         "Neither source addresses the issue",
         "The longer source must be correct",
-        "The sources identify a potential benefit and a practical trade-off"
+        "It shows a benefit and a trade-off"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -4790,11 +4790,11 @@
       "timePerQuestion": 75,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "It helps assess how broadly the shared finding may apply",
+      "answer": "It tests how broadly it applies",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4806,7 +4806,7 @@
       "levelId": "L1",
       "moduleId": "synthesis-and-comparison",
       "options": [
-        "It helps assess how broadly the shared finding may apply",
+        "It tests how broadly it applies",
         "It proves the studies are contradictory",
         "It makes both studies useless",
         "Age groups never affect interpretation"
@@ -4826,11 +4826,11 @@
       "timePerQuestion": 90,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "Both value school choice, but one emphasizes autonomy while the other emphasizes equal access",
+      "answer": "Both value choice, but stress different priorities",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4843,7 +4843,7 @@
       "moduleId": "synthesis-and-comparison",
       "options": [
         "Argument B uses fewer examples, so it must be false",
-        "Both value school choice, but one emphasizes autonomy while the other emphasizes equal access",
+        "Both value choice, but stress different priorities",
         "Both mention schools, so they are the same",
         "Argument A is longer, so it is stronger"
       ],
@@ -4862,11 +4862,11 @@
       "timePerQuestion": 90,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "The purpose of synthesis is to use relationships among sources to develop an answer",
+      "answer": "It uses source relationships to answer",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4880,7 +4880,7 @@
       "options": [
         "Comparison automatically proves a conclusion",
         "A central question is optional in analytical writing",
-        "The purpose of synthesis is to use relationships among sources to develop an answer",
+        "It uses source relationships to answer",
         "Sources are more important than questions"
       ],
       "provenance": {
@@ -4898,11 +4898,11 @@
       "timePerQuestion": 90,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "The difference in sample size and study design before drawing a conclusion",
+      "answer": "Compare sample size and design",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4917,7 +4917,7 @@
         "Only the more positive result",
         "Only the smaller study",
         "Whichever source appears first",
-        "The difference in sample size and study design before drawing a conclusion"
+        "Compare sample size and design"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -4934,11 +4934,11 @@
       "timePerQuestion": 90,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "Both studies associate reading practice with stronger vocabulary, but one used a shorter intervention period",
+      "answer": "Reading links to vocabulary differ in duration",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4950,7 +4950,7 @@
       "levelId": "L1",
       "moduleId": "synthesis-and-comparison",
       "options": [
-        "Both studies associate reading practice with stronger vocabulary, but one used a shorter intervention period",
+        "Reading links to vocabulary differ in duration",
         "Both studies prove reading causes every vocabulary gain",
         "The studies are basically the same",
         "Reading is good, according to both"
@@ -4970,11 +4970,11 @@
       "timePerQuestion": 90,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "Compare how each source defines focus and how it gathered evidence",
+      "answer": "Compare definitions and evidence gathering",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -4987,7 +4987,7 @@
       "moduleId": "synthesis-and-comparison",
       "options": [
         "Average the two opinions",
-        "Compare how each source defines focus and how it gathered evidence",
+        "Compare definitions and evidence gathering",
         "Choose the source with the stronger opinion",
         "Ignore both sources"
       ],
@@ -5006,11 +5006,11 @@
       "timePerQuestion": 90,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-synthesis-comparison",
-      "answer": "It explains an important difference, relationship, or implication for the question",
+      "answer": "It explains a difference or implication",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5025,7 +5025,7 @@
         "It adds a third unrelated topic",
         "It repeats the shared point several times",
         "It avoids making any interpretation",
-        "It explains an important difference, relationship, or implication for the question"
+        "It explains a difference or implication"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -5042,11 +5042,11 @@
       "timePerQuestion": 90,
       "topicId": "synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "A study measuring students' reading time",
+      "answer": "A study measuring reading time",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5061,7 +5061,7 @@
         "A survey about cafeteria choices",
         "A description of classroom walls",
         "A list of sports results",
-        "A study measuring students' reading time"
+        "A study measuring reading time"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -5078,11 +5078,11 @@
       "timePerQuestion": 75,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "Explain what the statistic suggests about the claim",
+      "answer": "Explain what the statistic suggests",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5094,7 +5094,7 @@
       "levelId": "L1",
       "moduleId": "using-evidence-effectively",
       "options": [
-        "Explain what the statistic suggests about the claim",
+        "Explain what the statistic suggests",
         "Repeat the number without comment",
         "Change the topic immediately",
         "Treat the statistic as proof of every conclusion"
@@ -5114,11 +5114,11 @@
       "timePerQuestion": 75,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "Use it as evidence of the surveyed group's preference, not all students everywhere",
+      "answer": "Evidence of the surveyed group's view",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5131,7 +5131,7 @@
       "moduleId": "using-evidence-effectively",
       "options": [
         "Describe it as a national result",
-        "Use it as evidence of the surveyed group's preference, not all students everywhere",
+        "Evidence of the surveyed group's view",
         "Use it to prove every student prefers A",
         "Ignore the sample size"
       ],
@@ -5150,11 +5150,11 @@
       "timePerQuestion": 75,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "Does it directly support the claim and is its source appropriate.",
+      "answer": "Does it support the claim?",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5168,7 +5168,7 @@
       "options": [
         "Does it sound impressive.",
         "Can it replace all other reasoning.",
-        "Does it directly support the claim and is its source appropriate.",
+        "Does it support the claim?",
         "Is it the longest statistic available."
       ],
       "provenance": {
@@ -5186,11 +5186,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "As an example of the author's viewpoint, with its relevance explained",
+      "answer": "Use it to show the author's viewpoint",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5205,7 +5205,7 @@
         "As proof that the opinion is objectively true",
         "As evidence for every possible claim",
         "Without identifying the speaker",
-        "As an example of the author's viewpoint, with its relevance explained"
+        "Use it to show the author's viewpoint"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -5222,11 +5222,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "Compare their methods, contexts, and findings before deciding what they show",
+      "answer": "Compare methods, contexts, and findings",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5238,7 +5238,7 @@
       "levelId": "L1",
       "moduleId": "using-evidence-effectively",
       "options": [
-        "Compare their methods, contexts, and findings before deciding what they show",
+        "Compare methods, contexts, and findings",
         "Choose the source with the larger number",
         "Ignore one source",
         "Average the conclusions without examining them"
@@ -5258,11 +5258,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "It may be useful evidence, but the small sample limits the claim",
+      "answer": "Useful but limited evidence",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5275,7 +5275,7 @@
       "moduleId": "using-evidence-effectively",
       "options": [
         "The sample size does not matter",
-        "It may be useful evidence, but the small sample limits the claim",
+        "Useful but limited evidence",
         "It proves the issue for everyone",
         "It should never be mentioned"
       ],
@@ -5294,11 +5294,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "The survey suggests that many participants preferred the new schedule, but its sample was limited",
+      "answer": "A limited survey suggests a preference",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5312,7 +5312,7 @@
       "options": [
         "The survey is obviously correct",
         "The survey has a number, so it proves the claim",
-        "The survey suggests that many participants preferred the new schedule, but its sample was limited",
+        "A limited survey suggests a preference",
         "The survey proves everyone prefers the new schedule"
       ],
       "provenance": {
@@ -5330,11 +5330,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "The connection shows why the evidence matters for the argument",
+      "answer": "It shows why the evidence matters",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5349,7 +5349,7 @@
         "Readers can otherwise assume any evidence fits any claim",
         "Explanation makes sources unnecessary",
         "A claim is stronger when it has no reasoning",
-        "The connection shows why the evidence matters for the argument"
+        "It shows why the evidence matters"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -5366,11 +5366,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXP-using-evidence",
-      "answer": "Do not use it as central evidence for that question because relevance is missing",
+      "answer": "Do not use it as central evidence",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5383,7 +5383,7 @@
       "moduleId": "using-evidence-effectively",
       "options": [
         "Replace the question with the source",
-        "Do not use it as central evidence for that question because relevance is missing",
+        "Do not use it as central evidence",
         "Use it because credibility always overrides relevance",
         "Use it as proof of the conclusion"
       ],
@@ -5402,7 +5402,7 @@
       "timePerQuestion": 90,
       "topicId": "evidence-use",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
@@ -5442,7 +5442,7 @@
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
-      "answer": "Each paragraph should add a necessary step rather than repeat earlier material",
+      "answer": "Each paragraph adds a needed step",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5454,7 +5454,7 @@
       "levelId": "L1",
       "moduleId": "advanced-writing-structure",
       "options": [
-        "Each paragraph should add a necessary step rather than repeat earlier material",
+        "Each paragraph adds a needed step",
         "Readers prefer longer essays",
         "Repetition automatically strengthens evidence",
         "Paragraphs do not need relationships"
@@ -5474,11 +5474,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-structure",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
-      "answer": "Move the definition earlier so the evidence has a clear focus",
+      "answer": "Define the issue before evidence",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5491,7 +5491,7 @@
       "moduleId": "advanced-writing-structure",
       "options": [
         "Add a second conclusion",
-        "Move the definition earlier so the evidence has a clear focus",
+        "Define the issue before evidence",
         "Move the evidence to the title",
         "Delete the definition"
       ],
@@ -5510,11 +5510,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-structure",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
-      "answer": "However, the second explanation emphasizes cost rather than convenience",
+      "answer": "However, the second explanation stresses cost",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5528,7 +5528,7 @@
       "options": [
         "In addition, the first explanation is different",
         "Therefore, here is another unrelated point",
-        "However, the second explanation emphasizes cost rather than convenience",
+        "However, the second explanation stresses cost",
         "For example, the second explanation is similar"
       ],
       "provenance": {
@@ -5546,11 +5546,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-structure",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
-      "answer": "Group related points and use transitions to show the comparison",
+      "answer": "Group points and signal comparison",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5565,7 +5565,7 @@
         "Add more evidence to every paragraph",
         "Remove all drawbacks",
         "Put every point in one paragraph",
-        "Group related points and use transitions to show the comparison"
+        "Group points and signal comparison"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -5582,11 +5582,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-structure",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
-      "answer": "It answers the question using the developed reasoning",
+      "answer": "It answers from the reasoning",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5598,7 +5598,7 @@
       "levelId": "L1",
       "moduleId": "advanced-writing-structure",
       "options": [
-        "It answers the question using the developed reasoning",
+        "It answers from the reasoning",
         "It contains the longest sentence",
         "It adds an unrelated source",
         "It repeats every example"
@@ -5618,11 +5618,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-structure",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
-      "answer": "Evaluate each option under both criteria, then compare the combined evidence",
+      "answer": "Test both criteria for each option, then compare",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5635,7 +5635,7 @@
       "moduleId": "advanced-writing-structure",
       "options": [
         "Choose an option before evaluating criteria",
-        "Evaluate each option under both criteria, then compare the combined evidence",
+        "Test both criteria for each option, then compare",
         "Discuss all of option A and ignore option B until the conclusion",
         "List costs without discussing reliability"
       ],
@@ -5654,11 +5654,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-structure",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
-      "answer": "Use evidence, examine limits, compare options, then conclude",
+      "answer": "Evidence, limits, comparison, conclusion",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5672,7 +5672,7 @@
       "options": [
         "Avoid discussing limitations",
         "Use only evidence that supports one side",
-        "Use evidence, examine limits, compare options, then conclude",
+        "Evidence, limits, comparison, conclusion",
         "State an absolute conclusion before evidence"
       ],
       "provenance": {
@@ -5690,11 +5690,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-structure",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
-      "answer": "Condense it or replace it with the next needed reasoning step",
+      "answer": "Condense it or add the next step",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5709,7 +5709,7 @@
         "Make it twice as long",
         "Move it to every section",
         "Add a decorative transition",
-        "Condense it or replace it with the next needed reasoning step"
+        "Condense it or add the next step"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -5726,11 +5726,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-structure",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-advanced-structure",
-      "answer": "Can a reader explain how each paragraph contributes to answering the central question.",
+      "answer": "Can each paragraph link to the central question?",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5743,7 +5743,7 @@
       "moduleId": "advanced-writing-structure",
       "options": [
         "Is the conclusion the longest section.",
-        "Can a reader explain how each paragraph contributes to answering the central question.",
+        "Can each paragraph link to the central question?",
         "Does every paragraph have the same word count.",
         "Are there many transitions."
       ],
@@ -5762,11 +5762,11 @@
       "timePerQuestion": 90,
       "topicId": "writing-structure",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "It shows awareness of an alternative view and allows a reasoned response",
+      "answer": "It shows awareness of alternatives",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5779,7 +5779,7 @@
       "moduleId": "counterarguments-and-rebuttal",
       "options": [
         "It guarantees agreement",
-        "It shows awareness of an alternative view and allows a reasoned response",
+        "It shows awareness of alternatives",
         "It weakens every argument automatically",
         "It replaces the need for evidence"
       ],
@@ -5798,11 +5798,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "Some purposeful practice may reinforce learning",
+      "answer": "Purposeful practice reinforces learning",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5816,7 +5816,7 @@
       "options": [
         "Students never need practice",
         "Teachers should never assign work",
-        "Some purposeful practice may reinforce learning",
+        "Purposeful practice reinforces learning",
         "Homework is always perfect"
       ],
       "provenance": {
@@ -5834,11 +5834,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "It represents the opposing view accurately before explaining why it is limited or outweighed",
+      "answer": "Represent the opposing view, then respond",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5853,7 +5853,7 @@
         "It changes the opposing view into an extreme claim",
         "It ignores evidence",
         "It attacks the person making the argument",
-        "It represents the opposing view accurately before explaining why it is limited or outweighed"
+        "Represent the opposing view, then respond"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -5870,11 +5870,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "The schedule could be adjusted, but capacity still needs checking",
+      "answer": "Adjust the schedule, but check capacity",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5886,7 +5886,7 @@
       "levelId": "L1",
       "moduleId": "counterarguments-and-rebuttal",
       "options": [
-        "The schedule could be adjusted, but capacity still needs checking",
+        "Adjust the schedule, but check capacity",
         "Transport concerns are stupid",
         "Transport never matters",
         "Later starts solve every school problem"
@@ -5906,11 +5906,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "Uniforms may reduce visible differences, but they can also limit students' choices",
+      "answer": "Uniforms reduce differences but limit choice",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5923,7 +5923,7 @@
       "moduleId": "counterarguments-and-rebuttal",
       "options": [
         "There is no argument against uniforms",
-        "Uniforms may reduce visible differences, but they can also limit students' choices",
+        "Uniforms reduce differences but limit choice",
         "Anyone who dislikes uniforms is unreasonable",
         "Uniforms solve all discipline problems"
       ],
@@ -5942,11 +5942,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "Assess whether the evidence changes the conclusion",
+      "answer": "Assess whether evidence changes the conclusion",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5960,7 +5960,7 @@
       "options": [
         "Call it irrelevant without analysis",
         "Repeat the original claim",
-        "Assess whether the evidence changes the conclusion",
+        "Assess whether evidence changes the conclusion",
         "Ignore it because it is inconvenient"
       ],
       "provenance": {
@@ -5978,11 +5978,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "The concern is plausible, but the evidence shows only a small effect",
+      "answer": "Evidence shows only a small effect",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -5997,7 +5997,7 @@
         "The concern is obviously false",
         "The concern sounds negative, so ignore it",
         "The concern proves the opposite conclusion",
-        "The concern is plausible, but the evidence shows only a small effect"
+        "Evidence shows only a small effect"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -6014,11 +6014,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "It shows where the opposing view has force and limits",
+      "answer": "It shows the view's force and limits",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6030,7 +6030,7 @@
       "levelId": "L1",
       "moduleId": "counterarguments-and-rebuttal",
       "options": [
-        "It shows where the opposing view has force and limits",
+        "It shows the view's force and limits",
         "Absolute claims are always more persuasive",
         "Qualification removes evidence",
         "A rebuttal should never admit complexity"
@@ -6050,11 +6050,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "Address that part specifically rather than treating it as a refutation of the whole thesis",
+      "answer": "Address that part without rejecting the thesis",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6067,7 +6067,7 @@
       "moduleId": "counterarguments-and-rebuttal",
       "options": [
         "Rewrite the counterargument as an unrelated point",
-        "Address that part specifically rather than treating it as a refutation of the whole thesis",
+        "Address that part without rejecting the thesis",
         "Abandon the entire thesis immediately",
         "Ignore the challenge"
       ],
@@ -6086,11 +6086,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-counterarguments",
-      "answer": "Does it address the opposing reasoning with proportionate evidence.",
+      "answer": "Does it address the reasoning fairly?",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6105,7 +6105,7 @@
         "Is it longer than the counterargument.",
         "Does it sound confident.",
         "Does it avoid mentioning limitations.",
-        "Does it address the opposing reasoning with proportionate evidence."
+        "Does it address the reasoning fairly?"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -6122,11 +6122,11 @@
       "timePerQuestion": 90,
       "topicId": "counterarguments",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "It is relevant to the claim and comes from an appropriate source",
+      "answer": "Relevant evidence from a suitable source",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6141,7 +6141,7 @@
         "It is the longest quotation",
         "It contains the most numbers",
         "It agrees with the writer automatically",
-        "It is relevant to the claim and comes from an appropriate source"
+        "Relevant evidence from a suitable source"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -6158,11 +6158,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "The small sample may limit how broadly the finding can be generalized",
+      "answer": "A small sample may limit generalization",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6174,7 +6174,7 @@
       "levelId": "L1",
       "moduleId": "evaluating-evidence-and-sources",
       "options": [
-        "The small sample may limit how broadly the finding can be generalized",
+        "A small sample may limit generalization",
         "The study proves nothing at all",
         "Sample size never matters",
         "The result must apply to every population"
@@ -6194,11 +6194,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "Use caution: recency alone does not establish credibility",
+      "answer": "Recency alone does not establish credibility",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6211,7 +6211,7 @@
       "moduleId": "evaluating-evidence-and-sources",
       "options": [
         "Ignore all other sources",
-        "Use caution: recency alone does not establish credibility",
+        "Recency alone does not establish credibility",
         "Treat it as automatically reliable",
         "Use it as proof of every claim"
       ],
@@ -6230,11 +6230,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "Its relevance to this question may be limited",
+      "answer": "Relevance may be limited",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6248,7 +6248,7 @@
       "options": [
         "The source must be false",
         "Population differences never matter",
-        "Its relevance to this question may be limited",
+        "Relevance may be limited",
         "Credibility becomes irrelevant"
       ],
       "provenance": {
@@ -6266,11 +6266,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "Compare their samples, measures, and methods before weighing the conclusions",
+      "answer": "Compare samples, measures, and methods",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6285,7 +6285,7 @@
         "Choose the newer study automatically",
         "Average the two conclusions",
         "Use whichever result sounds more positive",
-        "Compare their samples, measures, and methods before weighing the conclusions"
+        "Compare samples, measures, and methods"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -6302,11 +6302,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "The wording may influence responses and reduce the neutrality of the evidence",
+      "answer": "Leading wording may bias responses",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6318,7 +6318,7 @@
       "levelId": "L1",
       "moduleId": "evaluating-evidence-and-sources",
       "options": [
-        "The wording may influence responses and reduce the neutrality of the evidence",
+        "Leading wording may bias responses",
         "Leading questions always improve accuracy",
         "The sample size becomes irrelevant",
         "The survey becomes a mathematical proof"
@@ -6338,11 +6338,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "It shows an association, but not necessarily causation",
+      "answer": "Association does not prove causation",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6355,7 +6355,7 @@
       "moduleId": "evaluating-evidence-and-sources",
       "options": [
         "It has no value because it is observational",
-        "It shows an association, but not necessarily causation",
+        "Association does not prove causation",
         "It proves one variable causes the other",
         "It proves the finding applies everywhere"
       ],
@@ -6374,11 +6374,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "As a claim needing further support rather than as established evidence",
+      "answer": "Treat it as a claim needing support",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6392,7 +6392,7 @@
       "options": [
         "As proof because it is written confidently",
         "As irrelevant to evaluation",
-        "As a claim needing further support rather than as established evidence",
+        "Treat it as a claim needing support",
         "As stronger than a measured study"
       ],
       "provenance": {
@@ -6410,11 +6410,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "Context can affect a finding's meaning and applicability",
+      "answer": "Context affects meaning and use",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6429,7 +6429,7 @@
         "Context only changes writing style",
         "Context makes evidence impossible to use",
         "All contexts produce identical results",
-        "Context can affect a finding's meaning and applicability"
+        "Context affects meaning and use"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -6446,11 +6446,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-evaluating-evidence",
-      "answer": "Ask what the evidence supports, how reliable it is, and what limits its use",
+      "answer": "Check support, reliability, and limits",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6463,7 +6463,7 @@
       "moduleId": "evaluating-evidence-and-sources",
       "options": [
         "Ask whether it agrees with a preferred conclusion",
-        "Ask what the evidence supports, how reliable it is, and what limits its use",
+        "Check support, reliability, and limits",
         "Ask whether it sounds certain",
         "Ask whether it is longer than the claim"
       ],
@@ -6482,11 +6482,11 @@
       "timePerQuestion": 90,
       "topicId": "evidence-evaluation",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
-      "answer": "Change 'always proves' to 'suggests' when the evidence is limited",
+      "answer": "Change 'always proves' to 'suggests'",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6500,7 +6500,7 @@
       "options": [
         "Add more adjectives",
         "Remove all qualifications",
-        "Change 'always proves' to 'suggests' when the evidence is limited",
+        "Change 'always proves' to 'suggests'",
         "Change every sentence to longer wording"
       ],
       "provenance": {
@@ -6518,11 +6518,11 @@
       "timePerQuestion": 90,
       "topicId": "scholarly-revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
-      "answer": "The findings suggest a possible benefit, although the small sample limits generalization",
+      "answer": "The findings suggest a benefit",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6537,7 +6537,7 @@
         "The findings definitely prove the policy works everywhere",
         "The findings are obviously perfect",
         "The findings show everything",
-        "The findings suggest a possible benefit, although the small sample limits generalization"
+        "The findings suggest a benefit"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -6554,11 +6554,11 @@
       "timePerQuestion": 90,
       "topicId": "scholarly-revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
-      "answer": "Replace vague labels with precise descriptions",
+      "answer": "Replace vague labels with precise terms",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6570,7 +6570,7 @@
       "levelId": "L1",
       "moduleId": "scholarly-voice-and-revision",
       "options": [
-        "Replace vague labels with precise descriptions",
+        "Replace vague labels with precise terms",
         "Use more adjectives",
         "Make the words longer",
         "Delete the paragraph"
@@ -6590,11 +6590,11 @@
       "timePerQuestion": 90,
       "topicId": "scholarly-revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
-      "answer": "Narrow the claim to match what the source actually supports",
+      "answer": "Narrow the claim to the source's support",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6607,7 +6607,7 @@
       "moduleId": "scholarly-voice-and-revision",
       "options": [
         "Keep the universal claim because it sounds stronger",
-        "Narrow the claim to match what the source actually supports",
+        "Narrow the claim to the source's support",
         "Add confidence words",
         "Remove the source"
       ],
@@ -6626,11 +6626,11 @@
       "timePerQuestion": 90,
       "topicId": "scholarly-revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
-      "answer": "The evidence indicates a modest association, but it does not establish causation",
+      "answer": "The evidence shows an association, not causation",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6644,7 +6644,7 @@
       "options": [
         "This is super obvious",
         "I feel like the study is right",
-        "The evidence indicates a modest association, but it does not establish causation",
+        "The evidence shows an association, not causation",
         "This totally proves the idea and everyone knows it"
       ],
       "provenance": {
@@ -6662,11 +6662,11 @@
       "timePerQuestion": 90,
       "topicId": "scholarly-revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
-      "answer": "Explain how the facts support the claim and why that support matters",
+      "answer": "Explain how the facts support the claim",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6681,7 +6681,7 @@
         "More facts with no interpretation",
         "Longer introductions",
         "More quotations without analysis",
-        "Explain how the facts support the claim and why that support matters"
+        "Explain how the facts support the claim"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -6698,11 +6698,11 @@
       "timePerQuestion": 90,
       "topicId": "scholarly-revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
-      "answer": "The evidence is mixed: two studies report a benefit, while another finds little change in a different context",
+      "answer": "The evidence is mixed across contexts",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6714,7 +6714,7 @@
       "levelId": "L1",
       "moduleId": "scholarly-voice-and-revision",
       "options": [
-        "The evidence is mixed: two studies report a benefit, while another finds little change in a different context",
+        "The evidence is mixed across contexts",
         "The evidence proves the policy in every setting",
         "Only the positive studies matter",
         "Mixed evidence should be hidden"
@@ -6734,11 +6734,11 @@
       "timePerQuestion": 90,
       "topicId": "scholarly-revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
-      "answer": "Check precision, evidence, structure, and clarity",
+      "answer": "Check precision, evidence, structure, clarity",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6751,7 +6751,7 @@
       "moduleId": "scholarly-voice-and-revision",
       "options": [
         "Only the number of citations",
-        "Check precision, evidence, structure, and clarity",
+        "Check precision, evidence, structure, clarity",
         "Only spelling",
         "Only sentence length"
       ],
@@ -6770,11 +6770,11 @@
       "timePerQuestion": 90,
       "topicId": "scholarly-revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
-      "answer": "Broader evidence is needed before generalizing",
+      "answer": "More evidence is needed before generalizing",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6788,7 +6788,7 @@
       "options": [
         "Therefore, the study proves all cases",
         "Therefore, no further evidence matters",
-        "Broader evidence is needed before generalizing",
+        "More evidence is needed before generalizing",
         "Therefore, everyone must use it"
       ],
       "provenance": {
@@ -6806,7 +6806,7 @@
       "timePerQuestion": 90,
       "topicId": "scholarly-revision",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-scholarly-revision",
@@ -6846,7 +6846,7 @@
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "It can identify the common finding while noting that context may affect how broadly it applies",
+      "answer": "Identify the common finding and context limits",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6859,7 +6859,7 @@
       "moduleId": "synthesis-across-sources",
       "options": [
         "It can claim reading causes every vocabulary gain",
-        "It can identify the common finding while noting that context may affect how broadly it applies",
+        "Identify the common finding and context limits",
         "It can treat the settings as irrelevant",
         "It can choose one study without comparison"
       ],
@@ -6878,11 +6878,11 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "The common finding may vary by age or context",
+      "answer": "The finding may vary by age or context",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6896,7 +6896,7 @@
       "options": [
         "Age never matters",
         "The smaller effect should be ignored",
-        "The common finding may vary by age or context",
+        "The finding may vary by age or context",
         "Both studies prove exactly the same effect"
       ],
       "provenance": {
@@ -6914,11 +6914,11 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "Identify the meaningful relationship among their claims, evidence, or contexts",
+      "answer": "Identify the relationship between sources",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6933,7 +6933,7 @@
         "Copy the first source",
         "Summarize each source without comparison",
         "Choose the longer source",
-        "Identify the meaningful relationship among their claims, evidence, or contexts"
+        "Identify the relationship between sources"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -6950,11 +6950,11 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "Different evidence can show how the conclusion is supported and where its limits may differ",
+      "answer": "Different evidence can reveal different limits",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -6966,7 +6966,7 @@
       "levelId": "L1",
       "moduleId": "synthesis-across-sources",
       "options": [
-        "Different evidence can show how the conclusion is supported and where its limits may differ",
+        "Different evidence can reveal different limits",
         "Different evidence makes the conclusion invalid",
         "Evidence types never matter",
         "The source with more pages wins"
@@ -6986,11 +6986,11 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "Both support healthier meals but emphasize different priorities",
+      "answer": "Both support healthier meals, with different priorities",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -7003,7 +7003,7 @@
       "moduleId": "synthesis-across-sources",
       "options": [
         "The viewpoints cannot be compared",
-        "Both support healthier meals but emphasize different priorities",
+        "Both support healthier meals, with different priorities",
         "Both mention meals, so they are identical",
         "Only the first viewpoint matters"
       ],
@@ -7022,11 +7022,11 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "The different scope affects how broadly their findings can be compared or generalized",
+      "answer": "Scope affects how broadly findings generalize",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -7040,7 +7040,7 @@
       "options": [
         "The national source is automatically correct",
         "Sample scope does not matter",
-        "The different scope affects how broadly their findings can be compared or generalized",
+        "Scope affects how broadly findings generalize",
         "The one-school source is automatically useless"
       ],
       "provenance": {
@@ -7058,11 +7058,11 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "The writer must explain how the sources relate to the question",
+      "answer": "Explain how the sources relate",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -7077,7 +7077,7 @@
         "Alternating summaries is always too short",
         "Sources should never be summarized",
         "Synthesis must use only one source",
-        "The writer must explain how the sources relate to the question"
+        "Explain how the sources relate"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -7094,11 +7094,11 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "Different time horizons may explain the apparent disagreement",
+      "answer": "Different time horizons may explain disagreement",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -7110,7 +7110,7 @@
       "levelId": "L1",
       "moduleId": "synthesis-across-sources",
       "options": [
-        "Different time horizons may explain the apparent disagreement",
+        "Different time horizons may explain disagreement",
         "One study must be false",
         "Time horizon cannot affect results",
         "The results should simply be averaged"
@@ -7130,11 +7130,11 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "It states an insight created by relating the sources",
+      "answer": "It states an insight from the sources",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -7147,7 +7147,7 @@
       "moduleId": "synthesis-across-sources",
       "options": [
         "It is longer than both sources",
-        "It states an insight created by relating the sources",
+        "It states an insight from the sources",
         "It uses difficult vocabulary",
         "It contains a quotation from each source"
       ],
@@ -7166,11 +7166,11 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     },
     {
       "activityId": "V-L1-S3-EXT-source-synthesis",
-      "answer": "Could the reader see what the sources collectively add to the answer.",
+      "answer": "Can the reader see what the sources add?",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "textReasoning",
       "contentModeDescription": "Use written information, conditions, evidence, or ideas to determine the strongest conclusion.",
@@ -7185,7 +7185,7 @@
         "Did the writer summarize every sentence.",
         "Are both sources the same length.",
         "Did the writer avoid making connections.",
-        "Could the reader see what the sources collectively add to the answer."
+        "Can the reader see what the sources add?"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -7202,12 +7202,12 @@
       "timePerQuestion": 90,
       "topicId": "source-synthesis",
       "track": "verbal",
-      "version": 2
+      "version": 3
     }
   ],
   "schemaVersion": "1.0",
   "sourceFile": "content/Reasoning/question-banks/stages/L1-S3-reasoning-question-bank.json",
-  "sourceFingerprint": "70749448d4f2370aae80f8ae15630fab7783149b3a7b635251c9018edb3ff33b",
+  "sourceFingerprint": "a6caab53ba1f7f58c3e159f1d10f2fa181492ba112eba12dcf4d80752966bfe8",
   "stageId": "S3",
-  "version": 2
+  "version": 3
 }

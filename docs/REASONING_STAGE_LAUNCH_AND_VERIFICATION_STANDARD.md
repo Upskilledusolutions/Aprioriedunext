@@ -302,11 +302,11 @@ A Ready deployment is evidence of successful deployment, not evidence of Stage a
 
 Work proceeds one Stage at a time.
 
-### 5A. Reusable Analytics implementation gate
+### 5A. Reusable Analytics implementation gate — COMPLETE
 
-Before Level 1 · Stage 3 is accepted, implement and live-verify the reusable Stage Analytics selector and stage-aware reporting model.
+The reusable Stage Analytics selector and stage-aware reporting model were implemented and owner quick-checked for Stages 1–2 before Stage 3 acceptance.
 
-This is a **one-time shared Analytics capability**. Once verified, future accepted Stages do not need a separate Analytics build. Each Stage launch must instead verify that:
+This is a **one-time shared Analytics capability**. Future accepted Stages do not need a separate Analytics build. Each Stage launch must instead verify that:
 - the Stage carries correct Level/Stage metadata in progress and persisted attempts;
 - the accepted Stage appears in the learner's selector when authorized;
 - selecting that Stage renders the same Analytics feature set using only that Stage's data;
@@ -314,7 +314,7 @@ This is a **one-time shared Analytics capability**. Once verified, future accept
 
 This Analytics gate is inserted before Stage 3 acceptance because it becomes the reusable reporting mechanism for all subsequent Stages.
 
-The current sequence is one Stage at a time. Level 1 · Stage 1 is accepted; the backend access/persistence foundation has been implemented, deployed and owner-checked; Level 1 · Stage 2 is implemented and quick-checked but remains pending comprehensive owner verification. Do not start the next Stage until the current Stage is accepted.
+The current sequence is one Stage at a time. Level 1 · Stage 1 is accepted and Level 1 · Stage 2 is owner-approved after live quick-check. The reusable Analytics selector is also owner-quick-checked for Stages 1–2. Level 1 · Stage 3 remains the active Stage workstream and cannot be marked accepted until its deployment and complete live verification are complete.
 
 The **manual Reasoning Level-access implementation** is the first Reasoning-specific backend feature after the backend foundation. The approved identifiers are `reasoningL1`–`reasoningL9`, and access is selective rather than progressive: any individual level may be assigned directly without prerequisite Level identifiers. The **analytics persistence foundation** is a separate backend/data task afterward. It must establish durable question-attempt storage using only fields the audited backend can support, verify capture and separation from Foreign Languages, and then enable the richer question-level/historical analytics. Stage 2 implementation does not begin until Stage 1 has passed its acceptance gate and both backend sequences are complete.
 

@@ -192,7 +192,7 @@ Required behavior:
 
 ### 10C. Analytics implementation timing for future Stages
 
-Build the stage-selection capability **once, before Level 1 · Stage 3 acceptance**. Do not build a separate Analytics UI for Stage 3, Stage 4, or later Stages.
+Build the stage-selection capability **once, before Level 1 · Stage 3 acceptance**. **COMPLETE:** the capability is implemented and owner quick-checked for Stages 1–2. Do not build a separate Analytics UI for Stage 3, Stage 4, or later Stages.
 
 For each later Stage/Level, the normal Stage launch process should only require:
 1. the Stage's verified progress/activity data and persisted attempt records to carry the correct Level/Stage identifiers;
@@ -203,7 +203,7 @@ A new bespoke Analytics implementation is required only if a future product-appr
 
 ### 10A. Reasoning Analytics visual presentation standard
 
-The existing analytics features form the accepted baseline Reasoning-specific analytics experience. The required next enhancement is a **reusable stage-scoped Analytics selector** that must be implemented and live-verified before Level 1 · Stage 3 is accepted. This is an analytics-view enhancement, not a separate analytics system.
+The existing analytics features form the accepted baseline Reasoning-specific analytics experience. The **reusable stage-scoped Analytics selector is implemented and owner quick-checked for Stages 1–2** and is now the shared reporting mechanism for Stage 3 and later accepted Stages.
 
 Required visual elements:
 - prominent 3D-styled **overall Reasoning circular progress chart**;
@@ -244,4 +244,4 @@ The durable question-attempt persistence foundation is also implemented and depl
 
 ### Current release state
 
-Authorization, durable-attempt persistence and the current analytics expansion are implemented, deployed and owner-checked. Only recorded, supported data may be used. New Stage/Level data is added cumulatively after that Stage/Level passes its own acceptance gate.
+Authorization, durable-attempt persistence and the stage-selectable Analytics expansion are implemented, deployed and owner-checked for the currently released Stages. Only recorded, supported data may be used. Stage 3 is wired into the reusable Analytics model but remains intentionally unreleased until Stage 3 acceptance.

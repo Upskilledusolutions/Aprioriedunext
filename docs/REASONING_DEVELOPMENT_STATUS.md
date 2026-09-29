@@ -34,8 +34,8 @@ Historical files record past work and do not override the current standards.
 | Stage | Explore / Extend | State |
 |---|---|---|
 | L1-S1 | 5 / 3 | **ACCEPTED** |
-| L1-S2 | 5 / 3 | **Quality benchmark PASS: 28.7% unique-longest correct answers — pending post-remediation production verification** |
-| L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 complete; Checkpoint 4 audited — remediation required** |
+| L1-S2 | 5 / 3 | **ACCEPTED after owner live quick-check** |
+| L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 complete; Checkpoint 4 quality PASS — deployment/live verification pending** |
 | L1-S4 | 5 / 4 | Future scope; preserve inventory |
 | L1-S5 | 5 / 5 | Future scope; preserve inventory |
 | L1-S6 | 5 / 5 | Future scope; preserve inventory |
@@ -59,6 +59,15 @@ The learner-facing Stage and Track progress model is Activity-based. The current
 - No Stage 4–6 implementation was changed.
 
 **Checkpoint 1 — Human-editable Stage source: COMPLETE.**
+
+**Checkpoint 4 — Question-quality verification: COMPLETE / PASS.**
+
+- Final calibrated learner-facing scope: 20 Activities, 200 questions; 100 Quantitative and 100 Verbal.
+- Unique-longest correct-answer rate: **46/200 = 23.0% overall**, **26/100 = 26.0% Quantitative**, **20/100 = 20.0% Verbal**.
+- Tied-for-longest correct-answer cases: **45 overall; 36 Quantitative; 9 Verbal**; these are reported separately and do not count as unique-longest clues.
+- No Stage 3 `lengthCueDetected` flags remain after remediation.
+- Every Stage 3 Activity delivers exactly 10 questions; no duplicate delivered Question IDs were found.
+- The preferred <30% benchmark is passed for the full Stage and both tracks; the hard <50% acceptance ceiling is satisfied.
 
 ## Stage 2 answer-length clue audit record
 
@@ -93,18 +102,18 @@ The learner-facing Stage and Track progress model is Activity-based. The current
 
 The project rule is **below 50% required; below 30% preferred**. The post-remediation result is below 30% for the full Stage and for both tracks. The question-quality benchmark is therefore passed. Because the source content changed after the earlier live verification, Stage 2 remains pending post-remediation deployment and complete live production verification before its acceptance state is restored.
 
-## Stage 2 acceptance and Analytics prerequisite
+## Stage 2 acceptance and Stage Analytics verification
 
 **Stage 2 acceptance decision — 2026-09-29:** Owner approved Level 1 · Stage 2 after a live quick-check of the post-remediation production deployment. This records the Stage 2 curriculum/content release as accepted.
 
-**New prerequisite before Stage 3 completion:** implement a reusable **Stage Analytics selector** on the dedicated Reasoning Analytics page. The selector must show only Reasoning Stages that are both released/accepted and authorized for the current learner, allow selection of a particular Stage, and render the existing Analytics feature set using only that Stage's recorded progress and question-attempt data. For a `type = "all"` account, all released/accepted Stages available to that account must be selectable.
+**Stage Analytics selector verification — 2026-09-29:** Owner completed a live quick-check confirming the reusable Stage selector and Stage 2 Analytics view work as intended. Stage 1 and Stage 2 remain separate reporting scopes, and the shared Analytics feature set is retained.
 
-The selector is a reusable analytics capability, not a separate implementation for each Stage. It must be built once before Stage 3 acceptance and then automatically support later accepted Stages through the same stage-aware analytics model.
+The reusable selector is now a completed shared capability. Stage 3 is wired into the same Analytics configuration but remains intentionally unreleased until Stage 3 itself is accepted.
 
 ## Current next step
 
-**Next:** implement the reusable Stage Analytics selector and stage-scoped analytics model; deploy it through the normal validation/deployment/live-verification sequence. Only after this feature is live-verified should Stage 3 Checkpoint 4 work resume toward Stage 3 acceptance.
+**Next:** complete Stage 3 source/canonical synchronization, run pre-deployment validation, confirm the resulting Production deployment, and perform complete live verification before restoring Stage 3 acceptance. After Stage 3 acceptance, flip its Analytics release state so Stage 3 automatically appears in the existing selector.
 
-After the analytics selector is verified, future Stage launches should add the newly accepted Stage to the selector/data scope automatically rather than create a new analytics UI for that Stage.
+Future Stage launches should add the newly accepted Stage to the existing selector through the shared stage-aware configuration rather than create a new Analytics UI.
 
-Checkpoint 3 structural learner-facing reconciliation is complete for Level 1 Stage 3. Both Quantitative and Verbal expose all 10 approved Stage 3 modules and all 10 approved Activities per track (5 Explore + 5 Extend). Each module resolves its Activity ID through the shared Activity registry; the Stage dashboard exposes all Activities; module pages resolve linked Activities and provide Previous/Next navigation across the complete module sequence. Canonical Stage 3 contains all 20 corresponding Activity IDs with exactly 10 questions per Activity. No placeholder or duplicate Activity mapping was found. The next step is Stage 3 Checkpoint 4 question-quality verification.
+Checkpoint 3 structural learner-facing reconciliation is complete for Level 1 Stage 3. Checkpoint 4 quality verification is now complete and passed as recorded above. Both Quantitative and Verbal expose all 10 approved Stage 3 modules and all 10 approved Activities per track (5 Explore + 5 Extend). Each module resolves its Activity ID through the shared Activity registry; the Stage dashboard exposes all Activities; module pages resolve linked Activities and provide Previous/Next navigation across the complete module sequence. Canonical Stage 3 contains all 20 corresponding Activity IDs with exactly 10 questions per Activity. No placeholder or duplicate Activity mapping was found. The next step is Stage 3 canonical synchronization, prebuild validation, deployment and complete live verification.
