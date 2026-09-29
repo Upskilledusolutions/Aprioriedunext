@@ -3,6 +3,7 @@
 **Status:** Approved product/UX operational requirement  
 **Approved:** 2026-09-22  
 **Applies to:** Reasoning Levels 1–9, Stages 1–6
+**Last updated:** 2026-09-29
 
 ## 1. Purpose
 
@@ -62,6 +63,9 @@ The learner should be able to distinguish detailed Quantitative and Verbal resul
 
 ## 5. Progressive analytics growth
 
+**Progress calculation:** learner-facing Stage and cumulative track percentages are Activity-based. Explore and Extend both contribute. Module-completion flags are separate and must not determine Stage or cumulative track percentages.
+
+
 Every accepted Stage must contribute its verified data to the learner's cumulative Reasoning analytics.
 
 ```
@@ -82,9 +86,7 @@ Earlier verified records must not be overwritten when a new Stage or Level is ad
 
 The analytics model should be designed so that adding a new Activity/question set does not require a redesign of the profile or reporting system.
 
-The agreed sequence for the richer historical analytics is:
-
-**Stage 1 owner verification → Stage 1 acceptance → backend inspection → manual Level authorization implementation/deployment → durable question-attempt persistence implementation/deployment → live authorization/capture/separation verification → expand analytics → Stage 2 implementation.**
+The durable authorization and question-attempt foundation is now implemented, deployed and owner-checked. Analytics may expand only from recorded/supportable data as each Stage/Level is accepted; unsupported historical values must not be reconstructed.
 
 The system begins accumulating detailed history from the point at which the new persistence is activated. Unsupported historical values are not reconstructed or estimated. Manual Level authorization has been implemented before this persistence foundation; live authorization/capture verification is now the remaining gate.
 
@@ -159,7 +161,7 @@ The backend/admin storage and authorization implementation has now been audited 
 
 ## 10. Analytics expansion after the persistence foundation
 
-The richer historical/question-level analytics are scheduled after Stage 1 acceptance and before Level 1 · Stage 2 implementation. The first step is durable question-attempt persistence; once the new capture is verified, the same Reasoning Analytics experience can expand to:
+The richer question-level analytics now expand through the same cumulative Reasoning Analytics model as verified data becomes available. The first persistence foundation is already deployed and owner-checked. The same experience can expand to:
 
 - attempt-level question history;
 - performance by question difficulty;
@@ -215,8 +217,6 @@ The durable question-attempt persistence foundation is also implemented and depl
 - Ownership: authenticated server session
 - Idempotency: learner + activity-attempt + question combination
 
-### Release verification gate
+### Current release state
 
-The authorization/persistence implementation and current analytics expansion have been deployed and owner-checked through the production learner flow. Only recorded, supported data may be used for analytics. Unsupported historical values must not be reconstructed.
-
-The next approved implementation step is the visual refinement in Section 10A, followed by Level 1 · Stage 2.
+Authorization, durable-attempt persistence and the current analytics expansion are implemented, deployed and owner-checked. Only recorded, supported data may be used. New Stage/Level data is added cumulatively after that Stage/Level passes its own acceptance gate.
