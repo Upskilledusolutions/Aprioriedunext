@@ -9,8 +9,9 @@ Reasoning follows the **single sequential Stage/Level build → deployment → l
 `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`
 
 - **Level 1 · Stage 1:** **ACCEPTED** after owner live verification.
-- **Level 1 · Stage 2:** **ACCEPTED after owner live quick-check** on the post-remediation production deployment (commit `84ffd50e9201d5e98e5116e2e90de1f695f44425`). The final runtime delivery audit is 46/160 = 28.7% unique-longest correct answers, below the <30% preferred benchmark. **Stage 3 remains blocked until the reusable Stage Analytics selector is implemented and live-verified.**
-- **Level 1 · Stage 3:** baseline audit completed and human-editable Stage source prepared; **question-quality verification, learner-facing release, deployment and live verification remain pending**.
+- **Level 1 · Stage 2:** **ACCEPTED after owner live quick-check** on the post-remediation production deployment (commit `84ffd50e9201d5e98e5116e2e90de1f695f44425`). The final runtime delivery audit is 46/160 = 28.7% unique-longest correct answers, below the <30% preferred benchmark.
+- **Level 1 · Stage 3:** **ACCEPTED after owner live quick-check** on the production deployment (commit `811d0d2f05135b9fa24b96b5b2af507c92c19356`). Stage 3 is now released in the shared Stage Analytics selector.
+
 - **Stage 4 and later:** blocked until the current Stage is comprehensively verified and accepted.
 - Backend Reasoning authorization, durable question-attempt persistence and the current analytics foundation are implemented, deployed and owner-checked.
 - Reasoning data and progress remain separate from Foreign Languages.
@@ -35,7 +36,7 @@ Historical files record past work and do not override the current standards.
 |---|---|---|
 | L1-S1 | 5 / 3 | **ACCEPTED** |
 | L1-S2 | 5 / 3 | **ACCEPTED after owner live quick-check** |
-| L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 complete; Checkpoint 4 quality PASS — deployment/live verification pending** |
+| L1-S3 | 5 / 5 | **ACCEPTED after owner live quick-check** |
 | L1-S4 | 5 / 4 | Future scope; preserve inventory |
 | L1-S5 | 5 / 5 | Future scope; preserve inventory |
 | L1-S6 | 5 / 5 | Future scope; preserve inventory |
@@ -97,24 +98,26 @@ The learner-facing Stage and Track progress model is Activity-based. The current
 
 **Tied-for-longest correct-answer cases:** 41 overall; 37 Quantitative; 4 Verbal. These are reported separately and are not counted as unique-longest clues.
 
-**Benchmark result:** PASS — overall and both tracks are strictly below the <30% preferred benchmark. The source edits are complete; the acceptance gate remains open only for repository prebuild validation, the resulting deployment, and complete post-remediation live verification.
+**Benchmark result:** PASS — overall and both tracks are strictly below the <30% preferred benchmark. Stage 2 acceptance after the post-remediation production quick-check is recorded above.
 
 **Structural checks:** 16 Activities; exactly 10 questions per Activity; 160 questions total; no duplicate Question IDs detected in the reviewed source delivery sets.
 
-The project rule is **below 50% required; below 30% preferred**. The post-remediation result is below 30% for the full Stage and for both tracks. The question-quality benchmark is therefore passed. Because the source content changed after the earlier live verification, Stage 2 remains pending post-remediation deployment and complete live production verification before its acceptance state is restored.
+The project rule is **below 50% required; below 30% preferred**. The post-remediation result is below 30% for the full Stage and for both tracks. The question-quality benchmark is therefore passed. Owner acceptance of the post-remediation production deployment was recorded on 2026-09-29 after a live quick-check.
 
 ## Stage 2 acceptance and Stage Analytics verification
 
 **Stage 2 acceptance decision — 2026-09-29:** Owner approved Level 1 · Stage 2 after a live quick-check of the post-remediation production deployment. This records the Stage 2 curriculum/content release as accepted.
 
-**Stage Analytics selector verification — 2026-09-29:** Owner completed a live quick-check confirming the reusable Stage selector and Stage 2 Analytics view work as intended. Stage 1 and Stage 2 remain separate reporting scopes, and the shared Analytics feature set is retained.
+**Stage Analytics selector verification — 2026-09-29:** Owner completed live quick-checks confirming the reusable Stage selector and Stage-specific Analytics views for Stages 1–2. Stage 1, Stage 2 and Stage 3 remain separate reporting scopes, and the shared Analytics feature set is retained.
 
-The reusable selector is now a completed shared capability. Stage 3 is wired into the same Analytics configuration but remains intentionally unreleased until Stage 3 itself is accepted.
+The reusable selector is a completed shared capability. Stage 3 has now been released through the same configuration after owner approval.
 
 ## Current next step
 
-**Next:** complete Stage 3 source/canonical synchronization, run pre-deployment validation, confirm the resulting Production deployment, and perform complete live verification before restoring Stage 3 acceptance. After Stage 3 acceptance, flip its Analytics release state so Stage 3 automatically appears in the existing selector.
+**Next:** perform the focused Level 1 Stages 1–3 production checkpoint required after three accepted Stages, covering navigation, module visibility, activity launch, core scoring/progress and obvious runtime errors. Do not begin Stage 4 until this checkpoint is recorded.
 
 Future Stage launches should add the newly accepted Stage to the existing selector through the shared stage-aware configuration rather than create a new Analytics UI.
 
-Checkpoint 3 structural learner-facing reconciliation is complete for Level 1 Stage 3. Checkpoint 4 quality verification is now complete and passed as recorded above. Both Quantitative and Verbal expose all 10 approved Stage 3 modules and all 10 approved Activities per track (5 Explore + 5 Extend). Each module resolves its Activity ID through the shared Activity registry; the Stage dashboard exposes all Activities; module pages resolve linked Activities and provide Previous/Next navigation across the complete module sequence. Canonical Stage 3 contains all 20 corresponding Activity IDs with exactly 10 questions per Activity. No placeholder or duplicate Activity mapping was found. The next step is Stage 3 canonical synchronization, prebuild validation, deployment and complete live verification.
+Checkpoint 3 structural learner-facing reconciliation is complete for Level 1 Stage 3. Checkpoint 4 quality verification is complete and passed as recorded above. Both Quantitative and Verbal expose all 10 approved Stage 3 modules and all 10 approved Activities per track (5 Explore + 5 Extend). Each module resolves its Activity ID through the shared Activity registry; the Stage dashboard exposes all Activities; module pages resolve linked Activities and provide Previous/Next navigation across the complete module sequence. Canonical Stage 3 contains all 20 corresponding Activity IDs with exactly 10 questions per Activity. No placeholder or duplicate Activity mapping was found.
+
+**Three-stage checkpoint status:** Level 1 Stages 1–3 are now individually accepted. The focused three-stage production checkpoint is the next required gate before Stage 4.
