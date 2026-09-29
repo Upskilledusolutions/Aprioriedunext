@@ -91,6 +91,23 @@ Courses
 
 The Reasoning Analytics entry in the authenticated name menu is separate from the Reasoning Dashboard track-selection flow.
 
+### Stage-selectable Reasoning Analytics flow
+
+```text
+Reasoning Analytics
+  ↓
+Stage selector
+  ├── released/authorized Stage 1
+  ├── released/authorized Stage 2
+  └── other released/authorized Stages as they are accepted
+        ↓
+selected Stage Analytics
+        ↓
+same Analytics feature set, filtered to the selected Stage only
+```
+
+The selector must not show a Stage that is unreleased or unauthorized for the learner. For an account with `type = "all"`, all released/accepted Stages in the current Reasoning product scope are selectable.
+
 ## Target flow for two products
 
 The desired future flow is:
