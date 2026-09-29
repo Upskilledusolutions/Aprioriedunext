@@ -34,11 +34,7 @@ const STAGE2_VERBAL_LENGTH_REWRITES={
   ]
 };
 
-const STAGE3_OPTION_CORRECTIONS = {
-  "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-generalizing-patterns-09": [
-    ["38", "40"],
-  ],
-};
+const STAGE3_OPTION_CORRECTIONS = {};
 
 const STAGE3_VERBAL_LENGTH_REWRITES = {
   "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-07": [

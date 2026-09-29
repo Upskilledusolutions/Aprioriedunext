@@ -31,7 +31,7 @@ const quant={
 ["A rule gives output 4 more than twice the input. What is the output for 18?",["36","40","42","44"],"40","Twice 18 is 36, then adding 4 gives 40.","computation",6],
 ["A sequence increases by 3, then 5, then 7, then 9. Starting at 4, what is the fifth term?",["24","26","28","30"],"28","The terms are 4, 7, 12, 19, 28.","computationReasoning",7],
 ["A pattern has term n equal to 3n + 2. What is term 12?",["34","36","38","40"],"38","3 × 12 + 2 = 38.","computation",7],
-["A growing shape uses 6 blocks in step 1 and adds 4 blocks each step. Which total is step 9?",["34","38","38","42"],"38","Step 9 has 6 + 8 × 4 = 38 blocks.","computation",7],
+["A growing shape uses 6 blocks in step 1 and adds 4 blocks each step. Which total is step 9?",["34","38","40","42"],"38","Step 9 has 6 + 8 × 4 = 38 blocks.","computation",7],
 ["A pattern is claimed to add 5 each time: 8, 13, 18, 24. What is the strongest conclusion?",["The rule is confirmed by every term","The fourth term breaks the stated rule","The first term must be changed","Any increasing sequence has the same rule"],"The fourth term breaks the stated rule","18 + 5 should be 23, not 24, so the displayed sequence does not follow the proposed rule throughout.","computationReasoning",7],
 ],
 "Q-L1-S3-EXP-logical-reasoning":[

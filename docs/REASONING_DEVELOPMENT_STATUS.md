@@ -62,10 +62,11 @@ The learner-facing Stage and Track progress model is Activity-based. The current
 
 **Checkpoint 4 — Question-quality verification: COMPLETE / PASS.**
 
-- Final calibrated learner-facing scope: 20 Activities, 200 questions; 100 Quantitative and 100 Verbal.
+- Final calibrated learner-facing scope: 20 Activities, 200 questions; 100 Quantitative and 100 Verbal. The final runtime delivery remains 20 Activities × 10 questions.
 - Unique-longest correct-answer rate: **46/200 = 23.0% overall**, **26/100 = 26.0% Quantitative**, **20/100 = 20.0% Verbal**.
 - Tied-for-longest correct-answer cases: **45 overall; 36 Quantitative; 9 Verbal**; these are reported separately and do not count as unique-longest clues.
 - No Stage 3 `lengthCueDetected` flags remain after remediation.
+- Content-integrity follow-up: corrected the keyed answer/options for `...generalizing-patterns-09`; the mathematically correct answer is 38, with four distinct options.
 - Every Stage 3 Activity delivers exactly 10 questions; no duplicate delivered Question IDs were found.
 - The preferred <30% benchmark is passed for the full Stage and both tracks; the hard <50% acceptance ceiling is satisfied.
 

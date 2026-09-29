@@ -3,7 +3,7 @@
   "bankId": "reasoning-L1-S3",
   "levelId": "L1",
   "stageId": "S3",
-  "version": 3,
+  "version": 4,
   "tracks": [
     "quantitative",
     "verbal"
@@ -963,7 +963,7 @@
     },
     {
       "activityId": "Q-L1-S3-EXP-generalizing-patterns",
-      "answer": "40",
+      "answer": "38",
       "calibrationStatus": "Stage 3 standardized delivery set",
       "contentMode": "computation",
       "contentModeDescription": "Calculate or transform numerical information, then check the result.",
@@ -975,10 +975,10 @@
       "levelId": "L1",
       "moduleId": "generalizing-patterns",
       "options": [
-        "40",
-        "42",
         "34",
-        "40"
+        "38",
+        "40",
+        "42"
       ],
       "provenance": {
         "migrationState": "migrated-stage-3",
@@ -993,7 +993,7 @@
       "timePerQuestion": 90,
       "topicId": "generalization",
       "track": "quantitative",
-      "version": 3
+      "version": 4
     },
     {
       "activityId": "Q-L1-S3-EXP-generalizing-patterns",
