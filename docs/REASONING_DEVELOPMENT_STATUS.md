@@ -157,17 +157,17 @@ The Stage 2 and Stage 3 remediation issues are now converted into reusable relea
 - Quantitative and Verbal each contain 9 distinct Stage 4 Activities: 5 Explore + 4 Extend.
 - No learner-facing Stage 4 exposure or acceptance was made by this checkpoint.
 
-### Checkpoint 4 — Canonical delivery/readiness validation: BLOCKED — required content expansion
+### Checkpoint 4 — Canonical delivery/readiness validation: COMPLETE
 
-- A fail-closed canonical delivery boundary was added at `src/Data/Reasoning/stage4CanonicalDelivery.js`.
-- The boundary intentionally has **no fallback** to `questionBankStage4.js` and requires exactly 10 canonical questions per Activity before delivery can proceed.
-- Current canonical Stage 4 inventory is **72 questions across 18 Activities = 4 per Activity**.
-- Therefore the canonical records cannot yet produce the required 10-question learner-facing set: **6 additional questions are required for each of the 18 Activities (108 additional questions total)**.
-- No Stage 4 learner-facing exposure, runtime wiring, deployment or acceptance was made.
+- Expanded the Stage 4 human-editable source from 72 to **180 questions across 18 Activities** — exactly **10 questions per Activity**.
+- Resynchronized the canonical bank to the same **180 questions**, with source fingerprint `8942797750acf776e86d0aaaddd71c26e34319916ff905d697a787fe8e3d7fce`.
+- Delivery validation passed: every Stage 4 Activity has exactly 10 canonical questions; no duplicate Question IDs or four-option integrity errors were found.
+- The fail-closed delivery boundary at `src/Data/Reasoning/stage4CanonicalDelivery.js` requires the 10-question canonical set and has **no fallback** to `questionBankStage4.js`.
+- Stage 4 remains **non-learner-facing and unaccepted**. No learner-facing deployment was made by this checkpoint.
 
 ### Current next step
 
-**Next:** Expand the Stage 4 human-editable source to the required 10-question delivery set for every Activity, then resynchronize canonical records and rerun Checkpoint 4. Do not use the legacy bank as a runtime fallback and do not expose Stage 4 until the canonical delivery gate passes.
+**Next:** Run the required Stage 4 question-quality/final-delivery validation and then the documented learner-facing production verification gate. Do not mark Stage 4 accepted until live production verification is explicitly recorded.
 
 
 Future Stage launches should add the newly accepted Stage to the existing selector through the shared stage-aware configuration rather than create a new Analytics UI.
