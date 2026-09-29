@@ -3,8 +3,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useRouter } from "next/router";
-import { STAGE1_MODULES } from "../../../Data/Reasoning/stage1Modules";
-import { getTotalReasoningCompleted, getTrackPercent, readReasoningProgress } from "../../../utils/reasoningProgress";
+import { getActivities } from "../../../Data/Reasoning/activities";
+import { getTrackActivityProgress, readReasoningProgress } from "../../../utils/reasoningProgress";
 
 const tracks = [
   { icon: "∑", title: "Quantitative Skills", text: "Develop quantitative reasoning from strong foundations through advanced problem solving, proof and mathematical research.", route: "/Reasoning/Quantitative/Dashboard", action: "Open Quantitative Skills" },
@@ -29,13 +29,15 @@ export default function ReasoningDashboard() {
   }, [isAuthenticated, user, router]);
 
 
-  const quantitativePercent = getTrackPercent(progress, "quantitative", 5, STAGE1_MODULES.quantitative);
-  const verbalPercent = getTrackPercent(progress, "verbal", 5, STAGE1_MODULES.verbal);
-  const completed = getTotalReasoningCompleted(progress, 5, STAGE1_MODULES);
-  const total = 10;
-  const overall = Math.round((completed / total) * 100);
-  const continueTrack = quantitativePercent < 100 ? "Quantitative" : "Verbal";
-  const continueRoute = quantitativePercent < 100 ? "/Reasoning/Quantitative/Dashboard" : "/Reasoning/Verbal/Dashboard";
+  const quantitativeActivities = [...getActivities({ track: "quantitative", levelId: "L1", stageId: "S1" }), ...getActivities({ track: "quantitative", levelId: "L1", stageId: "S2" })];
+  const verbalActivities = [...getActivities({ track: "verbal", levelId: "L1", stageId: "S1" }), ...getActivities({ track: "verbal", levelId: "L1", stageId: "S2" })];
+  const quantitativeProgress = getTrackActivityProgress(progress, "quantitative", quantitativeActivities);
+  const verbalProgress = getTrackActivityProgress(progress, "verbal", verbalActivities);
+  const totalCompleted = quantitativeProgress.completedActivities + verbalProgress.completedActivities;
+  const totalActivities = quantitativeProgress.totalActivities + verbalProgress.totalActivities;
+  const overall = totalActivities ? Math.round((totalCompleted / totalActivities) * 100) : 0;
+  const continueTrack = quantitativeProgress.nextActivity ? "Quantitative" : verbalProgress.nextActivity ? "Verbal" : "Quantitative";
+  const continueRoute = quantitativeProgress.nextActivity ? `/Reasoning/Activity/${quantitativeProgress.nextActivity.id}` : verbalProgress.nextActivity ? `/Reasoning/Activity/${verbalProgress.nextActivity.id}` : "/Reasoning/Quantitative/Dashboard";
 
   return (
     <>
@@ -43,13 +45,13 @@ export default function ReasoningDashboard() {
       <main style={styles.page}><div style={styles.wrapper}>
         <div style={styles.top}><div><p style={styles.eyebrow}>Reasoning & Academic Skills</p><h1 style={styles.title}>{user?.name ? `Welcome, ${user.name}.` : "Your reasoning journey."}</h1><p style={styles.intro}>Choose a skill path, continue from your current stage and gradually build the habits needed for deeper academic work.</p></div><Link href="/ProductSelection" style={styles.switch}>← Choose another product</Link></div>
         <div style={styles.profile}>
-          <div style={styles.stat}><div style={styles.statLabel}>Overall Stage 01</div><div style={styles.statValue}>{overall}%</div></div>
-          <div style={styles.stat}><div style={styles.statLabel}>Quantitative</div><div style={styles.statValue}>{quantitativePercent}%</div></div>
-          <div style={styles.stat}><div style={styles.statLabel}>Verbal</div><div style={styles.statValue}>{verbalPercent}%</div></div>
-          <div style={styles.stat}><div style={styles.statLabel}>Modules completed</div><div style={styles.statValue}>{completed} / {total}</div></div>
+          <div style={styles.stat}><div style={styles.statLabel}>Overall current progress</div><div style={styles.statValue}>{overall}%</div></div>
+          <div style={styles.stat}><div style={styles.statLabel}>Quantitative</div><div style={styles.statValue}>{quantitativeProgress.percent}%</div></div>
+          <div style={styles.stat}><div style={styles.statLabel}>Verbal</div><div style={styles.statValue}>{verbalProgress.percent}%</div></div>
+          <div style={styles.stat}><div style={styles.statLabel}>Activities completed</div><div style={styles.statValue}>{totalCompleted} / {totalActivities}</div></div>
         </div>
         <div style={styles.grid}>{tracks.map((track) => <section key={track.title} style={styles.card}><div style={styles.icon}>{track.icon}</div><h2 style={styles.cardTitle}>{track.title}</h2><p style={styles.cardText}>{track.text}</p><Link href={track.route} style={styles.button}>{track.action}</Link></section>)}</div>
-        <div style={styles.note}><strong>Continue Learning:</strong> Your next step is in {continueTrack}. <Link href={continueRoute} style={{ color: "var(--blue)", fontWeight: 800 }}>Open {continueTrack} Dashboard →</Link></div>
+        <div style={styles.note}><strong>Continue Learning:</strong> Your next step is in {continueTrack}. <Link href={continueRoute} style={{ color: "var(--blue)", fontWeight: 800 }}>Continue →</Link></div>
       </div></main>
     </>
   );
