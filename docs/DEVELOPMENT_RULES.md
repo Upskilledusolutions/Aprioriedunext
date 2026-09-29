@@ -315,7 +315,7 @@ The following are approved learner-facing requirements:
 - The authenticated name menu labels the Reasoning entry **Reasoning Analytics** and routes directly to the dedicated Reasoning Analytics experience, not to a Quantitative/Verbal selection page.
 - Remove text underlines from all links/buttons inside the authenticated name-menu dropdown only; do not change underline behaviour elsewhere in the site.
 
-For the next Reasoning Analytics implementation, do not create a placeholder or redirect-only page. Implement the actual Stage 1 analytics experience and fix the observed incorrect 100% progress state at its source. Preserve existing language functionality and Reasoning track independence.
+For the next Reasoning Analytics implementation, do not create a placeholder or redirect-only page. Implement the reusable stage-aware Analytics experience with Stage selection. Preserve the existing Analytics feature set for Stage 1 while allowing the learner to select any released/authorized Stage and view that Stage's data only. For `type = "all"`, all released/accepted Stages must be selectable. Preserve existing language functionality and Reasoning track independence. Build this shared capability once; do not create a separate Analytics implementation for each Stage.
 
 ## Current Reasoning Stage invariant
 
