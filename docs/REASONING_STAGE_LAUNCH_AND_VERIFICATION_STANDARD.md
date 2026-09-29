@@ -314,7 +314,7 @@ Work proceeds one Stage at a time.
 
 ### 5A. Reusable Analytics implementation gate — COMPLETE
 
-The reusable Stage Analytics selector and stage-aware reporting model were implemented and owner quick-checked for Stages 1–2 before Stage 3 acceptance.
+The reusable Stage Analytics selector and stage-aware reporting model were implemented, deployed and owner quick-checked for Stages 1–3 through the Stage 3 release.
 
 This is a **one-time shared Analytics capability**. Future accepted Stages do not need a separate Analytics build. Each Stage launch must instead verify that:
 - the Stage carries correct Level/Stage metadata in progress and persisted attempts;
