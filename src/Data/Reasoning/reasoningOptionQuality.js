@@ -226,18 +226,125 @@ const STAGE3_ADDITIONAL_VERBAL_LENGTH_REWRITES={
   ]
 };
 
+
+const STAGE3_FINAL_LENGTH_REWRITES = {
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-01": [["The question, position, and criteria for judging the issue","Question, position, and criteria"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-02": [["State a position, give reasons, use evidence, and consider a limitation","Position, reasons, evidence, and a limitation"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-03": [["They keep the response focused on what must be answered","They keep the response focused"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-04": [["Cost, practicality, and likely effect on students","Cost, practicality, and student impact"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-05": [["Rank the reasons and select the one most relevant to the question","Rank reasons by relevance"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-06": [["Set criteria, compare evidence, then qualify the conclusion","Compare evidence, then qualify the conclusion"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-07": [["Define practical criteria such as time, cost, and reliability","Define criteria for practicality"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-08": [["It gives each planned point a clear job in answering the question","It gives each point a clear purpose"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-09": [["A way to compare the evidence and explain which side is better supported","Compare the evidence and weigh support"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-10": [["Each planned point connects to the question and has a reason or evidence to support it","Each point links to the question and support"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-02": [["Explain what the result suggests about the claim","Explain what the result suggests"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-03": [["Point, evidence, explanation, link to the question","Point, evidence, explanation, link"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-04": [["A study comparing reading habits with home book access","Study reading habits and home book access"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-05": [["The reader may not see how the evidence supports the point","The link to the point may be unclear"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-06": [["Add a sentence explaining how the point answers the question","Explain how the point answers the question"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-07": [["The result suggests later starts may help, but the small sample limits the claim","Later starts may help, but evidence is limited"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-08": [["State the analytical point that the examples are meant to support","State the point the examples support"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-09": [["It explains the significance of information for a claim or question","It explains the significance for the claim"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-10": [["Explain both what the evidence supports and what it cannot establish","Explain both its support and its limits"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-01": [["A study measuring students' reading time","A study measuring reading time"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-02": [["Explain what the statistic suggests about the claim","Explain what the statistic suggests"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-03": [["Use it as evidence of the surveyed group's preference, not all students everywhere","Evidence of the surveyed group's view"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-04": [["Does it directly support the claim and is its source appropriate.","Does it support the claim and fit the source?"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-05": [["As an example of the author's viewpoint, with its relevance explained","Use it to show the author's viewpoint"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-06": [["Compare their methods, contexts, and findings before deciding what they show","Compare methods, contexts, and findings"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-07": [["It may be useful evidence, but the small sample limits the claim","Useful evidence, but with limited scope"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-08": [["The survey suggests that many participants preferred the new schedule, but its sample was limited","A limited survey suggests a preference"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-09": [["The connection shows why the evidence matters for the argument","It shows why the evidence matters"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-10": [["Do not use it as central evidence for that question because relevance is missing","Do not use it as central evidence"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-01": [["Both support exercise, but they explain its benefit through different mechanisms","Both support exercise for different reasons"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-02": [["Synthesis explains a relationship among ideas and why it matters","It explains relationships among ideas"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-03": [["The sources identify a potential benefit and a practical trade-off","It shows a benefit and a trade-off"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-04": [["It helps assess how broadly the shared finding may apply","It tests how broadly the finding applies"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-05": [["Both value school choice, but one emphasizes autonomy while the other emphasizes equal access","Both value choice, but stress different priorities"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-06": [["The purpose of synthesis is to use relationships among sources to develop an answer","It uses source relationships to answer"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-07": [["The difference in sample size and study design before drawing a conclusion","Compare sample size and study design"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-08": [["Both studies associate reading practice with stronger vocabulary, but one used a shorter intervention period","Both link reading to vocabulary, with different durations"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-09": [["Compare how each source defines focus and how it gathered evidence","Compare definitions and evidence gathering"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-10": [["It explains an important difference, relationship, or implication for the question","It explains a difference or implication"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-01": [["Separate or reorder the ideas so each paragraph has a clear purpose","Give each paragraph a clear purpose"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-02": [["Use more precise wording that matches the evidence","Match the wording to the evidence"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-03": [["A sentence interpreting what the evidence means for the claim","Interpret the evidence for the claim"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-04": [["The result suggests the new schedule may improve punctuality","The result suggests better punctuality"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-05": [["Keep the clearest statement and use the space for evidence or analysis","Keep the clearest statement; add analysis"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-06": [["Move the reason into the body if it is important, or remove it if it is not supported","Move or remove the unsupported reason"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-07": [["Replace it with evidence that directly addresses the paragraph's claim","Use evidence that directly addresses the claim"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-08": [["Use qualified wording and explain the conditions under which the evidence supports the claim","Qualify the claim to fit mixed evidence"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-09": [["Whether the structure, claims, evidence, and explanations form a coherent argument","Check whether reasoning forms a coherent argument"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-10": [["Add the missing comparison or revise the topic sentence to match the paragraph's actual purpose","Add the comparison or revise the topic sentence"]],
+
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-02": [["Each paragraph should add a necessary step rather than repeat earlier material","Each paragraph adds a needed step"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-03": [["Move the definition earlier so the evidence has a clear focus","Define the issue before presenting evidence"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-04": [["However, the second explanation emphasizes cost rather than convenience","However, the second explanation stresses cost"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-05": [["Group related points and use transitions to show the comparison","Group related points and signal the comparison"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-06": [["It answers the question using the developed reasoning","It answers the question from the reasoning"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-07": [["Evaluate each option under both criteria, then compare the combined evidence","Test both criteria for each option, then compare"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-08": [["Use evidence, examine limits, compare options, then conclude","Evidence, limits, comparison, conclusion"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-09": [["Condense it or replace it with the next needed reasoning step","Condense it or add the next reasoning step"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-10": [["Can a reader explain how each paragraph contributes to answering the central question.","Can each paragraph be linked to the central question?"]],
+
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-01": [["It is relevant to the claim and comes from an appropriate source","Relevant evidence from an appropriate source"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-02": [["The small sample may limit how broadly the finding can be generalized","A small sample may limit generalization"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-03": [["Use caution: recency alone does not establish credibility","Recency alone does not establish credibility"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-04": [["Its relevance to this question may be limited","Relevance may be limited"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-05": [["Compare their samples, measures, and methods before weighing the conclusions","Compare samples, measures, and methods"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-06": [["The wording may influence responses and reduce the neutrality of the evidence","Leading wording may bias responses"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-07": [["It shows an association, but not necessarily causation","It shows association, not necessarily causation"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-08": [["As a claim needing further support rather than as established evidence","Treat it as a claim needing support"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-09": [["Context can affect a finding's meaning and applicability","Context can affect meaning and applicability"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-10": [["Ask what the evidence supports, how reliable it is, and what limits its use","Check support, reliability, and limits"]],
+
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-01": [["It shows awareness of an alternative view and allows a reasoned response","It shows awareness of an alternative view"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-02": [["Some purposeful practice may reinforce learning","Purposeful practice may reinforce learning"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-03": [["It represents the opposing view accurately before explaining why it is limited or outweighed","Represent the opposing view accurately, then respond"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-04": [["The schedule could be adjusted, but capacity still needs checking","Adjust the schedule, but check capacity"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-05": [["Uniforms may reduce visible differences, but they can also limit students' choices","Uniforms can reduce differences but limit choice"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-06": [["Assess whether the evidence changes the conclusion","Assess whether evidence changes the conclusion"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-07": [["The concern is plausible, but the evidence shows only a small effect","The concern is plausible, but evidence shows a small effect"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-08": [["It shows where the opposing view has force and limits","It shows the opposing view's force and limits"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-09": [["Address that part specifically rather than treating it as a refutation of the whole thesis","Address that part without rejecting the whole thesis"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-10": [["Does it address the opposing reasoning with proportionate evidence.","Does it address the reasoning with proportionate evidence?"]],
+
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-01": [["It can identify the common finding while noting that context may affect how broadly it applies","Identify the common finding and context limits"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-02": [["The common finding may vary by age or context","The finding may vary by age or context"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-03": [["Identify the meaningful relationship among their claims, evidence, or contexts","Identify the meaningful relationship between sources"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-04": [["Different evidence can show how the conclusion is supported and where its limits may differ","Different evidence can reveal different limits"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-05": [["Both support healthier meals but emphasize different priorities","Both support healthier meals, with different priorities"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-06": [["The different scope affects how broadly their findings can be compared or generalized","Scope affects how broadly findings generalize"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-07": [["The writer must explain how the sources relate to the question","Explain how the sources relate to the question"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-08": [["Different time horizons may explain the apparent disagreement","Different time horizons may explain the disagreement"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-09": [["It states an insight created by relating the sources","It states an insight from relating the sources"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-10": [["Could the reader see what the sources collectively add to the answer.","Can the reader see what the sources add?"]],
+
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-01": [["Change 'always proves' to 'suggests' when the evidence is limited","Change 'always proves' to 'suggests'"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-02": [["The findings suggest a possible benefit, although the small sample limits generalization","The findings suggest a benefit, with limited generalization"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-03": [["Replace vague labels with precise descriptions","Replace vague labels with precise terms"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-04": [["Narrow the claim to match what the source actually supports","Narrow the claim to the source's support"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-05": [["The evidence indicates a modest association, but it does not establish causation","The evidence shows an association, not causation"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-06": [["Explain how the facts support the claim and why that support matters","Explain how the facts support the claim"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-07": [["The evidence is mixed: two studies report a benefit, while another finds little change in a different context","The evidence is mixed across contexts"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-08": [["Check precision, evidence, structure, and clarity","Check precision, evidence, structure, clarity"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-09": [["Broader evidence is needed before generalizing","Broader evidence is needed before generalizing"]]
+};
+
 const applyKnownOptionCorrections = (question) => {
   const corrections = STAGE3_OPTION_CORRECTIONS[question?.id];
   const rewrites = STAGE3_VERBAL_LENGTH_REWRITES[question?.id];
   const missingRewrites = STAGE3_MISSING_LENGTH_REWRITES[question?.id];
   const stage2Rewrites = STAGE2_VERBAL_LENGTH_REWRITES[question?.id];
   const additionalStage3Rewrites = STAGE3_ADDITIONAL_VERBAL_LENGTH_REWRITES[question?.id];
-  if ((!corrections && !rewrites && !missingRewrites && !stage2Rewrites && !additionalStage3Rewrites) || !Array.isArray(question?.options)) return question;
+  const finalStage3Rewrites = STAGE3_FINAL_LENGTH_REWRITES[question?.id];
+  if ((!corrections && !rewrites && !missingRewrites && !stage2Rewrites && !additionalStage3Rewrites && !finalStage3Rewrites) || !Array.isArray(question?.options)) return question;
 
   let options = question.options.map((option) => String(option ?? ""));
   let answer = String(question.answer ?? "");
 
-  for (const [from, to] of [...(corrections || []), ...(rewrites || []), ...(missingRewrites || []), ...(stage2Rewrites || []), ...(additionalStage3Rewrites || [])]) {
+  for (const [from, to] of [...(corrections || []), ...(rewrites || []), ...(missingRewrites || []), ...(stage2Rewrites || []), ...(additionalStage3Rewrites || []), ...(finalStage3Rewrites || [])]) {
     let replaced = false;
     options = options.map((option) => {
       if (!replaced && option.trim() === from) {

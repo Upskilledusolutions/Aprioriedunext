@@ -15,7 +15,7 @@ const STAGE_CONFIGS = [
     label: "Stage 1 — Foundation",
     description: "Level 1 · Foundation Quantitative & Reasoning / Foundation Verbal & Reasoning",
     modulesByTrack: STAGE1_MODULES,
-    getCalibratedQuestions: (activityId, track) => getStage1CalibratedQuestions({ track, activityId }),
+    getCalibratedQuestions: getStage1CalibratedQuestions,
   },
   {
     key: "L1-S2",
@@ -57,7 +57,7 @@ function summarizeActivities(activities, progress, track, getCalibratedQuestions
   const items = activities.map((activity) => {
     const completed = completedActivities[activity.id] === true;
     const score = completed ? numericScore(scores[activity.id]) : null;
-    const questionCount = getCalibratedQuestions(activity.id, track).length;
+    const questionCount = getCalibratedQuestions(activity.id).length;
     return {
       id: activity.id,
       title: activity.title,
