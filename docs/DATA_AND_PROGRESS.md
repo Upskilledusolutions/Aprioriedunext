@@ -150,6 +150,16 @@ The initial analytics model should provide:
 
 Analytics should be usable from Stage 1 and should expand with each later verified Stage and Level. Adding a new question set should add to the same reporting model rather than require a separate analytics system.
 
+### Stage-scoped Analytics
+
+The dedicated Reasoning Analytics page uses a reusable **Stage selector**. A selectable Stage must be both released/accepted and authorized for the current learner.
+
+The selected Stage is a reporting filter across the full Analytics feature set. All Stage-scoped progress, completion, activity performance, question-attempt analytics, difficulty, concept/skill, timing and growth views must use records carrying the selected Level/Stage identifiers.
+
+The existing Reasoning attempt contract already stores `levelId` and `stageId`, and `GET /api/reasoning/attempts` supports authenticated `levelId` and `stageId` filters. The frontend should use this existing contract rather than create a parallel attempt store or reconstruct unsupported historical values.
+
+The Stage selector must not change stored progress or create a new data namespace. It changes only the reporting scope presented to the learner.
+
 ## Manual Reasoning Level access
 
 Reasoning Levels are manually enabled by an administrator using dedicated identifiers for every Level:
