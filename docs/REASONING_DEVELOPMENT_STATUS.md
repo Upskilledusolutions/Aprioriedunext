@@ -35,7 +35,7 @@ Historical files record past work and do not override the current standards.
 |---|---|---|
 | L1-S1 | 5 / 3 | **ACCEPTED** |
 | L1-S2 | 5 / 3 | **ACCEPTED** |
-| L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 complete; Checkpoint 4 pending** |
+| L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 complete; Checkpoint 4 audited — remediation required** |
 | L1-S4 | 5 / 4 | Future scope; preserve inventory |
 | L1-S5 | 5 / 5 | Future scope; preserve inventory |
 | L1-S6 | 5 / 5 | Future scope; preserve inventory |
