@@ -54,7 +54,7 @@ export function ReasoningStageDashboard({
   const explore = safeActivities.filter((activity) => String(activity.half || "").toLowerCase() === "explore");
   const extend = safeActivities.filter((activity) => String(activity.half || "").toLowerCase() === "extend");
   if (!isAuthenticated || !user?.userId) return null;
-  const stageEyebrow = levelId === "L1" && stageNumber === 1 ? "Stage 01 · " + stageName : "Level " + String(levelId).replace("L","") + " · Stage " + String(stageNumber).padStart(2,"0") + " · " + stageName;
+  const stageEyebrow = levelId === "L1" && stageNumber === 1 ? "Stage 01 · " + stageName : "Level " + String(levelId).replace("L","") + " · Stage " + String(stageNumber) + " · " + stageName;
   const renderActivity = (activity) => {
     const completed = Boolean(progress[progressKey]?.completedActivities?.[activity.id]);
     const href = String(activityBasePath || "/Reasoning/Activity/") + activity.id;
