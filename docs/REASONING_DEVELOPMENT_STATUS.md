@@ -121,14 +121,28 @@ The Stage 2 and Stage 3 remediation issues are now converted into reusable relea
 - **Runtime correction-layer risk:** calibration/delivery must not silently replace a keyed answer or question options through an undocumented correction map. Content corrections belong in the editable source and canonical regeneration path.
 - **Deployment discipline:** related fixes are grouped into one prevalidated Stage-level deployment wherever practical. A failed deployment is diagnosed by category before another deployment-triggering commit is created.
 
-## Current next step
+## Level 1 Stages 1–3 focused production checkpoint
 
-**Next:** perform the focused Level 1 Stages 1–3 production checkpoint required after three accepted Stages, covering navigation, module visibility, activity launch, core scoring/progress and obvious runtime errors. Do not begin Stage 4 until this checkpoint is recorded.
+**Completed / PASS — 2026-09-29.** Owner confirmed the focused production check had already been completed before the current Stage 4 continuation. The accepted Stages 1–3 were checked as a combined production scope for navigation, module visibility, Activity launch, core scoring/progress and obvious runtime errors. This gate is therefore recorded as passed and does not require repetition.
+
+## Level 1 · Stage 4 checkpoint status
+
+### Checkpoint 0 — Baseline audit: COMPLETE
+
+- Quantitative: 5 Explore + 4 distinct Extend Activities currently exist in the Stage 4 source.
+- Verbal: 5 Explore + 4 distinct Extend Activities currently exist in the Stage 4 source.
+- The previous duplicate fifth Extend module references were removed; no duplicate placeholder Activity is being treated as a distinct Activity.
+- Existing Stage 4 JavaScript question bank contains 72 questions across 18 distinct Activities (4 source questions per Activity) and remains the controlled legacy/source pool until migration is accepted.
+- Stage 4 is not yet learner-facing or accepted.
+
+### Checkpoint 1 — Human-editable Stage source: COMPLETE
+
+- Created content/Reasoning/question-banks/stages/L1-S4-reasoning-question-bank.json from the existing Stage 4 source pool.
+- The editable Stage source contains 72 questions across all 18 existing Stage 4 Activities, with stable IDs, track, half, module, content-mode, difficulty, timing, status and provenance fields.
+- The existing Stage 4 Activity mappings are registered with the shared Activity registry for subsequent canonical validation; this does not by itself expose Stage 4 to learners.
+
+### Current next step
+
+**Next:** Checkpoint 2 — synchronize the Level 1 · Stage 4 human-editable source into canonical records, validate schema/mappings/provenance and confirm canonical output before proceeding to structural learner-facing reconciliation. Do not expose or mark Stage 4 accepted before the remaining Stage checkpoints and required production verification are complete.
 
 Future Stage launches should add the newly accepted Stage to the existing selector through the shared stage-aware configuration rather than create a new Analytics UI.
-
-Checkpoint 3 structural learner-facing reconciliation is complete for Level 1 Stage 3. Checkpoint 4 quality verification is complete and passed as recorded above. Both Quantitative and Verbal expose all 10 approved Stage 3 modules and all 10 approved Activities per track (5 Explore + 5 Extend). Each module resolves its Activity ID through the shared Activity registry; the Stage dashboard exposes all Activities; module pages resolve linked Activities and provide Previous/Next navigation across the complete module sequence. Canonical Stage 3 contains all 20 corresponding Activity IDs with exactly 10 questions per Activity. No placeholder or duplicate Activity mapping was found.
-
-**Stage 3 live verification — 2026-09-29:** Owner confirmed Stage 3 learner-facing functionality and the Stage 3 Analytics experience on the Ready production deployment. This completes the Stage 3 owner-verification record; it does not replace the separate focused three-stage checkpoint.
-
-**Three-stage checkpoint status:** Level 1 Stages 1–3 are individually accepted. The focused three-stage production checkpoint covering the three accepted Stages is the next required gate before Stage 4.
