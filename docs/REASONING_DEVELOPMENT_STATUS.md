@@ -108,7 +108,7 @@ The project rule is **below 50% required; below 30% preferred**. The post-remedi
 
 **Stage 2 acceptance decision — 2026-09-29:** Owner approved Level 1 · Stage 2 after a live quick-check of the post-remediation production deployment. This records the Stage 2 curriculum/content release as accepted.
 
-**Stage Analytics selector verification — 2026-09-29:** Owner completed live quick-checks confirming the reusable Stage selector and Stage-specific Analytics views for Stages 1–2. Stage 1, Stage 2 and Stage 3 remain separate reporting scopes, and the shared Analytics feature set is retained.
+**Stage Analytics selector verification — 2026-09-29:** Owner completed live quick-checks confirming the reusable Stage selector and Stage-specific Analytics views for Stages 1–3. Stage 1, Stage 2 and Stage 3 remain separate reporting scopes, and the shared Analytics feature set is retained.
 
 The reusable selector is a completed shared capability. Stage 3 has now been released through the same configuration after owner approval.
 
