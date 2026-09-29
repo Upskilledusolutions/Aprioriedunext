@@ -72,7 +72,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-competition-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-competition-003",
@@ -104,7 +105,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-competition-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-competition-004",
@@ -136,7 +138,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-competition-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-patterns-001",
@@ -168,7 +171,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-patterns-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-patterns-002",
@@ -200,7 +204,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-patterns-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-patterns-003",
@@ -232,7 +237,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-patterns-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-patterns-004",
@@ -264,7 +270,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-patterns-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-logic-001",
@@ -296,7 +303,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-logic-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-logic-002",
@@ -328,7 +336,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-logic-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-logic-003",
@@ -360,7 +369,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-logic-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-logic-004",
@@ -392,7 +402,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-logic-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-strategy-001",
@@ -424,7 +435,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-strategy-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-strategy-002",
@@ -456,7 +468,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-strategy-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-strategy-003",
@@ -488,7 +501,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-strategy-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-strategy-004",
@@ -520,7 +534,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-strategy-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-justification-001",
@@ -552,7 +567,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-justification-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-justification-002",
@@ -584,7 +600,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-justification-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-justification-003",
@@ -616,7 +633,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-justification-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXP-justification-004",
@@ -648,7 +666,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXP-justification-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-challenge-001",
@@ -680,7 +699,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-challenge-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-challenge-002",
@@ -712,7 +732,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-challenge-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-challenge-003",
@@ -744,7 +765,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-challenge-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-challenge-004",
@@ -776,7 +798,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-challenge-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-creative-001",
@@ -808,7 +831,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-creative-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-creative-002",
@@ -840,7 +864,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-creative-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-creative-003",
@@ -872,7 +897,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-creative-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-creative-004",
@@ -904,7 +930,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-creative-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-olympiad-001",
@@ -936,7 +963,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-olympiad-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-olympiad-002",
@@ -968,7 +996,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-olympiad-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-olympiad-003",
@@ -1000,7 +1029,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-olympiad-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-olympiad-004",
@@ -1032,7 +1062,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-olympiad-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-communicating-001",
@@ -1064,7 +1095,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-communicating-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-communicating-002",
@@ -1096,7 +1128,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-communicating-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-communicating-003",
@@ -1128,7 +1161,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-communicating-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "Q-L1-S4-EXT-communicating-004",
@@ -1160,7 +1194,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#Q-L1-S4-EXT-communicating-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-argument-001",
@@ -1192,7 +1227,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-argument-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-argument-002",
@@ -1224,7 +1260,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-argument-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-argument-003",
@@ -1256,7 +1293,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-argument-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-argument-004",
@@ -1288,7 +1326,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-argument-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-evidence-001",
@@ -1320,7 +1359,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-evidence-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-evidence-002",
@@ -1352,7 +1392,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-evidence-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-evidence-003",
@@ -1384,7 +1425,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-evidence-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-evidence-004",
@@ -1416,7 +1458,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-evidence-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-structure-001",
@@ -1448,7 +1491,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-structure-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-structure-002",
@@ -1480,7 +1524,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-structure-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-structure-003",
@@ -1512,7 +1557,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-structure-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-structure-004",
@@ -1544,7 +1590,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-structure-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-revision-001",
@@ -1576,7 +1623,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-revision-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-revision-002",
@@ -1608,7 +1656,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-revision-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-revision-003",
@@ -1640,7 +1689,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-revision-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-revision-004",
@@ -1672,7 +1722,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-revision-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-perspective-001",
@@ -1704,7 +1755,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-perspective-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-perspective-002",
@@ -1736,7 +1788,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-perspective-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-perspective-003",
@@ -1768,7 +1821,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-perspective-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXP-perspective-004",
@@ -1800,7 +1854,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXP-perspective-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-complex-001",
@@ -1832,7 +1887,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-complex-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-complex-002",
@@ -1864,7 +1920,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-complex-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-complex-003",
@@ -1896,7 +1953,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-complex-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-complex-004",
@@ -1928,7 +1986,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-complex-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-counter-001",
@@ -1960,7 +2019,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-counter-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-counter-002",
@@ -1992,7 +2052,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-counter-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-counter-003",
@@ -2024,7 +2085,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-counter-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-counter-004",
@@ -2056,7 +2118,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-counter-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-source-001",
@@ -2088,7 +2151,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-source-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-source-002",
@@ -2120,7 +2184,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-source-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-source-003",
@@ -2152,7 +2217,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-source-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-source-004",
@@ -2184,7 +2250,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-source-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-revision-001",
@@ -2216,7 +2283,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-revision-001",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-revision-002",
@@ -2248,7 +2316,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-revision-002",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-revision-003",
@@ -2280,7 +2349,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-revision-003",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     },
     {
       "id": "V-L1-S4-EXT-revision-004",
@@ -2312,7 +2382,8 @@
         "migrationState": "editable-stage-bank",
         "sourceReference": "src/Data/Reasoning/questionBankStage4.js#V-L1-S4-EXT-revision-004",
         "sourceType": "legacy-js-source"
-      }
+      },
+      "questionType": "multiple_choice"
     }
   ]
 }
