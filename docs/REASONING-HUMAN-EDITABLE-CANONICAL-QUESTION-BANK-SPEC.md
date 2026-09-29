@@ -200,12 +200,13 @@ canonical output
 
 Synchronization must:
 
-- validate before writing output;
+- validate the complete editable Stage document, including required top-level schema/metadata, before writing output;
 - preserve stable IDs;
 - normalize only deterministic representation details;
 - attach source-bank/provenance metadata;
 - never silently repair an invalid mapping;
 - fail closed when required fields, IDs, answers, options or placement metadata are invalid;
+- reject duplicate multiple-choice options and any answer that is absent from the option set;
 - emit deterministic output so repeated synchronization with unchanged input produces the same canonical representation.
 
 The first implementation provides the synchronization/validation tooling without switching existing runtime delivery. Runtime migration is staged separately.
@@ -330,7 +331,8 @@ Before delivery, validate:
 - valid explanations;
 - valid timing;
 - appropriate difficulty progression;
-- answer-position and answer-length quality checks.
+- answer-position and answer-length quality checks;
+- source/canonical/final-runtime answer-key and option agreement.
 
 A documented future curriculum exception must be explicit rather than inferred.
 
