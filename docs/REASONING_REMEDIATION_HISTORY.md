@@ -2,7 +2,9 @@
 
 **Project:** Apriori Edu Next / Upskilleduonline  
 **Scope recorded here:** Level 1 Reasoning remediation and Level 2 build progress through the current work session  
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-29
+
+> **Historical record only.** This file preserves chronology and lessons from earlier Reasoning remediation. It is not the current build/acceptance checklist. Current rules are in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`; current status is in `docs/REASONING_DEVELOPMENT_STATUS.md`.
 
 This document is the chronological remediation record for completed and in-progress Reasoning work. It records the navigation/runtime fixes that preceded the question-quality work, the build-integrity lessons that govern future deployments, the complete Level 2 Stage 1 implementation sequence to date, and the current verification boundary.
 
