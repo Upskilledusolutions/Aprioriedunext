@@ -4,7 +4,7 @@
 
 **Status:** Living reference. Update this document only when an architectural decision is verified or deliberately approved.
 
-**Last updated:** 2026-09-22
+**Last updated:** 2026-09-29
 
 ## 1. Product vision
 
@@ -160,6 +160,27 @@ Reasoning
 ```
 
 Quantitative and Verbal progress must remain independently identifiable throughout this hierarchy.
+
+### Reusable Stage/Level implementation architecture
+
+Every Reasoning Stage and Level uses the same shared learner-facing implementation:
+
+```text
+Stage-specific configuration
+        ↓
+Shared Stage Dashboard
+        ↓
+Shared Module/Lesson Page
+        ↓
+Shared Activity Player
+```
+
+Stage-specific pages provide configuration/data rather than copied UI. The shared layer owns the common Stage 1 learner-facing layout, Explore-first → Extend-second presentation, module navigation, progress behaviour and Activity Player routing.
+
+Progress is activity-based for learner-facing Stage and cumulative track percentages. Module-completion flags are separate and must not be used as a Stage/track progress denominator.
+
+The implementation pattern is identical for Levels 1–9. Level/Stage content and difficulty change; the UI/progress/player architecture does not.
+
 
 ### Authenticated navigation and profile naming
 
