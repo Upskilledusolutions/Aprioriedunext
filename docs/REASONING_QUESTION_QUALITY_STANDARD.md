@@ -91,29 +91,24 @@ Verbal questions should use genuine reading, evidence, argument, research, analy
 
 ## 9. Grade-level calibration
 
-For internal curriculum calibration, Level 1 corresponds to Grade 3 and each subsequent level increases by one grade layer through Level 9, according to the approved architecture.
+For internal curriculum calibration, Level 1 corresponds to Grade 3 and each subsequent Level increases by one grade layer through Level 9, according to the approved architecture.
 
-During the 2026-09-10 recalibration audit, the following mismatch was identified in the existing Level 1 content:
+Historical 2026-09-10 calibration findings are remediation history only. They are not a standing instruction to move future questions between Levels.
 
-- some Computational Quantitative questions are approximately two levels too easy (around Grade 1);
-- Quantitative Text-Based Reasoning questions are approximately two levels too advanced (around Grade 5);
-- Verbal questions are approximately two levels too advanced (around Grade 5).
-
-Existing questions must not be deleted to correct this. For the overly-advanced Quantitative and Verbal text-based sets, the same question records should be placed two levels higher through their Question Bank/activity metadata and mappings. Stable question IDs must be preserved.
-
-The easier computational questions remain available as foundational/review content. They must not be used as the benchmark for Level 1 difficulty, and future Level 1 computational additions must be calibrated to the intended Level 1 demand.
-
-Difficulty metadata must be recalculated to match the actual reasoning demand at the corrected placement.
+For future Stage/Level work:
+- calibrate content against the intended Level;
+- judge actual reasoning demand, not vocabulary length or historical metadata;
+- where the approved two-additional-level elevation rule applies, raise substantive task demand rather than merely changing a difficulty value;
+- preserve stable Question IDs when the underlying item remains the same;
+- do not change a question's Level solely to compensate for an old bank's historical calibration error.
 
 ## 10. Difficulty progression
 
-Where an activity contains four assessment questions, the intended progression is:
+Each learner-facing Activity delivers exactly 10 questions by default.
 
-**Core → Core → Stretch → Advanced**
+Within an Activity, difficulty should rise incrementally through substantive reasoning demand. The progression may move from accessible/core items toward stretch and advanced items, but it is not required to follow a fixed four-question pattern.
 
-Difficulty should increase through the reasoning demand, not through unnecessary vocabulary, longer wording or superficial complexity.
-
-Difficulty must increase incrementally within Explore and independently within Extend. Extend should generally be more challenging than Explore while remaining appropriate to the selected level rather than simply becoming the next grade.
+Difficulty must increase appropriately within Explore and independently within Extend. Extend should generally be more demanding than Explore while remaining appropriate to the selected Level.
 
 ## 11. Stage and level consistency
 
@@ -151,6 +146,8 @@ At minimum, the affected change set must be checked for:
 - malformed questions and answer structure;
 - content-mode completeness and validity;
 - applicable answer-quality checks.
+
+Validation is Stage-scoped. Do not let unrelated future Stages become deployment blockers. Independent source modules must be evaluated in isolated scopes with explicit dependencies, and JSX must not be passed to raw Node `--check`.
 
 A validation failure must be fixed before pushing the deployment-triggering commit whenever the failure is deterministic and within repository control. Vercel must not be used as the first mechanism for discovering known syntax, path, import or mapping errors.
 
