@@ -2,6 +2,8 @@
 
 ## Purpose
 
+This document is the authoritative reference for Reasoning learner-record separation and progress calculation. Stage build/deployment workflow is defined in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`.
+
 This document records how learner data is currently handled and how it should be separated when Reasoning & Academic Skills is added.
 
 ## Current user identity
@@ -94,6 +96,38 @@ Each track must feed its own detailed progress/reporting and leaderboard contrib
 
 The Reasoning profile is reached from the login icon/name using the same general user-affordance pattern as Foreign Languages. The profile is a separate Reasoning view and must not replace the existing Foreign Languages profile.
 
+## Reasoning progress calculation standard
+
+The authoritative learner-facing progress unit is the **Activity**, not the Module.
+
+### Stage progress
+
+```text
+completed Activity IDs in the Stage
+-----------------------------------
+all learner-facing Activity IDs in the Stage
+```
+
+Explore and Extend both count equally.
+
+### Track progress
+
+Track progress is cumulative across the **currently released Stage/Level scope** for that track:
+
+```text
+completed Activity IDs in released scope
+---------------------------------------
+all Activity IDs in released scope
+```
+
+The denominator is data-driven and grows only when additional content is released through the sequential Stage/Level acceptance process.
+
+### Module completion
+
+Module completion is separate. A Module is complete only when all Activities assigned to that Module are complete. A completed Module flag must never be used as a proxy for Stage or cumulative track progress.
+
+**Current dashboard scope:** Level 1 Stages 1–2, with 16 Activities per track. This scope expands only as later Stages are accepted.
+
 ## Reasoning cumulative mastery and analytics
 
 Mastery and analytics are a mandatory Reasoning product capability from **Level 1 · Stage 1 onward**.
@@ -134,9 +168,7 @@ reasoningL9
 
 Each identifier maps to the corresponding Reasoning Level. Manual access controls availability; it does not reset, replace or migrate previous Reasoning learning records. **Access is selective, not progressive**: `reasoningL4` may be assigned directly without `reasoningL1`, `reasoningL2` or `reasoningL3`. Completion of one Level does not automatically authorize another Level, and assignment of a later Level does not imply assignment of earlier Levels.
 
-The implementation order is now: **backend inspection/foundation → manual Reasoning Level access implementation/deployment → durable question-attempt persistence implementation/deployment → live authorization/capture verification → richer analytics expansion → Level 1 · Stage 2**.
-
-The backend/admin access and attempt-persistence contracts have been audited and implemented. Live production verification remains a separate acceptance step.
+The backend authorization, durable-attempt persistence and analytics foundations have been implemented and owner-checked. Current Stage work follows the sequential Stage-launch standard; new Stages are added to the cumulative record only after their own production acceptance.
 
 ## Reasoning grade-level progress model
 
@@ -162,7 +194,7 @@ Content thresholds are:
 - **at least 8 Activities/question sets** in total per track;
 - **10 delivered questions per Activity**.
 
-Explore is presented first and Extend second. The number of Modules and any Activities above these minimums may vary by Stage and should preserve the approved curriculum inventory. Difficulty increases incrementally within both halves and across the Level; Extend is generally more demanding than Explore while remaining anchored to the selected Level. Extend is generally more demanding than Explore but remains anchored to the selected grade rather than simply becoming the next grade. The same principle applies independently to Quantitative and Verbal.
+Explore is presented first and Extend second. The number of Modules and any Activities above these minimums may vary by Stage and should preserve the approved curriculum inventory. Difficulty increases incrementally within Explore and within Extend, and across the Level. Extend is generally more demanding than Explore while remaining appropriate to the selected Level. The same principle applies independently to Quantitative and Verbal.
 
 ## Reasoning Question Bank
 
@@ -287,6 +319,6 @@ The frontend sends attempts through `src/utils/reasoningAttempts.js`. Existing b
 
 ### Verification boundary
 
-The implementations are deployed, but live owner verification of authorization, answered/timed-out capture, learner ownership and Reasoning/Foreign Languages separation is still required before richer analytics consume the new history.
+The authorization, durable-attempt and Reasoning/Foreign Languages separation implementations are deployed and owner-checked. Only recorded, supported data may be used for analytics; unsupported historical values must not be reconstructed.
 
 See `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md`.
