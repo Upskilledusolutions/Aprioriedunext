@@ -36,7 +36,7 @@ const STAGE_CONFIGS = [
     stageId: "S3",
     label: "Stage 3 — Mathematical Thinking & Analytical Writing",
     description: "Level 1 · Mathematical Thinking / Analytical & Scholarly Writing",
-    released: false,
+    released: true,
     modulesByTrack: STAGE3_MODULES,
     getCalibratedQuestions: getStage3CalibratedQuestions,
   },
