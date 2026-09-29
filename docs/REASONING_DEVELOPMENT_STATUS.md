@@ -34,7 +34,7 @@ Historical files record past work and do not override the current standards.
 | Stage | Explore / Extend | State |
 |---|---|---|
 | L1-S1 | 5 / 3 | **ACCEPTED** |
-| L1-S2 | 5 / 3 | **Quality remediation complete: 28.7% unique-longest correct answers — pending post-remediation production verification** |
+| L1-S2 | 5 / 3 | **Quality benchmark PASS: 28.7% unique-longest correct answers — pending post-remediation production verification** |
 | L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 complete; Checkpoint 4 audited — remediation required** |
 | L1-S4 | 5 / 4 | Future scope; preserve inventory |
 | L1-S5 | 5 / 5 | Future scope; preserve inventory |
@@ -86,6 +86,8 @@ The learner-facing Stage and Track progress model is Activity-based. The current
 | Verbal | 80 | 23 | **28.7%** | **PASS — preferred benchmark met** |
 
 **Tied-for-longest correct-answer cases:** 41 overall; 37 Quantitative; 4 Verbal. These are reported separately and are not counted as unique-longest clues.
+
+**Benchmark result:** PASS — overall and both tracks are strictly below the <30% preferred benchmark. The source edits are complete; the acceptance gate remains open only for repository prebuild validation, the resulting deployment, and complete post-remediation live verification.
 
 **Structural checks:** 16 Activities; exactly 10 questions per Activity; 160 questions total; no duplicate Question IDs detected in the reviewed source delivery sets.
 
