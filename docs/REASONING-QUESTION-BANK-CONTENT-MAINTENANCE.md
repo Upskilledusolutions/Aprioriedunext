@@ -1,5 +1,7 @@
 # Reasoning Question-Bank Content Maintenance Workflow
 
+**Current Stage build workflow:** follow `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`. This file governs content editing; it does not define a second deployment or acceptance process.
+
 **Status:** Operational source-of-truth workflow  
 **Applies to:** all migrated Reasoning question content
 
@@ -117,7 +119,7 @@ Production verification of every Module and Activity
 Stage acceptance
 ```
 
-Related changes should be grouped into one coherent, prevalidated deployment-triggering commit. The complete operational standard is documented in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`.
+Related content changes should be grouped into the Stage's coherent, prevalidated deployment. The complete operational standard is documented in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`.
 
 ## 11. Migration rule
 
