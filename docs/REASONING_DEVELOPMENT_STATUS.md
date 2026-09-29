@@ -77,6 +77,6 @@ The project rule is **below 50% required; below 30% preferred**. Tied-for-longes
 
 ## Current next step
 
-**Stage 3 — Checkpoint 4: Question-quality verification.**
+**Stage 2 — Question-quality remediation:** revise the human-editable Stage 2 source to remove conspicuous answer-length clues, then rerun the recorded answer-length audit and canonical/delivery validation before any Stage 2 acceptance or further Stage progression. Stage 3 Checkpoint 4 remains the subsequent workstream.
 
 Checkpoint 3 structural learner-facing reconciliation is complete for Level 1 Stage 3. Both Quantitative and Verbal expose all 10 approved Stage 3 modules and all 10 approved Activities per track (5 Explore + 5 Extend). Each module resolves its Activity ID through the shared Activity registry; the Stage dashboard exposes all Activities; module pages resolve linked Activities and provide Previous/Next navigation across the complete module sequence. Canonical Stage 3 contains all 20 corresponding Activity IDs with exactly 10 questions per Activity. No placeholder or duplicate Activity mapping was found. The next step is Stage 3 Checkpoint 4 question-quality verification.
