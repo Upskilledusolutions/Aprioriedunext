@@ -190,7 +190,7 @@ The Stage 2 and Stage 3 remediation issues are now converted into reusable relea
 - The failures began after Stage 4 was added to the shared Reasoning Activity registry: `activities.js` now imports and spreads `STAGE4_ACTIVITIES`.
 - The mandatory `prebuild` validator was still evaluating `activities.js` as a standalone module, stripping its import and leaving `STAGE4_ACTIVITIES` undefined. This created a deterministic validator failure before the Next.js build could complete.
 - The systematic fix updates the validator to load the Stage 4 dependency explicitly, uses that dependency-aware Activity registry for the existing Stage 2/3 checks, and adds Stage 4 structural/canonical checks to the same prebuild gate.
-- The fix also runs the existing canonical-drift check during prebuild so a changed editable Stage source cannot silently reach deployment with stale canonical output.
+- The fix also runs the existing canonical-drift check during prebuild so a changed editable Stage source cannot silently reach deployment with stale canonical output. The shared synchronization loader was then corrected on `main` in commit `53278cdb1ccdb6ead54d9c10a25a27b9e189a323` so that this drift check uses the same dependency-aware `STAGE4_ACTIVITIES` loading model.
 - The validator change and its documentation are grouped as **one coherent repair commit**; no speculative content or UI changes are being introduced.
 - Stage 4 remains non-learner-facing and unaccepted until a successful production deployment and explicit live verification.
 
