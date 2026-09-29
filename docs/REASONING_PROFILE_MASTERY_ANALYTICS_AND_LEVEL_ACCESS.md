@@ -59,7 +59,7 @@ At minimum, the analytics model should support:
 
 The learner should be able to distinguish detailed Quantitative and Verbal results and see the cumulative Reasoning picture.
 
-**Data-availability boundary:** Stage 1 must present all analytics that the current persisted learner record can support. Attempt-level question history, performance by question difficulty, per-question response timing and growth over time require durable server-side attempt persistence. These richer dimensions are scheduled to be enabled after Stage 1 acceptance and before Level 1 · Stage 2 implementation begins; they must not be fabricated from incomplete data.
+**Data-availability boundary:** Stage 1 presents the analytics supported by the current learner record. The durable server-side attempt-persistence foundation is now implemented and owner-checked, so supported question-level history, difficulty, timing and growth views may expand as verified data accumulates. Unsupported historical values must not be fabricated.
 
 ## 5. Progressive analytics growth
 
@@ -88,7 +88,7 @@ The analytics model should be designed so that adding a new Activity/question se
 
 The durable authorization and question-attempt foundation is now implemented, deployed and owner-checked. Analytics may expand only from recorded/supportable data as each Stage/Level is accepted; unsupported historical values must not be reconstructed.
 
-The system begins accumulating detailed history from the point at which the new persistence is activated. Unsupported historical values are not reconstructed or estimated. Manual Level authorization has been implemented before this persistence foundation; live authorization/capture verification is now the remaining gate.
+The system accumulates detailed history from the point at which durable persistence is active. Unsupported historical values are not reconstructed or estimated. Manual Level authorization and live authorization/capture verification are complete and are separate from the per-Stage acceptance gate.
 
 ## 6. Progress report and leaderboard
 
@@ -155,9 +155,7 @@ Whenever a new Level is manually enabled for a learner, verify:
 - cumulative analytics include newly completed work;
 - Foreign Languages data remains separate.
 
-The backend/admin storage and authorization implementation has now been audited and implemented. These approved behaviors remain subject to live production verification.
-
-**Implementation order:** after the backend foundation is established, manual Reasoning Level access is implemented and verified first; richer analytics persistence is implemented afterward, before Level 1 · Stage 2 work begins.
+The backend/admin storage and authorization implementation has been audited, implemented, deployed and owner-checked. Level access remains selective (`reasoningL1`–`reasoningL9`), while cumulative Reasoning records remain unchanged by access changes.
 
 ## 10. Analytics expansion after the persistence foundation
 
