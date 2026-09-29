@@ -332,6 +332,76 @@ const STAGE3_FINAL_LENGTH_REWRITES = {
   "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-09": [["Broader evidence is needed before generalizing","Broader evidence is needed before generalizing"]]
 };
 
+
+const STAGE3_SECOND_PASS_LENGTH_REWRITES = {
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-representing-ideas-09": [["Whether the multiplication matches the number in each row","Check the multiplication against each row"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-connecting-representations-07": [["The table and calculation describe the same relationship","They show the same relationship"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-explaining-thinking-03": [["The second gives the relationship producing the answer","The second shows how 36 is made"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-explaining-thinking-06": [["Each can be split into pairs, so combining them still forms pairs","Both numbers form pairs"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-explaining-thinking-08": [["5 × 8 counts the square units in the array, giving 40","5 × 8 gives the area"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXP-explaining-thinking-10": [["Evidence is information used to support a conclusion","Evidence supports a conclusion"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-non-routine-representations-04": [["Two labeled rectangles and subtraction of their areas","Show both areas and subtract"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-non-routine-representations-10": [["Choose the representation that exposes the relationship being tested","Choose the clearer relationship"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-justifying-generalizations-04": [["The fourth term should be 24, so the claim fails there","The fourth term should be 24"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-justifying-generalizations-10": [["A new case tests whether the relationship extends beyond the original evidence","A new case tests the rule"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-cases-counterexamples-05": [["Systematically inspect the cases and record whether each satisfies the claim","Check all cases systematically"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-cases-counterexamples-09": [["The claim must hold for every case, so one failing case makes it false as stated","One failing case disproves an all-claim"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-strategic-problem-solving-01": [["Multiply first, then subtract the amount given away","Multiply, then subtract"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-strategic-problem-solving-07": [["Translate each condition into a restriction before choosing an answer","Translate conditions into restrictions"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-strategic-problem-solving-08": [["Use the table if it exposes the pattern and reduces repeated work","Use the table to compare cases"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-strategic-problem-solving-09": [["Divide to find the groups, add 2 per group, then recombine","Find groups, add 2 per group"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-strategic-problem-solving-10": [["Compare their results and verify each method against the original conditions","Compare results with the original conditions"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-mathematical-justification-01": [["45 ends in 5, which is consistent with the divisibility rule for 5","45 ends in 5"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-mathematical-justification-04": [["It lets another learner check how the conclusion follows","It lets others check the reasoning"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-mathematical-justification-08": [["The original 5 groups of 18 contain 90, and removing 27 leaves 63","90 minus 27 leaves 63"]],
+  "Q-L1-Q-S3-CAL-Q-L1-S3-EXT-mathematical-justification-10": [["It connects the given information, reasoning steps, and conclusion","It links facts, steps, and conclusion"]],
+
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-04": [["Cost, practicality, and student impact","Cost, practicality, and impact"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-planning-analysis-06": [["Compare evidence, then qualify the conclusion","Compare evidence and qualify the conclusion"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-02": [["Explain what the result suggests","What the result suggests"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-04": [["Study reading habits and home book access","Reading habits and home access"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-analytical-paragraphs-07": [["Later starts may help, but evidence is limited","Later starts may help"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-04": [["Does it support the claim and fit the source?","Does it support the claim?"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-using-evidence-07": [["Useful evidence, but with limited scope","Useful but limited evidence"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-04": [["It tests how broadly the finding applies","It tests how broadly it applies"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-07": [["Compare sample size and study design","Compare sample size and design"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-synthesis-comparison-08": [["Both link reading to vocabulary, with different durations","Reading links to vocabulary differ in duration"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-03": [["Interpret the evidence for the claim","Interpret evidence for the claim"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-04": [["The result suggests better punctuality","The result suggests better punctuality"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-05": [["Keep the clearest statement; add analysis","Keep the clearest statement and add analysis"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXP-revising-clarity-07": [["Use evidence that directly addresses the claim","Use evidence that addresses the claim"]],
+
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-03": [["Define the issue before presenting evidence","Define the issue before evidence"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-05": [["Group related points and signal the comparison","Group points and signal comparison"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-06": [["It answers the question from the reasoning","It answers from the reasoning"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-09": [["Condense it or add the next reasoning step","Condense it or add the next step"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-advanced-structure-10": [["Can each paragraph be linked to the central question?","Can each paragraph link to the central question?"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-01": [["Relevant evidence from an appropriate source","Relevant evidence from a suitable source"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-03": [["Recency alone does not establish credibility","Recency alone does not establish credibility"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-07": [["It shows association, not necessarily causation","Association does not prove causation"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-evaluating-evidence-09": [["Context can affect meaning and applicability","Context affects meaning and use"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-01": [["It shows awareness of an alternative view","It shows awareness of alternatives"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-02": [["Purposeful practice may reinforce learning","Purposeful practice reinforces learning"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-03": [["Represent the opposing view accurately, then respond","Represent the opposing view, then respond"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-05": [["Uniforms can reduce differences but limit choice","Uniforms reduce differences but limit choice"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-06": [["Assess whether evidence changes the conclusion","Assess whether evidence changes the conclusion"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-07": [["The concern is plausible, but evidence shows a small effect","Evidence shows only a small effect"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-08": [["It shows the opposing view's force and limits","It shows the view's force and limits"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-09": [["Address that part without rejecting the whole thesis","Address that part without rejecting the thesis"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-counterarguments-10": [["Does it address the reasoning with proportionate evidence?","Does it address the reasoning fairly?"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-03": [["Identify the meaningful relationship between sources","Identify the relationship between sources"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-05": [["Both support healthier meals, with different priorities","Both support healthier meals, with different priorities"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-07": [["Explain how the sources relate to the question","Explain how the sources relate"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-08": [["Different time horizons may explain the disagreement","Different time horizons may explain disagreement"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-09": [["It states an insight from relating the sources","It states an insight from the sources"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-source-synthesis-10": [["Can the reader see what the sources add?","Can the reader see what the sources add?"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-02": [["The findings suggest a benefit, with limited generalization","The findings suggest a benefit"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-03": [["Replace vague labels with precise terms","Replace vague labels with precise terms"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-06": [["Explain how the facts support the claim","Explain how the facts support the claim"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-08": [["Check precision, evidence, structure, clarity","Check precision, evidence, structure, clarity"]],
+  "Q-L1-Q-S3-CAL-V-L1-S3-EXT-scholarly-revision-09": [["Broader evidence is needed before generalizing","More evidence is needed before generalizing"]]
+};
+
 const applyKnownOptionCorrections = (question) => {
   const corrections = STAGE3_OPTION_CORRECTIONS[question?.id];
   const rewrites = STAGE3_VERBAL_LENGTH_REWRITES[question?.id];
@@ -339,12 +409,13 @@ const applyKnownOptionCorrections = (question) => {
   const stage2Rewrites = STAGE2_VERBAL_LENGTH_REWRITES[question?.id];
   const additionalStage3Rewrites = STAGE3_ADDITIONAL_VERBAL_LENGTH_REWRITES[question?.id];
   const finalStage3Rewrites = STAGE3_FINAL_LENGTH_REWRITES[question?.id];
-  if ((!corrections && !rewrites && !missingRewrites && !stage2Rewrites && !additionalStage3Rewrites && !finalStage3Rewrites) || !Array.isArray(question?.options)) return question;
+  const secondPassStage3Rewrites = STAGE3_SECOND_PASS_LENGTH_REWRITES[question?.id];
+  if ((!corrections && !rewrites && !missingRewrites && !stage2Rewrites && !additionalStage3Rewrites && !finalStage3Rewrites && !secondPassStage3Rewrites) || !Array.isArray(question?.options)) return question;
 
   let options = question.options.map((option) => String(option ?? ""));
   let answer = String(question.answer ?? "");
 
-  for (const [from, to] of [...(corrections || []), ...(rewrites || []), ...(missingRewrites || []), ...(stage2Rewrites || []), ...(additionalStage3Rewrites || []), ...(finalStage3Rewrites || [])]) {
+  for (const [from, to] of [...(corrections || []), ...(rewrites || []), ...(missingRewrites || []), ...(stage2Rewrites || []), ...(additionalStage3Rewrites || []), ...(finalStage3Rewrites || []), ...(secondPassStage3Rewrites || [])]) {
     let replaced = false;
     options = options.map((option) => {
       if (!replaced && option.trim() === from) {
