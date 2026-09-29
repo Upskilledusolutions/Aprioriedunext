@@ -37,11 +37,11 @@ function fingerprint(value) {
   return crypto.createHash("sha256").update(stableStringify(value), "utf8").digest("hex");
 }
 
-function loadEsmValue(filePath, exportName) {
+function loadEsmValue(filePath, exportName, dependencies = {}) {
   const source = fs.readFileSync(filePath, "utf8")
     .replace(/^import[^;]+;\s*/gm, "")
     .replace(/\bexport\s+(?=(?:const|function|let|var)\b)/g, "");
-  const context = {};
+  const context = { ...dependencies };
   vm.runInNewContext(
     source + "\nglobalThis.__loadedValue = typeof " + exportName + " !== \"undefined\" ? " + exportName + " : null;",
     context,
@@ -51,11 +51,14 @@ function loadEsmValue(filePath, exportName) {
 }
 
 function loadActivities() {
-  const activities = loadEsmValue(activityPath, "REASONING_ACTIVITIES");
+  const stage4ActivitiesPath = path.join(root, "src", "Data", "Reasoning", "stage4Activities.js");
+  const stage4Activities = loadEsmValue(stage4ActivitiesPath, "STAGE4_ACTIVITIES");
+  const activities = loadEsmValue(activityPath, "REASONING_ACTIVITIES", {
+    STAGE4_ACTIVITIES: stage4Activities,
+  });
   if (!Array.isArray(activities)) fail("Could not load REASONING_ACTIVITIES from activities.js.");
   return activities;
 }
-
 function loadSchemaValidator() {
   const source = fs.readFileSync(schemaPath, "utf8")
     .replace(/\bexport\s+(?=(?:const|function|let|var)\b)/g, "");
