@@ -9,7 +9,7 @@ Reasoning follows the **single sequential Stage/Level build → deployment → l
 `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`
 
 - **Level 1 · Stage 1:** **ACCEPTED** after owner live verification.
-- **Level 1 · Stage 2:** **ACCEPTED** after owner-directed completion of the Stage 2 acceptance gate.
+- **Level 1 · Stage 2:** **REOPENED FOR QUESTION-QUALITY REMEDIATION** after the mandatory answer-length clue audit found 84/160 = 52.5% unique-longest correct answers, exceeding the <50% hard ceiling.
 - **Level 1 · Stage 3:** baseline audit completed and human-editable Stage source prepared; **question-quality verification, learner-facing release, deployment and live verification remain pending**.
 - **Stage 4 and later:** blocked until the current Stage is comprehensively verified and accepted.
 - Backend Reasoning authorization, durable question-attempt persistence and the current analytics foundation are implemented, deployed and owner-checked.
@@ -34,7 +34,7 @@ Historical files record past work and do not override the current standards.
 | Stage | Explore / Extend | State |
 |---|---|---|
 | L1-S1 | 5 / 3 | **ACCEPTED** |
-| L1-S2 | 5 / 3 | **ACCEPTED** |
+| L1-S2 | 5 / 3 | **Quality audit completed: 52.5% unique-longest correct answers — remediation required** |
 | L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 complete; Checkpoint 4 audited — remediation required** |
 | L1-S4 | 5 / 4 | Future scope; preserve inventory |
 | L1-S5 | 5 / 5 | Future scope; preserve inventory |
@@ -59,6 +59,21 @@ The learner-facing Stage and Track progress model is Activity-based. The current
 - No Stage 4–6 implementation was changed.
 
 **Checkpoint 1 — Human-editable Stage source: COMPLETE.**
+
+## Stage 2 answer-length clue audit record
+
+**Audit date:** 2026-09-29  
+**Delivery path reviewed:** Stage 2 calibrated learner-facing delivery (`getStage2CalibratedQuestions`) with the existing Stage 2 option-quality rewrites applied.  
+**Final learner-facing scope:** 16 Activities, 160 delivered questions; 80 Quantitative and 80 Verbal.
+
+| Scope | Questions | Unique-longest correct | Rate | Status |
+|---|---:|---:|---:|---|
+| Level 1 · Stage 2 — Overall | 160 | 84 | **52.5%** | **FAIL — remediation required** |
+| Quantitative | 80 | 29 | **36.3%** | Below hard ceiling; review required |
+| Verbal | 80 | 55 | **68.8%** | **FAIL — remediation required** |
+| Text-Based Reasoning questions | 120 | 78 | **65.0%** | **FAIL — remediation required** |
+
+The project rule is **below 50% required; below 30% preferred**. Tied-for-longest answers are not included in the unique-longest rate and are recorded separately during the audit. This finding supersedes the earlier Stage 2 acceptance status for question-quality purposes; no new Stage 2 release is treated as quality-accepted until remediation is completed and the audit is rerun.
 
 ## Current next step
 
