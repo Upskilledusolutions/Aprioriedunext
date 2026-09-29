@@ -183,6 +183,8 @@ The authenticated Courses menu must place **Reasoning Skills first** and open th
 
 Mastery and analytics must already be functional for the Stage being launched, beginning with Level 1 · Stage 1. The Stage's verified activity data must feed the cumulative Reasoning profile.
 
+The dedicated Analytics experience is **reusable and stage-aware**. The Stage selector capability is built once before Level 1 · Stage 3 acceptance; ordinary later Stage launches must not create a new Analytics page or bespoke Stage-specific Analytics UI. A later accepted Stage should become selectable from the existing selector through the shared stage-aware data model.
+
 The target pattern is:
 
 ```
@@ -268,6 +270,9 @@ Also verify:
 - authenticated name-menu links/buttons have no text underlines;
 - cumulative Reasoning progress;
 - Quantitative and Verbal track-dashboard progress bars show the same cumulative Activity-based percentage and completed/total count;
+- the Stage Analytics selector lists only released/accepted Stages authorized for the learner;
+- selecting the Stage under verification changes the full Analytics view to that Stage only, without cross-Stage data leakage;
+- for accounts with `type = "all"`, all released/accepted Stages are selectable;
 - mastery and analytics generated from the Stage under verification;
 - separation from the Foreign Languages profile/data;
 - manual Level-access behavior where a Level is being released.
@@ -296,6 +301,18 @@ A Ready deployment is evidence of successful deployment, not evidence of Stage a
 ## 5. Stage sequence
 
 Work proceeds one Stage at a time.
+
+### 5A. Reusable Analytics implementation gate
+
+Before Level 1 · Stage 3 is accepted, implement and live-verify the reusable Stage Analytics selector and stage-aware reporting model.
+
+This is a **one-time shared Analytics capability**. Once verified, future accepted Stages do not need a separate Analytics build. Each Stage launch must instead verify that:
+- the Stage carries correct Level/Stage metadata in progress and persisted attempts;
+- the accepted Stage appears in the learner's selector when authorized;
+- selecting that Stage renders the same Analytics feature set using only that Stage's data;
+- unauthorized or unreleased Stages are not exposed.
+
+This Analytics gate is inserted before Stage 3 acceptance because it becomes the reusable reporting mechanism for all subsequent Stages.
 
 The current sequence is one Stage at a time. Level 1 · Stage 1 is accepted; the backend access/persistence foundation has been implemented, deployed and owner-checked; Level 1 · Stage 2 is implemented and quick-checked but remains pending comprehensive owner verification. Do not start the next Stage until the current Stage is accepted.
 
