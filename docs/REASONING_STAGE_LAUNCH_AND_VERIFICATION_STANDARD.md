@@ -321,6 +321,8 @@ These checkpoints do not replace the per-Stage acceptance gate.
 
 After all nine Levels are live, perform the comprehensive end-to-end quality audit across all Levels, Stages, tracks, Modules, Explore/Extend activities, question delivery, dashboard/profile, cumulative progress, mastery/analytics, leaderboard and runtime behavior.
 
+For every individual Level, retain a question-quality verification summary covering all six Stages. Each Stage must have its own recorded answer-length clue audit; Level completion must not rely on an inherited or copied result from another Stage.
+
 ## 8. Migration and runtime rules
 
 For migrated content:
