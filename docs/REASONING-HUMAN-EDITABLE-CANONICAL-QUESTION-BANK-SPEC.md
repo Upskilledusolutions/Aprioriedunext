@@ -409,7 +409,28 @@ Calibration for a migrated Stage may consume canonical records only after the ca
 
 Only after migrated content has been verified and historical dependencies are no longer required may legacy source pools be considered for retirement. Deletion is a separate deliberate decision, never an automatic consequence of migration.
 
-The existing Level 1 Stages 1–3 live-production verification gate remains independent. Architecture infrastructure may be developed without changing or implementing a new stage; **runtime migration of curriculum content and new stage implementation remain subject to the existing verification boundary.**
+Runtime migration of curriculum content and new Stage implementation remain subject to the sequential Stage-launch and live-acceptance boundary in the Stage Launch and Verification Standard.
+
+## 15A. Content maintenance for migrated Stages
+
+For migrated content, the human-editable Stage document under `content/Reasoning/question-banks/stages/` is the editing surface; canonical records are generated runtime authority.
+
+When changing content:
+- preserve the stable Question ID when the underlying question remains the same;
+- increment `version` for substantive revisions;
+- change the ID only for a materially different question;
+- recheck answers/options, explanation, difficulty, timing, content mode and Level/Stage/Track/Half/Module/Activity mappings;
+- synchronize, validate, run drift detection and review the canonical diff before release.
+
+When adding content:
+- use a globally unique Question ID;
+- keep the existing Activity ID when adding a question to an existing Activity;
+- use a distinct approved Activity ID for a new question set;
+- never satisfy the exact-10 contract by duplication or cosmetic variation.
+
+When retiring content, mark it `retired`, preserve its ID/history and add a validated replacement when the Activity still requires 10 deliverable questions. Never recycle retired IDs.
+
+The release workflow remains the Stage launch standard: no content change bypasses synchronization, validation, Stage reconciliation, prebuild validation, deployment and required production verification.
 
 ## 16. Migration strategy
 
