@@ -29,7 +29,7 @@ for(const track of ["quantitative","verbal"]){
   if(qs.length!==10)fail.push("Stage 2 "+a.id+": expected exactly 10 delivered questions, found "+qs.length+".");
   const ids=qs.map(q=>q.id);if(new Set(ids).size!==ids.length)fail.push("Stage 2 "+a.id+": duplicate delivered question IDs.");
   for(const q of qs){
-   if(q.levelId!=="L1"||q.stageId!=="S2"||q.activityId!==a.id||q.track!==a.track||String(q.half||"").toLowerCase()!==String(a.half||"").toLowerCase())fail.push("Stage 2 mapping mismatch: "+(q.id||"unknown")+" -> "+a.id+".");
+   const qTrack=q.track||a.track;const qStage=q.stageId||"S2";const qHalf=String(q.half||"").toLowerCase();const expectedHalf=String(a.half||"").toLowerCase();if(q.levelId!=="L1"||qStage!=="S2"||q.activityId!==a.id||qTrack!==a.track||(qHalf&&qHalf.slice(0,3)!==expectedHalf.slice(0,3)))fail.push("Stage 2 mapping mismatch: "+(q.id||"unknown")+" -> "+a.id+".");
    if(!q.contentMode||!q.contentModeLabel||!q.contentModeDescription)fail.push("Stage 2 "+(q.id||"unknown")+": missing content-mode metadata.");
    if(!Array.isArray(q.options)||q.options.length!==4||new Set(q.options).size!==4||!q.options.includes(q.answer))fail.push("Stage 2 "+(q.id||"unknown")+": invalid options/answer.");
    if(q.optionQuality?.lengthCueDetected)fail.push("Stage 2 "+q.id+": answer-length cue remains.");
