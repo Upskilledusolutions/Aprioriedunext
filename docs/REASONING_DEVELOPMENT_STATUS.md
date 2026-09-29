@@ -197,4 +197,4 @@ The Stage 2 and Stage 3 remediation issues are now converted into reusable relea
 
 ### Current next step
 
-**Next:** Verify the repaired `main` build in Vercel. If it succeeds, proceed to the documented Stage 4 learner-facing production verification gate.
+**Next:** Verify the repaired `main` build in Vercel. If it succeeds, proceed to the documented Stage 4 learner-facing production verification gate. Trigger test branch: Vercel should create a preview deployment from the GitHub branch event; no application code is changed.
