@@ -164,6 +164,7 @@ For every learner-facing Activity:
 
 **Mandatory answer-length clue audit and record:**
 - calculate the **unique-longest correct-answer rate** across the final learner-facing delivery set for the Level + Stage;
+- run this audit **after all question reauthoring/remediation is complete and before the deployment-triggering commit**; any later content change invalidates the prior result and requires a fresh audit;
 - record numerator, denominator and percentage for the full Stage and separately for Quantitative and Verbal;
 - record tied-for-longest cases separately;
 - the **hard acceptance ceiling is below 50%**;
@@ -214,7 +215,14 @@ Before a deployment-triggering commit, run the available repository validation f
 - canonical validation;
 - drift;
 - Stage structure;
-- learner-facing routes.
+- learner-facing routes;
+- human-editable source schema/top-level metadata;
+- source version and stable Question IDs;
+- canonical/source fingerprint agreement;
+- four distinct options and answer inclusion for every multiple-choice delivery record;
+- answer-key/options agreement between editable source, canonical records and final runtime delivery;
+- absence of undocumented runtime correction maps that can silently change answer keys or options;
+- final answer-length audit result.
 
 Validation must be deterministic and stage-scoped: evaluate independent JavaScript modules in isolated scopes with explicit dependency injection; do not concatenate separate modules into one scope when helper names can collide. Do not pass JSX React components to raw Node `--check`; JSX must be validated by the repository's Next.js compilation path. Do not audit unrelated future Stages as part of the current Stage release.
 
@@ -224,13 +232,15 @@ Deterministic source failures must be resolved before creating the deployment-tr
 
 Group the approved, validated Stage change into the fewest coherent deployment-triggering commits.
 
+Do not use production deployments as an iterative debugging loop. If a Stage needs remediation after validation, batch the approved fixes, rerun the affected validation gates, and then create the deployment-triggering commit.
+
 For a normal Stage launch, the preferred unit is one coherent Stage-level deployment.
 
 Confirm that Vercel evaluates the exact intended GitHub commit and that the deployment is Production / Ready before performing live verification.
 
-### Checkpoint 8 — Complete live production verification
+### Checkpoint 8 — Required live production verification
 
-Verify the entire Stage as a learner would experience it.
+Verify the intended Stage as a learner would experience it. For this project, the owner may record this gate as a **live quick-check** when the required Stage functionality and Analytics scope have been checked and explicitly approved. A quick-check is an owner-verification record; it is not the same as the later three-stage focused checkpoint or the final nine-Level comprehensive audit.
 
 Every Module must be checked, including both Explore and Extend.
 
@@ -293,7 +303,7 @@ profile access              ✓
 cumulative progress         ✓
 prebuild validation         ✓
 production deployment      ✓
-complete live verification ✓
+owner live verification     ✓
 ```
 
 A Ready deployment is evidence of successful deployment, not evidence of Stage acceptance.
@@ -371,6 +381,8 @@ Do not manually maintain two competing versions of migrated content.
 - If the problem is a rate/build-system condition, do not spend more build attempts on speculative source changes.
 - Preserve the exact commit used for verification.
 - Do not record a Stage as verified from deployment status alone.
+- If a post-deployment defect is found, apply only the targeted correction required by the observed defect, rerun the affected content/structural/quality validations, resynchronize canonical records when content changes, and reverify the corrected production scope before changing the recorded acceptance state.
+- A content correction after a quality audit requires a new final-delivery quality audit; never carry forward a superseded result.
 
 ## 10. What does not change
 
