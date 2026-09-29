@@ -10,7 +10,7 @@ Reasoning follows the **single sequential Stage/Level build → deployment → l
 
 - **Level 1 · Stage 1:** **ACCEPTED** after owner live verification.
 - **Level 1 · Stage 2:** **ACCEPTED** after owner-directed completion of the Stage 2 acceptance gate.
-- **Level 1 · Stage 3:** baseline audit completed and human-editable Stage source prepared; **structural learner-facing reconciliation, question-quality verification, learner-facing release, deployment and live verification remain pending**.
+- **Level 1 · Stage 3:** baseline audit completed and human-editable Stage source prepared; **question-quality verification, learner-facing release, deployment and live verification remain pending**.
 - **Stage 4 and later:** blocked until the current Stage is comprehensively verified and accepted.
 - Backend Reasoning authorization, durable question-attempt persistence and the current analytics foundation are implemented, deployed and owner-checked.
 - Reasoning data and progress remain separate from Foreign Languages.
@@ -35,7 +35,7 @@ Historical files record past work and do not override the current standards.
 |---|---|---|
 | L1-S1 | 5 / 3 | **ACCEPTED** |
 | L1-S2 | 5 / 3 | **ACCEPTED** |
-| L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 pending** |
+| L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 complete; Checkpoint 4 pending** |
 | L1-S4 | 5 / 4 | Future scope; preserve inventory |
 | L1-S5 | 5 / 5 | Future scope; preserve inventory |
 | L1-S6 | 5 / 5 | Future scope; preserve inventory |
@@ -62,6 +62,6 @@ The learner-facing Stage and Track progress model is Activity-based. The current
 
 ## Current next step
 
-**Stage 3 — Checkpoint 3: Structural learner-facing reconciliation.**
+**Stage 3 — Checkpoint 4: Question-quality verification.**
 
-Checkpoint 2 canonical synchronization/validation is complete for the Level 1 Stage 3 bank. The next work must compare the canonical content with the actual Stage 3 Module/Activity structure and confirm the complete approved learner-facing inventory is reachable before any learner-facing release or deployment work.
+Checkpoint 3 structural learner-facing reconciliation is complete for Level 1 Stage 3. Both Quantitative and Verbal expose all 10 approved Stage 3 modules and all 10 approved Activities per track (5 Explore + 5 Extend). Each module resolves its Activity ID through the shared Activity registry; the Stage dashboard exposes all Activities; module pages resolve linked Activities and provide Previous/Next navigation across the complete module sequence. Canonical Stage 3 contains all 20 corresponding Activity IDs with exactly 10 questions per Activity. No placeholder or duplicate Activity mapping was found. The next step is Stage 3 Checkpoint 4 question-quality verification.
