@@ -64,17 +64,13 @@ Content thresholds:
 
 Explore is presented first and Extend second. The number of Modules and any Activities above these minimums may vary by Stage, preserving the approved Stage-specific curriculum. Difficulty must increase incrementally within both halves and across the Level. The Extend half should generally be more challenging than Explore, but must remain appropriate to the selected level rather than simply becoming the next grade. This applies independently to Quantitative and Verbal.
 
-### Mandatory 2026-09-10 calibration correction
+### Current calibration rule
 
-The current Level 1 audit found that some existing content is miscalibrated by approximately two grade levels:
+Level-to-grade mapping is fixed by the approved architecture.
 
-- Computational Quantitative questions are generally around Grade 1 demand rather than Grade 3.
-- Quantitative Text-Based Reasoning questions are generally around Grade 5 demand rather than Grade 3.
-- Verbal questions are generally around Grade 5 demand rather than Grade 3.
+Use `docs/REASONING_QUESTION_QUALITY_STANDARD.md` and `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md` for current difficulty calibration. When the calibrated baseline for a computation or Computation + Reasoning activity is insufficient, apply the approved two-additional-level elevation through **actual task construction**, not metadata inflation.
 
-Do not delete these existing question records. The current overly-advanced Quantitative and Verbal text-based question sets must be placed two levels higher in Question Bank/activity metadata and mappings while retaining their stable question IDs. The easier Computational questions remain available as foundational/review items, while new/adjusted Level 1 computational content must meet the intended Level 1 standard.
-
-Difficulty metadata must be recalibrated after placement is corrected. Difficulty labels must reflect actual reasoning demand, not vocabulary length or a historical value.
+The 2026-09-10 calibration findings are historical remediation history only. They are not a standing instruction to move future questions between Levels merely because an older bank was miscalibrated.
 
 ## 5. Reasoning question mode labels
 
@@ -217,26 +213,19 @@ The selected product controls the learning experience without changing the under
 
 ## 17. Reasoning Stage launch and verification
 
-For every Reasoning Stage, follow `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`.
+Use `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md` as the **single operational checklist** for every Stage/Level.
 
-The standard is:
+Permanent invariants:
+- accepted Stage 1 UI/navigation/functionality/feature blueprint;
+- at least 5 Explore + at least 3 Extend + at least 8 Activities per track;
+- exactly 10 delivered questions per Activity;
+- Activity-based Stage/track progress;
+- one Stage at a time;
+- prebuild validation before deployment;
+- one coherent deployment where practical;
+- complete live verification before acceptance.
 
-1. baseline/audit the Stage;
-2. create/complete the one human-editable Level + Stage source;
-3. synchronize to canonical records;
-4. validate mappings, drift and question quality;
-5. reconcile every Module including Explore and Extend;
-6. expose the complete learner-facing Stage;
-7. run pre-deployment validation;
-8. make one coherent deployment-triggering commit;
-9. verify the exact Production deployment;
-10. verify every Module, Activity and both Explore/Extend halves on the live site;
-11. accept the Stage;
-12. only then proceed to the next Stage.
-
-A Module may contain multiple question sets. Represent each distinct set as a distinct Activity ID; retain the exact-10-per-Activity contract.
-
-A Ready Vercel deployment never substitutes for live Stage verification.
+Do not create a second Stage-launch checklist in this file.
 
 ## 18. Testing priority
 
@@ -297,19 +286,17 @@ If the code conflicts with the documentation, the AI should stop and explain the
 
 ## 23. Deployment discipline
 
-Do not use Vercel deployments as a debugging mechanism.
+Deployment is the release step, not the debugging loop.
 
-For each approved stage-level change set:
+Before a deployment-triggering commit:
+- validate the exact affected Stage/Level scope;
+- use isolated dependency evaluation for independent JavaScript modules;
+- never pass JSX React files to raw Node `--check`;
+- resolve imports from actual source-file locations;
+- verify Activity/Module/question mappings and structural counts;
+- group related approved fixes into one coherent deployment where practical.
 
-1. inspect the exact affected source files;
-2. make all related fixes together where practical;
-3. run complete static/prebuild validation;
-4. check syntax, imports, mappings, question structure, content-mode metadata and difficulty placement;
-5. create one deployment-triggering commit only after validation passes;
-6. verify the exact GitHub commit evaluated by Vercel;
-7. wait for owner verification before recording the stage as verified.
-
-If a deterministic source problem is found, fix it before creating another deployment. If the failure is a platform/rate-limit problem, do not spend additional deployment attempts on it.
+After deployment, verify the exact GitHub commit on Vercel and complete the required live Stage verification before proceeding.
 
 ## 24. Priority order
 
@@ -330,6 +317,6 @@ The following are approved learner-facing requirements:
 
 For the next Reasoning Analytics implementation, do not create a placeholder or redirect-only page. Implement the actual Stage 1 analytics experience and fix the observed incorrect 100% progress state at its source. Preserve existing language functionality and Reasoning track independence.
 
-## Reasoning Stage structural invariant — 2026-09-28
+## Current Reasoning Stage invariant
 
-The accepted Level 1 · Stage 1 learner-facing experience is the required structural blueprint for every current and future Reasoning Stage/Level: **per track: Stage-specific Modules → at least 8 Activities/question sets → at least 5 Explore + at least 3 Extend → 10 delivered questions per Activity.** Module-page layout, Explore/Extend presentation, Previous/Next behavior and shared Activity Player behavior must remain aligned with Stage 1. Existing inventories require reconciliation before deployment/acceptance only when they fall below the minimum activity thresholds or fail to match the Stage 1 learner-facing UI/navigation/functionality/feature blueprint.
+The permanent Stage/Level invariant is maintained in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`. Do not create a second copy of that rule here.
