@@ -244,4 +244,4 @@ The durable question-attempt persistence foundation is also implemented and depl
 
 ### Current release state
 
-Authorization, durable-attempt persistence and the stage-selectable Analytics expansion are implemented, deployed and owner-checked for the currently released Stages. Only recorded, supported data may be used. Stage 3 is wired into the reusable Analytics model but remains intentionally unreleased until Stage 3 acceptance.
+Authorization, durable-attempt persistence and the stage-selectable Analytics expansion are implemented, deployed and owner-checked for the currently released Stages. Only recorded, supported data may be used. Stage 3 is accepted after owner live quick-check and is released through the reusable Analytics model; future Stages should follow the same configuration-driven release pattern.
