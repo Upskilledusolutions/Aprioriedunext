@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/router";
 import { useSelector } from "react-redux";
 import { readReasoningProgress } from "../../../utils/reasoningProgress";
-import { getStage1ReasoningAnalytics } from "../../../utils/reasoningAnalytics";
+import { getReasoningAnalytics, getSelectableReasoningAnalyticsStages } from "../../../utils/reasoningAnalytics";
 
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKENDURL;
 
@@ -41,6 +41,10 @@ const styles = {
   barLegend: { display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 6, marginTop: 10, color: "#687890", fontSize: 9, fontWeight: 750 },
   legendSwatch: { display: "inline-block", width: 8, height: 8, borderRadius: 3, marginRight: 4, verticalAlign: "-1px" },
   intro: { maxWidth: 780, margin: "8px 0 0", color: "var(--muted)", fontSize: 18, lineHeight: 1.7 },
+  selectorBar: { marginTop: 18, display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap", padding: "14px 16px", border: "1px solid #dbe4f0", borderRadius: 14, background: "rgba(255,255,255,.78)" },
+  selectorLabel: { color: "#0b2a52", fontSize: 12, fontWeight: 850, letterSpacing: ".03em" },
+  selector: { minWidth: 250, padding: "10px 12px", borderRadius: 10, border: "1px solid #cfd9e7", background: "#fff", color: "#0b2a52", fontSize: 13, fontWeight: 750 },
+  selectorHint: { color: "#7a879a", fontSize: 11, lineHeight: 1.4 },
   progressSidebar: {
     flex: "0 1 310px",
     minWidth: 270,
@@ -117,18 +121,18 @@ function formatSeconds(value) {
   return value === null || value === undefined ? "—" : `${value}s`;
 }
 
-function ReasoningProgressPieChart({ progress }) {
+function ReasoningProgressPieChart({ progress, stageLabel }) {
   const safeProgress = Math.max(0, Math.min(100, Number(progress) || 0));
   const remaining = Math.max(0, 100 - safeProgress);
 
   return (
     <aside
       style={{ ...styles.progressSidebar, "--progress": safeProgress }}
-      aria-label={`Reasoning Skills progress: ${safeProgress}% complete for Level 1 · Stage 1`}
+      aria-label={`Reasoning Skills progress: ${safeProgress}% complete for ${stageLabel}`}
     >
       <p style={styles.progressEyebrow}>Reasoning Skills</p>
       <h2 style={styles.progressHeading}>Overall progress</h2>
-      <p style={styles.progressMeta}>Level 1 · Stage 1</p>
+      <p style={styles.progressMeta}>{stageLabel}</p>
       <div style={styles.progressVisual}>
         <div style={styles.progressDisc} role="img" aria-label={`${safeProgress}% completed, ${remaining}% remaining`}>
           <div style={styles.progressDiscInner}>
@@ -404,11 +408,11 @@ function getAttemptAnalytics(attempts) {
   };
 }
 
-function TrackPanel({ title, track }) {
+function TrackPanel({ title, track, stageLabel }) {
   return (
     <section style={styles.panel}>
       <h2 style={styles.panelTitle}>{title}</h2>
-      <div style={styles.row}><span>Stage 1 progress</span><strong>{track.percent}%</strong></div>
+      <div style={styles.row}><span>{stageLabel} progress</span><strong>{track.percent}%</strong></div>
       <div style={{ ...styles.progress, marginTop: 2 }}><div style={{ ...styles.fill, width: `${track.percent}%` }} /></div>
       <div style={styles.row}><span>Modules completed</span><strong>{track.completedModules} / {track.totalModules}</strong></div>
       <div style={styles.row}><span>Activities completed</span><strong>{track.activityCompletion.completed} / {track.activityCompletion.total}</strong></div>
@@ -436,6 +440,7 @@ export default function ReasoningAnalytics() {
   const { user, isAuthenticated } = useSelector((state) => state.auth);
   const [progress, setProgress] = useState(null);
   const [attemptState, setAttemptState] = useState({ status: "idle", attempts: [], error: "" });
+  const [selectedStageKey, setSelectedStageKey] = useState("L1-S1");
 
   useEffect(() => {
     if (!isAuthenticated && user === null) return;
@@ -445,16 +450,48 @@ export default function ReasoningAnalytics() {
     }
 
     setProgress(readReasoningProgress(user.userId));
+  }, [isAuthenticated, user, router]);
 
-    if (!BACKEND_URL) {
-      setAttemptState({ status: "error", attempts: [], error: "Detailed question-attempt analytics are unavailable because the Reasoning backend URL is not configured." });
+  const selectableStages = useMemo(
+    () => getSelectableReasoningAnalyticsStages(user),
+    [user]
+  );
+
+  useEffect(() => {
+    if (!selectableStages.length) {
+      setSelectedStageKey("");
       return;
+    }
+
+    if (!selectableStages.some((stage) => stage.key === selectedStageKey)) {
+      setSelectedStageKey(selectableStages[0].key);
+    }
+  }, [selectableStages, selectedStageKey]);
+
+  const selectedStage = selectableStages.find((stage) => stage.key === selectedStageKey) || null;
+
+  useEffect(() => {
+    if (!selectedStage || !BACKEND_URL) {
+      if (selectedStage && !BACKEND_URL) {
+        setAttemptState({
+          status: "error",
+          attempts: [],
+          error: "Detailed question-attempt analytics are unavailable because the Reasoning backend URL is not configured.",
+        });
+      }
+      return undefined;
     }
 
     let cancelled = false;
     setAttemptState({ status: "loading", attempts: [], error: "" });
 
-    fetch(`${BACKEND_URL}/api/reasoning/attempts?limit=200`, { credentials: "include" })
+    const params = new URLSearchParams({
+      levelId: selectedStage.levelId,
+      stageId: selectedStage.stageId,
+      limit: "200",
+    });
+
+    fetch(BACKEND_URL + "/api/reasoning/attempts?" + params.toString(), { credentials: "include" })
       .then(async (response) => {
         const data = await response.json().catch(() => null);
         if (!response.ok || !data?.success) {
@@ -475,11 +512,16 @@ export default function ReasoningAnalytics() {
     return () => {
       cancelled = true;
     };
-  }, [isAuthenticated, user, router]);
+  }, [selectedStage]);
 
   const analytics = useMemo(
-    () => (progress ? getStage1ReasoningAnalytics(progress) : null),
-    [progress]
+    () => (progress && selectedStage
+      ? getReasoningAnalytics(progress, {
+          levelId: selectedStage.levelId,
+          stageId: selectedStage.stageId,
+        })
+      : null),
+    [progress, selectedStage]
   );
 
   const attemptAnalytics = useMemo(
@@ -487,12 +529,7 @@ export default function ReasoningAnalytics() {
     [attemptState.attempts]
   );
 
-  if (!router.isReady || !isAuthenticated || !user?.userId || !analytics) return null;
-
-  const topicRows = [
-    ...analytics.tracks.quantitative.topicPerformance.map((item) => ({ ...item, track: "Quantitative" })),
-    ...analytics.tracks.verbal.topicPerformance.map((item) => ({ ...item, track: "Verbal" })),
-  ];
+  if (!router.isReady || !isAuthenticated || !user?.userId || !analytics || !selectedStage) return null;
 
   const activityRows = [
     ...analytics.tracks.quantitative.activityCompletion.items.map((item) => ({ ...item, track: "Quantitative" })),
@@ -509,9 +546,26 @@ export default function ReasoningAnalytics() {
         <div style={styles.wrapper}>
           <Link href="/Reasoning/Dashboard" style={styles.back}>← Back to Reasoning Dashboard</Link>
           <h1 style={styles.pageTitle}>Reasoning Analytics</h1>
+          <div style={styles.selectorBar}>
+            <label htmlFor="reasoning-analytics-stage" style={styles.selectorLabel}>View Stage</label>
+            <select
+              id="reasoning-analytics-stage"
+              value={selectedStage.key}
+              onChange={(event) => setSelectedStageKey(event.target.value)}
+              style={styles.selector}
+              aria-label="Select Reasoning Analytics Stage"
+            >
+              {selectableStages.map((stage) => (
+                <option key={stage.key} value={stage.key}>
+                  {stage.label}
+                </option>
+              ))}
+            </select>
+            <span style={styles.selectorHint}>{selectedStage.description}</span>
+          </div>
 
           <div style={styles.hero}>
-            <ReasoningProgressPieChart progress={analytics.overall.percent} />
+            <ReasoningProgressPieChart progress={analytics.overall.percent} stageLabel={analytics.stageLabel} />
             <div style={styles.heroCopy}>
               <div style={styles.trackBarGrid}>
                 <ActivityPerformanceBarChart title="Quantitative" data={analytics.tracks.quantitative.activityCompletion.items} />
@@ -521,7 +575,7 @@ export default function ReasoningAnalytics() {
           </div>
 
           <div style={styles.grid}>
-            <div style={styles.card}><div style={styles.label}>Overall Stage 1 progress</div><div style={styles.value}>{analytics.overall.percent}%</div></div>
+            <div style={styles.card}><div style={styles.label}>Overall {analytics.stageLabel} progress</div><div style={styles.value}>{analytics.overall.percent}%</div></div>
             <div style={styles.card}><div style={styles.label}>Modules completed</div><div style={styles.value}>{analytics.overall.completedModules} / {analytics.overall.totalModules}</div></div>
             <div style={styles.card}><div style={styles.label}>Activities completed</div><div style={styles.value}>{analytics.overall.activitiesCompleted} / {analytics.overall.activitiesTotal}</div></div>
             <div style={styles.card}><div style={styles.label}>Questions completed</div><div style={styles.value}>{analytics.overall.questionsCompleted}</div></div>
@@ -535,8 +589,8 @@ export default function ReasoningAnalytics() {
             <h2 style={styles.sectionTitle}>Quantitative and Verbal progress</h2>
             <p style={styles.sectionText}>Completion remains based on the existing activity/module progress record.</p>
             <div style={styles.split}>
-              <TrackPanel title="Quantitative" track={analytics.tracks.quantitative} />
-              <TrackPanel title="Verbal" track={analytics.tracks.verbal} />
+              <TrackPanel title="Quantitative" track={analytics.tracks.quantitative} stageLabel={analytics.stageLabel} />
+              <TrackPanel title="Verbal" track={analytics.tracks.verbal} stageLabel={analytics.stageLabel} />
             </div>
           </section>
 
@@ -650,7 +704,7 @@ export default function ReasoningAnalytics() {
 
           <section style={styles.section}>
             <h2 style={styles.sectionTitle}>Stage, module and activity completion</h2>
-            <p style={styles.sectionText}>A module is complete only when all of its mapped Stage 1 activities are completed.</p>
+            <p style={styles.sectionText}>A module is complete only when all of its mapped activities in the selected stage are completed.</p>
             <div style={styles.tableWrap}>
               <table style={styles.table}>
                 <thead><tr><th style={styles.th}>Track</th><th style={styles.th}>Module</th><th style={styles.th}>Activities</th><th style={styles.th}>Status</th></tr></thead>

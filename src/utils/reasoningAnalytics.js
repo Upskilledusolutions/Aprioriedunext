@@ -1,9 +1,32 @@
 import { STAGE1_MODULES } from "../Data/Reasoning/stage1Modules";
+import { STAGE2_MODULES } from "../Data/Reasoning/stage2Modules";
 import { getActivities } from "../Data/Reasoning/activities";
 import { getStage1CalibratedQuestions } from "../Data/Reasoning/stage1QuestionCalibration";
+import { getStage2CalibratedQuestions } from "../Data/Reasoning/stage2QuestionCalibration";
 
 const TRACKS = ["quantitative", "verbal"];
 const HALVES = ["explore", "extend"];
+
+const STAGE_CONFIGS = [
+  {
+    key: "L1-S1",
+    levelId: "L1",
+    stageId: "S1",
+    label: "Stage 1 — Foundation",
+    description: "Level 1 · Foundation Quantitative & Reasoning / Foundation Verbal & Reasoning",
+    modulesByTrack: STAGE1_MODULES,
+    getCalibratedQuestions: getStage1CalibratedQuestions,
+  },
+  {
+    key: "L1-S2",
+    levelId: "L1",
+    stageId: "S2",
+    label: "Stage 2 — Advanced Problem Solving",
+    description: "Level 1 · Advanced Problem Solving / Critical Reading & Argument",
+    modulesByTrack: STAGE2_MODULES,
+    getCalibratedQuestions: getStage2CalibratedQuestions,
+  },
+];
 
 function numericScore(value) {
   const score = Number(value);
@@ -15,13 +38,26 @@ function average(values) {
   return valid.length ? Math.round(valid.reduce((sum, value) => sum + value, 0) / valid.length) : null;
 }
 
-function summarizeActivities(activities, progress, track) {
+function resolveStageConfig(levelId, stageId) {
+  return STAGE_CONFIGS.find((stage) => stage.levelId === levelId && stage.stageId === stageId) || null;
+}
+
+export function getSelectableReasoningAnalyticsStages(user) {
+  const reasoningAccess = Array.isArray(user?.reasoningAccess) ? user.reasoningAccess : [];
+  const hasAllAccess = String(user?.type || "").toLowerCase() === "all";
+
+  return STAGE_CONFIGS.filter(
+    (stage) => hasAllAccess || reasoningAccess.includes("reasoning" + stage.levelId)
+  );
+}
+
+function summarizeActivities(activities, progress, track, getCalibratedQuestions) {
   const completedActivities = progress?.[track]?.completedActivities || {};
   const scores = progress?.[track]?.scores || {};
   const items = activities.map((activity) => {
     const completed = completedActivities[activity.id] === true;
     const score = completed ? numericScore(scores[activity.id]) : null;
-    const questionCount = getStage1CalibratedQuestions({ track, activityId: activity.id }).length;
+    const questionCount = getCalibratedQuestions(activity.id).length;
     return {
       id: activity.id,
       title: activity.title,
@@ -48,7 +84,9 @@ function summarizeHalf(items) {
     result[half] = {
       total: halfItems.length,
       completed: halfItems.filter((item) => item.completed).length,
-      percent: halfItems.length ? Math.round((halfItems.filter((item) => item.completed).length / halfItems.length) * 100) : 0,
+      percent: halfItems.length
+        ? Math.round((halfItems.filter((item) => item.completed).length / halfItems.length) * 100)
+        : 0,
       averageScore: average(halfItems.map((item) => item.score)),
     };
     return result;
@@ -89,12 +127,20 @@ function summarizeModules(modules, progress, track) {
   });
 }
 
-export function getStage1ReasoningAnalytics(progress) {
+export function getReasoningAnalytics(progress, { levelId = "L1", stageId = "S1" } = {}) {
+  const stage = resolveStageConfig(levelId, stageId);
+  if (!stage) return null;
+
   const tracks = {};
   for (const track of TRACKS) {
-    const activities = getActivities({ track, levelId: "L1", stageId: "S1" });
-    const activitySummary = summarizeActivities(activities, progress, track);
-    const modules = STAGE1_MODULES[track] || [];
+    const activities = getActivities({ track, levelId, stageId });
+    const activitySummary = summarizeActivities(
+      activities,
+      progress,
+      track,
+      stage.getCalibratedQuestions
+    );
+    const modules = stage.modulesByTrack[track] || [];
     const moduleSummary = summarizeModules(modules, progress, track);
     const completedModules = moduleSummary.filter((module) => module.complete).length;
 
@@ -107,7 +153,6 @@ export function getStage1ReasoningAnalytics(progress) {
       halfPerformance: summarizeHalf(activitySummary.items),
       topicPerformance: summarizeTopics(activitySummary.items),
     };
-
   }
 
   const totalModules = TRACKS.reduce((sum, track) => sum + tracks[track].totalModules, 0);
@@ -115,13 +160,20 @@ export function getStage1ReasoningAnalytics(progress) {
   const allActivities = TRACKS.flatMap((track) => tracks[track].activityCompletion.items);
 
   return {
+    stageKey: stage.key,
+    levelId: stage.levelId,
+    stageId: stage.stageId,
+    stageLabel: stage.label,
+    stageDescription: stage.description,
     overall: {
       totalModules,
       completedModules,
       percent: totalModules ? Math.round((completedModules / totalModules) * 100) : 0,
       activitiesTotal: allActivities.length,
       activitiesCompleted: allActivities.filter((item) => item.completed).length,
-      questionsCompleted: allActivities.filter((item) => item.completed).reduce((sum, item) => sum + item.questionCount, 0),
+      questionsCompleted: allActivities
+        .filter((item) => item.completed)
+        .reduce((sum, item) => sum + item.questionCount, 0),
       averageActivityScore: average(allActivities.map((item) => item.score)),
     },
     tracks,
@@ -132,4 +184,8 @@ export function getStage1ReasoningAnalytics(progress) {
       growthOverTime: false,
     },
   };
+}
+
+export function getStage1ReasoningAnalytics(progress) {
+  return getReasoningAnalytics(progress, { levelId: "L1", stageId: "S1" });
 }
