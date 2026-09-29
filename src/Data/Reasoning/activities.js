@@ -52,7 +52,7 @@ export const REASONING_ACTIVITIES = [
   { id:"V-L1-S3-EXT-counterarguments",track:"verbal",levelId:"L1",half:"extend",stageId:"S3",moduleId:"counterarguments-and-rebuttal",topicId:"counterarguments",title:"Counterarguments & Rebuttal: Extend",description:"Anticipate a reasonable opposing view and respond to it fairly with evidence and reasoning.",questionIds:["Q-L1-V-S3-EXT-CA-001","Q-L1-V-S3-EXT-CA-002","Q-L1-V-S3-EXT-CA-003","Q-L1-V-S3-EXT-CA-004"] },
   { id:"V-L1-S3-EXT-source-synthesis",track:"verbal",levelId:"L1",half:"extend",stageId:"S3",moduleId:"synthesis-across-sources",topicId:"source-synthesis",title:"Synthesis Across Sources: Extend",description:"Combine evidence and ideas from multiple sources into one original analytical point.",questionIds:["Q-L1-V-S3-EXT-SS-001","Q-L1-V-S3-EXT-SS-002","Q-L1-V-S3-EXT-SS-003","Q-L1-V-S3-EXT-SS-004"] },
   { id:"V-L1-S3-EXT-scholarly-revision",track:"verbal",levelId:"L1",half:"extend",stageId:"S3",moduleId:"scholarly-voice-and-revision",topicId:"scholarly-revision",title:"Scholarly Voice & Revision: Extend",description:"Strengthen precision, qualification, structure and academic voice through deliberate revision.",questionIds:["Q-L1-V-S3-EXT-SR-001","Q-L1-V-S3-EXT-SR-002","Q-L1-V-S3-EXT-SR-003","Q-L1-V-S3-EXT-SR-004"] }
-  ...STAGE4_ACTIVITIES,
+  , ...STAGE4_ACTIVITIES,
 ];
 
 export function getActivities(filters = {}) { return REASONING_ACTIVITIES.filter((item) => Object.entries(filters).every(([key,value]) => item[key] === value)); }

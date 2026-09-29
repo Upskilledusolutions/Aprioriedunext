@@ -186,15 +186,15 @@ The Stage 2 and Stage 3 remediation issues are now converted into reusable relea
 
 ### Vercel build-blocker diagnosis and systematic fix — 2026-09-29
 
-- Twelve consecutive Stage 4-related production deployments were checked. All returned the same Vercel signature: **`BUILD_UTILS_SPAWN_1`**, with **`npm run build` exiting with code 1** during the build step.
-- The failures began after Stage 4 was added to the shared Reasoning Activity registry: `activities.js` now imports and spreads `STAGE4_ACTIVITIES`.
-- The mandatory `prebuild` validator was still evaluating `activities.js` as a standalone module, stripping its import and leaving `STAGE4_ACTIVITIES` undefined. This created a deterministic validator failure before the Next.js build could complete.
-- The systematic fix updates the validator to load the Stage 4 dependency explicitly, uses that dependency-aware Activity registry for the existing Stage 2/3 checks, and adds Stage 4 structural/canonical checks to the same prebuild gate.
-- The fix also runs the existing canonical-drift check during prebuild so a changed editable Stage source cannot silently reach deployment with stale canonical output. The shared synchronization loader was then corrected on `main` in commit `53278cdb1ccdb6ead54d9c10a25a27b9e189a323` so that this drift check uses the same dependency-aware `STAGE4_ACTIVITIES` loading model.
-- The validator change and its documentation are grouped as **one coherent repair commit**; no speculative content or UI changes are being introduced.
+- Twelve consecutive Stage 4-related production deployments were checked. All returned `BUILD_UTILS_SPAWN_1` with `npm run build` exiting with code 1.
+- The original persistent failure was caused by two coupled build-time defects introduced with the Stage 4 registry:
+  - `src/Data/Reasoning/activities.js` spread `STAGE4_ACTIVITIES` without the required comma after the preceding array item, producing a real JavaScript syntax error.
+  - The prebuild validator and the canonical synchronization helper both evaluated `activities.js` as a standalone module, so the new Stage 4 import dependency was not modeled during validation.
+- The repair is now systematic rather than a Vercel-only workaround: the Activity registry syntax is corrected, the prebuild validator loads the Stage 4 dependency explicitly and validates Stage 4, and the shared synchronization loader supports the same dependency injection.
+- The prebuild also runs the existing canonical-drift check, so editable/canonical divergence is caught before a deployment-triggering build.
+- No learner-facing content, UI or shared Activity Player architecture was changed by this repair.
 - Stage 4 remains non-learner-facing and unaccepted until a successful production deployment and explicit live verification.
 
 ### Current next step
 
-**Next:** Verify the repaired prebuild validator through one Vercel deployment. Only after that build succeeds should the learner-facing Stage 4 deployment/verification gate proceed.
-
+**Next:** Verify the repaired `main` build in Vercel. If it succeeds, proceed to the documented Stage 4 learner-facing production verification gate.
