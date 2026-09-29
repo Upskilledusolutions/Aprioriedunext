@@ -192,7 +192,7 @@ Required behavior:
 
 ### 10C. Analytics implementation timing for future Stages
 
-Build the stage-selection capability **once, before Level 1 · Stage 3 acceptance**. **COMPLETE:** the capability is implemented and owner quick-checked for Stages 1–2. Do not build a separate Analytics UI for Stage 3, Stage 4, or later Stages.
+Build the stage-selection capability **once, before Level 1 · Stage 3 acceptance**. **COMPLETE:** the capability is implemented, deployed and owner quick-checked for Stages 1–3. Do not build a separate Analytics UI for Stage 4 or later Stages.
 
 For each later Stage/Level, the normal Stage launch process should only require:
 1. the Stage's verified progress/activity data and persisted attempt records to carry the correct Level/Stage identifiers;
@@ -203,18 +203,16 @@ A new bespoke Analytics implementation is required only if a future product-appr
 
 ### 10A. Reasoning Analytics visual presentation standard
 
-The existing analytics features form the accepted baseline Reasoning-specific analytics experience. The **reusable stage-scoped Analytics selector is implemented and owner quick-checked for Stages 1–2** and is now the shared reporting mechanism for Stage 3 and later accepted Stages.
+The existing analytics features form the accepted baseline Reasoning-specific analytics experience. The **reusable stage-scoped Analytics selector is implemented, deployed and owner quick-checked for Stages 1–3** and is now the shared reporting mechanism for later accepted Stages.
 
-Required visual elements:
-- prominent 3D-styled **overall Reasoning circular progress chart**;
-- distinct Quantitative and Verbal circular progress charts;
-- bar graphs for applicable comparisons such as Explore/Extend, difficulty, concept/skill and activity performance;
-- line graphs for applicable time-based views such as growth, accuracy and response-time trends;
-- selective 3D depth, layered lighting/shadows, animation and elevated visual treatment without reducing readability or performance;
-- a distinctive navy/blue/orange Reasoning palette with grey used sparingly;
+Accepted visual baseline as of 2026-09-29:
+- one prominent 3D-styled **overall Reasoning circular progress chart**;
+- Quantitative and Verbal activity-performance bar charts;
+- the accepted Reasoning pie/summary and activity-performance presentation already deployed;
+- the established navy/blue/orange Reasoning palette with grey used sparingly;
 - visual identity clearly distinct from the Foreign Languages Progress Report.
 
-Charts must remain data-driven, responsive, accessible and consistent with the existing cumulative Reasoning analytics. No decorative visualization may imply data that is not recorded.
+Additional 3D depth, layered lighting/shadows, animation or new chart types are optional enhancements, not required Stage-release gates. They must be data-driven, responsive, accessible and performance-safe. Do not reintroduce the previously rejected/failed multi-circle Analytics approach as part of routine Stage expansion.
 
 
 ## 11. Authenticated navigation labels

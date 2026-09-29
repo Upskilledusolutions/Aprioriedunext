@@ -57,6 +57,8 @@ The 30% figure is a preferred distribution target, not a requirement to manufact
 
 Answer length should be balanced across the full question set and, where enough questions exist, across tracks and stages rather than forcing an artificial pattern within every four-question activity.
 
+**Operational gate:** the answer-length audit must be run against the **final calibrated learner-facing delivery**, not merely the editable source. Run it after every substantive reauthoring/remediation pass and before deployment. When the result fails or requires review, correct the human-editable source first, resynchronize canonical records, rerun delivery validation, and repeat the audit. A superseded audit result must never be reused after content changes.
+
 ## 6. Capitalization and publishing consistency
 
 Answer choices must follow normal professional test-preparation publishing conventions.

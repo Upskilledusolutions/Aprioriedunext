@@ -10,9 +10,9 @@ Reasoning follows the **single sequential Stage/Level build → deployment → l
 
 - **Level 1 · Stage 1:** **ACCEPTED** after owner live verification.
 - **Level 1 · Stage 2:** **ACCEPTED after owner live quick-check** on the post-remediation production deployment (commit `84ffd50e9201d5e98e5116e2e90de1f695f44425`). The final runtime delivery audit is 46/160 = 28.7% unique-longest correct answers, below the <30% preferred benchmark.
-- **Level 1 · Stage 3:** **ACCEPTED after owner live quick-check** on the production deployment (commit `811d0d2f05135b9fa24b96b5b2af507c92c19356`). Stage 3 is now released in the shared Stage Analytics selector.
+- **Level 1 · Stage 3:** **ACCEPTED after owner live quick-check** on the released production deployment (commit `12c3481fdd23b79fc888ce7841096b94f1982b95`; Vercel deployment `dpl_6C9i9WsoeaKDcDkXFrBVcF4hN7xk` = READY). On 2026-09-29 the owner confirmed Stage 3 learner-facing functionality and Stage 3 Analytics. Stage 3 is released in the shared Stage Analytics selector.
 
-- **Stage 4 and later:** blocked until the current Stage is comprehensively verified and accepted.
+- **Stage 4 and later:** blocked until the current Stage has passed its required validation/deployment gate and owner live verification has been recorded.
 - Backend Reasoning authorization, durable question-attempt persistence and the current analytics foundation are implemented, deployed and owner-checked.
 - Reasoning data and progress remain separate from Foreign Languages.
 
@@ -45,7 +45,7 @@ Stage 4–6 values are existing Stage-specific inventories, not templates.
 
 ## Current progress scope
 
-The learner-facing Stage and Track progress model is Activity-based. The current Level 1 track-dashboard denominator covers **Stages 1–2 = 16 Activities per track**. Quantitative and Verbal progress bars use the same cumulative Activity model and must remain independent.
+The learner-facing Stage and Track progress model is Activity-based. The current released Level 1 track-dashboard denominator covers **Stages 1–3 = 26 Activities per track** (8 + 8 + 10). Quantitative and Verbal progress bars use the same cumulative Activity model and must remain independent.
 
 ## Current Stage 3 checkpoint record
 
@@ -108,9 +108,18 @@ The project rule is **below 50% required; below 30% preferred**. The post-remedi
 
 **Stage 2 acceptance decision — 2026-09-29:** Owner approved Level 1 · Stage 2 after a live quick-check of the post-remediation production deployment. This records the Stage 2 curriculum/content release as accepted.
 
-**Stage Analytics selector verification — 2026-09-29:** Owner completed live quick-checks confirming the reusable Stage selector and Stage-specific Analytics views for Stages 1–2. Stage 1, Stage 2 and Stage 3 remain separate reporting scopes, and the shared Analytics feature set is retained.
+**Stage Analytics selector verification — 2026-09-29:** Owner completed live quick-checks confirming the reusable Stage selector and Stage-specific Analytics views for Stages 1–3. Stage 1, Stage 2 and Stage 3 remain separate reporting scopes, and the shared Analytics feature set is retained.
 
 The reusable selector is a completed shared capability. Stage 3 has now been released through the same configuration after owner approval.
+
+## Build hardening and remediation lessons
+
+The Stage 2 and Stage 3 remediation issues are now converted into reusable release gates rather than recurring Stage-specific blockers:
+
+- **Stage 2 answer-length issue:** the initial final-delivery audit exceeded the hard ceiling (52.5%). Future Stage releases must run the answer-length audit on the final calibrated learner-facing delivery after all reauthoring, and any remediation invalidates the previous result until the audit is rerun.
+- **Stage 3 source/content-integrity issues:** the editable source schema, answer/options and canonical output were brought back into agreement. Future migrations must validate the editable document envelope before synchronization; keep question corrections source-first; bump the affected question/Stage version; regenerate canonical records; verify the source fingerprint; and rerun final runtime answer/options integrity checks.
+- **Runtime correction-layer risk:** calibration/delivery must not silently replace a keyed answer or question options through an undocumented correction map. Content corrections belong in the editable source and canonical regeneration path.
+- **Deployment discipline:** related fixes are grouped into one prevalidated Stage-level deployment wherever practical. A failed deployment is diagnosed by category before another deployment-triggering commit is created.
 
 ## Current next step
 
@@ -120,4 +129,6 @@ Future Stage launches should add the newly accepted Stage to the existing select
 
 Checkpoint 3 structural learner-facing reconciliation is complete for Level 1 Stage 3. Checkpoint 4 quality verification is complete and passed as recorded above. Both Quantitative and Verbal expose all 10 approved Stage 3 modules and all 10 approved Activities per track (5 Explore + 5 Extend). Each module resolves its Activity ID through the shared Activity registry; the Stage dashboard exposes all Activities; module pages resolve linked Activities and provide Previous/Next navigation across the complete module sequence. Canonical Stage 3 contains all 20 corresponding Activity IDs with exactly 10 questions per Activity. No placeholder or duplicate Activity mapping was found.
 
-**Three-stage checkpoint status:** Level 1 Stages 1–3 are now individually accepted. The focused three-stage production checkpoint is the next required gate before Stage 4.
+**Stage 3 live verification — 2026-09-29:** Owner confirmed Stage 3 learner-facing functionality and the Stage 3 Analytics experience on the Ready production deployment. This completes the Stage 3 owner-verification record; it does not replace the separate focused three-stage checkpoint.
+
+**Three-stage checkpoint status:** Level 1 Stages 1–3 are individually accepted. The focused three-stage production checkpoint covering the three accepted Stages is the next required gate before Stage 4.

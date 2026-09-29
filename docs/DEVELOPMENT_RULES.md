@@ -223,7 +223,7 @@ Permanent invariants:
 - one Stage at a time;
 - prebuild validation before deployment;
 - one coherent deployment where practical;
-- complete live verification before acceptance.
+- required owner live verification before acceptance.
 
 Do not create a second Stage-launch checklist in this file.
 
@@ -257,6 +257,9 @@ For every Reasoning stage being remediated, additionally verify:
 - per-question timing displays and resets correctly between questions
 - timer overrides work at the intended configuration level
 - switching products does not log the user out
+- final calibrated learner-facing delivery is audited after all substantive content remediation
+- answer key/options agree across human-editable source, canonical records and runtime delivery
+- no undocumented downstream correction map silently changes an answer key or option set
 
 ## 19. No premature technical decisions
 
@@ -272,7 +275,7 @@ For migrated Reasoning content, use the human-editable Stage document as the pre
 
 Do not interpret migration as a request to rewrite question content. A migration transformation may normalize representation while preserving Question IDs, meaning, answers, explanations, timing, difficulty, placement metadata and figures. Content-quality changes remain subject to the separate Reasoning Question Quality Standard.
 
-The migration sequence is infrastructure-first, followed by controlled per-Stage execution: schema → synchronization → drift/validation → round-trip → one-Stage migration → learner-facing reconciliation → deployment → complete production verification → Stage acceptance → next Stage. The old grouped Level 1 Stages 1–3 gate is superseded.
+The migration sequence is infrastructure-first, followed by controlled per-Stage execution: schema → synchronization → drift/validation → round-trip → one-Stage migration → learner-facing reconciliation → final delivery quality audit → prebuild validation → one coherent deployment → owner live verification → Stage acceptance → next Stage. If a content defect is found after validation or deployment, correct it at the editable-source layer, resynchronize canonical records, rerun the affected gates and verify the corrected production scope. The old grouped Level 1 Stages 1–3 gate is superseded.
 
 ## 21. Zero-cost development preference
 
@@ -289,6 +292,9 @@ If the code conflicts with the documentation, the AI should stop and explain the
 Deployment is the release step, not the debugging loop.
 
 Before a deployment-triggering commit:
+- finish all approved fixes for the current Stage release unit;
+- if any content changed after a quality audit, rerun the affected final-delivery audit;
+- confirm editable-source schema and canonical fingerprint synchronization;
 - validate the exact affected Stage/Level scope;
 - use isolated dependency evaluation for independent JavaScript modules;
 - never pass JSX React files to raw Node `--check`;
@@ -296,7 +302,7 @@ Before a deployment-triggering commit:
 - verify Activity/Module/question mappings and structural counts;
 - group related approved fixes into one coherent deployment where practical.
 
-After deployment, verify the exact GitHub commit on Vercel and complete the required live Stage verification before proceeding.
+After deployment, verify the exact GitHub commit on Vercel and complete the required owner live Stage verification before acceptance.
 
 ## 24. Priority order
 
