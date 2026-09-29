@@ -2,7 +2,7 @@
 
 **Status:** Approved operational source-of-truth standard  
 **Approved:** 2026-09-22  
-**Last updated:** 2026-09-28  
+**Last updated:** 2026-09-29  
 **Applies to:** Reasoning Levels 1–9, Stages 1–6, Quantitative and Verbal
 
 ## 1. Purpose
@@ -36,7 +36,7 @@ Reasoning progress, mastery, analytics, points, streaks, achievements and leader
 
 Mastery and analytics are a required first-release capability for Stage 1. They must expand cumulatively as additional Stages and Levels are verified. They are not a later-phase enhancement.
 
-The specific richer analytics dimensions that require durable question-attempt history are now supported by the implemented backend persistence foundation. The foundation is deployed but still requires live authorization/capture verification before richer question-level and historical analytics are enabled and before Stage 2 implementation. This does not defer the required Stage 1 analytics; it establishes the durable data layer needed for reliable expansion.
+The durable Reasoning question-attempt persistence and authorization foundation is implemented, deployed and owner-checked. Current analytics use only recorded/supportable data. Unsupported historical values must not be reconstructed or fabricated.
 
 ## 3. Stage content model
 
@@ -63,6 +63,33 @@ A Module may contain one or multiple Activities/question sets. Each question set
 Questions retain explicit track, level, stage, half, module and activity mappings.
 
 **Structural gate:** a Stage is noncompliant when either track has fewer than 5 Explore Activities or fewer than 3 Extend Activities. A Stage having both halves present is not sufficient; the minimum counts and the Stage 1 UI/navigation/functionality blueprint must both be satisfied.
+
+## 4A. Reusable Stage/Level implementation template
+
+Every Stage and Level uses the same implementation pattern. Stage-specific code supplies only the data/configuration that changes.
+
+**Shared layer**
+- Stage dashboard shell;
+- Module/lesson shell;
+- common progress calculation;
+- shared Activity Player;
+- common route/navigation conventions.
+
+**Stage-specific layer**
+- Level ID and Stage number;
+- stage title/description;
+- approved Module inventory;
+- approved Activity IDs and Explore/Extend placement;
+- question-bank/canonical source and calibration resolver;
+- stage route.
+
+**Progress**
+- Stage progress = completed Activities / total Activities in that Stage;
+- Explore and Extend both count;
+- cumulative track progress = completed Activities / total Activities in the currently released scope;
+- Module completion is a separate status and must not drive Stage/track percentages.
+
+This template must be reused for Levels 2–9. Do not create a new page architecture for a new Level merely because the curriculum content changes.
 
 ## 4. Stage launch workflow
 
@@ -104,10 +131,11 @@ Before deployment, compare the content records with the actual learner-facing cu
 For every Module and Stage, confirm:
 
 - the approved Stage-specific Module inventory is intact;
-- exactly 8 learner-facing Activities/question sets exist for the track;
-- exactly 5 are Explore and exactly 3 are Extend;
-- all intended Explore activities exist;
-- all intended Extend activities exist;
+- at least 8 learner-facing Activities/question sets exist for the track;
+- at least 5 are Explore and at least 3 are Extend;
+- all approved Explore activities exist;
+- all approved Extend activities exist;
+- any approved Activities above the minimum are preserved;
 - each Activity ID resolves correctly;
 - no duplicate placeholder Activity is being used where distinct activities are required;
 - module sequencing and Previous/Next navigation are correct;
@@ -171,6 +199,8 @@ Before a deployment-triggering commit, run the available repository validation f
 - Stage structure;
 - learner-facing routes.
 
+Validation must be deterministic and stage-scoped: evaluate independent JavaScript modules in isolated scopes with explicit dependency injection; do not concatenate separate modules into one scope when helper names can collide. Do not pass JSX React components to raw Node `--check`; JSX must be validated by the repository's Next.js compilation path. Do not audit unrelated future Stages as part of the current Stage release.
+
 Deterministic source failures must be resolved before creating the deployment-triggering commit.
 
 ### Checkpoint 7 — One coherent deployment
@@ -205,6 +235,7 @@ At Stage level, verify:
 - the approved Stage-specific Module inventory is reachable;
 - at least 8 learner-facing Activities/question sets exist for the track;
 - at least 5 are Explore and at least 3 are Extend;
+- every approved Activity above the minimum is reachable;
 - every intended Module is reachable;
 - Explore is exposed first;
 - Extend is exposed second;
@@ -250,9 +281,7 @@ A Ready deployment is evidence of successful deployment, not evidence of Stage a
 
 Work proceeds one Stage at a time.
 
-The immediate restart point is:
-
-**Level 1 · Stage 1 acceptance → backend foundation → manual Reasoning Level access (implemented/deployed) → durable question-attempt persistence (implemented/deployed) → live authorization/capture verification → richer analytics expansion → Level 1 · Stage 2.**
+The current sequence is one Stage at a time. Level 1 · Stage 1 is accepted; the backend access/persistence foundation has been implemented, deployed and owner-checked; Level 1 · Stage 2 is implemented and quick-checked but remains pending comprehensive owner verification. Do not start the next Stage until the current Stage is accepted.
 
 The **manual Reasoning Level-access implementation** is the first Reasoning-specific backend feature after the backend foundation. The approved identifiers are `reasoningL1`–`reasoningL9`, and access is selective rather than progressive: any individual level may be assigned directly without prerequisite Level identifiers. The **analytics persistence foundation** is a separate backend/data task afterward. It must establish durable question-attempt storage using only fields the audited backend can support, verify capture and separation from Foreign Languages, and then enable the richer question-level/historical analytics. Stage 2 implementation does not begin until Stage 1 has passed its acceptance gate and both backend sequences are complete.
 
@@ -323,30 +352,5 @@ This standard does not redesign:
 
 It adds a consistent launch and verification process around the existing architecture.
 
-## 2026-09-23 — Backend authorization and durable-attempt verification gate
-
-The external `Upskilledusolutions/Backend` repository is now integrated into the Reasoning launch process.
-
-### Implemented and deployed
-
-- Server-recognized authentication/session foundation.
-- Manual Level access using `reasoningL1`–`reasoningL9`.
-- Learner-scoped access reads and administrator-only access changes.
-- Activity-level backend authorization before Reasoning questions render.
-- Durable answered/timed-out question-attempt capture.
-- Learner-scoped attempt retrieval.
-
-Backend Reasoning implementation commit `6c353c4529fe3b5c613deb3396f8a00b8d1ce500` is deployed in the live Render deployment chain. Later documentation-only commits may appear as the latest Render deployment without changing this implementation.
-
-Frontend: `e22ccb1bc800f41689fc62a07c52b664783c3cfb` — Vercel **READY**.
-
-### Mandatory verification gate
-
-Deployment is not owner verification. Before Level 1 · Stage 2 begins, verify:
-
-- authorized and unauthorized Level access behavior;
-- learner versus administrator authorization;
-- answered/timed-out attempt persistence;
-- correct learner ownership and Reasoning/Foreign Languages separation.
-
-After this verification, expand the existing Reasoning Analytics experience using only recorded data.
+## Historical foundation note
+The backend authorization and durable-attempt work is recorded in the supporting architecture/progress documents. Its implementation is complete and owner-checked; the current Stage gate is governed by Sections 4–9 above.
