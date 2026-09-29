@@ -174,9 +174,36 @@ The richer question-level analytics now expand through the same cumulative Reaso
 
 These extend the same cumulative Reasoning record rather than creating a separate analytics system. The implementation must use recorded data only and must not fabricate unsupported historical values.
 
+### 10B. Stage-selectable Analytics experience
+
+The dedicated Reasoning Analytics page must provide a **Stage selector dropdown** so a learner can view the same Analytics feature set for a particular released/authorized Stage.
+
+Required behavior:
+
+- The selector lists only Stages that are both **released/accepted** and **authorized for the current learner**.
+- For an administrator/mastertrainer with `type = "all"`, all released/accepted Reasoning Stages available in the current product release are selectable.
+- Selecting a Stage changes the entire Analytics view to that Stage: progress, Quantitative and Verbal activity charts, completion cards, persisted question-attempt analytics, difficulty performance, concept/skill performance, strengths/areas needing improvement, growth over time, activity performance, and Stage/module/activity completion.
+- The selected Stage view must use only that Stage's recorded data. It must not mix attempts, progress or completion values from other Stages.
+- Quantitative and Verbal remain independently attributable within the selected Stage.
+- Existing cumulative Reasoning records remain unchanged; selecting a Stage is a reporting filter, not a reset, migration or new data namespace.
+- A Stage with no recorded learner data must still render the same feature structure, using the existing unsupported/no-data states rather than invented values.
+- Stage selection must not expose an unreleased or unauthorized Stage merely because source code or backend records exist.
+- The Stage selector must be implemented as a reusable parameterized analytics model (for example, a stage-aware equivalent of the current Stage 1 analytics utility), so future accepted Stages are added by configuration/data availability rather than by creating another Analytics page.
+
+### 10C. Analytics implementation timing for future Stages
+
+Build the stage-selection capability **once, before Level 1 · Stage 3 acceptance**. Do not build a separate Analytics UI for Stage 3, Stage 4, or later Stages.
+
+For each later Stage/Level, the normal Stage launch process should only require:
+1. the Stage's verified progress/activity data and persisted attempt records to carry the correct Level/Stage identifiers;
+2. the accepted Stage to become eligible for the selector;
+3. targeted live verification that selecting the new Stage renders the same Analytics feature set with only that Stage's data.
+
+A new bespoke Analytics implementation is required only if a future product-approved requirement changes the shared Analytics feature model itself. Ordinary addition of a Stage must not require a new Analytics architecture.
+
 ### 10A. Reasoning Analytics visual presentation standard
 
-The existing analytics features must be presented as a premium Reasoning-specific analytics experience before Level 1 · Stage 2. This is a **presentation-layer refinement**, not a change to the analytics model.
+The existing analytics features form the accepted baseline Reasoning-specific analytics experience. The required next enhancement is a **reusable stage-scoped Analytics selector** that must be implemented and live-verified before Level 1 · Stage 3 is accepted. This is an analytics-view enhancement, not a separate analytics system.
 
 Required visual elements:
 - prominent 3D-styled **overall Reasoning circular progress chart**;
