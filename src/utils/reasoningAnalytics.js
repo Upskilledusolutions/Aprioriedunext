@@ -14,6 +14,7 @@ const STAGE_CONFIGS = [
     stageId: "S1",
     label: "Stage 1 — Foundation",
     description: "Level 1 · Foundation Quantitative & Reasoning / Foundation Verbal & Reasoning",
+    released: true,
     modulesByTrack: STAGE1_MODULES,
     getCalibratedQuestions: getStage1CalibratedQuestions,
   },
@@ -23,8 +24,18 @@ const STAGE_CONFIGS = [
     stageId: "S2",
     label: "Stage 2 — Advanced Problem Solving",
     description: "Level 1 · Advanced Problem Solving / Critical Reading & Argument",
+    released: true,
     modulesByTrack: STAGE2_MODULES,
     getCalibratedQuestions: getStage2CalibratedQuestions,
+  },
+  {
+    key: "L1-S3",
+    levelId: "L1",
+    stageId: "S3",
+    label: "Stage 3 — Mathematical Thinking & Analytical Writing",
+    description: "Level 1 · Mathematical Thinking / Analytical & Scholarly Writing",
+    released: false,
+    modulesByTrack: null,
   },
 ];
 
@@ -47,7 +58,7 @@ export function getSelectableReasoningAnalyticsStages(user) {
   const hasAllAccess = String(user?.type || "").toLowerCase() === "all";
 
   return STAGE_CONFIGS.filter(
-    (stage) => hasAllAccess || reasoningAccess.includes("reasoning" + stage.levelId)
+    (stage) => stage.released === true && (hasAllAccess || reasoningAccess.includes("reasoning" + stage.levelId))
   );
 }
 
