@@ -165,9 +165,26 @@ The Stage 2 and Stage 3 remediation issues are now converted into reusable relea
 - The fail-closed delivery boundary at `src/Data/Reasoning/stage4CanonicalDelivery.js` requires the 10-question canonical set and has **no fallback** to `questionBankStage4.js`.
 - Stage 4 remains **non-learner-facing and unaccepted**. No learner-facing deployment was made by this checkpoint.
 
+### Checkpoint 4A — Question-quality / final-delivery validation: COMPLETE / PASS
+
+**Audit date:** 2026-09-29
+
+- Final Stage 4 delivery scope: **180 questions across 18 Activities**, exactly **10 questions per Activity**.
+- Quantitative: **9 Activities (5 Explore + 4 Extend)**; Verbal: **9 Activities (5 Explore + 4 Extend)**.
+- Initial post-expansion answer-length audit failed: **122/140 = 87.1%** unique-longest correct answers among Text-Based Reasoning questions; answer positions were also materially skewed.
+- Remediation was applied **human-editable source first**, with targeted option-quality corrections and deterministic answer-position rebalancing; stable Question IDs and assessed skills were preserved.
+- Final editable source version: **4**. Canonical source version: **4**.
+- Final unique-longest correct-answer rate: **40/140 = 28.6%** for Text-Based Reasoning questions — **PASS; preferred <30% benchmark met** and hard <50% ceiling satisfied.
+- Tied-for-longest correct-answer cases: **11**; these are reported separately and are not counted as unique-longest clues.
+- Correct-answer positions are exactly balanced: **A 45, B 45, C 45, D 45**.
+- Unique-shortest correct-answer cases: **3/140 = 2.1%**; no systematic reverse length clue was identified.
+- No lowercase option-start inconsistencies, required-field omissions or four-option structural errors were found.
+- Difficulty ordering is monotonic within every Activity, and Extend uses the higher base difficulty range.
+- Editable → canonical synchronization is aligned with source fingerprint **`6014d252e616a7e3d02037323d65a61b34b4308f5c3cf78f271e08311c246e66`**.
+- The fail-closed canonical delivery boundary remains unchanged and has **no legacy-bank fallback**.
+- **Stage 4 remains non-learner-facing and unaccepted.** This source-quality PASS does not constitute production acceptance.
+
 ### Current next step
 
-**Next:** Run the required Stage 4 question-quality/final-delivery validation and then the documented learner-facing production verification gate. Do not mark Stage 4 accepted until live production verification is explicitly recorded.
+**Next:** Complete the documented learner-facing production deployment and live verification gate. Do not mark Stage 4 accepted until live production verification is explicitly recorded.
 
-
-Future Stage launches should add the newly accepted Stage to the existing selector through the shared stage-aware configuration rather than create a new Analytics UI.
