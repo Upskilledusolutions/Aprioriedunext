@@ -149,8 +149,17 @@ The Stage 2 and Stage 3 remediation issues are now converted into reusable relea
 - Editable → canonical fingerprint matches exactly; no duplicate Question IDs were found.
 - Stage 4 remains non-learner-facing and unaccepted. The canonical records do not yet constitute final calibrated 10-question delivery sets.
 
+### Checkpoint 3 — Structural learner-facing reconciliation: COMPLETE
+
+- Stage 4 now resolves to exactly 5 Explore + 4 Extend module objects and 9 Activities per track.
+- Every Stage 4 Activity is mapped exactly once to a module; no orphan module or duplicate Activity mapping remains.
+- All 72 editable/canonical questions resolve to an existing Stage 4 Activity with matching track, half, module and stable Question ID.
+- Quantitative and Verbal each contain 9 distinct Stage 4 Activities: 5 Explore + 4 Extend.
+- No learner-facing Stage 4 exposure or acceptance was made by this checkpoint.
+
 ### Current next step
 
-**Next:** Checkpoint 3 — reconcile the canonical Stage 4 records against the learner-facing curriculum structure, including the approved 5 Explore + 4 Extend inventory currently present, Activity ID resolution and module sequencing/navigation. Do not expose or mark Stage 4 accepted before the remaining Stage checkpoints and required production verification are complete.
+**Next:** Checkpoint 4 — perform the documented Stage 4 delivery/readiness validation on the canonical records and shared delivery path. Confirm that canonical records can produce the required activity question sets without falling back to the legacy bank, before any learner-facing exposure. Do not mark Stage 4 accepted until this checkpoint and the required live production verification pass.
+
 
 Future Stage launches should add the newly accepted Stage to the existing selector through the shared stage-aware configuration rather than create a new Analytics UI.
