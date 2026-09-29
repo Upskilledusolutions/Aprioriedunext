@@ -159,7 +159,7 @@ Stage
       → 10 delivered questions each
 ```
 
-The learner-facing order is Explore first → Extend second. Module pages, Previous/Next navigation, completion/progress behaviour and the shared Activity Player should follow the Stage 1 experience one-to-one.
+The learner-facing order is Explore first → Extend second. Module pages, Previous/Next navigation, completion/progress behaviour and the shared Activity Player should follow the Stage 1 experience one-to-one. Use the shared Stage/Module UI implementation; Stage-specific pages should supply configuration/data rather than copy the Stage 1 UI.
 
 Do not introduce a separate `setId` layer merely to support multiple question sets. Use distinct stable Activity IDs unless a future architectural decision explicitly requires a separate set abstraction.
 
@@ -228,6 +228,8 @@ Manual edits to generated canonical output are prohibited.
 ## 9. Validation
 
 Validation is layered.
+
+For build validation, keep Stage-specific evaluation scoped to the target Stage and its explicit shared dependencies. Evaluate independent source modules in isolated scopes with explicit dependency injection; do not concatenate unrelated modules into one executable scope when helper declarations can collide. JSX React components must be validated through the repository's Next.js compilation path rather than raw Node `--check`.
 
 ### Structural
 
