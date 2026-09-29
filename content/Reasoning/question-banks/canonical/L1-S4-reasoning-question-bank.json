@@ -5,8 +5,8 @@
   "bankId": "reasoning-L1-S4",
   "levelId": "L1",
   "stageId": "S4",
-  "version": 3,
-  "sourceFingerprint": "7e8a920abc4a26b369e1e5e06efaae4329e27164abcfa88617a691afe1d86587",
+  "version": 4,
+  "sourceFingerprint": "6014d252e616a7e3d02037323d65a61b34b4308f5c3cf78f271e08311c246e66",
   "sourceFile": "content/Reasoning/question-banks/stages/L1-S4-reasoning-question-bank.json",
   "questions": [
     {
@@ -439,7 +439,7 @@
       "options": [
         "The reasoning that connects the important steps",
         "A larger font",
-        "A decorative diagram",
+        "A decorative diagram that does not explain any step",
         "Another final number"
       ],
       "answer": "The reasoning that connects the important steps",
@@ -1522,7 +1522,7 @@
       "difficulty": 6,
       "question": "A problem contains a large calculation but has a repeated structure. What should you investigate before calculating everything?",
       "options": [
-        "Whether the largest number can be ignored",
+        "Whether the largest number can be ignored without examining the repeated structure",
         "Whether the answer can be guessed",
         "Whether all conditions can be removed",
         "Whether the repeated structure can replace part of the calculation"
@@ -2119,7 +2119,7 @@
       "options": [
         "A is 3 more than B, so the difference is 3",
         "A is good",
-        "They are numbers",
+        "They are numbers, so the comparison does not need an explanation",
         "I calculated it"
       ],
       "answer": "A is 3 more than B, so the difference is 3",
@@ -3272,7 +3272,7 @@
       "difficulty": 6,
       "question": "A writer's claim is stronger than the evidence allows. What is the best revision?",
       "options": [
-        "Make the claim even more absolute",
+        "Make the claim even more absolute, even though the evidence is limited",
         "Qualify the claim so its strength matches the evidence",
         "Remove all evidence",
         "Add an unrelated example"
@@ -3484,7 +3484,7 @@
       "question": "How can a broad claim be made more defensible?",
       "options": [
         "Make it universal",
-        "Add exclamation marks",
+        "Add exclamation marks and stronger wording to make it sound certain",
         "Remove evidence",
         "Limit it to the evidence's population and context"
       ],
@@ -3833,7 +3833,7 @@
       "questionType": "multiple_choice",
       "question": "A useful evidence-quality question is?",
       "options": [
-        "Is the source colorful?",
+        "Is the source colorful enough to look trustworthy?",
         "How was it collected and what are its limits?",
         "Is the title short?",
         "Does it agree with me?"
@@ -3867,7 +3867,7 @@
       "difficulty": 5,
       "question": "Why consider an opposing viewpoint?",
       "options": [
-        "It always weakens the argument",
+        "It always weakens the argument by admitting an opposing view",
         "It removes your position",
         "It can reveal limitations and strengthen the response",
         "It avoids evidence"
@@ -4148,7 +4148,7 @@
       "questionType": "multiple_choice",
       "question": "A policy has a benefit and a cost. Balanced analysis should?",
       "options": [
-        "Mention only the benefit",
+        "Mention only the benefit and leave the cost unexamined",
         "Mention only the cost",
         "Consider both and explain relevant conditions",
         "Avoid evidence"
@@ -4184,7 +4184,7 @@
       "question": "A useful question about another perspective is?",
       "options": [
         "Why are they wrong?",
-        "How can I ignore it?",
+        "How can I ignore it without considering the evidence or values?",
         "Who is popular?",
         "What evidence or values lead to this conclusion?"
       ],
@@ -4359,7 +4359,7 @@
       "question": "When revising an argument, first check?",
       "options": [
         "Whether the claim is clear and supported",
-        "Only spelling",
+        "Only spelling, even if the claim and support are unclear",
         "Font color",
         "Page length"
       ],
@@ -4396,7 +4396,7 @@
         "A title",
         "Analysis connecting evidence to the claim",
         "Harder words",
-        "Unrelated facts"
+        "Unrelated facts that do not connect the evidence to the claim"
       ],
       "answer": "Analysis connecting evidence to the claim",
       "explanation": "Analysis explains why evidence matters.",
@@ -4431,7 +4431,7 @@
         "Keeping 'always'",
         "Deleting evidence",
         "Limiting the claim to the supported context",
-        "Adding punctuation"
+        "Adding punctuation without narrowing the unsupported claim"
       ],
       "answer": "Limiting the claim to the supported context",
       "explanation": "The claim should match the evidence scope.",
@@ -4533,7 +4533,7 @@
       "questionType": "multiple_choice",
       "question": "Why look for counterarguments during revision?",
       "options": [
-        "To guarantee agreement",
+        "To guarantee agreement by removing objections from the discussion",
         "To identify objections the argument should address",
         "To replace evidence",
         "To remove the thesis"
@@ -4570,7 +4570,7 @@
         "A new unrelated topic",
         "Only a quotation",
         "A distinct point supporting the overall argument",
-        "A repeated introduction"
+        "A repeated introduction that does not add a new reason or point"
       ],
       "answer": "A distinct point supporting the overall argument",
       "explanation": "Purposeful paragraphs move the argument forward one clear point at a time.",
@@ -4708,7 +4708,7 @@
       "questionType": "multiple_choice",
       "question": "An introduction should?",
       "options": [
-        "Present every detail",
+        "Present every detail to the reader before the main position is clear",
         "End the argument",
         "Frame the topic and establish the main position",
         "List random facts"
@@ -4884,7 +4884,7 @@
       "question": "Why should paragraph order be deliberate?",
       "options": [
         "Order never matters",
-        "Random order is clearer",
+        "Random order is clearer even when the ideas depend on one another",
         "It removes evidence",
         "Sequence can guide the reader through the reasoning"
       ],
@@ -5093,7 +5093,7 @@
       "questionType": "multiple_choice",
       "question": "Why can a strong argument acknowledge uncertainty?",
       "options": [
-        "It defeats every argument",
+        "It defeats every argument whenever the writer admits uncertainty",
         "Uncertainty can be part of an accurate conclusion",
         "Evidence must be perfect",
         "It avoids making claims"
@@ -5163,7 +5163,7 @@
       "questionType": "multiple_choice",
       "question": "Two pieces of evidence conflict. Useful next step?",
       "options": [
-        "Choose the preferred one",
+        "Choose the preferred one without investigating the methodological differences",
         "Ignore both",
         "Average the claims",
         "Compare methods, populations and measurements"
@@ -5267,7 +5267,7 @@
       "difficulty": 6,
       "question": "A fair counterargument should be what?",
       "options": [
-        "An exaggerated version",
+        "An exaggerated version that makes the opposing position easier to dismiss",
         "An insult",
         "A reasonable version of an opposing position",
         "An unrelated point"
@@ -5443,7 +5443,7 @@
       "questionType": "multiple_choice",
       "question": "A useful counterargument is?",
       "options": [
-        "An unrelated opinion",
+        "An unrelated opinion that does not challenge the main position",
         "A repeated thesis",
         "A personal attack",
         "A plausible challenge to the main position"
@@ -5618,7 +5618,7 @@
       "question": "Which revision is more academically precise?",
       "options": [
         "The evidence suggests a possible relationship",
-        "This proves everything",
+        "This proves everything about the topic, regardless of the evidence",
         "Everyone knows this",
         "This always happens"
       ],
@@ -5759,7 +5759,7 @@
       "question": "Which revision improves precision?",
       "options": [
         "The survey suggests a preference among the students surveyed.",
-        "The survey proves everyone agrees.",
+        "The survey proves everyone agrees, including people who were not surveyed.",
         "People always agree.",
         "This proves everything."
       ],
@@ -5936,7 +5936,7 @@
         "Add more repetition",
         "Keep the clearest explanation and remove redundancy",
         "Delete evidence",
-        "Make every sentence longer"
+        "Make every sentence longer so the repetition appears more detailed"
       ],
       "answer": "Keep the clearest explanation and remove redundancy",
       "explanation": "Concise analysis preserves reasoning.",
@@ -5968,7 +5968,7 @@
       "question": "When comparing sources, what should you examine?",
       "options": [
         "Only the titles",
-        "Only the page count",
+        "Only the page count, without examining claims or evidence",
         "Claims, evidence, purpose and limitations",
         "Which font is used"
       ],
@@ -6002,7 +6002,7 @@
       "difficulty": 6,
       "question": "Two sources reach different conclusions. What is a useful question?",
       "options": [
-        "Which title sounds better?",
+        "Which title sounds better, regardless of the evidence and methods?",
         "Which is longer?",
         "Can I ignore both?",
         "Do they use different evidence, methods or assumptions?"
