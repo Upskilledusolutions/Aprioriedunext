@@ -333,6 +333,8 @@ Mastery and analytics are mandatory from Level 1 · Stage 1 onward. They should 
 - strengths and areas needing improvement;
 - growth over time.
 
+The dedicated Reasoning Analytics page must use one reusable stage-aware architecture with a Stage selector. It must show only released/accepted Stages authorized for the learner and filter the full Analytics view to the selected Stage without mixing records across Stages. This is a reporting-view filter over the same cumulative Reasoning record, not a new data namespace.
+
 The Reasoning profile is accessed from the login icon/name using the same general interaction pattern as Foreign Languages. This is a separate Reasoning profile/data view and must not replace or merge the Foreign Languages profile.
 
 Additional verified Stages and Levels append to the same cumulative Reasoning record; they do not reset earlier data.
