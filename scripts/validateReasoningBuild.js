@@ -130,6 +130,8 @@ const stage4CanonicalPath="content/Reasoning/question-banks/canonical/L1-S4-reas
 let stage4Canonical={};
 try{stage4Canonical=JSON.parse(read(stage4CanonicalPath));}catch(e){fail.push("Stage 4 canonical JSON could not be read: "+e.message);}
 const stage4Schema=evaluate(["src/Data/Reasoning/canonicalQuestionSchema.js"],["assertCanonicalQuestion"]).assertCanonicalQuestion;
+let driftTools = null;
+try { driftTools = require("./checkReasoningQuestionBankDrift"); } catch (error) { fail.push("Reasoning canonical drift checker could not be loaded: " + error.message); }
 if(stage4Acts.length!==18)fail.push("Stage 4 total activity count invalid: expected 18 across both tracks, found "+stage4Acts.length+".");
 for(const track of ["quantitative","verbal"]){
  const acts=stage4Acts.filter(a=>a.track===track), explore=acts.filter(a=>String(a.half||"").toLowerCase()==="explore"), extend=acts.filter(a=>String(a.half||"").toLowerCase()==="extend");
@@ -158,8 +160,17 @@ if(stage4Canonical&&Array.isArray(stage4Canonical.questions)){
  if(rate>=50)fail.push("Stage 4 overall answer-length audit failed: "+uniqueLongest+"/"+textOnly.length+" ("+rate.toFixed(1)+"%) unique-longest correct answers; required hard ceiling is <50%.");
  else if(rate>=30)console.warn("Stage 4 overall answer-length audit passed the hard ceiling but is above the preferred <30% benchmark: "+uniqueLongest+"/"+textOnly.length+" ("+rate.toFixed(1)+"%). Human review required.");
  else console.log("Stage 4 overall answer-length audit passed preferred benchmark: "+uniqueLongest+"/"+textOnly.length+" ("+rate.toFixed(1)+"%).");
- const drift=spawnSync(process.execPath,[path.join(root,"scripts","checkReasoningQuestionBankDrift.js")],{encoding:"utf8"});
- if(drift.status!==0)fail.push("Reasoning canonical drift check failed: "+String(drift.stderr||drift.stdout||"unknown error").replace(/\s+/g," ").trim());
+ if (driftTools) {
+  const migratedStages = driftTools.discoverStageFiles();
+  for (const editablePath of migratedStages) {
+    const canonicalPath = path.join(root, "content", "Reasoning", "question-banks", "canonical", path.basename(editablePath));
+    try {
+      driftTools.checkStageDrift(editablePath, canonicalPath);
+    } catch (error) {
+      fail.push("Reasoning canonical drift check failed: " + error.message);
+    }
+  }
+ }
 }
 if(stage3Calibrated){
  const deliveredStage3=[];
