@@ -2,7 +2,10 @@
 
 **Project:** Apriori Edu Next / Upskilleduonline
 
-**Date:** 2026-09-08
+**Date:** 2026-09-08  
+**Status:** Historical implementation record; superseded by current Reasoning documentation.
+
+> **Do not use this file as the current build plan.** Current Stage/Level rules, status, progress calculation and deployment sequence are governed by `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md` and `docs/REASONING_DEVELOPMENT_STATUS.md`.
 
 ## Scope implemented
 
