@@ -53,7 +53,7 @@ The following must be avoided:
 
 For eligible text-only multiple-choice questions, the content set should be balanced so that the longest option is correct in approximately **30%** of questions.
 
-The 30% figure is a distribution target, not a requirement to manufacture awkward wording. Natural, high-quality wording takes priority. The validator should flag material deviation from the target for review.
+The 30% figure is a preferred distribution target, not a requirement to manufacture awkward wording. Natural, high-quality wording takes priority. For every Stage/Level quality audit, the measured **unique-longest correct-answer rate must be below 50%**; **below 30% is preferred**. A result at or above 50% fails the question-quality gate and requires remediation before release. A result from 30% to below 50% passes the hard ceiling only after human review confirms that no conspicuous answer-length clue remains. The validator should report the numerator, denominator and percentage. Tied-for-longest answers should be reported separately and are not counted as unique-longest clues.
 
 Answer length should be balanced across the full question set and, where enough questions exist, across tracks and stages rather than forcing an artificial pattern within every four-question activity.
 
@@ -123,7 +123,7 @@ Before a stage or level is considered complete, verify:
 7. syntax and imports are valid;
 8. question IDs are unique;
 9. answer choices and correct answers are structurally valid;
-10. answer-length, capitalization and answer-position patterns have been audited;
+10. answer-length, capitalization and answer-position patterns have been audited, including a recorded unique-longest correct-answer rate against the <50% hard ceiling and <30% preferred target;
 11. representative questions have been reviewed for substantive quality;
 12. every question has the correct content-mode classification;
 13. content is appropriate to its Level and its assigned difficulty.
