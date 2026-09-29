@@ -1,8 +1,10 @@
 import { STAGE1_MODULES } from "../Data/Reasoning/stage1Modules";
 import { STAGE2_MODULES } from "../Data/Reasoning/stage2Modules";
+import { STAGE3_MODULES } from "../Data/Reasoning/stage3Modules";
 import { getActivities } from "../Data/Reasoning/activities";
 import { getStage1CalibratedQuestions } from "../Data/Reasoning/stage1QuestionCalibration";
 import { getStage2CalibratedQuestions } from "../Data/Reasoning/stage2QuestionCalibration";
+import { getStage3CalibratedQuestions } from "../Data/Reasoning/stage3CompleteCalibration";
 
 const TRACKS = ["quantitative", "verbal"];
 const HALVES = ["explore", "extend"];
@@ -35,7 +37,8 @@ const STAGE_CONFIGS = [
     label: "Stage 3 — Mathematical Thinking & Analytical Writing",
     description: "Level 1 · Mathematical Thinking / Analytical & Scholarly Writing",
     released: false,
-    modulesByTrack: null,
+    modulesByTrack: STAGE3_MODULES,
+    getCalibratedQuestions: getStage3CalibratedQuestions,
   },
 ];
 
