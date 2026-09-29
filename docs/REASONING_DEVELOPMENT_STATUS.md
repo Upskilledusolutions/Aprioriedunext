@@ -141,8 +141,16 @@ The Stage 2 and Stage 3 remediation issues are now converted into reusable relea
 - The editable Stage source contains 72 questions across all 18 existing Stage 4 Activities, with stable IDs, track, half, module, content-mode, difficulty, timing, status and provenance fields.
 - The existing Stage 4 Activity mappings are registered with the shared Activity registry for subsequent canonical validation; this does not by itself expose Stage 4 to learners.
 
+### Checkpoint 2 — Canonical records: COMPLETE
+
+- Synchronized the Level 1 · Stage 4 editable source into `content/Reasoning/question-banks/canonical/L1-S4-reasoning-question-bank.json`.
+- Canonical output contains all 72 Stage 4 question records across 18 Activities.
+- Stable Question IDs, four-option answer integrity, required canonical metadata, provenance and source fingerprint validation passed.
+- Editable → canonical fingerprint matches exactly; no duplicate Question IDs were found.
+- Stage 4 remains non-learner-facing and unaccepted. The canonical records do not yet constitute final calibrated 10-question delivery sets.
+
 ### Current next step
 
-**Next:** Checkpoint 2 — synchronize the Level 1 · Stage 4 human-editable source into canonical records, validate schema/mappings/provenance and confirm canonical output before proceeding to structural learner-facing reconciliation. Do not expose or mark Stage 4 accepted before the remaining Stage checkpoints and required production verification are complete.
+**Next:** Checkpoint 3 — reconcile the canonical Stage 4 records against the learner-facing curriculum structure, including the approved 5 Explore + 4 Extend inventory currently present, Activity ID resolution and module sequencing/navigation. Do not expose or mark Stage 4 accepted before the remaining Stage checkpoints and required production verification are complete.
 
 Future Stage launches should add the newly accepted Stage to the existing selector through the shared stage-aware configuration rather than create a new Analytics UI.
