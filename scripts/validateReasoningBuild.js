@@ -1,5 +1,5 @@
 const fs=require("fs");const path=require("path");const {spawnSync}=require("child_process");const root=path.join(__dirname,"..");const fail=[];const exists=p=>fs.existsSync(path.join(root,p));const read=p=>fs.readFileSync(path.join(root,p),"utf8");
-const required=["src/components/Reasoning/ReasoningStageViews.js","src/Data/Reasoning/curriculum.js","src/Data/Reasoning/canonicalQuestionSchema.js","scripts/syncReasoningQuestionBanks.js","scripts/testReasoningQuestionBankSync.js","scripts/checkReasoningQuestionBankDrift.js","scripts/testReasoningCanonicalRoundTrip.js","src/Data/Reasoning/questionBank.js","src/Data/Reasoning/questionBankStage1Extensions.js","src/Data/Reasoning/questionBankStage2.js","src/Data/Reasoning/reasoningOptionQuality.js","src/Data/Reasoning/stage1QuestionCalibration.js","src/Data/Reasoning/stage2QuestionCalibration.js","src/Data/Reasoning/stage2QuestionExpansion.js","src/Data/Reasoning/stage2ElevatedComputationBank.js","src/Data/Reasoning/activities.js","src/Data/Reasoning/stage2Modules.js","src/Data/Reasoning/stage3Modules.js","src/Data/Reasoning/stage3QuestionCalibration.js","src/Data/Reasoning/stage3MissingCalibration.js","src/Data/Reasoning/stage3CompleteCalibration.js","src/pages/Reasoning/Quantitative/Dashboard/Stage2/index.js","src/pages/Reasoning/Quantitative/Dashboard/Stage2/[moduleId].js","src/pages/Reasoning/Verbal/Dashboard/Stage2/index.js","src/pages/Reasoning/Verbal/Dashboard/Stage2/[moduleId].js"];required.forEach(p=>{if(!exists(p))fail.push(`Missing required Reasoning file: ${p}`)});
+const required=["src/components/Reasoning/ReasoningStageViews.js","src/Data/Reasoning/curriculum.js","src/Data/Reasoning/canonicalQuestionSchema.js","scripts/syncReasoningQuestionBanks.js","scripts/testReasoningQuestionBankSync.js","scripts/checkReasoningQuestionBankDrift.js","scripts/testReasoningCanonicalRoundTrip.js","src/Data/Reasoning/questionBank.js","src/Data/Reasoning/questionBankStage1Extensions.js","src/Data/Reasoning/questionBankStage2.js","src/Data/Reasoning/reasoningOptionQuality.js","src/Data/Reasoning/stage1QuestionCalibration.js","src/Data/Reasoning/stage2QuestionCalibration.js","src/Data/Reasoning/stage2QuestionExpansion.js","src/Data/Reasoning/stage2ElevatedComputationBank.js","src/Data/Reasoning/activities.js","src/Data/Reasoning/stage2Modules.js","src/Data/Reasoning/stage3Modules.js","src/Data/Reasoning/stage3QuestionCalibration.js","src/Data/Reasoning/stage3MissingCalibration.js","src/Data/Reasoning/stage3CompleteCalibration.js","src/pages/Reasoning/Quantitative/Dashboard/Stage2/index.js","src/pages/Reasoning/Quantitative/Dashboard/Stage2/[moduleId].js","src/pages/Reasoning/Verbal/Dashboard/Stage2/index.js","src/pages/Reasoning/Verbal/Dashboard/Stage2/[moduleId].js","src/Data/Reasoning/stage4Activities.js","src/Data/Reasoning/stage4Modules.js","src/Data/Reasoning/stage4CanonicalDelivery.js","content/Reasoning/question-banks/stages/L1-S4-reasoning-question-bank.json","content/Reasoning/question-banks/canonical/L1-S4-reasoning-question-bank.json"];required.forEach(p=>{if(!exists(p))fail.push(`Missing required Reasoning file: ${p}`)});
 function checkSyntax(p){const r=spawnSync(process.execPath,["--check",path.join(root,p)],{encoding:"utf8"});if(r.status!==0)fail.push(`JavaScript syntax error in ${p}: ${(r.stderr||r.stdout||"unknown error").replace(/\s+/g," ").trim()}`)}
 for(const p of required.filter(p=>/\.js$/.test(p)&&p!=="src/components/Reasoning/ReasoningStageViews.js"&&!p.startsWith("src/pages/Reasoning/")))if(exists(p))checkSyntax(p);
 function resolveImport(fromFile,imp){const base=imp.startsWith("@/")?path.join(root,"src",imp.slice(2)):path.resolve(path.dirname(fromFile),imp);return [base,`${base}.js`,`${base}.jsx`,`${base}.json`,path.join(base,"index.js"),path.join(base,"index.jsx")].some(fs.existsSync)}
@@ -8,7 +8,9 @@ function clean(source){return source.replace(/^import[^;]+;\s*/gm,"").replace(/\
 function evaluate(files,names){try{return new Function(files.map(read).map(clean).join("\n")+`\nreturn {${names.map(n=>`${n}:typeof ${n}!=="undefined"?${n}:null`).join(",")}};`)()}catch(e){fail.push(`Reasoning calibration could not be evaluated: ${e.message}`);return{}}}
 const banks=[["src/Data/Reasoning/questionBank.js","REASONING_QUESTION_BANK"],["src/Data/Reasoning/questionBankStage1Extensions.js","STAGE1_EXTENSION_QUESTIONS"],["src/Data/Reasoning/questionBankStage2.js","STAGE2_QUESTIONS"]];let all=[];for(const [p,n] of banks){if(!exists(p))continue;const d=evaluate([p],[n])[n];if(!Array.isArray(d)||!d.length)fail.push(`Question bank is empty or unavailable: ${p}`);else all.push(...d.map(q=>({...q,__file:p})))}const ids=all.map(q=>q.id).filter(Boolean);if(new Set(ids).size!==ids.length)fail.push("Duplicate Reasoning question IDs detected across audited banks.");for(const q of all)if(!q.id||!q.activityId||!q.question||!Array.isArray(q.options)||q.options.length!==4||new Set(q.options).size!==4||!q.options.includes(q.answer))fail.push(`Malformed question record: ${q.id||"unknown"}`);
 function evaluateWithDependencies(file,names,dependencies){try{const keys=Object.keys(dependencies);const returnSource="\nreturn {"+names.map(n=>n+":typeof "+n+"!==\"undefined\"?"+n+":null").join(",")+"};";return new Function(...keys,clean(read(file))+returnSource)(...keys.map(k=>dependencies[k]));}catch(e){fail.push("Reasoning calibration could not be evaluated: "+e.message);return {};}}
-const stage2Activities=evaluate(["src/Data/Reasoning/activities.js"],["REASONING_ACTIVITIES"]).REASONING_ACTIVITIES||[];
+const stage4ActivitySeed=evaluate(["src/Data/Reasoning/stage4Activities.js"],["STAGE4_ACTIVITIES"]).STAGE4_ACTIVITIES||[];
+const reasoningActivities=evaluateWithDependencies("src/Data/Reasoning/activities.js",["REASONING_ACTIVITIES"],{STAGE4_ACTIVITIES:stage4ActivitySeed}).REASONING_ACTIVITIES||[];
+const stage2Activities=reasoningActivities;
 const stage2Modules=evaluate(["src/Data/Reasoning/stage2Modules.js"],["STAGE2_MODULES"]).STAGE2_MODULES||{};
 const stage2Acts=stage2Activities.filter(a=>a.levelId==="L1"&&a.stageId==="S2");
 const stage2Expanded=evaluate(["src/Data/Reasoning/stage2QuestionExpansion.js"],["getStage2ExpandedQuestionsForActivity"]).getStage2ExpandedQuestionsForActivity;
@@ -72,7 +74,7 @@ if (stage2Calibrated) {
 
 if(!stage2Calibrated)fail.push("Stage 2 calibration runtime could not be constructed.");
 
-const stage3Activities=evaluate(["src/Data/Reasoning/activities.js"],["REASONING_ACTIVITIES"]).REASONING_ACTIVITIES||[];
+const stage3Activities=reasoningActivities;
 const stage3Modules=evaluate(["src/Data/Reasoning/stage3Modules.js"],["STAGE3_MODULES"]).STAGE3_MODULES||{};
 const stage3Acts=stage3Activities.filter(a=>a.levelId==="L1"&&a.stageId==="S3");
 const stage3Prepare=evaluate(["src/Data/Reasoning/reasoningOptionQuality.js"],["prepareReasoningQuestionSet"]).prepareReasoningQuestionSet;
@@ -122,6 +124,43 @@ function stage3AnswerLengthAudit(questions,label){
  return {count:uniqueLongest,total:questions.length,rate:rate};
 }
 if(!stage3Calibrated)fail.push("Stage 3 calibration runtime could not be constructed.");
+const stage4Modules=evaluate(["src/Data/Reasoning/stage4Modules.js"],["STAGE4_MODULES"]).STAGE4_MODULES||{};
+const stage4Acts=reasoningActivities.filter(a=>a.levelId==="L1"&&a.stageId==="S4");
+const stage4CanonicalPath="content/Reasoning/question-banks/canonical/L1-S4-reasoning-question-bank.json";
+let stage4Canonical={};
+try{stage4Canonical=JSON.parse(read(stage4CanonicalPath));}catch(e){fail.push("Stage 4 canonical JSON could not be read: "+e.message);}
+const stage4Schema=evaluate(["src/Data/Reasoning/canonicalQuestionSchema.js"],["assertCanonicalQuestion"]).assertCanonicalQuestion;
+if(stage4Acts.length!==18)fail.push("Stage 4 total activity count invalid: expected 18 across both tracks, found "+stage4Acts.length+".");
+for(const track of ["quantitative","verbal"]){
+ const acts=stage4Acts.filter(a=>a.track===track), explore=acts.filter(a=>String(a.half||"").toLowerCase()==="explore"), extend=acts.filter(a=>String(a.half||"").toLowerCase()==="extend");
+ if(explore.length!==5||extend.length!==4||acts.length!==9)fail.push("Stage 4 "+track+": expected approved 5 Explore + 4 Extend + 9 total inventory; found "+explore.length+"/"+extend.length+"/"+acts.length+".");
+ const mods=stage4Modules[track]||{}, refs=Array.isArray(mods)?mods.flatMap(m=>m.activityIds||[]):[];
+ if(!Array.isArray(mods)||mods.length!==9||refs.length!==9||new Set(refs).size!==9||refs.some(id=>!acts.some(a=>a.id===id)))fail.push("Stage 4 "+track+": module structure must map exactly the 9 approved track activities.");
+}
+if(stage4Canonical&&Array.isArray(stage4Canonical.questions)){
+ const ids=stage4Canonical.questions.map(q=>q.id);
+ if(stage4Canonical.questions.length!==180)fail.push("Stage 4 canonical question count invalid: expected 180, found "+stage4Canonical.questions.length+".");
+ if(new Set(ids).size!==ids.length)fail.push("Stage 4 canonical duplicate Question IDs detected.");
+ for(const activity of stage4Acts){
+  const qs=stage4Canonical.questions.filter(q=>q.activityId===activity.id);
+  if(qs.length!==10)fail.push("Stage 4 "+activity.id+": expected exactly 10 canonical questions, found "+qs.length+".");
+  const qids=qs.map(q=>q.id);if(new Set(qids).size!==qids.length)fail.push("Stage 4 "+activity.id+": duplicate canonical Question IDs.");
+  const diffs=qs.map(q=>Number(q.difficulty));if(diffs.some((d,i)=>i&&d<diffs[i-1]))fail.push("Stage 4 "+activity.id+": difficulty decreases within delivered sequence.");
+  for(const q of qs){
+   if(stage4Schema)for(const err of stage4Schema(q,{levelId:"L1",stageId:"S4",track:q.track,half:q.half}))fail.push("Stage 4 canonical "+(q.id||"unknown")+": "+err);
+   if(q.track!==activity.track||q.levelId!=="L1"||q.stageId!=="S4"||q.half!==activity.half||q.moduleId!==activity.moduleId)fail.push("Stage 4 canonical mapping mismatch: "+(q.id||"unknown")+" -> "+activity.id+".");
+   if(q.questionType==="multiple_choice"&&(!Array.isArray(q.options)||q.options.length!==4||new Set(q.options).size!==4||q.options.filter(o=>String(o).trim()===String(q.answer).trim()).length!==1))fail.push("Stage 4 canonical "+(q.id||"unknown")+": invalid four-option answer structure.");
+  }
+ }
+ const textOnly=stage4Canonical.questions.filter(q=>q.contentMode==="textReasoning");
+ const uniqueLongest=textOnly.filter(q=>{const lengths=(q.options||[]).map(o=>String(o||"").trim().replace(/[.!?]+$/,"").length);if(!lengths.length)return false;const max=Math.max(...lengths),count=lengths.filter(x=>x===max).length,answerLength=String(q.answer||"").trim().replace(/[.!?]+$/,"").length;return answerLength===max&&count===1;}).length;
+ const rate=textOnly.length?(uniqueLongest/textOnly.length)*100:0;
+ if(rate>=50)fail.push("Stage 4 overall answer-length audit failed: "+uniqueLongest+"/"+textOnly.length+" ("+rate.toFixed(1)+"%) unique-longest correct answers; required hard ceiling is <50%.");
+ else if(rate>=30)console.warn("Stage 4 overall answer-length audit passed the hard ceiling but is above the preferred <30% benchmark: "+uniqueLongest+"/"+textOnly.length+" ("+rate.toFixed(1)+"%). Human review required.");
+ else console.log("Stage 4 overall answer-length audit passed preferred benchmark: "+uniqueLongest+"/"+textOnly.length+" ("+rate.toFixed(1)+"%).");
+ const drift=spawnSync(process.execPath,[path.join(root,"scripts","checkReasoningQuestionBankDrift.js")],{encoding:"utf8"});
+ if(drift.status!==0)fail.push("Reasoning canonical drift check failed: "+String(drift.stderr||drift.stdout||"unknown error").replace(/\s+/g," ").trim());
+}
 if(stage3Calibrated){
  const deliveredStage3=[];
  for(const activity of stage3Acts){try{deliveredStage3.push(...stage3Calibrated(activity.id));}catch(error){}}

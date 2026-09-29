@@ -159,6 +159,14 @@ over:
 rewrite entire application
 ```
 
+## 10A. Prebuild dependency consistency
+
+The mandatory Reasoning prebuild validator must model the actual source dependency graph.
+
+- When a shared registry imports a new stage-specific module, the validator must load that dependency explicitly rather than evaluate the registry as a standalone file.
+- A new stage-specific source dependency must be included in the same coherent repair as the corresponding validator coverage.
+- Do not bypass, weaken or remove a validation gate merely to make Vercel compile. Fix the dependency model and extend the gate to cover the affected Stage.
+
 ## 11. Every code change must be understandable
 
 For every change, provide the non-technical owner with:
