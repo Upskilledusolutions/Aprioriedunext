@@ -9,7 +9,7 @@ Reasoning follows the **single sequential Stage/Level build → deployment → l
 `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`
 
 - **Level 1 · Stage 1:** **ACCEPTED** after owner live verification.
-- **Level 1 · Stage 2:** **REOPENED FOR QUESTION-QUALITY REMEDIATION** after the mandatory answer-length clue audit found 84/160 = 52.5% unique-longest correct answers, exceeding the <50% hard ceiling.
+- **Level 1 · Stage 2:** **QUESTION-QUALITY REMEDIATION COMPLETE; PENDING POST-REMEDIATION PRODUCTION VERIFICATION**. The final runtime delivery audit is 46/160 = 28.7% unique-longest correct answers, below the <30% preferred benchmark.
 - **Level 1 · Stage 3:** baseline audit completed and human-editable Stage source prepared; **question-quality verification, learner-facing release, deployment and live verification remain pending**.
 - **Stage 4 and later:** blocked until the current Stage is comprehensively verified and accepted.
 - Backend Reasoning authorization, durable question-attempt persistence and the current analytics foundation are implemented, deployed and owner-checked.
@@ -34,7 +34,7 @@ Historical files record past work and do not override the current standards.
 | Stage | Explore / Extend | State |
 |---|---|---|
 | L1-S1 | 5 / 3 | **ACCEPTED** |
-| L1-S2 | 5 / 3 | **Quality audit completed: 52.5% unique-longest correct answers — remediation required** |
+| L1-S2 | 5 / 3 | **Quality remediation complete: 28.7% unique-longest correct answers — pending post-remediation production verification** |
 | L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 complete; Checkpoint 4 audited — remediation required** |
 | L1-S4 | 5 / 4 | Future scope; preserve inventory |
 | L1-S5 | 5 / 5 | Future scope; preserve inventory |
@@ -62,21 +62,37 @@ The learner-facing Stage and Track progress model is Activity-based. The current
 
 ## Stage 2 answer-length clue audit record
 
+### Initial audit
 **Audit date:** 2026-09-29  
 **Delivery path reviewed:** Stage 2 calibrated learner-facing delivery (`getStage2CalibratedQuestions`) with the existing Stage 2 option-quality rewrites applied.  
-**Final learner-facing scope:** 16 Activities, 160 delivered questions; 80 Quantitative and 80 Verbal.
+**Initial scope:** 16 Activities, 160 delivered questions; 80 Quantitative and 80 Verbal.
 
 | Scope | Questions | Unique-longest correct | Rate | Status |
 |---|---:|---:|---:|---|
 | Level 1 · Stage 2 — Overall | 160 | 84 | **52.5%** | **FAIL — remediation required** |
-| Quantitative | 80 | 29 | **36.3%** | Below hard ceiling; review required |
+| Quantitative | 80 | 29 | **36.3%** | Review/remediation required |
 | Verbal | 80 | 55 | **68.8%** | **FAIL — remediation required** |
 | Text-Based Reasoning questions | 120 | 78 | **65.0%** | **FAIL — remediation required** |
 
-The project rule is **below 50% required; below 30% preferred**. Tied-for-longest answers are not included in the unique-longest rate and are recorded separately during the audit. This finding supersedes the earlier Stage 2 acceptance status for question-quality purposes; no new Stage 2 release is treated as quality-accepted until remediation is completed and the audit is rerun.
+### Post-remediation audit
+**Audit date:** 2026-09-29  
+**Source changes:** Stage 2 base question bank, Stage 2 expanded question bank and Stage 2 elevated computation bank were re-authored to remove conspicuous correct-answer length cues while preserving the assessed skill and stable question records.  
+**Final runtime delivery scope:** 16 Activities, 160 delivered questions; 80 Quantitative and 80 Verbal.
+
+| Scope | Questions | Unique-longest correct | Rate | Status |
+|---|---:|---:|---:|---|
+| Level 1 · Stage 2 — Overall | 160 | 46 | **28.7%** | **PASS — preferred benchmark met** |
+| Quantitative | 80 | 23 | **28.7%** | **PASS — preferred benchmark met** |
+| Verbal | 80 | 23 | **28.7%** | **PASS — preferred benchmark met** |
+
+**Tied-for-longest correct-answer cases:** 41 overall; 37 Quantitative; 4 Verbal. These are reported separately and are not counted as unique-longest clues.
+
+**Structural checks:** 16 Activities; exactly 10 questions per Activity; 160 questions total; no duplicate Question IDs detected in the reviewed source delivery sets.
+
+The project rule is **below 50% required; below 30% preferred**. The post-remediation result is below 30% for the full Stage and for both tracks. The question-quality benchmark is therefore passed. Because the source content changed after the earlier live verification, Stage 2 remains pending post-remediation deployment and complete live production verification before its acceptance state is restored.
 
 ## Current next step
 
-**Stage 2 — Question-quality remediation:** revise the human-editable Stage 2 source to remove conspicuous answer-length clues, then rerun the recorded answer-length audit and canonical/delivery validation before any Stage 2 acceptance or further Stage progression. Stage 3 Checkpoint 4 remains the subsequent workstream.
+**Stage 2 — next logical step:** run the repository's pre-deployment validation against the remediation commits, confirm the intended production deployment, and perform complete post-remediation live verification before restoring Stage 2 acceptance. Stage 3 Checkpoint 4 remains the subsequent workstream.
 
 Checkpoint 3 structural learner-facing reconciliation is complete for Level 1 Stage 3. Both Quantitative and Verbal expose all 10 approved Stage 3 modules and all 10 approved Activities per track (5 Explore + 5 Extend). Each module resolves its Activity ID through the shared Activity registry; the Stage dashboard exposes all Activities; module pages resolve linked Activities and provide Previous/Next navigation across the complete module sequence. Canonical Stage 3 contains all 20 corresponding Activity IDs with exactly 10 questions per Activity. No placeholder or duplicate Activity mapping was found. The next step is Stage 3 Checkpoint 4 question-quality verification.
