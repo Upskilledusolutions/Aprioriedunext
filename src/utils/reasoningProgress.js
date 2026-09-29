@@ -139,6 +139,20 @@ export function getStageActivityProgress(progress, track, activities = []) {
   };
 }
 
+export function getTrackActivityProgress(progress, track, activities = []) {
+  const activityList = Array.isArray(activities) ? activities : [];
+  const completedActivities = progress?.[track]?.completedActivities || {};
+  const completed = activityList.filter((activity) => completedActivities[activity?.id] === true);
+  const nextActivity = activityList.find((activity) => completedActivities[activity?.id] !== true) || null;
+
+  return {
+    totalActivities: activityList.length,
+    completedActivities: completed.length,
+    percent: activityList.length ? Math.round((completed.length / activityList.length) * 100) : 0,
+    nextActivity,
+  };
+}
+
 export function getTrackPercent(progress, track, totalModules, modules = null) {
   if (!totalModules) return 0;
   return Math.round((getTrackCompletedCount(progress, track, totalModules, modules) / totalModules) * 100);
