@@ -10,7 +10,7 @@ Reasoning follows the **single sequential Stage/Level build → deployment → l
 
 - **Level 1 · Stage 1:** **ACCEPTED** after owner live verification.
 - **Level 1 · Stage 2:** **ACCEPTED** after owner-directed completion of the Stage 2 acceptance gate.
-- **Level 1 · Stage 3:** baseline audit completed and human-editable Stage source prepared; **canonical synchronization/validation and learner-facing release remain pending**.
+- **Level 1 · Stage 3:** baseline audit completed and human-editable Stage source prepared; **structural learner-facing reconciliation, question-quality verification, learner-facing release, deployment and live verification remain pending**.
 - **Stage 4 and later:** blocked until the current Stage is comprehensively verified and accepted.
 - Backend Reasoning authorization, durable question-attempt persistence and the current analytics foundation are implemented, deployed and owner-checked.
 - Reasoning data and progress remain separate from Foreign Languages.
@@ -35,7 +35,7 @@ Historical files record past work and do not override the current standards.
 |---|---|---|
 | L1-S1 | 5 / 3 | **ACCEPTED** |
 | L1-S2 | 5 / 3 | **ACCEPTED** |
-| L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; canonical validation pending** |
+| L1-S3 | 5 / 5 | **Checkpoint 0 complete; Checkpoint 1 complete; Checkpoint 2 complete; Checkpoint 3 pending** |
 | L1-S4 | 5 / 4 | Future scope; preserve inventory |
 | L1-S5 | 5 / 5 | Future scope; preserve inventory |
 | L1-S6 | 5 / 5 | Future scope; preserve inventory |
@@ -62,6 +62,6 @@ The learner-facing Stage and Track progress model is Activity-based. The current
 
 ## Current next step
 
-**Checkpoint 2 — Synchronize and validate Level 1 · Stage 3 canonical records.**
+**Stage 3 — Checkpoint 3: Structural learner-facing reconciliation.**
 
-Do not proceed to learner-facing reconciliation, quality release, deployment or Stage 4 until Checkpoint 2 and the subsequent Stage gates are completed sequentially.
+Checkpoint 2 canonical synchronization/validation is complete for the Level 1 Stage 3 bank. The next work must compare the canonical content with the actual Stage 3 Module/Activity structure and confirm the complete approved learner-facing inventory is reachable before any learner-facing release or deployment work.
