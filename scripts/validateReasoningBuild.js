@@ -33,7 +33,43 @@ for(const track of ["quantitative","verbal"]){
   }
  }
 }
+function answerLengthAudit(questions, label) {
+  const uniqueLongest = questions.filter(function (question) {
+    const lengths = (question.options || []).map(function (option) {
+      return String(option || "").trim().replace(/[.!?]+$/, "").length;
+    });
+    if (!lengths.length) return false;
+    const maxLength = Math.max.apply(Math, lengths);
+    const longestCount = lengths.filter(function (length) { return length === maxLength; }).length;
+    const answerLength = String(question.answer || "").trim().replace(/[.!?]+$/, "").length;
+    return answerLength === maxLength && longestCount === 1;
+  }).length;
+  const rate = questions.length ? (uniqueLongest / questions.length) * 100 : 0;
+  if (rate >= 50) {
+    fail("Stage 2 " + label + " answer-length audit failed: " + uniqueLongest + "/" + questions.length + " (" + rate.toFixed(1) + "%) unique-longest correct answers; required hard ceiling is <50%.");
+  } else if (rate >= 30) {
+    console.warn("Stage 2 " + label + " answer-length audit passed the hard ceiling but is above the preferred <30% benchmark: " + uniqueLongest + "/" + questions.length + " (" + rate.toFixed(1) + "%). Human review required.");
+  } else {
+    console.log("Stage 2 " + label + " answer-length audit passed preferred benchmark: " + uniqueLongest + "/" + questions.length + " (" + rate.toFixed(1) + "%).");
+  }
+  return { count: uniqueLongest, total: questions.length, rate: rate };
+}
+
 if(stage2Acts.length!==16)fail.push("Stage 2 total activity count invalid: expected the approved 16 activities across both tracks, found "+stage2Acts.length+".");
+if (stage2Calibrated) {
+  const deliveredStage2 = [];
+  for (const activity of stage2Acts) {
+    try {
+      deliveredStage2.push(...stage2Calibrated(activity.id));
+    } catch (error) {
+      // The per-Activity validation above already records the calibration failure.
+    }
+  }
+  answerLengthAudit(deliveredStage2, "overall");
+  answerLengthAudit(deliveredStage2.filter(function (question) { return question.track === "quantitative"; }), "Quantitative");
+  answerLengthAudit(deliveredStage2.filter(function (question) { return question.track === "verbal"; }), "Verbal");
+}
+
 if(!stage2Calibrated)fail.push("Stage 2 calibration runtime could not be constructed.");
 const stage2DashboardPages=[
 ["src/pages/Reasoning/Quantitative/Dashboard/Stage2/index.js","/Reasoning/Quantitative/Dashboard/Stage2"],
