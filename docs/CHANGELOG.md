@@ -2,6 +2,15 @@
 
 This file records important project and architecture changes in simple language.
 
+## 2026-10-19 — Provisional English Reading & Aptitude curriculum
+
+- Added `docs/ENGLISH_APTITUDE_CURRICULUM.md` following the owner's provisional approval to continue curriculum work.
+- Recorded the reading-led curriculum, six connected English skill strands, five provisional reading-selection bands with at least 15 short-story candidates and three novel candidates per band, and the principle that Explore fiction comprehension uses short stories while Extend uses a separate whole-novel pathway.
+- Recorded the required future inclusion of paragraph improvement, nonfiction comprehension, antonyms, error identification and sentence correction in both Explore and Extend.
+- Explicitly deferred detailed question types, final product levels/stages, final reading-list validation and the implementation roadmap to subsequent owner-approval steps.
+- Added public-domain source-discovery links and a requirement to verify the exact text, edition, translation and adaptation for lawful use in India.
+- No application code or production behaviour changed.
+
 ## 2026-09-23 — Backend authorization and durable Reasoning attempt persistence
 
 - Confirmed the external `Upskilledusolutions/Backend` repository is the backend companion to the Reasoning frontend.
