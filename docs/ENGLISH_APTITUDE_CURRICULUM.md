@@ -1,8 +1,8 @@
 # English Reading & Aptitude Curriculum
 
 **Product:** Upskilledu English Reading & Aptitude pathway  
-**Document status:** Curriculum direction provisionally approved on 2026-10-19  
-**Approval boundary:** This document records the curriculum focus and provisional reading-list candidates only. Exact reading-level placement remains subject to review. It does not define the detailed question bank, product levels/stages, technical architecture or implementation roadmap.
+**Document status:** Curriculum direction provisionally approved on 2026-10-19; reading-list candidates remain subject to suitability and rights validation.  
+**Approval boundary:** This document is the Step 1 curriculum and reading-list reference. The approved question types, nine-level/six-stage progression, question-bank quantities and Explore/Extend allocation are specified in ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md. Technical architecture and the implementation roadmap are deliberately deferred.
 
 ## 1. Curriculum purpose
 
@@ -223,8 +223,8 @@ These links are useful starting points for locating historical texts and collect
 
 ## 6. Status and change control
 
-**Provisionally approved for curriculum documentation; not yet validated for final adoption.**
+**Step 1 is provisionally approved; candidate texts are not yet approved for final adoption.**
 
-The next approval step is to design the question types and detailed levels/stages, including mapping the reading bands to the existing nine-level learner structure. Review of individual titles and rights is a prerequisite to final content selection. The implementation roadmap must wait until step 2 has been reviewed, approved and documented.
+Step 2 is now approved and documented in [ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md](ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md). Individual titles still require age/readability review and India-specific rights checks before use. The implementation roadmap is the next separate phase and is not part of this curriculum document.
 
 No application code, route, authentication, data model or production behaviour is changed by this curriculum document.
