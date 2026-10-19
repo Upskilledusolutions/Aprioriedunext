@@ -2,6 +2,16 @@
 
 This file records important project and architecture changes in simple language.
 
+## 2026-10-19 — Step 2 English Aptitude specification approved and documented
+
+- Added `docs/ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md` with the approved nine-level grade mapping, six-stage sequence, level-specific outcomes, 12 question types and per-stage question-bank minimums.
+- Recorded at least 20 comprehension questions per short story and nonfiction passage; 15 Explore stories per level; and three whole novels per level, each studied across two Extend stages.
+- Recorded two Explore nonfiction passages and one Extend nonfiction passage per stage. All short-story comprehension remains in Explore; novel excerpts are not comprehension passages.
+- Recorded 20 bank items per stage for each of the ten other question types, split 10 Explore / 10 Extend, and mapped the stage totals to the approved 2/3 story allocation: 300 items in two-story stages and 320 in three-story stages.
+- Clarified that authored bank size is not limited to a single 10-question attempt; activity delivery must allow the larger bank to be used over time.
+- Updated the curriculum document and documentation index to reference the approved Step 2 specification.
+- The implementation roadmap remains deferred to Step 3. No application code or production behaviour changed.
+
 ## 2026-10-19 — Provisional English Reading & Aptitude curriculum
 
 - Added `docs/ENGLISH_APTITUDE_CURRICULUM.md` following the owner's provisional approval to continue curriculum work.
