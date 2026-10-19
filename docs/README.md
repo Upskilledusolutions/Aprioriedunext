@@ -17,7 +17,8 @@ The documentation will be created and updated as the project is audited and deve
 - `DEVELOPMENT_RULES.md` — rules for safely developing the project without breaking the existing Foreign Languages product.
 - `CHANGELOG.md` — simple record of important changes made to the project.
 - `REASONING_*.md` — Reasoning-specific product, curriculum, data, quality and launch standards.
-- `ENGLISH_APTITUDE_CURRICULUM.md` — provisional reading-led English curriculum and candidate Explore short stories / Extend novels; detailed question types and levels/stages are a later approval step.
+- `ENGLISH_APTITUDE_CURRICULUM.md` — Step 1 curriculum direction, candidate short-story reading list for Explore and candidate whole-novel pathway for Extend.
+- `ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md` — approved Step 2 question types, nine-level/six-stage progression, per-type question-bank minimums, and Explore/Extend allocation.
 - Cross-repository backend reference: `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md` — current Reasoning backend authorization, persistence API and deployment contract.
 
 ## Documentation principle
