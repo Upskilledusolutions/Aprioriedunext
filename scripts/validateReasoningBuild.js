@@ -131,7 +131,15 @@ let stage4Canonical={};
 try{stage4Canonical=JSON.parse(read(stage4CanonicalPath));}catch(e){fail.push("Stage 4 canonical JSON could not be read: "+e.message);}
 const stage4Schema=evaluate(["src/Data/Reasoning/canonicalQuestionSchema.js"],["assertCanonicalQuestion"]).assertCanonicalQuestion;
 let driftTools = null;
-try { driftTools = require("./checkReasoningQuestionBankDrift"); } catch (error) { fail.push("Reasoning canonical drift checker could not be loaded: " + error.message); }
+try {
+  driftTools = require("./syncReasoningQuestionBanks");
+  if (typeof driftTools.discoverStageFiles !== "function" || typeof driftTools.checkStageDrift !== "function") {
+    fail.push("Reasoning canonical drift utilities are missing required exports from syncReasoningQuestionBanks.js.");
+    driftTools = null;
+  }
+} catch (error) {
+  fail.push("Reasoning canonical drift utilities could not be loaded from syncReasoningQuestionBanks.js: " + error.message);
+}
 if(stage4Acts.length!==18)fail.push("Stage 4 total activity count invalid: expected 18 across both tracks, found "+stage4Acts.length+".");
 for(const track of ["quantitative","verbal"]){
  const acts=stage4Acts.filter(a=>a.track===track), explore=acts.filter(a=>String(a.half||"").toLowerCase()==="explore"), extend=acts.filter(a=>String(a.half||"").toLowerCase()==="extend");
