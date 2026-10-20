@@ -66,7 +66,7 @@ const listening = base({
 });
 check("oral prompt with answer guidance", listening);
 
-check("duplicate options rejected", base({ options: ["same", "same", "other", "last"] }), 1);
+check("duplicate options rejected", base({ options: ["same", "same", "other", "last"], answerKey: ["same"] }), 1);
 check("unknown answer option rejected", base({ answerKey: ["missing"] }), 1);
 check("constructed response without rubric/guidance rejected", base({
   responseFormat: "long_text",
