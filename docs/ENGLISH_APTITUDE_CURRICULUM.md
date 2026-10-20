@@ -2,7 +2,7 @@
 
 **Product:** Upskilledu English Reading & Aptitude pathway  
 **Document status:** Curriculum direction provisionally approved on 2026-10-19; reading-list candidates remain subject to suitability and rights validation.  
-**Approval boundary:** This document is the Step 1 curriculum and reading-list reference. The approved question types, nine-level/six-stage progression, question-bank quantities and Explore/Extend allocation are specified in ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md. Technical architecture and the implementation roadmap are deliberately deferred.
+**Approval boundary:** This document is the Step 1 curriculum and reading-list reference. The approved question types, nine-level/six-stage progression, question-bank quantities and Explore/Extend allocation are specified in ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md. The approved Step 3 implementation roadmap is recorded in `ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md`; implementation remains subject to its audit and approval gates.
 
 ## 1. Curriculum purpose
 
@@ -225,6 +225,6 @@ These links are useful starting points for locating historical texts and collect
 
 **Step 1 is provisionally approved; candidate texts are not yet approved for final adoption.**
 
-Step 2 is now approved and documented in [ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md](ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md). Individual titles still require age/readability review and India-specific rights checks before use. The implementation roadmap is the next separate phase and is not part of this curriculum document.
+Step 2 is now approved and documented in [ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md](ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md). Individual titles still require age/readability review and India-specific rights checks before use. The implementation sequence and release gates are defined separately in `ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md`.
 
 No application code, route, authentication, data model or production behaviour is changed by this curriculum document.
