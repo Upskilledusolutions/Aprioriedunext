@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-10-20 — English Aptitude Phase B architecture proposal prepared
+
+- Added `docs/ENGLISH_APTITUDE_ARCHITECTURE_PROPOSAL.md` with the Reasoning-matched learner experience, proposed English navigation, product/data boundaries, content/runtime approach, response-mode requirements, and verification gates.
+- Recommended required listening audio playback for listening activities; learner audio recording and automated oral assessment remain explicit owner decisions, with a conservative initial-release recommendation.
+- Updated the roadmap to remove the unnecessary file-by-file planning requirement and record the owner's instruction to implement in meaningful, logically ordered, verified increments. The owner's final instruction overrides prior plans.
+- Phase B proposal is awaiting owner approval. No application code, backend configuration or production deployment changed; no live build or production behavior is claimed as verified.
+
+
 ## 2026-10-20 — English Aptitude Phase A codebase audit completed
 
 - Inspected the frontend routes, shared layout/navigation, Reasoning dashboards/player/analytics conventions, global styling, app route protection and the current Reasoning backend attempt contract.
