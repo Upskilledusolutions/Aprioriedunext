@@ -1,0 +1,121 @@
+# English Aptitude — Step 3 Implementation Roadmap
+
+**Status:** Step 3 roadmap approved by the product owner on 2026-10-20. Planning record only; implementation has not started.
+**Repository:** `Upskilledusolutions/Aprioriedunext`, branch `main`
+**Production:** [upskilleduonline.com](https://www.upskilleduonline.com)
+**Deployment:** Vercel team `Upskilledusolutions / upskilledusolutions-projects`
+**Backend:** Inspect the existing `Upskilledusolutions/Backend` repository and Render service before deciding whether any backend changes are needed.
+
+## 1. Purpose and non-negotiable requirements
+
+Implement the approved English Aptitude curriculum using the smallest safe, maintainable design that fits the verified codebase.
+
+- Preserve the approved nine-level, six-stage curriculum, 12 question types, reading allocations, authored-bank minimums and Explore/Extend rules in `ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md`.
+- Treat the authored question-bank quantities as reusable banks, not limits on lifetime practice. A learner activity may deliver a 10-question attempt while the larger approved bank remains available across practice.
+- Keep the existing authentication/user identity where appropriate, but keep English Aptitude learner records, progress and analytics logically separate from both Reasoning and Foreign Languages.
+- Reuse proven components and validation patterns only after inspecting their real dependencies and behaviour. Do not assume Reasoning's schema, endpoints or runtime model automatically fit English Aptitude.
+- Maintain full content, interaction, accessibility, grading and analytics quality at every level. The rollout sequence below changes **when** each stage is built, not its requirements.
+- Do not change Reasoning or Foreign Languages unless the audit identifies a necessary shared-system dependency; explain the impact and obtain approval before such a change.
+- Do not invent database schemas, API routes or backend contracts. Mark unverified items as **To Be Verified** until inspected and tested.
+
+## 2. Required implementation and release order
+
+### Foundation: complete Level 1 first
+
+Build **Level 1, Stages 1–6 in sequence**. Each stage must pass its checks and the owner's live production verification before it is accepted and the next stage begins. Level 1 is not complete until all six stages, their approved content, learner delivery, persistent progress and the full cumulative analytics experience work together.
+
+### Rotation: Levels 2–9
+
+Only after Level 1 is accepted, work through the remaining levels in stage waves:
+
+| Wave | Required order |
+|---|---|
+| Stage 1 | Level 2 Stage 1 → Level 3 Stage 1 → Level 4 Stage 1 → … → Level 9 Stage 1 |
+| Stage 2 | Level 2 Stage 2 → Level 3 Stage 2 → Level 4 Stage 2 → … → Level 9 Stage 2 |
+| Stage 3 | Level 2 Stage 3 → Level 3 Stage 3 → Level 4 Stage 3 → … → Level 9 Stage 3 |
+| Stage 4 | Level 2 Stage 4 → Level 3 Stage 4 → Level 4 Stage 4 → … → Level 9 Stage 4 |
+| Stage 5 | Level 2 Stage 5 → Level 3 Stage 5 → Level 4 Stage 5 → … → Level 9 Stage 5 |
+| Stage 6 | Level 2 Stage 6 → Level 3 Stage 6 → Level 4 Stage 6 → … → Level 9 Stage 6 |
+
+Finish and accept one stage for one level before moving to the next level in that wave. Do not build Level 2 Stages 2–6 before Stage 1 has been completed across Levels 2–9. The rotation applies only after the full Level 1 foundation has been accepted.
+
+## 3. Implementation phases and approval gates
+
+### Phase A — Audit the actual codebase
+
+Read the approved English curriculum/specification and relevant architecture, user-flow, data/progress and development-rule documents. Inspect the existing frontend routes, navigation, player, question-bank conventions, scoring, analytics, authentication and access controls. Inspect the backend and Render configuration only as needed to verify persistence and authorization.
+
+**Output:** concise inventory of reusable components, English-specific gaps, affected files, data flows and regression risks. No code changes during the audit.
+
+### Phase B — Propose the English-specific architecture
+
+Define and review the English Aptitude → Level → Stage → Explore/Extend → Module → Activity → Question structure, stable identifiers, content metadata, routes/access, delivery and progress boundaries. Specify which shared components can safely be reused and which English-specific components are required.
+
+The proposal must preserve existing products and their data. Do not finalize an API/database contract until the relevant frontend and backend have been inspected.
+
+**Gate:** obtain the owner's approval of the verified architecture and file-level implementation plan before implementing it.
+
+### Phase C — Editable question bank and validation
+
+Define a human-editable source format and canonical/runtime representation suited to all approved English question types, including reading passages, whole-novel tasks, listening prompts and open-ended responses. Specify stable IDs, source/rights metadata, answer keys or scoring rubrics, explanations/feedback, difficulty, level/stage, Explore/Extend and module/activity placement.
+
+Create automated checks for required fields, duplicate/missing IDs, answer validity, bank quantities, content-to-activity mappings, metadata, source/rights records and synchronization/drift. Preserve India-specific rights and suitability checks for every selected text and edition.
+
+**Gate:** validate and round-trip a small representative sample across materially different response formats before scaling up content authoring.
+
+### Phase D — Learner delivery
+
+Implement the stage/module/activity navigation and player using the approved curriculum and validated bank. Support the response mode each question actually requires; do not force writing, listening or oral-response prompts into an unsuitable multiple-choice format. A 10-question attempt must draw from the larger approved bank without permanently hiding the remaining eligible questions.
+
+**Gate:** verify representative Explore and Extend activities and each distinct response/scoring mode before broad content rollout.
+
+### Phase E — Persistent progress and complete analytics
+
+Build and verify English Aptitude's progress and analytics from the Level 1 foundation. The accepted design must support cumulative attempts, accuracy, completion, stage/activity progress, question-type performance, Explore/Extend comparison, per-question timing where available, and growth over time using recorded data only.
+
+Define and test a transparent rubric for open-ended responses before reporting them as scored. Keep progress persistent across sessions and ensure English Aptitude records do not leak into or alter Reasoning or Foreign Languages analytics. Do not reset earlier records when new stages are added.
+
+**Gate:** Level 1's full analytics must work across all six stages before any Level 2–9 rotation begins. Each later stage must feed the same cumulative architecture without breaking previously accepted data or reports.
+
+### Phase F — Stage-by-stage implementation and release
+
+Apply the sequence in Section 2. For each stage, complete its approved content, learner experience, scoring, persistence and analytics; run the applicable automated checks; deploy a coherent verified change; confirm the exact GitHub commit and Vercel deployment; and have the owner perform live production verification.
+
+**Acceptance gate:** no stage is accepted and no next stage begins until the current stage's production checks pass. If a check fails, fix the current stage and rerun affected checks before proceeding.
+
+### Phase G — Regression and final audit
+
+Test shared login/navigation and ensure Foreign Languages and Reasoning continue to work, their progress remains unchanged, and access controls still behave correctly. Run automated checks for IDs, bank counts, delivery, scoring, persistence, analytics, routes and build/prebuild validation. After all nine levels and six stages are complete, perform a comprehensive content-quality, analytics, data-separation and production audit.
+
+## 4. Per-stage acceptance checklist
+
+A stage is accepted only when all applicable items pass:
+
+- Approved level/stage outcomes, activity minimums, bank quantities and Explore/Extend allocations are preserved.
+- All required content is age-appropriate, fact-checked, rights-checked and mapped to stable IDs.
+- Every activity and question reference resolves; correct answers, explanations and scoring rules agree across editable source, canonical records and delivered content.
+- Each question uses an appropriate interaction and scoring mode.
+- Navigation, learner feedback, completion and repeat practice work.
+- Attempts and progress persist for the authenticated learner and remain isolated from other products.
+- Analytics reflect supported stored records, correctly aggregate this stage, preserve prior data and show missing values honestly.
+- Automated validation and production build/deployment checks pass.
+- The owner verifies the exact live production scope and explicitly accepts the stage.
+
+## 5. Risks and controls
+
+- **Large banks vs 10-question attempts:** validate the whole authored bank and separately test repeat delivery/coverage; do not truncate the bank to one attempt.
+- **Backend uncertainty:** inspect the existing integration before defining persistence changes; never invent endpoints or duplicate identity systems.
+- **Mixed response formats:** establish rendering, feedback and scoring per question type; rubric-based responses must not be reported as automatically correct unless genuinely scored.
+- **Text rights and suitability:** verify the exact edition/translation/adaptation for use in India and record the decision before publication.
+- **Cross-product regressions:** isolate English-specific modules and records; regression-test Reasoning and Foreign Languages whenever shared code changes.
+- **Analytics integrity:** use durable, supported records; do not reconstruct missing history or reset earlier progress.
+- **Deployment instability:** complete and validate a coherent stage release before deploying; resolve failed build/validation checks rather than bypassing them.
+
+## 6. Current status and next action
+
+- Step 1 curriculum direction: provisionally approved; candidate texts still require suitability and rights checks.
+- Step 2 question types, level mapping, stage sequence and quantities: approved and documented.
+- Step 3 roadmap and rollout order: approved and documented here.
+- Architecture audit, bank-format design, implementation, production verification and stage acceptance: **Not started / To Be Verified**.
+
+**Next action:** perform Phase A only, report the verified findings and risks, and present the architecture proposal for approval. Do not start coding, generate the full question bank, or deploy before that approval.
