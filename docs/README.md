@@ -19,6 +19,7 @@ The documentation will be created and updated as the project is audited and deve
 - `REASONING_*.md` — Reasoning-specific product, curriculum, data, quality and launch standards.
 - `ENGLISH_APTITUDE_CURRICULUM.md` — Step 1 curriculum direction, candidate short-story reading list for Explore and candidate whole-novel pathway for Extend.
 - `ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md` — approved Step 2 question types, nine-level/six-stage progression, per-type question-bank minimums, and Explore/Extend allocation.
+- `ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md` — approved Step 3 implementation phases, stage acceptance gates, full Level 1 foundation, and the Stage 1–6 rotation across Levels 2–9.
 - Cross-repository backend reference: `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md` — current Reasoning backend authorization, persistence API and deployment contract.
 
 ## Documentation principle
