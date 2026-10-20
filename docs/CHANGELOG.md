@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-10-20 — English Aptitude Step 3 roadmap approved
+
+- Added `docs/ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md` with the implementation phases, dependencies, risks, per-stage acceptance checklist and approval gates.
+- Recorded the required release order: complete and production-verify Level 1 Stages 1–6 first; then complete Stage 1 across Levels 2–9, followed by Stage 2 across Levels 2–9, continuing in stage waves through Stage 6.
+- Preserved all approved curriculum, question-bank quantities, response-format requirements and full analytics quality. The rollout order does not change architecture or reduce stage quality.
+- Required persistent English-specific progress and complete analytics from the Level 1 foundation, with records separate from Reasoning and Foreign Languages.
+- Updated the documentation index and curriculum/specification references. Implementation remains pending the Phase A codebase audit and owner approval of the verified architecture.
+- Documentation-only change: no application code, backend configuration or production deployment changed.
+
+
 This file records important project and architecture changes in simple language.
 
 ## 2026-10-19 — Step 2 English Aptitude specification approved and documented
