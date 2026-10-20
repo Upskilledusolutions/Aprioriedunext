@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-20 — English Aptitude Phase A codebase audit completed
+
+- Inspected the frontend routes, shared layout/navigation, Reasoning dashboards/player/analytics conventions, global styling, app route protection and the current Reasoning backend attempt contract.
+- Recorded findings, confirmed gaps, reuse boundaries and regression risks in `docs/ENGLISH_APTITUDE_PHASE_A_AUDIT.md`.
+- Added the owner's explicit requirement that English Aptitude match Reasoning Skills in design, aesthetics and navigation, while keeping English content, response/scoring, progress and analytics separate.
+- Confirmed that no English Aptitude learner-facing implementation or English-specific persistence/analytics contract was identified in the inspected source paths/results; the payment dropdown label is not a learner experience.
+- Updated the roadmap to mark Phase A source inspection complete and Phase B architecture proposal as the next step.
+- No application code, backend configuration or production deployment changed. No live browser or production behaviour is claimed as verified.
+
 ## 2026-10-20 — English Aptitude feature delivery register clarified
 
 - Updated `docs/ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md` with a feature delivery register that distinguishes initial-release requirements, later stage-wave delivery, and features requiring an explicit owner decision.
