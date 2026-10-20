@@ -1,7 +1,7 @@
 # English Reading & Aptitude — Question Types, Levels and Stages
 
 **Approval status:** Step 2 approved by the product owner on 2026-10-19  
-**Scope:** Curriculum specification only. The technical implementation roadmap is a later step and is not defined here.  
+**Scope:** Approved curriculum specification. Technical implementation phases, release order and acceptance gates are defined in `ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md`.  
 **Related document:** ENGLISH_APTITUDE_CURRICULUM.md
 
 ## 1. Framework
@@ -225,6 +225,6 @@ Grade 12 should demonstrate greater depth and independence than Grade 11 without
 
 Step 2 is approved for documentation. The counts and stage allocation in this document supersede the earlier provisional estimate of a uniform 320 items per stage: approved alternating story counts make the correct target 300 items in two-story stages and 320 items in three-story stages, assuming three nonfiction passages per stage as defined above.
 
-This document does not define product routes, database schemas, authentication, question-bank implementation, deployment workflow or production changes. Those belong to Step 3, the implementation roadmap, which must be developed after the approved curriculum specifications have been documented.
+This document does not define product routes, database schemas, authentication, question-bank implementation, deployment workflow or production changes. Those are governed by the approved Step 3 roadmap in `ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md`; architecture details remain subject to codebase audit and owner approval.
 
 No application code or production behaviour is changed by this document.
