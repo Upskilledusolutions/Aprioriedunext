@@ -39,7 +39,24 @@ Only after Level 1 is accepted, work through the remaining levels in stage waves
 
 Finish and accept one stage for one level before moving to the next level in that wave. Do not build Level 2 Stages 2–6 before Stage 1 has been completed across Levels 2–9. The rotation applies only after the full Level 1 foundation has been accepted.
 
-## 3. Implementation phases and approval gates
+## 3. Feature delivery register — what is included and when
+
+This register makes the timing of the roadmap's previously discussed feature choices explicit. It does not change the approved curriculum, architecture direction, rollout sequence or quality standards.
+
+| Feature / capability | Delivery commitment or decision point |
+|---|---|
+| English-specific architecture for all nine levels and six stages | Defined in Phase B and designed for the approved full curriculum, even though delivery starts with Level 1. |
+| Level 1 content, learner experience and all six stages | Required before the Level 2–9 rotation; each stage requires production verification and owner acceptance. |
+| Full cumulative analytics and persistent progress | Required from the Level 1 foundation, across all six Level 1 stages; the same architecture must support every later stage. |
+| All approved question types and suitable response/scoring modes | Required as the relevant activities are implemented. Listening prompts and open-ended/oral-response tasks must not be reduced to unsuitable multiple-choice interactions. |
+| Editable/canonical banks, validation, content/source metadata, rights checks and quality controls | Established and sample-validated in Phase C before broad content authoring; applied throughout all stage waves. |
+| Levels 2–9 delivery | Only after Level 1 is accepted, in the exact stage-wave order in Section 2; no stage may bypass its acceptance gate. |
+| Audio playback, learner audio recording and automated oral assessment | **Explicit decision required during Phase B, before architecture approval.** The initial options did not establish a firm delivery milestone for these features. The audit must assess the requirements, technical feasibility, privacy/consent and data handling, accessibility, and valid/transparently explainable assessment criteria. The architecture proposal must then state which features are approved, their implementation phase/stage and acceptance tests. They must not be silently omitted, assumed implemented, or added in a way that changes approved curriculum or quality standards. Until that decision is approved, listening prompts and appropriate oral-response handling remain required where the curriculum calls for them, but recording and automated oral scoring are not claimed as delivered commitments. |
+| Any other feature not yet assigned a delivery point | Phase B must identify it explicitly as required for the initial release, scheduled for a later milestone, or awaiting owner decision. No previously discussed option should disappear merely because its milestone was unspecified. |
+
+**Release rule:** Phase B's architecture proposal must include a reviewed feature register with a delivery phase/stage and acceptance criteria for every approved feature. The owner must approve the proposal before implementation starts. If a feature is still undecided, record the decision needed and its impact; do not silently treat it as out of scope.
+
+## 4. Implementation phases and approval gates
 
 ### Phase A — Audit the actual codebase
 
@@ -87,7 +104,7 @@ Apply the sequence in Section 2. For each stage, complete its approved content, 
 
 Test shared login/navigation and ensure Foreign Languages and Reasoning continue to work, their progress remains unchanged, and access controls still behave correctly. Run automated checks for IDs, bank counts, delivery, scoring, persistence, analytics, routes and build/prebuild validation. After all nine levels and six stages are complete, perform a comprehensive content-quality, analytics, data-separation and production audit.
 
-## 4. Per-stage acceptance checklist
+## 5. Per-stage acceptance checklist
 
 A stage is accepted only when all applicable items pass:
 
@@ -101,7 +118,7 @@ A stage is accepted only when all applicable items pass:
 - Automated validation and production build/deployment checks pass.
 - The owner verifies the exact live production scope and explicitly accepts the stage.
 
-## 5. Risks and controls
+## 6. Risks and controls
 
 - **Large banks vs 10-question attempts:** validate the whole authored bank and separately test repeat delivery/coverage; do not truncate the bank to one attempt.
 - **Backend uncertainty:** inspect the existing integration before defining persistence changes; never invent endpoints or duplicate identity systems.
@@ -111,7 +128,7 @@ A stage is accepted only when all applicable items pass:
 - **Analytics integrity:** use durable, supported records; do not reconstruct missing history or reset earlier progress.
 - **Deployment instability:** complete and validate a coherent stage release before deploying; resolve failed build/validation checks rather than bypassing them.
 
-## 6. Current status and next action
+## 7. Current status and next action
 
 - Step 1 curriculum direction: provisionally approved; candidate texts still require suitability and rights checks.
 - Step 2 question types, level mapping, stage sequence and quantities: approved and documented.
