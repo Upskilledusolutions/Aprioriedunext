@@ -14,6 +14,7 @@ Implement the approved English Aptitude curriculum using the smallest safe, main
 - Treat the authored question-bank quantities as reusable banks, not limits on lifetime practice. A learner activity may deliver a 10-question attempt while the larger approved bank remains available across practice.
 - Keep the existing authentication/user identity where appropriate, but keep English Aptitude learner records, progress and analytics logically separate from both Reasoning and Foreign Languages.
 - Reuse proven components and validation patterns only after inspecting their real dependencies and behaviour. Do not assume Reasoning's schema, endpoints or runtime model automatically fit English Aptitude.
+- Match English Aptitude's design, aesthetics and navigation to the established Reasoning Skills learner experience. Reuse visual/layout/navigation patterns only where safe; keep English routes, content, response/scoring logic, progress and analytics separate. Prefer scoped styles and avoid global changes that alter other products.
 - Maintain full content, interaction, accessibility, grading and analytics quality at every level. The rollout sequence below changes **when** each stage is built, not its requirements.
 - Do not change Reasoning or Foreign Languages unless the audit identifies a necessary shared-system dependency; explain the impact and obtain approval before such a change.
 - Do not invent database schemas, API routes or backend contracts. Mark unverified items as **To Be Verified** until inspected and tested.
@@ -133,6 +134,8 @@ A stage is accepted only when all applicable items pass:
 - Step 1 curriculum direction: provisionally approved; candidate texts still require suitability and rights checks.
 - Step 2 question types, level mapping, stage sequence and quantities: approved and documented.
 - Step 3 roadmap and rollout order: approved and documented here.
-- Architecture audit, bank-format design, implementation, production verification and stage acceptance: **Not started / To Be Verified**.
+- Phase A source-level codebase audit: **Completed 2026-10-20**; findings recorded in `docs/ENGLISH_APTITUDE_PHASE_A_AUDIT.md`. This was not a local build, live browser, API or production test.
+- Phase B architecture proposal and owner approval: **Not started**.
+- Bank-format design, application implementation, production verification and stage acceptance: **Not started / To Be Verified**.
 
-**Next action:** perform Phase A only, report the verified findings and risks, and present the architecture proposal for approval. Do not start coding, generate the full question bank, or deploy before that approval.
+**Next action:** complete Phase B by presenting the English-specific architecture and file-level implementation proposal for owner approval. Include the Reasoning-matched design/navigation requirement, safe reuse boundaries, English-specific data and analytics, response-mode strategy, and the audio/oral-assessment decision. Do not start application coding, generate the full question bank, or deploy before approval.
