@@ -67,11 +67,11 @@ Read the approved English curriculum/specification and relevant architecture, us
 
 ### Phase B — Propose the English-specific architecture
 
-Define and review the English Aptitude → Level → Stage → Explore/Extend → Module → Activity → Question structure, stable identifiers, content metadata, routes/access, delivery and progress boundaries. Specify which shared components can safely be reused and which English-specific components are required.
+Define and review the English Aptitude → Level → Stage → Explore/Extend → Module → Activity → Question structure, stable identifiers, content metadata, routes/access, delivery and progress boundaries. Specify safe reuse boundaries and English-specific systems at the architectural level; a file-by-file implementation plan is not required.
 
-The proposal must preserve existing products and their data. Do not finalize an API/database contract until the relevant frontend and backend have been inspected.
+The proposal must preserve existing products and their data. Do not finalize an API/database contract until the relevant frontend and backend have been inspected. Plan implementation in meaningful, logically ordered increments, validating each before proceeding rather than bundling too much work or splitting it into trivial micro-steps.
 
-**Gate:** obtain the owner's approval of the verified architecture and file-level implementation plan before implementing it.
+**Gate:** obtain the owner's approval of the architecture and any explicit feature decisions before changing application code. The owner's latest instruction and approval supersede prior plans and roadmap wording; document any override and follow it.
 
 ### Phase C — Editable question bank and validation
 
@@ -135,7 +135,7 @@ A stage is accepted only when all applicable items pass:
 - Step 2 question types, level mapping, stage sequence and quantities: approved and documented.
 - Step 3 roadmap and rollout order: approved and documented here.
 - Phase A source-level codebase audit: **Completed 2026-10-20**; findings recorded in `docs/ENGLISH_APTITUDE_PHASE_A_AUDIT.md`. This was not a local build, live browser, API or production test.
-- Phase B architecture proposal and owner approval: **Not started**.
+- Phase B architecture proposal: **Prepared 2026-10-20** in `docs/ENGLISH_APTITUDE_ARCHITECTURE_PROPOSAL.md`; owner approval and audio/oral-assessment decisions are pending.
 - Bank-format design, application implementation, production verification and stage acceptance: **Not started / To Be Verified**.
 
-**Next action:** complete Phase B by presenting the English-specific architecture and file-level implementation proposal for owner approval. Include the Reasoning-matched design/navigation requirement, safe reuse boundaries, English-specific data and analytics, response-mode strategy, and the audio/oral-assessment decision. Do not start application coding, generate the full question bank, or deploy before approval.
+**Next action:** review and approve or adjust the architecture proposal and its explicit audio/oral-assessment decision. Do not start application coding, generate the full question bank, or deploy before this approval gate.
