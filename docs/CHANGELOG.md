@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-10-20 — English Aptitude feature delivery register clarified
+
+- Updated `docs/ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md` with a feature delivery register that distinguishes initial-release requirements, later stage-wave delivery, and features requiring an explicit owner decision.
+- Confirmed that full cumulative analytics and persistent progress are required from the Level 1 foundation; all approved question types, suitable response/scoring modes, editable/canonical bank validation and quality controls remain required.
+- Added a mandatory Phase B decision gate for audio playback, learner audio recording and automated oral assessment. The architecture proposal must assess feasibility, privacy/consent, data handling, accessibility and assessment validity, then specify approved scope, delivery phase/stage and acceptance tests before implementation approval.
+- Required Phase B to account explicitly for every discussed feature so that an unspecified milestone cannot silently remove it from the plan.
+- Preserved the approved curriculum, architecture direction, Level 1-first and Levels 2–9 stage-wave rollout, and existing quality standards.
+- Documentation-only change: no application code, backend configuration or production deployment changed.
+
 ## 2026-10-20 — English Aptitude Step 3 roadmap approved
 
 - Added `docs/ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md` with the implementation phases, dependencies, risks, per-stage acceptance checklist and approval gates.
