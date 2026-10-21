@@ -148,6 +148,8 @@ A stage is accepted only when all applicable items pass:
 - Step 3 roadmap and rollout order: approved and documented here.
 - Phase A source-level codebase audit: **Completed 2026-10-20**; findings recorded in `docs/ENGLISH_APTITUDE_PHASE_A_AUDIT.md`. This was not a local build, live browser, API or production test.
 - Phase B architecture proposal: **Prepared 2026-10-20** in `docs/ENGLISH_APTITUDE_ARCHITECTURE_PROPOSAL.md`; owner approval and audio/oral-assessment decisions are pending.
-- Bank-format design, application implementation, production verification and stage acceptance: **Not started / To Be Verified**.
+- Phase C1 schema/validator and representative schema tests: implemented on `english-aptitude-phase-c-schema`; the owner ran `npm run english-aptitude:test-schema` on Windows and reported that it passed.
+- Phase C2 editable-to-canonical conversion, canonical-to-editable conversion, metadata-preservation checks and round-trip/negative tests: implemented on the same branch. The new sync test command is `npm run english-aptitude:test-sync`; **execution is pending**.
+- No full question bank has been generated. No changes have been merged to `main`, and no production deployment has been performed.
 
-**Next action:** review and approve or adjust the architecture proposal and its explicit audio/oral-assessment decision. Do not start application coding, generate the full question bank, or deploy before this approval gate.
+**Next action:** run the new Phase C2 sync test on the existing Windows checkout and report its output. If it passes, review any test gaps and continue to the next bounded Phase C increment; if it fails, fix this checkpoint before expanding the bank.
