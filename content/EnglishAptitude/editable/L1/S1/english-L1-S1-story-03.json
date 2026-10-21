@@ -91,8 +91,8 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "Her grandfather",
         "Her class teacher",
+        "Her grandfather",
         "Her younger cousin",
         "A shopkeeper"
       ],
@@ -128,9 +128,9 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "It tipped sideways and fell",
         "It flew above the clouds",
         "It landed on a tree branch",
+        "It tipped sideways and fell",
         "It pulled the string out of her hand"
       ],
       "answerKey": [
@@ -165,10 +165,10 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "It kept falling instead of flying",
         "Its paper had changed colour",
         "The field was covered in snow",
-        "She had forgotten where she lived"
+        "She had forgotten where she lived",
+        "It kept falling instead of flying"
       ],
       "answerKey": [
         "It kept falling instead of flying"
@@ -239,8 +239,8 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "A paper corner was loose and its tail was uneven",
         "Every stick had become wet and soft",
+        "A paper corner was loose and its tail was uneven",
         "The string was much too colourful",
         "Its paper had been replaced by cloth"
       ],
@@ -276,9 +276,9 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "Paper and tape",
         "A glass jar and a spoon",
         "A bucket of sand",
+        "Paper and tape",
         "A metal chain"
       ],
       "answerKey": [
@@ -313,10 +313,10 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "They wanted a steadier breeze",
         "They were waiting for a school bus",
         "They needed the field to become dark",
-        "They wanted the kite to get heavier"
+        "They wanted the kite to get heavier",
+        "They wanted a steadier breeze"
       ],
       "answerKey": [
         "They wanted a steadier breeze"
@@ -387,8 +387,8 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "She walked forward slowly",
         "She pulled the string as hard as possible",
+        "She walked forward slowly",
         "She threw the kite into a pond",
         "She ran without holding the string"
       ],
@@ -424,9 +424,9 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "She loosened the string a little",
         "She let go of the kite completely",
         "She tore off its tail",
+        "She loosened the string a little",
         "She pulled with all her strength"
       ],
       "answerKey": [
@@ -461,10 +461,10 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "Repairs, a steadier breeze and careful handling",
         "A heavier frame and a longer run through the trees",
         "A sudden rainstorm and a wet paper tail",
-        "A new field, a different notebook and a broken string"
+        "A new field, a different notebook and a broken string",
+        "Repairs, a steadier breeze and careful handling"
       ],
       "answerKey": [
         "Repairs, a steadier breeze and careful handling"
@@ -535,8 +535,8 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "To help her recognise the real reasons it worked",
         "To show that she should stop flying kites",
+        "To help her recognise the real reasons it worked",
         "To prove that the kite had flown by accident",
         "To explain why the notebook was unnecessary"
       ],
@@ -572,9 +572,9 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "Keep a notebook of things she learned by testing ideas",
         "Build a kite without asking anyone for help",
         "Avoid the field for the rest of the year",
+        "Keep a notebook of things she learned by testing ideas",
         "Give away every tool used for the repair"
       ],
       "answerKey": [
@@ -609,10 +609,10 @@
         "incorrect": "Reread the story and look for the detail that supports your answer."
       },
       "options": [
-        "Anaya carried her kite to the field",
         "The kite rose high into the sky",
         "Anaya decided to keep a notebook",
-        "Grandfather reminded her of the repairs"
+        "Grandfather reminded her of the repairs",
+        "Anaya carried her kite to the field"
       ],
       "answerKey": [
         "Anaya carried her kite to the field"
