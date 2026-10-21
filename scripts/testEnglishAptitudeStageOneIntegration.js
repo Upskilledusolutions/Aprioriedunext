@@ -136,7 +136,7 @@ const bank = {
   passages,
   questions,
 };
-const { canonical } = editableBankToCanonical(bank, { activityIds });
+const canonical = editableBankToCanonical(bank, { activityIds });
 assert.equal(canonical.questions.length, 320);
 assert.equal(canonical.questions.filter(item => item.half === "explore").length, 200);
 assert.equal(canonical.questions.filter(item => item.half === "extend").length, 120);
