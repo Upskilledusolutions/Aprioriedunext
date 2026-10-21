@@ -71,7 +71,7 @@ Define and review the English Aptitude → Level → Stage → Explore/Extend �
 
 The proposal must preserve existing products and their data. Do not finalize an API/database contract until the relevant frontend and backend have been inspected. Plan implementation in meaningful, logically ordered increments, validating each before proceeding rather than bundling too much work or splitting it into trivial micro-steps.
 
-**Gate:** obtain the owner's approval of the architecture and any explicit feature decisions before changing application code. The owner's latest instruction and approval supersede prior plans and roadmap wording; document any override and follow it.
+**Gate:** obtain the owner's approval of the architecture and any explicit feature decisions before implementing dependent application features. On 2026-10-21, the owner directed implementation of the Phase C question-bank foundation. That authorization covers the editable/canonical schema and validation foundation; it does not approve learner audio recording or automated oral assessment. The owner's latest instruction and approval supersede prior plans and roadmap wording; document any override and follow it.
 
 ### Phase C — Editable question bank and validation
 
@@ -147,7 +147,7 @@ A stage is accepted only when all applicable items pass:
 - Step 2 question types, level mapping, stage sequence and quantities: approved and documented.
 - Step 3 roadmap and rollout order: approved and documented here.
 - Phase A source-level codebase audit: **Completed 2026-10-20**; findings recorded in `docs/ENGLISH_APTITUDE_PHASE_A_AUDIT.md`. This was not a local build, live browser, API or production test.
-- Phase B architecture proposal: **Prepared 2026-10-20** in `docs/ENGLISH_APTITUDE_ARCHITECTURE_PROPOSAL.md`; owner approval and audio/oral-assessment decisions are pending.
+- Phase B architecture proposal: **Prepared 2026-10-20** in `docs/ENGLISH_APTITUDE_ARCHITECTURE_PROPOSAL.md`. The owner authorized Phase C question-bank foundation work on 2026-10-21; audio recording and automated oral-assessment decisions remain pending and are not included in this implementation.
 - Phase C1 schema/validator and representative schema tests: implemented on `english-aptitude-phase-c-schema`; the owner ran `npm run english-aptitude:test-schema` on Windows and reported that it passed.
 - Phase C2 editable-to-canonical conversion, canonical-to-editable conversion, metadata-preservation checks and round-trip/negative tests: implemented on the same branch. The new sync test command is `npm run english-aptitude:test-sync`; **execution is pending**.
 - No full question bank has been generated. No changes have been merged to `main`, and no production deployment has been performed.
