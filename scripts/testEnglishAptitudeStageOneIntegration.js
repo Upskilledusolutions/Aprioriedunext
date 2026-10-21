@@ -110,12 +110,14 @@ for (let order = 1; order <= 3; order += 1) {
   passages.push(passage);
   addPassageQuestions(passage, "short_story_comprehension", "ENG-L1-S1-EXP-01");
 }
-for (const [order, half, activityId] of [
-  [1, "explore", "ENG-L1-S1-EXP-02"],
-  [2, "explore", "ENG-L1-S1-EXP-03"],
-  [3, "extend", "ENG-L1-S1-EXT-01"],
+// Slot ordinal is scoped to the passage's half: Explore nonfiction passages
+// are ordered 1 and 2; the Extend nonfiction passage is order 1.
+for (const [order, half, activityId, passageNumber] of [
+  [1, "explore", "ENG-L1-S1-EXP-02", 1],
+  [2, "explore", "ENG-L1-S1-EXP-03", 2],
+  [1, "extend", "ENG-L1-S1-EXT-01", 3],
 ]) {
-  const passage = makePassage(`eng-l1-s1-nonfiction-${order}`, "nonfiction_passage", half, `Synthetic nonfiction ${order}`, order);
+  const passage = makePassage(`eng-l1-s1-nonfiction-${passageNumber}`, "nonfiction_passage", half, `Synthetic nonfiction ${passageNumber}`, order);
   passages.push(passage);
   addPassageQuestions(passage, "nonfiction_passage_comprehension", activityId);
 }
