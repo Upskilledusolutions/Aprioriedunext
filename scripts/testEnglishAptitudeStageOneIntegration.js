@@ -14,7 +14,11 @@ const registeredActivities = getActivitiesForStage(levelId, stageId);
 const activityIds = getActivityIdsForStage(levelId, stageId);
 const activityById = new Map(registeredActivities.map(activity => [activity.activityId, activity]));
 const activityForType = (half, questionType) => {
-  const activity = registeredActivities.find(item => item.half === half && item.questionTypes.includes(questionType));
+  // Route generic skill questions to non-passage activities where possible.
+  // Dedicated passage activities must carry a passage reference matching their slot.
+  const matches = registeredActivities.filter(item => item.half === half && item.questionTypes.includes(questionType));
+  matches.sort((a, b) => Number(Boolean(a.passageSlot)) - Number(Boolean(b.passageSlot)));
+  const activity = matches[0];
   assert(activity, `The registry must have an activity for ${questionType} in ${half}.`);
   return activity;
 };
