@@ -105,6 +105,18 @@ Apply the sequence in Section 2. For each stage, complete its approved content, 
 
 Test shared login/navigation and ensure Foreign Languages and Reasoning continue to work, their progress remains unchanged, and access controls still behave correctly. Run automated checks for IDs, bank counts, delivery, scoring, persistence, analytics, routes and build/prebuild validation. After all nine levels and six stages are complete, perform a comprehensive content-quality, analytics, data-separation and production audit.
 
+## 4A. Local command preparation and advance notice
+
+The owner is not a developer and needs clear, advance notice before any terminal/Command Prompt work.
+
+- **Give at least one logical implementation step/checkpoint in advance** whenever a future step will require the owner to run a command. State which upcoming checkpoint will need commands, why they are needed, which computer to use, and the exact application/folder prerequisites.
+- Do not first reveal a required command at the moment it must be run. Provide the heads-up in the preceding step/stage/wave/phase, as appropriate, so the owner has time to prepare.
+- Before asking the owner to run commands, confirm that the command is actually necessary, the correct repository/branch and local folder are identified, and the command is safe. Give copy-paste-ready commands and explain what successful and failed output looks like.
+- Avoid repeating checks already completed unless code, branch, environment or test requirements have changed. Keep terminal requests grouped into meaningful verification checkpoints rather than unnecessary micro-steps.
+- The current local checkout is on the owner's **Windows laptop**, in `D:\Aprioriedunext`, with GitHub Desktop installed there. Do not ask the owner to download/clone the project to the MacBook or move development there unless the owner explicitly changes this preference.
+- The English Aptitude schema test has already been run successfully on Windows. Do not ask to rerun it unless relevant code or tests change. Give advance notice before the next required command checkpoint, expected after editable-to-canonical synchronization and round-trip tests are implemented and ready to verify.
+- Running commands, committing code, merging to `main`, and deploying to production are separate actions. Do not treat test execution as approval to merge or deploy; follow the applicable approval gate.
+
 ## 5. Per-stage acceptance checklist
 
 A stage is accepted only when all applicable items pass:
