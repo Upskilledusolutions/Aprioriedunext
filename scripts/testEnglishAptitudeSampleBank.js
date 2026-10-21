@@ -2,7 +2,8 @@
 const assert = require("node:assert/strict");
 const fs = require("node:fs");
 const path = require("node:path");
-const { assertRoundTripIntegrity } = require("../src/Data/EnglishAptitude/englishQuestionBankSync");
+const { assertRoundTripIntegrity, editableBankToCanonical } = require("../src/Data/EnglishAptitude/englishQuestionBankSync");
+const { validateEnglishBank } = require("../src/Data/EnglishAptitude/englishQuestionSchema");
 
 const samplePath = path.join(__dirname, "../content/EnglishAptitude/editable/L1/S1/english-L1-S1-sample.json");
 const editable = JSON.parse(fs.readFileSync(samplePath, "utf8"));
@@ -21,4 +22,27 @@ assert.deepEqual(new Set(canonical.questions.map(question => question.responseFo
 assert.ok(canonical.questions.every(question => question.status === "draft"));
 assert.ok(canonical.questions.every(question => question.source && question.rights && question.feedback));
 
-console.log("English Aptitude sample-bank tests passed: real editable JSON loaded, activity mapping validated, four questions across Explore/Extend, three response formats, metadata and passage preserved, and round-trip integrity confirmed.");
+// Passage registry checks: duplicate IDs, missing references, mismatched duplicated text,
+// malformed passage records and compatibility with inline passageText-only banks.
+const passageErrors = (mutate) => {
+  const copy = structuredClone(canonical);
+  mutate(copy);
+  return validateEnglishBank(copy, { activityIds });
+};
+assert.ok(passageErrors(bank => { bank.passages.push(structuredClone(bank.passages[0])); }).some(error => error.includes("duplicate passage id")));
+assert.ok(passageErrors(bank => { bank.questions[0].passageId = "missing-passage"; }).some(error => error.includes("unknown passageId")));
+assert.ok(passageErrors(bank => { bank.questions[0].passageText = "Different passage text"; }).some(error => error.includes("differs from the registered passage")));
+assert.ok(passageErrors(bank => { bank.passages[0].rights = {}; }).some(error => error.includes("rights must include")));
+assert.ok(passageErrors(bank => { bank.passages = "not-an-array"; }).some(error => error.includes("passages must be an array")));
+const inlineOnly = structuredClone(canonical);
+delete inlineOnly.passages;
+inlineOnly.questions[0].passageId = undefined;
+assert.doesNotThrow(() => editableBankToCanonical({
+  ...roundTripped,
+  passages: undefined,
+  questions: roundTripped.questions.map((question, index) => index === 0
+    ? { ...question, passageId: undefined, passageText: "Inline text is still supported." }
+    : question),
+}, { activityIds }));
+
+console.log("English Aptitude sample-bank tests passed: editable JSON, activity mapping, Explore/Extend, response formats, metadata, round-trip integrity, passage registry validation, duplicate/missing reference rejection, and inline passage compatibility.");
