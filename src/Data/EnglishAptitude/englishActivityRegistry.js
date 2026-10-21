@@ -253,6 +253,28 @@ function validateQuestionActivityMappings(bank, options = {}) {
     if (!activity.questionTypes.includes(question.questionType)) {
       errors.push(`${prefix}: questionType "${question.questionType}" is not allowed in activity "${activity.activityId}".`);
     }
+    if (activity.passageSlot) {
+      if (typeof question.passageId !== "string" || !question.passageId.trim()) {
+        errors.push(`${prefix}: activity "${activity.activityId}" requires a passageId matching its registered passage slot.`);
+      } else {
+        const passage = Array.isArray(bank.passages)
+          ? bank.passages.find(item => item && item.id === question.passageId)
+          : null;
+        if (!passage) {
+          errors.push(`${prefix}: passageId "${question.passageId}" does not resolve for activity "${activity.activityId}".`);
+        } else {
+          if (passage.type !== activity.passageSlot.type) {
+            errors.push(`${prefix}: passage type does not match the registered slot for activity "${activity.activityId}".`);
+          }
+          if (passage.half !== activity.passageSlot.half || question.half !== activity.passageSlot.half) {
+            errors.push(`${prefix}: passage and question half must match the registered slot for activity "${activity.activityId}".`);
+          }
+          if (passage.order !== activity.passageSlot.ordinal) {
+            errors.push(`${prefix}: passage order does not match the registered slot for activity "${activity.activityId}".`);
+          }
+        }
+      }
+    }
   }
   if (options.requireAllActivities) {
     for (const activity of activities) {
