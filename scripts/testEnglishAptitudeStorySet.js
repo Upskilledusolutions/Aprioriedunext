@@ -6,9 +6,14 @@ const { assertRoundTripIntegrity } = require("../src/Data/EnglishAptitude/englis
 const { validateEnglishBank } = require("../src/Data/EnglishAptitude/englishQuestionSchema");
 const { getActivityIdsForStage, validateQuestionActivityMappings } = require("../src/Data/EnglishAptitude/englishActivityRegistry");
 
-const file = path.join(__dirname, "../content/EnglishAptitude/editable/L1/S1/english-L1-S1-story-01.json");
-const editable = JSON.parse(fs.readFileSync(file, "utf8"));
 const context = { activityIds: getActivityIdsForStage("L1", "S1") };
+const storyFiles = [
+  { file: "english-L1-S1-story-01.json", passageId: "eng-l1-s1-story-library-boat-001" },
+  { file: "english-L1-S1-story-02.json", passageId: "eng-l1-s1-story-bean-garden-001" },
+];
+for (const item of storyFiles) {
+const file = path.join(__dirname, "../content/EnglishAptitude/editable/L1/S1", item.file);
+const editable = JSON.parse(fs.readFileSync(file, "utf8"));
 const { canonical, roundTripped } = assertRoundTripIntegrity(editable, context);
 assert.deepEqual(roundTripped, editable);
 assert.equal(canonical.levelId, "L1");
@@ -16,7 +21,8 @@ assert.equal(canonical.stageId, "S1");
 assert.equal(canonical.passages.length, 1);
 assert.equal(canonical.passages[0].type, "short_story");
 assert.equal(canonical.passages[0].rights.status, "original");
-assert.equal(canonical.questions.length, 20, "Story 1 must contain 20 comprehension questions.");
+assert.equal(canonical.passages[0].id, item.passageId);
+assert.equal(canonical.questions.length, 20, item.file + " must contain 20 comprehension questions.");
 assert.equal(new Set(canonical.questions.map(q => q.id)).size, 20, "Question IDs must be unique.");
 assert.ok(canonical.questions.every(q => q.questionType === "short_story_comprehension"));
 assert.ok(canonical.questions.every(q => q.half === "explore" && q.activityId === "ENG-L1-S1-EXP-01"));
@@ -41,4 +47,5 @@ for (const q of canonical.questions.filter(q => q.responseFormat === "single_sel
   assert.ok(q.options.includes(q.answerKey[0]), q.id + " answer must match an option.");
 }
 assert.ok(canonical.questions.every(q => q.status === "draft"));
-console.log("English Aptitude L1/S1 story-set tests passed: original story, 20 unique comprehension questions, registered Explore mapping, three response formats, answer validity, metadata and round-trip integrity.");
+}
+console.log("English Aptitude L1/S1 story-set tests passed: both original stories, 20 unique comprehension questions per story, registered Explore mapping, three response formats, answer validity, metadata, answer-option length balance and round-trip integrity.");
