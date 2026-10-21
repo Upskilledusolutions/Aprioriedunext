@@ -1,0 +1,739 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-story-02",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Second authored Explore short-story content slice; part of the three-story L1/S1 Explore allocation, not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 story. Requires editorial/pedagogical review before approval or publication."
+  },
+  "passages": [
+    {
+      "id": "eng-l1-s1-story-bean-garden-001",
+      "type": "short_story",
+      "title": "Learning from a Bean Garden",
+      "text": "Mira liked visiting the school garden, but she had never helped grow anything there. One Friday, her class found a packet of bean seeds beside the garden shed. Their teacher, Mr Das, explained that the class could plant them in a small empty bed.\n\nBefore planting, the children loosened the soil with hand tools and removed dry leaves. Mr Das showed them how to make shallow holes and cover each seed gently. Mira wanted to pour lots of water over the bed, but her classmate Kabir reminded her that the soil should be moist, not flooded.\n\nThe class made a simple chart. Each week, two students would check the soil, water the bed when needed, and record what they noticed. Mira and Kabir were first on the list. They wrote the date and drew a picture of the bare bed.\n\nAfter several days, tiny green shoots appeared. Mira was excited and wanted to pull one up to see its roots. Mr Das stopped her kindly. “The roots need to stay in the soil,” he said. “We can learn by watching the plant grow and by keeping notes.”\n\nThe children noticed that the shoots near the sunny edge grew a little faster. They also saw that one corner stayed wet after rain. The class decided not to water that corner as often. They asked the school gardener whether a narrow channel could help the extra water drain away.\n\nOver the next few weeks, the bean plants grew taller and developed leaves. Mira and Kabir added measurements and drawings to their chart. When the first small pods appeared, the class compared them with their early sketches.\n\nAt the end of the month, Mr Das asked what had helped the plants grow. The children named sunlight, water, healthy soil and careful observation. Mira said the chart had helped them notice changes they might otherwise have missed. She was proud that the class had grown more than beans: they had learned to work patiently and use evidence.",
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude story for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original text authored for this project."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng-l1-s1-story-bean-garden-q01",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Where did the class find the packet of bean seeds?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The seeds were found beside the garden shed.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "Beside the garden shed",
+        "On the classroom window",
+        "Inside Mira’s schoolbag",
+        "Under the library desk"
+      ],
+      "answerKey": [
+        "Beside the garden shed"
+      ],
+      "explanation": "The seeds were found beside the garden shed."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q02",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Who explained how to plant the seeds?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Mr Das showed the class how to plant them.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "Mr Das",
+        "The school gardener",
+        "Kabir’s older brother",
+        "The librarian"
+      ],
+      "answerKey": [
+        "Mr Das"
+      ],
+      "explanation": "Mr Das showed the class how to plant them."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q03",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did the children do before planting?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. They prepared the soil and removed dry leaves.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "They loosened the soil and removed dry leaves",
+        "They covered the bed with stones",
+        "They picked all the flowers",
+        "They filled the bed with water"
+      ],
+      "answerKey": [
+        "They loosened the soil and removed dry leaves"
+      ],
+      "explanation": "They prepared the soil and removed dry leaves."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q04",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why did Kabir advise Mira not to flood the bed?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Kabir reminded her that the soil should be moist rather than flooded.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "The soil needed to be moist, not flooded",
+        "The seeds could only grow in dry sand",
+        "The class had run out of seeds",
+        "The teacher had forbidden all watering"
+      ],
+      "answerKey": [
+        "The soil needed to be moist, not flooded"
+      ],
+      "explanation": "Kabir reminded her that the soil should be moist rather than flooded."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q05",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What was the purpose of the class chart?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The chart helped students record observations over time.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "To record checks and changes in the plants",
+        "To list the children’s favourite vegetables",
+        "To plan a garden party",
+        "To count tools in the shed"
+      ],
+      "answerKey": [
+        "To record checks and changes in the plants"
+      ],
+      "explanation": "The chart helped students record observations over time."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q06",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Mira want to do when the shoots appeared?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Mira wanted to pull a shoot up to see its roots.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "Pull one up to look at its roots",
+        "Move every plant into a pot",
+        "Cut off the new leaves",
+        "Hide the chart from the class"
+      ],
+      "answerKey": [
+        "Pull one up to look at its roots"
+      ],
+      "explanation": "Mira wanted to pull a shoot up to see its roots."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q07",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why did Mr Das stop Mira from pulling up a shoot?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. He explained that the roots needed to stay in the soil.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "The roots needed to remain in the soil",
+        "The shoots were already too tall",
+        "The plant belonged to another class",
+        "The seeds had to be replanted every day"
+      ],
+      "answerKey": [
+        "The roots needed to remain in the soil"
+      ],
+      "explanation": "He explained that the roots needed to stay in the soil."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q08",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What difference did the children notice near the sunny edge?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. They noticed faster growth near the sunny edge.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "The shoots grew a little faster",
+        "The soil was always frozen",
+        "The leaves turned purple",
+        "No plants grew there"
+      ],
+      "answerKey": [
+        "The shoots grew a little faster"
+      ],
+      "explanation": "They noticed faster growth near the sunny edge."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q09",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What problem did one corner of the bed have?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. One corner stayed wet after rainfall.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "It stayed wet after rain",
+        "It received too much sunlight at night",
+        "Birds had carried away all the seeds",
+        "The soil had turned into stone"
+      ],
+      "answerKey": [
+        "It stayed wet after rain"
+      ],
+      "explanation": "One corner stayed wet after rainfall."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q10",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did the class ask the gardener about?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. They asked whether a narrow channel could drain the extra water.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "A channel to drain extra water",
+        "A fence around the whole school",
+        "A new classroom for science",
+        "A machine to pick every leaf"
+      ],
+      "answerKey": [
+        "A channel to drain extra water"
+      ],
+      "explanation": "They asked whether a narrow channel could drain the extra water."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q11",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Which item did the children add to their chart?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Mira and Kabir added measurements and drawings.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "Measurements and drawings",
+        "Stories about imaginary animals",
+        "Prices of garden tools",
+        "A list of classroom rules"
+      ],
+      "answerKey": [
+        "Measurements and drawings"
+      ],
+      "explanation": "Mira and Kabir added measurements and drawings."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q12",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What appeared on the bean plants before the class compared sketches?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The class compared its sketches when small pods appeared.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "Small pods",
+        "Bright flowers made of paper",
+        "Large red apples",
+        "New packets of seeds"
+      ],
+      "answerKey": [
+        "Small pods"
+      ],
+      "explanation": "The class compared its sketches when small pods appeared."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q13",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Which set of things did the children name as helping plants grow?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The children named sunlight, water, healthy soil and careful observation.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "Sunlight, water, healthy soil and observation",
+        "Paint, stones, music and warm blankets",
+        "Only water and daily digging",
+        "Only sunlight and paper labels"
+      ],
+      "answerKey": [
+        "Sunlight, water, healthy soil and observation"
+      ],
+      "explanation": "The children named sunlight, water, healthy soil and careful observation."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q14",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Mira say the chart helped them do?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Mira said the chart helped them notice changes.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "Notice changes they might otherwise miss",
+        "Make the plants grow in one day",
+        "Avoid visiting the garden",
+        "Decide which student was the fastest"
+      ],
+      "answerKey": [
+        "Notice changes they might otherwise miss"
+      ],
+      "explanation": "Mira said the chart helped them notice changes."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q15",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What is the best title for the story?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The story follows the class as they plant beans and learn by observing them.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "Learning from a Bean Garden",
+        "The Lost Classroom Key",
+        "A Race Across the Playground",
+        "The Day the Rain Stopped"
+      ],
+      "answerKey": [
+        "Learning from a Bean Garden"
+      ],
+      "explanation": "The story follows the class as they plant beans and learn by observing them."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q16",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Which event happened first?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Finding the seeds starts the sequence of events.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "options": [
+        "The class found a packet of seeds",
+        "Small pods appeared on the plants",
+        "The children measured the taller plants",
+        "Mira reflected on the chart"
+      ],
+      "answerKey": [
+        "The class found a packet of seeds"
+      ],
+      "explanation": "Finding the seeds starts the sequence of events."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q17",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "True or false: Mr Das encouraged Mira to pull a shoot out of the soil.",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Mr Das stopped her because the roots needed to remain in the soil.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "answerKey": false,
+      "explanation": "Mr Das stopped her because the roots needed to remain in the soil."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q18",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "True or false: The children changed how often they watered the wet corner.",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. They decided not to water that corner as often.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "answerKey": true,
+      "explanation": "They decided not to water that corner as often."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q19",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What does the class chart show about learning?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. A good answer explains that recording observations helps people notice changes and use evidence, with a detail from the chart.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "answerGuidance": "A good answer explains that recording observations helps people notice changes and use evidence, with a detail from the chart.",
+      "explanation": "A good answer explains that recording observations helps people notice changes and use evidence, with a detail from the chart."
+    },
+    {
+      "id": "eng-l1-s1-story-bean-garden-q20",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What lesson did Mira learn by the end?",
+      "passageId": "eng-l1-s1-story-bean-garden-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for Learning from a Bean Garden."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. A good answer explains that growing plants takes patience and careful observation, supported by her work recording changes.",
+        "incorrect": "Reread the story and check the relevant detail."
+      },
+      "answerGuidance": "A good answer explains that growing plants takes patience and careful observation, supported by her work recording changes.",
+      "explanation": "A good answer explains that growing plants takes patience and careful observation, supported by her work recording changes."
+    }
+  ]
+}
