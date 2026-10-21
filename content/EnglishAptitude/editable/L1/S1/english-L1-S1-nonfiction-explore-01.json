@@ -23,7 +23,9 @@
       "rights": {
         "status": "original",
         "basis": "Original text authored for this project."
-      }
+      },
+      "half": "explore",
+      "order": 1
     }
   ],
   "questions": [
