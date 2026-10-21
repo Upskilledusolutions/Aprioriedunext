@@ -4,6 +4,10 @@ const fs = require("node:fs");
 const path = require("node:path");
 const { assertRoundTripIntegrity, editableBankToCanonical } = require("../src/Data/EnglishAptitude/englishQuestionBankSync");
 const { validateEnglishBank } = require("../src/Data/EnglishAptitude/englishQuestionSchema");
+const {
+  getActivityIdsForStage,
+  validateQuestionActivityMappings,
+} = require("../src/Data/EnglishAptitude/englishActivityRegistry");
 
 const samplePath = path.join(__dirname, "../content/EnglishAptitude/editable/L1/S1/english-L1-S1-sample.json");
 const editable = JSON.parse(fs.readFileSync(samplePath, "utf8"));
