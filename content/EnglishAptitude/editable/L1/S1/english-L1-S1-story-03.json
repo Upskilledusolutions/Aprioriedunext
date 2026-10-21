@@ -1,0 +1,739 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-story-03",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Third and final Explore short-story content slice for Level 1 Stage 1; 20 questions, not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 story. Requires editorial and pedagogical review before approval or publication."
+  },
+  "passages": [
+    {
+      "id": "eng-l1-s1-story-repair-kite-001",
+      "type": "short_story",
+      "title": "The Kite That Would Not Fly",
+      "text": "On Saturday morning, Anaya carried a bright paper kite to the open field near her home. Her grandfather had helped her make it from thin sticks, paper and string. Anaya was sure it would fly as soon as she ran.\n\nShe hurried across the grass and lifted the kite high. A light breeze moved the trees, but the kite tipped sideways and fell. Anaya tried again, pulling the string tightly. The kite dragged along the ground. She frowned and said that the kite must be broken.\n\nGrandfather asked her to pause and look carefully. One corner of the paper had come loose from its frame, and the tail was shorter on one side than the other. Anaya fetched a small strip of paper and some tape. Together, they fixed the loose corner and made the tail even.\n\nThey waited for a steadier breeze. Grandfather explained that running too quickly could make it harder to notice how the kite responded to the wind. Anaya held the kite while he checked that the string was untangled. Then she walked forward slowly, letting the wind lift the kite before she gave the string a gentle pull.\n\nThis time, the kite rose above the field. It dipped once, but Anaya loosened the string a little and it climbed again. She watched its movements instead of pulling hard whenever it tilted. Soon the kite was high in the sky, its tail fluttering behind it.\n\nAnaya wanted to tell everyone that she had made the kite fly by running faster. Grandfather reminded her of the repairs, the steadier breeze and the careful way she had handled the string. Anaya smiled. She had learned that a problem is easier to solve when you stop, observe the evidence and try a thoughtful change. On the way home, she decided to keep a small notebook of things she learned by testing ideas.",
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude story for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original text authored for this project."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng-l1-s1-story-kite-q01",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Where did Anaya take her kite?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "An open field near her home",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "An open field near her home",
+        "A crowded railway platform",
+        "The school swimming pool",
+        "A shop beside the market"
+      ],
+      "answerKey": [
+        "An open field near her home"
+      ],
+      "explanation": "An open field near her home"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q02",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Who helped Anaya make the kite?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Her grandfather",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "Her grandfather",
+        "Her class teacher",
+        "Her younger cousin",
+        "A shopkeeper"
+      ],
+      "answerKey": [
+        "Her grandfather"
+      ],
+      "explanation": "Her grandfather"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q03",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What happened when Anaya first lifted the kite?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "It tipped sideways and fell",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "It tipped sideways and fell",
+        "It flew above the clouds",
+        "It landed on a tree branch",
+        "It pulled the string out of her hand"
+      ],
+      "answerKey": [
+        "It tipped sideways and fell"
+      ],
+      "explanation": "It tipped sideways and fell"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q04",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why did Anaya think the kite was broken?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "It kept falling instead of flying",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "It kept falling instead of flying",
+        "Its paper had changed colour",
+        "The field was covered in snow",
+        "She had forgotten where she lived"
+      ],
+      "answerKey": [
+        "It kept falling instead of flying"
+      ],
+      "explanation": "It kept falling instead of flying"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q05",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Grandfather ask Anaya to do first?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Pause and look carefully",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "Pause and look carefully",
+        "Run all the way home",
+        "Throw the kite into a tree",
+        "Cut the string into pieces"
+      ],
+      "answerKey": [
+        "Pause and look carefully"
+      ],
+      "explanation": "Pause and look carefully"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q06",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What was wrong with the kite?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "A paper corner was loose and its tail was uneven",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "A paper corner was loose and its tail was uneven",
+        "Every stick had become wet and soft",
+        "The string was much too colourful",
+        "Its paper had been replaced by cloth"
+      ],
+      "answerKey": [
+        "A paper corner was loose and its tail was uneven"
+      ],
+      "explanation": "A paper corner was loose and its tail was uneven"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q07",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Anaya use to help repair the kite?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Paper and tape",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "Paper and tape",
+        "A glass jar and a spoon",
+        "A bucket of sand",
+        "A metal chain"
+      ],
+      "answerKey": [
+        "Paper and tape"
+      ],
+      "explanation": "Paper and tape"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q08",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why did they wait before trying again?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "They wanted a steadier breeze",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "They wanted a steadier breeze",
+        "They were waiting for a school bus",
+        "They needed the field to become dark",
+        "They wanted the kite to get heavier"
+      ],
+      "answerKey": [
+        "They wanted a steadier breeze"
+      ],
+      "explanation": "They wanted a steadier breeze"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q09",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Grandfather check before Anaya moved forward?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "That the string was untangled",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "That the string was untangled",
+        "That the grass had been cut short",
+        "That the kite had a new colour",
+        "That the notebook was full"
+      ],
+      "answerKey": [
+        "That the string was untangled"
+      ],
+      "explanation": "That the string was untangled"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q10",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "How did Anaya begin the successful attempt?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "She walked forward slowly",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "She walked forward slowly",
+        "She pulled the string as hard as possible",
+        "She threw the kite into a pond",
+        "She ran without holding the string"
+      ],
+      "answerKey": [
+        "She walked forward slowly"
+      ],
+      "explanation": "She walked forward slowly"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q11",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Anaya do when the kite dipped?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "She loosened the string a little",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "She loosened the string a little",
+        "She let go of the kite completely",
+        "She tore off its tail",
+        "She pulled with all her strength"
+      ],
+      "answerKey": [
+        "She loosened the string a little"
+      ],
+      "explanation": "She loosened the string a little"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q12",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What helped the kite rise successfully?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Repairs, a steadier breeze and careful handling",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "Repairs, a steadier breeze and careful handling",
+        "A heavier frame and a longer run through the trees",
+        "A sudden rainstorm and a wet paper tail",
+        "A new field, a different notebook and a broken string"
+      ],
+      "answerKey": [
+        "Repairs, a steadier breeze and careful handling"
+      ],
+      "explanation": "Repairs, a steadier breeze and careful handling"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q13",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Anaya learn from watching the kite?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Its movements gave clues about what to change",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "Its movements gave clues about what to change",
+        "The kite would fly only when nobody watched",
+        "The string should always be pulled tightly",
+        "The wind could be controlled by shouting"
+      ],
+      "answerKey": [
+        "Its movements gave clues about what to change"
+      ],
+      "explanation": "Its movements gave clues about what to change"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q14",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why did Grandfather remind her about the repairs and breeze?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "To help her recognise the real reasons it worked",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "To help her recognise the real reasons it worked",
+        "To show that she should stop flying kites",
+        "To prove that the kite had flown by accident",
+        "To explain why the notebook was unnecessary"
+      ],
+      "answerKey": [
+        "To help her recognise the real reasons it worked"
+      ],
+      "explanation": "To help her recognise the real reasons it worked"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q15",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Anaya decide to do on the way home?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Keep a notebook of things she learned by testing ideas",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "Keep a notebook of things she learned by testing ideas",
+        "Build a kite without asking anyone for help",
+        "Avoid the field for the rest of the year",
+        "Give away every tool used for the repair"
+      ],
+      "answerKey": [
+        "Keep a notebook of things she learned by testing ideas"
+      ],
+      "explanation": "Keep a notebook of things she learned by testing ideas"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q16",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Which event happened first?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Anaya carried her kite to the field",
+        "incorrect": "Reread the story and look for the detail that supports your answer."
+      },
+      "options": [
+        "Anaya carried her kite to the field",
+        "The kite rose high into the sky",
+        "Anaya decided to keep a notebook",
+        "Grandfather reminded her of the repairs"
+      ],
+      "answerKey": [
+        "Anaya carried her kite to the field"
+      ],
+      "explanation": "Anaya carried her kite to the field"
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q17",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "True or false: Anaya repaired the loose paper corner before trying again.",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "True. Anaya and Grandfather fixed the loose corner and made the tail even.",
+        "incorrect": "Check the part of the story where they inspect and repair the kite."
+      },
+      "answerKey": true,
+      "explanation": "They fixed the loose corner and made the tail even."
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q18",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "True or false: Anaya made the kite climb by pulling the string as hard as she could.",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "False. She loosened the string a little when the kite dipped.",
+        "incorrect": "Look at what Anaya did after the kite dipped."
+      },
+      "answerKey": false,
+      "explanation": "She loosened the string a little when the kite dipped."
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q19",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Give two details that helped Anaya understand why the kite did not fly at first.",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong answer identifies the loose paper corner and uneven tail, or notes the need for a steadier breeze.",
+        "incorrect": "Find the details Grandfather noticed before they tried again."
+      },
+      "answerGuidance": "Award credit for two relevant details, such as the loose paper corner, uneven tail, or the need for a steadier breeze.",
+      "explanation": "The story names a loose paper corner and an uneven tail, and says they waited for a steadier breeze."
+    },
+    {
+      "id": "eng-l1-s1-story-kite-q20",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What lesson did Anaya learn, and which event from the story supports your answer?",
+      "passageId": "eng-l1-s1-story-repair-kite-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Kite That Would Not Fly."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong answer explains that careful observation and thoughtful changes can solve a problem, supported by the kite repair or her adjustment of the string.",
+        "incorrect": "Think about how Anaya changed her approach after watching the kite."
+      },
+      "answerGuidance": "Award credit for a lesson about observing evidence and trying a thoughtful change, plus one relevant event from the story.",
+      "explanation": "Anaya observes the kite, repairs it and changes how she handles the string."
+    }
+  ]
+}
