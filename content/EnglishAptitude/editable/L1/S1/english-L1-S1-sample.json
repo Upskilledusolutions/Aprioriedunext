@@ -7,7 +7,8 @@
   "editorNotes": {
     "purpose": "Small Phase C workflow fixture; not a complete stage bank.",
     "contentStatus": "sample_only",
-    "activityIdsAreProvisional": true
+    "activityIdsAreProvisional": false,
+    "activityRegistryVersion": 1
   },
   "passages": [
     {
@@ -71,8 +72,8 @@
       "levelId": "L1",
       "stageId": "S1",
       "half": "explore",
-      "moduleId": "L1-S1-M1",
-      "activityId": "ENG-L1-S1-EXP-01",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
       "prompt": "In the story, what does “drooping” most nearly mean?",
       "passageId": "eng-l1-s1-story-garden-001",
       "options": [
@@ -108,8 +109,8 @@
       "levelId": "L1",
       "stageId": "S1",
       "half": "explore",
-      "moduleId": "L1-S1-M1",
-      "activityId": "ENG-L1-S1-EXP-01",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
       "prompt": "Describe one thing Mira did that helped the plants. Use a detail from the story.",
       "passageId": "eng-l1-s1-story-garden-001",
       "rubric": {
@@ -148,8 +149,8 @@
       "levelId": "L1",
       "stageId": "S1",
       "half": "extend",
-      "moduleId": "L1-S1-M2",
-      "activityId": "ENG-L1-S1-EXT-01",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
       "prompt": "After your teacher reads a short description of a plant twice, retell its main point and name one detail you remember.",
       "answerGuidance": "A response should state the main point and include one accurate detail from the description read aloud.",
       "difficulty": 3,
