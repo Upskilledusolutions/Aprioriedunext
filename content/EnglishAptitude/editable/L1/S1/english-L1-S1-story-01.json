@@ -55,9 +55,9 @@
       },
       "options": [
         "Beside the library door",
-        "Inside his classroom",
-        "Near the school gate",
-        "In the garden"
+        "Inside his classroom near the windows",
+        "Near the far end of the school garden",
+        "On a shelf inside the library"
       ],
       "answerKey": [
         "Beside the library door"
@@ -91,13 +91,13 @@
         "incorrect": "Reread the relevant part of the story and check what happened."
       },
       "options": [
-        "A bright red flag",
-        "A blue fish",
-        "A green tree",
-        "A yellow star"
+        "A red flag",
+        "A picture of a blue fish",
+        "A drawing of a green tree",
+        "A large yellow star shape"
       ],
       "answerKey": [
-        "A bright red flag"
+        "A red flag"
       ],
       "explanation": "A bright red flag had been drawn on the boat."
     },
@@ -165,13 +165,13 @@
         "incorrect": "Reread the relevant part of the story and check what happened."
       },
       "options": [
-        "Rainwater dripping from a loose pipe",
-        "Leela pouring out a bottle",
-        "Water from the garden hose",
-        "A bucket left in the doorway"
+        "A leaking pipe",
+        "Water poured out by a student",
+        "A garden hose left running nearby",
+        "A bucket that tipped over beside the door"
       ],
       "answerKey": [
-        "Rainwater dripping from a loose pipe"
+        "A leaking pipe"
       ],
       "explanation": "The loose pipe above the door was dripping rainwater."
     },
@@ -202,13 +202,13 @@
         "incorrect": "Reread the relevant part of the story and check what happened."
       },
       "options": [
-        "It was moving close to a drain",
-        "A bird was carrying it away",
-        "Someone was folding it up",
-        "It was stuck under a bench"
+        "It neared a drain",
+        "A bird carried it into a tree",
+        "A student folded it into a small square",
+        "It became trapped beneath a dry bench"
       ],
       "answerKey": [
-        "It was moving close to a drain"
+        "It neared a drain"
       ],
       "explanation": "The boat had moved close to the drain."
     },
@@ -350,13 +350,13 @@
         "incorrect": "Reread the relevant part of the story and check what happened."
       },
       "options": [
-        "Mrs Sen, the librarian",
-        "Aarav’s older brother",
-        "Leela’s mother",
-        "The caretaker"
+        "Mrs Sen",
+        "Aarav’s older brother from home",
+        "Leela’s mother who visited the school",
+        "The caretaker who worked near the garden"
       ],
       "answerKey": [
-        "Mrs Sen, the librarian"
+        "Mrs Sen"
       ],
       "explanation": "Mrs Sen explained that she had made the boat for a display."
     },
@@ -387,13 +387,13 @@
         "incorrect": "Reread the relevant part of the story and check what happened."
       },
       "options": [
-        "How water travels through the town",
-        "How to build paper toys",
-        "Different kinds of birds",
-        "The history of the school"
+        "The town’s water routes",
+        "How to make and decorate paper toys",
+        "Different kinds of birds living near school",
+        "The history of the school library building"
       ],
       "answerKey": [
-        "How water travels through the town"
+        "The town’s water routes"
       ],
       "explanation": "Mrs Sen said the display showed how water travels through their town."
     },
@@ -424,13 +424,13 @@
         "incorrect": "Reread the relevant part of the story and check what happened."
       },
       "options": [
-        "To show how rainwater can carry things",
-        "To enter a boat race",
-        "To decorate her desk",
-        "To teach the children to draw flags"
+        "To show how water carries things",
+        "To enter the boat in a school race",
+        "To decorate the librarian’s desk",
+        "To teach the children how to draw flags"
       ],
       "answerKey": [
-        "To show how rainwater can carry things"
+        "To show how water carries things"
       ],
       "explanation": "She wanted the boat to show how rainwater can carry things along."
     },
@@ -461,13 +461,13 @@
         "incorrect": "Reread the relevant part of the story and check what happened."
       },
       "options": [
-        "Tell the caretaker about the loose pipe",
-        "Throw the boat away",
-        "Close the library for a week",
-        "Fill the puddle with sand"
+        "Report the pipe",
+        "Throw the boat away immediately",
+        "Close the library for the whole week",
+        "Fill the doorway puddle with sand"
       ],
       "answerKey": [
-        "Tell the caretaker about the loose pipe"
+        "Report the pipe"
       ],
       "explanation": "Aarav asked whether they could tell the caretaker about the pipe."
     },
@@ -535,13 +535,13 @@
         "incorrect": "Reread the relevant part of the story and check what happened."
       },
       "options": [
-        "A channel carrying rainwater toward the garden",
-        "A secret room in the library",
-        "A new classroom",
-        "A collection of paper boats"
+        "A garden water channel",
+        "A secret room hidden inside the library",
+        "A newly built classroom at the end of the hall",
+        "A collection of paper boats made by students"
       ],
       "answerKey": [
-        "A channel carrying rainwater toward the garden"
+        "A garden water channel"
       ],
       "explanation": "He showed them a channel that directed rainwater toward the garden."
     },
@@ -572,13 +572,13 @@
         "incorrect": "Reread the relevant part of the story and check what happened."
       },
       "options": [
-        "Water should flow through suitable channels",
+        "Water needs safe channels",
         "Children should play in every puddle",
-        "All rainwater should be kept indoors",
-        "Paper boats should be made every day"
+        "All rainwater should be kept inside buildings",
+        "Paper boats should be made after every rainfall"
       ],
       "answerKey": [
-        "Water should flow through suitable channels"
+        "Water needs safe channels"
       ],
       "explanation": "The channel helps water flow away safely instead of collecting by the door."
     },
