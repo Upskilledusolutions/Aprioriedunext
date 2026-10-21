@@ -19,7 +19,11 @@ function findExtremeAnswerLengthCue(question) {
   if (!question || !["single_select", "multi_select"].includes(question.responseFormat)) return null;
   if (!Array.isArray(question.options) || !Array.isArray(question.answerKey) || question.answerKey.length === 0) return null;
 
-  const options = question.options.map(optionText);
+  const optionRecords = question.options.map(option => ({
+    key: typeof option === "string" ? option : option && typeof option === "object" ? String(option.id ?? option.value ?? option.text ?? option.label ?? "") : "",
+    text: optionText(option),
+  }));
+  const options = optionRecords.map(option => option.text);
   if (options.some(option => !option)) return null;
   const lengths = options.map(option => option.length);
   const sorted = [...lengths].sort((a, b) => a - b);
@@ -30,7 +34,8 @@ function findExtremeAnswerLengthCue(question) {
 
   for (const answer of question.answerKey) {
     const answerText = optionText(answer);
-    const answerIndex = options.findIndex(option => option === answerText);
+    const answerKey = typeof answer === "string" ? answer : answer && typeof answer === "object" ? String(answer.id ?? answer.value ?? answer.text ?? answer.label ?? "") : "";
+    const answerIndex = optionRecords.findIndex(option => option.key === answerKey || option.text === answerText);
     if (answerIndex < 0) continue;
     const answerLength = lengths[answerIndex];
     const secondShortest = sorted[1] ?? minLength;
