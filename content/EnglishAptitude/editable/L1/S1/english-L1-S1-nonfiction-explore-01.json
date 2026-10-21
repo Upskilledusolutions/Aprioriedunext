@@ -1,0 +1,800 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-nonfiction-explore-01",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "First original Explore nonfiction passage bank for Level 1 Stage 1; a 20-question content slice, not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 informational passage. Requires editorial, factual, pedagogical and rights review before approval or publication."
+  },
+  "passages": [
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-001",
+      "type": "nonfiction_passage",
+      "title": "A Rain Garden at School",
+      "text": "A Rain Garden at School\n\nAfter heavy rain, water sometimes rushes across hard surfaces such as paths, roofs and playgrounds. It may carry soil and litter into drains. A rain garden is a shallow planted area that helps collect some of this water. The water can soak slowly into the ground instead of flowing away at once.\n\nAt Green Lane School, the children noticed that a puddle often formed beside the playground path. Their teacher, Ms Rao, asked them to observe the area after rain. They marked where the water gathered and drew a simple map. The school gardener explained that a planted dip could help, but the adults first had to check the ground and choose a safe place.\n\nThe school made a small rain garden with permission and adult help. They loosened the soil and added plants suited to the local weather. The garden was not a pond: it was designed to drain after rain. The children learned that different plants need different amounts of water, so they did not water every plant in the same way.\n\nAfter the next shower, the children watched from the path. Some water collected in the shallow garden, and the soil slowly absorbed it. A little water still ran towards the drain. The class recorded what they saw rather than claiming that the garden stopped all runoff.\n\nOver several weeks, the children noticed new leaves and small insects among the plants. They also found a wrapper nearby and picked it up with their teacher. Ms Rao reminded them that a rain garden needs care: people must keep rubbish out, check the plants and make sure water can drain safely.\n\nThe class added their observations to a chart. They learned that watching a place before and after a change can help people ask better questions. The rain garden did not solve every water problem, but it gave the school a useful way to slow some rainwater, care for plants and learn from evidence.",
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude informational passage for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original text authored for this project."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q01",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "Where did the puddle often form at Green Lane School?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The class noticed a puddle beside the playground path.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The class noticed a puddle beside the playground path.",
+      "options": [
+        "Beside the playground path",
+        "Inside the school library",
+        "Under the classroom desks",
+        "On the roof above the hall"
+      ],
+      "answerKey": [
+        "Beside the playground path"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q02",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What can rainwater carry across hard surfaces?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The passage says rushing water may carry soil and litter into drains.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The passage says rushing water may carry soil and litter into drains.",
+      "options": [
+        "Soil and litter",
+        "Only flower seeds",
+        "Books and pencils",
+        "Warm air from classrooms"
+      ],
+      "answerKey": [
+        "Soil and litter"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q03",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What is a rain garden designed to do?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "A rain garden collects some water and lets it soak slowly into the ground.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "A rain garden collects some water and lets it soak slowly into the ground.",
+      "options": [
+        "Collect some rainwater so it can soak into the ground",
+        "Store drinking water for the whole school",
+        "Keep every path completely dry",
+        "Send all rainwater straight into a drain"
+      ],
+      "answerKey": [
+        "Collect some rainwater so it can soak into the ground"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q04",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What did the children do before the school made the garden?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "They observed where water gathered and made a simple map.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "They observed where water gathered and made a simple map.",
+      "options": [
+        "Observed the area and drew a map",
+        "Moved the playground to another place",
+        "Planted seeds on the roof",
+        "Closed the path for a whole month"
+      ],
+      "answerKey": [
+        "Observed the area and drew a map"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q05",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "Who explained that the ground and location needed checking?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The school gardener explained that adults needed to check the ground and choose a safe place.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The school gardener explained that adults needed to check the ground and choose a safe place.",
+      "options": [
+        "The school gardener",
+        "A visiting bus driver",
+        "The school librarian",
+        "A shopkeeper from the market"
+      ],
+      "answerKey": [
+        "The school gardener"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q06",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "Why did adults help choose the garden's location?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The passage says adults had to check the ground and choose a safe place.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The passage says adults had to check the ground and choose a safe place.",
+      "options": [
+        "To check that the place was safe and suitable",
+        "To make the garden as deep as a pond",
+        "To stop the children from observing rain",
+        "To ensure no plants would grow there"
+      ],
+      "answerKey": [
+        "To check that the place was safe and suitable"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q07",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What was the rain garden like?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The passage describes a shallow planted area.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The passage describes a shallow planted area.",
+      "options": [
+        "A shallow planted area",
+        "A deep swimming pool",
+        "A covered storage room",
+        "A paved sports court"
+      ],
+      "answerKey": [
+        "A shallow planted area"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q08",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "Why were the plants chosen to suit the local weather?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Plants suited to the local weather were selected, and their water needs can differ.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Plants suited to the local weather were selected, and their water needs can differ.",
+      "options": [
+        "Different plants grow best under different conditions",
+        "Every plant needs exactly the same care",
+        "The garden was meant to stay underwater",
+        "The children wanted to remove all leaves"
+      ],
+      "answerKey": [
+        "Different plants grow best under different conditions"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q09",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What happened after the next shower?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Some water collected in the garden and the soil slowly absorbed it.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Some water collected in the garden and the soil slowly absorbed it.",
+      "options": [
+        "Some water gathered and soaked into the soil",
+        "All water disappeared before reaching the garden",
+        "The garden became a permanent pond",
+        "The school had to move every plant indoors"
+      ],
+      "answerKey": [
+        "Some water gathered and soaked into the soil"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q10",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "Did the rain garden stop all runoff?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The children observed that some water still ran towards the drain.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The children observed that some water still ran towards the drain.",
+      "options": [
+        "No, a little water still flowed towards the drain",
+        "Yes, the passage says every drop stopped",
+        "Yes, the school sealed the drain",
+        "No, because the garden was never planted"
+      ],
+      "answerKey": [
+        "No, a little water still flowed towards the drain"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q11",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What did the children notice over several weeks?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "They noticed new leaves and small insects among the plants.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "They noticed new leaves and small insects among the plants.",
+      "options": [
+        "New leaves and small insects among the plants",
+        "Snow covering the entire playground",
+        "Fish swimming in a deep pond",
+        "New classrooms built inside the garden"
+      ],
+      "answerKey": [
+        "New leaves and small insects among the plants"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q12",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What did the class do when they found a wrapper?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The children picked up the wrapper with their teacher.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The children picked up the wrapper with their teacher.",
+      "options": [
+        "Picked it up with their teacher",
+        "Buried it beneath the plants",
+        "Left it to block the drain",
+        "Used it to label every plant"
+      ],
+      "answerKey": [
+        "Picked it up with their teacher"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q13",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What did Ms Rao say the rain garden needed?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The garden needed care, rubbish removal, plant checks and safe drainage.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The garden needed care, rubbish removal, plant checks and safe drainage.",
+      "options": [
+        "Care, clean surroundings and safe drainage",
+        "A roof to keep every raindrop out",
+        "Daily flooding until the soil stayed full",
+        "No checks after the plants were added"
+      ],
+      "answerKey": [
+        "Care, clean surroundings and safe drainage"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q14",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "Why did the class keep a chart?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The chart helped the class record what they observed.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The chart helped the class record what they observed.",
+      "options": [
+        "To record observations and learn from changes",
+        "To list every pupil's favourite game",
+        "To decide which path should be painted",
+        "To count books in the library"
+      ],
+      "answerKey": [
+        "To record observations and learn from changes"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q15",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What is the main idea of the passage?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The passage explains how a school rain garden can slow some water and support learning.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The passage explains how a school rain garden can slow some water and support learning.",
+      "options": [
+        "A school uses a rain garden to learn about water and plants",
+        "A class builds a pond for fish beside the playground",
+        "Children discover that drains should always be closed",
+        "A teacher asks pupils to stop studying the weather"
+      ],
+      "answerKey": [
+        "A school uses a rain garden to learn about water and plants"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q16",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "Which statement best describes the class's approach?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The class observed and recorded results rather than making unsupported claims.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The class observed and recorded results rather than making unsupported claims.",
+      "options": [
+        "They watched carefully and recorded what happened",
+        "They decided the garden worked without checking",
+        "They ignored the water after the first shower",
+        "They expected the garden to solve every problem"
+      ],
+      "answerKey": [
+        "They watched carefully and recorded what happened"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q17",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "What can the reader infer about the rain garden?",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The text says some water was absorbed, some still flowed away, and the garden needed care.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The text says some water was absorbed, some still flowed away, and the garden needed care.",
+      "options": [
+        "It may help with some runoff but still needs care",
+        "It works equally well in every place without planning",
+        "It removes the need for drains around the school",
+        "It can grow without suitable soil or plants"
+      ],
+      "answerKey": [
+        "It may help with some runoff but still needs care"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q18",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "The rain garden stopped every drop of water from reaching the drain.",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The statement is false because the class observed a little water still running towards the drain.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The statement is false because the class observed a little water still running towards the drain.",
+      "answerKey": false
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q19",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "The adults checked the location before the school made the rain garden.",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The passage says the adults first had to check the ground and choose a safe place.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The passage says the adults first had to check the ground and choose a safe place.",
+      "answerKey": true
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q20",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "Name one thing the children observed after the rain garden was made. Explain what the observation showed.",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Accept a text-supported observation such as some water collecting and soaking into the soil, new leaves or small insects appearing, or a little water still flowing towards the drain. The explanation should accurately connect the observation to the garden or its care.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Accept a text-supported observation such as some water collecting and soaking into the soil, new leaves or small insects appearing, or a little water still flowing towards the drain. The explanation should accurately connect the observation to the garden or its care.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate passage evidence",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear explanation",
+            "maxPoints": 1
+          }
+        ]
+      },
+      "answerGuidance": "Accept a text-supported observation such as some water collecting and soaking into the soil, new leaves or small insects appearing, or a little water still flowing towards the drain. The explanation should accurately connect the observation to the garden or its care."
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-rain-garden-q21",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-02",
+      "prompt": "Use one detail from the passage to explain why the class should not claim that the rain garden solved every water problem.",
+      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Rain Garden at School."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "A defensible response notes that some water still ran towards the drain, so the garden slowed or absorbed some water but did not stop all runoff.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "A defensible response notes that some water still ran towards the drain, so the garden slowed or absorbed some water but did not stop all runoff.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate passage evidence",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear explanation",
+            "maxPoints": 1
+          }
+        ]
+      },
+      "answerGuidance": "A defensible response notes that some water still ran towards the drain, so the garden slowed or absorbed some water but did not stop all runoff."
+    }
+  ]
+}
