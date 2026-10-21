@@ -1,0 +1,765 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-nonfiction-explore-02",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Second original Explore nonfiction passage bank for Level 1 Stage 1; a 20-question content slice, not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 informational passage. Requires editorial, factual, pedagogical and rights review before approval or publication."
+  },
+  "passages": [
+    {
+      "id": "eng-l1-s1-nonfiction-compost-001",
+      "type": "nonfiction_passage",
+      "title": "From Kitchen Scraps to Compost",
+      "text": "From Kitchen Scraps to Compost\n\nPlants need healthy soil, water, air and sunlight to grow. Gardeners can improve some soils by adding compost. Compost is made when tiny living things break down suitable plant and food scraps over time. It is not made by simply piling every kind of rubbish together.\n\nAt Willow Park School, the class wanted to use less of the fruit and vegetable waste from snack time. With their teacher's help, they set up a compost bin in a suitable outdoor spot. They added items such as fruit peels, vegetable leaves and dry fallen leaves. They left out plastic wrappers, glass and other rubbish because these materials do not break down in the same way.\n\nThe class learned that a compost pile needs a balance of materials. Fresh green scraps often contain more moisture, while dry leaves help add air spaces and absorb some extra moisture. The pile should be damp, like a squeezed sponge, rather than dripping wet or completely dry. An adult helped the children turn the pile carefully so air could reach the material.\n\nComposting takes time. The children checked the bin each week and recorded what they noticed. At first, the scraps were easy to recognise. Later, many pieces became darker and harder to identify. The pile sometimes felt warm inside because tiny living things were active as they broke down the material. The class did not add new compost to the garden straight away; an adult checked that it was ready first.\n\nWhen the compost was ready, the gardener mixed some into a flower bed. The children saw that compost was one way to return useful material to the soil instead of sending all suitable scraps to the rubbish bin. They also learned that compost alone could not replace the water, light and other conditions plants need.\n\nThe class made a simple guide showing what could and could not go into their bin. They shared it with other pupils and reminded everyone to ask an adult if they were unsure about an item. Their project showed that small, careful habits can reduce some waste and help a school garden, but the bin still needs the right materials, air, moisture and time.",
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude informational passage for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original text authored for this project."
+      },
+      "half": "explore",
+      "order": 2
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q01",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "What can compost help gardeners improve?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Compost can improve some soils.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Compost can improve some soils.",
+      "options": [
+        "The soil",
+        "The school roof",
+        "The classroom clock",
+        "The playground fence"
+      ],
+      "answerKey": [
+        "The soil"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q02",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "How is compost made?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Tiny living things break down suitable plant and food scraps over time.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Tiny living things break down suitable plant and food scraps over time.",
+      "options": [
+        "By freezing all food waste",
+        "By breaking down suitable scraps",
+        "By mixing plastic with glass",
+        "By burning leaves into ash"
+      ],
+      "answerKey": [
+        "By breaking down suitable scraps"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q03",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Where did Willow Park School set up its compost bin?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The class set up the bin in a suitable outdoor spot with the teacher's help.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The class set up the bin in a suitable outdoor spot with the teacher's help.",
+      "options": [
+        "Inside the school library",
+        "Beside the drinking fountain",
+        "In a suitable outdoor spot",
+        "On top of the classroom roof"
+      ],
+      "answerKey": [
+        "In a suitable outdoor spot"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q04",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Which item did the class add to the bin?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Fruit peels were listed as suitable scraps.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Fruit peels were listed as suitable scraps.",
+      "options": [
+        "Plastic wrappers",
+        "Broken glass pieces",
+        "Metal drink cans",
+        "Fruit peels"
+      ],
+      "answerKey": [
+        "Fruit peels"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q05",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Why did the class leave out plastic wrappers?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Plastic wrappers and glass do not break down in the same way as suitable scraps.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Plastic wrappers and glass do not break down in the same way as suitable scraps.",
+      "options": [
+        "They do not break down in the same way",
+        "They need sunlight to become fruit",
+        "They make every plant grow too quickly",
+        "They turn into water after one day"
+      ],
+      "answerKey": [
+        "They do not break down in the same way"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q06",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "What do dry leaves help provide in a compost pile?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Dry leaves help add air spaces and absorb some extra moisture.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Dry leaves help add air spaces and absorb some extra moisture.",
+      "options": [
+        "Extra plastic pieces",
+        "Air spaces",
+        "Bright sunlight indoors",
+        "A permanent layer of water"
+      ],
+      "answerKey": [
+        "Air spaces"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q07",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "How damp should the compost pile be?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The passage compares the right moisture to a squeezed sponge.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The passage compares the right moisture to a squeezed sponge.",
+      "options": [
+        "As dry as clean sand",
+        "As wet as a full bucket",
+        "Like a squeezed sponge",
+        "As hard as a frozen stone"
+      ],
+      "answerKey": [
+        "Like a squeezed sponge"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q08",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Why did an adult help turn the pile?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Turning the pile carefully helps air reach the material.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Turning the pile carefully helps air reach the material.",
+      "options": [
+        "To make the scraps disappear instantly",
+        "To keep all moisture out of the bin",
+        "To mix glass into the compost",
+        "To let air reach the material"
+      ],
+      "answerKey": [
+        "To let air reach the material"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q09",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "What did the children do each week?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "They checked the bin each week and recorded what they noticed.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "They checked the bin each week and recorded what they noticed.",
+      "options": [
+        "Checked and recorded changes",
+        "Emptied the bin into the drain",
+        "Bought new soil from a shop",
+        "Removed every leaf from the garden"
+      ],
+      "answerKey": [
+        "Checked and recorded changes"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q10",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "What changed as the scraps broke down?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The scraps became darker and harder to identify.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The scraps became darker and harder to identify.",
+      "options": [
+        "They turned into plastic toys",
+        "They grew darker and less recognisable",
+        "They became bright blue stones",
+        "They changed into whole fresh fruits"
+      ],
+      "answerKey": [
+        "They grew darker and less recognisable"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q11",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Why did the pile sometimes feel warm inside?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The pile sometimes felt warm because tiny living things were active.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The pile sometimes felt warm because tiny living things were active.",
+      "options": [
+        "The class placed a heater inside",
+        "Sunlight was trapped in glass jars",
+        "Tiny living things were active",
+        "The bin was filled with boiling water"
+      ],
+      "answerKey": [
+        "Tiny living things were active"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q12",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Who checked the compost before it was used?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "An adult checked that the compost was ready first.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "An adult checked that the compost was ready first.",
+      "options": [
+        "A passing bus driver",
+        "A shopkeeper from town",
+        "A pupil from another school",
+        "An adult"
+      ],
+      "answerKey": [
+        "An adult"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q13",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Where was the ready compost used?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The gardener mixed some ready compost into a flower bed.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The gardener mixed some ready compost into a flower bed.",
+      "options": [
+        "In a flower bed",
+        "On the classroom windows",
+        "Inside the drinking-water tank",
+        "Across the library bookshelves"
+      ],
+      "answerKey": [
+        "In a flower bed"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q14",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "What did the class learn compost cannot replace?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Compost cannot replace water, light and other conditions plants need.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Compost cannot replace water, light and other conditions plants need.",
+      "options": [
+        "Plastic wrappers and glass",
+        "Water and light",
+        "The school's timetable",
+        "The garden's walking path"
+      ],
+      "answerKey": [
+        "Water and light"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q15",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "What was the purpose of the class guide?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The guide showed what could and could not go into the bin.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The guide showed what could and could not go into the bin.",
+      "options": [
+        "To list the names of every school pupil",
+        "To explain how to build a new classroom",
+        "To show which items belong in the bin",
+        "To tell people to throw all rubbish together"
+      ],
+      "answerKey": [
+        "To show which items belong in the bin"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q16",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Which idea best sums up the project?",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The project can reduce some waste, but it needs suitable materials, air, moisture and time.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The project can reduce some waste, but it needs suitable materials, air, moisture and time.",
+      "options": [
+        "Every kind of rubbish makes healthy compost",
+        "Compost removes the need to water plants",
+        "A compost bin works without any attention",
+        "Careful composting can reduce some waste"
+      ],
+      "answerKey": [
+        "Careful composting can reduce some waste"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q17",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "The class put plastic wrappers and glass into the compost bin.",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The class left out plastic wrappers and glass.",
+        "incorrect": "Check the passage's list of materials that were left out."
+      },
+      "explanation": "The class left out plastic wrappers and glass.",
+      "answerKey": false
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q18",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Composting takes time and the pile needs suitable moisture and air.",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The passage explains that composting takes time and the pile needs air and suitable moisture.",
+        "incorrect": "Review the passage's description of the compost pile."
+      },
+      "explanation": "The passage explains that composting takes time and the pile needs air and suitable moisture.",
+      "answerKey": true
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q19",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Give one example of a suitable item for the compost bin and explain why it belongs there.",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Accept a suitable item named in the passage, such as fruit peels, vegetable leaves or dry fallen leaves, with an explanation that it is a plant or food scrap suitable for breaking down.",
+        "incorrect": "Use an example from the passage and explain why it is suitable."
+      },
+      "explanation": "Accept a suitable item named in the passage, such as fruit peels, vegetable leaves or dry fallen leaves, with an explanation that it is a plant or food scrap suitable for breaking down.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Suitable example from the passage",
+            "maxPoints": 2
+          },
+          {
+            "name": "Reasonable explanation",
+            "maxPoints": 1
+          }
+        ]
+      },
+      "answerGuidance": "Accept a suitable item named in the passage, such as fruit peels, vegetable leaves or dry fallen leaves, with an explanation that it is a plant or food scrap suitable for breaking down."
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-compost-q20",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-03",
+      "prompt": "Explain why the class had to wait before using the compost in the flower bed. Use a detail from the passage.",
+      "passageId": "eng-l1-s1-nonfiction-compost-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for From Kitchen Scraps to Compost."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response notes that composting takes time and that an adult checked it was ready before it was added to the flower bed.",
+        "incorrect": "Find the parts describing how scraps change over time and who checked the compost."
+      },
+      "explanation": "A strong response notes that composting takes time and that an adult checked it was ready before it was added to the flower bed.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Uses an accurate passage detail",
+            "maxPoints": 2
+          },
+          {
+            "name": "Explains why waiting mattered",
+            "maxPoints": 1
+          }
+        ]
+      },
+      "answerGuidance": "A strong response notes that composting takes time and that an adult checked it was ready before it was added to the flower bed."
+    }
+  ]
+}
