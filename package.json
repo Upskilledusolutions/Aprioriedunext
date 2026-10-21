@@ -12,7 +12,8 @@
     "reasoning:test-sync": "node scripts/testReasoningQuestionBankSync.js",
     "reasoning:check-drift": "node scripts/checkReasoningQuestionBankDrift.js",
     "reasoning:test-canonical": "node scripts/testReasoningCanonicalRoundTrip.js",
-    "english-aptitude:test-schema": "node scripts/testEnglishAptitudeQuestionSchema.js"
+    "english-aptitude:test-schema": "node scripts/testEnglishAptitudeQuestionSchema.js",
+    "english-aptitude:test-sync": "node scripts/testEnglishAptitudeQuestionBankSync.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
