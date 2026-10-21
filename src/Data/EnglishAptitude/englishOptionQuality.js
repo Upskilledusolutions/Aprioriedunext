@@ -68,9 +68,16 @@ function auditAnswerLengthDistribution(questions) {
     question.answerKey.length === 1
   );
   const flagged = eligible.filter(question => {
-    const answer = optionText(question.answerKey[0]);
-    const lengths = question.options.map(option => optionText(option).length);
-    return lengths.length > 0 && answer.length === Math.max(...lengths);
+    const options = question.options.map(option => ({
+      key: typeof option === "string" ? option : option && typeof option === "object" ? String(option.id ?? option.value ?? option.text ?? option.label ?? "") : "",
+      text: optionText(option),
+    }));
+    const answer = question.answerKey[0];
+    const answerText = optionText(answer);
+    const answerKey = typeof answer === "string" ? answer : answer && typeof answer === "object" ? String(answer.id ?? answer.value ?? answer.text ?? answer.label ?? "") : "";
+    const correct = options.find(option => option.key === answerKey || option.text === answerText);
+    const maxLength = Math.max(...options.map(option => option.text.length));
+    return Boolean(correct) && correct.text.length === maxLength;
   });
   return {
     total: eligible.length,
