@@ -34,15 +34,10 @@ assert.ok(passageErrors(bank => { bank.questions[0].passageId = "missing-passage
 assert.ok(passageErrors(bank => { bank.questions[0].passageText = "Different passage text"; }).some(error => error.includes("differs from the registered passage")));
 assert.ok(passageErrors(bank => { bank.passages[0].rights = {}; }).some(error => error.includes("rights must include")));
 assert.ok(passageErrors(bank => { bank.passages = "not-an-array"; }).some(error => error.includes("passages must be an array")));
-const inlineOnly = structuredClone(canonical);
+const inlineOnly = structuredClone(roundTripped);
 delete inlineOnly.passages;
-inlineOnly.questions[0].passageId = undefined;
-assert.doesNotThrow(() => editableBankToCanonical({
-  ...roundTripped,
-  passages: undefined,
-  questions: roundTripped.questions.map((question, index) => index === 0
-    ? { ...question, passageId: undefined, passageText: "Inline text is still supported." }
-    : question),
-}, { activityIds }));
+delete inlineOnly.questions[0].passageId;
+inlineOnly.questions[0].passageText = "Inline text is still supported.";
+assert.doesNotThrow(() => editableBankToCanonical(inlineOnly, { activityIds }));
 
 console.log("English Aptitude sample-bank tests passed: editable JSON, activity mapping, Explore/Extend, response formats, metadata, round-trip integrity, passage registry validation, duplicate/missing reference rejection, and inline passage compatibility.");
