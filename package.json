@@ -18,7 +18,8 @@
     "english-aptitude:test-question-types": "node scripts/testEnglishAptitudeQuestionTypes.js",
     "english-aptitude:test-response-formats": "node scripts/testEnglishAptitudeResponseFormats.js",
     "english-aptitude:test-stage-bank-quality": "node scripts/testEnglishAptitudeStageBankQuality.js",
-    "english-aptitude:test-activity-registry": "node scripts/testEnglishAptitudeActivityRegistry.js && node scripts/testEnglishAptitudeSampleBank.js"
+    "english-aptitude:test-activity-registry": "node scripts/testEnglishAptitudeActivityRegistry.js && node scripts/testEnglishAptitudeSampleBank.js",
+    "english-aptitude:test-stage-one-integration": "node scripts/testEnglishAptitudeStageOneIntegration.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
