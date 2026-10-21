@@ -4,6 +4,8 @@
  * English-specific by design: do not import Reasoning schemas or runtime records.
  * This is a content validation boundary, not a learner-delivery/API implementation.
  */
+const { findExtremeAnswerLengthCue } = require("./englishOptionQuality");
+
 const QUESTION_TYPES = new Set([
   "short_story_comprehension", "nonfiction_passage_comprehension", "vocabulary_in_context",
   "antonyms", "word_relationships_word_formation", "inference_supporting_evidence",
@@ -72,6 +74,12 @@ function validateEnglishQuestion(question, context = {}) {
         for (const answer of question.answerKey) if (!optionIds.has(answer)) errors.push(`answerKey refers to unknown option: ${answer}`);
         if (question.responseFormat === "single_select" && question.answerKey.length !== 1) errors.push("single_select must have exactly one answerKey entry.");
       }
+    }
+  }
+  if (["single_select", "multi_select"].includes(question.responseFormat)) {
+    const cue = findExtremeAnswerLengthCue(question);
+    if (cue) {
+      errors.push(`Correct answer has an extreme length cue (${cue.kind}; ${cue.absoluteGap} characters, ${cue.ratio.toFixed(2)}x). Re-author the options so the answer is not revealed by length.`);
     }
   }
   if (question.responseFormat === "true_false" && typeof question.answerKey !== "boolean") errors.push("true_false requires a boolean answerKey.");
