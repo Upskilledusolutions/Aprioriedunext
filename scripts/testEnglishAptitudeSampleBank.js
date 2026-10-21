@@ -7,7 +7,7 @@ const { validateEnglishBank } = require("../src/Data/EnglishAptitude/englishQues
 
 const samplePath = path.join(__dirname, "../content/EnglishAptitude/editable/L1/S1/english-L1-S1-sample.json");
 const editable = JSON.parse(fs.readFileSync(samplePath, "utf8"));
-const activityIds = new Set(["ENG-L1-S1-EXP-01", "ENG-L1-S1-EXT-01"]);
+const activityIds = getActivityIdsForStage("L1", "S1");
 const { canonical, roundTripped } = assertRoundTripIntegrity(editable, { activityIds });
 
 assert.equal(editable.levelId, "L1");
@@ -19,6 +19,8 @@ assert.equal(canonical.version, editable.bankVersion);
 assert.equal(canonical.passages.length, 1);
 assert.deepEqual(new Set(canonical.questions.map(question => question.half)), new Set(["explore", "extend"]));
 assert.deepEqual(new Set(canonical.questions.map(question => question.responseFormat)), new Set(["single_select", "long_text", "oral_prompt"]));
+assert.deepEqual(validateQuestionActivityMappings(canonical), []);
+assert.equal(editable.editorNotes.activityIdsAreProvisional, false);
 assert.ok(canonical.questions.every(question => question.status === "draft"));
 assert.ok(canonical.questions.every(question => question.source && question.rights && question.feedback));
 
