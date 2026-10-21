@@ -1,7 +1,7 @@
 # English Aptitude — Phase B Architecture Proposal
 
 **Prepared:** 2026-10-20  
-**Status:** Proposal for owner approval; no application code or deployment changed.  
+**Status:** Architecture direction approved for staged implementation; Phase C question-bank foundation is in progress on `english-aptitude-phase-c-schema`. No application changes have been merged to `main` or deployed.  
 **Frontend:** `Upskilledusolutions/Aprioriedunext`, branch `main`  
 **Production:** https://www.upskilleduonline.com  
 **Deployment:** Vercel team `Upskilledusolutions / upskilledusolutions-projects`  
@@ -48,14 +48,13 @@ A 10-question attempt is a session size, not the full bank size. Delivery must a
 
 The curriculum explicitly includes listening comprehension and oral-response prompts. Audio playback for listening material is therefore required where those activities use audio.
 
-**Recommended initial-release scope:**
+**Owner-approved initial-release scope (2026-10-21):**
 - Include accessible audio playback for required listening activities.
-- Do not make learner audio recording a dependency for the first release; revisit it after the basic listening and response flow has been verified.
-- Do not claim automated oral scoring in the initial release. Reconsider it only after a feasibility review establishes assessment validity, accessibility, consent/privacy, data retention and explainability. Any future oral scoring must be validated and approved before it affects learner scores.
+- Learner audio recording is not a dependency for the initial release.
+- Automated oral scoring is not part of the initial release and must not be represented as implemented. Revisit it only after a separate feasibility review and explicit approval covering assessment validity, accessibility, consent/privacy, data retention and explainability.
+- Listening comprehension and appropriate oral-response paths remain curriculum requirements; they must not be silently removed or forced into unsuitable multiple-choice interactions.
 
-Until recording/oral-scoring scope is approved, listening comprehension must still be supported, and oral-response prompts must have a clearly documented suitable response/assessment path rather than being silently removed or forced into multiple choice.
-
-**Owner decision requested:** approve these recommended defaults or specify a different delivery commitment for (a) learner audio recording and (b) automated oral assessment. Audio playback for required listening tasks remains part of the required curriculum.
+These scope decisions do not authorize recording or automated oral scoring as part of the current Phase C work.
 
 ## 5. Delivery order and verification gates
 
@@ -80,4 +79,4 @@ Implementation should proceed in meaningful, logically ordered increments: avoid
 
 ## 7. Approval status
 
-**Pending owner approval.** Phase A audit is complete. This proposal is not evidence of implementation, a successful build, a live browser check or a production deployment. No API/database contract is treated as verified until the backend trace and implementation tests establish it.
+**Approved direction, implementation still in progress.** The owner authorized Phase C question-bank foundation work on 2026-10-21 and approved the initial-release audio/recording/oral-assessment scope above. Phase A audit is complete. This proposal is not evidence of a successful production build, live browser check or deployment. No API/database contract is treated as verified until the backend trace and implementation tests establish it.
