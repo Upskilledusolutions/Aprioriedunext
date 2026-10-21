@@ -1,0 +1,739 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-story-01",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "First authored Explore short-story content slice; standalone content unit, not the complete L1/S1 stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 story. Requires editorial/pedagogical review before approval or publication."
+  },
+  "passages": [
+    {
+      "id": "eng-l1-s1-story-library-boat-001",
+      "type": "short_story",
+      "title": "The Paper Boat by the Library",
+      "text": "On Monday morning, Aarav reached school early and noticed a small puddle beside the library door. A paper boat floated in it. The boat was made from a page of an old notebook, and someone had drawn a bright red flag on its side.\n\nAarav wanted to pick it up, but the bell rang. He hurried to class and kept thinking about the boat. At break time, he returned to the library. The puddle had grown because rainwater was dripping from a loose pipe above the door. The paper boat had moved close to a drain.\n\nAarav called his friend Leela. “We should stop it before it disappears,” he said. Leela found a long twig near the garden and gently guided the boat away from the drain. Then they placed it on a dry bench.\n\nThe librarian, Mrs Sen, came outside carrying a small toolbox. She thanked the children for saving the boat. “I made it for our new display,” she explained. “The display is about how water travels through our town. I wanted the boat to show how rainwater can carry things along.”\n\nAarav looked at the dripping pipe. “Could we tell the caretaker about this too?” he asked. Mrs Sen nodded. They found the caretaker, who promised to repair the pipe after lunch. He also showed them a small channel that carried rainwater toward the garden instead of letting it collect by the door.\n\nThat afternoon, the children helped Mrs Sen set up the display. They placed the paper boat beside a drawing of the town’s drains and garden channels. Leela added a label: “Keep water moving safely.”\n\nWhen Aarav walked past the library the next morning, the doorway was dry. He smiled at the boat in the display. A small problem had led to a useful discovery, and three people had helped solve it.",
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude story for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original text authored for this project."
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng-l1-s1-story-library-boat-q01",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Where did Aarav first see the paper boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The story says the boat floated in a puddle beside the library door.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "Beside the library door",
+        "Inside his classroom",
+        "Near the school gate",
+        "In the garden"
+      ],
+      "answerKey": [
+        "Beside the library door"
+      ],
+      "explanation": "The story says the boat floated in a puddle beside the library door."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q02",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What was drawn on the side of the boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. A bright red flag had been drawn on the boat.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "A bright red flag",
+        "A blue fish",
+        "A green tree",
+        "A yellow star"
+      ],
+      "answerKey": [
+        "A bright red flag"
+      ],
+      "explanation": "A bright red flag had been drawn on the boat."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q03",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why did Aarav leave the boat at first?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. He hurried to class when the bell rang.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "The school bell rang",
+        "He could not see it",
+        "The librarian asked him to leave",
+        "He had lost his bag"
+      ],
+      "answerKey": [
+        "The school bell rang"
+      ],
+      "explanation": "He hurried to class when the bell rang."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q04",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What made the puddle grow?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The loose pipe above the door was dripping rainwater.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "Rainwater dripping from a loose pipe",
+        "Leela pouring out a bottle",
+        "Water from the garden hose",
+        "A bucket left in the doorway"
+      ],
+      "answerKey": [
+        "Rainwater dripping from a loose pipe"
+      ],
+      "explanation": "The loose pipe above the door was dripping rainwater."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q05",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What danger was the paper boat facing?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The boat had moved close to the drain.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "It was moving close to a drain",
+        "A bird was carrying it away",
+        "Someone was folding it up",
+        "It was stuck under a bench"
+      ],
+      "answerKey": [
+        "It was moving close to a drain"
+      ],
+      "explanation": "The boat had moved close to the drain."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q06",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Who helped Aarav guide the boat away from the drain?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Aarav called Leela, who used a twig to guide the boat.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "Leela",
+        "The caretaker",
+        "Aarav’s teacher",
+        "A younger student"
+      ],
+      "answerKey": [
+        "Leela"
+      ],
+      "explanation": "Aarav called Leela, who used a twig to guide the boat."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q07",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Leela use to move the boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Leela found a long twig near the garden.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "A long twig",
+        "A ruler",
+        "A piece of string",
+        "A spoon"
+      ],
+      "answerKey": [
+        "A long twig"
+      ],
+      "explanation": "Leela found a long twig near the garden."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q08",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Where did the children place the boat after rescuing it?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. They placed the boat on a dry bench.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "On a dry bench",
+        "In the drain",
+        "On the classroom floor",
+        "Under the pipe"
+      ],
+      "answerKey": [
+        "On a dry bench"
+      ],
+      "explanation": "They placed the boat on a dry bench."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q09",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Who had made the paper boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Mrs Sen explained that she had made the boat for a display.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "Mrs Sen, the librarian",
+        "Aarav’s older brother",
+        "Leela’s mother",
+        "The caretaker"
+      ],
+      "answerKey": [
+        "Mrs Sen, the librarian"
+      ],
+      "explanation": "Mrs Sen explained that she had made the boat for a display."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q10",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What was the library display about?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Mrs Sen said the display showed how water travels through their town.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "How water travels through the town",
+        "How to build paper toys",
+        "Different kinds of birds",
+        "The history of the school"
+      ],
+      "answerKey": [
+        "How water travels through the town"
+      ],
+      "explanation": "Mrs Sen said the display showed how water travels through their town."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q11",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why had Mrs Sen made the boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. She wanted the boat to show how rainwater can carry things along.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "To show how rainwater can carry things",
+        "To enter a boat race",
+        "To decorate her desk",
+        "To teach the children to draw flags"
+      ],
+      "answerKey": [
+        "To show how rainwater can carry things"
+      ],
+      "explanation": "She wanted the boat to show how rainwater can carry things along."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q12",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What sensible suggestion did Aarav make after the boat was safe?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Aarav asked whether they could tell the caretaker about the pipe.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "Tell the caretaker about the loose pipe",
+        "Throw the boat away",
+        "Close the library for a week",
+        "Fill the puddle with sand"
+      ],
+      "answerKey": [
+        "Tell the caretaker about the loose pipe"
+      ],
+      "explanation": "Aarav asked whether they could tell the caretaker about the pipe."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q13",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "When did the caretaker promise to repair the pipe?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The caretaker promised to repair it after lunch.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "After lunch",
+        "Before the first bell",
+        "The next month",
+        "During the evening assembly"
+      ],
+      "answerKey": [
+        "After lunch"
+      ],
+      "explanation": "The caretaker promised to repair it after lunch."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q14",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did the caretaker show the children?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. He showed them a channel that directed rainwater toward the garden.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "A channel carrying rainwater toward the garden",
+        "A secret room in the library",
+        "A new classroom",
+        "A collection of paper boats"
+      ],
+      "answerKey": [
+        "A channel carrying rainwater toward the garden"
+      ],
+      "explanation": "He showed them a channel that directed rainwater toward the garden."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q15",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What does the label “Keep water moving safely” mean in the story?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The channel helps water flow away safely instead of collecting by the door.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "Water should flow through suitable channels",
+        "Children should play in every puddle",
+        "All rainwater should be kept indoors",
+        "Paper boats should be made every day"
+      ],
+      "answerKey": [
+        "Water should flow through suitable channels"
+      ],
+      "explanation": "The channel helps water flow away safely instead of collecting by the door."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q16",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Which event happened first?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. Aarav noticed the boat at the start of the story.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "options": [
+        "Aarav noticed the boat",
+        "Mrs Sen set up the display",
+        "The caretaker repaired the pipe",
+        "Leela wrote the label"
+      ],
+      "answerKey": [
+        "Aarav noticed the boat"
+      ],
+      "explanation": "Aarav noticed the boat at the start of the story."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q17",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "True or false: The children pushed the boat into the drain.",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. They guided it away from the drain and placed it on a dry bench.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "answerKey": false,
+      "explanation": "They guided it away from the drain and placed it on a dry bench."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q18",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "True or false: The doorway was dry when Aarav passed the library the next morning.",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The final paragraph says the doorway was dry the next morning.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "answerKey": true,
+      "explanation": "The final paragraph says the doorway was dry the next morning."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q19",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What does Aarav’s choice to report the loose pipe show about him?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. He notices a problem beyond the boat and suggests telling the caretaker so it can be fixed.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "answerGuidance": "A good answer explains that Aarav is observant or responsible and supports this with his suggestion to tell the caretaker about the dripping pipe.",
+      "explanation": "He notices a problem beyond the boat and suggests telling the caretaker so it can be fixed."
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q20",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What is one main lesson of the story? Use an event from the story to support your answer.",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for The Paper Boat by the Library."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Correct. The children work together, and their actions help solve both the immediate problem and the dripping pipe.",
+        "incorrect": "Reread the relevant part of the story and check what happened."
+      },
+      "answerGuidance": "A good answer gives a reasonable lesson, such as working together can solve a problem, and refers to Aarav and Leela saving the boat or the children reporting the pipe.",
+      "explanation": "The children work together, and their actions help solve both the immediate problem and the dripping pipe."
+    }
+  ]
+}
