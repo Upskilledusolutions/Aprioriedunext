@@ -1,6 +1,6 @@
 # English Aptitude — Step 3 Implementation Roadmap
 
-**Status:** Step 3 roadmap approved by the product owner on 2026-10-20. Planning record only; implementation has not started.
+**Status:** Step 3 roadmap approved on 2026-10-20. Phase C implementation is in progress on the isolated branch `english-aptitude-phase-c-schema`; it has not been merged or deployed.
 **Repository:** `Upskilledusolutions/Aprioriedunext`, branch `main`
 **Production:** [upskilleduonline.com](https://www.upskilleduonline.com)
 **Deployment:** Vercel team `Upskilledusolutions / upskilledusolutions-projects`
