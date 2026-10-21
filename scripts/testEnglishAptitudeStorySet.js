@@ -27,6 +27,14 @@ assert.deepEqual(new Set(canonical.questions.map(q => q.responseFormat)), new Se
 assert.equal(canonical.questions.filter(q => q.responseFormat === "single_select").length, 16);
 assert.equal(canonical.questions.filter(q => q.responseFormat === "true_false").length, 2);
 assert.equal(canonical.questions.filter(q => q.responseFormat === "evidence_response").length, 2);
+const singleSelect = canonical.questions.filter(q => q.responseFormat === "single_select");
+const correctIsLongest = singleSelect.filter(q => {
+  const correct = q.answerKey[0];
+  const maxLength = Math.max(...q.options.map(option => option.length));
+  return correct.length === maxLength;
+});
+assert.ok(correctIsLongest.length / singleSelect.length < 0.3,
+  "Correct answer is longest/tied-longest in " + correctIsLongest.length + "/" + singleSelect.length + " single-select items; target is below 30%.");
 for (const q of canonical.questions.filter(q => q.responseFormat === "single_select")) {
   assert.equal(new Set(q.options).size, q.options.length, q.id + " must have unique options.");
   assert.equal(q.answerKey.length, 1, q.id + " must have exactly one correct answer.");
