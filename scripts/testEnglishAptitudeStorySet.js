@@ -10,6 +10,7 @@ const context = { activityIds: getActivityIdsForStage("L1", "S1") };
 const storyFiles = [
   { file: "english-L1-S1-story-01.json", passageId: "eng-l1-s1-story-library-boat-001" },
   { file: "english-L1-S1-story-02.json", passageId: "eng-l1-s1-story-bean-garden-001" },
+  { file: "english-L1-S1-story-03.json", passageId: "eng-l1-s1-story-repair-kite-001" },
 ];
 for (const item of storyFiles) {
 const file = path.join(__dirname, "../content/EnglishAptitude/editable/L1/S1", item.file);
@@ -48,4 +49,4 @@ for (const q of canonical.questions.filter(q => q.responseFormat === "single_sel
 }
 assert.ok(canonical.questions.every(q => q.status === "draft"));
 }
-console.log("English Aptitude L1/S1 story-set tests passed: both original stories, 20 unique comprehension questions per story, registered Explore mapping, three response formats, answer validity, metadata, answer-option length balance and round-trip integrity.");
+console.log("English Aptitude L1/S1 story-set tests passed: all three original Explore stories, 20 unique comprehension questions per story, registered Explore mapping, three response formats, answer validity, metadata, answer-option length balance and round-trip integrity.");
