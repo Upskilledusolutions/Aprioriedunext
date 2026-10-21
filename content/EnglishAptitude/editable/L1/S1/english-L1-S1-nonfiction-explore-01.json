@@ -55,8 +55,8 @@
       },
       "explanation": "The class noticed a puddle beside the playground path.",
       "options": [
-        "Beside the playground path",
         "Inside the school library",
+        "Beside the playground path",
         "Under the classroom desks",
         "On the roof above the hall"
       ],
@@ -92,9 +92,9 @@
       },
       "explanation": "The passage says rushing water may carry soil and litter into drains.",
       "options": [
-        "Soil and litter",
         "Only flower seeds",
         "Books and pencils",
+        "Soil and litter",
         "Warm air from classrooms"
       ],
       "answerKey": [
@@ -129,10 +129,10 @@
       },
       "explanation": "A rain garden collects some water and lets it soak slowly into the ground.",
       "options": [
-        "Collect some rainwater so it can soak into the ground",
         "Store drinking water for the whole school",
         "Keep every path completely dry",
-        "Send all rainwater straight into a drain"
+        "Send all rainwater straight into a drain",
+        "Collect some rainwater so it can soak into the ground"
       ],
       "answerKey": [
         "Collect some rainwater so it can soak into the ground"
@@ -203,8 +203,8 @@
       },
       "explanation": "The school gardener explained that adults needed to check the ground and choose a safe place.",
       "options": [
-        "The school gardener",
         "A visiting bus driver",
+        "The school gardener",
         "The school librarian",
         "A shopkeeper from the market"
       ],
@@ -240,9 +240,9 @@
       },
       "explanation": "The passage says adults had to check the ground and choose a safe place.",
       "options": [
-        "To check that the place was safe and suitable",
         "To make the garden as deep as a pond",
         "To stop the children from observing rain",
+        "To check that the place was safe and suitable",
         "To ensure no plants would grow there"
       ],
       "answerKey": [
@@ -277,10 +277,10 @@
       },
       "explanation": "The passage describes a shallow planted area.",
       "options": [
-        "A shallow planted area",
         "A deep swimming pool",
         "A covered storage room",
-        "A paved sports court"
+        "A paved sports court",
+        "A shallow planted area"
       ],
       "answerKey": [
         "A shallow planted area"
@@ -351,8 +351,8 @@
       },
       "explanation": "Some water collected in the garden and the soil slowly absorbed it.",
       "options": [
-        "Some water gathered and soaked into the soil",
         "All water disappeared before reaching the garden",
+        "Some water gathered and soaked into the soil",
         "The garden became a permanent pond",
         "The school had to move every plant indoors"
       ],
@@ -388,9 +388,9 @@
       },
       "explanation": "The children observed that some water still ran towards the drain.",
       "options": [
-        "No, a little water still flowed towards the drain",
         "Yes, the passage says every drop stopped",
         "Yes, the school sealed the drain",
+        "No, a little water still flowed towards the drain",
         "No, because the garden was never planted"
       ],
       "answerKey": [
@@ -425,10 +425,10 @@
       },
       "explanation": "They noticed new leaves and small insects among the plants.",
       "options": [
-        "New leaves and small insects among the plants",
         "Snow covering the entire playground",
         "Fish swimming in a deep pond",
-        "New classrooms built inside the garden"
+        "New classrooms built inside the garden",
+        "New leaves and small insects among the plants"
       ],
       "answerKey": [
         "New leaves and small insects among the plants"
@@ -499,8 +499,8 @@
       },
       "explanation": "The garden needed care, rubbish removal, plant checks and safe drainage.",
       "options": [
-        "Care, clean surroundings and safe drainage",
         "A roof to keep every raindrop out",
+        "Care, clean surroundings and safe drainage",
         "Daily flooding until the soil stayed full",
         "No checks after the plants were added"
       ],
@@ -510,43 +510,6 @@
     },
     {
       "id": "eng-l1-s1-nonfiction-rain-garden-q14",
-      "questionType": "nonfiction_passage_comprehension",
-      "responseFormat": "single_select",
-      "levelId": "L1",
-      "stageId": "S1",
-      "half": "explore",
-      "moduleId": "L1-S1-M1",
-      "activityId": "ENG-L1-S1-EXP-02",
-      "prompt": "Why did the class keep a chart?",
-      "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
-      "difficulty": 2,
-      "status": "draft",
-      "version": 1,
-      "source": {
-        "sourceType": "original",
-        "reference": "Newly authored question for A Rain Garden at School."
-      },
-      "rights": {
-        "status": "original",
-        "basis": "Original question authored for this project."
-      },
-      "feedback": {
-        "correct": "The chart helped the class record what they observed.",
-        "incorrect": "Reread the passage and look for the detail that supports your answer."
-      },
-      "explanation": "The chart helped the class record what they observed.",
-      "options": [
-        "To record observations and learn from changes",
-        "To list every pupil's favourite game",
-        "To decide which path should be painted",
-        "To count books in the library"
-      ],
-      "answerKey": [
-        "To record observations and learn from changes"
-      ]
-    },
-    {
-      "id": "eng-l1-s1-nonfiction-rain-garden-q15",
       "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "single_select",
       "levelId": "L1",
@@ -573,9 +536,9 @@
       },
       "explanation": "The passage explains how a school rain garden can slow some water and support learning.",
       "options": [
-        "A school uses a rain garden to learn about water and plants",
         "A class builds a pond for fish beside the playground",
         "Children discover that drains should always be closed",
+        "A school uses a rain garden to learn about water and plants",
         "A teacher asks pupils to stop studying the weather"
       ],
       "answerKey": [
@@ -583,7 +546,7 @@
       ]
     },
     {
-      "id": "eng-l1-s1-nonfiction-rain-garden-q16",
+      "id": "eng-l1-s1-nonfiction-rain-garden-q15",
       "questionType": "inference_supporting_evidence",
       "responseFormat": "single_select",
       "levelId": "L1",
@@ -610,17 +573,17 @@
       },
       "explanation": "The class observed and recorded results rather than making unsupported claims.",
       "options": [
-        "They watched carefully and recorded what happened",
         "They decided the garden worked without checking",
         "They ignored the water after the first shower",
-        "They expected the garden to solve every problem"
+        "They expected the garden to solve every problem",
+        "They watched carefully and recorded what happened"
       ],
       "answerKey": [
         "They watched carefully and recorded what happened"
       ]
     },
     {
-      "id": "eng-l1-s1-nonfiction-rain-garden-q17",
+      "id": "eng-l1-s1-nonfiction-rain-garden-q16",
       "questionType": "inference_supporting_evidence",
       "responseFormat": "single_select",
       "levelId": "L1",
@@ -657,7 +620,7 @@
       ]
     },
     {
-      "id": "eng-l1-s1-nonfiction-rain-garden-q18",
+      "id": "eng-l1-s1-nonfiction-rain-garden-q17",
       "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "true_false",
       "levelId": "L1",
@@ -686,7 +649,7 @@
       "answerKey": false
     },
     {
-      "id": "eng-l1-s1-nonfiction-rain-garden-q19",
+      "id": "eng-l1-s1-nonfiction-rain-garden-q18",
       "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "true_false",
       "levelId": "L1",
@@ -715,7 +678,7 @@
       "answerKey": true
     },
     {
-      "id": "eng-l1-s1-nonfiction-rain-garden-q20",
+      "id": "eng-l1-s1-nonfiction-rain-garden-q19",
       "questionType": "inference_supporting_evidence",
       "responseFormat": "evidence_response",
       "levelId": "L1",
@@ -756,7 +719,7 @@
       "answerGuidance": "Accept a text-supported observation such as some water collecting and soaking into the soil, new leaves or small insects appearing, or a little water still flowing towards the drain. The explanation should accurately connect the observation to the garden or its care."
     },
     {
-      "id": "eng-l1-s1-nonfiction-rain-garden-q21",
+      "id": "eng-l1-s1-nonfiction-rain-garden-q20",
       "questionType": "inference_supporting_evidence",
       "responseFormat": "evidence_response",
       "levelId": "L1",
