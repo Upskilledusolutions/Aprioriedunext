@@ -20,7 +20,8 @@
     "english-aptitude:test-stage-bank-quality": "node scripts/testEnglishAptitudeStageBankQuality.js",
     "english-aptitude:test-activity-registry": "node scripts/testEnglishAptitudeActivityRegistry.js && node scripts/testEnglishAptitudeSampleBank.js",
     "english-aptitude:test-stage-one-integration": "node scripts/testEnglishAptitudeActivityRegistry.js && node scripts/testEnglishAptitudeStageOneIntegration.js && node scripts/testEnglishAptitudeSampleBank.js",
-    "english-aptitude:test-story-set": "node scripts/testEnglishAptitudeStorySet.js"
+    "english-aptitude:test-story-set": "node scripts/testEnglishAptitudeStorySet.js",
+    "english-aptitude:test-option-quality": "node scripts/testEnglishAptitudeOptionQuality.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
