@@ -47,7 +47,7 @@ const shared = {
   ...originalMetadata,
 };
 function q(id, questionType, overrides = {}) {
-  return {
+  const record = {
     ...shared,
     id: `eng-l1-s1-${id}`,
     questionType,
@@ -55,6 +55,9 @@ function q(id, questionType, overrides = {}) {
     ...selectionFields,
     ...overrides,
   };
+  // Undefined is not JSON data. Test fixtures use it as a convenient way to
+  // remove inapplicable fields, so omit those keys before exercising sync.
+  return Object.fromEntries(Object.entries(record).filter(([, value]) => value !== undefined));
 }
 
 const questions = [
