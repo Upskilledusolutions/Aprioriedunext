@@ -49,4 +49,31 @@ const disallowedType = structuredClone(canonical);
 disallowedType.questions[0].questionType = "vocabulary_in_context";
 assert(validateQuestionActivityMappings(disallowedType).some(error => error.includes('is not allowed in activity "ENG-L1-S1-EXP-01"')));
 
+const slotPassage = {
+  id: "eng-l1-s1-slot-nonfiction-1",
+  type: "nonfiction_passage",
+  half: "explore",
+  order: 1,
+};
+const slotQuestion = {
+  ...canonical.questions[0],
+  id: "eng-l1-s1-slot-question",
+  questionType: "nonfiction_passage_comprehension",
+  responseFormat: "single_select",
+  options: ["A", "B", "C", "D"],
+  answerKey: ["A"],
+  half: "explore",
+  moduleId: "L1-S1-M1",
+  activityId: "ENG-L1-S1-EXP-02",
+  passageId: slotPassage.id,
+};
+const passageSlotBank = { ...canonical, passages: [slotPassage], questions: [slotQuestion] };
+assert.deepEqual(validateQuestionActivityMappings(passageSlotBank), []);
+const missingSlotReference = structuredClone(passageSlotBank);
+delete missingSlotReference.questions[0].passageId;
+assert(validateQuestionActivityMappings(missingSlotReference).some(error => error.includes("requires a passageId matching its registered passage slot")));
+const wrongSlotOrder = structuredClone(passageSlotBank);
+wrongSlotOrder.passages[0].order = 2;
+assert(validateQuestionActivityMappings(wrongSlotOrder).some(error => error.includes("passage order does not match the registered slot")));
+
 console.log("English Aptitude activity-registry tests passed: stable IDs, three modules, five Explore and three Extend activities, valid question-type coverage in both halves, sample mapping integrity, and rejection of unknown or mismatched mappings.");
