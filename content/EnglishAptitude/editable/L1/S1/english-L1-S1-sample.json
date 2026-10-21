@@ -1,0 +1,172 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-sample-bank",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Small Phase C workflow fixture; not a complete stage bank.",
+    "contentStatus": "sample_only",
+    "activityIdsAreProvisional": true
+  },
+  "passages": [
+    {
+      "id": "eng-l1-s1-story-garden-001",
+      "type": "short_story",
+      "title": "The Garden Gate",
+      "text": "Mira noticed that the young plants near the garden gate were drooping. She carried a small watering can from the shed and watered each plant carefully. The next morning, she saw fresh leaves standing upright. Mira smiled and decided to check the plants every day.",
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored Phase C sample passage"
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Newly authored sample text"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng-l1-s1-story-garden-q01",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why did Mira water the plants?",
+      "passageId": "eng-l1-s1-story-garden-001",
+      "passageText": "Mira noticed that the young plants near the garden gate were drooping. She carried a small watering can from the shed and watered each plant carefully. The next morning, she saw fresh leaves standing upright. Mira smiled and decided to check the plants every day.",
+      "options": [
+        "The plants were drooping.",
+        "She wanted to wash the gate.",
+        "She had lost her watering can.",
+        "The shed was getting wet."
+      ],
+      "answerKey": [
+        "The plants were drooping."
+      ],
+      "explanation": "Mira noticed the plants were drooping, so she watered them.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored Phase C sample question"
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Newly authored sample question"
+      },
+      "feedback": {
+        "correct": "Correct. The plants needed water.",
+        "incorrect": "Look at the first sentence to find what Mira noticed."
+      }
+    },
+    {
+      "id": "eng-l1-s1-vocab-garden-q01",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "In the story, what does “drooping” most nearly mean?",
+      "passageId": "eng-l1-s1-story-garden-001",
+      "options": [
+        "Bending or hanging down",
+        "Growing very quickly",
+        "Shining in the sun",
+        "Making a loud sound"
+      ],
+      "answerKey": [
+        "Bending or hanging down"
+      ],
+      "explanation": "Drooping plants bend or hang down instead of standing upright.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored Phase C sample question"
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Newly authored sample question"
+      },
+      "feedback": {
+        "correct": "Correct. Drooping means bending or hanging down.",
+        "incorrect": "Use the contrast with the fresh leaves standing upright."
+      }
+    },
+    {
+      "id": "eng-l1-s1-writing-garden-q01",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Describe one thing Mira did that helped the plants. Use a detail from the story.",
+      "passageId": "eng-l1-s1-story-garden-001",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate detail from the story",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear explanation",
+            "maxPoints": 1
+          }
+        ]
+      },
+      "answerGuidance": "A defensible answer says Mira watered each plant carefully because the plants were drooping.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored Phase C sample question"
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Newly authored sample question"
+      },
+      "feedback": {
+        "correct": "Your response should name Mira's helpful action and connect it to the story.",
+        "incorrect": "Reread what Mira did after she noticed the plants."
+      }
+    },
+    {
+      "id": "eng-l1-s1-oral-garden-q01",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "After your teacher reads a short description of a plant twice, retell its main point and name one detail you remember.",
+      "answerGuidance": "A response should state the main point and include one accurate detail from the description read aloud.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored Phase C sample prompt"
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Newly authored sample prompt"
+      },
+      "feedback": {
+        "correct": "A strong response includes the main point and one accurate detail.",
+        "incorrect": "Listen for what the description is mostly about and one supporting detail."
+      }
+    }
+  ]
+}
