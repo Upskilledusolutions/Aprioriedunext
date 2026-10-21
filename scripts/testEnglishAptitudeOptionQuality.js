@@ -37,6 +37,14 @@ const extremeLong = question([
 assert(findExtremeAnswerLengthCue(extremeLong), "An isolated correct option meeting both thresholds must be flagged.");
 assert(validateEnglishQuestion(extremeLong).some(error => error.includes("extreme length cue")),
   "Canonical question validation must reject an extreme cue.");
+const idBasedExtreme = question([
+  { id: "right", text: "This is an exceptionally long correct answer that gives away the answer" },
+  { id: "wrong1", text: "A short distractor" },
+  { id: "wrong2", text: "Another short choice" },
+  { id: "wrong3", text: "One more short choice" },
+], ["right"]);
+assert(findExtremeAnswerLengthCue(idBasedExtreme),
+  "The safeguard must also work when answers reference option IDs rather than display text.");
 
 const extremeShort = question([
   "Yes",
