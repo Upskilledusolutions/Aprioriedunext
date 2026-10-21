@@ -48,6 +48,9 @@ function assertVersion(value, label) {
 function assertEditableBankShape(editable) {
   if (!isPlainObject(editable)) throw new Error("Editable bank must be a plain object.");
   if (editable.formatVersion !== "1.0") throw new Error("formatVersion must be 1.0.");
+  if (Object.prototype.hasOwnProperty.call(editable, "schemaVersion") || Object.prototype.hasOwnProperty.call(editable, "version")) {
+    throw new Error("Editable banks must use formatVersion and bankVersion, not canonical version fields.");
+  }
   if (typeof editable.bankId !== "string" || !editable.bankId.trim()) throw new Error("bankId must be non-empty text.");
   if (typeof editable.levelId !== "string" || !editable.levelId.trim()) throw new Error("levelId must be non-empty text.");
   if (typeof editable.stageId !== "string" || !editable.stageId.trim()) throw new Error("stageId must be non-empty text.");
