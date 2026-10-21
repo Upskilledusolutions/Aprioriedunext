@@ -15,7 +15,8 @@
     "english-aptitude:test-schema": "node scripts/testEnglishAptitudeQuestionSchema.js",
     "english-aptitude:test-sync": "node scripts/testEnglishAptitudeQuestionBankSync.js",
     "english-aptitude:test-sample-bank": "node scripts/testEnglishAptitudeSampleBank.js",
-    "english-aptitude:test-question-types": "node scripts/testEnglishAptitudeQuestionTypes.js"
+    "english-aptitude:test-question-types": "node scripts/testEnglishAptitudeQuestionTypes.js",
+    "english-aptitude:test-response-formats": "node scripts/testEnglishAptitudeResponseFormats.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
