@@ -1,0 +1,735 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-word-relationships-word-formation",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Original word-relationships and word-formation bank for Level 1 Stage 1, meeting the approved 20-item allocation only; not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 items covering analogies, categories, compound words, base words, prefixes and suffixes. Requires editorial and pedagogical review before approval or publication. Extend items intended to support whole-book vocabulary work are not tied to an adopted novel; review final context when the novel is selected."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q01",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Bird is to nest as bee is to ___.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "A nest is where a bird lives; a hive is where bees live.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "pond",
+        "stable",
+        "hive",
+        "burrow"
+      ],
+      "answerKey": [
+        "hive"
+      ],
+      "explanation": "A nest is where a bird lives; a hive is where bees live."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q02",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Which word belongs in the same group as apple, pear and plum?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Apple, pear, plum and peach are all fruits.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "peach",
+        "carrot",
+        "cabbage",
+        "potato"
+      ],
+      "answerKey": [
+        "peach"
+      ],
+      "explanation": "Apple, pear, plum and peach are all fruits."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q03",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Which word is made by joining rain and bow?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Rain + bow forms the compound word rainbow.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "rainfall",
+        "raincoat",
+        "showers",
+        "rainbow"
+      ],
+      "answerKey": [
+        "rainbow"
+      ],
+      "explanation": "Rain + bow forms the compound word rainbow."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q04",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Which word means a person who teaches?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The suffix -er can name a person who does an action: teach + er = teacher.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "teachful",
+        "teacher",
+        "teachingly",
+        "teachment"
+      ],
+      "answerKey": [
+        "teacher"
+      ],
+      "explanation": "The suffix -er can name a person who does an action: teach + er = teacher."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q05",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Which word belongs with run, jump and skip?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Run, jump, skip and hop are all actions involving movement.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "sleep",
+        "pillow",
+        "hop",
+        "blanket"
+      ],
+      "answerKey": [
+        "hop"
+      ],
+      "explanation": "Run, jump, skip and hop are all actions involving movement."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q06",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "What does the prefix un- do in unhappy?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The prefix un- often means not, so unhappy means not happy.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "means not",
+        "means again",
+        "means before",
+        "means very"
+      ],
+      "answerKey": [
+        "means not"
+      ],
+      "explanation": "The prefix un- often means not, so unhappy means not happy."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q07",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Hand is to glove as foot is to ___.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "A glove covers a hand; a sock covers a foot.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "sleeve",
+        "sock",
+        "scarf",
+        "pocket"
+      ],
+      "answerKey": [
+        "sock"
+      ],
+      "explanation": "A glove covers a hand; a sock covers a foot."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q08",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Which word is in the same word family as help?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Helpful is formed from help and shares its base word.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "helmet",
+        "helpery",
+        "helplesslyness",
+        "helpful"
+      ],
+      "answerKey": [
+        "helpful"
+      ],
+      "explanation": "Helpful is formed from help and shares its base word."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q09",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Which pair shows opposites?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Begin and end have opposite meanings.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "begin and end",
+        "start and begin",
+        "large and huge",
+        "quick and rapid"
+      ],
+      "answerKey": [
+        "begin and end"
+      ],
+      "explanation": "Begin and end have opposite meanings."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-explore-q10",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Which word is made from sun and light?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Sun + light forms the compound word sunlight.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "sunny",
+        "sunrise",
+        "sunlight",
+        "bright"
+      ],
+      "answerKey": [
+        "sunlight"
+      ],
+      "explanation": "Sun + light forms the compound word sunlight."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q01",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Book is to author as painting is to ___.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "An author creates a book; an artist creates a painting.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "gallery",
+        "artist",
+        "frame",
+        "canvas"
+      ],
+      "answerKey": [
+        "artist"
+      ],
+      "explanation": "An author creates a book; an artist creates a painting."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q02",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Which word belongs in the same group as triangle, square and circle?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Triangle, square, circle and rectangle are all shapes.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "ruler",
+        "compass",
+        "notebook",
+        "rectangle"
+      ],
+      "answerKey": [
+        "rectangle"
+      ],
+      "explanation": "Triangle, square, circle and rectangle are all shapes."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q03",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "What does the suffix -less mean in careless?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The suffix -less means without, so careless means without care.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "without",
+        "full of",
+        "able to",
+        "one who"
+      ],
+      "answerKey": [
+        "without"
+      ],
+      "explanation": "The suffix -less means without, so careless means without care."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q04",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Which word has the same base as disagreement?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Disagreement is built from agree, with prefixes and a suffix added.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "argument",
+        "different",
+        "agree",
+        "disappear"
+      ],
+      "answerKey": [
+        "agree"
+      ],
+      "explanation": "Disagreement is built from agree, with prefixes and a suffix added."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q05",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Seed is to plant as egg is to ___.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "A seed can grow into a plant; an egg can develop into a bird.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "nest",
+        "bird",
+        "feather",
+        "wing"
+      ],
+      "answerKey": [
+        "bird"
+      ],
+      "explanation": "A seed can grow into a plant; an egg can develop into a bird."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q06",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Which word means to look at something again?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The prefix re- means again, so reread means read again.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "unread",
+        "reader",
+        "reading",
+        "reread"
+      ],
+      "answerKey": [
+        "reread"
+      ],
+      "explanation": "The prefix re- means again, so reread means read again."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q07",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Which pair has a similar relationship to hot and cold?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Hot and cold are opposites; early and late are also opposites.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "warm and hot",
+        "wet and damp",
+        "early and late",
+        "bright and shiny"
+      ],
+      "answerKey": [
+        "early and late"
+      ],
+      "explanation": "Hot and cold are opposites; early and late are also opposites."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q08",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Which word is formed by adding a suffix to kind?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Kind + -ness forms kindness, a noun naming a quality.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "kindness",
+        "unkind",
+        "kindly",
+        "kindergarten"
+      ],
+      "answerKey": [
+        "kindness"
+      ],
+      "explanation": "Kind + -ness forms kindness, a noun naming a quality."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q09",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Which word belongs in the same group as whisper, murmur and mutter?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Whisper, murmur, mutter and mumble describe quiet or unclear ways of speaking.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "shout",
+        "announce",
+        "cheer",
+        "mumble"
+      ],
+      "answerKey": [
+        "mumble"
+      ],
+      "explanation": "Whisper, murmur, mutter and mumble describe quiet or unclear ways of speaking."
+    },
+    {
+      "id": "eng-l1-s1-word-relationships-extend-q10",
+      "questionType": "word_relationships_word_formation",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "In the word preview, what does pre- mean?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude word-relationships/word-formation item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The prefix pre- means before; a preview is a view before the full event.",
+        "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
+      },
+      "options": [
+        "after",
+        "before",
+        "against",
+        "between"
+      ],
+      "answerKey": [
+        "before"
+      ],
+      "explanation": "The prefix pre- means before; a preview is a view before the full event."
+    }
+  ]
+}
