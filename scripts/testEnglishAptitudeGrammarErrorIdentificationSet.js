@@ -50,6 +50,6 @@ for (const half of ["explore", "extend"]) {
 assert.ok(canonical.questions.filter(q => q.half === "explore").every(q =>
   q.moduleId === "L1-S1-M2" && q.activityId === "ENG-L1-S1-EXP-05"));
 assert.ok(canonical.questions.filter(q => q.half === "extend").every(q =>
-  q.moduleId === "L1-S1-M3" && q.activityId === "ENG-L1-S1-EXT-02"));
+  q.moduleId === "L1-S1-M3" && q.activityId === "ENG-L1-S1-EXT-03"));
 
 console.log("English Aptitude L1/S1 grammar error identification tests passed: 20 unique questions, 10 Explore/10 Extend, registered activity mappings, schema and original-rights metadata, balanced answer positions, under-30% longest-answer rate per half, and round-trip integrity.");
