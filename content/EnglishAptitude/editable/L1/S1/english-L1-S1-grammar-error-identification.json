@@ -1,0 +1,735 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-grammar-error-identification",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Original grammar-error-identification bank for Level 1 Stage 1, meeting the approved 20-item allocation only; not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 grammar items covering subject-verb agreement, verb tense, plurals, pronouns and conditional forms. Requires editorial and pedagogical review before approval or publication."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q01",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “The birds sings near our window each morning.” Which part contains the grammar error?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Birds” is plural, so the verb should be “sing.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "sings",
+        "The birds",
+        "near our window",
+        "each morning"
+      ],
+      "answerKey": [
+        "sings"
+      ],
+      "explanation": "“Birds” is plural, so the verb should be “sing.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q02",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “Mina have her blue bag today.” Which part contains the grammar error?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "With “Mina,” the present-tense verb should be “has.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "Mina",
+        "have",
+        "her blue bag",
+        "today"
+      ],
+      "answerKey": [
+        "have"
+      ],
+      "explanation": "With “Mina,” the present-tense verb should be “has.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q03",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “We was ready before the bell rang.” Which part contains the grammar error?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“We” takes “were,” so the phrase should be “were ready.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "We",
+        "before the bell",
+        "was ready",
+        "rang"
+      ],
+      "answerKey": [
+        "was ready"
+      ],
+      "explanation": "“We” takes “were,” so the phrase should be “were ready.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q04",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “He putted the books on the shelf.” Which part contains the grammar error?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The past tense of “put” is “put,” not “putted.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "He",
+        "the books",
+        "on the shelf",
+        "putted"
+      ],
+      "answerKey": [
+        "putted"
+      ],
+      "explanation": "The past tense of “put” is “put,” not “putted.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q05",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “Those puppy are sleeping in the basket.” Which part contains the grammar error?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Those” refers to more than one, so “puppy” should be “puppies.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "Those",
+        "puppy",
+        "are sleeping",
+        "in the basket"
+      ],
+      "answerKey": [
+        "puppy"
+      ],
+      "explanation": "“Those” refers to more than one, so “puppy” should be “puppies.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q06",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “My sister and I walks to school together.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The subject “My sister and I” is plural, so the verb should be “walk.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "My sister",
+        "and I",
+        "walks to school",
+        "together"
+      ],
+      "answerKey": [
+        "walks to school"
+      ],
+      "explanation": "The subject “My sister and I” is plural, so the verb should be “walk.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q07",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “Ravi did not ate his breakfast.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "After “did not,” use the base verb “eat,” not “ate.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "ate his breakfast",
+        "did not",
+        "Ravi",
+        "his breakfast"
+      ],
+      "answerKey": [
+        "ate his breakfast"
+      ],
+      "explanation": "After “did not,” use the base verb “eat,” not “ate.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q08",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “The children was playing outside after lunch.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Children” is plural, so the verb phrase should be “were playing.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "The children",
+        "after lunch",
+        "outside",
+        "was playing"
+      ],
+      "answerKey": [
+        "was playing"
+      ],
+      "explanation": "“Children” is plural, so the verb phrase should be “were playing.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q09",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “There is two pencils inside my desk.” Which part contains the grammar error?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Two pencils” is plural, so the sentence should begin “There are.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "inside my desk",
+        "two pencils",
+        "There is",
+        "my desk"
+      ],
+      "answerKey": [
+        "There is"
+      ],
+      "explanation": "“Two pencils” is plural, so the sentence should begin “There are.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-explore-q10",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Read the sentence: “There are three box beside the door.” Which part contains the grammar error?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "After “three,” the plural noun “boxes” is needed.",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "There are",
+        "three box",
+        "beside the door",
+        "the door"
+      ],
+      "answerKey": [
+        "three box"
+      ],
+      "explanation": "After “three,” the plural noun “boxes” is needed."
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q01",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “Each of the players have a water bottle.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Each” is singular, so the verb should be “has.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "have",
+        "Each of the players",
+        "a water bottle",
+        "the players"
+      ],
+      "answerKey": [
+        "have"
+      ],
+      "explanation": "“Each” is singular, so the verb should be “has.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q02",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “Yesterday, we go to the science fair.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Yesterday” signals past time, so “go” should be “went.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "Yesterday",
+        "go",
+        "we",
+        "to the science fair"
+      ],
+      "answerKey": [
+        "go"
+      ],
+      "explanation": "“Yesterday” signals past time, so “go” should be “went.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q03",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “The basket of apples were on the table.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The subject is singular “basket,” so the verb should be “was.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "The basket",
+        "of apples",
+        "were",
+        "on the table"
+      ],
+      "answerKey": [
+        "were"
+      ],
+      "explanation": "The subject is singular “basket,” so the verb should be “was.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q04",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “Neither of the answers are correct.” Which part contains the grammar error?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Neither” is treated as singular here, so use “is correct.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "Neither of",
+        "the answers",
+        "the answers are",
+        "are correct"
+      ],
+      "answerKey": [
+        "are correct"
+      ],
+      "explanation": "“Neither” is treated as singular here, so use “is correct.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q05",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “She is taller than me am.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Use “taller than I am” or “taller than me”; “me am” is incorrect.",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "She is",
+        "me am",
+        "taller than",
+        "taller"
+      ],
+      "answerKey": [
+        "me am"
+      ],
+      "explanation": "Use “taller than I am” or “taller than me”; “me am” is incorrect."
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q06",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “If it will rain, we will stay indoors.” Which part contains the grammar error?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "In this condition, use present tense after “if”: “If it rains, we will stay indoors.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "indoors",
+        "we will stay",
+        "If it will rain",
+        "stay indoors"
+      ],
+      "answerKey": [
+        "If it will rain"
+      ],
+      "explanation": "In this condition, use present tense after “if”: “If it rains, we will stay indoors.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q07",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “The teacher gave she a helpful hint.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The verb “gave” needs the object pronoun “her,” not “she.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "she",
+        "gave",
+        "The teacher",
+        "a helpful hint"
+      ],
+      "answerKey": [
+        "she"
+      ],
+      "explanation": "The verb “gave” needs the object pronoun “her,” not “she.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q08",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “There is many ways to solve the puzzle.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Many ways” is plural, so the sentence should begin “There are.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "the puzzle",
+        "many ways",
+        "to solve",
+        "There is"
+      ],
+      "answerKey": [
+        "There is"
+      ],
+      "explanation": "“Many ways” is plural, so the sentence should begin “There are.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q09",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “My brother, along with his friends, are visiting today.” Which part contains the grammar error?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The main subject is “brother”; use “is visiting.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "My brother",
+        "along with his friends",
+        "are visiting",
+        "today"
+      ],
+      "answerKey": [
+        "are visiting"
+      ],
+      "explanation": "The main subject is “brother”; use “is visiting.”"
+    },
+    {
+      "id": "eng-l1-s1-grammar-error-extend-q10",
+      "questionType": "grammar_error_identification",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Read the sentence: “The dog wagged its tail when they saw me.” Which part contains the grammar error?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude grammar-error-identification item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The pronoun referring to one dog should be “it”: “when it saw me.”",
+        "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
+      },
+      "options": [
+        "The dog",
+        "when they saw me",
+        "wagged its tail",
+        "its tail"
+      ],
+      "answerKey": [
+        "when they saw me"
+      ],
+      "explanation": "The pronoun referring to one dog should be “it”: “when it saw me.”"
+    }
+  ]
+}
