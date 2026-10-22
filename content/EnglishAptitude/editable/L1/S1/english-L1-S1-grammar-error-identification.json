@@ -507,8 +507,8 @@
       "options": [
         "Neither answer",
         "by the teacher",
-        "were accepted",
-        "the teacher"
+        "the teacher",
+        "were accepted"
       ],
       "answerKey": [
         "were accepted"
@@ -722,8 +722,8 @@
       },
       "options": [
         "The dog",
-        "wagged its tail",
         "when it see me",
+        "wagged its tail",
         "its tail"
       ],
       "answerKey": [
