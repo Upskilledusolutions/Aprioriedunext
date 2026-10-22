@@ -38,12 +38,12 @@
       },
       "options": [
         "The class used blue watering cans.",
-        "The soil stayed wet for three days.",
+        "The soil stayed wet.",
         "The class met on Friday.",
         "The garden had a wooden gate."
       ],
       "answerKey": [
-        "The soil stayed wet for three days."
+        "The soil stayed wet."
       ],
       "explanation": 1
     },
@@ -75,11 +75,11 @@
       "options": [
         "She dislikes carrying bags.",
         "She knew the exact time it would rain.",
-        "She was prepared for a possible change in weather.",
+        "She prepared for changing weather.",
         "She wanted to lend her umbrella."
       ],
       "answerKey": [
-        "She was prepared for a possible change in weather."
+        "She prepared for changing weather."
       ],
       "explanation": 2
     },
@@ -112,10 +112,10 @@
         "He was reading a book about birds.",
         "He sat beside a tall shelf.",
         "He returned the book before lunch.",
-        "He moved because the library was noisy."
+        "Noise made him move."
       ],
       "answerKey": [
-        "He moved because the library was noisy."
+        "Noise made him move."
       ],
       "explanation": 3
     },
@@ -145,13 +145,13 @@
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
-        "The seeds began to grow after receiving water and light.",
+        "The seeds got water and light.",
         "The pots were made of clay.",
         "The class planted the seeds in winter.",
         "The window was newly cleaned."
       ],
       "answerKey": [
-        "The seeds began to grow after receiving water and light."
+        "The seeds got water and light."
       ],
       "explanation": 0
     },
@@ -182,12 +182,12 @@
       },
       "options": [
         "His bicycle has a bell.",
-        "It had started raining heavily before school.",
+        "Rain began before school.",
         "The car was silver.",
         "He arrived five minutes early."
       ],
       "answerKey": [
-        "It had started raining heavily before school."
+        "Rain began before school."
       ],
       "explanation": 1
     },
@@ -219,11 +219,11 @@
       "options": [
         "Saturday's match was played outdoors.",
         "The team wore matching shirts.",
-        "They practised passing every afternoon.",
+        "They practised passing daily.",
         "The referee carried a whistle."
       ],
       "answerKey": [
-        "They practised passing every afternoon."
+        "They practised passing daily."
       ],
       "explanation": 2
     },
@@ -256,10 +256,10 @@
         "Children should paint more posters.",
         "People should collect every bucket.",
         "Taps should be made of metal.",
-        "People should avoid wasting water."
+        "It urged people to save water."
       ],
       "answerKey": [
-        "People should avoid wasting water."
+        "It urged people to save water."
       ],
       "explanation": 3
     },
@@ -289,13 +289,13 @@
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
-        "People came in after seeing the sign.",
+        "They entered after seeing it.",
         "The shop had two doors.",
         "The loaves were round.",
         "The shopkeeper wore an apron."
       ],
       "answerKey": [
-        "People came in after seeing the sign."
+        "They entered after seeing it."
       ],
       "explanation": 0
     },
@@ -326,12 +326,12 @@
       },
       "options": [
         "She wanted a new lunch box.",
-        "She was trying to return lost property to its owner.",
+        "She took it to the teacher.",
         "She had forgotten her own lunch.",
         "She was late for class."
       ],
       "answerKey": [
-        "She was trying to return lost property to its owner."
+        "She took it to the teacher."
       ],
       "explanation": 1
     },
@@ -363,11 +363,11 @@
       "options": [
         "The playground has a slide.",
         "The sky was cloudy.",
-        "The bell signalled the end of class.",
+        "The bell ended class.",
         "The school gate is painted green."
       ],
       "answerKey": [
-        "The bell signalled the end of class."
+        "The bell ended class."
       ],
       "explanation": 2
     },
@@ -399,11 +399,11 @@
       "options": [
         "She says she is not afraid.",
         "The room is dark.",
-        "She checks the locked door twice before entering.",
+        "She checked the door twice.",
         "The door is made of wood."
       ],
       "answerKey": [
-        "She checks the locked door twice before entering."
+        "She checked the door twice."
       ],
       "explanation": 2
     },
@@ -436,10 +436,10 @@
         "The road has two lanes.",
         "The bus stop has a sign.",
         "The trees were planted months earlier.",
-        "People began waiting beneath the shade."
+        "People waited in the new shade."
       ],
       "answerKey": [
-        "People began waiting beneath the shade."
+        "People waited in the new shade."
       ],
       "explanation": 3
     },
@@ -470,12 +470,12 @@
       },
       "options": [
         "The class has twenty desks.",
-        "The bin contains fewer disposable bottles after students bring reusable ones.",
+        "Fewer bottles were discarded.",
         "The teacher uses a blue marker.",
         "The classroom windows face east."
       ],
       "answerKey": [
-        "The bin contains fewer disposable bottles after students bring reusable ones."
+        "Fewer bottles were discarded."
       ],
       "explanation": 1
     },
@@ -505,13 +505,13 @@
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
-        "A student reads the steps first and avoids mixing up the experiment materials.",
+        "The student avoided a mix-up.",
         "The report has a title page.",
         "The experiment uses three jars.",
         "The student writes with a pencil."
       ],
       "answerKey": [
-        "A student reads the steps first and avoids mixing up the experiment materials."
+        "The student avoided a mix-up."
       ],
       "explanation": 0
     },
@@ -542,12 +542,12 @@
       },
       "options": [
         "The collection happened on a weekday.",
-        "The notice helped residents sort their waste.",
+        "Residents separated the waste.",
         "The containers were recently painted.",
         "Workers arrived before sunrise."
       ],
       "answerKey": [
-        "The notice helped residents sort their waste."
+        "Residents separated the waste."
       ],
       "explanation": 1
     },
@@ -579,11 +579,11 @@
       "options": [
         "The path is beside a busy market.",
         "The walkers are running quickly.",
-        "The surroundings are quiet and the leaves are dry.",
+        "The scene was quiet.",
         "The path is covered in fresh snow."
       ],
       "answerKey": [
-        "The surroundings are quiet and the leaves are dry."
+        "The scene was quiet."
       ],
       "explanation": 2
     },
@@ -616,10 +616,10 @@
         "The corner has yellow cushions.",
         "The bookshelf is made of wood.",
         "The corner was opened on Monday.",
-        "Reading-corner visits and book borrowing rise after it opens."
+        "Visits and borrowing increased."
       ],
       "answerKey": [
-        "Reading-corner visits and book borrowing rise after it opens."
+        "Visits and borrowing increased."
       ],
       "explanation": 3
     },
@@ -649,13 +649,13 @@
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
-        "Fewer rabbit tracks appear inside the garden after the fence is installed.",
+        "Rabbit tracks inside decreased.",
         "The fence is painted white.",
         "The vegetables are arranged in rows.",
         "The gardener wears gloves."
       ],
       "answerKey": [
-        "Fewer rabbit tracks appear inside the garden after the fence is installed."
+        "Rabbit tracks inside decreased."
       ],
       "explanation": 0
     },
@@ -686,12 +686,12 @@
       },
       "options": [
         "The project required no planning.",
-        "The team finished early because it organised the work carefully.",
+        "They divided tasks and checked progress.",
         "Every team member preferred the same task.",
         "The project was shorter than all other projects."
       ],
       "answerKey": [
-        "The team finished early because it organised the work carefully."
+        "They divided tasks and checked progress."
       ],
       "explanation": 1
     },
@@ -723,11 +723,11 @@
       "options": [
         "The story has twelve chapters.",
         "The character lives near a park.",
-        "The character starts helping neighbours after a difficult year.",
+        "The character helped neighbours.",
         "The cover uses green lettering."
       ],
       "answerKey": [
-        "The character starts helping neighbours after a difficult year."
+        "The character helped neighbours."
       ],
       "explanation": 2
     }
