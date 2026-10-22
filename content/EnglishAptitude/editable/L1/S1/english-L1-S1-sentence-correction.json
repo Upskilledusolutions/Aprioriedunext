@@ -1,0 +1,735 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-sentence-correction",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Original sentence-correction bank for Level 1 Stage 1, meeting the approved 20-item allocation only; not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 sentence-correction items covering agreement, tense, pronouns, punctuation, plurals, comparisons and sentence completeness. Requires editorial and pedagogical review before approval or publication."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q01",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Mira and Rohan ___ to school together every day.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The compound subject “Mira and Rohan” is plural, so “walk” is the correct verb.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Mira and Rohan walk to school together every day.",
+        "Mira and Rohan walks to school together every day.",
+        "Mira and Rohan walking to school together every day.",
+        "Mira and Rohan is walk to school every day."
+      ],
+      "answerKey": [
+        "Mira and Rohan walk to school together every day."
+      ],
+      "explanation": "The compound subject “Mira and Rohan” is plural, so “walk” is the correct verb."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q02",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the sentence that correctly describes yesterday.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Yesterday” signals the past, so the verb should be “played.”",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "We play outside after lunch yesterday.",
+        "We played outside after lunch yesterday.",
+        "We plays outside after lunch yesterday.",
+        "We playing outside after lunch yesterday."
+      ],
+      "answerKey": [
+        "We played outside after lunch yesterday."
+      ],
+      "explanation": "“Yesterday” signals the past, so the verb should be “played.”"
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q03",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Which sentence uses the correct pronoun?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“She and I” is the correct subject form for the people doing the action.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Her and I made a paper boat.",
+        "She and me made a paper boat.",
+        "She and I made a paper boat.",
+        "Hers and I made a paper boat."
+      ],
+      "answerKey": [
+        "She and I made a paper boat."
+      ],
+      "explanation": "“She and I” is the correct subject form for the people doing the action."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q04",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the sentence with correct punctuation.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "A direct question ends with a question mark.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Where is my red pencil.",
+        "Where is my red pencil!",
+        "Where is my red pencil,",
+        "Where is my red pencil?"
+      ],
+      "answerKey": [
+        "Where is my red pencil?"
+      ],
+      "explanation": "A direct question ends with a question mark."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q05",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the sentence that is grammatically correct.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Children” is plural, so the correct verb is “were.”",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "The children was excited about the trip.",
+        "The children were excited about the trip.",
+        "The children is excited about the trip.",
+        "The children be excited about the trip."
+      ],
+      "answerKey": [
+        "The children were excited about the trip."
+      ],
+      "explanation": "“Children” is plural, so the correct verb is “were.”"
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q06",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Which sentence correctly tells what happened first?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The events happened in the past, so “washed” keeps the tense consistent.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "After we ate, we washes the plates.",
+        "After we ate, we washing the plates.",
+        "After we ate, we washed the plates.",
+        "After we ate, we wash the plates yesterday."
+      ],
+      "answerKey": [
+        "After we ate, we washed the plates."
+      ],
+      "explanation": "The events happened in the past, so “washed” keeps the tense consistent."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q07",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the sentence with the correct plural noun.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The plural of “fox” is “foxes,” and “three” requires a plural noun.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Three fox was near the fence.",
+        "Three foxs were near the fence.",
+        "Three fox is near the fence.",
+        "Three foxes were near the fence."
+      ],
+      "answerKey": [
+        "Three foxes were near the fence."
+      ],
+      "explanation": "The plural of “fox” is “foxes,” and “three” requires a plural noun."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q08",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the sentence with the correct use of “has.”",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Asha” is singular, so “has” is correct.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Asha has a new notebook for class.",
+        "Asha have a new notebook for class.",
+        "Asha having a new notebook for class.",
+        "Asha are has a new notebook for class."
+      ],
+      "answerKey": [
+        "Asha has a new notebook for class."
+      ],
+      "explanation": "“Asha” is singular, so “has” is correct."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q09",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Which sentence correctly uses “does not”?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "After “does not,” use the base verb “like.”",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "He does not likes to wait in line.",
+        "He do not like to wait in line.",
+        "He does not like to wait in line.",
+        "He does not liking to wait in line."
+      ],
+      "answerKey": [
+        "He does not like to wait in line."
+      ],
+      "explanation": "After “does not,” use the base verb “like.”"
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-explore-q10",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the sentence with correct capitalisation.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The first word and the day name need capital letters; Tara's name is also capitalised.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "on monday, Tara visited the library.",
+        "On Monday, Tara visited the library.",
+        "On monday, tara visited the library.",
+        "On Monday, tara visited the library."
+      ],
+      "answerKey": [
+        "On Monday, Tara visited the library."
+      ],
+      "explanation": "The first word and the day name need capital letters; Tara's name is also capitalised."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q01",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Choose the clearest correct revision without changing the meaning: “The team are ready.”",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "In this sentence, “team” is treated as one group, so “is” is the appropriate verb.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "The team is ready now.",
+        "The team are ready now.",
+        "The team be ready now.",
+        "The team were ready now."
+      ],
+      "answerKey": [
+        "The team is ready now."
+      ],
+      "explanation": "In this sentence, “team” is treated as one group, so “is” is the appropriate verb."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q02",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which sentence keeps the past tense consistent?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Both actions happened in the past, so “opened” and “found” agree in tense.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Nila opened the box and finds a note.",
+        "Nila opened the box and found a note.",
+        "Nila opening the box and found a note.",
+        "Nila opens the box and found a note."
+      ],
+      "answerKey": [
+        "Nila opened the box and found a note."
+      ],
+      "explanation": "Both actions happened in the past, so “opened” and “found” agree in tense."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q03",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Choose the sentence that correctly combines the ideas.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“So” correctly connects the rain to the result of staying inside.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "It was raining, we stayed inside because so.",
+        "It was raining, because we stayed inside so.",
+        "It was raining, so we stayed inside.",
+        "It was raining so, inside we stayed because."
+      ],
+      "answerKey": [
+        "It was raining, so we stayed inside."
+      ],
+      "explanation": "“So” correctly connects the rain to the result of staying inside."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q04",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which revision corrects the pronoun while keeping the meaning?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Meera and I” is the correct subject of “carried.”",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Meera and me carried the basket.",
+        "Meera and mine carried the basket.",
+        "Meera and myself carried the basket.",
+        "Meera and I carried the basket."
+      ],
+      "answerKey": [
+        "Meera and I carried the basket."
+      ],
+      "explanation": "“Meera and I” is the correct subject of “carried.”"
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q05",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Choose the sentence with correct subject–verb agreement.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Each” is singular, so it takes “has.”",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Each of the boys have a pencil.",
+        "Each of the boys has a pencil.",
+        "Each of the boys are having a pencil.",
+        "Each of the boys were has a pencil."
+      ],
+      "answerKey": [
+        "Each of the boys has a pencil."
+      ],
+      "explanation": "“Each” is singular, so it takes “has.”"
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q06",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Choose the best correction for this sentence: “I have saw that bird before.”",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The correct present-perfect form is “have seen.”",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "I has seen that bird before.",
+        "I have saw that bird before yesterday.",
+        "I have seen that bird before.",
+        "I having seen that bird before."
+      ],
+      "answerKey": [
+        "I have seen that bird before."
+      ],
+      "explanation": "The correct present-perfect form is “have seen.”"
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q07",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which sentence is punctuated correctly?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The introductory phrase is correctly followed by a comma.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Before dinner we fed, the dog.",
+        "Before dinner we, fed the dog.",
+        "Before, dinner we fed the dog.",
+        "Before dinner, we fed the dog."
+      ],
+      "answerKey": [
+        "Before dinner, we fed the dog."
+      ],
+      "explanation": "The introductory phrase is correctly followed by a comma."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q08",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Choose the sentence that expresses the same idea correctly: “The bag belongs to Ravi.”",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "An apostrophe plus s shows that the bag belongs to Ravi.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "That is Ravi's bag.",
+        "That is Ravis bag.",
+        "That is Ravi bag.",
+        "That is Ravis' bag."
+      ],
+      "answerKey": [
+        "That is Ravi's bag."
+      ],
+      "explanation": "An apostrophe plus s shows that the bag belongs to Ravi."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q09",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Choose the sentence with the correct comparison.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Shorter than” is the correct comparative form.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "This path is more shorter than that one.",
+        "This path is shortest than that one.",
+        "This path is shorter than that one.",
+        "This path is most shorter than that one."
+      ],
+      "answerKey": [
+        "This path is shorter than that one."
+      ],
+      "explanation": "“Shorter than” is the correct comparative form."
+    },
+    {
+      "id": "eng-l1-s1-sentence-correction-extend-q10",
+      "questionType": "sentence_correction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which revision makes the sentence correct and clear: “Because the bus was late.”",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-correction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Adding the main clause makes the sentence complete while preserving the reason.",
+        "incorrect": "Read each option carefully. Check grammar, punctuation and meaning, then choose the complete and accurate sentence."
+      },
+      "options": [
+        "Because the bus was late.",
+        "Because the bus was late, we reached after the bell.",
+        "The bus because was late we reached.",
+        "Because late the bus was, reached we."
+      ],
+      "answerKey": [
+        "Because the bus was late, we reached after the bell."
+      ],
+      "explanation": "Adding the main clause makes the sentence complete while preserving the reason."
+    }
+  ]
+}
