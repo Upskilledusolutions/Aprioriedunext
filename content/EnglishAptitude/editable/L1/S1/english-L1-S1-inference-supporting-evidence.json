@@ -129,7 +129,7 @@
       "moduleId": "L1-S1-M2",
       "activityId": "ENG-L1-S1-EXP-05",
       "prompt": "A class planted bean seeds. They watered them each morning and placed the pots near a sunny window. A week later, small shoots appeared. Which conclusion is best supported?",
-      "difficulty": 0,
+      "difficulty": 1,
       "status": "draft",
       "version": 1,
       "source": {
@@ -273,7 +273,7 @@
       "moduleId": "L1-S1-M2",
       "activityId": "ENG-L1-S1-EXP-05",
       "prompt": "A shopkeeper placed a 'Fresh Bread' sign outside. Soon, several people entered and bought loaves. Which evidence best supports the idea that the sign attracted customers?",
-      "difficulty": 0,
+      "difficulty": 1,
       "status": "draft",
       "version": 1,
       "source": {
@@ -489,7 +489,7 @@
       "moduleId": "L1-S1-M3",
       "activityId": "ENG-L1-S1-EXT-02",
       "prompt": "Nikhil's report says that reading instructions before starting can prevent mistakes. Which example best supports this conclusion?",
-      "difficulty": 0,
+      "difficulty": 1,
       "status": "draft",
       "version": 1,
       "source": {
@@ -633,7 +633,7 @@
       "moduleId": "L1-S1-M3",
       "activityId": "ENG-L1-S1-EXT-02",
       "prompt": "A gardener says the new fence keeps rabbits away from the vegetables. Which observation most strongly supports the claim?",
-      "difficulty": 0,
+      "difficulty": 1,
       "status": "draft",
       "version": 1,
       "source": {
