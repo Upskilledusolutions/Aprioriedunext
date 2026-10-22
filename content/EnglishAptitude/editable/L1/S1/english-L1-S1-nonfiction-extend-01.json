@@ -1,0 +1,761 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-nonfiction-extend-01",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "First original Extend nonfiction passage bank for Level 1 Stage 1; a 20-question content slice, not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 informational passage for the Extend nonfiction slot. Requires editorial, factual, pedagogical and rights review before approval or publication."
+  },
+  "passages": [
+    {
+      "id": "eng-l1-s1-nonfiction-seed-library-001",
+      "type": "nonfiction_passage",
+      "title": "A Seed's Journey",
+      "text": "A Seed's Journey\n\nMany plants begin life as seeds. A seed contains a tiny plant and stored food that can help it begin to grow. Most seeds also have a protective covering. Before a seed can sprout, it usually needs suitable warmth and water. Many seeds also need air. A seed will not grow well if it is kept too dry, flooded for too long or placed where conditions are unsuitable.\n\nAt Meadow View School, the gardening club wanted to grow native wildflowers beside a path. Their teacher, Mr Sen, helped them read the instructions on a packet and learn about the plants before they began. The packet explained that the seeds should be sown in loose soil in a sunny place. The children first removed litter and small weeds from the chosen patch. An adult checked that the area was safe and that the plants would not block the path.\n\nThe club loosened the soil with small hand tools and scattered the seeds carefully. They covered them with a thin layer of soil, following the packet's advice. Some seeds were tiny, so the children mixed them with a little dry sand to help spread them more evenly. They watered the patch gently. The soil became moist, but they avoided pouring on so much water that it formed puddles.\n\nThe children made a simple observation chart. Each week, they recorded rainfall, the condition of the soil and any changes they could see. At first, nothing appeared above the ground. A few children thought the seeds had failed, but Mr Sen explained that roots often begin growing before a shoot can be seen. After several days, small green shoots appeared in parts of the patch. Not every seed sprouted, and the children learned that seeds can differ in age and condition and that local conditions also matter.\n\nAs the plants grew, the club checked whether the soil was drying out and removed weeds carefully. They did not pull up every unfamiliar plant at once; they compared what they saw with their guide and asked an adult when they were uncertain. The children also noticed that some seedlings grew more strongly where sunlight reached the soil for longer.\n\nBy the end of the term, several wildflowers had grown tall enough to produce buds. The club left space around the plants and kept a record of which areas grew best. They understood that a garden does not appear in a day: choosing suitable seeds, preparing the ground, giving steady care and observing changes all help. Their chart also showed that careful records can answer questions better than a quick guess.",
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude informational passage for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original text authored for this project."
+      },
+      "half": "extend",
+      "order": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q01",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "What does a seed contain that can begin to grow?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "A seed contains a tiny plant and stored food.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "A seed contains a tiny plant and stored food.",
+      "options": [
+        "A tiny plant",
+        "A fully grown flower",
+        "A small insect",
+        "A piece of glass"
+      ],
+      "answerKey": [
+        "A tiny plant"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q02",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "What usually helps a seed begin to sprout?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Seeds usually need suitable warmth and water, and many also need air.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Seeds usually need suitable warmth and water, and many also need air.",
+      "options": [
+        "Paint and strong wind",
+        "Suitable warmth and water",
+        "A thick layer of stones",
+        "Complete darkness for every plant"
+      ],
+      "answerKey": [
+        "Paint and strong wind"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q03",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "Where did the gardening club want to grow wildflowers?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The club planned a patch beside a path.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The club planned a patch beside a path.",
+      "options": [
+        "Inside the school kitchen",
+        "On the classroom ceiling",
+        "Beside a path",
+        "In the library cupboard"
+      ],
+      "answerKey": [
+        "Inside the school kitchen"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q04",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "Who helped the children understand the seed packet?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Mr Sen helped them read the instructions.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Mr Sen helped them read the instructions.",
+      "options": [
+        "A bus driver",
+        "A shop customer",
+        "A visiting musician",
+        "Their teacher, Mr Sen"
+      ],
+      "answerKey": [
+        "A bus driver"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q05",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "Why did the children mix tiny seeds with dry sand?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The sand helped the children spread tiny seeds more evenly.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The sand helped the children spread tiny seeds more evenly.",
+      "options": [
+        "To spread them more evenly",
+        "To make them change colour",
+        "To stop them needing water",
+        "To turn them into larger seeds"
+      ],
+      "answerKey": [
+        "To spread them more evenly"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q06",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "How did the children water the patch?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "They watered gently and avoided making puddles.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "They watered gently and avoided making puddles.",
+      "options": [
+        "They flooded it until it overflowed",
+        "They watered it gently",
+        "They left it underwater overnight",
+        "They poured water only on the path"
+      ],
+      "answerKey": [
+        "They flooded it until it overflowed"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q07",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "What did the children record each week?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Their chart recorded rainfall, soil condition and changes.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Their chart recorded rainfall, soil condition and changes.",
+      "options": [
+        "The price of every flower",
+        "The number of books in class",
+        "Rainfall, soil condition and visible changes",
+        "The names of all visitors"
+      ],
+      "answerKey": [
+        "The price of every flower"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q08",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "Why did some children think the seeds had failed at first?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "No shoots were visible at first.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "No shoots were visible at first.",
+      "options": [
+        "They saw flowers immediately",
+        "The soil had turned to stone",
+        "Every seed was carried away",
+        "Nothing had appeared above the ground"
+      ],
+      "answerKey": [
+        "They saw flowers immediately"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q09",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "What did Mr Sen explain about roots?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Roots often begin growing before a shoot can be seen.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Roots often begin growing before a shoot can be seen.",
+      "options": [
+        "They can begin growing before a shoot appears",
+        "They only grow after flowers bloom",
+        "They grow above the leaves",
+        "They do not need any suitable conditions"
+      ],
+      "answerKey": [
+        "They can begin growing before a shoot appears"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q10",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "Did every seed sprout?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The passage says not every seed sprouted.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The passage says not every seed sprouted.",
+      "options": [
+        "Yes, every seed grew at once",
+        "No, not every seed sprouted",
+        "Only seeds covered in stones sprouted",
+        "The passage does not mention seeds"
+      ],
+      "answerKey": [
+        "Yes, every seed grew at once"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q11",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "What did the club do when unsure about an unfamiliar plant?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "They checked their guide and asked an adult when uncertain.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "They checked their guide and asked an adult when uncertain.",
+      "options": [
+        "Pulled up every plant immediately",
+        "Ignored the plant and the guide",
+        "Compared it with a guide and asked an adult",
+        "Watered it with paint"
+      ],
+      "answerKey": [
+        "Pulled up every plant immediately"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q12",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "Where did some seedlings grow more strongly?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The children noticed stronger growth where sunlight reached the soil longer.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The children noticed stronger growth where sunlight reached the soil longer.",
+      "options": [
+        "Where no light ever reached",
+        "Under a pile of litter",
+        "Inside a closed box",
+        "Where sunlight reached longer"
+      ],
+      "answerKey": [
+        "Where no light ever reached"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q13",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "What was one purpose of keeping an observation chart?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Careful records helped them answer questions better than guessing.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Careful records helped them answer questions better than guessing.",
+      "options": [
+        "To replace the need to care for plants",
+        "To answer questions using careful records",
+        "To guarantee that every seed would sprout",
+        "To make the path longer"
+      ],
+      "answerKey": [
+        "To replace the need to care for plants"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q14",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "What did the club leave around the growing plants?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The club left space around the plants.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The club left space around the plants.",
+      "options": [
+        "Space",
+        "Plastic wrappers",
+        "Deep puddles",
+        "A thick roof"
+      ],
+      "answerKey": [
+        "Space"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q15",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "What did some wildflowers produce by the end of term?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Several wildflowers had grown enough to produce buds.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "Several wildflowers had grown enough to produce buds.",
+      "options": [
+        "New gardening tools",
+        "A packet of seeds",
+        "Buds",
+        "A chart made of leaves"
+      ],
+      "answerKey": [
+        "New gardening tools"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q16",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "Which statement best expresses the passage's main idea?",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "The passage describes careful planting, steady care and recording changes.",
+        "incorrect": "Reread the passage and look for the detail that supports your answer."
+      },
+      "explanation": "The passage describes careful planting, steady care and recording changes.",
+      "options": [
+        "Seeds grow instantly without care",
+        "Only the oldest seeds can ever grow",
+        "A chart can replace sunlight and water",
+        "Growing plants takes suitable conditions, care and observation"
+      ],
+      "answerKey": [
+        "Seeds grow instantly without care"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q17",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "True or false: The children poured so much water on the patch that puddles were encouraged.",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "They watered gently and avoided puddles.",
+        "incorrect": "Check the passage for the detail that supports the statement."
+      },
+      "explanation": "They watered gently and avoided puddles.",
+      "answerKey": false
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q18",
+      "questionType": "nonfiction_passage_comprehension",
+      "responseFormat": "true_false",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "True or false: Roots may begin growing before a shoot appears above the soil.",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Mr Sen explained that roots often begin growing first.",
+        "incorrect": "Check the passage for the detail that supports the statement."
+      },
+      "explanation": "Mr Sen explained that roots often begin growing first.",
+      "answerKey": true
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q19",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "Name two things the children recorded or observed while caring for the seed patch.",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Compare your response with the passage and the answer guidance.",
+        "incorrect": "Return to the passage and support your response with a relevant detail."
+      },
+      "explanation": "The chart tracked rainfall, soil condition and visible changes; they also noticed sunlight and seedling growth.",
+      "rubric": {
+        "criteria": [
+          {
+            "id": "seed-criterion-19",
+            "description": "Rainfall, soil condition, visible changes, seedling growth or sunlight exposure",
+            "points": 1
+          }
+        ],
+        "maxScore": 1
+      },
+      "answerGuidance": "Rainfall, soil condition, visible changes, seedling growth or sunlight exposure"
+    },
+    {
+      "id": "eng-l1-s1-nonfiction-seed-q20",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "evidence_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-01",
+      "prompt": "What lesson did the children learn about growing plants? Support your answer with one detail from the passage.",
+      "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored question for A Seed's Journey."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original question authored for this project."
+      },
+      "feedback": {
+        "correct": "Compare your response with the passage and the answer guidance.",
+        "incorrect": "Return to the passage and support your response with a relevant detail."
+      },
+      "explanation": "The club learned that choosing seeds, preparing soil, caring for plants and recording changes all matter.",
+      "rubric": {
+        "criteria": [
+          {
+            "id": "seed-criterion-20",
+            "description": "Plant growth takes time and benefits from suitable seeds, conditions, care and observation; support with a detail such as gentle watering, waiting for shoots or keeping a chart.",
+            "points": 1
+          }
+        ],
+        "maxScore": 1
+      },
+      "answerGuidance": "Plant growth takes time and benefits from suitable seeds, conditions, care and observation; support with a detail such as gentle watering, waiting for shoots or keeping a chart."
+    }
+  ]
+}
