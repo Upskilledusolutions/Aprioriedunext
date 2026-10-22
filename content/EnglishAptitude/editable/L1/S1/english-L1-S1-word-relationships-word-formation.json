@@ -128,7 +128,7 @@
       "half": "explore",
       "moduleId": "L1-S1-M2",
       "activityId": "ENG-L1-S1-EXP-04",
-      "prompt": "Which word means a person who teaches?",
+      "prompt": "Which word names a person who teaches a class?",
       "difficulty": 1,
       "status": "draft",
       "version": 1,
@@ -141,19 +141,19 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": "The suffix -er can name a person who does an action: teach + er = teacher.",
+        "correct": "A teacher is a person who teaches a class.",
         "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
       },
       "options": [
-        "teachful",
+        "student",
         "teacher",
-        "teachingly",
-        "teachment"
+        "classroom",
+        "lesson"
       ],
       "answerKey": [
         "teacher"
       ],
-      "explanation": "The suffix -er can name a person who does an action: teach + er = teacher."
+      "explanation": "A teacher is a person who teaches a class."
     },
     {
       "id": "eng-l1-s1-word-relationships-explore-q05",
@@ -272,7 +272,7 @@
       "half": "explore",
       "moduleId": "L1-S1-M2",
       "activityId": "ENG-L1-S1-EXP-04",
-      "prompt": "Which word is in the same word family as help?",
+      "prompt": "Which word is formed by adding -ful to help?",
       "difficulty": 2,
       "status": "draft",
       "version": 1,
@@ -285,19 +285,19 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": "Helpful is formed from help and shares its base word.",
+        "correct": "Adding -ful to help forms helpful, meaning giving or providing help.",
         "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
       },
       "options": [
-        "helmet",
-        "helpery",
-        "helplesslyness",
-        "helpful"
+        "helper",
+        "helpful",
+        "helpless",
+        "helmet"
       ],
       "answerKey": [
         "helpful"
       ],
-      "explanation": "Helpful is formed from help and shares its base word."
+      "explanation": "Adding -ful to help forms helpful, meaning giving or providing help."
     },
     {
       "id": "eng-l1-s1-word-relationships-explore-q09",
@@ -632,7 +632,7 @@
       "half": "extend",
       "moduleId": "L1-S1-M3",
       "activityId": "ENG-L1-S1-EXT-02",
-      "prompt": "Which word is formed by adding a suffix to kind?",
+      "prompt": "Which word names the quality of being kind?",
       "difficulty": 3,
       "status": "draft",
       "version": 1,
@@ -645,19 +645,19 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": "Kind + -ness forms kindness, a noun naming a quality.",
+        "correct": "Kindness is a noun that names the quality of being kind.",
         "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
       },
       "options": [
-        "kindness",
         "unkind",
         "kindly",
+        "kindness",
         "kindergarten"
       ],
       "answerKey": [
         "kindness"
       ],
-      "explanation": "Kind + -ness forms kindness, a noun naming a quality."
+      "explanation": "Kindness is a noun that names the quality of being kind."
     },
     {
       "id": "eng-l1-s1-word-relationships-extend-q09",
