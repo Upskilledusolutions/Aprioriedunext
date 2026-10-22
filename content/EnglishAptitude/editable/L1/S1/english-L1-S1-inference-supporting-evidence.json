@@ -33,7 +33,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 1,
+        "correct": "The best-supported answer is “The soil stayed wet.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -45,7 +45,7 @@
       "answerKey": [
         "The soil stayed wet."
       ],
-      "explanation": 1
+      "explanation": "The best-supported answer is “The soil stayed wet.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-explore-q02",
@@ -69,7 +69,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 2,
+        "correct": "The best-supported answer is “She prepared for changing weather.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -81,7 +81,7 @@
       "answerKey": [
         "She prepared for changing weather."
       ],
-      "explanation": 2
+      "explanation": "The best-supported answer is “She prepared for changing weather.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-explore-q03",
@@ -105,7 +105,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 3,
+        "correct": "The best-supported answer is “Noise made him move.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -117,7 +117,7 @@
       "answerKey": [
         "Noise made him move."
       ],
-      "explanation": 3
+      "explanation": "The best-supported answer is “Noise made him move.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-explore-q04",
@@ -141,7 +141,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 0,
+        "correct": "The best-supported answer is “The seeds got water and light.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -153,7 +153,7 @@
       "answerKey": [
         "The seeds got water and light."
       ],
-      "explanation": 0
+      "explanation": "The best-supported answer is “The seeds got water and light.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-explore-q05",
@@ -177,7 +177,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 1,
+        "correct": "The best-supported answer is “Rain began before school.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -189,7 +189,7 @@
       "answerKey": [
         "Rain began before school."
       ],
-      "explanation": 1
+      "explanation": "The best-supported answer is “Rain began before school.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-explore-q06",
@@ -213,7 +213,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 2,
+        "correct": "The best-supported answer is “They practised passing daily.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -225,7 +225,7 @@
       "answerKey": [
         "They practised passing daily."
       ],
-      "explanation": 2
+      "explanation": "The best-supported answer is “They practised passing daily.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-explore-q07",
@@ -249,7 +249,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 3,
+        "correct": "The best-supported answer is “It urged people to save water.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -261,7 +261,7 @@
       "answerKey": [
         "It urged people to save water."
       ],
-      "explanation": 3
+      "explanation": "The best-supported answer is “It urged people to save water.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-explore-q08",
@@ -285,7 +285,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 0,
+        "correct": "The best-supported answer is “They entered after seeing it.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -297,7 +297,7 @@
       "answerKey": [
         "They entered after seeing it."
       ],
-      "explanation": 0
+      "explanation": "The best-supported answer is “They entered after seeing it.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-explore-q09",
@@ -321,7 +321,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 1,
+        "correct": "The best-supported answer is “She took it to the teacher.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -333,7 +333,7 @@
       "answerKey": [
         "She took it to the teacher."
       ],
-      "explanation": 1
+      "explanation": "The best-supported answer is “She took it to the teacher.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-explore-q10",
@@ -357,7 +357,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 2,
+        "correct": "The best-supported answer is “The bell ended class.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -369,7 +369,7 @@
       "answerKey": [
         "The bell ended class."
       ],
-      "explanation": 2
+      "explanation": "The best-supported answer is “The bell ended class.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q01",
@@ -393,7 +393,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 2,
+        "correct": "The best-supported answer is “She checked the door twice.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -405,7 +405,7 @@
       "answerKey": [
         "She checked the door twice."
       ],
-      "explanation": 2
+      "explanation": "The best-supported answer is “She checked the door twice.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q02",
@@ -429,7 +429,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 3,
+        "correct": "The best-supported answer is “People waited in the new shade.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -441,7 +441,7 @@
       "answerKey": [
         "People waited in the new shade."
       ],
-      "explanation": 3
+      "explanation": "The best-supported answer is “People waited in the new shade.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q03",
@@ -465,7 +465,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 1,
+        "correct": "The best-supported answer is “Fewer bottles were discarded.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -477,7 +477,7 @@
       "answerKey": [
         "Fewer bottles were discarded."
       ],
-      "explanation": 1
+      "explanation": "The best-supported answer is “Fewer bottles were discarded.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q04",
@@ -501,7 +501,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 0,
+        "correct": "The best-supported answer is “The student avoided a mix-up.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -513,7 +513,7 @@
       "answerKey": [
         "The student avoided a mix-up."
       ],
-      "explanation": 0
+      "explanation": "The best-supported answer is “The student avoided a mix-up.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q05",
@@ -537,7 +537,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 1,
+        "correct": "The best-supported answer is “Residents separated the waste.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -549,7 +549,7 @@
       "answerKey": [
         "Residents separated the waste."
       ],
-      "explanation": 1
+      "explanation": "The best-supported answer is “Residents separated the waste.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q06",
@@ -573,7 +573,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 2,
+        "correct": "The best-supported answer is “The scene was quiet.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -585,7 +585,7 @@
       "answerKey": [
         "The scene was quiet."
       ],
-      "explanation": 2
+      "explanation": "The best-supported answer is “The scene was quiet.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q07",
@@ -609,7 +609,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 3,
+        "correct": "The best-supported answer is “Visits and borrowing increased.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -621,7 +621,7 @@
       "answerKey": [
         "Visits and borrowing increased."
       ],
-      "explanation": 3
+      "explanation": "The best-supported answer is “Visits and borrowing increased.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q08",
@@ -645,7 +645,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 0,
+        "correct": "The best-supported answer is “Rabbit tracks inside decreased.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -657,7 +657,7 @@
       "answerKey": [
         "Rabbit tracks inside decreased."
       ],
-      "explanation": 0
+      "explanation": "The best-supported answer is “Rabbit tracks inside decreased.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q09",
@@ -681,7 +681,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 1,
+        "correct": "The best-supported answer is “They divided tasks and checked progress.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -693,7 +693,7 @@
       "answerKey": [
         "They divided tasks and checked progress."
       ],
-      "explanation": 1
+      "explanation": "The best-supported answer is “They divided tasks and checked progress.” because it follows from the details given in the prompt."
     },
     {
       "id": "eng-l1-s1-inference-evidence-extend-q10",
@@ -717,7 +717,7 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": 2,
+        "correct": "The best-supported answer is “The character helped neighbours.” because it follows from the details given in the prompt.",
         "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
       },
       "options": [
@@ -729,7 +729,7 @@
       "answerKey": [
         "The character helped neighbours."
       ],
-      "explanation": 2
+      "explanation": "The best-supported answer is “The character helped neighbours.” because it follows from the details given in the prompt."
     }
   ]
 }
