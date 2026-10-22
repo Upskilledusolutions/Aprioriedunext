@@ -488,7 +488,7 @@
       "half": "extend",
       "moduleId": "L1-S1-M3",
       "activityId": "ENG-L1-S1-EXT-02",
-      "prompt": "Read the sentence: “Neither of the answers are correct.” Which part contains the grammar error?",
+      "prompt": "Read the sentence: “Neither answer were accepted by the teacher.” Which part contains the grammar error?",
       "difficulty": 3,
       "status": "draft",
       "version": 1,
@@ -501,19 +501,19 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": "“Neither” is treated as singular here, so use “is correct.”",
+        "correct": "“Neither answer” is singular here, so the verb phrase should be “was accepted.”",
         "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
       },
       "options": [
-        "Neither of",
-        "the answers",
-        "the answers are",
-        "are correct"
+        "Neither answer",
+        "by the teacher",
+        "were accepted",
+        "the teacher"
       ],
       "answerKey": [
-        "are correct"
+        "were accepted"
       ],
-      "explanation": "“Neither” is treated as singular here, so use “is correct.”"
+      "explanation": "“Neither answer” is singular here, so the verb phrase should be “was accepted.”"
     },
     {
       "id": "eng-l1-s1-grammar-error-extend-q05",
@@ -704,7 +704,7 @@
       "half": "extend",
       "moduleId": "L1-S1-M3",
       "activityId": "ENG-L1-S1-EXT-02",
-      "prompt": "Read the sentence: “The dog wagged its tail when they saw me.” Which part contains the grammar error?",
+      "prompt": "Read the sentence: “The dog wagged its tail when it see me.” Which part contains the grammar error?",
       "difficulty": 2,
       "status": "draft",
       "version": 1,
@@ -717,19 +717,19 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": "The pronoun referring to one dog should be “it”: “when it saw me.”",
+        "correct": "The sentence is in the past tense (“wagged”), so the phrase should be “when it saw me.”",
         "incorrect": "Check which part of the sentence does not follow the grammar rule, then consider the form that would make it correct."
       },
       "options": [
         "The dog",
-        "when they saw me",
         "wagged its tail",
+        "when it see me",
         "its tail"
       ],
       "answerKey": [
-        "when they saw me"
+        "when it see me"
       ],
-      "explanation": "The pronoun referring to one dog should be “it”: “when it saw me.”"
+      "explanation": "The sentence is in the past tense (“wagged”), so the phrase should be “when it saw me.”"
     }
   ]
 }
