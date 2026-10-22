@@ -612,13 +612,13 @@
       },
       "explanation": "The passage describes careful planting, steady care and recording changes.",
       "options": [
-        "Only the oldest seeds can ever grow",
-        "A chart can replace sunlight and water",
-        "Growing plants takes suitable conditions, care and observation",
-        "Seeds grow instantly without care"
+        "Seeds grow instantly without care",
+        "Plants need no suitable conditions",
+        "Careful records replace water and sunlight",
+        "Plant growth needs suitable conditions and care"
       ],
       "answerKey": [
-        "Seeds grow instantly without care"
+        "Plant growth needs suitable conditions and care"
       ]
     },
     {
@@ -709,9 +709,9 @@
       "rubric": {
         "criteria": [
           {
-            "id": "seed-criterion-19",
-            "description": "Rainfall, soil condition, visible changes, seedling growth or sunlight exposure",
-            "points": 1
+            "name": "Passage-based response",
+            "maxPoints": 1,
+            "description": "Rainfall, soil condition, visible changes, seedling growth or sunlight exposure"
           }
         ],
         "maxScore": 1
@@ -748,9 +748,9 @@
       "rubric": {
         "criteria": [
           {
-            "id": "seed-criterion-20",
-            "description": "Plant growth takes time and benefits from suitable seeds, conditions, care and observation; support with a detail such as gentle watering, waiting for shoots or keeping a chart.",
-            "points": 1
+            "name": "Passage-based response",
+            "maxPoints": 1,
+            "description": "Plant growth takes time and benefits from suitable seeds, conditions, care and observation; support with a detail such as gentle watering, waiting for shoots or keeping a chart."
           }
         ],
         "maxScore": 1
