@@ -29,11 +29,15 @@ for (const half of ["explore", "extend"]) {
   assert.ok(questions.every(q => q.source?.sourceType === "original" && q.source.reference));
   assert.ok(questions.every(q => q.rights?.status === "original" && q.rights.basis));
   assert.ok(questions.every(q => q.feedback?.correct && q.feedback.incorrect));
+  assert.ok(questions.every(q => typeof q.feedback.correct === "string" && typeof q.feedback.incorrect === "string"),
+    half + " feedback must contain text, not answer-position numbers.");
   assert.ok(questions.every(q => q.options.length === 4 && new Set(q.options).size === 4));
   for (const q of questions) {
     assert.equal(q.answerKey.length, 1, q.id + " must have one correct answer.");
     assert.ok(q.options.includes(q.answerKey[0]), q.id + " answer must match an option.");
-    assert.ok(q.explanation && q.explanation === q.feedback.correct, q.id + " needs aligned explanatory feedback.");
+    assert.ok(typeof q.explanation === "string" && q.explanation.trim().length > 0,
+      q.id + " needs a textual explanation.");
+    assert.equal(q.explanation, q.feedback.correct, q.id + " needs aligned explanatory feedback.");
   }
   const longest = questions.filter(q => q.answerKey[0].length === Math.max(...q.options.map(option => option.length)));
   assert.ok(longest.length / questions.length < 0.3,
