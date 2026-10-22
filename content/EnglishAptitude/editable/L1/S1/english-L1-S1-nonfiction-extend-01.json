@@ -94,8 +94,8 @@
       },
       "explanation": "Seeds usually need suitable warmth and water, and many also need air.",
       "options": [
-        "Paint and strong wind",
         "Suitable warmth and water",
+        "Paint and strong wind",
         "A thick layer of stones",
         "Complete darkness for every plant"
       ],
@@ -131,9 +131,9 @@
       },
       "explanation": "The club planned a patch beside a path.",
       "options": [
-        "Inside the school kitchen",
         "On the classroom ceiling",
         "Beside a path",
+        "Inside the school kitchen",
         "In the library cupboard"
       ],
       "answerKey": [
@@ -168,10 +168,10 @@
       },
       "explanation": "Mr Sen helped them read the instructions.",
       "options": [
-        "A bus driver",
         "A shop customer",
         "A visiting musician",
-        "Their teacher, Mr Sen"
+        "Their teacher, Mr Sen",
+        "A bus driver"
       ],
       "answerKey": [
         "A bus driver"
@@ -242,8 +242,8 @@
       },
       "explanation": "They watered gently and avoided making puddles.",
       "options": [
-        "They flooded it until it overflowed",
         "They watered it gently",
+        "They flooded it until it overflowed",
         "They left it underwater overnight",
         "They poured water only on the path"
       ],
@@ -279,9 +279,9 @@
       },
       "explanation": "Their chart recorded rainfall, soil condition and changes.",
       "options": [
-        "The price of every flower",
         "The number of books in class",
         "Rainfall, soil condition and visible changes",
+        "The price of every flower",
         "The names of all visitors"
       ],
       "answerKey": [
@@ -316,10 +316,10 @@
       },
       "explanation": "No shoots were visible at first.",
       "options": [
-        "They saw flowers immediately",
         "The soil had turned to stone",
         "Every seed was carried away",
-        "Nothing had appeared above the ground"
+        "Nothing had appeared above the ground",
+        "They saw flowers immediately"
       ],
       "answerKey": [
         "They saw flowers immediately"
@@ -390,8 +390,8 @@
       },
       "explanation": "The passage says not every seed sprouted.",
       "options": [
-        "Yes, every seed grew at once",
         "No, not every seed sprouted",
+        "Yes, every seed grew at once",
         "Only seeds covered in stones sprouted",
         "The passage does not mention seeds"
       ],
@@ -427,9 +427,9 @@
       },
       "explanation": "They checked their guide and asked an adult when uncertain.",
       "options": [
-        "Pulled up every plant immediately",
         "Ignored the plant and the guide",
         "Compared it with a guide and asked an adult",
+        "Pulled up every plant immediately",
         "Watered it with paint"
       ],
       "answerKey": [
@@ -464,10 +464,10 @@
       },
       "explanation": "The children noticed stronger growth where sunlight reached the soil longer.",
       "options": [
-        "Where no light ever reached",
         "Under a pile of litter",
         "Inside a closed box",
-        "Where sunlight reached longer"
+        "Where sunlight reached longer",
+        "Where no light ever reached"
       ],
       "answerKey": [
         "Where no light ever reached"
@@ -538,8 +538,8 @@
       },
       "explanation": "The club left space around the plants.",
       "options": [
-        "Space",
         "Plastic wrappers",
+        "Space",
         "Deep puddles",
         "A thick roof"
       ],
@@ -575,9 +575,9 @@
       },
       "explanation": "Several wildflowers had grown enough to produce buds.",
       "options": [
-        "New gardening tools",
         "A packet of seeds",
         "Buds",
+        "New gardening tools",
         "A chart made of leaves"
       ],
       "answerKey": [
@@ -612,10 +612,10 @@
       },
       "explanation": "The passage describes careful planting, steady care and recording changes.",
       "options": [
-        "Seeds grow instantly without care",
         "Only the oldest seeds can ever grow",
         "A chart can replace sunlight and water",
-        "Growing plants takes suitable conditions, care and observation"
+        "Growing plants takes suitable conditions, care and observation",
+        "Seeds grow instantly without care"
       ],
       "answerKey": [
         "Seeds grow instantly without care"
