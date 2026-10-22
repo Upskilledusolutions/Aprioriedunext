@@ -399,7 +399,7 @@
       "options": [
         "Easy for everyone to see",
         "Very large and clearly marked",
-        "Small or not immediately obvious",
+        "Slight and hard to notice",
         "Unrelated to the main picture"
       ],
       "answerKey": [
@@ -506,7 +506,7 @@
       },
       "options": [
         "Made to look very colourful",
-        "Strong and not easily broken",
+        "Strong and firm",
         "Built in a very short time",
         "Narrow enough for one person"
       ],
@@ -543,7 +543,7 @@
       "options": [
         "Change something on purpose",
         "Explain a rule from memory",
-        "Watch carefully to notice details",
+        "Watch with care",
         "Move quickly to another place"
       ],
       "answerKey": [
@@ -649,8 +649,8 @@
         "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
       },
       "options": [
-        "Made only to impress friends",
-        "Reasonable and showing good judgment",
+        "Connected to a wise choice",
+        "Wise and sensible",
         "Chosen without thinking at all",
         "Unusual but not useful"
       ],
@@ -724,7 +724,7 @@
         "A plan for the next lesson",
         "A question with no answer",
         "A feeling about what might happen",
-        "Information that helps show what is true"
+        "Facts that support a claim"
       ],
       "answerKey": [
         "Information that helps show what is true"
