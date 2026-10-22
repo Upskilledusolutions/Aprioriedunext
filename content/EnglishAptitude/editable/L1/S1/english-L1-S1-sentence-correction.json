@@ -148,7 +148,7 @@
         "Where is my red pencil.",
         "Where is my red pencil!",
         "Where is my red pencil,",
-        "Where is my red pencil?"
+        "Where is my red pencil today?"
       ],
       "answerKey": [
         "Where is my red pencil?"
@@ -183,7 +183,7 @@
       "options": [
         "The children was excited about the trip.",
         "The children were excited about the trip.",
-        "The children is excited about the trip.",
+        "The children is very excited about the trip.",
         "The children be excited about the trip."
       ],
       "answerKey": [
@@ -254,7 +254,7 @@
       },
       "options": [
         "Three fox was near the fence.",
-        "Three foxs were near the fence.",
+        "Three foxes was standing near the fence.",
         "Three fox is near the fence.",
         "Three foxes were near the fence."
       ],
@@ -363,7 +363,7 @@
       "options": [
         "on monday, Tara visited the library.",
         "On Monday, Tara visited the library.",
-        "On monday, tara visited the library.",
+        "On Monday, tara visited the library after school.",
         "On Monday, tara visited the library."
       ],
       "answerKey": [
@@ -614,7 +614,7 @@
       },
       "options": [
         "Before dinner we fed, the dog.",
-        "Before dinner we, fed the dog.",
+        "Before dinner we, fed the dog near the gate.",
         "Before, dinner we fed the dog.",
         "Before dinner, we fed the dog."
       ],
@@ -650,7 +650,7 @@
       },
       "options": [
         "That is Ravi's bag.",
-        "That is Ravis bag.",
+        "That is Ravis bag near the door.",
         "That is Ravi bag.",
         "That is Ravis' bag."
       ],
@@ -722,7 +722,7 @@
       },
       "options": [
         "Because the bus was late.",
-        "Because the bus was late, we reached after the bell.",
+        "Because the bus was late, so we reached after the bell at school.",
         "The bus because was late we reached.",
         "Because late the bus was, reached we."
       ],
