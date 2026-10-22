@@ -9,21 +9,35 @@ const { getActivityIdsForStage, validateQuestionActivityMappings } = require("..
 const context = { activityIds: getActivityIdsForStage("L1", "S1") };
 const sets = [
   {
-    file: "english-L1-S1-nonfiction-explore-01.json",
-    bankId: "english-L1-S1-nonfiction-explore-01",
-    passageId: "eng-l1-s1-nonfiction-rain-garden-001",
-    activityId: "ENG-L1-S1-EXP-02",
-    title: "A Rain Garden at School",
-    order: 1,
+    "file": "english-L1-S1-nonfiction-explore-01.json",
+    "bankId": "english-L1-S1-nonfiction-explore-01",
+    "passageId": "eng-l1-s1-nonfiction-rain-garden-001",
+    "activityId": "ENG-L1-S1-EXP-02",
+    "title": "A Rain Garden at School",
+    "order": 1,
+    "half": "explore",
+    "moduleId": "L1-S1-M1"
   },
   {
-    file: "english-L1-S1-nonfiction-explore-02.json",
-    bankId: "english-L1-S1-nonfiction-explore-02",
-    passageId: "eng-l1-s1-nonfiction-compost-001",
-    activityId: "ENG-L1-S1-EXP-03",
-    title: "From Kitchen Scraps to Compost",
-    order: 2,
+    "file": "english-L1-S1-nonfiction-explore-02.json",
+    "bankId": "english-L1-S1-nonfiction-explore-02",
+    "passageId": "eng-l1-s1-nonfiction-compost-001",
+    "activityId": "ENG-L1-S1-EXP-03",
+    "title": "From Kitchen Scraps to Compost",
+    "order": 2,
+    "half": "explore",
+    "moduleId": "L1-S1-M1"
   },
+  {
+    "file": "english-L1-S1-nonfiction-extend-01.json",
+    "bankId": "english-L1-S1-nonfiction-extend-01",
+    "passageId": "eng-l1-s1-nonfiction-seed-library-001",
+    "activityId": "ENG-L1-S1-EXT-01",
+    "title": "A Seed's Journey",
+    "order": 1,
+    "half": "extend",
+    "moduleId": "L1-S1-M3"
+  }
 ];
 
 for (const set of sets) {
@@ -41,11 +55,11 @@ for (const set of sets) {
   assert.equal(passage.id, set.passageId);
   assert.equal(passage.type, "nonfiction_passage");
   assert.equal(passage.title, set.title);
-  assert.equal(passage.half, "explore");
+  assert.equal(passage.half, set.half);
   assert.equal(passage.order, set.order);
   assert.equal(passage.rights.status, "original");
   assert.ok(passage.text.length > 900, set.file + " passage should be substantial enough for comprehension practice.");
-  assert.ok(canonical.questions.every(q => q.half === "explore" && q.moduleId === "L1-S1-M1" && q.activityId === set.activityId));
+  assert.ok(canonical.questions.every(q => q.half === set.half && q.moduleId === set.moduleId && q.activityId === set.activityId));
   assert.ok(canonical.questions.every(q => q.passageId === passage.id));
   assert.deepEqual(validateEnglishBank(canonical, context), [], set.file + " schema validation");
   assert.deepEqual(validateQuestionActivityMappings(canonical), [], set.file + " activity mapping");
@@ -72,4 +86,4 @@ for (const set of sets) {
   assert.ok(canonical.questions.every(q => q.status === "draft"), set.file + " must remain draft pending editorial review.");
 }
 
-console.log("English Aptitude L1/S1 nonfiction-set tests passed: both Explore nonfiction passages, 20 unique questions each, registered passage slots, 16 single-select/2 true-false/2 evidence responses per set, schema and rights metadata, balanced answer positions and lengths, and round-trip integrity.");
+console.log("English Aptitude L1/S1 nonfiction-set tests passed: two Explore and one Extend nonfiction passage, 20 unique questions each, registered passage slots, 16 single-select/2 true-false/2 evidence responses per set, schema and rights metadata, balanced answer positions and lengths, and round-trip integrity.");
