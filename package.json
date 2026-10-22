@@ -25,7 +25,8 @@
     "english-aptitude:test-nonfiction-set": "node scripts/testEnglishAptitudeNonfictionSet.js",
     "english-aptitude:test-vocabulary-set": "node scripts/testEnglishAptitudeVocabularySet.js",
     "english-aptitude:test-antonyms-set": "node scripts/testEnglishAptitudeAntonymsSet.js",
-    "english-aptitude:test-word-relationships-set": "node scripts/testEnglishAptitudeWordRelationshipsSet.js"
+    "english-aptitude:test-word-relationships-set": "node scripts/testEnglishAptitudeWordRelationshipsSet.js",
+    "english-aptitude:test-inference-evidence": "node scripts/testEnglishAptitudeInferenceEvidenceSet.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
