@@ -1,0 +1,735 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-inference-supporting-evidence",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Original inference and supporting-evidence bank for Level 1 Stage 1, meeting the approved 20-item allocation only; not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 items using short standalone situations and evidence selection, not additional reading passages. Requires editorial and pedagogical review before approval or publication."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q01",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "After three rainy days, the school garden soil stayed wet. By Friday, the class found fewer wilted plants. Which detail best supports the idea that the rain helped the plants?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 1,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The class used blue watering cans.",
+        "The soil stayed wet for three days.",
+        "The class met on Friday.",
+        "The garden had a wooden gate."
+      ],
+      "answerKey": [
+        "The soil stayed wet for three days."
+      ],
+      "explanation": 1
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q02",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Mira packed an umbrella even though the sky was clear. At dismissal, dark clouds gathered and rain began. What can you infer about Mira?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 2,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "She dislikes carrying bags.",
+        "She knew the exact time it would rain.",
+        "She was prepared for a possible change in weather.",
+        "She wanted to lend her umbrella."
+      ],
+      "answerKey": [
+        "She was prepared for a possible change in weather."
+      ],
+      "explanation": 2
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q03",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "The library was noisy, so Dev moved to a quiet corner to finish reading. Which evidence best supports the idea that he needed a calm place?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 3,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "He was reading a book about birds.",
+        "He sat beside a tall shelf.",
+        "He returned the book before lunch.",
+        "He moved because the library was noisy."
+      ],
+      "answerKey": [
+        "He moved because the library was noisy."
+      ],
+      "explanation": 3
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q04",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "A class planted bean seeds. They watered them each morning and placed the pots near a sunny window. A week later, small shoots appeared. Which conclusion is best supported?",
+      "difficulty": 0,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 0,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The seeds began to grow after receiving water and light.",
+        "The pots were made of clay.",
+        "The class planted the seeds in winter.",
+        "The window was newly cleaned."
+      ],
+      "answerKey": [
+        "The seeds began to grow after receiving water and light."
+      ],
+      "explanation": 0
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q05",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Rohan usually cycled to school. Today he arrived in a car, carrying a raincoat. Which additional detail would best support the idea that the weather changed his usual travel plan?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 1,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "His bicycle has a bell.",
+        "It had started raining heavily before school.",
+        "The car was silver.",
+        "He arrived five minutes early."
+      ],
+      "answerKey": [
+        "It had started raining heavily before school."
+      ],
+      "explanation": 1
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q06",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "The team practised passing every afternoon. During Saturday's match, they moved the ball smoothly and scored twice from passes. Which evidence best supports the claim that practice improved their teamwork?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 2,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "Saturday's match was played outdoors.",
+        "The team wore matching shirts.",
+        "They practised passing every afternoon.",
+        "The referee carried a whistle."
+      ],
+      "answerKey": [
+        "They practised passing every afternoon."
+      ],
+      "explanation": 2
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q07",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Anaya's poster showed a tap dripping into a bucket. Under it she wrote, 'Turn it off tightly.' What was Anaya most likely trying to encourage?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 3,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "Children should paint more posters.",
+        "People should collect every bucket.",
+        "Taps should be made of metal.",
+        "People should avoid wasting water."
+      ],
+      "answerKey": [
+        "People should avoid wasting water."
+      ],
+      "explanation": 3
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q08",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "A shopkeeper placed a 'Fresh Bread' sign outside. Soon, several people entered and bought loaves. Which evidence best supports the idea that the sign attracted customers?",
+      "difficulty": 0,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 0,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "People came in after seeing the sign.",
+        "The shop had two doors.",
+        "The loaves were round.",
+        "The shopkeeper wore an apron."
+      ],
+      "answerKey": [
+        "People came in after seeing the sign."
+      ],
+      "explanation": 0
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q09",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Leena found a lost lunch box and took it to the teacher instead of keeping it. What can you infer about Leena?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 1,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "She wanted a new lunch box.",
+        "She was trying to return lost property to its owner.",
+        "She had forgotten her own lunch.",
+        "She was late for class."
+      ],
+      "answerKey": [
+        "She was trying to return lost property to its owner."
+      ],
+      "explanation": 1
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-explore-q10",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "The playground was empty at noon, but many children were there after the bell rang. Which detail best explains the change?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 2,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The playground has a slide.",
+        "The sky was cloudy.",
+        "The bell signalled the end of class.",
+        "The school gate is painted green."
+      ],
+      "answerKey": [
+        "The bell signalled the end of class."
+      ],
+      "explanation": 2
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q01",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A character says she is not afraid, but she quietly checks the locked door twice before entering the dark room. Which detail best supports the inference that she feels nervous?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 2,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "She says she is not afraid.",
+        "The room is dark.",
+        "She checks the locked door twice before entering.",
+        "The door is made of wood."
+      ],
+      "answerKey": [
+        "She checks the locked door twice before entering."
+      ],
+      "explanation": 2
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q02",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A town planted trees along a road. Months later, people waiting at the bus stop began standing under the new shade. Which evidence best supports the idea that the trees made waiting more comfortable?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 3,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The road has two lanes.",
+        "The bus stop has a sign.",
+        "The trees were planted months earlier.",
+        "People began waiting beneath the shade."
+      ],
+      "answerKey": [
+        "People began waiting beneath the shade."
+      ],
+      "explanation": 3
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q03",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A student claims that reusable bottles reduce classroom waste. Which observation best supports the claim?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 1,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The class has twenty desks.",
+        "The bin contains fewer disposable bottles after students bring reusable ones.",
+        "The teacher uses a blue marker.",
+        "The classroom windows face east."
+      ],
+      "answerKey": [
+        "The bin contains fewer disposable bottles after students bring reusable ones."
+      ],
+      "explanation": 1
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q04",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Nikhil's report says that reading instructions before starting can prevent mistakes. Which example best supports this conclusion?",
+      "difficulty": 0,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 0,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "A student reads the steps first and avoids mixing up the experiment materials.",
+        "The report has a title page.",
+        "The experiment uses three jars.",
+        "The student writes with a pencil."
+      ],
+      "answerKey": [
+        "A student reads the steps first and avoids mixing up the experiment materials."
+      ],
+      "explanation": 0
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q05",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A community notice asks residents to separate paper from food waste. The next collection day, workers find clean paper in one container and food scraps in another. What does this evidence suggest?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 1,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The collection happened on a weekday.",
+        "The notice helped residents sort their waste.",
+        "The containers were recently painted.",
+        "Workers arrived before sunrise."
+      ],
+      "answerKey": [
+        "The notice helped residents sort their waste."
+      ],
+      "explanation": 1
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q06",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A writer describes a path as 'silent except for the crunch of dry leaves beneath our shoes.' Which inference is best supported by the description?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 2,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The path is beside a busy market.",
+        "The walkers are running quickly.",
+        "The surroundings are quiet and the leaves are dry.",
+        "The path is covered in fresh snow."
+      ],
+      "answerKey": [
+        "The surroundings are quiet and the leaves are dry."
+      ],
+      "explanation": 2
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q07",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A school wants to know whether a new reading corner encourages students to read more. Which evidence would be most useful?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 3,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The corner has yellow cushions.",
+        "The bookshelf is made of wood.",
+        "The corner was opened on Monday.",
+        "Reading-corner visits and book borrowing rise after it opens."
+      ],
+      "answerKey": [
+        "Reading-corner visits and book borrowing rise after it opens."
+      ],
+      "explanation": 3
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q08",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A gardener says the new fence keeps rabbits away from the vegetables. Which observation most strongly supports the claim?",
+      "difficulty": 0,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 0,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "Fewer rabbit tracks appear inside the garden after the fence is installed.",
+        "The fence is painted white.",
+        "The vegetables are arranged in rows.",
+        "The gardener wears gloves."
+      ],
+      "answerKey": [
+        "Fewer rabbit tracks appear inside the garden after the fence is installed."
+      ],
+      "explanation": 0
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q09",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A team finished its project early. Their notes show they divided tasks, set small deadlines, and checked progress each day. Which conclusion is best supported?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 1,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The project required no planning.",
+        "The team finished early because it organised the work carefully.",
+        "Every team member preferred the same task.",
+        "The project was shorter than all other projects."
+      ],
+      "answerKey": [
+        "The team finished early because it organised the work carefully."
+      ],
+      "explanation": 1
+    },
+    {
+      "id": "eng-l1-s1-inference-evidence-extend-q10",
+      "questionType": "inference_supporting_evidence",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A review says a story's ending feels hopeful because the main character begins helping neighbours after a difficult year. Which detail best supports the reviewer's interpretation?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude inference and supporting-evidence item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": 2,
+        "incorrect": "Choose the detail that directly supports the inference or conclusion, rather than an unrelated detail."
+      },
+      "options": [
+        "The story has twelve chapters.",
+        "The character lives near a park.",
+        "The character starts helping neighbours after a difficult year.",
+        "The cover uses green lettering."
+      ],
+      "answerKey": [
+        "The character starts helping neighbours after a difficult year."
+      ],
+      "explanation": 2
+    }
+  ]
+}
