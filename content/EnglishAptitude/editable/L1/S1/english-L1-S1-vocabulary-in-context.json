@@ -1,0 +1,735 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-vocabulary-in-context",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "First real question-type bank for Level 1 Stage 1; covers the approved vocabulary-in-context allocation only, not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 vocabulary items. Requires editorial and pedagogical review before approval or publication. Explore items use sentence-level context; Extend items are intended for application within whole-book study but are not tied to an adopted novel."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q01",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Mira was eager to open the parcel. What does eager mean?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Eager means keen or excited to do something.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Ready and excited to begin",
+        "Quiet and ready to rest",
+        "Unsure about what to do",
+        "Upset about waiting outside"
+      ],
+      "answerKey": [
+        "Ready and excited to begin"
+      ],
+      "explanation": "Eager means keen or excited to do something."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q02",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "The path was narrow, so only one child could walk along it at a time. What does narrow mean?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Narrow means not wide.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Covered with loose stones",
+        "Not very wide across",
+        "Longer than the other path",
+        "Easy to see from far away"
+      ],
+      "answerKey": [
+        "Not very wide across"
+      ],
+      "explanation": "Narrow means not wide."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q03",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Ravi placed the glass gently on the table. What does gently mean?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Gently means with care and without using force.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Before anyone else arrived",
+        "In a very quick way",
+        "With care and softness",
+        "Without looking at the table"
+      ],
+      "answerKey": [
+        "With care and softness"
+      ],
+      "explanation": "Gently means with care and without using force."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q04",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "The sky grew gloomy, and dark clouds covered the sun. What does gloomy suggest?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Gloomy describes something dark or lacking cheer.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Bright and full of light",
+        "Warm and full of sunshine",
+        "Clear with no clouds",
+        "Dark and rather dull"
+      ],
+      "answerKey": [
+        "Dark and rather dull"
+      ],
+      "explanation": "Gloomy describes something dark or lacking cheer."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q05",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Anaya spotted a tiny bird behind the flowerpot. What does spotted mean?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Here, spotted means saw or noticed.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Saw or noticed it",
+        "Painted a mark on it",
+        "Followed it for miles",
+        "Called it to come closer"
+      ],
+      "answerKey": [
+        "Saw or noticed it"
+      ],
+      "explanation": "Here, spotted means saw or noticed."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q06",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "The team had to gather the books before the bell rang. What does gather mean?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Gather means collect or bring together.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Read them one by one",
+        "Bring them together",
+        "Hide them out of sight",
+        "Write new labels for them"
+      ],
+      "answerKey": [
+        "Bring them together"
+      ],
+      "explanation": "Gather means collect or bring together."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q07",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "After the long walk, Kabir felt weary and sat on a bench. What does weary mean?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Weary means tired.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Proud of his own work",
+        "Curious about the new path",
+        "Tired after some effort",
+        "Glad to meet a friend"
+      ],
+      "answerKey": [
+        "Tired after some effort"
+      ],
+      "explanation": "Weary means tired."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q08",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "The puppy gave a brief bark and then became quiet. What does brief mean?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Brief means short in time or length.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Loud enough to hear outside",
+        "Repeated many times in a row",
+        "Hard to understand clearly",
+        "Short and lasting little time"
+      ],
+      "answerKey": [
+        "Short and lasting little time"
+      ],
+      "explanation": "Brief means short in time or length."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q09",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Leela was cautious when she crossed the wet floor. What does cautious mean?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Cautious means careful because there may be risk.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Careful to avoid danger",
+        "Keen to finish very quickly",
+        "Ready to try something new",
+        "Certain that nothing could fall"
+      ],
+      "answerKey": [
+        "Careful to avoid danger"
+      ],
+      "explanation": "Cautious means careful because there may be risk."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-explore-q10",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "The class made a simple chart to record the plants' growth. What does record mean here?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Record means write down or keep information.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Perform a song for others",
+        "Write down what happened",
+        "Remove the plants from soil",
+        "Guess what may happen next"
+      ],
+      "answerKey": [
+        "Write down what happened"
+      ],
+      "explanation": "Record means write down or keep information."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q01",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The clue was subtle, but Nila noticed the small change in the picture. What does subtle mean?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Subtle describes something slight or not easy to notice at first.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Easy for everyone to see",
+        "Very large and clearly marked",
+        "Small or not immediately obvious",
+        "Unrelated to the main picture"
+      ],
+      "answerKey": [
+        "Small or not immediately obvious"
+      ],
+      "explanation": "Subtle describes something slight or not easy to notice at first."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q02",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Arjun gave a precise answer that named the exact number of seeds. What does precise mean?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Precise means exact and accurate.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Based on a wild guess",
+        "Long but hard to follow",
+        "Mostly right but not exact",
+        "Exact and clearly stated"
+      ],
+      "answerKey": [
+        "Exact and clearly stated"
+      ],
+      "explanation": "Precise means exact and accurate."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q03",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The siblings tried to resolve their disagreement by taking turns. What does resolve mean?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Resolve means find an answer to or settle a problem.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Find a way to settle it",
+        "Make the disagreement louder",
+        "Forget what each person said",
+        "Begin a different argument"
+      ],
+      "answerKey": [
+        "Find a way to settle it"
+      ],
+      "explanation": "Resolve means find an answer to or settle a problem."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q04",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The old bridge was sturdy and held the cart safely. What does sturdy mean?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Sturdy means strong and firmly made.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Made to look very colourful",
+        "Strong and not easily broken",
+        "Built in a very short time",
+        "Narrow enough for one person"
+      ],
+      "answerKey": [
+        "Strong and not easily broken"
+      ],
+      "explanation": "Sturdy means strong and firmly made."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q05",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The guide asked the group to observe how the shadows changed. What does observe mean?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Observe means watch carefully.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Change something on purpose",
+        "Explain a rule from memory",
+        "Watch carefully to notice details",
+        "Move quickly to another place"
+      ],
+      "answerKey": [
+        "Watch carefully to notice details"
+      ],
+      "explanation": "Observe means watch carefully."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q06",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The instructions were brief, so everyone read them in a minute. What does brief mean?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Brief means short and concise.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Full of extra details",
+        "Difficult to understand",
+        "Written in a secret code",
+        "Short and to the point"
+      ],
+      "answerKey": [
+        "Short and to the point"
+      ],
+      "explanation": "Brief means short and concise."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q07",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The teacher said the two ideas were related because both concerned saving water. What does related mean?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Related means connected or linked.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Connected in some way",
+        "Different in every detail",
+        "Hidden from one another",
+        "Too hard to compare"
+      ],
+      "answerKey": [
+        "Connected in some way"
+      ],
+      "explanation": "Related means connected or linked."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q08",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Meera made a sensible choice and carried an umbrella when clouds gathered. What does sensible mean?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Sensible means reasonable and showing good judgment.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Made only to impress friends",
+        "Reasonable and showing good judgment",
+        "Chosen without thinking at all",
+        "Unusual but not useful"
+      ],
+      "answerKey": [
+        "Reasonable and showing good judgment"
+      ],
+      "explanation": "Sensible means reasonable and showing good judgment."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q09",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The instructions were clear, so the group could assemble the model without help. What does assemble mean?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Assemble means put separate parts together.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "Take the model apart",
+        "Paint the model a new colour",
+        "Put the parts together",
+        "Pack the model away safely"
+      ],
+      "answerKey": [
+        "Put the parts together"
+      ],
+      "explanation": "Assemble means put separate parts together."
+    },
+    {
+      "id": "eng-l1-s1-vocabulary-extend-q10",
+      "questionType": "vocabulary_in_context",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The class used evidence from its notes to support the conclusion. What does evidence mean?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude vocabulary-in-context item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Evidence is information that supports a claim or conclusion.",
+        "incorrect": "Reread the sentence and use its clues to work out the word's meaning."
+      },
+      "options": [
+        "A plan for the next lesson",
+        "A question with no answer",
+        "A feeling about what might happen",
+        "Information that helps show what is true"
+      ],
+      "answerKey": [
+        "Information that helps show what is true"
+      ],
+      "explanation": "Evidence is information that supports a claim or conclusion."
+    }
+  ]
+}
