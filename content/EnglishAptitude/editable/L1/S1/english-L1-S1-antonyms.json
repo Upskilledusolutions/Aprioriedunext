@@ -105,19 +105,19 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": "Borrow means take something to use and return; give back expresses the opposite action.",
+        "correct": "Borrow means take something to use and return; lend to someone is the opposite action.",
         "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
       },
       "options": [
         "take for a while",
         "read with care",
         "keep on a shelf",
-        "give back"
+        "lend to someone"
       ],
       "answerKey": [
-        "give back"
+        "lend to someone"
       ],
-      "explanation": "Borrow means take something to use and return; give back expresses the opposite action."
+      "explanation": "Borrow means take something to use and return; lend to someone is the opposite action."
     },
     {
       "id": "eng-l1-s1-antonyms-explore-q04",
