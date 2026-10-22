@@ -148,7 +148,7 @@
         "Where is my red pencil.",
         "Where is my red pencil today!",
         "Where is my red pencil,",
-        "Where is my red pencil today."
+        "Where is my red pencil?"
       ],
       "answerKey": [
         "Where is my red pencil?"
@@ -722,7 +722,7 @@
       },
       "options": [
         "Because the bus was late.",
-        "Because the bus was late, so we reached after the bell at school.",
+        "Because the bus was late, we reached after the bell.",
         "The bus because was late, we reached after the bell at school.",
         "Because late the bus was, reached we."
       ],
