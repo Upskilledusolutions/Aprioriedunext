@@ -290,9 +290,9 @@
       },
       "options": [
         "helper",
-        "helpful",
         "helpless",
-        "helmet"
+        "helmet",
+        "helpful"
       ],
       "answerKey": [
         "helpful"
@@ -649,9 +649,9 @@
         "incorrect": "Look at how the words are related or how the word parts change meaning, then choose the best answer."
       },
       "options": [
+        "kindness",
         "unkind",
         "kindly",
-        "kindness",
         "kindergarten"
       ],
       "answerKey": [
