@@ -292,10 +292,10 @@
         "Loud enough to hear outside",
         "Repeated many times in a row",
         "Hard to understand clearly",
-        "Short and lasting little time"
+        "Short in time or length"
       ],
       "answerKey": [
-        "Short and lasting little time"
+        "Short in time or length"
       ],
       "explanation": "Brief means short in time or length."
     },
@@ -403,7 +403,7 @@
         "Unrelated to the main picture"
       ],
       "answerKey": [
-        "Small or not immediately obvious"
+        "Slight and hard to notice"
       ],
       "explanation": "Subtle describes something slight or not easy to notice at first."
     },
@@ -511,7 +511,7 @@
         "Narrow enough for one person"
       ],
       "answerKey": [
-        "Strong and not easily broken"
+        "Strong and firm"
       ],
       "explanation": "Sturdy means strong and firmly made."
     },
@@ -547,7 +547,7 @@
         "Move quickly to another place"
       ],
       "answerKey": [
-        "Watch carefully to notice details"
+        "Watch with care"
       ],
       "explanation": "Observe means watch carefully."
     },
@@ -655,7 +655,7 @@
         "Unusual but not useful"
       ],
       "answerKey": [
-        "Reasonable and showing good judgment"
+        "Wise and sensible"
       ],
       "explanation": "Sensible means reasonable and showing good judgment."
     },
@@ -727,7 +727,7 @@
         "Facts that support a claim"
       ],
       "answerKey": [
-        "Information that helps show what is true"
+        "Facts that support a claim"
       ],
       "explanation": "Evidence is information that supports a claim or conclusion."
     }
