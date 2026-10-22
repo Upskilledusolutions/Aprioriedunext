@@ -1,0 +1,735 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-antonyms",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Original antonym bank for Level 1 Stage 1, meeting the approved 20-item allocation only; not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 items. Requires editorial and pedagogical review before approval or publication. Extend items are vocabulary applications intended for whole-book study but are not tied to an adopted novel; review their final context when the novel is selected."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-antonyms-explore-q01",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "The museum displayed an ancient bowl. Which phrase means the opposite of ancient?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Ancient means very old, so very new is its opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "from long ago",
+        "made by hand",
+        "very new",
+        "kept very safe"
+      ],
+      "answerKey": [
+        "very new"
+      ],
+      "explanation": "Ancient means very old, so very new is its opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-explore-q02",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "The bus will arrive at noon. Which phrase means the opposite of arrive?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "To arrive is to reach a place; to leave a place is the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "leave a place",
+        "reach a place",
+        "wait for someone",
+        "stop for a while"
+      ],
+      "answerKey": [
+        "leave a place"
+      ],
+      "explanation": "To arrive is to reach a place; to leave a place is the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-explore-q03",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Nila will borrow a book from her friend. Which phrase means the opposite of borrow?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Borrow means take something to use and return; give back expresses the opposite action.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "take for a while",
+        "read with care",
+        "keep on a shelf",
+        "give back"
+      ],
+      "answerKey": [
+        "give back"
+      ],
+      "explanation": "Borrow means take something to use and return; give back expresses the opposite action."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-explore-q04",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "A bright lamp lit the room. Which phrase means the opposite of bright?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Bright means giving or reflecting much light; not very bright is its opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "full of light",
+        "not very bright",
+        "easy to notice",
+        "shining from far away"
+      ],
+      "answerKey": [
+        "not very bright"
+      ],
+      "explanation": "Bright means giving or reflecting much light; not very bright is its opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-explore-q05",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Dev was careful while carrying the glass. Which phrase means the opposite of careful?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Careful means taking care to avoid mistakes or harm; not taking care is the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "thinking before acting",
+        "moving very slowly",
+        "not taking care",
+        "checking every detail"
+      ],
+      "answerKey": [
+        "not taking care"
+      ],
+      "explanation": "Careful means taking care to avoid mistakes or harm; not taking care is the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-explore-q06",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "The basket was empty after lunch. Which phrase means the opposite of empty?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "An empty basket has nothing in it; a basket full of things is the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "full of things",
+        "made from bamboo",
+        "left near the door",
+        "easy to carry"
+      ],
+      "answerKey": [
+        "full of things"
+      ],
+      "explanation": "An empty basket has nothing in it; a basket full of things is the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-explore-q07",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "A generous neighbour shared her fruit. Which phrase means the opposite of generous?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "A generous person gives or shares willingly; someone not willing to share is the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "happy to help others",
+        "not willing to share",
+        "ready to give more",
+        "kind to every visitor"
+      ],
+      "answerKey": [
+        "not willing to share"
+      ],
+      "explanation": "A generous person gives or shares willingly; someone not willing to share is the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-explore-q08",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Please include every name on the list. Which phrase means the opposite of include?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Include means to put in as part of a group; leave out means not to include.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "write down clearly",
+        "read aloud slowly",
+        "put in the right place",
+        "leave out"
+      ],
+      "answerKey": [
+        "leave out"
+      ],
+      "explanation": "Include means to put in as part of a group; leave out means not to include."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-explore-q09",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "The narrow lane fit only one bicycle. Which phrase means the opposite of narrow?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Narrow means not wide; very wide is its opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "very wide",
+        "not very long",
+        "quite steep",
+        "hard to find"
+      ],
+      "answerKey": [
+        "very wide"
+      ],
+      "explanation": "Narrow means not wide; very wide is its opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-explore-q10",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-04",
+      "prompt": "Arun was polite when he asked for help. Which phrase means the opposite of polite?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Polite behaviour shows good manners; being rude to others is the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "quiet in class",
+        "ready to listen",
+        "rude to others",
+        "careful with words"
+      ],
+      "answerKey": [
+        "rude to others"
+      ],
+      "explanation": "Polite behaviour shows good manners; being rude to others is the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q01",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Maya chose to accept the invitation. Which phrase means the opposite of accept?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Accept means to agree to take or receive something; say no to is the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "agree to receive",
+        "say no to",
+        "think about it",
+        "ask for details"
+      ],
+      "answerKey": [
+        "say no to"
+      ],
+      "explanation": "Accept means to agree to take or receive something; say no to is the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q02",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The class stayed calm during the storm. Which phrase means the opposite of calm?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Calm means peaceful and not upset; full of worry expresses the opposite state.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "quiet and settled",
+        "ready to listen",
+        "slow and steady",
+        "full of worry"
+      ],
+      "answerKey": [
+        "full of worry"
+      ],
+      "explanation": "Calm means peaceful and not upset; full of worry expresses the opposite state."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q03",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The noise began to decrease after the bell. Which phrase means the opposite of decrease?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Decrease means become less; grow larger means increase.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "grow larger",
+        "become much quieter",
+        "stay at one level",
+        "move to another room"
+      ],
+      "answerKey": [
+        "grow larger"
+      ],
+      "explanation": "Decrease means become less; grow larger means increase."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q04",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The puzzle was difficult but fun. Which phrase means the opposite of difficult?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Difficult means hard to do; easy to do is its opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "made from small pieces",
+        "hard to finish",
+        "easy to do",
+        "full of surprises"
+      ],
+      "answerKey": [
+        "easy to do"
+      ],
+      "explanation": "Difficult means hard to do; easy to do is its opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q05",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Frequent rain filled the pond. Which phrase means the opposite of frequent?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Frequent means happening often; not happening often is the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "happening many times",
+        "not happening often",
+        "lasting a long time",
+        "falling very heavily"
+      ],
+      "answerKey": [
+        "not happening often"
+      ],
+      "explanation": "Frequent means happening often; not happening often is the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q06",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Practice can improve your handwriting. Which phrase means the opposite of improve?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Improve means make something better; make it worse is the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "make it much clearer",
+        "help it get better",
+        "change it a little",
+        "make it worse"
+      ],
+      "answerKey": [
+        "make it worse"
+      ],
+      "explanation": "Improve means make something better; make it worse is the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q07",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "The artist turned an ordinary box into a puppet. Which phrase means the opposite of ordinary?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Ordinary means usual or common; very unusual is its opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "seen every day",
+        "made from cardboard",
+        "very unusual",
+        "useful at home"
+      ],
+      "answerKey": [
+        "very unusual"
+      ],
+      "explanation": "Ordinary means usual or common; very unusual is its opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q08",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Rohan was patient while the paint dried. Which phrase means the opposite of patient?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Patient means able to wait calmly; quick to get upset describes the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "quick to get upset",
+        "willing to wait calmly",
+        "careful with each step",
+        "happy to try again"
+      ],
+      "answerKey": [
+        "quick to get upset"
+      ],
+      "explanation": "Patient means able to wait calmly; quick to get upset describes the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q09",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "A helmet can protect your head. Which phrase means the opposite of protect?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Protect means keep safe from harm; leave it unguarded is the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "keep it safe in this case",
+        "cover it well",
+        "check it often",
+        "leave it unguarded"
+      ],
+      "answerKey": [
+        "leave it unguarded"
+      ],
+      "explanation": "Protect means keep safe from harm; leave it unguarded is the opposite."
+    },
+    {
+      "id": "eng-l1-s1-antonyms-extend-q10",
+      "questionType": "antonyms",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-02",
+      "prompt": "Clean water was scarce during the dry week. Which phrase means the opposite of scarce?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude antonym item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Scarce means not available in enough amounts; easy to find expresses the opposite.",
+        "incorrect": "Think about what the word means in this sentence, then choose the phrase with the opposite meaning."
+      },
+      "options": [
+        "hard to collect",
+        "easy to find",
+        "needed by everyone",
+        "kept in a container"
+      ],
+      "answerKey": [
+        "easy to find"
+      ],
+      "explanation": "Scarce means not available in enough amounts; easy to find expresses the opposite."
+    }
+  ]
+}
