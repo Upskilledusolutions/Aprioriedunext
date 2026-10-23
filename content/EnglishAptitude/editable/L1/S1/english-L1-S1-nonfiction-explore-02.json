@@ -549,7 +549,7 @@
     },
     {
       "id": "eng-l1-s1-nonfiction-compost-q15",
-      "questionType": "inference_supporting_evidence",
+      "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "single_select",
       "levelId": "L1",
       "stageId": "S1",
@@ -681,7 +681,7 @@
     },
     {
       "id": "eng-l1-s1-nonfiction-compost-q19",
-      "questionType": "inference_supporting_evidence",
+      "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "evidence_response",
       "levelId": "L1",
       "stageId": "S1",
@@ -722,7 +722,7 @@
     },
     {
       "id": "eng-l1-s1-nonfiction-compost-q20",
-      "questionType": "inference_supporting_evidence",
+      "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "evidence_response",
       "levelId": "L1",
       "stageId": "S1",
