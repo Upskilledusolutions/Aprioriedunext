@@ -29,7 +29,8 @@
     "english-aptitude:test-inference-evidence": "node scripts/testEnglishAptitudeInferenceEvidenceSet.js",
     "english-aptitude:test-grammar-error-identification": "node scripts/testEnglishAptitudeGrammarErrorIdentificationSet.js",
     "english-aptitude:test-sentence-correction": "node scripts/testEnglishAptitudeSentenceCorrectionSet.js",
-    "english-aptitude:test-paragraph-improvement": "node scripts/testEnglishAptitudeParagraphImprovementSet.js"
+    "english-aptitude:test-paragraph-improvement": "node scripts/testEnglishAptitudeParagraphImprovementSet.js",
+    "english-aptitude:test-sentence-ordering": "node scripts/testEnglishAptitudeSentenceOrderingSet.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
