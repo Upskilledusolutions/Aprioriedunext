@@ -31,7 +31,8 @@
     "english-aptitude:test-sentence-correction": "node scripts/testEnglishAptitudeSentenceCorrectionSet.js",
     "english-aptitude:test-paragraph-improvement": "node scripts/testEnglishAptitudeParagraphImprovementSet.js",
     "english-aptitude:test-sentence-ordering": "node scripts/testEnglishAptitudeSentenceOrderingSet.js",
-    "english-aptitude:test-written-response": "node scripts/testEnglishAptitudeWrittenResponseSet.js"
+    "english-aptitude:test-written-response": "node scripts/testEnglishAptitudeWrittenResponseSet.js",
+    "english-aptitude:test-listening-oral": "node scripts/testEnglishAptitudeListeningOralResponseSet.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
