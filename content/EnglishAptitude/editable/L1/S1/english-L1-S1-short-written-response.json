@@ -1,0 +1,835 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-short-written-response",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Original short written-response prompt bank for Level 1 Stage 1, meeting the approved 20-item allocation only; not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Ten Explore short-text responses and ten Extend paragraph responses. Rubrics allow defensible answers rather than requiring exact wording. Requires editorial and pedagogical review before approval or publication."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q01",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Write two sentences telling how you would help a new student feel welcome at school.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "A relevant action and a kind reason, expressed in two clear sentences.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q02",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "In two or three sentences, explain why plants need water and sunlight.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Both water and sunlight are mentioned with a simple explanation.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q03",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Describe a time you had to wait patiently. What did you do while waiting?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "A clear situation and a sensible action taken while waiting.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q04",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Write two sentences explaining how to keep a classroom tidy.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Two practical actions that support a tidy classroom.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q05",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "A friend is worried about trying a new activity. Write two sentences to encourage them.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "A supportive message and a specific reason or suggestion.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q06",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Explain in two or three sentences why it is important to check both sides before crossing a road.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "A safety-focused explanation that mentions checking traffic in both directions.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q07",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Write two sentences about a small goal you would like to achieve and one step you can take.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "A clear goal and one realistic step toward it.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q08",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Describe your favourite place to read. Give two details that help the reader imagine it.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "A place is identified and supported with two relevant details.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q09",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Write two sentences explaining what you would do if you found a lost pencil case at school.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "A responsible action and an appropriate next step, such as finding its owner or a teacher.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-explore-q10",
+      "questionType": "short_written_response",
+      "responseFormat": "short_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Summarise how to prepare for a school day in three short sentences.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write 2–3 clear sentences unless the prompt specifies a different length. Other defensible answers are acceptable when they meet the prompt and guidance.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "A sensible sequence with preparation, checking needed items, and getting ready to leave.",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, readable sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q01",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Write a short paragraph explaining how classmates can solve a disagreement fairly.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Explains the problem respectfully",
+            "maxPoints": 1
+          },
+          {
+            "name": "Suggests listening and a fair solution",
+            "maxPoints": 1
+          },
+          {
+            "name": "Uses clear, connected sentences",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q02",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Describe a challenge you might face while learning a new skill and explain how you could respond.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Identifies a plausible challenge",
+            "maxPoints": 1
+          },
+          {
+            "name": "Gives a practical response",
+            "maxPoints": 1
+          },
+          {
+            "name": "Explains how the response could help",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q03",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Write a short note to persuade your class to reduce paper waste. Include two reasons.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "States a clear request or position",
+            "maxPoints": 1
+          },
+          {
+            "name": "Gives two relevant reasons",
+            "maxPoints": 1
+          },
+          {
+            "name": "Uses suitable persuasive language",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q04",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Explain why a person should check information before sharing it with others.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Explains why checking matters",
+            "maxPoints": 1
+          },
+          {
+            "name": "Gives a sensible checking action",
+            "maxPoints": 1
+          },
+          {
+            "name": "Connects the action to avoiding mistakes",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q05",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Compare working alone with working in a team. Give one benefit of each.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Describes working alone accurately",
+            "maxPoints": 1
+          },
+          {
+            "name": "Describes teamwork accurately",
+            "maxPoints": 1
+          },
+          {
+            "name": "Makes the comparison clear",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q06",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Write a short paragraph about how a school garden could benefit people and nature.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Gives at least two relevant benefits",
+            "maxPoints": 1
+          },
+          {
+            "name": "Connects benefits to people or nature",
+            "maxPoints": 1
+          },
+          {
+            "name": "Organises ideas coherently",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q07",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Imagine a character has made a mistake that affected a friend. Write what the character should do next and why.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Suggests a responsible next action",
+            "maxPoints": 1
+          },
+          {
+            "name": "Considers the friend's feelings",
+            "maxPoints": 1
+          },
+          {
+            "name": "Explains why the action is appropriate",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q08",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Write a short set of instructions for preparing a simple healthy snack. Put the steps in order.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Includes practical steps",
+            "maxPoints": 1
+          },
+          {
+            "name": "Presents steps in a sensible order",
+            "maxPoints": 1
+          },
+          {
+            "name": "Uses clear instruction language",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q09",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Explain how a story's setting can affect what happens to its characters. Use a simple example you invent.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Explains a setting's influence",
+            "maxPoints": 1
+          },
+          {
+            "name": "Provides a relevant invented example",
+            "maxPoints": 1
+          },
+          {
+            "name": "Connects the example to events or choices",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-short-written-response-extend-q10",
+      "questionType": "short_written_response",
+      "responseFormat": "long_text",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Write a short paragraph describing one change that would make your community more welcoming to children. Explain how it would help.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude written-response prompt for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "Review your response for relevant ideas, clear wording, and a logical order.",
+        "incorrect": "Try again by answering every part of the prompt, adding a relevant detail, and checking that your ideas are easy to follow."
+      },
+      "answerGuidance": "Write a short paragraph of about 3–5 sentences. Other defensible answers are acceptable when they meet the prompt and rubric.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Identifies a feasible change",
+            "maxPoints": 1
+          },
+          {
+            "name": "Explains how children would benefit",
+            "maxPoints": 1
+          },
+          {
+            "name": "Uses clear, connected reasoning",
+            "maxPoints": 1
+          }
+        ]
+      }
+    }
+  ]
+}
