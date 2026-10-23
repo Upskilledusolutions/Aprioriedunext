@@ -398,7 +398,7 @@
       },
       "options": [
         "Tara wanted to learn to swim. Her favourite colour was purple, and she liked drawing stars. After several weeks, she could cross the pool.",
-        "Tara wanted to learn to swim. Her favourite colour was purple. After several weeks, she could cross the pool.",
+        "Tara wanted to learn to swim. She went to lessons every Saturday. After several weeks, she could cross the pool.",
         "Tara wanted to learn to swim. She went to lessons every Saturday. Swimming pools contain water.",
         "Tara wanted to learn to swim. She went to lessons every Saturday, and Saturday comes after Friday."
       ],
@@ -723,8 +723,8 @@
       "options": [
         "The shelf was made of wood and stood near a wall in the school library.",
         "Some students carry bags to school each morning before their first lesson.",
-        "Books have pages, covers, and printed words that readers use to follow a story.",
-        "This way, more students could enjoy books without buying every one."
+        "This way, more students could enjoy books without buying every one.",
+        "Books have pages, covers, and printed words that readers use to follow a story."
       ],
       "answerKey": [
         "This way, more students could enjoy books without buying every one."
