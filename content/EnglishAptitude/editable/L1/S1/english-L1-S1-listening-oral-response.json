@@ -1,0 +1,895 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-listening-oral-response",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Original listening comprehension and oral-response bank for Level 1 Stage 1, meeting the approved 20-item allocation only; not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Ten Explore and ten Extend items; each half contains five written listening responses and five oral prompts. The listeningText field is the read-aloud stimulus for this content slice, not a recorded audio asset. Requires editorial, pedagogical, and delivery-mode review before approval or publication."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q01",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then write your response: What happened after Asha cared for the seeds? Tell one detail you heard.",
+      "listeningText": "Asha planted three bean seeds in a pot. She watered the soil and placed the pot near a sunny window. After several days, two tiny green shoots appeared.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q02",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then answer orally: Why did Meena check the box? Give a detail from the listening text.",
+      "listeningText": "On Tuesday, the class collected clean paper for recycling. Rohan carried the box to the collection area while Meena checked that no food scraps were inside.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q03",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then write your response: State one library rule and one way the librarian can help.",
+      "listeningText": "The school library opens at eight thirty. Children may borrow two books at a time and must return them the following week. A librarian can help anyone who cannot find a book.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q04",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then answer orally: Why did Kabir ask his sister for help? Explain using what you heard.",
+      "listeningText": "Every morning, Kabir feeds his fish before getting ready for school. On Saturday, he asked his sister to feed them because he would be away for the day.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q05",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then write your response: Why did the children wait inside? Retell what happened next.",
+      "listeningText": "A strong wind blew leaves across the playground. The teacher asked the children to wait inside until the wind became calmer. They returned outdoors after lunch.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q06",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then answer orally: Describe two steps Nila took to make or give the card.",
+      "listeningText": "Nila wanted to make a birthday card. She folded a yellow sheet, drew stars on the front, and wrote a kind message inside. She gave it to her cousin after dinner.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q07",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then write your response: What did the children do to avoid disturbing the bird, and why?",
+      "listeningText": "A small bird had built a nest in the tree beside the playground. The children noticed it and decided to play on the other side so the bird would not be disturbed.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q08",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then answer orally: What did Arjun do to protect his food? Give two details.",
+      "listeningText": "At the market, Arjun bought apples and carrots. He put the apples in a cloth bag and asked the seller to keep the carrots separate so they would not be squashed.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q09",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then write your response: Retell the preparation steps in the order you heard them.",
+      "listeningText": "The class was preparing for a trip. First, everyone checked the permission slip. Next, they packed a water bottle and lunch. At the end, they lined up by the classroom door.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-explore-q10",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Listen to the passage read aloud, then answer orally: What did Maya and her brother do when the storm began? Explain why they waited.",
+      "listeningText": "Maya heard thunder while she was walking home. She went with her brother into the nearby shop and waited with the shopkeeper until the heavy rain passed. Then they called their parent.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant detail from the listening text",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q01",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then write your response: Give a short oral explanation of two benefits of planting trees along the road.",
+      "listeningText": "A town planted trees along a busy road. The trees gave shade to people waiting for buses, and their roots helped hold soil in place when rain fell. Volunteers watered the young trees during the first summer.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q02",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then answer orally: Retell the test method and explain why the club repeated it.",
+      "listeningText": "A science club tested which paper towel absorbed the most water. They poured the same amount of water onto each towel and measured what remained. The thickest towel absorbed the most, but the club repeated the test to make sure the result was consistent.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q03",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then write your response: What helped Leela prepare, and what can you infer about how she responded to her worry?",
+      "listeningText": "Leela wanted to join the school choir but worried she might sing the wrong notes. She attended a practice session, listened carefully to the group, and practised the difficult part at home. At the concert, she sang with the others.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q04",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then answer orally: Explain how the tool-sharing shelf could help residents and why the notebook matters.",
+      "listeningText": "The neighbourhood started a tool-sharing shelf at the community centre. Residents could borrow a hammer or screwdriver instead of buying one for a single job. A notebook recorded who borrowed each tool and when it was returned.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q05",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then write your response: Summarise the researchers' finding and the action they recommended.",
+      "listeningText": "A river looked clear near its source, but farther downstream it passed farms and a town. Researchers tested the water at several points. They found more sediment after heavy rain and advised the town to protect plants along the riverbank.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q06",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then answer orally: Give a balanced oral response: state one benefit and one practical question the class should solve.",
+      "listeningText": "During a class debate, one student claimed that every school should have a garden. She explained that gardens can provide science lessons and give students responsibility. Another student asked how the garden would be cared for during holidays.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q07",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then write your response: Which details support the idea that the boat was used for fishing? Explain how the sources work together.",
+      "listeningText": "A museum label said an old wooden boat was used by local fishers more than a hundred years ago. A photograph showed nets inside it, and a diary from the same period described fishing trips from the harbour. The museum compared these sources before writing its display.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q08",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then answer orally: Explain the change the school made and what evidence suggests it helped.",
+      "listeningText": "The school reduced food waste by letting students choose small, regular, or large portions. Students could return for more if they were still hungry. After a month, the kitchen staff recorded less uneaten food on trays.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q09",
+      "questionType": "listening_oral_response",
+      "responseFormat": "listening_text_response",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then write your response: Explain two planning choices that helped the group respond to changing weather.",
+      "listeningText": "A hiking group planned a route before leaving. The leader checked the weather, marked a shorter path in case of rain, and asked everyone to carry water. When clouds gathered, the group used the shorter path and returned safely.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Write 1–3 clear sentences using accurate details from the listening text. Equivalent wording is acceptable.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-listening-oral-extend-q10",
+      "questionType": "listening_oral_response",
+      "responseFormat": "oral_prompt",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Listen to the passage read aloud, then answer orally: Retell the project and explain one reason the labels were useful.",
+      "listeningText": "A community garden invited older residents to teach children how to save seeds. The children labelled each envelope with the plant name and date. In spring, they planted some saved seeds and compared the results with newly purchased seeds.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored listening script and response prompt for English Aptitude Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original listening text, prompt, and scoring rubric authored for this project."
+      },
+      "feedback": {
+        "correct": "A strong response uses accurate details from the listening text and explains the answer clearly.",
+        "incorrect": "Listen for the key details, then answer every part of the question in your own words."
+      },
+      "answerGuidance": "Respond aloud in 2–4 clear sentences. The response may use different wording if it accurately reflects the listening text.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Accurate understanding of the main point or conclusion",
+            "maxPoints": 2
+          },
+          {
+            "name": "Relevant supporting details or reasoning",
+            "maxPoints": 2
+          },
+          {
+            "name": "Clear, complete response in the requested mode",
+            "maxPoints": 1
+          }
+        ]
+      }
+    }
+  ]
+}
