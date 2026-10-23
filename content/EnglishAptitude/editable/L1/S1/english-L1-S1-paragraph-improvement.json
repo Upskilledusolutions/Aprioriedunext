@@ -397,8 +397,8 @@
         "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
       },
       "options": [
-        "Tara wanted to learn to swim. Her favourite colour was purple, and she liked drawing stars. After several weeks, she could cross the pool.",
         "Tara wanted to learn to swim. She went to lessons every Saturday. After several weeks, she could cross the pool.",
+        "Tara wanted to learn to swim. Her favourite colour was purple, and she liked drawing stars. After several weeks, she could cross the pool.",
         "Tara wanted to learn to swim. She went to lessons every Saturday. Swimming pools contain water.",
         "Tara wanted to learn to swim. She went to lessons every Saturday, and Saturday comes after Friday."
       ],
@@ -434,9 +434,9 @@
       },
       "options": [
         "The child had a new pair of shoes for school and planned to wear them on Monday.",
-        "The gate was painted green last summer, before the garden path was repaired.",
         "The child may have wanted to help the bird on a hot day.",
-        "Birds are animals, and gates can open and close when someone uses the latch."
+        "Birds are animals, and gates can open and close when someone uses the latch.",
+        "The gate was painted green last summer, before the garden path was repaired."
       ],
       "answerKey": [
         "The child may have wanted to help the bird on a hot day."
