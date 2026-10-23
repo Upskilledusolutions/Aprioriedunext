@@ -37,8 +37,8 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "Plant the seed, water it, then see new leaves.",
         "See new leaves, plant the seed, then water it carefully.",
+        "Plant the seed, water it, then see new leaves.",
         "Water the soil after new leaves grow, then plant the seed.",
         "Water the soil first, then see new leaves before planting the seed."
       ],
@@ -109,9 +109,9 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "Wash the fruit, cut it into pieces, then eat it.",
         "Eat the fruit first, wash it, then cut it into pieces.",
         "Cut the fruit, eat it, and then wash the pieces.",
+        "Wash the fruit, cut it into pieces, then eat it.",
         "Wash the fruit, eat it, and only then cut it into pieces."
       ],
       "answerKey": [
@@ -289,10 +289,10 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "The path was muddy, so we walked slowly.",
         "The path was muddy, but we walked slowly because the ground was slippery.",
         "The path was muddy, but because slowly.",
-        "The path was muddy, we slowly walked so."
+        "The path was muddy, we slowly walked so.",
+        "The path was muddy, so we walked slowly."
       ],
       "answerKey": [
         "The path was muddy, so we walked slowly."
