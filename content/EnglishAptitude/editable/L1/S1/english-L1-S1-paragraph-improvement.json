@@ -1,0 +1,735 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-paragraph-improvement",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Original paragraph-improvement bank for Level 1 Stage 1, meeting the approved 20-item allocation only; not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Original Grade 3 items focused on relevance, sequencing, transitions, concision, supporting details and paragraph conclusions. Requires editorial and pedagogical review before approval or publication."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q01",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Mina planted tomato seeds. She watered the pot each morning. Soon, small green shoots appeared. Which sentence best improves the paragraph by adding a useful detail?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The added phrase explains where Mina planted the seeds and supports the paragraph's sequence.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Mina planted tomato seeds in a pot of soil. She watered the pot each morning. Soon, small green shoots appeared.",
+        "Mina planted tomato seeds. She watered the pot each morning. Soon, small green shoots appeared. It was a Tuesday.",
+        "Mina planted tomato seeds. She watered the pot each morning. Soon, small green shoots appeared, and the pot was a pot.",
+        "Mina planted tomato seeds. She watered the pot each morning. Soon, small green shoots appeared before she planted them."
+      ],
+      "answerKey": [
+        "Mina planted tomato seeds in a pot of soil. She watered the pot each morning. Soon, small green shoots appeared."
+      ],
+      "explanation": "The added phrase explains where Mina planted the seeds and supports the paragraph's sequence."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q02",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Ravi packed his schoolbag. He checked his timetable. He put his lunch box inside. Which revision makes the order clearer?",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The revision presents the actions in a sensible order and uses “then” to connect them.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Ravi packed his schoolbag, and his timetable was checked by the lunch box.",
+        "Ravi checked his timetable, then packed his schoolbag and put his lunch box inside.",
+        "Ravi put his lunch box inside. His timetable was packed after he checked his schoolbag.",
+        "Ravi packed his schoolbag. He put his lunch box inside, although he had not packed it."
+      ],
+      "answerKey": [
+        "Ravi checked his timetable, then packed his schoolbag and put his lunch box inside."
+      ],
+      "explanation": "The revision presents the actions in a sensible order and uses “then” to connect them."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q03",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "The class visited the library. The children chose books. They read quietly at their tables. Which sentence is repetitive and should be removed?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The last option repeats the same idea instead of adding information.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "The class visited the library after lunch that day.",
+        "The children chose books that they wanted to read.",
+        "They read quietly at their tables in the library.",
+        "The children selected books, and the children chose books."
+      ],
+      "answerKey": [
+        "The children selected books, and the children chose books."
+      ],
+      "explanation": "The last option repeats the same idea instead of adding information."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q04",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Aarav forgot his umbrella. Dark clouds gathered overhead. He reached school with wet sleeves. Which transition best shows the result?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“As a result” clearly connects the rain-related events with the outcome.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Aarav forgot his umbrella. Dark clouds gathered overhead. As a result, he reached school with wet sleeves.",
+        "Aarav forgot his umbrella. Dark clouds gathered overhead. For example, he reached school with wet sleeves.",
+        "Aarav forgot his umbrella. Dark clouds gathered overhead. Meanwhile, he reached school with wet sleeves.",
+        "Aarav forgot his umbrella. Dark clouds gathered overhead. In contrast, he reached school with wet sleeves."
+      ],
+      "answerKey": [
+        "Aarav forgot his umbrella. Dark clouds gathered overhead. As a result, he reached school with wet sleeves."
+      ],
+      "explanation": "“As a result” clearly connects the rain-related events with the outcome."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q05",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Leela made a paper kite. She tied a string to it. She ran into the open field. Which detail best belongs at the end?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Testing whether the kite would fly gives a clear purpose for running into the field.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Leela made a paper kite. She tied a string to it. She ran into the open field where her cousin had eaten breakfast last year.",
+        "Leela made a paper kite. She tied a string to it. She ran into the open field to see if it would fly.",
+        "Leela made a paper kite. She tied a string to it. She ran into the open field, and string is useful.",
+        "Leela made a paper kite. She tied a string to it. She ran into the open field before making the kite."
+      ],
+      "answerKey": [
+        "Leela made a paper kite. She tied a string to it. She ran into the open field to see if it would fly."
+      ],
+      "explanation": "Testing whether the kite would fly gives a clear purpose for running into the field."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q06",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "The puppy was thirsty. Nikhil filled a bowl with water. The puppy drank it quickly. Which opening best introduces the paragraph?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The opening introduces the situation that leads naturally to the puppy drinking.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Nikhil has a blue pencil case for school.",
+        "One warm afternoon, Nikhil noticed his puppy looking for water.",
+        "The puppy drank quickly because bowls can hold water.",
+        "Nikhil and his puppy were both very, very thirsty and the puppy was thirsty."
+      ],
+      "answerKey": [
+        "One warm afternoon, Nikhil noticed his puppy looking for water."
+      ],
+      "explanation": "The opening introduces the situation that leads naturally to the puppy drinking."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q07",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Our team practised passing the ball. We took turns shooting at the goal. We improved by working together. Which ending best connects to the main idea?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The ending summarises how teamwork helped the group improve.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "The goal had a net attached to its frame.",
+        "Passing practice takes place on many fields.",
+        "Working together helped our team play better.",
+        "We took turns shooting at the goal and goals are important."
+      ],
+      "answerKey": [
+        "Working together helped our team play better."
+      ],
+      "explanation": "The ending summarises how teamwork helped the group improve."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q08",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "First, wash the apple. Next, cut it into small pieces. Then, place the pieces in a bowl. Which word best replaces “Then” to avoid repeating the same transition style?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Finally” signals the last step in the instructions.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Yesterday, place the pieces in a bowl.",
+        "Finally, place the pieces in a bowl.",
+        "Because, place the pieces in a bowl.",
+        "Although, place the pieces in a bowl."
+      ],
+      "answerKey": [
+        "Finally, place the pieces in a bowl."
+      ],
+      "explanation": "“Finally” signals the last step in the instructions."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q09",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "A bee landed on a flower. It collected nectar. It flew to another flower. Which sentence adds a relevant explanation?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The sentence explains what the bee is doing and stays on the paragraph's topic.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Bees collect nectar from flowers as they visit them.",
+        "Flowers can be painted in many bright colours.",
+        "A bee landed on a flower, and flowers are often gifts.",
+        "The bee flew to another flower before it landed on the first flower."
+      ],
+      "answerKey": [
+        "Bees collect nectar from flowers as they visit them."
+      ],
+      "explanation": "The sentence explains what the bee is doing and stays on the paragraph's topic."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-explore-q10",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "The rain stopped. The children went outside. They played hopscotch on the dry path. Which change improves the flow?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Combining the first two ideas reduces choppiness and keeps the events in order.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "The rain stopped. The children went outside. They played hopscotch on the dry path, the rain stopped.",
+        "After the rain stopped, the children went outside and played hopscotch on the path.",
+        "The children went outside before the rain stopped and after the path was dry.",
+        "The rain stopped. The children went outside, but they played hopscotch because it was raining."
+      ],
+      "answerKey": [
+        "After the rain stopped, the children went outside and played hopscotch on the path."
+      ],
+      "explanation": "Combining the first two ideas reduces choppiness and keeps the events in order."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q01",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Tara wanted to learn to swim. She went to lessons every Saturday. After several weeks, she could cross the pool. Which sentence best improves the paragraph's focus?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "This version keeps every sentence focused on Tara learning to swim without irrelevant details.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Tara wanted to learn to swim. Her favourite colour was purple. After several weeks, she could cross the pool.",
+        "Tara wanted to learn to swim. She went to lessons every Saturday. After several weeks, she could cross the pool.",
+        "Tara wanted to learn to swim. She went to lessons every Saturday. Swimming pools contain water.",
+        "Tara wanted to learn to swim. She went to lessons every Saturday, and Saturday comes after Friday."
+      ],
+      "answerKey": [
+        "Tara wanted to learn to swim. She went to lessons every Saturday. After several weeks, she could cross the pool."
+      ],
+      "explanation": "This version keeps every sentence focused on Tara learning to swim without irrelevant details."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q02",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "A small bird sat near the garden gate. It chirped loudly. A child placed some water nearby. Which sentence best explains why the child may have done this?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The sentence offers a reasonable explanation linked to the bird and the water.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "The child had a new pair of shoes for school.",
+        "The gate was painted green last summer.",
+        "The child may have wanted to help the bird on a hot day.",
+        "Birds are animals, and gates can open and close."
+      ],
+      "answerKey": [
+        "The child may have wanted to help the bird on a hot day."
+      ],
+      "explanation": "The sentence offers a reasonable explanation linked to the bird and the water."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q03",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "The museum had old coins, maps, and pottery. Our guide explained how people used them. We learned about life long ago. Which revision combines ideas most smoothly?",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Combining the related first two sentences creates a smooth link between the objects and their uses.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "The museum had old coins, maps, and pottery, and our guide explained how people used them.",
+        "The museum had old coins. Maps were old. Pottery was there too. We learned.",
+        "Our guide explained them, which people used, and the museum was old long ago.",
+        "The museum had old coins, maps, and pottery. Our guide explained how people used them, which we learned about life."
+      ],
+      "answerKey": [
+        "The museum had old coins, maps, and pottery, and our guide explained how people used them."
+      ],
+      "explanation": "Combining the related first two sentences creates a smooth link between the objects and their uses."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q04",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Sam put a seed in a cup of soil. He added a little water. Each day, he checked for a sprout. Which detail would best support the paragraph's purpose?",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Sunlight is a relevant condition for a growing seed and supports the sequence.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Sam's favourite game was played on a tablet.",
+        "The cup was next to a window where it could get sunlight.",
+        "A sprout is a word with six letters.",
+        "Sam checked for a sprout each day and each day he checked."
+      ],
+      "answerKey": [
+        "The cup was next to a window where it could get sunlight."
+      ],
+      "explanation": "Sunlight is a relevant condition for a growing seed and supports the sequence."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q05",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Our neighbourhood held a clean-up day. Families collected litter from the park. The park looked tidier afterward. Which sentence best concludes the paragraph?",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The conclusion links the group's effort to the improvement described.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Some families also own bicycles and scooters.",
+        "The park has trees near the walking path.",
+        "Everyone arrived at different times, but nobody collected litter.",
+        "Their shared effort made the park a cleaner place for everyone."
+      ],
+      "answerKey": [
+        "Their shared effort made the park a cleaner place for everyone."
+      ],
+      "explanation": "The conclusion links the group's effort to the improvement described."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q06",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Pooja practised reading aloud. At first, she paused at difficult words. She became more confident each day. Which transition best signals change over time?",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Gradually” signals a change that develops over time.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "At first, she paused at difficult words; gradually, she became more confident.",
+        "For example, she paused at difficult words; however, each day is a day.",
+        "In the same way, she paused at difficult words before she practised reading.",
+        "On the other hand, she practised reading aloud because she became confident first."
+      ],
+      "answerKey": [
+        "At first, she paused at difficult words; gradually, she became more confident."
+      ],
+      "explanation": "“Gradually” signals a change that develops over time."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q07",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "The river was full after the rain. The current moved quickly. People stayed behind the safety rail. Which sentence best explains the final action?",
+      "difficulty": 5,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The sentence gives a clear safety-related reason for staying behind the rail.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "The rail was made from metal and was painted long ago.",
+        "The river was full after the rain, and rivers flow through land.",
+        "The fast water made it unsafe to go close to the river.",
+        "People stayed behind the rail, which people stayed behind."
+      ],
+      "answerKey": [
+        "The fast water made it unsafe to go close to the river."
+      ],
+      "explanation": "The sentence gives a clear safety-related reason for staying behind the rail."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q08",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Mehul made a chart about butterflies. He drew each stage of their life cycle. He shared the chart with his class. Which revision removes unnecessary repetition while preserving the meaning?",
+      "difficulty": 5,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The revision combines related information concisely without removing a key idea.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "Mehul made a chart about butterflies. He drew each stage of their life cycle. He shared the chart with his class.",
+        "Mehul made a butterfly chart showing each life-cycle stage and shared it with his class.",
+        "Mehul made a chart about butterflies, and butterflies are insects that have stages.",
+        "Mehul drew each stage, and he drew each stage of their life cycle on a chart."
+      ],
+      "answerKey": [
+        "Mehul made a butterfly chart showing each life-cycle stage and shared it with his class."
+      ],
+      "explanation": "The revision combines related information concisely without removing a key idea."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q09",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "A group of friends planned a picnic. They checked the weather forecast. They chose a date with clear skies. Which sentence best shows why checking the forecast was useful?",
+      "difficulty": 5,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The sentence explains how the forecast informed their decision.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "A picnic is an outdoor meal, and meals are eaten by people.",
+        "They checked the weather forecast after the picnic was over.",
+        "The forecast helped them choose a day that would suit an outdoor meal.",
+        "They chose a date with clear skies because forecasts are always wrong."
+      ],
+      "answerKey": [
+        "The forecast helped them choose a day that would suit an outdoor meal."
+      ],
+      "explanation": "The sentence explains how the forecast informed their decision."
+    },
+    {
+      "id": "eng-l1-s1-paragraph-improvement-extend-q10",
+      "questionType": "paragraph_improvement",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "The school started a book-sharing shelf. Students left books they had finished. Other students could borrow them. Which sentence best adds a benefit of this idea?",
+      "difficulty": 5,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude paragraph-improvement item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The sentence explains a practical benefit that follows from sharing books.",
+        "incorrect": "Compare each option with the paragraph's main idea. Look for clear order, useful detail, relevant transitions, and removal of repetition or unrelated information."
+      },
+      "options": [
+        "The shelf was made of wood and stood near a wall.",
+        "Some students carry bags to school each morning.",
+        "Books have pages, covers, and printed words.",
+        "This way, more students could enjoy books without buying every one."
+      ],
+      "answerKey": [
+        "This way, more students could enjoy books without buying every one."
+      ],
+      "explanation": "The sentence explains a practical benefit that follows from sharing books."
+    }
+  ]
+}
