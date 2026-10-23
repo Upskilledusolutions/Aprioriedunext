@@ -73,8 +73,8 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "The bell rang, and the students lined up.",
         "The students lined up, the bell rang after.",
+        "The bell rang, and the students lined up.",
         "The bell rang because the students lined up.",
         "The bell rang, the students lined up, and the bell rang."
       ],
@@ -110,8 +110,8 @@
       },
       "options": [
         "1, 3, 2",
-        "2, 3, 1",
         "3, 2, 1",
+        "2, 3, 1",
         "2, 1, 3"
       ],
       "answerKey": [
@@ -141,19 +141,19 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": "Both sentences describe the same dog, so they can be combined as “The brown dog barked.”",
+        "correct": "Combining the two details into “The brown dog barked” avoids repeating “the dog” and preserves both ideas.",
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "The dog barked. The dog was brown.",
-        "The sun set. The sun rose in the morning.",
-        "We walked home. The moon is made of cheese.",
-        "I read a book. My shoes are blue."
+        "The dog barked, and the brown dog barked.",
+        "The dog was brown. The dog barked. The dog was brown.",
+        "The dog barked because the dog was brown.",
+        "The brown dog barked."
       ],
       "answerKey": [
-        "The dog barked. The dog was brown."
+        "The brown dog barked."
       ],
-      "explanation": "Both sentences describe the same dog, so they can be combined as “The brown dog barked.”"
+      "explanation": "Combining the two details into “The brown dog barked” avoids repeating “the dog” and preserves both ideas."
     },
     {
       "id": "eng-l1-s1-sentence-ordering-explore-q05",
@@ -218,8 +218,8 @@
       },
       "options": [
         "Sentence 1",
-        "Sentence 3",
         "Sentence 2",
+        "Sentence 3",
         "Any sentence works equally well"
       ],
       "answerKey": [
@@ -253,9 +253,9 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "Our class planted flowers near the gate. We watered them each day.",
         "Our class planted flowers. My uncle owns a red bicycle. We watered them.",
         "My uncle owns a red bicycle, and we planted flowers near the gate.",
+        "Our class planted flowers near the gate. We watered them each day.",
         "We watered flowers each day because my uncle owns a red bicycle."
       ],
       "answerKey": [
@@ -289,10 +289,10 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "The path was muddy, so we walked slowly.",
         "The path was muddy, or we walked slowly.",
         "The path was muddy, but because slowly.",
-        "The path was muddy, we slowly walked so."
+        "The path was muddy, we slowly walked so.",
+        "The path was muddy, so we walked slowly."
       ],
       "answerKey": [
         "The path was muddy, so we walked slowly."
@@ -403,8 +403,8 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "1, 2, 3",
         "2, 3, 1",
+        "1, 2, 3",
         "3, 1, 2",
         "2, 1, 3"
       ],
@@ -439,8 +439,8 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "The kites rose higher as the wind grew stronger.",
         "The wind grew stronger, the kites, higher.",
+        "The kites rose higher as the wind grew stronger.",
         "The kites rose higher although the wind grew stronger because.",
         "The wind and kites were stronger and higher and rose."
       ],
@@ -477,8 +477,8 @@
       "options": [
         "Turn off the tap while brushing your teeth.",
         "Fix a dripping tap when you notice one.",
-        "Use a bucket to collect water for plants.",
-        "My favourite sport is badminton, and I play on Sundays."
+        "My favourite sport is badminton, and I play on Sundays.",
+        "Use a bucket to collect water for plants."
       ],
       "answerKey": [
         "My favourite sport is badminton, and I play on Sundays."
@@ -511,10 +511,10 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "Rina finished her homework, then checked her answers.",
         "Rina finished her homework because she checked her answers first.",
         "Rina checked, her answers finished homework.",
-        "Rina finished her homework, but she checked answers homework."
+        "Rina finished her homework, but she checked answers homework.",
+        "Rina finished her homework, then checked her answers."
       ],
       "answerKey": [
         "Rina finished her homework, then checked her answers."
@@ -547,8 +547,8 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "1, 3, 2",
         "2, 3, 1",
+        "1, 3, 2",
         "3, 1, 2",
         "2, 1, 3"
       ],
@@ -583,8 +583,8 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "The frightened rabbit hid in a bush.",
         "The rabbit hid in a bush, the rabbit frightened.",
+        "The frightened rabbit hid in a bush.",
         "The rabbit was frightened because the bush hid.",
         "The rabbit hid in a bush and the rabbit and bush were frightened."
       ],
@@ -615,19 +615,19 @@
         "basis": "Original prompt and options authored for this project."
       },
       "feedback": {
-        "correct": "The whale fact is unrelated to preparing for a school race.",
+        "correct": "The whale fact does not help explain preparation for a school race.",
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
         "The runners stretched before the race.",
         "The team checked the starting line.",
-        "The coach reminded everyone to drink water.",
-        "A blue whale is a very large sea animal."
+        "A blue whale is a very large sea animal.",
+        "The coach reminded everyone to drink water."
       ],
       "answerKey": [
         "A blue whale is a very large sea animal."
       ],
-      "explanation": "The whale fact is unrelated to preparing for a school race."
+      "explanation": "The whale fact does not help explain preparation for a school race."
     },
     {
       "id": "eng-l1-s1-sentence-ordering-extend-q08",
@@ -655,10 +655,10 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "The library was quiet, so we could concentrate on our books.",
         "The library was quiet, but we could concentrate because books.",
         "We could concentrate, the library quiet was.",
-        "The library was quiet, or we could concentrate on books."
+        "The library was quiet, or we could concentrate on books.",
+        "The library was quiet, so we could concentrate on our books."
       ],
       "answerKey": [
         "The library was quiet, so we could concentrate on our books."
@@ -742,6 +742,78 @@
           }
         ]
       }
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q09",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the clearest way to combine these ideas: “The puppy was sleepy. It curled up on the rug.”",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The phrase “sleepy puppy” combines the description with the action clearly.",
+        "incorrect": "Check the sequence and meaning. A strong revision connects ideas clearly and keeps every sentence relevant."
+      },
+      "options": [
+        "The sleepy puppy curled up on the rug.",
+        "The puppy was sleepy, the rug curled up.",
+        "The puppy curled up on the rug because it was not sleepy.",
+        "The rug was sleepy and the puppy curled up on it."
+      ],
+      "answerKey": [
+        "The sleepy puppy curled up on the rug."
+      ],
+      "explanation": "The phrase “sleepy puppy” combines the description with the action clearly."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q09",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which sentence best combines the ideas without changing their meaning? “The path was steep. We climbed it slowly.”",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“So” links the steep path to the decision to climb slowly.",
+        "incorrect": "Check the sequence and meaning. A strong revision connects ideas clearly and keeps every sentence relevant."
+      },
+      "options": [
+        "The path was steep, so we climbed it slowly.",
+        "The path was steep, but we climbed it slowly because not.",
+        "We climbed the path, the path was steep, the path slowly.",
+        "The path was steep, or we climbed it slowly."
+      ],
+      "answerKey": [
+        "The path was steep, so we climbed it slowly."
+      ],
+      "explanation": "“So” links the steep path to the decision to climb slowly."
     }
   ]
 }
