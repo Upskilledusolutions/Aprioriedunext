@@ -549,7 +549,7 @@
     },
     {
       "id": "eng-l1-s1-nonfiction-rain-garden-q15",
-      "questionType": "inference_supporting_evidence",
+      "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "single_select",
       "levelId": "L1",
       "stageId": "S1",
@@ -586,7 +586,7 @@
     },
     {
       "id": "eng-l1-s1-nonfiction-rain-garden-q16",
-      "questionType": "inference_supporting_evidence",
+      "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "single_select",
       "levelId": "L1",
       "stageId": "S1",
@@ -681,7 +681,7 @@
     },
     {
       "id": "eng-l1-s1-nonfiction-rain-garden-q19",
-      "questionType": "inference_supporting_evidence",
+      "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "evidence_response",
       "levelId": "L1",
       "stageId": "S1",
@@ -722,7 +722,7 @@
     },
     {
       "id": "eng-l1-s1-nonfiction-rain-garden-q20",
-      "questionType": "inference_supporting_evidence",
+      "questionType": "nonfiction_passage_comprehension",
       "responseFormat": "evidence_response",
       "levelId": "L1",
       "stageId": "S1",
