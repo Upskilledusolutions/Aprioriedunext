@@ -37,13 +37,13 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "2, 3, 1",
-        "1, 2, 3",
-        "3, 1, 2",
-        "2, 1, 3"
+        "Plant the seed, water it, then see new leaves.",
+        "See new leaves, plant the seed, then water it carefully.",
+        "Water the soil after new leaves grow, then plant the seed.",
+        "Water the soil first, then see new leaves before planting the seed."
       ],
       "answerKey": [
-        "2, 3, 1"
+        "Plant the seed, water it, then see new leaves."
       ],
       "explanation": "Planting comes first, watering follows, and new leaves appear as the seedling grows."
     },
@@ -109,13 +109,13 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "1, 3, 2",
-        "3, 2, 1",
-        "2, 3, 1",
-        "2, 1, 3"
+        "Wash the fruit, cut it into pieces, then eat it.",
+        "Eat the fruit first, wash it, then cut it into pieces.",
+        "Cut the fruit, eat it, and then wash the pieces.",
+        "Wash the fruit, eat it, and only then cut it into pieces."
       ],
       "answerKey": [
-        "2, 3, 1"
+        "Wash the fruit, cut it into pieces, then eat it."
       ],
       "explanation": "Washing, cutting, and eating follow the natural order of preparing fruit salad."
     },
@@ -289,10 +289,10 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "The path was muddy, or we walked slowly.",
+        "The path was muddy, so we walked slowly.",
+        "The path was muddy, but we walked slowly because the ground was slippery.",
         "The path was muddy, but because slowly.",
-        "The path was muddy, we slowly walked so.",
-        "The path was muddy, so we walked slowly."
+        "The path was muddy, we slowly walked so."
       ],
       "answerKey": [
         "The path was muddy, so we walked slowly."
@@ -339,45 +339,6 @@
       }
     },
     {
-      "id": "eng-l1-s1-sentence-ordering-explore-q10",
-      "questionType": "sentence_ordering_combining_construction",
-      "responseFormat": "sentence_reorder",
-      "levelId": "L1",
-      "stageId": "S1",
-      "half": "explore",
-      "moduleId": "L1-S1-M2",
-      "activityId": "ENG-L1-S1-EXP-05",
-      "prompt": "Arrange these sentences to tell what happened during a rainy walk:\nA. When the rain stopped, we continued our walk.\nB. We took our umbrellas before leaving home.\nC. Soon, dark clouds brought heavy rain.\nD. We waited under a shelter.",
-      "difficulty": 3,
-      "status": "draft",
-      "version": 1,
-      "source": {
-        "sourceType": "original",
-        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
-      },
-      "rights": {
-        "status": "original",
-        "basis": "Original prompt and options authored for this project."
-      },
-      "feedback": {
-        "correct": "A clear order is B → C → D → A. The group takes umbrellas, rain begins, they wait, and then continue.",
-        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
-      },
-      "answerGuidance": "A clear order is B → C → D → A. The group takes umbrellas, rain begins, they wait, and then continue.",
-      "rubric": {
-        "criteria": [
-          {
-            "name": "Logical order and coherence",
-            "maxPoints": 2
-          },
-          {
-            "name": "Preserves all key information",
-            "maxPoints": 1
-          }
-        ]
-      }
-    },
-    {
       "id": "eng-l1-s1-sentence-ordering-extend-q01",
       "questionType": "sentence_ordering_combining_construction",
       "responseFormat": "single_select",
@@ -403,13 +364,13 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "2, 3, 1",
-        "1, 2, 3",
-        "3, 1, 2",
-        "2, 1, 3"
+        "Fill the jar, close the lid, then add its label.",
+        "Add the label first, fill the jar, then close it tightly.",
+        "Close the lid, add the label, and only then fill the jar.",
+        "Fill the jar, label it before closing, then reopen the lid."
       ],
       "answerKey": [
-        "2, 3, 1"
+        "Fill the jar, close the lid, then add its label."
       ],
       "explanation": "Fill the jar first, close it, and then label the finished container."
     },
@@ -475,13 +436,13 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "Turn off the tap while brushing your teeth.",
-        "Fix a dripping tap when you notice one.",
-        "My favourite sport is badminton, and I play on Sundays.",
-        "Use a bucket to collect water for plants."
+        "Turn off the tap while brushing your teeth each morning.",
+        "Fix a dripping tap when you notice one at home.",
+        "I play badminton every Sunday with my neighbours.",
+        "Use a bucket to collect water for plants in the garden."
       ],
       "answerKey": [
-        "My favourite sport is badminton, and I play on Sundays."
+        "I play badminton every Sunday with my neighbours."
       ],
       "explanation": "The badminton sentence is unrelated to ways of saving water."
     },
@@ -547,13 +508,13 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "options": [
-        "2, 3, 1",
-        "1, 3, 2",
-        "3, 1, 2",
-        "2, 1, 3"
+        "Place the ice, watch it melt, then record what you saw.",
+        "Record what you saw, place the ice, and then watch it melt.",
+        "Watch the ice melt, record it, and then place it in the dish.",
+        "Place the ice, record your notes, then watch it before it melts."
       ],
       "answerKey": [
-        "2, 3, 1"
+        "Place the ice, watch it melt, then record what you saw."
       ],
       "explanation": "Place the ice first, observe the melting, and then record the observation."
     },
@@ -691,45 +652,6 @@
         "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
       },
       "answerGuidance": "A clear order is B → C → D → A. Choose the project, gather materials, build and test it, then present it.",
-      "rubric": {
-        "criteria": [
-          {
-            "name": "Logical order and coherence",
-            "maxPoints": 2
-          },
-          {
-            "name": "Preserves all key information",
-            "maxPoints": 1
-          }
-        ]
-      }
-    },
-    {
-      "id": "eng-l1-s1-sentence-ordering-extend-q10",
-      "questionType": "sentence_ordering_combining_construction",
-      "responseFormat": "sentence_reorder",
-      "levelId": "L1",
-      "stageId": "S1",
-      "half": "extend",
-      "moduleId": "L1-S1-M3",
-      "activityId": "ENG-L1-S1-EXT-03",
-      "prompt": "Arrange these sentences to explain how a library book is borrowed:\nA. The librarian records the loan.\nB. Choose a book you want to read.\nC. Take the book home and return it by the due date.\nD. Bring the book to the library desk.",
-      "difficulty": 5,
-      "status": "draft",
-      "version": 1,
-      "source": {
-        "sourceType": "original",
-        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
-      },
-      "rights": {
-        "status": "original",
-        "basis": "Original prompt and options authored for this project."
-      },
-      "feedback": {
-        "correct": "A clear order is B → D → A → C. Choose the book, bring it to the desk, have the loan recorded, and follow the return date.",
-        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
-      },
-      "answerGuidance": "A clear order is B → D → A → C. Choose the book, bring it to the desk, have the loan recorded, and follow the return date.",
       "rubric": {
         "criteria": [
           {
