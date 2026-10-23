@@ -1,0 +1,747 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-sentence-ordering-combining-construction",
+  "levelId": "L1",
+  "stageId": "S1",
+  "bankVersion": 1,
+  "editorNotes": {
+    "purpose": "Original sentence-ordering, combining and construction bank for Level 1 Stage 1, meeting the approved 20-item allocation only; not the complete stage bank.",
+    "contentStatus": "draft_content",
+    "activityRegistryVersion": 1,
+    "reviewNotes": "Ten Explore and ten Extend items. Multiple-choice items assess ordering, combining and relevance; constructed sentence_reorder items assess sequencing with rubric-based guidance. Requires editorial and pedagogical review before approval or publication."
+  },
+  "questions": [
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q01",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Put these events in the best order: (1) The seedling grew two new leaves. (2) Nila planted a seed. (3) She watered the soil.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Planting comes first, watering follows, and new leaves appear as the seedling grows.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "2, 3, 1",
+        "1, 2, 3",
+        "3, 1, 2",
+        "2, 1, 3"
+      ],
+      "answerKey": [
+        "2, 3, 1"
+      ],
+      "explanation": "Planting comes first, watering follows, and new leaves appear as the seedling grows."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q02",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Which sentence best combines these ideas? “The bell rang. The students lined up.”",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The conjunction “and” joins the two related events clearly.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "The bell rang, and the students lined up.",
+        "The students lined up, the bell rang after.",
+        "The bell rang because the students lined up.",
+        "The bell rang, the students lined up, and the bell rang."
+      ],
+      "answerKey": [
+        "The bell rang, and the students lined up."
+      ],
+      "explanation": "The conjunction “and” joins the two related events clearly."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q03",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the best order for a short description: (1) Finally, we ate the fruit salad. (2) First, we washed the fruit. (3) Next, we cut it into pieces.",
+      "difficulty": 1,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Washing, cutting, and eating follow the natural order of preparing fruit salad.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "1, 3, 2",
+        "2, 3, 1",
+        "3, 2, 1",
+        "2, 1, 3"
+      ],
+      "answerKey": [
+        "2, 3, 1"
+      ],
+      "explanation": "Washing, cutting, and eating follow the natural order of preparing fruit salad."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q04",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Which pair of sentences can be combined without losing meaning?",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Both sentences describe the same dog, so they can be combined as “The brown dog barked.”",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "The dog barked. The dog was brown.",
+        "The sun set. The sun rose in the morning.",
+        "We walked home. The moon is made of cheese.",
+        "I read a book. My shoes are blue."
+      ],
+      "answerKey": [
+        "The dog barked. The dog was brown."
+      ],
+      "explanation": "Both sentences describe the same dog, so they can be combined as “The brown dog barked.”"
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q05",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the clearest sentence made from these ideas: “Asha found a shell. The shell was shiny.”",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The adjective “shiny” fits naturally before “shell” and keeps the meaning clear.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "Asha found a shiny shell.",
+        "Asha found a shell, the shell was shiny and found.",
+        "Shiny, Asha found, shell the was.",
+        "Asha found a shell because shiny."
+      ],
+      "answerKey": [
+        "Asha found a shiny shell."
+      ],
+      "explanation": "The adjective “shiny” fits naturally before “shell” and keeps the meaning clear."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q06",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Which sentence should come first? (1) Then I tied the ribbon. (2) I wrapped the gift in paper. (3) At last, I gave it to my friend.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The gift must be wrapped before the ribbon is tied and before it is given.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "Sentence 1",
+        "Sentence 3",
+        "Sentence 2",
+        "Any sentence works equally well"
+      ],
+      "answerKey": [
+        "Sentence 2"
+      ],
+      "explanation": "The gift must be wrapped before the ribbon is tied and before it is given."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q07",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Which version removes an unrelated detail? “Our class planted flowers near the gate. We watered them each day. My uncle owns a red bicycle.”",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The bicycle detail does not support the paragraph about the class flowers.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "Our class planted flowers near the gate. We watered them each day.",
+        "Our class planted flowers. My uncle owns a red bicycle. We watered them.",
+        "My uncle owns a red bicycle, and we planted flowers near the gate.",
+        "We watered flowers each day because my uncle owns a red bicycle."
+      ],
+      "answerKey": [
+        "Our class planted flowers near the gate. We watered them each day."
+      ],
+      "explanation": "The bicycle detail does not support the paragraph about the class flowers."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q08",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Choose the best way to join the ideas: “The path was muddy. We walked slowly.”",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“So” clearly shows that walking slowly was a result of the muddy path.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "The path was muddy, so we walked slowly.",
+        "The path was muddy, or we walked slowly.",
+        "The path was muddy, but because slowly.",
+        "The path was muddy, we slowly walked so."
+      ],
+      "answerKey": [
+        "The path was muddy, so we walked slowly."
+      ],
+      "explanation": "“So” clearly shows that walking slowly was a result of the muddy path."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q09",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "sentence_reorder",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Arrange these sentences to explain how to care for a plant:\nA. Place it where it can get sunlight.\nB. First, fill a pot with soil.\nC. Then, put the seed in the soil.\nD. Water it gently.",
+      "difficulty": 2,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "A clear order is B → C → D → A. Fill the pot, plant the seed, water it, and place it in sunlight.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "answerGuidance": "A clear order is B → C → D → A. Fill the pot, plant the seed, water it, and place it in sunlight.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Logical order and coherence",
+            "maxPoints": 2
+          },
+          {
+            "name": "Preserves all key information",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-explore-q10",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "sentence_reorder",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M2",
+      "activityId": "ENG-L1-S1-EXP-05",
+      "prompt": "Arrange these sentences to tell what happened during a rainy walk:\nA. When the rain stopped, we continued our walk.\nB. We took our umbrellas before leaving home.\nC. Soon, dark clouds brought heavy rain.\nD. We waited under a shelter.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "A clear order is B → C → D → A. The group takes umbrellas, rain begins, they wait, and then continue.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "answerGuidance": "A clear order is B → C → D → A. The group takes umbrellas, rain begins, they wait, and then continue.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Logical order and coherence",
+            "maxPoints": 2
+          },
+          {
+            "name": "Preserves all key information",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q01",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which order makes the instructions easiest to follow? (1) Put the label on the jar. (2) Fill the clean jar with seeds. (3) Close the lid tightly.",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Fill the jar first, close it, and then label the finished container.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "1, 2, 3",
+        "2, 3, 1",
+        "3, 1, 2",
+        "2, 1, 3"
+      ],
+      "answerKey": [
+        "2, 3, 1"
+      ],
+      "explanation": "Fill the jar first, close it, and then label the finished container."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q02",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Choose the clearest combined sentence: “The wind grew stronger. The kites rose higher.”",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“As” connects the two changes and makes their relationship clear.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "The kites rose higher as the wind grew stronger.",
+        "The wind grew stronger, the kites, higher.",
+        "The kites rose higher although the wind grew stronger because.",
+        "The wind and kites were stronger and higher and rose."
+      ],
+      "answerKey": [
+        "The kites rose higher as the wind grew stronger."
+      ],
+      "explanation": "“As” connects the two changes and makes their relationship clear."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q03",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which sentence belongs least in a paragraph about saving water?",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The badminton sentence is unrelated to ways of saving water.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "Turn off the tap while brushing your teeth.",
+        "Fix a dripping tap when you notice one.",
+        "Use a bucket to collect water for plants.",
+        "My favourite sport is badminton, and I play on Sundays."
+      ],
+      "answerKey": [
+        "My favourite sport is badminton, and I play on Sundays."
+      ],
+      "explanation": "The badminton sentence is unrelated to ways of saving water."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q04",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which version combines the ideas most smoothly? “Rina finished her homework. She checked her answers.”",
+      "difficulty": 3,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“Then” shows that checking the answers happened after the homework was finished.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "Rina finished her homework, then checked her answers.",
+        "Rina finished her homework because she checked her answers first.",
+        "Rina checked, her answers finished homework.",
+        "Rina finished her homework, but she checked answers homework."
+      ],
+      "answerKey": [
+        "Rina finished her homework, then checked her answers."
+      ],
+      "explanation": "“Then” shows that checking the answers happened after the homework was finished."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q05",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Choose the best order for a science observation: (1) We recorded what we saw. (2) We placed the ice cube in a dish. (3) We watched it begin to melt.",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "Place the ice first, observe the melting, and then record the observation.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "1, 3, 2",
+        "2, 3, 1",
+        "3, 1, 2",
+        "2, 1, 3"
+      ],
+      "answerKey": [
+        "2, 3, 1"
+      ],
+      "explanation": "Place the ice first, observe the melting, and then record the observation."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q06",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which revision joins the ideas and avoids repetition? “The rabbit hid in a bush. The rabbit was frightened.”",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“The frightened rabbit” combines the ideas without repeating the noun.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "The frightened rabbit hid in a bush.",
+        "The rabbit hid in a bush, the rabbit frightened.",
+        "The rabbit was frightened because the bush hid.",
+        "The rabbit hid in a bush and the rabbit and bush were frightened."
+      ],
+      "answerKey": [
+        "The frightened rabbit hid in a bush."
+      ],
+      "explanation": "“The frightened rabbit” combines the ideas without repeating the noun."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q07",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Which detail should be removed from a paragraph about preparing for a school race?",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "The whale fact is unrelated to preparing for a school race.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "The runners stretched before the race.",
+        "The team checked the starting line.",
+        "The coach reminded everyone to drink water.",
+        "A blue whale is a very large sea animal."
+      ],
+      "answerKey": [
+        "A blue whale is a very large sea animal."
+      ],
+      "explanation": "The whale fact is unrelated to preparing for a school race."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q08",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Choose the best sentence combining the ideas: “The library was quiet. We could concentrate on our books.”",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "“So” correctly shows that the quiet library helped the readers concentrate.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "options": [
+        "The library was quiet, so we could concentrate on our books.",
+        "The library was quiet, but we could concentrate because books.",
+        "We could concentrate, the library quiet was.",
+        "The library was quiet, or we could concentrate on books."
+      ],
+      "answerKey": [
+        "The library was quiet, so we could concentrate on our books."
+      ],
+      "explanation": "“So” correctly shows that the quiet library helped the readers concentrate."
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q09",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "sentence_reorder",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Arrange these sentences into a clear paragraph about a class project:\nA. At the end, we showed our model to the class.\nB. Our group chose to build a model bridge.\nC. We gathered sticks, paper, and glue.\nD. After building it, we tested how much weight it could hold.",
+      "difficulty": 4,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "A clear order is B → C → D → A. Choose the project, gather materials, build and test it, then present it.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "answerGuidance": "A clear order is B → C → D → A. Choose the project, gather materials, build and test it, then present it.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Logical order and coherence",
+            "maxPoints": 2
+          },
+          {
+            "name": "Preserves all key information",
+            "maxPoints": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eng-l1-s1-sentence-ordering-extend-q10",
+      "questionType": "sentence_ordering_combining_construction",
+      "responseFormat": "sentence_reorder",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "extend",
+      "moduleId": "L1-S1-M3",
+      "activityId": "ENG-L1-S1-EXT-03",
+      "prompt": "Arrange these sentences to explain how a library book is borrowed:\nA. The librarian records the loan.\nB. Choose a book you want to read.\nC. Take the book home and return it by the due date.\nD. Bring the book to the library desk.",
+      "difficulty": 5,
+      "status": "draft",
+      "version": 1,
+      "source": {
+        "sourceType": "original",
+        "reference": "Newly authored English Aptitude sentence-ordering/combining/construction item for Level 1, Stage 1."
+      },
+      "rights": {
+        "status": "original",
+        "basis": "Original prompt and options authored for this project."
+      },
+      "feedback": {
+        "correct": "A clear order is B → D → A → C. Choose the book, bring it to the desk, have the loan recorded, and follow the return date.",
+        "incorrect": "Look for a sensible sequence, a clear connection between related ideas, and sentences that stay focused on the main topic."
+      },
+      "answerGuidance": "A clear order is B → D → A → C. Choose the book, bring it to the desk, have the loan recorded, and follow the return date.",
+      "rubric": {
+        "criteria": [
+          {
+            "name": "Logical order and coherence",
+            "maxPoints": 2
+          },
+          {
+            "name": "Preserves all key information",
+            "maxPoints": 1
+          }
+        ]
+      }
+    }
+  ]
+}
