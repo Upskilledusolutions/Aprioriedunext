@@ -1,7 +1,7 @@
 # English Aptitude — Phase B Architecture Proposal
 
 **Prepared:** 2026-10-20  
-**Status:** Architecture direction approved for staged implementation; Phase C question-bank foundation is in progress on `english-aptitude-phase-c-schema`. No application changes have been merged to `main` or deployed.  
+**Status:** Architecture direction approved for staged implementation. The Phase C editable/canonical bank foundation and combined L1/S1 source-bank coverage test have passed on `english-aptitude-phase-c-schema`; authored content remains draft, and learner delivery/persistence/analytics are not yet verified. No application changes have been merged to `main` or deployed.  
 **Frontend:** `Upskilledusolutions/Aprioriedunext`, branch `main`  
 **Production:** https://www.upskilleduonline.com  
 **Deployment:** Vercel team `Upskilledusolutions / upskilledusolutions-projects`  
@@ -79,4 +79,4 @@ Implementation should proceed in meaningful, logically ordered increments: avoid
 
 ## 7. Approval status
 
-**Approved direction, implementation still in progress.** The owner authorized Phase C question-bank foundation work on 2026-10-21 and approved the initial-release audio/recording/oral-assessment scope above. Phase A audit is complete. This proposal is not evidence of a successful production build, live browser check or deployment. No API/database contract is treated as verified until the backend trace and implementation tests establish it.
+**Approved direction, implementation still in progress.** The owner authorized Phase C question-bank foundation work on 2026-10-21 and approved the initial-release audio/recording/oral-assessment scope above. Phase A audit is complete. On 2026-10-26, the owner reported that the combined L1/S1 coverage test passed for all 16 editable source banks (320 unique draft questions, 200 Explore / 120 Extend, all 12 question types, registered mappings, and round-trip/gap checks). This validates bank coverage only; editorial/rights review, learner delivery, persistence, analytics, production build and live behaviour remain unverified. No API/database contract is treated as verified until the backend trace and implementation tests establish it.
