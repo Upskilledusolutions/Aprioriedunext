@@ -80,3 +80,8 @@ Implementation should proceed in meaningful, logically ordered increments: avoid
 ## 7. Approval status
 
 **Approved direction, implementation still in progress.** The owner authorized Phase C question-bank foundation work on 2026-10-21 and approved the initial-release audio/recording/oral-assessment scope above. Phase A audit is complete. On 2026-10-26, the owner reported that the combined L1/S1 coverage test passed for all 16 editable source banks (320 unique draft questions, 200 Explore / 120 Extend, all 12 question types, registered mappings, and round-trip/gap checks). This validates bank coverage only; editorial/rights review, learner delivery, persistence, analytics, production build and live behaviour remain unverified. No API/database contract is treated as verified until the backend trace and implementation tests establish it.
+
+
+## Phase D navigation foundation — 2026-10-26
+
+English-scoped L1/S1 dashboard and registered activity-overview routes have been added, along with a registry-derived navigation helper, authenticated Courses link, and focused navigation test. This is navigation scaffolding only and is not an interactive question player. Local tests/build and deployment have not yet been run. Next increment: implement and test one representative response mode using validated bank data, without inventing persistence APIs.
