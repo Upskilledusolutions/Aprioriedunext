@@ -334,3 +334,16 @@ For the next Reasoning Analytics implementation, do not create a placeholder or 
 ## Current Reasoning Stage invariant
 
 The permanent Stage/Level invariant is maintained in `docs/REASONING_STAGE_LAUNCH_AND_VERIFICATION_STANDARD.md`. Do not create a second copy of that rule here.
+
+## Reading-content provenance and owner-approved sources
+
+For English Aptitude, source fidelity is a hard requirement: learner-facing fiction and nonfiction passages must be authentic published texts by recognized authors, public domain for use in India, or authentic published translations with their own rights status verified. Do not author original stories or original nonfiction passages, and do not substitute AI-written adaptations, retellings, modernizations, or paraphrases. Original questions and instructional materials may be written about an eligible sourced text.
+
+Do not select, replace, or reassign a reading text merely to fill a bank slot. Every reading passage must match the owner's approved source inventory and have recorded publication/edition, author, translation details if applicable, exact source URL and excerpt location, India-specific rights evidence, and editorial approval. When the approved source inventory is unavailable or incomplete, stop source selection and mark the work blocked; do not guess. Schema validity, metadata presence and a passing automated test do not constitute content approval.
+
+The current committed reading files for L1/S1 are original drafts and are not eligible for release. The currently committed curriculum does not fully record the per-level approved source inventory or the approved nonfiction excerpts, so this must be resolved before reading-content work resumes.
+
+## Cross-product and regression protection
+
+New features must not unintentionally alter existing pages, layouts, styles, navigation, authentication, analytics, stored data or functionality. First inspect and preserve existing behaviour. Prefer scoped styles and product-specific components/data; avoid global layout or shared-state changes unless explicitly necessary. After each coherent change, test the modified page and relevant existing flows on desktop and mobile, including Reasoning, Foreign Languages, product selection, login/navigation, and analytics as applicable. Document and seek owner approval for unavoidable shared changes or regressions. Never merge to main, release draft content, or deploy without the required approval.
+
