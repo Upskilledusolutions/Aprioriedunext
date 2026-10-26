@@ -178,126 +178,146 @@ Even in this senior band, check the language, length and conceptual demands of e
 
 ### Explore and Extend: nonfiction candidate pool
 
-This pool mirrors the fiction list's five provisional reading bands and 15-candidate structure. Entries are **authentic published nonfiction works or specific essay/chapter/letter candidates**, not approved final passages. Select short, contiguous excerpts from the cited work; never rewrite, modernize, or paraphrase the source text. Band A maps to Levels 1–2, Band B to Levels 3–4, Band C to Levels 5–6, Band D to Levels 7–8, and Band E to Level 9.
+This pool mirrors the fiction list's five provisional reading bands and 15-candidate structure. **Every listed work is assigned to one band only; no nonfiction work may be reused at another level.** Different works by the same author are allowed, but the selected excerpt must be the exact published text, not a paraphrase or adaptation. Band A maps to Levels 1–2, Band B to Levels 3–4, Band C to Levels 5–6, Band D to Levels 7–8, and Band E to Level 9.
+
+These are candidate works, not pre-cleared passages. For a selected passage, record the exact edition/translator, source URL and excerpt location, verify India-specific rights, and assess suitability for the target grade before use. A public-domain status claim for the underlying work or a U.S. website is not by itself India-specific rights clearance.
 
 **Band A — Grades 3–4 (Levels 1–2)**
 
-1. *Letters from a Father to His Daughter* — Jawaharlal Nehru; “The Book of Nature” or “The Making of the Earth” (letter excerpts).
-2. *The Story of My Experiments with Truth* — Mohandas K. Gandhi; childhood and school-life episodes.
-3. *The Story of My Boyhood and Youth* — John Muir; early nature observations.
-4. *My First Summer in the Sierra* — John Muir; a short field-observation excerpt.
-5. *Birds and Bees, Sharp Eyes, and Other Papers* — John Burroughs; “Birds and Bees” or “Sharp Eyes.”
-6. *Squirrels and Other Fur-Bearers* — John Burroughs; a short animal-observation excerpt.
-7. *A Winter Walk* — Henry David Thoreau.
-8. *Wild Apples* — Henry David Thoreau.
-9. *Autumnal Tints* — Henry David Thoreau.
-10. *Birds Through an Opera-Glass* — Florence Merriam Bailey; a short bird-observation excerpt.
-11. *Handbook of Nature-Study* — Anna Botsford Comstock; a short observation-based excerpt.
-12. *The Child’s Book of Nature* — Worthington Hooker; a short, concrete observation about plants, animals, or the human body.
-13. *The Voyage of the Beagle* — Charles Darwin; a short observation of animals, plants, or landscape.
-14. *The Malay Archipelago* — Alfred Russel Wallace; a short natural-history observation.
-15. *The Childhood of the World* — Edward Clodd; a short introductory excerpt on early human societies, only if the language is accessible.
+1. *Letters from a Father to His Daughter* — Jawaharlal Nehru; select a concrete nature or early-world-history letter.
+2. *The Story of My Experiments with Truth* — Mohandas K. Gandhi; select a clear childhood or school-life episode.
+3. *My First Summer in the Sierra* — John Muir; select a short nature-observation excerpt.
+4. *Birds and Bees, Sharp Eyes, and Other Papers* — John Burroughs; select one clearly bounded nature essay.
+5. “A Winter Walk” — Henry David Thoreau.
+6. “Wild Apples” — Henry David Thoreau.
+7. “Autumnal Tints” — Henry David Thoreau.
+8. *Birds Through an Opera-Glass* — Florence Merriam Bailey; select a short bird-observation excerpt.
+9. *Handbook of Nature-Study* — Anna Botsford Comstock; select one concrete observation-based passage.
+10. *The Child’s Book of Nature* — Worthington Hooker; select an accessible passage on plants, animals or the human body.
+11. *The Voyage of the Beagle* — Charles Darwin; select a short observation of animals, plants or landscape.
+12. *The Malay Archipelago* — Alfred Russel Wallace; select a short natural-history observation.
+13. *The Natural History of Selborne* — Gilbert White; select a short observation of birds, animals or seasonal change.
+14. *The Life of the Bee* — Maurice Maeterlinck; use only a suitable excerpt from an eligible published translation.
+15. *The Open Air* — Richard Jefferies; select one short nature essay.
 
 **Band B — Grades 5–6 (Levels 3–4)**
 
-1. *Letters from a Father to His Daughter* — Jawaharlal Nehru; “The First Living Things” or “The Animals Appear.”
-2. *The Discovery of India* — Jawaharlal Nehru; a short historical or cultural passage, subject to language review.
-3. *The Story of My Experiments with Truth* — Mohandas K. Gandhi; an episode about habits, schooling, or learning.
-4. *The Autobiography of Benjamin Franklin* — Benjamin Franklin; an excerpt on learning, habits, or self-improvement.
-5. *The Life of the Bee* — Maurice Maeterlinck; a short observation-based excerpt.
-6. *The Story of the Heavens* — Robert Stawell Ball; an introductory astronomy excerpt.
-7. *The Story of the Earth and Man* — J. William Dawson; a short geology or natural-history excerpt.
-8. *The Naturalist on the River Amazons* — Henry Walter Bates; a short field observation.
-9. *The Voyage of the Beagle* — Charles Darwin; a passage on adaptation, fossils, or observed species.
-10. *The Mountains of California* — John Muir; a short description of a natural process or habitat.
-11. *Excursions* — Henry David Thoreau; “Night and Moonlight” or “The Succession of Forest Trees.”
-12. *The American Beaver and His Works* — Lewis Henry Morgan; a short animal-behaviour excerpt.
-13. *The Natural History of Selborne* — Gilbert White; a short, clearly bounded observation about birds, animals, or seasonal change.
-14. *The Open Air* — Richard Jefferies; a short nature essay.
-15. *The Life of the Fields* — Richard Jefferies; a short seasonal or wildlife observation.
+1. *The Story of My Boyhood and Youth* — John Muir; select an episode about childhood, schooling or observing nature.
+2. *The Discovery of India* — Jawaharlal Nehru; select a short historical or cultural passage.
+3. *The Autobiography of Benjamin Franklin* — Benjamin Franklin; select an episode about learning, habits or self-improvement.
+4. *The Story of the Heavens* — Robert Stawell Ball; select an introductory astronomy passage.
+5. *The Story of the Earth and Man* — J. William Dawson; select an accessible geology or natural-history passage.
+6. *The Naturalist on the River Amazons* — Henry Walter Bates; select one field observation.
+7. *The Mountains of California* — John Muir; select a passage about a natural process or habitat.
+8. *The American Beaver and His Works* — Lewis Henry Morgan; select a concrete animal-behaviour passage.
+9. *The Life of the Fields* — Richard Jefferies; select one seasonal or wildlife essay.
+10. *A Short History of the World* — H. G. Wells; select a short, clearly contextualised history passage.
+11. *Life on the Mississippi* — Mark Twain; select a travel, river-life or memoir excerpt.
+12. *A Yankee in Canada* — Henry David Thoreau; select a travel-observation excerpt.
+13. *Travels with a Donkey in the Cévennes* — Robert Louis Stevenson; select a short travel-writing passage.
+14. *Roughing It* — Mark Twain; select a factual travel or place-description excerpt, avoiding passages that blur fact and comic invention.
+15. *The Romance of Natural History* — Philip Henry Gosse; select a short natural-history passage, subject to exact-edition review.
 
 **Band C — Grades 7–8 (Levels 5–6)**
 
-1. *The Autobiography of Charles Darwin* — Charles Darwin; an excerpt on curiosity, observation, or scientific work.
-2. *On the Origin of Species* — Charles Darwin; a carefully selected passage on variation or adaptation.
-3. *The Malay Archipelago* — Alfred Russel Wallace; an excerpt on biodiversity or field research.
-4. *The Naturalist on the River Amazons* — Henry Walter Bates; an excerpt on collecting evidence from observation.
-5. *The Story of My Experiments with Truth* — Mohandas K. Gandhi; an episode on truth, responsibility, or personal discipline.
-6. *An Autobiography* — Annie Besant; an excerpt on education or public life.
-7. *The Natural History of Selborne* — Gilbert White; a more demanding excerpt on close observation and evidence.
-8. *The Life of the Bee* — Maurice Maeterlinck; an excerpt on collective behaviour in nature.
-9. *The Life and Letters of Charles Darwin* — Francis Darwin; an excerpt about observation, experimentation, or scientific curiosity.
-10. *The Mountains of California* — John Muir; an excerpt on glaciers, forests, or conservation.
-11. *Walden* — Henry David Thoreau; “Reading,” “Solitude,” or “The Pond in Winter.”
-12. *Civil Disobedience* — Henry David Thoreau; a short argument excerpt.
-13. *Nature* — Ralph Waldo Emerson; an excerpt on humanity and the natural world.
-14. *The American Scholar* — Ralph Waldo Emerson; an excerpt on learning and independent thought.
-15. *The Souls of Black Folk* — W. E. B. Du Bois; a carefully selected historical/social-analysis excerpt.
+1. *The Autobiography of Charles Darwin* — Charles Darwin; select a passage about curiosity, observation or scientific work.
+2. *On the Origin of Species* — Charles Darwin; select a carefully supported passage on variation or adaptation.
+3. *A Thousand-Mile Walk to the Gulf* — John Muir; select an observation-based travel passage.
+4. *The Maine Woods* — Henry David Thoreau; select a nature or travel-writing excerpt.
+5. *Up from Slavery* — Booker T. Washington; select a passage on education, work or personal development.
+6. *An Autobiography* — Annie Besant; select an excerpt on education or public life.
+7. *The Travels of Marco Polo* — Marco Polo, in an identified published English translation; select a passage about a place, custom or trade.
+8. *The Life of the Spider* — Jean-Henri Fabre; use only after verifying the rights status of the exact translation and edition.
+9. *My Inventions* — Nikola Tesla; select an excerpt about experimentation or invention and verify the exact published text.
+10. *Walden* — Henry David Thoreau; select a bounded excerpt such as “Reading” or “The Pond in Winter.”
+11. “On the Duty of Civil Disobedience” — Henry David Thoreau.
+12. “Nature” — Ralph Waldo Emerson.
+13. “The American Scholar” — Ralph Waldo Emerson.
+14. *The Souls of Black Folk* — W. E. B. Du Bois; select a historically contextualised passage about education or social analysis.
+15. *A Week on the Concord and Merrimack Rivers* — Henry David Thoreau; select a travel-observation passage distinct from the separately listed Thoreau essays.
 
 **Band D — Grades 9–10 (Levels 7–8)**
 
-1. *Hind Swaraj or Indian Home Rule* — Mohandas K. Gandhi; an argument excerpt on education, machinery, or civilization; translation/edition must be cleared separately.
-2. *The Discovery of India* — Jawaharlal Nehru; an excerpt on Indian history or cultural synthesis; verify the exact edition and rights.
-3. *Glimpses of World History* — Jawaharlal Nehru; a letter on the development of a civilization; verify the exact edition and rights.
-4. *The Story of My Experiments with Truth* — Mohandas K. Gandhi; a reflective passage suitable for evaluating evidence and viewpoint.
-5. *The Souls of Black Folk* — W. E. B. Du Bois; an excerpt on education, identity, or social history.
-6. *Narrative of the Life of Frederick Douglass, an American Slave* — Frederick Douglass; a passage on literacy and education.
-7. *Incidents in the Life of a Slave Girl* — Harriet Jacobs; a carefully screened historical excerpt.
-8. *The Rights of Man* — Thomas Paine; an argument excerpt on rights and civic responsibility.
-9. *On Liberty* — John Stuart Mill; a selected passage on individuality or freedom of thought.
-10. *Utilitarianism* — John Stuart Mill; a short ethical-argument excerpt.
-11. *The Descent of Man* — Charles Darwin; an excerpt on human evolution, with scientific-historical framing.
-12. *The Expression of the Emotions in Man and Animals* — Charles Darwin; a passage on observation and evidence.
-13. *The Origin of Species* — Charles Darwin; an excerpt on how evidence supports a scientific claim.
-14. *The Life of the Spider* — Jean-Henri Fabre; an observation-based excerpt, subject to translation/edition clearance.
-15. *A Vindication of the Rights of Woman* — Mary Wollstonecraft; a selected argument excerpt on education and equality.
+1. *Hind Swaraj or Indian Home Rule* — Mohandas K. Gandhi; select an argument excerpt and clear the exact English text/edition.
+2. *Glimpses of World History* — Jawaharlal Nehru; select a letter on historical developments or a civilisation.
+3. *The American Crisis* — Thomas Paine; select an argument passage with its historical context.
+4. *The Conduct of Life* — Ralph Waldo Emerson; select an essay excerpt on character, conduct or responsibility.
+5. *Darkwater: Voices from Within the Veil* — W. E. B. Du Bois; select a passage suited to social-historical analysis.
+6. *Narrative of the Life of Frederick Douglass, an American Slave* — Frederick Douglass; select a passage about literacy, education or freedom.
+7. *Incidents in the Life of a Slave Girl* — Harriet Jacobs; select a carefully screened historical passage.
+8. *The Rights of Man* — Thomas Paine; select a passage on rights and civic responsibility.
+9. *On Liberty* — John Stuart Mill; select an argument about individuality or freedom of thought.
+10. *Utilitarianism* — John Stuart Mill; select a short ethical-argument passage.
+11. *The Descent of Man* — Charles Darwin; select a scientifically and historically contextualised excerpt.
+12. *The Expression of the Emotions in Man and Animals* — Charles Darwin; select a passage focused on observation and evidence.
+13. *Principles of Geology* — Charles Lyell; select a passage explaining how geological claims are supported.
+14. *The Geological Evidences of the Antiquity of Man* — Charles Lyell; select a passage on interpreting geological evidence.
+15. *A Vindication of the Rights of Woman* — Mary Wollstonecraft; select an argument excerpt on education and equality.
 
 **Band E — Grades 11–12 (Level 9)**
 
-1. *The Discovery of India* — Jawaharlal Nehru; an excerpt on historical interpretation or Indian civilization.
-2. *Glimpses of World History* — Jawaharlal Nehru; an excerpt comparing historical developments across societies.
-3. *Hind Swaraj or Indian Home Rule* — Mohandas K. Gandhi; an argument excerpt on modernity, education, or self-rule; clear the exact English version.
-4. *An Autobiography* — Jawaharlal Nehru; a reflective passage on political or personal responsibility.
-5. *The Story of My Experiments with Truth* — Mohandas K. Gandhi; an excerpt suited to ethical reasoning and self-critique.
-6. *The Souls of Black Folk* — W. E. B. Du Bois; an excerpt analysing education, race, or historical memory.
-7. *The Varieties of Religious Experience* — William James; a carefully selected passage on interpretation or evidence, subject to suitability review.
-8. *Civil Disobedience* — Henry David Thoreau; an argument excerpt for rhetoric and counterargument.
-9. *On Liberty* — John Stuart Mill; an excerpt on limits of authority and individual freedom.
-10. *The Wealth of Nations* — Adam Smith; a carefully chosen passage on division of labour or markets.
-11. *The Theory of the Leisure Class* — Thorstein Veblen; a passage on social behaviour and status.
-12. *The Origin of Species* — Charles Darwin; a passage on scientific method, evidence, and inference.
-13. *The Descent of Man* — Charles Darwin; a passage on historical scientific argument, contextualised for modern learners.
-14. *The History of the Decline and Fall of the Roman Empire* — Edward Gibbon; a short historiographical excerpt.
-15. *The Education of Henry Adams* — Henry Adams; a reflective excerpt on education and social change.
-
-**Selection cautions:** This is a broad candidate pool, not a final adoption list. Some titles above are intentionally flagged for exclusion or source verification and must not be treated as eligible selections. Prioritise candidates with a clear author, exact published work, identifiable excerpt, suitable reading length, and verified India rights. The list should be refined to remove any candidate that cannot meet all of those conditions before passage authoring or release.
+1. *Toward Freedom* (Jawaharlal Nehru’s autobiography, published in India as *An Autobiography*) — Jawaharlal Nehru; select a reflective passage on public or personal responsibility.
+2. *An Essay Concerning Human Understanding* — John Locke; select a bounded passage on knowledge or experience.
+3. *Common Sense* — Thomas Paine; select a political-argument excerpt and retain the historical context.
+4. *The Interesting Narrative of the Life of Olaudah Equiano* — Olaudah Equiano; select a passage on travel, identity or freedom.
+5. *The Varieties of Religious Experience* — William James; select a passage on interpretation, evidence or human experience.
+6. *A Room of One’s Own* — Virginia Woolf; select an essay excerpt on literature, education or opportunity.
+7. *The Wealth of Nations* — Adam Smith; select a passage on division of labour or markets.
+8. *The Theory of the Leisure Class* — Thorstein Veblen; select a passage on social behaviour and status.
+9. *The Principles of Psychology* — William James; select a passage on attention, habit or perception.
+10. *A Treatise of Human Nature* — David Hume; select a passage on reasoning or human understanding.
+11. *Critique of Pure Reason* — Immanuel Kant; use only an identified translation whose independent rights status is cleared.
+12. “The Philosophy of Composition” — Edgar Allan Poe; select a literary-critical passage.
+13. “The Decay of Lying” — Oscar Wilde; select a bounded argument from this essay/dialogue.
+14. *The History of the Decline and Fall of the Roman Empire* — Edward Gibbon; select a short historical-analysis passage.
+15. *The Education of Henry Adams* — Henry Adams; select a reflective excerpt on education or social change.
 
 ### Nonfiction source-discovery links
 
-- [Nehru Portal — *Letters from a Father to His Daughter*](https://nehruportal.nic.in/letters-father-his-daughter-0) — official Indian government cultural institution record; not by itself rights clearance.
-- [Gandhi — *Hind Swaraj*](https://www.mkgandhi.org/hindswaraj/hindswaraj.php) — source and translator are identified; verify the exact version's rights.
-- [Project Gutenberg — Darwin, *The Autobiography of Charles Darwin*](https://www.gutenberg.org/ebooks/2010)
-- [Project Gutenberg — Darwin, *On the Origin of Species*](https://www.gutenberg.org/ebooks/1228)
-- [Project Gutenberg — Thoreau, *Excursions*](https://www.gutenberg.org/ebooks/9846)
-- [Project Gutenberg — Thoreau, *Walden*](https://www.gutenberg.org/ebooks/205)
-- [Project Gutenberg — Franklin, *Autobiography*](https://www.gutenberg.org/ebooks/20203)
-- [Project Gutenberg — Du Bois, *The Souls of Black Folk*](https://www.gutenberg.org/ebooks/408)
-- [Project Gutenberg — Douglass, *Narrative of the Life of Frederick Douglass*](https://www.gutenberg.org/ebooks/23)
-- [Project Gutenberg — Jacobs, *Incidents in the Life of a Slave Girl*](https://www.gutenberg.org/ebooks/11030)
-- [Project Gutenberg — Mill, *On Liberty*](https://www.gutenberg.org/ebooks/34901)
-- [Project Gutenberg — Smith, *The Wealth of Nations*](https://www.gutenberg.org/ebooks/3300)
+These are starting points for locating published texts, not legal clearance for India or approval of a particular excerpt.
 
-**Rights rule:** A repository's public-domain label often refers to the United States. It does not establish Indian clearance. Check the Indian Copyright Act's applicable term for each author and the separate rights of translations, editions, annotations, illustrations, and editorial matter before adopting any item. In particular, do not use the 1938 Valji Govindji Desai translation of *Hind Swaraj*, or any modern edition, until its independent rights status has been confirmed.
+- [Nehru Portal — *Letters from a Father to His Daughter*](https://nehruportal.nic.in/letters-father-his-daughter-0)
+- [Gandhi — *Hind Swaraj*](https://www.mkgandhi.org/hindswaraj/hindswaraj.php) — verify the rights status of the exact English version.
+- [Project Gutenberg — *The Story of My Boyhood and Youth*](https://www.gutenberg.org/ebooks/18359)
+- [Project Gutenberg — *A Thousand-Mile Walk to the Gulf*](https://www.gutenberg.org/ebooks/60749)
+- [Project Gutenberg — *The Voyage of the Beagle*](https://www.gutenberg.org/ebooks/944)
+- [Project Gutenberg — *The Naturalist on the River Amazons*](https://www.gutenberg.org/ebooks/2440)
+- [Project Gutenberg — *Life on the Mississippi*](https://www.gutenberg.org/ebooks/245)
+- [Project Gutenberg — *Travels with a Donkey in the Cévennes*](https://www.gutenberg.org/ebooks/535)
+- [Project Gutenberg — *The Travels of Marco Polo* (Yule-Cordier edition)](https://www.gutenberg.org/ebooks/10636)
+- [Project Gutenberg — *Up from Slavery*](https://www.gutenberg.org/ebooks/2376)
+- [Project Gutenberg — *Walden*](https://www.gutenberg.org/ebooks/205)
+- [Project Gutenberg — *A Week on the Concord and Merrimack Rivers*](https://www.gutenberg.org/ebooks/4232)
+- [Project Gutenberg — *Darkwater: Voices from Within the Veil*](https://www.gutenberg.org/ebooks/15265)
+- [Project Gutenberg — *Narrative of the Life of Frederick Douglass*](https://www.gutenberg.org/ebooks/23)
+- [Project Gutenberg — *Incidents in the Life of a Slave Girl*](https://www.gutenberg.org/ebooks/11030)
+- [Project Gutenberg — *The Rights of Man*](https://www.gutenberg.org/ebooks/3743)
+- [Project Gutenberg — *On Liberty*](https://www.gutenberg.org/ebooks/34901)
+- [Project Gutenberg — *The Wealth of Nations*](https://www.gutenberg.org/ebooks/3300)
+- [Project Gutenberg — *An Essay Concerning Human Understanding*](https://www.gutenberg.org/ebooks/10615)
+- [Project Gutenberg — *The Interesting Narrative of the Life of Olaudah Equiano*](https://www.gutenberg.org/ebooks/15399)
+- [Project Gutenberg — *The Varieties of Religious Experience*](https://www.gutenberg.org/ebooks/621)
+- [Project Gutenberg — *A Room of One’s Own*](https://www.gutenberg.org/ebooks/4526)
+- [Project Gutenberg — *The Principles of Psychology*](https://www.gutenberg.org/ebooks/57628)
+- [Project Gutenberg — *A Treatise of Human Nature*](https://www.gutenberg.org/ebooks/4705)
+- [Project Gutenberg — *The History of the Decline and Fall of the Roman Empire*](https://www.gutenberg.org/ebooks/25717)
 
-**Editorial assessment of this candidate pool (before final text-by-text rights/readability review):**
-- Match to the fiction list's five-band, 15-candidate structure: **5/5**
-- Prominence and literary/nonfiction value of authors: **4.5/5**
-- Range of science, nature, autobiography, history, and argument: **4.5/5**
-- Indian relevance and world-literature balance: **4/5**
-- Increasing conceptual/syntactic challenge across bands: **3.5/5**
-- Traceable published works and source-discovery paths: **4/5**
-- Ready-to-use passage and India-rights clearance: **2/5 — not yet cleared**
-- **Overall curation score: 4/5 as a research shortlist; not release-ready.** The weaker ratings reflect the need to verify exact editions/translations, exclude flagged items, and test passage length and language against the target grade—not permission to use uncleared texts.
+**India-specific rights rule:** A repository’s public-domain label commonly refers to the United States. Verify the applicable Indian copyright term for the author and the separate rights in each translation, edition, annotations, illustrations and editorial matter. In particular, do not use a modern edition or translation until its own status is confirmed.
+
+### Self-assessment of the revised candidate pool
+
+| Rubric criterion | Score |
+|---|---:|
+| Matches the fiction list’s five-band, 15-candidate structure | **5/5** |
+| No repeated work assigned across bands | **5/5** |
+| Prominence and literary/nonfiction value of authors | **4.5/5** |
+| Variety: nature, science, travel, autobiography, history and argument | **4.5/5** |
+| Age/difficulty progression | **3.5/5** |
+| Source traceability | **4/5** |
+| India-specific rights and passage readiness | **2/5 — not cleared** |
+| **Overall research-shortlist score** | **4/5 — not release-ready** |
+
+The list contains 75 distinct candidate works, with each work allocated to one band only. Final passage selection still requires source/edition and rights verification, followed by length, language, content-sensitivity and grade-suitability review.
 
 ## 4. Requirements to carry into curriculum design step 2
 
