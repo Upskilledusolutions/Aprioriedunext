@@ -332,3 +332,10 @@ The frontend sends attempts through `src/utils/reasoningAttempts.js`. Existing b
 The authorization, durable-attempt and Reasoning/Foreign Languages separation implementations are deployed and owner-checked. Only recorded, supported data may be used for analytics; unsupported historical values must not be reconstructed.
 
 See `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md`.
+
+
+## English Aptitude data boundary — 2026-10-26
+
+English Aptitude remains a separate product data domain. The existing Reasoning attempt API is not suitable as an authoritative grading service because the browser supplies correctness. A separate, unmerged Backend branch `english-aptitude-secure-grading` contains a gated server-side grader for 16 single-select questions in the first L1/S1 Explore story activity. It uses the shared signed-session authentication middleware but does not yet save attempts, progress or analytics and does not define English Aptitude access entitlements.
+
+The prototype keeps its answer allowlist on the server and is disabled unless `ENGLISH_APTITUDE_PREVIEW_ENABLED=true`. The answer list is duplicated from the editable frontend bank, so content synchronization must be resolved before activation. No production branch or service was changed; no merge or deployment has occurred.
