@@ -85,3 +85,8 @@ Implementation should proceed in meaningful, logically ordered increments: avoid
 ## Phase D navigation foundation — 2026-10-26
 
 English-scoped L1/S1 dashboard and registered activity-overview routes have been added, along with a registry-derived navigation helper, authenticated Courses link, and focused navigation test. This is navigation scaffolding only and is not an interactive question player. Local tests/build and deployment have not yet been run. Next increment: implement and test one representative response mode using validated bank data, without inventing persistence APIs.
+
+
+## Phase D single-select preview — 2026-10-26
+
+The first registered Explore short-story activity now has a branch-only 10-question single-select preview with option selection, immediate feedback/explanation and a temporary result. The 20-question source bank remains draft. This is not release-ready: it does not persist progress, and its client-side preview currently includes answer keys in the bundled draft data. Before any public delivery, answer checking must move behind a verified server-side authorization boundary after the existing auth/backend contract is inspected. Other response formats, persistence, analytics, local build and live behaviour remain unverified. No merge to `main` or production deployment.
