@@ -44,22 +44,48 @@ export default function Login() {
     setLoading(true);
 
     try {
-      const locationResponse = await fetch("https://ipinfo.io/json?token=f865848db16a1a");
-      const locationData = await locationResponse.json();
-      const ipAddress = locationData.ip || "Unknown";
-      const location = locationData.city
-        ? `${locationData.city}, ${locationData.region}, ${locationData.country}`
-        : "Unknown";
+      // Location history is supplementary. A third-party lookup failure must
+      // never prevent an otherwise valid account from signing in.
+      let ipAddress = "Unknown";
+      let location = "Unknown";
+      try {
+        const locationResponse = await fetch("https://ipinfo.io/json?token=f865848db16a1a");
+        if (locationResponse.ok) {
+          const locationData = await locationResponse.json();
+          ipAddress = locationData.ip || "Unknown";
+          location = locationData.city
+            ? `${locationData.city}, ${locationData.region}, ${locationData.country}`
+            : "Unknown";
+        }
+      } catch (locationError) {
+        console.warn("Optional login-location lookup failed; continuing without location details.");
+      }
 
-      const response = await fetch(`${URL}/api/login`, {
-        method: "POST",
-        credentials: "include",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, userId, password, ipAddress, location }),
-      });
+      if (!URL) {
+        throw new Error("The login service is not configured for this local website.");
+      }
+
+      let response;
+      try {
+        response = await fetch(`${URL}/api/login`, {
+          method: "POST",
+          credentials: "include",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, userId, password, ipAddress, location }),
+        });
+      } catch (connectionError) {
+        throw new Error("Could not connect to the login service. Please check the backend connection.");
+      }
+
+      const data = await response.json().catch(() => null);
       setLoading(false);
-
-      const data = await response.json();
+      if (!data) {
+        throw new Error("The login service returned an unexpected response. Please try again.");
+      }
+      if (!response.ok) {
+        setError(data.message || "Login failed. Please check your account details.");
+        return;
+      }
       if (data.success) {
         if (data.user.active) {
           const mongoQuizzes = data.user.completedQuizzes || [];
@@ -111,7 +137,7 @@ export default function Login() {
       }
     } catch (error) {
       setLoading(false);
-      setError("Something went wrong. Please try again later.");
+      setError(error?.message || "An unexpected error occurred. Please try again.");
     }
   };
 
