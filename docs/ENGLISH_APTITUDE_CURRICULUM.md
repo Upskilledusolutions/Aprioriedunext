@@ -2,6 +2,7 @@
 
 **Product:** Upskilledu English Reading & Aptitude pathway  
 **Document status:** Curriculum direction provisionally approved on 2026-10-19; reading-list candidates remain subject to suitability and rights validation.  
+**Binding content rule (2026-10-26):** only authentic published texts by recognized authors or authentic published translations with verified India rights may be used; original reading passages are prohibited without exception.  
 **Approval boundary:** This document is the Step 1 curriculum and reading-list reference. The approved question types, nine-level/six-stage progression, question-bank quantities and Explore/Extend allocation are specified in ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md. The approved Step 3 implementation roadmap is recorded in `ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md`; implementation remains subject to its audit and approval gates.
 
 ## 1. Curriculum purpose
@@ -21,11 +22,11 @@ These strands should reinforce one another through meaningful texts. Vocabulary 
 
 ## 2. Explore and Extend reading principles
 
-- **Explore fiction comprehension must use short stories, not novels or novel extracts.** Use stories of an appropriate length and difficulty. A short story that is unusually long or linguistically dense must be shortened through a rights-cleared, original adaptation or replaced by a more suitable story.
+- **Explore fiction comprehension must use short stories, not novels or novel extracts.** Use stories of an appropriate length and difficulty. A short story that is unusually long or linguistically dense must be replaced by a suitable authentic published work of comparable syntactic and semantic complexity; do not write or commission an original adaptation.
 - Explore should also include age-appropriate **non-fiction passages** so students read to learn about science, nature, history, biography, inventions, culture and Indian society.
 - Each reading band below has at least 15 short-story candidates. This is a selection pool, not a requirement to use every story in every activity.
 - **Extend provides a separate whole-novel pathway** with three candidate novels per band. Novel tasks may develop more demanding interpretation, evidence-based responses, comparison, vocabulary and written expression. Novel passages must not be presented as Explore short-story comprehension.
-- The three novels per band are provisional candidates, not final adoption decisions. Validate length, lexical/syntactic complexity, themes, reading interest and suitability for Indian learners. Use original age-appropriate adaptations based on verified public-domain originals when necessary and legally appropriate.
+- The three novels per band are provisional candidates, not final adoption decisions. Validate length, lexical/syntactic complexity, themes, reading interest and suitability for Indian learners. Use an authentic published edition or translation only when its own rights status is verified; otherwise replace the work with a comparable eligible published text.
 - Use a mix of Indian and world literature, humour, adventure, mystery, fantasy, moral dilemmas and varied perspectives. Review older works for dated language, stereotypes, colonial assumptions or sensitive content.
 - Retention matters: useful vocabulary and grammar concepts should recur in later contexts, and reading engagement should be considered separately from test performance.
 
@@ -109,7 +110,7 @@ For traditional Indian tales, identify the exact underlying source and create or
 14. The Nightingale and the Rose — Oscar Wilde
 15. A Retrieved Reformation — O. Henry
 
-Check each story's length and language. Where a story is too demanding for the intended learner, use a lawful, independently prepared adaptation or choose an alternative with comparable literary value.
+Check each story's length and language. Where a story is too demanding or its edition cannot be used, choose another authentic published text with comparable literary value and syntactic/semantic complexity; do not create an adaptation.
 
 #### Extend: novel candidates
 
@@ -242,3 +243,14 @@ The owner has clarified that the learner-facing reading library must use **publi
 
 The current L1/S1 passages — “The Paper Boat by the Library,” “Learning from a Bean Garden,” “The Kite That Would Not Fly,” “A Rain Garden at School,” “From Kitchen Scraps to Compost,” and “A Seed's Journey” — are marked as original-source drafts. They do not meet this owner-confirmed source rule and must not be approved or released as reading passages. Their schema/quality test results do not confer editorial or source approval.
 
+
+
+> ## BINDING OWNER RULE — AUTHENTIC PUBLISHED READING TEXTS ONLY
+>
+> **No original fiction or nonfiction reading passages may ever be used.** Every learner-facing fiction or nonfiction passage must be an authentic excerpt from a published work by a recognized literary writer/author, or an authentic published translation whose own rights status is verified for use in India. Do not create original passages, AI-written retellings, paraphrases, modernizations, or imitations of an author's style.
+>
+> **Rights failure means replacement, never original writing.** If a text, edition, excerpt, or translation is not confirmed eligible for use in India, replace it with another authentic published work by a recognized author that serves the same learning purpose and has comparable syntactic and semantic complexity appropriate to that level. Prefer a title from the owner's approved reading list. If no eligible approved alternative is available, stop and ask the owner to approve a replacement; never fill the slot with invented text.
+>
+> **Source approval is mandatory.** Use the owner's approved reading list as the source of truth. Record the original author, title, publication/edition, translator if applicable, exact source URL and excerpt location, India-specific rights basis, and owner/editorial approval. The underlying work's public-domain status does not automatically clear a modern translation, edition, annotations, or illustrations. Original questions and feedback may be authored about an eligible text; the reading passage itself may not be original.
+>
+> **Text-only replacement and regression protection.** For the current content-replacement work, change reading text and only the passage metadata strictly required to identify its authentic source. Preserve existing question-bank structure, IDs where valid, question counts, response formats, answer mappings, player/UI, navigation, analytics, authentication, and all previously completed build functionality. Do not undertake unrelated refactoring or unnecessary checks. The owner will review the content directly on the website. Once a stage's text replacement is accepted and that stage is ready to go live, publish that completed stage as the corresponding public live update; do not publish unreviewed content or bundle unrelated changes. No build, feature, or prior stage may regress.
