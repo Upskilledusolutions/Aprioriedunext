@@ -84,7 +84,8 @@ export default function EnglishAptitudeActivityOverview() {
     setIsGrading(true);
     setGradingError("");
     try {
-      const response = await fetch(`${BACKEND_URL.replace(/\\/$/, "")}/api/english-aptitude/grade`, {
+      const gradingBaseUrl = BACKEND_URL.endsWith("/") ? BACKEND_URL.slice(0, -1) : BACKEND_URL;
+      const response = await fetch(`${gradingBaseUrl}/api/english-aptitude/grade`, {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
@@ -177,10 +178,10 @@ export default function EnglishAptitudeActivityOverview() {
                           <button
                             key={option}
                             type="button"
-                            disabled={submitted}
+                            disabled={submitted || isGrading}
                             aria-pressed={chosen}
                             onClick={() => setSelectedOption(option)}
-                            style={{ ...styles.option, ...(chosen ? styles.selected : {}), ...(submitted ? { cursor: "default" } : {}) }}
+                            style={{ ...styles.option, ...(chosen ? styles.selected : {}), ...(submitted || isGrading ? { cursor: "default" } : {}) }}
                           >
                             <strong>{String.fromCharCode(65 + index)}.</strong><span>{option}</span>
                           </button>
