@@ -244,3 +244,18 @@ A stage is accepted only when all applicable items pass:
 - The secure-grading implementation is on separate feature branch `english-aptitude-secure-grading`, not the live `main` branch shown by Render. Accordingly, the new grading route has not been verified as deployed or working on the live website. Existing Reasoning Skills feedback and saved analytics do not establish that English Aptitude already has those features.
 - The frontend owner has successfully run the local production build (exit code 0), public-preview consistency check, single-select player test, and backend route security test. These are local/code-level checks only; authenticated end-to-end grading, durable attempt/progress storage, analytics, English access policy, and learner-visible preview remain unverified or unimplemented.
 - **Next logical checkpoint:** use the existing repo/docs and code to assess the minimum safe path to a testable English Aptitude preview without changing the live `main` backend. Since no separate Render service was visible, propose any staging-service creation or deployment before taking action; obtain explicit approval before creating/configuring a service, enabling `ENGLISH_APTITUDE_PREVIEW_ENABLED`, merging, or deploying. Keep draft content unreleased.
+
+## Mandatory reading-source and regression gates — 2026-10-26
+
+### Reading source is a hard release gate
+
+The owner has confirmed that learner-facing fiction and nonfiction passages must be authentic published texts by recognized authors that are public domain for use in India, or authentic published translations with separately verified rights. Do not create original stories or original nonfiction passages, and do not generate retellings/paraphrases to stand in for a source. Original comprehension questions and teaching materials may be created around eligible sourced text.
+
+The current L1/S1 story files (“The Paper Boat by the Library,” “Learning from a Bean Garden,” “The Kite That Would Not Fly”) and nonfiction files (“A Rain Garden at School,” “From Kitchen Scraps to Compost,” “A Seed's Journey”) have sourceType original; keep them as rejected/unapproved drafts and do not put them into learner release. Passing structure or question-quality tests is not content approval.
+
+**Block further reading-content selection and acceptance until the previously owner-approved source list is restored as a per-level inventory.** The currently committed curriculum lists story/novel candidates in five grade bands, marked provisional, and does not record the exact approved nonfiction works/excerpts. Do not fill this gap with guesses. For each approved source, record author, work, publication/edition, translator if any, source URL, excerpt location, India-specific rights evidence, and editorial approval. Add validation that checks passage provenance against this approved source register; passage records marked original must fail the reading-source eligibility gate.
+
+### Non-regression gate for every implementation increment
+
+A new feature must not unintentionally change existing pages, layouts, styling, navigation, authentication, analytics, stored data, or functionality. Inspect the existing behaviour before editing; prefer product/page-scoped styling and isolated product-specific records over global changes. After each coherent UI increment, test the target page at desktop and mobile sizes and smoke-test affected shared flows and the existing Reasoning and Foreign Languages experiences. If a shared change is necessary, document the reason and obtain the owner's approval before accepting an unrelated regression.
+
