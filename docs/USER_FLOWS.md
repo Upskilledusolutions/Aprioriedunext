@@ -1,5 +1,17 @@
 # User Flows
 
+
+
+> ## BINDING OWNER RULE — AUTHENTIC PUBLISHED READING TEXTS ONLY
+>
+> **No original fiction or nonfiction reading passages may ever be used.** Every learner-facing fiction or nonfiction passage must be an authentic excerpt from a published work by a recognized literary writer/author, or an authentic published translation whose own rights status is verified for use in India. Do not create original passages, AI-written retellings, paraphrases, modernizations, or imitations of an author's style.
+>
+> **Rights failure means replacement, never original writing.** If a text, edition, excerpt, or translation is not confirmed eligible for use in India, replace it with another authentic published work by a recognized author that serves the same learning purpose and has comparable syntactic and semantic complexity appropriate to that level. Prefer a title from the owner's approved reading list. If no eligible approved alternative is available, stop and ask the owner to approve a replacement; never fill the slot with invented text.
+>
+> **Source approval is mandatory.** Use the owner's approved reading list as the source of truth. Record the original author, title, publication/edition, translator if applicable, exact source URL and excerpt location, India-specific rights basis, and owner/editorial approval. The underlying work's public-domain status does not automatically clear a modern translation, edition, annotations, or illustrations. Original questions and feedback may be authored about an eligible text; the reading passage itself may not be original.
+>
+> **Text-only replacement and regression protection.** For the current content-replacement work, change reading text and only the passage metadata strictly required to identify its authentic source. Preserve existing question-bank structure, IDs where valid, question counts, response formats, answer mappings, player/UI, navigation, analytics, authentication, and all previously completed build functionality. Do not undertake unrelated refactoring or unnecessary checks. The owner will review the content directly on the website. Once a stage's text replacement is accepted and that stage is ready to go live, publish that completed stage as the corresponding public live update; do not publish unreviewed content or bundle unrelated changes. No build, feature, or prior stage may regress.
+
 ## Current login flow
 
 The current user experience is approximately:
