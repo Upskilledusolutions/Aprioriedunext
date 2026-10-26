@@ -190,3 +190,12 @@ This file records important project and architecture changes in simple language.
 ### No application code changed
 
 The architecture audit did not intentionally modify the existing application code. The changes in this phase are documentation only.
+
+
+## 2026-10-26 — English Aptitude secure-grading prototype (separate backend branch)
+
+- Audited the existing shared authentication middleware and Reasoning attempt API. The Reasoning attempt endpoint accepts client-supplied correctness, so it is not reused as authoritative English Aptitude grading.
+- Created Backend branch `english-aptitude-secure-grading` from `main`, adding a feature-flagged, authenticated single-select grading endpoint and server-only answer allowlist for the 16 single-select items in the first Explore story activity.
+- Added isolated grading tests and the command `npm run test:english-aptitude-grading` in the Backend branch.
+- Updated the English Aptitude roadmap and architecture proposal to record the cross-repository dependency and release limits.
+- **No deployment:** Backend `main` and frontend `main` remain unchanged. The route is disabled by default; frontend still bundles draft answers. Persistence, analytics, approved content synchronization, and English access-entitlement policy are not implemented.
