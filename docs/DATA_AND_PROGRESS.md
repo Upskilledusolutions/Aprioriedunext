@@ -339,3 +339,12 @@ See `Upskilledusolutions/Backend/docs/REASONING_INTEGRATION.md`.
 English Aptitude remains a separate product data domain. The existing Reasoning attempt API is not suitable as an authoritative grading service because the browser supplies correctness. A separate, unmerged Backend branch `english-aptitude-secure-grading` contains a gated server-side grader for 16 single-select questions in the first L1/S1 Explore story activity. It uses the shared signed-session authentication middleware but does not yet save attempts, progress or analytics and does not define English Aptitude access entitlements.
 
 The prototype keeps its answer allowlist on the server and is disabled unless `ENGLISH_APTITUDE_PREVIEW_ENABLED=true`. The answer list is duplicated from the editable frontend bank, so content synchronization must be resolved before activation. No production branch or service was changed; no merge or deployment has occurred.
+
+## English Aptitude data-isolation and regression guard
+
+English Aptitude attempts, answers, progress and analytics must remain product-specific and must not alter or repurpose Reasoning or Foreign Languages records, calculations, routes or views. Shared infrastructure changes must preserve existing behaviour and be regression-tested.
+
+The non-regression source of truth applies to analytics as well as UI: new features must not unintentionally alter existing pages, layouts, navigation, functionality, analytics, stored data or prior progress. Preserve existing records and calculations; do not reset, reconstruct or cross-attribute learner history.
+
+English Aptitude reading-source eligibility is governed by ENGLISH_APTITUDE_CURRICULUM.md, ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md and the implementation roadmap. Passing a bank/analytics test does not approve the underlying reading content for release.
+
