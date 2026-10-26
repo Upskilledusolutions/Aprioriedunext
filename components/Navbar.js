@@ -47,6 +47,7 @@ export default function Navbar() {
                   <Link className={styles.linked} onClick={clickfn} href='/LanguageClub'>Language Skills</Link>
                   <Link className={styles.linked} onClick={clickfn} href='/WritingClub'>Writing Skills</Link>
                   <Link className={styles.linked} onClick={clickfn} href='/Reasoning'>Reasoning Skills</Link>
+                  <Link className={styles.linked} onClick={clickfn} href='/English-Aptitude'>English Aptitude</Link>
                   <Link className={styles.linked} onClick={clickfn} href='/Reasoning/Quantitative'>↳ Quantitative Skills</Link>
                   <Link className={styles.linked} onClick={clickfn} href='/Reasoning/Verbal'>↳ Verbal Skills</Link>
                 </>

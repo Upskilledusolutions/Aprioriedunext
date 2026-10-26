@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { useSelector } from "react-redux";
 import { ENGLISH_ACTIVITY_REGISTRY } from "../../../Data/EnglishAptitude/englishActivityRegistry";
 import { sampleSingleSelectAttempt } from "../../../Data/EnglishAptitude/englishQuestionPlayer";
+import EnglishAptitudeRouteGuard from "../../../../components/EnglishAptitudeRouteGuard";
 import storyBank from "../../../../content/EnglishAptitude/public/L1/S1/english-L1-S1-story-01.json";
 
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKENDURL;
@@ -44,11 +45,6 @@ export default function EnglishAptitudeActivityOverview() {
   const [gradingError, setGradingError] = useState("");
   const [isGrading, setIsGrading] = useState(false);
 
-  useEffect(() => {
-    if (!isAuthenticated && user === null) return;
-    if (!user?.userId) router.replace("/Auth");
-  }, [isAuthenticated, user, router]);
-
   const activityId = Array.isArray(router.query.activityId) ? router.query.activityId[0] : router.query.activityId;
   const activity = useMemo(() => ENGLISH_ACTIVITY_REGISTRY.find(item => item.activityId === activityId), [activityId]);
   const isPlayerActivity = activityId === PLAYER_ACTIVITY_ID;
@@ -71,8 +67,8 @@ export default function EnglishAptitudeActivityOverview() {
   }
 
   useEffect(() => {
-    if (router.isReady && isPlayerActivity) startAttempt();
-  }, [router.isReady, isPlayerActivity]);
+    if (router.isReady && isPlayerActivity && isAuthenticated && user?.userId) startAttempt();
+  }, [router.isReady, isPlayerActivity, isAuthenticated, user?.userId]);
 
   async function submitAnswer() {
     if (!currentQuestion || !selectedOption || submitted || isGrading) return;
@@ -134,7 +130,8 @@ export default function EnglishAptitudeActivityOverview() {
   }
 
   return (
-    <>
+    <EnglishAptitudeRouteGuard>
+      <>
       <Head><title>{activity.title} | English Aptitude</title></Head>
       <main style={styles.page}>
         <div style={styles.wrapper}>
@@ -222,6 +219,7 @@ export default function EnglishAptitudeActivityOverview() {
           </section>
         </div>
       </main>
-    </>
+      </>
+    </EnglishAptitudeRouteGuard>
   );
 }
