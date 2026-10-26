@@ -228,3 +228,17 @@ These links are useful starting points for locating historical texts and collect
 Step 2 is now approved and documented in [ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md](ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md). Individual titles still require age/readability review and India-specific rights checks before use. The implementation sequence and release gates are defined separately in `ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md`.
 
 No application code, route, authentication, data model or production behaviour is changed by this curriculum document.
+
+## Owner-confirmed reading-source rule — 2026-10-26
+
+The owner has clarified that the learner-facing reading library must use **published literary and nonfiction texts by recognized authors**, in the public domain for use in India, or authentic published translations whose own rights status is verified for India. This is a binding content requirement, not a preference to be traded off against quantity or test coverage.
+
+- Do not write or commission original stories, original fictional passages, or original nonfiction/informational reading passages for the learner reading library.
+- Do not substitute an AI-written retelling, modernization, paraphrase or imitation of a famous author's style for the source text. If a candidate is unsuitable or its exact edition/translation cannot be used, select a comparable published work by a recognized author from the owner-approved list, or obtain owner approval for a replacement before proceeding.
+- Use authentic, identifiable published text. Record the original author, work/title, publication/edition, translator where applicable, exact source URL, excerpt location, rights basis for India, and editorial approval. The public-domain status of an underlying work does not automatically clear a modern translation or edition.
+- Original questions, explanations, rubrics and learning activities may be authored for students to use with an eligible sourced text; this does not permit writing a new reading passage.
+
+**Documentation gap and implementation block:** the reading list currently recorded above is grouped into five grade bands and labelled a provisional candidate pool; it is not a complete per-level approved source register. The curriculum also contains no inventory of the exact nonfiction works/excerpts the owner says were previously approved. Do not invent these missing selections or treat the present candidate labels as evidence that the current draft passages were approved. Restore the owner's previously approved text list into an explicit per-level source register before selecting or authoring further reading content.
+
+The current L1/S1 passages — “The Paper Boat by the Library,” “Learning from a Bean Garden,” “The Kite That Would Not Fly,” “A Rain Garden at School,” “From Kitchen Scraps to Compost,” and “A Seed's Journey” — are marked as original-source drafts. They do not meet this owner-confirmed source rule and must not be approved or released as reading passages. Their schema/quality test results do not confer editorial or source approval.
+
