@@ -193,10 +193,10 @@ This pool mirrors the fiction list's five provisional reading bands and 15-candi
 9. *Autumnal Tints* — Henry David Thoreau.
 10. *Birds Through an Opera-Glass* — Florence Merriam Bailey; a short bird-observation excerpt.
 11. *Handbook of Nature-Study* — Anna Botsford Comstock; a short observation-based excerpt.
-12. *Wild Animals I Have Known* — Ernest Thompson Seton; natural-history framing or an author’s note (not a fictionalized animal story).
+12. *The Child’s Book of Nature* — Worthington Hooker; a short, concrete observation about plants, animals, or the human body.
 13. *The Voyage of the Beagle* — Charles Darwin; a short observation of animals, plants, or landscape.
 14. *The Malay Archipelago* — Alfred Russel Wallace; a short natural-history observation.
-15. *The Wonders of the Jungle* — Sarath Kumar Ghosh; a factual nature passage, subject to exact-edition and source verification.
+15. *The Childhood of the World* — Edward Clodd; a short introductory excerpt on early human societies, only if the language is accessible.
 
 **Band B — Grades 5–6 (Levels 3–4)**
 
@@ -212,7 +212,7 @@ This pool mirrors the fiction list's five provisional reading bands and 15-candi
 10. *The Mountains of California* — John Muir; a short description of a natural process or habitat.
 11. *Excursions* — Henry David Thoreau; “Night and Moonlight” or “The Succession of Forest Trees.”
 12. *The American Beaver and His Works* — Lewis Henry Morgan; a short animal-behaviour excerpt.
-13. *A Book of Natural History* — various historical editions; **not a standalone selection** unless a specific author, edition, and excerpt are identified and cleared.
+13. *The Natural History of Selborne* — Gilbert White; a short, clearly bounded observation about birds, animals, or seasonal change.
 14. *The Open Air* — Richard Jefferies; a short nature essay.
 15. *The Life of the Fields* — Richard Jefferies; a short seasonal or wildlife observation.
 
@@ -224,9 +224,9 @@ This pool mirrors the fiction list's five provisional reading bands and 15-candi
 4. *The Naturalist on the River Amazons* — Henry Walter Bates; an excerpt on collecting evidence from observation.
 5. *The Story of My Experiments with Truth* — Mohandas K. Gandhi; an episode on truth, responsibility, or personal discipline.
 6. *An Autobiography* — Annie Besant; an excerpt on education or public life.
-7. *The Story of My Life* — Helen Keller; **exclude from use until India-specific rights clearance is confirmed**.
+7. *The Natural History of Selborne* — Gilbert White; a more demanding excerpt on close observation and evidence.
 8. *The Life of the Bee* — Maurice Maeterlinck; an excerpt on collective behaviour in nature.
-9. *The Forest* — Stewart Edward White; a nature-writing excerpt, subject to exact edition/source verification.
+9. *The Life and Letters of Charles Darwin* — Francis Darwin; an excerpt about observation, experimentation, or scientific curiosity.
 10. *The Mountains of California* — John Muir; an excerpt on glaciers, forests, or conservation.
 11. *Walden* — Henry David Thoreau; “Reading,” “Solitude,” or “The Pond in Winter.”
 12. *Civil Disobedience* — Henry David Thoreau; a short argument excerpt.
@@ -250,7 +250,7 @@ This pool mirrors the fiction list's five provisional reading bands and 15-candi
 12. *The Expression of the Emotions in Man and Animals* — Charles Darwin; a passage on observation and evidence.
 13. *The Origin of Species* — Charles Darwin; an excerpt on how evidence supports a scientific claim.
 14. *The Life of the Spider* — Jean-Henri Fabre; an observation-based excerpt, subject to translation/edition clearance.
-15. *The Autobiography of an Ex-Colored Man* is **fiction and excluded**; do not use it as nonfiction or substitute it for a nonfiction passage.
+15. *A Vindication of the Rights of Woman* — Mary Wollstonecraft; a selected argument excerpt on education and equality.
 
 **Band E — Grades 11–12 (Level 9)**
 
@@ -260,7 +260,7 @@ This pool mirrors the fiction list's five provisional reading bands and 15-candi
 4. *An Autobiography* — Jawaharlal Nehru; a reflective passage on political or personal responsibility.
 5. *The Story of My Experiments with Truth* — Mohandas K. Gandhi; an excerpt suited to ethical reasoning and self-critique.
 6. *The Souls of Black Folk* — W. E. B. Du Bois; an excerpt analysing education, race, or historical memory.
-7. *The Fire Next Time* is **excluded** because James Baldwin died in 1987 and the work is not public domain in India.
+7. *The Varieties of Religious Experience* — William James; a carefully selected passage on interpretation or evidence, subject to suitability review.
 8. *Civil Disobedience* — Henry David Thoreau; an argument excerpt for rhetoric and counterargument.
 9. *On Liberty* — John Stuart Mill; an excerpt on limits of authority and individual freedom.
 10. *The Wealth of Nations* — Adam Smith; a carefully chosen passage on division of labour or markets.
