@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 import { useRouter } from "next/router";
 import { useDispatch, useSelector } from "react-redux";
-import { logout } from "../src/Store";
+import { logout, setUserFromCookies } from "../src/Store";
 
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKENDURL;
 
@@ -25,12 +25,14 @@ export default function EnglishAptitudeRouteGuard({ children }) {
         savedUser = null;
       }
 
-      // AuthInitializer restores a valid saved user into Redux. If no saved
-      // user exists, send the visitor to the existing login page immediately.
-      if (!savedUser?.userId) {
-        setStatus("redirecting");
-        router.replace("/Auth");
+      // Restore the existing login session into Redux if the global initializer
+      // has not done so yet. The backend session is verified on the next pass.
+      if (savedUser?.userId) {
+        dispatch(setUserFromCookies(savedUser));
+        return;
       }
+      setStatus("redirecting");
+      router.replace("/Auth");
       return;
     }
 
