@@ -34,6 +34,7 @@ export default function Navbar() {
               {isAuthenticated ? (
                 <>
                   <Link className={styles.linked} onClick={clickfn} href='/Reasoning/Dashboard'>Reasoning Skills</Link>
+                  <Link className={styles.linked} onClick={clickfn} href='/English-Aptitude/Dashboard'>English Aptitude</Link>
                   <Link className={styles.linked} onClick={clickfn} href='/ReadingClub'>Reading Skills</Link>
                   <Link className={styles.linked} onClick={clickfn} href='/LanguageClub'>Language Skills</Link>
                   <Link className={styles.linked} onClick={clickfn} href='/WritingClub'>Writing Skills</Link>
