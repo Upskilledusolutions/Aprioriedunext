@@ -35,7 +35,9 @@
     "english-aptitude:test-listening-oral": "node scripts/testEnglishAptitudeListeningOralResponseSet.js",
     "english-aptitude:test-combined-stage-coverage": "node scripts/testEnglishAptitudeCombinedStageCoverage.js",
     "english-aptitude:test-stage-navigation": "node scripts/testEnglishAptitudeStageNavigation.js",
-    "english-aptitude:test-single-select-player": "node scripts/testEnglishAptitudeSingleSelectPlayer.js"
+    "english-aptitude:test-single-select-player": "node scripts/testEnglishAptitudeSingleSelectPlayer.js",
+    "english-aptitude:sync-public-preview": "node scripts/syncEnglishAptitudePublicPreview.js",
+    "english-aptitude:check-public-preview": "node scripts/syncEnglishAptitudePublicPreview.js --check"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
