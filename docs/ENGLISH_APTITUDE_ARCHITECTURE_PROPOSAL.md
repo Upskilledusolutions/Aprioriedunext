@@ -90,3 +90,10 @@ English-scoped L1/S1 dashboard and registered activity-overview routes have been
 ## Phase D single-select preview — 2026-10-26
 
 The first registered Explore short-story activity now has a branch-only 10-question single-select preview with option selection, immediate feedback/explanation and a temporary result. The 20-question source bank remains draft. This is not release-ready: it does not persist progress, and its client-side preview currently includes answer keys in the bundled draft data. Before any public delivery, answer checking must move behind a verified server-side authorization boundary after the existing auth/backend contract is inspected. Other response formats, persistence, analytics, local build and live behaviour remain unverified. No merge to `main` or production deployment.
+
+
+## Secure grading boundary — 2026-10-26
+
+The existing Backend has a shared signed HttpOnly session and `requireAuth`. The existing Reasoning attempt endpoint accepts client-provided correctness, so it must not be reused as authoritative English Aptitude grading. A separate, unmerged Backend branch `english-aptitude-secure-grading` now contains a feature-flagged grading prototype for the 16 single-select items in the first Explore story activity. It returns correctness/feedback without exposing the answer key, and requires shared authentication. It is disabled by default and has not been tested locally or deployed.
+
+This prototype duplicates the answer key from the frontend editable bank and does not implement attempt persistence, analytics, or an English Aptitude access-entitlement policy. Those limitations must be resolved/reviewed before enabling. The frontend preview still has client-side draft answers and must not be released publicly. Neither branch has been merged or deployed.
