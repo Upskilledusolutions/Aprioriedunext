@@ -1,0 +1,337 @@
+{
+  "formatVersion": "1.0",
+  "bankId": "english-L1-S1-story-01",
+  "levelId": "L1",
+  "stageId": "S1",
+  "contentStatus": "draft_content",
+  "passages": [
+    {
+      "id": "eng-l1-s1-story-library-boat-001",
+      "type": "short_story",
+      "title": "The Paper Boat by the Library",
+      "text": "On Monday morning, Aarav reached school early and noticed a small puddle beside the library door. A paper boat floated in it. The boat was made from a page of an old notebook, and someone had drawn a bright red flag on its side.\n\nAarav wanted to pick it up, but the bell rang. He hurried to class and kept thinking about the boat. At break time, he returned to the library. The puddle had grown because rainwater was dripping from a loose pipe above the door. The paper boat had moved close to a drain.\n\nAarav called his friend Leela. “We should stop it before it disappears,” he said. Leela found a long twig near the garden and gently guided the boat away from the drain. Then they placed it on a dry bench.\n\nThe librarian, Mrs Sen, came outside carrying a small toolbox. She thanked the children for saving the boat. “I made it for our new display,” she explained. “The display is about how water travels through our town. I wanted the boat to show how rainwater can carry things along.”\n\nAarav looked at the dripping pipe. “Could we tell the caretaker about this too?” he asked. Mrs Sen nodded. They found the caretaker, who promised to repair the pipe after lunch. He also showed them a small channel that carried rainwater toward the garden instead of letting it collect by the door.\n\nThat afternoon, the children helped Mrs Sen set up the display. They placed the paper boat beside a drawing of the town’s drains and garden channels. Leela added a label: “Keep water moving safely.”\n\nWhen Aarav walked past the library the next morning, the doorway was dry. He smiled at the boat in the display. A small problem had led to a useful discovery, and three people had helped solve it."
+    }
+  ],
+  "questions": [
+    {
+      "id": "eng-l1-s1-story-library-boat-q01",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Where did Aarav first see the paper boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "options": [
+        "Beside the library door",
+        "Inside his classroom near the windows",
+        "Near the far end of the school garden",
+        "On a shelf inside the library"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q02",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What was drawn on the side of the boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "options": [
+        "A red flag",
+        "A picture of a blue fish",
+        "A drawing of a green tree",
+        "A large yellow star shape"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q03",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why did Aarav leave the boat at first?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "options": [
+        "The school bell rang",
+        "He could not see it",
+        "The librarian asked him to leave",
+        "He had lost his bag"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q04",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What made the puddle grow?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "options": [
+        "A leaking pipe",
+        "Water poured out by a student",
+        "A garden hose left running nearby",
+        "A bucket that tipped over beside the door"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q05",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What danger was the paper boat facing?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "options": [
+        "It neared a drain",
+        "A bird carried it into a tree",
+        "A student folded it into a small square",
+        "It became trapped beneath a dry bench"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q06",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Who helped Aarav guide the boat away from the drain?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 1,
+      "status": "draft",
+      "options": [
+        "Leela",
+        "The caretaker",
+        "Aarav’s teacher",
+        "A younger student"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q07",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did Leela use to move the boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "options": [
+        "A long twig",
+        "A ruler",
+        "A piece of string",
+        "A spoon"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q08",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Where did the children place the boat after rescuing it?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "options": [
+        "On a dry bench",
+        "In the drain",
+        "On the classroom floor",
+        "Under the pipe"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q09",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Who had made the paper boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "options": [
+        "Mrs Sen",
+        "Aarav’s older brother from home",
+        "Leela’s mother who visited the school",
+        "The caretaker who worked near the garden"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q10",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What was the library display about?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "options": [
+        "The town’s water routes",
+        "How to make and decorate paper toys",
+        "Different kinds of birds living near school",
+        "The history of the school library building"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q11",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Why had Mrs Sen made the boat?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "options": [
+        "To show how water carries things",
+        "To enter the boat in a school race",
+        "To decorate the librarian’s desk",
+        "To teach the children how to draw flags"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q12",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What sensible suggestion did Aarav make after the boat was safe?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "options": [
+        "Report the pipe",
+        "Throw the boat away immediately",
+        "Close the library for the whole week",
+        "Fill the doorway puddle with sand"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q13",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "When did the caretaker promise to repair the pipe?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "options": [
+        "After lunch",
+        "Before the first bell",
+        "The next month",
+        "During the evening assembly"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q14",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What did the caretaker show the children?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "options": [
+        "A garden water channel",
+        "A secret room hidden inside the library",
+        "A newly built classroom at the end of the hall",
+        "A collection of paper boats made by students"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q15",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "What does the label “Keep water moving safely” mean in the story?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 2,
+      "status": "draft",
+      "options": [
+        "Water needs safe channels",
+        "Children should play in every puddle",
+        "All rainwater should be kept inside buildings",
+        "Paper boats should be made after every rainfall"
+      ]
+    },
+    {
+      "id": "eng-l1-s1-story-library-boat-q16",
+      "questionType": "short_story_comprehension",
+      "responseFormat": "single_select",
+      "levelId": "L1",
+      "stageId": "S1",
+      "half": "explore",
+      "moduleId": "L1-S1-M1",
+      "activityId": "ENG-L1-S1-EXP-01",
+      "prompt": "Which event happened first?",
+      "passageId": "eng-l1-s1-story-library-boat-001",
+      "difficulty": 3,
+      "status": "draft",
+      "options": [
+        "Aarav noticed the boat",
+        "Mrs Sen set up the display",
+        "The caretaker repaired the pipe",
+        "Leela wrote the label"
+      ]
+    }
+  ]
+}
