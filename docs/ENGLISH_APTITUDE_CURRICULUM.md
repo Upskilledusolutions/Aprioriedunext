@@ -54,7 +54,7 @@ The five bands below retain the structure of the proposal provisionally approved
 14. The Tale of Peter Rabbit — Beatrix Potter
 15. The Monkey and the Crocodile — Panchatantra tradition
 
-Use short, clear, age-appropriate versions; some traditional stories need original retellings to avoid dated or unnecessarily difficult language.
+Use an authentic published edition or an authentic published translation whose own rights status is verified for India. If the wording is dated or too difficult, replace it with another eligible published work of comparable syntactic and semantic complexity; never create an original retelling, paraphrase, modernization, or style imitation.
 
 #### Extend: novel candidates
 
