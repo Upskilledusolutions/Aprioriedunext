@@ -1,0 +1,20 @@
+/* Scoped layout rules for the Product Selection page only.
+   Preserve the original two-card desktop layout while allowing the new English
+   Aptitude card to span the same two columns. */
+.grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.englishCard {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 760px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .englishCard {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

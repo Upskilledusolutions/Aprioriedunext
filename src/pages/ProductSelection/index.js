@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
+import layoutStyles from "../../styles/ProductSelection.module.css";
 import EnglishAptitudeHeroGraphic from "../../../components/EnglishAptitudeHeroGraphic";
 
 const styles = {
@@ -11,13 +12,13 @@ const styles = {
   eyebrow: { fontSize: "14px", fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase", color: "#667085", marginBottom: "10px" },
   title: { fontSize: "clamp(32px, 5vw, 52px)", lineHeight: 1.1, margin: "0 0 16px", color: "#172033" },
   intro: { maxWidth: "740px", margin: "0 auto 42px", fontSize: "18px", lineHeight: 1.6, color: "#596579" },
-  grid: { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "24px", textAlign: "left", alignItems: "stretch" },
+  grid: { display: "grid", gap: "24px", textAlign: "left", alignItems: "stretch" },
   card: { display: "flex", flexDirection: "column", minHeight: "300px", padding: "32px", background: "#fff", border: "1px solid #e5e7eb", borderRadius: "20px", boxShadow: "0 12px 35px rgba(16, 24, 40, 0.07)" },
   icon: { width: "52px", height: "52px", display: "grid", placeItems: "center", borderRadius: "14px", background: "#eef2ff", fontSize: "24px", marginBottom: "22px" },
   cardTitle: { margin: "0 0 12px", fontSize: "27px", color: "#172033" },
   cardText: { margin: "0 0 24px", color: "#667085", lineHeight: 1.65, flex: 1 },
   button: { display: "inline-block", padding: "13px 20px", borderRadius: "10px", background: "#172033", color: "#fff", textDecoration: "none", fontWeight: 700, textAlign: "center", alignSelf: "flex-start" },
-  englishCard: { gridColumn: "1 / -1", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 340px), 1fr))", gap: "30px", alignItems: "center", padding: "clamp(24px, 4vw, 42px)", background: "linear-gradient(125deg, #ffffff 0%, #f5f9ff 62%, #eef7f8 100%)", border: "1px solid #dbe5ef", borderRadius: "22px", boxShadow: "0 14px 38px rgba(16, 39, 73, 0.09)", overflow: "hidden", position: "relative" },
+  englishCard: { gridColumn: "1 / -1", display: "grid", gap: "30px", alignItems: "center", padding: "clamp(24px, 4vw, 42px)", background: "linear-gradient(125deg, #ffffff 0%, #f5f9ff 62%, #eef7f8 100%)", border: "1px solid #dbe5ef", borderRadius: "22px", boxShadow: "0 14px 38px rgba(16, 39, 73, 0.09)", overflow: "hidden", position: "relative" },
   englishCopy: { minWidth: 0, padding: "4px 0" },
   englishEyebrow: { fontSize: "12px", fontWeight: 800, letterSpacing: "0.12em", textTransform: "uppercase", color: "#236d79", margin: "0 0 12px" },
   englishTitle: { margin: "0 0 14px", fontSize: "clamp(28px, 3.5vw, 38px)", lineHeight: 1.12, letterSpacing: "-0.025em", color: "#142b46" },
@@ -50,7 +51,7 @@ export default function ProductSelection() {
           <h1 style={styles.title}>What would you like to learn?</h1>
           <p style={styles.intro}>Choose a learning path. Each course has its own structured activities, learning experience and progress reporting.</p>
 
-          <div style={styles.grid}>
+          <div className={layoutStyles.grid} style={styles.grid}>
             <section style={styles.card}>
               <div style={styles.icon} aria-hidden="true">🌍</div>
               <h2 style={styles.cardTitle}>Foreign Languages</h2>
@@ -65,7 +66,7 @@ export default function ProductSelection() {
               <Link href="/Reasoning/Dashboard" style={styles.button}>Enter Reasoning Skills <span aria-hidden="true">→</span></Link>
             </section>
 
-            <section style={styles.englishCard}>
+            <section className={layoutStyles.englishCard} style={styles.englishCard}>
               <div style={styles.englishCopy}>
                 <p style={styles.englishEyebrow}>A dedicated learning pathway</p>
                 <h2 style={styles.englishTitle}>English Aptitude</h2>
