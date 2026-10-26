@@ -4,8 +4,10 @@ import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/router";
 import { useSelector } from "react-redux";
 import { ENGLISH_ACTIVITY_REGISTRY } from "../../../Data/EnglishAptitude/englishActivityRegistry";
-import { sampleSingleSelectAttempt, isSingleSelectAnswerCorrect } from "../../../Data/EnglishAptitude/englishQuestionPlayer";
-import storyBank from "../../../../content/EnglishAptitude/editable/L1/S1/english-L1-S1-story-01.json";
+import { sampleSingleSelectAttempt } from "../../../Data/EnglishAptitude/englishQuestionPlayer";
+import storyBank from "../../../../content/EnglishAptitude/public/L1/S1/english-L1-S1-story-01.json";
+
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKENDURL;
 
 const PLAYER_ACTIVITY_ID = "ENG-L1-S1-EXP-01";
 
@@ -38,6 +40,9 @@ export default function EnglishAptitudeActivityOverview() {
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState(0);
   const [complete, setComplete] = useState(false);
+  const [gradingResult, setGradingResult] = useState(null);
+  const [gradingError, setGradingError] = useState("");
+  const [isGrading, setIsGrading] = useState(false);
 
   useEffect(() => {
     if (!isAuthenticated && user === null) return;
@@ -51,7 +56,7 @@ export default function EnglishAptitudeActivityOverview() {
   const passage = currentQuestion?.passageId
     ? storyBank.passages.find(item => item.id === currentQuestion.passageId)
     : null;
-  const isCorrect = submitted && isSingleSelectAnswerCorrect(currentQuestion, selectedOption);
+  const isCorrect = gradingResult?.isCorrect === true;
 
   function startAttempt() {
     setAttempt(sampleSingleSelectAttempt(storyBank, PLAYER_ACTIVITY_ID, 10));
@@ -60,16 +65,54 @@ export default function EnglishAptitudeActivityOverview() {
     setSubmitted(false);
     setScore(0);
     setComplete(false);
+    setGradingResult(null);
+    setGradingError("");
+    setIsGrading(false);
   }
 
   useEffect(() => {
     if (router.isReady && isPlayerActivity) startAttempt();
   }, [router.isReady, isPlayerActivity]);
 
-  function submitAnswer() {
-    if (!currentQuestion || !selectedOption || submitted) return;
-    if (isSingleSelectAnswerCorrect(currentQuestion, selectedOption)) setScore(value => value + 1);
-    setSubmitted(true);
+  async function submitAnswer() {
+    if (!currentQuestion || !selectedOption || submitted || isGrading) return;
+    if (!BACKEND_URL) {
+      setGradingError("Secure grading is not configured. Your answer has not been scored.");
+      return;
+    }
+
+    setIsGrading(true);
+    setGradingError("");
+    try {
+      const response = await fetch(`${BACKEND_URL.replace(/\\/$/, "")}/api/english-aptitude/grade`, {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          activityId: currentQuestion.activityId,
+          questionId: currentQuestion.id,
+          selectedAnswer: selectedOption,
+        }),
+      });
+      const result = await response.json().catch(() => null);
+      if (!response.ok || !result || result.success !== true || typeof result.isCorrect !== "boolean") {
+        if (response.status === 503) {
+          throw new Error("Secure grading is currently disabled. Your answer has not been scored.");
+        }
+        if (response.status === 401) {
+          throw new Error("Your session could not be authorized for secure grading. Please sign in again.");
+        }
+        throw new Error(result?.message || "Secure grading is unavailable. Your answer has not been scored.");
+      }
+
+      setGradingResult(result);
+      if (result.isCorrect) setScore(value => value + 1);
+      setSubmitted(true);
+    } catch (error) {
+      setGradingError(error?.message || "Could not reach secure grading. Your answer has not been scored.");
+    } finally {
+      setIsGrading(false);
+    }
   }
 
   function nextQuestion() {
@@ -80,6 +123,8 @@ export default function EnglishAptitudeActivityOverview() {
     setCurrentIndex(value => value + 1);
     setSelectedOption("");
     setSubmitted(false);
+    setGradingResult(null);
+    setGradingError("");
   }
 
   if (!router.isReady) return null;
@@ -100,7 +145,7 @@ export default function EnglishAptitudeActivityOverview() {
             {isPlayerActivity ? (
               <>
                 <div style={styles.warning}>
-                  <strong>Preview only — draft content.</strong> This sample activity has not passed editorial approval and is not ready for learner release. Answers and scores exist only in this browser session; no progress or analytics are saved.
+                  <strong>Preview only — draft content.</strong> This sample activity has not passed editorial approval and is not ready for learner release. Answer checking uses the server-side grading route when available, but progress and analytics are not saved.
                 </div>
                 {complete ? (
                   <div style={{ ...styles.feedback, marginTop: 24 }}>
@@ -145,13 +190,22 @@ export default function EnglishAptitudeActivityOverview() {
                     {submitted && (
                       <div role="status" style={styles.feedback}>
                         <strong>{isCorrect ? "Correct" : "Not quite"}</strong>
-                        <p>{isCorrect ? currentQuestion.feedback?.correct : currentQuestion.feedback?.incorrect}</p>
-                        {currentQuestion.explanation && <p><strong>Explanation:</strong> {currentQuestion.explanation}</p>}
+                        <p>{gradingResult?.feedback}</p>
+                        {gradingResult?.explanation && <p><strong>Explanation:</strong> {gradingResult.explanation}</p>}
                       </div>
                     )}
                     <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 24 }}>
                       {!submitted ? (
-                        <button type="button" style={{ ...styles.button, opacity: selectedOption ? 1 : 0.55 }} disabled={!selectedOption} onClick={submitAnswer}>Check answer</button>
+                        <>
+                          <button type="button" style={{ ...styles.button, opacity: selectedOption && !isGrading ? 1 : 0.55 }} disabled={!selectedOption || isGrading} onClick={submitAnswer}>{isGrading ? "Checking answer…" : "Check answer"}</button>
+                          {gradingError && (
+                            <div role="alert" style={{ ...styles.feedback, width: "100%" }}>
+                              <strong>Answer not scored</strong>
+                              <p>{gradingError}</p>
+                              <button type="button" style={styles.secondary} disabled={isGrading || !selectedOption} onClick={submitAnswer}>Retry grading</button>
+                            </div>
+                          )}
+                        </>
                       ) : (
                         <button type="button" style={styles.button} onClick={nextQuestion}>{currentIndex === attempt.length - 1 ? "See result" : "Next question"}</button>
                       )}
