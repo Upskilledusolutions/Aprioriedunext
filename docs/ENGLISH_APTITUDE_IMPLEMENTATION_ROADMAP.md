@@ -185,7 +185,7 @@ A stage is accepted only when all applicable items pass:
 - The test validates all 16 expected editable L1/S1 source banks; 320 unique draft questions; the approved 200 Explore / 120 Extend split; all 12 question types and their allocations; three story and three nonfiction passage records; passage/type/half/order mappings; registered activity mappings; editable/canonical round-trip integrity; and detection of a missing question.
 - Fixes resolved during the checkpoint: the ten passage-context items were restored to `nonfiction_passage_comprehension` taxonomy while retaining their evidence-oriented prompts/response formats; duplicate sentence-ordering IDs were corrected; and all three Explore story passage records received required `half: "explore"` metadata. Story/question wording was not changed by those fixes.
 - **Phase C bank foundation: combined coverage verified for the authored L1/S1 source banks.** Content is still draft and needs editorial, factual, pedagogical and rights review before publication. This test does not verify learner delivery, persistence, analytics, live-site behaviour or production readiness.
-- **Next logical checkpoint (started 2026-10-26):** implement and validate an English-scoped L1/S1 module/activity selection route, registry-derived activity overview routes, and an authenticated Courses navigation entry. This is navigation scaffolding only; it does not deliver questions or imply that draft content is approved. Next implement one representative question player/response mode with tests before expanding to other formats.
+- **Next logical checkpoint (started 2026-10-26):** implement and validate an English-scoped L1/S1 module/activity selection route, registry-derived activity overview routes, and an authenticated Courses navigation entry. This is navigation scaffolding only; it does not deliver questions or imply that draft content is approved. Next verify the first single-select preview locally, then inspect secure answer checking and the actual persistence/authentication contract before adding other response formats.
 - Working branch remains `english-aptitude-phase-c-schema`; local Windows checkout remains `D:\\Aprioriedunext`. No merge to `main` and no production deployment has occurred.
 
 
@@ -193,7 +193,17 @@ A stage is accepted only when all applicable items pass:
 
 - Added `src/Data/EnglishAptitude/englishStageNavigation.js` to derive module/activity navigation from the stable registry and return a destination only for registered activity IDs.
 - Added authenticated English Aptitude dashboard at `/English-Aptitude/Dashboard`, grouping the registered five Explore and three Extend activities under their modules and matching the Reasoning learner UI's responsive card/layout conventions.
-- Added registry-checked activity overview route at `/English-Aptitude/Activity/[activityId]`. It rejects unknown activity IDs and clearly states that the interactive player is not yet implemented.
+- Added registry-checked activity route at `/English-Aptitude/Activity/[activityId]`. It rejects unknown IDs and now contains the first single-select practice preview for the first Explore short-story activity; other activities remain overview-only.
 - Added English Aptitude to the authenticated Courses dropdown without altering existing product links.
 - Added `npm run english-aptitude:test-stage-navigation` to test module grouping, Explore/Extend counts, registered destinations and rejection of unknown/unimplemented activities.
 - **Not yet verified:** local test/build, deployed preview, question rendering/scoring, saved attempts/progress, analytics, production accessibility and public-site behaviour. Authored questions remain draft. No merge to `main` or production deployment.
+
+
+## Phase D first response-mode preview — 2026-10-26
+
+- Added `src/Data/EnglishAptitude/englishQuestionPlayer.js` with a tested helper to sample a 10-question single-select attempt from the registered story activity's 20-question bank and grade a selected option.
+- Updated `/English-Aptitude/Activity/[activityId]` to render the complete story, answer options, check-answer feedback, explanations, progress within the attempt, and a temporary result for `ENG-L1-S1-EXP-01`. Each new attempt samples ten items from the larger bank.
+- Other activities explicitly remain unavailable for question delivery until their response/scoring modes are implemented.
+- Added `npm run english-aptitude:test-single-select-player` covering unique attempt selection, compatible formats, correct/incorrect grading, empty-answer rejection and insufficient-bank guards.
+- **Preview-only limitation:** the bank is draft, the score/progress is not persisted, and the current client-side preview bundles the draft bank including answer keys. It must not be merged/deployed as a learner release. Before public delivery, move answer checking behind a verified server-side authorization boundary; inspect the existing auth/backend contract rather than inventing one.
+- **Still unverified:** local test execution, lint/build, accessibility, secure server-side grading, persistent attempts, analytics and production behaviour. No merge to `main` or production deployment.
