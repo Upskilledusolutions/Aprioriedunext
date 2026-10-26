@@ -176,4 +176,11 @@ These direct cards open the respective tracks without passing through the genera
 
 The project owner completed a quick live check confirming this direct Courses-page pathway is present and working in production. Comprehensive Stage 1 verification remains pending.
 
+## English Aptitude entry and cross-product regression guard
+
+The public English Aptitude introduction is at /English-Aptitude; the dashboard and activity routes require an authenticated session. English Aptitude is presented as its own product and should not change the established Foreign Languages or Reasoning entry, navigation or card behaviour.
+
+The Product Selection layout keeps the existing Foreign Languages and Reasoning cards at their previous desktop size and two-column arrangement; the English Aptitude card is placed beneath them across the full row and stacks responsively on mobile. Its styling must remain scoped to Product Selection. Any later layout change must retain these existing dimensions and behaviours unless the owner explicitly approves a redesign.
+
+General rule: a new feature must not unintentionally alter existing pages, layout, functionality, navigation, authentication or analytics. Test relevant shared flows at desktop and mobile sizes after each coherent change.
 
