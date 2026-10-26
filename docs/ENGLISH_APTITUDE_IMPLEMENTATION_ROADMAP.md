@@ -207,3 +207,12 @@ A stage is accepted only when all applicable items pass:
 - Added `npm run english-aptitude:test-single-select-player` covering unique attempt selection, compatible formats, correct/incorrect grading, empty-answer rejection and insufficient-bank guards.
 - **Preview-only limitation:** the bank is draft, the score/progress is not persisted, and the current client-side preview bundles the draft bank including answer keys. It must not be merged/deployed as a learner release. Before public delivery, move answer checking behind a verified server-side authorization boundary; inspect the existing auth/backend contract rather than inventing one.
 - **Still unverified:** local test execution, lint/build, accessibility, secure server-side grading, persistent attempts, analytics and production behaviour. No merge to `main` or production deployment.
+
+
+## Secure grading contract audit and backend prototype — 2026-10-26
+
+- Audited the existing Backend `main` contract: shared signed HttpOnly session cookie and `requireAuth` middleware; Reasoning question-attempt storage exists, but its current write endpoint accepts client-supplied correctness and therefore is not a secure grading endpoint to reuse for English Aptitude.
+- Confirmed the current Backend Auth schema has no English Aptitude-specific entitlement policy. No access field or policy was invented.
+- Created separate Backend branch `english-aptitude-secure-grading`; Backend `main` remains unchanged. The branch adds a feature-flagged `POST /api/english-aptitude/grade` route, a server-only answer allowlist for the 16 single-select questions in `ENG-L1-S1-EXP-01`, and focused tests. The route requires shared authentication and remains disabled unless `ENGLISH_APTITUDE_PREVIEW_ENABLED=true`.
+- This is a bounded proof of concept only. Answer keys are duplicated from the editable frontend bank, so synchronization must be resolved before enabling; no attempt persistence, analytics, selective English access policy, frontend integration, merge or deployment is complete.
+- Next: test the backend feature branch, review its API/security contract, then integrate the frontend without shipping client-side answer keys. Do not merge/deploy either branch without explicit approval.
