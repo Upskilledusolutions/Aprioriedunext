@@ -228,3 +228,12 @@ Step 2 is approved for documentation. The counts and stage allocation in this do
 This document does not define product routes, database schemas, authentication, question-bank implementation, deployment workflow or production changes. Those are governed by the approved Step 3 roadmap in `ENGLISH_APTITUDE_IMPLEMENTATION_ROADMAP.md`; architecture details remain subject to codebase audit and owner approval.
 
 No application code or production behaviour is changed by this document.
+
+## Reading-source eligibility gate — 2026-10-26
+
+The owner has confirmed that all fiction and nonfiction reading passages must be taken from published works by recognized authors that are public domain for use in India, or authentic published translations whose own rights status has been verified. **No original or AI-written stories, fictional passages, or nonfiction/informational passages are permitted.** This does not prohibit authoring original questions about an eligible source text.
+
+The passage-count and question-count requirements in this specification do not authorize original passage-writing. Every selected passage must map to the owner's approved per-level source inventory and have recorded title, author, edition/publication, translator where relevant, exact source URL and excerpt location, rights evidence for India, and editorial approval. Do not replace an unsuitable/unavailable source with an unapproved text or an AI-written adaptation; use an eligible published alternative from the approved inventory or obtain the owner's approval first.
+
+The current documentation does not contain the full approved per-level inventory of fiction and nonfiction excerpts. Treat source mapping as a blocking prerequisite rather than infer selections from the five-band candidate pool in ENGLISH_APTITUDE_CURRICULUM.md. The current original L1/S1 story and nonfiction passage drafts fail this eligibility gate and cannot be accepted for release.
+
