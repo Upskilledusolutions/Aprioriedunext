@@ -1,7 +1,7 @@
 # Secure Grading Hardening — Foreign Languages and Reasoning Skills
 
 **Planning record:** 2026-10-28  
-**Status:** Checkpoint 1 (read-only baseline audit) completed and recorded in [SECURE_GRADING_BASELINE_AUDIT.md](SECURE_GRADING_BASELINE_AUDIT.md) on 2026-10-28. Checkpoint 2 is next. This remains a bounded implementation plan, not authorization to change production, merge branches, enable feature flags, or deploy.  
+**Status:** Checkpoint 1 (read-only baseline audit) is complete. Checkpoint 2 has started: backend-only answer-key registry/exporter scaffolding is on the separate Backend branch `secure-grading-hardening`. The owner reported a local test passing on 2026-10-28, but the exact command/output and full export result are not yet recorded. This remains a bounded implementation plan, not authorization to change production, merge branches, enable feature flags, or deploy.  
 **Scope:** Move answer checking for existing Foreign Languages and Reasoning Skills activities to the backend while preserving the current learner experience and product architecture.
 
 ## Goal and boundaries
@@ -59,3 +59,15 @@ Key results:
 - The smallest maintainable approach remains a generated server-only answer/evaluation source plus browser-safe question data, with synchronized keys based on the **final delivered/calibrated question sets** and product-scoped server grading.
 
 **Checkpoint 1 is a source audit, not a live security test.** No application code, runtime configuration, learner records, feature flags, services or production deployments changed, and no branch was merged. GitHub feature-branch documentation commits may trigger automatic Vercel preview builds. The plan remains at **8 major checkpoints**, with the existing 8–10 expected range and 11-step ceiling unchanged.
+
+
+## Checkpoint 2 started — answer-key tooling (2026-10-28)
+
+The separate Backend branch `secure-grading-hardening` now contains:
+- `grading/answerKeyRegistry.js` — schema validation and server-only lookup;
+- `scripts/exportSecureGradingAnswerKeys.js` — exporter for existing Foreign Languages banks and approved learner-facing Reasoning runtime/calibrated question sets;
+- `scripts/testSecureGradingAnswerKeyRegistry.js` and npm scripts for checking the tooling.
+
+The owner reported a local test passing on 2026-10-28, but did not identify the exact command or supply the result. Therefore, do **not** infer that the full bank export passed. Next, confirm the result of `npm run secure-grading:export-answer-keys`: require counts for both products, zero unresolved issues, and a verified generated manifest plus export audit before marking Checkpoint 2 complete. Backend implementation details are tracked in [SECURE_GRADING_HARDENING.md](https://github.com/Upskilledusolutions/Backend/blob/secure-grading-hardening/docs/SECURE_GRADING_HARDENING.md).
+
+No grading routes or frontend player paths have been switched; no feature flag, production setting, service, database, or deployment was changed. No branch was merged. The plan remains at **8 major checkpoints** (expected 8–10; maximum 11 without agreement on a revised estimate).
