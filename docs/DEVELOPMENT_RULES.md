@@ -363,3 +363,10 @@ The current committed reading files for L1/S1 are original drafts and are not el
 
 New features must not unintentionally alter existing pages, layouts, styles, navigation, authentication, analytics, stored data or functionality. First inspect and preserve existing behaviour. Prefer scoped styles and product-specific components/data; avoid global layout or shared-state changes unless explicitly necessary. After each coherent change, test the modified page and relevant existing flows on desktop and mobile, including Reasoning, Foreign Languages, product selection, login/navigation, and analytics as applicable. Document and seek owner approval for unavoidable shared changes or regressions. Never merge to main, release draft content, or deploy without the required approval.
 
+## 26. Secure grading hardening for existing products — 2026-10-28
+
+The owner requested moving authoritative answer checking out of the browser for both Foreign Languages and Reasoning Skills while preserving the existing learner experience and product architecture. The single implementation plan is [Secure Grading Hardening — Foreign Languages and Reasoning Skills](SECURE_GRADING_HARDENING_PLAN.md).
+
+The plan has **8 major implementation checkpoints**, with an expected range of 8–10 and a ceiling of 11 before returning to the owner for agreement. Do not turn each language, question bank, response format, test command or release sub-action into a separate roadmap step.
+
+Use the existing Render backend by default. No additional backend service or database is planned. Never trust correctness or scores submitted by the browser, and never ship correct-answer keys in browser-delivered data. Keep grading and records product-separated. Follow the public-website-first, regression-protection and deploy-then-verify workflow; this documentation entry does not itself authorize a merge, deployment, feature-flag change, service/configuration change or production release.
