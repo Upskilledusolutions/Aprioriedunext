@@ -364,3 +364,10 @@ The non-regression source of truth applies to analytics as well as UI: new featu
 
 English Aptitude reading-source eligibility is governed by ENGLISH_APTITUDE_CURRICULUM.md, ENGLISH_APTITUDE_QUESTION_TYPES_AND_LEVELS.md and the implementation roadmap. Passing a bank/analytics test does not approve the underlying reading content for release.
 
+## Secure grading hardening — Foreign Languages and Reasoning Skills (2026-10-28)
+
+The agreed migration plan is documented in [Secure Grading Hardening — Foreign Languages and Reasoning Skills](SECURE_GRADING_HARDENING_PLAN.md). It is planned as **8 major checkpoints** (expected range 8–10; do not exceed 11 without returning to the owner to agree a revised estimate).
+
+The target is for the existing backend to determine correctness and authoritative scores, rather than trust values calculated or supplied by the browser. The Reasoning attempt endpoint currently persists a browser-supplied correctness value; this must be resolved so only server-derived correctness is recorded as authoritative. Foreign Languages grading and points flows also require an audit before changing their existing contracts.
+
+Preserve current learner identity, progress/history, analytics, question IDs, interaction formats and product-specific data. Do not reset or reconstruct historical records. Keep Foreign Languages, Reasoning and English Aptitude as separate data domains. The plan assumes the existing Render backend and database arrangement; no additional service/database is planned. Implementation/deployment still follows the applicable approval gates.
