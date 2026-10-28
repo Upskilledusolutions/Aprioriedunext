@@ -275,3 +275,8 @@ The current L1/S1 story files (“The Paper Boat by the Library,” “Learning 
 
 A new feature must not unintentionally change existing pages, layouts, styling, navigation, authentication, analytics, stored data, or functionality. Inspect the existing behaviour before editing; prefer product/page-scoped styling and isolated product-specific records over global changes. After each coherent UI increment, test the target page at desktop and mobile sizes and smoke-test affected shared flows and the existing Reasoning and Foreign Languages experiences. If a shared change is necessary, document the reason and obtain the owner's approval before accepting an unrelated regression.
 
+## Related cross-product secure grading plan — 2026-10-28
+
+A separate owner-requested plan now tracks moving authoritative grading out of the browser for Foreign Languages and Reasoning Skills: [Secure Grading Hardening — Foreign Languages and Reasoning Skills](SECURE_GRADING_HARDENING_PLAN.md). It is bounded to 8 major checkpoints, with an expected range of 8–10 and a ceiling of 11 before an owner-approved estimate change.
+
+That work is separate from English Aptitude content eligibility and does not authorize release of English reading drafts or activation of the English Aptitude grading prototype. Continue to preserve English-specific routes/data and the shared login contract. Use the existing Render backend by default; do not create a separate service or change production beyond the applicable approval boundary. Follow the established deploy-then-verify process for any approved live release.
