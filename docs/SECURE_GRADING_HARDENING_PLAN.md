@@ -1,7 +1,7 @@
 # Secure Grading Hardening — Foreign Languages and Reasoning Skills
 
 **Planning record:** 2026-10-28  
-**Status:** Owner requested the plan to be documented. This is a bounded implementation plan, not authorization to change production, merge branches, enable feature flags, or deploy.  
+**Status:** Checkpoint 1 (read-only baseline audit) completed and recorded in [SECURE_GRADING_BASELINE_AUDIT.md](SECURE_GRADING_BASELINE_AUDIT.md) on 2026-10-28. Checkpoint 2 is next. This remains a bounded implementation plan, not authorization to change production, merge branches, enable feature flags, or deploy.  
 **Scope:** Move answer checking for existing Foreign Languages and Reasoning Skills activities to the backend while preserving the current learner experience and product architecture.
 
 ## Goal and boundaries
@@ -47,3 +47,15 @@ The plan assumes the current Render backend and its existing database arrangemen
 - Keep changes product-scoped and backward-compatible where practical; avoid broad redesigns or unrelated refactoring.
 - Passing automated tests does not itself authorize a production release.
 - English Aptitude reading-source eligibility and approval remain separate gates; no original reading drafts may be released.
+
+
+## Checkpoint 1 complete — read-only baseline audit (2026-10-28)
+
+Recorded in [SECURE_GRADING_BASELINE_AUDIT.md](SECURE_GRADING_BASELINE_AUDIT.md).
+
+Key results:
+- Foreign Languages has answer keys in browser-loaded language/level banks and grades in the browser across at least six shared response mechanics. Its common `/api/updateScore` endpoint accepts client-supplied user ID and points without `requireAuth`; this must be addressed compatibly when server grading is introduced.
+- Reasoning's active player uses browser-loaded `answer` and `explanation` values, calculates correctness locally, and submits `correctAnswer` and `isCorrect`. The authenticated backend correctly enforces identity/Level access for attempt writes but does not independently grade the answer; stored correctness flows into analytics.
+- The smallest maintainable approach remains a generated server-only answer/evaluation source plus browser-safe question data, with synchronized keys based on the **final delivered/calibrated question sets** and product-scoped server grading.
+
+**Checkpoint 1 is a source audit, not a live security test.** No application code, runtime configuration, learner records, feature flags, services, merges or deployments changed. The plan remains at **8 major checkpoints**, with the existing 8–10 expected range and 11-step ceiling unchanged.
