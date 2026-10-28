@@ -3,7 +3,7 @@
 **Audit date:** 2026-10-28  
 **Checkpoint:** 1 of the 8-step Secure Grading Hardening plan  
 **Method:** Read-only inspection of the current frontend and backend `main` branches and the documented deployed contracts.  
-**Code/configuration changes:** None. No tests or deployments were run because this checkpoint is an inspection-only baseline.
+**Code/configuration changes:** None. No tests or deployments were deliberately triggered by this inspection-only checkpoint. Documentation commits on the feature branch may cause automatic Vercel preview builds; no production deployment was triggered.
 
 ## Executive findings
 
@@ -90,4 +90,4 @@ This baseline audit **does not increase the plan's 8 major checkpoints**. Keep t
 
 - This was a source-code/documentation inspection, not a live penetration test. No request was sent to manipulate a user score or write a learner record.
 - The audit inspected representative bank families and all shared grading components located by repository search; the generated inventory in Checkpoint 2 must scan and classify every relevant bank/route before any answer key is split.
-- No application code, service configuration, database contents, feature flags, branch merges or deployments were changed during this checkpoint.
+- No application code, service configuration, database contents or feature flags were changed; no branch was merged and no production deployment was triggered. The GitHub feature-branch documentation commit may cause Vercel to create an automatic non-production preview.
